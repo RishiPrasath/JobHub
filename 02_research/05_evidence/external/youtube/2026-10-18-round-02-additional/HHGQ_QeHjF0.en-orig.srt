@@ -1,0 +1,292 @@
+1
+00:00:00,080 --> 00:00:05,440
+show you how to apply for jobs with the
+
+2
+00:00:02,560 --> 00:00:07,680
+help of AI. Just asking AI to help you
+
+3
+00:00:05,440 --> 00:00:09,040
+with jobs that you can simply apply
+
+4
+00:00:07,680 --> 00:00:10,639
+instead of going to Google to start
+
+5
+00:00:09,040 --> 00:00:12,719
+looking for jobs or asking people for
+
+6
+00:00:10,639 --> 00:00:14,160
+jobs. Can just tell this AI to look for
+
+7
+00:00:12,719 --> 00:00:16,080
+jobs for you. Now, this is the prompts
+
+8
+00:00:14,160 --> 00:00:17,680
+we are going to use. I understand you
+
+9
+00:00:16,080 --> 00:00:19,520
+are a good recruiter, advisor and good
+
+10
+00:00:17,680 --> 00:00:21,760
+researcher. I am an experienced social
+
+11
+00:00:19,520 --> 00:00:23,680
+media manager and content writer and I
+
+12
+00:00:21,760 --> 00:00:25,760
+want you to help me look for remote jobs
+
+13
+00:00:23,680 --> 00:00:28,000
+that work from home jobs so I can apply
+
+14
+00:00:25,760 --> 00:00:29,840
+and get engaged. First, look for the
+
+15
+00:00:28,000 --> 00:00:32,160
+jobs. Give the description of the job
+
+16
+00:00:29,840 --> 00:00:34,320
+and it location requirement and salary
+
+17
+00:00:32,160 --> 00:00:35,760
+range. You can include a direct link to
+
+18
+00:00:34,320 --> 00:00:38,160
+apply for this job. So this is the
+
+19
+00:00:35,760 --> 00:00:40,480
+prompt we are going to be using for this
+
+20
+00:00:38,160 --> 00:00:44,239
+for this research. You just click it,
+
+21
+00:00:40,480 --> 00:00:47,280
+highlight it, copy it and then come to
+
+22
+00:00:44,239 --> 00:00:49,200
+AI called chargep.com. I like charge jp
+
+23
+00:00:47,280 --> 00:00:50,559
+a lot. I use it a lot and it has been
+
+24
+00:00:49,200 --> 00:00:52,559
+helping me. That's why I always use it
+
+25
+00:00:50,559 --> 00:00:56,000
+and I always recommend it. So you paste
+
+26
+00:00:52,559 --> 00:00:58,160
+that prompt here and then you click go.
+
+27
+00:00:56,000 --> 00:01:00,719
+When you click go, it's going to start
+
+28
+00:00:58,160 --> 00:01:02,800
+looking for the jobs for you. All right.
+
+29
+00:01:00,719 --> 00:01:04,799
+So, Charity has brought up an answer for
+
+30
+00:01:02,800 --> 00:01:06,400
+us based on what we just put. Say
+
+31
+00:01:04,799 --> 00:01:08,479
+absolutely based on the experience as a
+
+32
+00:01:06,400 --> 00:01:10,240
+social media manager and content writer.
+
+33
+00:01:08,479 --> 00:01:12,240
+I've created a list of remote jobs
+
+34
+00:01:10,240 --> 00:01:14,960
+opportunity align with your skill. Now,
+
+35
+00:01:12,240 --> 00:01:16,640
+I put a social media manager and content
+
+36
+00:01:14,960 --> 00:01:18,479
+writer because that's basically what I
+
+37
+00:01:16,640 --> 00:01:21,200
+do. All right? So, you can put your own.
+
+38
+00:01:18,479 --> 00:01:22,720
+If you're an SEO writer, you can put it.
+
+39
+00:01:21,200 --> 00:01:25,280
+If you are a virtual assistant, a
+
+40
+00:01:22,720 --> 00:01:26,799
+personal assistant, if you can do task,
+
+41
+00:01:25,280 --> 00:01:28,479
+if you can do graphic designing, video
+
+42
+00:01:26,799 --> 00:01:30,799
+editing, whatever you can do, right, you
+
+43
+00:01:28,479 --> 00:01:32,640
+can do it. Now, it has brought up this
+
+44
+00:01:30,799 --> 00:01:34,240
+and I said it should give you both the
+
+45
+00:01:32,640 --> 00:01:36,720
+location, the requirement and all of
+
+46
+00:01:34,240 --> 00:01:38,560
+that. You can see there remote job
+
+47
+00:01:36,720 --> 00:01:40,240
+position, virtual assistant, social
+
+48
+00:01:38,560 --> 00:01:42,079
+media manager, and he said the location
+
+49
+00:01:40,240 --> 00:01:44,799
+is Legos, Nigeria, and it's remote.
+
+50
+00:01:42,079 --> 00:01:47,280
+That's what from the requirement is bal
+
+51
+00:01:44,799 --> 00:01:50,640
+and it's showing me that how to apply is
+
+52
+00:01:47,280 --> 00:01:52,560
+hot Nigerian jobs formally X. So this is
+
+53
+00:01:50,640 --> 00:01:54,640
+where the jobs are posted. The AI just
+
+54
+00:01:52,560 --> 00:01:56,720
+go there to fetch the jobs for me. The
+
+55
+00:01:54,640 --> 00:01:59,280
+second one the same thing has all the
+
+56
+00:01:56,720 --> 00:02:01,920
+social media manager travel and then put
+
+57
+00:01:59,280 --> 00:02:04,399
+on job indeed LinkedIn. So once I click
+
+58
+00:02:01,920 --> 00:02:06,159
+here it's taking me directly there to
+
+59
+00:02:04,399 --> 00:02:08,879
+apply for these jobs. You are seeing
+
+60
+00:02:06,159 --> 00:02:10,959
+plenty of the he brought out about five.
+
+61
+00:02:08,879 --> 00:02:14,400
+He brought out about five jobs and then
+
+62
+00:02:10,959 --> 00:02:16,959
+remote copyrightiting copyriter. You see
+
+63
+00:02:14,400 --> 00:02:19,599
+up to 10 jobs to apply. This is so
+
+64
+00:02:16,959 --> 00:02:23,280
+sweet. So this is how to use AI to apply
+
+65
+00:02:19,599 --> 00:02:25,200
+for jobs. AI that are updated not just
+
+66
+00:02:23,280 --> 00:02:27,120
+like that. All right. So these are AI
+
+67
+00:02:25,200 --> 00:02:29,680
+that are updated. So you can just use it
+
+68
+00:02:27,120 --> 00:02:32,400
+to apply for jobs and then you start
+
+69
+00:02:29,680 --> 00:02:34,000
+earning money in 2025. So if you find
+
+70
+00:02:32,400 --> 00:02:36,160
+any value with this video, kindly help
+
+71
+00:02:34,000 --> 00:02:38,480
+me subscribe to the channel, like the
+
+72
+00:02:36,160 --> 00:02:41,480
+video and I will see you in the next
+
+73
+00:02:38,480 --> 00:02:41,480
+one.
+

@@ -1,0 +1,169 @@
+{
+  "worker": "coordinator-final-gaps",
+  "queries": [
+    {
+      "id": "F-P04",
+      "query": "Singapore production operator machinist job interview experience hired practical test",
+      "intent": "Manufacturing operational/trades gap: seek role-attributed practical selection and positive outcome",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Last two unassigned reserve slots target distinct gaps: operational trades and performing arts. SG manufacturing journey remains unresolved; arts notice is historical/future-oriented. Exact per-query ranking in batched response unavailable.",
+      "sourceIds": [
+        "R3-P03",
+        "R3-P04",
+        "R3-P05"
+      ]
+    },
+    {
+      "id": "F-P05",
+      "query": "Singapore performer actor audition job experience paid casting",
+      "intent": "Creative/arts gap: inspect audition-based route distinct from design portfolios",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Last two unassigned reserve slots target distinct gaps: operational trades and performing arts. SG manufacturing journey remains unresolved; arts notice is historical/future-oriented. Exact per-query ranking in batched response unavailable.",
+      "sourceIds": [
+        "R3-P03",
+        "R3-P04",
+        "R3-P05"
+      ]
+    }
+  ],
+  "inspections": [
+    {
+      "url": "https://www.wildrice.com.sg/audition-notice-open-auditions/",
+      "status": "inspected",
+      "note": "Audition details / opening disclosure"
+    },
+    {
+      "url": "https://www.reddit.com/r/Machinists/comments/1woppyv/machinist_tests_interviews/",
+      "status": "inspected",
+      "note": "Opening post; tests at prior shops versus proposed future assessment"
+    },
+    {
+      "url": "https://www.reddit.com/r/SGExams/comments/1srn9au/acting_side_quest/",
+      "status": "inspected",
+      "note": "Opening concern and replies; no private channels entered"
+    }
+  ],
+  "sources": [
+    {
+      "id": "R3-P03",
+      "url": "https://www.wildrice.com.sg/audition-notice-open-auditions/",
+      "title": "Wild Rice open audition notice",
+      "publisher": "Wild Rice",
+      "publicationDate": "2025-11-21",
+      "updateDate": "unknown",
+      "eventPeriod": "December 2025 auditions; possible 2026/27 seasons",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "theatre producer notice",
+      "family": "https://www.wildrice.com.sg/audition-notice-open-auditions/",
+      "method": "Producer's own historical notice; not a verified hire",
+      "passage": "Audition details / opening disclosure",
+      "observation": "Wild Rice's 21 November 2025 open call is explicitly not tied to specific productions. It requests a performance resume and self-tape for possible 2026/27 roles, with December 2025 submission/audition dates.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for stated notice; no outcome validation",
+      "limits": "No representative rate or current vacancy/intent determination; comparator and historical limits apply.",
+      "tags": [
+        "S10"
+      ],
+      "employerActivity": "performing arts/theatre",
+      "occupation": "performer",
+      "arrangement": "stated casting route, arrangement unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown",
+      "stage": "casting/self-tape/audition"
+    },
+    {
+      "id": "R3-P04",
+      "url": "https://www.reddit.com/r/Machinists/comments/1woppyv/machinist_tests_interviews/",
+      "title": "Machinist assessment discussion",
+      "publisher": "Public Reddit contributors",
+      "publicationDate": "unknown",
+      "updateDate": "unknown",
+      "eventPeriod": "recent relative page age, retrospective jobs undated",
+      "accessDate": "2026-10-19",
+      "geography": "international/unspecified; no Singapore setting established",
+      "type": "first-person report / comparator",
+      "family": "https://www.reddit.com/r/Machinists/comments/1woppyv/machinist_tests_interviews/",
+      "method": "Self-selected public discussion; identity, dates and outcomes unverified",
+      "passage": "Opening post; tests at prior shops versus proposed future assessment",
+      "observation": "A machinist describes prior blueprint/measurement assessments and a referral-based route, while asking about possible future tests. Recruiter suggestions and commenters' motive allegations are not established facts.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "No representative rate or current vacancy/intent determination; comparator and historical limits apply.",
+      "tags": [
+        "S07"
+      ],
+      "employerActivity": "unknown",
+      "occupation": "machinist / former operator",
+      "arrangement": "unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown",
+      "stage": "assessment and referral questions"
+    },
+    {
+      "id": "R3-P05",
+      "url": "https://www.reddit.com/r/SGExams/comments/1srn9au/acting_side_quest/",
+      "title": "Public question about acting-gig routes",
+      "publisher": "Public Reddit contributors",
+      "publicationDate": "unknown",
+      "updateDate": "unknown",
+      "eventPeriod": "search snippet and page relative ages disagree; exact date unresolved",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore reported context",
+      "type": "public concern and peer advice",
+      "family": "https://www.reddit.com/r/SGExams/comments/1srn9au/acting_side_quest/",
+      "method": "Self-selected public discussion; identity, dates and outcomes unverified",
+      "passage": "Opening concern and replies; no private channels entered",
+      "observation": "A local poster asks where to find acting gigs without being scammed. Replies suggest casting channels, but no new verified application or offer sequence is established.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "No representative rate or current vacancy/intent determination; comparator and historical limits apply.",
+      "tags": [
+        "S10"
+      ],
+      "employerActivity": "unknown",
+      "occupation": "aspiring performer / extra, current age unknown",
+      "arrangement": "casual/project interest; not established employment",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown",
+      "stage": "discovery concern"
+    }
+  ],
+  "observations": [
+    {
+      "id": "R3-PO03",
+      "sourceIds": [
+        "R3-P03"
+      ],
+      "text": "Wild Rice's 21 November 2025 open call is explicitly not tied to specific productions. It requests a performance resume and self-tape for possible 2026/27 roles, with December 2025 submission/audition dates.",
+      "label": "source-reported claim",
+      "limits": "No representative rate or current vacancy/intent determination; comparator and historical limits apply."
+    },
+    {
+      "id": "R3-PO04",
+      "sourceIds": [
+        "R3-P04"
+      ],
+      "text": "A machinist describes prior blueprint/measurement assessments and a referral-based route, while asking about possible future tests. Recruiter suggestions and commenters' motive allegations are not established facts.",
+      "label": "source-reported claim",
+      "limits": "No representative rate or current vacancy/intent determination; comparator and historical limits apply."
+    },
+    {
+      "id": "R3-PO05",
+      "sourceIds": [
+        "R3-P05"
+      ],
+      "text": "A local poster asks where to find acting gigs without being scammed. Replies suggest casting channels, but no new verified application or offer sequence is established.",
+      "label": "source-reported claim",
+      "limits": "No representative rate or current vacancy/intent determination; comparator and historical limits apply."
+    }
+  ],
+  "gaps": [
+    "No recent complete Singapore operator/machinist sequence; international comparator cannot substitute.",
+    "Historical disclosed audition route and public concern do not resolve performing-arts pay, outcomes or typical casting."
+  ]
+}

@@ -1,0 +1,1436 @@
+1
+00:00:00,000 --> 00:00:03,800
+Finding reliable resume advice online
+
+2
+00:00:02,120 --> 00:00:06,280
+was already hard enough. And now that
+
+3
+00:00:03,800 --> 00:00:08,600
+employers are using AI to screen job
+
+4
+00:00:06,280 --> 00:00:10,640
+applications, it's only fair to ask, "Do
+
+5
+00:00:08,600 --> 00:00:13,280
+resumes even matter anymore?" And so, I
+
+6
+00:00:10,640 --> 00:00:15,160
+spent weeks analyzing hiring reports and
+
+7
+00:00:13,280 --> 00:00:18,480
+academic studies from institutions like
+
+8
+00:00:15,160 --> 00:00:20,720
+MIT and Oxford, covering more than 4,000
+
+9
+00:00:18,480 --> 00:00:22,960
+hiring managers and nearly 2 million
+
+10
+00:00:20,720 --> 00:00:25,120
+applications. And bottom line up front,
+
+11
+00:00:22,960 --> 00:00:27,560
+I found that resumes still matter, but
+
+12
+00:00:25,120 --> 00:00:29,520
+the rules have changed. In this video,
+
+13
+00:00:27,560 --> 00:00:31,320
+I'll start off by sharing the five most
+
+14
+00:00:29,520 --> 00:00:33,240
+important findings and what each one
+
+15
+00:00:31,320 --> 00:00:35,440
+means for you. Then, I'll break down
+
+16
+00:00:33,240 --> 00:00:37,720
+exactly what you need to do to stand out
+
+17
+00:00:35,440 --> 00:00:39,280
+in the age of AI. Let's get started.
+
+18
+00:00:37,720 --> 00:00:42,400
+Kicking things off with the five key
+
+19
+00:00:39,280 --> 00:00:44,280
+findings. First, 87% of hiring managers
+
+20
+00:00:42,400 --> 00:00:46,680
+say their AI hiring software reads
+
+21
+00:00:44,280 --> 00:00:49,080
+simple, text-based resumes more
+
+22
+00:00:46,680 --> 00:00:52,000
+accurately than fancy, visual ones.
+
+23
+00:00:49,080 --> 00:00:54,080
+Second, tailored resumes saw 84% higher
+
+24
+00:00:52,000 --> 00:00:57,440
+interview rates, but resumes with the
+
+25
+00:00:54,080 --> 00:01:00,000
+most keywords actually performed worse.
+
+26
+00:00:57,440 --> 00:01:02,560
+Third, 59% of hiring managers see
+
+27
+00:01:00,000 --> 00:01:06,000
+candidates using AI as a good sign, but
+
+28
+00:01:02,560 --> 00:01:08,680
+28% reject AI-heavy resumes that show
+
+29
+00:01:06,000 --> 00:01:11,280
+little to no effort. Fourth, resumes
+
+30
+00:01:08,680 --> 00:01:14,040
+that quantified a candidate's impact saw
+
+31
+00:01:11,280 --> 00:01:16,880
+75% higher interview rates than those
+
+32
+00:01:14,040 --> 00:01:19,440
+that only described responsibilities.
+
+33
+00:01:16,880 --> 00:01:22,160
+And fifth, 60% of hiring managers want
+
+34
+00:01:19,440 --> 00:01:23,640
+candidates to prove their AI skills, not
+
+35
+00:01:22,160 --> 00:01:25,160
+just list them. I've linked the sources
+
+36
+00:01:23,640 --> 00:01:27,000
+I went through down below, along with
+
+37
+00:01:25,160 --> 00:01:29,120
+the prompts and bullet point examples I
+
+38
+00:01:27,000 --> 00:01:31,000
+showcased in this video. Now, before
+
+39
+00:01:29,120 --> 00:01:32,880
+diving into each finding, let's quickly
+
+40
+00:01:31,000 --> 00:01:35,320
+cover the two stages your resume has to
+
+41
+00:01:32,880 --> 00:01:38,200
+pass in this new era. Pass the AI and
+
+42
+00:01:35,320 --> 00:01:40,480
+pass the human. Stage one, pass the AI.
+
+43
+00:01:38,200 --> 00:01:42,560
+Basically, companies use AI to read,
+
+44
+00:01:40,480 --> 00:01:44,720
+rank, and organize applications. So,
+
+45
+00:01:42,560 --> 00:01:47,240
+your resume needs to be easy to process
+
+46
+00:01:44,720 --> 00:01:49,440
+and clearly show how your experience
+
+47
+00:01:47,240 --> 00:01:52,440
+matches the role. Stage two, pass the
+
+48
+00:01:49,440 --> 00:01:55,000
+human. So, if we squint really hard,
+
+49
+00:01:52,440 --> 00:01:57,040
+there is some good news in that only 6%
+
+50
+00:01:55,000 --> 00:01:58,880
+of hiring managers say AI is the
+
+51
+00:01:57,040 --> 00:02:01,960
+decision-maker when it comes to passing
+
+52
+00:01:58,880 --> 00:02:04,120
+or rejecting candidates. Meaning, humans
+
+53
+00:02:01,960 --> 00:02:05,760
+still play a central role in hiring. So,
+
+54
+00:02:04,120 --> 00:02:08,399
+your resume needs to take the human
+
+55
+00:02:05,760 --> 00:02:10,080
+reader into account as well. Put simply,
+
+56
+00:02:08,399 --> 00:02:12,080
+passing the AI gets your foot in the
+
+57
+00:02:10,080 --> 00:02:14,480
+door, and passing the human gets your
+
+58
+00:02:12,080 --> 00:02:16,280
+application moved forward. And the five
+
+59
+00:02:14,480 --> 00:02:18,200
+rules we're about to cover address both
+
+60
+00:02:16,280 --> 00:02:20,200
+parts of that equation. On that note,
+
+61
+00:02:18,200 --> 00:02:23,200
+rule number one, make sure the AI can
+
+62
+00:02:20,200 --> 00:02:24,720
+read your resume. For context, while 87%
+
+63
+00:02:23,200 --> 00:02:26,600
+of employers say their AI hiring
+
+64
+00:02:24,720 --> 00:02:29,680
+software prefers simple, text-based
+
+65
+00:02:26,600 --> 00:02:32,160
+resumes, an explosion of AI design tools
+
+66
+00:02:29,680 --> 00:02:33,880
+actively encourages job seekers to stand
+
+67
+00:02:32,160 --> 00:02:36,080
+out with graphics, icons, and large
+
+68
+00:02:33,880 --> 00:02:38,040
+images. Since it's much easier to sell
+
+69
+00:02:36,080 --> 00:02:40,840
+you a fancy resume template than to tell
+
+70
+00:02:38,040 --> 00:02:42,520
+you boring is best. Therefore, we should
+
+71
+00:02:40,840 --> 00:02:45,160
+be optimizing our resumes for
+
+72
+00:02:42,520 --> 00:02:47,440
+readability, not appearance. And
+
+73
+00:02:45,160 --> 00:02:49,880
+although there is no universal file size
+
+74
+00:02:47,440 --> 00:02:52,320
+limit across every hiring system, some
+
+75
+00:02:49,880 --> 00:02:55,240
+tools explicitly state they cannot parse
+
+76
+00:02:52,320 --> 00:02:57,480
+resumes larger than 2.5 megabytes. And
+
+77
+00:02:55,240 --> 00:02:59,840
+high-quality images are one common
+
+78
+00:02:57,480 --> 00:03:01,680
+reason files cross that limit. All this
+
+79
+00:02:59,840 --> 00:03:03,720
+to say, even if you have all the right
+
+80
+00:03:01,680 --> 00:03:06,640
+qualifications for a role, none of that
+
+81
+00:03:03,720 --> 00:03:09,080
+matters if the AI software can't even
+
+82
+00:03:06,640 --> 00:03:11,239
+read your resume properly. So, here's
+
+83
+00:03:09,080 --> 00:03:13,680
+what to do. First, keep the formatting
+
+84
+00:03:11,239 --> 00:03:15,239
+intentionally boring. Use one column and
+
+85
+00:03:13,680 --> 00:03:17,360
+conventional headings like summary,
+
+86
+00:03:15,239 --> 00:03:19,680
+experience, education, and skills. And
+
+87
+00:03:17,360 --> 00:03:21,720
+for God's sake, avoid skill bars like
+
+88
+00:03:19,680 --> 00:03:23,880
+it's the plague. The one caveat is to
+
+89
+00:03:21,720 --> 00:03:26,239
+follow local norms. For example, in
+
+90
+00:03:23,880 --> 00:03:28,720
+China, headshots are very common on
+
+91
+00:03:26,239 --> 00:03:31,280
+resumes, and many employers even ask for
+
+92
+00:03:28,720 --> 00:03:32,920
+a candidate's zodiac sign. True story.
+
+93
+00:03:31,280 --> 00:03:36,040
+Second, export your resume as a
+
+94
+00:03:32,920 --> 00:03:38,120
+selectable text PDF, ideally below 2.5
+
+95
+00:03:36,040 --> 00:03:40,000
+megabytes. A quick check is to open the
+
+96
+00:03:38,120 --> 00:03:42,239
+PDF and see if you can highlight and
+
+97
+00:03:40,000 --> 00:03:44,720
+copy the text. If you can't, the text
+
+98
+00:03:42,239 --> 00:03:46,720
+may be trapped inside an image. Moving
+
+99
+00:03:44,720 --> 00:03:48,959
+on to rule number two, make your fit
+
+100
+00:03:46,720 --> 00:03:51,360
+obvious. As a quick reminder, studies
+
+101
+00:03:48,959 --> 00:03:53,480
+found that tailored resumes saw 84%
+
+102
+00:03:51,360 --> 00:03:55,520
+higher interview rates, but resumes with
+
+103
+00:03:53,480 --> 00:03:58,000
+the most keywords actually performed
+
+104
+00:03:55,520 --> 00:03:59,520
+worse, which sounds contradictory until
+
+105
+00:03:58,000 --> 00:04:01,880
+you learn the difference between keyword
+
+106
+00:03:59,520 --> 00:04:03,600
+mapping and keyword stuffing. Keyword
+
+107
+00:04:01,880 --> 00:04:05,560
+mapping is when you use relevant
+
+108
+00:04:03,600 --> 00:04:07,600
+keywords from the job description to
+
+109
+00:04:05,560 --> 00:04:10,240
+describe work you've actually done,
+
+110
+00:04:07,600 --> 00:04:12,440
+which is not new advice, but AI makes
+
+111
+00:04:10,240 --> 00:04:14,680
+this process much faster. Keyword
+
+112
+00:04:12,440 --> 00:04:16,720
+stuffing is when job seekers cram in
+
+113
+00:04:14,680 --> 00:04:18,480
+every phrase from the job description,
+
+114
+00:04:16,720 --> 00:04:21,000
+whether or not their experience backs it
+
+115
+00:04:18,480 --> 00:04:22,800
+up, and AI makes this process much
+
+116
+00:04:21,000 --> 00:04:25,000
+faster as well. Taking a closer look at
+
+117
+00:04:22,800 --> 00:04:27,280
+the data, we see that across nearly 2
+
+118
+00:04:25,000 --> 00:04:31,240
+million applications, untailored resumes
+
+119
+00:04:27,280 --> 00:04:33,520
+had a 3.09% interview rate versus 5.71%
+
+120
+00:04:31,240 --> 00:04:35,800
+for tailored resumes, which is also
+
+121
+00:04:33,520 --> 00:04:37,760
+where the 84% increase from earlier
+
+122
+00:04:35,800 --> 00:04:39,480
+comes from. In that same study, we also
+
+123
+00:04:37,760 --> 00:04:43,240
+see resumes with the highest keyword
+
+124
+00:04:39,480 --> 00:04:44,760
+coverage receive 21% fewer interviews
+
+125
+00:04:43,240 --> 00:04:47,200
+compared to those with moderate
+
+126
+00:04:44,760 --> 00:04:50,520
+coverage. And so, in other words, using
+
+127
+00:04:47,200 --> 00:04:52,240
+AI to over-optimize can do more harm
+
+128
+00:04:50,520 --> 00:04:54,280
+than good. For example, imagine you're
+
+129
+00:04:52,240 --> 00:04:56,480
+applying for a customer success role. A
+
+130
+00:04:54,280 --> 00:04:58,320
+keyword-stuffed bullet might read,
+
+131
+00:04:56,480 --> 00:04:59,680
+"Delivered customer support, customer
+
+132
+00:04:58,320 --> 00:05:01,400
+service, and customer-focused
+
+133
+00:04:59,680 --> 00:05:03,400
+communication to improve the customer
+
+134
+00:05:01,400 --> 00:05:04,760
+experience." I wish I was kidding, but I
+
+135
+00:05:03,400 --> 00:05:06,720
+legitimately read something like that
+
+136
+00:05:04,760 --> 00:05:08,840
+during my time at Google. Whereas, a
+
+137
+00:05:06,720 --> 00:05:11,320
+thoughtfully mapped bullet would say,
+
+138
+00:05:08,840 --> 00:05:13,440
+"Reduced customer complaints by 31%
+
+139
+00:05:11,320 --> 00:05:15,640
+using AI to create an onboarding email
+
+140
+00:05:13,440 --> 00:05:17,640
+sequence from help center documents."
+
+141
+00:05:15,640 --> 00:05:20,160
+So, here's how to use AI to tailor your
+
+142
+00:05:17,640 --> 00:05:22,480
+resume faster without keyword stuffing.
+
+143
+00:05:20,160 --> 00:05:25,080
+First, give AI the job description and
+
+144
+00:05:22,480 --> 00:05:27,919
+your base resume. Ask it to identify the
+
+145
+00:05:25,080 --> 00:05:29,440
+problems the employer needs solved,
+
+146
+00:05:27,919 --> 00:05:32,120
+extract the skills and keywords that
+
+147
+00:05:29,440 --> 00:05:34,320
+matter most, and only then ask AI to
+
+148
+00:05:32,120 --> 00:05:36,200
+suggest stronger bullet points. Next,
+
+149
+00:05:34,320 --> 00:05:38,120
+review every suggestion and keep only
+
+150
+00:05:36,200 --> 00:05:39,840
+what you can prove. Meaning, if you
+
+151
+00:05:38,120 --> 00:05:41,720
+can't point to a real experience that
+
+152
+00:05:39,840 --> 00:05:43,800
+supports a keyword, remove it. So,
+
+153
+00:05:41,720 --> 00:05:45,240
+basically, the AI is smart enough to
+
+154
+00:05:43,800 --> 00:05:47,520
+figure out whether you're just adding
+
+155
+00:05:45,240 --> 00:05:49,920
+random keywords for no reason, or
+
+156
+00:05:47,520 --> 00:05:52,080
+including keywords intentionally. And
+
+157
+00:05:49,920 --> 00:05:54,360
+that completes stage one. The AI can now
+
+158
+00:05:52,080 --> 00:05:56,160
+process your resume and see why you
+
+159
+00:05:54,360 --> 00:05:58,120
+match the role. But, you still need to
+
+160
+00:05:56,160 --> 00:06:00,120
+convince the human to pass you, which
+
+161
+00:05:58,120 --> 00:06:02,120
+brings us to stage two. By the way, if
+
+162
+00:06:00,120 --> 00:06:04,240
+you want to get 1% better at AI every
+
+163
+00:06:02,120 --> 00:06:06,720
+week, sign up for my free newsletter to
+
+164
+00:06:04,240 --> 00:06:08,960
+receive one insanely actionable AI tip
+
+165
+00:06:06,720 --> 00:06:11,560
+you can apply in under two minutes. Link
+
+166
+00:06:08,960 --> 00:06:14,480
+down below. Next up, rule number three,
+
+167
+00:06:11,560 --> 00:06:16,080
+know where AI should stop. Remember, 59%
+
+168
+00:06:14,480 --> 00:06:20,200
+of hiring managers like to see
+
+169
+00:06:16,080 --> 00:06:22,520
+candidates using AI, but 28% reject
+
+170
+00:06:20,200 --> 00:06:25,120
+AI-heavy resumes that show little to no
+
+171
+00:06:22,520 --> 00:06:27,240
+effort. And the research shows why both
+
+172
+00:06:25,120 --> 00:06:29,720
+can be true. A randomized experiment
+
+173
+00:06:27,240 --> 00:06:31,919
+from MIT involving nearly half a million
+
+174
+00:06:29,720 --> 00:06:34,120
+job seekers found that using AI to help
+
+175
+00:06:31,919 --> 00:06:35,960
+with spelling, grammar, and wording
+
+176
+00:06:34,120 --> 00:06:38,560
+increased the probability of getting
+
+177
+00:06:35,960 --> 00:06:40,400
+hired by 8%. That said, a separate
+
+178
+00:06:38,560 --> 00:06:43,560
+experiment giving applicants access to
+
+179
+00:06:40,400 --> 00:06:46,280
+ChatGPT made their pitches more similar
+
+180
+00:06:43,560 --> 00:06:48,560
+and reduced evaluators' screening by up
+
+181
+00:06:46,280 --> 00:06:50,360
+to 9%, meaning it became harder to
+
+182
+00:06:48,560 --> 00:06:52,240
+identify who was actually more
+
+183
+00:06:50,360 --> 00:06:54,160
+qualified. I mean, just imagine if
+
+184
+00:06:52,240 --> 00:06:55,720
+you're the hiring manager and you read,
+
+185
+00:06:54,160 --> 00:06:57,400
+"Spearheaded cross-functional
+
+186
+00:06:55,720 --> 00:07:00,200
+initiatives to drive operational
+
+187
+00:06:57,400 --> 00:07:01,720
+excellence across 20 resumes." You'd
+
+188
+00:07:00,200 --> 00:07:04,000
+give up as well. Put simply, the
+
+189
+00:07:01,720 --> 00:07:06,480
+experiments show that thoughtful AI use
+
+190
+00:07:04,000 --> 00:07:08,600
+is fine, even encouraged, while lazy
+
+191
+00:07:06,480 --> 00:07:10,800
+prompts like, "Make my resume better."
+
+192
+00:07:08,600 --> 00:07:12,320
+produce the same generic BS like,
+
+193
+00:07:10,800 --> 00:07:14,600
+"Result-driven professional with a
+
+194
+00:07:12,320 --> 00:07:17,160
+proven track record of success." that
+
+195
+00:07:14,600 --> 00:07:19,560
+hiring managers are sick and tired of
+
+196
+00:07:17,160 --> 00:07:21,360
+reading. So, how do you use AI
+
+197
+00:07:19,560 --> 00:07:23,760
+thoughtfully? Here's a simple two-step
+
+198
+00:07:21,360 --> 00:07:25,600
+process. First, focus on brain dumping
+
+199
+00:07:23,760 --> 00:07:27,640
+your raw thoughts for every work
+
+200
+00:07:25,600 --> 00:07:29,600
+experience you have, and just make sure
+
+201
+00:07:27,640 --> 00:07:31,880
+you cover three things for each. The
+
+202
+00:07:29,600 --> 00:07:34,919
+final result, what you specifically
+
+203
+00:07:31,880 --> 00:07:36,400
+contributed, and how you achieved it.
+
+204
+00:07:34,919 --> 00:07:38,160
+And don't worry if the notes are a
+
+205
+00:07:36,400 --> 00:07:40,640
+complete mess because the goal at this
+
+206
+00:07:38,160 --> 00:07:42,560
+step is just to capture the facts, not
+
+207
+00:07:40,640 --> 00:07:44,120
+make them sound good. For example, your
+
+208
+00:07:42,560 --> 00:07:46,720
+brain dump might look something like
+
+209
+00:07:44,120 --> 00:07:49,000
+this. I compared the replies from sales
+
+210
+00:07:46,720 --> 00:07:51,600
+and support and there were so many
+
+211
+00:07:49,000 --> 00:07:54,120
+conflicting answers. Uh so, I wrote a
+
+212
+00:07:51,600 --> 00:07:56,280
+refund guide that they can both use and
+
+213
+00:07:54,120 --> 00:07:58,120
+uh once both teams used it, duplicate
+
+214
+00:07:56,280 --> 00:08:00,320
+tickets dropped by 50% and the customers
+
+215
+00:07:58,120 --> 00:08:01,880
+got consistent answers. Cool. Next,
+
+216
+00:08:00,320 --> 00:08:03,560
+upload the job description along with
+
+217
+00:08:01,880 --> 00:08:05,560
+your rough notes and ask AI to
+
+218
+00:08:03,560 --> 00:08:07,360
+strengthen the wording for each bullet
+
+219
+00:08:05,560 --> 00:08:10,040
+without changing any of the underlying
+
+220
+00:08:07,360 --> 00:08:11,920
+facts. Then, review every suggestion and
+
+221
+00:08:10,040 --> 00:08:14,040
+only keep the language you could explain
+
+222
+00:08:11,920 --> 00:08:15,720
+naturally in an interview. So, your
+
+223
+00:08:14,040 --> 00:08:17,760
+final bullet point might look something
+
+224
+00:08:15,720 --> 00:08:20,680
+like this. Decreased duplicate tickets
+
+225
+00:08:17,760 --> 00:08:22,560
+by 50% by creating a shared refund guide
+
+226
+00:08:20,680 --> 00:08:24,720
+for sales and support so customers
+
+227
+00:08:22,560 --> 00:08:26,919
+received consistent answers. To quickly
+
+228
+00:08:24,720 --> 00:08:28,800
+recap, hiring managers and recruiters
+
+229
+00:08:26,919 --> 00:08:31,000
+read enough resumes to spot the
+
+230
+00:08:28,800 --> 00:08:33,039
+difference between thoughtful AI use and
+
+231
+00:08:31,000 --> 00:08:35,360
+lazy So, do the hard thinking
+
+232
+00:08:33,039 --> 00:08:38,039
+first, then use AI to make that thinking
+
+233
+00:08:35,360 --> 00:08:39,880
+more clear and concise. Up next, rule
+
+234
+00:08:38,039 --> 00:08:41,800
+number four, prove your impact with
+
+235
+00:08:39,880 --> 00:08:43,919
+numbers. In a nutshell, the research
+
+236
+00:08:41,800 --> 00:08:47,040
+found resumes that quantified a
+
+237
+00:08:43,919 --> 00:08:48,839
+candidate's impact saw 75% higher
+
+238
+00:08:47,040 --> 00:08:51,120
+interview rates than those that only
+
+239
+00:08:48,839 --> 00:08:53,040
+described responsibilities. And this
+
+240
+00:08:51,120 --> 00:08:55,200
+makes perfect sense since two people can
+
+241
+00:08:53,040 --> 00:08:57,080
+have the exact same responsibilities and
+
+242
+00:08:55,200 --> 00:08:59,040
+yet produce completely different
+
+243
+00:08:57,080 --> 00:09:00,839
+results. Just imagine a hiring manager
+
+244
+00:08:59,040 --> 00:09:02,680
+reading, "Responsible for planning
+
+245
+00:09:00,839 --> 00:09:05,680
+social media campaigns." 10 times in a
+
+246
+00:09:02,680 --> 00:09:07,839
+row. And the 11th resume says, "Drove a
+
+247
+00:09:05,680 --> 00:09:10,400
+30% year-over-year increase in
+
+248
+00:09:07,839 --> 00:09:12,520
+short-form views over two months." It's
+
+249
+00:09:10,400 --> 00:09:14,600
+not hard to guess which candidate stands
+
+250
+00:09:12,520 --> 00:09:16,320
+out. Now, none of this is new. Adding
+
+251
+00:09:14,600 --> 00:09:19,520
+metrics to your resume has been best
+
+252
+00:09:16,320 --> 00:09:22,520
+practice for decades. What is new is
+
+253
+00:09:19,520 --> 00:09:24,400
+that AI makes the two hardest parts much
+
+254
+00:09:22,520 --> 00:09:26,720
+easier. Figuring out which metrics
+
+255
+00:09:24,400 --> 00:09:28,920
+actually matter and turning your rough
+
+256
+00:09:26,720 --> 00:09:30,839
+notes into polished bullet points using
+
+257
+00:09:28,920 --> 00:09:32,839
+a proven framework. Here's what that
+
+258
+00:09:30,839 --> 00:09:35,440
+means in practice. First, upload your
+
+259
+00:09:32,839 --> 00:09:37,240
+resume and tell AI, "Help me identify
+
+260
+00:09:35,440 --> 00:09:39,120
+the most relevant metrics for each
+
+261
+00:09:37,240 --> 00:09:41,120
+experience on my resume. Ask me
+
+262
+00:09:39,120 --> 00:09:42,600
+clarifying questions if needed. This
+
+263
+00:09:41,120 --> 00:09:45,000
+matters because a lot of candidates
+
+264
+00:09:42,600 --> 00:09:47,480
+assume revenue is the only metric that
+
+265
+00:09:45,000 --> 00:09:49,080
+counts, when there are many many other
+
+266
+00:09:47,480 --> 00:09:52,240
+ways to measure impact, such as time
+
+267
+00:09:49,080 --> 00:09:54,280
+saved, speed, scale, accuracy, etc.
+
+268
+00:09:52,240 --> 00:09:56,720
+Next, after you've supplied numbers you
+
+269
+00:09:54,280 --> 00:09:59,480
+can verify, tell the AI, rewrite each
+
+270
+00:09:56,720 --> 00:10:02,480
+bullet using Google's XYZ formula.
+
+271
+00:09:59,480 --> 00:10:05,560
+Accomplish X as measured by Y by doing
+
+272
+00:10:02,480 --> 00:10:07,040
+Z. Do not add or change any facts or
+
+273
+00:10:05,560 --> 00:10:09,000
+numbers. Building on the earlier
+
+274
+00:10:07,040 --> 00:10:11,320
+example, a revised bullet might look
+
+275
+00:10:09,000 --> 00:10:12,880
+something like this. Drove a 30%
+
+276
+00:10:11,320 --> 00:10:14,960
+year-on-year increase in short-form
+
+277
+00:10:12,880 --> 00:10:16,800
+views within 2 months by testing
+
+278
+00:10:14,960 --> 00:10:18,760
+different video openings and repeating
+
+279
+00:10:16,800 --> 00:10:20,720
+the best performing formats. So, the
+
+280
+00:10:18,760 --> 00:10:22,920
+takeaway here is simple. Job seekers
+
+281
+00:10:20,720 --> 00:10:25,360
+used to skip metrics because they either
+
+282
+00:10:22,920 --> 00:10:28,120
+didn't know what to measure or didn't
+
+283
+00:10:25,360 --> 00:10:30,160
+have the time to rewrite every bullet.
+
+284
+00:10:28,120 --> 00:10:32,120
+But now AI removes both of those
+
+285
+00:10:30,160 --> 00:10:34,160
+barriers, turning one of the highest
+
+286
+00:10:32,120 --> 00:10:36,200
+impact resume improvements into one of
+
+287
+00:10:34,160 --> 00:10:38,400
+the easiest. And finally, rule number
+
+288
+00:10:36,200 --> 00:10:40,160
+five, prove your AI skills. So, it
+
+289
+00:10:38,400 --> 00:10:42,560
+shouldn't be surprising that 60% of
+
+290
+00:10:40,160 --> 00:10:44,240
+hiring managers want candidates to prove
+
+291
+00:10:42,560 --> 00:10:46,560
+their AI skills and not just list them,
+
+292
+00:10:44,240 --> 00:10:49,520
+right? And when we look at how they want
+
+293
+00:10:46,560 --> 00:10:52,720
+that proof, 26% prefer an interview or
+
+294
+00:10:49,520 --> 00:10:55,360
+task, 19% want work examples or
+
+295
+00:10:52,720 --> 00:10:57,800
+outcomes, and 15% look for
+
+296
+00:10:55,360 --> 00:10:59,440
+certifications or courses. On top of
+
+297
+00:10:57,800 --> 00:11:00,920
+that, an experiment from Oxford
+
+298
+00:10:59,440 --> 00:11:02,839
+University found that adding
+
+299
+00:11:00,920 --> 00:11:05,160
+role-relevant AI skills increased a
+
+300
+00:11:02,839 --> 00:11:07,440
+candidate's chance of being selected for
+
+301
+00:11:05,160 --> 00:11:09,800
+an interview by up to 15 percentage
+
+302
+00:11:07,440 --> 00:11:11,760
+points. Put simply, writing ChatGPT in
+
+303
+00:11:09,800 --> 00:11:14,280
+your skills section is not enough. You
+
+304
+00:11:11,760 --> 00:11:16,280
+need to actually demonstrate how you use
+
+305
+00:11:14,280 --> 00:11:17,920
+AI to solve a problem for the role
+
+306
+00:11:16,280 --> 00:11:20,440
+you're applying for. So, here's what to
+
+307
+00:11:17,920 --> 00:11:21,960
+do. First, whenever possible, make the
+
+308
+00:11:20,440 --> 00:11:24,080
+first bullet under each of your
+
+309
+00:11:21,960 --> 00:11:25,600
+experiences an AI achievement that is
+
+310
+00:11:24,080 --> 00:11:28,120
+directly relevant to the job
+
+311
+00:11:25,600 --> 00:11:30,240
+description. For example, cut weekly
+
+312
+00:11:28,120 --> 00:11:32,320
+customer feedback reporting from 2 hours
+
+313
+00:11:30,240 --> 00:11:34,400
+to 30 minutes by using Claude Code to
+
+314
+00:11:32,320 --> 00:11:36,400
+build a shared database with recurring
+
+315
+00:11:34,400 --> 00:11:38,680
+issues. If you don't have a relevant
+
+316
+00:11:36,400 --> 00:11:40,840
+workplace example yet, complete a small
+
+317
+00:11:38,680 --> 00:11:42,880
+project for the job you want and list it
+
+318
+00:11:40,840 --> 00:11:45,600
+under a separate project section in your
+
+319
+00:11:42,880 --> 00:11:47,480
+resume. For example, created a customer
+
+320
+00:11:45,600 --> 00:11:49,800
+insights report from 100 public product
+
+321
+00:11:47,480 --> 00:11:51,960
+reviews by using chat GPT work to
+
+322
+00:11:49,800 --> 00:11:53,760
+identify recurring complaints, checking
+
+323
+00:11:51,960 --> 00:11:56,040
+the themes, and recommending three
+
+324
+00:11:53,760 --> 00:11:57,720
+improvements. Next, make your proof easy
+
+325
+00:11:56,040 --> 00:12:00,200
+for the hiring manager to inspect by
+
+326
+00:11:57,720 --> 00:12:01,720
+linking directly to your portfolio.
+
+327
+00:12:00,200 --> 00:12:03,680
+Here's a real example for my friend Zara
+
+328
+00:12:01,720 --> 00:12:05,800
+Zhang who publishes all her AI projects
+
+329
+00:12:03,680 --> 00:12:08,320
+on GitHub. So, any hiring manager can
+
+330
+00:12:05,800 --> 00:12:10,240
+immediately see what she built and how
+
+331
+00:12:08,320 --> 00:12:12,160
+she used AI. And if you have no idea
+
+332
+00:12:10,240 --> 00:12:14,000
+what GitHub means, no problem. Simply
+
+333
+00:12:12,160 --> 00:12:16,600
+create a Google Doc and under each
+
+334
+00:12:14,000 --> 00:12:19,080
+project, explain the situation, how and
+
+335
+00:12:16,600 --> 00:12:20,920
+why you used AI, and what changed as a
+
+336
+00:12:19,080 --> 00:12:23,360
+result. Pro tip, unless you're a fresh
+
+337
+00:12:20,920 --> 00:12:26,120
+graduate, put your experience above your
+
+338
+00:12:23,360 --> 00:12:28,240
+education since 86% hiring managers
+
+339
+00:12:26,120 --> 00:12:30,000
+value relevant work experience over
+
+340
+00:12:28,240 --> 00:12:31,560
+formal education. All right, let's
+
+341
+00:12:30,000 --> 00:12:33,920
+quickly recap by closing the loop on the
+
+342
+00:12:31,560 --> 00:12:35,839
+two stages. Rules one and two help you
+
+343
+00:12:33,920 --> 00:12:37,640
+pass the AI by making your resume
+
+344
+00:12:35,839 --> 00:12:40,400
+readable and connecting your experience
+
+345
+00:12:37,640 --> 00:12:42,680
+to the role. Rules three, four, and five
+
+346
+00:12:40,400 --> 00:12:45,000
+help you pass the human by using AI
+
+347
+00:12:42,680 --> 00:12:47,160
+thoughtfully, quantifying your impact,
+
+348
+00:12:45,000 --> 00:12:49,080
+and proving your AI skills with real
+
+349
+00:12:47,160 --> 00:12:51,600
+work. Now, was every finding from this
+
+350
+00:12:49,080 --> 00:12:53,920
+video new and mind-blowing? No, not
+
+351
+00:12:51,600 --> 00:12:56,280
+really. But hopefully, now that you've
+
+352
+00:12:53,920 --> 00:12:58,120
+seen the data behind the advice, you can
+
+353
+00:12:56,280 --> 00:13:00,200
+follow them with more confidence,
+
+354
+00:12:58,120 --> 00:13:02,280
+especially now that AI is involved on
+
+355
+00:13:00,200 --> 00:13:03,560
+both sides of hiring. If you enjoyed
+
+356
+00:13:02,280 --> 00:13:05,240
+this, you might want to check out my AI
+
+357
+00:13:03,560 --> 00:13:06,880
+playlist next. See you on the next video
+
+358
+00:13:05,240 --> 00:13:09,560
+in the meantime.
+
+359
+00:13:06,880 --> 00:13:09,560
+Have a great one.
+

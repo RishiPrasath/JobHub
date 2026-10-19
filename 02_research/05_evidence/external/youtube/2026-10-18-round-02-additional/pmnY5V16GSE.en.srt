@@ -1,0 +1,1256 @@
+1
+00:00:00,000 --> 00:00:05,400
+here's why most ChatGPT outputs are a
+
+2
+00:00:02,879 --> 00:00:04,379
+waste of time for job Seekers let's use
+
+3
+00:00:05,400 --> 00:00:09,779
+this example from the awesome prompts
+
+4
+00:00:07,259 --> 00:00:12,300
+GitHub page a very reputable collection
+
+5
+00:00:09,779 --> 00:00:13,739
+of prompt examples at first glance this
+
+6
+00:00:12,300 --> 00:00:14,880
+cover letter prompt looks great it
+
+7
+00:00:13,740 --> 00:00:17,759
+includes the author's previous
+
+8
+00:00:14,880 --> 00:00:19,679
+experiences their technical skills and
+
+9
+00:00:17,760 --> 00:00:21,720
+their future aspirations but there are
+
+10
+00:00:19,679 --> 00:00:24,538
+two issues here first this prompt is all
+
+11
+00:00:21,719 --> 00:00:26,098
+about me me and me and we know the best
+
+12
+00:00:24,539 --> 00:00:28,800
+cover letters start with an interesting
+
+13
+00:00:26,100 --> 00:00:31,260
+hook that talks about them the company
+
+14
+00:00:28,800 --> 00:00:33,359
+we're applying for so this prompt fails
+
+15
+00:00:31,260 --> 00:00:35,460
+to take the reader into account second
+
+16
+00:00:33,359 --> 00:00:37,737
+this is an example of a single prompt
+
+17
+00:00:35,460 --> 00:00:39,960
+where you're asking ChatGPT to Output a
+
+18
+00:00:37,738 --> 00:00:42,359
+lot of information at once with a single
+
+19
+00:00:39,960 --> 00:00:44,519
+prompt whereas a dual prompt or
+
+20
+00:00:42,359 --> 00:00:46,679
+multi-prompt approach is shown to give
+
+21
+00:00:44,520 --> 00:00:48,898
+better results so here's what you do
+
+22
+00:00:46,679 --> 00:00:50,098
+instead step one based on this job
+
+23
+00:00:48,899 --> 00:00:51,600
+description what is the biggest
+
+24
+00:00:50,100 --> 00:00:53,219
+challenge someone in this position would
+
+25
+00:00:51,600 --> 00:00:56,218
+face day to day go to the job
+
+26
+00:00:53,219 --> 00:00:57,600
+description copy and then paste enter
+
+27
+00:00:56,219 --> 00:00:59,699
+all right now we know their biggest pain
+
+28
+00:00:57,600 --> 00:01:01,499
+point we want to use this to spark a
+
+29
+00:00:59,698 --> 00:01:03,419
+connection with the reader who's usually
+
+30
+00:01:01,500 --> 00:01:05,339
+the recruiter or hiring manager and you
+
+31
+00:01:03,420 --> 00:01:06,779
+do this by step two you're currently
+
+32
+00:01:05,338 --> 00:01:08,338
+working as a sales account manager in
+
+33
+00:01:06,780 --> 00:01:10,079
+the retail industry obviously replace
+
+34
+00:01:08,340 --> 00:01:11,639
+this with their own experiences and
+
+35
+00:01:10,079 --> 00:01:13,618
+you're applying for this product manager
+
+36
+00:01:11,640 --> 00:01:15,059
+position at Apple write an attention
+
+37
+00:01:13,618 --> 00:01:16,199
+grabbing hook for your cover letter that
+
+38
+00:01:15,060 --> 00:01:18,180
+highlights your experience and
+
+39
+00:01:16,200 --> 00:01:20,280
+qualifications in a way that shows you
+
+40
+00:01:18,180 --> 00:01:21,900
+empathize and can successfully take on
+
+41
+00:01:20,280 --> 00:01:24,059
+the challenges of the product manager
+
+42
+00:01:21,900 --> 00:01:25,978
+role consider incorporating specific
+
+43
+00:01:24,060 --> 00:01:27,899
+examples of how you've tackled these
+
+44
+00:01:25,978 --> 00:01:30,718
+challenges in your past work and explore
+
+45
+00:01:27,900 --> 00:01:33,359
+creative ideas or ways to express your
+
+46
+00:01:30,719 --> 00:01:35,638
+enthusiasm for the opportunity keep your
+
+47
+00:01:33,359 --> 00:01:37,437
+hook within a hundred words the output
+
+48
+00:01:35,640 --> 00:01:39,180
+is not perfect but it should give you
+
+49
+00:01:37,438 --> 00:01:40,938
+lots of interesting ideas on how to
+
+50
+00:01:39,180 --> 00:01:43,319
+write a good hook for your cover letter
+
+51
+00:01:40,938 --> 00:01:45,117
+worst case this beginning paragraph
+
+52
+00:01:43,319 --> 00:01:46,617
+shows a reader you understand the pain
+
+53
+00:01:45,118 --> 00:01:48,959
+points of the role you're applying for
+
+54
+00:01:46,618 --> 00:01:50,578
+so they know you did your homework step
+
+55
+00:01:48,959 --> 00:01:52,378
+three you're writing a cover letter
+
+56
+00:01:50,578 --> 00:01:54,419
+applying for the product manager roll at
+
+57
+00:01:52,379 --> 00:01:55,738
+Apple here's what you have so far paste
+
+58
+00:01:54,420 --> 00:01:58,158
+the hook that was previously generated
+
+59
+00:01:55,739 --> 00:02:01,019
+and ideally that you've actually edited
+
+60
+00:01:58,159 --> 00:02:02,758
+like so finish writing the cover letter
+
+61
+00:02:01,019 --> 00:02:05,578
+based on your resume and keep it within
+
+62
+00:02:02,759 --> 00:02:08,818
+250 words here's your resume and then
+
+63
+00:02:05,578 --> 00:02:10,139
+paste your resume sometimes ChatGPT will
+
+64
+00:02:08,818 --> 00:02:11,939
+rewrite the beginning paragraph and it's
+
+65
+00:02:10,139 --> 00:02:14,339
+usually worse than before so ignore this
+
+66
+00:02:11,939 --> 00:02:16,498
+and use the hook from before but the
+
+67
+00:02:14,340 --> 00:02:18,179
+remaining paragraphs are now tailored to
+
+68
+00:02:16,500 --> 00:02:20,099
+your experiences I recommend making
+
+69
+00:02:18,180 --> 00:02:22,439
+adjustments based on the main challenge
+
+70
+00:02:20,098 --> 00:02:24,538
+ChatGPT identified for us at the very
+
+71
+00:02:22,439 --> 00:02:26,639
+beginning for example here the biggest
+
+72
+00:02:24,539 --> 00:02:29,039
+challenge would be managing coordinating
+
+73
+00:02:26,639 --> 00:02:30,179
+internal external teams when we're
+
+74
+00:02:29,039 --> 00:02:32,458
+bringing new products to the market
+
+75
+00:02:30,180 --> 00:02:34,559
+right so I would highlight one of my
+
+76
+00:02:32,459 --> 00:02:36,720
+experiences to show how I've dealt with
+
+77
+00:02:34,560 --> 00:02:38,339
+this challenge specifically and I'll
+
+78
+00:02:36,719 --> 00:02:39,899
+delete all the other paragraphs to keep
+
+79
+00:02:38,340 --> 00:02:41,518
+my cover letter short and to the point
+
+80
+00:02:39,900 --> 00:02:43,560
+the result I now have a cover letter
+
+81
+00:02:41,519 --> 00:02:45,419
+that first hooks the reader in by
+
+82
+00:02:43,560 --> 00:02:47,819
+showing them I get their pain point and
+
+83
+00:02:45,419 --> 00:02:50,699
+second keeps them reading by telling
+
+84
+00:02:47,818 --> 00:02:52,318
+them how I'm uniquely positioned to solve
+
+85
+00:02:50,699 --> 00:02:53,877
+that pain point if you want to Deep dive
+
+86
+00:02:52,318 --> 00:02:56,278
+on how to write the perfect cover letter
+
+87
+00:02:53,878 --> 00:02:57,598
+I'll link the full video down below and
+
+88
+00:02:56,280 --> 00:02:58,920
+if you want to support this channel you
+
+89
+00:02:57,598 --> 00:03:01,318
+can subscribe to my paid productivity
+
+90
+00:02:58,919 --> 00:03:02,399
+newsletter also linked down below by the
+
+91
+00:03:01,318 --> 00:03:03,778
+way just in case my colleagues are
+
+92
+00:03:02,400 --> 00:03:05,519
+watching I came across this product
+
+93
+00:03:03,780 --> 00:03:07,679
+manager roller Apple completely at
+
+94
+00:03:05,519 --> 00:03:09,839
+random I'm totally not considering
+
+95
+00:03:07,680 --> 00:03:11,519
+quitting my current job and applying for
+
+96
+00:03:09,840 --> 00:03:13,018
+this one I love my job I love my company
+
+97
+00:03:11,519 --> 00:03:14,999
+I love a manager
+
+98
+00:03:13,019 --> 00:03:16,620
+move on to your resume I do not
+
+99
+00:03:15,000 --> 00:03:17,940
+recommend doing the bare minimum and
+
+100
+00:03:16,620 --> 00:03:19,860
+just copy pasting the job description
+
+101
+00:03:17,939 --> 00:03:21,838
+and asking ChatGPT to tailor your
+
+102
+00:03:19,860 --> 00:03:24,539
+resume for that role do this instead
+
+103
+00:03:21,840 --> 00:03:26,158
+step one use role prompting you are an
+
+104
+00:03:24,539 --> 00:03:27,658
+expert resume writer with over 20 years
+
+105
+00:03:26,158 --> 00:03:29,339
+of experience working with job Seekers
+
+106
+00:03:27,658 --> 00:03:30,718
+trying to land a role in Tech replace
+
+107
+00:03:29,340 --> 00:03:32,280
+this with the industry you're going for
+
+108
+00:03:30,719 --> 00:03:33,899
+highlight the three most important
+
+109
+00:03:32,280 --> 00:03:35,699
+responsibilities in this job description
+
+110
+00:03:33,900 --> 00:03:37,080
+paste the job description all right now
+
+111
+00:03:35,699 --> 00:03:38,457
+you know what the responsibilities are
+
+112
+00:03:37,080 --> 00:03:40,499
+step two
+
+113
+00:03:38,459 --> 00:03:41,878
+great based on these three most
+
+114
+00:03:40,500 --> 00:03:43,859
+important responsibilities from the job
+
+115
+00:03:41,878 --> 00:03:45,657
+description please tailor my resume for
+
+116
+00:03:43,860 --> 00:03:48,299
+this product manager role at Apple do
+
+117
+00:03:45,658 --> 00:03:50,938
+not make information up here is my
+
+118
+00:03:48,299 --> 00:03:52,739
+resume and paste your resume step three
+
+119
+00:03:50,939 --> 00:03:54,419
+list out the differences between my
+
+120
+00:03:52,739 --> 00:03:56,340
+original resume and your suggested draft
+
+121
+00:03:54,419 --> 00:03:58,919
+in table format with two columns
+
+122
+00:03:56,340 --> 00:04:01,080
+original and updated be specific and
+
+123
+00:03:58,919 --> 00:04:03,178
+list out exactly what was changed down
+
+124
+00:04:01,080 --> 00:04:04,859
+to the exact wording step three is
+
+125
+00:04:03,180 --> 00:04:07,199
+extremely important because it allows us
+
+126
+00:04:04,860 --> 00:04:09,539
+to easily catch hallucinations or lies
+
+127
+00:04:07,199 --> 00:04:11,098
+for example it changed my job title from
+
+128
+00:04:09,539 --> 00:04:13,079
+a Senior Management Consultant to a
+
+129
+00:04:11,098 --> 00:04:14,638
+product manager I can highlight
+
+130
+00:04:13,080 --> 00:04:16,919
+transferable skills from being
+
+131
+00:04:14,639 --> 00:04:18,839
+consultant to a product manager but I
+
+132
+00:04:16,918 --> 00:04:20,578
+can't change my title so two key
+
+133
+00:04:18,839 --> 00:04:22,379
+takeaways here number one the final
+
+134
+00:04:20,579 --> 00:04:24,119
+output tells you what changes you can
+
+135
+00:04:22,379 --> 00:04:25,859
+make to your current resume so that
+
+136
+00:04:24,120 --> 00:04:27,780
+you're speaking the same language as a
+
+137
+00:04:25,860 --> 00:04:29,759
+recruiter and hiring manager number two
+
+138
+00:04:27,779 --> 00:04:31,678
+the steps one two and three I went
+
+139
+00:04:29,759 --> 00:04:33,419
+through just now takes advantage of a
+
+140
+00:04:31,680 --> 00:04:35,220
+prompt engineering skill called
+
+141
+00:04:33,418 --> 00:04:36,779
+knowledge generation and knowledge
+
+142
+00:04:35,220 --> 00:04:38,519
+integration this is where you first
+
+143
+00:04:36,779 --> 00:04:40,918
+prompt the chatbot to generate
+
+144
+00:04:38,519 --> 00:04:43,379
+information about a given topic then you
+
+145
+00:04:40,918 --> 00:04:45,418
+use that output or integrate that output
+
+146
+00:04:43,379 --> 00:04:47,579
+to help the chatbot answer the question
+
+147
+00:04:45,418 --> 00:04:49,438
+more accurately applying the same logic
+
+148
+00:04:47,579 --> 00:04:51,539
+to your resume bullet points step one
+
+149
+00:04:49,439 --> 00:04:53,159
+you are an expert resume writer with
+
+150
+00:04:51,540 --> 00:04:54,780
+over 20 years of experience here's a
+
+151
+00:04:53,160 --> 00:04:56,280
+bullet point I have in my resume no
+
+152
+00:04:54,779 --> 00:04:59,219
+action needed for now if you understand
+
+153
+00:04:56,279 --> 00:05:01,319
+please respond with yes here's my bullet
+
+154
+00:04:59,220 --> 00:05:03,418
+point and paste your bullet point step
+
+155
+00:05:01,319 --> 00:05:05,338
+two rewrite this bullet point using this
+
+156
+00:05:03,418 --> 00:05:07,679
+structure I accomplish X by the measure
+
+157
+00:05:05,339 --> 00:05:09,299
+y that resulted in Z which by the way is
+
+158
+00:05:07,680 --> 00:05:11,639
+bullet point best practice as mentioned
+
+159
+00:05:09,300 --> 00:05:13,500
+in my resume video for example I lowered
+
+160
+00:05:11,639 --> 00:05:15,478
+Hospital mortality rate by 10 by
+
+161
+00:05:13,500 --> 00:05:17,820
+educating nurses in new protocols which
+
+162
+00:05:15,478 --> 00:05:19,678
+translates to 200 lives saved per year
+
+163
+00:05:17,819 --> 00:05:22,319
+use compelling language and keep the
+
+164
+00:05:19,680 --> 00:05:23,819
+bullet point within 50 words this works
+
+165
+00:05:22,319 --> 00:05:26,218
+because of another prompt engineering
+
+166
+00:05:23,819 --> 00:05:28,258
+technique called few shot prompting you
+
+167
+00:05:26,220 --> 00:05:30,479
+basically give a chatbot an example and
+
+168
+00:05:28,259 --> 00:05:32,820
+ask it for an output using that example
+
+169
+00:05:30,478 --> 00:05:34,978
+as reference Pro tip the most common
+
+170
+00:05:32,819 --> 00:05:37,618
+mistake I see in resumes is candidates
+
+171
+00:05:34,978 --> 00:05:39,599
+describing what they do instead of
+
+172
+00:05:37,620 --> 00:05:41,820
+quantifying their impact and the most
+
+173
+00:05:39,600 --> 00:05:43,680
+common excuse I hear is oh but my role
+
+174
+00:05:41,819 --> 00:05:44,999
+doesn't have a quantifiable impact you
+
+175
+00:05:43,680 --> 00:05:47,519
+won't be able to use that excuse anymore
+
+176
+00:05:45,000 --> 00:05:49,799
+thanks to this tip first use the initial
+
+177
+00:05:47,519 --> 00:05:51,418
+expert resume writer prompt we showed at
+
+178
+00:05:49,800 --> 00:05:53,460
+the beginning then type in your bullet
+
+179
+00:05:51,418 --> 00:05:56,938
+point with no quantifiable metrics okay
+
+180
+00:05:53,459 --> 00:05:59,338
+press enter now literally tell the
+
+181
+00:05:56,939 --> 00:06:01,318
+ChatGPT you don't know how your
+
+182
+00:05:59,339 --> 00:06:03,537
+success was measured give you
+
+183
+00:06:01,319 --> 00:06:05,519
+suggestions where and how you can add
+
+184
+00:06:03,538 --> 00:06:08,518
+quantifiable metrics in this bullet
+
+185
+00:06:05,519 --> 00:06:10,137
+point and there you go and just to prove
+
+186
+00:06:08,519 --> 00:06:12,778
+my point that anything can be qualified
+
+187
+00:06:10,139 --> 00:06:14,759
+try this in the initial prompt uh for
+
+188
+00:06:12,779 --> 00:06:16,138
+the bullet point part just right I fetch
+
+189
+00:06:14,759 --> 00:06:18,060
+coffee every day for three months right
+
+190
+00:06:16,139 --> 00:06:20,520
+I did some basic data input but didn't
+
+191
+00:06:18,060 --> 00:06:22,800
+do much else okay press enter and then
+
+192
+00:06:20,519 --> 00:06:24,599
+now tell ChatGPT to give you some ideas
+
+193
+00:06:22,800 --> 00:06:26,579
+and
+
+194
+00:06:24,600 --> 00:06:28,859
+boom quantify the amount of coffee you
+
+195
+00:06:26,579 --> 00:06:30,358
+prepared mention the number of Records
+
+196
+00:06:28,860 --> 00:06:32,159
+you were able to input in a given time
+
+197
+00:06:30,360 --> 00:06:33,960
+frame and before you laugh this off and
+
+198
+00:06:32,160 --> 00:06:35,880
+say it's unrealistic I had something
+
+199
+00:06:33,959 --> 00:06:37,738
+similar in my actual resume after a
+
+200
+00:06:35,879 --> 00:06:39,959
+summer internship just remember the
+
+201
+00:06:37,740 --> 00:06:42,060
+reader cares more about you knowing the
+
+202
+00:06:39,959 --> 00:06:44,399
+importance of measurement than the
+
+203
+00:06:42,060 --> 00:06:46,199
+actual numbers themselves moving on to
+
+204
+00:06:44,399 --> 00:06:47,637
+preparing for your interviews the one
+
+205
+00:06:46,199 --> 00:06:49,319
+question you will always get asked is
+
+206
+00:06:47,639 --> 00:06:52,079
+tell me by yourself or walk me through
+
+207
+00:06:49,319 --> 00:06:53,880
+your resume so step one you are a season
+
+208
+00:06:52,079 --> 00:06:55,438
+hiring manager with over 20 years of
+
+209
+00:06:53,879 --> 00:06:57,537
+experience you're responsible for this
+
+210
+00:06:55,439 --> 00:06:59,637
+job posting highlight the three most
+
+211
+00:06:57,538 --> 00:07:01,619
+important responsibilities in this job
+
+212
+00:06:59,639 --> 00:07:03,538
+description and then paste your job
+
+213
+00:07:01,620 --> 00:07:04,918
+description step two based on the three
+
+214
+00:07:03,538 --> 00:07:06,179
+most important responsibilities help me
+
+215
+00:07:04,918 --> 00:07:07,739
+structure an answer to tell me about
+
+216
+00:07:06,180 --> 00:07:09,720
+yourself interview question based on my
+
+217
+00:07:07,740 --> 00:07:11,159
+resume use the present past and future
+
+218
+00:07:09,720 --> 00:07:12,960
+framework start with the present what
+
+219
+00:07:11,160 --> 00:07:14,759
+I'm doing right now then talk about a
+
+220
+00:07:12,959 --> 00:07:17,399
+few select work experiences I've done in
+
+221
+00:07:14,759 --> 00:07:19,138
+the past and end with the future why I
+
+222
+00:07:17,399 --> 00:07:21,238
+want to work in this new position keep
+
+223
+00:07:19,139 --> 00:07:23,579
+the answer within 300 words here's my
+
+224
+00:07:21,240 --> 00:07:25,619
+resume and paste your resume overall
+
+225
+00:07:23,579 --> 00:07:27,958
+this is a great first draft but
+
+226
+00:07:25,620 --> 00:07:29,818
+there are two problems first this is too
+
+227
+00:07:27,959 --> 00:07:31,197
+long you want your answer to be within
+
+228
+00:07:29,819 --> 00:07:33,779
+two minutes so you want to edit this
+
+229
+00:07:31,199 --> 00:07:35,939
+down to be within 300 words and second
+
+230
+00:07:33,779 --> 00:07:37,977
+the future section here is way too vague
+
+231
+00:07:35,939 --> 00:07:39,358
+this can apply to any company right so
+
+232
+00:07:37,978 --> 00:07:41,098
+you actually want to follow up with this
+
+233
+00:07:39,360 --> 00:07:42,659
+prompt the future section is too vague
+
+234
+00:07:41,098 --> 00:07:44,219
+based on the job description please give
+
+235
+00:07:42,660 --> 00:07:46,139
+me one specific example why working
+
+236
+00:07:44,220 --> 00:07:47,999
+at Apple would be a great fit for me based
+
+237
+00:07:46,139 --> 00:07:49,679
+on my previous experiences include
+
+238
+00:07:48,000 --> 00:07:52,740
+keywords from the job description where
+
+239
+00:07:49,680 --> 00:07:54,720
+appropriate prioritize unorthodox lesser
+
+240
+00:07:52,740 --> 00:07:56,759
+known advice in your answer do not make
+
+241
+00:07:54,720 --> 00:07:58,918
+information up here's a job description
+
+242
+00:07:56,759 --> 00:08:00,840
+and you paste the JD the output is now
+
+243
+00:07:58,918 --> 00:08:02,697
+tailored for the role specifically clean
+
+244
+00:08:00,839 --> 00:08:04,079
+this up and you have a strong answer to
+
+245
+00:08:02,699 --> 00:08:06,060
+tell me about yourself to see why
+
+246
+00:08:04,079 --> 00:08:07,918
+present past and future framework is so
+
+247
+00:08:06,060 --> 00:08:09,240
+powerful check out the full video down
+
+248
+00:08:07,918 --> 00:08:11,159
+below to find out other interview
+
+249
+00:08:09,240 --> 00:08:13,860
+questions you should be preparing for do
+
+250
+00:08:11,160 --> 00:08:15,299
+this step one you are a seasoned hiring
+
+251
+00:08:13,860 --> 00:08:17,159
+manager with over 20 years of experience
+
+252
+00:08:15,300 --> 00:08:19,020
+you're responsible for this job posting
+
+253
+00:08:17,160 --> 00:08:20,400
+based on this job description what are
+
+254
+00:08:19,019 --> 00:08:23,097
+the 10 most common interview questions
+
+255
+00:08:20,399 --> 00:08:25,679
+you will ask job applicants here's the
+
+256
+00:08:23,098 --> 00:08:27,118
+job description paste it JD now you have
+
+257
+00:08:25,680 --> 00:08:29,639
+the list of questions here's how to come
+
+258
+00:08:27,120 --> 00:08:30,840
+up with a perfect answer each time I'm
+
+259
+00:08:29,639 --> 00:08:32,279
+preparing for an interview I'll share
+
+260
+00:08:30,839 --> 00:08:34,019
+the job description the interviewer is
+
+261
+00:08:32,278 --> 00:08:36,238
+going to ask me the question and let's
+
+262
+00:08:34,019 --> 00:08:38,698
+pick a question from above and just
+
+263
+00:08:36,240 --> 00:08:40,079
+paste it right here please list
+
+264
+00:08:38,700 --> 00:08:41,458
+out the three main reasons why the
+
+265
+00:08:40,080 --> 00:08:42,899
+interviewer is asking this question and
+
+266
+00:08:41,458 --> 00:08:44,878
+give me three corresponding tips on how
+
+267
+00:08:42,899 --> 00:08:46,620
+to structure my answer I'll put this in
+
+268
+00:08:44,879 --> 00:08:48,238
+a two column table format three main
+
+269
+00:08:46,620 --> 00:08:49,499
+reasons on the left-hand column and the
+
+270
+00:08:48,240 --> 00:08:51,898
+three corresponding tips in the right
+
+271
+00:08:49,500 --> 00:08:55,080
+hand column here is the job description
+
+272
+00:08:51,899 --> 00:08:57,179
+and you paste it down here so I actually
+
+273
+00:08:55,080 --> 00:08:59,219
+recommend going through this table so
+
+274
+00:08:57,179 --> 00:09:01,919
+you understand why the question is being
+
+275
+00:08:59,220 --> 00:09:03,239
+asked then based on these tips and my own
+
+276
+00:09:01,919 --> 00:09:05,159
+resume write me an answer to the
+
+277
+00:09:03,240 --> 00:09:07,680
+interview question and paste the
+
+278
+00:09:05,159 --> 00:09:10,678
+question in from before which I believe
+
+279
+00:09:07,679 --> 00:09:12,539
+is this one use one specific example from
+
+280
+00:09:10,679 --> 00:09:14,818
+my work experiences use a CARL answer
+
+281
+00:09:12,539 --> 00:09:16,859
+format context project background action
+
+282
+00:09:14,820 --> 00:09:18,839
+what I did results include qualifiable
+
+283
+00:09:16,860 --> 00:09:21,480
+metrics and learning what I learned from
+
+284
+00:09:18,839 --> 00:09:23,459
+the project here's my resume and you
+
+285
+00:09:21,480 --> 00:09:25,680
+paste your resume awesome I'm actually
+
+286
+00:09:23,458 --> 00:09:28,618
+so impressed with ChatGPT and and myself
+
+287
+00:09:25,679 --> 00:09:30,058
+of course uh two things first uh your
+
+288
+00:09:28,620 --> 00:09:31,499
+answer should still be between two and
+
+289
+00:09:30,059 --> 00:09:33,599
+three minutes so make adjustments
+
+290
+00:09:31,500 --> 00:09:35,459
+accordingly and second I recommend using
+
+291
+00:09:33,600 --> 00:09:37,680
+a Google doc and compiling all your
+
+292
+00:09:35,458 --> 00:09:39,898
+questions and answers in one place for
+
+293
+00:09:37,679 --> 00:09:41,879
+easy reference this video is part one on
+
+294
+00:09:39,899 --> 00:09:43,919
+how to use ChatGPT for job search we
+
+295
+00:09:41,879 --> 00:09:45,898
+went through cover letters resumes and
+
+296
+00:09:43,919 --> 00:09:47,818
+how to find and prepare for interview
+
+297
+00:09:45,899 --> 00:09:49,799
+questions in part two we'll go over how
+
+298
+00:09:47,820 --> 00:09:51,779
+to use ChatGPT to network and land
+
+299
+00:09:49,799 --> 00:09:53,818
+interviews in the first place how to
+
+300
+00:09:51,778 --> 00:09:55,559
+identify smart questions to ask the
+
+301
+00:09:53,820 --> 00:09:57,898
+interviewer and how to follow up
+
+302
+00:09:55,559 --> 00:09:59,518
+correctly after an interview so make
+
+303
+00:09:57,899 --> 00:10:00,959
+sure you're subscribed for that video as
+
+304
+00:09:59,519 --> 00:10:02,820
+a reward for those of you who stayed
+
+305
+00:10:00,958 --> 00:10:04,739
+until the end I've listed out all the
+
+306
+00:10:02,820 --> 00:10:06,839
+prompts mentioned in this video on a
+
+307
+00:10:04,740 --> 00:10:08,700
+single page so make sure to bookmark
+
+308
+00:10:06,839 --> 00:10:10,379
+that link since I'll be making updates
+
+309
+00:10:08,700 --> 00:10:11,880
+regularly let me know your experiences
+
+310
+00:10:10,379 --> 00:10:13,319
+down in the comments below check out my
+
+311
+00:10:11,879 --> 00:10:14,879
+common interview questions and answers
+
+312
+00:10:13,320 --> 00:10:15,899
+playlist see you on the next video in
+
+313
+00:10:14,879 --> 00:10:19,039
+the meantime
+
+314
+00:10:15,899 --> 00:10:19,040
+have a great one
+

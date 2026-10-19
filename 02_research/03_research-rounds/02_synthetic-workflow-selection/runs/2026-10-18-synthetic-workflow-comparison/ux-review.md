@@ -1,0 +1,67 @@
+# UX Expert review — Round 02 paper walkthrough
+
+Date: 2026-10-18. Reviewer: JobHub UX Expert (Codex). Scope: the two fictional task scripts in [scenario-cards.md](scenario-cards.md), their proposed [flows.md](flows.md), the predeclared [rubric.md](rubric.md), and the coordinator's [observations.md](observations.md). I also read the [Round 02 prompt](../../../../../_prompts/01_round-02-synthetic-workflow-selection.md), the [reviewed UX result](../../../../04_results/ux-and-product-surface/2026-10-18-ux-and-surface.md), its [underlying report](../../../00_orientation-and-baseline/runs/2026-10-18-remaining-research/ux-and-accessibility.md), the [source map](sources.md), and the [synthetic fixture](../../../../05_evidence/datasets-and-examples/2026-10-18-synthetic-workflow-check.md). Round 01 is not started. This is an independent review of written artifacts; I did not run a user session, inspect a prototype, or test assistive technology.
+
+## Overall judgment and evidence boundary
+
+Both paper flows make useful distinctions among saved, prepared, and applied, and preserve a captured version after an unsuccessful check. Those are **design strengths visible in text**, not demonstrated user comprehension or persistence. The coordinator's B6 observation is correct that the proposed interpretation fails, and the failure is more definite than its current “potential conflict” wording. Other issues below are principally heuristic risks or source-label ambiguities; none is evidence about how a real job seeker behaves. A paper flow cannot establish WCAG conformance, keyboard support, screen-reader output, actual recovery, or added value over notes.
+
+Severity describes likely consequence **within these fictional tasks**: **High** could misdirect a consequential decision or lose the task; **Medium** could impede comprehension or correction; **Low** is a wording refinement. These are review priorities, not prevalence estimates or product defect counts. “Observed” below means a statement present in a document; “heuristic” means my UX judgment about likely friction.
+
+## Prioritised findings
+
+### 1. B6 understates a definite schedule conflict — High; Mira's comparison and next action
+
+**Document evidence:** [Mira's card](scenario-cards.md) says she must finish weekdays by 18:00 and can work **one weekend day**. SYNTH-FRONT-A v2 requires **two 22:00 closing shifts weekly**. [B6](flows.md) and the [B6 trace](observations.md) say “potential conflict” because the days are unknown. Under the ordinary meaning of two distinct weekly closing shifts, at most one can occur on her available weekend day; the other must be on a weekday, ending four hours after her stated limit. If both are assigned to weekend days, the one-day weekend limit is exceeded. Thus the stated requirement and stated availability conflict, regardless of the unknown days. This is a logical finding about fictional facts, not a user observation or a rejection prediction.
+
+**Alternative and trade-off:** Show “Conflicts with your stated availability: two 22:00 closes each week; you can do one weekend day and finish weekdays by 18:00.” Place the two source facts next to that conclusion. Offer “Correct my availability,” “Ask whether the closing-shift requirement can change,” and “Stop considering this role.” An exception is a question, not an assumed accommodation. Do not default to “Ask which days?” as though a day assignment alone resolves the conflict. This sharper label may discourage a user if the employer is flexible, so the exception route must remain visible.
+
+**Test:** Give a low-fidelity comparison to participants without explaining the answer. Ask them to explain why A v2 does or does not fit, identify what could change that judgment, and choose a next action. Seed a corrected availability or an employer exception and see whether they can update the conclusion. Correct the paper script before that test.
+
+### 2. “Confirmed absent” overstates Jordan's analytics history — Medium; A4 comparison with B
+
+**Document evidence:** [Jordan's card](scenario-cards.md) confirms no SQL experience and supplies two years of retail tasks. It does **not** explicitly confirm “no three years of analytics work”; it says B's requirement is a material gap **against the supplied history**. [A4](flows.md) puts B's “mandatory SQL and three years of analytics work beside Jordan's confirmed absence.” That phrase can mistakenly assign confirmed absence to both requirements. The [A4 observation](observations.md) is narrower, noting Jordan's lack of SQL. This is a source-label/logic issue, not proof Jordan has the experience.
+
+**Alternative and trade-off:** Label “SQL: Jordan confirms no experience” separately from “Three years of analytics work: no supporting history supplied; ask Jordan to confirm.” Both are material reasons to pause, but the second should remain correctable. More granular labels add reading effort; a short grouped “What we know / what to confirm” block can contain it.
+
+**Test:** Ask people to identify which statement came from Jordan, which from the posting, and what remains unverified. Check whether they can correct an omitted work history without rewriting the source record.
+
+### 3. Source completeness and state labels can blur “unknown” with “not captured” — High; capture, return, and changed-source decisions in both tasks
+
+**Document evidence:** The [common rules and A1/B1](flows.md) distinguish “Link saved” from posting text saved, and “could not check” from “expired”; this is a strength. Yet the same steps preview “salary / exact hours not stated” or other “not stated” fields while also allowing link-only or partial/bad capture. Without the complete captured version, the flow cannot know a term is absent from the posting. [A6/B6](flows.md) also show confirmed expiry, while [A7/B7](flows.md) describe the resulting state mainly as saved/prepared or saved/reviewing. Source availability, save status, and preparation/application progress are separate dimensions. The reviewed [UX result](../../../../04_results/ux-and-product-surface/2026-10-18-ux-and-surface.md) calls for showing local save and sync status as well; the Round 02 flow does not yet specify that detail.
+
+**Alternative and trade-off:** Use precise field labels: “Not stated in captured v1” only after a readable capture; “Not checked — link only” or “Could not read this field” otherwise. Show three independent lines rather than one overloaded status: record (“Saved on this device” / “Save pending” / “Save failed”), source (“Captured v2” / “Could not check” / “Confirmed expired”), and progress (“Reviewing” / “Draft prepared” / “Application self-reported”). Keep the state summary brief, with details available on request. This adds visible metadata but prevents an unknown term or expired posting from looking settled.
+
+**Test:** Mix full-text, link-only, failed capture, stale check, confirmed expiry, and prepared draft cards. Ask participants what information is actually available, what survived an interruption, and whether they can still apply. Test wording at narrow width and enlarged text. Do not claim cross-device availability until implemented and tested.
+
+### 4. Return and correction are specified but not yet recoverable in enough detail — Medium; A2–A3/A5–A6 and B2–B3/B6
+
+**Document evidence:** [A2–A3 and B2–B3](flows.md) give a return cue, version, last check, and partial-save warning; [A5/B5](flows.md) retain drafts after failure. The paper text does not show what happens if the user closes during a pending save, returns with only one of two B records saved, edits a constraint after a comparison, or has a draft based on a superseded posting. The [observations](observations.md) explicitly say persistence and sync were not enacted. The [rubric's D5/D7](rubric.md) require visible dependencies and recovery, so these remain concerns rather than proven passes.
+
+**Alternative and trade-off:** A return view should lead with “Last saved,” “What still needs review,” and one resume action. For a partial B save, name which record is durable and preserve the other input for retry/copy. When Jordan or Mira corrects a fact, mark affected comparison conclusions and draft wording as needing review; do not silently leave an old conclusion in place. Provide a persistent archive/restore path. Dependency notices can become noisy, so restrict them to decisions and text materially changed by the correction.
+
+**Test:** In a clickable prototype, interrupt immediately before and after save acknowledgement, fail one B save, change Mira's availability, revise Jordan's history, and introduce a posting update. Observe whether people resume the right record and notice every outdated conclusion without coaching. Test same-device first; a cross-device claim needs separate synchronization testing.
+
+### 5. The comparison and action copy risk excess scanning and false hope — Medium; A4–A7 and B4–B7
+
+**Document evidence:** [A4/B4](flows.md) ask the reader to inspect several requirements, preferences, candidate facts, unknown terms, source versions, and next questions. [B5/B7](flows.md) emphasize asking whether alternatives to B's **mandatory** forklift certificate and reconciliation experience are accepted; [B6/B7](flows.md) keep “Ask days/pay/contract” prominent even after the definite A v2 conflict. The manual baseline in [observations.md](observations.md) could hold the same information with two rows. Likely scanning burden and hopeful interpretation are **heuristic judgments**, not observed confusion or a measured efficiency disadvantage.
+
+**Alternative and trade-off:** Lead each posting with a concise outcome and one reasoned next action: A v1 “Hours unknown”; A v2 “Schedule conflicts with stated availability”; B “Known hours fit; two mandatory requirements lack confirmed evidence.” Then disclose posting excerpt, personal statement, and unanswered fields beside each claim. Make “Ask whether an exception exists” secondary where a mandatory condition is unmet. Let users stop or defer without completing every field. Progressive disclosure reduces first-view load but must keep contradictory evidence one action away and accessible on a linear reading path.
+
+**Test:** Compare this compact layout, the fuller comparison, and the manual notes baseline on the same fictional decisions. Record unaided explanation of required versus preferred, unknown versus conflict, chosen next action, correction effort, and whether any participant thinks a draft question was sent. Do not use a single preference or speed measure to choose a workflow.
+
+### 6. Accessibility and likely exclusion remain design risks — Medium; both full journeys
+
+**Document evidence:** [flows.md](flows.md) lists keyboard, reflow, screen-reader, and non-colour checks but defines no actual focus order, narrow-layout reading order, error announcement, or control semantics. It describes adjacent statements and side-by-side versions, which can lose the claim-to-source relationship when stacked. “SYNTH-FRONT-A,” “v2,” “ERP,” “reviewing,” and “prepared” are useful internal markers but may need explanatory user-facing words. [The reviewed UX result](../../../../04_results/ux-and-product-surface/2026-10-18-ux-and-surface.md) cautions against requiring a laptop and against treating documented criteria as a conformance result. These are heuristic exclusion risks for phone-only use, enlarged text, keyboard and screen-reader navigation, lower digital confidence, and unfamiliarity with the job terminology; they are **not** disability inferences about Jordan or Mira.
+
+**Alternative and trade-off:** Give each source/version an accessible name and date in plain language; keep abbreviations in details. Define a single reading order that preserves posting claim → candidate fact → conclusion → action at narrow widths. Specify text labels for changed/unknown/conflicting states, persistent errors with a retry/copy action, and focus placement after save, retry, version comparison, and archive restore. Avoid colour or spatial position as the only cue. Added labels consume space, so verify they remain concise and navigable.
+
+**Test:** On an implemented prototype, run the complete capture–interruption–return–correction journey by keyboard, at 200% text and narrow reflow, and with screen readers on the intended devices. Include people with relevant access needs and phone-only or low-confidence use in consented research. Record barriers by task and environment; only a full appropriate evaluation could support a WCAG conformance claim.
+
+## Owner decisions and handoff
+
+- Correct the B6 conclusion and corresponding B7 next-action emphasis before reusing the paper script. Preserve the distinction between a known conflict and a possible employer exception.
+- Choose whether to prototype a compact per-posting summary or a fuller comparison first; the present paper review does not establish which is easier than notes.
+- Decide the intended meanings and display priority of record, source, and application-progress states before implementation. Privacy, retention, sync, and platform choices remain with the owner and later rounds.
+
+Recommended next evidence: a small low-fidelity comprehension/recovery test using the corrected fictional cards and manual baseline, followed by prototype accessibility checks. Round 01 and real-user evidence remain outstanding; neither workflow has a validated priority. No files other than this review were changed for this handoff.

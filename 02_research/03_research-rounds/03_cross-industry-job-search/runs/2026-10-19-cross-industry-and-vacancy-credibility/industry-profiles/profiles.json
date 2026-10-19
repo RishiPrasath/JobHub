@@ -1,0 +1,189 @@
+[
+  {
+    "id": "S01",
+    "title": "Retail and wholesale",
+    "roles": "Sales assistant / stock support / buyer",
+    "route": "Walk-ins and outlet QR links appear in a retail account; wholesale also has a structured conversion route.",
+    "difference": "Availability and commitment length can matter alongside experience. Wholesale professional pathways differ from shop-floor entry.",
+    "questions": "Ask about outlet, hours, commitment and basic versus variable pay. Preserve actual retail/customer examples rather than inventing results.",
+    "sourceIds": [
+      "R3-M01",
+      "R3-M02"
+    ],
+    "depth": "breadth-only",
+    "limits": "Singapore-first convenience sources, not representative. Employer processes and public self-reports are different evidence. No industry-wide prevalence, salary entitlement or employer-intent conclusion."
+  },
+  {
+    "id": "S02",
+    "title": "Food services, accommodation and tourism",
+    "roles": "Service crew / cook / housekeeping / hotel operations",
+    "route": "Public accounts include direct walk-in routes alongside online applications.",
+    "difference": "Roster, establishment type and duties can change feasibility. Food-service policy coverage cannot simply be extended to hotels.",
+    "questions": "Clarify shift pattern, travel, job duties, paid/unpaid assessments and which wage provisions actually apply.",
+    "sourceIds": [
+      "R3-M03",
+      "R3-M04"
+    ],
+    "depth": "selected deep dive",
+    "limits": "Singapore-first convenience sources, not representative. Employer processes and public self-reports are different evidence. No industry-wide prevalence, salary entitlement or employer-intent conclusion."
+  },
+  {
+    "id": "S03",
+    "title": "Healthcare and social care",
+    "roles": "Patient-service / healthcare assistant / registered professional",
+    "route": "Employer career pages distinguish support roles; one prospective nurse compares hospitals and specialties.",
+    "difference": "Support-role qualifications differ from professional registration. The nurse's questions concern retraining, response time and allowances.",
+    "questions": "Verify the exact role and applicable registration with its authority. Prepare truthful evidence and ask about specialty, induction and shifts.",
+    "sourceIds": [
+      "R3-M05",
+      "R3-M06"
+    ],
+    "depth": "selected deep dive",
+    "limits": "Singapore-first convenience sources, not representative. Employer processes and public self-reports are different evidence. No industry-wide prevalence, salary entitlement or employer-intent conclusion."
+  },
+  {
+    "id": "S04",
+    "title": "Education and training",
+    "roles": "Preschool educator / assistant / trainer",
+    "route": "A preschool work-and-study programme combines employment screening and qualification training.",
+    "difference": "A beginning teacher seeks employer comparisons. The programme route does not define every education role.",
+    "questions": "Check role-specific certification, entry language, course/employer obligations and written pay. The inspected programme has inconsistent salary sections.",
+    "sourceIds": [
+      "R3-M08",
+      "R3-M25"
+    ],
+    "depth": "breadth-only",
+    "limits": "Singapore-first convenience sources, not representative. Employer processes and public self-reports are different evidence. No industry-wide prevalence, salary entitlement or employer-intent conclusion."
+  },
+  {
+    "id": "S05",
+    "title": "Logistics, transport and storage",
+    "roles": "Warehouse worker / driver / coordinator",
+    "route": "Agency/site work and employment-ready training are visible routes.",
+    "difference": "An account reports different agency and site expectations about hours. SPD documents a training route, not guaranteed placement.",
+    "questions": "Clarify employing party, deployment location, roster and duties. Keep role-specific licences and practical evidence separate from general experience.",
+    "sourceIds": [
+      "R3-M09",
+      "R3-M10"
+    ],
+    "depth": "selected deep dive",
+    "limits": "Singapore-first convenience sources, not representative. Employer processes and public self-reports are different evidence. No industry-wide prevalence, salary entitlement or employer-intent conclusion."
+  },
+  {
+    "id": "S06",
+    "title": "Construction and built environment",
+    "roles": "Site technical officer / technician / project support",
+    "route": "An engineering consultancy lists a site-based role and separately invites future-interest resumes.",
+    "difference": "The advertised site role specifies experience, qualifications and safety-related preferences. This cannot represent every building trade.",
+    "questions": "Check site, employing party, project timing and exact mandatory versus preferred credentials. A future-opening invitation is a disclosed pool, not proof of deception.",
+    "sourceIds": [
+      "R3-M26"
+    ],
+    "depth": "breadth-only",
+    "limits": "Singapore-first convenience sources, not representative. Employer processes and public self-reports are different evidence. No industry-wide prevalence, salary entitlement or employer-intent conclusion."
+  },
+  {
+    "id": "S07",
+    "title": "Manufacturing, engineering and trades",
+    "roles": "Production operator / machinist / technician / engineer",
+    "route": "Micron publishes a Singapore career channel. Public accounts discuss semiconductor preparation and manufacturing interviews.",
+    "difference": "Retained evidence is stronger for engineering reasoning than operator or machinist pathways. Initial framework access failed, and operational/trade sequences remain missing.",
+    "questions": "Separate machine competence, personally performed analysis and conceptual knowledge. Reported quizzes are not verified universal tests. Shift, practical-trial terms and pay remain unknown.",
+    "sourceIds": [
+      "R3-B17",
+      "R3-B08",
+      "R3-B09"
+    ],
+    "depth": "selected deep dive",
+    "limits": "Singapore-first convenience sources, not representative. Employer processes and public self-reports are different evidence. No industry-wide prevalence, salary entitlement or employer-intent conclusion."
+  },
+  {
+    "id": "S08",
+    "title": "Finance and insurance",
+    "roles": "Operations / compliance / sales or advice",
+    "route": "An employer-curated account describes a successful finance-operations career switch.",
+    "difference": "Operations, salaried advice and conditional consultant incentives are materially different. The positive operations-switch story was published in 2020 and cannot establish current ease of entry.",
+    "questions": "Clarify duties, legal employer, employment arrangement and guaranteed versus variable pay. Map real transferable responsibilities to the actual role.",
+    "sourceIds": [
+      "R3-M14",
+      "R3-C01",
+      "R3-C05",
+      "R3-C09",
+      "R3-C11"
+    ],
+    "depth": "selected deep dive",
+    "limits": "Singapore-first convenience sources, not representative. Employer processes and public self-reports are different evidence. No industry-wide prevalence, salary entitlement or employer-intent conclusion."
+  },
+  {
+    "id": "S09",
+    "title": "Professional, administrative and business support",
+    "roles": "Accountant or consultant / administrator / outsourced cleaner or guard",
+    "route": "This broad basket includes materially different professional and outsourced-service contexts.",
+    "difference": "Cleaning policy distinguishes covered arrangements. A security worker seeks a change while preserving income; that cannot stand for all professional services.",
+    "questions": "Keep client worksite distinct from employer. Ask about deployment, schedule, qualifications and pay components. Professional-service hiring remains undercovered.",
+    "sourceIds": [
+      "R3-M16",
+      "R3-M17"
+    ],
+    "depth": "breadth-only",
+    "limits": "Singapore-first convenience sources, not representative. Employer processes and public self-reports are different evidence. No industry-wide prevalence, salary entitlement or employer-intent conclusion."
+  },
+  {
+    "id": "S10",
+    "title": "Creative, media and arts",
+    "roles": "Designer / production crew / project professional",
+    "route": "One agency requests CV/portfolio material and describes role-dependent tasks or discussion.",
+    "difference": "Portfolio discussion and fresh test work differ. One media employer discloses an unpaid test and a non-use promise; actual handling is unverified.",
+    "questions": "Clarify deliverables, ownership/permission to show samples, assessment scope and project versus employee terms. Explain real contribution and creative process.",
+    "sourceIds": [
+      "R3-M18",
+      "R3-M19",
+      "R3-C04",
+      "R3-C07",
+      "R3-C10"
+    ],
+    "depth": "selected deep dive",
+    "limits": "Singapore-first convenience sources, not representative. Employer processes and public self-reports are different evidence. No industry-wide prevalence, salary entitlement or employer-intent conclusion."
+  },
+  {
+    "id": "S11",
+    "title": "Public administration and civic/community work",
+    "roles": "Public-facing officer / administrator / policy or community role",
+    "route": "Careers@Gov is an official entry route; charities still follow their actual activity.",
+    "difference": "One account reports an eventual offer after long waits. The author's explanation of backup status is speculation, not established hiring intent.",
+    "questions": "Record application stage, promised update and follow-up date separately. Public schools and hospitals remain education/healthcare activities.",
+    "sourceIds": [
+      "R3-M20",
+      "R3-M21"
+    ],
+    "depth": "breadth-only",
+    "limits": "Singapore-first convenience sources, not representative. Employer processes and public self-reports are different evidence. No industry-wide prevalence, salary entitlement or employer-intent conclusion."
+  },
+  {
+    "id": "S12",
+    "title": "IT and digital services",
+    "roles": "IT support / developer / digital operations",
+    "route": "EnterpriseSG links to ICT and media frameworks; the direct IMDA page was inaccessible.",
+    "difference": "This run initially retains thin new IT context, deliberately avoiding another tech-heavy sample.",
+    "questions": "Treat earlier-round technical preparation as a separately dated comparator. No new typical test, pay range, AI-use rate or successful sequence is established here.",
+    "sourceIds": [
+      "R3-M28"
+    ],
+    "depth": "breadth-only",
+    "limits": "Singapore-first convenience sources, not representative. Employer processes and public self-reports are different evidence. No industry-wide prevalence, salary entitlement or employer-intent conclusion."
+  },
+  {
+    "id": "S13",
+    "title": "Personal, repair and local services",
+    "roles": "Hair/beauty practitioner / vehicle recovery or repair worker",
+    "route": "Two employer pages show service roles, direct applications and training invitations.",
+    "difference": "One recovery role specifies a towing-related driving licence and shifts. Hair/beauty advertising separates basic pay, commission and retail hours.",
+    "questions": "Check the actual role, location, experience versus training route and pay formula. These two employers cannot define all personal or repair services.",
+    "sourceIds": [
+      "R3-M23",
+      "R3-M24"
+    ],
+    "depth": "breadth-only",
+    "limits": "Singapore-first convenience sources, not representative. Employer processes and public self-reports are different evidence. No industry-wide prevalence, salary entitlement or employer-intent conclusion."
+  }
+]

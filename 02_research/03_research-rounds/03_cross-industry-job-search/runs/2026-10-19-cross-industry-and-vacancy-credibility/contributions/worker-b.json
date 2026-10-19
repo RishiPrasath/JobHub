@@ -1,0 +1,962 @@
+{
+  "worker": "b",
+  "queries": [
+    {
+      "id": "D-S03-01",
+      "query": "Singapore nursing board registered nurse application practising certificate healthcare assistant SingHealth requirements",
+      "intent": "Official nursing eligibility and support-role contrast.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Retrieved SNB and direct employer pages; inspected originals. No generalisation from search snippets.",
+      "sourceIds": [
+        "R3-B01",
+        "R3-B02",
+        "R3-B15"
+      ]
+    },
+    {
+      "id": "D-S03-02",
+      "query": "Singapore nurse career switch application interview experience 2025 2024",
+      "intent": "Reported nursing conversion sequence, difficulties and positive case.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Retrieved public conversion discussion and NUS success interview; graduate story has older transition events.",
+      "sourceIds": [
+        "R3-B05",
+        "R3-B06"
+      ]
+    },
+    {
+      "id": "D-S07-01",
+      "query": "Singapore manufacturing technician engineer recruitment practical assessment job interview requirements",
+      "intent": "Manufacturing/trade assessment and qualification context.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Broad query yielded much nursing overlap and PEB PDF; PDF inspection failed 404. No universal engineering registration inference.",
+      "sourceIds": []
+    },
+    {
+      "id": "D-S07-02",
+      "query": "Singapore manufacturing engineer technician interview technical test experience site:reddit.com/r/askSingapore",
+      "intent": "Firsthand technical-selection experience and contrary/positive processes; site operator is a venue adapter.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Useful R&D and semiconductor preparation accounts plus broader interview thread. Excluded software-only ST Engineering account and defence-aviation hiring account from coverage claims.",
+      "sourceIds": [
+        "R3-B07",
+        "R3-B08",
+        "R3-B09"
+      ]
+    },
+    {
+      "id": "D-S07-03",
+      "query": "Singapore Micron production operator process technician recruitment interview shifts careers",
+      "intent": "Primary manufacturer routes, role requirements and operator/engineer contrast.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Direct technologist posting rendered empty. General Singapore careers and platform notice inspected; exact operator criteria remain unknown.",
+      "sourceIds": [
+        "R3-B11",
+        "R3-B17"
+      ]
+    },
+    {
+      "id": "D-S03-03",
+      "query": "Singapore social worker social work associate career switch application interview experience",
+      "intent": "Contrast professional social-work conversion, associate requirements and reported preparation.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "NCSS, SASW and employer PDF inspected alongside seeker thread; historical positive accounts retain age limits.",
+      "sourceIds": [
+        "R3-B03",
+        "R3-B04",
+        "R3-B10",
+        "R3-B12",
+        "R3-B14",
+        "R3-B16"
+      ]
+    },
+    {
+      "id": "F-b-01",
+      "query": "\"Singapore\" manufacturing technician \"career switch\" \"interview\"",
+      "intent": "Reserve family FAM-B-manufacturing-positive-route, attempt 1/2: seek missing successful switch/practical-route experience; stop after two unproductive reserve attempts or a distinct usable route.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Retrieved historical electronics-to-pharma account republished by Mothership; original EDB attempt blocked. No current operator-level completed journey established.",
+      "sourceIds": [
+        "R3-B13"
+      ]
+    },
+    {
+      "id": "F-b-02",
+      "query": "\"Micron Cultivates Engineering and Technician Talent Pipeline in Singapore\"",
+      "intent": "Same reserve family FAM-B-manufacturing-positive-route, attempt 2/2: test concrete training-to-employment alternative to interview-friction cases and repair inaccessible primary announcement; no further reserve expansion.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Retrieved 2023 original-release copies, rather than trusting misleading recent crawl/publication labels. EDB landing/PDF verification-blocked; no announcement-content claims retained from snippets.",
+      "sourceIds": []
+    }
+  ],
+  "inspections": [
+    {
+      "url": "https://www.snb.gov.sg/for-professionals/becoming-a-nurse-or-midwife/apply-for-registration-enrolment/local-graduates/",
+      "status": "inspected",
+      "note": "Attempt 01: SNB original guidance, B01."
+    },
+    {
+      "url": "https://careers.singhealth.com.sg/NHCS/job/Singapore-Patient-Care-Assistant-%28Inpatient%29-%28Full-Time%29-Sing/12406944/",
+      "status": "inspected",
+      "note": "Attempt 02: redirected to decoded original URL; B02."
+    },
+    {
+      "url": "https://www.ncss.gov.sg/programmes/people/career-conversion-programme/",
+      "status": "inspected",
+      "note": "Attempt 03: NCSS programme guidance, B03."
+    },
+    {
+      "url": "https://www.reddit.com/r/askSingapore/comments/1m2vgpf",
+      "status": "inspected",
+      "note": "Attempt 04: original thread, redirected canonical URL, B04."
+    },
+    {
+      "url": "https://www.reddit.com/r/askSingapore/comments/1n20wak/career_switch_to_nursing_via_ccp_singapore/",
+      "status": "inspected",
+      "note": "Attempt 05: original nursing-conversion discussion, B05."
+    },
+    {
+      "url": "https://medicine.nus.edu.sg/nursing/2025/11/from-tourism-to-the-icu-how-one-mid-career-switcher-found-his-calling-in-nursing/",
+      "status": "inspected",
+      "note": "Attempt 06: NUS graduate interview, B06."
+    },
+    {
+      "url": "https://www.reddit.com/r/askSingapore/comments/1jtfnpx",
+      "status": "inspected",
+      "note": "Attempt 07: original R&D thread, redirected canonical URL, B07."
+    },
+    {
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1wocwqv/fresh_grad_job_interview/",
+      "status": "inspected",
+      "note": "Attempt 08: original semiconductor preparation thread, B08."
+    },
+    {
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1pmvabb/interviews_till_offer/",
+      "status": "inspected",
+      "note": "Attempt 09: original cross-sector interview thread; retain manufacturing replies only, B09."
+    },
+    {
+      "url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Technologist---F10-Manufacturing-Shift-Production_JR99099",
+      "status": "failed-empty",
+      "note": "Attempt 10: returned zero text lines; search snippet excluded from evidence."
+    },
+    {
+      "url": "https://investors.micron.com/node/45806/pdf",
+      "status": "failed",
+      "note": "Attempt 11: internal fetch error; no announcement evidence retained."
+    },
+    {
+      "url": "https://accreditation.sasw.org.sg/conversion-page",
+      "status": "inspected",
+      "note": "Attempt 12: SASW conversion guidance, B10."
+    },
+    {
+      "url": "https://www.edb.gov.sg/en/about-edb/media-releases-publications/micron-cultivates-engineering-and-technician-talent-pipeline-in-singapore.html",
+      "status": "failed-content",
+      "note": "Attempt 13: only three text lines, no article content; no snippet-derived findings."
+    },
+    {
+      "url": "https://careers.micron.com/careers?domain=micron.com&src=JB-12600&trk=public_jobs_apply-link-offsite_sign-up-modal-sign-up-later&urlHash=HlDH",
+      "status": "inspected-partial",
+      "note": "Attempt 14: platform notice text accessible, job cards not established; EU/EMEA scope retained, B11."
+    },
+    {
+      "url": "https://www.channelnewsasia.com/today/voices/my-learning-diaries-social-work-4638021",
+      "status": "inspected",
+      "note": "Attempt 15: redirects to CNA original attributed contribution, B12."
+    },
+    {
+      "url": "https://mothership.sg/2026/02/career-switch-classroom-learning/",
+      "status": "inspected",
+      "note": "Attempt 16: attributed republication, original pursued separately; B13 supporting only."
+    },
+    {
+      "url": "https://www.saac.org.sg/wp-content/uploads/2025/03/Social-Worker-Associate_.pdf",
+      "status": "inspected",
+      "note": "Attempt 17: original employer PDF, page 1, B14."
+    },
+    {
+      "url": "https://www.reddit.com/r/askSingapore/comments/1m2vgpf",
+      "status": "inspected-repeat",
+      "note": "Attempt 18: repeated open at line 105 to inspect replies/context; same B04/family, no extra source."
+    },
+    {
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/micron-cultivates-engineering-and-technician-talent-pipeline-in-singapore/Press%20Release-Micron%20cultivates%20engineering%20and%20technician%20talent%20pipeline%20in%20Singapore.pdf",
+      "status": "failed-verification",
+      "note": "Attempt 19: robot-verification screen, no PDF content."
+    },
+    {
+      "url": "https://www.peb.gov.sg/Downloads/pe_guidelines.pdf",
+      "status": "failed-404",
+      "note": "Attempt 20: 404; no professional-engineer requirement claim taken."
+    },
+    {
+      "url": "https://www.edb.gov.sg/en/business-insights/insights/jobs-in-singapore-how-my-career-pivot-gave-me-autonomy-and-purpose.html?cid=afl-pp%3Aarticle_link-na_local_talent-adhoc-ptr-202602-sg-lonza",
+      "status": "failed-verification",
+      "note": "Attempt 21: click original attribution link on B13; verification screen. Original not inspected; reprint never counted independent corroboration."
+    },
+    {
+      "url": "https://careers.singhealth.com.sg/SCH/job/Singapore-Staff-Nurse-Sing/56443244/",
+      "status": "inspected",
+      "note": "Attempt 22: original nurse posting Req ID 4895, B15."
+    },
+    {
+      "url": "https://www.ncss.gov.sg/about-us/hear-from-our-community/sector-professionals/social-service-tribe-professionals/sivasubramaniam/",
+      "status": "inspected",
+      "note": "Attempt 23: original historical NCSS interview, B16; same publisher family as B03."
+    },
+    {
+      "url": "https://sg.micron.com/about/careers",
+      "status": "inspected",
+      "note": "Attempt 24: primary Singapore manufacturer careers page, B17; same corporate family as B11."
+    },
+    {
+      "url": "https://www.snb.gov.sg/for-professionals/becoming-a-nurse-or-midwife/apply-for-registration-enrolment/local-graduates/",
+      "status": "inspected-repeat",
+      "note": "Attempt 25: repeat original at line 25 to verify page-specific last-update date 2026-07-02; same B01/family, not another source."
+    },
+    {
+      "url": "https://www.ncss.gov.sg/programmes/people/career-conversion-programme/",
+      "status": "inspected-repeat",
+      "note": "Attempt 26: repeat original at line 25 to verify page-specific last-update date 2026-08-14; same B03/family, not another source."
+    }
+  ],
+  "sources": [
+    {
+      "id": "R3-B01",
+      "url": "https://www.snb.gov.sg/for-professionals/becoming-a-nurse-or-midwife/apply-for-registration-enrolment/local-graduates/",
+      "title": "Local Graduates",
+      "publisher": "Singapore Nursing Board",
+      "publicationDate": "unknown",
+      "eventPeriod": "Guidance visible on 2026-10-19; historical implementation dates not established",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct",
+      "type": "official regulator guidance",
+      "family": "SNB-local-registration",
+      "method": "Primary public guidance; local nursing graduates, not a hiring-outcome study.",
+      "passage": "Eligibility; Application; Documents required; Outcome, lines 43-157: accredited training, documentary evidence and PC are distinguished; conditional competency routes exist.",
+      "observation": "SNB describes accredited qualifications and a valid practising certificate as necessary to nursing practice; original-document checks and some competency assessments can precede completion.",
+      "claimLabel": "source-reported",
+      "confidence": "high for stated local route",
+      "limits": "Not foreign-trained eligibility, universal assessment timing, employer hiring probability or individual advice; current page is not evidence of actual processing times.",
+      "tags": [
+        "S03",
+        "nurse",
+        "local-graduate",
+        "registration",
+        "publication:unknown",
+        "event:current-guidance",
+        "update:within-24-months"
+      ],
+      "employerActivity": "unknown",
+      "occupation": "Nurse/midwife applicants trained locally",
+      "arrangement": "unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown",
+      "stage": "Professional registration/enrolment and practising-certificate eligibility",
+      "updateDate": "2026-07-02"
+    },
+    {
+      "id": "R3-B02",
+      "url": "https://careers.singhealth.com.sg/NHCS/job/Singapore-Patient-Care-Assistant-(Inpatient)-(Full-Time)-Sing/12406944/",
+      "title": "Patient Care Assistant (Inpatient) (Full-Time)",
+      "publisher": "National Heart Centre Singapore / SingHealth",
+      "publicationDate": "2026-09-24",
+      "eventPeriod": "Posting dated 2026-09-24; visible 2026-10-19",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct",
+      "type": "employer posting",
+      "family": "SingHealth-employer-postings",
+      "method": "Primary advertisement; one ancillary inpatient role, full-time.",
+      "passage": "Job Requirements and role description, lines 45-60: O/N levels and work experience; WSQ advantage; shift work; vaccination evidence and completion route.",
+      "observation": "Employer distinguishes a preferred healthcare-support certificate from its stated baseline and allows specified vaccination completion before starting after successful interview/offer.",
+      "claimLabel": "source-reported",
+      "confidence": "high for advertisement wording",
+      "limits": "One employer/role; live vacancy, actual selection and statutory generalisation not established. No pay or exact assessment disclosed.",
+      "tags": [
+        "S03",
+        "healthcare-employer",
+        "patient-care-assistant",
+        "full-time",
+        "shift",
+        "support",
+        "publication:within-24-months"
+      ],
+      "employerActivity": "Hospital healthcare: National Heart Centre Singapore",
+      "occupation": "Patient Care Assistant (Inpatient)",
+      "arrangement": "Full-time; shift work; permanent/fixed-term unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "National Heart Centre Singapore inpatient setting; exact unit unknown",
+      "stage": "Discovery/application requirements; interview/offer-linked pre-start conditions",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-B03",
+      "url": "https://www.ncss.gov.sg/programmes/people/career-conversion-programme/",
+      "title": "Career Conversion Programme",
+      "publisher": "National Council of Social Service",
+      "publicationDate": "unknown",
+      "eventPeriod": "Programme guidance visible 2026-10-19; intake-specific terms not independently checked",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct",
+      "type": "official programme guidance",
+      "family": "NCSS-corporate-programme-and-stories",
+      "method": "Primary programme owner guidance; social-work conversion, not observed seeker behaviour.",
+      "passage": "How to get started / Eligibility / For social service agencies, lines 38-64: secure participating employment before programme; work and study with practicum; service commitment.",
+      "observation": "Place-and-train route requires participating employment before eligibility; practical learning accompanies studies. Programme admission is not merely admission to an academic course.",
+      "claimLabel": "source-reported",
+      "confidence": "high for stated sequence",
+      "limits": "Does not guarantee an employer offer, identify every eligible applicant, or establish all accreditation/legal rules. Agency naming varies within page; no institutional-reorganisation claim taken.",
+      "tags": [
+        "S03",
+        "social-work",
+        "career-change",
+        "place-and-train",
+        "publication:unknown",
+        "update:within-24-months"
+      ],
+      "employerActivity": "unknown",
+      "occupation": "Aspiring social worker through career conversion",
+      "arrangement": "Full-time employment with participating sponsor and part-time study; permanent/fixed-term unknown",
+      "intermediary": "unknown; NCSS is programme coordinator and SUSS is education provider, not established employers or recruitment intermediaries in this guidance",
+      "clientWorksite": "unknown",
+      "stage": "Secure participating employment, then programme eligibility, study/practicum and post-training commitment",
+      "updateDate": "2026-08-14"
+    },
+    {
+      "id": "R3-B04",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1m2vgpf/career_switch_to_social_work_tips_for_breaking_in/",
+      "title": "Career switch to Social Work - tips for breaking in",
+      "publisher": "Reddit r/askSingapore",
+      "publicationDate": "unknown exact date; source rendered 1y ago",
+      "eventPeriod": "Application attempts before post; exact dates unknown; approximate page age is not a fieldwork date",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct",
+      "type": "public first-person account and replies",
+      "family": "Reddit-thread-1m2vgpf",
+      "method": "Self-selected accounting graduate's public account; replies unverified; no identity retained.",
+      "passage": "Opening lines 21-23 and OP reply 67-68: applications to associate/internship roles, tailored letters, existing volunteering, few interview opportunities. Replies 76-99 suggest referrals and agency routes.",
+      "observation": "Career changer reports tailoring applications without securing interviews and uncertainty over whether existing volunteering is relevant; peers suggest human routes.",
+      "claimLabel": "source-reported",
+      "confidence": "moderate for what is reported; low for causes",
+      "limits": "No employer response records, complete application denominator or verified reason; replies are advice, not successful-workaround evidence. One thread, not multiple independent sources.",
+      "tags": [
+        "S03",
+        "social-work-associate",
+        "career-change",
+        "application",
+        "volunteering",
+        "platform:Reddit",
+        "publication:unknown"
+      ],
+      "employerActivity": "Target social-service agencies/family service centres and healthcare institutions; specific hiring employers unknown",
+      "occupation": "Accounting-background career changer targeting social-work associate/internship roles",
+      "arrangement": "Associate employment or internship sought; full-time/part-time and contract terms unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown",
+      "stage": "Role discovery, tailored applications, interview-access difficulty and advice-seeking",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-B05",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1n20wak/career_switch_to_nursing_via_ccp_singapore/",
+      "title": "Career switch to nursing via ccp singapore",
+      "publisher": "Reddit r/askSingapore",
+      "publicationDate": "unknown exact original date; discovery metadata shows 2025-08-28, page renders relative ages only",
+      "eventPeriod": "Thread spans later application/interview discussion; exact reply chronology not established",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct",
+      "type": "public seeker discussion",
+      "family": "Reddit-thread-1n20wak",
+      "method": "Original poster seeks conversion-route experiences; separate replies describe stages. No participant continuity inferred.",
+      "passage": "Opening lines 17-21; replies 249-260 and 299-303: applicants discuss applying, a shortlisted portal state without a call and an interview-to-result wait.",
+      "observation": "Applicants report uncertainty between application-status displays, invitation contact and results; competing comments about graduate opportunities are unverified opinions.",
+      "claimLabel": "source-reported",
+      "confidence": "moderate for narrow reported uncertainty",
+      "limits": "Different commenters are not one end-to-end journey. Bonded/unbonded employment claims and broad nurse-shortage claims are not verified findings.",
+      "tags": [
+        "S03",
+        "nursing-conversion",
+        "application-status",
+        "platform:Reddit",
+        "publication:unknown",
+        "event:mixed-or-unknown"
+      ],
+      "employerActivity": "unknown",
+      "occupation": "Aspiring registered nurse through nursing career conversion",
+      "arrangement": "unknown",
+      "intermediary": "unknown; education/programme providers mentioned, placement intermediary not established",
+      "clientWorksite": "unknown",
+      "stage": "Programme discovery, application status, interview invitation and result waiting; different speakers",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-B06",
+      "url": "https://medicine.nus.edu.sg/nursing/2025/11/from-tourism-to-the-icu-how-one-mid-career-switcher-found-his-calling-in-nursing/",
+      "title": "From Tourism to the ICU: How One Mid-Career Switcher Found His Calling in Nursing",
+      "publisher": "NUS Nursing",
+      "publicationDate": "2025-11-06",
+      "eventPeriod": "Graduating class 2022; transition before graduation; later employment at publication",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct",
+      "type": "institution-curated first-person interview",
+      "family": "NUS-nursing-tourism-ICU-story",
+      "method": "Selected graduate success interview; no comparative sample or hiring-stage record.",
+      "passage": "Lines 185-195 and 205-209: tourism-to-nursing conversion, prior service skills, simulation and clinical practice.",
+      "observation": "Reported successful nursing transition pairs transferable interpersonal experience with substantial new clinical training.",
+      "claimLabel": "source-reported",
+      "confidence": "moderate for reported trajectory",
+      "limits": "Older transition despite recent publication; institutional promotional selection; prior pharmacy training disclosed, so not a representative novice; no recruitment chronology.",
+      "tags": [
+        "S03",
+        "nursing",
+        "career-change",
+        "positive",
+        "publication:within-24-months",
+        "event:older-transition"
+      ],
+      "employerActivity": "Tourism (prior); hospital healthcare at National University Hospital (later)",
+      "occupation": "Tourism executive/service trainer-manager (prior); staff nurse in surgical intensive care (later)",
+      "arrangement": "unknown",
+      "intermediary": "unknown; NUS/WSG conversion programme mentioned, recruitment intermediary not established",
+      "clientWorksite": "National University Hospital Surgical Intensive Care Unit (reported later employment); training placement sites unknown",
+      "stage": "Career exploration, formal retraining/simulation/clinical practice and transition to nursing; hiring stages unknown",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-B07",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1jtfnpx/redditors_who_work_on_products_rd_in_singapore/",
+      "title": "Redditors who work on products / R&D in Singapore, how has your experience been?",
+      "publisher": "Reddit r/askSingapore",
+      "publicationDate": "unknown exact original date; discovery metadata shows 2025-04-07, page renders relative ages only",
+      "eventPeriod": "Prior employment exceeding one year and subsequent interviews; exact dates unknown",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct",
+      "type": "public first-person account and advice",
+      "family": "Reddit-thread-1jtfnpx",
+      "method": "Mechanical graduate reports defence-related product work and external interviews; no employer documents.",
+      "passage": "Opening lines 20-23: work scope, family/pay constraints, interview criticism and attributed rescission. Replies 54-93 promote vague claims and question their effectiveness.",
+      "observation": "Applicant describes limited technical-development opportunity and interview scrutiny; public advice includes exaggeration, which is evidence of advice encountered, not sound preparation.",
+      "claimLabel": "source-reported",
+      "confidence": "moderate for account; low for alleged employer reasons",
+      "limits": "Industry tagged defence-related product engineering, not proof of manufacturing employer or coverage of defence recruitment. Rescission explanation uncorroborated; no prevalence.",
+      "tags": [
+        "S07",
+        "mechanical-engineer",
+        "employer-industry:ambiguous",
+        "truthful-skills",
+        "platform:Reddit",
+        "publication:unknown"
+      ],
+      "employerActivity": "Defence-related product development as reported; exact employer industry and manufacturing status unknown",
+      "occupation": "Mechanical-engineering graduate doing product/design work and seeking other engineering roles",
+      "arrangement": "unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown",
+      "stage": "Prior-role selection, experience development, external interviews and attributed offer rescission",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-B08",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1wocwqv/fresh_grad_job_interview/",
+      "title": "Fresh grad job interview",
+      "publisher": "Reddit r/singaporejobs",
+      "publicationDate": "unknown exact date; rendered 25d ago on access",
+      "eventPeriod": "Recent interview-preparation discussion; actual interviews in replies undated",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct",
+      "type": "public seeker account and purported prior-interview reports",
+      "family": "Reddit-thread-1wocwqv",
+      "method": "Physics graduate preparing for semiconductor process-engineering interview; commenters self-report other interviews and offer advice.",
+      "passage": "Lines 19-23 and 68-104: shortlist, knowledge gap, technical/quality scenarios, quiz, work-life questions and suggestion to use AI.",
+      "observation": "Technical interview experiences are reported, including process/quality questions and a quiz; AI is recommended by a commenter, with no observed use or outcome.",
+      "claimLabel": "source-reported",
+      "confidence": "moderate for reported experiences; low for generality",
+      "limits": "Employer procedures not independently verified; no observed practical machine test, exact test content, paid status, preparation success or AI verification.",
+      "tags": [
+        "S07",
+        "semiconductor-manufacturing",
+        "process-engineer",
+        "graduate",
+        "assessment",
+        "AI:advice-only",
+        "platform:Reddit",
+        "publication:unknown"
+      ],
+      "employerActivity": "Semiconductor manufacturing as reported; target employer unnamed",
+      "occupation": "Physics graduate targeting process-engineering role; replies discuss semiconductor engineering interviews",
+      "arrangement": "unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown",
+      "stage": "Shortlisting and interview preparation; separate commenters report technical assessments",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-B09",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1pmvabb/interviews_till_offer/",
+      "title": "Interviews till Offer",
+      "publisher": "Reddit r/singaporejobs",
+      "publicationDate": "unknown exact date; search and page relative-age displays differ",
+      "eventPeriod": "One reply says offer late January 'this year'; year not securely anchored; other interview dates unknown",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct",
+      "type": "public first-person interview accounts",
+      "family": "Reddit-thread-1pmvabb",
+      "method": "Cross-sector thread; retain only expressly manufacturing/science replies, not other sectors' round counts.",
+      "passage": "Replies lines 143-152: one manufacturing worker reports two onsite interviews and offer; another science/manufacturing worker reports online then onsite mini-exam.",
+      "observation": "A reported offer after two onsite rounds provides a positive case; a separate reported mini-exam shows another assessment format.",
+      "claimLabel": "source-reported",
+      "confidence": "moderate for reported process; low for representativeness",
+      "limits": "Employer, duties, arrangement and exact chronology unknown; different commenters not one sequence. Science/manufacturing description is ambiguous; no assessment prevalence.",
+      "tags": [
+        "S07",
+        "manufacturing-reported",
+        "mid-career",
+        "positive-offer",
+        "assessment",
+        "platform:Reddit",
+        "publication:unknown"
+      ],
+      "employerActivity": "Manufacturing and science/manufacturing as self-described in retained replies; employers unknown",
+      "occupation": "unknown; retained commenters describe mid-level and mid-senior positions without duties",
+      "arrangement": "unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown; onsite interviews reported, employer/worksite identity unstated",
+      "stage": "Interview sequence, mini-exam and one reported offer; different speakers",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-B10",
+      "url": "https://accreditation.sasw.org.sg/conversion-page",
+      "title": "Accreditation: conversion",
+      "publisher": "Singapore Association of Social Workers",
+      "publicationDate": "unknown; copyright 2015 is not publication date",
+      "eventPeriod": "Accreditation conversion criteria visible 2026-10-19; effective date unknown",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct",
+      "type": "professional association accreditation guidance",
+      "family": "SASW-accreditation",
+      "method": "Primary association guidance for conversion between existing accreditation categories.",
+      "passage": "Lines 52-68 distinguish RSW-P/RSW/RSSP conversion and recognised social-work qualifications, experience, supervised practice and ethics checks.",
+      "observation": "Accreditation categories and conversion criteria require precise route identification; they cannot be treated as the same regime as nursing registration.",
+      "claimLabel": "source-reported",
+      "confidence": "high for published category criteria",
+      "limits": "Not initial accreditation guidance or a statutory rule covering every social-service/support job; no inference that every associate must hold RSW status.",
+      "tags": [
+        "S03",
+        "social-work",
+        "accreditation",
+        "publication:unknown",
+        "event:unknown"
+      ],
+      "employerActivity": "unknown",
+      "occupation": "Social workers seeking conversion between professional accreditation categories",
+      "arrangement": "unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown",
+      "stage": "Professional accreditation conversion and supervised-experience evidence; not a reported job-search journey",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-B11",
+      "url": "https://careers.micron.com/careers?domain=micron.com&src=JB-12600&trk=public_jobs_apply-link-offsite_sign-up-modal-sign-up-later&urlHash=HlDH",
+      "title": "Careers platform: AI recruitment notice",
+      "publisher": "Micron",
+      "publicationDate": "unknown",
+      "eventPeriod": "Visible 2026-10-19; policy start and Singapore application unknown",
+      "accessDate": "2026-10-19",
+      "geography": "international-comparator:EU-notice-on-global-platform",
+      "type": "employer platform disclosure",
+      "family": "Micron-corporate",
+      "method": "Primary employer notice rendered in platform page; specifically references EU AI Act and EMEA alternative.",
+      "passage": "Lines 14-18: skill inference and matching, claimed human review, and regional alternative.",
+      "observation": "Employer states recruitment AI assists skill inference and matching while human recruiters decide; Singapore applicability is not established.",
+      "claimLabel": "source-reported",
+      "confidence": "high for notice existence; unverified for practice",
+      "limits": "Not seeker AI use, audited fairness or legal compliance; do not transfer EU/EMEA contact/alternative to Singapore.",
+      "tags": [
+        "S07",
+        "AI:employer-disclosure",
+        "international-comparator",
+        "publication:unknown"
+      ],
+      "employerActivity": "Semiconductor manufacturing: Micron corporate employer; notice covers recruitment across unspecified occupations",
+      "occupation": "unknown",
+      "arrangement": "unknown",
+      "intermediary": "unknown; Eightfold identified as recruiting-software provider, not an employment intermediary",
+      "clientWorksite": "unknown",
+      "stage": "Application screening, skill inference/matching and employer-reported human selection decisions; EU/EMEA-framed notice",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-B12",
+      "url": "https://www.channelnewsasia.com/cna-insider/voices/my-learning-diaries-social-work-4638021",
+      "title": "My Learning Diaries: I left a stable finance job for a career in social work. Here’s how I made the switch",
+      "publisher": "TODAY / CNA",
+      "publicationDate": "2023-04-30",
+      "eventPeriod": "Successful second application and employment in 2018; later reflections",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct",
+      "type": "published first-person account",
+      "family": "TODAY-CNA-social-work-conversion-story",
+      "method": "Original attributed first-person contribution; curated success, no comparative sample.",
+      "passage": "Lines 39-56: discovers conversion programme, second attempt succeeds in 2018, employment and part-time study, family-time challenge.",
+      "observation": "Older positive sequence describes initial difficulty, retry and successful conversion while managing study and family time.",
+      "claimLabel": "source-reported",
+      "confidence": "moderate for historical account",
+      "limits": "Publication and event older than preferred window despite 2025 update. Historical programme duration/commitment not current eligibility; claimed vacancy scarcity not market evidence.",
+      "tags": [
+        "S03",
+        "social-work",
+        "career-change",
+        "positive",
+        "publication:older",
+        "event:older",
+        "update:within-24-months"
+      ],
+      "employerActivity": "Financial services (prior); social care at Lutheran Community Care Services (later)",
+      "occupation": "Finance operations worker (prior); social worker (later)",
+      "arrangement": "Employment combined with part-time studies in the historical reported programme; full-time/contract status unknown",
+      "intermediary": "unknown; WSG/SUSS conversion programme mentioned, not established as employer or recruitment agency",
+      "clientWorksite": "Lutheran Community Care Services; exact worksite unknown",
+      "stage": "Career exploration, programme discovery, repeat application, reported hire and work/study transition",
+      "updateDate": "2025-11-05"
+    },
+    {
+      "id": "R3-B13",
+      "url": "https://mothership.sg/2026/02/career-switch-classroom-learning/",
+      "title": "At 49, I left the electronics industry & returned to the classroom. Now 64, I have no regrets.",
+      "publisher": "Mothership; attributed EDB original",
+      "publicationDate": "2026-02-23",
+      "eventPeriod": "Career conversion and Lonza entry by 2013; later retrospective in 2026",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct",
+      "type": "attributed republication of first-person account",
+      "family": "EDB-Lonza-career-pivot-story",
+      "method": "Public republication inspected; linked EDB original attempted but verification-blocked. Supporting only, not independent corroboration.",
+      "passage": "Lines 17-37: training preceded pharma manufacturing employment; subsequent work and flexibility retrospective.",
+      "observation": "Reprinted account describes an older successful electronics-to-pharma transition; original source could not be inspected.",
+      "claimLabel": "source-reported",
+      "confidence": "low-to-moderate as attributed reprint",
+      "limits": "Not original independently inspected testimony or current conversion success evidence; events over a decade old, seniority-specific. Not used for current requirements.",
+      "tags": [
+        "S07",
+        "pharmaceutical-manufacturing",
+        "career-change",
+        "supporting-only",
+        "publication:within-24-months",
+        "event:older",
+        "original:inaccessible"
+      ],
+      "employerActivity": "Electronics (prior); pharmaceutical/biopharmaceutical manufacturing at Lonza (later)",
+      "occupation": "Operational Excellence expert following conversion; later associate director",
+      "arrangement": "unknown; retrospective reports later scheduling flexibility without defining employment contract",
+      "intermediary": "unknown; career-conversion programme referenced, placement intermediary unstated",
+      "clientWorksite": "Lonza Tuas site (reported later role); original EDB page inaccessible",
+      "stage": "Historical retraining followed by employment; later career reflection in attributed republication",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-B14",
+      "url": "https://www.saac.org.sg/wp-content/uploads/2025/03/Social-Worker-Associate_.pdf",
+      "title": "Social Worker Associate: job description",
+      "publisher": "St. Andrew's Autism Centre",
+      "publicationDate": "unknown; URL directory 2025/03 is not proof of publication",
+      "eventPeriod": "Document visible 2026-10-19; vacancy period unknown",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct; social-care/special-education overlap",
+      "type": "employer job-description PDF",
+      "family": "SAAC-social-worker-associate-document",
+      "method": "Primary employer document; one associate role linked to school/client admissions.",
+      "passage": "Page 1, lines 3-39: administration, case co-work/home visits, diploma consideration, occasional evening/weekend events; shortlisted applicants notified.",
+      "observation": "Associate work combines administration and care-related work; specified diploma wording and limited-notification statement need literal reading.",
+      "claimLabel": "source-reported",
+      "confidence": "high for document wording",
+      "limits": "Unknown live recruitment status/date; not all social-work associates; school overlap retained. No numeric salary or reason for a particular rejection.",
+      "tags": [
+        "S03",
+        "social-work-associate",
+        "special-education-overlap",
+        "arrangement:unknown",
+        "publication:unknown"
+      ],
+      "employerActivity": "Social care/special-needs services with special-education overlap: St. Andrew's Autism Centre",
+      "occupation": "Social Worker Associate: admissions administration, case co-work, home visits and related duties",
+      "arrangement": "unknown; occasional evening/weekend events stated, full-time/part-time and contract terms unstated",
+      "intermediary": "unknown",
+      "clientWorksite": "SAAC school/client setting and home visits; exact campus/client sites unknown",
+      "stage": "Discovery/application requirements and stated shortlist-notification policy",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-B15",
+      "url": "https://careers.singhealth.com.sg/SCH/job/Singapore-Staff-Nurse-Sing/56443244/",
+      "title": "Staff Nurse (Req ID 4895)",
+      "publisher": "SingHealth Community Hospitals",
+      "publicationDate": "2026-09-22",
+      "eventPeriod": "Posting dated 2026-09-22; visible 2026-10-19",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct",
+      "type": "employer posting",
+      "family": "SingHealth-employer-postings",
+      "method": "Primary community-hospital role; advertisement requirements, not observed hiring.",
+      "passage": "Lines 53-61: nursing qualification, valid SNB PC and BCLS, ILTC advantage, rotating shifts and two sites.",
+      "observation": "Nursing post explicitly combines professional credentials with shift and deployment conditions, distinguishing required from advantageous experience.",
+      "claimLabel": "source-reported",
+      "confidence": "high for advertisement wording",
+      "limits": "Same publisher group as B02, not independent institutional corroboration; full hiring status and offer terms unknown; pay undisclosed.",
+      "tags": [
+        "S03",
+        "nurse",
+        "community-hospital",
+        "shift",
+        "multi-site",
+        "publication:within-24-months"
+      ],
+      "employerActivity": "Community-hospital healthcare: SingHealth Community Hospitals",
+      "occupation": "Staff Nurse; Senior Staff Nurse preferences also described",
+      "arrangement": "unknown; three rotating shifts stated, full-time/part-time and contract terms not established",
+      "intermediary": "unknown",
+      "clientWorksite": "Two work sites within SingHealth Community Hospitals; exact sites not specified",
+      "stage": "Discovery/application requirements and prospective deployment/roster conditions",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-B16",
+      "url": "https://www.ncss.gov.sg/about-us/hear-from-our-community/sector-professionals/social-service-tribe-professionals/sivasubramaniam/",
+      "title": "Changing gears to make lives count - Sivasubramaniam",
+      "publisher": "National Council of Social Service",
+      "publicationDate": "2020-07-30",
+      "eventPeriod": "Conversion before four years at SINDA reported in 2020; exact transition date unknown",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct",
+      "type": "institution-curated first-person interview",
+      "family": "NCSS-corporate-programme-and-stories",
+      "method": "Selected social-worker success profile, same publisher family as B03.",
+      "passage": "Lines 31-44: technician seeks worker insight, hears programme recommendation, applies, studies while working and reports supportive colleagues.",
+      "observation": "Older account illustrates a human information route followed by formal conversion and a positive transition.",
+      "claimLabel": "source-reported",
+      "confidence": "moderate for historical reported sequence",
+      "limits": "Older publication/events; PCP route not interchangeable with current CCP eligibility; promotional selection and no current success-rate evidence.",
+      "tags": [
+        "S03",
+        "social-work",
+        "positive",
+        "human-alternative",
+        "publication:older",
+        "event:older"
+      ],
+      "employerActivity": "Social care at SINDA Family Service Centre (later); prior technician employer activity unknown",
+      "occupation": "Technician (prior); social worker (later)",
+      "arrangement": "Reported work alongside study during historical conversion; full-time/contract terms unknown",
+      "intermediary": "unknown; worker provides information and recommends programme, not an established recruitment agency",
+      "clientWorksite": "SINDA Family Service Centre; exact worksite unknown",
+      "stage": "Human career exploration, programme recommendation/application, retraining and reported transition",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-B17",
+      "url": "https://sg.micron.com/about/careers",
+      "title": "Careers",
+      "publisher": "Micron Singapore",
+      "publicationDate": "unknown; page references Talent Connect 2025 and 2026 awards",
+      "eventPeriod": "Career-page snapshot 2026-10-19; programme cohort dates unknown",
+      "accessDate": "2026-10-19",
+      "geography": "SG-context-only",
+      "type": "employer careers guidance",
+      "family": "Micron-corporate",
+      "method": "Primary employer page; career/internship channels, not selected job requirements.",
+      "passage": "Lines 248-252 and 388-408: employer job search, graduate pathways and local tertiary internship projects.",
+      "observation": "Employer describes direct-search, graduate and internship routes and real-project exposure; successful applicant outcomes are not reported.",
+      "claimLabel": "source-reported",
+      "confidence": "high for stated routes; low for outcomes",
+      "limits": "Same publisher family as B11; promotional claims/awards not evaluated or used to rank employer; no operator/trades eligibility or assessment criteria.",
+      "tags": [
+        "S07",
+        "semiconductor-employer",
+        "internship",
+        "graduate",
+        "discovery-route",
+        "publication:unknown"
+      ],
+      "employerActivity": "Semiconductor manufacturing: Micron Singapore",
+      "occupation": "Graduate/engineering and internship pathways described; specific job duties unknown",
+      "arrangement": "Internship and graduate pathways described; precise employment/contract terms unknown",
+      "intermediary": "unknown; local tertiary partners support education/internships, not established employing intermediaries",
+      "clientWorksite": "unknown",
+      "stage": "Discovery, direct employer careers search, student pathways and internship project exposure",
+      "updateDate": "unknown"
+    }
+  ],
+  "observations": [
+    {
+      "id": "R3-BO01",
+      "sourceIds": [
+        "R3-B01",
+        "R3-B02",
+        "R3-B15"
+      ],
+      "text": "Nursing eligibility, a nursing job's required credentials and an ancillary job's preferred certificate are different evidence categories; a shared healthcare setting does not make their requirements interchangeable.",
+      "label": "interpretation",
+      "limits": "Primary wording supports contrast for these routes only; no claim that support work is unskilled or universally credential-free."
+    },
+    {
+      "id": "R3-BO02",
+      "sourceIds": [
+        "R3-B03",
+        "R3-B10",
+        "R3-B14"
+      ],
+      "text": "Social-work conversion, professional accreditation conversion and associate-role selection have separate gates.",
+      "label": "interpretation",
+      "limits": "No legal equivalence to nursing registration or universal social-service credential rule."
+    },
+    {
+      "id": "R3-BO03",
+      "sourceIds": [
+        "R3-B04"
+      ],
+      "text": "One accounting graduate reports associate/internship applications and tailored cover letters without many interview opportunities, despite existing volunteering.",
+      "label": "source-reported",
+      "limits": "Reason for non-selection unknown; no application-success rate."
+    },
+    {
+      "id": "R3-BO04",
+      "sourceIds": [
+        "R3-B12",
+        "R3-B16",
+        "R3-B06"
+      ],
+      "text": "Positive accounts describe formal retraining plus human support or repeated attempts, rather than immediate transfer of previous occupational authority.",
+      "label": "interpretation",
+      "limits": "Selected successes with older events, no contemporary programme outcome estimate; B16 shares NCSS family with B03."
+    },
+    {
+      "id": "R3-BO05",
+      "sourceIds": [
+        "R3-B05"
+      ],
+      "text": "Nursing-conversion thread contains stage uncertainty and conflicting employment opinions.",
+      "label": "source-reported",
+      "limits": "No completed individual journey stitched from different users; portal status is not offer or demonstrated employer intent."
+    },
+    {
+      "id": "R3-BO06",
+      "sourceIds": [
+        "R3-B07",
+        "R3-B08",
+        "R3-B09"
+      ],
+      "text": "Applicants report different technical selection demands: project-depth scrutiny, process/quality questions or quizzes, and onsite mini-exams.",
+      "label": "source-reported",
+      "limits": "Unverified accounts with role/seniority differences; no practical machine-trial or general assessment-rate evidence."
+    },
+    {
+      "id": "R3-BO07",
+      "sourceIds": [
+        "R3-B09"
+      ],
+      "text": "A manufacturing commenter reports two onsite rounds and an offer, contrasting with accounts of uncertainty.",
+      "label": "source-reported",
+      "limits": "Exact date, role and employer unknown; one success is not a typical pathway or verified vacancy case."
+    },
+    {
+      "id": "R3-BO08",
+      "sourceIds": [
+        "R3-B07",
+        "R3-B08"
+      ],
+      "text": "Public preparation advice includes vagueness/exaggeration and AI recommendations; neither establishes successful truthful preparation or actual candidate AI adoption.",
+      "label": "interpretation",
+      "limits": "Advice is not observed behaviour; truthfulness judgment does not infer an author's actual actions."
+    },
+    {
+      "id": "R3-BO09",
+      "sourceIds": [
+        "R3-B11"
+      ],
+      "text": "The accessible employer platform notice discusses recruitment AI and human decisions in an EU/EMEA-framed notice.",
+      "label": "source-reported",
+      "limits": "International comparator only; Singapore applicability, audited practice and seeker AI use unknown."
+    },
+    {
+      "id": "R3-BO10",
+      "sourceIds": [
+        "R3-B02",
+        "R3-B14",
+        "R3-B15"
+      ],
+      "text": "Employer-hosted content is visible, but active external recruitment, eventual hiring and contemporaneous intent are not independently verified.",
+      "label": "observed fact",
+      "limits": "Observed fact applies only to retrieved content; no employer classified as deceptive from non-response, document age or conditional notification."
+    },
+    {
+      "id": "R3-BO11",
+      "sourceIds": [
+        "R3-B17"
+      ],
+      "text": "Manufacturer provides direct careers and student/internship routes; accessible page does not supply role-specific operator qualification or trade-test evidence.",
+      "label": "source-reported",
+      "limits": "Primary channel context only, same corporate family as B11; failed technologist page is an evidence gap."
+    },
+    {
+      "id": "R3-BO12",
+      "sourceIds": [
+        "R3-B13"
+      ],
+      "text": "Attributed historical electronics-to-pharmaceutical manufacturing success remains supporting evidence because the original EDB page was blocked.",
+      "label": "source-reported",
+      "limits": "Republished first-person text; older 2013 event, no independent corroboration or present-day outcome claim."
+    },
+    {
+      "id": "R3-BO13",
+      "sourceIds": [
+        "R3-B02",
+        "R3-B15"
+      ],
+      "text": "Roster and worksite conditions can affect care-role feasibility independently of formal eligibility.",
+      "label": "interpretation",
+      "limits": "Only these employers' advertised conditions; no shift-preference population or numeric pay evidence."
+    }
+  ],
+  "gaps": [
+    "S03: No completed recent application-to-offer journey for patient-services administrators, care assistants or agency-to-direct nurses; breadth context was not promoted into verified behaviour.",
+    "S03: No independent evaluation of current CCP selection outcomes, social-work associate interview tasks, practical clinical hiring tests, or actual processing times.",
+    "S03: No sector-specific observed AI use, explicit AI non-use, manual tracking practice or AI checking/correction sequence; absent mentions do not establish non-use.",
+    "S07: Direct manufacturing operator/technologist posting empty; primary precision-engineering/trades requirements and machinist/operator completed search sequences not established.",
+    "S07: No original inspected current source establishes routine paid/unpaid practical trade trials, universal engineering certification or licensing requirements; PEB PDF returned 404.",
+    "S07: Reserve family FAM-B-manufacturing-positive-route used two queries; current operator-level success remains missing. Older reprint remains supporting-only with original inaccessible.",
+    "Both: Numeric base pay, allowances, overtime, assessment compensation, offer negotiations and current vacancy filling outcomes not established.",
+    "Both: Public employer intent unknown. No independently corroborated sector-specific misleading-vacancy/scam episode or prevalence study collected; silence is not proof.",
+    "Dates: Several public threads expose only relative dates; exact publication/reply/event dates remain unknown and are not derived by assuming source-age precision.",
+    "Coverage: English public convenience sample; selection/survivorship/platform bias; migrant/cross-border routes, most allied health roles and full defence-specific recruitment excluded.",
+    "Access: Six failed/content-empty inspections retained; 26/26 inspection and 8/8 search ceiling reached, including three repeat opens. Final two repeats verified page-specific dates, not new substantive sources. Collection closes as bounded partial coverage.",
+    "Independence: SingHealth pair, NCSS pair and Micron pair each share publisher families; same-thread replies never counted as independent corroboration."
+  ],
+  "summary": [
+    "Bounded partial deep dives for S03/S07: 8 executed searches (6 core, 2 reserve), 26 inspections (including 3 repeats and 6 failed/content-empty attempts), 17 unique source records, 13 observations; no snippet-derived substantive findings.",
+    "S03 has stronger original regulator/employer/association context and source-attributed social-work search and historical positive sequences.",
+    "S07 has useful reported technical-assessment contrasts and an offer countercase, but substantially weaker operator/trades coverage and no verified routine trade-test requirements.",
+    "Claim labels distinguish observed content, source-reported practice, interpretation and unknowns; no market ranking, accepted features, individual legal advice or employer-intent accusation.",
+    "Only assigned S03.md, S07.md and worker-b.json authored; shared registers/slides left to coordinator. Existing dirty work preserved.",
+    "All source access dates use run date 2026-10-19; preferred window 2024-10-19 through 2026-10-19. Older events, unknown dates and EU/EMEA comparator explicitly labelled. Independent review/final owner acceptance outstanding.",
+    "Validation: JSON parsed from disk; all query/observation source references resolve; no duplicate source IDs; both Markdown profiles have all nine common sections. Final ledger checked again after date-verification repeats.",
+    "Metadata repair using already collected evidence only: all 17 sources have separate employerActivity, occupation, arrangement, intermediary, clientWorksite, stage and updateDate fields; unknowns explicit and regulators/programme providers distinguished from employers. B01/B03 page-update dates and B12 update separated from publication dates. Event periods and all 8 search/26 inspection records preserved; no further web calls."
+  ]
+}

@@ -1,0 +1,1453 @@
+{
+  "worker": "coordinator-map",
+  "queries": [
+    {
+      "id": "M-S01-01",
+      "basket": "S01",
+      "query": "Singapore retail wholesale recruitment channels skills framework job search",
+      "intent": "context and hiring routes",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M01",
+        "R3-M02"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S01-02",
+      "basket": "S01",
+      "query": "Singapore retail assistant job search walk in interview experience hired",
+      "intent": "reported experience and counterexamples",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M01",
+        "R3-M02"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S02-01",
+      "basket": "S02",
+      "query": "Singapore hospitality food beverage hotel careers recruitment shifts skills framework",
+      "intent": "context and hiring routes",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M03",
+        "R3-M04"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S02-02",
+      "basket": "S02",
+      "query": "Singapore service crew hotel job application trial shift experience",
+      "intent": "reported experience and counterexamples",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M03",
+        "R3-M04"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S03-01",
+      "basket": "S03",
+      "query": "Singapore healthcare social care nursing allied health recruitment qualifications",
+      "intent": "context and hiring routes",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M05",
+        "R3-M06"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S03-02",
+      "basket": "S03",
+      "query": "Singapore healthcare assistant nurse job application interview experience",
+      "intent": "reported experience and counterexamples",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M05",
+        "R3-M06"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S04-01",
+      "basket": "S04",
+      "query": "Singapore preschool educator teacher recruitment qualifications application",
+      "intent": "context and hiring routes",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M08",
+        "R3-M25"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S04-02",
+      "basket": "S04",
+      "query": "Singapore preschool teacher job search interview experience",
+      "intent": "reported experience and counterexamples",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M08",
+        "R3-M25"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S05-01",
+      "basket": "S05",
+      "query": "Singapore logistics transport warehouse recruitment skills framework careers",
+      "intent": "context and hiring routes",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M09",
+        "R3-M10"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S05-02",
+      "basket": "S05",
+      "query": "Singapore warehouse driver job search agency direct hire experience",
+      "intent": "reported experience and counterexamples",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M09",
+        "R3-M10"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S06-01",
+      "basket": "S06",
+      "query": "Singapore construction facilities technician recruitment qualifications careers",
+      "intent": "context and hiring routes",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M12",
+        "R3-M26"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S06-02",
+      "basket": "S06",
+      "query": "Singapore construction facilities job search interview experience",
+      "intent": "reported experience and counterexamples",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M12",
+        "R3-M26"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S07-01",
+      "basket": "S07",
+      "query": "Singapore manufacturing technician machinist careers skills framework recruitment",
+      "intent": "context and hiring routes",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S07-02",
+      "basket": "S07",
+      "query": "Singapore manufacturing technician job application trade test interview experience",
+      "intent": "reported experience and counterexamples",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S08-01",
+      "basket": "S08",
+      "query": "Singapore finance insurance bank operations recruitment career switch",
+      "intent": "context and hiring routes",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M14",
+        "R3-M15"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S08-02",
+      "basket": "S08",
+      "query": "Singapore bank insurance job search interview experience",
+      "intent": "reported experience and counterexamples",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M14",
+        "R3-M15"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S09-01",
+      "basket": "S09",
+      "query": "Singapore professional administrative business support security cleaner job recruitment qualifications",
+      "intent": "context and hiring routes",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M16",
+        "R3-M17"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S09-02",
+      "basket": "S09",
+      "query": "Singapore security officer administrative job search agency experience",
+      "intent": "reported experience and counterexamples",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M16",
+        "R3-M17"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S10-01",
+      "basket": "S10",
+      "query": "Singapore creative media arts designer recruitment portfolio careers",
+      "intent": "context and hiring routes",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M18",
+        "R3-M19"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S10-02",
+      "basket": "S10",
+      "query": "Singapore designer creative job search portfolio freelance experience",
+      "intent": "reported experience and counterexamples",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M18",
+        "R3-M19"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S11-01",
+      "basket": "S11",
+      "query": "Singapore public service community careers application recruitment process",
+      "intent": "context and hiring routes",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M20",
+        "R3-M21"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S11-02",
+      "basket": "S11",
+      "query": "Singapore public service job application interview experience hired",
+      "intent": "reported experience and counterexamples",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M20",
+        "R3-M21"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S12-01",
+      "basket": "S12",
+      "query": "Singapore IT digital services careers recruitment skills framework",
+      "intent": "context and hiring routes",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M28"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S12-02",
+      "basket": "S12",
+      "query": "Singapore IT support developer job search successful referral experience",
+      "intent": "reported experience and counterexamples",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M28"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S13-01",
+      "basket": "S13",
+      "query": "Singapore personal repair services beauty vehicle technician recruitment qualifications",
+      "intent": "context and hiring routes",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M23",
+        "R3-M24"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    },
+    {
+      "id": "M-S13-02",
+      "basket": "S13",
+      "query": "Singapore hairdresser vehicle technician job search practical test experience",
+      "intent": "reported experience and counterexamples",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "sourceIds": [
+        "R3-M23",
+        "R3-M24"
+      ],
+      "resultNote": "Broad discovery; ranking is not evidence. Sources inspected separately. Per-query result attribution unresolved for combined search responses; source IDs are basket-level routing."
+    }
+  ],
+  "inspections": [
+    {
+      "id": "I-M1",
+      "url": "https://www.enterprisesg.gov.sg/grow-your-business/boost-capabilities/talent-attraction-and-development/career-conversion-programme---wholesale-trade-professionals",
+      "status": "inspected",
+      "note": "turn242search2; About this programme / Eligibility"
+    },
+    {
+      "id": "I-M2",
+      "url": "https://www.reddit.com/r/SGExams/comments/1h4qdy1/working_at_a_retail_store_questions/",
+      "status": "inspected",
+      "note": "turn242reddit19; Opening post / early comments"
+    },
+    {
+      "id": "I-M3",
+      "url": "https://www.mom.gov.sg/employment-practices/progressive-wage-model/food-services-sector",
+      "status": "inspected",
+      "note": "turn242search4; Who it covers"
+    },
+    {
+      "id": "I-M4",
+      "url": "https://www.reddit.com/r/SGExams/comments/1s4s0ky/rant/",
+      "status": "inspected",
+      "note": "turn242reddit18; Opening / walk-in replies"
+    },
+    {
+      "id": "I-M5",
+      "url": "https://www.singhealth.com.sg/careers/career-tracks/ancillary-and-support-career-tracks",
+      "status": "inspected",
+      "note": "turn243search11; Position requirements"
+    },
+    {
+      "id": "I-M6",
+      "url": "https://www.reddit.com/r/SGExams/comments/1n1buaa",
+      "status": "inspected",
+      "note": "turn243reddit24; Opening questions 1-7"
+    },
+    {
+      "id": "I-M7",
+      "url": "https://www.ecda.gov.sg/docs/default-source/default-document-library/early-childhood-educator/list-of-early-childhood-qualifications-recognised-for-educator-certification3aadc5e0-56df-435b-8dc0-841503f48368.pdf?sfvrsn=8cd0fadf_6",
+      "status": "failed/verification or unavailable content",
+      "note": "turn243search13; No usable source content retained"
+    },
+    {
+      "id": "I-M8",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1ujgpd6/preschool_teacher_job/",
+      "status": "inspected",
+      "note": "turn243reddit20; Opening / first response"
+    },
+    {
+      "id": "I-M9",
+      "url": "https://spd.org.sg/what-we-do/employment-support-training/employment-ready-logistics-skills-training-programme/",
+      "status": "inspected",
+      "note": "turn244search5; Area / Objective / Content"
+    },
+    {
+      "id": "I-M10",
+      "url": "https://www.reddit.com/r/SGExams/comments/1i3xtpv",
+      "status": "inspected",
+      "note": "turn244reddit27; Opening / update"
+    },
+    {
+      "id": "I-M11",
+      "url": "https://www.wsg.gov.sg/docs/default-source/content/jobs-transformation-map/built-environment/facilities-technician.pdf?sfvrsn=dc54b53e_3",
+      "status": "failed/verification or unavailable content",
+      "note": "turn244search15; No usable source content retained"
+    },
+    {
+      "id": "I-M12",
+      "url": "https://www1.bca.gov.sg/about-us/careers/",
+      "status": "inspected",
+      "note": "turn244search3; Careers / Career opportunities"
+    },
+    {
+      "id": "I-M13",
+      "url": "https://www.myskillsfuture.gov.sg/content/portal/en/career-resources/career-resources/job-skills-insights/i40_economy.html",
+      "status": "failed/verification or unavailable content",
+      "note": "turn245search10; No usable source content retained"
+    },
+    {
+      "id": "I-M14",
+      "url": "https://www.income.com.sg/blog/mid-career-switch",
+      "status": "inspected",
+      "note": "turn245search3; Experience / Right Opportunity"
+    },
+    {
+      "id": "I-M15",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1uotgsi/psa_i_got_baited_into_applying_for_a_role_in_an/",
+      "status": "inspected",
+      "note": "turn245reddit25; Opening"
+    },
+    {
+      "id": "I-M16",
+      "url": "https://www.mom.gov.sg/employment-practices/progressive-wage-model/cleaning-sector",
+      "status": "inspected",
+      "note": "turn247search0; Who it covers / Training"
+    },
+    {
+      "id": "I-M17",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1x2vxiq/31m_10_years_in_private_security_and_feeling/",
+      "status": "inspected",
+      "note": "turn247reddit24; Opening"
+    },
+    {
+      "id": "I-M18",
+      "url": "https://www.superminted.com/careers",
+      "status": "inspected",
+      "note": "turn247search4; How We Hire / Diversity"
+    },
+    {
+      "id": "I-M19",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1qli2su/need_physical_portfolio_for_creative_interviews/",
+      "status": "inspected",
+      "note": "turn247reddit27; Opening / replies"
+    },
+    {
+      "id": "I-M20",
+      "url": "https://www.careers.gov.sg/",
+      "status": "inspected",
+      "note": "turn248search3; Apply / Diverse career options"
+    },
+    {
+      "id": "I-M21",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1va8kmo/timeline_of_applying_to_ministrystat_board_jobs/",
+      "status": "inspected",
+      "note": "turn248reddit12; Opening / disclaimer / follow-up"
+    },
+    {
+      "id": "I-M22",
+      "url": "https://www.imda.gov.sg/how-we-can-help/skills-framework",
+      "status": "failed/verification or unavailable content",
+      "note": "turn245search1; No usable source content retained"
+    },
+    {
+      "id": "I-M23",
+      "url": "https://aas.com.sg/job/recovery-crew-vehicle-mechanics/",
+      "status": "inspected",
+      "note": "turn249search2; Requirements"
+    },
+    {
+      "id": "I-M24",
+      "url": "https://jeanyipgroup.com/careers/",
+      "status": "inspected",
+      "note": "turn249search6; Careers / Learn as You Earn"
+    },
+    {
+      "id": "I-M25",
+      "url": "https://conversion.mycareersfuture.gov.sg/portal/ProgramDetails.aspx?ProgID=P00000436",
+      "status": "inspected",
+      "note": "turn243search7; What is it / Who can apply / How"
+    },
+    {
+      "id": "I-M26",
+      "url": "https://www.conspecs.sg/careers",
+      "status": "inspected",
+      "note": "turn244search9; Open Positions / Don't See a Suitable Role"
+    },
+    {
+      "id": "I-M27",
+      "url": "https://www.skillsfuture.gov.sg/docs/default-source/skills-framework/skillsframework-pe_11full-booklet-layout-fa_web_single-page-%28002%29.pdf",
+      "status": "failed/verification or unavailable content",
+      "note": "turn245search12; No usable source content retained"
+    },
+    {
+      "id": "I-M28",
+      "url": "https://www.enterprisesg.gov.sg/industries/ict-and-media/guides-and-insights",
+      "status": "inspected",
+      "note": "turn248search7; Guides & toolkits"
+    }
+  ],
+  "sources": [
+    {
+      "id": "R3-M01",
+      "url": "https://www.enterprisesg.gov.sg/grow-your-business/boost-capabilities/talent-attraction-and-development/career-conversion-programme---wholesale-trade-professionals",
+      "title": "Career Conversion Programme – Wholesale Trade Professionals",
+      "publisher": "www.enterprisesg.gov.sg",
+      "publicationDate": "unknown",
+      "eventPeriod": "undated current page",
+      "accessDate": "2026-10-19",
+      "geography": "SG-context official/employer/programme",
+      "type": "official context",
+      "family": "https://www.enterprisesg.gov.sg/grow-your-business/boost-capabilities/talent-attraction-and-development/career-conversion-programme---wholesale-trade-professionals",
+      "method": "Publisher's own stated context/process; not an outcome evaluation",
+      "passage": "About this programme / Eligibility",
+      "observation": "Wholesale conversion includes new-hire training and existing-worker reskilling; admission is discretionary.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for stated wording; transfer limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S01"
+      ],
+      "employerActivity": "retail/wholesale; source-specific",
+      "occupation": "retail assistant or wholesale professional",
+      "arrangement": "temporary retail / conversion route",
+      "stage": "discovery and availability",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Publisher-specific statement only"
+    },
+    {
+      "id": "R3-M02",
+      "url": "https://www.reddit.com/r/SGExams/comments/1h4qdy1/working_at_a_retail_store_questions/",
+      "title": "working at a retail store questions : r/SGExams",
+      "publisher": "www.reddit.com",
+      "publicationDate": "unknown",
+      "eventPeriod": "January 2025 availability mentioned",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct reported context; author/outcome unverified",
+      "type": "first-person report",
+      "family": "https://www.reddit.com/r/SGExams/comments/1h4qdy1/working_at_a_retail_store_questions",
+      "method": "Self-selected public account; identity and outcomes unverified",
+      "passage": "Opening post / early comments",
+      "observation": "A retail walk-in applicant worries about response time and commitment length. A commenter reports applying through an outlet QR code after an availability mismatch.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S01"
+      ],
+      "employerActivity": "retail/wholesale; source-specific",
+      "occupation": "retail assistant or wholesale professional",
+      "arrangement": "temporary retail / conversion route",
+      "stage": "discovery and availability",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Opening-post concern and commenter report/advice are separate claims, not one participant sequence"
+    },
+    {
+      "id": "R3-M03",
+      "url": "https://www.mom.gov.sg/employment-practices/progressive-wage-model/food-services-sector",
+      "title": "Progressive Wage Model for the food services sector",
+      "publisher": "www.mom.gov.sg",
+      "publicationDate": "unknown",
+      "eventPeriod": "current policy; effective dates vary",
+      "accessDate": "2026-10-19",
+      "geography": "SG-context official/employer/programme",
+      "type": "official policy",
+      "family": "https://www.mom.gov.sg/employment-practices/progressive-wage-model/food-services-sector",
+      "method": "Publisher's own stated context/process; not an outcome evaluation",
+      "passage": "Who it covers",
+      "observation": "Food-services wage/training coverage depends on citizenship/residency, employment, premises and employer conditions, not a universal hospitality rule.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for stated wording; transfer limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S02"
+      ],
+      "employerActivity": "food-service employer; hotel generalisation excluded",
+      "occupation": "service crew / food preparation",
+      "arrangement": "part-time/direct route reported",
+      "stage": "discovery and conditions",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Publisher-specific statement only"
+    },
+    {
+      "id": "R3-M04",
+      "url": "https://www.reddit.com/r/SGExams/comments/1s4s0ky/rant/",
+      "title": "RANT : r/SGExams",
+      "publisher": "www.reddit.com",
+      "publicationDate": "unknown",
+      "eventPeriod": "relative months; exact dates unknown",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct reported context; author/outcome unverified",
+      "type": "first-person report",
+      "family": "https://www.reddit.com/r/SGExams/comments/1s4s0ky/rant",
+      "method": "Self-selected public account; identity and outcomes unverified",
+      "passage": "Opening / walk-in replies",
+      "observation": "Online part-time search frustration contrasts with replies reporting successful walk-in hiring, including food service.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S02"
+      ],
+      "employerActivity": "food-service employer; hotel generalisation excluded",
+      "occupation": "service crew / food preparation",
+      "arrangement": "part-time/direct route reported",
+      "stage": "discovery and conditions",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Opening-post concern and commenter report/advice are separate claims, not one participant sequence"
+    },
+    {
+      "id": "R3-M05",
+      "url": "https://www.singhealth.com.sg/careers/career-tracks/ancillary-and-support-career-tracks",
+      "title": "Ancillary and Support Career Tracks | SingHealth",
+      "publisher": "www.singhealth.com.sg",
+      "publicationDate": "unknown",
+      "eventPeriod": "undated current page",
+      "accessDate": "2026-10-19",
+      "geography": "SG-context official/employer/programme",
+      "type": "employer statement",
+      "family": "https://www.singhealth.com.sg/careers/career-tracks/ancillary-and-support-career-tracks",
+      "method": "Publisher's own stated context/process; not an outcome evaluation",
+      "passage": "Position requirements",
+      "observation": "SingHealth lists different entry qualifications for patient-service, patient-care, healthcare-assistant and attendant roles.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for stated wording; transfer limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S03"
+      ],
+      "employerActivity": "healthcare employer",
+      "occupation": "support roles / prospective full-time nurse",
+      "arrangement": "agency history; prospective full-time",
+      "stage": "eligibility, comparison and preparation",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Publisher-specific statement only"
+    },
+    {
+      "id": "R3-M06",
+      "url": "https://www.reddit.com/r/SGExams/comments/1n1buaa",
+      "title": "Advice & guidance for FT Nurse : r/SGExams",
+      "publisher": "www.reddit.com",
+      "publicationDate": "unknown",
+      "eventPeriod": "relative one-year date",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct reported context; author/outcome unverified",
+      "type": "first-person report",
+      "family": "https://www.reddit.com/r/SGExams/comments/1n1buaa",
+      "method": "Self-selected public account; identity and outcomes unverified",
+      "passage": "Opening questions 1-7",
+      "observation": "A prospective full-time nurse with agency experience asks about specialty fit, retraining, response time and allowances. Freeze allegations remain unverified.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S03"
+      ],
+      "employerActivity": "healthcare employer",
+      "occupation": "support roles / prospective full-time nurse",
+      "arrangement": "agency history; prospective full-time",
+      "stage": "eligibility, comparison and preparation",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Opening-post concern and commenter report/advice are separate claims, not one participant sequence"
+    },
+    {
+      "id": "R3-M08",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1ujgpd6/preschool_teacher_job/",
+      "title": "Preschool teacher job : r/singaporejobs",
+      "publisher": "www.reddit.com",
+      "publicationDate": "unknown",
+      "eventPeriod": "relative months",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct reported context; author/outcome unverified",
+      "type": "first-person report",
+      "family": "https://www.reddit.com/r/singaporejobs/comments/1ujgpd6/preschool_teacher_job",
+      "method": "Self-selected public account; identity and outcomes unverified",
+      "passage": "Opening / first response",
+      "observation": "A beginning preschool teacher seeks employer comparisons. An internship commenter gives a positive account.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S04"
+      ],
+      "employerActivity": "preschool education",
+      "occupation": "beginning educator / career converter",
+      "arrangement": "work-and-study or unknown",
+      "stage": "employer comparison and entry",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Opening-post concern and commenter report/advice are separate claims, not one participant sequence"
+    },
+    {
+      "id": "R3-M09",
+      "url": "https://spd.org.sg/what-we-do/employment-support-training/employment-ready-logistics-skills-training-programme/",
+      "title": "Employment-Ready Logistics Skills Training Programme - SPD",
+      "publisher": "spd.org.sg",
+      "publicationDate": "unknown",
+      "eventPeriod": "undated current page",
+      "accessDate": "2026-10-19",
+      "geography": "SG-context official/employer/programme",
+      "type": "programme documentation",
+      "family": "https://spd.org.sg/what-we-do/employment-support-training/employment-ready-logistics-skills-training-programme",
+      "method": "Publisher's own stated context/process; not an outcome evaluation",
+      "passage": "Area / Objective / Content",
+      "observation": "SPD describes logistics/warehousing training covering technical competencies, workplace behaviour and operational readiness; placement success is not measured here.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for stated wording; transfer limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S05"
+      ],
+      "employerActivity": "warehouse operator unknown; programme provider SPD",
+      "occupation": "warehouse worker / logistics trainee",
+      "arrangement": "agency-deployed or training",
+      "stage": "offer conditions and entry",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Publisher-specific statement only"
+    },
+    {
+      "id": "R3-M10",
+      "url": "https://www.reddit.com/r/SGExams/comments/1i3xtpv",
+      "title": "did my recruiting agency scam me : r/SGExams",
+      "publisher": "www.reddit.com",
+      "publicationDate": "unknown",
+      "eventPeriod": "historical; exact date unverified",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct reported context; author/outcome unverified",
+      "type": "first-person report",
+      "family": "https://www.reddit.com/r/SGExams/comments/1i3xtpv",
+      "method": "Self-selected public account; identity and outcomes unverified",
+      "passage": "Opening / update",
+      "observation": "A warehouse worker reports a mismatch between agency-agreed Saturday hours and site expectations. No contract or legal outcome was independently inspected.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S05"
+      ],
+      "employerActivity": "warehouse operator unknown; programme provider SPD",
+      "occupation": "warehouse worker / logistics trainee",
+      "arrangement": "agency-deployed or training",
+      "stage": "offer conditions and entry",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Opening-post concern and commenter report/advice are separate claims, not one participant sequence"
+    },
+    {
+      "id": "R3-M12",
+      "url": "https://www1.bca.gov.sg/about-us/careers/",
+      "title": "Careers | Building and Construction Authority",
+      "publisher": "www1.bca.gov.sg",
+      "publicationDate": "unknown",
+      "eventPeriod": "event date unknown; see updateDate for page snapshot",
+      "accessDate": "2026-10-19",
+      "geography": "SG-context official/employer/programme",
+      "type": "official employer statement",
+      "family": "https://www1.bca.gov.sg/about-us/careers",
+      "method": "Publisher's own stated context/process; not an outcome evaluation",
+      "passage": "Careers / Career opportunities",
+      "observation": "BCA links its own recruitment to Careers@Gov. This is public-agency employer context, not contractor hiring evidence.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for stated wording; transfer limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S06"
+      ],
+      "employerActivity": "source-dependent consultancy / public agency",
+      "occupation": "site technical officer / public-agency careers",
+      "arrangement": "full-time site ad or unknown",
+      "stage": "discovery and requirements",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "2026-03-04",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Publisher-specific statement only"
+    },
+    {
+      "id": "R3-M14",
+      "url": "https://www.income.com.sg/blog/mid-career-switch",
+      "title": "Making a Mid-career Switch with Income Insurance",
+      "publisher": "Income Insurance",
+      "publicationDate": "2020-12-31",
+      "eventPeriod": "Transition occurred by publication; precise event dates unknown; older",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct",
+      "type": "employer-curated report",
+      "family": "https://www.income.com.sg/blog/mid-career-switch",
+      "method": "Reused coordinator breadth source, original ID/family retained; targeted worker reinspection. Older promotional employee account; insurance employer, finance operations; logistics career switch.",
+      "passage": "Date line112; Experience120-122; Right Opportunity125-126; transition129-132.",
+      "observation": "Employee relates prior logistics responsibilities to a finance-operations listing, reports a positive interview, accepted offer, courses/self-learning and team support.",
+      "claimLabel": "source-reported claim",
+      "confidence": "Moderate for attributed sequence; low for current transfer.",
+      "limits": "Older than 24 months, curated success; discovery channel/rounds/pay unknown. Potential pay cut is a general barrier, not an observed personal reduction. Same Income employer group as C01/C05.",
+      "tags": [
+        "S08",
+        "employer:insurance",
+        "occupation:finance-operations",
+        "route:career-switch",
+        "publication:older",
+        "event:older",
+        "reuse:coordinator-map",
+        "employer-group:Income"
+      ],
+      "employerActivity": "Insurance (Income); prior industry logistics",
+      "occupation": "Finance Operations; prior logistics, business operations and project responsibilities",
+      "arrangement": "Employee after accepted offer; contract type unknown",
+      "stage": "Listing; interview; offer acceptance; supported transition",
+      "intermediary": "unknown",
+      "clientWorksite": "Singapore context; precise worksite unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Publisher-specific statement only",
+      "breadthMetadataBeforeReconciliation": {
+        "publicationDate": "unknown",
+        "eventPeriod": "switch and publication date unknown",
+        "method": "Publisher's own stated context/process; not an outcome evaluation",
+        "passage": "Experience / Right Opportunity",
+        "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+      },
+      "metadataReconciliation": "Publication/event/method fields improved from worker-c.json's reopened original. Same ID and source family; not an additional case."
+    },
+    {
+      "id": "R3-M15",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1uotgsi/psa_i_got_baited_into_applying_for_a_role_in_an/",
+      "title": "(PSA!!) I got baited into applying for a role in an Insurance organisation : r/singaporejobs",
+      "publisher": "www.reddit.com",
+      "publicationDate": "unknown",
+      "eventPeriod": "relative three-month date",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct reported context; author/outcome unverified",
+      "type": "first-person report",
+      "family": "https://www.reddit.com/r/singaporejobs/comments/1uotgsi/psa_i_got_baited_into_applying_for_a_role_in_an",
+      "method": "Self-selected public account; identity and outcomes unverified",
+      "passage": "Opening",
+      "observation": "An applicant reports unclear employer/role identity while arranging a finance-related interview. This is a scope-clarity allegation, not established deception or no intent to hire.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S08"
+      ],
+      "employerActivity": "insurance employer / intermediary and client unresolved",
+      "occupation": "finance operations / role identity disputed",
+      "arrangement": "career switch / unknown",
+      "stage": "assessment and interview",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Opening-post concern and commenter report/advice are separate claims, not one participant sequence"
+    },
+    {
+      "id": "R3-M16",
+      "url": "https://www.mom.gov.sg/employment-practices/progressive-wage-model/cleaning-sector",
+      "title": "Progressive Wage Model for the cleaning sector",
+      "publisher": "www.mom.gov.sg",
+      "publicationDate": "unknown",
+      "eventPeriod": "current page references 2026 addendum",
+      "accessDate": "2026-10-19",
+      "geography": "SG-context official/employer/programme",
+      "type": "official policy",
+      "family": "https://www.mom.gov.sg/employment-practices/progressive-wage-model/cleaning-sector",
+      "method": "Publisher's own stated context/process; not an outcome evaluation",
+      "passage": "Who it covers / Training",
+      "observation": "MOM distinguishes covered outsourced and in-house cleaning arrangements and training requirements; these do not apply to every administrative or professional service.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for stated wording; transfer limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S09"
+      ],
+      "employerActivity": "cleaning/support-services or security employer",
+      "occupation": "cleaner / security worker",
+      "arrangement": "outsourced or in-house policy; individual unknown",
+      "stage": "entry and career transition",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Publisher-specific statement only"
+    },
+    {
+      "id": "R3-M17",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1x2vxiq/31m_10_years_in_private_security_and_feeling/",
+      "title": "31M, 10 Years in Private Security and Feeling Stuck. What Are My Career Options? : r/singaporejobs",
+      "publisher": "www.reddit.com",
+      "publicationDate": "unknown",
+      "eventPeriod": "relative days",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct reported context; author/outcome unverified",
+      "type": "first-person report",
+      "family": "https://www.reddit.com/r/singaporejobs/comments/1x2vxiq/31m_10_years_in_private_security_and_feeling",
+      "method": "Self-selected public account; identity and outcomes unverified",
+      "passage": "Opening",
+      "observation": "A security worker considering a change asks about transferring experience while preserving income and improving working time. Personal details and outcomes remain unverified.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S09"
+      ],
+      "employerActivity": "cleaning/support-services or security employer",
+      "occupation": "cleaner / security worker",
+      "arrangement": "outsourced or in-house policy; individual unknown",
+      "stage": "entry and career transition",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Opening-post concern and commenter report/advice are separate claims, not one participant sequence"
+    },
+    {
+      "id": "R3-M18",
+      "url": "https://www.superminted.com/careers",
+      "title": "Careers at a Leading Branding & Creative Agency | Singapore | Superminted",
+      "publisher": "www.superminted.com",
+      "publicationDate": "unknown",
+      "eventPeriod": "undated current page",
+      "accessDate": "2026-10-19",
+      "geography": "SG-context official/employer/programme",
+      "type": "employer statement",
+      "family": "https://www.superminted.com/careers",
+      "method": "Publisher's own stated context/process; not an outcome evaluation",
+      "passage": "How We Hire / Diversity",
+      "observation": "One creative agency describes CV/portfolio submission, role-dependent task or portfolio discussion, and possible interview adjustments.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for stated wording; transfer limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S10"
+      ],
+      "employerActivity": "creative agency or unknown",
+      "occupation": "designer / creative applicant",
+      "arrangement": "employee/project unknown",
+      "stage": "application and interview evidence",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Publisher-specific statement only"
+    },
+    {
+      "id": "R3-M19",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1qli2su/need_physical_portfolio_for_creative_interviews/",
+      "title": "need physical portfolio for creative interviews? : r/askSingapore",
+      "publisher": "www.reddit.com",
+      "publicationDate": "unknown",
+      "eventPeriod": "relative six-month date; historical recollections mixed",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct reported context; author/outcome unverified",
+      "type": "first-person report",
+      "family": "https://www.reddit.com/r/askSingapore/comments/1qli2su/need_physical_portfolio_for_creative_interviews",
+      "method": "Self-selected public account; identity and outcomes unverified",
+      "passage": "Opening / replies",
+      "observation": "A creative applicant asks about physical/digital samples. Replies describe websites, PDFs and tablets, mixing personal experience with advice.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S10"
+      ],
+      "employerActivity": "creative agency or unknown",
+      "occupation": "designer / creative applicant",
+      "arrangement": "employee/project unknown",
+      "stage": "application and interview evidence",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Opening-post concern and commenter report/advice are separate claims, not one participant sequence"
+    },
+    {
+      "id": "R3-M20",
+      "url": "https://www.careers.gov.sg/",
+      "title": "Home | Careers@Gov",
+      "publisher": "www.careers.gov.sg",
+      "publicationDate": "unknown",
+      "eventPeriod": "event date unknown; see updateDate for page snapshot",
+      "accessDate": "2026-10-19",
+      "geography": "SG-context official/employer/programme",
+      "type": "official employer channel",
+      "family": "https://www.careers.gov.sg",
+      "method": "Publisher's own stated context/process; not an outcome evaluation",
+      "passage": "Apply / Diverse career options",
+      "observation": "Careers@Gov links to public-service applications across ministries and statutory boards. Employer promises are not observed workplace outcomes.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for stated wording; transfer limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S11"
+      ],
+      "employerActivity": "public administration, exact bodies undisclosed",
+      "occupation": "junior public-service roles unspecified",
+      "arrangement": "unknown",
+      "stage": "application/interview/waiting",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "2026-09-01",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Publisher-specific statement only"
+    },
+    {
+      "id": "R3-M21",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1va8kmo/timeline_of_applying_to_ministrystat_board_jobs/",
+      "title": "Timeline of applying to ministry/stat board jobs in Singapore: my experience from 50+ applications and 6 interviews : r/singaporejobs",
+      "publisher": "www.reddit.com",
+      "publicationDate": "unknown",
+      "eventPeriod": "relative two-month date",
+      "accessDate": "2026-10-19",
+      "geography": "SG-direct reported context; author/outcome unverified",
+      "type": "first-person report",
+      "family": "https://www.reddit.com/r/singaporejobs/comments/1va8kmo/timeline_of_applying_to_ministrystat_board_jobs",
+      "method": "Self-selected public account; identity and outcomes unverified",
+      "passage": "Opening / disclaimer / follow-up",
+      "observation": "A public-sector applicant reports an eventual offer after varied waits across two organisations. Their backup-candidate explanation remains speculation.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S11"
+      ],
+      "employerActivity": "public administration, exact bodies undisclosed",
+      "occupation": "junior public-service roles unspecified",
+      "arrangement": "unknown",
+      "stage": "application/interview/waiting",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Opening-post concern and commenter report/advice are separate claims, not one participant sequence"
+    },
+    {
+      "id": "R3-M23",
+      "url": "https://aas.com.sg/job/recovery-crew-vehicle-mechanics/",
+      "title": "aas.com.sg",
+      "publisher": "aas.com.sg",
+      "publicationDate": "unknown",
+      "eventPeriod": "undated visible ad; active recruitment unknown",
+      "accessDate": "2026-10-19",
+      "geography": "SG-context official/employer/programme",
+      "type": "employer statement",
+      "family": "https://aas.com.sg/job/recovery-crew-vehicle-mechanics",
+      "method": "Publisher's own stated context/process; not an outcome evaluation",
+      "passage": "Requirements",
+      "observation": "AA advertises recovery/mechanic duties, a Class 4 licence for towing/recovery, rotating shifts and willingness to train some applicants without related experience.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for stated wording; transfer limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S13"
+      ],
+      "employerActivity": "recovery services / hair-beauty employer",
+      "occupation": "recovery mechanic / beauty or hair service roles",
+      "arrangement": "ad-specific; rotating or retail hours",
+      "stage": "discovery and offer questions",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Publisher-specific statement only"
+    },
+    {
+      "id": "R3-M24",
+      "url": "https://jeanyipgroup.com/careers/",
+      "title": "Careers - Jean Yip Group",
+      "publisher": "jeanyipgroup.com",
+      "publicationDate": "unknown",
+      "eventPeriod": "undated visible page; intake status unknown",
+      "accessDate": "2026-10-19",
+      "geography": "SG-context official/employer/programme",
+      "type": "employer statement",
+      "family": "https://jeanyipgroup.com/careers",
+      "method": "Publisher's own stated context/process; not an outcome evaluation",
+      "passage": "Careers / Learn as You Earn",
+      "observation": "Jean Yip advertises hair/beauty roles, basic-plus-commission pay, retail hours, unconfirmed location and a paid training route.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for stated wording; transfer limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S13"
+      ],
+      "employerActivity": "recovery services / hair-beauty employer",
+      "occupation": "recovery mechanic / beauty or hair service roles",
+      "arrangement": "ad-specific; rotating or retail hours",
+      "stage": "discovery and offer questions",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Publisher-specific statement only"
+    },
+    {
+      "id": "R3-M25",
+      "url": "https://conversion.mycareersfuture.gov.sg/portal/ProgramDetails.aspx?ProgID=P00000436",
+      "title": "Career Conversion Programmes (CCP) Details",
+      "publisher": "conversion.mycareersfuture.gov.sg",
+      "publicationDate": "unknown",
+      "eventPeriod": "event date unknown; see updateDate for page snapshot",
+      "accessDate": "2026-10-19",
+      "geography": "SG-context official/employer/programme",
+      "type": "official programme documentation",
+      "family": "https://conversion.mycareersfuture.gov.sg/portal/ProgramDetails.aspx",
+      "method": "Publisher's own stated context/process; not an outcome evaluation",
+      "passage": "What is it / Who can apply / How",
+      "observation": "A preschool work-and-study programme describes employer screening and training leading to certification. Its salary sections differ, so no single entitlement is inferred.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for stated wording; transfer limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S04"
+      ],
+      "employerActivity": "preschool education",
+      "occupation": "beginning educator / career converter",
+      "arrangement": "work-and-study or unknown",
+      "stage": "employer comparison and entry",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "page accurate as of 2026-07-22",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Publisher-specific statement only"
+    },
+    {
+      "id": "R3-M26",
+      "url": "https://www.conspecs.sg/careers",
+      "title": "Careers | C@nspecs Pte Ltd",
+      "publisher": "www.conspecs.sg",
+      "publicationDate": "2026-02-20 stated posting date",
+      "eventPeriod": "active recruitment and eventual outcome unknown",
+      "accessDate": "2026-10-19",
+      "geography": "SG-context official/employer/programme",
+      "type": "employer advertisement",
+      "family": "https://www.conspecs.sg/careers",
+      "method": "Publisher's own stated context/process; not an outcome evaluation",
+      "passage": "Open Positions / Don't See a Suitable Role",
+      "observation": "A consultancy lists a site technical-officer role and a separate future-openings invitation. Visible listing and disclosed talent-pool wording do not prove active recruitment.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for stated wording; transfer limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S06"
+      ],
+      "employerActivity": "source-dependent consultancy / public agency",
+      "occupation": "site technical officer / public-agency careers",
+      "arrangement": "full-time site ad or unknown",
+      "stage": "discovery and requirements",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Publisher-specific statement only"
+    },
+    {
+      "id": "R3-M28",
+      "url": "https://www.enterprisesg.gov.sg/industries/ict-and-media/guides-and-insights",
+      "title": "Guides & Insights | ICT & Media",
+      "publisher": "www.enterprisesg.gov.sg",
+      "publicationDate": "unknown",
+      "eventPeriod": "undated current page",
+      "accessDate": "2026-10-19",
+      "geography": "SG-context official/employer/programme",
+      "type": "official context",
+      "family": "https://www.enterprisesg.gov.sg/industries/ict-and-media/guides-and-insights",
+      "method": "Publisher's own stated context/process; not an outcome evaluation",
+      "passage": "Guides & toolkits",
+      "observation": "EnterpriseSG links separate ICT and media skills/career frameworks. Linked documents were not thereby inspected and hiring outcomes remain unknown.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for stated wording; transfer limited",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "tags": [
+        "S12"
+      ],
+      "employerActivity": "ICT/media resource hub, no employer episode",
+      "occupation": "unknown",
+      "arrangement": "unknown",
+      "stage": "career context only",
+      "intermediary": "unknown unless stated in observation",
+      "clientWorksite": "unknown",
+      "updateDate": "unknown",
+      "freshness": "publication/event freshness unresolved unless an explicit date is retained; access is not publication",
+      "accountUnit": "Publisher-specific statement only"
+    }
+  ],
+  "observations": [
+    {
+      "id": "R3-MO1",
+      "sourceIds": [
+        "R3-M01"
+      ],
+      "text": "Wholesale conversion includes new-hire training and existing-worker reskilling; admission is discretionary.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO2",
+      "sourceIds": [
+        "R3-M02"
+      ],
+      "text": "A retail walk-in applicant worries about response time and commitment length. A commenter reports applying through an outlet QR code after an availability mismatch.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO3",
+      "sourceIds": [
+        "R3-M03"
+      ],
+      "text": "Food-services wage/training coverage depends on citizenship/residency, employment, premises and employer conditions, not a universal hospitality rule.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO4",
+      "sourceIds": [
+        "R3-M04"
+      ],
+      "text": "Online part-time search frustration contrasts with replies reporting successful walk-in hiring, including food service.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO5",
+      "sourceIds": [
+        "R3-M05"
+      ],
+      "text": "SingHealth lists different entry qualifications for patient-service, patient-care, healthcare-assistant and attendant roles.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO6",
+      "sourceIds": [
+        "R3-M06"
+      ],
+      "text": "A prospective full-time nurse with agency experience asks about specialty fit, retraining, response time and allowances. Freeze allegations remain unverified.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO7",
+      "sourceIds": [
+        "R3-M08"
+      ],
+      "text": "A beginning preschool teacher seeks employer comparisons. An internship commenter gives a positive account.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO8",
+      "sourceIds": [
+        "R3-M09"
+      ],
+      "text": "SPD describes logistics/warehousing training covering technical competencies, workplace behaviour and operational readiness; placement success is not measured here.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO9",
+      "sourceIds": [
+        "R3-M10"
+      ],
+      "text": "A warehouse worker reports a mismatch between agency-agreed Saturday hours and site expectations. No contract or legal outcome was independently inspected.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO10",
+      "sourceIds": [
+        "R3-M12"
+      ],
+      "text": "BCA links its own recruitment to Careers@Gov. This is public-agency employer context, not contractor hiring evidence.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO11",
+      "sourceIds": [
+        "R3-M14"
+      ],
+      "text": "An employer-curated account published 2020-12-31 describes a logistics-to-finance-operations transition by that date; exact event dates are unknown. Related responsibilities, learning and team support are reported, not proven causes or current outcomes.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO12",
+      "sourceIds": [
+        "R3-M15"
+      ],
+      "text": "An applicant reports unclear employer/role identity while arranging a finance-related interview. This is a scope-clarity allegation, not established deception or no intent to hire.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO13",
+      "sourceIds": [
+        "R3-M16"
+      ],
+      "text": "MOM distinguishes covered outsourced and in-house cleaning arrangements and training requirements; these do not apply to every administrative or professional service.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO14",
+      "sourceIds": [
+        "R3-M17"
+      ],
+      "text": "A security worker considering a change asks about transferring experience while preserving income and improving working time. Personal details and outcomes remain unverified.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO15",
+      "sourceIds": [
+        "R3-M18"
+      ],
+      "text": "One creative agency describes CV/portfolio submission, role-dependent task or portfolio discussion, and possible interview adjustments.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO16",
+      "sourceIds": [
+        "R3-M19"
+      ],
+      "text": "A creative applicant asks about physical/digital samples. Replies describe websites, PDFs and tablets, mixing personal experience with advice.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO17",
+      "sourceIds": [
+        "R3-M20"
+      ],
+      "text": "Careers@Gov links to public-service applications across ministries and statutory boards. Employer promises are not observed workplace outcomes.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO18",
+      "sourceIds": [
+        "R3-M21"
+      ],
+      "text": "A public-sector applicant reports an eventual offer after varied waits across two organisations. Their backup-candidate explanation remains speculation.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO19",
+      "sourceIds": [
+        "R3-M23"
+      ],
+      "text": "AA advertises recovery/mechanic duties, a Class 4 licence for towing/recovery, rotating shifts and willingness to train some applicants without related experience.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO20",
+      "sourceIds": [
+        "R3-M24"
+      ],
+      "text": "Jean Yip advertises hair/beauty roles, basic-plus-commission pay, retail hours, unconfirmed location and a paid training route.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO21",
+      "sourceIds": [
+        "R3-M25"
+      ],
+      "text": "A preschool work-and-study programme describes employer screening and training leading to certification. Its salary sections differ, so no single entitlement is inferred.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO22",
+      "sourceIds": [
+        "R3-M26"
+      ],
+      "text": "A consultancy lists a site technical-officer role and a separate future-openings invitation. Visible listing and disclosed talent-pool wording do not prove active recruitment.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    },
+    {
+      "id": "R3-MO23",
+      "sourceIds": [
+        "R3-M28"
+      ],
+      "text": "EnterpriseSG links separate ICT and media skills/career frameworks. Linked documents were not thereby inspected and hiring outcomes remain unknown.",
+      "label": "source-reported claim",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification."
+    }
+  ],
+  "gaps": [
+    "S07 initial routes inaccessible; deep dive assigned.",
+    "No representative prevalence or observed behaviour.",
+    "S12 new firsthand sequence not retained.",
+    "S04 programme salary sections inconsistent; no figure promoted."
+  ]
+}

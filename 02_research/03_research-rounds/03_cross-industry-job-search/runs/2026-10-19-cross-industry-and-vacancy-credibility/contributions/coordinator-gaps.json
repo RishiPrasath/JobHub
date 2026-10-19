@@ -1,0 +1,141 @@
+{
+  "worker": "coordinator-gaps",
+  "queries": [
+    {
+      "id": "F-P01",
+      "query": "Singapore nurse job application ChatGPT experience",
+      "intent": "actual application AI use and checking in healthcare; distinguish advice",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Targeted nurse/warehouse AI-use accounts not established. Combined results inspected separately; unrelated clinical AI work excluded. Source assignment is portfolio-level, not exact ranking attribution.",
+      "sourceIds": [
+        "R3-P01",
+        "R3-P02"
+      ]
+    },
+    {
+      "id": "F-P02",
+      "query": "Singapore warehouse job application ChatGPT experience",
+      "intent": "AI use/non-use outside office settings; retrieval gap is not absence",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Targeted nurse/warehouse AI-use accounts not established. Combined results inspected separately; unrelated clinical AI work excluded. Source assignment is portfolio-level, not exact ranking attribution.",
+      "sourceIds": [
+        "R3-P01",
+        "R3-P02"
+      ]
+    },
+    {
+      "id": "F-P03",
+      "query": "Singapore designer found work portfolio referral experience",
+      "intent": "manual/human success counterexample to universal AI/resume assumption",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Targeted nurse/warehouse AI-use accounts not established. Combined results inspected separately; unrelated clinical AI work excluded. Source assignment is portfolio-level, not exact ranking attribution.",
+      "sourceIds": [
+        "R3-P01",
+        "R3-P02"
+      ]
+    }
+  ],
+  "inspections": [
+    {
+      "url": "https://www.linkedin.com/posts/josephlouistan_how-i-landed-senior-roles-without-applying-activity-7364280286420881408-ty5t",
+      "status": "inspected",
+      "note": "Original post opening; numerical claims excluded because no method shown."
+    },
+    {
+      "url": "https://www.reddit.com/r/asksg/comments/1w9rfbb/have_anyone_every_seen_or_heard_anyone_apply_for/",
+      "status": "inspected",
+      "note": "Opening post distinguishes unfinished prototype; replies describe claimed personal use. Other replies give advice."
+    }
+  ],
+  "sources": [
+    {
+      "id": "R3-P01",
+      "url": "https://www.linkedin.com/posts/josephlouistan_how-i-landed-senior-roles-without-applying-activity-7364280286420881408-ty5t",
+      "title": "Design leader's self-reported referral routes",
+      "publisher": "LinkedIn post by Joseph Louis Tan",
+      "publicationDate": "unknown; relative date only",
+      "updateDate": "unknown",
+      "eventPeriod": "retrospective; exact period unknown",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore-linked author/institution; individual job geographies unverified",
+      "type": "self-promotional first-person practitioner claim",
+      "family": "https://www.linkedin.com/posts/josephlouistan_how-i-landed-senior-roles-without-applying-activity-7364280286420881408-ty5t",
+      "method": "Purposive public retrieval; no independent identity, application, timing or outcome validation",
+      "passage": "Original post opening; numerical claims excluded because no method shown.",
+      "observation": "The author attributes some senior design opportunities to introductions and existing trust. The post also promotes a service; its numerical referral/job-board comparisons lack an inspected method and are not retained.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "No prevalence, sector-specific adoption, comparative effectiveness, permission to scrape/contact, or validated hiring benefit.",
+      "tags": [
+        "S10",
+        "manual/human alternative"
+      ],
+      "employerActivity": "unknown",
+      "occupation": "senior product design roles reported",
+      "arrangement": "unknown",
+      "stage": "discovery/referral",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown"
+    },
+    {
+      "id": "R3-P02",
+      "url": "https://www.reddit.com/r/asksg/comments/1w9rfbb/have_anyone_every_seen_or_heard_anyone_apply_for/",
+      "title": "Reported local automation and application workflow",
+      "publisher": "Public r/asksg contributors",
+      "publicationDate": "unknown; relative date only",
+      "updateDate": "unknown",
+      "eventPeriod": "retrospective; exact period unknown",
+      "accessDate": "2026-10-19",
+      "geography": "SG-linked public discussion, individual locations/occupations unknown",
+      "type": "public first-person claims and discussion",
+      "family": "https://www.reddit.com/r/asksg/comments/1w9rfbb/have_anyone_every_seen_or_heard_anyone_apply_for/",
+      "method": "Purposive public retrieval; no independent identity, application, timing or outcome validation",
+      "passage": "Opening post distinguishes unfinished prototype; replies describe claimed personal use. Other replies give advice.",
+      "observation": "The opener describes a prototype, while separate commenters claim AI matching, tailoring, tracking and some applications. Claimed time savings/callbacks are unverified and do not establish causality or supported tool behaviour.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "No prevalence, sector-specific adoption, comparative effectiveness, permission to scrape/contact, or validated hiring benefit.",
+      "tags": [
+        "cross-industry",
+        "AI-reported",
+        "occupation-unknown"
+      ],
+      "employerActivity": "unknown",
+      "occupation": "unknown",
+      "arrangement": "unknown",
+      "stage": "matching, preparation, application, tracking",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown"
+    }
+  ],
+  "observations": [
+    {
+      "id": "R3-PO01",
+      "sourceIds": [
+        "R3-P01"
+      ],
+      "text": "The author attributes some senior design opportunities to introductions and existing trust. The post also promotes a service; its numerical referral/job-board comparisons lack an inspected method and are not retained.",
+      "label": "source-reported claim",
+      "limits": "No prevalence, sector-specific adoption, comparative effectiveness, permission to scrape/contact, or validated hiring benefit."
+    },
+    {
+      "id": "R3-PO02",
+      "sourceIds": [
+        "R3-P02"
+      ],
+      "text": "The opener describes a prototype, while separate commenters claim AI matching, tailoring, tracking and some applications. Claimed time savings/callbacks are unverified and do not establish causality or supported tool behaviour.",
+      "label": "source-reported claim",
+      "limits": "No prevalence, sector-specific adoption, comparative effectiveness, permission to scrape/contact, or validated hiring benefit."
+    }
+  ],
+  "gaps": [
+    "No occupation-attributed Singapore nurse or warehouse job-application AI-use sequence established by these targeted searches.",
+    "Public prototype and claimed use cannot establish effectiveness, compliance or provider capabilities."
+  ]
+}

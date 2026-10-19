@@ -1,0 +1,47 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+import {fileURLToPath} from 'node:url';
+
+const here=path.dirname(fileURLToPath(import.meta.url));
+const html=fs.readFileSync(path.join(here,'index.html'),'utf8');
+const data=JSON.parse(fs.readFileSync(path.join(here,'slides.json'),'utf8'));
+const articles=[...html.matchAll(/<article class="slide /g)];
+assert.equal(articles.length,data.slides.length);
+assert.equal(articles.length,21);
+assert.equal([...html.matchAll(/<details class="notes">/g)].length,21);
+assert.equal([...html.matchAll(/<table>/g)].length,6);
+assert(!/<(?:script|link|img|iframe)[^>]+(?:src|href)=/i.test(html),'Unexpected external dependency');
+let localLinks=0;
+for(const [,href] of html.matchAll(/href="([^"]+)"/g)){
+  if(/^(https?:|#)/.test(href))continue;
+  assert(fs.existsSync(path.resolve(here,href)),'Missing local evidence link: '+href);
+  localLinks++;
+}
+assert(localLinks>20);
+const makeElement=()=>({hidden:false,disabled:false,textContent:'',attributes:{},events:{},details:{open:false},addEventListener(k,f){this.events[k]=f;},setAttribute(k,v){this.attributes[k]=v;},querySelector(){return this.details;}});
+const slides=Array.from({length:21},makeElement);
+const controls=Object.fromEntries(['prev','next','status','read','print'].map(k=>[k,makeElement()]));
+const events={};
+const classes=new Set();
+let prints=0;
+const document={querySelectorAll:()=>slides,getElementById:k=>controls[k],body:{classList:{toggle(k,on){on?classes.add(k):classes.delete(k);}}},addEventListener(k,f){events[k]=f;}};
+const context={document,location:{hash:''},history:{replaceState(){}},window:{scrollTo(){},print(){prints++;}}};
+const script=html.match(/<script>([\s\S]*?)<\/script>/)[1];
+vm.runInNewContext(script,context,{timeout:1000});
+assert.equal(controls.status.textContent,'Slide 1 of 21');
+assert(controls.prev.disabled);
+controls.next.events.click();
+assert.equal(controls.status.textContent,'Slide 2 of 21');
+const key=k=>events.keydown({key:k,preventDefault(){},target:{closest:()=>false}});
+key('End');assert.equal(controls.status.textContent,'Slide 21 of 21');assert(controls.next.disabled);
+key('ArrowRight');assert.equal(controls.status.textContent,'Slide 21 of 21');
+key('Home');assert.equal(controls.status.textContent,'Slide 1 of 21');
+key('n');assert(slides[0].details.open);
+key('n');assert(!slides[0].details.open);
+controls.read.events.click();assert(classes.has('reading'));assert.equal(controls.read.attributes['aria-pressed'],'true');
+controls.read.events.click();assert(!classes.has('reading'));
+controls.print.events.click();assert.equal(prints,1);
+assert.equal(slides.filter(s=>!s.hidden).length,1);
+console.log(JSON.stringify({slides:slides.length,tables:6,notes:21,localLinks,navigationLogic:'pass',externalDependencies:0,browserRendering:'not tested'}));

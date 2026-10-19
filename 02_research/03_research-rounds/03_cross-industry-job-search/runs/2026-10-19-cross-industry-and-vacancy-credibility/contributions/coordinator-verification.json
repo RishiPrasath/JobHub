@@ -1,0 +1,19 @@
+{
+  "worker": "coordinator-verification",
+  "queries": [],
+  "inspections": [
+    {
+      "url": "https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2025/1014-written-answer-to-pq-on-ghost-jobs",
+      "status": "inspected",
+      "note": "Independent coordinator spot-check R3-G04, answer paragraphs1-3: validation context and multiple-posting alternative. Same source, not independent corroboration."
+    },
+    {
+      "url": "https://www.mom.gov.sg/-/media/mom/documents/employment-agencies/ea-alerts/2018/0704-fake-job-postings-reminder.pdf",
+      "status": "inspected",
+      "note": "Independent coordinator spot-check R3-G16, p1 paragraph2: attributed historical nonexistent translator-vacancy case. Same source, not additional case/family."
+    }
+  ],
+  "sources": [],
+  "observations": [],
+  "gaps": []
+}

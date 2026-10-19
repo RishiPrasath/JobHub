@@ -1,0 +1,885 @@
+{
+  "worker": "credibility",
+  "queries": [
+    {
+      "id": "G01",
+      "query": "Singapore job scam employer impersonation official advisory",
+      "intent": "Distinguish impersonation/fraud from authentic inactive vacancies",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Official scam guidance located; original body and EA-alert citation follow-ups inspected. Scams and authentic-intermediary false representations kept distinct. Native web output combined each submitted batch; source mapping records assessed relevance, not a per-query ranking attribution.",
+      "sourceIds": [
+        "R3-G01",
+        "R3-G15",
+        "R3-G16"
+      ]
+    },
+    {
+      "id": "G02",
+      "query": "Singapore expired job advertisement reposted vacancy employer explanation",
+      "intent": "Find expiry refresh syndication alternatives",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Useful first-party expiry/repost/refresh and narrow official re-advertising explanations. No verified stale listing episode. Native web output combined each submitted batch; source mapping records assessed relevance, not a per-query ranking attribution.",
+      "sourceIds": [
+        "R3-G02",
+        "R3-G03",
+        "R3-G09"
+      ]
+    },
+    {
+      "id": "G03",
+      "query": "Singapore employer evergreen vacancy talent pool future opportunities careers",
+      "intent": "Find explicit employer pipeline disclosure",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Core retrieval noisy: evergreen company-name collisions and generic careers pages. Explicit Singapore disclosure pursued under F-G01; Workday original empty. Native web output combined each submitted batch; source mapping records assessed relevance, not a per-query ranking attribution.",
+      "sourceIds": []
+    },
+    {
+      "id": "G04",
+      "query": "Singapore hiring freeze cancelled vacancy internal candidate recruitment explanation",
+      "intent": "Establish changed intent or timing limits",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Public manager account of mid-process cancellation found; no authenticated direct-employer freeze/internal-fill chronology. Native web output combined each submitted batch; source mapping records assessed relevance, not a per-query ranking attribution.",
+      "sourceIds": [
+        "R3-G13"
+      ]
+    },
+    {
+      "id": "G05",
+      "query": "Singapore ghost jobs employer no intention hiring evidence study",
+      "intent": "Find attributable local evidence for no current intent",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Singapore official response plus historical EA original located through linked advisory index. No representative local intent prevalence study. Native web output combined each submitted batch; source mapping records assessed relevance, not a per-query ranking attribution.",
+      "sourceIds": [
+        "R3-G04",
+        "R3-G15",
+        "R3-G16"
+      ]
+    },
+    {
+      "id": "G06",
+      "query": "Singapore ghost job posting job seeker experience hired after delay",
+      "intent": "Find reported consequences workarounds and contrary outcomes",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Public discussion contains waiting costs, continued searching and delayed-offer contrary accounts; self-reports unverified. Native web output combined each submitted batch; source mapping records assessed relevance, not a per-query ranking attribution.",
+      "sourceIds": [
+        "R3-G08"
+      ]
+    },
+    {
+      "id": "G07",
+      "query": "ghost jobs employer survey questionnaire sampling methodology",
+      "intent": "Inspect original survey definition denominator sampling and sponsor",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Retrieved original operational comparator and survey references; questionnaire/sampling gap required F-G02/F-G03. Candidate ghosting literature excluded as different construct. Native web output combined each submitted batch; source mapping records assessed relevance, not a per-query ranking attribution.",
+      "sourceIds": [
+        "R3-G05"
+      ]
+    },
+    {
+      "id": "G08",
+      "query": "ghost job postings hiring intent validation limitations research methods",
+      "intent": "Inspect primary empirical inference and validation limits",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Original Perspective and preprint inspected. Signals/review labels do not supply employer-confirmed intent; failed PDF/HTML routes logged. Native web output combined each submitted batch; source mapping records assessed relevance, not a per-query ranking attribution.",
+      "sourceIds": [
+        "R3-G10",
+        "R3-G11"
+      ]
+    },
+    {
+      "id": "F-G01",
+      "query": "Singapore careers \"talent pool\" \"future\" \"not\" vacancy",
+      "intent": "Gap SG-PIPELINE: G03 confused evergreen terminology with company names; seek explicit no-current-vacancy employer disclosure. Stop at a usable disclosure or access gap.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Reserve family SG-PIPELINE, count 1/3: explicit agency future-pool disclosure inspected. Direct employer Workday body inaccessible; no form action. Branch closed with narrower example. Native web output combined each submitted batch; source mapping records assessed relevance, not a per-query ranking attribution.",
+      "sourceIds": [
+        "R3-G07"
+      ]
+    },
+    {
+      "id": "F-G02",
+      "query": "ResumeBuilder 2024 1641 hiring managers fake job listings survey methodology",
+      "intent": "Gap SURVEY-METHOD: G07 returned derivative discussion and candidate ghosting; seek original employer survey with recruitment/wording. Stop at original report or documented missing methods.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Reserve family SURVEY-METHOD, count 1/3: original employer screening methodology and separate seeker-perception survey inspected; exact full instruments absent. Native web output combined each submitted batch; source mapping records assessed relevance, not a per-query ranking attribution.",
+      "sourceIds": [
+        "R3-G06",
+        "R3-G12"
+      ]
+    },
+    {
+      "id": "F-G03",
+      "query": "Clarify Capital 2022 ghost jobs survey 1000 hiring managers methodology",
+      "intent": "Gap SURVEY-METHOD: compare independent original survey and distinguish no immediate intent from deceptive intent. Second and last reserve attempt in this family.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "executed",
+      "resultNote": "Reserve family SURVEY-METHOD, count 2/3: initial slug misdirected; original located via cited link and opened. Older fieldwork and missing population/questionnaire retained. No further reserve authorised beyond total 3. Native web output combined each submitted batch; source mapping records assessed relevance, not a per-query ranking attribution.",
+      "sourceIds": [
+        "R3-G14"
+      ]
+    }
+  ],
+  "inspections": [
+    {
+      "url": "https://www.police.gov.sg/media-hub/news/2024/20240220_police_advisory_on_job_scams",
+      "status": "retrieved-navigation-only",
+      "note": "Attempt 1/28. Initial open returned navigation rather than advisory body; targeted repeat charged at attempt 18."
+    },
+    {
+      "url": "https://support.fastjobs.sg/how-to-repost-an-expired-job-ad-on-fastjobs",
+      "status": "retrieved-metadata-only",
+      "note": "Attempt 2/28. Initial batched response exposed page metadata; body retrieved at attempt 8."
+    },
+    {
+      "url": "https://sg.employer.seek.com/support/termsconditions",
+      "status": "retrieved-metadata-only",
+      "note": "Attempt 3/28. Initial batched response exposed page metadata; body retrieved at attempt 9."
+    },
+    {
+      "url": "https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2025/1014-written-answer-to-pq-on-ghost-jobs",
+      "status": "retrieved-metadata-only",
+      "note": "Attempt 4/28. Initial batched response exposed page metadata; body retrieved at attempt 10."
+    },
+    {
+      "url": "https://www.ashbyhq.com/talent-trends-report/reports/ghost-jobs",
+      "status": "retrieved-metadata-only",
+      "note": "Attempt 5/28. Initial batched response exposed page metadata; body retrieved at attempt 11."
+    },
+    {
+      "url": "https://hunterng.com/files/ghost-jobs.pdf",
+      "status": "failed",
+      "note": "Attempt 6/28. Internal Error fetching hunterng PDF; no content used."
+    },
+    {
+      "url": "https://www.reddit.com/r/askSingapore/comments/1onv8j6/got_ghosted_after_4_rounds_of_interview_3_weeks/",
+      "status": "retrieved-metadata-only",
+      "note": "Attempt 7/28. Initial batched response exposed thread metadata; targeted body retrieved at attempt 17."
+    },
+    {
+      "url": "https://support.fastjobs.sg/how-to-repost-an-expired-job-ad-on-fastjobs",
+      "status": "inspected",
+      "note": "Attempt 8/28. Repeat: FastJobs repost steps and storage note."
+    },
+    {
+      "url": "https://sg.employer.seek.com/support/termsconditions",
+      "status": "inspected",
+      "note": "Attempt 9/28. Repeat: SEEK terms; current genuine recruitment clause 47 and refresh/copy clause 52."
+    },
+    {
+      "url": "https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2025/1014-written-answer-to-pq-on-ghost-jobs",
+      "status": "inspected",
+      "note": "Attempt 10/28. Repeat: MOM parliamentary answer paragraphs 1-3."
+    },
+    {
+      "url": "https://www.ashbyhq.com/talent-trends-report/reports/ghost-jobs",
+      "status": "inspected",
+      "note": "Attempt 11/28. Repeat: Ashby original customer-data report; linked ResumeBuilder original followed separately."
+    },
+    {
+      "url": "https://www.resumebuilder.com/3-in-10-companies-currently-have-fake-job-posting-listed/",
+      "status": "inspected",
+      "note": "Attempt 12/28. Original 2024 ResumeBuilder report including screening and methodology."
+    },
+    {
+      "url": "https://cgg.wd103.myworkdayjobs.com/viridienfairs/job/Talent-Pool---NUS-Career-Fair-2026_JR101167",
+      "status": "empty-content",
+      "note": "Attempt 13/28. Workday talent-pool URL returned zero body lines. Search snippet excluded as evidence."
+    },
+    {
+      "url": "https://ibsmanpower.com.sg/staff/jobseekers",
+      "status": "inspected",
+      "note": "Attempt 14/28. IBS public talent-pool disclosure and FAQs; no form submitted."
+    },
+    {
+      "url": "https://arxiv.org/html/2410.21771v1",
+      "status": "failed",
+      "note": "Attempt 15/28. arXiv HTML v1 returned 404. Later original PDF succeeded at attempt 21."
+    },
+    {
+      "url": "https://clarifycapital.com/job-seekers-beware-of-ghost-jobs",
+      "status": "redirect-unrelated",
+      "note": "Attempt 16/28. Guessed Clarify report slug redirected to homepage. No topical evidence used; original URL resolved through Wikipedia citation at attempt 26."
+    },
+    {
+      "url": "https://www.reddit.com/r/askSingapore/comments/1onv8j6/got_ghosted_after_4_rounds_of_interview_3_weeks/",
+      "status": "inspected",
+      "note": "Attempt 17/28. Repeat: targeted Reddit body and comments; accounts, contrary outcomes and workarounds; no usernames retained."
+    },
+    {
+      "url": "https://www.police.gov.sg/media-hub/news/2024/20240220_police_advisory_on_job_scams",
+      "status": "inspected",
+      "note": "Attempt 18/28. Repeat: SPF advisory body, lines 901-920; historical contacts not reused."
+    },
+    {
+      "url": "https://ask.gov.sg/mom/questions/clos85opm00ui4e0xa4gfkphd",
+      "status": "inspected",
+      "note": "Attempt 19/28. MOM re-advertising FAQ; scoped to specified EP/S Pass applications."
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/human-dynamics/articles/10.3389/fhumd.2026.1924666/full",
+      "status": "inspected",
+      "note": "Attempt 20/28. Frontiers original Perspective; sections 3, 4, 7 and conflicts."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2410.21771",
+      "status": "inspected",
+      "note": "Attempt 21/28. arXiv original PDF; definition and empirical-method/limitations sections. Failed alternate URLs remain charged."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ghost_job",
+      "status": "discovery-only",
+      "note": "Attempt 22/28. Wikipedia used only to locate Clarify original citation link 96; not evidence for research claims."
+    },
+    {
+      "url": "https://www.resumebuilder.com/ghost-jobs/",
+      "status": "inspected",
+      "note": "Attempt 23/28. ResumeBuilder seeker survey original including 2026 field date, suspicion and behaviour framing."
+    },
+    {
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1uvvm19/one_possible_reason_you_did_everything_right_and/",
+      "status": "inspected",
+      "note": "Attempt 24/28. Original public cancellation account; anonymous firsthand claim; allegations in replies not adopted."
+    },
+    {
+      "url": "https://www.mom.gov.sg/employment-agencies/employment-agency-publications/ea-alerts",
+      "status": "discovery-only",
+      "note": "Attempt 25/28. MOM EA Alerts directory located 2017/2018 original PDF links; not counted as substantive source."
+    },
+    {
+      "url": "https://clarifycapital.com/job-seekers-beware-of-ghost-jobs-survey",
+      "status": "inspected",
+      "note": "Attempt 26/28. Click Wikipedia original citation link 96; Clarify original survey and methodology inspected."
+    },
+    {
+      "url": "https://www.mom.gov.sg/-/media/mom/documents/employment-agencies/ea-alerts/2017/0810-fake-job-postings.pdf",
+      "status": "inspected",
+      "note": "Attempt 27/28. Click MOM EA Alerts link 160; original one-page 2017 advisory."
+    },
+    {
+      "url": "https://www.mom.gov.sg/-/media/mom/documents/employment-agencies/ea-alerts/2018/0704-fake-job-postings-reminder.pdf",
+      "status": "inspected",
+      "note": "Attempt 28/28. Click MOM EA Alerts link 159; original one-page reminder and case account. Hard stop; no further source requests."
+    }
+  ],
+  "sources": [
+    {
+      "id": "R3-G01",
+      "url": "https://www.police.gov.sg/media-hub/news/2024/20240220_police_advisory_on_job_scams",
+      "title": "Police Advisory On Job Scams",
+      "publisher": "Singapore Police Force",
+      "publicationDate": "2024-02-20",
+      "eventPeriod": "2023-10-01 to 2024-01-31",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "official advisory",
+      "family": "R3-GF-SPF-TASK-SCAMS",
+      "method": "Police advisory describing reported scam variants; no vacancy sample or prevalence denominator.",
+      "passage": "Body lines 901-920: approaches 1-3 and precautions; faithful paraphrase.",
+      "observation": "Scammers impersonate real businesses, use task commissions and sometimes fake contracts, then demand transfers; SPF recommends verification through official sources.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for advisory contents",
+      "limits": "Older than 24 months; scam identity/action evidence does not establish genuine employers' intent. Historical contact details not reproduced.",
+      "tags": [
+        "SG-direct",
+        "publication:older",
+        "events:older",
+        "scam",
+        "impersonation",
+        "industry:unknown",
+        "occupation:unknown",
+        "arrangement:unknown"
+      ]
+    },
+    {
+      "id": "R3-G02",
+      "url": "https://support.fastjobs.sg/how-to-repost-an-expired-job-ad-on-fastjobs",
+      "title": "How to Repost an Expired Job Ad on FastJobs",
+      "publisher": "FastJobs",
+      "publicationDate": "unknown",
+      "eventPeriod": "Undated help page retrieved 2026-10-19",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "platform process documentation",
+      "family": "R3-GF-FASTJOBS-REPOST",
+      "method": "First-party employer help; no sampled vacancies.",
+      "passage": "Steps 1-5 and dashboard-storage note, lines 19-32; paraphrase.",
+      "observation": "Expired adverts can be reposted with a new duration; the guide recommends retaining reusable job descriptions.",
+      "claimLabel": "observed fact",
+      "confidence": "high for published mechanism",
+      "limits": "Shows an available action, not its frequency, automation or intent in any particular repost.",
+      "tags": [
+        "SG-context-only",
+        "publication:unknown",
+        "events:unknown",
+        "reposting",
+        "expiry",
+        "industry:unknown",
+        "occupation:unknown",
+        "arrangement:unknown"
+      ]
+    },
+    {
+      "id": "R3-G03",
+      "url": "https://sg.employer.seek.com/support/termsconditions",
+      "title": "Advertising Terms of Use",
+      "publisher": "SEEK / Jobstreet Singapore",
+      "publicationDate": "unknown; current page inspected",
+      "eventPeriod": "Terms snapshot 2026-10-19",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore-facing; regional terms",
+      "type": "platform policy",
+      "family": "R3-GF-SEEK-TERMS",
+      "method": "First-party advertising contract; no enforcement dataset.",
+      "passage": "Clauses 47, 52; body lines 220-235; paraphrase.",
+      "observation": "Advertisements must concern a current genuine paid opportunity being recruited for. Copying, extending, refreshing or reposting can constitute an additional advertisement.",
+      "claimLabel": "observed fact",
+      "confidence": "high for published terms",
+      "limits": "A policy is not proof of compliance. Effective date not established; do not treat platform presence as certification.",
+      "tags": [
+        "SG-context-only",
+        "publication:unknown",
+        "events:unknown",
+        "current-recruitment",
+        "reposting",
+        "duplicate",
+        "industry:unknown",
+        "occupation:unknown",
+        "arrangement:unknown"
+      ]
+    },
+    {
+      "id": "R3-G04",
+      "url": "https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2025/1014-written-answer-to-pq-on-ghost-jobs",
+      "title": "Written Answer to PQ on Ghost Jobs",
+      "publisher": "Singapore Ministry of Manpower",
+      "publicationDate": "2025-10-14",
+      "eventPeriod": "Practices described as at 2025-10-14",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "official parliamentary response",
+      "family": "R3-GF-MOM-2025-VACANCY-VALIDATION",
+      "method": "MOM account of employer-survey validation; no public listing-level audit or error rate.",
+      "passage": "Answer paragraphs 1-3, lines 43-46; paraphrase.",
+      "observation": "MOM describes cross-checks and employer follow-up for persistent unfilled vacancies; duplicate portal postings can reflect ordinary recruitment.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for attributable official statement",
+      "limits": "Does not quantify Singapore ghost adverts, guarantee every MCF listing, or reveal public intent ground truth.",
+      "tags": [
+        "SG-direct",
+        "publication:within-24-months",
+        "events:within-24-months",
+        "statistics",
+        "duplicate",
+        "validation",
+        "industry:cross-sector",
+        "occupation:unknown",
+        "arrangement:unknown"
+      ]
+    },
+    {
+      "id": "R3-G05",
+      "url": "https://www.ashbyhq.com/talent-trends-report/reports/ghost-jobs",
+      "title": "How common are ghost jobs?",
+      "publisher": "Ashby",
+      "publicationDate": "2025-04-08",
+      "eventPeriod": "2021-01 to 2024-12; outcome breakdown 2024",
+      "accessDate": "2026-10-19",
+      "geography": "International comparator; customer geography undisclosed",
+      "type": "vendor operational research",
+      "family": "R3-GF-ASHBY-OUTCOMES",
+      "method": "Over 22,000 customer jobs; ATS outcomes and stages. Sampling, country mix and cohort censoring unspecified; commercial sponsor is platform operator.",
+      "passage": "Body lines 38-60; paraphrase.",
+      "observation": "Reports filled, paused and offer-without-hire outcomes; cautions that closing without a hire does not necessarily mean a ghost job.",
+      "claimLabel": "source-reported claim",
+      "confidence": "moderate for customer dataset; low transfer",
+      "limits": "Customer selection and outcome recording constrain inference. Interviews or later hires do not establish original intent or applicant experience. Narrative date range/three-year description is imprecise.",
+      "tags": [
+        "international-comparator:geography-undisclosed",
+        "publication:within-24-months",
+        "events:mixed",
+        "eventual-nonfill",
+        "pause",
+        "contrary",
+        "industry:unknown",
+        "occupation:unknown",
+        "arrangement:unknown"
+      ]
+    },
+    {
+      "id": "R3-G06",
+      "url": "https://www.resumebuilder.com/3-in-10-companies-currently-have-fake-job-posting-listed/",
+      "title": "3 in 10 Companies Currently Have Fake Job Postings Listed",
+      "publisher": "ResumeBuilder.com",
+      "publicationDate": "unknown; report concerns May 2024",
+      "eventPeriod": "Launch 2024-05-22; past-year/current self-report",
+      "accessDate": "2026-10-19",
+      "geography": "Unknown in inspected methodology; not Singapore evidence",
+      "type": "commissioned employer survey",
+      "family": "R3-GF-RB-EMPLOYER-2024",
+      "method": "Pollfish online; 1,641 screened, 649 completed. Age >25, income >=$75k, above high-school education, manager+, company >10 employees, hiring involvement; full survey conditional on admitting a past-year listing not intended to be filled.",
+      "passage": "Methodology lines 121-126; motives and current-listing sections; paraphrase.",
+      "observation": "Respondents report impression-management and resume-collection motives; follow-up findings concern the admitted-listing subgroup, not all advertisements.",
+      "claimLabel": "source-reported claim",
+      "confidence": "moderate for what report says; low population inference",
+      "limits": "No full questionnaire, company deduplication, weighting, nonresponse, field-end date or geography disclosed. Sponsor incentive; employer admission uncorroborated. Historical fieldwork.",
+      "tags": [
+        "geography:unknown",
+        "publication:unknown",
+        "events:older",
+        "self-reported-no-intent",
+        "survey-screening",
+        "publisher-group:ResumeBuilder",
+        "industry:unknown",
+        "occupation:manager-respondents",
+        "arrangement:unknown"
+      ]
+    },
+    {
+      "id": "R3-G07",
+      "url": "https://ibsmanpower.com.sg/staff/jobseekers",
+      "title": "For local jobseekers (SC/PR): join the IBS talent pool",
+      "publisher": "IBS Manpower Solutions",
+      "publicationDate": "unknown",
+      "eventPeriod": "Disclosure visible 2026-10-19; no opening date",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "intermediary statement",
+      "family": "R3-GF-IBS-TALENT-POOL",
+      "method": "Public agency self-description; no registration or outcome verification performed.",
+      "passage": "Introduction and FAQs, lines 32-36, 100-113, 134-156; paraphrase.",
+      "observation": "Explicitly distinguishes general future-opportunity registration from a specific vacancy and disclaims guaranteed contact, interview or placement.",
+      "claimLabel": "observed fact",
+      "confidence": "high for visible disclosure",
+      "limits": "Agency, not direct employer example; no evidence of actual matching effectiveness, vacancy count or current approved headcount.",
+      "tags": [
+        "SG-direct",
+        "publication:unknown",
+        "events:unknown",
+        "disclosed-talent-pool",
+        "no-immediate-vacancy-promise",
+        "industry:recruitment-intermediary",
+        "occupation:unknown",
+        "arrangement:unknown"
+      ]
+    },
+    {
+      "id": "R3-G08",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1onv8j6/got_ghosted_after_4_rounds_of_interview_3_weeks/",
+      "title": "Got ghosted after 4 rounds of interview… What's the longest you've waited and still got an offer?",
+      "publisher": "Public r/askSingapore contributors",
+      "publicationDate": "unknown; retrieved relative ages about 1 year",
+      "eventPeriod": "Retrospective experiences; exact years mostly unknown",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore forum; individual work locations incompletely disclosed",
+      "type": "public firsthand reports and discussion",
+      "family": "R3-GF-REDDIT-DELAY-1onv8j6",
+      "method": "Self-selected anonymous thread; accounts not authenticated or independently verified.",
+      "passage": "Comments lines 204, 294, 359, 429-451, 597-623; paraphrase, no usernames retained.",
+      "observation": "Different commenters report prolonged waits followed by offers, losing another opportunity while waiting, and continuing applications rather than relying on silence.",
+      "claimLabel": "source-reported claim",
+      "confidence": "low for underlying events",
+      "limits": "One thread is one family; commenters' explanations and advice are not confirmed causes or proven workarounds. Office/tech skew, uncertain dates; no employer accusation retained.",
+      "tags": [
+        "SG-context-only",
+        "publication:unknown",
+        "events:unknown",
+        "delayed-offer",
+        "consequences",
+        "manual-workaround",
+        "contrary",
+        "industry:mixed-office-tech-skew",
+        "occupation:unknown",
+        "arrangement:unknown"
+      ]
+    },
+    {
+      "id": "R3-G09",
+      "url": "https://ask.gov.sg/mom/questions/clos85opm00ui4e0xa4gfkphd",
+      "title": "Can we use a job advertisement where the closing date is more than 3 months before EP or S Pass applications?",
+      "publisher": "MOM via AskGov",
+      "publicationDate": "unknown; relative update label only",
+      "eventPeriod": "Undated current guidance snapshot; example uses 2019-2020",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "official guidance",
+      "family": "R3-GF-MOM-FCF-READVERTISE",
+      "method": "Official FAQ; no sampled behaviour or enforcement rate.",
+      "passage": "Answer lines 21-26; paraphrase.",
+      "observation": "For specified EP/S Pass applications, the FAQ requires re-advertising if the original closing date was over three months earlier.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for narrow FAQ content",
+      "limits": "Contextual explanation, not legal advice or a finding that a specific employer complied, discriminated or had already chosen someone.",
+      "tags": [
+        "SG-context-only",
+        "publication:unknown",
+        "events:mixed",
+        "readvertising",
+        "alternative-explanation",
+        "industry:unknown",
+        "occupation:unknown",
+        "arrangement:unknown"
+      ]
+    },
+    {
+      "id": "R3-G10",
+      "url": "https://www.frontiersin.org/journals/human-dynamics/articles/10.3389/fhumd.2026.1924666/full",
+      "title": "The shifted burden of search: how digital hiring platforms reallocate screening labor to job seekers",
+      "publisher": "Stephen Santhosh / Frontiers in Human Dynamics",
+      "publicationDate": "2026-08-03",
+      "eventPeriod": "2025-10 to 2026-05",
+      "accessDate": "2026-10-19",
+      "geography": "Predominantly US; software and senior roles",
+      "type": "academic Perspective with illustrative platform data",
+      "family": "R3-GF-SANTHOSH-PLATFORM",
+      "method": "784 user-selected analyses; approximately 90% from 2-3 users; author-operated commercial classification platform.",
+      "passage": "Sections 3, 4, 7; lines 304, 314-315, 367-375; paraphrase.",
+      "observation": "Author explicitly states the taxonomy is unvalidated against employer-confirmed intent and unsuitable for prevalence inference.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for disclosed limitations; low diagnostic validity",
+      "limits": "Illustrative, clustered and conflicted; does not validate ATS-risk, vagueness or inferred internal-hire labels as deception. Same author as discovered SSRN report; not independent corroboration.",
+      "tags": [
+        "international-comparator:US-predominant",
+        "publication:within-24-months",
+        "events:within-24-months",
+        "intent-unobservable",
+        "classification-limits",
+        "industry:software-skew",
+        "occupation:senior-software-skew",
+        "arrangement:unknown"
+      ]
+    },
+    {
+      "id": "R3-G11",
+      "url": "https://arxiv.org/pdf/2410.21771",
+      "title": "Why is it so hard to find a job now? Enter Ghost Jobs",
+      "publisher": "Hunter Ng / arXiv",
+      "publicationDate": "2024-10-29",
+      "eventPeriod": "Scraped July 2024; historical reviews span multiple years",
+      "accessDate": "2026-10-19",
+      "geography": "International Glassdoor companies; US macro comparison",
+      "type": "research preprint",
+      "family": "R3-GF-NG-GLASSDOOR",
+      "method": "269,347 English reviews, 1,199 companies retained from first 1,203 relevance-ranked firms; up to 30 pages/company; keyword and ChatGPT-labelled BERT classifiers.",
+      "passage": "PDF pp. 3, 6, 8-9, 12-13; paraphrase.",
+      "observation": "Definition includes future pipelines; paper acknowledges no explicit verification and possible alternative explanations for reviews labelled indicative.",
+      "claimLabel": "source-reported claim",
+      "confidence": "moderate for method description; low for intent identification",
+      "limits": "Review classification is not direct observation of adverts or intent. Nonrandom English corpus; model agreement/estimated rate does not establish ground truth or Singapore prevalence.",
+      "tags": [
+        "international-comparator:mixed",
+        "publication:within-24-months",
+        "events:older-and-historical",
+        "proxy-measure",
+        "definition-variation",
+        "industry:mixed",
+        "occupation:unknown",
+        "arrangement:unknown"
+      ]
+    },
+    {
+      "id": "R3-G12",
+      "url": "https://www.resumebuilder.com/ghost-jobs/",
+      "title": "Ghost Job Statistics: 86% Have Encountered Fake Listings",
+      "publisher": "ResumeBuilder.com",
+      "publicationDate": "unknown; report describes August 2026 fieldwork",
+      "eventPeriod": "2026-08-27; job search during previous 24 months",
+      "accessDate": "2026-10-19",
+      "geography": "United States",
+      "type": "commissioned seeker survey",
+      "family": "R3-GF-RB-SEEKER-2026",
+      "method": "1,011 US adults searched in past 24 months; demographic shares provided; recruitment, instrument, weighting and response rate absent.",
+      "passage": "Consequences/workarounds and Methodology, lines 109-165; paraphrase.",
+      "observation": "Respondents report stress, diminished trust and checking employer sites/dates in response to suspected inactive listings.",
+      "claimLabel": "source-reported claim",
+      "confidence": "moderate for source report; low causal/population inference",
+      "limits": "Measures suspicion and recalled behaviour, not validated fake jobs. Same publisher as 2024 employer survey, different respondent dataset; inconsistent 'among encountered' display includes 'never'.",
+      "tags": [
+        "international-comparator:US",
+        "publication:unknown",
+        "events:mixed",
+        "suspected-status",
+        "consequences",
+        "verification-workaround",
+        "publisher-group:ResumeBuilder",
+        "industry:unknown",
+        "occupation:unknown",
+        "arrangement:unknown"
+      ]
+    },
+    {
+      "id": "R3-G13",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1uvvm19/one_possible_reason_you_did_everything_right_and/",
+      "title": "One possible reason you did everything right and still didnt get that job",
+      "publisher": "Public r/singaporejobs contributor",
+      "publicationDate": "unknown; rendered 3 months ago",
+      "eventPeriod": "Retrospective incidents; exact dates unknown",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore forum; employer location unknown",
+      "type": "public self-described hiring-manager report",
+      "family": "R3-GF-REDDIT-CANCEL-1uvvm19",
+      "method": "Anonymous account; no employer records or independent authentication.",
+      "passage": "Original post lines 18-19; paraphrase.",
+      "observation": "Self-described manager says requisitions were put on hold mid-process, sometimes leaving TA unable to explain to candidates.",
+      "claimLabel": "source-reported claim",
+      "confidence": "low for underlying events",
+      "limits": "Plausible changed-circumstance account; not a verified freeze chronology. Other commenters' accusations excluded; does not establish internal-fill or deliberate deception.",
+      "tags": [
+        "SG-context-only",
+        "publication:unknown",
+        "events:unknown",
+        "freeze",
+        "cancellation",
+        "chronology-unknown",
+        "industry:unknown-MNC",
+        "occupation:manager-respondent",
+        "arrangement:unknown"
+      ]
+    },
+    {
+      "id": "R3-G14",
+      "url": "https://clarifycapital.com/job-seekers-beware-of-ghost-jobs-survey",
+      "title": "Survey: Job Seekers Beware of Ghost Jobs",
+      "publisher": "Clarify Capital",
+      "publicationDate": "unknown on original; historical 2022 report",
+      "eventPeriod": "2022-08-31 to 2022-09-01",
+      "accessDate": "2026-10-19",
+      "geography": "Unknown in original methodology; US-facing sponsor",
+      "type": "commercial employer survey",
+      "family": "R3-GF-CLARIFY-2022",
+      "method": "1,045 managers involved in hiring; exact field dates. Recruitment, countries, instrument, weighting, nonresponse and conditional item denominators undisclosed.",
+      "passage": "Key takeaways; motives; Methodology lines 34-66; paraphrase.",
+      "observation": "Report distinguishes longer expected fill times and ongoing openness to talent from stated impression-management motives, but groups them under ghost jobs.",
+      "claimLabel": "source-reported claim",
+      "confidence": "moderate for reported contents; low generalisation",
+      "limits": "Older evidence; no validated listing linkage or present SG rate. Graphic question labels visible but full questionnaire/images not independently inspected.",
+      "tags": [
+        "geography:unknown",
+        "publication:unknown",
+        "events:older",
+        "no-immediate-intent",
+        "definition-variation",
+        "industry:unknown",
+        "occupation:manager-respondents",
+        "arrangement:unknown"
+      ]
+    },
+    {
+      "id": "R3-G15",
+      "url": "https://www.mom.gov.sg/-/media/mom/documents/employment-agencies/ea-alerts/2017/0810-fake-job-postings.pdf",
+      "title": "EA Alert (11/2017): Fake Job Postings",
+      "publisher": "Singapore Ministry of Manpower",
+      "publicationDate": "2017-08-10",
+      "eventPeriod": "Complaints received before 2017-08-10",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "official advisory",
+      "family": "R3-GF-MOM-EA-FAKE-2017-18",
+      "method": "Regulator complaint-based advisory; no prevalence sample.",
+      "passage": "PDF p. 1 paragraphs 1-3; paraphrase.",
+      "observation": "MOM describes complaints about agencies soliciting resumes under false pretences, including market research, and potential personal-data misuse.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for regulator statement; not individual complaint verification",
+      "limits": "Historical and EA-specific. Advisory warns about possible harms, not their measured incidence; paired reminder is same policy family.",
+      "tags": [
+        "SG-direct",
+        "publication:older",
+        "events:older",
+        "misleading-representation",
+        "resume-collection",
+        "personal-data",
+        "industry:employment-agency",
+        "occupation:unknown",
+        "arrangement:unknown"
+      ]
+    },
+    {
+      "id": "R3-G16",
+      "url": "https://www.mom.gov.sg/-/media/mom/documents/employment-agencies/ea-alerts/2018/0704-fake-job-postings-reminder.pdf",
+      "title": "EA Alert (11/2018): [Reminder] Fake Job Postings",
+      "publisher": "Singapore Ministry of Manpower",
+      "publicationDate": "2018-07-04",
+      "eventPeriod": "Undated recent case before 2018-07-04",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "official enforcement account",
+      "family": "R3-GF-MOM-EA-FAKE-2017-18",
+      "method": "Regulator's account of one unnamed EA case, not independent access to case file.",
+      "passage": "PDF p. 1 paragraph 2; paraphrase.",
+      "observation": "MOM says an EA advertised a nonexistent translator job to collect resumes for marketing; enforcement involved demerit points and partial deposit forfeiture, with discrimination also found.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for attributable official account",
+      "limits": "One historical intermediary case, not direct-employer prevalence. Sanction attribution spans more than fake listing; no present company identified or accused.",
+      "tags": [
+        "SG-direct",
+        "publication:older",
+        "events:older",
+        "nonexistent-vacancy",
+        "purpose-attributed-by-regulator",
+        "industry:employment-agency",
+        "occupation:translator-advertised",
+        "arrangement:unknown"
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "id": "R3-GO01",
+      "sourceIds": [
+        "R3-G01"
+      ],
+      "text": "Recruitment impersonation with payment/task manipulation is a different evidential object from an authentic employer advertising without immediate headcount.",
+      "label": "interpretation",
+      "limits": "SPF advisory is historical and not an employer-intent study."
+    },
+    {
+      "id": "R3-GO02",
+      "sourceIds": [
+        "R3-G02",
+        "R3-G03",
+        "R3-G04",
+        "R3-G09"
+      ],
+      "text": "Repost, refresh, syndication and some re-advertising have documented process explanations; none is a sufficient public test of deceptive intent.",
+      "label": "interpretation",
+      "limits": "Explanations are possible, not verified causes for individual adverts; no stale-copy episode independently audited."
+    },
+    {
+      "id": "R3-GO03",
+      "sourceIds": [
+        "R3-G07"
+      ],
+      "text": "Explicit future-opportunity registration can demonstrate a non-immediate purpose without representing a specific vacancy; the observed Singapore example is an intermediary disclosure.",
+      "label": "observed fact",
+      "limits": "No matching effectiveness or direct-employer headcount verified; page date unknown."
+    },
+    {
+      "id": "R3-GO04",
+      "sourceIds": [
+        "R3-G15",
+        "R3-G16"
+      ],
+      "text": "MOM's 2018 reminder reports a nonexistent translator advertisement used by an unnamed EA to collect resumes for marketing; the paired 2017 warning describes the public-interest/data risks.",
+      "label": "source-reported claim",
+      "limits": "Historical, one regulator-attributed intermediary case; no current named-employer accusation or incidence inference."
+    },
+    {
+      "id": "R3-GO05",
+      "sourceIds": [
+        "R3-G06",
+        "R3-G14"
+      ],
+      "text": "Original commercial surveys contain employer-reported purposes relevant to no-current-intent and impression management, but definitions, populations and conditional denominators differ.",
+      "label": "interpretation",
+      "limits": "No complete instruments or independently verified listing linkage; geography not stated in inspected methods; older fieldwork; cannot estimate current SG prevalence."
+    },
+    {
+      "id": "R3-GO06",
+      "sourceIds": [
+        "R3-G06"
+      ],
+      "text": "The 2024 employer survey's 649 full respondents were selected after reporting a past-year listing for a position not intended to be filled. Their motive/current-status answers are conditional subgroup answers.",
+      "label": "source-reported claim",
+      "limits": "1,641 screening base differs from 649 follow-up base; unique-company denominator unverified; no all-advert denominator."
+    },
+    {
+      "id": "R3-GO07",
+      "sourceIds": [
+        "R3-G05",
+        "R3-G13"
+      ],
+      "text": "Eventual non-fill and a later pause can occur after recruitment activity. Customer ATS outcomes and an anonymous cancellation account illustrate different levels of evidence for this alternative.",
+      "label": "interpretation",
+      "limits": "Vendor outcomes lack intent ground truth; anonymous chronology unverified. This does not excuse false representations or disprove deliberate deception."
+    },
+    {
+      "id": "R3-GO08",
+      "sourceIds": [
+        "R3-G08"
+      ],
+      "text": "Some commenters report receiving an offer after a long wait, while others report opportunity costs or continuing their search. Silence is compatible with several outcomes.",
+      "label": "source-reported claim",
+      "limits": "Unverified self-selected accounts in one SG forum thread, often office/tech; an offer does not prove a hire or establish an appropriate waiting period."
+    },
+    {
+      "id": "R3-GO09",
+      "sourceIds": [
+        "R3-G12"
+      ],
+      "text": "The seeker survey reports perceived wasted effort, stress and reduced trust alongside checking dates/employer sites and changing application behaviour.",
+      "label": "source-reported claim",
+      "limits": "US retrospective suspicion-based survey; no validated vacancy labels, causal attribution or demonstrated workaround effectiveness."
+    },
+    {
+      "id": "R3-GO10",
+      "sourceIds": [
+        "R3-G10",
+        "R3-G11"
+      ],
+      "text": "Posting characteristics or applicant-review classifications can organise uncertainty but cannot independently establish contemporaneous intent; neither inspected research route supplies employer-confirmed ground truth.",
+      "label": "interpretation",
+      "limits": "Different constructs and datasets; inferred labels are not validated deception findings or transferable rates."
+    },
+    {
+      "id": "R3-GO11",
+      "sourceIds": [
+        "R3-G04"
+      ],
+      "text": "MOM describes validation of reported vacancy statistics through cross-checks and employer follow-up; that is not a public assurance that each advert is immediately fillable.",
+      "label": "interpretation",
+      "limits": "Official process account without published sensitivity, false-positive rate or listing-level audit."
+    },
+    {
+      "id": "R3-GO12",
+      "sourceIds": [
+        "R3-G03",
+        "R3-G07",
+        "R3-G08",
+        "R3-G12"
+      ],
+      "text": "A defensible manual response is to preserve dated evidence, distinguish vacancy from pool, compare original requisition and copies, and continue considering alternatives while status is unresolved.",
+      "label": "interpretation",
+      "limits": "Research implication only, not an approved product feature or validated intervention. No contact, applications or follow-up performed in this run."
+    }
+  ],
+  "gaps": [
+    "Hard cap reached: 11/11 search attempts (8 core +3 shared reserve), 28/28 inspections including 6 initial navigation/metadata-only requests, 2 fetch failures, 1 empty original and 1 unrelated redirect. No further browsing.",
+    "No current representative Singapore study of contemporaneous no-immediate-intent, no-intent-ever or deliberate-deception prevalence; no prevalence estimate produced.",
+    "No authenticated current direct-employer requisition-level admission or independently corroborated deception case. Historical MOM case concerns an unnamed EA and remains regulator-attributed.",
+    "Direct-employer talent-pool example was snippet-only because Workday returned no body. Agency disclosure supplies narrower positive/contrary example.",
+    "No original full questionnaires, weighting, nonresponse or firm-deduplication data retrieved for commercial surveys. Geography absent in two inspected employer-survey methods.",
+    "No independently verified Singapore hiring-freeze, cancellation or internal-fill timeline linked to an advert; anonymous accounts remain reports. Internal fill not established.",
+    "No verified stale/closed/syndicated vacancy episode; platform mechanics and official duplicate explanation are contextual evidence, not case confirmation.",
+    "No ground-truth diagnostic validation of posting-text or review classifiers; fit, ATS risk and vague text must not be converted to intent or deception.",
+    "Consequences/workarounds evidence is self-report, US survey plus SG-forum anecdotes with office/technology skew; no causal effect, efficacy, multilingual or cross-sector generality established.",
+    "Undated pages and relative forum timestamps constrain freshness; historical 2017/2018/2022/early-2024 material retained explicitly. No monitoring or applications undertaken.",
+    "Collector self-check is not independent Responsible AI/Quality review; coordinator must arrange review before promoting consequential conclusions."
+  ],
+  "summary": [
+    "Only vacancy-credibility strand executed; no sector research, shared-ledger edits, contact, applications, private-source access, commits or external writes.",
+    "16 source records / 15 source families; MOM 2017-2018 documents are one family. ResumeBuilder datasets differ but share a publisher. Ashby/Ng citations to commercial surveys are not extra corroboration of those surveys.",
+    "Strongest local specific account: MOM 2018 nonexistent translator vacancy used by an unnamed agency for resume marketing. Historical and narrow, not prevalence.",
+    "Keep authenticity, visible status, active external recruitment, eventual outcome and contemporaneous intent separate. Lack of immediate intent, eventual non-fill and deliberate deception are different claims.",
+    "Report and JSON are a bounded contribution awaiting integration and independent review; stop reason is inspection cap, with unresolved gaps explicit."
+  ]
+}

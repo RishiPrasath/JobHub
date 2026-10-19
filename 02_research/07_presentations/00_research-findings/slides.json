@@ -1,0 +1,179 @@
+{
+  "title": "JobHub Research Findings",
+  "date": "2026-10-18",
+  "scope": "Rounds 00–02, with emphasis on the expanded Round 02 pass",
+  "slides": [
+    {
+      "kind": "cover", "title": "Understanding the\njob hunt", "subtitle": "JobHub research findings", "lead": "A reading deck before product analysis", "footnote": "Rounds 00–02 · Research reviewed 18 October 2026",
+      "refs": ["round2", "round1", "baseline"], "notes": "This briefing distils the research already in the repository. It introduces no new participant evidence. The expanded Round 02 pass has independent review. Its findings inform discussion, while product scope and platform remain open."
+    },
+    {
+      "kind": "statements", "title": "What the research suggests", "lead": "Useful support may reduce uncertainty and repeated effort.",
+      "items": [
+        {"heading": "People need help judging opportunities", "text": "Actual duties, working conditions and verified experience matter alongside job titles."},
+        {"heading": "Preparation includes checking and recovery", "text": "Re-entry, corrections, scheduling and unfinished work add to the writing itself."},
+        {"heading": "Truthful reuse is worth testing", "text": "Real examples can support resumes and interview practice without invented achievements."},
+        {"heading": "The simplest useful workflow remains open", "text": "Manual documents, peers and career coaching offer meaningful alternatives."}
+      ], "footnote": "Synthesis of reported mechanisms. Their prevalence and JobHub benefit remain unmeasured.", "refs": ["findings", "practices", "domain"], "notes": "Round 02 F01–F10. Public accounts, guidance and internal process evidence support investigating these mechanisms. They do not rank user demand or establish a preferred initial segment."
+    },
+    {
+      "kind": "table", "title": "How the research developed", "lead": "Each round answers a different kind of question.",
+      "headers": ["Round", "Contribution", "Reading boundary"], "widths": [180, 480, 476],
+      "rows": [
+        ["00  Baseline", "Domain, alternatives, development methods and technical questions", "Desk evidence and proposed directions"],
+        ["01  Public insights", "Reported experiences, AI use, workarounds and device context", "Bounded public pass with unranked hypotheses"],
+        ["02  Expanded pass", "Pains, guidance, videos and the owner's existing process", "Reviewed synthesis with explicit evidence gaps"]
+      ], "footnote": "An earlier Round 02 fictional walkthrough remains historical design work.", "refs": ["baseline", "round1", "round2"], "notes": "The folder slug still says synthetic workflow selection because existing links were preserved. Later owner instructions expanded Round 02. The earlier fictional comparison cannot establish real user need. The baseline Codex configuration observation is historical and is not treated as a current setup audit."
+    },
+    {
+      "kind": "columns", "title": "What supports the findings", "lead": "Round 02 combined public sources with a separate internal review.",
+      "columns": [
+        {"heading": "Collected material", "items": ["26 public-source records beyond the videos", "10 English caption reviews across eight creator families", "25 internal process documents and five historical artifacts", "46 recorded search-query strings"]},
+        {"heading": "What those counts mean", "items": ["Accounts show what people report", "Guidance offers practices to consider", "Studies have specific populations and methods", "Documents describe intended processes and recorded artifacts"]}
+      ], "footnote": "These are record counts. Repeated publishers, authors and creators limit independence.", "refs": ["sources", "review", "videos", "internal"], "notes": "The 26 entries comprise P01–P12, D01–D12 and C01–C02. Related authorship and publisher families overlap. Ten captions comprise seven automatic tracks and three tracks listed as manual. No audio listening or visual verification occurred. No direct participant or JobHub usability test occurred."
+    },
+    {
+      "kind": "table", "title": "Pain across the job-search journey", "lead": "Preparation work and employer-controlled delays can overlap.",
+      "headers": ["Moment", "Reported difficulty"], "widths": [340, 796],
+      "rows": [
+        ["Assess an opening", "Unclear duties, conditions and requirements"],
+        ["Prepare an application", "Repeated tailoring, parsed-field corrections and re-entry"],
+        ["Attend interviews", "Leave, scheduling, assessments and uncertain round counts"],
+        ["Return after a pause", "Unfinished drafts and lost context"],
+        ["Wait for an outcome", "Silence, rejection and competing responsibilities"]
+      ], "footnote": "Accounts describe mechanisms. This pass did not measure their frequency or total time cost.", "refs": ["practices"], "notes": "Practices P01/P02/P05/P10/P12. P01 is a retrospective retail-to-healthcare-operations story. P02 is a Singapore forum discussion including non-tech interview burden. Keep separate people's experiences separate. The same sources include positive outcomes and successful alternatives."
+    },
+    {
+      "kind": "table", "title": "Red flags become verification questions", "lead": "Specific checks make concerns more useful.",
+      "headers": ["Signal or uncertainty", "Question or check"], "widths": [430, 706],
+      "rows": [
+        ["Unclear recruiter identity", "Can the organisation independently confirm the contact and vacancy?"],
+        ["Vague or shifting duties", "What work will I do, and how will success be assessed?"],
+        ["Pressure or substantial unpaid work", "What is the deadline, assessment scope and reason?"],
+        ["Repeated listings or hostile language", "What explains the hiring history, expectations and working conditions?"]
+      ], "footnote": "Research-derived guidance. A phrase, repeated listing or polished website cannot establish employer intent.", "refs": ["domain", "videos"], "notes": "Domain D01/D02/D05/D08/D09 and videos V01–V05. Distinguish authenticity concerns from personal fit and unclear conditions. Some warning signs may have legitimate explanations, including scarce skills, contracting, delayed headcount or multi-location hiring. ScamShield provides independently checkable authenticity guidance."
+    },
+    {
+      "kind": "statements", "title": "Job fit needs several kinds of evidence", "lead": "A low keyword score can hide relevant experience.",
+      "items": [
+        {"heading": "Demonstrated experience", "text": "Which real tasks or outcomes support the requirement?"},
+        {"heading": "Transferable skills", "text": "How does that experience apply in the new setting?"},
+        {"heading": "A real gap or missing information", "text": "Does the person lack the skill, or does the record need clarification?"},
+        {"heading": "Essential criteria and personal conditions", "text": "Verify requirements, shifts, location and constraints before judging suitability."}
+      ], "footnote": "Research-derived guidance. No validated fit score or individual eligibility assessment resulted from this research.", "refs": ["domain", "internal"], "notes": "Domain D03/D10/D12 and internal I03/I04/I13. WSG permits application despite a low portal match score. This does not waive current role-specific licensing or eligibility rules. No such role-specific legal assessment was conducted."
+    },
+    {
+      "kind": "table", "title": "Pay comparisons need a common basis", "lead": "Market pay, the full offer and personal priorities answer different questions.",
+      "headers": ["Compare", "Record before judging"], "widths": [340, 796],
+      "rows": [
+        ["Benchmark", "Role, scope, level, location and reference date"],
+        ["Recurring cash", "Basic pay, allowances and hours on a consistent basis"],
+        ["Conditional value", "Bonus, commission, equity, vesting and eligibility"],
+        ["Work package", "Leave, benefits, shifts, location and contract terms"],
+        ["Personal choice", "Acceptable minimum, priorities and alternatives"]
+      ], "footnote": "Research-derived guidance. MOM's 2025 wage data provide context without determining an individual's entitlement.", "refs": ["domain"], "notes": "Domain D04/D05/D06/D11. MOM definitions exclude different components from basic and gross wages, with survey population limits. Basic/gross figures are before employee CPF and income-tax deductions. Equity and variable pay should not be treated as guaranteed recurring cash. No personal salary calculation was made."
+    },
+    {
+      "kind": "columns", "title": "Negotiation depends on the opportunity", "lead": "A prepared choice can include accepting, countering or declining.",
+      "columns": [
+        {"heading": "Preparation", "items": ["Find comparable evidence for the role", "Clarify what can change in the package", "Understand the deadline and alternatives", "Prepare a supported request"]},
+        {"heading": "Conditions that change the advice", "items": ["Fixed bands and standardised scales", "Variable pay or contract arrangements", "Urgency and bargaining position", "Tolerance for losing the offer"]}
+      ], "footnote": "Research-derived guidance. No universal uplift or risk-free negotiation script is established.", "refs": ["domain", "internal"], "notes": "Domain D06/D07/D11 and internal I08. NUS guidance, a US-tech field experiment and a Singapore forum account offer different levels of evidence. The internal strategist's categorical timing/counter rules should not become universal JobHub defaults. D07 independent recheck timed out, as recorded in review."
+    },
+    {
+      "kind": "table", "title": "Truthful tailoring starts with real facts", "lead": "Research-derived guidance uses fictional examples. Titles, dates and metrics stay factual.",
+      "headers": ["Existing evidence", "Truthful use", "Unresolved gap"], "widths": [360, 425, 351],
+      "rows": [
+        ["Handled customer enquiries", "Explain relevant communication and problem-solving", "New role's technical tasks may differ"],
+        ["Kept a stock spreadsheet", "Describe the actual records and tools used", "SQL proficiency remains unconfirmed"],
+        ["Helped train a colleague", "State the support provided and real outcome", "Management experience needs separate evidence"]
+      ], "footnote": "Accounts report benefits from both tailoring and resume reuse. Neither approach is established as best.", "refs": ["practices", "internal", "videos"], "notes": "Illustrative examples are newly authored fictional cases, not user research or the owner's career claims. Practices P07/P10, internal I04/I05 and videos V06/V07 support selecting relevant examples and checking changes. Do not convert a suggested metric or project into an established candidate achievement."
+    },
+    {
+      "kind": "columns", "title": "Interview preparation and practice", "lead": "Guidance recommends explaining real experience and rehearsing aloud.",
+      "columns": [
+        {"heading": "Preparation material", "items": ["Role and employer research with sources", "A small bank of real experience stories", "Questions about duties and expectations", "Interview format and practical arrangements"]},
+        {"heading": "Practice and return", "items": ["Rehearse aloud with a peer, coach or tool", "Record what the attempt demonstrated", "Revisit weak examples without inventing results", "Resume with one clear next session"]}
+      ], "footnote": "Research-derived guidance. No calibrated readiness score or hiring-effect estimate for JobHub exists.", "refs": ["practices", "internal", "videos"], "notes": "P08/P09/P12, I06/I07, V08. Some advice comes from graduate/international contexts. The internal process prescribes attempts, retries and debriefs, but this review did not inspect completed private interview attempts. Scheduling and excessive employer rounds remain separate burdens."
+    },
+    {
+      "kind": "columns", "title": "AI assistance also creates checking work", "lead": "A useful evaluation includes the effort after generation.",
+      "columns": [
+        {"heading": "Reported uses", "items": ["Rewording and selecting resume content", "Drafting cover-letter material", "Generating questions and rehearsing answers", "Searching and summarising opportunities"]},
+        {"heading": "Checks that remain", "items": ["Invented or exaggerated candidate claims", "Changed meaning, titles and qualifications", "Source accuracy, freshness and missing details", "Readable exports and personal-data disclosure"]}
+      ], "footnote": "Some people use human or manual alternatives. This pass does not rank ChatGPT, Claude or other tools.", "refs": ["practices", "coordinator", "videos"], "notes": "P03/P05/P06/P07/P09 and C01/C02. Included experiments report bounded outcomes for different interventions. This research conducted no original provider comparison or JobHub net-effort test. P06's file diagnosis was not independently verified. V09 supplies a weak narrated tutorial, not a verified successful application."
+    },
+    {
+      "kind": "table", "title": "Different AI interventions, different outcomes", "lead": "Primary studies provide useful findings with specific transfer limits.",
+      "headers": ["Intervention", "Reported result", "Boundary"], "widths": [340, 455, 341],
+      "rows": [
+        ["Algorithmic resume writing assistance", "Higher hiring probability, with no detected employer-satisfaction loss", "An online labour-market experiment, not a current chatbot comparison"],
+        ["Generative drafts for employer job posts", "Less employer writing time and more posts, without a discernible increase in matches", "A different intervention in an online labour market"]
+      ], "footnote": "Distinct experiments with overlapping authorship. Neither measures JobHub benefit.", "refs": ["coordinator"], "notes": "C01: arXiv abstract submitted 2023-01-19, algorithmic resume-writing assistance. C02: author-hosted More, but Worse working paper, 2026-09-04 revision, employer job-post generation. C01 reports an 8% relative hiring-probability increase in its setting. C02 reports reduced employer drafting time and no discernible net matching increase; its welfare accounting is model-based. Authors and intervention details overlap in provenance, but these are different experiments, not replications or a provider ranking. No JobHub or Singapore net-effort effect follows."
+    },
+    {
+      "kind": "columns", "title": "Interrupted work and device access", "lead": "Broader recovery problems have evidence. The exact handoff story remains open.",
+      "columns": [
+        {"heading": "What sources describe", "items": ["Difficulty returning to an unfinished resume", "Shared devices and limited access time", "CV attachment or save problems", "Positive experiences with mobile access"]},
+        {"heading": "What still needs evidence", "items": ["A complete Singapore phone-to-laptop loss episode", "Which recovery aids reduce effort", "Local accessibility and language needs", "Whether one or several surfaces are useful"]}
+      ], "footnote": "A platform decision cannot be inferred by joining unrelated stories into one journey.", "refs": ["practices", "round1", "internal"], "notes": "P04/P05/P11 and I02/I07/I16. Some evidence is international. The exact sequence of discovering a job on a phone, deferring to a laptop and losing an opportunity is unsubstantiated. A work-state checkpoint is a test proposal, not an observed solution."
+    },
+    {
+      "kind": "columns", "title": "The existing Job Hunt process", "lead": "A detailed personal workflow provides useful patterns and specific weaknesses.",
+      "columns": [
+        {"heading": "Documented strengths", "items": ["A factual authority for career claims", "Separate authenticity and fit decisions", "Human confirmation of submission", "Practice attempts and recovery procedures"]},
+        {"heading": "Weaknesses and open checks", "items": ["Inconsistent references and versions", "Technical-career assumptions in rubrics", "Rigid compensation guidance", "Current operation and coordination effort untested"]}
+      ], "footnote": "One owner's documented process. Private resumes, contracts and correspondence stayed outside the deck.", "refs": ["internal"], "notes": "Internal I01–I16. The reviewer inspected 25 process files and five historical artifacts with sanitized references. Older positive transport statuses sometimes accompanied loading/error content, while later artifacts had structured results. Neither observation proves current end-to-end success or failure. No private source files were changed."
+    },
+    {
+      "kind": "statements", "title": "What the videos added", "lead": "Ten caption reviews broadened the questions and examples.",
+      "items": [
+        {"heading": "Supplied red-flag discussions", "text": "Clarification questions, interview burden and legitimate alternative explanations"},
+        {"heading": "Additional resume and AI tutorials", "text": "Fact-first drafting and inspection of changes to titles or achievements"},
+        {"heading": "Interview and compensation material", "text": "Manual story notebooks, spoken practice and questions for comparing compensation"},
+        {"heading": "Evidence limits", "text": "Advice dominates. Popularity and repeated statistics do not establish outcomes."}
+      ], "footnote": "Caption analysis only. Salary clip: 2020 international raise advice. No listening or screen verification.", "refs": ["videos", "discovery"], "notes": "V01–V10 span eight creator families. All five supplied captions and five additional captions were reviewed. Six additional candidate URL checks included one wrong-case failure. Three manual-track and seven automatic-track captures in total. The extra salary source is old international raise advice. Video statistics were excluded from quantitative synthesis."
+    },
+    {
+      "kind": "statements", "title": "Privacy is part of the workflow", "lead": "Reusing career evidence can also concentrate personal information.",
+      "items": [
+        {"heading": "Necessary information", "text": "Which facts does this task actually require?"},
+        {"heading": "Disclosure", "text": "What will a tool, provider or third party receive?"},
+        {"heading": "Access and retention", "text": "Who can read the record, and how long should it remain?"},
+        {"heading": "Correction and control", "text": "Can the person inspect, change and remove what the workflow uses?"}
+      ], "footnote": "These are design questions. Current provider policies and implemented controls remain unreviewed.", "refs": ["findings", "internal", "practices", "review"], "notes": "F12, P07 and I14. Independent review required clearer privacy coverage. Use fictional data for the first proposed comparison. No provider-policy audit, access-control test or deletion-enforcement test took place."
+    },
+    {
+      "kind": "statements", "title": "Earlier product and development research", "lead": "The baseline work offers directions to examine after reading the findings.",
+      "items": [
+        {"heading": "Existing alternatives already overlap", "text": "General assistants, career tools, manual records and human support deserve comparison."},
+        {"heading": "Small development slices may suit the uncertainty", "text": "Use a short behaviour brief, narrow implementation and independent verification."},
+        {"heading": "Gherkin examples can clarify behaviour", "text": "Given/When/Then examples clarify behaviour. Running them as tests remains optional."},
+        {"heading": "Ownership requires understanding", "text": "The owner should explain data flow, failure handling, tests and recovery."}
+      ], "footnote": "Round 00 recommendations. No local productivity benchmark, stack choice or competitive advantage is proven.", "refs": ["baseline", "development", "competition"], "notes": "These are earlier desk-research proposals, not refreshed current product comparisons. Do not repeat historical configuration observations as current facts. Product usefulness, method speed, commercial demand and provider superiority remain unvalidated."
+    },
+    {
+      "kind": "statements", "title": "Questions the research leaves open", "lead": "The evidence supports mechanisms more strongly than rankings or outcomes.",
+      "items": [
+        {"heading": "Who needs which help most?", "text": "Prevalence, comparative burden, demand and willingness to pay remain unknown."},
+        {"heading": "What works across different contexts?", "text": "Local accessibility, frontline work, languages and cover-letter practices need more evidence."},
+        {"heading": "Does assistance reduce total effort?", "text": "JobHub timing, correction, recovery and hiring outcomes have not been tested."},
+        {"heading": "Which product decisions follow?", "text": "Initial scope, platform, stack, automation and privacy choices remain open."}
+      ], "footnote": "English-language graduate, office and technology perspectives remain prominent. All ten objectives have findings or gaps.", "refs": ["coverage", "limitations", "review"], "notes": "Bounded public evidence cannot substitute for direct participant research or product evaluation. This owner currently has no direct user access. The exact phone-to-laptop sequence and operational effectiveness of the personal workflow remain unresolved."
+    },
+    {
+      "kind": "columns", "title": "One possible next comparison", "lead": "A small task can test the usefulness of truthful evidence selection.",
+      "columns": [
+        {"heading": "Suggested setup", "items": ["One fictional job and verified fictional career facts", "Select relevant resume examples", "Compare assisted selection with a manual document", "Use identical inputs and an interrupted return"]},
+        {"heading": "What to examine", "items": ["Unsupported claims and hidden unknowns", "Clarity of fit, gaps and explanations", "Correction and recovery effort", "Ability to explain the prepared content"]}
+      ], "footnote": "A proposal for discussion. Owner testing can assess logic and effort while demand remains open.", "refs": ["gate", "findings"], "notes": "No new experiment has been executed. Keep interviews and compensation as separate later task options to avoid obscuring what helps. Compare frontline/shift and career-change cases separately. Before proceeding, discuss which uncertainty matters most and what result would change direction."
+    },
+    {
+      "kind": "columns", "title": "Source guide and reading trail", "lead": "Each slide's notes link to the supporting research and its limits.",
+      "columns": [
+        {"heading": "Repository evidence", "items": ["Round 02 findings and coverage", "Public practices and domain ledgers", "Video report with timestamps", "Sanitised internal review and independent audit"]},
+        {"heading": "External source families", "items": ["MOM, WSG, TAFEP and ScamShield", "NUS career-service guidance", "Primary studies and government evaluations", "Public accounts and attributed video advice"]}
+      ], "footnote": "Public reports, advice, private process observations and proposals have distinct evidential weight.", "refs": ["sources", "findings", "review", "baseline", "round1"], "notes": "Open the HTML reader notes for clickable sources. Source ledgers retain original URLs, publication/access dates, methods, inspected passages and limitations. Presenting a report does not constitute accepting its recommendations."
+    }
+  ]
+}

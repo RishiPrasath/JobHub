@@ -1,0 +1,19 @@
+# Round 03 limitations
+
+2026-10-19. Public-web, English-first, purposive desk research. No interviews, observation, representative sampling, test applications, direct employer confirmation, private-drive rescan or software intervention occurred.
+
+- **Profiles are bounded summaries.** Thirteen baskets organise coverage; six non-IT baskets receive deeper inquiry. Neither scheme is an official industry taxonomy or market segmentation. Broad labels can conceal occupations and arrangements.
+- **Evidence types differ.** Official context describes policy or requirements; employer pages state processes; public posts include concerns, reports and advice. Provider-selected successes and anonymous reports are not independently verified outcomes.
+- **Platform and family dependence.** Many seeker accounts come from Reddit. Several pages share an employer, event, provider, study or story. Repeated URLs and reports are not corroboration. Register counts are audit measures, not participants or evidence strength.
+- **Freshness is uneven.** Access date is 2026-10-19, not publication date. Prefer 2024-10-19 onward; retain historical cases and transitions with their underlying dates. Relative dates are not converted into invented exact dates. Page updates, fieldwork and event dates remain distinct.
+- **Source access failed in places.** Verification screens, empty pages, redirects and 404s consume effort and supply no unseen evidence. Inaccessible operator/trade and regulator material limits manufacturing breadth. Search snippets cannot fill the gap.
+- **Sequences are incomplete.** A question about applying is not a completed journey. Replies from different people cannot be joined into a composite success. Recent warehouse/driver and operational-trades discovery-to-offer accounts remain thin.
+- **AI use and non-use.** Generic reported automation does not establish sector-specific uptake. Advice to use AI is not adoption; no AI mention is not non-use. No provider effectiveness, permission, output accuracy or time-saving claim was tested.
+- **Pay and rules.** Advertised historic figures, basic pay, gross pay, allowances and commission are not interchangeable. The preschool programme's inconsistent salary sections were not resolved by choosing a convenient figure. No universal salary benchmark or personal entitlement follows.
+- **Hiring intent.** A public snapshot cannot reveal internal headcount or motive reliably. Authenticity, visible status, recruitment, outcome and contemporaneous intent are separate. No current Singapore ghost-job prevalence, named-employer blacklist or validated deception detector is established.
+- **Survey comparability.** Employer self-reports, seeker suspicions, non-fill records and review-classification estimates use different definitions and denominators. Missing instruments, weighting or sampling remain limitations, not details to reconstruct.
+- **Inclusion.** Multilingual, low-digital-confidence, offline, older-worker and access-needs contexts remain undercovered. An employment-support programme documents a route, not uptake, access conformance or placement effectiveness.
+- **Exclusions.** Energy/utilities/water/waste, agriculture/aquaculture, household domestic work, offshore/seafaring, defence-specific recruitment and executive search remain outside or undercovered. Incidental examples do not establish coverage.
+- **Logging precision.** Exact search strings and source-inspection attempts are retained. Individual wall-clock timestamps and exact query-to-result attribution in combined search responses were not consistently captured. Portfolio/basket routing is labelled rather than retroactively invented.
+
+The run can complete its bounded investigation with unanswered questions visible. It cannot claim saturation, resolve all objectives empirically, select product scope or establish JobHub's benefit. Independent review is not owner acceptance.

@@ -1,0 +1,1018 @@
+{
+  "worker": "c",
+  "queries": [
+    {
+      "id": "D-S08-01",
+      "query": "Singapore bank insurance operations financial adviser recruitment process basic salary commission CMFAS",
+      "intent": "Role requirements and compensation components, operations versus advice",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "resultNote": "Inspected employer/agency role and package wording plus historical DBS scope; no regulator-wide rule inferred.",
+      "sourceIds": [
+        "R3-C01",
+        "R3-C09",
+        "R3-C11"
+      ]
+    },
+    {
+      "id": "D-S08-02",
+      "query": "Singapore banking operations job search interview experience career switch hired 2025 2026",
+      "intent": "Reported finance application sequence and positive transition",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "resultNote": "Opened bank applicant sequence and employer-curated specialist success; roles/periods limit comparison. Fresh-grad thread header only, excluded.",
+      "sourceIds": [
+        "R3-C02",
+        "R3-C03"
+      ]
+    },
+    {
+      "id": "D-S10-01",
+      "query": "Singapore creative media arts recruitment portfolio design test production crew freelance hiring",
+      "intent": "Portfolio/practical routes, project work and stated employer processes",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "resultNote": "Network employer page usable; SkillsFuture PDF returned unusable HTML; STPI PDF later 404. No snippets retained as evidence.",
+      "sourceIds": [
+        "R3-C04"
+      ]
+    },
+    {
+      "id": "D-S10-02",
+      "query": "Singapore designer job interview experience portfolio design test unpaid hired reddit 2025",
+      "intent": "Reported creative application sequence, portfolio preparation and speculative-work difficulties",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "resultNote": "Many global rather than local accounts. Opened global original as labelled comparator; no SG prevalence inference.",
+      "sourceIds": [
+        "R3-C10"
+      ]
+    },
+    {
+      "id": "D-S10-03",
+      "query": "Singapore film production freelancer found work referrals job search experience 2024 2025",
+      "intent": "Positive/contrary project-work routes and human alternatives",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "resultNote": "Sought positive production/freelance referral sequence. SAMPP discovered but both host opens failed. No usable completed production-seeking sequence; explicit gap.",
+      "sourceIds": []
+    },
+    {
+      "id": "D-S08-03",
+      "query": "Singapore financial operations career conversion successful switch bank IBF interview",
+      "intent": "Positive operations conversion route to contrast sales requirements and prolonged applications",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "resultNote": "IBF administrator guidance usable; annual-report narrative not exposed, two subsequent opens failed. Historical programme snippets excluded.",
+      "sourceIds": [
+        "R3-C06"
+      ]
+    },
+    {
+      "id": "F-c-01",
+      "query": "site.reddit.com/r/askSingapore graphic designer job interview portfolio test hired",
+      "intent": "Missing SG creative first-person sequence and contrary hiring outcomes; unresolved family SG-creative-sequence, reserve 1/3",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "resultNote": "Reserve SG-creative-sequence 1/3: local thread comments plus older SG-linked PR account inspected; no verified SG creative-employer hired-through-test sequence. Contrary callbacks retained.",
+      "sourceIds": [
+        "R3-C07",
+        "R3-C08",
+        "R3-C12"
+      ]
+    },
+    {
+      "id": "F-c-02",
+      "query": "site.income.com.sg careers client adviser basic salary commission employee",
+      "intent": "Missing employer-primary salaried insurance contrast; test assumption that all advisory jobs are commission-only; unresolved family SG-advisory-pay-contrary, reserve 1/3",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "attempted",
+      "resultNote": "Reserve SG-advisory-pay-contrary 1/3: primary Income page gives salaried employee/advice counterexample; same employer family, not independent corroboration.",
+      "sourceIds": [
+        "R3-C05"
+      ]
+    }
+  ],
+  "inspections": [
+    {
+      "url": "https://www.income.com.sg/careers/be-a-financial-planner/financial-consultant",
+      "status": "inspected",
+      "note": "Income page lines 98-197 read; employer-stated requirements/incentives, information dated 2025-11-06"
+    },
+    {
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1vm4ebd/my_job_hunting_situation/",
+      "status": "inspected",
+      "note": "Original banking applicant sequence and contrasting comments read, lines 19-39, 218-220, 304-314; no outcome independently verified"
+    },
+    {
+      "url": "https://www.sc.com/en/global-careers/our-employee-stories/my-career-growth-iriss-story/",
+      "status": "metadata-only",
+      "note": "Page retrieved but initial batch exposed only header; substantive content inspected on attempt 7."
+    },
+    {
+      "url": "https://www.behindnetworksg.com/careers.html",
+      "status": "metadata-only",
+      "note": "Initial batch exposed only header; content inspected on attempt 8; response line count changed, source treated as mutable snapshot."
+    },
+    {
+      "url": "https://www.skillsfuture.gov.sg/docs/default-source/skills-framework/skills-framework-for-media_2024_pdf.pdf",
+      "status": "unusable",
+      "note": "PDF URL returned 3-line HTML shell; substantive framework inaccessible; no evidence extracted"
+    },
+    {
+      "url": "https://www.reddit.com/r/askSingapore/comments/1klf150/fresh_grads_of_2025part_2_what_job_offers_have/",
+      "status": "metadata-only",
+      "note": "1354-line thread identified but no relevant passage exposed in returned batch. Excluded; search snippet not evidence."
+    },
+    {
+      "url": "https://www.sc.com/en/global-careers/our-employee-stories/my-career-growth-iriss-story/",
+      "status": "inspected",
+      "note": "Repeat retrieval to expose content; 37-line employee story read; internal transfer and four interviews, date unknown"
+    },
+    {
+      "url": "https://www.behindnetworksg.com/careers.html",
+      "status": "inspected",
+      "note": "Repeat retrieval to expose content; employer application/test process and role conditions read; publication unknown"
+    },
+    {
+      "url": "https://www.income.com.sg/careers/be-a-financial-planner/client-advisor",
+      "status": "inspected",
+      "note": "Employer page lines 98-115: employee status, salary, incentives and benefits; publication unknown."
+    },
+    {
+      "url": "https://www.ibf.org.sg/home/for-financial-institutions/talent-development-and-training-support/develop-mid-career-talent/career-conversion-programmes",
+      "status": "inspected",
+      "note": "Programme administrator, lines 617-664: place-and-train versus existing-employee reskilling; employer nomination and contract terms. Guidance, not outcome evidence."
+    },
+    {
+      "url": "https://www.sampp.org.sg/",
+      "status": "failed",
+      "note": "Internal Error. No usable original content; no inference from search snippet."
+    },
+    {
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1wcfkyb/job_interview_nightmare/",
+      "status": "inspected",
+      "note": "Original comments lines 47-63 and 240-251: reported design assignments, rejection/refusal and later human network. Relative page dates conflict with search dates; exact publication unknown."
+    },
+    {
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1w5algd/my_girlfriend_senior_graphic_designer_has_been/",
+      "status": "metadata-only",
+      "note": "Initial batch returned header only; substantive inspection on attempt 15."
+    },
+    {
+      "url": "https://www.ibf.org.sg/docs/default-source/ar2025/IBF_Annual_Report_2024-2025.pdf",
+      "status": "metadata-only",
+      "note": "13-page PDF recognized but returned no narrative passage; two later retrievals failed. Excluded as source."
+    },
+    {
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1w5algd/my_girlfriend_senior_graphic_designer_has_been/",
+      "status": "inspected",
+      "note": "Original post lines 19-32; comments 217-222,257-264,317-330,338-365,413-431. Secondhand lead account; callbacks, portfolio choices and AI recommendations separately attributed."
+    },
+    {
+      "url": "https://www.ibf.org.sg/docs/default-source/ar2025/IBF_Annual_Report_2024-2025.pdf",
+      "status": "failed",
+      "note": "Internal Error reopening PDF at line 1040. No narrative inspected."
+    },
+    {
+      "url": "https://sampp.org.sg/",
+      "status": "failed",
+      "note": "Internal Error after hostname repair. SAMPP context remains access gap."
+    },
+    {
+      "url": "https://www.careers-page.com/people-profilers/job/QXV9RX9R",
+      "status": "inspected",
+      "note": "Agency original posting QXV9RX9R, lines 11-30,35-38: explicit sales duties, pay components, exam timing and schedule; date unknown, current vacancy unverified."
+    },
+    {
+      "url": "https://www.reddit.com/r/graphic_design/comments/1jdqsy5/has_anyone_ever_done_a_design_test_and_actually/",
+      "status": "inspected",
+      "note": "Original thread lines 21-28,95-118,194,254-255,329-332,523-548: negative sequence, paid/short/unpaid successful countercases and AI asset use. Geography mostly unknown; dates relative and conflicting; not SG evidence."
+    },
+    {
+      "url": "https://www.ibf.org.sg/docs/default-source/ar2025/IBF_Annual_Report_2024-2025.pdf",
+      "status": "failed",
+      "note": "Internal Error reopening original PDF URL at line 1100. No evidence promoted from discovery snippet."
+    },
+    {
+      "url": "https://www.dbs.com/iwov-resources/images/careers/management-associate-programme/Available%202025%20MA%20Opportunities%20in%20Singapore.pdf",
+      "status": "inspected",
+      "note": "DBS 2025 programme PDF pages 13-14 (zero-based 12-13), lines 318-350: operations scope including post-trade processing. Historical programme, not active 2026 hiring proof."
+    },
+    {
+      "url": "https://www.stpi.com.sg/app/uploads/2022/06/JD-Junior-Creative-Producer-24-May-2022-FINAL.pdf",
+      "status": "failed",
+      "note": "404 Not Found. Filename suggests 2022; no claim extracted."
+    },
+    {
+      "url": "https://www.reddit.com/r/graphic_design/comments/1ardd2k",
+      "status": "inspected",
+      "note": "Original design-test account lines 21-44: initial interview then three-part brief due 2024-02-21. Singapore campaign context; employer geography not confirmed; outcome and pay unknown."
+    },
+    {
+      "url": "https://www.income.com.sg/blog/mid-career-switch",
+      "status": "inspected",
+      "note": "Reused R3-M14. Lines112,120-132 reveal publication 2020-12-31 and logistics-to-finance-operations application/interview/acceptance sequence. Older employer-curated case; same original family, not new independent support."
+    },
+    {
+      "url": "https://www.superminted.com/careers",
+      "status": "inspected",
+      "note": "Reused R3-M18. Lines123-152,161-198: CV/portfolio, role-dependent task/deep-dive, reply target, occasional contracts, adjustments and disclosed speculative route. Publication unknown. Same original family."
+    }
+  ],
+  "sources": [
+    {
+      "accessDate": "2026-10-19",
+      "claimLabel": "source-reported claim",
+      "id": "R3-C01",
+      "employerActivity": "Insurance (Income)",
+      "occupation": "Financial Consultant: advice/planning/client follow-up",
+      "arrangement": "unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown",
+      "stage": "Role assessment; certification; appointment/onboarding",
+      "updateDate": "unknown",
+      "url": "https://www.income.com.sg/careers/be-a-financial-planner/financial-consultant",
+      "title": "Be a Financial Consultant",
+      "publisher": "Income Insurance",
+      "publicationDate": "unknown",
+      "eventPeriod": "Scheme terms as at 2025-11-06; individual appointments unknown",
+      "geography": "SG-direct",
+      "type": "employer statement",
+      "family": "https://www.income.com.sg/blog/mid-career-switch",
+      "method": "Own recruitment page; no applicant sample or outcome evaluation. Employer insurance; occupation adviser/sales; appointment arrangement not established.",
+      "passage": "Here is what you will do / Exam Sponsorship / CMFAS Allowance / Training Allowance / What does it take, lines98-178.",
+      "observation": "Employer lists advisory duties, its certification requirements and performance incentives. Examination sponsorship and onboarding allowances have completion/appointment conditions; these are not recurring basic pay.",
+      "confidence": "High for stated terms; unknown for applicant experience.",
+      "limits": "Same Income employer family as R3-C05 and reused R3-M14. No signed terms, guaranteed income, clawback terms or verified vacancy count. Own scheme requirements, not a general legal determination.",
+      "tags": [
+        "S08",
+        "employer:insurance",
+        "occupation:advice-sales",
+        "arrangement:unknown",
+        "publication:unknown",
+        "information-as-at:2025-11-06",
+        "event:unknown",
+        "employer-group:Income"
+      ]
+    },
+    {
+      "accessDate": "2026-10-19",
+      "claimLabel": "source-reported claim",
+      "id": "R3-C02",
+      "employerActivity": "Banking, applicant-reported; employer unnamed/unverified",
+      "occupation": "unknown",
+      "arrangement": "unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown",
+      "stage": "Application; virtual and management interviews; follow-up; reported due diligence",
+      "updateDate": "unknown",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1vm4ebd/my_job_hunting_situation/",
+      "title": "My job hunting situation",
+      "publisher": "Reddit / r/singaporejobs",
+      "publicationDate": "unknown (opened page relative two-month label; discovery metadata suggested 2026-08-12, not independently confirmed)",
+      "eventPeriod": "Reported June-July interviews; year not explicit in opened body; unresolved at posting",
+      "geography": "SG-direct/context",
+      "type": "first-person report",
+      "family": "https://www.reddit.com/r/singaporejobs/comments/1vm4ebd/my_job_hunting_situation/",
+      "method": "Self-selected applicant plus commenters; employer bank unnamed, occupation/arrangement/seniority unknown; no verification or denominator.",
+      "passage": "Opening numbered sequence lines19-39; OP follow-up84; contrasting comments218-220,304-314.",
+      "observation": "Applicant reports virtual interview, two later management interviews, expected pay discussion, follow-ups and reported due diligence without resolution. Other commenters report eventual bank offers after long waits.",
+      "confidence": "Moderate for what is reported; low for causal explanation.",
+      "limits": "Comments are one thread family, not independent corroboration. Bank role cannot be assigned to operations or sales. No named requisition, verified website status, final outcome or employer intent.",
+      "tags": [
+        "S08",
+        "employer:bank-reported",
+        "occupation:unknown",
+        "arrangement:unknown",
+        "stage:interview-follow-up",
+        "platform:reddit",
+        "publication:unknown",
+        "event:unknown"
+      ]
+    },
+    {
+      "accessDate": "2026-10-19",
+      "claimLabel": "source-reported claim",
+      "id": "R3-C03",
+      "employerActivity": "Banking (Standard Chartered)",
+      "occupation": "Experienced quantitative specialist, Algorithmic Trading Quant team",
+      "arrangement": "Internal transfer; contract type unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "Singapore; precise worksite unknown",
+      "stage": "Internal selection; four interviews; earlier analytics challenge",
+      "updateDate": "unknown",
+      "url": "https://www.sc.com/en/global-careers/our-employee-stories/my-career-growth-iriss-story/",
+      "title": "My career growth - Iris's story",
+      "publisher": "Standard Chartered",
+      "publicationDate": "unknown",
+      "eventPeriod": "Internal transfer and earlier predictive analytics challenge; dates unknown",
+      "geography": "SG-direct",
+      "type": "employer-curated first-person report",
+      "family": "https://www.sc.com/en/global-careers/our-employee-stories/my-career-growth-iriss-story/",
+      "method": "Employee story selected by bank. Employer banking; occupation experienced quantitative specialist; internal move, contract arrangement unknown.",
+      "passage": "Securing my job, lines16-20.",
+      "observation": "Experienced quant reports internal transfer through four interviews, with prior challenge participation and team experience helping demonstrate fit.",
+      "confidence": "Moderate for attributed story.",
+      "limits": "Positive selection and unknown dates. Internal specialist route cannot establish graduate or external operations/sales hiring standards; no assessment-pay information.",
+      "tags": [
+        "S08",
+        "employer:bank",
+        "occupation:quantitative-specialist",
+        "route:internal-transfer",
+        "seniority:experienced",
+        "publication:unknown",
+        "event:unknown"
+      ]
+    },
+    {
+      "accessDate": "2026-10-19",
+      "claimLabel": "source-reported claim",
+      "id": "R3-C04",
+      "employerActivity": "Media marketing for interior-design firms (Network/Orange Network Studios)",
+      "occupation": "Graphic designer; editor; videographer; sales representative, separate roles",
+      "arrangement": "Full-time; remote design/editing, Singapore onsite filming",
+      "intermediary": "unknown",
+      "clientWorksite": "Interior-project filming sites unspecified; design/editing remote",
+      "stage": "Role discovery; portfolio/showreel; manual screening; unpaid task",
+      "updateDate": "unknown",
+      "url": "https://www.behindnetworksg.com/careers.html",
+      "title": "Careers - behind Network / Talent",
+      "publisher": "Orange Network Studios / Network Singapore",
+      "publicationDate": "unknown",
+      "eventPeriod": "Undated employer snapshot accessed 2026-10-19",
+      "geography": "SG-direct employer; remote roles open internationally",
+      "type": "employer statement",
+      "family": "https://www.behindnetworksg.com/careers.html",
+      "method": "Original company recruitment page; own claims only. Media marketing employer; design/editing/onsite filming and sales; full-time roles.",
+      "passage": "Application lines47-55; roles100-152; test FAQ199-231.",
+      "observation": "Portfolio precedes manual screening and an unpaid test. Employer promises evaluation-only use without a fixed time cap. Remote design/editing and Singapore onsite filming have different practical requirements.",
+      "confidence": "High for visible wording; unknown for delivery.",
+      "limits": "No verified hires or applicant satisfaction; salary deferred to conversation. Work-sample non-use promise not independently checked. Mutable page; initial/repeat line counts differed.",
+      "tags": [
+        "S10",
+        "employer:media-marketing",
+        "occupation:designer-editor-videographer",
+        "arrangement:full-time",
+        "work:remote-or-onsite-role-dependent",
+        "publication:unknown",
+        "event:snapshot"
+      ]
+    },
+    {
+      "accessDate": "2026-10-19",
+      "claimLabel": "source-reported claim",
+      "id": "R3-C05",
+      "employerActivity": "Insurance (Income)",
+      "occupation": "Client Advisor: advice, prospecting and sales",
+      "arrangement": "Permanent full-time employee",
+      "intermediary": "unknown",
+      "clientWorksite": "Branch/customer engagements; precise worksite unknown",
+      "stage": "Role and compensation assessment; training",
+      "updateDate": "unknown",
+      "url": "https://www.income.com.sg/careers/be-a-financial-planner/client-advisor",
+      "title": "Be a Client Advisor",
+      "publisher": "Income Insurance",
+      "publicationDate": "unknown",
+      "eventPeriod": "Undated recruitment snapshot",
+      "geography": "SG-direct",
+      "type": "employer statement",
+      "family": "https://www.income.com.sg/blog/mid-career-switch",
+      "method": "Own employer recruitment page; insurance; client advice plus prospecting/sales; permanent full-time explicitly stated.",
+      "passage": "Duties and Benefits, lines98-115.",
+      "observation": "Client Advisor role combines walk-in/referral/database prospecting with a stable monthly salary, sales and quarterly incentives, and employee benefits.",
+      "confidence": "High for stated package composition.",
+      "limits": "Same Income employer family as C01/M14; salary amount, achievable incentives, targets, hours and actual offers unknown.",
+      "tags": [
+        "S08",
+        "employer:insurance",
+        "occupation:client-advice-sales",
+        "arrangement:permanent-full-time",
+        "publication:unknown",
+        "event:snapshot",
+        "employer-group:Income"
+      ]
+    },
+    {
+      "accessDate": "2026-10-19",
+      "claimLabel": "source-reported claim",
+      "id": "R3-C06",
+      "employerActivity": "Participating financial institutions, actual employer unknown; IBF is programme administrator",
+      "occupation": "Role-dependent growth/redesigned finance roles; specific occupation unknown",
+      "arrangement": "New-hire place-and-train or existing-employee reskilling; programme guidance",
+      "intermediary": "IBF administers programme; not identified as employing institution",
+      "clientWorksite": "unknown",
+      "stage": "Conversion route; employer nomination; structured training/OJT",
+      "updateDate": "unknown",
+      "url": "https://www.ibf.org.sg/home/for-financial-institutions/talent-development-and-training-support/develop-mid-career-talent/career-conversion-programmes",
+      "title": "Career Conversion Programmes (CCP)",
+      "publisher": "Institute of Banking and Finance Singapore",
+      "publicationDate": "unknown",
+      "eventPeriod": "Current public programme description at access; cohort/event dates unknown",
+      "geography": "SG-context-only",
+      "type": "programme administrator guidance",
+      "family": "https://www.ibf.org.sg/home/for-financial-institutions/talent-development-and-training-support/develop-mid-career-talent/career-conversion-programmes",
+      "method": "IBF describes programme it administers; not a trainee outcome study. Financial institutions, new hires versus existing employees; role-specific.",
+      "passage": "Overview and Eligibility, lines617-664.",
+      "observation": "Distinguishes place-and-train new hires from job-redesign reskilling. Employer nomination and structured OJT are part of the route; funding description does not establish an individual's offer.",
+      "confidence": "High for administrator's stated route.",
+      "limits": "No hiring probability or causal evidence; not all finance applicants qualify. Programme funding is not candidate salary. No personalised eligibility or legal advice.",
+      "tags": [
+        "S08",
+        "route:conversion-training",
+        "arrangement:employee",
+        "publication:unknown",
+        "event:snapshot",
+        "method:no-outcome-evaluation"
+      ]
+    },
+    {
+      "accessDate": "2026-10-19",
+      "claimLabel": "source-reported claim",
+      "id": "R3-C07",
+      "employerActivity": "unknown; consumer/product and other design functions do not identify employer industry",
+      "occupation": "Consumer-product designer; junior designer; design-related roles, separate commenters",
+      "arrangement": "unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown",
+      "stage": "Portfolio; assessment; refusal/completion; rejection; follow-up; peer support",
+      "updateDate": "unknown",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1wcfkyb/job_interview_nightmare/",
+      "title": "Job Interview Nightmare - design comments",
+      "publisher": "Reddit / r/singaporejobs",
+      "publicationDate": "unknown (search metadata and opened relative dates conflict)",
+      "eventPeriod": "Unknown; one retrospective comment mentions a company failing three years later",
+      "geography": "SG-context; employer industries unknown",
+      "type": "first-person retrospective reports",
+      "family": "https://www.reddit.com/r/singaporejobs/comments/1wcfkyb/job_interview_nightmare/",
+      "method": "Public complaint-prompted thread; retain only design comments, no identifiers or unrelated allegations. Creative occupations may sit outside creative employers.",
+      "passage": "Design comments lines47-63 and240-251.",
+      "observation": "One applicant reports completing a multi-part consumer-design exercise before rejection and unanswered follow-up. Another reports declining free tasks, and elsewhere repeated interviews/sketch requests before rejection, later seeking veteran peers.",
+      "confidence": "Moderate for report; low for employer inference.",
+      "limits": "Complaint selection, mixed historical events, unknown employer sector, unverified tasks/outcomes; salaries not market estimates; no proof of work reuse or fabricated vacancy.",
+      "tags": [
+        "S10",
+        "occupation:design",
+        "employer:unknown-cross-industry",
+        "arrangement:unknown",
+        "stage:assessment-refusal-rejection",
+        "publication:unknown",
+        "event:mixed-unknown",
+        "platform:reddit"
+      ]
+    },
+    {
+      "accessDate": "2026-10-19",
+      "claimLabel": "source-reported claim",
+      "id": "R3-C08",
+      "employerActivity": "unknown; creative occupations do not establish employer industry",
+      "occupation": "Lead: senior graphic designer; commenters include multimedia designers and claimed UX hiring practitioner",
+      "arrangement": "Lead currently employed; contract type unknown; commenters mixed/unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown",
+      "stage": "Applications; portfolio/CV; callbacks; community advice",
+      "updateDate": "unknown",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1w5algd/my_girlfriend_senior_graphic_designer_has_been/",
+      "title": "Senior graphic designer job search and portfolio advice",
+      "publisher": "Reddit / r/singaporejobs",
+      "publicationDate": "unknown (relative one-month label; search metadata suggested 2026-09-02, not independently confirmed)",
+      "eventPeriod": "Lead account reports two-year search; exact dates unknown; commenters' events unknown",
+      "geography": "SG-context; individual employer geography/activity mostly unknown",
+      "type": "secondhand report with first-person comments",
+      "family": "https://www.reddit.com/r/singaporejobs/comments/1w5algd/my_girlfriend_senior_graphic_designer_has_been/",
+      "method": "Lead post about partner, not direct participant testimony; distinguish commenters and advice. Design occupation; lead currently employed, arrangement/seniority self-described.",
+      "passage": "Lead19-32; sample evidence257-264; advice317-330; contrasting callback account357-365.",
+      "observation": "Lead asks why applications rarely yield interviews. A commenter reports callbacks using self-published video metrics; another reports callbacks with a clean two-column CV and web portfolio. AI CV help is recommended, not demonstrated use.",
+      "confidence": "Moderate for explicit reports; low for diagnosis.",
+      "limits": "One thread family; no portfolio review performed, verified hires or ATS experiment. Advice and claims that AI replaced jobs cannot explain this person's outcomes.",
+      "tags": [
+        "S10",
+        "occupation:graphic-multimedia-design",
+        "employer:unknown-cross-industry",
+        "stage:application-portfolio",
+        "tool:manual-human-advice",
+        "publication:unknown",
+        "event:mixed-unknown",
+        "platform:reddit"
+      ]
+    },
+    {
+      "accessDate": "2026-10-19",
+      "claimLabel": "source-reported claim",
+      "id": "R3-C09",
+      "employerActivity": "Banking at unnamed end-client per advert; actual employer/contract unknown",
+      "occupation": "Wealth Planning Manager, expressly wealth sales",
+      "arrangement": "unknown; advert specifies schedule/pay components",
+      "intermediary": "People Profilers, recruitment agency/advertiser; not assumed employing bank",
+      "clientWorksite": "Unnamed local bank, island-wide Singapore branches",
+      "stage": "Discovery; application; examination before commencement; shortlisting",
+      "updateDate": "unknown",
+      "url": "https://www.careers-page.com/people-profilers/job/QXV9RX9R",
+      "title": "Wealth Planning Manager - QXV9RX9R",
+      "publisher": "People Profilers",
+      "publicationDate": "unknown",
+      "eventPeriod": "Undated listing; current external recruitment unresolved",
+      "geography": "SG-direct",
+      "type": "agency job posting",
+      "family": "https://www.careers-page.com/people-profilers/job/QXV9RX9R",
+      "method": "Agency's original vacancy wording; end-client bank unnamed. Agency is intermediary, not confirmed employing bank; wealth-sales function.",
+      "passage": "Description/Responsibilities/Requirements, lines11-30; notification policy38.",
+      "observation": "Explicit sales role lists basic salary, fixed allowance and quarterly commissions, branch/telephone prospecting, 5.5-day schedule and examination timing.",
+      "confidence": "High for advertisement wording; low for current status.",
+      "limits": "Agency description not bank-confirmed terms or universal licensing rule; no pay amount, actual offer, closure date or employer intention.",
+      "tags": [
+        "S08",
+        "intermediary:recruitment-agency",
+        "client:bank-unnamed",
+        "occupation:wealth-sales",
+        "arrangement:unknown",
+        "publication:unknown",
+        "event:unknown",
+        "vacancy-status:unresolved"
+      ]
+    },
+    {
+      "accessDate": "2026-10-19",
+      "claimLabel": "source-reported claim",
+      "id": "R3-C10",
+      "employerActivity": "Mixed/unknown; agencies and in-house design, not one employer industry",
+      "occupation": "Graphic/ad design; photography; claimed hiring practice, separate contributors",
+      "arrangement": "Mixed/unknown; one-off paid exercises and later employment reports",
+      "intermediary": "Agency mentioned by lead; recruitment-versus-employing agency status unknown",
+      "clientWorksite": "unknown",
+      "stage": "Portfolio; interviews; test; refusal/completion; no-response/hire; AI sample creation",
+      "updateDate": "unknown",
+      "url": "https://www.reddit.com/r/graphic_design/comments/1jdqsy5/has_anyone_ever_done_a_design_test_and_actually/",
+      "title": "Has anyone done a design test and gotten the job?",
+      "publisher": "Reddit / r/graphic_design",
+      "publicationDate": "unknown (discovery said 2025-03-17; opened relative two-year label conflicts)",
+      "eventPeriod": "Mixed/unknown; some comments explicitly about years earlier",
+      "geography": "International/unspecified comparator; not SG evidence",
+      "type": "first-person reports and claimed hiring-practice reports",
+      "family": "https://www.reddit.com/r/graphic_design/comments/1jdqsy5/has_anyone_ever_done_a_design_test_and_actually/",
+      "method": "Self-selected global discussion; no sample frame. Some employers outside creative industry. Individual countries mostly unknown; do not generalise to Singapore.",
+      "passage": "Opening21-28; paid-test account95-118; short-test success254-255; hiring rationale329-332; AI-use523-548.",
+      "observation": "Negative unpaid-test sequence coexists with reports of paid tests and short tasks followed by employment. One photographer reports Photoshop generative assets in mock ads and asks whether acceptable.",
+      "confidence": "Moderate for reports; low for cross-country transfer.",
+      "limits": "One thread, mixed periods/countries and arrangements; paid work or eventual hire not proof of fairness generally. AI use concerns sample creation, not verified application outcome or disclosure compliance.",
+      "tags": [
+        "S10",
+        "geography:international-unspecified",
+        "occupation:design-photography",
+        "employer:mixed-unknown",
+        "publication:unknown",
+        "event:mixed-older-unknown",
+        "platform:reddit",
+        "AI:reported-work-sample-use"
+      ]
+    },
+    {
+      "accessDate": "2026-10-19",
+      "claimLabel": "source-reported claim",
+      "id": "R3-C11",
+      "employerActivity": "Banking (DBS)",
+      "occupation": "Operations management associate: strategy, service support, post-trade processing",
+      "arrangement": "Management-associate programme; contract type unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "Singapore opportunities; regional scope; exact worksite unknown",
+      "stage": "Programme discovery; role scope assessment",
+      "updateDate": "unknown",
+      "url": "https://www.dbs.com/iwov-resources/images/careers/management-associate-programme/Available%202025%20MA%20Opportunities%20in%20Singapore.pdf",
+      "title": "DBS Management Associate Programme 2025 - opportunities in Singapore",
+      "publisher": "DBS",
+      "publicationDate": "unknown (2025 programme edition; discovery dated >24 months, unconfirmed)",
+      "eventPeriod": "2025 programme; historical by 2026-10-19",
+      "geography": "SG-context with regional operations scope",
+      "type": "employer programme document",
+      "family": "https://www.dbs.com/iwov-resources/images/careers/management-associate-programme/Available%202025%20MA%20Opportunities%20in%20Singapore.pdf",
+      "method": "Original bank PDF; occupational descriptions in management-associate programme, not sample of current vacancies.",
+      "passage": "PDF pages13-14 (zero-based12-13), Operations, lines318-350.",
+      "observation": "Operations spans strategy, continuity, consumer/institutional services and post-trade processing, rather than only frontline product sales.",
+      "confidence": "High for stated occupational scope.",
+      "limits": "Historical programme cannot establish live 2026 opening, operations pay, all entry requirements or any individual's outcome.",
+      "tags": [
+        "S08",
+        "employer:bank",
+        "occupation:operations",
+        "route:management-associate",
+        "publication:unknown",
+        "event:2025-historical"
+      ]
+    },
+    {
+      "accessDate": "2026-10-19",
+      "claimLabel": "source-reported claim",
+      "id": "R3-C12",
+      "employerActivity": "Healthcare/medical public-relations firm, applicant-reported; not confirmed S10 employer",
+      "occupation": "Graphic designer",
+      "arrangement": "unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "Singapore campaign named; employer/worksite geography unknown",
+      "stage": "Initial interview; assessment brief; public opinion request",
+      "updateDate": "unknown",
+      "url": "https://www.reddit.com/r/graphic_design/comments/1ardd2k/is_this_design_test_a_bit_too_far/",
+      "title": "Is this Design Test a bit too far",
+      "publisher": "Reddit / r/graphic_design",
+      "publicationDate": "unknown (discovery suggested 2024-02-15; exact publication unconfirmed)",
+      "eventPeriod": "Assessment deadline 2024-02-21; older than preferred window",
+      "geography": "SG-linked campaign context; employer location unknown",
+      "type": "first-person report",
+      "family": "https://www.reddit.com/r/graphic_design/comments/1ardd2k",
+      "method": "Applicant describes medical/healthcare PR employer and pasted brief. Creative occupation at PR employer is cross-industry context, not confirmed S10 employer.",
+      "passage": "Opening and task text, lines21-44.",
+      "observation": "After initial interview, applicant received a logo, campaign-concept and social-infographic brief with a roughly week-long deadline.",
+      "confidence": "Moderate for stated brief; low for transfer.",
+      "limits": "Older event explicitly labelled. Payment, outcome, client approval and work reuse unknown; campaign's Singapore reference does not establish employer location.",
+      "tags": [
+        "S10",
+        "employer:healthcare-PR-cross-industry",
+        "occupation:graphic-design",
+        "arrangement:unknown",
+        "publication:unknown",
+        "event:older",
+        "geography:SG-linked-not-confirmed",
+        "platform:reddit"
+      ]
+    },
+    {
+      "accessDate": "2026-10-19",
+      "claimLabel": "source-reported claim",
+      "id": "R3-M14",
+      "employerActivity": "Insurance (Income); prior industry logistics",
+      "occupation": "Finance Operations; prior logistics, business operations and project responsibilities",
+      "arrangement": "Employee after accepted offer; contract type unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "Singapore context; precise worksite unknown",
+      "stage": "Listing; interview; offer acceptance; supported transition",
+      "updateDate": "unknown",
+      "url": "https://www.income.com.sg/blog/mid-career-switch",
+      "title": "Making a Mid-career Switch with Income Insurance",
+      "publisher": "Income Insurance",
+      "publicationDate": "2020-12-31",
+      "eventPeriod": "Transition occurred by publication; precise event dates unknown; older",
+      "geography": "SG-direct",
+      "type": "employer-curated report",
+      "family": "https://www.income.com.sg/blog/mid-career-switch",
+      "method": "Reused coordinator breadth source, original ID/family retained; targeted worker reinspection. Older promotional employee account; insurance employer, finance operations; logistics career switch.",
+      "passage": "Date line112; Experience120-122; Right Opportunity125-126; transition129-132.",
+      "observation": "Employee relates prior logistics responsibilities to a finance-operations listing, reports a positive interview, accepted offer, courses/self-learning and team support.",
+      "confidence": "Moderate for attributed sequence; low for current transfer.",
+      "limits": "Older than 24 months, curated success; discovery channel/rounds/pay unknown. Potential pay cut is a general barrier, not an observed personal reduction. Same Income employer group as C01/C05.",
+      "tags": [
+        "S08",
+        "employer:insurance",
+        "occupation:finance-operations",
+        "route:career-switch",
+        "publication:older",
+        "event:older",
+        "reuse:coordinator-map",
+        "employer-group:Income"
+      ]
+    },
+    {
+      "accessDate": "2026-10-19",
+      "claimLabel": "source-reported claim",
+      "id": "R3-M18",
+      "employerActivity": "Branding/brand-management creative agency (Superminted)",
+      "occupation": "Senior designer; production/design interns; digital-marketing manager, separate roles",
+      "arrangement": "Singapore hybrid full-time/internship roles; occasional part-time/project contracts; some remote consideration",
+      "intermediary": "unknown; creative agency is stated employer, not assumed recruiter",
+      "clientWorksite": "Singapore hybrid and selected remote roles; exact worksite unknown",
+      "stage": "Named-role or speculative application; CV/portfolio; fit; task or deep-dive; final conversation",
+      "updateDate": "unknown",
+      "url": "https://www.superminted.com/careers",
+      "title": "Careers at a Leading Branding & Creative Agency | Singapore | Superminted",
+      "publisher": "Superminted",
+      "publicationDate": "unknown",
+      "eventPeriod": "Undated current page snapshot; hiring outcomes unknown",
+      "geography": "SG-direct/context",
+      "type": "employer statement",
+      "family": "https://www.superminted.com/careers",
+      "method": "Reused coordinator breadth source; original ID/family retained. Targeted reinspection of stated process. Creative agency with employee/intern and occasional project-contract arrangements.",
+      "passage": "How We Hire123-152; FAQ161-198.",
+      "observation": "CV/portfolio and discussion lead to role-dependent task or portfolio deep-dive, then final conversation. Page welcomes speculative applications, describes occasional project contracts, a response target and possible interview adjustments.",
+      "confidence": "High for stated process; unknown for observed experience.",
+      "limits": "Task payment/duration/rights and actual response compliance unknown. Named roles and open applications are distinct; neither proves current headcount or eventual hire.",
+      "tags": [
+        "S10",
+        "employer:branding-creative-agency",
+        "occupation:design-digital-production-marketing",
+        "arrangement:full-time-intern-occasional-contract",
+        "publication:unknown",
+        "event:snapshot",
+        "reuse:coordinator-map"
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "id": "R3-CO01",
+      "sourceIds": [
+        "R3-C11",
+        "R3-C09"
+      ],
+      "text": "Operations descriptions and an explicitly labelled wealth-sales advert support distinguishing function within financial employers.",
+      "label": "interpretation",
+      "limits": "Historical programme versus undated agency advert; no matched sample or pay comparison."
+    },
+    {
+      "id": "R3-CO02",
+      "sourceIds": [
+        "R3-C01",
+        "R3-C05"
+      ],
+      "text": "One insurer advertises a permanent salaried Client Advisor route as well as a Financial Consultant scheme with conditional onboarding/examination support.",
+      "label": "source-reported claim",
+      "limits": "Same employer family; no guaranteed earnings or actual offer comparison."
+    },
+    {
+      "id": "R3-CO03",
+      "sourceIds": [
+        "R3-M14"
+      ],
+      "text": "Older curated account reports a logistics-to-finance-operations listing, related interview experience, accepted offer and subsequent supported learning.",
+      "label": "source-reported claim",
+      "limits": "Published 2020-12-31, curated success; event dates, channel, salary and round count unknown."
+    },
+    {
+      "id": "R3-CO04",
+      "sourceIds": [
+        "R3-C02"
+      ],
+      "text": "Bank applicant reports multiple interviews and follow-ups without resolution; same-thread commenters report eventual offers after lengthy waits.",
+      "label": "source-reported claim",
+      "limits": "One thread family; different commenters do not establish original applicant outcome, function or employer explanation."
+    },
+    {
+      "id": "R3-CO05",
+      "sourceIds": [
+        "R3-C03"
+      ],
+      "text": "An experienced quant describes prior team exposure and a four-interview internal transfer.",
+      "label": "source-reported claim",
+      "limits": "Employer-selected undated story; not external operations or entry-level hiring."
+    },
+    {
+      "id": "R3-CO06",
+      "sourceIds": [
+        "R3-C06"
+      ],
+      "text": "Programme administrator distinguishes new-hire conversion from existing-employee reskilling, with employer participation and training.",
+      "label": "source-reported claim",
+      "limits": "Programme description is not employment effectiveness or eligibility advice."
+    },
+    {
+      "id": "R3-CO07",
+      "sourceIds": [
+        "R3-C02",
+        "R3-C09",
+        "R3-C11"
+      ],
+      "text": "Current recruitment and contemporaneous hiring intent remain unknown for the unresolved bank thread, undated agency advert and historical programme.",
+      "label": "unknown",
+      "limits": "No dated employer admission, independent requisition record or verified fill/closure."
+    },
+    {
+      "id": "R3-CO08",
+      "sourceIds": [
+        "R3-C04",
+        "R3-M18"
+      ],
+      "text": "Inspected creative employers describe different routes: a portfolio followed by a test versus a role-dependent task or portfolio discussion.",
+      "label": "source-reported claim",
+      "limits": "Stated processes; no observed delivery or accepted-offer cohort."
+    },
+    {
+      "id": "R3-CO09",
+      "sourceIds": [
+        "R3-C04"
+      ],
+      "text": "Employer explicitly discloses unpaid assessment and evaluation-only use, while leaving duration without a hard clock.",
+      "label": "source-reported claim",
+      "limits": "Non-use promise unverified; disclosure does not demonstrate reasonable burden."
+    },
+    {
+      "id": "R3-CO10",
+      "sourceIds": [
+        "R3-C07"
+      ],
+      "text": "Local design comments describe completed tasks followed by rejection, refusal of free tasks, and seeking peers after discouraging interviews.",
+      "label": "source-reported claim",
+      "limits": "Employer industry unknown; complaint selection, mixed old/unknown dates; no reuse or deception established."
+    },
+    {
+      "id": "R3-CO11",
+      "sourceIds": [
+        "R3-C08"
+      ],
+      "text": "Secondhand lead reports few interviews; separate commenters report callbacks with video metrics and web-portfolio/CV approaches.",
+      "label": "source-reported claim",
+      "limits": "Callbacks are not hires; not verified ATS causation, sample quality or target-employer behaviour."
+    },
+    {
+      "id": "R3-CO12",
+      "sourceIds": [
+        "R3-C10"
+      ],
+      "text": "International/unspecified thread supplies paid and brief-test positive countercases alongside a negative unpaid sequence.",
+      "label": "source-reported claim",
+      "limits": "Countries and events mixed/unknown; one family, not Singapore incidence."
+    },
+    {
+      "id": "R3-CO13",
+      "sourceIds": [
+        "R3-C12"
+      ],
+      "text": "A Singapore-linked campaign exercise followed an initial PR-employer interview and had a 2024-02-21 deadline.",
+      "label": "source-reported claim",
+      "limits": "Older; employer geography and outcome unknown; creative occupation at PR employer, not confirmed S10 company."
+    },
+    {
+      "id": "R3-CO14",
+      "sourceIds": [
+        "R3-C08",
+        "R3-C10"
+      ],
+      "text": "Local advice to use AI in CV preparation differs from a global photographer's reported AI-assisted sample creation.",
+      "label": "interpretation",
+      "limits": "No verified local application-stage AI workflow, output checking or positive hiring effect."
+    },
+    {
+      "id": "R3-CO15",
+      "sourceIds": [
+        "R3-M18"
+      ],
+      "text": "The careers page explicitly separates speculative applications from named roles; occasional project contracts are described.",
+      "label": "source-reported claim",
+      "limits": "No proof of current headcount, actual reply performance or completed freelance journey."
+    },
+    {
+      "id": "R3-CO16",
+      "sourceIds": [
+        "R3-C04",
+        "R3-C07",
+        "R3-C08",
+        "R3-C12"
+      ],
+      "text": "Employer industry, occupation, onsite/remote context and arrangement must be tagged separately before attributing a difficulty to the creative basket.",
+      "label": "interpretation",
+      "limits": "Convenience sources cannot separate occupation, employer and selection effects."
+    },
+    {
+      "id": "R3-CO17",
+      "sourceIds": [
+        "R3-C01",
+        "R3-C05",
+        "R3-C09"
+      ],
+      "text": "Preserving pay components and the conditions attached to them may help candidates frame offer questions.",
+      "label": "hypothesis",
+      "limits": "No user or outcome test; not an accepted feature or salary recommendation."
+    },
+    {
+      "id": "R3-CO18",
+      "sourceIds": [
+        "R3-C04",
+        "R3-M18",
+        "R3-C07"
+      ],
+      "text": "Separating existing portfolio review, new evaluation tasks and commissioned projects may help candidates decide whether to continue.",
+      "label": "hypothesis",
+      "limits": "No test of effect; does not determine rights, fairness, work reuse or employer intent."
+    }
+  ],
+  "gaps": [
+    {
+      "id": "C-G01",
+      "basket": "S08",
+      "gap": "Recent independent external operations transition sequence with verified accepted offer, assessment and pay components.",
+      "attempts": [
+        "D-S08-02",
+        "D-S08-03"
+      ],
+      "outcome": "Older curated positive retained, clearly dated. IBF report passage inaccessible despite initial metadata and two failed repeats."
+    },
+    {
+      "id": "C-G02",
+      "basket": "S08",
+      "gap": "Branch-service-only versus sales; underwriting, claims and actuarial routes.",
+      "attempts": [
+        "D-S08-01"
+      ],
+      "outcome": "Operations and sales contrasts covered selectively; these functions remain uncovered."
+    },
+    {
+      "id": "C-G03",
+      "basket": "S08",
+      "gap": "Verified application-stage AI use/non-use and checking behaviour.",
+      "attempts": [
+        "D-S08-02",
+        "D-S08-03"
+      ],
+      "outcome": "No relevant inspected behaviour; workplace AI descriptions not substituted."
+    },
+    {
+      "id": "C-G04",
+      "basket": "S08",
+      "gap": "Current bank/agency vacancy status and original employer intention.",
+      "attempts": [
+        "D-S08-01",
+        "D-S08-02"
+      ],
+      "outcome": "Unknown; no-hire/deception conclusion not supported."
+    },
+    {
+      "id": "C-G05",
+      "basket": "S10",
+      "gap": "Recent SG creative-employer complete seeker sequence ending in accepted offer.",
+      "attempts": [
+        "D-S10-02",
+        "F-c-01"
+      ],
+      "outcome": "Local occupational reports and callback countercases; no verified full sequence. Reserve SG-creative-sequence used 1 of maximum 3 queries; no remaining worker search allowance."
+    },
+    {
+      "id": "C-G06",
+      "basket": "S10",
+      "gap": "Production/freelance referral or crew-hiring sequence.",
+      "attempts": [
+        "D-S10-03"
+      ],
+      "outcome": "SAMPP www and hostname repair both failed. Onsite videographer brief and occasional project-contract process do not replace a freelancer's journey."
+    },
+    {
+      "id": "C-G07",
+      "basket": "S10",
+      "gap": "Arts/audition/gallery/writing-specific processes and current authoritative sector framework.",
+      "attempts": [
+        "D-S10-01"
+      ],
+      "outcome": "SkillsFuture HTML shell unusable; historical STPI PDF404. No inference from snippets; no further queries authorised."
+    },
+    {
+      "id": "C-G08",
+      "basket": "S10",
+      "gap": "Verified local paid-test positive case, sample-use compliance or test-to-hire denominator.",
+      "attempts": [
+        "D-S10-02",
+        "F-c-01"
+      ],
+      "outcome": "Global paid/short-test reports labelled comparators; employer promises remain unverified."
+    },
+    {
+      "id": "C-G09",
+      "basket": "S10",
+      "gap": "Current pay components, project/day rates, equipment/travel/overtime/payment terms.",
+      "attempts": [
+        "D-S10-01",
+        "D-S10-03"
+      ],
+      "outcome": "Employer pages leave pay unspecified; no sector pay benchmark."
+    },
+    {
+      "id": "C-G10",
+      "basket": "S10",
+      "gap": "Local AI sample/CV use with employer permission and correction/verification evidence.",
+      "attempts": [
+        "D-S10-02",
+        "F-c-01"
+      ],
+      "outcome": "Advice distinguished from behaviour; global sample-use report not local outcome evidence."
+    },
+    {
+      "id": "C-G11",
+      "basket": "S08/S10",
+      "gap": "Reliable publication/event dates and source independence.",
+      "attempts": [
+        "D-S08-02",
+        "D-S10-02",
+        "F-c-01"
+      ],
+      "outcome": "Relative Reddit dates conflict with search metadata; exact dates unknown. Thread comments and employer pages grouped; no prevalence inference."
+    },
+    {
+      "id": "C-G12",
+      "basket": "S08/S10",
+      "gap": "Access/language/caring/device constraints and independently tested alternative workflows.",
+      "attempts": [],
+      "outcome": "No dedicated remaining allocation; no attributes or experiences inferred. English public-web coverage only."
+    }
+  ],
+  "summary": [
+    "Executed 8/8 search attempts: six core D-S08/D-S10 slots and two reserved F-c slots, one query per explicit gap family; 25/26 inspection attempts including metadata-only responses, one unusable shell, five failures and repeats. No unlogged search/fetch/click or external write.",
+    "Retained 12 new R3-C sources plus 2 reinspected breadth sources R3-M14/R3-M18 with their original IDs/URL family strings. Income sources grouped conservatively in the R3-M14 family and employer-group:Income; Reddit comments remain within each thread, platform overlap explicit.",
+    "Read coordinator-map contribution after it became available; reinspection recovered 2020-12-31 date for R3-M14. No shared register changed. Same employer's multiple pages are not independent corroboration.",
+    "S08 supports operations/sales/specialist distinctions and salaried-versus-conditional incentive contrast; pay, rules and programme requirements remain source-specific. No representative earnings, universal credentials or employer-intent claim.",
+    "S10 supports portfolio/task alternatives, explicit unpaid/non-use disclosures and onsite/remote contrasts. Creative-occupation reports do not establish creative-employer industry. Production/freelance and arts coverage remains partial.",
+    "Positive and contrary reports retained without overstating callbacks, marketing stories, unpaid-test fairness or global cases. No confirmed intentionally fabricated vacancy in retained cases.",
+    "Stop: worker search ceiling reached; remaining inspection slot unused to avoid more low-yield repairs. Gaps are valid outputs, not evidence of absence. No commits, installations, contacts, applications, slides or shared-register edits."
+  ]
+}

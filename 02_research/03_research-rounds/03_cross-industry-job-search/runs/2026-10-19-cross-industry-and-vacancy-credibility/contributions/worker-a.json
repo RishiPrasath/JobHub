@@ -1,0 +1,952 @@
+{
+  "worker": "a",
+  "queries": [
+    {
+      "id": "D-S02-01",
+      "query": "Singapore hotel food beverage frontline careers recruitment walk in shift housekeeping interview requirements 2025 2026",
+      "intent": "Employer/public-service context: food versus hotel channels, roster, requirements and assessments.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "usable-context",
+      "resultNote": "Retrieved dated hotel event and original booklet/role details; one recruitment family.",
+      "sourceIds": [
+        "R3-A01",
+        "R3-A02",
+        "R3-A03"
+      ]
+    },
+    {
+      "id": "D-S02-02",
+      "query": "Singapore hotel restaurant part time job search experience interview hired walk in 2025 2026",
+      "intent": "Source-attributed search-to-interview sequence, direct experience and positive/contrary routes.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "usable-mixed-experience",
+      "resultNote": "Retrieved restaurant pre-interview question, unresolved hotel entry question and mixed interview reviews; opened originals.",
+      "sourceIds": [
+        "R3-A04",
+        "R3-A05",
+        "R3-A06"
+      ]
+    },
+    {
+      "id": "D-S05-01",
+      "query": "Singapore warehouse logistics transport careers recruitment shift location employment agency driver requirements 2025 2026",
+      "intent": "Employer/public-service context: warehouse, driving and coordination requirements; agency/client distinction.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "partial-context",
+      "resultNote": "Employer terminal-driving page usable; graduate search account usable; road-driver original yielded shell and is excluded.",
+      "sourceIds": [
+        "R3-A08",
+        "R3-A09"
+      ]
+    },
+    {
+      "id": "D-S02-03",
+      "query": "Singapore service crew walk in hired restaurant job experience reddit",
+      "intent": "Positive/contrary family S02-direct-success: successful low-friction entry versus online application difficulty.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "low-yield",
+      "resultNote": "Positive-route search returned repeated syndicated ads and tangential/international accounts; none retained as local positive evidence. Triggered S02-direct-success reserve.",
+      "sourceIds": []
+    },
+    {
+      "id": "D-S05-02",
+      "query": "Singapore warehouse assistant agency direct hire job search experience",
+      "intent": "Applicant sequence and agency-client terms, location and hours.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "experience-gap",
+      "resultNote": "No sufficiently contextualised new agency-to-site hiring sequence retained from core search. Triggered S05-agency-sequence reserve.",
+      "sourceIds": []
+    },
+    {
+      "id": "D-S05-03",
+      "query": "Singapore logistics warehouse job found work training disability SPD hired",
+      "intent": "Positive/contrary family S05-access-success: supported access and successful training-to-employment.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "usable-older-and-service-context",
+      "resultNote": "SPD original story usable after repairs; final employment is agricultural after logistics training. Service page is programme context, not outcome evaluation.",
+      "sourceIds": [
+        "R3-A11",
+        "R3-A12"
+      ]
+    },
+    {
+      "id": "F-a-01",
+      "query": "site:reddit.com/r/askSingapore \"job\" \"walk\" \"hired\" \"restaurant\"",
+      "intent": "Reserve family S02-direct-success: core positive search yielded syndication/no usable local hiring sequence; target a firsthand counterexample. Reserve family count 1; stop after this query.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "usable-older-contrary",
+      "resultNote": "One reserve for S02-direct-success; retained historical student practical-assessment account. Recent positive case independently available on opened review page. Stop: query cap.",
+      "sourceIds": [
+        "R3-A07"
+      ]
+    },
+    {
+      "id": "F-a-02",
+      "query": "site:reddit.com Singapore \"warehouse\" \"agency\" \"hours\"",
+      "intent": "Reserve family S05-agency-sequence: core experience search lacked a contextualised agency/site mismatch account. Reserve family count 1; stop after this query.",
+      "venue": "web",
+      "date": "2026-10-19",
+      "status": "partial-contrary",
+      "resultNote": "One reserve for S05-agency-sequence; retrieved mixed temporary warehouse reports, not complete recruitment journey. Breadth R3-M10 later reused without reopen. Stop: query cap.",
+      "sourceIds": [
+        "R3-A10"
+      ]
+    }
+  ],
+  "inspections": [
+    {
+      "url": "https://event.e2i.com.sg/view-event/tse2508",
+      "status": "inspected",
+      "note": "Attempt 01. Event body and table; R3-A01. Dated August 2025, not current vacancy verification."
+    },
+    {
+      "url": "https://psacareers.singaporepsa.com/en/job/493596/container-handling-specialist-prime-mover-driver",
+      "status": "inspected",
+      "note": "Attempt 02. Redirected employer page; R3-A08. Permanent, shift/training wording and closing date visible."
+    },
+    {
+      "url": "https://www.reddit.com/r/SGExams/comments/1khn8pa",
+      "status": "failed",
+      "note": "Attempt 03. Timeout; charged. No evidence from this attempt."
+    },
+    {
+      "url": "https://www.reddit.com/r/SGExams/comments/1ud59vb/parttime_work_at_an_hotel/",
+      "status": "inspected",
+      "note": "Attempt 04. Opening post only; R3-A05. No completed hotel application or visible outcome."
+    },
+    {
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1ulkj9i/i_need_advice_on_logistics_job_singaporean/",
+      "status": "inspected",
+      "note": "Attempt 05. Opening and visible replies; R3-A09. Relative dates only; outcome unverified."
+    },
+    {
+      "url": "https://www.marinabaysands.com/content/dam/marinabaysands/company-information/media-centre/press-releases-and-factsheets/2026/mar/marina-bay-sands-hosts-two-day-career-fair-on-15-and-16-march-with-more-than-1000-jobs.pdf",
+      "status": "metadata-only",
+      "note": "Attempt 06. PDF resource/page count returned without substantive passage in visible output; excluded. Charged."
+    },
+    {
+      "url": "https://www.reddit.com/r/SGExams/comments/1khn8pa",
+      "status": "inspected",
+      "note": "Attempt 07. Repeat repaired timeout; opening and peer replies; R3-A04."
+    },
+    {
+      "url": "https://www.reddit.com/r/SGExams/comments/dqwj7o",
+      "status": "inspected",
+      "note": "Attempt 08. Historical thread, visible KFC walk-in/menu-memory/form/start account; R3-A07."
+    },
+    {
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1vu9lwq/warehouse_packing_jobs/",
+      "status": "metadata-only",
+      "note": "Attempt 09. Page metadata but no substantive passage exposed in this batch; no claim until later content-window open."
+    },
+    {
+      "url": "https://spd.org.sg/unlabel/giving-jobseekers-with-disabilities-a-fair-shot-at-employment/",
+      "status": "failed",
+      "note": "Attempt 10. Internal fetch error; SPD story not usable from this attempt."
+    },
+    {
+      "url": "https://spd.org.sg/what-we-do/employment-support-training/employment-support-services/",
+      "status": "metadata-only",
+      "note": "Attempt 11. Service page metadata only in output; repeated later for passage."
+    },
+    {
+      "url": "https://www.glassdoor.com/Interview/iTEA-Premium-Bubble-Tea-Singapore-Interview-Questions-E5618881.htm",
+      "status": "metadata-only",
+      "note": "Attempt 12. Review-page metadata only in output; repeated later for passages."
+    },
+    {
+      "url": "https://www.marinabaysands.com/content/dam/marinabaysands/company-information/media-centre/press-releases-and-factsheets/2026/mar/marina-bay-sands-hosts-two-day-career-fair-on-15-and-16-march-with-more-than-1000-jobs.pdf",
+      "status": "failed",
+      "note": "Attempt 13. Repeat MBS PDF returned internal error; no evidence."
+    },
+    {
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1vu9lwq/warehouse_packing_jobs/",
+      "status": "inspected",
+      "note": "Attempt 14. Opening and day/night-shift comments; R3-A10. Recruiting replies not authenticated; personal contact excluded."
+    },
+    {
+      "url": "https://spd.org.sg/what-we-do/employment-support-training/employment-support-services/",
+      "status": "inspected",
+      "note": "Attempt 15. Overview and eligibility, lines 102-120; R3-A12."
+    },
+    {
+      "url": "https://www.glassdoor.com/Interview/iTEA-Premium-Bubble-Tea-Singapore-Interview-Questions-E5618881.htm",
+      "status": "inspected",
+      "note": "Attempt 16. Three dated reviews visible, lines 148-237; R3-A06. Anonymous, outcomes unverified."
+    },
+    {
+      "url": "https://www.spd.org.sg/unlabel/giving-jobseekers-with-disabilities-a-fair-shot-at-employment/",
+      "status": "inspected-partial",
+      "note": "Attempt 17. SPD story date and initial assessment/referral sequence, lines 79-103; later continuation needed; R3-A11."
+    },
+    {
+      "url": "https://event.e2i.com.sg/storage/event_media/VasGZisqOcTAwJ2q72p51zsuSXZdTo9ZO2udrwsL.pdf",
+      "status": "inspected",
+      "note": "Attempt 18. Clicked event Download link 4; resolved nine-page vacancy PDF; R3-A02, same event family."
+    },
+    {
+      "url": "https://event.e2i.com.sg/job-detail/11602/1754",
+      "status": "inspected",
+      "note": "Attempt 19. Clicked event Guest Service Agent link 16; resolved original role page; R3-A03, same event family."
+    },
+    {
+      "url": "https://spd.org.sg/unlabel/giving-jobseekers-with-disabilities-a-fair-shot-at-employment/",
+      "status": "failed",
+      "note": "Attempt 20. Repeat SPD story at line 100 timed out; charged."
+    },
+    {
+      "url": "https://www.mycareersfuture.gov.sg/job/class-4-driver-%E2%80%93-port-delivery-operations-quantum-forward-6e362b2ae87a50d1fd6608e5109fa020",
+      "status": "inaccessible-content",
+      "note": "Attempt 21. MyCareersFuture original exposed three-line shell; no posting terms retained; snippet excluded."
+    },
+    {
+      "url": "https://www.marinabaysands.com/content/dam/marinabaysands/company-information/media-centre/press-releases-and-factsheets/2026/mar/marina-bay-sands-hosts-two-day-career-fair-on-15-and-16-march-with-more-than-1000-jobs.pdf",
+      "status": "failed",
+      "note": "Attempt 22. Final MBS PDF repair timed out; all three attempts excluded from substantive evidence."
+    },
+    {
+      "url": "https://www.mom.gov.sg/employment-practices/progressive-wage-model/food-services-sector",
+      "status": "inspected",
+      "note": "Attempt 23. Official coverage, roles and quick-service pay table visible; R3-M03 retained breadth ID/family. Direct known-route open, no search."
+    },
+    {
+      "url": "https://www.mom.gov.sg/employment-practices/contract-of-service/key-employment-terms",
+      "status": "metadata-only",
+      "note": "Attempt 24. KET resource metadata only; final content-window inspection required before claims."
+    },
+    {
+      "url": "https://www.spd.org.sg/unlabel/giving-jobseekers-with-disabilities-a-fair-shot-at-employment/",
+      "status": "inspected",
+      "note": "Attempt 25. www route repaired retrieval, story lines 96-131 visible; R3-A11. Logistics training to agricultural employment, not logistics placement."
+    },
+    {
+      "url": "https://www.mom.gov.sg/employment-practices/contract-of-service/key-employment-terms",
+      "status": "inspected",
+      "note": "Attempt 26. KET items table, lines 34-73; R3-A13. Final attempt at 26/26."
+    }
+  ],
+  "sources": [
+    {
+      "id": "R3-A01",
+      "url": "https://event.e2i.com.sg/view-event/tse2508",
+      "title": "The Singapore EDITION Walk In Interview (25 Aug)",
+      "publisher": "e2i",
+      "publicationDate": "unknown",
+      "eventPeriod": "Event: 2025-08-25; historical snapshot",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "public-service event / employer advertisement",
+      "family": "EDITION-e2i-2025-08-25",
+      "method": "Organiser-hosted event and jobs table; no attendance or hiring evaluation.",
+      "passage": "About Event and Job Opportunities, lines 2-19 and 50-67: dated walk-in and mixed role table.",
+      "observation": "Hotel walk-in/tour and multiple employment categories were advertised.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for displayed wording",
+      "limits": "Not current vacancy or actual offered pay; event, booklet and role detail are one family.",
+      "tags": [
+        "S02",
+        "employer:hotel",
+        "occupation:F&B/guest-services/culinary/revenue",
+        "arrangement:mixed-advertised",
+        "stage:discovery",
+        "publication:unknown",
+        "event:within-24-months"
+      ],
+      "employerActivity": "Hotel/accommodation, as advertised for The Singapore EDITION; e2i is not the employer",
+      "occupation": "Guest services, F&B, culinary and revenue roles in event table",
+      "arrangement": "Mixed advertised categories; role-specific",
+      "intermediary": "e2i event organiser; contractual recruitment role unknown",
+      "clientWorksite": "The Singapore EDITION event venue; actual role deployment unknown",
+      "stage": "discovery / walk-in invitation",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-A02",
+      "url": "https://event.e2i.com.sg/storage/event_media/VasGZisqOcTAwJ2q72p51zsuSXZdTo9ZO2udrwsL.pdf",
+      "title": "EDITION vacancy booklet linked from 25 Aug walk-in",
+      "publisher": "e2i / The Singapore EDITION Hotel",
+      "publicationDate": "unknown",
+      "eventPeriod": "Linked to 2025-08-25 event; standalone issue date unknown",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "employer job descriptions",
+      "family": "EDITION-e2i-2025-08-25",
+      "method": "Original nine-page linked booklet; role wording, not observed selection.",
+      "passage": "Pages 1-3, 5 and 8: guest systems, F&B flexible hours, culinary and analytical criteria.",
+      "observation": "Requirements differ by role; some title/duties wording needs clarification.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for text; role accuracy unverified",
+      "limits": "One employer; template inconsistencies; no recruitment outcomes or actual roster.",
+      "tags": [
+        "S02",
+        "employer:hotel",
+        "occupation:guest-services/F&B/culinary/revenue",
+        "arrangement:unknown-at-booklet-level",
+        "stage:assessment-of-fit",
+        "publication:unknown",
+        "event:within-24-months"
+      ],
+      "employerActivity": "Hotel/accommodation, as represented in linked employer booklet",
+      "occupation": "Guest service, F&B, culinary, technical and revenue roles",
+      "arrangement": "unknown at booklet level",
+      "intermediary": "e2i event host; not established as contractual employer",
+      "clientWorksite": "Hotel property context; exact deployment unknown",
+      "stage": "requirements / assessment of fit",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-A03",
+      "url": "https://event.e2i.com.sg/job-detail/11602/1754",
+      "title": "Guest Service Agent",
+      "publisher": "e2i / The Singapore EDITION Hotel",
+      "publicationDate": "unknown",
+      "eventPeriod": "Linked to 2025-08-25 event; current opening unknown",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "employer posting",
+      "family": "EDITION-e2i-2025-08-25",
+      "method": "Original event-linked role detail.",
+      "passage": "Job Requirements and table, lines 16-27: skills, experience, qualification and advertised pay.",
+      "observation": "Entry criteria and advertised full-time terms are explicitly stated.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for text",
+      "limits": "Not proof of offered terms or current external recruitment; no hotel-wide qualification rule.",
+      "tags": [
+        "S02",
+        "employer:hotel",
+        "occupation:guest-service-agent",
+        "arrangement:full-time",
+        "entry:0-years-advertised",
+        "stage:requirements",
+        "publication:unknown",
+        "event:within-24-months"
+      ],
+      "employerActivity": "Hotel/accommodation; named hotel is the represented hiring organisation",
+      "occupation": "Guest Service Agent",
+      "arrangement": "Full time in detail; parent event says permanent",
+      "intermediary": "e2i hosts role detail; contractual intermediation unknown",
+      "clientWorksite": "The Singapore EDITION; actual worksite assignment unknown",
+      "stage": "requirements / advertised terms",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-A04",
+      "url": "https://www.reddit.com/r/SGExams/comments/1khn8pa/what_to_expect_for_fb_part_time_interview/",
+      "title": "What to expect for F&B part time interview?",
+      "publisher": "Reddit / r/SGExams",
+      "publicationDate": "2025-05-08 (page date context)",
+      "eventPeriod": "Application before post; interview scheduled next week; result unknown",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "first-person report and peer advice",
+      "family": "reddit-thread:1khn8pa",
+      "method": "Self-selected public post; no independent verification.",
+      "passage": "Opening, lines 20-21; replies 49-78: application, online invitation and availability advice.",
+      "observation": "First-time restaurant applicant reports uncertainty before an online interview.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "Advice is not actual interview behaviour; no offer outcome; no AI disclosure.",
+      "tags": [
+        "S02",
+        "employer:restaurant-chain-reported",
+        "occupation:part-time-restaurant-role-unspecified",
+        "arrangement:part-time-school-attachment",
+        "stage:pre-interview",
+        "publication:within-24-months",
+        "event:within-24-months"
+      ],
+      "employerActivity": "Restaurant chain, source-reported; legal employer unknown",
+      "occupation": "Part-time restaurant work; exact duties unknown",
+      "arrangement": "Part-time school-holiday attachment, source-reported",
+      "intermediary": "unknown",
+      "clientWorksite": "Japanese restaurant chain; outlet unknown",
+      "stage": "application / pre-interview",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-A05",
+      "url": "https://www.reddit.com/r/SGExams/comments/1ud59vb/parttime_work_at_an_hotel/",
+      "title": "Part-Time Work at an Hotel",
+      "publisher": "Reddit / r/SGExams",
+      "publicationDate": "unknown; page displays relative 4mo",
+      "eventPeriod": "Intended search at posting; exact dates unknown",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "public prospective-seeker question",
+      "family": "reddit-thread:1ud59vb",
+      "method": "Self-selected public opening; no completed application.",
+      "passage": "Opening, lines 21-25: asks about portals, rates and guest-facing hotel roles.",
+      "observation": "Prospective hotel applicant lacks route/rate information.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "Not a reported completed search, unsuccessful application or evidence of pay.",
+      "tags": [
+        "S02",
+        "employer:hotel-intended",
+        "occupation:concierge/front-office/guest-relations-intended",
+        "arrangement:part-time-intended",
+        "stage:discovery",
+        "publication:recent-relative-date-only",
+        "event:unknown"
+      ],
+      "employerActivity": "unknown; prospective seeker targets hotel work",
+      "occupation": "Concierge / front office / guest relations are intended roles, not actual appointments",
+      "arrangement": "Part-time intended; actual arrangement unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown",
+      "stage": "discovery / prospective fit",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-A06",
+      "url": "https://www.glassdoor.com/Interview/iTEA-Premium-Bubble-Tea-Singapore-Interview-Questions-E5618881.htm",
+      "title": "iTEA Premium Bubble Tea Singapore interview questions",
+      "publisher": "Glassdoor / anonymous contributors",
+      "publicationDate": "Page publication unknown; individual review publication dates displayed: 2025-07-01, 2025-08-14, 2025-09-09",
+      "eventPeriod": "Interview dates unknown; reviews describe prior experiences",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "anonymous interview reports",
+      "family": "Glassdoor:iTEA-interview-page",
+      "method": "Three self-selected reports on one employer page; aggregate ratings not used.",
+      "passage": "Lines 148-237: staffing-message report and accepted-offer walk-in with practical questions.",
+      "observation": "Reported outcomes differ; proposed trial completion is unknown.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "One employer/platform family; no verified trial, contract or intent; accepted-offer claim unverified.",
+      "tags": [
+        "S02",
+        "employer:bubble-tea-chain-reported",
+        "occupation:service-crew",
+        "arrangement:part-time-reported-for-two-reviews",
+        "stage:interview/offer/follow-up",
+        "publication:within-24-months",
+        "event:unknown"
+      ],
+      "employerActivity": "Bubble-tea food service, source-reported for named chain; legal employer not independently checked",
+      "occupation": "Part Time Service Crew for July/September reviews; August role unspecified",
+      "arrangement": "Part-time for two labelled reviews; August unknown",
+      "intermediary": "unknown; Glassdoor is publication platform, not established recruiter/employer",
+      "clientWorksite": "Store interview reported; actual employing outlet/worksite unknown",
+      "stage": "in-person application / interview / proposed trial / offer or follow-up",
+      "updateDate": "2025-09-09 (page displays Updated; not publication date)"
+    },
+    {
+      "id": "R3-A07",
+      "url": "https://www.reddit.com/r/SGExams/comments/dqwj7o/post_exams_applying_for_jobs_after_os/",
+      "title": "[post exams] applying for jobs after os",
+      "publisher": "Reddit / r/SGExams",
+      "publicationDate": "unknown exact; page displays 7y ago (circa 2019)",
+      "eventPeriod": "Historical experience before post; exact year unknown",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "first-person retrospective comments",
+      "family": "reddit-thread:dqwj7o",
+      "method": "Self-selected comments; only relevant firsthand practical-assessment account retained.",
+      "passage": "Comment at lines 277-284: walk-in, menu test, form and next-day start.",
+      "observation": "Historical fast-food entry combined assessment and a reported quick start.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "OLDER; no current pay/process inference; unrelated cinema/retail cases not assigned to S02.",
+      "tags": [
+        "S02",
+        "employer:fast-food-reported",
+        "occupation:crew",
+        "arrangement:student-part-time-reported",
+        "stage:walk-in/assessment/start",
+        "publication:older",
+        "event:older"
+      ],
+      "employerActivity": "Fast-food restaurant, source-reported in retained practical-test account",
+      "occupation": "Fast-food crew, source-reported",
+      "arrangement": "Student part-time, source-reported",
+      "intermediary": "unknown; Reddit is discussion platform",
+      "clientWorksite": "unknown outlet",
+      "stage": "walk-in / practical assessment / form / reported start",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-A08",
+      "url": "https://psacareers.singaporepsa.com/jobs/container-handling-specialist-prime-mover-driver-joining-bonus-of-2000-for-singaporeans-and-prs-singapore",
+      "title": "Container Handling Specialist (Prime Mover Driver) [Joining bonus of $2000 for Singaporeans and PRs]",
+      "publisher": "PSA Singapore",
+      "publicationDate": "unknown; original advertised date not visible after redirect",
+      "eventPeriod": "Page closing date: 2026-12-31; actual recruitment/hire period unknown",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "employer posting",
+      "family": "PSA:requisition-493596",
+      "method": "Direct employer careers page; no application or headcount confirmation.",
+      "passage": "Lines 29-47: permanent, terminal duties, training, licence preference, shifts and shortlist notification.",
+      "observation": "Employer describes a trained terminal-driving route and selective notification.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for text; hiring outcome unknown",
+      "limits": "Not public-road licensing guidance; no inspected wage, bonus conditions, exact site or current screening confirmation.",
+      "tags": [
+        "S05",
+        "employer:port-terminal-operator",
+        "occupation:terminal-prime-mover-driver",
+        "arrangement:permanent",
+        "stage:requirements/application",
+        "publication:unknown",
+        "event:current-representation-only"
+      ],
+      "employerActivity": "Port/terminal container handling, employer-described activity; SSIC not verified",
+      "occupation": "Container Handling Specialist / terminal Prime Mover Driver",
+      "arrangement": "Permanent, employer-stated",
+      "intermediary": "unknown; PSA-hosted careers page is direct employer representation",
+      "clientWorksite": "Within and between PSA terminals; exact assigned terminal unknown",
+      "stage": "requirements / application / shortlist notification policy",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-A09",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1ulkj9i/i_need_advice_on_logistics_job_singaporean/",
+      "title": "I need advice on logistics Job (Singaporean)",
+      "publisher": "Reddit / r/singaporejobs",
+      "publicationDate": "unknown; rendered page shows relative 2mo",
+      "eventPeriod": "Reported ongoing search; exact period unknown",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "first-person report and peer advice",
+      "family": "reddit-thread:1ulkj9i",
+      "method": "Self-selected public post; no outcome verification.",
+      "passage": "Opening, lines 19-65: boards, commute exclusions, guidance, titles and company-site difficulty.",
+      "observation": "Graduate reports an unresolved search constrained by location and role uncertainty.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "No interview/offer; personal pay aspiration is not benchmark; replies do not verify transport provision.",
+      "tags": [
+        "S05",
+        "employer:logistics-intended-not-confirmed",
+        "occupation:graduate-logistics-role-unresolved",
+        "arrangement:unknown",
+        "entry:degree/no-experience-reported",
+        "stage:search/fit/follow-up",
+        "publication:recent-relative-date-only",
+        "event:unknown"
+      ],
+      "employerActivity": "unknown; logistics employers are intended search targets, not established employment",
+      "occupation": "Graduate logistics / supply-chain roles; target scope unresolved",
+      "arrangement": "unknown",
+      "intermediary": "unknown; reported job boards are discovery channels, not demonstrated contractual intermediaries",
+      "clientWorksite": "unknown; prospective locations/commutes discussed",
+      "stage": "discovery / scope and location screening / guidance / follow-up",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-A10",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1vu9lwq/warehouse_packing_jobs/",
+      "title": "warehouse packing jobs",
+      "publisher": "Reddit / r/singaporejobs",
+      "publicationDate": "unknown; rendered page shows relative 2mo",
+      "eventPeriod": "Past temporary work before comments; exact dates unknown",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "first-person comments plus unverified recruiting replies",
+      "family": "reddit-thread:1vu9lwq",
+      "method": "Self-selected public thread; recruiting identities not verified.",
+      "passage": "Opening and comments, lines 19-21, 79-80, 104-106: discovery and mixed conditions.",
+      "observation": "Reports combine fatigue with selectable shifts and fast agency payment.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "Not contract, pay benchmark or complete hiring sequence; gender generalisations and contact details excluded.",
+      "tags": [
+        "S05",
+        "employer:unknown-warehouse-client",
+        "intermediary:agency-mentioned-not-identified",
+        "occupation:warehouse-packing",
+        "arrangement:temporary/agency-reported",
+        "stage:discovery/conditions",
+        "publication:recent-relative-date-only",
+        "event:unknown"
+      ],
+      "employerActivity": "unknown; warehouse occupation does not establish employer industry",
+      "occupation": "Warehouse packing, stacking and related temporary tasks, as reported",
+      "arrangement": "Temporary work; agency involvement in one comment, exact contracts unknown",
+      "intermediary": "Agency mentioned by commenter; identity/contractual role unknown",
+      "clientWorksite": "Warehouses reported; sites and clients unknown",
+      "stage": "discovery / reported conditions and shift selection",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-A11",
+      "url": "https://spd.org.sg/unlabel/giving-jobseekers-with-disabilities-a-fair-shot-at-employment/",
+      "title": "Giving jobseekers with disabilities a fair shot at employment",
+      "publisher": "SPD",
+      "publicationDate": "2023-04-27",
+      "eventPeriod": "2019 logistics assignment; agricultural employment from 2021-09; earlier preparation date unknown",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "provider-selected case account",
+      "family": "SPD:employment-support",
+      "method": "Service-provider narrative; not independent longitudinal evaluation.",
+      "passage": "Lines 96-119: referral, preparation, logistics enclave, supported trial and agricultural placement.",
+      "observation": "Positive supported transition crosses employer industries.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited for outcome; high for attribution",
+      "limits": "OLDER publication/events; final employment is agricultural, not logistics; overlap with other SPD programme material.",
+      "tags": [
+        "S05",
+        "employer:logistics-training-partner-then-agriculture",
+        "occupation:packing",
+        "arrangement:training-then-open-employment-reported",
+        "access:disability-support-disclosed",
+        "stage:preparation/trial/placement",
+        "publication:older",
+        "event:older",
+        "publisher-family:SPD"
+      ],
+      "employerActivity": "Logistics partner for 2019 training; agricultural company for final placement from September 2021",
+      "occupation": "Packing trainee, then packer at agricultural company",
+      "arrangement": "Training/enclave and supported job trial, then reported open employment; contract type unknown",
+      "intermediary": "SPD provides supported assessment/training/matching; employment-agency status not established",
+      "clientWorksite": "Unnamed logistics partner and agricultural company work environments",
+      "stage": "assessment / vocational preparation / training / job trial / placement",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-A12",
+      "url": "https://spd.org.sg/what-we-do/employment-support-training/employment-support-services/",
+      "title": "Employment Support Services",
+      "publisher": "SPD",
+      "publicationDate": "unknown",
+      "eventPeriod": "Current visible programme description; effective date unknown",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "programme documentation",
+      "family": "SPD:employment-support",
+      "method": "Provider describes its service and eligibility; no evaluation denominator.",
+      "passage": "Overview and Eligibility, lines 102-120: planning, training, support and criteria.",
+      "observation": "Human support pathway is documented for a bounded eligible group.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for stated service",
+      "limits": "Not logistics-specific; not guaranteed access or placement; eligibility is programme-specific; same SPD organisational family.",
+      "tags": [
+        "S05",
+        "employer:cross-sector/unknown",
+        "occupation:unspecified",
+        "arrangement:programme/open-employment-intended",
+        "access:physical-or-sensory-disability-criteria",
+        "stage:preparation/placement-support",
+        "publication:unknown",
+        "event:unknown",
+        "publisher-family:SPD"
+      ],
+      "employerActivity": "unknown; SPD describes an employment-support service, not the client's employer",
+      "occupation": "unknown; cross-occupation programme",
+      "arrangement": "Open employment intended; actual employment contracts unknown",
+      "intermediary": "SPD Employment Support Programme provider; not established as employing organisation",
+      "clientWorksite": "unknown",
+      "stage": "assessment / preparation / placement support",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-A13",
+      "url": "https://www.mom.gov.sg/employment-practices/contract-of-service/key-employment-terms",
+      "title": "Key employment terms (KETs)",
+      "publisher": "Ministry of Manpower",
+      "publicationDate": "unknown",
+      "eventPeriod": "Current visible guidance as accessed; effective date not shown",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "official employment-terms guidance",
+      "family": "https://www.mom.gov.sg/employment-practices/contract-of-service/key-employment-terms",
+      "method": "Official terms table; no individual contract assessment.",
+      "passage": "Table, lines 34-73: employer, duties, term, hours, pay components and optional location.",
+      "observation": "Official table separates employment identity and terms for comparison.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for wording",
+      "limits": "No determination of individual entitlement, agency liability or a reported dispute; no legal advice.",
+      "tags": [
+        "S02",
+        "S05",
+        "employer:cross-sector",
+        "occupation:cross-sector",
+        "arrangement:employment-context",
+        "stage:offer/terms",
+        "publication:unknown",
+        "event:unknown"
+      ],
+      "employerActivity": "unknown; cross-industry official guidance, MOM is not employer in this evidence",
+      "occupation": "unknown; cross-occupation guidance",
+      "arrangement": "Employment terms; individual arrangement unknown",
+      "intermediary": "unknown; regulator documentation, not placement evidence",
+      "clientWorksite": "unknown; source describes optional place-of-work field",
+      "stage": "offer / employment-term clarification",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-M03",
+      "url": "https://www.mom.gov.sg/employment-practices/progressive-wage-model/food-services-sector",
+      "title": "Progressive Wage Model for the food services sector",
+      "publisher": "Ministry of Manpower",
+      "publicationDate": "unknown",
+      "eventPeriod": "Inspected schedule: 2026-07-01 to 2027-06-30; coverage as displayed on access",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "official policy",
+      "family": "https://www.mom.gov.sg/employment-practices/progressive-wage-model/food-services-sector",
+      "method": "Breadth ID retained; worker directly inspected authoritative coverage and dated table.",
+      "passage": "Who it covers, lines 44-49; Category A wage table, lines 233-248.",
+      "observation": "Coverage is conditional; current quick-service table distinguishes monthly/hourly gross wage excluding OT.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for wording",
+      "limits": "Not universal hospitality coverage, basic salary or individual entitlement; no extra independent source for reinspection.",
+      "tags": [
+        "S02",
+        "reuse:coordinator-map:R3-M03",
+        "employer:conditional-cross-industry-food-premises",
+        "occupation:food-services-role-dependent",
+        "arrangement:contract-of-service/full-or-part-time",
+        "stage:requirements/pay",
+        "publication:unknown",
+        "event:within-24-months"
+      ],
+      "employerActivity": "Conditional food-services work across employer classifications; no individual employer established",
+      "occupation": "Food-services roles, including quick-service counter attendant in inspected table",
+      "arrangement": "Full-/part-time contract of service within specified coverage",
+      "intermediary": "unknown; official policy source is not recruitment intermediary",
+      "clientWorksite": "SFA-licensed food retail / central kitchen premises within stated coverage; specific worksite unknown",
+      "stage": "requirements / pay interpretation",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-M09",
+      "url": "https://spd.org.sg/what-we-do/employment-support-training/employment-ready-logistics-skills-training-programme/",
+      "title": "Employment-Ready Logistics Skills Training Programme",
+      "publisher": "SPD",
+      "publicationDate": "unknown",
+      "eventPeriod": "Undated current page per coordinator inspection",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "programme documentation",
+      "family": "https://spd.org.sg/what-we-do/employment-support-training/employment-ready-logistics-skills-training-programme",
+      "method": "Reused coordinator-map inspected summary; worker did not reopen original.",
+      "passage": "Coordinator locator: Area / Objective / Content; technical, workplace-behaviour and readiness training.",
+      "observation": "Logistics training route is described, without measured placement success.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for attributed programme wording; worker did not verify passage independently",
+      "limits": "Breadth summary only; no eligibility/pay/placement claims added; same SPD publisher family.",
+      "tags": [
+        "S05",
+        "reuse:coordinator-map:R3-M09",
+        "employer:training-programme-not-hiring-employer",
+        "occupation:logistics/warehousing",
+        "arrangement:training",
+        "stage:preparation",
+        "publication:unknown",
+        "event:unknown",
+        "publisher-family:SPD"
+      ],
+      "employerActivity": "unknown; SPD training provision is not evidence of the eventual employer's activity",
+      "occupation": "Logistics/warehousing training; exact eventual role unknown",
+      "arrangement": "Training programme; employment arrangement unknown",
+      "intermediary": "SPD programme provider, per coordinator inspected summary",
+      "clientWorksite": "unknown",
+      "stage": "skills preparation / work readiness",
+      "updateDate": "unknown"
+    },
+    {
+      "id": "R3-M10",
+      "url": "https://www.reddit.com/r/SGExams/comments/1i3xtpv",
+      "title": "did my recruiting agency scam me",
+      "publisher": "Reddit / r/SGExams",
+      "publicationDate": "unknown exact per coordinator",
+      "eventPeriod": "Historical; exact date unverified",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "first-person report",
+      "family": "https://www.reddit.com/r/SGExams/comments/1i3xtpv",
+      "method": "Reused coordinator-map inspected summary; worker did not reopen original.",
+      "passage": "Coordinator locator: Opening / update; agency-agreed Saturday hours versus site expectations.",
+      "observation": "Reported terms disagreement does not establish a fake vacancy or intent.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "Breadth summary only; no contract/legal outcome or identity relationships independently inspected; allegation not adopted as fraud.",
+      "tags": [
+        "S05",
+        "reuse:coordinator-map:R3-M10",
+        "employer:unknown",
+        "intermediary:recruiting-agency-reported",
+        "client:warehouse-site-reported",
+        "occupation:warehouse-worker",
+        "arrangement:agency-reported/contract-unknown",
+        "stage:terms/deployment",
+        "publication:unknown",
+        "event:unknown"
+      ],
+      "employerActivity": "unknown; warehouse site and agency involvement do not establish legal employer industry",
+      "occupation": "Warehouse work, source-reported in coordinator summary",
+      "arrangement": "Agency involvement reported; contract type unknown",
+      "intermediary": "Recruiting agency reported; contractual/employer relationship unknown",
+      "clientWorksite": "Warehouse client/site reported; identity unknown",
+      "stage": "agreed terms / deployment / reported hours disagreement",
+      "updateDate": "unknown"
+    }
+  ],
+  "observations": [
+    {
+      "id": "R3-AO01",
+      "sourceIds": [
+        "R3-A01",
+        "R3-A02",
+        "R3-A03"
+      ],
+      "text": "A dated hotel event combines distinct entry criteria and arrangements; template wording and present vacancy status need separate checks.",
+      "label": "interpretation",
+      "limits": "One employer event family; no observed hiring outcome or current vacancy confirmation."
+    },
+    {
+      "id": "R3-AO02",
+      "sourceIds": [
+        "R3-A06"
+      ],
+      "text": "Anonymous reviews report both an accepted walk-in offer and a later staffing-sufficient message; trial completion and intent remain unknown.",
+      "label": "source-reported claim",
+      "limits": "One review-page family; no independent contract or outcome verification."
+    },
+    {
+      "id": "R3-AO03",
+      "sourceIds": [
+        "R3-A04",
+        "R3-A05"
+      ],
+      "text": "Pre-interview uncertainty and questions about hotel entry are documented, but neither source establishes an eventual offer.",
+      "label": "source-reported claim",
+      "limits": "Questions are not completed journeys; peer advice is not actual selection behaviour."
+    },
+    {
+      "id": "R3-AO04",
+      "sourceIds": [
+        "R3-A07"
+      ],
+      "text": "A historical practical-assessment account is a counterexample to an exclusively CV-led entry route.",
+      "label": "interpretation",
+      "limits": "Older circa-2019 thread; no current process or pay transfer."
+    },
+    {
+      "id": "R3-AO05",
+      "sourceIds": [
+        "R3-M03",
+        "R3-A13"
+      ],
+      "text": "Food-services pay coverage and employment-term fields require role, arrangement, components and effective-date context.",
+      "label": "interpretation",
+      "limits": "Official context, not individual legal or salary advice; M03 retains original breadth family."
+    },
+    {
+      "id": "R3-AO06",
+      "sourceIds": [
+        "R3-A08"
+      ],
+      "text": "Terminal-driving training is an employer-stated route; it does not establish a public-road driving requirement or actual current screening.",
+      "label": "interpretation",
+      "limits": "One requisition; headcount, base pay and hiring outcome unknown."
+    },
+    {
+      "id": "R3-AO07",
+      "sourceIds": [
+        "R3-A09"
+      ],
+      "text": "The graduate's reported search is unresolved and combines commute and occupational-scope uncertainty.",
+      "label": "source-reported claim",
+      "limits": "No offer or market-demand inference; exact event dates unknown."
+    },
+    {
+      "id": "R3-AO08",
+      "sourceIds": [
+        "R3-A10"
+      ],
+      "text": "Temporary warehouse reports contain both workload difficulties and valued scheduling/payment aspects.",
+      "label": "source-reported claim",
+      "limits": "Self-selected comments, no verified terms or common worksite; not a prevalence claim."
+    },
+    {
+      "id": "R3-AO09",
+      "sourceIds": [
+        "R3-M10",
+        "R3-A13"
+      ],
+      "text": "Agency/site terms disagreement warrants separating contractual employer, intermediary and deployment terms, without adopting a fraud allegation.",
+      "label": "interpretation",
+      "limits": "Breadth reuse only for M10; contract, responsibility and outcome unverified."
+    },
+    {
+      "id": "R3-AO10",
+      "sourceIds": [
+        "R3-A11"
+      ],
+      "text": "SPD's positive pathway ends in agriculture after logistics training; it cannot be counted as a logistics hire.",
+      "label": "interpretation",
+      "limits": "Provider-selected older account, not independently corroborated."
+    },
+    {
+      "id": "R3-AO11",
+      "sourceIds": [
+        "R3-A12",
+        "R3-M09"
+      ],
+      "text": "Programme descriptions establish human/practical support routes, not successful placement rates.",
+      "label": "interpretation",
+      "limits": "Same SPD organisational family; M09 is coordinator reuse; eligibility and outcomes vary."
+    },
+    {
+      "id": "R3-AO12",
+      "sourceIds": [
+        "R3-A04",
+        "R3-A06",
+        "R3-A09",
+        "R3-A10",
+        "R3-A11"
+      ],
+      "text": "Actual AI use and deliberate non-use are undisclosed in the retained accounts.",
+      "label": "unknown",
+      "limits": "No mention does not establish non-use or irrelevance; no AI effect evaluated."
+    },
+    {
+      "id": "R3-AO13",
+      "sourceIds": [
+        "R3-A01",
+        "R3-A06",
+        "R3-A08",
+        "R3-M10"
+      ],
+      "text": "Visible pages and mixed applicant reports do not independently establish vacancy intent or sector ghost-job prevalence.",
+      "label": "interpretation",
+      "limits": "Authenticity, visible status, recruitment activity, outcome and intent remain distinct; independent review still required."
+    }
+  ],
+  "gaps": [
+    "S02: no completed hotel housekeeping applicant sequence, tourism/guide recruitment, observed language/device-access journey, or validated assessment standard.",
+    "S02: proposed service-crew trial completion, pay and contractual status are unknown; review page supplies no corroborated employer intent.",
+    "S05: no complete recent warehouse or road-driver discovery-to-offer sequence; reserve S05-agency-sequence returned mixed conditions instead. Coordinator R3-M10 supplies only bounded breadth reuse.",
+    "S05: road-driver MyCareersFuture original rendered a shell; do not promote its search-result salary, licence or schedule text to evidence.",
+    "S05: no authoritative current forklift/public-road licence rule, verified employer transport, coordinator interview, pay benchmark, or platform-work workflow established.",
+    "Both: actual AI use, intentional non-use and verification are undisclosed; absence of disclosure is not non-use.",
+    "Both: no independently corroborated contemporaneous employer no-hiring intent or ghost/fake prevalence. Silence, age, disagreement and reposting do not resolve intent.",
+    "Dates: several public pages expose only relative dates or no publication date; exact dates remain unknown. Historical student thread and SPD story are explicitly older.",
+    "Access failures: F&B timeout once; SPD story fetch failures twice; MBS PDF failures twice. Also three MBS attempts yielded no usable content overall, metadata-only retrievals required repeats, and MyCareersFuture yielded a shell. Exact attempt ledger is authoritative.",
+    "Source overlap: event/booklet/detail are one recruitment family; reviews share one employer/platform family; SPD materials share organisational context. Breadth IDs M03/M09/M10 retained without claiming independent duplication.",
+    "Budget stop: 8/8 query attempts (six core, two reserve), 26/26 source-inspection attempts. Each reserve family used one query; no family exceeds three. No further search or access repair authorised within this allocation.",
+    "Public English web convenience corpus; no direct observation, private participant access, contact, test application or population sampling. Positive/provider stories and complaint forums both have selection bias."
+  ],
+  "summary": [
+    "Worker A owns only S02.md, S05.md and contributions/worker-a.json; no shared register, slide or other worker file edited.",
+    "Executed 8 native-web query strings, 26 inspection attempts including failures/repeats/clicks, retained 16 source records: 13 worker-inspected and 3 original-ID breadth reuses (M03 also reinspected for official role/pay context).",
+    "Scope: frontline food/hotel and logistics/transport profiles with nine common sections, positive/contrary accounts, within-basket contrasts, access, employer/intermediary/arrangement separation and explicit limits.",
+    "Recent service-crew review outcomes contrast; hotel descriptions show differentiated skills and arrangements. Warehouse reports combine physical demands and flexible shift/payment advantages.",
+    "SPD older supported transition is useful access evidence but ends with an agricultural employer; do not count it as logistics hiring success.",
+    "R3-M09/M10 are reused solely from coordinator-map inspected summaries, original URLs/IDs/families preserved; no new worker opens charged. R3-M03 is the original breadth source revisited for authoritative detail.",
+    "All implications remain interpretation or hypotheses for review. No sector rank, accepted product feature, architecture, legal judgment or employer-intent determination.",
+    "Validation: JSON parses; required source fields include separate employerActivity, occupation, arrangement, intermediary, clientWorksite, stage and updateDate. Query IDs/count, inspection count, references and nine-section reports are checked from disk; see final handoff for observed result.",
+    "Temporal/role guardrails: page updates are separate from publication; event organisers, publishers, programme providers and regulators are not substituted for contractual employers. Unknown identities and arrangements remain explicit."
+  ]
+}

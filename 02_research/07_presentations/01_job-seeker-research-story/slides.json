@@ -1,0 +1,3298 @@
+{
+  "title": "The work behind getting a job",
+  "date": "2026-10-19",
+  "audience": "JobHub owner and clients learning the domain. Self-reading research briefing before product analysis.",
+  "mainSlides": 30,
+  "sources": {
+    "r0": [
+      "Round 00 baseline synthesis",
+      "02_research/04_results/00_cross-research-synthesis.md"
+    ],
+    "r1": [
+      "Round 01 public-web synthesis",
+      "02_research/03_research-rounds/01_public-web-user-insights/round-synthesis.md"
+    ],
+    "r2": [
+      "Round 02 synthesis",
+      "02_research/03_research-rounds/02_synthetic-workflow-selection/round-synthesis.md"
+    ],
+    "findings": [
+      "Expanded Round 02 findings",
+      "02_research/03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/findings.md"
+    ],
+    "practices": [
+      "Practices evidence P01–P12",
+      "02_research/03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/practices-research.md"
+    ],
+    "domain": [
+      "Domain evidence D01–D12",
+      "02_research/03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/domain-research.md"
+    ],
+    "experiments": [
+      "Primary experiments C01–C02",
+      "02_research/03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/coordinator-research.md"
+    ],
+    "internal": [
+      "Sanitised internal-process evidence",
+      "02_research/03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/internal-process-review.md"
+    ],
+    "videos": [
+      "Video evidence V01–V10",
+      "02_research/03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/video-research.md"
+    ],
+    "video-log": [
+      "Caption discovery and provenance",
+      "02_research/03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/youtube-discovery-log.md"
+    ],
+    "limits": [
+      "Expanded research limitations",
+      "02_research/03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/limitations.md"
+    ],
+    "coverage": [
+      "Round 02 objective coverage",
+      "02_research/03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/coverage.md"
+    ],
+    "gate": [
+      "Candidate next task, not accepted scope",
+      "02_research/03_research-rounds/02_synthetic-workflow-selection/decision-gate.md"
+    ],
+    "competition": [
+      "Earlier alternatives and positioning",
+      "02_research/04_results/market-and-competition/2026-10-18-positioning.md"
+    ],
+    "development": [
+      "Earlier AI-era development findings",
+      "02_research/04_results/development-and-technology/2026-10-18-development-approach.md"
+    ],
+    "ux": [
+      "Earlier UX and product-surface findings",
+      "02_research/04_results/ux-and-product-surface/2026-10-18-ux-and-surface.md"
+    ],
+    "friction": [
+      "Baseline cross-industry friction evidence",
+      "02_research/04_results/product-and-users/2026-10-18-job-search-friction.md"
+    ],
+    "baseline-audit": [
+      "Detailed baseline claim and source map",
+      "02_research/07_presentations/01_job-seeker-research-story/audit-baseline.md"
+    ],
+    "r3-findings": [
+      "Round 03 findings",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/findings.md"
+    ],
+    "r3-comparison": [
+      "Round 03 comparison",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/comparison.md"
+    ],
+    "r3-limits": [
+      "Round 03 limitations",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/limitations.md"
+    ],
+    "r3-coverage": [
+      "Round 03 coverage",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/coverage.md"
+    ],
+    "r3-credibility": [
+      "Round 03 vacancy credibility",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/vacancy-credibility.md"
+    ],
+    "r3-practices": [
+      "Round 03 practices and alternatives",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/cross-industry-practices.md"
+    ],
+    "r3-supplement": [
+      "Round 03 arts and trades supplement",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/arts-and-trades-supplement.md"
+    ],
+    "r3-records-map": [
+      "Round 03 source records: coordinator-map",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-map.json"
+    ],
+    "r3-records-a": [
+      "Round 03 source records: worker-a",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-a.json"
+    ],
+    "r3-records-b": [
+      "Round 03 source records: worker-b",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-b.json"
+    ],
+    "r3-records-c": [
+      "Round 03 source records: worker-c",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-c.json"
+    ],
+    "r3-records-g": [
+      "Round 03 source records: credibility",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/credibility.json"
+    ],
+    "r3-records-p": [
+      "Round 03 source records: coordinator-gaps",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-gaps.json"
+    ],
+    "r3-records-final": [
+      "Round 03 source records: coordinator-final-gaps",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-final-gaps.json"
+    ],
+    "r3-profile-S01": [
+      "Round 03 profile S01",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/industry-profiles/S01.md"
+    ],
+    "r3-profile-S02": [
+      "Round 03 profile S02",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/industry-profiles/S02.md"
+    ],
+    "r3-sector-S02": [
+      "Round 03 deeper report S02",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/sectors/S02.md"
+    ],
+    "r3-profile-S03": [
+      "Round 03 profile S03",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/industry-profiles/S03.md"
+    ],
+    "r3-sector-S03": [
+      "Round 03 deeper report S03",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/sectors/S03.md"
+    ],
+    "r3-profile-S04": [
+      "Round 03 profile S04",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/industry-profiles/S04.md"
+    ],
+    "r3-profile-S05": [
+      "Round 03 profile S05",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/industry-profiles/S05.md"
+    ],
+    "r3-sector-S05": [
+      "Round 03 deeper report S05",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/sectors/S05.md"
+    ],
+    "r3-profile-S06": [
+      "Round 03 profile S06",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/industry-profiles/S06.md"
+    ],
+    "r3-profile-S07": [
+      "Round 03 profile S07",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/industry-profiles/S07.md"
+    ],
+    "r3-sector-S07": [
+      "Round 03 deeper report S07",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/sectors/S07.md"
+    ],
+    "r3-profile-S08": [
+      "Round 03 profile S08",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/industry-profiles/S08.md"
+    ],
+    "r3-sector-S08": [
+      "Round 03 deeper report S08",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/sectors/S08.md"
+    ],
+    "r3-profile-S09": [
+      "Round 03 profile S09",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/industry-profiles/S09.md"
+    ],
+    "r3-profile-S10": [
+      "Round 03 profile S10",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/industry-profiles/S10.md"
+    ],
+    "r3-sector-S10": [
+      "Round 03 deeper report S10",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/sectors/S10.md"
+    ],
+    "r3-profile-S11": [
+      "Round 03 profile S11",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/industry-profiles/S11.md"
+    ],
+    "r3-profile-S12": [
+      "Round 03 profile S12",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/industry-profiles/S12.md"
+    ],
+    "r3-profile-S13": [
+      "Round 03 profile S13",
+      "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/industry-profiles/S13.md"
+    ]
+  },
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "The work behind\ngetting a job",
+      "lead": "A research briefing for JobHub\nWith a Round 03 extension",
+      "image": "assets/job-search-evening.png",
+      "footnote": "Research through 19 October 2026. Fictional illustration.",
+      "refs": [
+        "r1",
+        "r2",
+        "r3-findings"
+      ],
+      "notes": "This briefing explains the domain before asking which product to build. It follows the decisions a job seeker encounters, draws on the repository's completed research, and keeps reported experiences separate from guidance and experiments. The opening illustration is AI-generated and depicts no research participant. Singapore is the intended starting context, but some deeper studies are international. Product scope, technology and platform remain undecided.",
+      "purpose": "Establish a human, research-led subject rather than a product sales pitch.",
+      "transition": "Begin with a recognisable situation and the decisions it creates."
+    },
+    {
+      "layout": "opening",
+      "title": "A job opening.\nNow what?",
+      "lead": "A posting starts a sequence of decisions.",
+      "items": [
+        {
+          "heading": "Is it genuine?",
+          "text": "Who is hiring, and what can I verify?"
+        },
+        {
+          "heading": "Does it fit?",
+          "text": "What work, conditions and experience matter?"
+        },
+        {
+          "heading": "What do I do next?",
+          "text": "Prepare, apply, practise or move on?"
+        }
+      ],
+      "footnote": "Illustrative situation, not a participant account or a measured universal sequence.",
+      "refs": [
+        "findings"
+      ],
+      "notes": "Imagine encountering an opening while already balancing other commitments. This is a teaching scenario, not an observed event. The questions organise findings F01–F09: authenticity, suitability, truthful preparation and returning to unfinished work. The exact phone-discovery to laptop-return to lost-opportunity story remains unsupported by the collected Singapore evidence. The illustration and scenario cannot fill that gap.",
+      "purpose": "Give the unfamiliar reader an entry point without fabricating testimony.",
+      "transition": "Locate these questions in the wider journey."
+    },
+    {
+      "layout": "journey",
+      "title": "The job seeker's journey",
+      "lead": "Each stage asks a different question. People can revisit earlier stages.",
+      "steps": [
+        {
+          "heading": "Discover",
+          "text": "Which openings?"
+        },
+        {
+          "heading": "Assess",
+          "text": "Genuine and suitable?"
+        },
+        {
+          "heading": "Prepare",
+          "text": "Which real evidence?"
+        },
+        {
+          "heading": "Apply",
+          "text": "What did I submit?"
+        },
+        {
+          "heading": "Interview",
+          "text": "Can I explain it?"
+        },
+        {
+          "heading": "Decide",
+          "text": "Does the offer work?"
+        }
+      ],
+      "takeaway": "Progress depends on decisions and information, as well as documents.",
+      "footnote": "Research synthesis. A teaching model, not a validated or mandatory workflow.",
+      "refs": [
+        "findings",
+        "r1"
+      ],
+      "notes": "This editable journey diagram groups the research into a learning sequence. It is not a claim that every person follows six linear stages. Re-entry, rejection, changed requirements and new information can lead back to earlier work. Preparation includes reusable evidence and later interview practice, not just writing a resume. Discovering jobs, assessing legitimacy, reviewing conditions, submitting documents and evaluating an offer involve different types of information.",
+      "purpose": "Provide a domain map that later examples can refer to.",
+      "transition": "Explain what kind of evidence underlies this map."
+    },
+    {
+      "layout": "columns",
+      "title": "What this research can tell us",
+      "lead": "Different sources answer different questions.",
+      "columns": [
+        {
+          "heading": "Experiences",
+          "items": [
+            "Public accounts describe friction and coping routines.",
+            "They do not establish how common a problem is."
+          ]
+        },
+        {
+          "heading": "Guidance and studies",
+          "items": [
+            "Guidance suggests checks and preparation methods.",
+            "Studies report results within specific settings."
+          ]
+        }
+      ],
+      "takeaway": "These accounts suggest possible mechanisms. JobHub's benefit remains unmeasured.",
+      "footnote": "Public-source research and bounded internal review. No direct JobHub user study.",
+      "refs": [
+        "r1",
+        "limits",
+        "coverage"
+      ],
+      "notes": "The corpus mixes firsthand accounts, qualitative studies, official guidance, experiments, videos and internal process observations. These are not interchangeable votes. Multiple Reddit threads share platform and selection bias. The source population leans toward English-language, graduate, office and technology perspectives. Round 02 addressed each objective with findings or explicit gaps; that does not mean every question is resolved. The owner currently has no direct participant access. The opening sections explain Round 01/02 evidence. A later Round 03 extension adds a purposive cross-industry pass; broader context does not make the corpus representative.",
+      "purpose": "Establish a clear evidence contract before presenting findings.",
+      "transition": "Show how an actual reported search contains more than document writing."
+    },
+    {
+      "layout": "case",
+      "title": "The workload extends beyond the resume",
+      "lead": "One Singapore account makes the broader effort visible.",
+      "headline": "Repeated applications.\nPreparation. Waiting.",
+      "items": [
+        {
+          "heading": "The reported experience",
+          "text": "Low Chee Wee describes rejection, skills development, human support and a later move into hospital operations."
+        },
+        {
+          "heading": "What it teaches",
+          "text": "A search has several moving parts. The account cannot isolate which change led to the offer."
+        }
+      ],
+      "footnote": "P01: one retrospective account of 2020–21, published in 2021. Not an outcome study.",
+      "refs": [
+        "practices"
+      ],
+      "urls": [
+        [
+          "Low Chee Wee's job-search account",
+          "https://www.channelnewsasia.com/today/voices/jobseekers-diaries-i-couldnt-get-job-4-months-then-i-worked-my-resume-and-interview-skills-4645931"
+        ]
+      ],
+      "notes": "P01 is a named, selected first-person retrospective, involving retail and a later healthcare-operations role. It describes recruitment agencies, online search, training, WSG support, networking and interviews. The eventual offer followed a LinkedIn contact, while an earlier employer chose an internal candidate. We cannot attribute success to resume edits, AI, a course or coaching in isolation. P02 and P12 separately add scheduling, take-home work and caring commitments. These are separate people's accounts, not one combined participant journey.",
+      "purpose": "Ground the domain in a concrete attributed case with causal restraint.",
+      "transition": "Return to the first decision: which opportunity deserves attention?"
+    },
+    {
+      "layout": "contrast",
+      "title": "Preparation cannot remove every barrier",
+      "lead": "Some difficulties concern the work or hiring process itself.",
+      "columns": [
+        {
+          "heading": "Feasibility and access",
+          "items": [
+            "Care responsibilities, shifts and working conditions can limit feasible options.",
+            "Application accessibility can exclude people before their experience receives consideration."
+          ]
+        },
+        {
+          "heading": "Employer-controlled steps",
+          "items": [
+            "Waiting, unclear responses and scheduling can remain outside the applicant's control.",
+            "Better wording alone cannot change those conditions."
+          ]
+        }
+      ],
+      "takeaway": "JobHub's possible contribution needs a boundary as well as a benefit.",
+      "footnote": "Includes a 2023 US expert screen-reader evaluation. No shared prevalence or current Singapore access test.",
+      "refs": [
+        "friction",
+        "r1",
+        "baseline-audit"
+      ],
+      "notes": "Round 00 includes programme and community research on caring and workable conditions, alongside employer-reported occupation-specific recruitment difficulties. These populations and methods differ. Round 01 includes an expert US desktop screen-reader study of sampled application sites, not JobHub or Singapore-wide conformance. Public accounts add perceived silence and scheduling problems. None establishes their relative frequency or that software can remedy them. Population counts of people outside the labour force are not counts of active seekers or prospective customers.",
+      "purpose": "Prevent the story from implying that every job-search problem is an application-preparation problem.",
+      "transition": "Focus on the opportunity questions a person can investigate."
+    },
+    {
+      "layout": "columns",
+      "title": "Which opportunities deserve effort?",
+      "lead": "A job title alone leaves important questions unanswered.",
+      "columns": [
+        {
+          "heading": "The work and conditions",
+          "items": [
+            "What tasks and essential requirements are involved?",
+            "What hours, location and compensation terms apply?"
+          ]
+        },
+        {
+          "heading": "The person's evidence",
+          "items": [
+            "Which real experience supports those tasks?",
+            "Which constraints, preferences or gaps matter?"
+          ]
+        }
+      ],
+      "takeaway": "Missing information should become a question, rather than an assumed answer.",
+      "footnote": "D02–D05, D10–D12. Research-derived guidance, not an individual suitability assessment.",
+      "refs": [
+        "domain",
+        "findings"
+      ],
+      "notes": "Domain findings distinguish advertised requirements, verified essentials, transferable skills, personal constraints and unknowns. An apparently suitable title can conceal incompatible schedules or duties. Conversely, a different title or a low keyword score can hide relevant experience. This framework is guidance derived from the sources, not a validated JobHub fit model or automatic eligibility determination.",
+      "purpose": "Teach the ingredients of a useful opportunity assessment.",
+      "transition": "Separate a concern worth checking from a verdict about an employer."
+    },
+    {
+      "layout": "table",
+      "title": "A warning sign starts a check",
+      "lead": "A specific concern is more useful when paired with a proportionate question.",
+      "headers": [
+        "Signal or uncertainty",
+        "Useful next check"
+      ],
+      "widths": [
+        440,
+        696
+      ],
+      "rows": [
+        [
+          "Unclear recruiter identity",
+          "Independently confirm the organisation, contact and vacancy."
+        ],
+        [
+          "Vague or changing duties",
+          "Ask what the work involves and how success is assessed."
+        ],
+        [
+          "Pressure or substantial unpaid work",
+          "Clarify the deadline, assessment scope and reason."
+        ],
+        [
+          "Repeated listing or hostile wording",
+          "Ask about hiring history, expectations and conditions."
+        ]
+      ],
+      "footnote": "D01, D02, D05, D08–D09. Wording or a repeated listing cannot establish employer intent.",
+      "refs": [
+        "domain",
+        "videos"
+      ],
+      "urls": [
+        [
+          "ScamShield: checking a job opportunity",
+          "https://ask.gov.sg/scamshield/questions/cmdcv46bt017g36wpmgi0mc2t"
+        ]
+      ],
+      "notes": "Authenticity, working conditions, fairness and personal suitability are distinct questions. ScamShield recommends independent checks, but a registered company or polished site does not authenticate every contact. Hiring delays and specialised requirements can have legitimate explanations. The video material adds examples and questions, not detector accuracy or proof of misconduct. This is practical guidance, not legal advice or an assessment of a particular employer.",
+      "purpose": "Replace sensational red-flag labels with evidence-aware action.",
+      "transition": "Apply the same restraint when interpreting the applicant's experience."
+    },
+    {
+      "layout": "flow",
+      "ordered": false,
+      "title": "Fit is more than a keyword score",
+      "lead": "An incomplete record is different from a demonstrated skill gap.",
+      "steps": [
+        {
+          "heading": "Demonstrated",
+          "text": "A real task or outcome supports the requirement."
+        },
+        {
+          "heading": "Transferable",
+          "text": "Explain how existing experience applies here."
+        },
+        {
+          "heading": "Unconfirmed",
+          "text": "Ask for evidence or retain a genuine gap."
+        }
+      ],
+      "takeaway": "Essential criteria still matter. Missing profile detail does not prove missing ability.",
+      "footnote": "D02, D03, D10, D12. These are assessment distinctions, not a predictive scoring system.",
+      "refs": [
+        "domain",
+        "internal"
+      ],
+      "urls": [
+        [
+          "WSG: low skills-match scores and applications",
+          "https://ask.gov.sg/wsg/questions/clp9j4c1p0031azywcqpjen8w"
+        ]
+      ],
+      "notes": "WSG says an applicant may apply regardless of a low MyCareersFuture skills-match score. That does not waive a verified licence, regulated credential or employer's essential requirement. The three distinctions shown here are an explanatory framework, not a sequence in which all evidence automatically progresses toward a positive score. The diagram deliberately leaves the final judgment open.",
+      "purpose": "Explain evidence-based fit without implying an objective universal score.",
+      "transition": "Show what this means when preparing resume wording."
+    },
+    {
+      "layout": "table",
+      "title": "Truthful tailoring begins with facts",
+      "lead": "Fictional fact record: clearer wording must stay within what it establishes.",
+      "headers": [
+        "Known experience",
+        "Reviewable wording",
+        "Still unconfirmed"
+      ],
+      "widths": [
+        330,
+        466,
+        340
+      ],
+      "rows": [
+        [
+          "Daily stock updates in Excel",
+          "Maintained daily inventory records in Excel.",
+          "SQL or database proficiency"
+        ],
+        [
+          "Answered delivery-status enquiries",
+          "Responded to customer enquiries about delivery status.",
+          "The new role's technical tasks"
+        ],
+        [
+          "Showed a colleague the stock sheet",
+          "Demonstrated the inventory spreadsheet to a colleague.",
+          "Formal management experience"
+        ]
+      ],
+      "footnote": "Fictional examples based on guidance. Actual titles, dates, credentials and metrics must stay factual.",
+      "refs": [
+        "practices",
+        "internal",
+        "videos"
+      ],
+      "notes": "These are fictional teaching examples, not extracted personal resume records or participant quotations. P07 and internal I04/I05 support selecting and explaining genuine experience and reviewing changes. A good rewrite can improve relevance without adding a tool, responsibility, qualification or numerical result that was never established. The candidate must approve the final wording and be able to explain it. A missing qualification stays visible rather than becoming a persuasive invented sentence.",
+      "purpose": "Make truthful tailoring tangible and show its limits.",
+      "transition": "Avoid turning this example into a rule that everyone should rewrite every resume."
+    },
+    {
+      "layout": "contrast",
+      "title": "People report different resume strategies",
+      "lead": "The collected accounts do not establish one best routine.",
+      "columns": [
+        {
+          "heading": "Intensive tailoring",
+          "items": [
+            "Some accounts associate it with interview requests.",
+            "They also describe substantial repeated effort."
+          ]
+        },
+        {
+          "heading": "Reuse and selective changes",
+          "items": [
+            "Others report benefits from stable versions or a master resume.",
+            "Their roles, timing and circumstances differ."
+          ]
+        }
+      ],
+      "takeaway": "Compare approaches on the same task before prescribing a universal workflow.",
+      "footnote": "P10 and Round 01 counterexamples. Self-reports, not a controlled comparison.",
+      "refs": [
+        "practices",
+        "r1"
+      ],
+      "notes": "P10 contains competing accounts: an opening author describes distress from intensive tailoring and reports interviews only with that approach; replies describe a few reusable versions, selecting achievements from a master resume, or a stable resume with more interview requests. These are different people in different circumstances. Neither causation nor superiority follows. This contrary evidence prevents a product narrative that assumes maximal rewriting is always necessary.",
+      "purpose": "Keep counterexamples central rather than hiding them in an appendix.",
+      "transition": "Introduce AI as one possible aid within those existing routines."
+    },
+    {
+      "layout": "image",
+      "title": "AI enters an\nalready\ndemanding\nprocess",
+      "lead": "Assistance changes the work.\nIt also creates things to check.",
+      "image": "assets/preparation-desk.png",
+      "footnote": "Fictional illustration. AI findings follow.",
+      "refs": [
+        "practices",
+        "experiments"
+      ],
+      "notes": "This generated illustration represents careful preparation, not an observed research session. Public accounts and P03 describe varied use, including non-use. The next slides separate how people say they use assistants from what experimental evidence actually tested. No comparison of current ChatGPT, Claude or other provider performance was conducted in this research.",
+      "purpose": "Create a visual and conceptual transition into AI assistance.",
+      "transition": "Explain the variety of use before discussing outcomes."
+    },
+    {
+      "layout": "columns",
+      "title": "People use AI in different ways",
+      "lead": "Round 02 includes assistance, selective use and non-use.",
+      "columns": [
+        {
+          "heading": "Reported uses",
+          "items": [
+            "Reviewing or rewording information supplied by the person.",
+            "Drafting application text or supporting interview preparation."
+          ]
+        },
+        {
+          "heading": "Different starting points",
+          "items": [
+            "Some participants used templates or made little use of AI for applications.",
+            "Authenticity, confidence and access affected how they approached it."
+          ]
+        }
+      ],
+      "takeaway": "A fluent draft is only one part of a usable, personally owned application.",
+      "footnote": "P03, P05, P08–P09. International cohorts and selected accounts do not estimate Singapore adoption.",
+      "refs": [
+        "practices"
+      ],
+      "urls": [
+        [
+          "Voices on Work: AI use in Western Sydney",
+          "https://www.socialventures.org.au/wp-content/uploads/2026/01/Voices-on-Work_-AI-in-Job-Application-.pdf"
+        ]
+      ],
+      "notes": "P03's primary cohort comprised 13 disadvantaged non-university young people in Western Sydney, studied through interviews/focus groups. Its reference cohort comprised 50 Sydney university students studied through interviews/survey. Participants were aged 18–30. The cohorts differ and are not representative or directly comparable adoption samples. Participants described limited use, templates, authenticity concerns, or review/rewording of their own information. P05 and P09 add selected Singapore accounts. Cover-letter-specific verification evidence remains thin. Named-tool stories cannot establish provider quality or technical diagnoses.",
+      "purpose": "Avoid assuming every job seeker wants the same degree of automation.",
+      "transition": "Show a concrete positive experimental result, with its actual boundaries."
+    },
+    {
+      "layout": "stat",
+      "title": "Clearer writing helped in one experiment",
+      "lead": "Algorithmic assistance edited job seekers' resume writing.",
+      "stat": "8%",
+      "statLabel": "relative increase in hiring probability",
+      "items": [
+        {
+          "heading": "What the authors report",
+          "text": "An online labour-market field experiment with nearly half a million job seekers."
+        },
+        {
+          "heading": "What it does not establish",
+          "text": "The effect of today's chatbots, fabricated experience or a JobHub product."
+        }
+      ],
+      "footnote": "C01, Jan 2023 abstract. Editing existing text. Relative change, not 8 percentage points.",
+      "refs": [
+        "experiments"
+      ],
+      "urls": [
+        [
+          "Algorithmic Writing Assistance on Jobseekers' Resumes Increases Hires",
+          "https://arxiv.org/abs/2301.08083"
+        ]
+      ],
+      "notes": "The author abstract reports an 8% increase in hiring probability and no evidence of lower employer satisfaction. The result concerns the experimental intervention and online labour-market setting. Our research inspected the abstract, not a full-paper replication or Singapore study. Relative and absolute percentage-point gains are different. This does not show that adding fictional qualifications helps, or that all generative rewriting produces the same outcome.",
+      "purpose": "Present one memorable, properly bounded positive result.",
+      "transition": "Contrast a different AI intervention where easier writing did not improve matching."
+    },
+    {
+      "layout": "duostat",
+      "title": "Cheaper writing did not guarantee more matches",
+      "lead": "A separate experiment offered employers AI-written job-post drafts.",
+      "metrics": [
+        {
+          "value": "44%",
+          "label": "less drafting time among\nemployers who posted"
+        },
+        {
+          "value": "19%",
+          "label": "higher posting probability\n(relative increase)"
+        }
+      ],
+      "takeaway": "The authors found no discernible increase in matches.",
+      "footnote": "C02, Sep 2026 working paper. Online labour market. Treatment vs control. Different task from C01.",
+      "refs": [
+        "experiments"
+      ],
+      "urls": [
+        [
+          "More, but Worse: The Marketplace Effects of AI-Generated Job Posts",
+          "https://www.emmawiles.com/storage/jobot.pdf"
+        ]
+      ],
+      "notes": "The primary working paper reports those treatment effects against control in an online labour market and describes more generic, less informative posts. The writing-time measure is conditional on employers posting; the posting-probability change is relative, not 19 percentage points. These measures have different denominators. Its application-time accounting is model-based. This is an employer-side drafting experiment, not an applicant-assistant or current-provider comparison. The two experiments have overlapping authorship and different interventions. No discernible matching increase does not prove exact equality or universal AI harm. The reported effects are not evidence that a particular employer is insincere.",
+      "purpose": "Make the distinction between activity and useful outcomes memorable.",
+      "transition": "Return to preparation that the person must actually use in an interview."
+    },
+    {
+      "layout": "flow",
+      "title": "Explaining real experience in interviews",
+      "lead": "After applying, if shortlisted: rehearse in a format you can use.",
+      "steps": [
+        {
+          "heading": "Choose",
+          "text": "A real experience relevant to the role."
+        },
+        {
+          "heading": "Explain",
+          "text": "What happened and what you actually did."
+        },
+        {
+          "heading": "Rehearse",
+          "text": "Practise aloud or in an accessible alternative format."
+        },
+        {
+          "heading": "Review",
+          "text": "Record weak points and the next practice step."
+        }
+      ],
+      "takeaway": "Useful preparation preserves the person's voice and ability to explain their claims.",
+      "footnote": "P08–P09, I06–I07, V08. Guidance and reported routines, not a calibrated readiness score.",
+      "refs": [
+        "practices",
+        "internal",
+        "videos"
+      ],
+      "urls": [
+        [
+          "NUS: interview preparation guidance",
+          "https://www.nus.edu.sg/cfg/students/career-resources/ace-your-job-interview"
+        ]
+      ],
+      "notes": "NUS recommends researching the role and employer, confirming format, using real examples and practising. Public accounts include company research, spoken practice and combinations of family and AI support. V08 adds a manual experience notebook and rehearsal. These are options, not proof of increased hiring probability or a validated readiness score. Practice assistance cannot remove excessive interview stages or employer scheduling burdens.",
+      "purpose": "Connect resume truthfulness to a usable interview practice routine.",
+      "transition": "Move from presenting value to evaluating the offer itself."
+    },
+    {
+      "layout": "table",
+      "title": "Pay needs a like-for-like comparison",
+      "lead": "If an offer arrives: compare the full package before judging its value.",
+      "headers": [
+        "Compare",
+        "Record before judging"
+      ],
+      "widths": [
+        340,
+        796
+      ],
+      "rows": [
+        [
+          "Market benchmark",
+          "Role, scope, level, location, reference date and pay definition."
+        ],
+        [
+          "Recurring cash",
+          "Basic pay, regular allowances, relevant overtime and hours."
+        ],
+        [
+          "Conditional value",
+          "Bonus, commission, equity, eligibility and timing."
+        ],
+        [
+          "Work package",
+          "Leave, benefits, shifts, location and contract terms."
+        ]
+      ],
+      "footnote": "D04–D06. MOM's June 2025 wage reference is guidance context, not an individual's entitlement.",
+      "refs": [
+        "domain"
+      ],
+      "urls": [
+        [
+          "MOM: 2025 wage coverage and methodology",
+          "https://stats.mom.gov.sg/iMAS_Tables1/Wages/Wages_2025/Coverage-and-Methodology-of-OWS-2025.pdf"
+        ],
+        [
+          "MOM: key employment terms",
+          "https://www.mom.gov.sg/employment-practices/contract-of-service/key-employment-terms"
+        ]
+      ],
+      "notes": "MOM's occupational wage survey reference is June 2025, released June 2026. Its coverage includes full-time resident employees in sampled private establishments with at least 25 employees, excluding part-time and temporary workers. Basic and gross wages use specific definitions; gross excludes bonuses, employer CPF, equity and benefits in kind. No occupation-specific wage values were extracted in this research. Key employment terms apply conditionally. Market data, a person's minimum acceptable package and an offer's full value are different questions.",
+      "purpose": "Explain compensation literacy without inventing a salary recommendation.",
+      "transition": "Clarify how evidence and personal priorities affect negotiation choices."
+    },
+    {
+      "layout": "contrast",
+      "title": "Negotiation depends on the offer",
+      "lead": "Preparation should make the available choices clearer.",
+      "columns": [
+        {
+          "heading": "Evidence to prepare",
+          "items": [
+            "Comparable role and package information.",
+            "Questions about what can change and when.",
+            "Personal priorities, alternatives and risk tolerance."
+          ]
+        },
+        {
+          "heading": "Conditions to recognise",
+          "items": [
+            "Fixed bands or standardised scales.",
+            "Variable pay, contract terms and deadlines.",
+            "Accepting, countering or declining can each be reasonable."
+          ]
+        }
+      ],
+      "takeaway": "No universal counteroffer rule or guaranteed pay uplift follows from this research.",
+      "footnote": "D06–D07, D11. International experimental evidence does not establish Singapore-wide outcomes.",
+      "refs": [
+        "domain"
+      ],
+      "notes": "The domain review combines NUS guidance, compensation definitions, an international negotiation experiment and selected accounts. The experiment's population and setting limit transfer, particularly to frontline work and fixed-pay roles. The research does not estimate offer-withdrawal risk or prescribe a universal percentage increase. Clarify uncertain terms and record confirmed changes. This is general research guidance, not a personalised financial or legal assessment.",
+      "purpose": "Support informed choices without pressure to negotiate in every circumstance.",
+      "transition": "Return to a challenge spanning every stage: resuming unfinished work."
+    },
+    {
+      "layout": "flow",
+      "ordered": false,
+      "dark": true,
+      "title": "Returning to unfinished work",
+      "lead": "Interruptions can happen at any stage. These fields form a proposed checkpoint.",
+      "steps": [
+        {
+          "heading": "Source",
+          "text": "The posting and where it came from."
+        },
+        {
+          "heading": "State",
+          "text": "Current stage, document version and submission confirmation."
+        },
+        {
+          "heading": "Next action",
+          "text": "One task and the unresolved questions."
+        }
+      ],
+      "takeaway": "Saved or prepared does not mean submitted. Recovery needs testing across the journey.",
+      "footnote": "Proposed aid. The exact Singapore phone-to-laptop lost-opportunity chain remains unsupported.",
+      "refs": [
+        "r1",
+        "practices",
+        "internal"
+      ],
+      "notes": "Public evidence describes shared access, draft recovery, save failures and mixed mobile experiences. Other accounts describe workable email, PDF or spreadsheet routines and immediate phone applications. These support examining continuity, not assuming a universal deferred-device workflow. The diagram is a proposed information checkpoint. No native-mobile, web or desktop decision follows, and no recovery benefit has been measured for JobHub.",
+      "purpose": "Keep the owner's interruption concern visible while preserving the evidence gap.",
+      "transition": "Look at what an existing personal workflow can contribute, and where it can mislead."
+    },
+    {
+      "layout": "columns",
+      "title": "Lessons from the owner's workflow",
+      "lead": "The owner's materials provide a process reference, not representative user evidence.",
+      "columns": [
+        {
+          "heading": "Useful ideas in the records",
+          "items": [
+            "Trace career claims to factual evidence.",
+            "Separate whether a job is genuine from whether it fits.",
+            "Confirm submission and keep examples for practice."
+          ]
+        },
+        {
+          "heading": "What still needs checking",
+          "items": [
+            "Conflicting guidance and a focus on technical careers.",
+            "Rigid salary rules and the effort needed to keep records current.",
+            "Past capture failures and how the workflow operates today."
+          ]
+        }
+      ],
+      "takeaway": "Reuse useful principles. Test the current workflow before copying its complexity.",
+      "footnote": "I01–I16. Bounded document/artifact review, not a current end-to-end operation test.",
+      "refs": [
+        "internal"
+      ],
+      "notes": "The authorised review inspected 25 internal documents and five historical July artifacts. Findings concern inspected content and artifact properties, not all linked AgentHub folders or current execution. A positive historical status paired with loading/error content shows an extraction problem in that artifact, not universal failure today. Coordination burden is a hypothesis. Raw personal resumes, contact details and internal application records do not appear in this briefing.",
+      "purpose": "Include the owner's internal evidence without overgeneralising or exposing private material.",
+      "transition": "Place these ideas alongside existing alternatives."
+    },
+    {
+      "layout": "table",
+      "title": "Existing alternatives cover parts of the journey",
+      "lead": "JobHub would compete with combinations of tools and human support.",
+      "headers": [
+        "Alternative",
+        "Role in the workflow"
+      ],
+      "widths": [
+        390,
+        746
+      ],
+      "rows": [
+        [
+          "Manual records and a master resume",
+          "Preserve facts, reusable examples, versions and next steps."
+        ],
+        [
+          "General AI assistants",
+          "Help with drafting or preparation, subject to review."
+        ],
+        [
+          "Specialised career platforms",
+          "Address parts of tracking, tailoring, matching or practice."
+        ],
+        [
+          "Peers, coaches and career services",
+          "Provide context, feedback, rehearsal and support."
+        ]
+      ],
+      "footnote": "Baseline research plus later accounts. Capability categories, not a current provider ranking.",
+      "refs": [
+        "competition",
+        "practices",
+        "r1"
+      ],
+      "notes": "The earlier competitive landscape found overlap rather than an established empty market. Current research also retains successful or workable manual and human-supported approaches. This is a capability map, not a fresh audit of platform features, prices or policies. ChatGPT, Claude and specialised products remain comparison candidates. Any future differentiation needs task-level evidence against a simple baseline, not merely more generated content.",
+      "purpose": "Avoid presenting the product concept as the only possible response.",
+      "transition": "Account for the review work and disclosure choices assistance can add."
+    },
+    {
+      "layout": "contrast",
+      "title": "Convenience has a review cost",
+      "lead": "A draft can save one kind of work while creating another.",
+      "columns": [
+        {
+          "heading": "Potential assistance",
+          "items": [
+            "Rewording supplied information.",
+            "Organising evidence and preparation.",
+            "Making the next action easier to see."
+          ]
+        },
+        {
+          "heading": "Work that remains",
+          "items": [
+            "Check factual claims and source interpretation.",
+            "Inspect the final document and explain its content.",
+            "Review what personal data is shared and retained."
+          ]
+        }
+      ],
+      "takeaway": "Measure total effort, including correction and recovery. Net savings remain untested.",
+      "footnote": "F08 and F12. No comprehensive current provider-policy assessment, implemented privacy design or time study.",
+      "refs": [
+        "findings",
+        "practices",
+        "internal",
+        "baseline-audit"
+      ],
+      "notes": "P06 records an unverified concern about a generated file; its parser diagnosis is not confirmed. Keep export problems separate from false claims and generic writing. P07 advises caution and human checking; the internal review documents retention-related omissions, not proven disclosure. A reusable evidence record creates questions about access, minimisation, retention and deletion. Those choices remain human-owned and unresolved before real personal-data testing.",
+      "purpose": "Make the trade-off concrete without treating all AI use as harmful.",
+      "transition": "Extend the earlier-round story with Round 03's industry and vacancy-credibility evidence."
+    },
+    {
+      "layout": "columns",
+      "title": "Industry, occupation and arrangement",
+      "lead": "Round 03 extends the earlier evidence with 13 research baskets and six deeper inquiries.",
+      "columns": [
+        {
+          "heading": "What the employer does",
+          "items": [
+            "A hospital remains healthcare, including when publicly owned.",
+            "An agency, contractual employer and client worksite can differ."
+          ]
+        },
+        {
+          "heading": "What the person does",
+          "items": [
+            "Nursing and patient-care support have different requirements.",
+            "Operations, sales and project work need their own context."
+          ]
+        }
+      ],
+      "takeaway": "These baskets organise research. They do not rank markets or define customer segments.",
+      "footnote": "Round 03 interpretation. Six deeper inquiries are non-IT. Public sources, not representative sampling.",
+      "refs": [
+        "r3-findings",
+        "r3-coverage",
+        "r3-sector-S03",
+        "r3-sector-S05",
+        "r3-sector-S08",
+        "r3-records-a",
+        "r3-records-b",
+        "r3-records-c"
+      ],
+      "claims": [
+        {
+          "text": "Nursing and patient-care support have different stated requirements.",
+          "sources": [
+            "R3-B01",
+            "R3-B02",
+            "R3-B15"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Agency/client roles and operations/sales contexts need separate interpretation.",
+          "sources": [
+            "R3-A08",
+            "R3-A09",
+            "R3-C05",
+            "R3-C11"
+          ],
+          "kind": "interpretation"
+        }
+      ],
+      "notes": "Round 03 F01–F03 extends the Round 01/02 story rather than replacing its studies. The 13 baskets are purposive coverage organisers, not official classification categories or equal-size markets. Six selected deeper inquiries are S02/S03/S05/S07/S08/S10; the other seven retain breadth-only profiles. The health requirements refer to inspected local-graduate guidance and particular employer roles. Agency/client attribution is a checking question, not an allegation or a legal determination. Public/nonprofit ownership and an occupation such as IT do not by themselves determine employer industry.",
+      "purpose": "Explain why a single industry label cannot supply a person's preparation or eligibility context.",
+      "transition": "Compare concrete preparation questions across the six deeper inquiries.",
+      "round": "R03",
+      "urls": [
+        [
+          "R3-B01: Local Graduates",
+          "https://www.snb.gov.sg/for-professionals/becoming-a-nurse-or-midwife/apply-for-registration-enrolment/local-graduates/"
+        ],
+        [
+          "R3-B02: Patient Care Assistant (Inpatient) (Full-Time)",
+          "https://careers.singhealth.com.sg/NHCS/job/Singapore-Patient-Care-Assistant-(Inpatient)-(Full-Time)-Sing/12406944/"
+        ],
+        [
+          "R3-B15: Staff Nurse (Req ID 4895)",
+          "https://careers.singhealth.com.sg/SCH/job/Singapore-Staff-Nurse-Sing/56443244/"
+        ],
+        [
+          "R3-A08: Container Handling Specialist (Prime Mover Driver) [Joining bonus of $2000 for Singaporeans and PRs]",
+          "https://psacareers.singaporepsa.com/jobs/container-handling-specialist-prime-mover-driver-joining-bonus-of-2000-for-singaporeans-and-prs-singapore"
+        ],
+        [
+          "R3-A09: I need advice on logistics Job (Singaporean)",
+          "https://www.reddit.com/r/singaporejobs/comments/1ulkj9i/i_need_advice_on_logistics_job_singaporean/"
+        ],
+        [
+          "R3-C05: Be a Client Advisor",
+          "https://www.income.com.sg/careers/be-a-financial-planner/client-advisor"
+        ],
+        [
+          "R3-C11: DBS Management Associate Programme 2025 - opportunities in Singapore",
+          "https://www.dbs.com/iwov-resources/images/careers/management-associate-programme/Available%202025%20MA%20Opportunities%20in%20Singapore.pdf"
+        ]
+      ]
+    },
+    {
+      "layout": "table",
+      "title": "Six contexts, different preparation",
+      "lead": "Examples from the six deeper inquiries. Differences may reflect role and arrangement.",
+      "headers": [
+        "Context",
+        "Preparation question",
+        "Evidence limit"
+      ],
+      "widths": [
+        270,
+        440,
+        426
+      ],
+      "tableFontSize": 22,
+      "tableHeight": 354,
+      "tableHeaderHeight": 42,
+      "tableInset": 6,
+      "rows": [
+        [
+          "Food / hospitality",
+          "Service examples and availability",
+          "Trials and journeys incomplete"
+        ],
+        [
+          "Healthcare / care",
+          "Credentials, support role and shifts",
+          "Requirements vary by role"
+        ],
+        [
+          "Logistics / transport",
+          "Employer, site, duties and roster",
+          "Recent full journeys missing"
+        ],
+        [
+          "Manufacturing / trades",
+          "Actual technical work and reasoning",
+          "Operator/trade evidence thin"
+        ],
+        [
+          "Finance / insurance",
+          "Duties and fixed / variable pay",
+          "Recent operations outcomes thin"
+        ],
+        [
+          "Creative / media",
+          "Contribution and assessment scope",
+          "Arts/project outcomes limited"
+        ]
+      ],
+      "footnote": "Round 03 comparison. Source-attributed examples, not sector effects, standard tests or difficulty rankings.",
+      "refs": [
+        "r3-comparison",
+        "r3-limits",
+        "r3-sector-S02",
+        "r3-sector-S03",
+        "r3-sector-S05",
+        "r3-sector-S07",
+        "r3-sector-S08",
+        "r3-sector-S10",
+        "r3-records-a",
+        "r3-records-b",
+        "r3-records-c"
+      ],
+      "claims": [
+        {
+          "text": "Food and hotel roles raise different service/availability questions.",
+          "sources": [
+            "R3-A02",
+            "R3-A04",
+            "R3-A06"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Care roles separate registration, support criteria and shift conditions.",
+          "sources": [
+            "R3-B01",
+            "R3-B02",
+            "R3-B15"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Logistics preparation depends on duties, shifts and employment context.",
+          "sources": [
+            "R3-A08",
+            "R3-A09",
+            "R3-A13"
+          ],
+          "kind": "interpretation"
+        },
+        {
+          "text": "Engineering accounts report technical reasoning and a separate mini-exam.",
+          "sources": [
+            "R3-B08",
+            "R3-B09"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Finance functions and package components differ in the employer material.",
+          "sources": [
+            "R3-C05",
+            "R3-C09",
+            "R3-C11"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Creative employers describe portfolios and role-dependent tests.",
+          "sources": [
+            "R3-M18",
+            "R3-C04"
+          ],
+          "kind": "source-reported"
+        }
+      ],
+      "notes": "This is a communication summary of comparison.md and six bounded deeper reports. Public accounts, employer statements and regulator guidance are different evidence types. Hotel event/booklet pages are one family, as are the two SingHealth posts. Semiconductor interview advice does not establish an operator/machinist practical-test standard. Historical programme descriptions do not establish current openings. Creative arts and project outcomes remain undercovered even after the later audition supplement. No row estimates prevalence, effort, salaries or hiring probability. All 13 profiles appear in the appendix with their depth visible.",
+      "purpose": "Make conditional differences tangible without overwhelming the main story with 13 rows.",
+      "transition": "Examine a question shared across those contexts: what a posting actually promises.",
+      "round": "R03",
+      "urls": [
+        [
+          "R3-A02: EDITION vacancy booklet linked from 25 Aug walk-in",
+          "https://event.e2i.com.sg/storage/event_media/VasGZisqOcTAwJ2q72p51zsuSXZdTo9ZO2udrwsL.pdf"
+        ],
+        [
+          "R3-A04: What to expect for F&B part time interview?",
+          "https://www.reddit.com/r/SGExams/comments/1khn8pa/what_to_expect_for_fb_part_time_interview/"
+        ],
+        [
+          "R3-A06: iTEA Premium Bubble Tea Singapore interview questions",
+          "https://www.glassdoor.com/Interview/iTEA-Premium-Bubble-Tea-Singapore-Interview-Questions-E5618881.htm"
+        ],
+        [
+          "R3-B01: Local Graduates",
+          "https://www.snb.gov.sg/for-professionals/becoming-a-nurse-or-midwife/apply-for-registration-enrolment/local-graduates/"
+        ],
+        [
+          "R3-B02: Patient Care Assistant (Inpatient) (Full-Time)",
+          "https://careers.singhealth.com.sg/NHCS/job/Singapore-Patient-Care-Assistant-(Inpatient)-(Full-Time)-Sing/12406944/"
+        ],
+        [
+          "R3-B15: Staff Nurse (Req ID 4895)",
+          "https://careers.singhealth.com.sg/SCH/job/Singapore-Staff-Nurse-Sing/56443244/"
+        ],
+        [
+          "R3-A08: Container Handling Specialist (Prime Mover Driver) [Joining bonus of $2000 for Singaporeans and PRs]",
+          "https://psacareers.singaporepsa.com/jobs/container-handling-specialist-prime-mover-driver-joining-bonus-of-2000-for-singaporeans-and-prs-singapore"
+        ],
+        [
+          "R3-A09: I need advice on logistics Job (Singaporean)",
+          "https://www.reddit.com/r/singaporejobs/comments/1ulkj9i/i_need_advice_on_logistics_job_singaporean/"
+        ],
+        [
+          "R3-A13: Key employment terms (KETs)",
+          "https://www.mom.gov.sg/employment-practices/contract-of-service/key-employment-terms"
+        ],
+        [
+          "R3-B08: Fresh grad job interview",
+          "https://www.reddit.com/r/singaporejobs/comments/1wocwqv/fresh_grad_job_interview/"
+        ],
+        [
+          "R3-B09: Interviews till Offer",
+          "https://www.reddit.com/r/singaporejobs/comments/1pmvabb/interviews_till_offer/"
+        ],
+        [
+          "R3-C05: Be a Client Advisor",
+          "https://www.income.com.sg/careers/be-a-financial-planner/client-advisor"
+        ],
+        [
+          "R3-C09: Wealth Planning Manager - QXV9RX9R",
+          "https://www.careers-page.com/people-profilers/job/QXV9RX9R"
+        ],
+        [
+          "R3-C11: DBS Management Associate Programme 2025 - opportunities in Singapore",
+          "https://www.dbs.com/iwov-resources/images/careers/management-associate-programme/Available%202025%20MA%20Opportunities%20in%20Singapore.pdf"
+        ],
+        [
+          "R3-M18: Careers at a Leading Branding & Creative Agency | Singapore | Superminted",
+          "https://www.superminted.com/careers"
+        ],
+        [
+          "R3-C04: Careers - behind Network / Talent",
+          "https://www.behindnetworksg.com/careers.html"
+        ]
+      ],
+      "tableTop": 246
+    },
+    {
+      "layout": "columns",
+      "title": "What a “ghost job” claim can mean",
+      "lead": "A repeated page, a disclosed future pool and a nonexistent vacancy need different evidence.",
+      "columns": [
+        {
+          "heading": "Different situations",
+          "items": [
+            "Impersonation, an old copy and a future pool describe different situations.",
+            "A pause or non-fill does not reveal the original hiring intent."
+          ]
+        },
+        {
+          "heading": "Local historical case",
+          "items": [
+            "MOM's 4 July 2018 alert reports a nonexistent translator job used to collect resumes for marketing.",
+            "One unnamed agency case. The underlying event date is unknown."
+          ]
+        }
+      ],
+      "takeaway": "A disclosed talent pool does not promise an immediate vacancy.",
+      "footnote": "R3-G16: 2018 regulator account. R3-G07: disclosed pool. No current Singapore prevalence rate.",
+      "refs": [
+        "r3-credibility",
+        "r3-findings",
+        "r3-limits",
+        "r3-records-g"
+      ],
+      "claims": [
+        {
+          "text": "The taxonomy separates impersonation, repeat/expired listings and future pools.",
+          "sources": [
+            "R3-G01",
+            "R3-G02",
+            "R3-G03",
+            "R3-G07"
+          ],
+          "kind": "interpretation"
+        },
+        {
+          "text": "MOM's 2018 alert attributes a nonexistent translator vacancy to resume collection for marketing.",
+          "sources": [
+            "R3-G16"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "An intermediary explicitly describes future-opportunity registration rather than a specific vacancy.",
+          "sources": [
+            "R3-G07"
+          ],
+          "kind": "source-reported"
+        }
+      ],
+      "notes": "Round 03 F05/F06. MOM's alert was published 2018-07-04 and describes an earlier, undated case involving an unnamed employment agency. This briefing repeats the regulator's narrow attribution; it did not inspect the case file and makes no present employer accusation. The 2017 companion alert belongs to the same family. A disclosed future pool describes a different representation and does not itself establish deception. Expiry, copying, freezes, cancellations and internal fill are distinct possible explanations, not authenticated current Singapore episodes in this corpus. The 2025 MOM parliamentary response provides validation context, not a current posting-level ghost-job rate. Commercial surveys and review classifiers measure different populations and definitions; their percentages are not combined or promoted.",
+      "purpose": "Explain the concern while retaining historical scope and alternative explanations.",
+      "transition": "Separate the five questions needed to assess a particular dated vacancy episode.",
+      "round": "R03",
+      "urls": [
+        [
+          "R3-G01: Police Advisory On Job Scams",
+          "https://www.police.gov.sg/media-hub/news/2024/20240220_police_advisory_on_job_scams"
+        ],
+        [
+          "R3-G02: How to Repost an Expired Job Ad on FastJobs",
+          "https://support.fastjobs.sg/how-to-repost-an-expired-job-ad-on-fastjobs"
+        ],
+        [
+          "R3-G03: Advertising Terms of Use",
+          "https://sg.employer.seek.com/support/termsconditions"
+        ],
+        [
+          "R3-G07: For local jobseekers (SC/PR): join the IBS talent pool",
+          "https://ibsmanpower.com.sg/staff/jobseekers"
+        ],
+        [
+          "R3-G16: EA Alert (11/2018): [Reminder] Fake Job Postings",
+          "https://www.mom.gov.sg/-/media/mom/documents/employment-agencies/ea-alerts/2018/0704-fake-job-postings-reminder.pdf"
+        ]
+      ]
+    },
+    {
+      "layout": "table",
+      "title": "Verification leaves some questions open",
+      "lead": "Record a dated job reference, role and location. Keep these five questions separate.",
+      "headers": [
+        "Question",
+        "Useful evidence",
+        "What can remain unknown"
+      ],
+      "widths": [
+        280,
+        400,
+        456
+      ],
+      "tableFontSize": 22,
+      "tableHeight": 350,
+      "tableHeaderHeight": 42,
+      "tableInset": 6,
+      "rows": [
+        [
+          "Authenticity",
+          "Attributable identity and contact",
+          "Approved headcount"
+        ],
+        [
+          "Visible status",
+          "Original date, closure or pool label",
+          "Internal current status"
+        ],
+        [
+          "External recruitment",
+          "Dated activity for this job",
+          "Whether hiring is continuing"
+        ],
+        [
+          "Eventual outcome",
+          "Offer, hire, pause or cancellation",
+          "Original intention"
+        ],
+        [
+          "Original intent",
+          "Dated statement or record for this job",
+          "Motive from public signals alone"
+        ]
+      ],
+      "footnote": "Round 03 framework. A page, interview, repost or silence cannot establish intent. No detector or company score.",
+      "refs": [
+        "r3-credibility",
+        "r3-sector-S05",
+        "r3-profile-S11",
+        "r3-records-a",
+        "r3-records-g",
+        "r3-records-map"
+      ],
+      "claims": [
+        {
+          "text": "Visible postings and publication mechanisms do not establish every vacancy's current recruitment or intent.",
+          "sources": [
+            "R3-G02",
+            "R3-G03",
+            "R3-G04"
+          ],
+          "kind": "interpretation"
+        },
+        {
+          "text": "A future pool can disclose non-immediate purpose.",
+          "sources": [
+            "R3-G07"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "A listed role can disclose shortlist-only notification; other accounts report eventual offers after waits.",
+          "sources": [
+            "R3-A08",
+            "R3-M21",
+            "R3-G08"
+          ],
+          "kind": "source-reported"
+        }
+      ],
+      "notes": "The five-question framework comes from vacancy-credibility.md. Preserve what the actor represented and what the available dated evidence supports, with unknown as a valid result. MOM's 2025-10-14 response acknowledges ordinary cross-portal posting and describes vacancy-statistics validation; it does not certify individual advertisements. A genuine employer page and an interview do not independently establish ongoing external recruitment or contemporaneous intent. PSA's terminal-driving page states shortlist-only notification; separate forum contributors report delayed offers, but those claims do not verify any particular requisition or explain another applicant's silence. This framework is an interpretation for evidence organisation, not tested detection accuracy, individual advice or an implemented product.",
+      "purpose": "Make uncertainty usable without turning signals into accusations.",
+      "transition": "Return to preparation and the alternatives that any useful assistance would need to improve on.",
+      "round": "R03",
+      "urls": [
+        [
+          "R3-G02: How to Repost an Expired Job Ad on FastJobs",
+          "https://support.fastjobs.sg/how-to-repost-an-expired-job-ad-on-fastjobs"
+        ],
+        [
+          "R3-G03: Advertising Terms of Use",
+          "https://sg.employer.seek.com/support/termsconditions"
+        ],
+        [
+          "R3-G04: Written Answer to PQ on Ghost Jobs",
+          "https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2025/1014-written-answer-to-pq-on-ghost-jobs"
+        ],
+        [
+          "R3-G07: For local jobseekers (SC/PR): join the IBS talent pool",
+          "https://ibsmanpower.com.sg/staff/jobseekers"
+        ],
+        [
+          "R3-A08: Container Handling Specialist (Prime Mover Driver) [Joining bonus of $2000 for Singaporeans and PRs]",
+          "https://psacareers.singaporepsa.com/jobs/container-handling-specialist-prime-mover-driver-joining-bonus-of-2000-for-singaporeans-and-prs-singapore"
+        ],
+        [
+          "R3-M21: Timeline of applying to ministry/stat board jobs in Singapore: my experience from 50+ applications and 6 interviews : r/singaporejobs",
+          "https://www.reddit.com/r/singaporejobs/comments/1va8kmo/timeline_of_applying_to_ministrystat_board_jobs/"
+        ],
+        [
+          "R3-G08: Got ghosted after 4 rounds of interview… What's the longest you've waited and still got an offer?",
+          "https://www.reddit.com/r/askSingapore/comments/1onv8j6/got_ghosted_after_4_rounds_of_interview_3_weeks/"
+        ]
+      ],
+      "tableTop": 246
+    },
+    {
+      "layout": "contrast",
+      "title": "What the extension changes",
+      "lead": "Round 03 broadens the questions. JobHub's usefulness remains a proposition to test.",
+      "columns": [
+        {
+          "heading": "Questions to preserve",
+          "items": [
+            "Which real experience and role-specific requirements matter?",
+            "What should be clarified about duties, terms or recruitment?"
+          ]
+        },
+        {
+          "heading": "Evidence still needed",
+          "items": [
+            "Evidence of applicant AI use by occupation is limited. Manual and human routes remain relevant.",
+            "Arts and operational-trades journeys remain partial. No market or benefit estimate follows."
+          ]
+        }
+      ],
+      "takeaway": "Compare truthful preparation and total effort with manual and human alternatives.",
+      "footnote": "Round 03 interpretation and unresolved questions. No sector, platform, automation level or product scope selected.",
+      "refs": [
+        "r3-findings",
+        "r3-practices",
+        "r3-comparison",
+        "r3-limits",
+        "r3-supplement",
+        "r3-records-p",
+        "r3-records-b",
+        "r3-records-c"
+      ],
+      "claims": [
+        {
+          "text": "AI automation claims are unverified and occupations are not established.",
+          "sources": [
+            "R3-P02"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Advice to use AI is distinct from applicant adoption.",
+          "sources": [
+            "R3-B08"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Manual, human and learning routes remain bounded alternatives.",
+          "sources": [
+            "R3-M14",
+            "R3-P01"
+          ],
+          "kind": "interpretation"
+        }
+      ],
+      "notes": "Round 03 F07/F08 and the final arts/trades supplement. The prototype author and commenters in P02 are separate people; reported callbacks and time savings have not been verified or attributed causally to AI. Targeted collection did not establish occupation-specific nurse or warehouse application AI sequences. The manufacturing thread contains advice to try AI, not evidence the applicant did so. M14 is an employer-curated operations switch published 2020-12-31; exact transition dates are unknown. P01's promotional numerical comparisons were excluded. No AI mention does not establish non-use. The later Wild Rice notice is a historical disclosed casting route and the machinist account is international/unspecified. Neither resolves local outcomes or pay. These are discussion and validation questions; no owner acceptance is implied.",
+      "purpose": "State the extension's implications while keeping missing evidence and alternatives visible.",
+      "transition": "Review the remaining evidence boundaries before considering a small, owner-approved comparison.",
+      "round": "R03",
+      "urls": [
+        [
+          "R3-P02: Reported local automation and application workflow",
+          "https://www.reddit.com/r/asksg/comments/1w9rfbb/have_anyone_every_seen_or_heard_anyone_apply_for/"
+        ],
+        [
+          "R3-B08: Fresh grad job interview",
+          "https://www.reddit.com/r/singaporejobs/comments/1wocwqv/fresh_grad_job_interview/"
+        ],
+        [
+          "R3-M14: Making a Mid-career Switch with Income Insurance",
+          "https://www.income.com.sg/blog/mid-career-switch"
+        ],
+        [
+          "R3-P01: Design leader's self-reported referral routes",
+          "https://www.linkedin.com/posts/josephlouistan_how-i-landed-senior-roles-without-applying-activity-7364280286420881408-ty5t"
+        ]
+      ]
+    },
+    {
+      "layout": "columns",
+      "title": "The evidence has clear boundaries",
+      "lead": "Understanding a mechanism is different from proving a product opportunity.",
+      "columns": [
+        {
+          "heading": "In the sources reviewed",
+          "items": [
+            "Repeated decisions and preparation work appear in accounts.",
+            "Guidance favours verification and truthful examples.",
+            "AI interventions can have different outcomes."
+          ]
+        },
+        {
+          "heading": "Still unknown",
+          "items": [
+            "Which problems are most common or most burdensome.",
+            "Which segment would benefit or pay.",
+            "Whether JobHub reduces total effort or improves outcomes."
+          ]
+        }
+      ],
+      "takeaway": "Round 03 adds context. Multilingual, offline and operational-trades gaps remain.",
+      "footnote": "Selected sources and bounded internal evidence. No estimate of demand, prevalence or JobHub's hiring effect.",
+      "refs": [
+        "limits",
+        "r1",
+        "coverage",
+        "r3-limits",
+        "r3-coverage"
+      ],
+      "notes": "The earlier Round 01/02 corpus leaned toward graduate, office and technology perspectives. Round 03 adds 13 profiles and six deeper non-IT inquiries, but remains English-first purposive desk research. Frontline, multilingual, offline, low-digital-confidence, access-needs and older-worker contexts remain undercovered. Local operational-trades journeys and performing-arts outcomes are still partial. International studies and reported successes do not establish Singapore demand or JobHub benefit. Round 03 is a bounded investigation; later Rounds 04–06 remain optional plans, and no user or intervention test has occurred.",
+      "purpose": "Prevent a compelling narrative from becoming false certainty.",
+      "transition": "Offer one bounded way to learn more without selecting a broad scope."
+    },
+    {
+      "layout": "flow",
+      "title": "One small comparison could test usefulness",
+      "lead": "Candidate test: select truthful resume evidence for one fictional job.",
+      "steps": [
+        {
+          "heading": "Same inputs",
+          "text": "Fictional candidate facts and one job."
+        },
+        {
+          "heading": "Two approaches",
+          "text": "Manual master resume and reviewed AI assistance."
+        },
+        {
+          "heading": "Compare",
+          "text": "Unsupported claims, clarity, effort and recovery."
+        }
+      ],
+      "takeaway": "Include career-change and frontline cases separately. The owner must accept the test first.",
+      "footnote": "Proposed experiment from the decision gate. Not executed, user-validated or approved product scope.",
+      "refs": [
+        "gate",
+        "findings"
+      ],
+      "notes": "Start with a narrow preparation task rather than a broad application. Use identical fictional inputs to compare a simple manual baseline with reviewable assistance. Record unsupported claims, visible gaps, correction effort, recovery after interruption and ability to explain the output. Interview practice and compensation are separate possible later tasks. Owner-only testing can assess logic and effort, not representative usefulness. Real-data testing would require prior privacy and provider decisions. Round 03 does not accept this older candidate experiment or establish one priority sector. Any test would need role-appropriate tasks and comparison with manual/human alternatives.",
+      "purpose": "Translate research into an option for learning rather than an implementation commitment.",
+      "transition": "Close the main story with the questions the owner should carry into analysis."
+    },
+    {
+      "layout": "closing",
+      "title": "What should useful help preserve?",
+      "lead": "The facts about the person.\nThe context of the opportunity.\nA clear next step.",
+      "items": [
+        {
+          "heading": "For the next discussion",
+          "text": "Which task deserves a fair comparison with today's alternatives?"
+        },
+        {
+          "heading": "Before building",
+          "text": "What evidence would make us narrow, change or reject the idea?"
+        }
+      ],
+      "footnote": "Research synthesis and discussion questions. Product decisions remain open.",
+      "refs": [
+        "findings",
+        "gate",
+        "r3-findings"
+      ],
+      "notes": "This is the end of the main briefing. The proposed organising principle is preserving factual evidence and helping a person make and resume an informed decision. It is a synthesis for discussion, not a validated value proposition. The appendix explains round history, video limits, development approach and remaining provider choices. The owner retains final acceptance of research conclusions and any product direction. The appendix now also includes all 13 Round 03 profiles: six deeper inquiries and seven breadth-only summaries.",
+      "purpose": "Give a memorable synthesis while protecting the exploratory nature of JobHub.",
+      "transition": "Optional appendix for method, development and source detail."
+    },
+    {
+      "layout": "table",
+      "title": "Appendix: how the research rounds differ",
+      "lead": "Earlier work informs the context, but does not outrank later corrections.",
+      "headers": [
+        "Round",
+        "Contribution",
+        "Boundary"
+      ],
+      "widths": [
+        180,
+        470,
+        486
+      ],
+      "rows": [
+        [
+          "00",
+          "Domain, alternatives and AI-era development orientation.",
+          "Desk-research proposals, not product validation."
+        ],
+        [
+          "01",
+          "Bounded public-web accounts and hypothesis checks.",
+          "No prevalence ranking. Precise device-loss story unresolved."
+        ],
+        [
+          "02",
+          "Expanded pain, practice, guidance, caption and internal-process evidence.",
+          "Earlier fictional comparison stays historical. No user testing."
+        ],
+        [
+          "03",
+          "13 profiles, six deeper inquiries and vacancy-credibility distinctions.",
+          "Purposive desk research. Gaps and historical cases stay visible."
+        ]
+      ],
+      "footnote": "Round 03 extends the evidence. Rounds 04–06 remain optional plans. No product decision follows.",
+      "refs": [
+        "r0",
+        "r1",
+        "r2",
+        "limits",
+        "r3-findings",
+        "r3-coverage",
+        "r3-limits"
+      ],
+      "notes": "The folder name 02_synthetic-workflow-selection reflects an earlier plan. The latest expanded evidence run was explicitly authorised for pains, practices, guidance, video captions and a bounded internal review. Its evidence should not be confused with the retained fictional workflow comparison. The historical comparison cannot rank workflows as user-validated. Syntheses, source ledgers and decision gates preserve these distinctions. Round 03 collection is dated 19 October 2026 and adds conditional cross-industry comparisons, bounded ghost-posting evidence and an arts/trades supplement. It does not imply complete objective resolution, market validation or acceptance.",
+      "purpose": "Explain provenance and historical naming without opening the main story with administrative detail.",
+      "transition": "Clarify the contribution and limits of the video material.",
+      "tableFontSize": 23
+    },
+    {
+      "layout": "columns",
+      "title": "Appendix: what the videos contributed",
+      "lead": "Ten caption reviews across eight creator families added examples and questions.",
+      "columns": [
+        {
+          "heading": "Useful contributions",
+          "items": [
+            "Red-flag clarification questions and alternative explanations.",
+            "Fact-first drafting and narrated title-change checking.",
+            "Experience notebooks and spoken interview practice."
+          ]
+        },
+        {
+          "heading": "Important limits",
+          "items": [
+            "Advice and tutorials dominate the sample.",
+            "Caption text received review, not audio or screen verification.",
+            "One salary video concerns older international raise advice."
+          ]
+        }
+      ],
+      "takeaway": "Popularity and repeated statistics do not establish credibility or outcomes.",
+      "footnote": "V01–V10. Broad video statistics stayed excluded from substantive conclusions.",
+      "refs": [
+        "videos",
+        "video-log"
+      ],
+      "notes": "Five supplied captures and five additional canonical captures were reviewed. Same-creator videos and repeated claims are grouped rather than counted as independent support. The captions include manual and automatic tracks. Title changes described by a creator were not independently checked on screen. V10 is 2020 international current-job raise advice, not a Singapore job-offer source. Domain guidance carries the compensation discussion. Full timestamp locators and discovery outcomes remain in the reports.",
+      "purpose": "Show how video evidence enriched the research without overstating what was analysed.",
+      "transition": "Keep the development-method research visible but separate from user-domain findings."
+    },
+    {
+      "layout": "flow",
+      "title": "Appendix: small, explainable development steps",
+      "lead": "Earlier research proposes a lighter process while retaining technical ownership.",
+      "steps": [
+        {
+          "heading": "Brief",
+          "text": "One behaviour and clear boundaries."
+        },
+        {
+          "heading": "Build",
+          "text": "A small implementation slice."
+        },
+        {
+          "heading": "Verify",
+          "text": "Tests and independent review."
+        },
+        {
+          "heading": "Explain",
+          "text": "Record decisions and revise the brief."
+        }
+      ],
+      "takeaway": "Given / When / Then clarifies examples. Turning them into tests stays optional.",
+      "footnote": "Round 00 development recommendation. No local productivity benchmark or stack choice.",
+      "refs": [
+        "development",
+        "r0"
+      ],
+      "notes": "The baseline development research responded to the owner's concern that exhaustive specification slows progress while they still want technical responsibility. The recommendation is a short behaviour brief, narrow implementation, independent verification and concise decision records. Given/When/Then is a way to express examples, not a requirement to introduce Cucumber or a large test framework. AI-generated code still needs review, security consideration and owner understanding of data flow, failures and recovery. This process has not been benchmarked locally.",
+      "purpose": "Include development research without interrupting the human-domain narrative.",
+      "transition": "Identify platform and provider choices that the research has not settled."
+    },
+    {
+      "layout": "columns",
+      "title": "Appendix: platform and provider choices stay open",
+      "lead": "The research does not select a mobile app, web stack or winning AI provider.",
+      "columns": [
+        {
+          "heading": "Comparisons still needed",
+          "items": [
+            "Manual baseline versus a bounded assisted task.",
+            "Web, mobile and cross-device recovery under realistic constraints.",
+            "ChatGPT, Claude and other relevant tools on identical inputs."
+          ]
+        },
+        {
+          "heading": "Decisions before real data",
+          "items": [
+            "What information to share, with whom and for how long.",
+            "Approval, access, deletion and error-recovery requirements.",
+            "Accuracy and total effort, including checking and correction."
+          ]
+        }
+      ],
+      "takeaway": "Feature documentation and named-tool stories do not establish comparative performance.",
+      "footnote": "Earlier limited policy inspection. No current matched tool test or implemented privacy design.",
+      "refs": [
+        "competition",
+        "findings",
+        "limits",
+        "development",
+        "baseline-audit"
+      ],
+      "notes": "The owner requested broad competition and tool research. The repository contains earlier landscape work and later named-tool accounts, but not a controlled current comparison of ChatGPT, Claude or other assistants. No current feature, price or privacy-policy ranking is asserted. A separate baseline source, Cui, Dias and Ye's generative cover-letter study, reports a small, temporary callback effect with inconclusive hiring results in a freelance-platform setting. Its version header and manuscript date differ; the baseline audit records that limit. This is another bounded intervention, not a provider ranking. The product surface should follow tested workflow needs, not the illustrative phone/laptop scene. Provider and personal-data choices remain explicit owner decisions.",
+      "urls": [
+        [
+          "Baseline generative cover-letter study, version 2",
+          "https://arxiv.org/html/2509.25054v2"
+        ]
+      ],
+      "purpose": "Avoid accidental technical commitments and clarify useful later comparisons.",
+      "transition": "Read the 13 Round 03 profiles, then use the evidence guide for provenance."
+    },
+    {
+      "layout": "columns",
+      "industryProfile": "S01",
+      "depth": "breadth only",
+      "title": "S01  Retail and wholesale",
+      "lead": "Round 03 profile. Breadth only. Checks are research interpretation.",
+      "columns": [
+        {
+          "heading": "Roles and routes",
+          "items": [
+            "Retail sales, stock support and wholesale professional work are different contexts.",
+            "A retail account includes walk-ins and an outlet QR application. Wholesale has a conversion route."
+          ]
+        },
+        {
+          "heading": "Suggested checks",
+          "items": [
+            "Clarify availability, commitment length, outlet and actual duties.",
+            "Keep service or stock examples truthful. Ask how basic and variable pay are defined."
+          ]
+        }
+      ],
+      "footnote": "Breadth only. QR use does not authenticate an opening. No typical hiring sequence or AI-use finding.",
+      "refs": [
+        "r3-profile-S01",
+        "r3-limits",
+        "r3-records-map"
+      ],
+      "claims": [
+        {
+          "text": "Retail sales, stock support and wholesale professional work are different contexts. A retail account includes walk-ins and an outlet QR application. Wholesale has a conversion route.",
+          "sources": [
+            "R3-M01",
+            "R3-M02"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Clarify availability, commitment length, outlet and actual duties. Keep service or stock examples truthful. Ask how basic and variable pay are defined.",
+          "sources": [
+            "R3-M01",
+            "R3-M02"
+          ],
+          "kind": "interpretation"
+        }
+      ],
+      "notes": "M02 separates the opening poster's concern from a commenter's report. January 2025 availability is mentioned; exact post dates are unknown. M01 describes a discretionary programme, not a guaranteed offer. A QR link is a reported application channel, never proof of identity or vacancy legitimacy. No fictional participant, representative sample or market ranking is implied. This profile summarises source-attributed context; role-specific requirements and outcomes remain bounded by the sources. Applicant AI use and intentional non-use are not established unless expressly documented.",
+      "purpose": "Keep S01 visible with its evidence depth, role context and limits.",
+      "transition": "Compare the next profile without treating coverage depth as a ranking.",
+      "round": "R03",
+      "urls": [
+        [
+          "R3-M01: Career Conversion Programme – Wholesale Trade Professionals",
+          "https://www.enterprisesg.gov.sg/grow-your-business/boost-capabilities/talent-attraction-and-development/career-conversion-programme---wholesale-trade-professionals"
+        ],
+        [
+          "R3-M02: working at a retail store questions : r/SGExams",
+          "https://www.reddit.com/r/SGExams/comments/1h4qdy1/working_at_a_retail_store_questions/"
+        ]
+      ]
+    },
+    {
+      "layout": "columns",
+      "industryProfile": "S02",
+      "depth": "deep dive",
+      "title": "S02  Food and hospitality",
+      "lead": "Round 03 profile. Deeper inquiry. Checks are research interpretation.",
+      "columns": [
+        {
+          "heading": "Roles and routes",
+          "items": [
+            "Restaurant crew and hotel guest-service or culinary work involve different tasks.",
+            "A 25 August 2025 hotel walk-in and separate restaurant application accounts document routes."
+          ]
+        },
+        {
+          "heading": "Suggested checks",
+          "items": [
+            "Prepare real service examples and clear availability. Ask about nights, travel and actual tasks.",
+            "Clarify any trial's scope and payment. A proposed trial is not a confirmed shift or offer."
+          ]
+        }
+      ],
+      "footnote": "Deeper inquiry. Evidence on housekeeping, outcomes and applicant AI use is limited. One hotel family; unverified reviews.",
+      "refs": [
+        "r3-profile-S02",
+        "r3-sector-S02",
+        "r3-limits",
+        "r3-records-a"
+      ],
+      "claims": [
+        {
+          "text": "Restaurant crew and hotel guest-service or culinary work involve different tasks. A 25 August 2025 hotel walk-in and separate restaurant application accounts document routes.",
+          "sources": [
+            "R3-A01",
+            "R3-A02",
+            "R3-A04",
+            "R3-A06"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Prepare real service examples and clear availability. Ask about nights, travel and actual tasks. Clarify any trial's scope and payment. A proposed trial is not a confirmed shift or offer.",
+          "sources": [
+            "R3-A01",
+            "R3-A02",
+            "R3-A04",
+            "R3-A06"
+          ],
+          "kind": "interpretation"
+        }
+      ],
+      "notes": "A01 is a dated 2025 event, not an invitation to apply today. A02 has template inconsistencies and does not establish actual tests. A04 stops at an online-interview invitation. A06 contains separate 2025 reviews of an accepted offer and a staffing-change message; proposed trial completion is unknown. No general hotel wage, certification entitlement or prevalence is inferred. No fictional participant, representative sample or market ranking is implied. This profile summarises source-attributed context; role-specific requirements and outcomes remain bounded by the sources. Applicant AI use and intentional non-use are not established unless expressly documented.",
+      "purpose": "Keep S02 visible with its evidence depth, role context and limits.",
+      "transition": "Compare the next profile without treating coverage depth as a ranking.",
+      "round": "R03",
+      "urls": [
+        [
+          "R3-A01: The Singapore EDITION Walk In Interview (25 Aug)",
+          "https://event.e2i.com.sg/view-event/tse2508"
+        ],
+        [
+          "R3-A02: EDITION vacancy booklet linked from 25 Aug walk-in",
+          "https://event.e2i.com.sg/storage/event_media/VasGZisqOcTAwJ2q72p51zsuSXZdTo9ZO2udrwsL.pdf"
+        ],
+        [
+          "R3-A04: What to expect for F&B part time interview?",
+          "https://www.reddit.com/r/SGExams/comments/1khn8pa/what_to_expect_for_fb_part_time_interview/"
+        ],
+        [
+          "R3-A06: iTEA Premium Bubble Tea Singapore interview questions",
+          "https://www.glassdoor.com/Interview/iTEA-Premium-Bubble-Tea-Singapore-Interview-Questions-E5618881.htm"
+        ]
+      ]
+    },
+    {
+      "layout": "columns",
+      "industryProfile": "S03",
+      "depth": "deep dive",
+      "title": "S03  Healthcare and social care",
+      "lead": "Round 03 profile. Deeper inquiry. Checks are research interpretation.",
+      "columns": [
+        {
+          "heading": "Roles and routes",
+          "items": [
+            "Nursing, patient-care support and social-work associate roles have different requirements.",
+            "Local-graduate registration guidance and particular employer posts describe distinct routes."
+          ]
+        },
+        {
+          "heading": "Suggested checks",
+          "items": [
+            "Separate required credentials, preferred experience and transferable skills.",
+            "Check shifts, site and induction. Volunteering alone does not establish professional qualification."
+          ]
+        }
+      ],
+      "footnote": "Deeper inquiry. Role-specific guidance and selected accounts. Recent care-assistant offer sequences remain missing.",
+      "refs": [
+        "r3-profile-S03",
+        "r3-sector-S03",
+        "r3-limits",
+        "r3-records-b"
+      ],
+      "claims": [
+        {
+          "text": "Nursing, patient-care support and social-work associate roles have different requirements. Local-graduate registration guidance and particular employer posts describe distinct routes.",
+          "sources": [
+            "R3-B01",
+            "R3-B02",
+            "R3-B04",
+            "R3-B14",
+            "R3-B15"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Separate required credentials, preferred experience and transferable skills. Check shifts, site and induction. Volunteering alone does not establish professional qualification.",
+          "sources": [
+            "R3-B01",
+            "R3-B02",
+            "R3-B04",
+            "R3-B14",
+            "R3-B15"
+          ],
+          "kind": "interpretation"
+        }
+      ],
+      "notes": "B01 concerns local-graduate nursing eligibility; it is not an all-role or foreign-trained rule. B02 lists a support qualification as advantageous; B15 has nursing practice credentials and rotating shifts. B14 describes mixed administration/care duties, not every associate role. B04 is an unresolved career-change account; no rejection cause or AI use was established. No personalised regulatory or clinical advice follows. No fictional participant, representative sample or market ranking is implied. This profile summarises source-attributed context; role-specific requirements and outcomes remain bounded by the sources. Applicant AI use and intentional non-use are not established unless expressly documented.",
+      "purpose": "Keep S03 visible with its evidence depth, role context and limits.",
+      "transition": "Compare the next profile without treating coverage depth as a ranking.",
+      "round": "R03",
+      "urls": [
+        [
+          "R3-B01: Local Graduates",
+          "https://www.snb.gov.sg/for-professionals/becoming-a-nurse-or-midwife/apply-for-registration-enrolment/local-graduates/"
+        ],
+        [
+          "R3-B02: Patient Care Assistant (Inpatient) (Full-Time)",
+          "https://careers.singhealth.com.sg/NHCS/job/Singapore-Patient-Care-Assistant-(Inpatient)-(Full-Time)-Sing/12406944/"
+        ],
+        [
+          "R3-B04: Career switch to Social Work - tips for breaking in",
+          "https://www.reddit.com/r/askSingapore/comments/1m2vgpf/career_switch_to_social_work_tips_for_breaking_in/"
+        ],
+        [
+          "R3-B14: Social Worker Associate: job description",
+          "https://www.saac.org.sg/wp-content/uploads/2025/03/Social-Worker-Associate_.pdf"
+        ],
+        [
+          "R3-B15: Staff Nurse (Req ID 4895)",
+          "https://careers.singhealth.com.sg/SCH/job/Singapore-Staff-Nurse-Sing/56443244/"
+        ]
+      ]
+    },
+    {
+      "layout": "columns",
+      "industryProfile": "S04",
+      "depth": "breadth only",
+      "title": "S04  Education and training",
+      "lead": "Round 03 profile. Breadth only. Checks are research interpretation.",
+      "columns": [
+        {
+          "heading": "Roles and routes",
+          "items": [
+            "The inspected examples concern preschool entry and employer comparison.",
+            "One work-and-study programme combines employer screening with qualification training."
+          ]
+        },
+        {
+          "heading": "Suggested checks",
+          "items": [
+            "Check the exact role, certification and course or employer obligations.",
+            "Confirm written pay. The programme page has inconsistent salary sections."
+          ]
+        }
+      ],
+      "footnote": "Breadth only. Preschool examples cannot represent all education. No reliable pay or outcome benchmark.",
+      "refs": [
+        "r3-profile-S04",
+        "r3-limits",
+        "r3-records-map"
+      ],
+      "claims": [
+        {
+          "text": "The inspected examples concern preschool entry and employer comparison. One work-and-study programme combines employer screening with qualification training.",
+          "sources": [
+            "R3-M08",
+            "R3-M25"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Check the exact role, certification and course or employer obligations. Confirm written pay. The programme page has inconsistent salary sections.",
+          "sources": [
+            "R3-M08",
+            "R3-M25"
+          ],
+          "kind": "interpretation"
+        }
+      ],
+      "notes": "M25's page says accurate as of 22 July 2026. Conflicting pay sections remain unresolved; this slide does not choose a figure. M08 contains one beginning teacher's concern and a separate positive internship comment. Training, school roles and assessment conventions outside the inspected context remain undercovered. No fictional participant, representative sample or market ranking is implied. This profile summarises source-attributed context; role-specific requirements and outcomes remain bounded by the sources. Applicant AI use and intentional non-use are not established unless expressly documented.",
+      "purpose": "Keep S04 visible with its evidence depth, role context and limits.",
+      "transition": "Compare the next profile without treating coverage depth as a ranking.",
+      "round": "R03",
+      "urls": [
+        [
+          "R3-M08: Preschool teacher job : r/singaporejobs",
+          "https://www.reddit.com/r/singaporejobs/comments/1ujgpd6/preschool_teacher_job/"
+        ],
+        [
+          "R3-M25: Career Conversion Programmes (CCP) Details",
+          "https://conversion.mycareersfuture.gov.sg/portal/ProgramDetails.aspx?ProgID=P00000436"
+        ]
+      ]
+    },
+    {
+      "layout": "columns",
+      "industryProfile": "S05",
+      "depth": "deep dive",
+      "title": "S05  Logistics and transport",
+      "lead": "Round 03 profile. Deeper inquiry. Checks are research interpretation.",
+      "columns": [
+        {
+          "heading": "Roles and routes",
+          "items": [
+            "Warehouse deployment, terminal driving and a graduate logistics search are different routes.",
+            "The terminal employer describes training. A graduate reports boards, commute and title uncertainty."
+          ]
+        },
+        {
+          "heading": "Suggested checks",
+          "items": [
+            "Check who employs you, the client site, duties, transport and roster.",
+            "Separate licence requirements, actual training and pay components. Verify deployment terms."
+          ]
+        }
+      ],
+      "footnote": "Deeper inquiry. Recent warehouse/driver journeys and assessments remain incomplete. Agency intent is unknown.",
+      "refs": [
+        "r3-profile-S05",
+        "r3-sector-S05",
+        "r3-limits",
+        "r3-records-a"
+      ],
+      "claims": [
+        {
+          "text": "Warehouse deployment, terminal driving and a graduate logistics search are different routes. The terminal employer describes training. A graduate reports boards, commute and title uncertainty.",
+          "sources": [
+            "R3-A08",
+            "R3-A09",
+            "R3-A13",
+            "R3-M10"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Check who employs you, the client site, duties, transport and roster. Separate licence requirements, actual training and pay components. Verify deployment terms.",
+          "sources": [
+            "R3-A08",
+            "R3-A09",
+            "R3-A13",
+            "R3-M10"
+          ],
+          "kind": "interpretation"
+        }
+      ],
+      "notes": "A08 describes terminal handling and a preferred licence; this is not a universal public-road rule. M10 reports an agency/site-hours disagreement without verified contracts or resolution; its accusation is not adopted. A09 has no interview/offer outcome. A13 provides term categories, not an individual legal ruling. The older SPD transition ended with an agricultural employer and is not counted as a logistics hire. No fictional participant, representative sample or market ranking is implied. This profile summarises source-attributed context; role-specific requirements and outcomes remain bounded by the sources. Applicant AI use and intentional non-use are not established unless expressly documented.",
+      "purpose": "Keep S05 visible with its evidence depth, role context and limits.",
+      "transition": "Compare the next profile without treating coverage depth as a ranking.",
+      "round": "R03",
+      "urls": [
+        [
+          "R3-A08: Container Handling Specialist (Prime Mover Driver) [Joining bonus of $2000 for Singaporeans and PRs]",
+          "https://psacareers.singaporepsa.com/jobs/container-handling-specialist-prime-mover-driver-joining-bonus-of-2000-for-singaporeans-and-prs-singapore"
+        ],
+        [
+          "R3-A09: I need advice on logistics Job (Singaporean)",
+          "https://www.reddit.com/r/singaporejobs/comments/1ulkj9i/i_need_advice_on_logistics_job_singaporean/"
+        ],
+        [
+          "R3-A13: Key employment terms (KETs)",
+          "https://www.mom.gov.sg/employment-practices/contract-of-service/key-employment-terms"
+        ],
+        [
+          "R3-M10: did my recruiting agency scam me",
+          "https://www.reddit.com/r/SGExams/comments/1i3xtpv"
+        ]
+      ]
+    },
+    {
+      "layout": "columns",
+      "industryProfile": "S06",
+      "depth": "breadth only",
+      "title": "S06  Construction and built environment",
+      "lead": "Round 03 profile. Breadth only. Checks are research interpretation.",
+      "columns": [
+        {
+          "heading": "Roles and routes",
+          "items": [
+            "A consultancy advertises a site technical-officer role and separately invites future interest.",
+            "Site work, project support and building trades should retain their own scope."
+          ]
+        },
+        {
+          "heading": "Suggested checks",
+          "items": [
+            "Check the site, employing party, project timing and actual duties.",
+            "Read mandatory and preferred credentials literally. A future pool has a different promise."
+          ]
+        }
+      ],
+      "footnote": "Breadth only. One consultancy page, posted 20 February 2026. No typical trade process or current hire verified.",
+      "refs": [
+        "r3-profile-S06",
+        "r3-limits",
+        "r3-records-map"
+      ],
+      "claims": [
+        {
+          "text": "A consultancy advertises a site technical-officer role and separately invites future interest. Site work, project support and building trades should retain their own scope.",
+          "sources": [
+            "R3-M26"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Check the site, employing party, project timing and actual duties. Read mandatory and preferred credentials literally. A future pool has a different promise.",
+          "sources": [
+            "R3-M26"
+          ],
+          "kind": "interpretation"
+        }
+      ],
+      "notes": "M26 states a role posting date of 2026-02-20 and an explicitly separate future-opening route. Current external recruitment and outcomes remain unknown. This page cannot establish requirements across all construction occupations or confirm active headcount. A disclosed future-interest route alone does not establish deception. No fictional participant, representative sample or market ranking is implied. This profile summarises source-attributed context; role-specific requirements and outcomes remain bounded by the sources. Applicant AI use and intentional non-use are not established unless expressly documented.",
+      "purpose": "Keep S06 visible with its evidence depth, role context and limits.",
+      "transition": "Compare the next profile without treating coverage depth as a ranking.",
+      "round": "R03",
+      "urls": [
+        [
+          "R3-M26: Careers | C@nspecs Pte Ltd",
+          "https://www.conspecs.sg/careers"
+        ]
+      ]
+    },
+    {
+      "layout": "columns",
+      "industryProfile": "S07",
+      "depth": "deep dive",
+      "title": "S07  Manufacturing and trades",
+      "lead": "Round 03 profile. Deeper inquiry. Checks are research interpretation.",
+      "columns": [
+        {
+          "heading": "Roles and routes",
+          "items": [
+            "Semiconductor-engineering accounts discuss knowledge gaps, technical questions and quizzes.",
+            "A manufacturer describes direct, graduate and internship channels. These are not hiring outcomes."
+          ]
+        },
+        {
+          "heading": "Suggested checks",
+          "items": [
+            "Explain work personally performed, tools used and reasoning. Keep training needs visible.",
+            "Reported mini-exams differ from machine trials. AI study advice does not show actual use."
+          ]
+        }
+      ],
+      "footnote": "Deeper inquiry, partial. Local operator/machinist journeys remain missing. Supplement: international/unspecified.",
+      "refs": [
+        "r3-profile-S07",
+        "r3-sector-S07",
+        "r3-limits",
+        "r3-supplement",
+        "r3-records-b",
+        "r3-records-final"
+      ],
+      "claims": [
+        {
+          "text": "Semiconductor-engineering accounts discuss knowledge gaps, technical questions and quizzes. A manufacturer describes direct, graduate and internship channels. These are not hiring outcomes.",
+          "sources": [
+            "R3-B08",
+            "R3-B09",
+            "R3-B17",
+            "R3-P04"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Explain work personally performed, tools used and reasoning. Keep training needs visible. Reported mini-exams differ from machine trials. AI study advice does not show actual use.",
+          "sources": [
+            "R3-B08",
+            "R3-B09",
+            "R3-B17",
+            "R3-P04"
+          ],
+          "kind": "interpretation"
+        }
+      ],
+      "notes": "Use sectors/S07.md rather than the earlier gap-only short profile. B08 is a shortlist/preparation question plus peers' reported interview formats; B09's offer and mini-exam concern different people. No standard CNC/lathe trial or universal registration rule was established. P04 is international/unspecified, with past blueprint/measurement checks separated from recruiter-suggested future tests. It does not resolve Singapore operational-trades gaps. No fictional participant, representative sample or market ranking is implied. This profile summarises source-attributed context; role-specific requirements and outcomes remain bounded by the sources. Applicant AI use and intentional non-use are not established unless expressly documented.",
+      "purpose": "Keep S07 visible with its evidence depth, role context and limits.",
+      "transition": "Compare the next profile without treating coverage depth as a ranking.",
+      "round": "R03",
+      "urls": [
+        [
+          "R3-B08: Fresh grad job interview",
+          "https://www.reddit.com/r/singaporejobs/comments/1wocwqv/fresh_grad_job_interview/"
+        ],
+        [
+          "R3-B09: Interviews till Offer",
+          "https://www.reddit.com/r/singaporejobs/comments/1pmvabb/interviews_till_offer/"
+        ],
+        [
+          "R3-B17: Careers",
+          "https://sg.micron.com/about/careers"
+        ],
+        [
+          "R3-P04: Machinist assessment discussion",
+          "https://www.reddit.com/r/Machinists/comments/1woppyv/machinist_tests_interviews/"
+        ]
+      ]
+    },
+    {
+      "layout": "columns",
+      "industryProfile": "S08",
+      "depth": "deep dive",
+      "title": "S08  Finance and insurance",
+      "lead": "Round 03 profile. Deeper inquiry. Checks are research interpretation.",
+      "columns": [
+        {
+          "heading": "Roles and routes",
+          "items": [
+            "Operations, advice/sales and internal specialist transfers involve different duties.",
+            "An Income account published 31 December 2020 reports an operations career switch."
+          ]
+        },
+        {
+          "heading": "Suggested checks",
+          "items": [
+            "Map actual transferable responsibilities to the role. Read the named employer and arrangement.",
+            "Separate basic salary, conditional allowances and variable incentives. Verify the actual offer."
+          ]
+        }
+      ],
+      "footnote": "Deeper inquiry. 2020 story is historical. Scheme terms: 6 Nov 2025, not guaranteed basic pay. Outcomes remain thin.",
+      "refs": [
+        "r3-profile-S08",
+        "r3-sector-S08",
+        "r3-limits",
+        "r3-records-c"
+      ],
+      "claims": [
+        {
+          "text": "Operations, advice/sales and internal specialist transfers involve different duties. An Income account published 31 December 2020 reports an operations career switch.",
+          "sources": [
+            "R3-M14",
+            "R3-C05",
+            "R3-C09",
+            "R3-C11",
+            "R3-C03"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Map actual transferable responsibilities to the role. Read the named employer and arrangement. Separate basic salary, conditional allowances and variable incentives. Verify the actual offer.",
+          "sources": [
+            "R3-M14",
+            "R3-C05",
+            "R3-C09",
+            "R3-C11",
+            "R3-C01"
+          ],
+          "kind": "interpretation"
+        }
+      ],
+      "notes": "Worker C reinspection recovered M14's publication date 2020-12-31; exact transition dates, channel, pay and round count are unknown. It does not establish a personal pay cut. C11 is a historical 2025 programme, not a current opening. C05 describes salary plus incentives for a particular employee role; C09 is an agency sales advert with an unnamed bank, not bank-confirmed terms. No universal finance credential or salary claim follows. No fictional participant, representative sample or market ranking is implied. This profile summarises source-attributed context; role-specific requirements and outcomes remain bounded by the sources. Applicant AI use and intentional non-use are not established unless expressly documented. R3-C01's scheme information is as at 6 November 2025; publication is unknown. Completion/appointment-dependent examination and onboarding allowances are not recurring guaranteed basic pay or a verified current offer. This source shares the Income employer family with M14 and C05.",
+      "purpose": "Keep S08 visible with its evidence depth, role context and limits.",
+      "transition": "Compare the next profile without treating coverage depth as a ranking.",
+      "round": "R03",
+      "urls": [
+        [
+          "R3-M14: Making a Mid-career Switch with Income Insurance",
+          "https://www.income.com.sg/blog/mid-career-switch"
+        ],
+        [
+          "R3-C05: Be a Client Advisor",
+          "https://www.income.com.sg/careers/be-a-financial-planner/client-advisor"
+        ],
+        [
+          "R3-C09: Wealth Planning Manager - QXV9RX9R",
+          "https://www.careers-page.com/people-profilers/job/QXV9RX9R"
+        ],
+        [
+          "R3-C11: DBS Management Associate Programme 2025 - opportunities in Singapore",
+          "https://www.dbs.com/iwov-resources/images/careers/management-associate-programme/Available%202025%20MA%20Opportunities%20in%20Singapore.pdf"
+        ],
+        [
+          "R3-C03: My career growth - Iris's story",
+          "https://www.sc.com/en/global-careers/our-employee-stories/my-career-growth-iriss-story/"
+        ],
+        [
+          "R3-C01: Be a Financial Consultant",
+          "https://www.income.com.sg/careers/be-a-financial-planner/financial-consultant"
+        ]
+      ]
+    },
+    {
+      "layout": "columns",
+      "industryProfile": "S09",
+      "depth": "breadth only",
+      "title": "S09  Professional and support services",
+      "lead": "Round 03 profile. Breadth only. Checks are research interpretation.",
+      "columns": [
+        {
+          "heading": "Roles and routes",
+          "items": [
+            "This broad basket separates professional services, administration and outsourced support.",
+            "The inspected material concerns cleaning policy and one security worker's career-change question."
+          ]
+        },
+        {
+          "heading": "Suggested checks",
+          "items": [
+            "Keep the client site distinct from the employer. Ask about deployment, hours and pay components.",
+            "Check actual qualifications and transferable tasks. Professional-service hiring needs more evidence."
+          ]
+        }
+      ],
+      "footnote": "Breadth only. Cleaning/security examples cannot stand for consultants, accountants or all business services.",
+      "refs": [
+        "r3-profile-S09",
+        "r3-limits",
+        "r3-records-map"
+      ],
+      "claims": [
+        {
+          "text": "This broad basket separates professional services, administration and outsourced support. The inspected material concerns cleaning policy and one security worker's career-change question.",
+          "sources": [
+            "R3-M16",
+            "R3-M17"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Keep the client site distinct from the employer. Ask about deployment, hours and pay components. Check actual qualifications and transferable tasks. Professional-service hiring needs more evidence.",
+          "sources": [
+            "R3-M16",
+            "R3-M17"
+          ],
+          "kind": "interpretation"
+        }
+      ],
+      "notes": "M16's covered outsourced/in-house cleaning arrangements must not be extended to every service job. M17 is an unverified public career-change account without a completed outcome. Employer industry, occupation and client location remain different fields. No pay entitlement, standard licence route or AI-use claim is established. No fictional participant, representative sample or market ranking is implied. This profile summarises source-attributed context; role-specific requirements and outcomes remain bounded by the sources. Applicant AI use and intentional non-use are not established unless expressly documented.",
+      "purpose": "Keep S09 visible with its evidence depth, role context and limits.",
+      "transition": "Compare the next profile without treating coverage depth as a ranking.",
+      "round": "R03",
+      "urls": [
+        [
+          "R3-M16: Progressive Wage Model for the cleaning sector",
+          "https://www.mom.gov.sg/employment-practices/progressive-wage-model/cleaning-sector"
+        ],
+        [
+          "R3-M17: 31M, 10 Years in Private Security and Feeling Stuck. What Are My Career Options? : r/singaporejobs",
+          "https://www.reddit.com/r/singaporejobs/comments/1x2vxiq/31m_10_years_in_private_security_and_feeling/"
+        ]
+      ]
+    },
+    {
+      "layout": "columns",
+      "industryProfile": "S10",
+      "depth": "deep dive",
+      "title": "S10  Creative, media and arts",
+      "lead": "Round 03 profile. Deeper inquiry. Checks are research interpretation.",
+      "columns": [
+        {
+          "heading": "Roles and routes",
+          "items": [
+            "Design portfolios, media tasks and performance self-tapes provide different evidence.",
+            "Wild Rice's 21 November 2025 open call concerned possible 2026/27 casting, not one production."
+          ]
+        },
+        {
+          "heading": "Suggested checks",
+          "items": [
+            "Explain actual contribution. Clarify test scope, time, payment and permitted use.",
+            "Keep a disclosed casting pool distinct from a current job. Its December 2025 deadlines have passed."
+          ]
+        }
+      ],
+      "footnote": "Deeper inquiry, partial. Audition notice is historical. Arts pay, actual casting and project outcomes remain gaps.",
+      "refs": [
+        "r3-profile-S10",
+        "r3-sector-S10",
+        "r3-limits",
+        "r3-supplement",
+        "r3-records-c",
+        "r3-records-final"
+      ],
+      "claims": [
+        {
+          "text": "Design portfolios, media tasks and performance self-tapes provide different evidence. Wild Rice's 21 November 2025 open call concerned possible 2026/27 casting, not one production.",
+          "sources": [
+            "R3-M18",
+            "R3-C04",
+            "R3-C07",
+            "R3-P03"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Explain actual contribution. Clarify test scope, time, payment and permitted use. Keep a disclosed casting pool distinct from a current job. Its December 2025 deadlines have passed.",
+          "sources": [
+            "R3-M18",
+            "R3-C04",
+            "R3-C07",
+            "R3-P03"
+          ],
+          "kind": "interpretation"
+        },
+        {
+          "text": "A separate local acting-route question and peer advice do not establish a verified gig.",
+          "sources": [
+            "R3-P05"
+          ],
+          "kind": "source-reported"
+        }
+      ],
+      "notes": "M18 allows a role-dependent task or portfolio deep-dive. C04 explicitly describes an unpaid test and promises evaluation-only use; those promises are not independently verified safeguards. C07 reports burden/refusal/rejection but does not prove stolen work or fake vacancies. P03 is a historical producer notice dated 2025-11-21 with December 2025 submission/audition dates and possible 2026/27 seasons. It is not a live opportunity or verified employment. Its public-sharing request is not a recommendation or authority to upload personal material. P05 is a local route concern, not a verified gig; it does not resolve casting outcomes. No fictional participant, representative sample or market ranking is implied. This profile summarises source-attributed context; role-specific requirements and outcomes remain bounded by the sources. Applicant AI use and intentional non-use are not established unless expressly documented.",
+      "purpose": "Keep S10 visible with its evidence depth, role context and limits.",
+      "transition": "Compare the next profile without treating coverage depth as a ranking.",
+      "round": "R03",
+      "urls": [
+        [
+          "R3-M18: Careers at a Leading Branding & Creative Agency | Singapore | Superminted",
+          "https://www.superminted.com/careers"
+        ],
+        [
+          "R3-C04: Careers - behind Network / Talent",
+          "https://www.behindnetworksg.com/careers.html"
+        ],
+        [
+          "R3-C07: Job Interview Nightmare - design comments",
+          "https://www.reddit.com/r/singaporejobs/comments/1wcfkyb/job_interview_nightmare/"
+        ],
+        [
+          "R3-P03: Wild Rice open audition notice",
+          "https://www.wildrice.com.sg/audition-notice-open-auditions/"
+        ],
+        [
+          "R3-P05: Public question about acting-gig routes",
+          "https://www.reddit.com/r/SGExams/comments/1srn9au/acting_side_quest/"
+        ]
+      ]
+    },
+    {
+      "layout": "columns",
+      "industryProfile": "S11",
+      "depth": "breadth only",
+      "title": "S11  Public and community work",
+      "lead": "Round 03 profile. Breadth only. Checks are research interpretation.",
+      "columns": [
+        {
+          "heading": "Roles and routes",
+          "items": [
+            "Careers@Gov is an official channel for ministries and statutory boards.",
+            "A separate public account reports an eventual offer after waits across two organisations."
+          ]
+        },
+        {
+          "heading": "Suggested checks",
+          "items": [
+            "Record the application stage, promised update and follow-up date separately.",
+            "Group public hospitals under healthcare and schools under education. Keep duties role-specific."
+          ]
+        }
+      ],
+      "footnote": "Breadth only. One unverified account, uncertain dates. Its backup-candidate explanation remains speculation.",
+      "refs": [
+        "r3-profile-S11",
+        "r3-limits",
+        "r3-records-map"
+      ],
+      "claims": [
+        {
+          "text": "Careers@Gov is an official channel for ministries and statutory boards. A separate public account reports an eventual offer after waits across two organisations.",
+          "sources": [
+            "R3-M20",
+            "R3-M21"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Record the application stage, promised update and follow-up date separately. Group public hospitals under healthcare and schools under education. Keep duties role-specific.",
+          "sources": [
+            "R3-M20",
+            "R3-M21"
+          ],
+          "kind": "interpretation"
+        }
+      ],
+      "notes": "M20's footer update is not a vacancy publication or hiring date. M21's eventual-offer claim provides a contrary report to silence implying no hiring; it does not confirm any other requisition. Do not reproduce the applicant's counts as sector rates. Community/charitable ownership is an overlay and does not automatically imply public administration. No fictional participant, representative sample or market ranking is implied. This profile summarises source-attributed context; role-specific requirements and outcomes remain bounded by the sources. Applicant AI use and intentional non-use are not established unless expressly documented.",
+      "purpose": "Keep S11 visible with its evidence depth, role context and limits.",
+      "transition": "Compare the next profile without treating coverage depth as a ranking.",
+      "round": "R03",
+      "urls": [
+        [
+          "R3-M20: Home | Careers@Gov",
+          "https://www.careers.gov.sg/"
+        ],
+        [
+          "R3-M21: Timeline of applying to ministry/stat board jobs in Singapore: my experience from 50+ applications and 6 interviews : r/singaporejobs",
+          "https://www.reddit.com/r/singaporejobs/comments/1va8kmo/timeline_of_applying_to_ministrystat_board_jobs/"
+        ]
+      ]
+    },
+    {
+      "layout": "columns",
+      "industryProfile": "S12",
+      "depth": "breadth only",
+      "title": "S12  IT and digital services",
+      "lead": "Round 03 profile. Breadth only. Checks are research interpretation.",
+      "columns": [
+        {
+          "heading": "Roles and routes",
+          "items": [
+            "IT support, development and digital operations can occur across employer industries.",
+            "EnterpriseSG links ICT/media career frameworks. This review did not read the linked frameworks."
+          ]
+        },
+        {
+          "heading": "Suggested checks",
+          "items": [
+            "Keep earlier-round technical examples separately dated and attributed.",
+            "Check actual duties and skills supported by your own work. No new typical test or AI-use rate follows."
+          ]
+        }
+      ],
+      "footnote": "Breadth only, thin context. Earlier technology-heavy evidence does not make this round a fresh IT study.",
+      "refs": [
+        "r3-profile-S12",
+        "r3-limits",
+        "r3-records-map"
+      ],
+      "claims": [
+        {
+          "text": "IT support, development and digital operations can occur across employer industries. EnterpriseSG links ICT/media career frameworks. This review did not read the linked frameworks.",
+          "sources": [
+            "R3-M28"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Keep earlier-round technical examples separately dated and attributed. Check actual duties and skills supported by your own work. No new typical test or AI-use rate follows.",
+          "sources": [
+            "R3-M28"
+          ],
+          "kind": "interpretation"
+        }
+      ],
+      "notes": "M28 documents links on a context page, not the contents of every linked framework, applicant routes, pay or hiring outcomes. The direct IMDA retrieval was inaccessible. Round 01/02 technical examples remain historical comparators and have not been turned into a new complete sector profile. No inference of intentional AI non-use follows from silence. No fictional participant, representative sample or market ranking is implied. This profile summarises source-attributed context; role-specific requirements and outcomes remain bounded by the sources. Applicant AI use and intentional non-use are not established unless expressly documented.",
+      "purpose": "Keep S12 visible with its evidence depth, role context and limits.",
+      "transition": "Compare the next profile without treating coverage depth as a ranking.",
+      "round": "R03",
+      "urls": [
+        [
+          "R3-M28: Guides & Insights | ICT & Media",
+          "https://www.enterprisesg.gov.sg/industries/ict-and-media/guides-and-insights"
+        ]
+      ]
+    },
+    {
+      "layout": "columns",
+      "industryProfile": "S13",
+      "depth": "breadth only",
+      "title": "S13  Personal and repair services",
+      "lead": "Round 03 profile. Breadth only. Checks are research interpretation.",
+      "columns": [
+        {
+          "heading": "Roles and routes",
+          "items": [
+            "Vehicle recovery/repair and hair/beauty service advertisements describe different work.",
+            "Two employers mention direct applications or training. Their actual intake status is unknown."
+          ]
+        },
+        {
+          "heading": "Suggested checks",
+          "items": [
+            "Check the actual role, licence or training route, location and working hours.",
+            "Read basic pay and commission separately. Ask what the proposed pay formula guarantees."
+          ]
+        }
+      ],
+      "footnote": "Breadth only. Two employer statements, no completed seeker journey. No industry-wide pay or licence rule.",
+      "refs": [
+        "r3-profile-S13",
+        "r3-limits",
+        "r3-records-map"
+      ],
+      "claims": [
+        {
+          "text": "Vehicle recovery/repair and hair/beauty service advertisements describe different work. Two employers mention direct applications or training. Their actual intake status is unknown.",
+          "sources": [
+            "R3-M23",
+            "R3-M24"
+          ],
+          "kind": "source-reported"
+        },
+        {
+          "text": "Check the actual role, licence or training route, location and working hours. Read basic pay and commission separately. Ask what the proposed pay formula guarantees.",
+          "sources": [
+            "R3-M23",
+            "R3-M24"
+          ],
+          "kind": "interpretation"
+        }
+      ],
+      "notes": "M23 states a Class 4 licence for its recovery/towing role and rotating shifts; do not generalise that requirement to all repair work. M24 advertises hair/beauty work, retail hours, basic-plus-commission pay and training. Neither verifies current recruitment, a successful placement or an individual entitlement. The two sources do not represent all personal or local services. No fictional participant, representative sample or market ranking is implied. This profile summarises source-attributed context; role-specific requirements and outcomes remain bounded by the sources. Applicant AI use and intentional non-use are not established unless expressly documented.",
+      "purpose": "Keep S13 visible with its evidence depth, role context and limits.",
+      "transition": "Use the final evidence guide to trace these summaries.",
+      "round": "R03",
+      "urls": [
+        [
+          "R3-M23: aas.com.sg",
+          "https://aas.com.sg/job/recovery-crew-vehicle-mechanics/"
+        ],
+        [
+          "R3-M24: Careers - Jean Yip Group",
+          "https://jeanyipgroup.com/careers/"
+        ]
+      ]
+    },
+    {
+      "layout": "columns",
+      "title": "Appendix: evidence guide",
+      "lead": "Each slide's reading notes link to the relevant records and selected original sources.",
+      "columns": [
+        {
+          "heading": "Rounds 01–02",
+          "items": [
+            "P01–P12: reported practices, studies and career guidance.",
+            "D01–D12: authenticity, fit, compensation and negotiation.",
+            "C01–C02: distinct writing-assistance experiments."
+          ]
+        },
+        {
+          "heading": "Round 03 extension",
+          "items": [
+            "R3-M/A/B/C: breadth and sector records.",
+            "R3-G: vacancy credibility. R3-P: practice and gap checks.",
+            "13 profiles, six deeper reports and explicit limitations."
+          ]
+        }
+      ],
+      "takeaway": "Multiple records can repeat one source. Each source needs its own appraisal.",
+      "footnote": "Earlier P/D/C/I/V IDs remain Round 02 unless qualified. Round 03 uses R3-. Cutoff: 19 October 2026.",
+      "refs": [
+        "practices",
+        "domain",
+        "experiments",
+        "internal",
+        "videos",
+        "coverage",
+        "limits",
+        "r3-findings",
+        "r3-limits",
+        "r3-coverage"
+      ],
+      "notes": "Use the accompanying claim map and audit reports for the path from a presentation message to its supporting research. The main story is an educational synthesis, not a substitute for source methods. Exact quotes, screenshots and raw personal records were deliberately avoided. Full original source URLs and locators remain in the ledgers. Future source refreshes should preserve the version and date used for any revised claim. R3 identifiers are qualified source records, not participant counts. Each new slide maps claims to exact local record files and original URLs. The 18 October 136-file audit inventories are historical snapshots; audit-round3.md separately records the files and record subsets inspected for this update. A current hash establishes byte identity for a snapshot, not truth or independent source corroboration.",
+      "purpose": "Enable verification and further learning without cluttering the main narrative.",
+      "transition": "Return to the main-story closing or open the linked evidence."
+    }
+  ],
+  "evidenceRecords": {
+    "R3-A01": {
+      "id": "R3-A01",
+      "url": "https://event.e2i.com.sg/view-event/tse2508",
+      "title": "The Singapore EDITION Walk In Interview (25 Aug)",
+      "publicationDate": "unknown",
+      "eventPeriod": "Event: 2025-08-25; historical snapshot",
+      "passage": "About Event and Job Opportunities, lines 2-19 and 50-67: dated walk-in and mixed role table.",
+      "observation": "Hotel walk-in/tour and multiple employment categories were advertised.",
+      "limits": "Not current vacancy or actual offered pay; event, booklet and role detail are one family.",
+      "family": "EDITION-e2i-2025-08-25",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-a.json"
+    },
+    "R3-A02": {
+      "id": "R3-A02",
+      "url": "https://event.e2i.com.sg/storage/event_media/VasGZisqOcTAwJ2q72p51zsuSXZdTo9ZO2udrwsL.pdf",
+      "title": "EDITION vacancy booklet linked from 25 Aug walk-in",
+      "publicationDate": "unknown",
+      "eventPeriod": "Linked to 2025-08-25 event; standalone issue date unknown",
+      "passage": "Pages 1-3, 5 and 8: guest systems, F&B flexible hours, culinary and analytical criteria.",
+      "observation": "Requirements differ by role; some title/duties wording needs clarification.",
+      "limits": "One employer; template inconsistencies; no recruitment outcomes or actual roster.",
+      "family": "EDITION-e2i-2025-08-25",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-a.json"
+    },
+    "R3-A04": {
+      "id": "R3-A04",
+      "url": "https://www.reddit.com/r/SGExams/comments/1khn8pa/what_to_expect_for_fb_part_time_interview/",
+      "title": "What to expect for F&B part time interview?",
+      "publicationDate": "2025-05-08 (page date context)",
+      "eventPeriod": "Application before post; interview scheduled next week; result unknown",
+      "passage": "Opening, lines 20-21; replies 49-78: application, online invitation and availability advice.",
+      "observation": "First-time restaurant applicant reports uncertainty before an online interview.",
+      "limits": "Advice is not actual interview behaviour; no offer outcome; no AI disclosure.",
+      "family": "reddit-thread:1khn8pa",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-a.json"
+    },
+    "R3-A06": {
+      "id": "R3-A06",
+      "url": "https://www.glassdoor.com/Interview/iTEA-Premium-Bubble-Tea-Singapore-Interview-Questions-E5618881.htm",
+      "title": "iTEA Premium Bubble Tea Singapore interview questions",
+      "publicationDate": "Page publication unknown; individual review publication dates displayed: 2025-07-01, 2025-08-14, 2025-09-09",
+      "eventPeriod": "Interview dates unknown; reviews describe prior experiences",
+      "passage": "Lines 148-237: staffing-message report and accepted-offer walk-in with practical questions.",
+      "observation": "Reported outcomes differ; proposed trial completion is unknown.",
+      "limits": "One employer/platform family; no verified trial, contract or intent; accepted-offer claim unverified.",
+      "family": "Glassdoor:iTEA-interview-page",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-a.json"
+    },
+    "R3-A08": {
+      "id": "R3-A08",
+      "url": "https://psacareers.singaporepsa.com/jobs/container-handling-specialist-prime-mover-driver-joining-bonus-of-2000-for-singaporeans-and-prs-singapore",
+      "title": "Container Handling Specialist (Prime Mover Driver) [Joining bonus of $2000 for Singaporeans and PRs]",
+      "publicationDate": "unknown; original advertised date not visible after redirect",
+      "eventPeriod": "Page closing date: 2026-12-31; actual recruitment/hire period unknown",
+      "passage": "Lines 29-47: permanent, terminal duties, training, licence preference, shifts and shortlist notification.",
+      "observation": "Employer describes a trained terminal-driving route and selective notification.",
+      "limits": "Not public-road licensing guidance; no inspected wage, bonus conditions, exact site or current screening confirmation.",
+      "family": "PSA:requisition-493596",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-a.json"
+    },
+    "R3-A09": {
+      "id": "R3-A09",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1ulkj9i/i_need_advice_on_logistics_job_singaporean/",
+      "title": "I need advice on logistics Job (Singaporean)",
+      "publicationDate": "unknown; rendered page shows relative 2mo",
+      "eventPeriod": "Reported ongoing search; exact period unknown",
+      "passage": "Opening, lines 19-65: boards, commute exclusions, guidance, titles and company-site difficulty.",
+      "observation": "Graduate reports an unresolved search constrained by location and role uncertainty.",
+      "limits": "No interview/offer; personal pay aspiration is not benchmark; replies do not verify transport provision.",
+      "family": "reddit-thread:1ulkj9i",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-a.json"
+    },
+    "R3-A13": {
+      "id": "R3-A13",
+      "url": "https://www.mom.gov.sg/employment-practices/contract-of-service/key-employment-terms",
+      "title": "Key employment terms (KETs)",
+      "publicationDate": "unknown",
+      "eventPeriod": "Current visible guidance as accessed; effective date not shown",
+      "passage": "Table, lines 34-73: employer, duties, term, hours, pay components and optional location.",
+      "observation": "Official table separates employment identity and terms for comparison.",
+      "limits": "No determination of individual entitlement, agency liability or a reported dispute; no legal advice.",
+      "family": "https://www.mom.gov.sg/employment-practices/contract-of-service/key-employment-terms",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-a.json"
+    },
+    "R3-B01": {
+      "id": "R3-B01",
+      "url": "https://www.snb.gov.sg/for-professionals/becoming-a-nurse-or-midwife/apply-for-registration-enrolment/local-graduates/",
+      "title": "Local Graduates",
+      "publicationDate": "unknown",
+      "eventPeriod": "Guidance visible on 2026-10-19; historical implementation dates not established",
+      "passage": "Eligibility; Application; Documents required; Outcome, lines 43-157: accredited training, documentary evidence and PC are distinguished; conditional competency routes exist.",
+      "observation": "SNB describes accredited qualifications and a valid practising certificate as necessary to nursing practice; original-document checks and some competency assessments can precede completion.",
+      "limits": "Not foreign-trained eligibility, universal assessment timing, employer hiring probability or individual advice; current page is not evidence of actual processing times.",
+      "family": "SNB-local-registration",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-b.json"
+    },
+    "R3-B02": {
+      "id": "R3-B02",
+      "url": "https://careers.singhealth.com.sg/NHCS/job/Singapore-Patient-Care-Assistant-(Inpatient)-(Full-Time)-Sing/12406944/",
+      "title": "Patient Care Assistant (Inpatient) (Full-Time)",
+      "publicationDate": "2026-09-24",
+      "eventPeriod": "Posting dated 2026-09-24; visible 2026-10-19",
+      "passage": "Job Requirements and role description, lines 45-60: O/N levels and work experience; WSQ advantage; shift work; vaccination evidence and completion route.",
+      "observation": "Employer distinguishes a preferred healthcare-support certificate from its stated baseline and allows specified vaccination completion before starting after successful interview/offer.",
+      "limits": "One employer/role; live vacancy, actual selection and statutory generalisation not established. No pay or exact assessment disclosed.",
+      "family": "SingHealth-employer-postings",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-b.json"
+    },
+    "R3-B04": {
+      "id": "R3-B04",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1m2vgpf/career_switch_to_social_work_tips_for_breaking_in/",
+      "title": "Career switch to Social Work - tips for breaking in",
+      "publicationDate": "unknown exact date; source rendered 1y ago",
+      "eventPeriod": "Application attempts before post; exact dates unknown; approximate page age is not a fieldwork date",
+      "passage": "Opening lines 21-23 and OP reply 67-68: applications to associate/internship roles, tailored letters, existing volunteering, few interview opportunities. Replies 76-99 suggest referrals and agency routes.",
+      "observation": "Career changer reports tailoring applications without securing interviews and uncertainty over whether existing volunteering is relevant; peers suggest human routes.",
+      "limits": "No employer response records, complete application denominator or verified reason; replies are advice, not successful-workaround evidence. One thread, not multiple independent sources.",
+      "family": "Reddit-thread-1m2vgpf",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-b.json"
+    },
+    "R3-B08": {
+      "id": "R3-B08",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1wocwqv/fresh_grad_job_interview/",
+      "title": "Fresh grad job interview",
+      "publicationDate": "unknown exact date; rendered 25d ago on access",
+      "eventPeriod": "Recent interview-preparation discussion; actual interviews in replies undated",
+      "passage": "Lines 19-23 and 68-104: shortlist, knowledge gap, technical/quality scenarios, quiz, work-life questions and suggestion to use AI.",
+      "observation": "Technical interview experiences are reported, including process/quality questions and a quiz; AI is recommended by a commenter, with no observed use or outcome.",
+      "limits": "Employer procedures not independently verified; no observed practical machine test, exact test content, paid status, preparation success or AI verification.",
+      "family": "Reddit-thread-1wocwqv",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-b.json"
+    },
+    "R3-B09": {
+      "id": "R3-B09",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1pmvabb/interviews_till_offer/",
+      "title": "Interviews till Offer",
+      "publicationDate": "unknown exact date; search and page relative-age displays differ",
+      "eventPeriod": "One reply says offer late January 'this year'; year not securely anchored; other interview dates unknown",
+      "passage": "Replies lines 143-152: one manufacturing worker reports two onsite interviews and offer; another science/manufacturing worker reports online then onsite mini-exam.",
+      "observation": "A reported offer after two onsite rounds provides a positive case; a separate reported mini-exam shows another assessment format.",
+      "limits": "Employer, duties, arrangement and exact chronology unknown; different commenters not one sequence. Science/manufacturing description is ambiguous; no assessment prevalence.",
+      "family": "Reddit-thread-1pmvabb",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-b.json"
+    },
+    "R3-B14": {
+      "id": "R3-B14",
+      "url": "https://www.saac.org.sg/wp-content/uploads/2025/03/Social-Worker-Associate_.pdf",
+      "title": "Social Worker Associate: job description",
+      "publicationDate": "unknown; URL directory 2025/03 is not proof of publication",
+      "eventPeriod": "Document visible 2026-10-19; vacancy period unknown",
+      "passage": "Page 1, lines 3-39: administration, case co-work/home visits, diploma consideration, occasional evening/weekend events; shortlisted applicants notified.",
+      "observation": "Associate work combines administration and care-related work; specified diploma wording and limited-notification statement need literal reading.",
+      "limits": "Unknown live recruitment status/date; not all social-work associates; school overlap retained. No numeric salary or reason for a particular rejection.",
+      "family": "SAAC-social-worker-associate-document",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-b.json"
+    },
+    "R3-B15": {
+      "id": "R3-B15",
+      "url": "https://careers.singhealth.com.sg/SCH/job/Singapore-Staff-Nurse-Sing/56443244/",
+      "title": "Staff Nurse (Req ID 4895)",
+      "publicationDate": "2026-09-22",
+      "eventPeriod": "Posting dated 2026-09-22; visible 2026-10-19",
+      "passage": "Lines 53-61: nursing qualification, valid SNB PC and BCLS, ILTC advantage, rotating shifts and two sites.",
+      "observation": "Nursing post explicitly combines professional credentials with shift and deployment conditions, distinguishing required from advantageous experience.",
+      "limits": "Same publisher group as B02, not independent institutional corroboration; full hiring status and offer terms unknown; pay undisclosed.",
+      "family": "SingHealth-employer-postings",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-b.json"
+    },
+    "R3-B17": {
+      "id": "R3-B17",
+      "url": "https://sg.micron.com/about/careers",
+      "title": "Careers",
+      "publicationDate": "unknown; page references Talent Connect 2025 and 2026 awards",
+      "eventPeriod": "Career-page snapshot 2026-10-19; programme cohort dates unknown",
+      "passage": "Lines 248-252 and 388-408: employer job search, graduate pathways and local tertiary internship projects.",
+      "observation": "Employer describes direct-search, graduate and internship routes and real-project exposure; successful applicant outcomes are not reported.",
+      "limits": "Same publisher family as B11; promotional claims/awards not evaluated or used to rank employer; no operator/trades eligibility or assessment criteria.",
+      "family": "Micron-corporate",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-b.json"
+    },
+    "R3-C04": {
+      "id": "R3-C04",
+      "url": "https://www.behindnetworksg.com/careers.html",
+      "title": "Careers - behind Network / Talent",
+      "publicationDate": "unknown",
+      "eventPeriod": "Undated employer snapshot accessed 2026-10-19",
+      "passage": "Application lines47-55; roles100-152; test FAQ199-231.",
+      "observation": "Portfolio precedes manual screening and an unpaid test. Employer promises evaluation-only use without a fixed time cap. Remote design/editing and Singapore onsite filming have different practical requirements.",
+      "limits": "No verified hires or applicant satisfaction; salary deferred to conversation. Work-sample non-use promise not independently checked. Mutable page; initial/repeat line counts differed.",
+      "family": "https://www.behindnetworksg.com/careers.html",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-c.json"
+    },
+    "R3-C05": {
+      "id": "R3-C05",
+      "url": "https://www.income.com.sg/careers/be-a-financial-planner/client-advisor",
+      "title": "Be a Client Advisor",
+      "publicationDate": "unknown",
+      "eventPeriod": "Undated recruitment snapshot",
+      "passage": "Duties and Benefits, lines98-115.",
+      "observation": "Client Advisor role combines walk-in/referral/database prospecting with a stable monthly salary, sales and quarterly incentives, and employee benefits.",
+      "limits": "Same Income employer family as C01/M14; salary amount, achievable incentives, targets, hours and actual offers unknown.",
+      "family": "https://www.income.com.sg/blog/mid-career-switch",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-c.json"
+    },
+    "R3-C07": {
+      "id": "R3-C07",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1wcfkyb/job_interview_nightmare/",
+      "title": "Job Interview Nightmare - design comments",
+      "publicationDate": "unknown (search metadata and opened relative dates conflict)",
+      "eventPeriod": "Unknown; one retrospective comment mentions a company failing three years later",
+      "passage": "Design comments lines47-63 and240-251.",
+      "observation": "One applicant reports completing a multi-part consumer-design exercise before rejection and unanswered follow-up. Another reports declining free tasks, and elsewhere repeated interviews/sketch requests before rejection, later seeking veteran peers.",
+      "limits": "Complaint selection, mixed historical events, unknown employer sector, unverified tasks/outcomes; salaries not market estimates; no proof of work reuse or fabricated vacancy.",
+      "family": "https://www.reddit.com/r/singaporejobs/comments/1wcfkyb/job_interview_nightmare/",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-c.json"
+    },
+    "R3-C09": {
+      "id": "R3-C09",
+      "url": "https://www.careers-page.com/people-profilers/job/QXV9RX9R",
+      "title": "Wealth Planning Manager - QXV9RX9R",
+      "publicationDate": "unknown",
+      "eventPeriod": "Undated listing; current external recruitment unresolved",
+      "passage": "Description/Responsibilities/Requirements, lines11-30; notification policy38.",
+      "observation": "Explicit sales role lists basic salary, fixed allowance and quarterly commissions, branch/telephone prospecting, 5.5-day schedule and examination timing.",
+      "limits": "Agency description not bank-confirmed terms or universal licensing rule; no pay amount, actual offer, closure date or employer intention.",
+      "family": "https://www.careers-page.com/people-profilers/job/QXV9RX9R",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-c.json"
+    },
+    "R3-C11": {
+      "id": "R3-C11",
+      "url": "https://www.dbs.com/iwov-resources/images/careers/management-associate-programme/Available%202025%20MA%20Opportunities%20in%20Singapore.pdf",
+      "title": "DBS Management Associate Programme 2025 - opportunities in Singapore",
+      "publicationDate": "unknown (2025 programme edition; discovery dated >24 months, unconfirmed)",
+      "eventPeriod": "2025 programme; historical by 2026-10-19",
+      "passage": "PDF pages13-14 (zero-based12-13), Operations, lines318-350.",
+      "observation": "Operations spans strategy, continuity, consumer/institutional services and post-trade processing, rather than only frontline product sales.",
+      "limits": "Historical programme cannot establish live 2026 opening, operations pay, all entry requirements or any individual's outcome.",
+      "family": "https://www.dbs.com/iwov-resources/images/careers/management-associate-programme/Available%202025%20MA%20Opportunities%20in%20Singapore.pdf",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-c.json"
+    },
+    "R3-G01": {
+      "id": "R3-G01",
+      "url": "https://www.police.gov.sg/media-hub/news/2024/20240220_police_advisory_on_job_scams",
+      "title": "Police Advisory On Job Scams",
+      "publicationDate": "2024-02-20",
+      "eventPeriod": "2023-10-01 to 2024-01-31",
+      "passage": "Body lines 901-920: approaches 1-3 and precautions; faithful paraphrase.",
+      "observation": "Scammers impersonate real businesses, use task commissions and sometimes fake contracts, then demand transfers; SPF recommends verification through official sources.",
+      "limits": "Older than 24 months; scam identity/action evidence does not establish genuine employers' intent. Historical contact details not reproduced.",
+      "family": "R3-GF-SPF-TASK-SCAMS",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/credibility.json"
+    },
+    "R3-G02": {
+      "id": "R3-G02",
+      "url": "https://support.fastjobs.sg/how-to-repost-an-expired-job-ad-on-fastjobs",
+      "title": "How to Repost an Expired Job Ad on FastJobs",
+      "publicationDate": "unknown",
+      "eventPeriod": "Undated help page retrieved 2026-10-19",
+      "passage": "Steps 1-5 and dashboard-storage note, lines 19-32; paraphrase.",
+      "observation": "Expired adverts can be reposted with a new duration; the guide recommends retaining reusable job descriptions.",
+      "limits": "Shows an available action, not its frequency, automation or intent in any particular repost.",
+      "family": "R3-GF-FASTJOBS-REPOST",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/credibility.json"
+    },
+    "R3-G03": {
+      "id": "R3-G03",
+      "url": "https://sg.employer.seek.com/support/termsconditions",
+      "title": "Advertising Terms of Use",
+      "publicationDate": "unknown; current page inspected",
+      "eventPeriod": "Terms snapshot 2026-10-19",
+      "passage": "Clauses 47, 52; body lines 220-235; paraphrase.",
+      "observation": "Advertisements must concern a current genuine paid opportunity being recruited for. Copying, extending, refreshing or reposting can constitute an additional advertisement.",
+      "limits": "A policy is not proof of compliance. Effective date not established; do not treat platform presence as certification.",
+      "family": "R3-GF-SEEK-TERMS",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/credibility.json"
+    },
+    "R3-G04": {
+      "id": "R3-G04",
+      "url": "https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2025/1014-written-answer-to-pq-on-ghost-jobs",
+      "title": "Written Answer to PQ on Ghost Jobs",
+      "publicationDate": "2025-10-14",
+      "eventPeriod": "Practices described as at 2025-10-14",
+      "passage": "Answer paragraphs 1-3, lines 43-46; paraphrase.",
+      "observation": "MOM describes cross-checks and employer follow-up for persistent unfilled vacancies; duplicate portal postings can reflect ordinary recruitment.",
+      "limits": "Does not quantify Singapore ghost adverts, guarantee every MCF listing, or reveal public intent ground truth.",
+      "family": "R3-GF-MOM-2025-VACANCY-VALIDATION",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/credibility.json"
+    },
+    "R3-G07": {
+      "id": "R3-G07",
+      "url": "https://ibsmanpower.com.sg/staff/jobseekers",
+      "title": "For local jobseekers (SC/PR): join the IBS talent pool",
+      "publicationDate": "unknown",
+      "eventPeriod": "Disclosure visible 2026-10-19; no opening date",
+      "passage": "Introduction and FAQs, lines 32-36, 100-113, 134-156; paraphrase.",
+      "observation": "Explicitly distinguishes general future-opportunity registration from a specific vacancy and disclaims guaranteed contact, interview or placement.",
+      "limits": "Agency, not direct employer example; no evidence of actual matching effectiveness, vacancy count or current approved headcount.",
+      "family": "R3-GF-IBS-TALENT-POOL",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/credibility.json"
+    },
+    "R3-G08": {
+      "id": "R3-G08",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1onv8j6/got_ghosted_after_4_rounds_of_interview_3_weeks/",
+      "title": "Got ghosted after 4 rounds of interview… What's the longest you've waited and still got an offer?",
+      "publicationDate": "unknown; retrieved relative ages about 1 year",
+      "eventPeriod": "Retrospective experiences; exact years mostly unknown",
+      "passage": "Comments lines 204, 294, 359, 429-451, 597-623; paraphrase, no usernames retained.",
+      "observation": "Different commenters report prolonged waits followed by offers, losing another opportunity while waiting, and continuing applications rather than relying on silence.",
+      "limits": "One thread is one family; commenters' explanations and advice are not confirmed causes or proven workarounds. Office/tech skew, uncertain dates; no employer accusation retained.",
+      "family": "R3-GF-REDDIT-DELAY-1onv8j6",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/credibility.json"
+    },
+    "R3-G16": {
+      "id": "R3-G16",
+      "url": "https://www.mom.gov.sg/-/media/mom/documents/employment-agencies/ea-alerts/2018/0704-fake-job-postings-reminder.pdf",
+      "title": "EA Alert (11/2018): [Reminder] Fake Job Postings",
+      "publicationDate": "2018-07-04",
+      "eventPeriod": "Undated recent case before 2018-07-04",
+      "passage": "PDF p. 1 paragraph 2; paraphrase.",
+      "observation": "MOM says an EA advertised a nonexistent translator job to collect resumes for marketing; enforcement involved demerit points and partial deposit forfeiture, with discrimination also found.",
+      "limits": "One historical intermediary case, not direct-employer prevalence. Sanction attribution spans more than fake listing; no present company identified or accused.",
+      "family": "R3-GF-MOM-EA-FAKE-2017-18",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/credibility.json"
+    },
+    "R3-M01": {
+      "id": "R3-M01",
+      "url": "https://www.enterprisesg.gov.sg/grow-your-business/boost-capabilities/talent-attraction-and-development/career-conversion-programme---wholesale-trade-professionals",
+      "title": "Career Conversion Programme – Wholesale Trade Professionals",
+      "publicationDate": "unknown",
+      "eventPeriod": "undated current page",
+      "passage": "About this programme / Eligibility",
+      "observation": "Wholesale conversion includes new-hire training and existing-worker reskilling; admission is discretionary.",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "family": "https://www.enterprisesg.gov.sg/grow-your-business/boost-capabilities/talent-attraction-and-development/career-conversion-programme---wholesale-trade-professionals",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-map.json"
+    },
+    "R3-M02": {
+      "id": "R3-M02",
+      "url": "https://www.reddit.com/r/SGExams/comments/1h4qdy1/working_at_a_retail_store_questions/",
+      "title": "working at a retail store questions : r/SGExams",
+      "publicationDate": "unknown",
+      "eventPeriod": "January 2025 availability mentioned",
+      "passage": "Opening post / early comments",
+      "observation": "A retail walk-in applicant worries about response time and commitment length. A commenter reports applying through an outlet QR code after an availability mismatch.",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "family": "https://www.reddit.com/r/SGExams/comments/1h4qdy1/working_at_a_retail_store_questions",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-map.json"
+    },
+    "R3-M08": {
+      "id": "R3-M08",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1ujgpd6/preschool_teacher_job/",
+      "title": "Preschool teacher job : r/singaporejobs",
+      "publicationDate": "unknown",
+      "eventPeriod": "relative months",
+      "passage": "Opening / first response",
+      "observation": "A beginning preschool teacher seeks employer comparisons. An internship commenter gives a positive account.",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "family": "https://www.reddit.com/r/singaporejobs/comments/1ujgpd6/preschool_teacher_job",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-map.json"
+    },
+    "R3-M10": {
+      "id": "R3-M10",
+      "url": "https://www.reddit.com/r/SGExams/comments/1i3xtpv",
+      "title": "did my recruiting agency scam me",
+      "publicationDate": "unknown exact per coordinator",
+      "eventPeriod": "Historical; exact date unverified",
+      "passage": "Coordinator locator: Opening / update; agency-agreed Saturday hours versus site expectations.",
+      "observation": "Reported terms disagreement does not establish a fake vacancy or intent.",
+      "limits": "Breadth summary only; no contract/legal outcome or identity relationships independently inspected; allegation not adopted as fraud.",
+      "family": "https://www.reddit.com/r/SGExams/comments/1i3xtpv",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-a.json"
+    },
+    "R3-M14": {
+      "id": "R3-M14",
+      "url": "https://www.income.com.sg/blog/mid-career-switch",
+      "title": "Making a Mid-career Switch with Income Insurance",
+      "publicationDate": "2020-12-31",
+      "eventPeriod": "Transition occurred by publication; precise event dates unknown; older",
+      "passage": "Date line112; Experience120-122; Right Opportunity125-126; transition129-132.",
+      "observation": "Employee relates prior logistics responsibilities to a finance-operations listing, reports a positive interview, accepted offer, courses/self-learning and team support.",
+      "limits": "Older than 24 months, curated success; discovery channel/rounds/pay unknown. Potential pay cut is a general barrier, not an observed personal reduction. Same Income employer group as C01/C05.",
+      "family": "https://www.income.com.sg/blog/mid-career-switch",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-c.json"
+    },
+    "R3-M16": {
+      "id": "R3-M16",
+      "url": "https://www.mom.gov.sg/employment-practices/progressive-wage-model/cleaning-sector",
+      "title": "Progressive Wage Model for the cleaning sector",
+      "publicationDate": "unknown",
+      "eventPeriod": "current page references 2026 addendum",
+      "passage": "Who it covers / Training",
+      "observation": "MOM distinguishes covered outsourced and in-house cleaning arrangements and training requirements; these do not apply to every administrative or professional service.",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "family": "https://www.mom.gov.sg/employment-practices/progressive-wage-model/cleaning-sector",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-map.json"
+    },
+    "R3-M17": {
+      "id": "R3-M17",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1x2vxiq/31m_10_years_in_private_security_and_feeling/",
+      "title": "31M, 10 Years in Private Security and Feeling Stuck. What Are My Career Options? : r/singaporejobs",
+      "publicationDate": "unknown",
+      "eventPeriod": "relative days",
+      "passage": "Opening",
+      "observation": "A security worker considering a change asks about transferring experience while preserving income and improving working time. Personal details and outcomes remain unverified.",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "family": "https://www.reddit.com/r/singaporejobs/comments/1x2vxiq/31m_10_years_in_private_security_and_feeling",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-map.json"
+    },
+    "R3-M18": {
+      "id": "R3-M18",
+      "url": "https://www.superminted.com/careers",
+      "title": "Careers at a Leading Branding & Creative Agency | Singapore | Superminted",
+      "publicationDate": "unknown",
+      "eventPeriod": "Undated current page snapshot; hiring outcomes unknown",
+      "passage": "How We Hire123-152; FAQ161-198.",
+      "observation": "CV/portfolio and discussion lead to role-dependent task or portfolio deep-dive, then final conversation. Page welcomes speculative applications, describes occasional project contracts, a response target and possible interview adjustments.",
+      "limits": "Task payment/duration/rights and actual response compliance unknown. Named roles and open applications are distinct; neither proves current headcount or eventual hire.",
+      "family": "https://www.superminted.com/careers",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-c.json"
+    },
+    "R3-M20": {
+      "id": "R3-M20",
+      "url": "https://www.careers.gov.sg/",
+      "title": "Home | Careers@Gov",
+      "publicationDate": "unknown",
+      "eventPeriod": "event date unknown; see updateDate for page snapshot",
+      "passage": "Apply / Diverse career options",
+      "observation": "Careers@Gov links to public-service applications across ministries and statutory boards. Employer promises are not observed workplace outcomes.",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "family": "https://www.careers.gov.sg",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-map.json"
+    },
+    "R3-M21": {
+      "id": "R3-M21",
+      "url": "https://www.reddit.com/r/singaporejobs/comments/1va8kmo/timeline_of_applying_to_ministrystat_board_jobs/",
+      "title": "Timeline of applying to ministry/stat board jobs in Singapore: my experience from 50+ applications and 6 interviews : r/singaporejobs",
+      "publicationDate": "unknown",
+      "eventPeriod": "relative two-month date",
+      "passage": "Opening / disclaimer / follow-up",
+      "observation": "A public-sector applicant reports an eventual offer after varied waits across two organisations. Their backup-candidate explanation remains speculation.",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "family": "https://www.reddit.com/r/singaporejobs/comments/1va8kmo/timeline_of_applying_to_ministrystat_board_jobs",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-map.json"
+    },
+    "R3-M23": {
+      "id": "R3-M23",
+      "url": "https://aas.com.sg/job/recovery-crew-vehicle-mechanics/",
+      "title": "aas.com.sg",
+      "publicationDate": "unknown",
+      "eventPeriod": "undated visible ad; active recruitment unknown",
+      "passage": "Requirements",
+      "observation": "AA advertises recovery/mechanic duties, a Class 4 licence for towing/recovery, rotating shifts and willingness to train some applicants without related experience.",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "family": "https://aas.com.sg/job/recovery-crew-vehicle-mechanics",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-map.json"
+    },
+    "R3-M24": {
+      "id": "R3-M24",
+      "url": "https://jeanyipgroup.com/careers/",
+      "title": "Careers - Jean Yip Group",
+      "publicationDate": "unknown",
+      "eventPeriod": "undated visible page; intake status unknown",
+      "passage": "Careers / Learn as You Earn",
+      "observation": "Jean Yip advertises hair/beauty roles, basic-plus-commission pay, retail hours, unconfirmed location and a paid training route.",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "family": "https://jeanyipgroup.com/careers",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-map.json"
+    },
+    "R3-M25": {
+      "id": "R3-M25",
+      "url": "https://conversion.mycareersfuture.gov.sg/portal/ProgramDetails.aspx?ProgID=P00000436",
+      "title": "Career Conversion Programmes (CCP) Details",
+      "publicationDate": "unknown",
+      "eventPeriod": "event date unknown; see updateDate for page snapshot",
+      "passage": "What is it / Who can apply / How",
+      "observation": "A preschool work-and-study programme describes employer screening and training leading to certification. Its salary sections differ, so no single entitlement is inferred.",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "family": "https://conversion.mycareersfuture.gov.sg/portal/ProgramDetails.aspx",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-map.json"
+    },
+    "R3-M26": {
+      "id": "R3-M26",
+      "url": "https://www.conspecs.sg/careers",
+      "title": "Careers | C@nspecs Pte Ltd",
+      "publicationDate": "2026-02-20 stated posting date",
+      "eventPeriod": "active recruitment and eventual outcome unknown",
+      "passage": "Open Positions / Don't See a Suitable Role",
+      "observation": "A consultancy lists a site technical-officer role and a separate future-openings invitation. Visible listing and disclosed talent-pool wording do not prove active recruitment.",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "family": "https://www.conspecs.sg/careers",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-map.json"
+    },
+    "R3-M28": {
+      "id": "R3-M28",
+      "url": "https://www.enterprisesg.gov.sg/industries/ict-and-media/guides-and-insights",
+      "title": "Guides & Insights | ICT & Media",
+      "publicationDate": "unknown",
+      "eventPeriod": "undated current page",
+      "passage": "Guides & toolkits",
+      "observation": "EnterpriseSG links separate ICT and media skills/career frameworks. Linked documents were not thereby inspected and hiring outcomes remain unknown.",
+      "limits": "Convenience retrieval; no prevalence inference. Dates, outcomes and applicability require case-specific verification.",
+      "family": "https://www.enterprisesg.gov.sg/industries/ict-and-media/guides-and-insights",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-map.json"
+    },
+    "R3-P01": {
+      "id": "R3-P01",
+      "url": "https://www.linkedin.com/posts/josephlouistan_how-i-landed-senior-roles-without-applying-activity-7364280286420881408-ty5t",
+      "title": "Design leader's self-reported referral routes",
+      "publicationDate": "unknown; relative date only",
+      "eventPeriod": "retrospective; exact period unknown",
+      "passage": "Original post opening; numerical claims excluded because no method shown.",
+      "observation": "The author attributes some senior design opportunities to introductions and existing trust. The post also promotes a service; its numerical referral/job-board comparisons lack an inspected method and are not retained.",
+      "limits": "No prevalence, sector-specific adoption, comparative effectiveness, permission to scrape/contact, or validated hiring benefit.",
+      "family": "https://www.linkedin.com/posts/josephlouistan_how-i-landed-senior-roles-without-applying-activity-7364280286420881408-ty5t",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-gaps.json"
+    },
+    "R3-P02": {
+      "id": "R3-P02",
+      "url": "https://www.reddit.com/r/asksg/comments/1w9rfbb/have_anyone_every_seen_or_heard_anyone_apply_for/",
+      "title": "Reported local automation and application workflow",
+      "publicationDate": "unknown; relative date only",
+      "eventPeriod": "retrospective; exact period unknown",
+      "passage": "Opening post distinguishes unfinished prototype; replies describe claimed personal use. Other replies give advice.",
+      "observation": "The opener describes a prototype, while separate commenters claim AI matching, tailoring, tracking and some applications. Claimed time savings/callbacks are unverified and do not establish causality or supported tool behaviour.",
+      "limits": "No prevalence, sector-specific adoption, comparative effectiveness, permission to scrape/contact, or validated hiring benefit.",
+      "family": "https://www.reddit.com/r/asksg/comments/1w9rfbb/have_anyone_every_seen_or_heard_anyone_apply_for/",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-gaps.json"
+    },
+    "R3-P03": {
+      "id": "R3-P03",
+      "url": "https://www.wildrice.com.sg/audition-notice-open-auditions/",
+      "title": "Wild Rice open audition notice",
+      "publisher": "Wild Rice",
+      "publicationDate": "2025-11-21",
+      "updateDate": "unknown",
+      "eventPeriod": "December 2025 auditions; possible 2026/27 seasons",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore",
+      "type": "theatre producer notice",
+      "family": "https://www.wildrice.com.sg/audition-notice-open-auditions/",
+      "method": "Producer's own historical notice; not a verified hire",
+      "passage": "Audition details / opening disclosure",
+      "observation": "Wild Rice's 21 November 2025 open call is explicitly not tied to specific productions. It requests a performance resume and self-tape for possible 2026/27 roles, with December 2025 submission/audition dates.",
+      "claimLabel": "source-reported claim",
+      "confidence": "high for stated notice; no outcome validation",
+      "limits": "No representative rate or current vacancy/intent determination; comparator and historical limits apply.",
+      "tags": [
+        "S10"
+      ],
+      "employerActivity": "performing arts/theatre",
+      "occupation": "performer",
+      "arrangement": "stated casting route, arrangement unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown",
+      "stage": "casting/self-tape/audition",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-final-gaps.json"
+    },
+    "R3-P04": {
+      "id": "R3-P04",
+      "url": "https://www.reddit.com/r/Machinists/comments/1woppyv/machinist_tests_interviews/",
+      "title": "Machinist assessment discussion",
+      "publisher": "Public Reddit contributors",
+      "publicationDate": "unknown",
+      "updateDate": "unknown",
+      "eventPeriod": "recent relative page age, retrospective jobs undated",
+      "accessDate": "2026-10-19",
+      "geography": "international/unspecified; no Singapore setting established",
+      "type": "first-person report / comparator",
+      "family": "https://www.reddit.com/r/Machinists/comments/1woppyv/machinist_tests_interviews/",
+      "method": "Self-selected public discussion; identity, dates and outcomes unverified",
+      "passage": "Opening post; tests at prior shops versus proposed future assessment",
+      "observation": "A machinist describes prior blueprint/measurement assessments and a referral-based route, while asking about possible future tests. Recruiter suggestions and commenters' motive allegations are not established facts.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "No representative rate or current vacancy/intent determination; comparator and historical limits apply.",
+      "tags": [
+        "S07"
+      ],
+      "employerActivity": "unknown",
+      "occupation": "machinist / former operator",
+      "arrangement": "unknown",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown",
+      "stage": "assessment and referral questions",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-final-gaps.json"
+    },
+    "R3-C03": {
+      "id": "R3-C03",
+      "url": "https://www.sc.com/en/global-careers/our-employee-stories/my-career-growth-iriss-story/",
+      "title": "My career growth - Iris's story",
+      "publicationDate": "unknown",
+      "eventPeriod": "Internal transfer and earlier predictive analytics challenge; dates unknown",
+      "passage": "Securing my job, lines16-20.",
+      "observation": "Experienced quant reports internal transfer through four interviews, with prior challenge participation and team experience helping demonstrate fit.",
+      "limits": "Positive selection and unknown dates. Internal specialist route cannot establish graduate or external operations/sales hiring standards; no assessment-pay information.",
+      "family": "https://www.sc.com/en/global-careers/our-employee-stories/my-career-growth-iriss-story/",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-c.json"
+    },
+    "R3-P05": {
+      "id": "R3-P05",
+      "url": "https://www.reddit.com/r/SGExams/comments/1srn9au/acting_side_quest/",
+      "title": "Public question about acting-gig routes",
+      "publisher": "Public Reddit contributors",
+      "publicationDate": "unknown",
+      "updateDate": "unknown",
+      "eventPeriod": "search snippet and page relative ages disagree; exact date unresolved",
+      "accessDate": "2026-10-19",
+      "geography": "Singapore reported context",
+      "type": "public concern and peer advice",
+      "family": "https://www.reddit.com/r/SGExams/comments/1srn9au/acting_side_quest/",
+      "method": "Self-selected public discussion; identity, dates and outcomes unverified",
+      "passage": "Opening concern and replies; no private channels entered",
+      "observation": "A local poster asks where to find acting gigs without being scammed. Replies suggest casting channels, but no new verified application or offer sequence is established.",
+      "claimLabel": "source-reported claim",
+      "confidence": "limited",
+      "limits": "No representative rate or current vacancy/intent determination; comparator and historical limits apply.",
+      "tags": [
+        "S10"
+      ],
+      "employerActivity": "unknown",
+      "occupation": "aspiring performer / extra, current age unknown",
+      "arrangement": "casual/project interest; not established employment",
+      "intermediary": "unknown",
+      "clientWorksite": "unknown",
+      "stage": "discovery concern",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/coordinator-final-gaps.json"
+    },
+    "R3-C01": {
+      "id": "R3-C01",
+      "url": "https://www.income.com.sg/careers/be-a-financial-planner/financial-consultant",
+      "title": "Be a Financial Consultant",
+      "publicationDate": "unknown",
+      "eventPeriod": "Scheme terms as at 2025-11-06; individual appointments unknown",
+      "passage": "Here is what you will do / Exam Sponsorship / CMFAS Allowance / Training Allowance / What does it take, lines98-178.",
+      "observation": "Employer lists advisory duties, its certification requirements and performance incentives. Examination sponsorship and onboarding allowances have completion/appointment conditions; these are not recurring basic pay.",
+      "limits": "Same Income employer family as R3-C05 and reused R3-M14. No signed terms, guaranteed income, clawback terms or verified vacancy count. Own scheme requirements, not a general legal determination.",
+      "family": "https://www.income.com.sg/blog/mid-career-switch",
+      "recordFile": "02_research/03_research-rounds/03_cross-industry-job-search/runs/2026-10-19-cross-industry-and-vacancy-credibility/contributions/worker-c.json"
+    }
+  }
+}
