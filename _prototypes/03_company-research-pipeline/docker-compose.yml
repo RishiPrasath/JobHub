@@ -1,0 +1,46 @@
+# Usage (from this folder):
+#   docker compose build
+#   docker compose run --rm pipeline acra-update          # one-off: ~641 MB of ACRA data + index (slow: data.gov.sg rate limits)
+#   docker compose run --rm pipeline resolve "Palo IT Singapore"
+#   docker compose run --rm pipeline find-site "Curos Learning"     # starts the local SearXNG automatically
+#   docker compose run --rm pipeline research "Palo IT Singapore" --site https://www.palo-it.com/
+services:
+  searxng:                       # local meta-search: queries other engines on your behalf, returns URLs/titles/descriptions as JSON
+    image: searxng/searxng:latest
+    ports:
+      - "127.0.0.1:8888:8080"    # localhost only; remove this line if you only use it from the pipeline container
+    environment:
+      SEARXNG_SECRET: ${SEARXNG_SECRET:-local-only-change-me}
+      SEARXNG_BASE_URL: http://127.0.0.1:8888/
+    volumes:
+      - ./searxng/settings.yml:/etc/searxng/settings.yml:ro
+    cap_drop: [ALL]
+    cap_add: [CHOWN, SETGID, SETUID]
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+
+  pipeline:
+    build: .
+    image: jobhub-company-research:dev
+    depends_on:
+      - searxng
+    env_file:
+      - path: ../../.env      # repo-root .env (git-ignored); only GROQ_* values are used
+        required: false
+    environment:
+      SEARXNG_URL: http://searxng:8080
+      SEARCH_MIN_INTERVAL: ${SEARCH_MIN_INTERVAL:-3}   # seconds between searches; faster makes SearXNG's Brave engine suspend itself
+      JOBHUB_ENABLE_DDG: ${JOBHUB_ENABLE_DDG:-1}       # last-resort direct DuckDuckGo fallback (unsanctioned; currently blocked)
+    volumes:
+      - acra-data:/data
+      - ./samples:/samples:ro
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+
+volumes:
+  acra-data:

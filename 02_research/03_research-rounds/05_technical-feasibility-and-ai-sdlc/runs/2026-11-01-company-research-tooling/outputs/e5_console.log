@@ -1,0 +1,19 @@
+P03 A_naive 1.5 2013 {'what_company_does': True, 'markets_locations': False, 'employer_type': True, 'hiring_information': None, 'contact_or_address': True} 
+P03 B_cited 1.4 2165 {'what_company_does': True, 'markets_locations': True, 'employer_type': True, 'hiring_information': None, 'contact_or_address': True} 
+P04 A_naive 1.5 1704 {'what_company_does': False, 'markets_locations': False, 'employer_type': None, 'hiring_information': True, 'contact_or_address': None} 
+P04 B_cited 1.4 1809 {'what_company_does': True, 'markets_locations': True, 'employer_type': None, 'hiring_information': True, 'contact_or_address': None} 
+P05 A_naive 1.5 1615 {'what_company_does': True, 'markets_locations': True, 'employer_type': True, 'hiring_information': True, 'contact_or_address': True} 
+P05 B_cited 1.4 1841 {'what_company_does': True, 'markets_locations': True, 'employer_type': None, 'hiring_information': True, 'contact_or_address': True} 
+P06 A_naive 1.5 1613 {'what_company_does': True, 'markets_locations': True, 'employer_type': True, 'hiring_information': True, 'contact_or_address': True} 
+P06 B_cited 1.7 1765 {'what_company_does': True, 'markets_locations': True, 'employer_type': True, 'hiring_information': None, 'contact_or_address': True} 
+P07 A_naive 1.3 1155 {'what_company_does': True, 'markets_locations': True, 'employer_type': True, 'hiring_information': None, 'contact_or_address': None} 
+P07 B_cited 1.4 1310 {'what_company_does': True, 'markets_locations': True, 'employer_type': True, 'hiring_information': None, 'contact_or_address': None} 
+P11 A_naive 1.3 1653 {'what_company_does': False, 'markets_locations': False, 'employer_type': None, 'hiring_information': None, 'contact_or_address': True} 
+P11 B_cited 1.7 1902 {'what_company_does': True, 'markets_locations': True, 'employer_type': None, 'hiring_information': None, 'contact_or_address': True} 
+P12 A_naive 0.8 792 {'what_company_does': None, 'markets_locations': None, 'employer_type': None, 'hiring_information': None, 'contact_or_address': None} 
+P12 B_cited 0.9 886 {'what_company_does': None, 'markets_locations': None, 'employer_type': False, 'hiring_information': None, 'contact_or_address': None} 
+P14 A_naive 1.6 2078 {'what_company_does': True, 'markets_locations': True, 'employer_type': None, 'hiring_information': True, 'contact_or_address': True} 
+P14 B_cited 1.3 2199 {'what_company_does': False, 'markets_locations': True, 'employer_type': None, 'hiring_information': True, 'contact_or_address': True} 
+P15 A_naive 1.6 1571 {'what_company_does': False, 'markets_locations': True, 'employer_type': False, 'hiring_information': False, 'contact_or_address': False} 
+   429, wait 3.0
+P15 B_cited 1.6 1706 {'what_company_does': True, 'markets_locations': True, 'employer_type': True, 'hiring_information': True, 'contact_or_address': None} 

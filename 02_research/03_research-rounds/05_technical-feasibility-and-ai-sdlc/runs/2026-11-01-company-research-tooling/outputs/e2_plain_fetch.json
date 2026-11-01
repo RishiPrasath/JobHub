@@ -1,0 +1,193 @@
+[
+ {
+  "id": "P01",
+  "url": null,
+  "status": "no_official_site_found"
+ },
+ {
+  "id": "P02",
+  "url": null,
+  "status": "no_official_site_found"
+ },
+ {
+  "id": "P09",
+  "url": null,
+  "status": "no_official_site_found"
+ },
+ {
+  "id": "P13",
+  "url": null,
+  "status": "no_official_site_found"
+ },
+ {
+  "id": "P03",
+  "url": "https://www.palo-it.com/",
+  "robots": "read",
+  "robots_allows_page": true,
+  "http": 200,
+  "final_url": "https://www.palo-it.com/en/",
+  "title": "A Leading Technology Consultancy | PALO IT",
+  "visible_chars": 7377,
+  "jsonld_types": [
+   "VideoObject",
+   "Organization",
+   "WebSite",
+   "WebPage",
+   "ProfessionalService"
+  ],
+  "html_bytes": 324094,
+  "status": "ok",
+  "seconds": 0.4
+ },
+ {
+  "id": "P04",
+  "url": "https://www.grab.com/sg/",
+  "robots": "read",
+  "robots_allows_page": true,
+  "http": 200,
+  "final_url": "https://www.grab.com/sg/",
+  "title": "Grab. The Everyday Everything App",
+  "visible_chars": 15742,
+  "jsonld_types": [
+   "FAQPage",
+   "Organization"
+  ],
+  "html_bytes": 472106,
+  "status": "ok",
+  "seconds": 0.2
+ },
+ {
+  "id": "P05",
+  "url": "https://www.amkh.org.sg/",
+  "robots": "read",
+  "robots_allows_page": true,
+  "http": 200,
+  "final_url": "https://www.amkh.org.sg/",
+  "title": "Home - Ang Mo Kio - Thye Hua Kwan Hospital",
+  "visible_chars": 3754,
+  "jsonld_types": [
+   "WebSite",
+   "WebPage",
+   "BreadcrumbList"
+  ],
+  "html_bytes": 76056,
+  "status": "ok",
+  "seconds": 0.9
+ },
+ {
+  "id": "P06",
+  "url": "https://www.sgh.com.sg/",
+  "robots": "read",
+  "robots_allows_page": true,
+  "http": 200,
+  "final_url": "https://www.sgh.com.sg/",
+  "title": "Singapore General Hospital | Trusted Care, Advancing MedicineBack to top",
+  "visible_chars": 8408,
+  "jsonld_types": [],
+  "html_bytes": 492784,
+  "status": "ok",
+  "seconds": 0.1
+ },
+ {
+  "id": "P07",
+  "url": "https://www.hrnetgroup.com/",
+  "robots": "unavailable:404",
+  "robots_allows_page": null,
+  "http": 200,
+  "final_url": "https://www.hrnetgroup.com/",
+  "title": "HRnetGroup",
+  "visible_chars": 1361,
+  "jsonld_types": [],
+  "html_bytes": 275079,
+  "status": "ok",
+  "seconds": 0.3
+ },
+ {
+  "id": "P08",
+  "url": "https://www.dhl.com/sg-en/home/supply-chain.html",
+  "robots": "unavailable:TimeoutError",
+  "robots_allows_page": null,
+  "status": "fetch_failed:ConnectionResetError",
+  "seconds": 39.3
+ },
+ {
+  "id": "P10",
+  "url": "https://www.marinabaysands.com/",
+  "robots": "unavailable:TimeoutError",
+  "robots_allows_page": null,
+  "status": "fetch_failed:ConnectionResetError",
+  "seconds": 41.6
+ },
+ {
+  "id": "P11",
+  "url": "https://www.natureland.com.sg/",
+  "robots": "read",
+  "robots_allows_page": true,
+  "http": 200,
+  "final_url": "https://www.natureland.com.sg/",
+  "title": "Massage & Wellness Spa in Singapore | Natureland",
+  "visible_chars": 11220,
+  "jsonld_types": [
+   "WebPage",
+   "BreadcrumbList",
+   "WebSite",
+   "Organization"
+  ],
+  "html_bytes": 308973,
+  "status": "ok",
+  "seconds": 1.9
+ },
+ {
+  "id": "P12",
+  "url": "https://www.fairprice.com.sg/",
+  "robots": "read",
+  "robots_allows_page": true,
+  "http": 200,
+  "final_url": "https://www.fairprice.com.sg/",
+  "title": "Shop Groceries, Fresh Food & Home EssentialsSearchShopping cartadd to cartadd to cartadd to cartadd to cartadd to cartad",
+  "visible_chars": 2532,
+  "jsonld_types": [],
+  "html_bytes": 946538,
+  "status": "ok",
+  "seconds": 0.6
+ },
+ {
+  "id": "P14",
+  "url": "https://www.littleskoolhouse.com/",
+  "robots": "read",
+  "robots_allows_page": true,
+  "http": 200,
+  "final_url": "https://www.littleskoolhouse.com/",
+  "title": "Top Preschool, Kindergarten & Childcare - Little Skool-House",
+  "visible_chars": 12948,
+  "jsonld_types": [
+   "WebPage",
+   "ImageObject",
+   "BreadcrumbList",
+   "WebSite",
+   "Organization",
+   "VideoObject"
+  ],
+  "html_bytes": 389957,
+  "status": "ok",
+  "seconds": 0.2
+ },
+ {
+  "id": "P15",
+  "url": "https://www.randstad.com.sg/",
+  "robots": "read",
+  "robots_allows_page": true,
+  "http": 200,
+  "final_url": "https://www.randstad.com.sg/",
+  "title": "Recruitment Agency | Job Agency | Randstad Singaporerandstadrandstad",
+  "visible_chars": 8536,
+  "jsonld_types": [
+   "Organization",
+   "WebPage",
+   "WebSite"
+  ],
+  "html_bytes": 167908,
+  "status": "ok",
+  "seconds": 0.2
+ }
+]

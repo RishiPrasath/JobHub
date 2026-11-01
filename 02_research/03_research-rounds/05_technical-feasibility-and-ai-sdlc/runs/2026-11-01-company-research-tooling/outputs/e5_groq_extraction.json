@@ -1,0 +1,722 @@
+[
+ {
+  "id": "P03",
+  "mode": "A_naive",
+  "seconds": 1.5,
+  "excerpts": 29,
+  "usage": 2013,
+  "valid_json": true,
+  "answers": {
+   "what_company_does": {
+    "status": "supported",
+    "answer": "A global, AI\u2011first technology consultancy that accelerates digital product delivery, drives platform modernization, and scales agentic enterprises.",
+    "quote": "We are a global, AI-first technology consultancy with a trademarked methodology and toolkit for accelerating digital product delivery, driving platform moderniz",
+    "quote_verified": true
+   },
+   "markets_locations": {
+    "status": "supported",
+    "answer": "Serves clients worldwide with presence in APAC, Europe and the Americas; office in Sydney, Australia.",
+    "quote": "Global scale AI transformation ... worldwide team present across APAC, Europe and the Americas. ... Sydney, Australia Greenhouse Climate Tech Hub Level 1, Sales",
+    "quote_verified": false
+   },
+   "employer_type": {
+    "status": "supported",
+    "answer": "direct_employer",
+    "quote": "We are a global, AI-first technology consultancy ...",
+    "quote_verified": true
+   },
+   "hiring_information": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   },
+   "contact_or_address": {
+    "status": "supported",
+    "answer": "Sydney, Australia Greenhouse Climate Tech Hub Level 1, Salesforce Tower, 180 George St.",
+    "quote": "Sydney, Australia Greenhouse Climate Tech Hub Level 1, Salesforce Tower, 180 George\u00a0St.",
+    "quote_verified": true
+   }
+  }
+ },
+ {
+  "id": "P03",
+  "mode": "B_cited",
+  "seconds": 1.4,
+  "excerpts": 29,
+  "usage": 2165,
+  "valid_json": true,
+  "answers": {
+   "what_company_does": {
+    "status": "supported",
+    "answer": "A global, AI\u2011first technology consultancy that accelerates digital product delivery, platform modernization, and AI transformation.",
+    "quote": "We are a global, AI-first technology consultancy with a trademarked methodology and toolkit for accelerating digital product delivery, driving platform moderniz",
+    "quote_verified": true
+   },
+   "markets_locations": {
+    "status": "supported",
+    "answer": "Serves clients worldwide across APAC, Europe and the Americas.",
+    "quote": "our worldwide team present across APAC, Europe and the Americas.",
+    "quote_verified": true
+   },
+   "employer_type": {
+    "status": "supported",
+    "answer": "direct_employer",
+    "quote": "We are a global, AI-first technology consultancy...",
+    "quote_verified": true
+   },
+   "hiring_information": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   },
+   "contact_or_address": {
+    "status": "supported",
+    "answer": "Greenhouse Climate Tech Hub Level 1, Salesforce Tower, 180 George St., Sydney, Australia.",
+    "quote": "Sydney, Australia Greenhouse Climate Tech Hub Level 1, Salesforce Tower, 180 George\u00a0St.",
+    "quote_verified": true
+   }
+  }
+ },
+ {
+  "id": "P04",
+  "mode": "A_naive",
+  "seconds": 1.5,
+  "excerpts": 38,
+  "usage": 1704,
+  "valid_json": true,
+  "answers": {
+   "what_company_does": {
+    "status": "supported",
+    "answer": "An all\u2011in\u2011one platform offering mobility rides, food delivery, grocery (Mart), package delivery (Express), financial services, insurance, experiences, gift card",
+    "quote": "We're an all-in-one platform. Consumer Driver Merchant Enterprise Deliveries Food ... Mart ... Express ... Mobility ... Dining ... Financial Services ... Insura",
+    "quote_verified": false
+   },
+   "markets_locations": {
+    "status": "supported",
+    "answer": "Serves Singapore and other cities and countries where it has a presence.",
+    "quote": "GrabExec Limo Your seamless and luxurious rides in Singapore ... Locations Cities and countries we call home",
+    "quote_verified": false
+   },
+   "employer_type": {
+    "status": "not_found",
+    "answer": "not_stated",
+    "quote": "",
+    "quote_verified": null
+   },
+   "hiring_information": {
+    "status": "supported",
+    "answer": "Yes, the page includes calls to action for drivers and merchants to join, e.g., \"Drive with us Be your own boss and drive on your own time\".",
+    "quote": "Drive with us Be your own boss and drive on your own time",
+    "quote_verified": true
+   },
+   "contact_or_address": {
+    "status": "not_found",
+    "answer": "not_found",
+    "quote": "",
+    "quote_verified": null
+   }
+  }
+ },
+ {
+  "id": "P04",
+  "mode": "B_cited",
+  "seconds": 1.4,
+  "excerpts": 38,
+  "usage": 1809,
+  "valid_json": true,
+  "answers": {
+   "what_company_does": {
+    "status": "supported",
+    "answer": "It is an all\u2011in\u2011one platform offering rides, food delivery, grocery, payments, insurance and other services.",
+    "quote": "We're an all-in-one platform.",
+    "quote_verified": true
+   },
+   "markets_locations": {
+    "status": "supported",
+    "answer": "It serves cities and countries worldwide where it has a presence.",
+    "quote": "Locations Cities and countries we call home",
+    "quote_verified": true
+   },
+   "employer_type": {
+    "status": "not_found",
+    "answer": "not_stated",
+    "quote": "",
+    "quote_verified": null
+   },
+   "hiring_information": {
+    "status": "supported",
+    "answer": "Yes, it invites drivers and merchants to join and earn income.",
+    "quote": "Drive with us Be your own boss and drive on your own time",
+    "quote_verified": true
+   },
+   "contact_or_address": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   }
+  }
+ },
+ {
+  "id": "P05",
+  "mode": "A_naive",
+  "seconds": 1.5,
+  "excerpts": 21,
+  "usage": 1615,
+  "valid_json": true,
+  "answers": {
+   "what_company_does": {
+    "status": "supported",
+    "answer": "It provides a comprehensive range of inpatient and outpatient healthcare services, including a hospital, community health centre, rehabilitation, dialysis, phar",
+    "quote": "We offer a comprehensive range of inpatient and outpatient services to help our patients achieve their full recovery potential.",
+    "quote_verified": true
+   },
+   "markets_locations": {
+    "status": "supported",
+    "answer": "It serves patients in Singapore, specifically at Ang Mo Kio.",
+    "quote": "Address: 17 Ang Mo Kio Avenue 9 Singapore 569766",
+    "quote_verified": true
+   },
+   "employer_type": {
+    "status": "supported",
+    "answer": "direct_employer",
+    "quote": "Join Our Team",
+    "quote_verified": true
+   },
+   "hiring_information": {
+    "status": "supported",
+    "answer": "Yes, the page provides a link to join the team for careers.",
+    "quote": "Join Our Team",
+    "quote_verified": true
+   },
+   "contact_or_address": {
+    "status": "supported",
+    "answer": "Yes, the page states the physical address: 17 Ang Mo Kio Avenue 9 Singapore 569766.",
+    "quote": "Address: 17 Ang Mo Kio Avenue 9 Singapore 569766",
+    "quote_verified": true
+   }
+  }
+ },
+ {
+  "id": "P05",
+  "mode": "B_cited",
+  "seconds": 1.4,
+  "excerpts": 21,
+  "usage": 1841,
+  "valid_json": true,
+  "answers": {
+   "what_company_does": {
+    "status": "supported",
+    "answer": "Provides comprehensive inpatient and outpatient healthcare services, including community health, rehabilitation, dialysis, pharmacy, and home health.",
+    "quote": "We offer a comprehensive range of inpatient and outpatient services to help our patients achieve their full recovery potential.",
+    "quote_verified": true
+   },
+   "markets_locations": {
+    "status": "supported",
+    "answer": "Serves patients in Ang Mo Kio, Singapore.",
+    "quote": "Address: 17 Ang Mo Kio Avenue 9 Singapore 569766",
+    "quote_verified": true
+   },
+   "employer_type": {
+    "status": "not_found",
+    "answer": "not_stated",
+    "quote": "",
+    "quote_verified": null
+   },
+   "hiring_information": {
+    "status": "supported",
+    "answer": "Yes, the page includes a \"Join Our Team\" link for careers.",
+    "quote": "Join Our Team",
+    "quote_verified": true
+   },
+   "contact_or_address": {
+    "status": "supported",
+    "answer": "Provides a physical address: 17 Ang Mo Kio Avenue 9 Singapore 569766.",
+    "quote": "Address: 17 Ang Mo Kio Avenue 9 Singapore 569766",
+    "quote_verified": true
+   }
+  }
+ },
+ {
+  "id": "P06",
+  "mode": "A_naive",
+  "seconds": 1.5,
+  "excerpts": 21,
+  "usage": 1613,
+  "valid_json": true,
+  "answers": {
+   "what_company_does": {
+    "status": "supported",
+    "answer": "It provides healthcare services and patient care as a hospital.",
+    "quote": "Our Commitment to Our Patients Patients Compassionate, person\u2011centered care that puts your health and well\u2011being first.",
+    "quote_verified": true
+   },
+   "markets_locations": {
+    "status": "supported",
+    "answer": "It serves patients, visitors, caregivers and the broader community in Singapore.",
+    "quote": "I\u2019m a Patient Patient Visitor Caregiver Job Seeker Doctor Student Patron looking For",
+    "quote_verified": true
+   },
+   "employer_type": {
+    "status": "supported",
+    "answer": "direct_employer",
+    "quote": "Healthcare Professionals Empower our healthcare teams with the resources, training, and support to provide exceptional care.",
+    "quote_verified": true
+   },
+   "hiring_information": {
+    "status": "supported",
+    "answer": "Yes, the page provides hiring information for job seekers.",
+    "quote": "I\u2019m a Patient Patient Visitor Caregiver Job Seeker Doctor Student Patron looking For",
+    "quote_verified": true
+   },
+   "contact_or_address": {
+    "status": "supported",
+    "answer": "It provides a contact phone number (1799) and a website for ScamShield.",
+    "quote": "If in doubt, call the 24/7 ScamShield helpline at 1799, or visit the ScamShield website at www.scamshield.gov.sg .",
+    "quote_verified": true
+   }
+  }
+ },
+ {
+  "id": "P06",
+  "mode": "B_cited",
+  "seconds": 1.7,
+  "excerpts": 21,
+  "usage": 1765,
+  "valid_json": true,
+  "answers": {
+   "what_company_does": {
+    "status": "supported",
+    "answer": "It is Singapore General Hospital, providing healthcare services and patient\u2011centered care.",
+    "quote": "Advancing Health Through Innovation SGH drives transformative innovation through scientific curiosity and structured creative work.",
+    "quote_verified": true
+   },
+   "markets_locations": {
+    "status": "supported",
+    "answer": "It serves patients, visitors, caregivers, doctors, students and the broader community.",
+    "quote": "I\u2019m a Patient Patient Visitor Caregiver Job Seeker Doctor Student Patron looking For Select an option",
+    "quote_verified": true
+   },
+   "employer_type": {
+    "status": "supported",
+    "answer": "direct_employer",
+    "quote": "Healthcare Professionals Empower our healthcare teams with the resources, training, and support to provide exceptional care.",
+    "quote_verified": true
+   },
+   "hiring_information": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   },
+   "contact_or_address": {
+    "status": "supported",
+    "answer": "Provides a 24/7 ScamShield helpline (1799) and a website (www.scamshield.gov.sg).",
+    "quote": "If in doubt, call the 24/7 ScamShield helpline at 1799, or visit the ScamShield website at www.scamshield.gov.sg .",
+    "quote_verified": true
+   }
+  }
+ },
+ {
+  "id": "P07",
+  "mode": "A_naive",
+  "seconds": 1.3,
+  "excerpts": 12,
+  "usage": 1155,
+  "valid_json": true,
+  "answers": {
+   "what_company_does": {
+    "status": "supported",
+    "answer": "It provides professional recruitment services and flexible staffing solutions.",
+    "quote": "We provide professional recruitment services primarily under our HRnetOne, PeopleSearch, PeopleFirst and SearchAsia brands and flexible staffing solutions under",
+    "quote_verified": true
+   },
+   "markets_locations": {
+    "status": "supported",
+    "answer": "It operates in 18 Asian growth cities across Asia.",
+    "quote": "Currently operating in 18 Asian growth cities, our focus is on growing cities in Asia with high level of commercial activities and job opportunities...",
+    "quote_verified": true
+   },
+   "employer_type": {
+    "status": "supported",
+    "answer": "recruitment_agency",
+    "quote": "we are the largest Asia-based recruitment agency in Asia Pacific (excluding Japan).",
+    "quote_verified": true
+   },
+   "hiring_information": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   },
+   "contact_or_address": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   }
+  }
+ },
+ {
+  "id": "P07",
+  "mode": "B_cited",
+  "seconds": 1.4,
+  "excerpts": 12,
+  "usage": 1310,
+  "valid_json": true,
+  "answers": {
+   "what_company_does": {
+    "status": "supported",
+    "answer": "It provides professional recruitment services and flexible staffing solutions.",
+    "quote": "We provide professional recruitment services primarily under our HRnetOne, PeopleSearch, PeopleFirst and SearchAsia brands and flexible staffing solutions under",
+    "quote_verified": true
+   },
+   "markets_locations": {
+    "status": "supported",
+    "answer": "It operates in 18 Asian cities, focusing on growth cities with high commercial activity.",
+    "quote": "Today, with over 900 consultants across 18 Asian cities, we are the largest Asia-based recruitment agency in Asia Pacific (excluding Japan).",
+    "quote_verified": true
+   },
+   "employer_type": {
+    "status": "supported",
+    "answer": "recruitment_agency",
+    "quote": "Leading Asia in recruitment and staffing.",
+    "quote_verified": true
+   },
+   "hiring_information": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   },
+   "contact_or_address": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   }
+  }
+ },
+ {
+  "id": "P11",
+  "mode": "A_naive",
+  "seconds": 1.3,
+  "excerpts": 10,
+  "usage": 1653,
+  "valid_json": true,
+  "answers": {
+   "what_company_does": {
+    "status": "supported",
+    "answer": "It provides spa massage treatments and therapeutic body and foot massages.",
+    "quote": "WELCOME TO NATURELAND Revitalise your mind, body and spirit with the Spa Massage treatments ... our plethora of therapeutic body and foot massages are carefully",
+    "quote_verified": false
+   },
+   "markets_locations": {
+    "status": "supported",
+    "answer": "It serves customers at many locations across the city, including ION Orchard, Valley Point, Orchard Point, Holland Village, East Coast Siglap, Orchard Liat Towe",
+    "quote": "Natureland offers a serene and luxurious retreat ... With branches conveniently located within city centres at ION Orchard, Valley Point, Orchard Point, Holland",
+    "quote_verified": false
+   },
+   "employer_type": {
+    "status": "not_found",
+    "answer": "not_stated",
+    "quote": "",
+    "quote_verified": null
+   },
+   "hiring_information": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   },
+   "contact_or_address": {
+    "status": "supported",
+    "answer": "Phone: 1-847-555-5555; Email: youremail@yourdomain.com",
+    "quote": "INSTAGRAM 1-847-555-5555 youremail@yourdomain.com",
+    "quote_verified": true
+   }
+  }
+ },
+ {
+  "id": "P11",
+  "mode": "B_cited",
+  "seconds": 1.7,
+  "excerpts": 10,
+  "usage": 1902,
+  "valid_json": true,
+  "answers": {
+   "what_company_does": {
+    "status": "supported",
+    "answer": "Provides spa massage treatments and therapeutic body and foot massages.",
+    "quote": "WELCOME TO NATURELAND Revitalise your mind, body and spirit with the Spa Massage treatments Welcome to Natureland Experience True Massage & Therapy Experience t",
+    "quote_verified": true
+   },
+   "markets_locations": {
+    "status": "supported",
+    "answer": "Serves customers at multiple city centre locations including ION Orchard, Valley Point, Orchard Point, Holland Village, East Coast Siglap, Orchard Liat Towers, ",
+    "quote": "With branches conveniently located within city centres at ION Orchard, Valley Point, Orchard Point, Holland Village, East Coast Siglap, Orchard Liat Towers, Chi",
+    "quote_verified": true
+   },
+   "employer_type": {
+    "status": "not_found",
+    "answer": "not_stated",
+    "quote": "",
+    "quote_verified": null
+   },
+   "hiring_information": {
+    "status": "not_found",
+    "answer": "No hiring or career information provided.",
+    "quote": "",
+    "quote_verified": null
+   },
+   "contact_or_address": {
+    "status": "supported",
+    "answer": "Contact phone 1-847-555-5555 and email youremail@yourdomain.com.",
+    "quote": "INSTAGRAM 1-847-555-5555 youremail@yourdomain.com Special Promos Booking Gift Vouchers Home About Awards Gallery Contact Massage Services Become a Member Promos",
+    "quote_verified": true
+   }
+  }
+ },
+ {
+  "id": "P12",
+  "mode": "A_naive",
+  "seconds": 0.8,
+  "excerpts": 1,
+  "usage": 792,
+  "valid_json": true,
+  "answers": {
+   "what_company_does": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   },
+   "markets_locations": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   },
+   "employer_type": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   },
+   "hiring_information": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   },
+   "contact_or_address": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   }
+  }
+ },
+ {
+  "id": "P12",
+  "mode": "B_cited",
+  "seconds": 0.9,
+  "excerpts": 1,
+  "usage": 886,
+  "valid_json": true,
+  "answers": {
+   "what_company_does": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   },
+   "markets_locations": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   },
+   "employer_type": {
+    "status": "supported",
+    "answer": "not_stated",
+    "quote": "",
+    "quote_verified": false
+   },
+   "hiring_information": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   },
+   "contact_or_address": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   }
+  }
+ },
+ {
+  "id": "P14",
+  "mode": "A_naive",
+  "seconds": 1.6,
+  "excerpts": 34,
+  "usage": 2078,
+  "valid_json": true,
+  "answers": {
+   "what_company_does": {
+    "status": "supported",
+    "answer": "It provides early childhood education programmes and curricula for children aged 2 months to 6 years.",
+    "quote": "Our curriculum is designed not only to prepare your child for primary school, but to nurture a love for lifelong learning...",
+    "quote_verified": true
+   },
+   "markets_locations": {
+    "status": "supported",
+    "answer": "It serves families islandwide with 14 POP centres across Singapore.",
+    "quote": "Little Skool-House has 14 POP centres islandwide!",
+    "quote_verified": true
+   },
+   "employer_type": {
+    "status": "not_found",
+    "answer": "not_stated",
+    "quote": "",
+    "quote_verified": null
+   },
+   "hiring_information": {
+    "status": "supported",
+    "answer": "Yes, the page provides a link to a Career section.",
+    "quote": "Career",
+    "quote_verified": true
+   },
+   "contact_or_address": {
+    "status": "supported",
+    "answer": "Yes, it provides a contact route via a DM or enquiry link.",
+    "quote": "Drop us a DM or enquire to find out more: https://littleskoolhouse.com/enrolig",
+    "quote_verified": true
+   }
+  }
+ },
+ {
+  "id": "P14",
+  "mode": "B_cited",
+  "seconds": 1.3,
+  "excerpts": 34,
+  "usage": 2199,
+  "valid_json": true,
+  "answers": {
+   "what_company_does": {
+    "status": "supported",
+    "answer": "It provides early childhood education and enrichment programmes for children aged 2 months to 6 years.",
+    "quote": "96% of our parents are satisfied with their experience ... Nurturing bilingual children adaptive to ever-changing environments ... A clear learning advantage wi",
+    "quote_verified": false
+   },
+   "markets_locations": {
+    "status": "supported",
+    "answer": "It serves 14 POP centres islandwide in Singapore.",
+    "quote": "Little Skool-House has 14 POP centres islandwide!",
+    "quote_verified": true
+   },
+   "employer_type": {
+    "status": "not_found",
+    "answer": "not_stated",
+    "quote": "",
+    "quote_verified": null
+   },
+   "hiring_information": {
+    "status": "supported",
+    "answer": "Yes, the page provides a career link.",
+    "quote": "Career",
+    "quote_verified": true
+   },
+   "contact_or_address": {
+    "status": "supported",
+    "answer": "Yes, it provides a contact route via a contact form.",
+    "quote": "Contact us",
+    "quote_verified": true
+   }
+  }
+ },
+ {
+  "id": "P15",
+  "mode": "A_naive",
+  "seconds": 1.6,
+  "excerpts": 24,
+  "usage": 1571,
+  "valid_json": true,
+  "answers": {
+   "what_company_does": {
+    "status": "supported",
+    "answer": "Randstad provides recruitment services and talent solutions, helping people find jobs and organisations find talent.",
+    "quote": "Randstad is the world\u2019s leading talent company and a partner of choice to clients... To thrive in a changing environment, we support employers in their talent r",
+    "quote_verified": false
+   },
+   "markets_locations": {
+    "status": "supported",
+    "answer": "It serves clients and talent in 39 markets worldwide.",
+    "quote": "In 2025, in our 39 markets, we helped over 1.7 million people find a job and close to 150,000 clients on their talent needs.",
+    "quote_verified": true
+   },
+   "employer_type": {
+    "status": "supported",
+    "answer": "recruitment_agency",
+    "quote": "Randstad is the world\u2019s leading talent company... recruitment services to attract top talent.",
+    "quote_verified": false
+   },
+   "hiring_information": {
+    "status": "supported",
+    "answer": "Yes, the page provides job search, CV submission and career information.",
+    "quote": "contact us find a job job search permanent roles contract roles submit your CV professional careers... join randstad refer a friend submit your CV.",
+    "quote_verified": false
+   },
+   "contact_or_address": {
+    "status": "supported",
+    "answer": "The page provides a contact route (\"contact us\") but no physical address.",
+    "quote": "contact us... job scams contact us workforce insights.",
+    "quote_verified": false
+   }
+  }
+ },
+ {
+  "id": "P15",
+  "mode": "B_cited",
+  "seconds": 1.6,
+  "excerpts": 24,
+  "usage": 1706,
+  "valid_json": true,
+  "answers": {
+   "what_company_does": {
+    "status": "supported",
+    "answer": "Randstad is a talent company that connects people with work and provides recruitment and workforce solutions.",
+    "quote": "Randstad is the world\u2019s leading talent company and a partner of choice to clients.",
+    "quote_verified": true
+   },
+   "markets_locations": {
+    "status": "supported",
+    "answer": "It operates in 39 markets and serves millions of job seekers and hundreds of thousands of client organisations.",
+    "quote": "In 2025, in our 39 markets, we helped over 1.7 million people find a job and close to 150,000 clients on their talent needs.",
+    "quote_verified": true
+   },
+   "employer_type": {
+    "status": "supported",
+    "answer": "recruitment_agency",
+    "quote": "Randstad is the world\u2019s leading talent company and a partner of choice to clients.",
+    "quote_verified": true
+   },
+   "hiring_information": {
+    "status": "supported",
+    "answer": "The page provides career links such as \"find a job\", \"submit your CV\" and \"join Randstad\".",
+    "quote": "contact us find a job job search permanent roles contract roles submit your CV professional careers ...",
+    "quote_verified": true
+   },
+   "contact_or_address": {
+    "status": "not_found",
+    "answer": "",
+    "quote": "",
+    "quote_verified": null
+   }
+  }
+ }
+]

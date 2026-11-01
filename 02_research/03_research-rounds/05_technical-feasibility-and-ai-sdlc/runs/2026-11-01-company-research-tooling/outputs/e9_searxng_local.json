@@ -1,0 +1,753 @@
+{
+ "engines_seen": [
+  [
+   "google cse",
+   300
+  ],
+  [
+   "brave",
+   86
+  ]
+ ],
+ "rows": [
+  {
+   "id": "P01",
+   "query": "MODA PAOLO FOOTWEAR PTE  LTD Singapore",
+   "n_results": 32,
+   "unresponsive": [
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "expected_domain": null,
+   "expected_rank_among_non_directory": null,
+   "top_candidates": [
+    {
+     "url": "https://modapaolo.com.sg/",
+     "title": "Moda Paolo - Vivian & Sean \u2013 Moda Paolo Footwear Pte Ltd",
+     "description": "Moda Paolo Pte Ltd Moda Paolo Singapore Vivian & Sean Leather Shoes Comfortable Shoes Quality Shoes Affordable shoes Women Fashion Shoes Men Formal shoes Fashio",
+     "engines": [
+      "google cse",
+      "brave"
+     ]
+    },
+    {
+     "url": "https://www.companies.sg/business/202225796R/MODA-PAOLO-FOOTWEAR-PTE-LTD-",
+     "title": "MODA PAOLO FOOTWEAR PTE. LTD. (202225796R)",
+     "description": "MODA PAOLO FOOTWEAR PTE. LTD. is a Singapore EXEMPT PRIVATE COMPANY LIMITED BY SHARES. The company was incorporated on 25 Jul 2022, which is 2.6 years ago. The ",
+     "engines": [
+      "brave"
+     ]
+    },
+    {
+     "url": "https://www.onepa.gov.sg/passion-card/passion-merchants/moda-paolo",
+     "title": "Moda Paolo - onePA",
+     "description": "20 Mar 2026 ... Locations / Outlets: Blk 208 Bedok Central, #01-669, Singapore 460208. Website: www.modapaolo.com.sg.",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.foundit.sg/job/retail-manager-moda-paolo-footwear-pte-ltd-singapore-69652565",
+     "title": "Retail Manager - moda paolo footwear pte. ltd. - foundit",
+     "description": "12 hours ago ... Posted 04:55:01 PM moda paolo footwear pte. ltd. is hiring an Retail Manager with 5 - 8 Years of Experience in Singapore,Ubi.",
+     "engines": [
+      "google cse"
+     ]
+    }
+   ],
+   "seconds": 1.0
+  },
+  {
+   "id": "P02",
+   "query": "YAN BUSINESS GROUP Singapore",
+   "n_results": 37,
+   "unresponsive": [
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "expected_domain": null,
+   "expected_rank_among_non_directory": null,
+   "top_candidates": [
+    {
+     "url": "https://www.scam.sg/companies/53456498D/yan-business-group",
+     "title": "YAN BUSINESS GROUP (53456498D) - Singapore Company Profile, ...",
+     "description": "YAN BUSINESS GROUP operates in the following industries: Public relations, marketing and brand consultancy services. For specific information about their target",
+     "engines": [
+      "google cse",
+      "brave"
+     ]
+    },
+    {
+     "url": "https://cultjobs.com/employer/andrewangro2/",
+     "title": "YAN BUSINESS GROUP - Singapore - Cultjobs",
+     "description": "YAN BUSINESS GROUP. Singapore. Open Jobs - 0. Follow us. You'll need to login to post a review for this employer. Login. Welcome to Cultjobs! The job board\u00a0...",
+     "engines": [
+      "google cse",
+      "brave"
+     ]
+    },
+    {
+     "url": "https://sg.ltddir.com/companies/yan-business-group/",
+     "title": "YAN BUSINESS GROUP | Singapore Company Directory",
+     "description": "YAN BUSINESS GROUP was registered at Accounting and Corporate Regulatory Authority on Sep 20 2022 . It's Unique Entity Number (UEN) is 53456498D. YAN BUSINESS G",
+     "engines": [
+      "brave"
+     ]
+    },
+    {
+     "url": "https://www.internsg.com/job/yan-business-group-finance-internship/",
+     "title": "Yan Business Group - Finance Internship | INTERNSG",
+     "description": "5 days ago ... Yan Business Group \u2013 Finance Internship ; Address: 450 Alexandra Rd, Singapore 119960 ; Company Profile. We are a dynamic team of financial\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    }
+   ],
+   "seconds": 1.0
+  },
+  {
+   "id": "P03",
+   "query": "PALO IT SINGAPORE PTE  LTD Singapore",
+   "n_results": 39,
+   "unresponsive": [
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "expected_domain": "palo-it.com",
+   "expected_rank_among_non_directory": 1,
+   "top_candidates": [
+    {
+     "url": "https://www.palo-it.com/en/",
+     "title": "A Leading Technology Consultancy | PALO IT",
+     "description": "We are a global, AI-first technology consultancy with a trademarked methodology and toolkit for accelerating digital product delivery, driving platform\u00a0...",
+     "engines": [
+      "google cse",
+      "brave"
+     ]
+    },
+    {
+     "url": "https://www.bcorporation.net/find-a-b-corp/company/palo-it-singapore/",
+     "title": "PALO IT Singapore - Certified B Corporation - B Lab",
+     "description": "PALO IT is a global technology consultancy that crafts tech as a force for good. We design, develop and scale digital and sustainable products and services\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://glints.com/companies/palo-it-singapore-pte-ltd/5512b0dd-ea73-4713-9ce6-966f8b3ebb26",
+     "title": "PALO IT SINGAPORE PTE. LTD. Career Information 2026 | Glints TapLoker",
+     "description": "PALO IT is a global innovation consultancy and Agile software development company dedicated to helping organizations embrace tech as a force for good. We work w",
+     "engines": [
+      "brave"
+     ]
+    },
+    {
+     "url": "https://tig.cybersg.sg/cyber-catalogue/palo-it-singapore-pte-ltd/",
+     "title": "PALO IT Singapore Pte Ltd \u2013 CyberSG TIG Collaboration Centre",
+     "description": "PALO IT Singapore Pte Ltd \u00b7 \u2190 Back \u00b7 Company UEN Number \u00b7 201206436K \u00b7 Company Website \u00b7 www.palo-it.com \u00b7 Geographical Markets Served \u00b7 Australia, China, Franc",
+     "engines": [
+      "brave"
+     ]
+    }
+   ],
+   "seconds": 1.0
+  },
+  {
+   "id": "P04",
+   "query": "GRABTAXI HOLDINGS PTE  LTD Singapore",
+   "n_results": 31,
+   "unresponsive": [
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "expected_domain": "grab.com",
+   "expected_rank_among_non_directory": 2,
+   "top_candidates": [
+    {
+     "url": "https://www.bloomberg.com/profile/company/0967655D:SP",
+     "title": "GrabTaxi Holdings Pte Ltd - Company Profile and News - Bloomberg ...",
+     "description": "Grabtaxi Holdings Pte. Ltd. operates as a holding company. The Company, through its subsidiaries, provides mobile payments and financial services, as well as fo",
+     "engines": [
+      "google cse",
+      "brave"
+     ]
+    },
+    {
+     "url": "https://www.grab.com/sg/",
+     "title": "Grab. The Everyday Everything App",
+     "description": "Grab is Southeast Asia's leading superapp. It provides everyday services like Deliveries, Mobility, Financial Services, and More.",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.singaporeopportunityindex.sg/company/grabtaxi-holdings-pte-ltd",
+     "title": "Grabtaxi Holdings Pte. Ltd. - Singapore Opportunity Index",
+     "description": "Grabtaxi Holdings Pte. Ltd. Grab is a leading superapp in Southeast Asia, operating across the deliveries, mobility and digital financial services sectors.",
+     "engines": [
+      "google cse",
+      "brave"
+     ]
+    },
+    {
+     "url": "https://baike.baidu.com/en/item/GrabTaxi%20Holdings%20Pte%20Ltd./1475574",
+     "title": "GrabTaxi Holdings Pte Ltd.",
+     "description": "Grab (formerly known as GrabTaxi Holdings Pte Ltd.) is a Southeast Asia ride-hailing and food delivery platform company headquartered in Republic of Singapore. ",
+     "engines": [
+      "google cse",
+      "brave"
+     ]
+    }
+   ],
+   "seconds": 1.0
+  },
+  {
+   "id": "P05",
+   "query": "ANG MO KIO - THYE HUA KWAN HOSPITAL LTD Singapore",
+   "n_results": 20,
+   "unresponsive": [
+    [
+     "brave",
+     "too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "expected_domain": "amkh.org.sg",
+   "expected_rank_among_non_directory": 1,
+   "top_candidates": [
+    {
+     "url": "https://www.amkh.org.sg/",
+     "title": "Thye Hua Kwan Hospital: Home - Ang Mo Kio",
+     "description": "Singapore Community Hospital Rehabilitation Sub-acute Care Stroke Care Renal Care Dialysis Centre Haemodialysis Homecare Services.",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.thkms.org.sg/index.php/ang-mo-kio-thye-hua-kwan-hospital/",
+     "title": "Ang Mo Kio \u2013 Thye Hua Kwan Hospital \u2013 THKMS",
+     "description": "Ang Mo Kio \u2013 Thye Hua Kwan Hospital (AMK \u2013 THKH) is a 360-bedded community hospital that offers rehabilitative and sub-acute care. It offers customised care\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.nlb.gov.sg/main/article-detail?cmsuuid=43d2793a-d56f-420f-96e7-1d9566cc0817",
+     "title": "Ang Mo Kio\u2013Thye Hua Kwan Hospital - Singapore - NLB",
+     "description": "Ang Mo Kio-Thye Hua Kwan Hospital is a community hospital established in June 1993 to serve the rehabilitative needs of the community, particularly the elderly.",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.thkmc.org.sg/centre-directory/",
+     "title": "Centre Directory - Thye Hua Kwan Moral Charities",
+     "description": "This list is in alphabetical order. THK Active Ageing Centre @ AMK 208. Blk 208 Ang Mo Kio Ave 1 #01-1019, Singapore 560208. Email: AAC.AMK208@thkmc.org.sg.",
+     "engines": [
+      "google cse"
+     ]
+    }
+   ],
+   "seconds": 0.9
+  },
+  {
+   "id": "P06",
+   "query": "SINGAPORE GENERAL HOSPITAL PTE LTD Singapore",
+   "n_results": 20,
+   "unresponsive": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "expected_domain": "sgh.com.sg",
+   "expected_rank_among_non_directory": 1,
+   "top_candidates": [
+    {
+     "url": "https://www.sgh.com.sg/",
+     "title": "Singapore General Hospital | Trusted Care, Advancing Medicine",
+     "description": "Singapore General Hospital (SGH) is Singapore's flagship public hospital, delivering trusted, patient-centered care backed by over 200 years of medical\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.nlb.gov.sg/main/article-detail?cmsuuid=3ad30be8-b4e4-4524-acd4-43b085fa2b12",
+     "title": "Singapore General Hospital - NLB",
+     "description": "Located at Outram Road, the Singapore General Hospital (SGH) established in 1821, is Singapore's first general hospital and oldest medical institution.",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.nni.com.sg/patient-services/getting-to-nni/nnisgh",
+     "title": "NNI@Singapore General Hospital",
+     "description": "It was previously at Clinic L, Block 2/3, Singapore General Hospital. ... Hop on the SGH Shuttle Bus (Blue Route) and alight at the SGH Emergency / NNI Building",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://careers.singhealth.com.sg/SGH/go/SGH-All-Opportunities/646644/50/?sortColumn=referencedate&sortDirection=desc",
+     "title": "SGH Careers",
+     "description": "Singapore General Hospital (SGH) is Singapore's largest and oldest tertiary acute care hospital, with a legacy of over 200 years in pioneering medical\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    }
+   ],
+   "seconds": 1.3
+  },
+  {
+   "id": "P07",
+   "query": "HRNET VENTURES PTE  LTD Singapore",
+   "n_results": 20,
+   "unresponsive": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "expected_domain": "hrnetgroup.com",
+   "expected_rank_among_non_directory": 1,
+   "top_candidates": [
+    {
+     "url": "https://www.hrnetgroup.com/",
+     "title": "HRnetGroup",
+     "description": "Headquartered in Singapore where it was founded in 1992, HRnetGroup started off as a 4-person team. Today, with over 900 consultants spread across 13 Asian\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://ihrp.sg/partner-profile/hrnet-ventures-pte-ltd/",
+     "title": "HRnet Ventures Pte Ltd - Institute for Human Resource Professionals",
+     "description": "... Singapore National Employers Federation (SNEF) to professionalise and strengthen the HR practice in Singapore. Connect with Us. About IHRP \u00b7 Our Board \u00b7 Our",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.companies.sg/business/201841218K/HRNET-VENTURES-PTE-LTD",
+     "title": "HRNET VENTURES PTE. LTD. (201841218K) | Companies.sg",
+     "description": "HRNET VENTURES PTE. LTD. was registered in Singapore on 7 December 2018. Registered business activities: 78104 \u2014 Employment agencies (except domestic worker\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.hrnetone.com/",
+     "title": "HRnetOne: Home",
+     "description": "Headquartered in Singapore where it was founded in 1992, we are one of the leading executive search organisations in the region and are represented in 12\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    }
+   ],
+   "seconds": 1.4
+  },
+  {
+   "id": "P08",
+   "query": "DHL SUPPLY CHAIN SINGAPORE PTE  LTD Singapore",
+   "n_results": 20,
+   "unresponsive": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "expected_domain": "dhl.com",
+   "expected_rank_among_non_directory": 1,
+   "top_candidates": [
+    {
+     "url": "https://www.dhl.com/sg-en/home/supply-chain.html",
+     "title": "DHL Supply Chain \u2013 The world's leading contract logistics provider",
+     "description": "To maximize the value of your supply chain, you need a reliable logistics partner whose excellent support is available wherever you need it \u2013 whether that's\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.moe.gov.sg/sgis/sponsoring-organisations/industries/supply-chain-management/dhl-supply-chain-singapore-pte-ltd",
+     "title": "DHL Supply Chain Singapore Pte Ltd - MOE",
+     "description": "9 Jan 2026 ... DHL Supply Chain (DSC) is the #1 contract logistics provider in the world, simplifying Supply Chains for global blue chips and future rising\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.bloomberg.com/profile/company/7357967Z:SP",
+     "title": "DHL Supply Chain Singapore Pte Ltd - Company Profile and News",
+     "description": "Company profile page for DHL Supply Chain Singapore Pte Ltd including stock price, company news, executives, board members, and contact information.",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.esr-reit.com.sg/dhl_supply_chain_advanced_regional_centre.html",
+     "title": "1 Greenwich Drive (DHL Supply Chain Advanced Regional Centre)",
+     "description": "1 Greenwich Drive (DHL Supply Chain Advanced Regional Centre). Address. 1 Greenwich Drive, Singapore 533865. Asset Type. Logistics. Term of Lease. 30 years.",
+     "engines": [
+      "google cse"
+     ]
+    }
+   ],
+   "seconds": 1.2
+  },
+  {
+   "id": "P09",
+   "query": "THE SUPREME HR ADVISORY PTE  LTD Singapore",
+   "n_results": 20,
+   "unresponsive": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "expected_domain": null,
+   "expected_rank_among_non_directory": null,
+   "top_candidates": [
+    {
+     "url": "https://thesupremehr.com/",
+     "title": "Recruitment and Employment Agency Singapore | The Supreme HR",
+     "description": "The Supreme HR Advisory Pte. Ltd. has been providing an efficient, effective and enjoyable staffing experience to job-seekers and employers since 2014. Our\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    }
+   ],
+   "seconds": 0.6
+  },
+  {
+   "id": "P10",
+   "query": "MARINA BAY SANDS  PTE  LTD Singapore",
+   "n_results": 20,
+   "unresponsive": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "expected_domain": "marinabaysands.com",
+   "expected_rank_among_non_directory": 1,
+   "top_candidates": [
+    {
+     "url": "https://www.marinabaysands.com/",
+     "title": "Marina Bay Sands | Iconic Luxury 5-star Hotel in Singapore",
+     "description": "Unparalleled luxury awaits at Singapore's luxury 5-star hotel. Experience world-class dining, entertainment and stunning views at the leading integrated\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.bloomberg.com/profile/company/0198947D:SP",
+     "title": "Marina Bay Sands Pte Ltd - Company Profile and News",
+     "description": "Marina Bay Sands Pte. Ltd. provides hospitality and entertainment services. The Company offers luxury hotel accommodation, entertainment, events,\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://eservices.mas.gov.sg/fid/institution/detail/1464-MARINA-BAY-SANDS-PTE-LTD",
+     "title": "marina bay sands pte. ltd. - Financial Institutions Directory",
+     "description": "MARINA BAY SANDS PTE. LTD. Incorporated in Singapore. Licence Type/Status. Money-changing Licensee. Money-changing licensees provide only money-changing\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.nlb.gov.sg/main/article-detail?cmsuuid=7f0d359a-12e7-4d6b-8015-cf5e7f2bea72",
+     "title": "Marina Bay Sands - Singapore - NLB",
+     "description": "Marina Bay Sands (MBS) is an integrated resort (IR) with a hotel, casino, retail mall, as well as convention facilities and entertainment venues including\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    }
+   ],
+   "seconds": 0.7
+  },
+  {
+   "id": "P11",
+   "query": "NATURELAND CARE PTE  LTD Singapore",
+   "n_results": 20,
+   "unresponsive": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "expected_domain": "natureland",
+   "expected_rank_among_non_directory": 1,
+   "top_candidates": [
+    {
+     "url": "https://www.natureland.com.sg/",
+     "title": "Natureland: Massage & Wellness Spa in Singapore",
+     "description": "Treat yourself to a relaxing and rejuvenating body massage in Singapore at Natureland. Click here to learn more about our 24-hour massage services.",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.foundit.sg/job/customer-service-executive-natureland-care-pte-ltd-singapore-69561667",
+     "title": "Customer Service Executive - natureland care pte. ltd. - foundit",
+     "description": "5 days ago ... Posted 04:50:16 PM natureland care pte. ltd. is hiring an Customer Service Executive with 1 - 4 Years of Experience in Singapore.",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://beautyinsider.sg/establishment/natureland/",
+     "title": "Natureland Singapore Review, Outlets & Price | Beauty Insider",
+     "description": "If you're feeling tired and tense, a rejuvenating massage therapy at Natureland Care is the ultimate way to feel 100% yourself again. ... Singapore Brands Award",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.companies.sg/register/peppol/record/9158446999daea94895b6e310b1f0557bfe095a26a7242e9550840a3d7a1b3de",
+     "title": "NATURELAND CARE PTE. LTD. \u2014 Peppol / InvoiceNow receiving ...",
+     "description": "NATURELAND CARE PTE. LTD.. Reference: iso6523 ... Companies.sg A readable index of Singapore company records and business activity data.",
+     "engines": [
+      "google cse"
+     ]
+    }
+   ],
+   "seconds": 0.9
+  },
+  {
+   "id": "P12",
+   "query": "NTUC FAIRPRICE FOUNDATION LTD Singapore",
+   "n_results": 20,
+   "unresponsive": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ],
+    [
+     "wikidata",
+     "timeout"
+    ]
+   ],
+   "expected_domain": "fairprice.com.sg",
+   "expected_rank_among_non_directory": 4,
+   "top_candidates": [
+    {
+     "url": "https://www.fairpricegroup.com.sg/fairprice-foundation/",
+     "title": "FairPrice Foundation | FairPrice Group's philanthropic arm since 2008",
+     "description": "FairPrice Foundation is the philanthropic arm of FairPrice Group. Since 2008, we have been dedicated to enriching lives and supporting our community in\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.asiaone.com/singapore/fairprice-foundation-3m-hao-ren-hao-shi-low-income-beneficiaries",
+     "title": "Over 126,000 low-income beneficiaries to receive groceries under ...",
+     "description": "8 days ago ... FairPrice Foundation will provide $3 million to Hao Ren Hao Shi over ... CharitiesNTUC FairPriceNutrition and dietmarketscost of living.",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.ntuc.org.sg/pme/news/FairPrice-food-donation-drive-aims-to-help-nearly-600000-people-in-Singapore/",
+     "title": "FairPrice food donation drive aims to help nearly 600,000 people in ...",
+     "description": "12 Oct 2026 ... FairPrice Foundation is contributing $1 million in grocery and meal vouchers, building on more than $3 million raised through A Full Plate since",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "http://s3-ap-southeast-1.amazonaws.com/www.fairprice.com.sg/fpol/media/pdf/corpcomms/publications/NTUC_FairPrice_Foundation.pdf",
+     "title": "NTUC FairPrice Foundation - Amazon S3",
+     "description": "Launched in March 2008, FairPrice has pledged to contribute S$50 million to ... Singapore and provide aid whenever necessary. More information on the\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    }
+   ],
+   "seconds": 6.0
+  },
+  {
+   "id": "P13",
+   "query": "CUROS LEARNING PTE  LTD Singapore",
+   "n_results": 20,
+   "unresponsive": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ],
+    [
+     "wikidata",
+     "Suspended: timeout"
+    ]
+   ],
+   "expected_domain": null,
+   "expected_rank_among_non_directory": null,
+   "top_candidates": [
+    {
+     "url": "https://www.curos.com.sg/",
+     "title": "After-School Student Care in Singapore | CUROS",
+     "description": "Curos is a complete after-school solution designed to nurture confident, well-rounded children. Our student care centre supports learning and personal\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.foundit.sg/job/student-care-teacher-mon-to-fri-no-weekends-curos-learning-pte-ltd-upper-thomson-69609223",
+     "title": "Student Care Teacher Mon to Fri, No Weekends with 0 - foundit",
+     "description": "5 days ago ... Posted 04:56:12 PM curos learning pte. ltd. is hiring an Student Care Teacher Mon to Fri, No Weekends with 0 - 1 Years of Experience in\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.jobleads.com/sg/job/student-care-teacher-mon-to-fri-no-weekends--singapore--ef089412d60317f26ff5fe1faf718364f",
+     "title": "Student Care Teacher - Mon to Fri, No Weekends | Singapore",
+     "description": "5 days ago ... CUROS LEARNING PTE. LTD. is hiring Student Care Teacher - Mon to Fri, No Weekends in Singapore. Apply now with JobLeads!",
+     "engines": [
+      "google cse"
+     ]
+    }
+   ],
+   "seconds": 0.6
+  },
+  {
+   "id": "P14",
+   "query": "THE LITTLE SKOOL-HOUSE INTERNATIONAL PTE LTD Singapore",
+   "n_results": 20,
+   "unresponsive": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "expected_domain": "littleskoolhouse",
+   "expected_rank_among_non_directory": 1,
+   "top_candidates": [
+    {
+     "url": "https://www.littleskoolhouse.com/",
+     "title": "Little Skool-House: Top Preschool, Kindergarten & Childcare",
+     "description": "Enrol today at Little Skool-House, top preschool partner of choice for top corporations in Singapore with award-winning teachers and proven bilingual\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.ntucfirstcampus.com/brands/about-little-skool-house/",
+     "title": "About Little Skool-House - Singapore - NTUC First Campus",
+     "description": "At Little Skool-House, we take pride in our thoughtfully designed programmes that nurture multiple aspects of your child's development.",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.streetdirectory.com/businessfinder/company_detail.php?companyid=103258&branchid=136296",
+     "title": "The Little Skool-house International Pte Ltd Branch - Street Directory",
+     "description": "The Little Skool-House International Pte Ltd was established in 1994 in Singapore to provide premium pre-school education. Our international standard\u00a0...",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://sgschoolkaki.com/preschools/centre/pop-the-little-skool-house-international-pte-ltd-wp0739",
+     "title": "THE LITTLE SKOOL-HOUSE INTERNATIONAL PTE LTD",
+     "description": "THE LITTLE SKOOL-HOUSE INTERNATIONAL PTE LTD is located at 512, THOMSON ROAD, #05-00 MCYS BUILDING, SINGAPORE 298136, Singapore 298136 in the Toa Payoh planning",
+     "engines": [
+      "google cse"
+     ]
+    }
+   ],
+   "seconds": 1.5
+  },
+  {
+   "id": "P15",
+   "query": "RANDSTAD PTE  LIMITED Singapore",
+   "n_results": 20,
+   "unresponsive": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "expected_domain": "randstad.com",
+   "expected_rank_among_non_directory": 1,
+   "top_candidates": [
+    {
+     "url": "https://www.randstad.com.sg/",
+     "title": "Randstad Singapore: Recruitment Agency | Job Agency",
+     "description": "One of the top recruitment agencies in Singapore, Randstad is a leading ... \u00a92024 Randstad Pte. Limited, Registered in Singapore (Company No.",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://www.randstad.com/worldwide/singapore/",
+     "title": "Randstad Singapore companies",
+     "description": "Randstad Pte Ltd ... For more than 28 years, Randstad Singapore has been committed to helping both large organisations and SMEs recruit the best people for thei",
+     "engines": [
+      "google cse"
+     ]
+    },
+    {
+     "url": "https://threebestrated.sg/employment-agencies/randstad-pte.-limited-raffles-place-208331205",
+     "title": "Randstad Pte. Limited in Raffles Place - ThreeBestRated.sg",
+     "description": "Randstad Pte. Limited has been dedicated to assisting both ... Limited is one of the Three Best Rated\u00ae Employment Agencies in Raffles Place, Singapore.",
+     "engines": [
+      "google cse"
+     ]
+    }
+   ],
+   "seconds": 0.9
+  }
+ ]
+}

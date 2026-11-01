@@ -1,0 +1,108 @@
+[
+ {
+  "id": "P01",
+  "industry": "Administration",
+  "title": "Part Time Administrative Assistant",
+  "employer": "MODA PAOLO FOOTWEAR PTE. LTD.",
+  "origin": "prototype 02 job-links"
+ },
+ {
+  "id": "P02",
+  "industry": "Administration",
+  "title": "Part-Time Admin Assistant",
+  "employer": "YAN BUSINESS GROUP",
+  "origin": "fixture R4-JB-011"
+ },
+ {
+  "id": "P03",
+  "industry": "Technology",
+  "title": "Senior Fullstack Software Engineer",
+  "employer": "Palo IT Singapore",
+  "origin": "prototype 02 job-links"
+ },
+ {
+  "id": "P04",
+  "industry": "Technology",
+  "title": "Software Engineer",
+  "employer": "Grab Taxi Holdings Pte. Ltd.",
+  "origin": "added: group/ambiguous entity case"
+ },
+ {
+  "id": "P05",
+  "industry": "Healthcare",
+  "title": "Healthcare Assistant",
+  "employer": "Thye Hua Kwan Hospital",
+  "origin": "prototype 02 job-links"
+ },
+ {
+  "id": "P06",
+  "industry": "Healthcare",
+  "title": "Staff Nurse",
+  "employer": "Singapore General Hospital",
+  "origin": "added: public institution case"
+ },
+ {
+  "id": "P07",
+  "industry": "Logistics",
+  "title": "Warehouse Operator",
+  "employer": "HRnet Ventures",
+  "origin": "prototype 02 job-links"
+ },
+ {
+  "id": "P08",
+  "industry": "Logistics",
+  "title": "Logistics Coordinator",
+  "employer": "DHL Supply Chain Singapore Pte Ltd",
+  "origin": "added: large multinational"
+ },
+ {
+  "id": "P09",
+  "industry": "Hospitality/Service",
+  "title": "Hotel Front Desk Receptionist",
+  "employer": "JL99 Supreme HR Advisory",
+  "origin": "prototype 02 job-links"
+ },
+ {
+  "id": "P10",
+  "industry": "Hospitality/Service",
+  "title": "Housekeeping Attendant",
+  "employer": "Marina Bay Sands Pte Ltd",
+  "origin": "added: large employer"
+ },
+ {
+  "id": "P11",
+  "industry": "Hospitality/Service",
+  "title": "Customer Service Executive",
+  "employer": "Natureland",
+  "origin": "prototype 02 job-links",
+  "hint": "natureland care"
+ },
+ {
+  "id": "P12",
+  "industry": "Hospitality/Service",
+  "title": "Retail Assistant",
+  "employer": "NTUC FairPrice Co-operative Ltd",
+  "origin": "added: co-operative entity case"
+ },
+ {
+  "id": "P13",
+  "industry": "Education",
+  "title": "Enrichment Teacher - English, Maths, Science",
+  "employer": "Curos Learning",
+  "origin": "prototype 02 job-links"
+ },
+ {
+  "id": "P14",
+  "industry": "Education",
+  "title": "Preschool Teacher",
+  "employer": "Little Skool-House International Pte Ltd",
+  "origin": "added"
+ },
+ {
+  "id": "P15",
+  "industry": "Education",
+  "title": "Recruitment Consultant",
+  "employer": "Randstad Pte Ltd",
+  "origin": "added: staffing agency case"
+ }
+]
