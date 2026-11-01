@@ -1,0 +1,805 @@
+[
+ {
+  "id": "J02",
+  "employer": "BUTTERFLY EFFECT PTE. LTD.",
+  "job_title": "Customer Support Specialist",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/admin/customer-support-specialist-butterfly-effect-e818ce83964f9d768635e830e6ea47ec",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "202330764R",
+    "name": "BUTTERFLY EFFECT PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2023-08-02",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.sgpbusiness.com/company/Butterfly-Effect-Pte-Ltd",
+     "title": "BUTTERFLY EFFECT PTE. LTD. (202330764R) - Singapore Company",
+     "description": "BUTTERFLY EFFECT PTE. LTD. was incorporated on 2 August 2023 (Wednesday) as a Private Company Limited by Shares in Singapore. The Company current operating status is live with registered address at FUNAN."
+    },
+    {
+     "url": "https://www.bloomberg.com/profile/company/2557152D:SP",
+     "title": "Butterfly Effect Pte Ltd - Company Profile and News - Bloomberg ...",
+     "description": "Ltd., doing business as Manus AI, operates as a software company. The Company develops AI agent tools that deliver automated digital general tasks such as screening resumes, creating trip itineraries, market insights, and analyzing stocks."
+    },
+    {
+     "url": "https://companieshouse.sg/butterfly-effect-pte-ltd",
+     "title": "BUTTERFLY EFFECT PTE. LTD. - Companies House Singapore",
+     "description": "BUTTERFLY EFFECT PTE. LTD. is a private company limited by shares, registered in Singapore under UEN 202330764R. Established on Aug 02, 2023, the company specializes in development of software and applications (except games and cybersecurity)."
+    },
+    {
+     "url": "https://sgpgrid.com/company-details/butterfly-effect-pte-ltd-ID0000",
+     "title": "BUTTERFLY EFFECT PTE. LTD. - Profile, contacts and insights | The Grid",
+     "description": "27 Aug 2026 ... LTD. is registered as Private Limited Company with its address 109 NORTH BRIDGE ROAD, #06-W112, FUNAN, Singapore 179097. Country of registration."
+    },
+    {
+     "url": "https://www.businesstimes.com.sg/international/global/ai-arms-race-and-chinas-bid-stop-manus-us2-billion-sale-meta-explained",
+     "title": "The AI arms race and China's bid to stop Manus' US$2 billion sale to ...",
+     "description": "28 Apr 2026 ... In June 2025, Butterfly Effect announced it had changed its operating entity to Butterfly Effect Pte Ltd and moved its headquarters to Singapore ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://www.brex.com/tools/charge-finder/butterfly-effect",
+    "page_status": "blocked_or_failed:404",
+    "match": "unreadable"
+   }
+  ],
+  "site": {
+   "url": "https://www.brex.com/tools/charge-finder/butterfly-effect",
+   "title": "Butterfly Effect charges — What is BUTTERFLY EFFECT PTE..?",
+   "description": "(UEN: 202330764R) is a Singapore-incorporated subsidiary of Beijing-based Butterfly Effect Technology Co., Ltd., specializing in the development and publishing of AI-powered software applications.",
+   "match": "found_unreadable",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "status": "blocked_or_failed:404"
+  },
+  "history": {
+   "host": "brex.com",
+   "first_year": "2000",
+   "years_with_captures": 22
+  },
+  "answers": {
+   "note": "site found but page unreadable (blocked or empty); not evidence of absence"
+  },
+  "seconds": 2.7
+ },
+ {
+  "id": "J07",
+  "employer": "TIONG BAHRU BAKERY PTE. LTD.",
+  "job_title": "Central Kitchen Chefs @Pandan Loop",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/food-and-beverage/central-kitchen-chefs-pandan-loop-tiong-bahru-bakery-91ec7bbb3b672caa7f283747b358ab3f",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "201133471H",
+    "name": "TIONG BAHRU BAKERY PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2011-11-17",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": [
+    "TIONG BAHRU BAKERY PRODUCTION PTE. LTD."
+   ]
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://tiongbahrubakery.com/",
+     "title": "Tiong Bahru Bakery",
+     "description": "Pick any 3 and enjoy a FREE Kouign Amann! Come taste the evidence. In-store only."
+    },
+    {
+     "url": "https://tiongbahrubakery.com/pages/our-story",
+     "title": "Our Story - Tiong Bahru Bakery",
+     "description": "Born in Tiong Bahru. Baked into the city. Loved beyond it. ... We first opened our doors in 2012 at 56 Eng Hoon Street, in a neighbourhood that felt like home the ..."
+    },
+    {
+     "url": "https://www.facebook.com/tiongbahrubakery/",
+     "title": "Tiong Bahru Bakery (@tiongbahrubakery) - Facebook",
+     "description": "Born in 2012 on Eng Hoon Street, TBB grew from one bakery with a love for buttery precision, into a family across Singapore. Known for flaky icons, ..."
+    },
+    {
+     "url": "https://www.yelp.com/biz/tiong-bahru-bakery-singapore",
+     "title": "Tiong Bahru Bakery - Updated October 2026 - 30 Reviews - Yelp",
+     "description": "TIONG BAHRU BAKERY - Try Our New Menu - 252 North Bridge Road, #B1-11/12, Raffles City Shopping Centre, Singapore 179103, Singapore, 121 Photos, +6563334160 ..."
+    },
+    {
+     "url": "https://www.instagram.com/tiongbahrubakery/?hl=en",
+     "title": "Tiong Bahru Bakery (@tiongbahrubakery) - Singapore - Instagram",
+     "description": "Born in Tiong Bahru | Baked into the City Come Taste the Difference in Every Flake."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://tiongbahrubakery.com/",
+    "page_status": "blocked_or_failed:429",
+    "match": "unreadable"
+   }
+  ],
+  "site": {
+   "url": "https://tiongbahrubakery.com/",
+   "title": "Tiong Bahru Bakery",
+   "description": "Pick any 3 and enjoy a FREE Kouign Amann! Come taste the evidence. In-store only.",
+   "match": "found_unreadable",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "status": "blocked_or_failed:429"
+  },
+  "history": {
+   "host": "tiongbahrubakery.com",
+   "first_year": "2012",
+   "years_with_captures": 15
+  },
+  "answers": {
+   "note": "site found but page unreadable (blocked or empty); not evidence of absence"
+  },
+  "seconds": 2.4
+ },
+ {
+  "id": "J11",
+  "employer": "MEL & PARTNERS DRS. PTE LTD",
+  "job_title": "Clinic Assistant",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/healthcare/clinic-assistant-mel-partners-drs-df33be809525da28c7e79059e35121ad",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "199308313N",
+    "name": "MEL & PARTNERS DRS. PTE LTD",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "1993-12-16",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.practo.com/singapore/clinic/mel-partners-drs-pte-ltd-orchard",
+     "title": "Mel & Partners Drs Pte Ltd, Orchard - Singapore Clinics - Practo",
+     "description": "Address. 350 Orchard Road, Shaw House, #15-07, Singapore 238868. Map. Get Direction. Timings. Open Today - 9:00 AM - 1: ..."
+    },
+    {
+     "url": "https://www.picktime.com/melpartners?lang=en",
+     "title": "Book an Appointment with Mel & Partners Drs Pte Ltd - Picktime",
+     "description": "Mel & Partners Drs Pte Ltd provides trusted Doctors care to patients seeking expert medical attention. Schedule your appointment online for convenient access to ..."
+    },
+    {
+     "url": "https://orchardmalls.com/shop/mel-partners-drs-pte-ltd-shaw-centre",
+     "title": "Mel Partners Drs Pte Ltd at Orchard Road",
+     "description": "Mel & Partners Drs Pte Ltd is an established medical clinic located at Shaw Centre, providing comprehensive general medical services and wellness care to ..."
+    },
+    {
+     "url": "https://www.mycareersfuture.gov.sg/companies/mel-partners-drs-199308313N",
+     "title": "MEL & PARTNERS DRS. PTE LTD Careers Singapore",
+     "description": "3 days ago ... Considering a job @ MEL & PARTNERS DRS. PTE LTD in Singapore? View the latest jobs on offer from MEL & PARTNERS DRS."
+    },
+    {
+     "url": "https://recordowl.com/company/mel-partners-drs-pte-ltd",
+     "title": "MEL & PARTNERS DRS. PTE LTD (199308313N) - RecordOwl",
+     "description": "MEL & PARTNERS DRS. PTE LTD (the \"Company\") The Company is a Exempt Private Company Limited by Shares and it's current status is Live Company. ... The company has ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://www.practo.com/singapore/clinic/mel-partners-drs-pte-ltd-orchard",
+    "page_status": "blocked_or_failed:410",
+    "match": "unreadable"
+   },
+   {
+    "url": "https://orchardmalls.com/shop/mel-partners-drs-pte-ltd-shaw-centre",
+    "page_status": "ok",
+    "match": "verified"
+   }
+  ],
+  "site": {
+   "url": "https://orchardmalls.com/shop/mel-partners-drs-pte-ltd-shaw-centre",
+   "title": "Mel Partners Drs Pte Ltd at Orchard Road",
+   "description": "Mel & Partners Drs Pte Ltd is an established medical clinic located at Shaw Centre, providing comprehensive general medical services and wellness care to ...",
+   "match": "verified",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "url": "https://orchardmalls.com/shop/mel-partners-drs-pte-ltd-shaw-centre",
+   "fetched_at": "2026-11-01T06:09:26+0000",
+   "robots": "read",
+   "http": 200,
+   "status": "ok",
+   "title": "Mel  Partners Drs Pte Ltd at Orchard Road"
+  },
+  "history": {
+   "host": "orchardmalls.com",
+   "first_year": "2026",
+   "years_with_captures": 1
+  },
+  "answers": {
+   "excerpts": 27,
+   "tokens": 1578,
+   "answers": {
+    "what_company_does": {
+     "status": "supported",
+     "answer": "Provides comprehensive general medical services and wellness care.",
+     "excerpt_id": 11,
+     "quote": "Mel & Partners Drs Pte Ltd is an established medical clinic located at Shaw Centre, providing comprehensive general medical services and wellness care to the community.",
+     "why": null
+    },
+    "markets_locations": {
+     "status": "supported",
+     "answer": "Serves the community in the Orchard area, located in Shaw Centre commercial complex.",
+     "excerpt_id": 11,
+     "quote": "Mel & Partners Drs Pte Ltd is an established medical clinic located at Shaw Centre, providing comprehensive general medical services and wellness care to the community.",
+     "why": null
+    },
+    "employer_type": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "hiring_information": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "contact_or_address": {
+     "status": "supported",
+     "answer": "Shaw Centre, Orchard Road, Singapore.",
+     "excerpt_id": 11,
+     "quote": "Mel & Partners Drs Pte Ltd is an established medical clinic located at Shaw Centre, providing comprehensive general medical services and wellness care to the community.",
+     "why": null
+    }
+   }
+  },
+  "seconds": 14.3
+ },
+ {
+  "id": "J13",
+  "employer": "ASIA KIDNEY DIALYSIS CENTRE (BEDOK) PTE. LTD.",
+  "job_title": "Staff Nurse",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/healthcare/staff-nurse-asia-kidney-dialysis-centre-7e0e7c56a5b213408bc1ce87b06211a9",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "201202015K",
+    "name": "ASIA KIDNEY DIALYSIS CENTRE (BEDOK) PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2012-01-27",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://recordowl.com/company/asia-kidney-dialysis-centre-bedok-pte-ltd",
+     "title": "asia kidney dialysis centre (bedok) pte. ltd. - RecordOwl",
+     "description": "The center is located at 531 Bedok North Street 3, #01-702, Singapore 460531. Company Information. ASIA KIDNEY DIALYSIS CENTRE (BEDOK) PTE. LTD. (the \"Company\") ..."
+    },
+    {
+     "url": "https://www.healthcare.com.sg/item/asia-kidney-dialysis-centre-bedok/",
+     "title": "Asia Kidney Dialysis Centre (Bedok) - Healthcare Singapore",
+     "description": "DISCLAMER: The information provided on this website (HEALTHCARE.COM.SG)is meant purely for general information sources purposes and may not be used as a ..."
+    },
+    {
+     "url": "https://nkfs.org/contact-us/dialysis-centre-locations/",
+     "title": "Dialysis Centre Locations - Singapore - National Kidney Foundation",
+     "description": "NKF Dialysis Centre Supported By New Creation Church · Blk 274 Bangkit Rd #01-54 (S)670274 ; NKF Dialysis Centre Supported by Le Champ (South East Asia) Pte Ltd ( ..."
+    },
+    {
+     "url": "https://www.companies.sg/places/company/201202015K/asia-kidney-dialysis-centre-bedok-pte-ltd",
+     "title": "ASIA KIDNEY DIALYSIS CENTRE (BEDOK) PTE. LTD. · Locations",
+     "description": "Explore 1 directory listings linked to ASIA KIDNEY DIALYSIS CENTRE (BEDOK) PTE. LTD.. Find outlet addresses and locations across Singapore on the map. Place, ..."
+    },
+    {
+     "url": "https://www.channelnewsasia.com/watch/upgraded-dialysis-centre-bedok-has-25-stations-treats-40-more-patients-week-4347626",
+     "title": "Upgraded dialysis centre in Bedok has 25 stations - Singapore - CNA",
+     "description": "19 May 2024 ... More kidney patients in eastern Singapore can now get the care they need. Additional dialysis stations have been added to a centre run by ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://nkfs.org/contact-us/dialysis-centre-locations/",
+    "page_status": "thin",
+    "match": "unverified"
+   },
+   {
+    "url": "https://www.channelnewsasia.com/watch/upgraded-dialysis-centre-bedok-has-25-stations-treats-40-more-patients-week-4347626",
+    "page_status": "ok",
+    "match": "probable"
+   }
+  ],
+  "site": {
+   "url": "https://www.channelnewsasia.com/watch/upgraded-dialysis-centre-bedok-has-25-stations-treats-40-more-patients-week-4347626",
+   "title": "Upgraded dialysis centre in Bedok has 25 stations - Singapore - CNA",
+   "description": "19 May 2024 ... More kidney patients in eastern Singapore can now get the care they need. Additional dialysis stations have been added to a centre run by ...",
+   "match": "probable",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "url": "https://www.channelnewsasia.com/watch/upgraded-dialysis-centre-bedok-has-25-stations-treats-40-more-patients-week-4347626",
+   "fetched_at": "2026-11-01T06:09:40+0000",
+   "robots": "read",
+   "http": 200,
+   "status": "ok",
+   "title": "Upgraded dialysis centre in Bedok has 25 stations; treats 40 more patients a week - CNA"
+  },
+  "history": {
+   "host": "channelnewsasia.com",
+   "first_year": "1999",
+   "years_with_captures": 28
+  },
+  "answers": {
+   "excerpts": 27,
+   "tokens": 1305,
+   "answers": {
+    "what_company_does": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "markets_locations": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "employer_type": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "hiring_information": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "contact_or_address": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    }
+   }
+  },
+  "seconds": 17.1
+ },
+ {
+  "id": "J18",
+  "employer": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO. PTE. LTD.",
+  "job_title": "RECEPTIONIST",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/admin/receptionist-china-construction-development-3b9343e0d909115d62e21c6534e44005",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "199201093N",
+    "name": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO. PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "1992-03-02",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://en.chinaconstruction.cscec.com/",
+     "title": "CHINA CONSTRUCTION (SOUTH PACIFIC)",
+     "description": "Housing · Education · Commercial & Mixed · Healthcare · Infrastructure · Industry & Public Institution · Property Development · Overseas Projects."
+    },
+    {
+     "url": "https://sg.linkedin.com/company/cscec-singapore",
+     "title": "CSCEC Singapore | LinkedIn",
+     "description": "CSCEC is konwn as China Construction (South Pacific) Development Co Pte Ltd (CCDC) , established in 1992 in Singapore, as a regional wholly-owned subsidiary ..."
+    },
+    {
+     "url": "https://www.facebook.com/CCDCNews/",
+     "title": "CSCEC Singapore - Facebook",
+     "description": "As the main contractor, CSCEC Singapore is honoured to have contributed to delivering this landmark development, advancing innovation, functionality and ..."
+    },
+    {
+     "url": "https://www.timesbusinessdirectory.com/company-details/china-construction-south-pacific-development-co-pte-ltd/",
+     "title": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO ...",
+     "description": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO. PTE LTD · 182, Cecil Street, #31-01 Frasers Tower, Singapore, 069547 · (65) 6227 4537 · chinacon@ ..."
+    },
+    {
+     "url": "https://www.asiabuilders.com.sg/company-details/china-construction-south-pacific-development-co-pte-ltd/",
+     "title": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO ...",
+     "description": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO. PTE LTD · 182, Cecil Street, #31-01 Frasers Tower, Singapore, 069547 · http://www.chinaconstruction.com.sg · (65) ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://en.chinaconstruction.cscec.com/",
+    "page_status": "blocked_or_failed:URLError",
+    "match": "unreadable"
+   },
+   {
+    "url": "https://www.asiabuilders.com.sg/company-details/china-construction-south-pacific-development-co-pte-ltd/",
+    "page_status": "ok",
+    "match": "verified"
+   }
+  ],
+  "site": {
+   "url": "https://www.asiabuilders.com.sg/company-details/china-construction-south-pacific-development-co-pte-ltd/",
+   "title": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO ...",
+   "description": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO. PTE LTD · 182, Cecil Street, #31-01 Frasers Tower, Singapore, 069547 · http://www.chinaconstruction.com.sg · (65) ...",
+   "match": "verified",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "url": "https://www.asiabuilders.com.sg/company-details/china-construction-south-pacific-development-co-pte-ltd/",
+   "fetched_at": "2026-11-01T06:09:57+0000",
+   "robots": "unavailable:403",
+   "http": 200,
+   "status": "ok",
+   "title": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO. PTE LTD | Singapore Builders Directory"
+  },
+  "history": {
+   "host": "asiabuilders.com.sg",
+   "first_year": "2008",
+   "years_with_captures": 12
+  },
+  "answers": {
+   "excerpts": 9,
+   "tokens": 1064,
+   "answers": {
+    "what_company_does": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "markets_locations": {
+     "status": "supported",
+     "answer": "Singapore",
+     "excerpt_id": 3,
+     "quote": "182, Cecil Street, #31-01 Frasers Tower, Singapore, 069547",
+     "why": null
+    },
+    "employer_type": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "hiring_information": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "contact_or_address": {
+     "status": "supported",
+     "answer": "chinacon@chinaconstruction.com.sg",
+     "excerpt_id": 5,
+     "quote": "chinacon@chinaconstruction.com.sg",
+     "why": null
+    }
+   }
+  },
+  "seconds": 13.1
+ },
+ {
+  "id": "J24",
+  "employer": "HRNET VENTURES PTE. LTD.",
+  "job_title": "Sportswear Retail Associate / Sales Assistant | Up to $4.5K | Jurong East & Changi | URGENT HIRING",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/sales/%F0%9F%91%9F-sportswear-retail-associate-sales-assistant-45k-jurong-east-changi-urgent-hiring-hrnet-ventures-92412e5a5586a6e48d807fd74cc08b9f",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "201841218K",
+    "name": "HRNET VENTURES PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2018-12-07",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.hrnetgroup.com/",
+     "title": "HRnetGroup",
+     "description": "Headquartered in Singapore where it was founded in 1992, HRnetGroup started off as a 4-person team. Today, with over 900 consultants spread across 13 Asian ..."
+    },
+    {
+     "url": "https://www.mycareersfuture.gov.sg/companies/hrnet-ventures-201841218K",
+     "title": "HRNET VENTURES PTE. LTD. Careers Singapore - MyCareersFuture",
+     "description": "Considering a job @ HRNET VENTURES PTE. LTD. in Singapore? View the latest jobs on offer from HRNET VENTURES PTE. LTD. on MyCareersFuture.gov.sg."
+    },
+    {
+     "url": "https://www.sgpbusiness.com/company/Hrnet-Ventures-Pte-Ltd",
+     "title": "HRNET VENTURES PTE. LTD. (201841218K) - Singapore Company",
+     "description": "HRNET VENTURES PTE. LTD. ... HRNET VENTURES PTE. LTD. (the \"Company\") is a Private Company Limited by Shares, incorporated on 7 December 2018 (Friday) in ..."
+    },
+    {
+     "url": "https://www.hrnetgroup.com/contact.php",
+     "title": "IR Contact - HRnetGroup",
+     "description": "Headquartered in Singapore where it was founded in 1992, HRnetGroup started off as a 4-person team ... Copyright © HRnetGroup 2025. All rights reserved ..."
+    },
+    {
+     "url": "https://ihrp.sg/partner-profile/hrnet-ventures-pte-ltd/",
+     "title": "HRnet Ventures Pte Ltd - Institute for Human Resource Professionals",
+     "description": "... Singapore National Employers Federation (SNEF) to professionalise and strengthen the HR practice in Singapore. Connect with Us. About IHRP · Our Board · Our ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://www.hrnetgroup.com/",
+    "page_status": "ok",
+    "match": "unverified"
+   }
+  ],
+  "site": null,
+  "answers": {
+   "note": "no verified official site found; registry record only"
+  },
+  "seconds": 1.1
+ },
+ {
+  "id": "J28",
+  "employer": "SINGAPORE TELECOMMUNICATIONS LIMITED",
+  "job_title": "Product Manager",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/information-technology/product-manager-singapore-telecommunications-a162c57ea38c0b54f079f532b677c3ae",
+  "registry": {
+   "state": "needs_confirmation",
+   "why": "1 other live entity(ies) share the name stem: SINGAPORE SMART TELECOMMUNICATIONS PTE. LTD.",
+   "chosen": {
+    "score": 1.0,
+    "uen": "199201624D",
+    "name": "SINGAPORE TELECOMMUNICATIONS LIMITED",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "1992-03-28",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": [
+    "SINGAPORE SMART TELECOMMUNICATIONS PTE. LTD.",
+    "SINGAPORE ESINN TELECOMMUNICATIONS PTE. LTD.",
+    "GENBAND (SINGAPORE) TELECOMMUNICATIONS PTE. LTD."
+   ]
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.singtel.com/personal",
+     "title": "Singtel: Mobile, Fibre Broadband and TV services provider",
+     "description": "The Singtel Group, Asia's leading communications group provides a diverse range of services including fixed, mobile, data, internet, TV, ..."
+    },
+    {
+     "url": "https://www.singtel.com/business/why-singtel-business/about-singtel",
+     "title": "Singtel Singapore",
+     "description": "About Us. Headquartered in Singapore, Singtel is Asia's leading communications technology group with 140 years of operating experience and over 800 million ..."
+    },
+    {
+     "url": "https://sg.linkedin.com/company/singtel",
+     "title": "Singtel - LinkedIn Singapore",
+     "description": "About us. Singtel Group is a leading Asia-based connectivity, digital infrastructure and services group, operating next-generation connectivity, digital ..."
+    },
+    {
+     "url": "https://www.bloomberg.com/profile/company/ST:SP",
+     "title": "Singapore Telecommunications Ltd - Company Profile and News",
+     "description": "Company profile page for Singapore Telecommunications Ltd including stock price, company news, executives, board members, and contact information."
+    },
+    {
+     "url": "https://sg.finance.yahoo.com/quote/Z74.SI/",
+     "title": "Singapore Telecommunications Limited (Z74.SI) stock price, news ...",
+     "description": "73.53% · Previous close 4.1200 · Open 4.1400 · Bid 4.1300 x -- · Ask 4.1400 x -- · Day's range 4.1200 - 4.1600 · 52-week range 3.9900 - 5.2700 · Volume ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://www.singtel.com/personal",
+    "page_status": "thin",
+    "match": "unverified"
+   },
+   {
+    "url": "https://www.theedgesingapore.com/capital/brokers-calls/bofa-sees-scope-singtel-raise-fy2027-profit-guidance",
+    "page_status": "ok",
+    "match": "verified"
+   }
+  ],
+  "site": {
+   "url": "https://www.theedgesingapore.com/capital/brokers-calls/bofa-sees-scope-singtel-raise-fy2027-profit-guidance",
+   "title": "BofA sees scope for Singtel to raise FY2027 profit guidance",
+   "description": "6 days ago ... Bank of America (BofA) Securities has maintained its “buy” rating and $5.60 target price on Singapore Telecommunications (Singtel) as it ...",
+   "match": "verified",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "url": "https://www.theedgesingapore.com/capital/brokers-calls/bofa-sees-scope-singtel-raise-fy2027-profit-guidance",
+   "fetched_at": "2026-11-01T06:10:12+0000",
+   "robots": "read",
+   "http": 200,
+   "status": "ok",
+   "title": "BofA sees scope for Singtel to raise FY2027 profit guidance"
+  },
+  "history": {
+   "host": "theedgesingapore.com",
+   "first_year": "2002",
+   "years_with_captures": 21
+  },
+  "answers": {
+   "excerpts": 29,
+   "tokens": 1452,
+   "answers": {
+    "what_company_does": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "markets_locations": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "employer_type": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "hiring_information": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "contact_or_address": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    }
+   }
+  },
+  "seconds": 16.3
+ }
+]

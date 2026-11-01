@@ -16,7 +16,10 @@ SKIP_DOMAINS = ("linkedin.com", "glassdoor.", "indeed.", "jobstreet.", "mycareer
                 "acrawatch.sg", "sgpbusiness.com", "companieshouse.sg", "recordowl.com", "sgpgrid.com", "straitsdata.com", "wikipedia.org",
                 "jooble.", "fastjobs.", "carousell.", "youtube.com", "bebee.", "foundit.", "glints.", "jobleads.", "cultjobs.", "ltddir.",
                 "scam.sg", "companies.sg", "threebestrated", "streetdirectory", "bloomberg.com", "opengovsg", "cbinsights", "zoominfo",
-                "dnb.com", "tiktok.com", "yelp.", "tripadvisor.", "lazada.", "shopee.")
+                "dnb.com", "tiktok.com", "yelp.", "tripadvisor.", "lazada.", "shopee.",
+                # news, finance, directories and booking widgets that mention a company but are not its site (found by hand review, run 2026-11-01)
+                "businesstimes.", "yahoo.com", "reuters.com", "healthcare.com.sg", "timesbusinessdirectory", "ihrp.sg", "picktime.",
+                "edb.gov.sg", "nea.gov.sg", "thebigjobsite", "wikipedia.", "crunchbase.", "pitchbook.", "marketscreener.")
 _state = {"last": 0.0, "tripped": None}
 
 

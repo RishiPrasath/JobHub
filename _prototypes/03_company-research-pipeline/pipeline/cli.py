@@ -25,6 +25,9 @@ def main():
     s.add_argument("--site", required=True)
     s.add_argument("--uen")
     s.add_argument("--hint")
+    iv = sub.add_parser("investigate", help="run the whole service over a JSON list of {id, employer, job_title, job_url}")
+    iv.add_argument("employers_json")
+    iv.add_argument("out_json")
     q = sub.add_parser("search", help="optional keyless DuckDuckGo search (needs JOBHUB_ENABLE_DDG=1)")
     q.add_argument("query")
     f = sub.add_parser("find-site", help="registry match, optional search, then verify each candidate homepage")
@@ -32,6 +35,12 @@ def main():
     f.add_argument("--uen")
     f.add_argument("--hint")
     a = ap.parse_args()
+    if a.cmd == "investigate":
+        from . import investigate
+        items = json.loads(Path(a.employers_json).read_text(encoding="utf-8"))
+        res = investigate.investigate(DB, DATA / "sites.sqlite", items)
+        Path(a.out_json).write_text(json.dumps(res, indent=1, ensure_ascii=False), encoding="utf-8")
+        return
     if a.cmd == "search":
         print(json.dumps(websearch.search(a.query), indent=1))
     elif a.cmd == "find-site":

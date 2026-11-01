@@ -35,6 +35,7 @@ services:
     volumes:
       - acra-data:/data
       - ./samples:/samples:ro
+      - ../../02_research/03_research-rounds/05_technical-feasibility-and-ai-sdlc/runs:/runs   # experiment run folders (inputs and outputs)
     read_only: true
     tmpfs:
       - /tmp

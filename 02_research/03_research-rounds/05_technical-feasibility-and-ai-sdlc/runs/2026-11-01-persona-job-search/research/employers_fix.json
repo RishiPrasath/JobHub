@@ -1,0 +1,65 @@
+[
+ {
+  "id": "J02",
+  "employer": "BUTTERFLY EFFECT PTE. LTD.",
+  "job_title": "Customer Support Specialist",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/admin/customer-support-specialist-butterfly-effect-e818ce83964f9d768635e830e6ea47ec",
+  "persona": "career-change",
+  "employer_type_guess": "unclear",
+  "also_posted": []
+ },
+ {
+  "id": "J07",
+  "employer": "TIONG BAHRU BAKERY PTE. LTD.",
+  "job_title": "Central Kitchen Chefs @Pandan Loop",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/food-and-beverage/central-kitchen-chefs-pandan-loop-tiong-bahru-bakery-91ec7bbb3b672caa7f283747b358ab3f",
+  "persona": "culinary-food-service",
+  "employer_type_guess": "direct",
+  "also_posted": []
+ },
+ {
+  "id": "J11",
+  "employer": "MEL & PARTNERS DRS. PTE LTD",
+  "job_title": "Clinic Assistant",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/healthcare/clinic-assistant-mel-partners-drs-df33be809525da28c7e79059e35121ad",
+  "persona": "healthcare-care",
+  "employer_type_guess": "direct",
+  "also_posted": []
+ },
+ {
+  "id": "J13",
+  "employer": "ASIA KIDNEY DIALYSIS CENTRE (BEDOK) PTE. LTD.",
+  "job_title": "Staff Nurse",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/healthcare/staff-nurse-asia-kidney-dialysis-centre-7e0e7c56a5b213408bc1ce87b06211a9",
+  "persona": "healthcare-care",
+  "employer_type_guess": "direct",
+  "also_posted": []
+ },
+ {
+  "id": "J18",
+  "employer": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO. PTE. LTD.",
+  "job_title": "RECEPTIONIST",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/admin/receptionist-china-construction-development-3b9343e0d909115d62e21c6534e44005",
+  "persona": "office-admin",
+  "employer_type_guess": "direct",
+  "also_posted": []
+ },
+ {
+  "id": "J24",
+  "employer": "HRNET VENTURES PTE. LTD.",
+  "job_title": "Sportswear Retail Associate / Sales Assistant | Up to $4.5K | Jurong East & Changi | URGENT HIRING",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/sales/%F0%9F%91%9F-sportswear-retail-associate-sales-assistant-45k-jurong-east-changi-urgent-hiring-hrnet-ventures-92412e5a5586a6e48d807fd74cc08b9f",
+  "persona": "service-frontline",
+  "employer_type_guess": "agency",
+  "also_posted": []
+ },
+ {
+  "id": "J28",
+  "employer": "SINGAPORE TELECOMMUNICATIONS LIMITED",
+  "job_title": "Product Manager",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/information-technology/product-manager-singapore-telecommunications-a162c57ea38c0b54f079f532b677c3ae",
+  "persona": "technology-digital",
+  "employer_type_guess": "direct",
+  "also_posted": []
+ }
+]
