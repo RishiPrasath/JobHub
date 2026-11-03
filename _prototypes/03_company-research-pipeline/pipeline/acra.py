@@ -1,5 +1,5 @@
 """ACRA entity resolution from data.gov.sg bulk CSVs, indexed in SQLite FTS5. No API key."""
-import csv, json, re, sqlite3, time, urllib.request
+import csv, json, re, sqlite3, time, urllib.error, urllib.request
 from difflib import SequenceMatcher
 from pathlib import Path
 
@@ -18,26 +18,55 @@ def _get(url, timeout=60):
     return urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=timeout)
 
 
-def download(csv_dir, ids=None):
-    """Download every ACRA entity CSV; honours the 429 'retry in 10 seconds' limit."""
+def csv_complete(path):
+    """A downloaded ACRA file is usable when it has the header we index and ends on a full line."""
+    try:
+        with open(path, "rb") as fh:
+            head = fh.readline().lower()
+            fh.seek(-1, 2)
+            return b"uen" in head and b"entity_name" in head and fh.read(1) == b"\n"
+    except OSError:
+        return False
+
+
+def download(csv_dir, ids=None, on_progress=None):
+    """Download every ACRA entity CSV; honours the 429 'retry in 10 seconds' limit.
+    Files are written to .part and renamed when complete, so a crash never leaves a truncated file that looks
+    finished, and a rerun resumes with the files already fetched."""
     csv_dir = Path(csv_dir)
     csv_dir.mkdir(parents=True, exist_ok=True)
+    for stale in csv_dir.glob("*.part"):          # left by an interrupted run
+        stale.unlink(missing_ok=True)
     ids = ids or json.load(_get(META))["data"]["collectionMetadata"]["childDatasets"]
-    for i in ids:
+    for n, i in enumerate(ids, 1):
         dest = csv_dir / f"{i}.csv"
-        if dest.exists():
+        if on_progress:
+            on_progress(n - 1, len(ids))
+        if dest.exists() and csv_complete(dest):
             continue
+        dest.unlink(missing_ok=True)
+        last = "no attempt"
         for _ in range(8):
             try:
                 r = json.load(_get(POLL.format(i)))
                 if r.get("code") == 0 and r["data"].get("url"):
-                    dest.write_bytes(_get(r["data"]["url"], 300).read())
+                    part = dest.with_suffix(".part")
+                    part.write_bytes(_get(r["data"]["url"], 300).read())
+                    part.replace(dest)
                     break
-            except Exception:
-                pass
-            time.sleep(12)
+                last = "rate limited: %s" % str(r)[:80]            # the API answers 'retry in 10 seconds'; wait and ask again
+                time.sleep(12)
+            except urllib.error.HTTPError as e:
+                last = "HTTP %s" % e.code
+                time.sleep(12)                                      # 429 and friends: wait and retry
+            except Exception as e:                                  # network down, disk full: no point hammering 26 more files
+                raise RuntimeError("download of %s failed: %s: %s" % (i, type(e).__name__, str(e)[:120]))
+        else:
+            raise RuntimeError("download of %s gave up after 8 tries (%s); finished files are kept for the next try" % (i, last))
         time.sleep(6)
-    return len(list(csv_dir.glob("*.csv")))
+    if on_progress:
+        on_progress(len(ids), len(ids))
+    return len([f for f in csv_dir.glob("*.csv") if csv_complete(f)])
 
 
 def build_index(csv_dir, db_path):
@@ -53,7 +82,13 @@ def build_index(csv_dir, db_path):
     for f in sorted(Path(csv_dir).glob("*.csv")):
         with open(f, encoding="utf-8-sig", newline="") as fh:
             rows, frows = [], []
-            for r in csv.DictReader(fh):
+            reader = csv.DictReader(fh)
+            need = {"uen", "entity_name", "entity_type_description", "entity_status_description",
+                    "registration_incorporation_date", "primary_ssic_description"}
+            missing = need - set(reader.fieldnames or [])
+            if missing:
+                raise RuntimeError("%s lacks expected columns %s; ACRA may have changed the file format" % (f.name, sorted(missing)))
+            for r in reader:
                 n += 1
                 f1, f2, f3 = (r.get(f"former_entity_name{i}", "") for i in (1, 2, 3))
                 rows.append((n, r["uen"], r["entity_name"], f1, f2, f3, r["entity_type_description"],
@@ -84,6 +119,15 @@ def _search(con, tokens, limit=60):
     return {r[0]: r for r in rows}
 
 
+MAX_NAME_CHARS = 200     # callers should reject longer names; the matcher also caps tokens as a second guard
+MAX_TOKENS = 12
+QUERY_SECONDS = 8        # abort a lookup that runs longer than this
+
+
+class LookupTimeout(Exception):
+    pass
+
+
 def _score(q_tokens, row):
     names = [row[1], row[2], row[3], row[4]]
     qs = " ".join(q_tokens)
@@ -110,21 +154,32 @@ def _record(score, row, partial=False):
 def resolve(db_path, employer, uen=None, hint=None):
     """Return {'state', 'chosen', 'candidates', 'why'}. States: exact_by_uen, exact, likely,
     needs_confirmation, unresolved. Never silently picks between sibling entities."""
-    con = sqlite3.connect(db_path)
+    con = sqlite3.connect("file:%s?mode=ro" % Path(db_path).as_posix(), uri=True)   # read-only: a lookup can never modify the index
+    deadline = time.time() + QUERY_SECONDS
+    con.set_progress_handler(lambda: 1 if time.time() > deadline else 0, 20000)
+    try:
+        return _resolve(con, employer, uen, hint)
+    except sqlite3.OperationalError as e:
+        if "interrupted" in str(e):
+            raise LookupTimeout("lookup exceeded %d s" % QUERY_SECONDS)
+        raise
+    finally:
+        con.close()
+
+
+def _resolve(con, employer, uen, hint):
     if uen:
         r = con.execute("select uen,name,f1,f2,f3,type,status,inc,ssic from ent where uen=?", (uen,)).fetchone()
-        con.close()
         if r:
             return {"state": "exact_by_uen", "chosen": _record(1.0, r), "candidates": [], "why": "UEN supplied by the posting"}
         return {"state": "unresolved", "chosen": None, "candidates": [], "why": "UEN %s not in registry" % uen}
-    q = toks(hint or employer)
+    q = toks(hint or employer)[:MAX_TOKENS]
     found = _search(con, q)
     partial = False
     if not found and len(q) > 1:           # brand prefix / extra token: retry with one token dropped
         for i in range(len(q)):
             found.update(_search(con, q[:i] + q[i + 1:]))
         partial = bool(found)
-    con.close()
     scored = sorted(((_score(q, r), r) for r in found.values()), key=lambda x: -x[0])
     cands = [_record(s, r, partial) for s, r in scored[:6]]
     if not scored:

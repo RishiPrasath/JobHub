@@ -73,16 +73,23 @@ Checks (run inside the container, see `tests/`): `acra_personas.py` resolves the
 
 ## Registry service: self-provisioning and self-refreshing (`pipeline/registry.py`)
 
-`docker compose up -d registry` starts a small HTTP service on `127.0.0.1:8090`.
+`docker compose up -d registry` starts a small HTTP service on `127.0.0.1:8090`. Nothing is baked into the image or the repo; the data lives in the `acra-data` volume.
 
-1. **Provision on start.** It asks data.gov.sg when the ACRA collection was last updated and compares that with the copy in the volume. With no copy (first provision) it downloads all 27 files (about 641 MB; slow on purpose because the API rate-limits), builds the index, checks it, and only then goes live. Until then `/health` returns 503 and `/resolve` says it is being provisioned.
-2. **Refresh while running.** Every `ACRA_CHECK_HOURS` (default 24) it repeats the cheap timestamp check. When ACRA publishes a new release (monthly) it builds a new index beside the live one, checks it, and switches by rewriting `registry.json`. Requests in flight keep working; the previous index is kept until the next refresh.
-3. **Failure keeps serving.** A failed download or a failed check (row counts disagree, fewer than `ACRA_MIN_ROWS`, or a shrink of more than 10%) is recorded in `/status` as `last_error`, the old copy keeps serving, and it retries after `ACRA_RETRY_MINUTES` (default 30).
-4. **Age is visible.** `/status` shows `registry_as_of`, `age_days` and `stale` (older than `ACRA_MAX_AGE_DAYS`, default 45). Every `/resolve` answer carries `registry_as_of` and `registry_stale`.
+1. **Provision on start.** It asks data.gov.sg when the ACRA collection was last updated and compares that with the copy in the volume. With no copy (first provision) it downloads all 27 files (about 641 MB, about 4 minutes), builds the index, checks it, and only then goes live. Until then `/health` returns 503 and `/resolve` returns 503 with `Retry-After`; `/status` shows the step and file count.
+2. **Refresh while running.** Every `ACRA_CHECK_HOURS` (default 24) it repeats the cheap timestamp check. On a new release it builds a new index beside the live one, checks it, and switches by rewriting `registry.json`. The previous index is kept until the next refresh.
+3. **Separate worker.** Downloading and indexing run in a child process at low priority, so a refresh cannot slow lookups (tested at 95% CPU) and a worker that dies cannot take the server down. A lock stops two refreshes on one volume.
+4. **Failure keeps serving.** A failed download or check is recorded as `last_error` in `/status`; the old copy keeps serving; it retries after `ACRA_RETRY_MINUTES` (30), or every 1 to 15 minutes while there is nothing to serve yet. Downloads resume: finished files are kept, and files are written as `.part` and renamed so a crash never leaves a half file that looks complete.
+5. **Checks before going live.** Row counts agree, at least `ACRA_MIN_ROWS`, no more than a 10% drop from the last index, a test lookup works, every file has the expected columns, and the release did not change during the download. The disk needs `ACRA_MIN_FREE_GB` (1.5) free before a refresh starts.
+6. **Age is visible.** `/status` shows `registry_as_of`, `age_days`, `stale` (older than `ACRA_MAX_AGE_DAYS`, 45), request counters and latency. Every `/resolve` answer carries `registry_as_of` and `registry_stale`.
+7. **Protected against bad input.** Names and hints over 200 characters get 400 (one 5,000-character name used to run the container out of memory), lookups are read-only, abort after 8 s (504), at most `ACRA_MAX_CONCURRENT` (16) run at once (else 503), all errors are JSON, and the container has a 1.5 GB memory limit, a process limit and a clean SIGTERM shutdown.
 
 ```bash
 curl localhost:8090/status
 curl 'localhost:8090/resolve?name=Palo+IT+Singapore'
+python tests/registry_probe.py      # 24 probes: bad inputs and a 400-request load test
 ```
 
-Disk: about 1.5 GB is used while a refresh is in progress (downloaded files plus old and new index); about 0.4 GB at rest. A company registered after the latest ACRA release will not be found until the next release, which is why answers carry the registry date.
+Disk: about 0.9 GB at rest (the live index and the previous one) and about 1.7 GB while a refresh runs. A company registered after the latest ACRA release will not be found until the next release, which is why answers carry the registry date. The pre-existing `acra_csv` folder from the older CLI flow is not removed automatically.
+
+Failure-path tests: `tests/registry_stubs.py` (release changes mid-download, low disk, wrong file format, index too small).
+

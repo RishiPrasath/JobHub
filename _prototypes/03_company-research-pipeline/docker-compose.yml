@@ -26,6 +26,10 @@ services:
     build: .
     image: jobhub-company-research:dev
     command: ["serve"]
+    init: true                   # tini as PID 1: signals reach the service and the refresh worker, no zombie processes
+    stop_grace_period: 15s
+    mem_limit: 1536m             # a runaway request or refresh is killed here instead of taking the Docker VM down
+    pids_limit: 128
     ports:
       - "127.0.0.1:8090:8090"    # localhost only
     environment:

@@ -11,7 +11,8 @@ DB = registry.db_path(DATA)          # the live index named by $JOBHUB_DATA/regi
 def main():
     ap = argparse.ArgumentParser(prog="pipeline")
     sub = ap.add_subparsers(dest="cmd", required=True)
-    sub.add_parser("acra-update", help="download the current ACRA release and switch to a new index (same logic the service uses)")
+    au = sub.add_parser("acra-update", help="download the current ACRA release and switch to a new index (same logic the service uses)")
+    au.add_argument("--if-changed", action="store_true", help="do nothing when the local copy already matches the published release")
     sub.add_parser("acra-status", help="compare the local registry copy with ACRA's published release")
     sv = sub.add_parser("serve", help="registry service: provisions the current ACRA data on start, refreshes on a schedule")
     sv.add_argument("--port", type=int, default=8090)
@@ -77,7 +78,7 @@ def main():
                           "search_note": found.get("note"), "unresponsive_engines": found.get("unresponsive_engines"), "candidates": checked}, indent=1))
         return
     if a.cmd == "acra-update":
-        print(registry.refresh(DATA, force=True))
+        print(registry.refresh(DATA, force=not a.if_changed))
     elif a.cmd == "acra-status":
         print(json.dumps({"local": registry.status(DATA), "published": registry.remote_release() | {"ids": "..."}}, indent=1))
     elif a.cmd == "serve":
