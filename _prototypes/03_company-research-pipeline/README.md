@@ -57,3 +57,16 @@ Pass `--uen` when the posting shows one, and `--hint` for a name taken from the 
 - No JavaScript rendering. A page under 500 characters of visible text is reported as `thin`.
 - Only one page per site is read, so hiring and careers questions are often `not_found`.
 - The rules were tuned after seeing the 15 research postings and have not been tested on a fresh set.
+
+## Registry matching states (`pipeline/acra.py`)
+
+| State | Meaning |
+|---|---|
+| `exact_by_uen` | A company ID was supplied and found |
+| `exact` | The posted name equals one registered name word for word (sibling entities that only add words are listed in `siblings`) |
+| `likely` | Very close name, no extra words in the registered name |
+| `needs_confirmation` | Weak match, a brand/extra word was dropped, a former or alternate name matched, the registered name adds words, or two live entities share the name. A person should confirm |
+| `public_body` | Looks like a statutory board or ministry; these are not in the company datasets |
+| `unresolved` | Nothing in the registry contains the name |
+
+Checks (run inside the container, see `tests/`): `acra_personas.py` resolves the persona-run employers by persona; `acra_random_names.py` and `acra_shortened_names.py` test 300 and 211 registry names that were not used for tuning.

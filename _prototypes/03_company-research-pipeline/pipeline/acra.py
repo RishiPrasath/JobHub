@@ -94,6 +94,14 @@ def _is_live(row):
     return row[6].lower().startswith("live")
 
 
+PUBLIC_BODY = re.compile(r"\b(board|authority|ministry|council|agency|commission|department)\b", re.I)
+
+
+def _same_name(q_tokens, row):
+    """True when the query and any registered name of the entity have exactly the same tokens."""
+    return any(n and sorted(toks(n)) == sorted(q_tokens) for n in (row[1], row[2], row[3], row[4]))
+
+
 def _record(score, row, partial=False):
     return {"score": round(score, 3), "uen": row[0], "name": row[1], "type": row[5], "status": row[6],
             "incorporated": row[7], "ssic": row[8], "partial_name_match": partial}
@@ -120,20 +128,38 @@ def resolve(db_path, employer, uen=None, hint=None):
     scored = sorted(((_score(q, r), r) for r in found.values()), key=lambda x: -x[0])
     cands = [_record(s, r, partial) for s, r in scored[:6]]
     if not scored:
+        if PUBLIC_BODY.search(employer):
+            return {"state": "public_body", "chosen": None, "candidates": [],
+                    "why": "looks like a statutory board or government body; these are not in the company registry datasets"}
         return {"state": "unresolved", "chosen": None, "candidates": [], "why": "no registry name contains the name tokens"}
     live = [(s, r) for s, r in scored if _is_live(r)]
     pool = live or scored                   # prefer live entities; dissolved ones are context only
     top_s, top_r = pool[0]
     rivals = [r for s, r in pool[1:] if top_s - s <= SIBLING_GAP and s >= 0.6]
     base = {"candidates": cands}
+    if partial and PUBLIC_BODY.search(employer):
+        return {"state": "public_body", "chosen": None, "candidates": cands,
+                "why": "looks like a statutory board or government body; the closest registry names are unrelated companies"}
     if partial:
         return {**base, "state": "needs_confirmation", "chosen": _record(top_s, top_r, True),
                 "why": "matched only after dropping a name token (brand or extra word)"}
+    if rivals and not partial and top_s >= 0.99 and _same_name(q, top_r) and not any(_same_name(q, r) for r in rivals):
+        # the posted name is a registered name word for word; other entities only add words to it
+        return {**base, "state": "exact", "chosen": _record(top_s, top_r),
+                "why": "posted name matches this registered name exactly; %d sibling entity(ies) with extra words: %s"
+                       % (len(rivals), ", ".join(r[1] for r in rivals[:3])), "siblings": [r[1] for r in rivals]}
     if rivals:
         return {**base, "state": "needs_confirmation", "chosen": _record(top_s, top_r),
                 "why": "%d other live entity(ies) share the name stem: %s" % (len(rivals), ", ".join(r[1] for r in rivals[:3]))}
+    if top_s >= 0.95 and sorted(toks(top_r[1])) != sorted(q) and _same_name(q, top_r):
+        return {**base, "state": "needs_confirmation", "chosen": _record(top_s, top_r),
+                "why": "matches a former or alternate registered name; current name is " + top_r[1]}
     if top_s >= 0.95:
         return {**base, "state": "exact", "chosen": _record(top_s, top_r), "why": "single live entity with matching name"}
+    extra = [t for t in toks(top_r[1]) if t not in q]
+    if top_s >= 0.8 and extra:
+        return {**base, "state": "needs_confirmation", "chosen": _record(top_s, top_r),
+                "why": "closest registered name adds words not in the posted name: " + " ".join(extra)}
     if top_s >= 0.8:
         return {**base, "state": "likely", "chosen": _record(top_s, top_r), "why": "name differs from registered name"}
     return {**base, "state": "needs_confirmation", "chosen": _record(top_s, top_r), "why": "weak name match"}
