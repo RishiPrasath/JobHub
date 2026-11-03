@@ -1,0 +1,73 @@
+[
+  {
+    "id": "sg-admin-001",
+    "personaId": "office-admin",
+    "industry": "Administration",
+    "title": "Part Time Administrative Assistant",
+    "employer": "MODA PAOLO FOOTWEAR PTE. LTD.",
+    "url": "https://www.mycareersfuture.gov.sg/job/admin/part-time-administrative-assistant-moda-paolo-footwear-a28d036564537c1348b8943615cde3b5",
+    "sourceObserved": "Chrome public-page capture",
+    "captureStatus": "captured",
+    "sourceTextFile": "data/captures/sg-admin-001.txt"
+  },
+  {
+    "id": "sg-ai-001",
+    "personaId": "technology-digital",
+    "industry": "Technology",
+    "title": "Senior Fullstack Software Engineer",
+    "employer": "Palo IT Singapore",
+    "url": "https://www.mycareersfuture.gov.sg/job/consulting/senior-fullstack-software-engineer-palo-singapore-686dbfde45f53cf94314782eedba748a?source=MCF&event=Search",
+    "sourceObserved": "Chrome search result link",
+    "captureStatus": "search_result_only"
+  },
+  {
+    "id": "sg-health-001",
+    "personaId": "healthcare-care",
+    "industry": "Healthcare",
+    "title": "Healthcare Assistant",
+    "employer": "Thye Hua Kwan Hospital",
+    "url": "https://www.mycareersfuture.gov.sg/job/healthcare/healthcare-assistant-ang-mo-kio-thye-hua-kwan-hospital-507e8161b7faed2db4168f47573b8d52?source=MCF&event=Search",
+    "sourceObserved": "Chrome search result link",
+    "captureStatus": "search_result_only"
+  },
+  {
+    "id": "sg-logistics-001",
+    "personaId": "trade-operations",
+    "industry": "Logistics",
+    "title": "Warehouse Operator",
+    "employer": "HRnet Ventures",
+    "url": "https://www.mycareersfuture.gov.sg/job/engineering/warehouse-operator-tampines-gross-35k-hrnet-ventures-35a92bf72dba268e7ab2a5c08a2302a9?source=MCF&event=Search",
+    "sourceObserved": "Chrome search result link",
+    "captureStatus": "search_result_only"
+  },
+  {
+    "id": "sg-hospitality-001",
+    "personaId": "service-frontline",
+    "industry": "Hospitality",
+    "title": "Hotel Front Desk Receptionist",
+    "employer": "JL99 Supreme HR Advisory",
+    "url": "https://www.mycareersfuture.gov.sg/job/hotel-front-desk-receptionist-bugis-25k-jl99-supreme-hr-advisory-e60cddc8c75c69384624d3dc054dc803",
+    "sourceObserved": "Chrome search result link",
+    "captureStatus": "search_result_only"
+  },
+  {
+    "id": "sg-service-001",
+    "personaId": "service-frontline",
+    "industry": "Customer service",
+    "title": "Customer Service Executive",
+    "employer": "Natureland",
+    "url": "https://www.mycareersfuture.gov.sg/job/customer-service/customer-service-executive-natureland-care-e9377851c6fe5f7624a33c8f69022fbb",
+    "sourceObserved": "Chrome public-page attempt",
+    "captureStatus": "search_result_only"
+  },
+  {
+    "id": "sg-education-001",
+    "personaId": "career-change",
+    "industry": "Education",
+    "title": "Enrichment Teacher — English, Maths, Science",
+    "employer": "Curos Learning",
+    "url": "https://www.mycareersfuture.gov.sg/job/enrichment-teacher-english-maths-science-curos-learning-8f9e1d2884ed4bbeeb8da8077f2a0521",
+    "sourceObserved": "Chrome search result link",
+    "captureStatus": "search_result_only"
+  }
+]

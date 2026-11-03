@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JobHub V3 review report",
+  "type": "object",
+  "required": ["source", "posting", "persona", "review"],
+  "properties": {
+    "source": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {"enum": ["captured", "pasted_text", "partial", "search_result_only", "capture_unavailable"]},
+        "url": {"type": "string"},
+        "message": {"type": "string"}
+      }
+    },
+    "posting": {
+      "type": "object",
+      "required": ["title", "employer", "duties", "requirements", "missing"],
+      "properties": {
+        "title": {"type": "string"},
+        "employer": {"type": "string"},
+        "pay": {"type": "string"},
+        "arrangement": {"type": "string"},
+        "schedule": {"type": "string"},
+        "duties": {"type": "array", "items": {"type": "string"}},
+        "requirements": {"type": "array", "items": {"type": "string"}},
+        "missing": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "persona": {"type": ["object", "null"]},
+    "review": {
+      "type": "object",
+      "required": ["matches", "watchFor", "nextActions"],
+      "properties": {
+        "matches": {"type": "array", "items": {"type": "object"}},
+        "watchFor": {"type": "array", "items": {"type": "string"}},
+        "nextActions": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}

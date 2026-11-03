@@ -1,0 +1,36 @@
+{
+  "posting_id": "R4-JB-006",
+  "review_status": "human_reviewed_corrections_recorded",
+  "source_output": "outputs/R4-JB-006/model-output.json",
+  "accepted_corrections": [
+    {
+      "target": "review_coverage.employer_context",
+      "change": "set status to unknown and link claim C10",
+      "reason": "The source does not establish whether the response indicator is employer-provided or platform-derived, and it does not establish the legal employer relationship."
+    }
+  ],
+  "rejected_claims": [
+    {
+      "claim_id": "C14",
+      "reason": "The review rule about not importing Class 4 Driver qualifications is an evaluation boundary, not a contradiction within the Vehicle Mechanic posting."
+    }
+  ],
+  "reviewed_coverage_overrides": {
+    "role_identity": {"status": "unknown", "claim_ids": []},
+    "duties": {"status": "not_visible", "claim_ids": []},
+    "qualifications": {"status": "covered", "claim_ids": ["C4", "C5"]},
+    "work_conditions": {"status": "covered", "claim_ids": ["C2", "C6"]},
+    "compensation": {"status": "covered", "claim_ids": ["C3"]},
+    "compensation_rules": {"status": "unknown", "claim_ids": []},
+    "application_process": {"status": "covered", "claim_ids": ["C12", "C13"]},
+    "employer_context": {"status": "unknown", "claim_ids": ["C10"]},
+    "contradictions": {"status": "not_visible", "claim_ids": []},
+    "unknowns": {"status": "covered", "claim_ids": ["C10", "C11", "C12", "C13"]},
+    "verification_questions": {"status": "covered", "claim_ids": ["C10", "C11", "C12", "C13"]}
+  },
+  "human_notes": [
+    "Do not import Class 4 Driver facts into this role.",
+    "Do not treat normally responds within 24 hours as a guarantee.",
+    "The expiry date does not establish that hiring will close on that date."
+  ]
+}

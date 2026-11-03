@@ -1,0 +1,47 @@
+{
+  "posting_id": "R4-JB-011",
+  "claims": [
+    {
+      "claim_id": "R4-JB-011-C01",
+      "text": "The displayed pay is S$12–S$15 per hour.",
+      "state": "present",
+      "source_locator": "fixture:R4-JB-011#line-10",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "R4-JB-011-C02",
+      "text": "The role is part-time and expects 2–3 weekdays per week.",
+      "state": "present",
+      "source_locator": "fixture:R4-JB-011#line-11",
+      "source_owner": "employer",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "R4-JB-011-C03",
+      "text": "The URL, page title and body do not align cleanly.",
+      "state": "conflicting",
+      "source_locator": "fixture:R4-JB-011#contradiction",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": "Which posting identity and salary information should be treated as current?"
+    },
+    {
+      "claim_id": "R4-JB-011-C04",
+      "text": "The exact duties are not established in this captured record.",
+      "state": "unknown",
+      "source_locator": null,
+      "source_owner": "unknown",
+      "review_status": "draft",
+      "verification_question": "What are the detailed duties and required qualifications?"
+    }
+  ],
+  "decision_changing_questions": [
+    "Is the role strictly part-time, and what exact hours are available?",
+    "Which posting identity and compensation details are authoritative?",
+    "What are the detailed duties and requirements?"
+  ],
+  "external_action_allowed": false
+}

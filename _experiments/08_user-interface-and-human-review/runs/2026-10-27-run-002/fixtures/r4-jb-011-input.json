@@ -1,0 +1,30 @@
+{
+  "posting_id": "R4-JB-011",
+  "captured_at": "2026-10-19",
+  "source": {
+    "name": "Jobstreet Singapore",
+    "ownership": "mixed",
+    "context": "administrative/part-time; Alexandra Hill"
+  },
+  "evidence": {
+    "header": "Part-Time Admin Assistant ($12-$15/hr | 2-3 weekdays/week)",
+    "company": "YAN BUSINESS GROUP",
+    "pay": "$12–15/hour",
+    "schedule": "2–3 weekdays/week; hours negotiable",
+    "work_arrangement": "office/on-site",
+    "application_note": "Send resume; details explained at interview; shortlisted only.",
+    "platform_signals": ["Platform safety warning is visible.", "Report action is visible."],
+    "related_salary_teaser": "Administration Officer"
+  },
+  "contradictions": [
+    {
+      "field": "posting_identity",
+      "values": {"url_job_id": "95357572", "page_title_and_body": "Part-Time Admin Assistant"},
+      "handling": "Preserve both values; do not silently resolve the mismatch."
+    }
+  ],
+  "review_rules": [
+    "Do not treat the related salary teaser as this role's compensation.",
+    "Do not call the mismatch a scam verdict."
+  ]
+}

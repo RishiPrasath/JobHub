@@ -1,0 +1,79 @@
+{
+  "posting_id": "R4-JB-011",
+  "review_status": "human_reviewed_corrections_recorded",
+  "source_output": "outputs/R4-JB-011/model-output.json",
+  "accepted_corrections": [
+    {
+      "target": "claims",
+      "change": "add C10-C13 as explicit unknown claims",
+      "reason": "The manual review identified missing duties, employer context, rate determination and interview-process information."
+    },
+    {
+      "target": "decision_changing_questions",
+      "change": "add four questions linked to C10-C13",
+      "reason": "The posting contains decision-critical unknowns that the model failed to turn into questions."
+    },
+    {
+      "target": "review_coverage.employer_context",
+      "change": "set status to unknown and link C11",
+      "reason": "A displayed company name does not establish the legal employer or recruiter/client relationship."
+    }
+  ],
+  "rejected_claims": [],
+  "added_claims": [
+    {
+      "claim_id": "C10",
+      "text": "The actual day-to-day duties are not established in the captured record.",
+      "state": "not_visible",
+      "source_locator": null,
+      "source_owner": "unknown",
+      "review_status": "accepted",
+      "verification_question": "What are the actual duties and responsibilities of the role?"
+    },
+    {
+      "claim_id": "C11",
+      "text": "The legal employer or recruiter/client relationship is not established in the captured record.",
+      "state": "unknown",
+      "source_locator": null,
+      "source_owner": "unknown",
+      "review_status": "accepted",
+      "verification_question": "Who is the legal employer, and is YAN BUSINESS GROUP the hiring organisation or a recruiter/client reference?"
+    },
+    {
+      "claim_id": "C12",
+      "text": "The method for determining the exact hourly rate within S$12–S$15 is not stated.",
+      "state": "unknown",
+      "source_locator": null,
+      "source_owner": "unknown",
+      "review_status": "accepted",
+      "verification_question": "How is the exact hourly rate within the S$12–S$15 range determined?"
+    },
+    {
+      "claim_id": "C13",
+      "text": "The information provided and any commitment requested during or after the interview are not established.",
+      "state": "unknown",
+      "source_locator": null,
+      "source_owner": "unknown",
+      "review_status": "accepted",
+      "verification_question": "What information or commitment is requested during or after the interview?"
+    }
+  ],
+  "reviewed_coverage_overrides": {
+    "role_identity": {"status": "covered", "claim_ids": ["C1"]},
+    "duties": {"status": "not_visible", "claim_ids": ["C10"]},
+    "qualifications": {"status": "not_visible", "claim_ids": []},
+    "work_conditions": {"status": "covered", "claim_ids": ["C3", "C4"]},
+    "compensation": {"status": "covered", "claim_ids": ["C2"]},
+    "compensation_rules": {"status": "unknown", "claim_ids": ["C12"]},
+    "application_process": {"status": "covered", "claim_ids": ["C5", "C13"]},
+    "employer_context": {"status": "unknown", "claim_ids": ["C11"]},
+    "contradictions": {"status": "covered", "claim_ids": ["C7"]},
+    "unknowns": {"status": "covered", "claim_ids": ["C10", "C11", "C12", "C13"]},
+    "verification_questions": {"status": "covered", "claim_ids": ["C10", "C11", "C12", "C13"]}
+  },
+  "human_decision": {
+    "decision": "decline",
+    "rationale": "Duties, exact compensation rules, employer context and interview expectations remain insufficiently clear before submitting a resume.",
+    "not_a_legitimacy_verdict": true
+  }
+}

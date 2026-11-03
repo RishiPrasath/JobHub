@@ -1,0 +1,19 @@
+# Throwaway benchmark stack: every service bound to the internal network only.
+services:
+  crawl4ai:
+    image: unclecode/crawl4ai:latest
+    shm_size: 1gb
+    environment:
+      CRAWL4AI_API_TOKEN: bench-local-token
+    networks: [bench]
+  lightpanda:
+    image: lightpanda/browser:nightly
+    environment:
+      LIGHTPANDA_DISABLE_TELEMETRY: "true"
+    networks: [bench]
+  steel:
+    image: ghcr.io/steel-dev/steel-browser:latest
+    shm_size: 1gb
+    networks: [bench]
+networks:
+  bench: {}

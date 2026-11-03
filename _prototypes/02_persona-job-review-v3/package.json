@@ -1,0 +1,12 @@
+{
+  "name": "jobhub-persona-job-review-v3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/capture-server.mjs",
+    "check": "node --check server/capture-server.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}

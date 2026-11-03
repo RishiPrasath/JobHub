@@ -1,0 +1,51 @@
+[
+  {
+    "id": "office-admin",
+    "label": "Office and administration",
+    "description": "Admin, coordination, reception and operations support roles.",
+    "watchFor": ["daily duties", "software and tools", "schedule", "location", "pay basis", "reporting structure"],
+    "evidenceTerms": ["administration", "admin", "excel", "word", "data entry", "coordination", "telephone", "invoice", "supplier", "scheduling"]
+  },
+  {
+    "id": "technology-digital",
+    "label": "Technology and digital",
+    "description": "Software, data, product, IT and technical roles.",
+    "watchFor": ["technology stack", "ownership", "project context", "deployment and support", "on-call or overtime"],
+    "evidenceTerms": ["software", "python", "typescript", "javascript", "api", "database", "testing", "ai", "llm", "cloud"]
+  },
+  {
+    "id": "trade-operations",
+    "label": "Skilled trade and operations",
+    "description": "Drivers, technicians, warehouse, industrial and site work.",
+    "watchFor": ["licences", "equipment", "site conditions", "shift pattern", "safety", "overtime", "travel"],
+    "evidenceTerms": ["warehouse", "operator", "forklift", "equipment", "safety", "shift", "loading", "inventory", "physical", "transport"]
+  },
+  {
+    "id": "healthcare-care",
+    "label": "Healthcare and care",
+    "description": "Healthcare support, patient-facing, therapy and care roles.",
+    "watchFor": ["registration or licensing", "patient responsibilities", "shift work", "supervision", "safety", "workload"],
+    "evidenceTerms": ["healthcare", "patient", "care", "hospital", "clinic", "nursing", "medication", "safety", "shift", "caregiver"]
+  },
+  {
+    "id": "service-frontline",
+    "label": "Retail, hospitality and service",
+    "description": "Retail, hotels, food service and customer-facing roles.",
+    "watchFor": ["customer-facing duties", "weekend shifts", "sales targets", "commission", "standing", "training", "transport"],
+    "evidenceTerms": ["customer", "service", "hotel", "front desk", "retail", "sales", "commission", "guest", "cashier", "weekend"]
+  },
+  {
+    "id": "culinary-food-service",
+    "label": "Culinary and food service",
+    "description": "Chefs, cooks, kitchen operations and food-production roles.",
+    "watchFor": ["menu and food quality", "food safety", "kitchen staffing", "shift pattern", "inventory and food cost", "physical demands"],
+    "evidenceTerms": ["chef", "cook", "kitchen", "menu", "food preparation", "food safety", "hygiene", "inventory", "restaurant", "culinary"]
+  },
+  {
+    "id": "career-change",
+    "label": "Career change or early career",
+    "description": "Roles where transferable skills, training and learnable gaps matter.",
+    "watchFor": ["transferable skills", "entry requirements", "training", "actual experience required", "learnable gaps"],
+    "evidenceTerms": ["training", "learn", "entry level", "junior", "transferable", "no experience", "development", "mentor"]
+  }
+]

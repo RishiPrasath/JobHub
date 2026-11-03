@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JobHub — Posting snapshot</title>
+  <style>
+    :root { --ink:#19231f; --muted:#687771; --paper:#f5f7f4; --surface:#fff; --line:#d8e1dc; --accent:#176b5a; --accent-soft:#e5f2ed; --warning:#8b5b00; --warning-soft:#fff4d7; --danger:#9b3c31; --danger-soft:#fdeae6; --shadow:0 16px 40px rgba(25,35,31,.08); font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; color:var(--ink); background:var(--paper); }
+    * { box-sizing:border-box; } body { margin:0; background:var(--paper); } button,input,textarea { font:inherit; } button { cursor:pointer; }
+    button:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible { outline:3px solid #8bc9b7; outline-offset:2px; }
+    .topbar { background:rgba(255,255,255,.94); border-bottom:1px solid var(--line); position:sticky; top:0; z-index:2; backdrop-filter:blur(8px); }
+    .topbar-inner,main { max-width:1080px; margin:0 auto; padding:0 24px; } .topbar-inner { min-height:64px; display:flex; align-items:center; justify-content:space-between; gap:18px; }
+    .brand { display:flex; align-items:center; gap:10px; font-weight:850; letter-spacing:-.03em; } .mark { width:32px; height:32px; border-radius:9px; display:grid; place-items:center; color:#fff; background:var(--accent); } .eyebrow { color:var(--muted); text-transform:uppercase; letter-spacing:.11em; font-size:.72rem; font-weight:800; }
+    main { padding-top:36px; padding-bottom:70px; } h1,h2,h3,p { margin-top:0; } h1 { font-size:clamp(1.8rem,4vw,3rem); letter-spacing:-.06em; margin-bottom:8px; } h2 { font-size:1.3rem; letter-spacing:-.03em; margin-bottom:8px; } h3 { font-size:1rem; margin-bottom:8px; }
+    .lead { color:var(--muted); line-height:1.55; max-width:680px; margin-bottom:24px; } .card { background:var(--surface); border:1px solid var(--line); border-radius:16px; box-shadow:var(--shadow); } .intake { padding:22px; margin-bottom:24px; }
+    .intake-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; } label { display:block; color:var(--muted); font-size:.78rem; font-weight:800; margin-bottom:7px; text-transform:uppercase; letter-spacing:.08em; } input,textarea { width:100%; border:1px solid var(--line); border-radius:10px; padding:12px; background:#fcfdfc; color:var(--ink); } textarea { min-height:145px; resize:vertical; line-height:1.45; }
+    .input-note { color:var(--muted); font-size:.82rem; margin:10px 0 0; } .intake-actions { display:flex; flex-wrap:wrap; gap:9px; align-items:center; margin-top:15px; } .btn { border:1px solid var(--line); background:#fff; border-radius:9px; padding:10px 14px; font-weight:800; color:var(--ink); } .btn:hover { border-color:#99b9ad; background:#f3faf6; } .btn-primary { background:var(--accent); color:#fff; border-color:var(--accent); } .btn-primary:hover { background:#0f5648; } .btn-quiet { border-color:transparent; background:transparent; color:var(--muted); }
+    details { margin-top:14px; } summary { cursor:pointer; color:var(--muted); font-weight:800; } .profile textarea { min-height:75px; margin-top:10px; }
+    .demo-note { color:var(--muted); font-size:.84rem; margin:0; } .status { display:inline-flex; align-items:center; border-radius:999px; padding:5px 9px; font-size:.76rem; font-weight:850; white-space:nowrap; } .status.good { color:#0e584a; background:var(--accent-soft); border:1px solid #b7dfd1; } .status.warn { color:#704d00; background:var(--warning-soft); border:1px solid #efd59a; } .status.alert { color:#8b2e24; background:var(--danger-soft); border:1px solid #e4b8b1; }
+    .report { overflow:hidden; } .report-header { padding:23px 24px; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; align-items:flex-start; gap:15px; } .report-header p { color:var(--muted); margin-bottom:0; line-height:1.5; } .report-body { padding:0 24px; } .report-section { padding:23px 0; border-bottom:1px solid var(--line); } .report-section:last-child { border-bottom:0; } .section-head { display:flex; justify-content:space-between; align-items:flex-start; gap:12px; } .section-copy { color:var(--muted); line-height:1.5; margin-bottom:15px; }
+    .facts { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; } .fact { border:1px solid var(--line); border-radius:10px; padding:12px; background:#fcfdfc; } .fact strong { display:block; font-size:.88rem; margin-bottom:4px; } .fact span { color:var(--muted); font-size:.85rem; line-height:1.4; } .bullets { margin:0; padding-left:20px; line-height:1.6; } .bullets li + li { margin-top:5px; }
+    .callout { border-radius:11px; padding:13px 15px; line-height:1.5; } .callout.warn { background:var(--warning-soft); border:1px solid #efd59a; color:#654500; } .callout.alert { background:var(--danger-soft); border:1px solid #e4b8b1; color:#742e26; } .callout.good { background:var(--accent-soft); border:1px solid #b7dfd1; color:#0e584a; } .muted { color:var(--muted); }
+    .raw { padding:0 24px 23px; } .raw pre { margin:12px 0 0; white-space:pre-wrap; background:#18211f; color:#e8f2ee; border-radius:10px; padding:14px; max-height:280px; overflow:auto; line-height:1.5; font-size:.82rem; } .footer { color:var(--muted); font-size:.8rem; margin-top:17px; line-height:1.5; }
+    .hidden { display:none; } @media (max-width:700px) { .topbar-inner,main { padding-left:16px; padding-right:16px; } .topbar-inner { align-items:flex-start; padding-top:14px; padding-bottom:14px; } .intake-grid,.facts { grid-template-columns:1fr; } .report-header { flex-direction:column; } .report-body,.raw { padding-left:18px; padding-right:18px; } .intake { padding:18px; } }
+  </style>
+</head>
+<body>
+  <header class="topbar"><div class="topbar-inner"><div class="brand"><span class="mark">J</span><span>JobHub</span></div><span class="eyebrow">Posting snapshot</span></div></header>
+  <main>
+    <div class="eyebrow">One posting at a time</div>
+    <h1>Understand the job before you spend time on it.</h1>
+    <p class="lead">Paste the posting or give us a link. JobHub pulls out the details that help you decide whether the role is worth a closer look.</p>
+
+    <section class="card intake" aria-labelledby="intake-title">
+      <h2 id="intake-title">Bring a job posting</h2>
+      <div class="intake-grid">
+        <div><label for="urlInput">Job posting link <span class="muted">(optional)</span></label><input id="urlInput" type="url" placeholder="https://…"><p class="input-note">Link capture is best-effort. If a site blocks access, paste the text instead.</p></div>
+        <div><label for="textInput">Posting text</label><textarea id="textInput" placeholder="Paste the job title, duties, requirements and pay here…"></textarea></div>
+      </div>
+      <details class="profile"><summary>Compare with my skills (optional)</summary><textarea id="skillsInput" placeholder="e.g. administration, Excel, customer service, scheduling"></textarea></details>
+      <div class="intake-actions"><button class="btn btn-primary" id="analyzeBtn" type="button">Show me the details</button><button class="btn btn-quiet" id="exampleBtn" type="button">Try the example</button><span class="demo-note" id="inputStatus" role="status"></span></div>
+    </section>
+
+    <section class="card report" id="report" aria-live="polite"></section>
+    <p class="footer">Prototype boundary: this is an extraction and decision aid, not a hiring, fit or scam verdict. Link capture and LLM extraction are tested separately in <code>capture-and-extract.mjs</code>.</p>
+  </main>
+  <script>
+    const exampleText = `Part-Time Admin Assistant\nYAN BUSINESS GROUP\nPay: S$12–S$15 per hour. Hours negotiable.\nPart-time, 2–3 weekdays per week. Office/on-site.\nSend resume. Details explained at interview. Shortlisted candidates only.\nA related salary teaser mentions Administration Officer.\nThe day-to-day duties, exact rate determination and legal employer relationship are not stated.`;
+    const state = { text: exampleText, url: "", skills: "administration, Excel, scheduling, customer service", example: true };
+    const escapeHtml = value => String(value ?? "").replace(/[&<>'"]/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[char]));
+    const list = value => [...new Set(value.filter(Boolean).map(item => item.trim()).filter(Boolean))];
+    const find = (text, pattern, fallback = "Not stated") => text.match(pattern)?.[0]?.trim() || fallback;
+    function parsePosting(text, skills) {
+      const clean = text.replace(/\r/g, "").trim(); const lines = clean.split(/\n+/).map(line => line.trim()).filter(Boolean); const lower = clean.toLowerCase();
+      const title = lines[0] || "Role title not stated"; const employer = lines[1] && !/pay:|salary|hours|part-time|full-time|send resume/i.test(lines[1]) ? lines[1] : "Employer not clearly stated";
+      const pay = find(clean, /(?:s\$|\$)\s?[\d,]+(?:\s*[–-]\s*(?:s\$|\$)?\s?[\d,]+)?\s*(?:per hour|hourly|monthly|per month)?/i);
+      const arrangement = find(clean, /(?:office\/on-site|on-site|hybrid|remote|work from home)/i);
+      const schedule = find(clean, /(?:part-time|full-time|temporary|contract|\d+\s*(?:day|days|weekday|weekdays|hours?)\s*(?:per week|a week)?[^.\n]*)/i);
+      const labeled = labels => [...clean.matchAll(new RegExp(`(?:^|\\n)\\s*(?:${labels})\\s*[:\\-]\\s*([^\\n.]+)`, "gim"))].map(match => match[1]);
+      const duties = list(labeled("dut(?:y|ies)|responsibilit(?:y|ies)|you\\s+will|role\\s+involves"));
+      const requirements = list(labeled("requirements?|qualifications?|experience|skills?"));
+      const conditions = list([schedule, arrangement].filter(item => item !== "Not stated"));
+      const compensation = list([pay !== "Not stated" ? pay : "Pay not stated", /allowance|overtime|bonus|kpi|commission/i.test(lower) ? "Additional pay conditions are mentioned." : "" ]);
+      const missing = []; if (!duties.length) missing.push("Day-to-day duties are not clearly described."); if (!requirements.length) missing.push("Required skills or qualifications are not clearly described."); if (pay === "Not stated") missing.push("Compensation is not stated."); if (/details explained at interview|explained at interview/i.test(lower)) missing.push("Important role details are deferred to the interview."); if (employer === "Employer not clearly stated") missing.push("The legal employer is not clearly established.");
+      const checks = []; if (/details explained at interview|shortlisted only/i.test(lower)) checks.push("Ask what the actual duties and interview process are before committing."); if (/whatsapp|telegram|pay.*fee|fee.*pay|guaranteed job|no experience required/i.test(lower)) checks.push("The posting contains a signal worth verifying before sharing information or paying anything."); if (pay === "Not stated") checks.push("Confirm the pay, payment basis and any conditions."); if (!checks.length) checks.push("Confirm any important detail that is not explicit in the captured text.");
+      const skillList = list(skills.split(/[,;\n]+/)); const requirementText = `${requirements.join(" ")} ${duties.join(" ")}`.toLowerCase(); const matched = skillList.filter(skill => skill && requirementText.includes(skill.toLowerCase()));
+      const fitStatus = !skillList.length ? "not_enough_information" : matched.length ? "appears_relevant" : requirements.length ? "unclear" : "not_enough_information";
+      return { title, employer, pay, arrangement, schedule, duties, requirements, conditions, compensation, missing, checks, skillList, matched, fitStatus, text: clean };
+    }
+    const statusLabel = { appears_relevant: "Appears relevant", partially_relevant: "Partially relevant", unclear: "Unclear", not_enough_information: "Not enough information" };
+    function renderReport(data) {
+      const fitClass = data.fitStatus === "appears_relevant" ? "good" : "warn";
+      const fitText = data.skillList.length ? `${data.matched.length ? `Matched skills: ${data.matched.join(", ")}.` : "No direct skill match was established from the posting."} This is a comparison, not a hiring prediction.` : "Add your skills above if you want a comparison.";
+      const facts = [["Role", data.title], ["Employer", data.employer], ["Pay", data.pay], ["Work setup", data.arrangement], ["Schedule", data.schedule], ["Capture", data.url || "Pasted text"]];
+      const listHtml = items => items.length ? `<ul class="bullets">${items.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : `<p class="muted">Not clearly stated in the posting.</p>`;
+      document.getElementById("report").innerHTML = `<div class="report-header"><div><div class="eyebrow">Your posting snapshot${state.example ? " · example" : ""}</div><h2>${escapeHtml(data.title)}</h2><p>${escapeHtml(data.employer)} · ${escapeHtml(data.schedule)}</p></div><span class="status ${data.missing.length ? "warn" : "good"}">${data.missing.length ? "Some details missing" : "Details captured"}</span></div><div class="report-body"><section class="report-section"><div class="section-head"><h3>The basics</h3></div><div class="facts">${facts.map(([label,value]) => `<div class="fact"><strong>${escapeHtml(label)}</strong><span>${escapeHtml(value)}</span></div>`).join("")}</div></section><section class="report-section"><h3>What you would be doing</h3><p class="section-copy">The work described or implied by the posting.</p>${listHtml(data.duties)}</section><section class="report-section"><h3>What they are looking for</h3>${listHtml(data.requirements)}</section><section class="report-section"><h3>What you get</h3>${listHtml(data.conditions.concat(data.compensation))}</section><section class="report-section"><div class="section-head"><h3>Does it match your skills?</h3><span class="status ${fitClass}">${statusLabel[data.fitStatus]}</span></div><p class="section-copy">${escapeHtml(fitText)}</p></section><section class="report-section"><h3>What is still unclear</h3>${data.missing.length ? `<div class="callout warn"><ul class="bullets">${data.missing.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul></div>` : `<div class="callout good">The main details are visible in this capture. You may still want to verify anything important before applying.</div>`}</section><section class="report-section"><h3>Potential concerns to verify</h3><p class="section-copy">These are signals or gaps in the posting—not a verdict about the employer.</p><div class="callout alert"><ul class="bullets">${data.checks.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul></div></section><section class="report-section"><h3>What do you want to do?</h3><div class="intake-actions"><button class="btn btn-primary" data-decision="interested">Keep exploring</button><button class="btn" data-decision="investigate">Check the missing details</button><button class="btn btn-quiet" data-decision="decline">Move on</button></div><p class="input-note" id="decisionNote">This is your decision. JobHub is not making it for you.</p></section></div><div class="raw"><details><summary>View the captured posting text</summary><pre>${escapeHtml(data.text)}</pre></details></div>`;
+      document.querySelectorAll("[data-decision]").forEach(button => button.addEventListener("click", () => { document.getElementById("decisionNote").textContent = `You chose: ${button.textContent}. No external action was taken.`; }));
+    }
+    function analyze() { state.text = document.getElementById("textInput").value.trim(); state.url = document.getElementById("urlInput").value.trim(); state.skills = document.getElementById("skillsInput").value.trim(); state.example = false; if (!state.text) { document.getElementById("inputStatus").textContent = state.url ? "Link capture is handled by the Playwright runner for this prototype. Paste the captured text here to view the report." : "Paste the job posting text first."; document.getElementById("textInput").focus(); return; } document.getElementById("inputStatus").textContent = "Report updated from the pasted posting."; renderReport(parsePosting(state.text, state.skills)); }
+    function loadExample() { state.example = true; document.getElementById("textInput").value = exampleText; document.getElementById("urlInput").value = ""; document.getElementById("skillsInput").value = state.skills; document.getElementById("inputStatus").textContent = "Example loaded."; renderReport(parsePosting(exampleText, state.skills)); }
+    document.getElementById("textInput").value = exampleText; document.getElementById("skillsInput").value = state.skills; document.getElementById("analyzeBtn").addEventListener("click", analyze); document.getElementById("exampleBtn").addEventListener("click", loadExample); renderReport(parsePosting(exampleText, state.skills));
+  </script>
+</body>
+</html>

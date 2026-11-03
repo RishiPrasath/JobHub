@@ -1,0 +1,13 @@
+{
+  "name": "jobhub-paste-and-capture-v2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "capture": "node capture-and-extract.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "openai": "^6.0.0",
+    "playwright": "^1.55.0"
+  }
+}
