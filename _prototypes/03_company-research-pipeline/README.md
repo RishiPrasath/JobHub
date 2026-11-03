@@ -81,15 +81,16 @@ Checks (run inside the container, see `tests/`): `acra_personas.py` resolves the
 4. **Failure keeps serving.** A failed download or check is recorded as `last_error` in `/status`; the old copy keeps serving; it retries after `ACRA_RETRY_MINUTES` (30), or every 1 to 15 minutes while there is nothing to serve yet. Downloads resume: finished files are kept, and files are written as `.part` and renamed so a crash never leaves a half file that looks complete.
 5. **Checks before going live.** Row counts agree, at least `ACRA_MIN_ROWS`, no more than a 10% drop from the last index, a test lookup works, every file has the expected columns, and the release did not change during the download. The disk needs `ACRA_MIN_FREE_GB` (1.5) free before a refresh starts.
 6. **Age is visible.** `/status` shows `registry_as_of`, `age_days`, `stale` (older than `ACRA_MAX_AGE_DAYS`, 45), request counters and latency. Every `/resolve` answer carries `registry_as_of` and `registry_stale`.
-7. **Protected against bad input.** Names and hints over 200 characters get 400 (one 5,000-character name used to run the container out of memory), lookups are read-only, abort after 8 s (504), at most `ACRA_MAX_CONCURRENT` (16) run at once (else 503), all errors are JSON, and the container has a 1.5 GB memory limit, a process limit and a clean SIGTERM shutdown.
+7. **Self-test, nightly and after every refresh** (`pipeline/selftest.py`). It looks up 12 long-lived companies by name and by registry ID, checks that a nonsense name is not matched and that a statutory board is recognised as a public body, and checks entity counts, the live-company share, lookup speed, release age and free disk. The result is in `/status` (`selftest`) and `/health` (`degraded`); `GET /selftest` runs it on demand (about 0.3 s). It runs when the first index appears, then at 18:00 UTC (02:00 Singapore, `ACRA_SELFTEST_HOUR_UTC`). If an index fails it right after a refresh and the previous index passes, the service switches back to the previous index, records why in `last_error`, and skips that release until ACRA publishes the next one. A canary company can legitimately change (a rename or merger): the name check passes at 80%, and the failing names are listed so a canary can be retired in `selftest.py`.
+8. **Protected against bad input.** Names and hints over 200 characters get 400 (one 5,000-character name used to run the container out of memory), lookups are read-only, abort after 8 s (504), at most `ACRA_MAX_CONCURRENT` (16) run at once (else 503), all errors are JSON, and the container has a 1.5 GB memory limit, a process limit and a clean SIGTERM shutdown.
 
 ```bash
 curl localhost:8090/status
 curl 'localhost:8090/resolve?name=Palo+IT+Singapore'
-python tests/registry_probe.py      # 24 probes: bad inputs and a 400-request load test
+python tests/registry_probe.py      # 25 probes: bad inputs, the self-test endpoint, and a 400-request load test
 ```
 
 Disk: about 0.9 GB at rest (the live index and the previous one) and about 1.7 GB while a refresh runs. A company registered after the latest ACRA release will not be found until the next release, which is why answers carry the registry date. The pre-existing `acra_csv` folder from the older CLI flow is not removed automatically.
 
-Failure-path tests: `tests/registry_stubs.py` (release changes mid-download, low disk, wrong file format, index too small).
+Failure-path tests: `tests/registry_stubs.py` (release changes mid-download, low disk, wrong file format, index too small) and `tests/selftest_stubs.py` (bad index detected, corrupt file, rollback, rejected release skipped, no previous index).
 

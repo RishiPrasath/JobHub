@@ -59,6 +59,7 @@ probe("path traversal", "/../../etc/passwd", (404, 400))
 probe("POST to /resolve", "/resolve?name=x", (404, 405, 501), method="POST")
 probe("/status", "/status", (200,))
 probe("/health", "/health", (200, 503))
+probe("/selftest (runs 12 canary lookups)", "/selftest", (200, 503), max_seconds=15)
 
 print("--- load: 400 lookups, 20 at a time")
 names = ["Randstad Pte Limited", "Singapore Telecommunications Limited", "Kyndryl Singapore", "Natureland Care", "Palo IT Singapore",

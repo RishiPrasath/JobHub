@@ -11,14 +11,19 @@ the server down. A failed refresh leaves the working copy serving. Downloads res
     GET /health   200 once an index is usable, 503 while the first one is being built
     GET /status   release dates, entity count, age, phase and progress, last error, request counters
     GET /resolve?name=...&uen=...&hint=...
+    GET /selftest run the self-test now and return every check (also runs nightly and after each refresh)
+
+The self-test looks up well-known companies by name and by registry ID, checks that nonsense is not matched and
+that public bodies are recognised, and checks speed, counts, age and disk. If a freshly built index fails it and the
+previous index passes, the service switches back to the previous index and skips that release.
 """
 import json, os, shutil, signal, sqlite3, subprocess, sys, threading, time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
-from . import acra
+from . import acra, selftest
 
 try:
     import fcntl
@@ -33,8 +38,9 @@ SHRINK_LIMIT = 0.9                                                      # new in
 MAX_CONCURRENT = int(os.environ.get("ACRA_MAX_CONCURRENT", "16"))       # simultaneous lookups; more get a 503
 MIN_FREE_GB = float(os.environ.get("ACRA_MIN_FREE_GB", "1.5"))          # a refresh needs about this much free space beyond the live copies
 WORKER_TIMEOUT_MIN = float(os.environ.get("ACRA_WORKER_TIMEOUT_MIN", "90"))
+SELFTEST_HOUR_UTC = float(os.environ.get("ACRA_SELFTEST_HOUR_UTC", "18"))   # 18:00 UTC is 02:00 in Singapore
 
-_state = {"phase": "starting", "last_check": None, "last_error": None, "worker_pid": None}
+_state = {"phase": "starting", "last_check": None, "last_error": None, "worker_pid": None, "selftest": None}
 _stats = {"requests": 0, "ok": 0, "client_errors": 0, "server_errors": 0, "busy": 0, "timeouts": 0, "ms_total": 0.0, "ms_max": 0.0}
 _stats_lock = threading.Lock()
 _slots = threading.BoundedSemaphore(MAX_CONCURRENT)
@@ -144,6 +150,8 @@ def refresh(data, force=False):
         cur = current(data)
         if cur and not force and cur["as_of"] == remote["updated_at"]:
             return "up_to_date"
+        if cur and not force and cur.get("rejected") == remote["updated_at"]:
+            return "rejected_release"
         stamp = remote["updated_at"][:10]
         staging = work / ("staging-" + stamp)                 # kept across failures so a retry resumes
         for old in work.glob("staging-*"):
@@ -179,7 +187,9 @@ def refresh(data, force=False):
             building.unlink(missing_ok=True)
             shutil.rmtree(staging, ignore_errors=True)       # do not resume from files that produced a bad index
             raise
-        _write_json_atomic(_pointer(data), {"db": db_name, "as_of": remote["updated_at"], "built_at": _now(), "rows": rows})
+        previous = {k: cur[k] for k in ("db", "as_of", "built_at", "rows")} if cur and cur["db"].startswith("registry/") else None
+        _write_json_atomic(_pointer(data), {"db": db_name, "as_of": remote["updated_at"], "built_at": _now(), "rows": rows,
+                                            "previous": previous})
         shutil.rmtree(staging, ignore_errors=True)
         (data / "acra.sqlite").unlink(missing_ok=True)       # index from the older CLI flow, now superseded
         keep = {db_name, (cur or {}).get("db")}
@@ -190,6 +200,45 @@ def refresh(data, force=False):
         return "refreshed"
     finally:
         lock.close()
+
+
+def run_selftest(data, db=None):
+    """Self-test the live index (or the given one) and remember the result."""
+    cur = current(data)
+    if not cur:
+        return None
+    res = selftest.run(db or (Path(data) / cur["db"]), data, cur.get("as_of"), MIN_ROWS, MAX_AGE_DAYS, MIN_FREE_GB)
+    if db is None:
+        _state["selftest"] = res
+        try:
+            _write_json_atomic(Path(data) / "registry" / "selftest.json", res)
+        except OSError:
+            pass
+        if not res["ok"]:
+            print("self-test FAILED:", [c["name"] + ": " + c["detail"][:160] for c in res["checks"] if not c["ok"] and c["level"] == "fail"], flush=True)
+    return res
+
+
+def verify_after_refresh(data):
+    """Self-test the index a refresh just made live. If it fails and the previous index passes, switch back to it
+    and skip that release. Returns 'ok', 'rolled_back', or 'failed' (nothing better to serve)."""
+    data = Path(data)
+    res = run_selftest(data)
+    if res is None or res["ok"]:
+        return "ok"
+    failed = "; ".join(c["name"] + ": " + c["detail"] for c in res["checks"] if not c["ok"] and c["level"] == "fail")
+    try:
+        ptr = json.loads(_pointer(data).read_text(encoding="utf-8"))
+    except Exception:
+        ptr = {}
+    prev = ptr.get("previous")
+    if not prev or not (data / prev["db"]).exists() or not selftest.run(data / prev["db"], data, prev.get("as_of"), MIN_ROWS, MAX_AGE_DAYS, MIN_FREE_GB)["ok"]:
+        _state["last_error"] = "new index failed the self-test and there is no passing previous index: " + failed[:240]
+        return "failed"
+    _write_json_atomic(_pointer(data), {**prev, "previous": None, "rejected": ptr.get("as_of")})
+    _state["last_error"] = "rolled back to the previous index; the new one failed the self-test: " + failed[:240]
+    run_selftest(data)
+    return "rolled_back"
 
 
 def status(data):
@@ -203,6 +252,9 @@ def status(data):
             age = (datetime.now(timezone.utc) - datetime.fromisoformat(cur["as_of"])).days
             out.update(age_days=age, stale=age > MAX_AGE_DAYS)
     out["worker_running"] = _state.get("worker_pid") is not None
+    st = _state.get("selftest")
+    out["selftest"] = None if not st else {"ran_at": st["ran_at"], "ok": st["ok"], "warnings": st.get("warnings", []),
+                                           "failed": [c["name"] for c in st["checks"] if not c["ok"] and c["level"] == "fail"]}
     if _state["phase"] in ("bootstrapping", "refreshing"):
         try:
             out["progress"] = json.loads(_progress_file(data).read_text(encoding="utf-8"))
@@ -258,7 +310,31 @@ def _maintain(data):
             backoff = 60
             wait = CHECK_HOURS * 3600
             print("registry check:", result, flush=True)
+            if result == "refreshed":
+                print("self-test after refresh:", verify_after_refresh(data), flush=True)
+            elif result == "rejected_release":
+                _state["last_error"] = "the latest ACRA release failed the self-test earlier and is being skipped"
         _stop.wait(wait)
+
+
+def _seconds_until_hour(hour_utc):
+    now = datetime.now(timezone.utc)
+    target = now.replace(hour=int(hour_utc), minute=int((hour_utc % 1) * 60), second=0, microsecond=0)
+    if target <= now:
+        target += timedelta(days=1)
+    return (target - now).total_seconds()
+
+
+def _selftest_loop(data):
+    """Self-test once when an index first exists, then every night."""
+    while not _stop.is_set() and current(data) is None:
+        _stop.wait(10)
+    if not _stop.is_set() and _state["selftest"] is None:
+        run_selftest(data)
+    while not _stop.is_set():
+        _stop.wait(_seconds_until_hour(SELFTEST_HOUR_UTC))
+        if not _stop.is_set():
+            run_selftest(data)
 
 
 def _bump(key, ms=None):
@@ -275,6 +351,8 @@ def serve(data, port=8090):
     data.mkdir(parents=True, exist_ok=True)
     worker = threading.Thread(target=_maintain, args=(data,), daemon=True)
     worker.start()
+    threading.Thread(target=_selftest_loop, args=(data,), daemon=True).start()
+    selftest_lock = threading.Lock()
 
     class H(BaseHTTPRequestHandler):
         protocol_version = "HTTP/1.1"
@@ -296,7 +374,18 @@ def serve(data, port=8090):
             q = {k: v[0] for k, v in parse_qs(u.query, max_num_fields=20).items()}
             ready = current(data) is not None
             if u.path == "/health":
-                return self._send(200 if ready else 503, {"ok": ready, "phase": _state["phase"]})
+                st = _state.get("selftest")
+                return self._send(200 if ready else 503, {"ok": ready, "phase": _state["phase"],
+                                                          "degraded": bool(st and not st["ok"])})
+            if u.path == "/selftest":
+                if not ready:
+                    return self._send(503, {"error": "registry is being provisioned"})
+                if not selftest_lock.acquire(blocking=False):
+                    return self._send(429, {"error": "a self-test is already running"}, {"Retry-After": "5"})
+                try:
+                    return self._send(200, run_selftest(data))
+                finally:
+                    selftest_lock.release()
             if u.path == "/status":
                 return self._send(200, status(data))
             if u.path != "/resolve":
