@@ -15,13 +15,13 @@ employer name (+ optional UEN or name hint from the posting)
 
 ```bash
 docker compose build
-docker compose run --rm pipeline acra-update
+docker compose up -d registry          # first start provisions the current ACRA release by itself (see below)
 docker compose run --rm pipeline resolve "Palo IT Singapore"
 docker compose run --rm pipeline batch-resolve /samples/postings.json /data/out.json
 docker compose run --rm pipeline research "Palo IT Singapore" --site https://www.palo-it.com/
 ```
 
-- `acra-update` downloads about 641 MB from data.gov.sg and builds the index. It is slow on purpose (it waits out the API's 429 limit) and only needs repeating when you want fresher registry data. The data lives in the `acra-data` Docker volume, not in the image.
+- The registry data lives in the `acra-data` Docker volume, never in the image or the repo. `acra-update` forces a fresh download and switch by hand; `acra-status` compares the local copy with ACRA's published release.
 - `research` needs `GROQ_API_KEY` in the repo-root `.env` (git-ignored). Compose passes it in as environment variables. Only public company pages are sent to Groq.
 
 ## Local search: SearXNG in Docker (default), DuckDuckGo as last resort
@@ -70,3 +70,19 @@ Pass `--uen` when the posting shows one, and `--hint` for a name taken from the 
 | `unresolved` | Nothing in the registry contains the name |
 
 Checks (run inside the container, see `tests/`): `acra_personas.py` resolves the persona-run employers by persona; `acra_random_names.py` and `acra_shortened_names.py` test 300 and 211 registry names that were not used for tuning.
+
+## Registry service: self-provisioning and self-refreshing (`pipeline/registry.py`)
+
+`docker compose up -d registry` starts a small HTTP service on `127.0.0.1:8090`.
+
+1. **Provision on start.** It asks data.gov.sg when the ACRA collection was last updated and compares that with the copy in the volume. With no copy (first provision) it downloads all 27 files (about 641 MB; slow on purpose because the API rate-limits), builds the index, checks it, and only then goes live. Until then `/health` returns 503 and `/resolve` says it is being provisioned.
+2. **Refresh while running.** Every `ACRA_CHECK_HOURS` (default 24) it repeats the cheap timestamp check. When ACRA publishes a new release (monthly) it builds a new index beside the live one, checks it, and switches by rewriting `registry.json`. Requests in flight keep working; the previous index is kept until the next refresh.
+3. **Failure keeps serving.** A failed download or a failed check (row counts disagree, fewer than `ACRA_MIN_ROWS`, or a shrink of more than 10%) is recorded in `/status` as `last_error`, the old copy keeps serving, and it retries after `ACRA_RETRY_MINUTES` (default 30).
+4. **Age is visible.** `/status` shows `registry_as_of`, `age_days` and `stale` (older than `ACRA_MAX_AGE_DAYS`, default 45). Every `/resolve` answer carries `registry_as_of` and `registry_stale`.
+
+```bash
+curl localhost:8090/status
+curl 'localhost:8090/resolve?name=Palo+IT+Singapore'
+```
+
+Disk: about 1.5 GB is used while a refresh is in progress (downloaded files plus old and new index); about 0.4 GB at rest. A company registered after the latest ACRA release will not be found until the next release, which is why answers carry the registry date.

@@ -18,11 +18,11 @@ def _get(url, timeout=60):
     return urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=timeout)
 
 
-def download(csv_dir):
+def download(csv_dir, ids=None):
     """Download every ACRA entity CSV; honours the 429 'retry in 10 seconds' limit."""
     csv_dir = Path(csv_dir)
     csv_dir.mkdir(parents=True, exist_ok=True)
-    ids = json.load(_get(META))["data"]["collectionMetadata"]["childDatasets"]
+    ids = ids or json.load(_get(META))["data"]["collectionMetadata"]["childDatasets"]
     for i in ids:
         dest = csv_dir / f"{i}.csv"
         if dest.exists():

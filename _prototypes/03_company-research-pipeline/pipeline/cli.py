@@ -2,16 +2,19 @@
 import argparse, json, os, urllib.parse
 from pathlib import Path
 
-from . import acra, extract, pagefetch, sitecache, wayback, websearch
+from . import acra, extract, pagefetch, registry, sitecache, wayback, websearch
 
 DATA = Path(os.environ.get("JOBHUB_DATA", "data"))
-DB = DATA / "acra.sqlite"
+DB = registry.db_path(DATA)          # the live index named by $JOBHUB_DATA/registry.json (or an older acra.sqlite)
 
 
 def main():
     ap = argparse.ArgumentParser(prog="pipeline")
     sub = ap.add_subparsers(dest="cmd", required=True)
-    sub.add_parser("acra-update", help="download ACRA CSVs and rebuild the index")
+    sub.add_parser("acra-update", help="download the current ACRA release and switch to a new index (same logic the service uses)")
+    sub.add_parser("acra-status", help="compare the local registry copy with ACRA's published release")
+    sv = sub.add_parser("serve", help="registry service: provisions the current ACRA data on start, refreshes on a schedule")
+    sv.add_argument("--port", type=int, default=8090)
     sub.add_parser("acra-index", help="rebuild the index from CSVs already in $JOBHUB_DATA/acra_csv")
     r = sub.add_parser("resolve")
     r.add_argument("employer")
@@ -74,10 +77,13 @@ def main():
                           "search_note": found.get("note"), "unresponsive_engines": found.get("unresponsive_engines"), "candidates": checked}, indent=1))
         return
     if a.cmd == "acra-update":
-        print("csv files:", acra.download(DATA / "acra_csv"))
-        print("rows indexed:", acra.build_index(DATA / "acra_csv", DB))
+        print(registry.refresh(DATA, force=True))
+    elif a.cmd == "acra-status":
+        print(json.dumps({"local": registry.status(DATA), "published": registry.remote_release() | {"ids": "..."}}, indent=1))
+    elif a.cmd == "serve":
+        registry.serve(DATA, a.port)
     elif a.cmd == "acra-index":
-        print("rows indexed:", acra.build_index(DATA / "acra_csv", DB))
+        print("rows indexed:", acra.build_index(DATA / "acra_csv", DATA / "acra.sqlite"))
     elif a.cmd == "resolve":
         print(json.dumps(acra.resolve(DB, a.employer, a.uen, a.hint), indent=1))
     elif a.cmd == "batch-resolve":

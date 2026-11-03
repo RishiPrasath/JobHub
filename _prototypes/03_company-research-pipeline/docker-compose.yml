@@ -1,6 +1,8 @@
 # Usage (from this folder):
 #   docker compose build
-#   docker compose run --rm pipeline acra-update          # one-off: ~641 MB of ACRA data + index (slow: data.gov.sg rate limits)
+#   docker compose up -d registry                         # provisions the current ACRA release by itself (~641 MB download, several minutes), then keeps it fresh
+#   curl localhost:8090/status ; curl 'localhost:8090/resolve?name=Palo+IT+Singapore'
+#   docker compose run --rm pipeline acra-status          # compare the local copy with ACRA's published release
 #   docker compose run --rm pipeline resolve "Palo IT Singapore"
 #   docker compose run --rm pipeline find-site "Curos Learning"     # starts the local SearXNG automatically
 #   docker compose run --rm pipeline research "Palo IT Singapore" --site https://www.palo-it.com/
@@ -16,6 +18,30 @@ services:
       - ./searxng/settings.yml:/etc/searxng/settings.yml:ro
     cap_drop: [ALL]
     cap_add: [CHOWN, SETGID, SETUID]
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+
+  registry:                      # ACRA registry service: nothing baked in; provisions the current release on first start, then refreshes
+    build: .
+    image: jobhub-company-research:dev
+    command: ["serve"]
+    ports:
+      - "127.0.0.1:8090:8090"    # localhost only
+    environment:
+      ACRA_CHECK_HOURS: ${ACRA_CHECK_HOURS:-24}       # how often to compare with ACRA's published release (cheap); it refreshes only when that changed
+    volumes:
+      - acra-data:/data
+    healthcheck:                 # unhealthy until the first index exists (first provision takes several minutes)
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8090/health', timeout=5)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40m
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop: [ALL]
     security_opt:
       - no-new-privileges:true
     restart: unless-stopped
