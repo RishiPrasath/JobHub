@@ -2,7 +2,7 @@
 import argparse, json, os, urllib.parse
 from pathlib import Path
 
-from . import acra, extract, pagefetch, registry, sitecache, wayback, websearch
+from . import acra, check as checker, extract, pagefetch, registry, sitecache, wayback, websearch
 
 DATA = Path(os.environ.get("JOBHUB_DATA", "data"))
 DB = registry.db_path(DATA)          # the live index named by $JOBHUB_DATA/registry.json (or an older acra.sqlite)
@@ -21,6 +21,14 @@ def main():
     r.add_argument("employer")
     r.add_argument("--uen")
     r.add_argument("--hint")
+    ck = sub.add_parser("check", help="does this employer exist in the registry, and is it the entity named?")
+    ck.add_argument("employer")
+    ck.add_argument("--uen")
+    ck.add_argument("--url", help="a company-page or job URL; a registry ID in it is used as a cross-check")
+    ck.add_argument("--hint")
+    cp = sub.add_parser("check-postings", help="run the existence check over a JSON list of {id, employer, uen?, url?, text?}")
+    cp.add_argument("postings_json")
+    cp.add_argument("out_json")
     b = sub.add_parser("batch-resolve")
     b.add_argument("postings_json")
     b.add_argument("out_json")
@@ -81,6 +89,15 @@ def main():
         print(registry.refresh(DATA, force=not a.if_changed))
     elif a.cmd == "acra-status":
         print(json.dumps({"local": registry.status(DATA), "published": registry.remote_release() | {"ids": "..."}}, indent=1))
+    elif a.cmd == "check":
+        print(json.dumps(checker.check(DB, a.employer, a.uen, a.hint, a.url), indent=1, ensure_ascii=False))
+    elif a.cmd == "check-postings":
+        out = []
+        for p in json.loads(Path(a.postings_json).read_text(encoding="utf-8")):
+            r = checker.check(DB, p["employer"], p.get("uen"), p.get("hint"), p.get("url"), p.get("text"))
+            out.append({"id": p.get("id"), **r})
+            print(p.get("id"), r["verdict"], "|", p["employer"], "->", (r["entity"] or r["closest"] or {}).get("name", "-"))
+        Path(a.out_json).write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding="utf-8")
     elif a.cmd == "serve":
         registry.serve(DATA, a.port)
     elif a.cmd == "acra-index":

@@ -11,6 +11,7 @@ the server down. A failed refresh leaves the working copy serving. Downloads res
     GET /health   200 once an index is usable, 503 while the first one is being built
     GET /status   release dates, entity count, age, phase and progress, last error, request counters
     GET /resolve?name=...&uen=...&hint=...
+    GET /check?name=...&uen=...&url=...   posting-level answer: does this employer exist and is it the entity named
     GET /selftest run the self-test now and return every check (also runs nightly and after each refresh)
 
 The self-test looks up well-known companies by name and by registry ID, checks that nonsense is not matched and
@@ -23,7 +24,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
-from . import acra, selftest
+from . import acra, check as checker, selftest
 
 try:
     import fcntl
@@ -388,13 +389,16 @@ def serve(data, port=8090):
                     selftest_lock.release()
             if u.path == "/status":
                 return self._send(200, status(data))
-            if u.path != "/resolve":
+            if u.path not in ("/resolve", "/check"):
                 _bump("client_errors")
                 return self._send(404, {"error": "not found"})
             name = q.get("name", "")
             if not name.strip() and not q.get("uen"):
                 _bump("client_errors")
                 return self._send(400, {"error": "name or uen is required"})
+            if len(q.get("url", "")) > 500:
+                _bump("client_errors")
+                return self._send(400, {"error": "url longer than 500 characters"})
             if len(name) > acra.MAX_NAME_CHARS or len(q.get("hint", "")) > acra.MAX_NAME_CHARS or len(q.get("uen", "")) > 20:
                 _bump("client_errors")
                 return self._send(400, {"error": "name or hint longer than %d characters, or uen longer than 20" % acra.MAX_NAME_CHARS})
@@ -405,7 +409,10 @@ def serve(data, port=8090):
                 _bump("busy")
                 return self._send(503, {"error": "too many lookups in progress"}, {"Retry-After": "1"})
             try:
-                res = acra.resolve(db_path(data), name, q.get("uen"), q.get("hint"))
+                if u.path == "/check":
+                    res = checker.check(db_path(data), name, q.get("uen"), q.get("hint"), q.get("url"))
+                else:
+                    res = acra.resolve(db_path(data), name, q.get("uen"), q.get("hint"))
             except acra.LookupTimeout as e:
                 _bump("timeouts")
                 return self._send(504, {"error": str(e)})

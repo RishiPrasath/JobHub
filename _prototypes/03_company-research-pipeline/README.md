@@ -58,6 +58,31 @@ Pass `--uen` when the posting shows one, and `--hint` for a name taken from the 
 - Only one page per site is read, so hiring and careers questions are often `not_found`.
 - The rules were tuned after seeing the 15 research postings and have not been tested on a fresh set.
 
+## Posting check: does the employer exist, and is it the entity the posting names? (`pipeline/check.py`)
+
+```bash
+curl -G localhost:8090/check --data-urlencode "name=Randstad Pte Limited"            # also: &uen=...  &url=...(an ID in a URL slug is used)
+docker compose run --rm pipeline check "DBS Bank Singapore Recruitment Pte Ltd"
+docker compose run --rm pipeline check-postings postings.json out.json                 # [{id, employer, uen?, url?, text?}]
+```
+
+It answers existence and identity only, never whether the employer is good. The verdict:
+
+| Verdict | Meaning |
+|---|---|
+| `confirmed` | the name matches a registered name word for word (ignoring Pte, Ltd, punctuation) and the entity is live; if a company ID in the posting agrees, the basis is "company ID and name" |
+| `probable` | very close but not identical |
+| `multiple_entities` | two or more live entities share the exact name; a company ID or address is needed |
+| `similar_name_only` | no entity has this name; the closest is shown (lookalike risk, e.g. "DBS Bank Singapore Recruitment" is not "DBS Bank") |
+| `former_name` | the posting uses a name the entity no longer has |
+| `registered_not_active` | the entity exists but is struck off, in liquidation, ceased, suspended and so on |
+| `uen_name_mismatch` | the company ID in the posting belongs to a differently named entity (a trading name, or impersonation) |
+| `uen_not_found` | the company ID is not in the registry |
+| `public_body` | a statutory board or ministry; not in the company registry |
+| `not_in_registry` | nothing resembles the name |
+
+Every answer lists the `basis` (name only, or company ID and name), `flags` (sibling entities, an earlier terminated entity with the same name, a status qualifier) and the registry release date. Only about 1 in 27 job pages in the persona run carried a company ID, so most checks are by name. Name-only confirmation cannot separate two different companies that happen to share an exact name; that case is reported as `multiple_entities` when both are live. `tests/check_cases.py` covers 19 real, lookalike, mismatched, inactive and duplicate-name cases.
+
 ## Registry matching states (`pipeline/acra.py`)
 
 | State | Meaning |

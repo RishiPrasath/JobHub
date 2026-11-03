@@ -1,0 +1,788 @@
+[
+ {
+  "id": "J01",
+  "employer_in_posting": "CENTRAL PROVIDENT FUND BOARD",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": null,
+  "closest": null,
+  "status_ok": null,
+  "flags": [],
+  "evidence": [],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "public_body",
+  "summary": "CENTRAL PROVIDENT FUND BOARD looks like a statutory board or government body. These are not in the company registry, so existence has to be checked on the agency's own .gov.sg site."
+ },
+ {
+  "id": "J02",
+  "employer_in_posting": "BUTTERFLY EFFECT PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "202330764R",
+   "name": "BUTTERFLY EFFECT PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2023-08-02",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: BUTTERFLY EFFECT PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "BUTTERFLY EFFECT PTE. LTD. is registered in Singapore (status: Live Company, registered 2023-08-02)."
+ },
+ {
+  "id": "J03",
+  "employer_in_posting": "THE SUPREME HR ADVISORY PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "201426535W",
+   "name": "THE SUPREME HR ADVISORY PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2014-09-08",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: THE SUPREME HR ADVISORY PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "THE SUPREME HR ADVISORY PTE. LTD. is registered in Singapore (status: Live Company, registered 2014-09-08)."
+ },
+ {
+  "id": "J04",
+  "employer_in_posting": "PERSOL SINGAPORE PTE. LTD.",
+  "uen_used": "200007268E",
+  "basis": "company ID and name",
+  "entity": {
+   "uen": "200007268E",
+   "name": "PERSOL SINGAPORE PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2000-08-19",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "company ID 200007268E is registered to PERSOL SINGAPORE PTE. LTD.",
+   "posting name and registered name are identical"
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "PERSOL SINGAPORE PTE. LTD. is registered in Singapore (status: Live Company, registered 2000-08-19)."
+ },
+ {
+  "id": "J05",
+  "employer_in_posting": "NATIONAL UNIVERSITY HEALTH SERVICES GROUP PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "200910555Z",
+   "name": "NATIONAL UNIVERSITY HEALTH SERVICES GROUP PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2009-06-11",
+   "activity": "PROVISION OF HEALTHCARE SERVICES, OPERATING HOSPITAL"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: NATIONAL UNIVERSITY HEALTH SERVICES GROUP PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "NATIONAL UNIVERSITY HEALTH SERVICES GROUP PTE. LTD. is registered in Singapore (status: Live Company, registered 2009-06-11)."
+ },
+ {
+  "id": "J06",
+  "employer_in_posting": "AVANGUARDE PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "202545538Z",
+   "name": "AVANGUARDE PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2025-10-13",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: AVANGUARDE PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "AVANGUARDE PTE. LTD. is registered in Singapore (status: Live Company, registered 2025-10-13)."
+ },
+ {
+  "id": "J07",
+  "employer_in_posting": "TIONG BAHRU BAKERY PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "201133471H",
+   "name": "TIONG BAHRU BAKERY PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2011-11-17",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: TIONG BAHRU BAKERY PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "TIONG BAHRU BAKERY PTE. LTD. is registered in Singapore (status: Live Company, registered 2011-11-17)."
+ },
+ {
+  "id": "J08",
+  "employer_in_posting": "OCEANDA HR PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "202137553K",
+   "name": "OCEANDA HR PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2021-10-28",
+   "activity": "HR, BUSINESS AND MANAGEMENT CONSULTANCY SERVICES"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: OCEANDA HR PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "OCEANDA HR PTE. LTD. is registered in Singapore (status: Live Company, registered 2021-10-28)."
+ },
+ {
+  "id": "J09",
+  "employer_in_posting": "MEAT AND GREEN PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "201535185H",
+   "name": "MEAT AND GREEN PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2015-09-20",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: MEAT AND GREEN PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "MEAT AND GREEN PTE. LTD. is registered in Singapore (status: Live Company, registered 2015-09-20)."
+ },
+ {
+  "id": "J10",
+  "employer_in_posting": "PARIS BAGUETTE SINGAPORE PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "201108952N",
+   "name": "PARIS BAGUETTE SINGAPORE PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2011-04-13",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: PARIS BAGUETTE SINGAPORE PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "PARIS BAGUETTE SINGAPORE PTE. LTD. is registered in Singapore (status: Live Company, registered 2011-04-13)."
+ },
+ {
+  "id": "J11",
+  "employer_in_posting": "MEL & PARTNERS DRS. PTE LTD",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "199308313N",
+   "name": "MEL & PARTNERS DRS. PTE LTD",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1993-12-16",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: MEL & PARTNERS DRS. PTE LTD"
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "MEL & PARTNERS DRS. PTE LTD is registered in Singapore (status: Live Company, registered 1993-12-16)."
+ },
+ {
+  "id": "J12",
+  "employer_in_posting": "RECRUIT EXPRESS PTE LTD",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "199601303W",
+   "name": "RECRUIT EXPRESS PTE LTD",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1996-02-22",
+   "activity": "PERSONNEL RECRUITMENT & PROVISION OF HUMAN RESOURCES RELATED SVS."
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [
+   "other entities start with this name: RECRUIT EXPRESS (TAIWAN) PTE LTD"
+  ],
+  "evidence": [
+   "registered name: RECRUIT EXPRESS PTE LTD"
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "RECRUIT EXPRESS PTE LTD is registered in Singapore (status: Live Company, registered 1996-02-22)."
+ },
+ {
+  "id": "J13",
+  "employer_in_posting": "ASIA KIDNEY DIALYSIS CENTRE (BEDOK) PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "201202015K",
+   "name": "ASIA KIDNEY DIALYSIS CENTRE (BEDOK) PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2012-01-27",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: ASIA KIDNEY DIALYSIS CENTRE (BEDOK) PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "ASIA KIDNEY DIALYSIS CENTRE (BEDOK) PTE. LTD. is registered in Singapore (status: Live Company, registered 2012-01-27)."
+ },
+ {
+  "id": "J14",
+  "employer_in_posting": "ABER CARE PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "201306299N",
+   "name": "ABER CARE PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2013-03-09",
+   "activity": "RECRUITMENT OF FOREIGN WORKER AND PROFESSIONALS MAINLY FOR HEALTHCARE ORG"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: ABER CARE PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "ABER CARE PTE. LTD. is registered in Singapore (status: Live Company, registered 2013-03-09)."
+ },
+ {
+  "id": "J15",
+  "employer_in_posting": "CAPEN MARKETING PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "201027214Z",
+   "name": "CAPEN MARKETING PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2010-12-27",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: CAPEN MARKETING PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "CAPEN MARKETING PTE. LTD. is registered in Singapore (status: Live Company, registered 2010-12-27)."
+ },
+ {
+  "id": "J16",
+  "employer_in_posting": "RECRUIT AVENUE PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "202337204C",
+   "name": "RECRUIT AVENUE PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2023-09-15",
+   "activity": "RECRUITMENT AGENCY"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [
+   "an earlier entity with the same name is now Terminated"
+  ],
+  "evidence": [
+   "registered name: RECRUIT AVENUE PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "RECRUIT AVENUE PTE. LTD. is registered in Singapore (status: Live Company, registered 2023-09-15)."
+ },
+ {
+  "id": "J17",
+  "employer_in_posting": "SUNNYHILL ACE PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "202227941Z",
+   "name": "SUNNYHILL ACE PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2022-08-10",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: SUNNYHILL ACE PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "SUNNYHILL ACE PTE. LTD. is registered in Singapore (status: Live Company, registered 2022-08-10)."
+ },
+ {
+  "id": "J18",
+  "employer_in_posting": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO. PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "199201093N",
+   "name": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO. PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1992-03-02",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO. PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO. PTE. LTD. is registered in Singapore (status: Live Company, registered 1992-03-02)."
+ },
+ {
+  "id": "J19",
+  "employer_in_posting": "TEMP-TEAM PTE LTD",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "198202672R",
+   "name": "TEMP-TEAM PTE LTD",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1982-06-22",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: TEMP-TEAM PTE LTD"
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "TEMP-TEAM PTE LTD is registered in Singapore (status: Live Company, registered 1982-06-22)."
+ },
+ {
+  "id": "J20",
+  "employer_in_posting": "COFFEE CLUB PTE LTD",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "198404361H",
+   "name": "COFFEE CLUB PTE LTD",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1984-12-21",
+   "activity": "OPERATING SPECIALTY BEVERAGE OUTLETS"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [
+   "other entities start with this name: MA COFFEECLUB PTE. LTD."
+  ],
+  "evidence": [
+   "registered name: COFFEE CLUB PTE LTD"
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "COFFEE CLUB PTE LTD is registered in Singapore (status: Live Company, registered 1984-12-21)."
+ },
+ {
+  "id": "J21",
+  "employer_in_posting": "VILLAGE HOTEL SENTOSA",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "53274919K",
+   "name": "VILLAGE HOTEL SENTOSA",
+   "type": "Sole Proprietorship/ Partnership",
+   "status": "Live",
+   "incorporated": "2014-09-17",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: VILLAGE HOTEL SENTOSA"
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "VILLAGE HOTEL SENTOSA is registered in Singapore (status: Live, registered 2014-09-17)."
+ },
+ {
+  "id": "J22",
+  "employer_in_posting": "BAN LEONG PAWNSHOP PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "200602212R",
+   "name": "BAN LEONG PAWNSHOP PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2006-02-18",
+   "activity": "PAWNBROKERAGE"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: BAN LEONG PAWNSHOP PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "BAN LEONG PAWNSHOP PTE. LTD. is registered in Singapore (status: Live Company, registered 2006-02-18)."
+ },
+ {
+  "id": "J23",
+  "employer_in_posting": "ZY FUTURE INTERNATIONAL PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "202241080G",
+   "name": "ZY FUTURE INTERNATIONAL PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2022-11-17",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: ZY FUTURE INTERNATIONAL PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "ZY FUTURE INTERNATIONAL PTE. LTD. is registered in Singapore (status: Live Company, registered 2022-11-17)."
+ },
+ {
+  "id": "J24",
+  "employer_in_posting": "HRNET VENTURES PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "201841218K",
+   "name": "HRNET VENTURES PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2018-12-07",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: HRNET VENTURES PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "HRNET VENTURES PTE. LTD. is registered in Singapore (status: Live Company, registered 2018-12-07)."
+ },
+ {
+  "id": "J25",
+  "employer_in_posting": "ACTIVATE INTERACTIVE PTE LTD",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "199707097N",
+   "name": "ACTIVATE INTERACTIVE PTE LTD",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1997-10-11",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: ACTIVATE INTERACTIVE PTE LTD"
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "ACTIVATE INTERACTIVE PTE LTD is registered in Singapore (status: Live Company, registered 1997-10-11)."
+ },
+ {
+  "id": "J26",
+  "employer_in_posting": "KYNDRYL (SINGAPORE) PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "202101462E",
+   "name": "KYNDRYL (SINGAPORE) PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2021-01-12",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [
+   "other entities start with this name: KYNDRYL (SINGAPORE) BTTS PTE. LTD."
+  ],
+  "evidence": [
+   "registered name: KYNDRYL (SINGAPORE) PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "KYNDRYL (SINGAPORE) PTE. LTD. is registered in Singapore (status: Live Company, registered 2021-01-12)."
+ },
+ {
+  "id": "J27",
+  "employer_in_posting": "RANDSTAD PTE. LIMITED",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "199304055W",
+   "name": "RANDSTAD PTE. LIMITED",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1993-06-24",
+   "activity": "TEMPORARY AND PERMANENT EMPLOYMENT SERVICES"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [
+   "other entities start with this name: RANDSTAD FTC PTE. LTD."
+  ],
+  "evidence": [
+   "registered name: RANDSTAD PTE. LIMITED"
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "RANDSTAD PTE. LIMITED is registered in Singapore (status: Live Company, registered 1993-06-24)."
+ },
+ {
+  "id": "J28",
+  "employer_in_posting": "SINGAPORE TELECOMMUNICATIONS LIMITED",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "199201624D",
+   "name": "SINGAPORE TELECOMMUNICATIONS LIMITED",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1992-03-28",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [
+   "other entities start with this name: SINGAPORE SMART TELECOMMUNICATIONS PTE. LTD."
+  ],
+  "evidence": [
+   "registered name: SINGAPORE TELECOMMUNICATIONS LIMITED"
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "SINGAPORE TELECOMMUNICATIONS LIMITED is registered in Singapore (status: Live Company, registered 1992-03-28)."
+ },
+ {
+  "id": "J29",
+  "employer_in_posting": "VANGUARD SOFTWARE PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "202342779N",
+   "name": "VANGUARD SOFTWARE PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2023-10-26",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: VANGUARD SOFTWARE PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "VANGUARD SOFTWARE PTE. LTD. is registered in Singapore (status: Live Company, registered 2023-10-26)."
+ },
+ {
+  "id": "J30",
+  "employer_in_posting": "CHARTERHOUSE RESOURCES PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "200719352W",
+   "name": "CHARTERHOUSE RESOURCES PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2007-10-18",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: CHARTERHOUSE RESOURCES PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "CHARTERHOUSE RESOURCES PTE. LTD. is registered in Singapore (status: Live Company, registered 2007-10-18)."
+ },
+ {
+  "id": "J31",
+  "employer_in_posting": "BIGFOOT MEATS PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "200412500R",
+   "name": "BIGFOOT MEATS PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2004-09-30",
+   "activity": "WHOLESALE OF MEAT, POULTRY AND OTHER FROZEN FOOD"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: BIGFOOT MEATS PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "BIGFOOT MEATS PTE. LTD. is registered in Singapore (status: Live Company, registered 2004-09-30)."
+ },
+ {
+  "id": "J32",
+  "employer_in_posting": "AIM RECRUIT CONSULTANCY PTE. LIMITED",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "202331793Z",
+   "name": "AIM RECRUIT CONSULTANCY PTE. LIMITED",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2023-08-08",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: AIM RECRUIT CONSULTANCY PTE. LIMITED"
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "AIM RECRUIT CONSULTANCY PTE. LIMITED is registered in Singapore (status: Live Company, registered 2023-08-08)."
+ },
+ {
+  "id": "J33",
+  "employer_in_posting": "WEITUO M&E PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "202114703K",
+   "name": "WEITUO M&E PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2021-04-26",
+   "activity": "MINOR MECHANICAL & ELECTRICAL WORKS"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: WEITUO M&E PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "WEITUO M&E PTE. LTD. is registered in Singapore (status: Live Company, registered 2021-04-26)."
+ },
+ {
+  "id": "J34",
+  "employer_in_posting": "RECRUITFLASH PTE. LTD.",
+  "uen_used": null,
+  "basis": "name only",
+  "entity": {
+   "uen": "201908399D",
+   "name": "RECRUITFLASH PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2019-03-14",
+   "activity": "na"
+  },
+  "closest": null,
+  "status_ok": true,
+  "flags": [],
+  "evidence": [
+   "registered name: RECRUITFLASH PTE. LTD."
+  ],
+  "note": "This shows whether the company exists and matches the name in the posting. It is not a judgement of the employer.",
+  "verdict": "confirmed",
+  "summary": "RECRUITFLASH PTE. LTD. is registered in Singapore (status: Live Company, registered 2019-03-14)."
+ }
+]

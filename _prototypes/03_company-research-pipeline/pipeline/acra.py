@@ -218,3 +218,17 @@ def _resolve(con, employer, uen, hint):
     if top_s >= 0.8:
         return {**base, "state": "likely", "chosen": _record(top_s, top_r), "why": "name differs from registered name"}
     return {**base, "state": "needs_confirmation", "chosen": _record(top_s, top_r), "why": "weak name match"}
+
+
+def exact_name_rows(db_path, employer, hint=None):
+    """Every entity whose current name has exactly the same words as the query, in any status (the matcher
+    prefers live entities, so this is how an exact-name entity that is struck off or dissolved is found)."""
+    q = toks(hint or employer)[:MAX_TOKENS]
+    if not q:
+        return []
+    con = sqlite3.connect("file:%s?mode=ro" % Path(db_path).as_posix(), uri=True)
+    try:
+        found = _search(con, q, limit=300)
+    finally:
+        con.close()
+    return [r for r in found.values() if sorted(toks(r[1])) == sorted(q)]
