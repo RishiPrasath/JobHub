@@ -13,7 +13,7 @@ The flow works end to end as a Docker service and gave the expected headline on 
 | 1 | first version | all 14 | **14 of 14 as expected** (8 seen before, 6 new), 0 dangerous |
 | 2 | page selection changed (below) | the 11 that use the web | 10 as expected, **1 dangerous**: Avanguarde (c03) rated `exists_and_consistent`, on my pre-registered "wrong" list |
 | 3 | registry mirrors no longer count as independent (below) | c01, c02, c03, c09 | 4 of 4 as expected |
-| final | the same code, a later model-wait cap added by someone else | all 14 | **13 of 13 completed as expected**; c11 did not complete (the Docker services were stopped by something other than me partway through, see below). c11 was as expected in runs 1 and 2 |
+| final | the same code, a later model-wait cap added by someone else | all 14 | **13 of 13 completed as expected**; c11 did not complete in this run (the Docker services were stopped by something other than me partway through, see below). **c11 was then re-run on its own after the services were restarted: as expected (`could_not_confirm_company`, 76 s)**, so all 14 are as expected, though not all in a single uninterrupted run |
 
 Cleanest numbers: **run 1's six new cases were 6 of 6** on the original design, before any fix. After the fixes, the three new web cases (c09 to c11) were still as expected where they ran.
 
@@ -58,7 +58,7 @@ Checked: `POST /research` returns a job, `GET /research/<id>` returns state, res
 
 ## Not done
 
-- The final regression is 13 of 14 (c11 missing).
-- Search was DuckDuckGo-only in practice (Bing and Google were never needed), so fallback was not exercised live.
+- The final regression was never one uninterrupted run of all 14: 13 completed together and c11 was re-run alone afterwards (as expected).
+- Search was DuckDuckGo in practice in experiment 09. In this flow's final runs DuckDuckGo's circuit breaker opened and Bing answered some queries (visible in the registry-outage test, "bing, duckduckgo"), so fallback was exercised at least once, but not measured.
 - No load test, no concurrent-user test, no token-use measurement for this flow.
-- The stack was stopped partway through the final run by something other than me; I did not restart it. To run again, start the four services in the order given in the README.
+- The stack was stopped partway through the final run by something other than me; it has since been restarted (search, flow). To run again from scratch, start the four services in the order given in the README.
