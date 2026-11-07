@@ -4,6 +4,8 @@ Status: draft for owner review; needs only, no solutions. Final storage location
 
 Source: the four as-is journeys (searching, applying, interviewing, offer to first day) in `02_research/03_research-rounds/09_job-seeker-processes-as-is/runs/2026-11-07-how-job-seekers-actually-job-hunt/journeys/`. They rest on desk research, mostly search snippets, and much of it is old, US-based or vendor data. Every story is a need the journeys give evidence for, not a validated finding.
 
+**Update after the gap-fill research (2026-11-07):** confidence ratings below are the first-draft ratings. After the gap-fill run, supported stories rise from 9 to 20 and thin falls from 8 to 3. The updated ratings and reasons are in `02_research/03_research-rounds/09_job-seeker-processes-as-is/runs/2026-11-07-gap-fill/findings.md`. The journeys have not yet been edited to reflect the new evidence.
+
 Evidence tags are copied from the journeys: S = official or primary source, Sn = snippet or secondary write-up, A = anecdote or small sample, I = inference.
 Confidence levels:
 - **supported:** S, or several Sn.

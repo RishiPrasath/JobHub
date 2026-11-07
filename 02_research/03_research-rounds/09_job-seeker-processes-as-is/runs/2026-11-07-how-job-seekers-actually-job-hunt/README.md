@@ -11,6 +11,9 @@ Desk research, not an experiment. Four Haiku-model agents each researched one pr
 - [limitations.md](limitations.md): what could not be verified and how much to trust the numbers.
 - [sources.md](sources.md): the main sources with their verification status.
 
+## Follow-up
+- [Gap-fill run (2026-11-07)](../2026-11-07-gap-fill/findings.md): eight further workstreams on the weak and thin evidence, with raw notes under `evidence/`.
+
 ## Note on evidence files
 The four agents' full notes are not saved as separate files. Their stage content is in findings.md and their sources in sources.md. If raw notes are wanted, rerun the four workstreams.
 
