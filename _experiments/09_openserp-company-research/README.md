@@ -39,7 +39,7 @@ docker compose --profile tools run --rm harness python rescore_gate.py
 | `outputs/phase1` to `phase3` | Raw results: search responses, page logs, briefs, per-agent logs, summaries |
 | `run-log.md` | Commands run and what happened, in order |
 | `REPORT.md`, `INTEGRATION-PROPOSAL.md` | The written deliverables |
-| `AGENT-TEST.md`, `outputs/agents/` | The nine-agent expert-researcher test: brief, each agent's report, assessment and call log, and the registry check of their claims |
+| `AGENT-TEST.md`, `outputs/agents/`, `outputs/agents_run2/` | The nine-agent expert-researcher test, run twice (run 2 with DuckDuckGo re-enabled): brief, each agent's report, assessment and call log, and the registry check of their claims |
 
 **Not committed:** `vendor/openserp/` (re-created by step 1) and the extracted text of third-party pages (reviews, forum and news pages), which stays on the machine that ran the experiment. Page URLs, outcomes and the briefs, which hold only short attributed quotes, are committed.
 

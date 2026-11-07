@@ -1,0 +1,144 @@
+{
+ "agent_id": "A2",
+ "company_chosen": "ECON Healthcare Group",
+ "why_chosen": "Assigned",
+ "industry": "Private eldercare / nursing homes",
+ "needs": {
+  "identity": {
+   "status": "answered",
+   "confidence": "high",
+   "summary": "Real operator; Econ Healthcare (Asia) Pte. Ltd. (formerly SGX Catalist-listed Econ Healthcare (Asia) Limited), founded 1987 by Ong Chu Poh; taken private by TPG (CCCS review 2025); now under One Aged Care holding (Mar 2026).",
+   "sources": [
+    "https://www.ccs.gov.sg/case-register/public-register/mergers-and-acquisitions/proposed-acquisition-of-econ-healthcare--asia--limited-by-tpg-inc-",
+    "https://www.tpg.com/news-and-insights/tpg-establishes-one-aged-care-a-senior-healthcare-services-platform-to-serve-growing-regional-needs",
+    "https://econhealthcare.sg/about/econ-healthcare"
+   ],
+   "how_openserp_helped": "Search surfaced regulator, company and TPG pages; extraction clean.",
+   "what_was_missing": "Exact current legal registration (ACRA) not checked."
+  },
+  "business_and_headcount": {
+   "status": "partial",
+   "confidence": "medium",
+   "summary": "8 nursing homes/medicare centres in Singapore plus Malaysia and China sites (company page); also home care, day care, rehab, TCM. One Aged Care: 16 nursing homes, >2,400 beds across SG and MY. Headcount not found.",
+   "sources": [
+    "https://econhealthcare.sg/about/econ-healthcare",
+    "https://www.tpg.com/news-and-insights/tpg-establishes-one-aged-care-a-senior-healthcare-services-platform-to-serve-growing-regional-needs"
+   ],
+   "how_openserp_helped": "Good for scale of facilities.",
+   "what_was_missing": "Staff headcount; annual report PDF extract returned binary garbage."
+  },
+  "financial_performance": {
+   "status": "partial",
+   "confidence": "medium",
+   "summary": "FY2024 (to Mar 2024): revenue S$50.8m (+18%), net income about S$6.3m; 1H FY2025 revenue S$32.7m (+33.7%), earnings S$3.6m (search snippets). Privatised by TPG at about S$88m valuation.",
+   "sources": [
+    "https://sg.finance.yahoo.com/news/econ-healthcare-reports-8-y-043334885.html",
+    "https://sginvestors.io/sgx/stock/ehg-econ-healthcare/news-article",
+    "https://www.mingtiandi.com/real-estate/finance/tpg-offers-to-buy-singapore-nursing-home-firm-econ-healthcare"
+   ],
+   "how_openserp_helped": "Snippets alone gave key figures.",
+   "what_was_missing": "No post-privatisation financials (private now); figures from snippets, not page-verified."
+  },
+  "layoffs_restructuring": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "No layoffs found. Restructuring: TPG consolidated ECON, Orange Valley and AMS under One Aged Care (Mar 2026). Absence of layoff news is weak evidence.",
+   "sources": [
+    "https://www.tpg.com/news-and-insights/tpg-establishes-one-aged-care-a-senior-healthcare-services-platform-to-serve-growing-regional-needs"
+   ],
+   "how_openserp_helped": "Search for layoffs returned no relevant hits.",
+   "what_was_missing": "Searching negatives is unreliable; first layoff query drifted to unrelated results."
+  },
+  "culture_and_sentiment": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "Jobstreet summary: career development, supportive colleagues, incentives/trips; negatives: slow decisions (family business), overtime/night duty, limited promotion, heavy admin. Glassdoor snippet: 25% recommend, 1.7/5 work-life balance (snippet only, unread). Jobstreet shows only 7 reviews.",
+   "sources": [
+    "https://sg.jobstreet.com/companies/econ-healthcare-group-168558499172245/salaries/staff-nurse",
+    "https://www.glassdoor.com/Reviews/ECON-Healthcare-Group-Reviews-E1617290.htm"
+   ],
+   "how_openserp_helped": "Surfaced review-site pages and snippets; Jobstreet summary extractable.",
+   "what_was_missing": "Individual reviews; Glassdoor page not extracted successfully; small sample."
+  },
+  "pay_and_benefits": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "Indeed snippet: monthly salary about S$2,641 (Nurse) to S$6,082 (Senior Nurse Manager) from 45 postings; a Glassdoor snippet gave S$3,200 average staff nurse (period unclear). Benefits: Jobstreet cites incentives, awards, trips.",
+   "sources": [
+    "https://sg.indeed.com/cmp/Econ-Healthcare-(asia)-Limited/salaries?job_category=mednurse",
+    "https://sg.jobstreet.com/companies/econ-healthcare-group-168558499172245/salaries/staff-nurse"
+   ],
+   "how_openserp_helped": "Snippets gave salary ranges.",
+   "what_was_missing": "Reliable staff nurse range; official benefits list; MyCareersFuture job page extracted nearly empty."
+  },
+  "interview_and_hiring": {
+   "status": "not_found",
+   "confidence": "low",
+   "summary": "Nothing on interview process found.",
+   "sources": [],
+   "how_openserp_helped": "Search surfaced careers and job-listing pages only.",
+   "what_was_missing": "Interview reports."
+  },
+  "red_flags_and_scams": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "No scams, regulatory action or court cases found in one targeted search (results irrelevant). Low Glassdoor work-life balance score is a soft flag.",
+   "sources": [],
+   "how_openserp_helped": "Little.",
+   "what_was_missing": "Targeted MOH enforcement/news search came back with noise."
+  },
+  "recent_news": {
+   "status": "answered",
+   "confidence": "high",
+   "summary": "TPG offer Feb 2025; CCCS review Sep-Oct 2025 with no major competition concerns; One Aged Care launched 17 Mar 2026 with Ong Hui Ming as Group CEO.",
+   "sources": [
+    "https://www.tpg.com/news-and-insights/tpg-establishes-one-aged-care-a-senior-healthcare-services-platform-to-serve-growing-regional-needs",
+    "https://www.ccs.gov.sg/case-register/public-register/mergers-and-acquisitions/proposed-acquisition-of-econ-healthcare--asia--limited-by-tpg-inc-",
+    "https://www.straitstimes.com/business/companies-markets/econ-healthcare-gets-privatisation-offer-from-us-private-equity-firm-tpg-in-88-million-deal"
+   ],
+   "how_openserp_helped": "Strong: dated news results.",
+   "what_was_missing": "Anything after Mar 2026."
+  }
+ },
+ "tool": {
+  "searches": 9,
+  "extracts": 7,
+  "failed_or_blocked_calls": 1,
+  "blocked_or_unreadable_sites": [
+   "glassdoor.sg (502 extract_failed)",
+   "SIAS annual-report Q&A PDF (HTTP 200, binary garbage)",
+   "mycareersfuture job page (HTTP 200, nearly empty)"
+  ],
+  "most_useful_sources": [
+   "tpg.com press release",
+   "ccs.gov.sg",
+   "jobstreet salary/company page",
+   "search snippets from Indeed/Glassdoor/Yahoo"
+  ],
+  "search_relevance_1to5": 4,
+  "extraction_quality_1to5": 3,
+  "coverage_of_needs_1to5": 3,
+  "reliability_1to5": 4,
+  "misleading_or_wrong_results": [
+   "Negative-news query (complaint/fined/layoffs) returned unrelated news",
+   "Pay snippet for Glassdoor says 'per year' for a monthly figure",
+   "Company pages disagree on facility counts (7 vs 8 vs 9 in SG)"
+  ],
+  "minutes_spent": 8
+ },
+ "verdict": {
+  "would_rely_on_for_a_job_decision": "with_caveats",
+  "reasoning": "Strong on identity, ownership and news; weak on sentiment depth, pay detail and interviews because review sites are mostly seen only as snippets.",
+  "biggest_gaps": [
+   "Employee review content",
+   "Reliable nurse pay range",
+   "Interview process",
+   "Headcount"
+  ],
+  "what_else_a_job_seeker_would_need": [
+   "Direct staff talk",
+   "Actual offer terms",
+   "Post-TPG hiring/turnover info"
+  ]
+ }
+}

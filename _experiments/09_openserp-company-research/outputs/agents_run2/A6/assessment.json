@@ -1,0 +1,144 @@
+{
+ "agent_id": "A6",
+ "company_chosen": "Grand Venture Technology (GVT)",
+ "why_chosen": "Assigned",
+ "industry": "Precision engineering / semiconductor equipment components",
+ "needs": {
+  "identity": {
+   "status": "answered",
+   "confidence": "high",
+   "summary": "Real Singapore company, HQ 2 Changi North Street 1; formerly SGX-listed (JLB), acquired and delisted by Aalberts N.V. late 2025. Founding year not found.",
+   "sources": [
+    "https://links.sgx.com/FileOpen/GVT%20Group%201HFY2025%20announcement.ashx?App=Announcement&FileID=855553",
+    "https://aalberts.com/progress/GVT-completed",
+    "https://www.mycareersfuture.gov.sg/companies/grand-venture-technology-201222831E"
+   ],
+   "how_openserp_helped": "Search returned SGX filing, Aalberts release, MCF profile directly.",
+   "what_was_missing": "Founding date / legal-entity history."
+  },
+  "business_and_headcount": {
+   "status": "answered",
+   "confidence": "medium",
+   "summary": "Precision machining, sheet metal, mechatronics, assembly/test for semicon, life sciences, medical, aerospace. Six facilities in Singapore, Malaysia (Penang), China (Suzhou). About 1,800 employees (per acquirer, 2025).",
+   "sources": [
+    "https://aalberts.com/progress/GVT-completed",
+    "https://sg.jobstreet.com/companies/grand-venture-technology-168556052155079"
+   ],
+   "how_openserp_helped": "Extract of acquirer release gave clear headcount.",
+   "what_was_missing": "Singapore-only headcount; breakdown by site."
+  },
+  "financial_performance": {
+   "status": "answered",
+   "confidence": "medium",
+   "summary": "2024 revenue SGD 160m, adj EBITDA margin 19% (Aalberts). 1H2025 revenue S$94.2m (+37.9%), profit S$3.15m (-26.8%, FX losses and corporate expenses). Acquired at S$0.94/share, 11.9% premium.",
+   "sources": [
+    "https://aalberts.com/progress/GVT-completed",
+    "https://www.theedgesingapore.com/capital/results/grand-venture-technology-net-profit-down-268-y-o-y-315-mil-fx-losses-and-corporate",
+    "https://www.dbs.com.sg/treasures/aics/templatedata/article/recentdevelopment/data/en/DBSV/072025/GVTL_SP_07112024.xml"
+   ],
+   "how_openserp_helped": "Multiple independent news and filing sources.",
+   "what_was_missing": "Post-acquisition results (now private); full-year FY2025 figures."
+  },
+  "layoffs_restructuring": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "No layoffs found via OpenSERP; absence is not proof. The acquisition is a restructuring-relevant event; no integration plans found.",
+   "sources": [
+    "https://aalberts.com/progress/GVT-completed"
+   ],
+   "how_openserp_helped": "Targeted queries returned acquisition news only.",
+   "what_was_missing": "Post-acquisition headcount changes."
+  },
+  "culture_and_sentiment": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "Indeed: 3.1/5 from 9 reviews; sub-ratings 2.6-2.7 for management, pay, job security, culture; reviews mostly 2019-2023. Complaints on people management and overtime; some praise for learning lean/5S. Jobstreet profile snippet mentions fair pay and good increments. Glassdoor extract failed.",
+   "sources": [
+    "https://sg.indeed.com/cmp/Grand-Venture-Technology-Pte.-Ltd./reviews",
+    "https://sg.jobstreet.com/companies/grand-venture-technology-168556052155079"
+   ],
+   "how_openserp_helped": "Indeed extracted cleanly once.",
+   "what_was_missing": "Recent reviews (2024-2026), Glassdoor content, turnover data."
+  },
+  "pay_and_benefits": {
+   "status": "not_found",
+   "confidence": "low",
+   "summary": "No salary figures or benefits list found; only qualitative remarks from review sites.",
+   "sources": [
+    "https://sg.jobstreet.com/job/95678591"
+   ],
+   "how_openserp_helped": "Found a current Production Engineer posting.",
+   "what_was_missing": "Salary ranges and benefits."
+  },
+  "interview_and_hiring": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "Only job-posting content: Production Engineer (Precision Engineering), East Region, 3-5 yrs, Mazak machining centre ownership, fixture design, CI/Six Sigma, ERP analysis. No interview process info.",
+   "sources": [
+    "https://sg.jobstreet.com/job/95678591"
+   ],
+   "how_openserp_helped": "Extract of posting was complete.",
+   "what_was_missing": "Interview process, red flags."
+  },
+  "red_flags_and_scams": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "No scam, lawsuit or regulatory complaint surfaced in one targeted search.",
+   "sources": [],
+   "how_openserp_helped": "Nothing contrary surfaced.",
+   "what_was_missing": "Court/MOM records; absence cannot be verified."
+  },
+  "recent_news": {
+   "status": "answered",
+   "confidence": "high",
+   "summary": "Aalberts agreed to acquire GVT 10 Jul 2025, completed 31 Oct 2025, consolidated from 1 Nov 2025; delisting expected around 4 Nov 2025.",
+   "sources": [
+    "https://aalberts.com/progress/GVT-completed",
+    "https://www.businesstimes.com.sg/companies-markets/dutch-firm-moves-privatise-grand-venture-technology-s0-94-share",
+    "https://www.businesstimes.com.sg/companies-markets/grand-venture-technology-expected-delist-around-nov-4-2025"
+   ],
+   "how_openserp_helped": "Strong current coverage.",
+   "what_was_missing": "News after Nov 2025."
+  }
+ },
+ "tool": {
+  "searches": 9,
+  "extracts": 6,
+  "failed_or_blocked_calls": 2,
+  "blocked_or_unreadable_sites": [
+   "glassdoor.sg (502 extract_failed)"
+  ],
+  "most_useful_sources": [
+   "aalberts.com",
+   "theedgesingapore.com",
+   "sg.indeed.com reviews",
+   "sg.jobstreet.com",
+   "links.sgx.com"
+  ],
+  "search_relevance_1to5": 4,
+  "extraction_quality_1to5": 4,
+  "coverage_of_needs_1to5": 3,
+  "reliability_1to5": 3,
+  "misleading_or_wrong_results": [
+   "Broad layoffs query returned generic layoff trackers unrelated to GVT",
+   "Company name variants (Pte Ltd, Private Limited, Limited) across sites"
+  ],
+  "minutes_spent": 5
+ },
+ "verdict": {
+  "would_rely_on_for_a_job_decision": "with_caveats",
+  "reasoning": "Strong for identity, financials and news; weak on pay, interview process and current culture. One duckduckgo timeout, one 32s search.",
+  "biggest_gaps": [
+   "salary ranges",
+   "recent employee sentiment",
+   "post-acquisition layoffs",
+   "interview process"
+  ],
+  "what_else_a_job_seeker_would_need": [
+   "salary benchmarks",
+   "conversations with current employees",
+   "recent Glassdoor reviews",
+   "offer terms on overtime and shifts"
+  ]
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "agent_id": "A7",
+ "company_chosen": "The Learning Lab (The LearningLab Education Centre Pte Ltd)",
+ "why_chosen": "Assigned",
+ "industry": "Tuition and enrichment (education services)",
+ "needs": {
+  "identity": {
+   "status": "answered",
+   "confidence": "high",
+   "summary": "Live Singapore private company, UEN 200102900E, incorporated 2 May 2001, registered at 101 Thomson Road, United Square; SSIC 85509.",
+   "sources": [
+    "https://www.sgpbusiness.com/company/The-Learninglab-Education-Centre-Pte-Ltd",
+    "https://www.companies.sg/business/200102900E/THE-LEARNINGLAB-EDUCATION-CENTRE-PTE-LTD"
+   ],
+   "how_openserp_helped": "Search returned several registry mirrors on the first query; extract read one cleanly.",
+   "what_was_missing": "Official ACRA record not read; mirrors only."
+  },
+  "business_and_headcount": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "Tuition/enrichment for ages 3+ to 18 (English, Chinese, Maths, Science); several Singapore branches (Marine Parade, United Square, Tampines, Woodlands, Jurong named by one review site). Reuters (2022) says presence in Malaysia, Thailand, Indonesia, Vietnam. Headcount ~300+ and revenue ~US$60.7M only from a search snippet of an estimator site.",
+   "sources": [
+    "https://www.kiasuparents.com/kiasu/service-providers/provider-list/the-learning-lab",
+    "https://www.tutorly.sg/app/blog/the-learning-lab-review-singapore-2026",
+    "https://compworth.com/company/the-learning-lab"
+   ],
+   "how_openserp_helped": "Found description and branches.",
+   "what_was_missing": "No reliable headcount; estimator site not extracted."
+  },
+  "financial_performance": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "No financials found. 2014 Advent buyout (reported ~S$300m); sale attempted from 2021 and stalled partly due to COVID hit on performance; Nov 2022 Reuters: bids up to US$500m, possibly less.",
+   "sources": [
+    "https://sg.finance.yahoo.com/news/1-pag-platinum-among-bidders-100807091.html",
+    "https://www.reuters.com/markets/deals/pag-platinum-among-bidders-advents-stake-singapore-tuition-chain-worth-up-to-500-2022-11-28"
+   ],
+   "how_openserp_helped": "Located Reuters story via news search.",
+   "what_was_missing": "No revenue/profit filings; outcome of the sale not found."
+  },
+  "layoffs_restructuring": {
+   "status": "not_found",
+   "confidence": "low",
+   "summary": "No layoff reports found. Employee reviews (2024) mention budget cuts, reduced bonus pool and a 'PE buyout' - unverified.",
+   "sources": [
+    "https://sg.indeed.com/cmp/The-Learning-Lab/reviews"
+   ],
+   "how_openserp_helped": "One search returned only generic Singapore retrenchment pages.",
+   "what_was_missing": "No company-specific layoff source."
+  },
+  "culture_and_sentiment": {
+   "status": "answered",
+   "confidence": "medium",
+   "summary": "Mixed to negative. Indeed 3.0/5 (22 reviews; pay 2.4, job security/advancement 2.1, management 2.8, culture 3.2). Glassdoor snippet: 2.5/5 from 463 reviews (snippet only, page blocked). Themes: nice colleagues; weekend work, last-minute covers, hard to get leave, weak management, little progression.",
+   "sources": [
+    "https://sg.indeed.com/cmp/The-Learning-Lab/reviews",
+    "https://sg.jobstreet.com/companies/the-learning-lab-168552813188026/reviews",
+    "https://www.glassdoor.sg/Reviews/The-Learning-Lab-Reviews-E310176.htm"
+   ],
+   "how_openserp_helped": "Indeed and Jobstreet extracted well, with review text.",
+   "what_was_missing": "Most Jobstreet reviews are 2018-2020; Glassdoor unreadable."
+  },
+  "pay_and_benefits": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "No coordinator salary figure found. Indeed pay rating 2.4/5; a 2025 reviewer says not a great-paying job while older Jobstreet reviews call pay high/competitive. Fixed no-leave periods reported.",
+   "sources": [
+    "https://sg.indeed.com/cmp/The-Learning-Lab/reviews?fcountry=ALL&ftopic=paybenefits",
+    "https://sg.jobstreet.com/companies/the-learning-lab-168552813188026/salaries"
+   ],
+   "how_openserp_helped": "Surfaced sentiment pages.",
+   "what_was_missing": "Jobstreet salary page extracted only a summary, no figures."
+  },
+  "interview_and_hiring": {
+   "status": "not_found",
+   "confidence": "low",
+   "summary": "Nothing on interview process found.",
+   "sources": [],
+   "how_openserp_helped": "None.",
+   "what_was_missing": "No interview reviews read."
+  },
+  "red_flags_and_scams": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "No scam or regulatory action found in searches. Reviews allege leave refusals and one anonymous complaint about a director's conduct.",
+   "sources": [
+    "https://sg.indeed.com/cmp/The-Learning-Lab/reviews"
+   ],
+   "how_openserp_helped": "-",
+   "what_was_missing": "No targeted MOM/CCCS/TAFEP search done."
+  },
+  "recent_news": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "Latest item found is Nov 2022 sale process; 2026 items are fee reviews and a 2027 early-registration promo.",
+   "sources": [
+    "https://shop.thelearninglab.com.sg/products/early-registration"
+   ],
+   "how_openserp_helped": "Found dated news.",
+   "what_was_missing": "Nothing found 2023-2026 on ownership."
+  }
+ },
+ "tool": {
+  "searches": 8,
+  "extracts": 8,
+  "failed_or_blocked_calls": 2,
+  "blocked_or_unreadable_sites": [
+   "glassdoor.sg (502 extract_failed)",
+   "pe-insights.com (502 extract_failed)"
+  ],
+  "most_useful_sources": [
+   "sg.indeed.com reviews",
+   "sg.jobstreet.com reviews",
+   "sgpbusiness.com",
+   "Reuters via Yahoo Finance"
+  ],
+  "search_relevance_1to5": 4,
+  "extraction_quality_1to5": 4,
+  "coverage_of_needs_1to5": 3,
+  "reliability_1to5": 4,
+  "misleading_or_wrong_results": [
+   "Last search's top hit was a Reddit repost of a 2021 Bloomberg story; tutorly.sg extract was mostly marketing; sgpbusiness showed a garbled 'operating for 988736400' figure; Yahoo extract omitted the article year (inferred 2022 from the Reuters URL)"
+  ],
+  "minutes_spent": 4
+ },
+ "verdict": {
+  "would_rely_on_for_a_job_decision": "with_caveats",
+  "reasoning": "Good for identity and employee sentiment via Indeed and Jobstreet; weak for finances, headcount, pay, interview process; Glassdoor blocked.",
+  "biggest_gaps": [
+   "coordinator salary",
+   "interview process",
+   "current ownership and financials",
+   "recent reviews 2025-2026"
+  ],
+  "what_else_a_job_seeker_would_need": [
+   "current job ad details",
+   "Glassdoor reviews",
+   "contact with current staff",
+   "contract terms on leave and weekend work"
+  ]
+ }
+}

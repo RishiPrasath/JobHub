@@ -2,7 +2,31 @@
 
 Run 2026-11-07, after the scripted harness (Phase 3). Nine independent agents, each briefed as a former recruiter and HR analyst advising a job seeker, were given only OpenSERP (search and page extraction) and a budget of 12 searches and 10 page reads. Eight chose a company in an industry I assigned; the ninth was asked to vet an offer from a company I made up, without being told it was made up. Their brief is `outputs/agents/BRIEF.md`; each agent's report, structured assessment and call log is in `outputs/agents/A1` to `A9`.
 
-## The answer
+## Run 2: DuckDuckGo back on, same nine companies, fresh agents
+
+Run 1 (everything below this section) lost most of its search capacity: DuckDuckGo's circuit breaker had opened after the volume we put through it earlier, Google returned a CAPTCHA every time, so Bing carried the load. Before run 2 I checked DuckDuckGo: it had recovered by itself (the breaker only needed a request to close; nothing had to be switched on). I then reran the **same nine assignments with fresh agents who were told not to look at run 1**, telling them to use DuckDuckGo first and Bing second and to skip Google. Brief: `outputs/agents_run2/BRIEF.md`; agents' reports, assessments and call logs: `outputs/agents_run2/`.
+
+**What changed: search got much more reliable and faster.**
+
+| | Run 1 | Run 2 |
+|---|---|---|
+| Search calls that succeeded | 77 of 95 (81%) | **79 of 82 (96%)** |
+| Search failures | 13 timeouts, 3 CAPTCHAs, 2 service errors | 3 timeouts |
+| By engine | Bing 77 of 91; DuckDuckGo 0 of 1; Google 0 of 3 | **DuckDuckGo 42 of 45; Bing 37 of 37** |
+| Median search time (successful) | 31 s | **13 s** (90th percentile 27 s) |
+
+**What did not change: the answers.**
+- Page extraction was the same: 52 of 66 (79%) in run 2 against 58 of 73 (79%) in run 1, with the same generic 502 on Glassdoor (0 of 9 more attempts) and on PDFs and aggregator pages. Several 200 responses were again not usable (a sign-in page from Indeed, a JavaScript notice from Tech in Asia, a bot challenge from Reddit, an almost empty Singlife newsroom page).
+- Coverage by need was almost identical: identity answered by all 8 with high confidence again; culture, pay and interview partial and low confidence (15 of 21 low, against 18 of 21 before). Self-scored coverage 2.9 against 3.0, extraction 3.4 against 3.4; only reliability improved (3.6 against 3.0, search relevance 3.8 against 3.9).
+- Every one of the 8 agents again rated reliance "with caveats" and advised applying with care; the made-up employer again got "do not proceed and do not pay", with the same careful wording that no trace is not proof of absence. (DuckDuckGo still timed out twice for that agent.)
+
+**Two things the repeat revealed that one run could not.**
+1. **Stable facts were stable.** For Ninja Van (12% Singapore cut in August 2025, legal entity Ninja Logistics Pte. Ltd.), GVT (Aalberts acquisition, about 1,800 staff), ECON (TPG take-private, One Aged Care), The Learning Lab (Indeed 3.0 of 5 from 22 reviews, private-equity ownership) and Recruit Express (licence 99C4599, HRnetGroup subsidiary), both runs agreed. The company IDs and registration dates again match the registry.
+2. **Findings that depended on query wording were not stable, and one of them was serious.** Run 1's Singlife agent found the regulator's S$93,750 fine on its financial-adviser arm with a specific query ("MAS PIAS Singlife misconduct financial advisers action penalty"). Run 2's agent used a generic one ("Singlife MAS penalty OR complaint OR scam OR fraud"), got noise, and reported **no regulatory penalty found**, with a note that its search was weak. Same tool, same company, opposite red-flag result. Likewise Grab's headcount was a third-party "56K to 58K" in run 1 and "about 11,000 to 12,660" in run 2 (the second matches the 12,000 seen in earlier testing), and Sheng Siong's was a 2010 figure in run 1 and an unverified 4,174 in run 2. About a quarter of all searches in both runs (24 of 95 and 24 of 82) used OR-style queries, which several agents said returned noise.
+
+**What this adds to the answer.** Re-enabling DuckDuckGo fixed a real weakness (reliability and speed of search) and is worth keeping on. It does not change the main finding. Whether a serious red flag is found depends on how well the researcher words a query, which a job seeker cannot be expected to do and an automated system cannot rely on without several targeted, entity-specific queries per risk type (regulator, court, complaints, layoffs, scams) run every time.
+
+## The answer (from run 1; run 2 supports it)
 
 **Partly.** OpenSERP lets an expert researcher answer "is this employer real, who owns it, how is the business doing, has it laid people off, and is the offer a scam pattern?" with sources, in about 10 minutes per company. It does **not** let them reliably answer "what is it like to work there, what does it pay, and how does the interview go?". Those answers came back thin, from snippets, and at low confidence.
 

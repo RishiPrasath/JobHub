@@ -9,3 +9,6 @@ outputs/agents/*/*.json
 outputs/agents/*/*.py
 !outputs/agents/registry_check_of_agent_claims.json
 !outputs/agents/calls_all.json
+outputs/agents_run2/*/*.json
+!outputs/agents_run2/*/assessment.json
+outputs/agents_run2/*/*.py
