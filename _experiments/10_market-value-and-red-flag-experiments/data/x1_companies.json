@@ -1,0 +1,18 @@
+{
+ "_note": "Frozen 2026-11-07 before X1 arms. From X0 go sources (MAS enforcement, CASE alerts) only; PDPC/MOM/SGX/courts not readable (see outputs/x0). DEVIATION: 12 known-problem orgs, not 20. Caveats: Sir Money Changer and Bsquared had licences revoked (may not be operating); Capital Asia is an investigation (suspicion); Samlit is 'to be charged'; CASE alerts are consumer complaints, not regulator findings. Official detail not stored beyond name, authority, type, year, URL.",
+ "known": [
+  {"name":"Sir Money Changer","authority":"MAS","action":"licence revocation","year":2026,"url":"https://www.mas.gov.sg/regulation/enforcement/enforcement-actions/2026/mas-revokes-major-payment-institution-license-of-sir-money-changer-pte-ltd-smc"},
+  {"name":"Samlit Moneychanger","authority":"MAS","action":"criminal prosecution announced","year":2026,"url":"https://www.mas.gov.sg/regulation/enforcement/enforcement-actions/2026/samlit-moneychanger-and-two-individuals-to-be-charged"},
+  {"name":"Padang Trust Singapore","authority":"MAS","action":"composition penalty AML/CFT","year":2026,"url":"https://www.mas.gov.sg/regulation/enforcement/enforcement-actions/2026/mas-imposes-$300000-composition-penalty-on-padang-trust-singapore-pte-ltd-for-aml-cft-breaches"},
+  {"name":"Bsquared Technology","authority":"MAS","action":"licence revocation","year":2026,"url":"https://www.mas.gov.sg/regulation/enforcement/enforcement-actions/2026/mas-revokes-the-major-payment-institution-licence-of-bsquared-technology-pte-ltd"},
+  {"name":"Havenport Investments","authority":"MAS","action":"composition and reprimand","year":2026,"url":"https://www.mas.gov.sg/regulation/enforcement/enforcement-actions/2026/mas-takes-enforcement-action-against-havenport-investments-for-breaches-of-mas-regs"},
+  {"name":"Capital Asia Investments","authority":"MAS","action":"investigation, suspected money laundering","year":2026,"url":"https://www.mas.gov.sg/regulation/enforcement/enforcement-actions/2026/capital-asia-investments"},
+  {"name":"Eurofin Investments","authority":"MAS","action":"composition, reprimand","year":2026,"url":"https://www.mas.gov.sg/regulation/enforcement/enforcement-actions/2026/mas-takes-enforcement-actions-against-eurofin-investments-pte-ltd"},
+  {"name":"DNA Brands Co","authority":"CASE","action":"company alert (complaints)","year":2025,"url":"https://www.case.org.sg/list/dna-brands-co-pte-ltd/"},
+  {"name":"HairFun Salons","authority":"CASE","action":"company alert (complaints)","year":2024,"url":"https://www.case.org.sg/list/hairfun-salons/"},
+  {"name":"Diva Lash & Nails","authority":"CASE","action":"company alert (complaints)","year":2024,"url":"https://www.case.org.sg/list/diva-lash-nails/"},
+  {"name":"Prestige Carz Rental","authority":"CASE","action":"company alert (complaints)","year":2023,"url":"https://www.case.org.sg/list/prestige-carz-rental/"},
+  {"name":"Sense Construction","authority":"CASE","action":"company alert (complaints)","year":2022,"url":"https://www.case.org.sg/list/sense-construction/"}
+ ],
+ "controls": ["Sheng Siong","Koufu","Persol Singapore","Charterhouse Resources","Randstad Singapore","Kyndryl Singapore","Activate Interactive","Temp-Team"]
+}

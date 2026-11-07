@@ -1,0 +1,19 @@
+{
+ "_note": "Frozen 2026-11-07 before Arm B. Gathered by three Haiku agents from brands' own pages, UENs spot-checked by lead in registry (Shopee, Courts, Din Tai Fung, Mr Bean). Only brands with an operator named on the brand's own page AND a registry match are included. DEVIATION from protocol: 12 brands, not 30; the other 24 (incl. reserve) had no operator on reachable own pages, were blocked (403), or lacked a registry match.",
+ "tier_note": "tier 'footer' = entity taken from the page copyright line only (weaker).",
+ "brands": [
+  {"brand":"Grab","uens":["201324745D","201427085E","201316157E"],"names":["GRABTAXI PTE. LTD.","GRABCAR PTE. LTD.","GRABTAXI HOLDINGS PTE. LTD."],"tier":"terms","live":true,"note":"Terms name three SG entities; any of the three counts correct"},
+  {"brand":"Shopee","uens":["201503526N"],"names":["SHOPEE SINGAPORE PRIVATE LIMITED"],"tier":"help-page","live":true},
+  {"brand":"Ninja Van","uens":["201412014E"],"names":["NINJA LOGISTICS PTE. LTD."],"tier":"terms","live":true},
+  {"brand":"Deliveroo","uens":["201534633Z"],"names":["DELIVEROO SINGAPORE PTE. LTD."],"tier":"legal-page","live":false,"note":"Registry: in liquidation. Correct answer = identify entity AND report not live"},
+  {"brand":"Jollibee","uens":["201217938Z"],"names":["GOLDEN BEEWORKS PTE. LTD."],"tier":"privacy","live":true},
+  {"brand":"BreadTalk","uens":["200003528M"],"names":["BREADTALK PTE LTD"],"tier":"footer","live":true},
+  {"brand":"Courts","uens":["197301411C"],"names":["COURTS (SINGAPORE) PTE. LTD."],"tier":"privacy","live":true},
+  {"brand":"Old Chang Kee","uens":["198800049R"],"names":["OLD CHANG KEE SINGAPORE PTE. LTD."],"tier":"about-page","live":true,"note":"Listed parent OLD CHANG KEE LTD. is a different entity"},
+  {"brand":"Paris Baguette","uens":["201108952N"],"names":["PARIS BAGUETTE SINGAPORE PTE. LTD."],"tier":"privacy","live":true},
+  {"brand":"Mr Bean","uens":["199901613E"],"names":["SUPER BEAN INTERNATIONAL PTE LTD"],"tier":"privacy","live":true,"note":"from reserve"},
+  {"brand":"Ya Kun Kaya Toast","uens":["200104668W"],"names":["YA KUN INTERNATIONAL PTE LTD"],"tier":"footer","live":true},
+  {"brand":"Din Tai Fung","uens":["200303124C"],"names":["TASTER FOOD PTE. LTD."],"tier":"footer","live":true}
+ ],
+ "dropped": ["Foodpanda","Cold Storage","Guardian","Carousell","Lalamove","Watsons","Toast Box","Koi Thé","Pet Lovers Centre","Popular Bookstore","Kumon","Mind Stretcher","The Learning Lab","Tiong Bahru Bakery","Pezzo","Fun Toast","Kopitiam","Gong Cha","Tiger Sugar","Uniqlo","Daiso","Sushiro","Genki Sushi","Crystal Jade"]
+}
