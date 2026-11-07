@@ -14,6 +14,7 @@ Research rounds group related research runs around one decision or transition. A
 | [05 — Technical feasibility and AI SDLC](05_technical-feasibility-and-ai-sdlc/README.md) | Test technical and development-process assumptions | Planned |
 | [06 — Readiness and scope decision](06_readiness-and-scope-decision/README.md) | Consolidate evidence for a human-owned initial scope decision | Planned |
 | [08 — Market value and salary benchmarking](08_market-value-and-salary-benchmarking/README.md) | How a person's market value and salary benchmark are determined, and how reliable that is | First pass complete |
+| [09 — How job seekers actually job-hunt](09_job-seeker-processes-as-is/README.md) | The as-is processes job seekers follow to search, apply, interview and go from offer to first day | First pass complete |
 
 Rounds are a sequence of gates, not a promise to complete every folder. A gate may stop, repeat, narrow, defer, or advance the work.
 
