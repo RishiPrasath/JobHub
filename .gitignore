@@ -5,3 +5,5 @@
 
 # Local prototype dependencies
 node_modules/
+__pycache__/
+*.pyc

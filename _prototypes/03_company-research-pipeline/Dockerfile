@@ -10,6 +10,7 @@ ENV JOBHUB_DATA=/data PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
 RUN mkdir /data && chown app /data
 USER app
 VOLUME ["/data"]
+EXPOSE 8090 8091
 
 ENTRYPOINT ["python", "-m", "pipeline.cli"]
 CMD ["--help"]

@@ -1,5 +1,46 @@
 # Prototype 03 — Company research pipeline
 
+This prototype now includes the **Company Research Service**: a small HTTP
+experiment that turns a company name and optional job context into a
+provenance-preserving research run. It is intentionally evidence collection,
+not an employer score or an automated job decision.
+
+## Company Research Service
+
+Start the HTTP service alongside the registry and SearXNG containers:
+
+```bash
+docker compose build
+docker compose up -d registry searxng research
+curl http://127.0.0.1:8091/health
+```
+
+The first registry start may take several minutes because it provisions the
+public ACRA release into the Docker volume. The research service remains
+available but will report identity as unavailable until the registry is ready.
+
+Run one bounded experiment:
+
+```bash
+curl -X POST http://127.0.0.1:8091/research \
+  -H "Content-Type: application/json" \
+  -d '{"company_name":"Micron Semiconductor Asia Operations Pte Ltd","job_title":"Fab10 Mechanical Senior Engineer"}'
+```
+
+The JSON response contains:
+
+- the registry identity result and any ambiguity;
+- the generated query plan and query statuses;
+- search leads with source class, rank, URL, title, and snippet;
+- page retrieval outcomes such as `ok`, `thin`, `blocked_by_robots`, or `blocked_or_failed`;
+- redacted content previews where public pages were readable;
+- explicit limitations, with no unsupported overall company score.
+
+The service uses SearXNG only for this experiment. It does not silently fall
+back to direct DuckDuckGo scraping, solve CAPTCHAs, log in, or fetch an
+arbitrary user-supplied URL. Search leads are unverified evidence until a page
+is successfully retrieved and inspected.
+
 A small, free, container-ready pipeline from the [2026-11-01 company research tooling run](../../02_research/03_research-rounds/05_technical-feasibility-and-ai-sdlc/runs/2026-11-01-company-research-tooling/README.md). Python standard library only; no pip install, no paid service, no card.
 
 ```text

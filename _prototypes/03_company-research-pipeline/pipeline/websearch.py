@@ -35,8 +35,9 @@ def searxng(query, max_results=10):
         time.sleep(wait)
     _state["last"] = time.time()
     try:
+        timeout = float(os.environ.get("SEARXNG_TIMEOUT_SECONDS", "40"))
         with urllib.request.urlopen(urllib.request.Request(base_url + "/search?format=json&q=" + urllib.parse.quote(query),
-                                                           headers={"User-Agent": UA}), timeout=40) as r:
+                                                           headers={"User-Agent": UA}), timeout=timeout) as r:
             d = __import__("json").load(r)
     except Exception as e:
         return {"query": query, "source": "searxng_local", "status": "unavailable", "note": type(e).__name__, "results": []}

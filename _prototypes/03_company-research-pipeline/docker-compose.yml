@@ -73,5 +73,38 @@ services:
     security_opt:
       - no-new-privileges:true
 
+  research:
+    build: .
+    image: jobhub-company-research:dev
+    command: ["python", "-m", "pipeline.service"]
+    depends_on:
+      - registry
+      - searxng
+    env_file:
+      - path: ../../.env
+        required: false
+    environment:
+      COMPANY_RESEARCH_PORT: 8091
+      JOBHUB_REGISTRY_URL: http://registry:8090
+      SEARXNG_URL: http://searxng:8080
+      COMPANY_RESEARCH_REGISTRY_TIMEOUT_SECONDS: 8
+      COMPANY_RESEARCH_SEARCH_TIMEOUT_SECONDS: 8
+      JOBHUB_ENABLE_DDG: "0"
+    ports:
+      - "127.0.0.1:8091:8091"
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8091/health', timeout=5)"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
 volumes:
   acra-data:
