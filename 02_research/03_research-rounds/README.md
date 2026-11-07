@@ -13,6 +13,7 @@ Research rounds group related research runs around one decision or transition. A
 | [04 — AI assistance and trust](04_ai-assistance-and-trust/README.md) | Define useful AI assistance, approval points, evidence presentation, and uncertainty handling | Planned |
 | [05 — Technical feasibility and AI SDLC](05_technical-feasibility-and-ai-sdlc/README.md) | Test technical and development-process assumptions | Planned |
 | [06 — Readiness and scope decision](06_readiness-and-scope-decision/README.md) | Consolidate evidence for a human-owned initial scope decision | Planned |
+| [08 — Market value and salary benchmarking](08_market-value-and-salary-benchmarking/README.md) | How a person's market value and salary benchmark are determined, and how reliable that is | First pass complete |
 
 Rounds are a sequence of gates, not a promise to complete every folder. A gate may stop, repeat, narrow, defer, or advance the work.
 
