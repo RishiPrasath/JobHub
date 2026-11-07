@@ -1,0 +1,226 @@
+[
+ {
+  "engine": "duckduckgo",
+  "query_id": "known",
+  "query": "Randstad Singapore employee reviews",
+  "http": 200,
+  "seconds": 1.0,
+  "organic": 8,
+  "ads": 0,
+  "other": 0,
+  "took_ms": 988,
+  "engines_failed": [],
+  "top_domains": [
+   "glassdoor.sg",
+   "sg.indeed.com",
+   "glassdoor.com",
+   "sg.jobstreet.com",
+   "glassdoor.sg"
+  ]
+ },
+ {
+  "engine": "duckduckgo",
+  "query_id": "obscure",
+  "query": "Zzqxv Qwlmt Holdings Singapore scam",
+  "http": 200,
+  "seconds": 1.03,
+  "organic": 8,
+  "ads": 0,
+  "other": 0,
+  "took_ms": 1030,
+  "engines_failed": [],
+  "top_domains": [
+   "scamshield.gov.sg",
+   "scamchecker.app",
+   "scam.sg",
+   "scamshield.gov.sg",
+   "scam.sg"
+  ]
+ },
+ {
+  "engine": "bing",
+  "query_id": "known",
+  "query": "Randstad Singapore employee reviews",
+  "http": 200,
+  "seconds": 3.3,
+  "organic": 8,
+  "ads": 0,
+  "other": 0,
+  "took_ms": 3299,
+  "engines_failed": [],
+  "top_domains": [
+   "glassdoor.sg",
+   "sg.jobstreet.com",
+   "sg.indeed.com",
+   "glassdoor.sg",
+   "sg.jobstreet.com"
+  ]
+ },
+ {
+  "engine": "bing",
+  "query_id": "obscure",
+  "query": "Zzqxv Qwlmt Holdings Singapore scam",
+  "http": 200,
+  "seconds": 3.21,
+  "organic": 8,
+  "ads": 0,
+  "other": 0,
+  "took_ms": 3207,
+  "engines_failed": [],
+  "top_domains": [
+   "scamshield.gov.sg",
+   "scam.sg",
+   "scam.sg",
+   "ask.gov.sg",
+   "scamshield.gov.sg"
+  ]
+ },
+ {
+  "engine": "google",
+  "query_id": "known",
+  "query": "Randstad Singapore employee reviews",
+  "http": 200,
+  "seconds": 3.76,
+  "organic": 8,
+  "ads": 0,
+  "other": 0,
+  "took_ms": 3760,
+  "engines_failed": [],
+  "top_domains": [
+   "glassdoor.sg",
+   "sg.jobstreet.com",
+   "sg.indeed.com",
+   "sg.indeed.com",
+   "reddit.com"
+  ]
+ },
+ {
+  "engine": "google",
+  "query_id": "obscure",
+  "query": "Zzqxv Qwlmt Holdings Singapore scam",
+  "http": 200,
+  "seconds": 3.48,
+  "organic": 8,
+  "ads": 0,
+  "other": 0,
+  "took_ms": 3481,
+  "engines_failed": [],
+  "top_domains": [
+   "scam.sg",
+   "scam.sg",
+   "stomp.sg",
+   "facebook.com",
+   "facebook.com"
+  ]
+ },
+ {
+  "engine": "ecosia",
+  "query_id": "known",
+  "query": "Randstad Singapore employee reviews",
+  "http": 403,
+  "seconds": 0.24,
+  "organic": 0,
+  "ads": 0,
+  "other": 0,
+  "took_ms": null,
+  "engines_failed": null,
+  "top_domains": [],
+  "error": {
+   "error": "blocked",
+   "code": 403,
+   "message": "search engine blocked the request"
+  }
+ },
+ {
+  "engine": "ecosia",
+  "query_id": "obscure",
+  "query": "Zzqxv Qwlmt Holdings Singapore scam",
+  "http": 403,
+  "seconds": 0.21,
+  "organic": 0,
+  "ads": 0,
+  "other": 0,
+  "took_ms": null,
+  "engines_failed": null,
+  "top_domains": [],
+  "error": {
+   "error": "blocked",
+   "code": 403,
+   "message": "search engine blocked the request"
+  }
+ },
+ {
+  "engine": "yandex",
+  "query_id": "known",
+  "query": "Randstad Singapore employee reviews",
+  "http": 429,
+  "seconds": 8.48,
+  "organic": 0,
+  "ads": 0,
+  "other": 0,
+  "took_ms": null,
+  "engines_failed": null,
+  "top_domains": [],
+  "error": {
+   "error": "captcha_detected",
+   "code": 429,
+   "message": "captcha detected"
+  }
+ },
+ {
+  "engine": "yandex",
+  "query_id": "obscure",
+  "query": "Zzqxv Qwlmt Holdings Singapore scam",
+  "http": 429,
+  "seconds": 8.09,
+  "organic": 0,
+  "ads": 0,
+  "other": 0,
+  "took_ms": null,
+  "engines_failed": null,
+  "top_domains": [],
+  "error": {
+   "error": "captcha_detected",
+   "code": 429,
+   "message": "captcha detected"
+  }
+ },
+ {
+  "engine": "baidu",
+  "query_id": "known",
+  "query": "Randstad Singapore employee reviews",
+  "http": 200,
+  "seconds": 1.4,
+  "organic": 9,
+  "ads": 0,
+  "other": 0,
+  "took_ms": 1395,
+  "engines_failed": [],
+  "top_domains": [
+   "randstad.com.sg",
+   "sbr.com.sg",
+   "businesstimes.com.sg",
+   "image.baidu.com",
+   "randstad.ca"
+  ]
+ },
+ {
+  "engine": "baidu",
+  "query_id": "obscure",
+  "query": "Zzqxv Qwlmt Holdings Singapore scam",
+  "http": 200,
+  "seconds": 2.15,
+  "organic": 9,
+  "ads": 0,
+  "other": 0,
+  "took_ms": 2108,
+  "engines_failed": [],
+  "top_domains": [
+   "mip.quikfish.com",
+   "baike.baidu.com",
+   "3g.szqxzspj.cn",
+   "9fzt.com",
+   "mp.weixin.qq.com"
+  ]
+ }
+]

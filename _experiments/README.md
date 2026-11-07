@@ -19,6 +19,7 @@ question → fixture → prompt → code → raw output → review → findings 
 - `06_industry-portability/` — shared and sector-specific review fields.
 - `07_model-comparison/` — model accuracy, consistency, latency and output differences.
 - `08_user-interface-and-human-review/` — correction, accessibility, interruption and recovery tests.
+- `09_openserp-company-research/` — whether the self-hosted OpenSERP search service can power company research for job postings (Docker service, probes, eight persona sub-agents, report).
 
 Reusable SDK instructions live in [Tools/OpenAI SDK](../Tools/OpenAI%20SDK/briefing.md). Product interpretation belongs in [analysis](../analysis/README.md).
 

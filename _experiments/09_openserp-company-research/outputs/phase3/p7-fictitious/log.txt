@@ -1,0 +1,17 @@
+[   4.0s] 6 queries written
+[   4.0s] search 200 8 organic in 0.0s via ['duckduckgo'] :: Zzqxv Qwlmt Holdings Pte Ltd employee reviews Sing
+[   4.0s] search 200 8 organic in 0.0s via ['duckduckgo'] :: Zzqxv Qwlmt Holdings Pte Ltd layoffs restructuring
+[   4.0s] search 200 8 organic in 0.0s via ['duckduckgo'] :: Zzqxv Qwlmt Holdings Pte Ltd scam fraud reports
+[   4.0s] search 200 8 organic in 0.0s via ['duckduckgo'] :: Zzqxv Qwlmt Holdings Pte Ltd interview process det
+[   4.0s] search 200 8 organic in 0.0s via ['duckduckgo'] :: Zzqxv Qwlmt Holdings Pte Ltd salary information Si
+[   4.0s] search 200 8 organic in 0.0s via ['duckduckgo'] :: Zzqxv Qwlmt Holdings Pte Ltd lawsuits regulatory n
+[   4.0s] 48 unique organic URLs, reading 8
+[   4.3s] page irrelevant   4893 chars   0.3s https://sg.indeed.com/cmp/Viewqwest-Pte-Ltd/reviews
+[   6.1s] page error        0 chars   0.3s https://www.glassdoor.sg/Reviews/BORGWARNER-SINGAPORE-HOLDINGS-PTE-LTD
+[   7.9s] page error        0 chars   0.3s https://www.glassdoor.com/Reviews/BORGWARNER-SINGAPORE-HOLDINGS-PTE-LT
+[  10.1s] page blocked    490 chars   0.7s https://www.reddit.com/r/SingaporeRaw/comments/156h5vz/megathread_toxi
+[  11.8s] page irrelevant   1532 chars   0.2s https://www.scam.sg/companies
+[  13.6s] page irrelevant   3640 chars   0.3s https://sg.indeed.com/cmp/Natsteel-Holdings-Pte-Ltd/reviews?fcountry=A
+[  15.4s] page error        0 chars   0.3s https://www.glassdoor.com/Reviews/SEA-Singapore-Reviews-E1882231.htm
+[  17.5s] page blocked    490 chars   0.6s https://www.reddit.com/r/phcareers/comments/qdzecl/not_sure_if_i_still
+[  20.0s] brief: cannot_verify / low ; claims verified 0, unverified 0

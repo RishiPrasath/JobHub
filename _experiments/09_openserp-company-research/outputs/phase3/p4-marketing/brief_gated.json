@@ -1,0 +1,319 @@
+{
+ "validity_status": "appears_real_limited_evidence",
+ "validity_reasoning": "Multiple independent review sources (Indeed, JobStreet, Payscale) describe Lazazda Singapore's work environment, culture, and employee sentiment, but detailed financial or structural data is limited.",
+ "confidence": "medium",
+ "confidence_reasoning": "Evidence is consistent across several review platforms, though depth is limited to employee opinions rather than hard metrics.",
+ "could_not_verify": [
+  "Exact compensation figures for Digital Marketing roles",
+  "Specific team size of the Digital Marketing department",
+  "Growth rate of Lazada Singapore in 2024"
+ ],
+ "key_facts": [
+  {
+   "claim": "Overall employee rating is around 3.7‑3.8 out of 5.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Overall rating 3.8 Based on 519 reviews",
+     "url": "https://sg.indeed.com/cmp/Lazada/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 4,
+     "quote": "Employees at Lazada appreciate the friendly and helpful colleagues",
+     "url": "https://sg.jobstreet.com/companies/lazada-168554893586129/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Work environment is fast‑paced with high pressure, especially during sales events.",
+   "evidence": [
+    {
+     "source": 4,
+     "quote": "fast‑paced and high‑pressure environment with hectic periods during events",
+     "url": "https://sg.jobstreet.com/companies/lazada-168554893586129/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 1,
+     "quote": "Fast moving, lots of learning opportunities, and you often get pushed to your limits",
+     "url": "https://sg.indeed.com/cmp/Lazada/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Employees report good learning opportunities and skill development.",
+   "evidence": [
+    {
+     "source": 4,
+     "quote": "good learning experience for independent individuals who can handle pressure",
+     "url": "https://sg.jobstreet.com/companies/lazada-168554893586129/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 1,
+     "quote": "Fast paced and lot of learning",
+     "url": "https://sg.indeed.com/cmp/Lazada/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Culture is described as inclusive with supportive colleagues.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "What people likeInclusive work environment",
+     "url": "https://sg.indeed.com/cmp/Lazada/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 4,
+     "quote": "friendly and helpful colleagues, with strong teamwork and collaboration",
+     "url": "https://sg.jobstreet.com/companies/lazada-168554893586129/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Management direction can be unclear and changes frequently.",
+   "evidence": [
+    {
+     "source": 4,
+     "quote": "management direction is not always clear, with frequent changes",
+     "url": "https://sg.jobstreet.com/companies/lazada-168554893586129/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 1,
+     "quote": "Top management team ... care about short term results",
+     "url": "https://sg.indeed.com/cmp/Lazada/reviews",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Long working hours and occasional burnout are common, especially during peak periods.",
+   "evidence": [
+    {
+     "source": 4,
+     "quote": "Long working hours can be expected, particularly during peak periods",
+     "url": "https://sg.jobstreet.com/companies/lazada-168554893586129/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 1,
+     "quote": "Fast moving, lots of learning opportunities, and you often get pushed to your limits",
+     "url": "https://sg.indeed.com/cmp/Lazada/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Compensation is perceived as average for the industry.",
+   "evidence": [
+    {
+     "source": 3,
+     "quote": "Lazada has an employee rating of 3.4 out of 5 stars ... in line with the average",
+     "url": "https://www.glassdoor.com/Reviews/Lazada-Reviews-E578726.htm",
+     "quote_found_in_source": false
+    },
+    {
+     "source": 8,
+     "quote": "Lazada employees ... rate their compensation and benefits with 3.5 out of 5 stars",
+     "url": "https://www.glassdoor.co.in/Reviews/Lazada-Singapura-Reviews-EI_IE578726.0,6_IL.7,16_IC3235921.htm",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "unverified"
+  }
+ ],
+ "positive_signals": [
+  {
+   "claim": "Strong peer support and teamwork.",
+   "evidence": [
+    {
+     "source": 4,
+     "quote": "friendly and helpful colleagues, with strong teamwork and collaboration",
+     "url": "https://sg.jobstreet.com/companies/lazada-168554893586129/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 1,
+     "quote": "What people likeTrust in colleagues",
+     "url": "https://sg.indeed.com/cmp/Lazada/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Opportunities for rapid skill acquisition.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Fast paced and lot of learning",
+     "url": "https://sg.indeed.com/cmp/Lazada/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 4,
+     "quote": "good learning experience for independent individuals who can handle pressure",
+     "url": "https://sg.jobstreet.com/companies/lazada-168554893586129/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Competitive benefits such as parental leave and health perks.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "good benefits for the size of the company ... parental leave and health benefits are good",
+     "url": "https://sg.indeed.com/cmp/Lazada/reviews",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "unverified"
+  }
+ ],
+ "red_flags": [
+  {
+   "claim": "Management perceived as toxic or biased by some employees.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "It has become very toxic as everyone wants to survive",
+     "url": "https://sg.indeed.com/cmp/Lazada/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 1,
+     "quote": "new CHRO who shows little to no respect to people and super biased",
+     "url": "https://sg.indeed.com/cmp/Lazada/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "High turnover and limited guidance for new hires.",
+   "evidence": [
+    {
+     "source": 4,
+     "quote": "high turnover rate means experienced colleagues may not always be available",
+     "url": "https://sg.jobstreet.com/companies/lazada-168554893586129/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Frequent strategic shifts causing uncertainty.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Top management team ... care about short term results as it impact their own job security",
+     "url": "https://sg.indeed.com/cmp/Lazada/reviews",
+     "quote_found_in_source": false
+    },
+    {
+     "source": 4,
+     "quote": "management direction is not always clear, with frequent changes",
+     "url": "https://sg.jobstreet.com/companies/lazada-168554893586129/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  }
+ ],
+ "relevance_for_persona": "For a marketing professional targeting a Digital Marketing Executive role, Lazada Singapore offers a fast‑moving, data‑rich environment with strong teamwork and learning opportunities, but candidates should be prepared for high pressure, possible management ambiguity, and a competitive but average compensation landscape.",
+ "sources_used": [
+  {
+   "id": 1,
+   "url": "https://sg.indeed.com/cmp/Lazada/reviews",
+   "kind": "page"
+  },
+  {
+   "id": 2,
+   "url": "https://www.glassdoor.sg/Reviews/Lazada-Singapore-Reviews-EI_IE578726.0,6_IL.7,16_IM1123.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 3,
+   "url": "https://www.glassdoor.com/Reviews/Lazada-Reviews-E578726.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 4,
+   "url": "https://sg.jobstreet.com/companies/lazada-168554893586129/reviews",
+   "kind": "page"
+  },
+  {
+   "id": 5,
+   "url": "https://www.glassdoor.sg/Reviews/Lazada-Reviews-E578726.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 6,
+   "url": "https://www.payscale.com/research/SG/Employer=Lazada_Group/Reviews",
+   "kind": "page"
+  },
+  {
+   "id": 7,
+   "url": "https://www.ambitionbox.com/reviews/lazada-reviews/singapore-location",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 8,
+   "url": "https://www.glassdoor.co.in/Reviews/Lazada-Singapura-Reviews-EI_IE578726.0,6_IL.7,16_IC3235921.htm",
+   "kind": "snippet_only"
+  }
+ ],
+ "sources_failed_or_blocked": [
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Lazada-Singapore-Reviews-EI_IE578726.0,6_IL.7,16_IM1123.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Lazada-Reviews-E578726.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Lazada-Reviews-E578726.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  },
+  {
+   "url": "https://www.ambitionbox.com/reviews/lazada-reviews/singapore-location",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  },
+  {
+   "url": "https://www.glassdoor.co.in/Reviews/Lazada-Singapura-Reviews-EI_IE578726.0,6_IL.7,16_IC3235921.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  }
+ ],
+ "claims_verified": 11,
+ "claims_unverified": 2,
+ "llm_validity_status": "appears_real_limited_evidence",
+ "llm_confidence": "medium",
+ "name_gate": {
+  "phrase": "lazada singapore",
+  "pages_with_exact_name": 0,
+  "snippets_with_exact_name": 2,
+  "note": null
+ }
+}

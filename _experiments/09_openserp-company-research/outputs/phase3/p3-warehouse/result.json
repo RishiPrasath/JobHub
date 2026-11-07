@@ -1,0 +1,21 @@
+{
+ "persona": "p3-warehouse",
+ "who": "warehouse and logistics worker",
+ "company": "Ninja Van Singapore",
+ "role": "Warehouse Associate",
+ "truth_note": "real, well known",
+ "stages": {},
+ "ok": true,
+ "validity": "appears_real_and_consistent",
+ "confidence": "medium",
+ "claims_verified": 13,
+ "claims_unverified": 3,
+ "queries": 6,
+ "searches_ok": 6,
+ "unique_urls": 45,
+ "pages_tried": 8,
+ "pages_ok": 5,
+ "pages_failed": 3,
+ "llm_tokens_brief": 4604,
+ "seconds": 265.1
+}

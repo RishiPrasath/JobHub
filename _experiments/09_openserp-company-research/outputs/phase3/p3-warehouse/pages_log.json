@@ -1,0 +1,100 @@
+[
+ {
+  "url": "https://sg.indeed.com/cmp/Ninja-Van/reviews",
+  "http": 200,
+  "seconds": 0.4,
+  "status": "ok",
+  "chars": 6162,
+  "note": null,
+  "title": "Ninja Van Employee Reviews",
+  "mode_used": "fast",
+  "search_title": "Working at Ninja Van: Employee Reviews | Indeed.com",
+  "snippet": "Feb 19, 2026Reviews from Ninja Van employees about Ninja Van culture, salaries, benefits, work-life balance, management, job security, and more.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.asiaone.com/singapore/over-s1-2m-lost-courier-phishing-scams-ninja-van-jt-express-imessage",
+  "http": 200,
+  "seconds": 0.2,
+  "status": "ok",
+  "chars": 3753,
+  "note": null,
+  "title": "Over $1.2m lost in courier phishing scams impersonating Ninja Van, J&T Express and others via iMessage",
+  "mode_used": "fast",
+  "search_title": "Over $1.2m lost in courier phishing scams impersonating Ninja Van, J&T ...",
+  "snippet": "Aug 5, 2026Over $1.2m lost in courier phishing scams impersonating Ninja Van, J&T Express and others via iMessage The police warned that courier companies typically do not use iMessage to contact customers.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://sg.indeed.com/cmp/Ninja-Van/salaries",
+  "http": 200,
+  "seconds": 1.2,
+  "status": "ok",
+  "chars": 1443,
+  "note": null,
+  "title": "Ninja Van Salaries in Singapore",
+  "mode_used": "fast",
+  "search_title": "Ninja Van Salaries in Singapore | Indeed.com",
+  "snippet": "How much does Ninja Van in Singapore pay? See Ninja Van salaries collected directly from employees and jobs on Indeed. Salary estimated from 22 past and present job postings on Indeed. Please note that all salary figures are approximations based upon third party submissions to Indeed. These figures are given to the Indeed users for the purpose of generalised comparison only. Minimum wage may ...",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.glassdoor.sg/Reviews/Ninja-Van-Singapore-Reviews-EI_IE984783.0,9_IL.10,19_IM1123.htm",
+  "http": 502,
+  "seconds": 0.3,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "Ninja Van Reviews in Singapore | Glassdoor",
+  "snippet": "195 Ninja Van reviews in Singapore. A free inside look at company reviews and salaries posted anonymously by employees.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://sg.jobstreet.com/companies/ninja-van-168558704093230/reviews",
+  "http": 200,
+  "seconds": 0.4,
+  "status": "ok",
+  "chars": 553,
+  "note": null,
+  "title": "Reviews Ninja Van employee ratings and reviews | Jobstreet | Ninja Logistics Pte Ltd",
+  "mode_used": "fast",
+  "search_title": "Reviews Ninja Van employee ratings and reviews - Jobstreet",
+  "snippet": "Thinking of working at Ninja Van (Ninja Logistics Pte Ltd)? Read 6 employee reviews on Jobstreet to learn about salaries, benefits, company culture, work-life balance, and career opportunities",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://sg.jobstreet.com/companies/ninja-van-168551459936163/reviews",
+  "http": 200,
+  "seconds": 0.5,
+  "status": "ok",
+  "chars": 1158,
+  "note": null,
+  "title": "Reviews Ninja Van employee ratings and reviews | Jobstreet",
+  "mode_used": "fast",
+  "search_title": "Reviews Ninja Van employee ratings and reviews | Jobstreet",
+  "snippet": "Thinking of working at Ninja Van? Read 39 employee reviews on Jobstreet to learn about salaries, benefits, company culture, work-life balance, and career opportunities",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.glassdoor.com/Reviews/Ninja-Van-Reviews-E984783.htm",
+  "http": 502,
+  "seconds": 0.3,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "Ninja Van Reviews (676): Pros & Cons of Working At Ninja Van | Glassdoor",
+  "snippet": "Ninja Van has an employee rating of 3.5 out of 5 stars, based on 676 company reviews on Glassdoor which indicates that most employees have a good working experience there. The Ninja Van employee rating is in line with the average (within 1 standard deviation) for employers within the Transportation & Logistics industry (3.5 stars).",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.glassdoor.sg/Reviews/Ninja-Van-Reviews-E984783.htm",
+  "http": 502,
+  "seconds": 0.4,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "Ninja Van Reviews - Glassdoor",
+  "snippet": "680 Ninja Van reviews. A free inside look at company reviews and salaries posted anonymously by employees.",
+  "engine": "duckduckgo"
+ }
+]

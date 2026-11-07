@@ -1,0 +1,323 @@
+{
+ "validity_status": "appears_real_and_consistent",
+ "validity_reasoning": "Multiple independent employee review sources (Indeed, JobStreet, PrepNPlaced) describe DBS Bank in Singapore with consistent details on culture, benefits, training, and work-life balance, confirming the company's existence and typical workplace characteristics.",
+ "confidence": "high",
+ "confidence_reasoning": "Several sources provide overlapping information about DBS Bank's employee experience, benefits, and work environment, reducing uncertainty.",
+ "could_not_verify": [
+  "Exact legal entity name \"DBS Bank Singapore Recruitment Pte Ltd\" is not mentioned in any source."
+ ],
+ "key_facts": [
+  {
+   "claim": "Overall employee rating is moderate, around 3.8/5.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Overall rating 3.8 Based on 689 reviews",
+     "url": "https://sg.indeed.com/cmp/Dbs-Bank/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Work-life balance is rated about 3.5/5, with variation across teams.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "3.5 out of 5 stars for Work-life balance",
+     "url": "https://sg.indeed.com/cmp/Dbs-Bank/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 1,
+     "quote": "Culture and work life balance highly depends on team",
+     "url": "https://sg.indeed.com/cmp/Dbs-Bank/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Benefits such as annual leave, insurance, and allowances are praised.",
+   "evidence": [
+    {
+     "source": 3,
+     "quote": "Employees ... appreciate the excellent benefits offered, including annual leave, insurance, and allowances",
+     "url": "https://sg.jobstreet.com/companies/dbs-bank-168553715857256/reviews",
+     "quote_found_in_source": false
+    },
+    {
+     "source": 6,
+     "quote": "Employees ... appreciate the excellent benefits offered, including annual leave, insurance, and allowances",
+     "url": "https://sg.jobstreet.com/companies/dbs-bank-168553715857256",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "unverified"
+  },
+  {
+   "claim": "Training and development opportunities are available.",
+   "evidence": [
+    {
+     "source": 3,
+     "quote": "Training opportunities are available to support employee growth and development",
+     "url": "https://sg.jobstreet.com/companies/dbs-bank-168553715857256/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 6,
+     "quote": "Training opportunities are available to support employee growth and development",
+     "url": "https://sg.jobstreet.com/companies/dbs-bank-168553715857256",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Work environment described as friendly, welcoming, and supportive with good teamwork.",
+   "evidence": [
+    {
+     "source": 3,
+     "quote": "The work environment is described as friendly, welcoming, and supportive, with good teamwork",
+     "url": "https://sg.jobstreet.com/companies/dbs-bank-168553715857256/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 6,
+     "quote": "The work environment is described as friendly, welcoming, and supportive, with good teamwork",
+     "url": "https://sg.jobstreet.com/companies/dbs-bank-168553715857256",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Flexible work arrangements, including remote work, are offered.",
+   "evidence": [
+    {
+     "source": 3,
+     "quote": "Flexible work arrangements are offered, allowing employees to adjust their schedules and work remotely",
+     "url": "https://sg.jobstreet.com/companies/dbs-bank-168553715857256/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 6,
+     "quote": "Flexible work arrangements are offered, allowing employees to adjust their schedules and work remotely",
+     "url": "https://sg.jobstreet.com/companies/dbs-bank-168553715857256",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "High workloads and overtime expectations can affect work‑life balance.",
+   "evidence": [
+    {
+     "source": 3,
+     "quote": "maintaining a healthy work-life balance due to high workloads and expectations of overtime",
+     "url": "https://sg.jobstreet.com/companies/dbs-bank-168553715857256/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 6,
+     "quote": "maintaining a healthy work-life balance due to high workloads and expectations of overtime",
+     "url": "https://sg.jobstreet.com/companies/dbs-bank-168553715857256",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Some employees report toxic or bullying culture in certain teams.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Awful politics with a ton of gaslighting... bullying culture",
+     "url": "https://sg.indeed.com/cmp/Dbs-Bank/reviews",
+     "quote_found_in_source": false
+    },
+    {
+     "source": 1,
+     "quote": "Overworking is so normalised here... managers use public humiliation",
+     "url": "https://sg.indeed.com/cmp/Dbs-Bank/reviews",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "unverified"
+  },
+  {
+   "claim": "Average monthly salary ranges from about $3,894 to $16,817 depending on role.",
+   "evidence": [
+    {
+     "source": 2,
+     "quote": "average DBS Bank monthly salary ranges from approximately $3,894 per month for Business Support to $16,817 per month for Foreign Exchange Trader",
+     "url": "https://sg.indeed.com/cmp/Dbs-Bank/salaries",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  }
+ ],
+ "positive_signals": [
+  {
+   "claim": "Colleagues are generally good and supportive.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Colleagues are good and got along well with everyone",
+     "url": "https://sg.indeed.com/cmp/Dbs-Bank/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 1,
+     "quote": "What people like Trust in colleagues",
+     "url": "https://sg.indeed.com/cmp/Dbs-Bank/reviews",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Opportunities to learn new things are highlighted.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "What people like Ability to learn new things",
+     "url": "https://sg.indeed.com/cmp/Dbs-Bank/reviews",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "unverified"
+  },
+  {
+   "claim": "Good pay and staff benefits are noted.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "3.7 out of 5 stars for Pay and benefits",
+     "url": "https://sg.indeed.com/cmp/Dbs-Bank/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  }
+ ],
+ "red_flags": [
+  {
+   "claim": "Reports of toxic workplace culture and bullying.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Awful politics with a ton of gaslighting... bullying culture",
+     "url": "https://sg.indeed.com/cmp/Dbs-Bank/reviews",
+     "quote_found_in_source": false
+    },
+    {
+     "source": 1,
+     "quote": "Overworking is so normalised here... managers use public humiliation",
+     "url": "https://sg.indeed.com/cmp/Dbs-Bank/reviews",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "unverified"
+  },
+  {
+   "claim": "Management sometimes perceived as micromanaging or unsupportive.",
+   "evidence": [
+    {
+     "source": 3,
+     "quote": "management could be improved, with concerns about micromanagement",
+     "url": "https://sg.jobstreet.com/companies/dbs-bank-168553715857256/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 6,
+     "quote": "management could be improved, with concerns about micromanagement",
+     "url": "https://sg.jobstreet.com/companies/dbs-bank-168553715857256",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Outdated systems can be challenging to work with.",
+   "evidence": [
+    {
+     "source": 3,
+     "quote": "some employees have found the outdated systems challenging to work with",
+     "url": "https://sg.jobstreet.com/companies/dbs-bank-168553715857256/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 6,
+     "quote": "some employees have found the outdated systems challenging to work with",
+     "url": "https://sg.jobstreet.com/companies/dbs-bank-168553715857256",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  }
+ ],
+ "relevance_for_persona": "The brief highlights aspects most relevant to a Customer Service Officer: work environment, colleague support, training, benefits, potential workload pressures, and cultural signals that affect daily interactions with customers.",
+ "sources_used": [
+  {
+   "id": 1,
+   "url": "https://sg.indeed.com/cmp/Dbs-Bank/reviews",
+   "kind": "page"
+  },
+  {
+   "id": 2,
+   "url": "https://sg.indeed.com/cmp/Dbs-Bank/salaries",
+   "kind": "page"
+  },
+  {
+   "id": 3,
+   "url": "https://sg.jobstreet.com/companies/dbs-bank-168553715857256/reviews",
+   "kind": "page"
+  },
+  {
+   "id": 4,
+   "url": "https://www.glassdoor.sg/Reviews/DBS-Bank-Reviews-E611812.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 5,
+   "url": "https://www.glassdoor.sg/Reviews/DBS-Bank-Singapore-Reviews-EI_IE611812.0,8_IL.9,18_IM1123.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 6,
+   "url": "https://sg.jobstreet.com/companies/dbs-bank-168553715857256",
+   "kind": "page"
+  },
+  {
+   "id": 7,
+   "url": "https://www.glassdoor.com/Reviews/DBS-Bank-singapore-Reviews-EI_IE611812.0,8_KH9,18.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 8,
+   "url": "https://www.prepnplaced.com/company-ratings/dbs",
+   "kind": "page"
+  }
+ ],
+ "sources_failed_or_blocked": [
+  {
+   "url": "https://www.glassdoor.sg/Reviews/DBS-Bank-Reviews-E611812.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/DBS-Bank-Singapore-Reviews-EI_IE611812.0,8_IL.9,18_IM1123.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/DBS-Bank-singapore-Reviews-EI_IE611812.0,8_KH9,18.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  }
+ ],
+ "claims_verified": 11,
+ "claims_unverified": 4
+}

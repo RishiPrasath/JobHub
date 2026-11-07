@@ -1,0 +1,17 @@
+[   5.3s] 6 queries written
+[  43.7s] search 200 8 organic in 38.4s via ['duckduckgo'] :: Avanguarde Pte. Ltd. employee reviews Singapore
+[  86.0s] search 200 8 organic in 42.3s via ['duckduckgo'] :: Avanguarde Pte. Ltd. layoffs restructuring news
+[ 127.8s] search 200 8 organic in 41.8s via ['duckduckgo'] :: Avanguarde Pte. Ltd. scam fraud reports
+[ 169.8s] search 200 8 organic in 42.0s via ['duckduckgo'] :: Avanguarde Pte. Ltd. interview process details
+[ 212.0s] search 200 8 organic in 42.2s via ['duckduckgo'] :: Avanguarde Pte. Ltd. salary information Singapore
+[ 248.0s] search 200 8 organic in 36.0s via ['duckduckgo'] :: Avanguarde Pte. Ltd. lawsuits regulatory news
+[ 248.0s] 33 unique organic URLs, reading 8
+[ 248.4s] page ok        2623 chars   0.3s https://www.sgpbusiness.com/company/Avanguarde-Pte-Ltd
+[ 250.0s] page ok        5311 chars   0.1s https://recordowl.com/company/avanguarde-pte-ltd
+[ 252.2s] page thin        95 chars   0.7s https://www.scam.sg/companies/202545538Z/avanguarde-pte-ltd
+[ 254.2s] page ok        1475 chars   0.5s https://sg.jobstreet.com/Avanguarde-jobs
+[ 255.9s] page ok        9685 chars   0.2s https://www.companies.sg/business/202545538Z/AVANGUARDE-PTE-LTD
+[ 258.2s] page ok        4371 chars   0.8s https://sg.linkedin.com/jobs/view/commis-chef-at-avanguarde-pte-ltd-44
+[ 260.3s] page thin       151 chars   0.7s https://www.mycareersfuture.gov.sg/job/food-and-beverage/commis-chef-a
+[ 262.2s] page error        0 chars   0.4s https://en-sg.whatjobs.com/company/avanguarde-pte-ltd/profile
+[ 587.9s] brief: appears_real_limited_evidence / medium ; claims verified 7, unverified 2

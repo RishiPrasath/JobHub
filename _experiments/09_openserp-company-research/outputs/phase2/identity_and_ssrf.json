@@ -1,0 +1,104 @@
+{
+ "requests_seen_by_site": {
+  "fast": {
+   "extract_http": 200,
+   "mode_used": "fast",
+   "title": "Echo test page",
+   "requests": [
+    {
+     "path": "/page-fast",
+     "headers": {
+      "Host": "p2echo:8099",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Ch-Ua": "\"Not_A Brand\";v=\"24\", \"Chromium\";v=\"146\", \"Google Chrome\";v=\"146\"",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Fetch-User": "?1",
+      "Sec-Fetch-Dest": "document",
+      "Accept-Encoding": "gzip, deflate, br"
+     }
+    }
+   ]
+  },
+  "rendered": {
+   "extract_http": 200,
+   "mode_used": "rendered",
+   "title": "Echo test page",
+   "requests": [
+    {
+     "path": "/page-rendered",
+     "headers": {
+      "Host": "p2echo:8099",
+      "Connection": "keep-alive",
+      "Upgrade-Insecure-Requests": "1",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "Accept-Language": "en-US",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+      "Accept-Encoding": "gzip, deflate"
+     }
+    }
+   ]
+  },
+  "auto": {
+   "extract_http": 200,
+   "mode_used": "fast",
+   "title": "Echo test page",
+   "requests": [
+    {
+     "path": "/page-auto",
+     "headers": {
+      "Host": "p2echo:8099",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Ch-Ua": "\"Not_A Brand\";v=\"24\", \"Chromium\";v=\"146\", \"Google Chrome\";v=\"146\"",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Sec-Ch-Ua-Platform": "\"Linux\"",
+      "Sec-Fetch-Site": "none",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Fetch-User": "?1",
+      "Sec-Fetch-Dest": "document",
+      "Accept-Encoding": "gzip, deflate, br"
+     }
+    }
+   ]
+  }
+ },
+ "ssrf": {
+  "the service's own health endpoint": {
+   "url": "http://127.0.0.1:7000/health",
+   "http": 200,
+   "got_content": true,
+   "detail": ""
+  },
+  "cloud metadata address": {
+   "url": "http://169.254.169.254/latest/meta-data/",
+   "http": 502,
+   "got_content": false,
+   "detail": "Failed to extract URL content"
+  },
+  "another container on the private network": {
+   "url": "http://p2echo:8099/page-internal",
+   "http": 200,
+   "got_content": true,
+   "detail": "Echo test page"
+  },
+  "file scheme": {
+   "url": "file:///etc/passwd",
+   "http": 400,
+   "got_content": false,
+   "detail": "INVALID_PARAM: target not allowed: unsupported URL scheme \"file\": only http and https are allowed"
+  }
+ },
+ "robots_disallowed_path": {
+  "extract_http": 200,
+  "fetched_the_page": true,
+  "asked_for_robots_txt": false
+ }
+}

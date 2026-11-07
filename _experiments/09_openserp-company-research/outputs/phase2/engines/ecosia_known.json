@@ -1,0 +1,11 @@
+{
+ "error": "blocked",
+ "code": 403,
+ "request_id": "01a1b45c-6f61-73a2-af95-eb64af8f5cf1",
+ "message": "search engine blocked the request",
+ "meta": {
+  "engine": "ecosia",
+  "error_detail": "blocked",
+  "proxy_used": "direct"
+ }
+}

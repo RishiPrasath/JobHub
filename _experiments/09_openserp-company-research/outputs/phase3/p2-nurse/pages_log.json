@@ -1,0 +1,102 @@
+[
+ {
+  "url": "https://sg.indeed.com/cmp/Raffles-Medical-Group/reviews?start=20",
+  "http": 200,
+  "seconds": 0.4,
+  "status": "ok",
+  "chars": 7667,
+  "note": null,
+  "title": "Raffles Medical Group Employee Reviews",
+  "mode_used": "fast",
+  "search_title": "Raffles Medical Group Employee Reviews - Indeed.com",
+  "snippet": "Jul 31, 2026Reviews from Raffles Medical Group employees about Raffles Medical Group culture, salaries, benefits, work-life balance, management, job security, and more.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://sginvestors.io/sgx/stock/bsl-raffles-medical/company-announcement",
+  "http": 200,
+  "seconds": 0.2,
+  "status": "blocked",
+  "chars": 178,
+  "note": "challenge or login-wall text (title: )",
+  "title": "",
+  "mode_used": "rendered",
+  "search_title": "Raffles Medical Latest Announcements (SGX:BSL) | SGinvestors.io",
+  "snippet": "TodayRaffles Medical (SGX:BSL)'s latest announcements on earnings, buybacks, dividends, insiders trades, media releases, AGM, EGM, response to queries via SGX.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.rafflesmedicalgroup.com/our-group/news-room/press-releases",
+  "http": 200,
+  "seconds": 0.9,
+  "status": "ok",
+  "chars": 991,
+  "note": null,
+  "title": "Press Releases",
+  "mode_used": "fast",
+  "search_title": "Press Releases - Raffles Medical Group",
+  "snippet": "Aug 3, 2026Raffles Medical Group News Room online archive » Online press releases, announcements, latest news » Read more",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.rafflesmedicalgroup.com/our-group/news-room/company-news",
+  "http": 200,
+  "seconds": 0.9,
+  "status": "ok",
+  "chars": 1027,
+  "note": null,
+  "title": "Company News",
+  "mode_used": "fast",
+  "search_title": "RMG in the News » Raffles Medical Group Company News",
+  "snippet": "Oct 30, 2026Raffles Medical Group Company News Room online archive » Online press releases, announcements, latest news » Read more",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.businesstimes.com.sg/keywords/raffles-medical-group",
+  "http": 200,
+  "seconds": 0.2,
+  "status": "ok",
+  "chars": 8401,
+  "note": null,
+  "title": "raffles medical group Latest News & Headlines",
+  "mode_used": "fast",
+  "search_title": "raffles medical group Latest News & Headlines",
+  "snippet": "Sep 14, 2026THE BUSINESS TIMES raffles medical group - Find raffles medical group News & Headlines, insight and analysis in Singapore, Asia-Pacific & global markets news at The Business Times.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://sginvestors.io/sgx/stock/bsl-raffles-medical/news-article",
+  "http": 200,
+  "seconds": 0.2,
+  "status": "blocked",
+  "chars": 178,
+  "note": "challenge or login-wall text (title: )",
+  "title": "",
+  "mode_used": "rendered",
+  "search_title": "Raffles Medical Latest News (SGX:BSL) | SGinvestors.io",
+  "snippet": "TodayRaffles Medical Group (RMG) reported earnings of $70.6 million for its FY2025 ended Dec 31, 2025, an increase of 13.4% y-o-y, due to the combination of better performance from the hospital services and insurance businesses, as well as fair value gains on investment properties.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.glassdoor.sg/Reviews/Raffles-Medical-Group-Singapore-Reviews-EI_IE139031.0,21_IL.22,31_IM1123.htm",
+  "http": 502,
+  "seconds": 0.5,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "Raffles Medical Group Reviews in Singapore | Glassdoor",
+  "snippet": "271 Raffles Medical Group reviews in Singapore. A free inside look at company reviews and salaries posted anonymously by employees.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.glassdoor.com/Reviews/Raffles-Medical-Group-Singapore-Reviews-EI_IE139031.0,21_IL.22,31_IC3235921.htm",
+  "http": 502,
+  "seconds": 0.4,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "Raffles Medical Group Reviews in Singapore | Glassdoor",
+  "snippet": "227 Raffles Medical Group reviews in Singapore. A free inside look at company reviews and salaries posted anonymously by employees.",
+  "engine": "duckduckgo"
+ }
+]

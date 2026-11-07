@@ -1,0 +1,17 @@
+[   1.4s] 6 queries written
+[   7.7s] search 200 8 organic in 6.3s via ['duckduckgo'] :: Ninja Van Singapore employee reviews
+[  49.7s] search 200 8 organic in 42.0s via ['duckduckgo'] :: Ninja Van Singapore layoffs restructuring news
+[  91.9s] search 200 8 organic in 42.3s via ['duckduckgo'] :: Ninja Van Singapore scam fraud reports
+[ 133.9s] search 200 8 organic in 42.0s via ['duckduckgo'] :: Ninja Van Singapore interview process details
+[ 176.0s] search 200 8 organic in 42.1s via ['duckduckgo'] :: Ninja Van Singapore warehouse associate salary
+[ 218.1s] search 200 8 organic in 42.0s via ['duckduckgo'] :: Ninja Van Singapore lawsuits regulatory news
+[ 218.1s] 45 unique organic URLs, reading 8
+[ 218.5s] page ok        6162 chars   0.4s https://sg.indeed.com/cmp/Ninja-Van/reviews
+[ 220.2s] page ok        3753 chars   0.2s https://www.asiaone.com/singapore/over-s1-2m-lost-courier-phishing-sca
+[ 222.9s] page ok        1443 chars   1.2s https://sg.indeed.com/cmp/Ninja-Van/salaries
+[ 224.8s] page error        0 chars   0.3s https://www.glassdoor.sg/Reviews/Ninja-Van-Singapore-Reviews-EI_IE9847
+[ 226.7s] page ok         553 chars   0.4s https://sg.jobstreet.com/companies/ninja-van-168558704093230/reviews
+[ 228.7s] page ok        1158 chars   0.5s https://sg.jobstreet.com/companies/ninja-van-168551459936163/reviews
+[ 230.5s] page error        0 chars   0.3s https://www.glassdoor.com/Reviews/Ninja-Van-Reviews-E984783.htm
+[ 232.4s] page error        0 chars   0.4s https://www.glassdoor.sg/Reviews/Ninja-Van-Reviews-E984783.htm
+[ 265.1s] brief: appears_real_and_consistent / medium ; claims verified 13, unverified 3

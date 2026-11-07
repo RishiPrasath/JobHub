@@ -1,0 +1,100 @@
+[
+ {
+  "url": "https://sg.indeed.com/cmp/Grab/reviews?fcountry=SG&floc=Singapore",
+  "http": 200,
+  "seconds": 0.6,
+  "status": "ok",
+  "chars": 8533,
+  "note": null,
+  "title": "Grab Employee Reviews in Singapore",
+  "mode_used": "fast",
+  "search_title": "Working at Grab in Singapore: Employee Reviews | Indeed.com",
+  "snippet": "Reviews from Grab employees about Grab culture, salaries, benefits, work-life balance, management, job security, and more.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.glassdoor.sg/Reviews/Grab-Singapore-Reviews-EI_IE958580.0,4_IL.5,14_IM1123.htm",
+  "http": 502,
+  "seconds": 0.4,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "Grab Reviews in Singapore | Glassdoor",
+  "snippet": "1,282 Grab reviews in Singapore. A free inside look at company reviews and salaries posted anonymously by employees.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.glassdoor.com/Reviews/Grab-Singapore-Reviews-EI_IE958580.0,4_IL.5,14_IN217.htm",
+  "http": 502,
+  "seconds": 0.3,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "Grab Reviews in Singapore | Glassdoor",
+  "snippet": "1,230 Grab reviews in Singapore. A free inside look at company reviews and salaries posted anonymously by employees.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.glassdoor.sg/Reviews/Grab-Reviews-E958580.htm",
+  "http": 502,
+  "seconds": 0.3,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "Grab Reviews - Glassdoor",
+  "snippet": "4,090 Grab reviews. A free inside look at company reviews and salaries posted anonymously by employees.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://sg.jobstreet.com/companies/grab-168542463310774/reviews",
+  "http": 200,
+  "seconds": 0.5,
+  "status": "ok",
+  "chars": 933,
+  "note": null,
+  "title": "Reviews Grab employee ratings and reviews | Jobstreet",
+  "mode_used": "fast",
+  "search_title": "Reviews Grab employee ratings and reviews | Jobstreet",
+  "snippet": "Thinking of working at Grab? Read 66 employee reviews on Jobstreet to learn about salaries, benefits, company culture, work-life balance, and career opportunities",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.payscale.com/research/SG/Employer=Grab/Reviews",
+  "http": 200,
+  "seconds": 1.6,
+  "status": "ok",
+  "chars": 2122,
+  "note": null,
+  "title": "Working at Grab",
+  "mode_used": "fast",
+  "search_title": "Working at Grab in Singapore | PayScale",
+  "snippet": "What's it like to work at Grab in Singapore? Visit PayScale to research current and former Grab employee reviews, salaries, bonuses, benefits and more!",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://sg.jobstreet.com/companies/grab-168542463310774",
+  "http": 200,
+  "seconds": 0.4,
+  "status": "ok",
+  "chars": 933,
+  "note": null,
+  "title": "Working at Grab company profile and information | Jobstreet",
+  "mode_used": "fast",
+  "search_title": "Working at Grab company profile and information | Jobstreet",
+  "snippet": "Considering a career at Grab? Learn what its like to work for Grab by reading employee ratings and reviews on sg.jobstreet.com",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.straitstimes.com/business/singapores-grab-cuts-1000-jobs-or-11-of-workforce",
+  "http": 200,
+  "seconds": 0.2,
+  "status": "ok",
+  "chars": 2979,
+  "note": null,
+  "title": "Singapore's Grab cuts 1,000 jobs, or 11% of workforce",
+  "mode_used": "fast",
+  "search_title": "Singapore's Grab cuts 1,000 jobs, or 11% of workforce",
+  "snippet": "SINGAPORE - Singapore-based Grab Holdings, South-east Asia's leading ride-hailing and food delivery app, is cutting 1,000 jobs or 11 per cent of its workforce, its chief executive officer said ...",
+  "engine": "duckduckgo"
+ }
+]

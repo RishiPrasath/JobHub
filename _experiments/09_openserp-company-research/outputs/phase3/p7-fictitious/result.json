@@ -1,0 +1,21 @@
+{
+ "persona": "p7-fictitious",
+ "who": "operations manager",
+ "company": "Zzqxv Qwlmt Holdings Pte Ltd",
+ "role": "Operations Manager",
+ "truth_note": "fictitious: no such entity",
+ "stages": {},
+ "ok": true,
+ "validity": "cannot_verify",
+ "confidence": "low",
+ "claims_verified": 0,
+ "claims_unverified": 0,
+ "queries": 6,
+ "searches_ok": 6,
+ "unique_urls": 48,
+ "pages_tried": 8,
+ "pages_ok": 0,
+ "pages_failed": 8,
+ "llm_tokens_brief": 1584,
+ "seconds": 20.0
+}

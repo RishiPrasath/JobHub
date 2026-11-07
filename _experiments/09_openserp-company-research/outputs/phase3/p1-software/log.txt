@@ -1,0 +1,17 @@
+[   1.9s] 6 queries written
+[  19.6s] search 200 8 organic in 17.7s via ['duckduckgo'] :: Grab Holdings employee reviews Singapore
+[  61.7s] search 200 8 organic in 42.1s via ['duckduckgo'] :: Grab Holdings layoffs restructuring news
+[ 103.9s] search 200 8 organic in 42.2s via ['duckduckgo'] :: Grab Holdings scam fraud reports
+[ 145.9s] search 200 8 organic in 42.0s via ['duckduckgo'] :: Grab Holdings interview process Backend Engineer
+[ 188.0s] search 200 8 organic in 42.1s via ['duckduckgo'] :: Grab Holdings salary Backend Engineer Singapore
+[ 224.0s] search 200 8 organic in 36.0s via ['duckduckgo'] :: Grab Holdings lawsuits regulatory news Singapore
+[ 224.0s] 47 unique organic URLs, reading 8
+[ 224.6s] page ok        8533 chars   0.6s https://sg.indeed.com/cmp/Grab/reviews?fcountry=SG&floc=Singapore
+[ 226.5s] page error        0 chars   0.4s https://www.glassdoor.sg/Reviews/Grab-Singapore-Reviews-EI_IE958580.0,
+[ 228.3s] page error        0 chars   0.3s https://www.glassdoor.com/Reviews/Grab-Singapore-Reviews-EI_IE958580.0
+[ 230.1s] page error        0 chars   0.3s https://www.glassdoor.sg/Reviews/Grab-Reviews-E958580.htm
+[ 232.1s] page ok         933 chars   0.5s https://sg.jobstreet.com/companies/grab-168542463310774/reviews
+[ 235.1s] page ok        2122 chars   1.6s https://www.payscale.com/research/SG/Employer=Grab/Reviews
+[ 237.0s] page ok         933 chars   0.4s https://sg.jobstreet.com/companies/grab-168542463310774
+[ 238.7s] page ok        2979 chars   0.2s https://www.straitstimes.com/business/singapores-grab-cuts-1000-jobs-o
+[ 330.0s] brief: appears_real_and_consistent / medium ; claims verified 11, unverified 2

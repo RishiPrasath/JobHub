@@ -1,0 +1,295 @@
+{
+ "validity_status": "appears_real_and_consistent",
+ "validity_reasoning": "Multiple independent sources (Indeed reviews, salary data, JobStreet reviews, and news article) reference Ninja Van Singapore, confirming its existence and providing consistent information about employee experiences and operations.",
+ "confidence": "medium",
+ "confidence_reasoning": "Evidence is present from several reputable job sites and a news outlet, but details are limited to employee reviews and salary listings without official corporate disclosures.",
+ "could_not_verify": [
+  "Exact number of employees at Ninja Van Singapore",
+  "Official corporate hierarchy or ownership structure",
+  "Specific benefits package details beyond what reviewers mention"
+ ],
+ "key_facts": [
+  {
+   "claim": "Overall employee rating is 3.5 out of 5 on Indeed.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Overall rating 3.5 Based on 200 reviews",
+     "url": "https://sg.indeed.com/cmp/Ninja-Van/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Work‑life balance rating is 3.4/5.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "3.4 out of 5 stars for Work-life balance",
+     "url": "https://sg.indeed.com/cmp/Ninja-Van/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Pay and benefits rating is 3.2/5.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "3.2 out of 5 stars for Pay and benefits",
+     "url": "https://sg.indeed.com/cmp/Ninja-Van/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Warehouse worker average salary is about SGD 2,310 per month.",
+   "evidence": [
+    {
+     "source": 3,
+     "quote": "Warehouse Worker $2,310 per month3 salaries reported",
+     "url": "https://sg.indeed.com/cmp/Ninja-Van/salaries",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Drivers earn roughly SGD 2,800‑3,900 per month.",
+   "evidence": [
+    {
+     "source": 3,
+     "quote": "Class 4/Truck/Logistics/24 footer Driver $2,800 - $3,900 a month",
+     "url": "https://sg.indeed.com/cmp/Ninja-Van/salaries",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "unverified"
+  },
+  {
+   "claim": "Employees note a supportive, family‑like atmosphere.",
+   "evidence": [
+    {
+     "source": 6,
+     "quote": "supportive colleagues and family‑like atmosphere",
+     "url": "https://sg.jobstreet.com/companies/ninja-van-168551459936163/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Common complaints include toxic management and high pressure to meet KPIs.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Such a toxic environment and stressful regret working here…",
+     "url": "https://sg.indeed.com/cmp/Ninja-Van/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 6,
+     "quote": "pressure to meet targets and KPIs",
+     "url": "https://sg.jobstreet.com/companies/ninja-van-168551459936163/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Work can be physically demanding, especially in hot conditions.",
+   "evidence": [
+    {
+     "source": 5,
+     "quote": "physically demanding nature of the work in hot conditions",
+     "url": "https://sg.jobstreet.com/companies/ninja-van-168558704093230/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Phishing scams have impersonated Ninja Van, indicating public brand awareness.",
+   "evidence": [
+    {
+     "source": 2,
+     "quote": "victims receiving messages … posing as recognised couriers such as … Ninja Van",
+     "url": "https://www.asiaone.com/singapore/over-s1-2m-lost-courier-phishing-scams-ninja-van-jt-express-imessage",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "unverified"
+  }
+ ],
+ "positive_signals": [
+  {
+   "claim": "Employees appreciate independence and flexible working hours.",
+   "evidence": [
+    {
+     "source": 5,
+     "quote": "independence of working without constant supervision",
+     "url": "https://sg.jobstreet.com/companies/ninja-van-168558704093230/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 6,
+     "quote": "flexible working hours that support work‑life balance",
+     "url": "https://sg.jobstreet.com/companies/ninja-van-168551459936163/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Career growth opportunities exist, especially for couriers.",
+   "evidence": [
+    {
+     "source": 6,
+     "quote": "good opportunities for career growth within the company",
+     "url": "https://sg.jobstreet.com/companies/ninja-van-168551459936163/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Company culture described as young, vibrant, and collaborative.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "culture here is young and vibrant",
+     "url": "https://sg.indeed.com/cmp/Ninja-Van/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 1,
+     "quote": "Supportive environment",
+     "url": "https://sg.indeed.com/cmp/Ninja-Van/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  }
+ ],
+ "red_flags": [
+  {
+   "claim": "Management is perceived as poor or childish.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "management are honestly so childish and has bad attitude",
+     "url": "https://sg.indeed.com/cmp/Ninja-Van/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 1,
+     "quote": "young company with relative poor management",
+     "url": "https://sg.indeed.com/cmp/Ninja-Van/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Long working hours (10+ hrs) without overtime compensation for some freelance staff.",
+   "evidence": [
+    {
+     "source": 6,
+     "quote": "long working hours beyond 10 hours daily without overtime compensation",
+     "url": "https://sg.jobstreet.com/companies/ninja-van-168551459936163/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Pay levels considered low by some employees.",
+   "evidence": [
+    {
+     "source": 5,
+     "quote": "pay levels could be improved",
+     "url": "https://sg.jobstreet.com/companies/ninja-van-168558704093230/reviews",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "unverified"
+  },
+  {
+   "claim": "Operational challenges such as traffic congestion and unclear delivery addresses.",
+   "evidence": [
+    {
+     "source": 6,
+     "quote": "operational difficulties such as traffic congestion, unclear delivery addresses",
+     "url": "https://sg.jobstreet.com/companies/ninja-van-168551459936163/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  }
+ ],
+ "relevance_for_persona": "The brief highlights salary expectations, work‑life balance, physical demands, and management style—key factors for a warehouse and logistics worker evaluating a Warehouse Associate role at Ninja Van Singapore.",
+ "sources_used": [
+  {
+   "id": 1,
+   "url": "https://sg.indeed.com/cmp/Ninja-Van/reviews",
+   "kind": "page"
+  },
+  {
+   "id": 2,
+   "url": "https://www.asiaone.com/singapore/over-s1-2m-lost-courier-phishing-scams-ninja-van-jt-express-imessage",
+   "kind": "page"
+  },
+  {
+   "id": 3,
+   "url": "https://sg.indeed.com/cmp/Ninja-Van/salaries",
+   "kind": "page"
+  },
+  {
+   "id": 4,
+   "url": "https://www.glassdoor.sg/Reviews/Ninja-Van-Singapore-Reviews-EI_IE984783.0,9_IL.10,19_IM1123.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 5,
+   "url": "https://sg.jobstreet.com/companies/ninja-van-168558704093230/reviews",
+   "kind": "page"
+  },
+  {
+   "id": 6,
+   "url": "https://sg.jobstreet.com/companies/ninja-van-168551459936163/reviews",
+   "kind": "page"
+  },
+  {
+   "id": 7,
+   "url": "https://www.glassdoor.com/Reviews/Ninja-Van-Reviews-E984783.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 8,
+   "url": "https://www.glassdoor.sg/Reviews/Ninja-Van-Reviews-E984783.htm",
+   "kind": "snippet_only"
+  }
+ ],
+ "sources_failed_or_blocked": [
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Ninja-Van-Singapore-Reviews-EI_IE984783.0,9_IL.10,19_IM1123.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Ninja-Van-Reviews-E984783.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Ninja-Van-Reviews-E984783.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  }
+ ],
+ "claims_verified": 13,
+ "claims_unverified": 3
+}

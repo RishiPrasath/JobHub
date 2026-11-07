@@ -1,0 +1,221 @@
+{
+ "query": {
+  "text": "Randstad Singapore employee reviews",
+  "engines_requested": [
+   "google"
+  ]
+ },
+ "meta": {
+  "request_id": "01a1b45c-1453-7a3b-8dcd-b56b31998abc",
+  "requested_at": "2026-11-07T04:54:55Z",
+  "took_ms": 3760,
+  "engines_failed": [],
+  "version": "2.1"
+ },
+ "results": [
+  {
+   "id": "s_8a1765329cf4bd23",
+   "rank": 1,
+   "type": "organic",
+   "title": "Randstad Reviews in Singapore | Glassdoor",
+   "url": "https://www.google.com/goto?url=CAESmwEBxCJF19vv65J1oKKTzwdMDsGV1Ma9U9inaSBz7HcobVh5Qn6oNm4j3pBH5kujla6bQ8NrgiO2h7r6gV_SK3_EHPR58wKPmHgupGmoGzshLkKKwe5bWzE-zQ0NpJJ0sNrCrZcOLV8gcPamnw5moXU9IZvkbSuIt8_cSVXZo_m_6zI6_dm52tsG4PU43co7YfZcftRfAGBtEGorAw",
+   "display_url": "glassdoor.sg › Reviews › Randstad-Singap...",
+   "snippet": "Employees in Singapore have given Randstad a rating of 3.0 out of 5 stars, based on 65 company reviews on Glassdoor. in Singapore is 21% below average. Great ...",
+   "domain": "glassdoor.sg",
+   "favicon": "https://glassdoor.sg/favicon.ico",
+   "position": {
+    "absolute": 1
+   },
+   "engine": "google",
+   "domain_info": {
+    "tld": "sg",
+    "sld": "glassdoor",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_9cb326c4d1c2b469",
+   "rank": 2,
+   "type": "organic",
+   "title": "Reviews Randstad employee ratings and reviews | Jobstreet",
+   "url": "https://sg.jobstreet.com/companies/randstad-168558234250811/reviews",
+   "display_url": "sg.jobstreet.com › companies › randstad-168558234250811…",
+   "snippet": "Randstad receives consistent praise for its positive work culture and supportive management. Employees particularly value the strong team environment,",
+   "domain": "sg.jobstreet.com",
+   "favicon": "https://sg.jobstreet.com/favicon.ico",
+   "position": {
+    "absolute": 2
+   },
+   "engine": "google",
+   "domain_info": {
+    "tld": "com",
+    "sld": "jobstreet",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_f9f9d50cd1857234",
+   "rank": 3,
+   "type": "organic",
+   "title": "Working at Randstad: Employee Reviews",
+   "url": "https://sg.indeed.com/cmp/Randstad/reviews",
+   "display_url": "sg.indeed.com › cmp › Randstad › reviews",
+   "snippet": "15 reviews · Great place · Efficient coordination. · Collaborative · Work life balance · Insecure · It's never a dull day · Should think Before move · Management is ...Read more",
+   "domain": "sg.indeed.com",
+   "favicon": "https://sg.indeed.com/favicon.ico",
+   "position": {
+    "absolute": 3
+   },
+   "engine": "google",
+   "domain_info": {
+    "tld": "com",
+    "sld": "indeed",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_d25029cae31c3c33",
+   "rank": 4,
+   "type": "organic",
+   "title": "Employee Reviews about Pay and benefits - Randstad",
+   "url": "https://www.google.com/goto?url=CAESegHEIkXXii88d3ulaJx9lGtIeYpNjepxlehUH-egDkIdszYX0FMjk140ujNnbpTNP67R6spcs1n9TV22U13sGdARFX66pdk4iXYR2Y9EpyJiALlPalqmS5nzZlg2duuOuSpLbPf1AyJ-Yys7YQ77r5whLs6znCq_Bflp",
+   "display_url": "sg.indeed.com › ... › Employee Reviews",
+   "snippet": "Compensation and benefits are at par. Complete with medical benefits. HR is very accommodating and replies on a timely manner.",
+   "domain": "sg.indeed.com",
+   "favicon": "https://sg.indeed.com/favicon.ico",
+   "position": {
+    "absolute": 4
+   },
+   "engine": "google",
+   "domain_info": {
+    "tld": "com",
+    "sld": "indeed",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_17a8cbcaac067120",
+   "rank": 5,
+   "type": "organic",
+   "title": "Randstad Review : r/recruitinghell",
+   "url": "https://www.google.com/goto?url=CAEShQEBxCJF18Tfj2HF7W_UsXLZ0opSkUvLv7iXy44SFvHyfDSjEURRWlURkCgQq62bvy1oSdcfhvj_i9qe27M7f-acqhN6Q3RbEzZmB-2oUYrshxpEkEhbw_aRzNFyOW237pxYLgw2qVyS_RapZUPvhq-szgMU96Uci6L9onOfIURPquzHho0C",
+   "display_url": "reddit.com",
+   "snippet": "The integrity level is very low period, professionalism very low. I would not recommend using them at all period as you can see by the reviews.Read more",
+   "domain": "reddit.com",
+   "favicon": "https://reddit.com/favicon.ico",
+   "position": {
+    "absolute": 5
+   },
+   "engine": "google",
+   "domain_info": {
+    "tld": "com",
+    "sld": "reddit",
+    "category": "forum"
+   },
+   "classification": {
+    "content_type": "webpage",
+    "source_hint": "social_forum"
+   }
+  },
+  {
+   "id": "s_95bf3299dd6bdbef",
+   "rank": 6,
+   "type": "organic",
+   "title": "Randstad Singapore Employee Reviews",
+   "url": "https://www.google.com/goto?url=CAESgwEBxCJF1yht1qLxwbzCLkX9_eKPDQ55zvTZQHBDgjKqNDcvLo3w6R984EWexpv7B8WwfduCvEYEotHAGYDsidMeoMWYIZs5W64KcX4nleGgCH2v35MxdcyqWwcOUG9rb-yPIlWnUCAyBFLnDEYxM_8sTnix9NkWid636hY3sqtKJvj3vw",
+   "display_url": "jobstore.com › ... › Randstad Singapore",
+   "snippet": "8 Oct 2026 — Fast-paced recruitment role, good learning curve with some admin challenges. career path needs clarity. Good training ground for recruitment ...",
+   "domain": "jobstore.com",
+   "favicon": "https://jobstore.com/favicon.ico",
+   "position": {
+    "absolute": 6
+   },
+   "engine": "google",
+   "domain_info": {
+    "tld": "com",
+    "sld": "jobstore",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_87fae702d5f88138",
+   "rank": 7,
+   "type": "organic",
+   "title": "Randstad Reviews in Singapore",
+   "url": "https://www.google.com/goto?url=CAESngEBxCJF1xVKI_whQOt84uMhWW6oxZS8VGbJDx-1LSuMUOBDi40No_qprDBIwTury4pPGgbAaVH6HxGNIMJJ1NRJ9BgDWbAgcv8A0iD0REplXayEG-QiyPTPEE_AgisZpJq8m05oZdYwKal0DrYutRadh_lliJ71o3-CVCEhDxThktTKHx6HAV3O0RMN0XMM8FxUmAbVZf57rWT6QgNJ2Q",
+   "display_url": "glassdoor.ca › Reviews › Randstad-Singap...",
+   "snippet": "Employees in Singapore have given Randstad a rating of 3.0 out of 5 stars, based on 63 company reviews on Glassdoor. The Randstad employee rating in Singapore ...",
+   "domain": "glassdoor.ca",
+   "favicon": "https://glassdoor.ca/favicon.ico",
+   "position": {
+    "absolute": 7
+   },
+   "engine": "google",
+   "domain_info": {
+    "tld": "ca",
+    "sld": "glassdoor",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_795c79a92c419726",
+   "rank": 8,
+   "type": "organic",
+   "title": "Working at Randstad: Employee Reviews about Culture",
+   "url": "https://www.google.com/goto?url=CAESdgHEIkXXKu-T3PmioTtXeRhWlX-mMFvf4HFouveZ0Uwl9Q6kq4dpS8HVw-1a5L2tJdopvqnQSVOJN0v06xyvaf6P_JOrY5WyeCDThokD7eYdwXxCUZTgu15quCPgzH1VJuf4DZjPN-bbztucXYswOuIx1Iti--E",
+   "display_url": "sg.indeed.com › ... › Employee Reviews",
+   "snippet": "The work culture at randstad was great, everyone in the company was willing to share contacts and profiles. Everyone was family and you do not need to worry ...Read more",
+   "domain": "sg.indeed.com",
+   "favicon": "https://sg.indeed.com/favicon.ico",
+   "position": {
+    "absolute": 8
+   },
+   "engine": "google",
+   "domain_info": {
+    "tld": "com",
+    "sld": "indeed",
+    "category": ""
+   }
+  }
+ ],
+ "serp_features": [
+  {
+   "id": "f_537fcf5414f60e20",
+   "engine": "google",
+   "type": "ai_summary",
+   "title": "AI Overview",
+   "text": "AI Mode reply for Randstad Singapore employee reviews\nEmployee reviews for Randstad Singapore generally reflect a mixed-to-average work experience, leaning heavily on whether you are working as an internal recruitment/staffing consultant or as a placed contractor.www.glassdoor.sg+1Overall Ratings\nGlassdoor (Singapore): ~3.0 / 5 stars (based on 65+ reviews), which sits below the regional industry average of 3.8 stars.\nRecommendation to a friend: ~46%\nCEO approval: ~7%www.glassdoor.sg\nOther Platforms (Indeed / Jobstore / Jobstreet): Generally range higher between 3.7 to 4.0 / 5 stars, praised more frequently for team camaraderie, learning curves, and administrative support.Indeed+2\nKey Pros (What Employees Like)\nSupportive & Friendly Teams: Colleagues and immediate managers are often described as helpful, approachable, and collaborative.Jobstore+1\nBrand Name & Market Exposure: Working at a major global HR and staffing agency provides great insight into the local Singaporean job market and builds a strong professional network.www.glassdoor.sg+1\nTraining & Learning Curve: Good initial training for newcomers entering the recruitment and talent acquisition industry.Jobstore\nFlexibility / Hybrid Work: Many reviews note decent hybrid work arrangements and flexible culture depending on the team.Jobstore\nPunctual Pay & Benefits: For contractors and internal staff alike, payroll, statutory contributions, and medical benefits are reliably and punctually managed.Indeed+1\nKey Cons (Common Criticisms)\nHigh Sales Targets & Pressure: As a commercial recruitment agency, internal consultants face intense KPI/target pressures, leading to long hours during busy cycles.Jobstore\nHeavy Administrative Overhead: Staff frequently cite a large volume of internal paperwork, compliance/system updates, and data entry that takes away from core client-facing or business development work.Jobstore\nUnclear Career Progression & Leadership Gaps: Lower scores on Glassdoor for senior management (2.7/5) and career opportunities (2.5/5) point to a perceived disconnect between upper leadership strategy and day-to-day execution.www.glassdoor.sg+1\nInconsistent Communication: Occasional complaints regarding a lack of transparency around strategic shifts or slow communication during interview/recruitment loops (including candidate-facing \"ghosting\" notes).www.glassdoor.sg+1\nYou can read full, unfiltered feedback directly on the Randstad Singapore Glassdoor Reviews or check broader sentiment on Randstad Indeed Reviews.Are you looking at an internal role (such as recruitment consultant or HR) with Randstad Singapore, or are you considering an external contract/placement job offered through them?\nShared\n0 files\nwww.glassdoor.sgRandstad Reviews in Singapore | GlassdoorRatings: Overall 3.0/5 stars across 65 Glassdoor reviews in Singapore, 21% below industry average (3.8 stars); CEO approval 7%; po...\nIndeedWorking at Randstad: Employee Reviews | Indeed.comOverall Rating: 3.7 out of 5 stars based on 19,900 reviews. Detailed Ratings: Work-life balance (3.6), Culture (3.5), Management (\nJobstreet SingaporeReviews Randstad employee ratings and reviews | JobstreetRandstad receives consistent praise for its positive work culture and supportive management. Employees particularly value the stro...\nJobstoreRandstad Singapore Employee Reviews - Jobstore108 Reviews Latest update 8 October 2026 Sort by: Latest Latest Highest Rating Lowest Rating All reviews Work life balance Career ...\nIndeedEmployee Reviews about Pay and benefits - Randstad7 reviews * November 19, 2019 Work life balance CUSTOMER SERVICE MANAGER Singapore Compensation and benefits are at par. Complete ...\nShow allShow less",
+   "links": [
+    {
+     "title": "Learn more about AI Mode",
+     "url": "https://support.google.com/websearch?p=ai_overviews"
+    },
+    {
+     "title": "privacy policy",
+     "url": "https://policies.google.com/privacy"
+    },
+    {
+     "title": "Terms of Service",
+     "url": "https://policies.google.com/terms"
+    },
+    {
+     "title": "make a legal removal request",
+     "url": "https://support.google.com/legal/answer/3110420"
+    }
+   ],
+   "source_result_ids": [
+    "s_8a1765329cf4bd23"
+   ],
+   "position": {
+    "absolute": 1
+   },
+   "confidence": 0.75,
+   "extracted_at": "2026-11-07T04:54:55Z"
+  }
+ ],
+ "pagination": {
+  "page": 1,
+  "has_more": true,
+  "next_start": 8
+ }
+}

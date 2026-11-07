@@ -1,0 +1,90 @@
+[
+ {
+  "persona": "p1-software",
+  "company": "Grab Holdings",
+  "truth": "real, well known",
+  "llm": "appears_real_and_consistent / medium",
+  "after_gate": "appears_real_and_consistent / medium",
+  "changed": false,
+  "phrase": "grab holdings",
+  "pages_with_exact_name": 1,
+  "snippets_with_exact_name": 10
+ },
+ {
+  "persona": "p2-nurse",
+  "company": "Raffles Medical Group",
+  "truth": "real, well known",
+  "llm": "appears_real_and_consistent / medium",
+  "after_gate": "appears_real_and_consistent / medium",
+  "changed": false,
+  "phrase": "raffles medical group",
+  "pages_with_exact_name": 3,
+  "snippets_with_exact_name": 39
+ },
+ {
+  "persona": "p3-warehouse",
+  "company": "Ninja Van Singapore",
+  "truth": "real, well known",
+  "llm": "appears_real_and_consistent / medium",
+  "after_gate": "appears_real_limited_evidence / medium",
+  "changed": true,
+  "phrase": "ninja van singapore",
+  "pages_with_exact_name": 0,
+  "snippets_with_exact_name": 4
+ },
+ {
+  "persona": "p4-marketing",
+  "company": "Lazada Singapore",
+  "truth": "real, well known",
+  "llm": "appears_real_limited_evidence / medium",
+  "after_gate": "appears_real_limited_evidence / medium",
+  "changed": false,
+  "phrase": "lazada singapore",
+  "pages_with_exact_name": 0,
+  "snippets_with_exact_name": 2
+ },
+ {
+  "persona": "p5-finance",
+  "company": "KPMG Singapore",
+  "truth": "real, well known",
+  "llm": "appears_real_and_consistent / high",
+  "after_gate": "appears_real_limited_evidence / medium",
+  "changed": true,
+  "phrase": "kpmg singapore",
+  "pages_with_exact_name": 0,
+  "snippets_with_exact_name": 3
+ },
+ {
+  "persona": "p6-obscure-real",
+  "company": "Avanguarde Pte. Ltd.",
+  "truth": "real but tiny: live in the company registry, almost no web footprint",
+  "llm": "appears_real_limited_evidence / medium",
+  "after_gate": "appears_real_limited_evidence / medium",
+  "changed": false,
+  "phrase": "avanguarde",
+  "pages_with_exact_name": 5,
+  "snippets_with_exact_name": 26
+ },
+ {
+  "persona": "p7-fictitious",
+  "company": "Zzqxv Qwlmt Holdings Pte Ltd",
+  "truth": "fictitious: no such entity",
+  "llm": "cannot_verify / low",
+  "after_gate": "cannot_verify / low",
+  "changed": false,
+  "phrase": "zzqxv qwlmt holdings",
+  "pages_with_exact_name": 0,
+  "snippets_with_exact_name": 0
+ },
+ {
+  "persona": "p8-lookalike",
+  "company": "DBS Bank Singapore Recruitment Pte Ltd",
+  "truth": "lookalike of a real bank: no such registered entity",
+  "llm": "appears_real_and_consistent / high",
+  "after_gate": "inconsistent_or_suspicious / low",
+  "changed": true,
+  "phrase": "dbs bank singapore recruitment",
+  "pages_with_exact_name": 0,
+  "snippets_with_exact_name": 0
+ }
+]

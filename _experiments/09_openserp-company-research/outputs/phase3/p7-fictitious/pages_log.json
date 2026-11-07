@@ -1,0 +1,100 @@
+[
+ {
+  "url": "https://sg.indeed.com/cmp/Viewqwest-Pte-Ltd/reviews",
+  "http": 200,
+  "seconds": 0.3,
+  "status": "irrelevant",
+  "chars": 4893,
+  "note": "the page never mentions the company name (zzqxv, qwlmt)",
+  "title": "Viewqwest Pte Ltd Employee Reviews",
+  "mode_used": "fast",
+  "search_title": "Working at Viewqwest Pte Ltd: Employee Reviews | Indeed.com",
+  "snippet": "Reviews from Viewqwest Pte Ltd employees about Viewqwest Pte Ltd culture, salaries, benefits, work-life balance, management, job security, and more.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.glassdoor.sg/Reviews/BORGWARNER-SINGAPORE-HOLDINGS-PTE-LTD-Reviews-E5931845.htm",
+  "http": 502,
+  "seconds": 0.3,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "BORGWARNER SINGAPORE HOLDINGS PTE. LTD - Glassdoor",
+  "snippet": "18 BORGWARNER SINGAPORE HOLDINGS PTE. LTD reviews. A free inside look at company reviews and salaries posted anonymously by employees.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.glassdoor.com/Reviews/BORGWARNER-SINGAPORE-HOLDINGS-PTE-LTD-Reviews-E5931845.htm",
+  "http": 502,
+  "seconds": 0.3,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "BORGWARNER SINGAPORE HOLDINGS PTE. LTD - Glassdoor",
+  "snippet": "18 BORGWARNER SINGAPORE HOLDINGS PTE. LTD reviews. A free inside look at company reviews and salaries posted anonymously by employees.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.reddit.com/r/SingaporeRaw/comments/156h5vz/megathread_toxic_employers_of_singapore",
+  "http": 200,
+  "seconds": 0.7,
+  "status": "blocked",
+  "chars": 490,
+  "note": "challenge or login-wall text (title: Prove your humanity)",
+  "title": "Prove your humanity",
+  "mode_used": "rendered",
+  "search_title": "[Megathread] Toxic employers of Singapore : r/SingaporeRaw - Reddit",
+  "snippet": "The Singapore education system is designed to product civil servants who are obedient, follow SOP's and become proxy for power. Most shitty orgs in Singapore can be easily traced back to \"scholars\" who have created, amplified or maintained a toxic culture.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.scam.sg/companies",
+  "http": 200,
+  "seconds": 0.2,
+  "status": "irrelevant",
+  "chars": 1532,
+  "note": "the page never mentions the company name (zzqxv, qwlmt)",
+  "title": "Company Search Results | Scam.SG",
+  "mode_used": "fast",
+  "search_title": "Check a Singapore Company by Name or UEN | Scam.SG",
+  "snippet": "Check any of 617,000+ ACRA-registered Singapore businesses by name or UEN. See registration status, TrustScore, reviews and scam reports. Free and updated daily.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://sg.indeed.com/cmp/Natsteel-Holdings-Pte-Ltd/reviews?fcountry=ALL",
+  "http": 200,
+  "seconds": 0.3,
+  "status": "irrelevant",
+  "chars": 3640,
+  "note": "the page never mentions the company name (zzqxv, qwlmt)",
+  "title": "NatSteel Holdings Pte Ltd Employee Reviews",
+  "mode_used": "fast",
+  "search_title": "NatSteel Holdings Pte Ltd Employee Reviews - Indeed.com",
+  "snippet": "Aug 10, 2026Reviews from NatSteel Holdings Pte Ltd employees about NatSteel Holdings Pte Ltd culture, salaries, benefits, work-life balance, management, job security, and more.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.glassdoor.com/Reviews/SEA-Singapore-Reviews-E1882231.htm",
+  "http": 502,
+  "seconds": 0.3,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "SEA (Singapore) Reviews (290): Pros & Cons of Working At ... - Glassdoor",
+  "snippet": "SEA (Singapore) has an employee rating of 3.1 out of 5 stars, based on 290 company reviews on Glassdoor which indicates that most employees have a good working experience there.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.reddit.com/r/phcareers/comments/qdzecl/not_sure_if_i_still_like_to_work_here",
+  "http": 200,
+  "seconds": 0.6,
+  "status": "blocked",
+  "chars": 490,
+  "note": "challenge or login-wall text (title: Prove your humanity)",
+  "title": "Prove your humanity",
+  "mode_used": "rendered",
+  "search_title": "Not sure if I still like to work here : r/phcareers - Reddit",
+  "snippet": "We do have leaves, but there's an internal pressure not to take those leaves. Like in the case of my teammate who had to take a leave for govt requirements. She was permitted, but my boss made sure she'd do double of the work next day. It's pretty discouraging because of the expectation that you have to make up for the time you took a day off.",
+  "engine": "duckduckgo"
+ }
+]

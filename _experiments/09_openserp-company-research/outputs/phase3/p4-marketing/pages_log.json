@@ -1,0 +1,96 @@
+[
+ {
+  "url": "https://sg.indeed.com/cmp/Lazada/reviews",
+  "http": 200,
+  "seconds": 0.4,
+  "status": "ok",
+  "chars": 9522,
+  "note": null,
+  "title": "Lazada Employee Reviews",
+  "mode_used": "fast",
+  "search_title": "Working at Lazada: Employee Reviews | Indeed.com",
+  "snippet": "Reviews from Lazada employees about Lazada culture, salaries, benefits, work-life balance, management, job security, and more.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.glassdoor.sg/Reviews/Lazada-Singapore-Reviews-EI_IE578726.0,6_IL.7,16_IM1123.htm",
+  "http": 502,
+  "seconds": 0.4,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "Lazada Reviews in Singapore | Glassdoor",
+  "snippet": "682 Lazada reviews in Singapore. A free inside look at company reviews and salaries posted anonymously by employees.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.glassdoor.com/Reviews/Lazada-Reviews-E578726.htm",
+  "http": 502,
+  "seconds": 0.3,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "Lazada Reviews (2,860): Pros & Cons of Working At Lazada | Glassdoor",
+  "snippet": "Lazada has an employee rating of 3.4 out of 5 stars, based on 2,860 company reviews on Glassdoor which indicates that most employees have a good working experience there. The Lazada employee rating is in line with the average (within 1 standard deviation) for employers within the Retail & Wholesale industry (3.5 stars).",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://sg.jobstreet.com/companies/lazada-168554893586129/reviews",
+  "http": 200,
+  "seconds": 0.4,
+  "status": "ok",
+  "chars": 1146,
+  "note": null,
+  "title": "Reviews Lazada employee ratings and reviews | Jobstreet",
+  "mode_used": "fast",
+  "search_title": "Reviews Lazada employee ratings and reviews | Jobstreet",
+  "snippet": "Thinking of working at Lazada? Read 19 employee reviews on Jobstreet to learn about salaries, benefits, company culture, work-life balance, and career opportunities",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.glassdoor.sg/Reviews/Lazada-Reviews-E578726.htm",
+  "http": 502,
+  "seconds": 0.3,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "Lazada Reviews - Glassdoor",
+  "snippet": "2,865 Lazada reviews. A free inside look at company reviews and salaries posted anonymously by employees.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.payscale.com/research/SG/Employer=Lazada_Group/Reviews",
+  "http": 200,
+  "seconds": 0.6,
+  "status": "ok",
+  "chars": 1967,
+  "note": null,
+  "title": "Working at Lazada Group",
+  "mode_used": "fast",
+  "search_title": "Working at Lazada Group in Singapore | PayScale",
+  "snippet": "What's it like to work at Lazada Group in Singapore? Visit PayScale to research current and former Lazada Group employee reviews, salaries, bonuses, benefits and more!",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.ambitionbox.com/reviews/lazada-reviews/singapore-location",
+  "http": 502,
+  "seconds": 0.3,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "Lazada Singapore Reviews by 2 Employees - AmbitionBox",
+  "snippet": "Lazada Singapore is rated 3.7/5, based on 2 Singapore reviews on AmbitionBox. Lazada is highly rated for Job security with 5.0/5 for Singapore location.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.glassdoor.co.in/Reviews/Lazada-Singapura-Reviews-EI_IE578726.0,6_IL.7,16_IC3235921.htm",
+  "http": 502,
+  "seconds": 0.6,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "Lazada Reviews in Singapura | Glassdoor",
+  "snippet": "Search open jobs at Lazada in Singapore and find out about the interview experience in Singapore or explore more of the top rated companies in Singapore. Does Lazada pay well in Singapore? Lazada employees working in Singapore rate their compensation and benefits with 3.5 out of 5 stars based on anonymously submitted employee reviews on Glassdoor.",
+  "engine": "duckduckgo"
+ }
+]

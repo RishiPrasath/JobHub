@@ -1,0 +1,17 @@
+[   2.5s] 6 queries written
+[  25.6s] search 200 8 organic in 23.1s via ['duckduckgo'] :: Lazada Singapore employee reviews
+[  67.9s] search 200 8 organic in 42.3s via ['duckduckgo'] :: Lazada Singapore layoffs restructuring news
+[ 109.9s] search 200 8 organic in 42.0s via ['duckduckgo'] :: Lazada Singapore scam fraud reports
+[ 151.9s] search 200 8 organic in 41.9s via ['duckduckgo'] :: Lazada Singapore interview process details
+[ 194.0s] search 200 8 organic in 42.1s via ['duckduckgo'] :: Lazada Singapore salary Digital Marketing Executiv
+[ 230.0s] search 200 8 organic in 36.0s via ['duckduckgo'] :: Lazada Singapore lawsuits regulatory news
+[ 230.0s] 48 unique organic URLs, reading 8
+[ 230.4s] page ok        9522 chars   0.4s https://sg.indeed.com/cmp/Lazada/reviews
+[ 232.2s] page error        0 chars   0.4s https://www.glassdoor.sg/Reviews/Lazada-Singapore-Reviews-EI_IE578726.
+[ 234.0s] page error        0 chars   0.3s https://www.glassdoor.com/Reviews/Lazada-Reviews-E578726.htm
+[ 235.9s] page ok        1146 chars   0.4s https://sg.jobstreet.com/companies/lazada-168554893586129/reviews
+[ 237.8s] page error        0 chars   0.3s https://www.glassdoor.sg/Reviews/Lazada-Reviews-E578726.htm
+[ 239.9s] page ok        1967 chars   0.6s https://www.payscale.com/research/SG/Employer=Lazada_Group/Reviews
+[ 241.7s] page error        0 chars   0.3s https://www.ambitionbox.com/reviews/lazada-reviews/singapore-location
+[ 243.8s] page error        0 chars   0.6s https://www.glassdoor.co.in/Reviews/Lazada-Singapura-Reviews-EI_IE5787
+[ 394.3s] brief: appears_real_limited_evidence / medium ; claims verified 11, unverified 2

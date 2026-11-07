@@ -1,0 +1,242 @@
+{
+ "validity_status": "appears_real_and_consistent",
+ "validity_reasoning": "Multiple independent sources (Indeed employee reviews, press releases, Business Times articles) describe Raffles Medical Group as an established Singapore healthcare provider with recent financial results and growth plans, confirming its existence and relevance for a staff nurse role.",
+ "confidence": "medium",
+ "confidence_reasoning": "Evidence is present but limited to high‑level company information; detailed specifics about nursing roles are not directly covered.",
+ "could_not_verify": [
+  "Exact nurse salary or shift patterns at Raffles Medical Group",
+  "Specific nursing career progression pathways",
+  "Employee benefits specific to nursing staff"
+ ],
+ "key_facts": [
+  {
+   "claim": "Raffles Medical Group is a well‑established Singapore healthcare provider with over 50 years of operation.",
+   "evidence": [
+    {
+     "source": 3,
+     "quote": "Marks 50 Years of Care with S$5 Million Commitment",
+     "url": "https://www.rafflesmedicalgroup.com/our-group/news-room/press-releases",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 5,
+     "quote": "Five decades on, Raffles Medical eyes further regional growth",
+     "url": "https://www.businesstimes.com.sg/keywords/raffles-medical-group",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "The company reported a profit after tax of S$29.0 million in the first half of 2026, a growth of 11% in hospital services.",
+   "evidence": [
+    {
+     "source": 3,
+     "quote": "Raffles Medical Group Reports S$29.0 million PATMI in 1H2026 as Hospital Services Profit Grows 11%",
+     "url": "https://www.rafflesmedicalgroup.com/our-group/news-room/press-releases",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "FY2025 earnings were S$70.6 million, up 13.4% year‑on‑year.",
+   "evidence": [
+    {
+     "source": 6,
+     "quote": "Raffles Medical Group reported earnings of $70.6 million for its FY2025 ... an increase of 13.4% y‑o‑y",
+     "url": "https://sginvestors.io/sgx/stock/bsl-raffles-medical/news-article",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "unverified"
+  },
+  {
+   "claim": "Employee overall rating on Indeed is 3.5 out of 5 based on 42 reviews (as of Sep 2026).",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Overall rating 3.5 Based on 42 reviews",
+     "url": "https://sg.indeed.com/cmp/Raffles-Medical-Group/reviews?start=20",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Key employee sentiment highlights a supportive environment, fair pay, and learning opportunities, but notes challenges in belonging and manager support.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "What people like Supportive environment; Fair pay for job; Ability to learn new things",
+     "url": "https://sg.indeed.com/cmp/Raffles-Medical-Group/reviews?start=20",
+     "quote_found_in_source": false
+    },
+    {
+     "source": 1,
+     "quote": "Areas for improvement Sense of belonging; Ability to meet personal goals; Support from manager",
+     "url": "https://sg.indeed.com/cmp/Raffles-Medical-Group/reviews?start=20",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "unverified"
+  },
+  {
+   "claim": "Raffles Medical Group plans to expand further in Asia, seeing many regional opportunities.",
+   "evidence": [
+    {
+     "source": 5,
+     "quote": "It will focus on expanding its business in Asia as it sees plenty of opportunities in the region",
+     "url": "https://www.businesstimes.com.sg/keywords/raffles-medical-group",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  }
+ ],
+ "positive_signals": [
+  {
+   "claim": "The company offers a learning environment and rewards hard work, which can be attractive for a staff nurse seeking professional growth.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "What people like Ability to learn new things",
+     "url": "https://sg.indeed.com/cmp/Raffles-Medical-Group/reviews?start=20",
+     "quote_found_in_source": false
+    },
+    {
+     "source": 1,
+     "quote": "A place where hard work is rewarded",
+     "url": "https://sg.indeed.com/cmp/Raffles-Medical-Group/reviews?start=20",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Financial stability indicated by consistent profit growth and profitability expectations for FY2026.",
+   "evidence": [
+    {
+     "source": 5,
+     "quote": "Based on current conditions ... the board expects the group to remain profitable in FY2026",
+     "url": "https://www.businesstimes.com.sg/keywords/raffles-medical-group",
+     "quote_found_in_source": false
+    },
+    {
+     "source": 3,
+     "quote": "Reports 22% PATMI Growth to $38.5 million in 2H2025",
+     "url": "https://www.rafflesmedicalgroup.com/our-group/news-room/press-releases",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  }
+ ],
+ "red_flags": [
+  {
+   "claim": "Management rating is relatively low (2.8/5), suggesting possible leadership or operational issues.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "2.8 out of 5 stars for Management",
+     "url": "https://sg.indeed.com/cmp/Raffles-Medical-Group/reviews?start=20",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Some employee reviews mention a hectic or challenging work environment, which may affect work‑life balance for nurses.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Hectic yet fun",
+     "url": "https://sg.indeed.com/cmp/Raffles-Medical-Group/reviews?start=20",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 1,
+     "quote": "Challenging and Competitive workplace",
+     "url": "https://sg.indeed.com/cmp/Raffles-Medical-Group/reviews?start=20",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  }
+ ],
+ "relevance_for_persona": "The brief highlights Raffles Medical Group’s size, financial health, and employee sentiment, all of which are pertinent for a registered nurse evaluating a staff nurse position in terms of stability, growth opportunities, and workplace culture.",
+ "sources_used": [
+  {
+   "id": 1,
+   "url": "https://sg.indeed.com/cmp/Raffles-Medical-Group/reviews?start=20",
+   "kind": "page"
+  },
+  {
+   "id": 2,
+   "url": "https://sginvestors.io/sgx/stock/bsl-raffles-medical/company-announcement",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 3,
+   "url": "https://www.rafflesmedicalgroup.com/our-group/news-room/press-releases",
+   "kind": "page"
+  },
+  {
+   "id": 4,
+   "url": "https://www.rafflesmedicalgroup.com/our-group/news-room/company-news",
+   "kind": "page"
+  },
+  {
+   "id": 5,
+   "url": "https://www.businesstimes.com.sg/keywords/raffles-medical-group",
+   "kind": "page"
+  },
+  {
+   "id": 6,
+   "url": "https://sginvestors.io/sgx/stock/bsl-raffles-medical/news-article",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 7,
+   "url": "https://www.glassdoor.sg/Reviews/Raffles-Medical-Group-Singapore-Reviews-EI_IE139031.0,21_IL.22,31_IM1123.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 8,
+   "url": "https://www.glassdoor.com/Reviews/Raffles-Medical-Group-Singapore-Reviews-EI_IE139031.0,21_IL.22,31_IC3235921.htm",
+   "kind": "snippet_only"
+  }
+ ],
+ "sources_failed_or_blocked": [
+  {
+   "url": "https://sginvestors.io/sgx/stock/bsl-raffles-medical/company-announcement",
+   "status": "blocked",
+   "note": "challenge or login-wall text (title: )"
+  },
+  {
+   "url": "https://sginvestors.io/sgx/stock/bsl-raffles-medical/news-article",
+   "status": "blocked",
+   "note": "challenge or login-wall text (title: )"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Raffles-Medical-Group-Singapore-Reviews-EI_IE139031.0,21_IL.22,31_IM1123.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Raffles-Medical-Group-Singapore-Reviews-EI_IE139031.0,21_IL.22,31_IC3235921.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  }
+ ],
+ "claims_verified": 8,
+ "claims_unverified": 2,
+ "llm_validity_status": "appears_real_and_consistent",
+ "llm_confidence": "medium",
+ "name_gate": {
+  "phrase": "raffles medical group",
+  "pages_with_exact_name": 3,
+  "snippets_with_exact_name": 39,
+  "note": null
+ }
+}

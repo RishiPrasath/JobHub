@@ -1,0 +1,21 @@
+{
+ "persona": "p1-software",
+ "who": "software engineer",
+ "company": "Grab Holdings",
+ "role": "Backend Engineer",
+ "truth_note": "real, well known",
+ "stages": {},
+ "ok": true,
+ "validity": "appears_real_and_consistent",
+ "confidence": "medium",
+ "claims_verified": 11,
+ "claims_unverified": 2,
+ "queries": 6,
+ "searches_ok": 6,
+ "unique_urls": 47,
+ "pages_tried": 8,
+ "pages_ok": 5,
+ "pages_failed": 3,
+ "llm_tokens_brief": 4889,
+ "seconds": 330.0
+}

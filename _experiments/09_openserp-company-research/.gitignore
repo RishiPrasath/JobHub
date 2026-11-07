@@ -1,0 +1,5 @@
+# Upstream clone: pinned by commit in README.md, re-created by the commands there
+vendor/openserp/
+# Third-party page text fetched during the experiment (reviews, forum and news pages): kept on the machine that ran it, not committed
+outputs/phase3/*/pages/
+outputs/phase2/extract/*.md

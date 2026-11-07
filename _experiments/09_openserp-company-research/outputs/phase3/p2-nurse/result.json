@@ -1,0 +1,21 @@
+{
+ "persona": "p2-nurse",
+ "who": "registered nurse",
+ "company": "Raffles Medical Group",
+ "role": "Staff Nurse",
+ "truth_note": "real, well known",
+ "stages": {},
+ "ok": true,
+ "validity": "appears_real_and_consistent",
+ "confidence": "medium",
+ "claims_verified": 8,
+ "claims_unverified": 2,
+ "queries": 6,
+ "searches_ok": 6,
+ "unique_urls": 42,
+ "pages_tried": 8,
+ "pages_ok": 4,
+ "pages_failed": 4,
+ "llm_tokens_brief": 4680,
+ "seconds": 200.6
+}

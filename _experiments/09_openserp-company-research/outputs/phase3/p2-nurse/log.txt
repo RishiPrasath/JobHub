@@ -1,0 +1,17 @@
+[   0.7s] 6 queries written
+[   1.5s] search 200 8 organic in 0.9s via ['duckduckgo'] :: Raffles Medical Group employee reviews Singapore
+[  13.7s] search 200 8 organic in 12.1s via ['duckduckgo'] :: Raffles Medical Group layoffs restructuring news
+[  55.7s] search 200 8 organic in 42.0s via ['duckduckgo'] :: Raffles Medical Group scam fraud reports
+[  97.9s] search 200 8 organic in 42.2s via ['duckduckgo'] :: Raffles Medical Group interview process staff nurs
+[ 139.9s] search 200 8 organic in 42.1s via ['duckduckgo'] :: Raffles Medical Group staff nurse salary Singapore
+[ 182.0s] search 200 8 organic in 42.1s via ['duckduckgo'] :: Raffles Medical Group lawsuits regulatory news
+[ 182.1s] 42 unique organic URLs, reading 8
+[ 182.5s] page ok        7667 chars   0.4s https://sg.indeed.com/cmp/Raffles-Medical-Group/reviews?start=20
+[ 184.2s] page blocked    178 chars   0.2s https://sginvestors.io/sgx/stock/bsl-raffles-medical/company-announcem
+[ 186.7s] page ok         991 chars   0.9s https://www.rafflesmedicalgroup.com/our-group/news-room/press-releases
+[ 189.1s] page ok        1027 chars   0.9s https://www.rafflesmedicalgroup.com/our-group/news-room/company-news
+[ 190.8s] page ok        8401 chars   0.2s https://www.businesstimes.com.sg/keywords/raffles-medical-group
+[ 192.5s] page blocked    178 chars   0.2s https://sginvestors.io/sgx/stock/bsl-raffles-medical/news-article
+[ 194.5s] page error        0 chars   0.5s https://www.glassdoor.sg/Reviews/Raffles-Medical-Group-Singapore-Revie
+[ 196.3s] page error        0 chars   0.4s https://www.glassdoor.com/Reviews/Raffles-Medical-Group-Singapore-Revi
+[ 200.6s] brief: appears_real_and_consistent / medium ; claims verified 8, unverified 2

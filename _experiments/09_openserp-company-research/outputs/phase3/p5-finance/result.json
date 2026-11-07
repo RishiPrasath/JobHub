@@ -1,0 +1,21 @@
+{
+ "persona": "p5-finance",
+ "who": "finance and accounting professional",
+ "company": "KPMG Singapore",
+ "role": "Audit Associate",
+ "truth_note": "real, well known",
+ "stages": {},
+ "ok": true,
+ "validity": "appears_real_and_consistent",
+ "confidence": "high",
+ "claims_verified": 11,
+ "claims_unverified": 3,
+ "queries": 6,
+ "searches_ok": 6,
+ "unique_urls": 46,
+ "pages_tried": 8,
+ "pages_ok": 4,
+ "pages_failed": 4,
+ "llm_tokens_brief": 5809,
+ "seconds": 458.7
+}
