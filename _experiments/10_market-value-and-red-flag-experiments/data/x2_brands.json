@@ -1,0 +1,7 @@
+{
+  "_note": "Pre-registered 2026-11-07 before ground truth was gathered or Arm B ran. Brands as a job seeker would see them. Replace a dropped brand from 'reserve' in order.",
+  "large": ["Grab", "Shopee", "Foodpanda", "Cold Storage", "Guardian", "Ninja Van", "Carousell", "Lalamove", "Deliveroo", "Watsons"],
+  "mid_size": ["Ya Kun Kaya Toast", "Toast Box", "Din Tai Fung", "Jollibee", "Koi Thé", "BreadTalk", "Old Chang Kee", "Pet Lovers Centre", "Popular Bookstore", "Courts"],
+  "small": ["Kumon", "Mind Stretcher", "The Learning Lab", "Paris Baguette", "Tiong Bahru Bakery", "Pezzo", "Fun Toast", "Kopitiam", "Gong Cha", "Tiger Sugar"],
+  "reserve": ["Uniqlo", "Daiso", "Mr Bean", "Sushiro", "Genki Sushi", "Crystal Jade"]
+}
