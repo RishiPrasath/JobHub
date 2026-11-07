@@ -53,3 +53,14 @@ The journey starts when the person receives an offer (usually verbal, then writt
 - findings.md section 4 (stages 4.1 to 4.8 and Singapore points) and section 6 (offer-and-start column).
 - sources.md rows: MOM probation answer (9 Sep 2026); TAFEP fair recruitment article (2026); police.gov.sg job scam advisories; MOM Employment Pass eligibility page; negotiation and counteroffer surveys (CareerBuilder, Robert Half, Brightwater, 2013 to 2020); vendor blogs on background checks and consultancy blogs on notice periods and CPF (guidance section).
 - limitations.md: evidence quality, not verified, and gaps.
+
+## Update from the gap-fill research (2026-11-07)
+Source: [gap-fill findings](../../2026-11-07-gap-fill/findings.md). This replaces the "not verified" items in the gaps list above where noted.
+- **4.1 Written terms:** MOM: Key Employment Terms in writing within 14 days of the first day (now official).
+- **4.2 and 4.7 Notice:** when the contract is silent: 1 day under 26 weeks, 1 week to under 2 years, 2 weeks to under 5 years, 4 weeks from 5 years (MOM page, 22 Apr 2026; the statute text itself was not read).
+- **4.4 Negotiation:** no Singapore rate. US: 54% (Robert Half 2020) or about 42% (Fidelity 2022) negotiated; 85% of those who countered got something. Hays Singapore: 43% of 2025 job-changers got raises above 10% (self-report).
+- **4.5 Verification and fees:** SPF scam statistics (see journey 1); agency fees capped at one month per year of service, maximum two months, none before placement; half refunded if employment ends within six months (MOM).
+- **4.7 Counteroffers:** UK survey of 2,000 (2021): 74% of accepters had left within 12 months; Singapore data are 2016 and 2017.
+- **4.8 Onboarding:** CPF 2026 rates 17% employer and 20% employee at 55 and below, 16% and 18% above 55 to 60 (CPF Board, updated 19 Oct 2026); rates rise from 1 Jan 2027. Pro-rating for a mid-month start is unknown.
+- **Foreign professionals:** do not start before the pass is issued; approval letter valid six months (MOM). One reported work-pass fraud case (Jul 2026).
+- **Still unknown:** Singapore counteroffer outcomes; leave payout on exit; stages 4.3 and 4.6 untagged.

@@ -50,3 +50,9 @@ The journey starts when a person sees a posting and weighs whether to apply (2.1
 - findings.md section 2 (Applying), section 6 (Apply column), "The whole journey", and the Singapore points under section 2.
 - sources.md: MOM Employment Pass eligibility page (Opened); MOM Fair Consideration Framework (Snippet); Job scam survey, Reeracoen (Secondary); Monster application reports (Snippet); LiveCareer frustration survey (Snippet); Pew job seeking (Snippet, page blocked); university career-centre guides (snippet-level).
 - limitations.md: Evidence quality, Not verified, and Gaps sections.
+
+## Update from the gap-fill research (2026-11-07)
+Source: [gap-fill findings](../../2026-11-07-gap-fill/findings.md). Changes to the evidence above:
+- **2.1 Postings:** MOM Fair Consideration Framework: advertise at least 14 consecutive days; foreign-hire postings must show a clear salary range (maximum at most twice the minimum); advertising only as a formality risks debarment of 12 to 24 months and prosecution. Pay quoting in other postings is unknown.
+- **Foreign professionals (2.1, 2.4):** MOM: the employer or agent files; the candidate consents and fills a form; online decisions in 10 business days (up to 6 weeks for overseas firms without a Singapore office); no appeal for the candidate.
+- **2.6 Follow-up and 2.7 Waiting:** no study shows following up changes outcomes; no Singapore days-to-reply figure; MOM does not track ghosting. How people track applications: still unknown.

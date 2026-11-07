@@ -1,7 +1,7 @@
 # Review Deck Plan: what we know, what we tested, and an initial app proposal
 
-Status: Draft plan, decisions made (section 10), not yet executed. Nothing in this file has been built.
-Date: 2026-11-07 (revised the same day: slides are made with Open Design, not PowerPoint; owner decisions recorded)
+Status: Draft plan, decisions made (section 10). Prerequisites (journeys, stories, evidence gap-fill) are drafted; the deck itself is not built. No Open Design run has been made.
+Date: 2026-11-07 (revised the same day: slides are made with Open Design, not PowerPoint; owner decisions recorded; second revision after the journeys, stories and gap-fill research were committed)
 Owner: Rishi Prasath
 
 ## 0. Owner decisions (2026-11-07)
@@ -51,12 +51,13 @@ The owner reviews the deck, challenges it, and decides what to keep. The deck is
 
 ## 3a. Prerequisite: user journeys and stories (decided: drafted before the deck)
 
-The owner decided the deck waits for the journeys and stories step. Before the deck is built:
+Status as of the second revision:
 
-1. Turn the four as-is processes of round 09 into documented user journeys (one per process, with the person variants).
-2. Write user stories from those journeys.
-3. Decide where journeys and stories are stored (still open; the as-is processes already live in `02_research/03_research-rounds/09_job-seeker-processes-as-is/`, and the earlier concern was keeping them separate from product ideas).
-4. Two extra agents handle this step (roles A and B in section 6). The deck's proposal section then uses the journeys and stories, and the Story Architect adds a short journeys-and-stories section.
+1. **Done:** four as-is journeys, in `02_research/03_research-rounds/09_job-seeker-processes-as-is/runs/2026-11-07-how-job-seekers-actually-job-hunt/journeys/` (stored with the research, apart from product ideas).
+2. **Done (first draft):** 44 needs-only user stories in `_drafts/job-seeker-user-stories.md`.
+3. **Done:** gap-fill research (`runs/2026-11-07-gap-fill/`), which re-rates the stories: supported 9 to 20, thin 8 to 3, 21 stay weak.
+4. **Done:** (a) story ratings in the stories draft now hold the gap-fill ratings (20 supported, 21 weak, 3 thin), with the first-draft rating kept in each row; (b) each of the four journeys has an "Update from the gap-fill research" section (the original tables are unchanged). **Still open:** (c) the owner reviews the new ratings, which are the lead's reading.
+5. Where the stories live permanently is still open (they are in `_drafts/` now). The deck can cite them there.
 
 ## 4. Facts the deck must carry (verified in this repository)
 
@@ -69,7 +70,9 @@ Each must be re-checked by the Claims Auditor against its source file before it 
   - X3: 77% of postings matched an official occupation (bar 80%), 70% judged good fits (bar 70%): inconclusive.
 - Experiment 09 (OpenSERP): see `_experiments/09_openserp-company-research/` (REPORT.md, AGENT-TEST.md).
 - AI experiments 01 to 08 and the scope conclusion: `_drafts/ai-experiment-findings-and-jobhub-scope.md` (AI is useful for organising posting evidence and preserving uncertainty, not for fit scores, resume rewriting or legitimacy judgments).
-- Research round 09 (job-seeker processes): `02_research/03_research-rounds/09_job-seeker-processes-as-is/`.
+- Research round 09 (job-seeker processes): `02_research/03_research-rounds/09_job-seeker-processes-as-is/`. The gap-fill findings (`runs/2026-11-07-gap-fill/findings.md`) supersede the first run where they differ. Facts the lead re-checked against the source (usable with official labels): Singapore notice tiers when the contract is silent; the Fair Consideration Framework 14-day advertising rule, its formality-advertising penalties and the salary-range rule; CPF 2026 rates for the two age bands checked; agency fee cap; SPF job-scam statistics for 2025 and first half 2026. All else in the gap-fill evidence files carries the agents' own status labels (P, R, S, U) and must keep them.
+- Known gaps the deck must show as gaps, not findings: Singapore time-to-reply and drop-off by stage; how people track applications; whether alerts or follow-ups help; Singapore negotiation and counteroffer rates; how local low-wage workers and foreign professionals search; SME differences; whether the current employer is contacted before an offer. Closing them needs primary data (interviews or a survey), not more desk research.
+- Unverified legal items to avoid stating as fact: the Employment Act text itself, the Workplace Fairness Act's recruitment duties and small-firm exemption, MOM's median unemployment duration value.
 - Round 08 (market value and salary): `02_research/03_research-rounds/08_market-value-and-salary-benchmarking/`.
 - Research synthesis: `02_research/04_results/00_cross-research-synthesis.md`.
 - Prototypes: `_prototypes/00` to `05`, especially `05_company-research-flow/FINDINGS.md`.
@@ -81,7 +84,8 @@ Working statement: **a companion that helps a job seeker check a role and its em
 Grounded in the findings:
 
 - **Core job 1: "Is this employer real, and who exactly is it?"** Registry check plus web step to resolve the legal entity, with refusal when ambiguous or not live (experiment X2 and the registry service).
-- **Core job 2: "What does this posting actually say, and what should I ask?"** Source-linked claims, unknowns marked, verification questions to take to the interview (AI experiments).
+- **Core job 2: "What does this posting actually say, and what should I ask?"** Source-linked claims, unknowns marked, verification questions to take to the interview (AI experiments). Gap-fill adds an official basis for two questions: MOM states some employers advertise only as a formality (extent unknown), and foreign-hire postings must show a clear salary range.
+- **Scam and verification angle (new from gap-fill):** scams are an official, quantified problem (SPF: 5,575 job-scam cases and about $123.5M lost in 2025), and official verification routes exist (ScamShield, the ACRA register, MOM's agency directory). This supports core job 1 and makes the first slice easier to justify; it does not support any claim that the app would prevent scams.
 - **Core job 3: "Is this pay reasonable?"** Benchmark against the official wage table only after the user confirms the occupation, labelled with date, population and exclusions (X3, round 08).
 - **Core job 4: "Where am I in the process and what is next?"** A light process tracker based on the four as-is processes (round 09).
 - **What it will not do:** automatic fit scores, resume rewriting, legitimacy verdicts on employers, or submitting applications (AI experiments found unsupported inferences even with strict prompts).
@@ -147,7 +151,8 @@ Limits found when exploring the tool:
 ## 9. Quality rules
 
 1. Every claim on a slide is traceable to a file in this repository or a cited source; the Claims Auditor signs off.
-2. Label evidence strength on the slide: tested in an experiment, desk research, anecdotal, or inference.
+2. Label evidence strength on the slide: tested in an experiment, desk research, anecdotal, or inference. For round 09 material also carry the status labels (official page read, secondary report, snippet only, unverified) and the story ratings (supported, weak, thin).
+2a. One slide (and an appendix table) lists the known gaps from section 4 so the owner sees what is not known.
 3. Say what failed and what is unknown; do not present hypotheses as findings. Experiment 10's X1 failure and X3 inconclusive result stay in.
 4. Name no company as doing wrong beyond what an official source states; experiment company names appear only as already recorded and only where needed.
 5. No third-party page text reproduced beyond short attributed quotes.
@@ -158,14 +163,15 @@ Limits found when exploring the tool:
 Made: see section 0.
 
 Still open (small details and gaps):
-1. Where journeys and stories are stored in the repository (section 3a).
+0. Before the deck: rewrite story ratings and update the journeys with the gap-fill evidence (section 3a, item 4). Also decide whether to collect primary data (interviews or a survey) for the behaviour gaps; the deck can proceed without it if the gaps are shown openly.
+1. Where journeys and stories are stored permanently in the repository (section 3a).
 2. Who supplies licensed stock images, and which images are wanted.
 3. The timestamp format for the `_presentations/` folder name, and the deck title.
 4. Which Open Design deck skill and design system to use (to be compared by the Brief Compiler and decided with the owner).
 5. Whether to add a PDF or other export of the HTML deck later (Open Design does not produce one).
-6. The Open Design tools load only in a new session in this repository, so building the deck starts there.
+6. The Open Design tools load only in a session started in this repository. They appear in the tool list of the current session, so a new session may not be needed; confirm with a read-only call (list agents and skills) before the first run.
 7. Approval for each Open Design run (credits and outside services), since the owner chose generated images.
 
 ## 11. Effort and cost
 
-Eleven roles: two for journeys and stories (A, B), eight agents for the deck (1 to 6, 8, 9), and role 7 is the lead; plus one or more Open Design runs of 5 to 30 minutes each, with generated images adding runs. Most of the cost is in extraction, writing and auditing, plus the Open Design generation. To be confirmed once the owner approves the plan. No agents have been started and no Open Design run has been made.
+Roles A and B (journeys and stories) have already been done by earlier agents and the lead, so the remaining work is eight agents for the deck (1 to 6, 8, 9), with role 7 as the lead, plus a small rewrite of story ratings and journeys; plus one or more Open Design runs of 5 to 30 minutes each, with generated images adding runs. Most of the cost is in extraction, writing and auditing, plus the Open Design generation. To be confirmed once the owner approves the plan. No agents have been started and no Open Design run has been made.

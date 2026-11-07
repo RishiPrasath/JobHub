@@ -53,3 +53,11 @@ The journey starts when a person gets an invitation after applying (3.1) and end
 - findings.md section 3 (stages 3.1 to 3.8 and Singapore points), section 6 (Interview column), and section 5 (loop-back).
 - sources.md rows: Virtual Vocations ghosting survey (Snippet, Oct 2024); Randstad Singapore research via CIPD (Opened, 15 Nov 2017); Glassdoor candidate reports and university career-centre guides (guidance and commentary, snippet-level or secondary); vendor blogs on background checks (Veremark, OmniHR).
 - limitations.md: evidence quality, "Interview rounds in Singapore" note, and gaps list.
+
+## Update from the gap-fill research (2026-11-07)
+Source: [gap-fill findings](../../2026-11-07-gap-fill/findings.md). Changes to the evidence above:
+- **Rounds and length:** Employment Hero 2023 (employers): about 42 days to hire in Singapore; Randstad 2017: process average rose from 30 to 68 days and 91% in Singapore would reject an offer after four weeks. One public agency (GRA, official page) lists written assessment, interview, psychometric tests, second interview, offer within 2 weeks of the last; SCDF says 2 to 3 months (snippet). Other agency detail is snippet only.
+- **3.4 Assessments:** formats include written, psychometric and video interviews (agency pages, university career services, mostly snippets).
+- **3.8 Checks:** PDPC (May 2024): a reference from a former employer needs no consent but the employer must notify. Whether the current employer is contacted before an offer: no source found.
+- **Feedback:** MOM position (via trade press, Sep 2025): employers should not be required to give reasons; Robert Half 2018: 52% of about 500 Singapore job seekers got no feedback. Tripartite Standard on Recruitment Practices is voluntary.
+- **Still unknown:** SME differences; named large-employer stage lists from their own pages.

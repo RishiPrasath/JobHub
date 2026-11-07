@@ -52,3 +52,12 @@ Singapore points: employers must advertise a job on MyCareersFuture for at least
 - findings.md: section 1 (stages 1.1 to 1.6 and Singapore points), section 5 (search going badly), section 6 (Search column; closing note on thin evidence), and "What this baseline does not yet cover".
 - sources.md: MOM parliamentary answer 23 Sep 2025 (Opened); MOM Fair Consideration Framework (Snippet); Job seeker trends 2015, BCG with Recruit Works (Snippet); Hays Singapore releases (Snippet, old); Job scam survey, Reeracoen with Rakuten Insight, May 2025 (Secondary); CNA straw poll, n=105, Aug 2025 (Secondary); police.gov.sg job scam advisories; job-search duration sources (Snippet or abstract); MOM reply of 4 Mar 2026 on support for non-PMETs (Opened).
 - limitations.md: Evidence quality, Not verified and Gaps sections.
+
+## Update from the gap-fill research (2026-11-07)
+Source: [gap-fill findings](../../2026-11-07-gap-fill/findings.md). Changes to the evidence above:
+- **1.2 Channels:** Hays 2017 (Singapore): job boards 45%, networking 31%, social media 24%; Cisco 2023. Dated, so labelled dated.
+- **1.3 Alerts:** Hays 2018 poll: only 16% of Singapore candidates receive phone job alerts. The claim that alerts are widely used was not sourced.
+- **1.4 Screening postings:** scams are officially quantified (SPF: 5,575 job-scam cases, about $123.5M lost in 2025; 2,247 cases in H1 2026). MOM states some employers advertise only as a formality (extent unknown; this replaces the earlier inference). Official checks: ScamShield 1799, ACRA register, MOM Employment Agency directory.
+- **Search going badly:** US and German studies: about 70 to 81 minutes a day; search time falls over a long spell.
+- **Foreign professionals:** the employer or its agent applies for the Employment Pass; no survey of how they search. **Low-wage:** TWC2 2025 (172 Work Permit holders, self-selected): 65% found jobs through an agent, 5% online; no data on local low-wage workers.
+- **Still unknown:** how people track shortlists (1.6) and whether alerts help.
