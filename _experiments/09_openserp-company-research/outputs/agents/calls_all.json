@@ -1,0 +1,1682 @@
+[
+{
+"a": "A1\\calls.log",
+"t": "15:04:38",
+"code": "200",
+"dur": 21,
+"size": 10515,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A1\\calls.log",
+"t": "15:04:45",
+"code": "502",
+"dur": 1,
+"size": 131,
+"kind": "extract",
+"eng": null,
+"host": "financecharts.com"
+},
+{
+"a": "A1\\calls.log",
+"t": "15:04:50",
+"code": "502",
+"dur": 0,
+"size": 131,
+"kind": "extract",
+"eng": null,
+"host": "stockanalysis.com"
+},
+{
+"a": "A1\\calls.log",
+"t": "15:05:33",
+"code": "200",
+"dur": 37,
+"size": 12297,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A1\\calls.log",
+"t": "15:05:42",
+"code": "200",
+"dur": 0,
+"size": 15648,
+"kind": "extract",
+"eng": null,
+"host": "straitstimes.com"
+},
+{
+"a": "A1\\calls.log",
+"t": "15:06:24",
+"code": "504",
+"dur": 37,
+"size": 210,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A1\\calls.log",
+"t": "15:07:09",
+"code": "200",
+"dur": 35,
+"size": 7465,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A1\\calls.log",
+"t": "15:07:17",
+"code": "200",
+"dur": 0,
+"size": 14527,
+"kind": "extract",
+"eng": null,
+"host": "straitstimes.com"
+},
+{
+"a": "A1\\calls.log",
+"t": "15:07:25",
+"code": "200",
+"dur": 2,
+"size": 29309,
+"kind": "extract",
+"eng": null,
+"host": "efinancialcareers.com"
+},
+{
+"a": "A1\\calls.log",
+"t": "15:07:57",
+"code": "200",
+"dur": 24,
+"size": 4915,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A1\\calls.log",
+"t": "15:08:39",
+"code": "200",
+"dur": 36,
+"size": 5147,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A1\\calls.log",
+"t": "15:08:52",
+"code": "200",
+"dur": 3,
+"size": 26095,
+"kind": "extract",
+"eng": null,
+"host": "levels.fyi"
+},
+{
+"a": "A1\\calls.log",
+"t": "15:08:58",
+"code": "502",
+"dur": 1,
+"size": 131,
+"kind": "extract",
+"eng": null,
+"host": "glassdoor.sg"
+},
+{
+"a": "A1\\calls.log",
+"t": "15:09:44",
+"code": "200",
+"dur": 37,
+"size": 5477,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A1\\calls.log",
+"t": "15:10:22",
+"code": "200",
+"dur": 32,
+"size": 5304,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A1\\calls.log",
+"t": "15:10:32",
+"code": "200",
+"dur": 0,
+"size": 24763,
+"kind": "extract",
+"eng": null,
+"host": "jointaro.com"
+},
+{
+"a": "A1\\calls.log",
+"t": "15:10:39",
+"code": "200",
+"dur": 1,
+"size": 12989,
+"kind": "extract",
+"eng": null,
+"host": "reddit.com"
+},
+{
+"a": "A1\\calls.log",
+"t": "15:11:16",
+"code": "200",
+"dur": 27,
+"size": 10551,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A1\\calls.log",
+"t": "15:11:25",
+"code": "200",
+"dur": 0,
+"size": 65843,
+"kind": "extract",
+"eng": null,
+"host": "grab.com"
+},
+{
+"a": "A1\\calls.log",
+"t": "15:11:58",
+"code": "200",
+"dur": 23,
+"size": 6738,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A2\\calls.log",
+"t": "15:04:26",
+"code": "200",
+"dur": 9,
+"size": 17085,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A2\\calls.log",
+"t": "15:04:34",
+"code": "200",
+"dur": 3,
+"size": 10666,
+"kind": "extract",
+"eng": null,
+"host": "econhealthcare.com"
+},
+{
+"a": "A2\\calls.log",
+"t": "15:05:14",
+"code": "200",
+"dur": 36,
+"size": 4998,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A2\\calls.log",
+"t": "15:05:57",
+"code": "200",
+"dur": 37,
+"size": 6553,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A2\\calls.log",
+"t": "15:06:06",
+"code": "200",
+"dur": 1,
+"size": 11476,
+"kind": "extract",
+"eng": null,
+"host": "econhealthcare.com"
+},
+{
+"a": "A2\\calls.log",
+"t": "15:06:12",
+"code": "200",
+"dur": 2,
+"size": 7644,
+"kind": "extract",
+"eng": null,
+"host": "eqtgroup.com"
+},
+{
+"a": "A2\\calls.log",
+"t": "15:06:57",
+"code": "200",
+"dur": 37,
+"size": 5425,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A2\\calls.log",
+"t": "15:07:01",
+"code": "504",
+"dur": 0,
+"size": 257,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A2\\calls.log",
+"t": "15:07:12",
+"code": "200",
+"dur": 1,
+"size": 33344,
+"kind": "extract",
+"eng": null,
+"host": "apac.entrepreneur.com"
+},
+{
+"a": "A2\\calls.log",
+"t": "15:07:16",
+"code": "200",
+"dur": 0,
+"size": 18465,
+"kind": "extract",
+"eng": null,
+"host": "ccs.gov.sg"
+},
+{
+"a": "A2\\calls.log",
+"t": "15:07:45",
+"code": "200",
+"dur": 20,
+"size": 7771,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A2\\calls.log",
+"t": "15:07:56",
+"code": "200",
+"dur": 1,
+"size": 15817,
+"kind": "extract",
+"eng": null,
+"host": "straitstimes.com"
+},
+{
+"a": "A2\\calls.log",
+"t": "15:08:01",
+"code": "200",
+"dur": 1,
+"size": 618,
+"kind": "extract",
+"eng": null,
+"host": "sginvestors.io"
+},
+{
+"a": "A2\\calls.log",
+"t": "15:08:10",
+"code": "504",
+"dur": 0,
+"size": 257,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A2\\calls.log",
+"t": "15:08:51",
+"code": "200",
+"dur": 37,
+"size": 4859,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A2\\calls.log",
+"t": "15:09:34",
+"code": "200",
+"dur": 33,
+"size": 10943,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A2\\calls.log",
+"t": "15:09:43",
+"code": "502",
+"dur": 0,
+"size": 131,
+"kind": "extract",
+"eng": null,
+"host": "glassdoor.sg"
+},
+{
+"a": "A2\\calls.log",
+"t": "15:09:49",
+"code": "200",
+"dur": 0,
+"size": 8796,
+"kind": "extract",
+"eng": null,
+"host": "sg.jobstreet.com"
+},
+{
+"a": "A2\\calls.log",
+"t": "15:09:53",
+"code": "200",
+"dur": 0,
+"size": 20611,
+"kind": "extract",
+"eng": null,
+"host": "sg.indeed.com"
+},
+{
+"a": "A2\\calls.log",
+"t": "15:10:34",
+"code": "200",
+"dur": 30,
+"size": 5408,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A2\\calls.log",
+"t": "15:11:10",
+"code": "200",
+"dur": 32,
+"size": 5240,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A2\\calls.log",
+"t": "15:11:46",
+"code": "200",
+"dur": 28,
+"size": 5254,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A3\\calls.log",
+"t": "15:04:21",
+"code": "504",
+"dur": 1,
+"size": 257,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A3\\calls.log",
+"t": "15:05:06",
+"code": "504",
+"dur": 37,
+"size": 210,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A3\\calls.log",
+"t": "15:05:19",
+"code": "503",
+"dur": 0,
+"size": 232,
+"kind": "search",
+"eng": "duckduckgo",
+"host": null
+},
+{
+"a": "A3\\calls.log",
+"t": "15:06:15",
+"code": "200",
+"dur": 37,
+"size": 18174,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A3\\calls.log",
+"t": "15:06:25",
+"code": "200",
+"dur": 0,
+"size": 49058,
+"kind": "extract",
+"eng": null,
+"host": "en.wikipedia.org"
+},
+{
+"a": "A3\\calls.log",
+"t": "15:06:34",
+"code": "504",
+"dur": 0,
+"size": 257,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A3\\calls.log",
+"t": "15:06:58",
+"code": "504",
+"dur": 1,
+"size": 257,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A3\\calls.log",
+"t": "15:08:15",
+"code": "200",
+"dur": 29,
+"size": 11241,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A3\\calls.log",
+"t": "15:08:25",
+"code": "200",
+"dur": 1,
+"size": 34949,
+"kind": "extract",
+"eng": null,
+"host": "corporate.shengsiong.com.sg"
+},
+{
+"a": "A3\\calls.log",
+"t": "15:09:09",
+"code": "200",
+"dur": 28,
+"size": 11177,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A3\\calls.log",
+"t": "15:09:20",
+"code": "502",
+"dur": 1,
+"size": 131,
+"kind": "extract",
+"eng": null,
+"host": "glassdoor.sg"
+},
+{
+"a": "A3\\calls.log",
+"t": "15:09:31",
+"code": "200",
+"dur": 1,
+"size": 17487,
+"kind": "extract",
+"eng": null,
+"host": "sg.jobstreet.com"
+},
+{
+"a": "A3\\calls.log",
+"t": "15:10:10",
+"code": "200",
+"dur": 26,
+"size": 11800,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A3\\calls.log",
+"t": "15:10:21",
+"code": "200",
+"dur": 1,
+"size": 11434,
+"kind": "extract",
+"eng": null,
+"host": "sg.indeed.com"
+},
+{
+"a": "A3\\calls.log",
+"t": "15:10:58",
+"code": "200",
+"dur": 26,
+"size": 5359,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A3\\calls.log",
+"t": "15:11:40",
+"code": "200",
+"dur": 30,
+"size": 11527,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A3\\calls.log",
+"t": "15:11:54",
+"code": "200",
+"dur": 0,
+"size": 21040,
+"kind": "extract",
+"eng": null,
+"host": "sgbusinessnews.com"
+},
+{
+"a": "A3\\calls.log",
+"t": "15:12:03",
+"code": "502",
+"dur": 3,
+"size": 131,
+"kind": "extract",
+"eng": null,
+"host": "links.sgx.com"
+},
+{
+"a": "A3\\calls.log",
+"t": "15:12:19",
+"code": "200",
+"dur": 3,
+"size": 4394,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A3\\calls.log",
+"t": "15:12:31",
+"code": "200",
+"dur": 2,
+"size": 15049,
+"kind": "extract",
+"eng": null,
+"host": "corporate.shengsiong.com.sg"
+},
+{
+"a": "A4\\calls.log",
+"t": "15:04:44",
+"code": "200",
+"dur": 26,
+"size": 4838,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A4\\calls.log",
+"t": "15:04:55",
+"code": "200",
+"dur": 1,
+"size": 16485,
+"kind": "extract",
+"eng": null,
+"host": "startupintros.com"
+},
+{
+"a": "A4\\calls.log",
+"t": "15:05:36",
+"code": "200",
+"dur": 37,
+"size": 4061,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A4\\calls.log",
+"t": "15:05:45",
+"code": "504",
+"dur": 0,
+"size": 257,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A4\\calls.log",
+"t": "15:05:57",
+"code": "200",
+"dur": 2,
+"size": 24357,
+"kind": "extract",
+"eng": null,
+"host": "channelnewsasia.com"
+},
+{
+"a": "A4\\calls.log",
+"t": "15:06:39",
+"code": "200",
+"dur": 34,
+"size": 6633,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A4\\calls.log",
+"t": "15:06:48",
+"code": "200",
+"dur": 0,
+"size": 1981,
+"kind": "extract",
+"eng": null,
+"host": "techinasia.com"
+},
+{
+"a": "A4\\calls.log",
+"t": "15:07:31",
+"code": "200",
+"dur": 37,
+"size": 5051,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A4\\calls.log",
+"t": "15:07:41",
+"code": "200",
+"dur": 0,
+"size": 15776,
+"kind": "extract",
+"eng": null,
+"host": "fastjobs.sg"
+},
+{
+"a": "A4\\calls.log",
+"t": "15:07:47",
+"code": "200",
+"dur": 0,
+"size": 7690,
+"kind": "extract",
+"eng": null,
+"host": "sg.indeed.com"
+},
+{
+"a": "A4\\calls.log",
+"t": "15:08:27",
+"code": "200",
+"dur": 29,
+"size": 5058,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A4\\calls.log",
+"t": "15:08:38",
+"code": "502",
+"dur": 0,
+"size": 131,
+"kind": "extract",
+"eng": null,
+"host": "glassdoor.sg"
+},
+{
+"a": "A4\\calls.log",
+"t": "15:08:44",
+"code": "200",
+"dur": 0,
+"size": 9414,
+"kind": "extract",
+"eng": null,
+"host": "sg.jobstreet.com"
+},
+{
+"a": "A4\\calls.log",
+"t": "15:09:22",
+"code": "200",
+"dur": 27,
+"size": 4964,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A4\\calls.log",
+"t": "15:09:58",
+"code": "200",
+"dur": 31,
+"size": 4727,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A4\\calls.log",
+"t": "15:10:46",
+"code": "200",
+"dur": 37,
+"size": 5153,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A4\\calls.log",
+"t": "15:11:22",
+"code": "200",
+"dur": 31,
+"size": 4912,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A4\\calls.log",
+"t": "15:11:33",
+"code": "200",
+"dur": 1,
+"size": 13389,
+"kind": "extract",
+"eng": null,
+"host": "mothership.sg"
+},
+{
+"a": "A4\\calls.log",
+"t": "15:11:38",
+"code": "200",
+"dur": 0,
+"size": 1966,
+"kind": "extract",
+"eng": null,
+"host": "techinasia.com"
+},
+{
+"a": "A4\\calls.log",
+"t": "15:12:04",
+"code": "200",
+"dur": 15,
+"size": 5221,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A4\\calls.log",
+"t": "15:12:13",
+"code": "200",
+"dur": 3,
+"size": 3854,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A4\\calls.log",
+"t": "15:12:24",
+"code": "200",
+"dur": 1,
+"size": 13958,
+"kind": "extract",
+"eng": null,
+"host": "opengovsg.com"
+},
+{
+"a": "A5\\calls.log",
+"t": "15:04:50",
+"code": "200",
+"dur": 32,
+"size": 10758,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A5\\calls.log",
+"t": "15:04:57",
+"code": "200",
+"dur": 1,
+"size": 16847,
+"kind": "extract",
+"eng": null,
+"host": "en.wikipedia.org"
+},
+{
+"a": "A5\\calls.log",
+"t": "15:05:03",
+"code": "504",
+"dur": 1,
+"size": 257,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A5\\calls.log",
+"t": "15:05:50",
+"code": "200",
+"dur": 36,
+"size": 5445,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A5\\calls.log",
+"t": "15:06:01",
+"code": "502",
+"dur": 1,
+"size": 131,
+"kind": "extract",
+"eng": null,
+"host": "singlife.com"
+},
+{
+"a": "A5\\calls.log",
+"t": "15:06:45",
+"code": "200",
+"dur": 36,
+"size": 10655,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A5\\calls.log",
+"t": "15:07:27",
+"code": "200",
+"dur": 37,
+"size": 10981,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A5\\calls.log",
+"t": "15:07:38",
+"code": "502",
+"dur": 1,
+"size": 131,
+"kind": "extract",
+"eng": null,
+"host": "glassdoor.sg"
+},
+{
+"a": "A5\\calls.log",
+"t": "15:08:09",
+"code": "200",
+"dur": 26,
+"size": 5048,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A5\\calls.log",
+"t": "15:08:57",
+"code": "200",
+"dur": 37,
+"size": 5217,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A5\\calls.log",
+"t": "15:09:39",
+"code": "200",
+"dur": 37,
+"size": 5179,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A5\\calls.log",
+"t": "15:09:48",
+"code": "200",
+"dur": 0,
+"size": 10897,
+"kind": "extract",
+"eng": null,
+"host": "straitstimes.com"
+},
+{
+"a": "A5\\calls.log",
+"t": "15:09:55",
+"code": "200",
+"dur": 1,
+"size": 7219,
+"kind": "extract",
+"eng": null,
+"host": "helm.news"
+},
+{
+"a": "A5\\calls.log",
+"t": "15:10:28",
+"code": "200",
+"dur": 25,
+"size": 5792,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A5\\calls.log",
+"t": "15:10:38",
+"code": "200",
+"dur": 0,
+"size": 30894,
+"kind": "extract",
+"eng": null,
+"host": "mas.gov.sg"
+},
+{
+"a": "A5\\calls.log",
+"t": "15:11:28",
+"code": "200",
+"dur": 35,
+"size": 5106,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A5\\calls.log",
+"t": "15:11:52",
+"code": "200",
+"dur": 18,
+"size": 10744,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A5\\calls.log",
+"t": "15:12:07",
+"code": "200",
+"dur": 0,
+"size": 21678,
+"kind": "extract",
+"eng": null,
+"host": "singlife.com"
+},
+{
+"a": "A5\\calls.log",
+"t": "15:12:14",
+"code": "200",
+"dur": 1,
+"size": 4518,
+"kind": "extract",
+"eng": null,
+"host": "layoffsg.com"
+},
+{
+"a": "A5\\calls.log",
+"t": "15:12:25",
+"code": "429",
+"dur": 1,
+"size": 169,
+"kind": "search",
+"eng": "google",
+"host": null
+},
+{
+"a": "A6\\calls.log",
+"t": "15:04:57",
+"code": "200",
+"dur": 37,
+"size": 4928,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A6\\calls.log",
+"t": "15:05:04",
+"code": "200",
+"dur": 1,
+"size": 9357,
+"kind": "extract",
+"eng": null,
+"host": "aalberts.com"
+},
+{
+"a": "A6\\calls.log",
+"t": "15:05:10",
+"code": "200",
+"dur": 2,
+"size": 24230,
+"kind": "extract",
+"eng": null,
+"host": "gvt.com.sg"
+},
+{
+"a": "A6\\calls.log",
+"t": "15:05:16",
+"code": "504",
+"dur": 0,
+"size": 257,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A6\\calls.log",
+"t": "15:06:03",
+"code": "200",
+"dur": 35,
+"size": 7783,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A6\\calls.log",
+"t": "15:06:49",
+"code": "200",
+"dur": 37,
+"size": 4181,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A6\\calls.log",
+"t": "15:07:36",
+"code": "503",
+"dur": 37,
+"size": 223,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A6\\calls.log",
+"t": "15:08:21",
+"code": "200",
+"dur": 32,
+"size": 5384,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A6\\calls.log",
+"t": "15:08:34",
+"code": "502",
+"dur": 1,
+"size": 131,
+"kind": "extract",
+"eng": null,
+"host": "glassdoor.sg"
+},
+{
+"a": "A6\\calls.log",
+"t": "15:08:40",
+"code": "200",
+"dur": 1,
+"size": 16061,
+"kind": "extract",
+"eng": null,
+"host": "sg.jobstreet.com"
+},
+{
+"a": "A6\\calls.log",
+"t": "15:09:15",
+"code": "200",
+"dur": 24,
+"size": 4920,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A6\\calls.log",
+"t": "15:09:53",
+"code": "200",
+"dur": 31,
+"size": 5166,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A6\\calls.log",
+"t": "15:10:04",
+"code": "200",
+"dur": 0,
+"size": 11089,
+"kind": "extract",
+"eng": null,
+"host": "sg.indeed.com"
+},
+{
+"a": "A6\\calls.log",
+"t": "15:10:11",
+"code": "504",
+"dur": 0,
+"size": 257,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A6\\calls.log",
+"t": "15:10:52",
+"code": "200",
+"dur": 26,
+"size": 7182,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A6\\calls.log",
+"t": "15:11:34",
+"code": "200",
+"dur": 31,
+"size": 4466,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A6\\calls.log",
+"t": "15:11:40",
+"code": "200",
+"dur": 1,
+"size": 15036,
+"kind": "extract",
+"eng": null,
+"host": "straitstimes.com"
+},
+{
+"a": "A7\\calls.log",
+"t": "15:04:21",
+"code": "504",
+"dur": 0,
+"size": 257,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A7\\calls.log",
+"t": "15:05:20",
+"code": "200",
+"dur": 35,
+"size": 38874,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A7\\calls.log",
+"t": "15:05:27",
+"code": "200",
+"dur": 1,
+"size": 16663,
+"kind": "extract",
+"eng": null,
+"host": "sgpbusiness.com"
+},
+{
+"a": "A7\\calls.log",
+"t": "15:05:34",
+"code": "200",
+"dur": 2,
+"size": 63652,
+"kind": "extract",
+"eng": null,
+"host": "akta.pro"
+},
+{
+"a": "A7\\calls.log",
+"t": "15:06:21",
+"code": "200",
+"dur": 36,
+"size": 5275,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A7\\calls.log",
+"t": "15:07:03",
+"code": "200",
+"dur": 37,
+"size": 4897,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A7\\calls.log",
+"t": "15:07:13",
+"code": "200",
+"dur": 1,
+"size": 14424,
+"kind": "extract",
+"eng": null,
+"host": "sg.jobstreet.com"
+},
+{
+"a": "A7\\calls.log",
+"t": "15:07:19",
+"code": "502",
+"dur": 1,
+"size": 131,
+"kind": "extract",
+"eng": null,
+"host": "glassdoor.sg"
+},
+{
+"a": "A7\\calls.log",
+"t": "15:07:29",
+"code": "200",
+"dur": 1,
+"size": 18808,
+"kind": "extract",
+"eng": null,
+"host": "sg.indeed.com"
+},
+{
+"a": "A7\\calls.log",
+"t": "15:07:35",
+"code": "502",
+"dur": 1,
+"size": 131,
+"kind": "extract",
+"eng": null,
+"host": "compworth.com"
+},
+{
+"a": "A7\\calls.log",
+"t": "15:08:03",
+"code": "200",
+"dur": 20,
+"size": 7761,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A7\\calls.log",
+"t": "15:08:45",
+"code": "200",
+"dur": 36,
+"size": 5092,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A7\\calls.log",
+"t": "15:08:55",
+"code": "200",
+"dur": 0,
+"size": 24642,
+"kind": "extract",
+"eng": null,
+"host": "businesstimes.com.sg"
+},
+{
+"a": "A7\\calls.log",
+"t": "15:09:28",
+"code": "200",
+"dur": 27,
+"size": 13070,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A7\\calls.log",
+"t": "15:09:40",
+"code": "200",
+"dur": 2,
+"size": 30007,
+"kind": "extract",
+"eng": null,
+"host": "pitchbook.com"
+},
+{
+"a": "A7\\calls.log",
+"t": "15:10:16",
+"code": "200",
+"dur": 31,
+"size": 5235,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A7\\calls.log",
+"t": "15:10:22",
+"code": "429",
+"dur": 1,
+"size": 169,
+"kind": "search",
+"eng": "google",
+"host": null
+},
+{
+"a": "A7\\calls.log",
+"t": "15:10:32",
+"code": "200",
+"dur": 0,
+"size": 25588,
+"kind": "extract",
+"eng": null,
+"host": "tutorly.sg"
+},
+{
+"a": "A7\\calls.log",
+"t": "15:11:04",
+"code": "200",
+"dur": 26,
+"size": 4931,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A8\\calls.log",
+"t": "15:04:33",
+"code": "200",
+"dur": 16,
+"size": 16338,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A8\\calls.log",
+"t": "15:04:38",
+"code": "200",
+"dur": 0,
+"size": 30515,
+"kind": "extract",
+"eng": null,
+"host": "sgpbusiness.com"
+},
+{
+"a": "A8\\calls.log",
+"t": "15:04:43",
+"code": "200",
+"dur": 1,
+"size": 1159,
+"kind": "extract",
+"eng": null,
+"host": "mycareersfuture.gov.sg"
+},
+{
+"a": "A8\\calls.log",
+"t": "15:05:26",
+"code": "200",
+"dur": 33,
+"size": 5254,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A8\\calls.log",
+"t": "15:06:08",
+"code": "200",
+"dur": 37,
+"size": 5180,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A8\\calls.log",
+"t": "15:06:13",
+"code": "504",
+"dur": 1,
+"size": 257,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A8\\calls.log",
+"t": "15:06:19",
+"code": "200",
+"dur": 1,
+"size": 12984,
+"kind": "extract",
+"eng": null,
+"host": "reddit.com"
+},
+{
+"a": "A8\\calls.log",
+"t": "15:06:24",
+"code": "502",
+"dur": 1,
+"size": 131,
+"kind": "extract",
+"eng": null,
+"host": "glassdoor.sg"
+},
+{
+"a": "A8\\calls.log",
+"t": "15:06:33",
+"code": "200",
+"dur": 1,
+"size": 8927,
+"kind": "extract",
+"eng": null,
+"host": "sg.jobstreet.com"
+},
+{
+"a": "A8\\calls.log",
+"t": "15:06:38",
+"code": "502",
+"dur": 1,
+"size": 131,
+"kind": "extract",
+"eng": null,
+"host": "complaintsboard.com"
+},
+{
+"a": "A8\\calls.log",
+"t": "15:07:21",
+"code": "200",
+"dur": 35,
+"size": 5346,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A8\\calls.log",
+"t": "15:07:51",
+"code": "200",
+"dur": 26,
+"size": 5358,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A8\\calls.log",
+"t": "15:08:33",
+"code": "200",
+"dur": 31,
+"size": 5061,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A8\\calls.log",
+"t": "15:09:04",
+"code": "200",
+"dur": 25,
+"size": 6601,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A8\\calls.log",
+"t": "15:09:20",
+"code": "200",
+"dur": 1,
+"size": 14078,
+"kind": "extract",
+"eng": null,
+"host": "recruitexpress.com.sg"
+},
+{
+"a": "A8\\calls.log",
+"t": "15:09:25",
+"code": "502",
+"dur": 1,
+"size": 131,
+"kind": "extract",
+"eng": null,
+"host": "scamadviser.com"
+},
+{
+"a": "A8\\calls.log",
+"t": "15:09:30",
+"code": "200",
+"dur": 1,
+"size": 37486,
+"kind": "extract",
+"eng": null,
+"host": "sg.indeed.com"
+},
+{
+"a": "A8\\calls.log",
+"t": "15:10:04",
+"code": "200",
+"dur": 24,
+"size": 5459,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A8\\calls.log",
+"t": "15:10:40",
+"code": "200",
+"dur": 32,
+"size": 11356,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A8\\calls.log",
+"t": "15:10:53",
+"code": "200",
+"dur": 2,
+"size": 16700,
+"kind": "extract",
+"eng": null,
+"host": "marketscreener.com"
+},
+{
+"a": "A9\\calls.log",
+"t": "15:04:23",
+"code": "200",
+"dur": 6,
+"size": 5842,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A9\\calls.log",
+"t": "15:05:02",
+"code": "200",
+"dur": 34,
+"size": 5625,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A9\\calls.log",
+"t": "15:05:44",
+"code": "200",
+"dur": 32,
+"size": 5908,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A9\\calls.log",
+"t": "15:05:50",
+"code": "429",
+"dur": 1,
+"size": 169,
+"kind": "search",
+"eng": "google",
+"host": null
+},
+{
+"a": "A9\\calls.log",
+"t": "15:06:31",
+"code": "200",
+"dur": 37,
+"size": 5311,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A9\\calls.log",
+"t": "15:06:41",
+"code": "200",
+"dur": 0,
+"size": 15030,
+"kind": "extract",
+"eng": null,
+"host": "scamshield.gov.sg"
+},
+{
+"a": "A9\\calls.log",
+"t": "15:07:15",
+"code": "200",
+"dur": 30,
+"size": 8227,
+"kind": "search",
+"eng": "bing",
+"host": null
+},
+{
+"a": "A9\\calls.log",
+"t": "15:07:20",
+"code": "200",
+"dur": 1,
+"size": 7074,
+"kind": "extract",
+"eng": null,
+"host": "sgpbusiness.com"
+}
+]

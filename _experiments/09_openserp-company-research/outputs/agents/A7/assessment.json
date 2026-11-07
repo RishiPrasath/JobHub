@@ -1,0 +1,31 @@
+{
+  "agent_id": "A7",
+  "company_chosen": "The Learning Lab (The LearningLab Education Centre Pte Ltd)",
+  "why_chosen": "Premium tuition and enrichment chain a Singapore job seeker could plausibly consider for a centre coordinator or operations role; chosen before research. Turned out larger (about 250 to 500 staff, PE-owned) than the SME target.",
+  "industry": "Education (tuition and enrichment)",
+  "needs": {
+    "identity": {"status": "answered", "confidence": "high", "summary": "Live Singapore private company, UEN 200102900E, incorporated 2 May 2001, United Square.", "sources": ["https://www.sgpbusiness.com/company/The-Learninglab-Education-Centre-Pte-Ltd"], "how_openserp_helped": "One search surfaced ACRA-derived profile sites; extract gave registration details.", "what_was_missing": "Nothing material."},
+    "business_and_headcount": {"status": "partial", "confidence": "medium", "summary": "Premium tuition, 10 centres plus online, headcount 251-500 (akta) / 344 (PitchBook) / 300+ (compworth snippet).", "sources": ["https://akta.pro/company-profiles/0006ybs/the-learning-lab-singapore", "https://pitchbook.com/profiles/company/92870-29"], "how_openserp_helped": "Aggregator profiles extracted cleanly.", "what_was_missing": "Sources disagree and are secondary; no first-party headcount."},
+    "financial_performance": {"status": "partial", "confidence": "low", "summary": "No financials; PE ownership history (Advent 2014, sale process 2021-22 stalled partly due to Covid); PitchBook says Acquired/Merged.", "sources": ["https://www.businesstimes.com.sg/companies-markets/pag-platinum-among-bidders-advents-stake-learning-lab-worth-us500m-sources", "https://pitchbook.com/profiles/company/92870-29"], "how_openserp_helped": "Found Reuters/Business Times coverage of the sale process.", "what_was_missing": "Revenue, profit, current owner."},
+    "layoffs_restructuring": {"status": "not_found", "confidence": "low", "summary": "No layoff report found; one 2024 review alleges budget cuts after buyout.", "sources": ["https://sg.indeed.com/cmp/The-Learning-Lab/reviews?fjobtitle=Teacher"], "how_openserp_helped": "Layoff-tracker pages surfaced but none named the company.", "what_was_missing": "No evidence either way."},
+    "culture_and_sentiment": {"status": "partial", "confidence": "medium", "summary": "Indeed 3.0/5 from 22 teacher reviews; Jobstreet summary mixed: weekends and late hours, limited growth, management criticism.", "sources": ["https://sg.indeed.com/cmp/The-Learning-Lab/reviews?fjobtitle=Teacher", "https://sg.jobstreet.com/companies/the-learning-lab-168552813188026/salaries"], "how_openserp_helped": "Indeed and Jobstreet extracted without login.", "what_was_missing": "Reviews teacher-skewed; none for operations; Glassdoor extract failed."},
+    "pay_and_benefits": {"status": "partial", "confidence": "low", "summary": "Teacher figures only (Glassdoor snippet avg SGD 3,500, comp rating 2.3/5).", "sources": ["https://www.glassdoor.com/Salary/The-Learning-Lab-Tuition-Teacher-Singapore-Salaries-EJI_IE310176.0,16_KO17,32_IL.33,42_IC3235921.htm"], "how_openserp_helped": "Search snippets exposed Glassdoor numbers despite extract failure.", "what_was_missing": "Coordinator/operations pay and benefits."},
+    "interview_and_hiring": {"status": "not_found", "confidence": "low", "summary": "Nothing on TLL interviews; job-board searches returned generic listing pages.", "sources": [], "how_openserp_helped": "Did not help.", "what_was_missing": "Everything."},
+    "red_flags_and_scams": {"status": "partial", "confidence": "low", "summary": "No scam or legal trouble seen; CASE alert page not opened, so unchecked.", "sources": ["https://www.case.org.sg/company-alert"], "how_openserp_helped": "Surfaced the CASE list but only as a generic page.", "what_was_missing": "A direct check of the alert list and court/regulator records."},
+    "recent_news": {"status": "partial", "confidence": "low", "summary": "Only 2021-22 sale coverage and an undated CNA mention on online-lesson scheduling.", "sources": ["https://www.businesstimes.com.sg/companies-markets/pag-platinum-among-bidders-advents-stake-learning-lab-worth-us500m-sources", "https://www.sgpbusiness.com/company/The-Learninglab-Education-Centre-Pte-Ltd"], "how_openserp_helped": "Found dated deal coverage.", "what_was_missing": "Anything from 2023-2026 about the company itself."}
+  },
+  "tool": {
+    "searches": 10, "extracts": 9, "failed_or_blocked_calls": 4,
+    "blocked_or_unreadable_sites": ["glassdoor.sg (502 extract_failed)", "compworth.com (502 extract_failed)", "google search (429 captcha_detected)", "bing first call 504 timeout (retried once, succeeded)"],
+    "most_useful_sources": ["sgpbusiness.com", "sg.indeed.com reviews", "sg.jobstreet.com company salaries", "businesstimes.com.sg", "pitchbook.com profile"],
+    "search_relevance_1to5": 3, "extraction_quality_1to5": 4, "coverage_of_needs_1to5": 3, "reliability_1to5": 3,
+    "misleading_or_wrong_results": ["Operations coordinator salary query returned unrelated generic salary guides and a call-centre-agent average", "Query for post-2022 owner returned irrelevant HBO, IMDb and timer pages", "sgpbusiness text shows nonsense 'operating for 988736400'"],
+    "minutes_spent": 8
+  },
+  "verdict": {
+    "would_rely_on_for_a_job_decision": "with_caveats",
+    "reasoning": "OpenSERP quickly confirmed identity and surfaced Indeed, Jobstreet and deal coverage, but searches took 20 to 37 seconds, Glassdoor failed to extract, and nothing specific to the role or current ownership appeared. Fine for a first screen, not for a final decision.",
+    "biggest_gaps": ["Current owner", "Operations/coordinator pay", "Interview process", "Recent news after 2022"],
+    "what_else_a_job_seeker_would_need": ["Ask recruiter about owner, hours and bonus structure", "Talk to current or former coordinators", "Check CASE and court records directly", "Read current job ad for the role"]
+  }
+}

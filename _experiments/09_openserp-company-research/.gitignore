@@ -3,3 +3,9 @@ vendor/openserp/
 # Third-party page text fetched during the experiment (reviews, forum and news pages): kept on the machine that ran it, not committed
 outputs/phase3/*/pages/
 outputs/phase2/extract/*.md
+# Agent test: keep each agent's report, assessment, call log and logger; leave out raw page extractions, other raw JSON and helper scripts
+outputs/agents/*/*.json
+!outputs/agents/*/assessment.json
+outputs/agents/*/*.py
+!outputs/agents/registry_check_of_agent_claims.json
+!outputs/agents/calls_all.json

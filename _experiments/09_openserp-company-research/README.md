@@ -1,6 +1,6 @@
 # Experiment 09: can OpenSERP power company research for job postings?
 
-Date run: 2026-11-07 (Singapore). Status: complete. Result: **use it with changes**, for a private, low-volume prototype only. Read [REPORT.md](REPORT.md) for the findings, scores and recommendation, and [INTEGRATION-PROPOSAL.md](INTEGRATION-PROPOSAL.md) for how it would plug into the job-posting flow.
+Date run: 2026-11-07 (Singapore). Status: complete. Result: **use it with changes**, for a private, low-volume prototype only. Read [REPORT.md](REPORT.md) for the findings, scores and recommendation, and [INTEGRATION-PROPOSAL.md](INTEGRATION-PROPOSAL.md) for how it would plug into the job-posting flow. [AGENT-TEST.md](AGENT-TEST.md) answers the follow-up question: nine independent expert-researcher agents, using only OpenSERP, on companies across industries (result: partly fulfils the purpose; solid on existence and business situation, weak on culture, pay and interviews).
 
 OpenSERP ([karust/openserp](https://github.com/karust/openserp), MIT) is a self-hosted search service that drives a headless Chrome against Google, Bing, DuckDuckGo and other engines, and can read result pages as Markdown. Pinned here at **v0.8.18, commit `98f42fbaf7aa6b60f54c8581369166943b209e28`** (2026-11-03).
 
@@ -39,6 +39,7 @@ docker compose --profile tools run --rm harness python rescore_gate.py
 | `outputs/phase1` to `phase3` | Raw results: search responses, page logs, briefs, per-agent logs, summaries |
 | `run-log.md` | Commands run and what happened, in order |
 | `REPORT.md`, `INTEGRATION-PROPOSAL.md` | The written deliverables |
+| `AGENT-TEST.md`, `outputs/agents/` | The nine-agent expert-researcher test: brief, each agent's report, assessment and call log, and the registry check of their claims |
 
 **Not committed:** `vendor/openserp/` (re-created by step 1) and the extracted text of third-party pages (reviews, forum and news pages), which stays on the machine that ran the experiment. Page URLs, outcomes and the briefs, which hold only short attributed quotes, are committed.
 

@@ -1,0 +1,36 @@
+{
+  "agent_id": "A6",
+  "company_chosen": "Grand Venture Technology (GVT), Singapore",
+  "why_chosen": "Mid-size Singapore-headquartered precision engineering manufacturer (about 1,800 staff, about S$160m revenue) that hires mechanical and production engineers; chosen before searching, from background knowledge of the sector.",
+  "industry": "Manufacturing / precision engineering",
+  "needs": {
+    "identity": {"status": "answered", "confidence": "high", "summary": "Real company, registered 17 Sep 2012 (UEN 201222831E), listed on SGX 2019, acquired by Aalberts and delisted Nov 2025; head office Singapore.", "sources": ["https://www.companies.sg/business/201222831E/GRAND-VENTURE-TECHNOLOGY-PRIVATE-LIMITED", "https://gvt.com.sg/who-we-are/about-us", "https://aalberts.com/progress/GVT-completed"], "how_openserp_helped": "Search snippets and extractions of the company site and acquirer press release gave a consistent picture, including the unexpected ownership change.", "what_was_missing": "Nothing material."},
+    "business_and_headcount": {"status": "answered", "confidence": "high", "summary": "Precision machining, sheet metal, mechatronic assembly for semiconductor, medical, aerospace; sites in Singapore, Malaysia, China; about 1,800 employees, six facilities.", "sources": ["https://gvt.com.sg/who-we-are/about-us", "https://aalberts.com/progress/GVT-completed"], "how_openserp_helped": "Clean extraction of both pages.", "what_was_missing": "Singapore-only headcount."},
+    "financial_performance": {"status": "answered", "confidence": "high", "summary": "FY2024 revenue S$159.5m (+43.3%), net profit S$10.9m (+96.4%); acquired at S$0.94 per share.", "sources": ["https://gvt.com.sg/wp-content/uploads/2025/02/GVT-Press-Release-FY2024.pdf", "https://www.invest-alpha.sg/view&id=841", "https://www.businesstimes.com.sg/companies-markets/dutch-firm-moves-privatise-grand-venture-technology-s0-94-share"], "how_openserp_helped": "Search snippets alone carried the key numbers from several independent outlets.", "what_was_missing": "Any result after FY2024."},
+    "layoffs_restructuring": {"status": "partial", "confidence": "low", "summary": "No layoffs found; only the ownership change. Absence of evidence is weak because the search returned no relevant news on this either way.", "sources": ["https://aalberts.com/progress/GVT-completed"], "how_openserp_helped": "Showed the acquisition and delisting documents.", "what_was_missing": "Post-acquisition integration news; no way to confirm a negative."},
+    "culture_and_sentiment": {"status": "partial", "confidence": "low", "summary": "Jobstreet: 10 reviews mostly positive (supportive bosses, safe workplace), some complaints about pace and older work-life balance remarks.", "sources": ["https://sg.jobstreet.com/companies/grand-venture-technology-168556052155079/reviews"], "how_openserp_helped": "Jobstreet reviews extracted with full text.", "what_was_missing": "Glassdoor extraction failed (502); turnover; reddit not tried."},
+    "pay_and_benefits": {"status": "partial", "confidence": "low", "summary": "No GVT-specific pay or benefits read; only a market benchmark (Mechanical Engineer SGD 3,800-4,700 per month on Jobstreet).", "sources": ["https://sg.jobstreet.com/career-advice/role/mechanical-engineer/salary"], "how_openserp_helped": "Located the GVT salary pages and a benchmark in snippets.", "what_was_missing": "GVT salaries and benefits."},
+    "interview_and_hiring": {"status": "not_found", "confidence": "low", "summary": "Interview pages exist (Glassdoor, Indeed, NodeFlair) but no content was read.", "sources": ["https://sg.indeed.com/cmp/Grand-Venture-Technology-Pte.-Ltd./faq"], "how_openserp_helped": "Found the pages.", "what_was_missing": "Interview content; Indeed page had only unanswered questions; Glassdoor not extractable."},
+    "red_flags_and_scams": {"status": "partial", "confidence": "low", "summary": "No GVT-specific complaints, legal or regulatory issues surfaced; the search returned only generic government and scam-reporting pages.", "sources": [], "how_openserp_helped": "Showed that nothing obvious ranks for those terms.", "what_was_missing": "Dedicated checks (court records, MOM, scam registries) are not possible through general search alone."},
+    "recent_news": {"status": "partial", "confidence": "medium", "summary": "Acquisition completed 31 Oct 2025 and delisting Nov 2025; no dated GVT news from 2026 found.", "sources": ["https://aalberts.com/progress/GVT-completed", "https://www.businesstimes.com.sg/companies-markets/grand-venture-technology-expected-delist-around-nov-4-2025"], "how_openserp_helped": "Good news coverage up to Nov 2025.", "what_was_missing": "Anything from the last year."}
+  },
+  "tool": {
+    "searches": 11,
+    "extracts": 6,
+    "failed_or_blocked_calls": 4,
+    "blocked_or_unreadable_sites": ["glassdoor.sg (502 extract_failed)"],
+    "most_useful_sources": ["aalberts.com press release", "gvt.com.sg about-us (and FY2024 press release via snippets)", "sg.jobstreet.com reviews", "search snippets from The Edge, Business Times, invest-alpha"],
+    "search_relevance_1to5": 4,
+    "extraction_quality_1to5": 4,
+    "coverage_of_needs_1to5": 3,
+    "reliability_1to5": 3,
+    "misleading_or_wrong_results": ["Complaints/scam search returned only generic government pages, none about the company", "Salary search returned generic salary guides rather than company data", "Some results carry recency labels that are misleading (reposts dated 2026 of 2025 news)"],
+    "minutes_spent": 8
+  },
+  "verdict": {
+    "would_rely_on_for_a_job_decision": "with_caveats",
+    "reasoning": "Strong for identity, business, finance and news up to late 2025. Weak for pay, interviews and sentiment because Glassdoor failed to extract and the one-try-per-site rule limited retries. 4 of 17 calls (three search timeouts and one extract failure) failed; retries worked.",
+    "biggest_gaps": ["Company-specific salary and benefits", "Interview process", "Depth of employee sentiment", "Post-acquisition changes"],
+    "what_else_a_job_seeker_would_need": ["Salary data from the job posting or recruiters", "Current employees or alumni to speak to", "Questions for HR about Aalberts integration, bonus and grading"]
+  }
+}
