@@ -10,6 +10,7 @@ TERMS = ["accountant", "software engineer", "staff nurse", "warehouse supervisor
          "sales executive", "data analyst"]
 FETCH = "http://localhost:8080/fetch"
 TOKEN = "local-dev-token"
+LOC = re.compile(r"^(Central|East|West|North|North-East|Islandwide)(, ?(Central|East|West|North|North-East|Islandwide))*$")
 SAL = re.compile(r"^\$([\d,]+)to\$([\d,]+)$")
 
 
@@ -29,17 +30,27 @@ def parse(text):
         m = SAL.match(l)
         if not m or k + 1 >= len(lines) or lines[k + 1] != "Monthly" or k < 10:
             continue
-        posted, apps, skills = lines[k - 1], lines[k - 2], lines[k - 3]
-        function, seniority, employment, location, title = lines[k-4], lines[k-5], lines[k-6], lines[k-7], lines[k-8]
-        employer = lines[k - 9]
-        if employer.startswith("TYPICALLY REPLIES"):
-            employer = lines[k - 10]
+        posted = lines[k - 1]
         if not posted.startswith("Posted"):
             continue
+        j = k - 2
+        while j > 0 and not LOC.match(lines[j]):
+            j -= 1
+        if k - j > 9:
+            continue
+        location, title = lines[j], lines[j - 1]
+        employment, seniority, function = lines[j + 1], lines[j + 2], lines[j + 3]
+        extra = [x for x in lines[j + 4:k - 3] if not x.endswith("skills matched")]
+        employer = lines[j - 2]
+        if employer.startswith("TYPICALLY REPLIES"):
+            employer = lines[j - 3]
         out.append(dict(employer=employer, title=title, location=location, employment_type=employment,
                         seniority=seniority, function=function, posted=posted,
                         salary_min=int(m.group(1).replace(",", "")), salary_max=int(m.group(2).replace(",", ""))))
     return out
+
+
+RAW = {}
 
 
 def main(out):
@@ -51,6 +62,7 @@ def main(out):
                    % (urllib.parse.quote(term), page))
             try:
                 d = fetch(url)
+                RAW[term+'|'+str(page)] = d["text"]
                 found += parse(d["text"])
             except Exception as e:
                 print("ERR", term, page, e)
@@ -59,6 +71,7 @@ def main(out):
                 break
         results[term] = [dict(f, term=term) for f in found[:5]]
         print(term, len(results[term]), flush=True)
+    json.dump(RAW, open(out + '.raw.json', 'w', encoding='utf-8'), ensure_ascii=False)
     json.dump(results, open(out, "w"), ensure_ascii=False, indent=1)
 
 
