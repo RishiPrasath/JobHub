@@ -1,0 +1,361 @@
+{
+ "employer": "KPMG Singapore",
+ "role": "Audit Associate",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'KPMG Singapore'. The closest registered name is KPMG US TAX SERVICES (SINGAPORE) LLC, which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "T26FC0051B",
+   "name": "KPMG US TAX SERVICES (SINGAPORE) LLC",
+   "type": "Foreign Company Branch",
+   "status": "Live Company",
+   "incorporated": "2026-06-04",
+   "activity": "na",
+   "alternatives": [
+    "KPMG US TAX SERVICES (SINGAPORE) LLC",
+    "KPMG ASIA PACIFIC SERVICES LIMITED (SINGAPORE BRANCH)"
+   ]
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"KPMG Singapore\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"KPMG Singapore\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"KPMG Singapore\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"KPMG Singapore\" Audit Associate interview process salary",
+    "ok": true,
+    "engine": null,
+    "results": 0,
+    "error": null
+   },
+   {
+    "query": "\"KPMG Singapore\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.peoplematters.in/news/strategic-hr/layoffs-continue-at-kpmg-as-another-200-jobs-face-the-axe-50777",
+    "status": "ok",
+    "chars": 4249,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.big4events.com/blog/kpmg-layoffs-what-happened-who-affected",
+    "status": "ok",
+    "chars": 4899,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Kpmg-Services-Pte-Ltd",
+    "status": "ok",
+    "chars": 3464,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Kpmg-Llp",
+    "status": "ok",
+    "chars": 11008,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/business/T08LL1267L/KPMG-LLP",
+    "status": "ok",
+    "chars": 11958,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.companies.sg/business/200003956G/KPMG-SERVICES-PTE-LTD",
+    "status": "ok",
+    "chars": 17187,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://recordowl.com/company/kpmg-llp",
+    "status": "ok",
+    "chars": 6548,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://opengovsg.com/corporate/T11UF3879K",
+    "status": "ok",
+    "chars": 3317,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.indeed.com/cmp/Kpmg-0828bc85/reviews",
+    "title": "Working at KPMG: 156 Reviews | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.reddit.com/r/KPMG/comments/v3s971/life_at_kpmg_singapore",
+    "title": "Life at KPMG Singapore : r/KPMG - Reddit",
+    "why": "link out only (reddit.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.co.uk/Reviews/KPMG-Singapore-Reviews-EI_IE2867.0,4_IL.5,14_IM1123.htm",
+    "title": "KPMG Singapore reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.ca/Reviews/KPMG-Singapore-Reviews-EI_IE8422487.0,4_IL.5,14_IM1123.htm",
+    "title": "KPMG Singapore reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/KPMG-singapore-Reviews-EI_IE2867.0,4_KO5,14.htm",
+    "title": "KPMG singapore Reviews | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/KPMG-Singapore-Reviews-EI_IE8422487.0,4_IL.5,14_IN217.htm",
+    "title": "KPMG Singapore Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.ie/Reviews/KPMG-Singapore-Reviews-EI_IE2867.0,4_IL.5,14_IM1123.htm",
+    "title": "KPMG Singapore reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "kpmg singapore"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 10,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 14
+ },
+ "headline": "brand_legal_entity_unconfirmed",
+ "headline_meaning": "Public sources describe a company by this name, but the registry has no entity with this exact name. It may trade under a brand name; the legal employer is not confirmed.",
+ "reasons": [
+  "registry: similar_name_only",
+  "exact name seen 10 times in sources"
+ ],
+ "brief": {
+  "confidence": "low",
+  "could_not_verify": [
+   "Exact entity named \"KPMG Singapore\" (as a single legal entity) was not found in the official registry."
+  ],
+  "key_facts": [
+   {
+    "claim": "KPMG operates in Singapore through multiple legal entities.",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://www.sgpbusiness.com/company/Kpmg-Services-Pte-Ltd",
+      "quote": "KPMG Services Pte. Ltd. ... incorporated on 16 May 2000 ... principal activity is management consultancy services",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 4,
+      "url": "https://www.sgpbusiness.com/company/Kpmg-Llp",
+      "quote": "KPMG LLP ... incorporated on 1 October 2008 ... principal activity is accounting, auditing and tax consultancy services",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "KPMG LLP is a live Limited Liability Partnership with UEN T08LL1267L.",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.companies.sg/business/T08LL1267L/KPMG-LLP",
+      "quote": "KPMG LLP was registered in Singapore on 1 October 2008 ... recorded status is Live",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 7,
+      "url": "https://recordowl.com/company/kpmg-llp",
+      "quote": "Registration No. (UEN) - T08LL1267L - Operating status - Live",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "KPMG Services Pte. Ltd. is a live private company (UEN 200003956G).",
+    "evidence": [
+     {
+      "source": 6,
+      "url": "https://www.companies.sg/business/200003956G/KPMG-SERVICES-PTE-LTD",
+      "quote": "KPMG SERVICES PTE. LTD. was registered in Singapore on 16 May 2000 ... recorded status is Live",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "KPMG entities in Singapore have been awarded government tenders for consultancy services.",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://www.sgpbusiness.com/company/Kpmg-Services-Pte-Ltd",
+      "quote": "Awarded to Suppliers ... People's Association ... S$88,000.00",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 3,
+      "url": "https://www.sgpbusiness.com/company/Kpmg-Services-Pte-Ltd",
+      "quote": "Awarded to Suppliers ... Nanyang Polytechnic ... S$124,000.00",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "KPMG LLP is listed as an accredited training organisation for Singapore Chartered Accountant qualification.",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://www.sgpbusiness.com/company/Kpmg-Services-Pte-Ltd",
+      "quote": "KPMG SERVICES is an Accredited Training Organisation (ATO) ... for Singapore CA Qualification Candidates",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   }
+  ],
+  "red_flags": [
+   {
+    "claim": "Recent layoff news relates to KPMG globally, not specifically to its Singapore operations.",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://www.peoplematters.in/news/strategic-hr/layoffs-continue-at-kpmg-as-another-200-jobs-face-the-axe-50777",
+      "quote": "Layoffs continue at KPMG as another 200 jobs face the axe ... across its corporate services division",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 2,
+      "url": "https://www.big4events.com/blog/kpmg-layoffs-what-happened-who-affected",
+      "quote": "KPMG cut more than 3,300 roles between September 2024 and May 2025 ... spanning audit associates, advisory staff",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "No single registry entry confirms a company named exactly \"KPMG Singapore\".",
+    "evidence": [
+     {
+      "source": 0,
+      "url": null,
+      "quote": "The company registry did NOT confirm a company with this exact name.",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   }
+  ],
+  "validity_reasoning": "Multiple independent sources confirm the existence of KPMG LLP and KPMG Services Pte. Ltd. in Singapore, showing the firm has a legal presence. However, none of the sources list an entity named exactly \"KPMG Singapore\". Layoff articles discuss KPMG globally and do not specify Singapore. Therefore the evidence is limited and does not fully verify the specific company name in the job posting.",
+  "claims_verified": 1,
+  "claims_unverified": 6,
+  "model_validity_status": "appears_real_limited_evidence",
+  "about": "the brand named in the posting; the registered legal employer is not confirmed"
+ },
+ "could_not_read": [],
+ "link_out": [
+  {
+   "url": "https://sg.indeed.com/cmp/Kpmg-0828bc85/reviews",
+   "title": "Working at KPMG: 156 Reviews | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.reddit.com/r/KPMG/comments/v3s971/life_at_kpmg_singapore",
+   "title": "Life at KPMG Singapore : r/KPMG - Reddit",
+   "why": "link out only (reddit.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.co.uk/Reviews/KPMG-Singapore-Reviews-EI_IE2867.0,4_IL.5,14_IM1123.htm",
+   "title": "KPMG Singapore reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.ca/Reviews/KPMG-Singapore-Reviews-EI_IE8422487.0,4_IL.5,14_IM1123.htm",
+   "title": "KPMG Singapore reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/KPMG-singapore-Reviews-EI_IE2867.0,4_KO5,14.htm",
+   "title": "KPMG singapore Reviews | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/KPMG-Singapore-Reviews-EI_IE8422487.0,4_IL.5,14_IN217.htm",
+   "title": "KPMG Singapore Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.ie/Reviews/KPMG-Singapore-Reviews-EI_IE2867.0,4_IL.5,14_IM1123.htm",
+   "title": "KPMG Singapore reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Exact entity named \"KPMG Singapore\" (as a single legal entity) was not found in the official registry.",
+  "Which registered company is the legal employer behind this brand."
+ ],
+ "seconds": 128.2,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

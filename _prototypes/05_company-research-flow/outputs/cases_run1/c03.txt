@@ -1,0 +1,42 @@
+Avanguarde Pte. Ltd.  (role: Customer Service Executive)
+HEADLINE: exists_limited_evidence
+  Registered in Singapore, but there is little public evidence beyond the registry.
+  because: registry: confirmed; web evidence thin (2 pages read, model:
+  appears_real_limited_evidence)
+REGISTRY: confirmed. AVANGUARDE PTE. LTD. is registered in Singapore (status: Live Company, registered 2025-10-13).
+WEB: 5 queries (bing, duckduckgo), 2 of 8 pages read, exact name seen in 2 pages and 8 search results
+BRIEF (model rating: appears_real_limited_evidence, confidence medium; 8 claims verified, 1 unverified)
+  Facts:
+    [verified] Avanguarde Pte. Ltd. is a legally registered Singapore company.
+    [UNVERIFIED] The company was incorporated on 13 October 2025 and is 13 months old as of March
+    2026.
+    [verified] Its registered office is at 22 Sin Ming Lane, #06‑76, Midview City, Singapore 573969.
+    [verified] The company is a Private Company Limited by Shares (Local Company).
+    [verified] Its principal activity is listed as “holding companies of firms engaged in
+    non‑financial and insurance activities”.
+  Positive signals:
+    [verified] The company appears in multiple independent business directories with consistent
+    registration details.
+    [verified] The company’s status is “Live”, indicating it is currently active in Singapore’s
+    corporate registry.
+  Red flags:
+    [verified] The job posting describes Avanguarde as a “holdings company managing multiple fantasy
+    lifestyle brands”, which is not reflected in the official activity code.
+    [verified] No publicly available information confirms the existence of a Customer Service
+    Executive function within the company.
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 1):
+  - Commis Chef at AVANGUARDE PTE. LTD. — Singapore, S  https://sg.linkedin.com/jobs/view/commis-
+    chef-at-avanguarde-pte-ltd-4468454729
+COULD NOT READ (6):
+  - https://sg.ltddir.com/companies/avanguarde-pte-ltd  (thin: fewer than 400 characters of real
+    content)
+  - https://www.scamshield.gov.sg/check-for-scams  (irrelevant: the page never mentions the company
+    name)
+  - https://www.scamshield.gov.sg/  (irrelevant: the page never mentions the company name)
+  - https://www.scamadviser.com/  (thin: fewer than 400 characters of real content)
+  - https://www.truecaller.com/scam-checker  (irrelevant: the page never mentions the company name)
+  - https://www.case.org.sg/company-alert  (irrelevant: the page never mentions the company name)
+COULD NOT VERIFY:
+  - Specific business activities beyond the generic holding‑company description
+  - Details of the Customer Service Executive role or any employee reviews
+(127.6s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

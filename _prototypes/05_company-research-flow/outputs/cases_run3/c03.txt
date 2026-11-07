@@ -1,0 +1,28 @@
+Avanguarde Pte. Ltd.  (role: Customer Service Executive)
+HEADLINE: exists_limited_evidence
+  Registered in Singapore, but there is little public evidence beyond the registry.
+  because: registry: confirmed; web evidence thin (1 pages read, model: appears_real_and_consistent)
+REGISTRY: confirmed. AVANGUARDE PTE. LTD. is registered in Singapore (status: Live Company, registered 2025-10-13).
+WEB: 5 queries (bing, duckduckgo), 4 of 5 pages read, exact name seen in 4 pages and 8 search results
+BRIEF (model rating: appears_real_and_consistent, confidence high; 6 claims verified, 1 unverified)
+  Facts:
+    [UNVERIFIED] Avanguarde Pte. Ltd. is a Singapore-registered private company (Local Company).
+    [verified] Company was incorporated on 13 October 2025 and is currently live.
+    [verified] UEN (Unique Entity Number) is 202545538Z.
+    [verified] Registered address is 22 Sin Ming Lane, #06-76, Midview City, Singapore 573969.
+    [verified] Principal activity is holding companies of firms engaged in non‑financial and
+    insurance activities (SSIC 64202).
+  Positive signals:
+    [verified] Company appears in multiple independent registries with consistent details.
+    [verified] Company has an online presence (website quaichbar.com.sg) indicating active business.
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 1):
+  - Commis Chef at AVANGUARDE PTE. LTD. — Singapore, S  https://sg.linkedin.com/jobs/view/commis-
+    chef-at-avanguarde-pte-ltd-4468454729
+COULD NOT READ (1):
+  - https://sg.ltddir.com/companies/avanguarde-pte-ltd  (thin: fewer than 400 characters of real
+    content)
+COULD NOT VERIFY:
+  - Specific details about the Customer Service Executive role (responsibilities, salary, reporting
+    line)
+  - Company's exact business operations beyond holding activities
+(127.9s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

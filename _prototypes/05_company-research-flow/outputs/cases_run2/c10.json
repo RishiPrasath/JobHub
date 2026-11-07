@@ -1,0 +1,210 @@
+{
+ "employer": "Grab Singapore Recruitment Pte Ltd",
+ "role": "Customer Service Officer",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'Grab Singapore Recruitment Pte Ltd'. The closest registered name is TALENTS RECRUITMENT AGENCY PTE. LTD., which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "202100941E",
+   "name": "TALENTS RECRUITMENT AGENCY PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2021-01-07",
+   "activity": "na",
+   "alternatives": [
+    "TALENTS RECRUITMENT AGENCY PTE. LTD.",
+    "SINGAPORE RECRUITMENT AGENCY"
+   ]
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Grab Singapore Recruitment Pte Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Grab Singapore Recruitment Pte Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Grab Singapore Recruitment Pte Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Grab Singapore Recruitment Pte Ltd\" Customer Service Officer interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Grab Singapore Recruitment Pte Ltd\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.bestinsingapore.co/best-recruitment-agencies-singapore",
+    "status": "ok",
+    "chars": 42087,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://singaporeemploymentagency.com/7-recruitment-scams-targeting-singapore-employers-how-to-stay-safe",
+    "status": "ok",
+    "chars": 9408,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.teamblind.com/layoffs/company/grab",
+    "status": "thin",
+    "chars": 216,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.straitstimes.com/business/singapores-grab-cuts-1000-jobs-or-11-of-workforce",
+    "status": "ok",
+    "chars": 2420,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.linkedin.com/pulse/top-recruitment-agencies-singapore-2026-expert-review-6lnzc",
+    "title": "Top Recruitment Agencies in Singapore 2026: An …",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://my.jobstreet.com/grab+singapore+recruitment+pte+ltd+salary+customer+service+officer-jobs/in-Sungai-Pinang-Penang",
+    "title": "Grab Singapore-Recruitment-Pte-Ltd-Salary-Customer-Service-Officer …",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "grab singapore recruitment"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 1,
+   "none": false,
+   "strong": false
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 34
+ },
+ "headline": "could_not_confirm_company",
+ "headline_meaning": "Neither the registry nor the web confirms this company exists under this name.",
+ "reasons": [
+  "registry: similar_name_only",
+  "exact name seen 1 times"
+ ],
+ "brief": {
+  "confidence": "low",
+  "could_not_verify": [
+   "No company registry record confirming the existence of \"Grab Singapore Recruitment Pte Ltd\".",
+   "No independent source describing this specific recruitment entity or its operations."
+  ],
+  "key_facts": [],
+  "positive_signals": [],
+  "red_flags": [
+   {
+    "claim": "The company name \"Grab Singapore Recruitment Pte Ltd\" is not found in official Singapore company registers.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": null,
+      "quote": "The company registry did NOT confirm a company with this exact name.",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "No source links the recruitment firm to Grab Holdings or confirms it as a legitimate subsidiary.",
+    "evidence": [
+     {
+      "source": 4,
+      "url": "https://www.straitstimes.com/business/singapores-grab-cuts-1000-jobs-or-11-of-workforce",
+      "quote": "Singapore's Grab cuts 1,000 jobs, or 11 per cent of its workforce",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 3,
+      "url": "https://www.teamblind.com/layoffs/company/grab",
+      "quote": "Track all Grab layoffs with real-time verified data",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "validity_reasoning": "The official company registry (source 0) does not list a company named Grab Singapore Recruitment Pte Ltd, and none of the other sources provide verifiable information about such an entity. Only general references to Grab Holdings are present, which do not confirm the recruitment subsidiary. Therefore the existence and legitimacy of the named recruitment firm cannot be verified.",
+  "claims_verified": 1,
+  "claims_unverified": 1,
+  "model_validity_status": "cannot_verify",
+  "suppressed": "facts and positive signals hidden: the company was not confirmed under this exact name"
+ },
+ "could_not_read": [
+  {
+   "url": "https://www.teamblind.com/layoffs/company/grab",
+   "why": "thin: fewer than 400 characters of real content"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.linkedin.com/pulse/top-recruitment-agencies-singapore-2026-expert-review-6lnzc",
+   "title": "Top Recruitment Agencies in Singapore 2026: An …",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://my.jobstreet.com/grab+singapore+recruitment+pte+ltd+salary+customer+service+officer-jobs/in-Sungai-Pinang-Penang",
+   "title": "Grab Singapore-Recruitment-Pte-Ltd-Salary-Customer-Service-Officer …",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "No company registry record confirming the existence of \"Grab Singapore Recruitment Pte Ltd\".",
+  "No independent source describing this specific recruitment entity or its operations."
+ ],
+ "seconds": 127.4,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

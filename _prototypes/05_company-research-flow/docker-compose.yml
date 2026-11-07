@@ -1,0 +1,45 @@
+# Needs three other services running first, each from its own folder (they own the networks this joins):
+#   _prototypes/03_company-research-pipeline : docker compose up -d registry      (company registry, port 8090)
+#   _prototypes/04_fetch-render-service      : docker compose up -d                (page reader, port 8080)
+#   _experiments/09_openserp-company-research: docker compose up -d                (search, port 7000)
+# Then here: docker compose up -d --build     (API on http://127.0.0.1:8100)
+services:
+  flow:
+    build: .
+    image: jobhub-company-research-flow:dev
+    init: true
+    command: ["serve"]
+    ports:
+      - "127.0.0.1:8100:8100"          # local only
+    env_file:
+      - path: ../../.env                # repo-root .env (git-ignored); only GROQ_* is used
+        required: false
+    environment:
+      REGISTRY_URL: http://registry:8090
+      OPENSERP_URL: http://openserp:7000
+      FETCH_URL: http://fetch:8080
+      FETCH_TOKEN: ${FETCH_TOKEN:-local-dev-token}
+      READER: ${READER:-fetch}                      # fetch = robots.txt checked, honest identity. openserp = comparison only
+      READ_POLICY: ${READ_POLICY:-conservative}     # conservative = link out to Indeed and JobStreet as well as LinkedIn, Glassdoor, Reddit
+    volumes:
+      - ./outputs:/outputs
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 512m
+    pids_limit: 128
+    networks: [registry_net, search_net, reader_net]
+
+networks:
+  registry_net:
+    external: true
+    name: 03_company-research-pipeline_default
+  search_net:
+    external: true
+    name: 09_openserp-company-research_default
+  reader_net:
+    external: true
+    name: 04_fetch-render-service_default

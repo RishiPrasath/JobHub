@@ -1,0 +1,242 @@
+{
+ "employer": "DBS Bank Singapore Recruitment Pte Ltd",
+ "role": "Customer Service Officer",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'DBS Bank Singapore Recruitment Pte Ltd'. The closest registered name is DBS BANK LTD., which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "196800306E",
+   "name": "DBS BANK LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1968-07-16",
+   "activity": "na",
+   "alternatives": []
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"DBS Bank Singapore Recruitment Pte Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"DBS Bank Singapore Recruitment Pte Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"DBS Bank Singapore Recruitment Pte Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"DBS Bank Singapore Recruitment Pte Ltd\" Customer Service Officer interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"DBS Bank Singapore Recruitment Pte Ltd\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.elitigation.sg/gd/Home/Index?CurrentPage=3&Filter=SUPCT&PageSize=0&SearchMode=False&SearchPhrase=%22DBS+Bank+Singapore+Recruitment+Pte+Ltd%22+Customer+Service+Officer+interview+process+salary&SearchQueryTime=0&SearchTotalHits=0&SortAscending=False&SortBy=Score&SpanMultiplePages=False&Verbose=False&YearOfDecision=All",
+    "status": "irrelevant",
+    "chars": 14112,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.bestinsingapore.co/best-recruitment-agencies-singapore",
+    "status": "ok",
+    "chars": 42087,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.dbs.com.sg/personal/support/guide-security-on-scams-and-fraud.html",
+    "status": "ok",
+    "chars": 2180,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.dbs.com.sg/personal/scam-defence/protecting-yourself-online",
+    "status": "ok",
+    "chars": 6625,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.posb.com.sg/personal/scam-defence/protecting-yourself-online",
+    "status": "ok",
+    "chars": 6625,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://fintechnews.sg/130306/ai/singapore-banks-headcount",
+    "status": "ok",
+    "chars": 2490,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://mothership.sg/2026/04/dbs-ocbc-uob-job-cuts",
+    "status": "ok",
+    "chars": 3134,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.fxbus.com/en/news/20251107114910007934.html",
+    "status": "irrelevant",
+    "chars": 587,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.linkedin.com/pulse/top-recruitment-agencies-singapore-2026-expert-review-6lnzc",
+    "title": "Top Recruitment Agencies in Singapore 2026: An …",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "dbs bank singapore recruitment"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 0,
+   "none": true,
+   "strong": false
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 12
+ },
+ "headline": "likely_lookalike",
+ "headline_meaning": "No registered company has this exact name and no source uses it. The closest registered name belongs to a different company. Treat the posting with caution.",
+ "reasons": [
+  "registry: similar_name_only",
+  "closest registered name is a different entity",
+  "exact name appears in no source"
+ ],
+ "brief": {
+  "confidence": "low",
+  "could_not_verify": [
+   "No official registry record (Source 0) confirming a company named \"DBS Bank Singapore Recruitment Pte Ltd\" exists.",
+   "No independent source describing this exact entity or its role as a recruiter for DBS Bank."
+  ],
+  "key_facts": [],
+  "positive_signals": [],
+  "red_flags": [
+   {
+    "claim": "The company \"DBS Bank Singapore Recruitment Pte Ltd\" is not found in official Singapore company registry.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": null,
+      "quote": "The company registry did NOT confirm a company with this exact name.",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Search results return only generic DBS scam‑prevention pages, not a recruitment entity.",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://www.dbs.com.sg/personal/support/guide-security-on-scams-and-fraud.html",
+      "quote": "Suspect you’re a victim of scam? Find out what you should do next when you suspect you’re a victim of an alleged scam or fraud attempt.",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 4,
+      "url": "https://www.dbs.com.sg/personal/scam-defence/protecting-yourself-online",
+      "quote": "DBS Bank is the inaugural organization certified under the Cyber Trust Mark certification scheme.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "No evidence links \"DBS Bank Singapore Recruitment Pte Ltd\" to legitimate hiring or job postings.",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://www.elitigation.sg/gd/Home/Index?CurrentPage=3&Filter=SUPCT&PageSize=0&SearchMode=False&SearchPhrase=%22DBS+Bank+Singapore+Recruitment+Pte+Ltd%22+Customer+Service+Officer+interview+process+salary&SearchQueryTime=0&SearchTotalHits=0&SortAscending=False&SortBy=Score&SpanMultiplePages=False&Verbose=False&YearOfDecision=All",
+      "quote": "The first is under r 2 and the second under r 3, which deals with service of a foreign process...",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "validity_reasoning": "The official company registry (Source 0) does not list a company with the exact name. All other sources either discuss DBS Bank's scam‑prevention information or unrelated legal snippets, providing no confirmation of a legitimate recruitment entity. Therefore the existence of the claimed company cannot be verified and there are red‑flag indications of possible fraud or a look‑alike usage.",
+  "claims_verified": 2,
+  "claims_unverified": 1,
+  "model_validity_status": "cannot_verify",
+  "suppressed": "facts and positive signals hidden: the company was not confirmed under this exact name"
+ },
+ "could_not_read": [
+  {
+   "url": "https://www.elitigation.sg/gd/Home/Index?CurrentPage=3&Filter=SUPCT&PageSize=0&SearchMode=False&SearchPhrase=%22DBS+Bank+Singapore+Recruitment+Pte+Ltd%22+Customer+Service+Officer+interview+process+salary&SearchQueryTime=0&SearchTotalHits=0&SortAscending=False&SortBy=Score&SpanMultiplePages=False&Verbose=False&YearOfDecision=All",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.fxbus.com/en/news/20251107114910007934.html",
+   "why": "irrelevant: the page never mentions the company name"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.linkedin.com/pulse/top-recruitment-agencies-singapore-2026-expert-review-6lnzc",
+   "title": "Top Recruitment Agencies in Singapore 2026: An …",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "No official registry record (Source 0) confirming a company named \"DBS Bank Singapore Recruitment Pte Ltd\" exists.",
+  "No independent source describing this exact entity or its role as a recruiter for DBS Bank."
+ ],
+ "seconds": 93.1,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

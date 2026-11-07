@@ -1,0 +1,247 @@
+{
+ "employer": "DBS Bank Singapore Recruitment Pte Ltd",
+ "role": "Customer Service Officer",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'DBS Bank Singapore Recruitment Pte Ltd'. The closest registered name is DBS BANK LTD., which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "196800306E",
+   "name": "DBS BANK LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1968-07-16",
+   "activity": "na",
+   "alternatives": []
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"DBS Bank Singapore Recruitment Pte Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"DBS Bank Singapore Recruitment Pte Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"DBS Bank Singapore Recruitment Pte Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"DBS Bank Singapore Recruitment Pte Ltd\" Customer Service Officer interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"DBS Bank Singapore Recruitment Pte Ltd\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.bestinsingapore.co/best-recruitment-agencies-singapore",
+    "status": "ok",
+    "chars": 42087,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.straitstimes.com/business/bank-of-singapores-ai-tool-can-draft-source-of-wealth-reports-in-an-hour-from-usual-10-days",
+    "status": "ok",
+    "chars": 4242,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.thebestsingapore.com/the-best-maid-agencies-in-singapore",
+    "status": "irrelevant",
+    "chars": 3411,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://sg.prosple.com/graduate-employers/deutsche-bank-singapore/jobs-internships/investment-bank-fixed-income-currencies-summer-internship-programme",
+    "status": "blocked",
+    "chars": 13,
+    "note": "challenge or login-wall text",
+    "tier": "render"
+   },
+   {
+    "url": "https://sea.peoplemattersglobal.com/news/compensation-benefits/singapore-salary-increases-to-remain-steady-at-4percent-in-2027-as-employers-prioritise-skills-and-role-redesign-wtw-51067",
+    "status": "irrelevant",
+    "chars": 4814,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.channelnewsasia.com/singapore/gxs-bank-layoff-82-people-workforce-5530276",
+    "status": "irrelevant",
+    "chars": 1610,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.dbs.com.sg/personal/support/guide-security-on-scams-and-fraud.html",
+    "status": "ok",
+    "chars": 2180,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.dbs.com.sg/personal/scam-defence/protecting-yourself-online",
+    "status": "ok",
+    "chars": 6625,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.linkedin.com/pulse/top-recruitment-agencies-singapore-2026-expert-review-6lnzc",
+    "title": "Top Recruitment Agencies in Singapore 2026: An …",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Singapore-Post-Reviews-E37718.htm",
+    "title": "Singapore Post Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "dbs bank singapore recruitment"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 0,
+   "none": true,
+   "strong": false
+  },
+  "engines_used": [
+   "bing"
+  ]
+ },
+ "headline": "likely_lookalike",
+ "headline_meaning": "No registered company has this exact name and no source uses it. The closest registered name belongs to a different company. Treat the posting with caution.",
+ "reasons": [
+  "registry: similar_name_only",
+  "closest registered name is a different entity",
+  "exact name appears in no source"
+ ],
+ "brief": {
+  "confidence": "low",
+  "could_not_verify": [
+   "No official registry record confirming the existence of \"DBS Bank Singapore Recruitment Pte Ltd\"",
+   "No independent source describing this specific recruitment entity"
+  ],
+  "key_facts": [],
+  "positive_signals": [],
+  "red_flags": [
+   {
+    "claim": "The name resembles the well‑known DBS Bank, but no evidence shows a separate recruitment subsidiary with that exact name.",
+    "evidence": [
+     {
+      "source": 7,
+      "url": "https://www.dbs.com.sg/personal/support/guide-security-on-scams-and-fraud.html",
+      "quote": "Suspect you’re a victim of scam? Find out what you should do next when you suspect you’re a victim of an alleged scam or fraud attempt.",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://www.dbs.com.sg/personal/scam-defence/protecting-yourself-online",
+      "quote": "DBS Bank is the inaugural organization certified under the Cyber Trust Mark certification scheme.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Search results return only generic DBS scam‑prevention pages, not a recruitment company.",
+    "evidence": [
+     {
+      "source": 7,
+      "url": "https://www.dbs.com.sg/personal/support/guide-security-on-scams-and-fraud.html",
+      "quote": "Scamshield is a joint effort by the Ministry of Home Affairs, the Singapore Police Force...",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "validity_reasoning": "The company registry (source 0) did not list a company with the exact name. All available sources reference DBS Bank's consumer‑facing scam‑prevention pages, not a recruitment entity. No independent evidence confirms the existence or operations of DBS Bank Singapore Recruitment Pte Ltd, indicating the listing may be a look‑alike or fraudulent posting.",
+  "claims_verified": 2,
+  "claims_unverified": 0,
+  "model_validity_status": "cannot_verify",
+  "suppressed": "facts and positive signals hidden: the company was not confirmed under this exact name"
+ },
+ "could_not_read": [
+  {
+   "url": "https://www.thebestsingapore.com/the-best-maid-agencies-in-singapore",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://sg.prosple.com/graduate-employers/deutsche-bank-singapore/jobs-internships/investment-bank-fixed-income-currencies-summer-internship-programme",
+   "why": "blocked: challenge or login-wall text"
+  },
+  {
+   "url": "https://sea.peoplemattersglobal.com/news/compensation-benefits/singapore-salary-increases-to-remain-steady-at-4percent-in-2027-as-employers-prioritise-skills-and-role-redesign-wtw-51067",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.channelnewsasia.com/singapore/gxs-bank-layoff-82-people-workforce-5530276",
+   "why": "irrelevant: the page never mentions the company name"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.linkedin.com/pulse/top-recruitment-agencies-singapore-2026-expert-review-6lnzc",
+   "title": "Top Recruitment Agencies in Singapore 2026: An …",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Singapore-Post-Reviews-E37718.htm",
+   "title": "Singapore Post Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "No official registry record confirming the existence of \"DBS Bank Singapore Recruitment Pte Ltd\"",
+  "No independent source describing this specific recruitment entity"
+ ],
+ "seconds": 63.8,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

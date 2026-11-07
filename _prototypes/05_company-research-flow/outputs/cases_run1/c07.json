@@ -1,0 +1,306 @@
+{
+ "employer": "Zzqxv Qwlmt Holdings Pte Ltd",
+ "role": "Operations Manager",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "not_in_registry",
+  "summary": "No registered entity in Singapore resembles 'Zzqxv Qwlmt Holdings Pte Ltd'.",
+  "basis": "name only",
+  "entity": null,
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Zzqxv Qwlmt Holdings Pte Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Zzqxv Qwlmt Holdings Pte Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Zzqxv Qwlmt Holdings Pte Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Zzqxv Qwlmt Holdings Pte Ltd\" Operations Manager interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Zzqxv Qwlmt Holdings Pte Ltd\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.ccs.gov.sg/get-in-touch/for-consumers/make-a-complaint",
+    "status": "irrelevant",
+    "chars": 7363,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.scam.sg/companies",
+    "status": "irrelevant",
+    "chars": 1327,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.scamshield.gov.sg/check-for-scams",
+    "status": "irrelevant",
+    "chars": 471,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.companies.sg/scam-alerts",
+    "status": "irrelevant",
+    "chars": 5053,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.case.org.sg/contact-us",
+    "status": "irrelevant",
+    "chars": 970,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.ccs.gov.sg/resources/faqs/competition/complaints--investigations--and-enforcement",
+    "status": "irrelevant",
+    "chars": 6472,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.case.org.sg/submit-a-complaint",
+    "status": "irrelevant",
+    "chars": 3730,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.scamshield.gov.sg/",
+    "status": "irrelevant",
+    "chars": 2190,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Reviews/ZOLL-Medical-Reviews-E2217.htm",
+    "title": "ZOLL Medical Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Zuellig-Pharma-Pte-Ltd/reviews",
+    "title": "Zuellig Pharma Pte Ltd Employee Reviews - Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/jll-168551823213215/reviews",
+    "title": "Reviews JLL employee ratings and reviews | Jobstreet | Jones Lang ...",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies",
+    "title": "Company Profiles and Reviews | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.reddit.com/r/askSingapore/comments/npqlb0/worst_company_in_sg_for_employees_share_yours_the",
+    "title": "Worst company in SG for employees? Share yours. The toxic work",
+    "why": "link out only (reddit.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Synapxe-Pte.-Ltd./reviews",
+    "title": "SYNAPXE PTE. LTD. Employee Reviews - Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.reddit.com/r/SingaporeRaw/comments/156h5vz/megathread_toxic_employers_of_singapore",
+    "title": "[Megathread] Toxic employers of Singapore : r/SingaporeRaw - Reddit",
+    "why": "link out only (reddit.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/SEA-Singapore-Reviews-E1882231.htm",
+    "title": "SEA (Singapore) Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "zzqxv qwlmt holdings"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 0,
+   "none": true,
+   "strong": false
+  },
+  "engines_used": [
+   "bing"
+  ]
+ },
+ "headline": "could_not_confirm_company",
+ "headline_meaning": "Neither the registry nor the web confirms this company exists under this name.",
+ "reasons": [
+  "registry: not_in_registry",
+  "exact name seen 0 times"
+ ],
+ "brief": {
+  "confidence": "low",
+  "could_not_verify": [
+   "No official ACRA registry record for \"Zzqxv Qwlmt Holdings Pte Ltd\" was found."
+  ],
+  "key_facts": [],
+  "positive_signals": [],
+  "red_flags": [
+   {
+    "claim": "Company name does not appear in Singapore's official business register.",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://www.scam.sg/companies",
+      "quote": "Check any of 617,000+ ACRA-registered Singapore businesses by name or UEN.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "No specific complaint or scam alert linked to this exact company name.",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.case.org.sg/contact-us",
+      "quote": "The consumer alert list highlights business entities which have had complaints lodged against them.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "validity_reasoning": "The company registry (source 2) provides a tool to search ACRA‑registered entities, but a search for the exact name yields no result. No other source mentions this specific company, and there are no complaint or scam alerts tied to it. Therefore the existence of \"Zzqxv Qwlmt Holdings Pte Ltd\" cannot be verified.",
+  "claims_verified": 2,
+  "claims_unverified": 0,
+  "model_validity_status": "cannot_verify",
+  "suppressed": "facts and positive signals hidden: the company was not confirmed under this exact name"
+ },
+ "could_not_read": [
+  {
+   "url": "https://www.ccs.gov.sg/get-in-touch/for-consumers/make-a-complaint",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.scam.sg/companies",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.scamshield.gov.sg/check-for-scams",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.companies.sg/scam-alerts",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.case.org.sg/contact-us",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.ccs.gov.sg/resources/faqs/competition/complaints--investigations--and-enforcement",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.case.org.sg/submit-a-complaint",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.scamshield.gov.sg/",
+   "why": "irrelevant: the page never mentions the company name"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Reviews/ZOLL-Medical-Reviews-E2217.htm",
+   "title": "ZOLL Medical Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Zuellig-Pharma-Pte-Ltd/reviews",
+   "title": "Zuellig Pharma Pte Ltd Employee Reviews - Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/jll-168551823213215/reviews",
+   "title": "Reviews JLL employee ratings and reviews | Jobstreet | Jones Lang ...",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies",
+   "title": "Company Profiles and Reviews | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.reddit.com/r/askSingapore/comments/npqlb0/worst_company_in_sg_for_employees_share_yours_the",
+   "title": "Worst company in SG for employees? Share yours. The toxic work",
+   "why": "link out only (reddit.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Synapxe-Pte.-Ltd./reviews",
+   "title": "SYNAPXE PTE. LTD. Employee Reviews - Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.reddit.com/r/SingaporeRaw/comments/156h5vz/megathread_toxic_employers_of_singapore",
+   "title": "[Megathread] Toxic employers of Singapore : r/SingaporeRaw - Reddit",
+   "why": "link out only (reddit.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/SEA-Singapore-Reviews-E1882231.htm",
+   "title": "SEA (Singapore) Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "No official ACRA registry record for \"Zzqxv Qwlmt Holdings Pte Ltd\" was found."
+ ],
+ "seconds": 63.0,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

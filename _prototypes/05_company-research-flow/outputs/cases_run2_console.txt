@@ -1,0 +1,13 @@
+c02 RIGHT     Lazada Singapore                   expected exists_and_consistent/exists_limited_evidence got exists_limited_evidence          (6.9s)
+c01 RIGHT     Raffles Medical Group              expected exists_and_consistent                        got exists_and_consistent            (71.2s)
+c03 DANGEROUS Avanguarde Pte. Ltd.               expected exists_limited_evidence                      got exists_and_consistent            (128.0s)
+c04 RIGHT     Grab Holdings                      expected brand_legal_entity_unconfirmed               got brand_legal_entity_unconfirmed   (127.5s)
+c05 RIGHT     Ninja Van Singapore                expected brand_legal_entity_unconfirmed               got brand_legal_entity_unconfirmed   (128.1s)
+c07 RIGHT     Zzqxv Qwlmt Holdings Pte Ltd       expected could_not_confirm_company                    got could_not_confirm_company        (33.8s)
+c06 RIGHT     KPMG Singapore                     expected brand_legal_entity_unconfirmed               got brand_legal_entity_unconfirmed   (128.2s)
+c08 RIGHT     DBS Bank Singapore Recruitment Pte expected likely_lookalike                             got likely_lookalike                 (93.1s)
+c09 RIGHT     Sheng Siong Group Ltd              expected exists_and_consistent/exists_limited_evidence got exists_and_consistent            (127.9s)
+c10 RIGHT     Grab Singapore Recruitment Pte Ltd expected likely_lookalike/could_not_confirm_company   got could_not_confirm_company        (127.4s)
+c11 RIGHT     Singapore Airlines Careers Hub Pte expected likely_lookalike/could_not_confirm_company   got could_not_confirm_company        (125.1s)
+seen before  8 cases: 7 right, 0 off, 1 dangerous
+new          3 cases: 3 right, 0 off, 0 dangerous

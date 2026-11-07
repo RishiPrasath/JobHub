@@ -1,0 +1,375 @@
+{
+ "employer": "Lazada Singapore",
+ "role": "Digital Marketing Executive",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "LAZADA SINGAPORE PTE. LTD. is registered in Singapore (status: Live Company, registered 2014-02-12).",
+  "basis": "name only",
+  "entity": {
+   "uen": "201403859E",
+   "name": "LAZADA SINGAPORE PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2014-02-12",
+   "activity": "E-COMMERCE"
+  },
+  "closest": null,
+  "flags": [
+   "other entities start with this name: LAZADA EXPRESS (SINGAPORE) PTE. LTD."
+  ],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Lazada Singapore\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Lazada Singapore\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 1,
+    "error": null
+   },
+   {
+    "query": "\"Lazada Singapore\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Lazada Singapore\" Digital Marketing Executive interview process salary",
+    "ok": true,
+    "engine": null,
+    "results": 0,
+    "error": null
+   },
+   {
+    "query": "\"LAZADA SINGAPORE PTE. LTD.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.trustpilot.com/review/lazada.sg",
+    "status": "blocked_by_robots",
+    "chars": 0,
+    "note": "the site's robots.txt does not allow this page",
+    "tier": null
+   },
+   {
+    "url": "https://www.ambitionbox.com/reviews/lazada-reviews/singapore-location",
+    "status": "blocked",
+    "chars": 238,
+    "note": "challenge or login-wall text",
+    "tier": "plain"
+   },
+   {
+    "url": "https://au.trustpilot.com/review/lazada.sg",
+    "status": "blocked_by_robots",
+    "chars": 0,
+    "note": "the site's robots.txt does not allow this page",
+    "tier": null
+   },
+   {
+    "url": "https://www.straitstimes.com/business/lazada-cuts-5-of-south-east-asia-workforce-including-roles-in-singapore",
+    "status": "ok",
+    "chars": 5266,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.channelnewsasia.com/singapore/lazada-layoff-job-5-cent-southeast-asia-union-6203071",
+    "status": "ok",
+    "chars": 2745,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.straitstimes.com/business/lazada-joins-growing-list-of-firms-cutting-jobs-in-singapore-here-are-the-others",
+    "status": "ok",
+    "chars": 5670,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.8world.com/singapore/lazada-retrenchment-3191096",
+    "status": "ok",
+    "chars": 890,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.asiaone.com/singapore/lazada-singapore-job-cuts",
+    "status": "ok",
+    "chars": 2215,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.com.au/Reviews/Lazada-Singapore-Reviews-EI_IE578726.0,6_IL.7,16_IC3235921.htm",
+    "title": "Lazada Singapore Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/Lazada-Singapore-Reviews-EI_IE578726.0,6_IL.7,16_IM1123.htm",
+    "title": "Lazada Singapore reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.co.uk/Reviews/Lazada-Singapore-Reviews-EI_IE578726.0,6_IL.7,16_IC3235921.htm",
+    "title": "Lazada Singapore reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.co.uk/Reviews/Lazada-Singapore-Reviews-EI_IE578726.0,6_IL.7,16_IM1123.htm",
+    "title": "Lazada Singapore reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/Lazada-Singapore-Reviews-EI_IE578726.0,6_IL.7,16_IN217.htm",
+    "title": "Lazada Singapore Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "lazada singapore"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 17,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 1,
+  "registry_mirror_pages": 0
+ },
+ "headline": "exists_and_consistent",
+ "headline_meaning": "Registered in Singapore, and public sources agree it is the company named.",
+ "reasons": [
+  "registry: confirmed",
+  "model: consistent across 5 pages"
+ ],
+ "brief": {
+  "confidence": "medium",
+  "could_not_verify": [
+   "Specific details about the Digital Marketing Executive role (responsibilities, team size, salary, growth prospects)."
+  ],
+  "key_facts": [
+   {
+    "claim": "Legal name and registration details of Lazada Singapore",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Legal name: LAZADA SINGAPORE PTE. LTD. ... Status: Live Company ... Registered: 2014-02-12",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Primary business activity is e‑commerce",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Registered business activity: E-COMMERCE",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Lazada Singapore is the regional headquarters for Alibaba’s Southeast Asian e‑commerce operations",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.channelnewsasia.com/singapore/lazada-layoff-job-5-cent-southeast-asia-union-6203071",
+      "quote": "Its office in Singapore is the regional headquarters of Alibaba's e‑commerce ventures in Southeast Asia.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Company was founded in 2012 and acquired by Alibaba Group in 2016",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.channelnewsasia.com/singapore/lazada-layoff-job-5-cent-southeast-asia-union-6203071",
+      "quote": "Founded in 2012, Lazada was acquired by the Alibaba Group in 2016.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Lazada cut about 5% of its Southeast Asian workforce in June 2024, including roles in Singapore",
+    "evidence": [
+     {
+      "source": 4,
+      "url": "https://www.straitstimes.com/business/lazada-cuts-5-of-south-east-asia-workforce-including-roles-in-singapore",
+      "quote": "Lazada cuts 5 per cent of South‑east Asia workforce, including roles in Singapore",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 5,
+      "url": "https://www.channelnewsasia.com/singapore/lazada-layoff-job-5-cent-southeast-asia-union-6203071",
+      "quote": "Lazada cuts 5% of workforce across Southeast Asia, including Singapore",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://www.asiaone.com/singapore/lazada-singapore-job-cuts",
+      "quote": "Lazada has retrenched 5 per cent of its Southeast Asian workforce, including an undisclosed number of employees in Singapore.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Lazada is working with the Food, Drinks and Allied Workers Union (FDAWU) to support affected employees",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.channelnewsasia.com/singapore/lazada-layoff-job-5-cent-southeast-asia-union-6203071",
+      "quote": "Lazada is working with the Food, Drinks and Allied Workers Union (FDAWU) to ensure the process is handled responsibly",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 8,
+      "url": "https://www.asiaone.com/singapore/lazada-singapore-job-cuts",
+      "quote": "Lazada is \"working closely with the Food, Drinks and Allied Workers Union (FDAWU)\"",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "Lazada Singapore receives relatively high job‑security ratings on employee review sites",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://www.ambitionbox.com/reviews/lazada-reviews/singapore-location",
+      "quote": "Lazada is highly rated for Job security with 5.0/5 for Singapore location",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "red_flags": [
+   {
+    "claim": "Recent retrenchment exercise affecting staff in Singapore",
+    "evidence": [
+     {
+      "source": 4,
+      "url": "https://www.straitstimes.com/business/lazada-cuts-5-of-south-east-asia-workforce-including-roles-in-singapore",
+      "quote": "Lazada cuts 5 per cent of South‑east Asia workforce, including roles in Singapore",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 5,
+      "url": "https://www.channelnewsasia.com/singapore/lazada-layoff-job-5-cent-southeast-asia-union-6203071",
+      "quote": "Lazada cuts 5% of workforce across Southeast Asia, including Singapore",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Previous layoff in January 2024 caused union dissatisfaction",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.channelnewsasia.com/singapore/lazada-layoff-job-5-cent-southeast-asia-union-6203071",
+      "quote": "Lazada previously laid off an undisclosed number of staff in January 2024 without consulting the FDAWU",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   }
+  ],
+  "validity_reasoning": "Multiple independent sources (official registry, major news outlets, and union statements) consistently describe Lazada Singapore's legal status, business focus, ownership, and recent workforce reductions. No contradictory information was found, indicating the company is real and the information is reliable.",
+  "claims_verified": 6,
+  "claims_unverified": 3,
+  "model_validity_status": "appears_real_and_consistent"
+ },
+ "could_not_read": [
+  {
+   "url": "https://www.trustpilot.com/review/lazada.sg",
+   "why": "blocked_by_robots: the site's robots.txt does not allow this page"
+  },
+  {
+   "url": "https://www.ambitionbox.com/reviews/lazada-reviews/singapore-location",
+   "why": "blocked: challenge or login-wall text"
+  },
+  {
+   "url": "https://au.trustpilot.com/review/lazada.sg",
+   "why": "blocked_by_robots: the site's robots.txt does not allow this page"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.com.au/Reviews/Lazada-Singapore-Reviews-EI_IE578726.0,6_IL.7,16_IC3235921.htm",
+   "title": "Lazada Singapore Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Lazada-Singapore-Reviews-EI_IE578726.0,6_IL.7,16_IM1123.htm",
+   "title": "Lazada Singapore reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.co.uk/Reviews/Lazada-Singapore-Reviews-EI_IE578726.0,6_IL.7,16_IC3235921.htm",
+   "title": "Lazada Singapore reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.co.uk/Reviews/Lazada-Singapore-Reviews-EI_IE578726.0,6_IL.7,16_IM1123.htm",
+   "title": "Lazada Singapore reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Lazada-Singapore-Reviews-EI_IE578726.0,6_IL.7,16_IN217.htm",
+   "title": "Lazada Singapore Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Specific details about the Digital Marketing Executive role (responsibilities, team size, salary, growth prospects)."
+ ],
+ "seconds": 8.6,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

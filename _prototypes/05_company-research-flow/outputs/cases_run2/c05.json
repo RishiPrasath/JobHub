@@ -1,0 +1,406 @@
+{
+ "employer": "Ninja Van Singapore",
+ "role": "Warehouse Associate",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'Ninja Van Singapore'. The closest registered name is GREIF SINGAPORE PTE. LTD., which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "196100171E",
+   "name": "GREIF SINGAPORE PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1961-11-13",
+   "activity": "na",
+   "alternatives": [
+    "NINJA JOE (SINGAPORE) PTE. LTD.",
+    "A L VAN BEEK (SINGAPORE) PTE LTD"
+   ]
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Ninja Van Singapore\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Ninja Van Singapore\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 1,
+    "error": null
+   },
+   {
+    "query": "\"Ninja Van Singapore\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Ninja Van Singapore\" Warehouse Associate interview process salary",
+    "ok": true,
+    "engine": null,
+    "results": 0,
+    "error": null
+   },
+   {
+    "query": "\"Ninja Van Singapore\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 1,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.trustpilot.com/review/www.ninjavan.co",
+    "status": "blocked_by_robots",
+    "chars": 0,
+    "note": "the site's robots.txt does not allow this page",
+    "tier": null
+   },
+   {
+    "url": "https://singtracking.com/reviews/ninjavansg",
+    "status": "ok",
+    "chars": 1423,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://theindependent.sg/ninja-van-lays-off-12-of-local-workforce-in-latest-restructuring-exercise",
+    "status": "ok",
+    "chars": 1776,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://mothership.sg/2025/08/ninja-van-layoffs-aug-2025",
+    "status": "ok",
+    "chars": 1852,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.channelnewsasia.com/singapore/ninja-van-layoffs-retrenchments-singapore-logistics-employees-august-2025-5290286",
+    "status": "ok",
+    "chars": 4590,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://vulcanpost.com/894396/ninja-van-layoff-12",
+    "status": "ok",
+    "chars": 5072,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.straitstimes.com/business/ninja-van-cuts-12-of-singapore-workforce-after-2-rounds-of-layoffs-in-2024",
+    "status": "ok",
+    "chars": 3232,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.techinasia.com/news/ninja-van-lays-off-12-of-singapore-workforce-in-latest-cuts",
+    "status": "blocked",
+    "chars": 13,
+    "note": "challenge or login-wall text",
+    "tier": "render"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.co.uk/Reviews/Ninja-Van-Singapore-Reviews-EI_IE984783.0,9_IL.10,19_IC3235921.htm",
+    "title": "Ninja Van Singapore Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Location/Ninja-Van-Singapore-Location-EI_IE984783.0,9_IL.10,19_IC3235921.htm",
+    "title": "Ninja Van Singapore (Singapore) Office | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.co.in/Location/All-Ninja-Van-Singapore-Office-Locations-EI_IE984783.4,13_IL.14,23_IC3235921.htm",
+    "title": "Ninja Van Singapore office | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Location/All-Ninja-Van-Singapore-Office-Locations-EI_IE984783.4,13_IL.14,23_IC3235921.htm",
+    "title": "Ninja Van Singapore Office | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.co.in/Reviews/Ninja-Van-Singapore-Reviews-EI_IE984783.0,9_IL.10,19_IM1123.htm",
+    "title": "Ninja Van Singapore reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.co.in/Reviews/Ninja-Van-Singapore-Reviews-EI_IE984783.0,9_IL.10,19_IC3235921.htm",
+    "title": "Ninja Van Singapore reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.facebook.com/ninjavansingapore/posts/%EF%B8%8F-scam-alertweve-received-reports-of-fraudulent-messages-impersonating-ninja-van/1487819533361205",
+    "title": "⚠ Scam Alert We've received... - Ninja Van Singapore | Facebook",
+    "why": "link out only (facebook.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "ninja van singapore"
+   ],
+   "pages_with_exact_name": 1,
+   "snippets_with_exact_name": 10,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 1
+ },
+ "headline": "brand_legal_entity_unconfirmed",
+ "headline_meaning": "Public sources describe a company by this name, but the registry has no entity with this exact name. It may trade under a brand name; the legal employer is not confirmed.",
+ "reasons": [
+  "registry: similar_name_only",
+  "exact name seen 11 times in sources"
+ ],
+ "brief": {
+  "confidence": "high",
+  "could_not_verify": [
+   "Official company registry record confirming a Singapore entity named exactly \"Ninja Van Singapore\" was not found."
+  ],
+  "key_facts": [
+   {
+    "claim": "Ninja Van Singapore announced a restructuring that cut about 12% of its local workforce in August 2025.",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://theindependent.sg/ninja-van-lays-off-12-of-local-workforce-in-latest-restructuring-exercise",
+      "quote": "Ninja Van lays off 12% of local workforce in latest restructuring exercise",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 7,
+      "url": "https://www.straitstimes.com/business/ninja-van-cuts-12-of-singapore-workforce-after-2-rounds-of-layoffs-in-2024",
+      "quote": "Ninja Van cuts 12% of Singapore workforce after 2 rounds of layoffs in 2024",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "The company said the layoffs were part of a long‑term plan to strengthen its business model and ensure sustainable growth.",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://theindependent.sg/ninja-van-lays-off-12-of-local-workforce-in-latest-restructuring-exercise",
+      "quote": "part of a long‑term plan to strengthen its business model and ensure sustainable growth",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 7,
+      "url": "https://www.straitstimes.com/business/ninja-van-cuts-12-of-singapore-workforce-after-2-rounds-of-layoffs-in-2024",
+      "quote": "the job cuts are part of the company’s long‑term effort to strengthen its business model",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Affected employees will receive severance packages, extended medical insurance and mental‑health support until 31 December.",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://theindependent.sg/ninja-van-lays-off-12-of-local-workforce-in-latest-restructuring-exercise",
+      "quote": "Employees ... will receive severance packages, extended health insurance and mental health support until 31 December",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 4,
+      "url": "https://mothership.sg/2025/08/ninja-van-layoffs-aug-2025",
+      "quote": "Medical insurance and mental health support will also be extended till the end of the year",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Ninja Van operates in multiple Southeast Asian markets and delivers millions of parcels daily.",
+    "evidence": [
+     {
+      "source": 6,
+      "url": "https://vulcanpost.com/894396/ninja-van-layoff-12",
+      "quote": "Founded in 2014, Ninja Van currently operates in six markets across Southeast Asia and delivers 2 million parcels a day",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "The company raised US$578 million in a Series E round in 2021, giving it a unicorn valuation.",
+    "evidence": [
+     {
+      "source": 6,
+      "url": "https://vulcanpost.com/894396/ninja-van-layoff-12",
+      "quote": "It has raised US$578 million in a Series E round in 2021 ... lifting the company’s valuation to “well over” US$1 billion",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "Ninja Van is a well‑funded logistics unicorn with a large parcel‑delivery operation.",
+    "evidence": [
+     {
+      "source": 6,
+      "url": "https://vulcanpost.com/894396/ninja-van-layoff-12",
+      "quote": "It has raised US$578 million in a Series E round in 2021 ... turned it into a unicorn",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 6,
+      "url": "https://vulcanpost.com/894396/ninja-van-layoff-12",
+      "quote": "delivers 2 million parcels a day, according to its website",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "The company continues to post job openings for Singapore‑based roles, indicating ongoing operations.",
+    "evidence": [
+     {
+      "source": 7,
+      "url": "https://www.straitstimes.com/business/ninja-van-cuts-12-of-singapore-workforce-after-2-rounds-of-layoffs-in-2024",
+      "quote": "A check on Ninja Van’s job openings on its website showed it still has positions open for more than 10 Singapore‑based roles",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "red_flags": [
+   {
+    "claim": "Multiple customer reviews describe poor service, unresponsive support channels, and delivery failures.",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://singtracking.com/reviews/ninjavansg",
+      "quote": "All help lines ... seem bogus. A live agent is never with you to answer your complaints",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 1,
+      "url": "https://www.trustpilot.com/review/www.ninjavan.co",
+      "quote": "I tried to escalate this via Ninja Van Singapore's live chat, the customer service was utterly useless and dismissive",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Recent large‑scale layoffs suggest financial or operational stress.",
+    "evidence": [
+     {
+      "source": 6,
+      "url": "https://vulcanpost.com/894396/ninja-van-layoff-12",
+      "quote": "Ninja Van has laid off about 12% of its Singapore workforce yesterday (August 12) in its latest round of job cuts",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 6,
+      "url": "https://vulcanpost.com/894396/ninja-van-layoff-12",
+      "quote": "reports emerged that Ninja Van is currently in talks to raise US$80 million ... could cut its valuation by about half",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "validity_reasoning": "Multiple independent news outlets (The Independent, Channel NewsAsia, The Straits Times, Vulcan Post) consistently report on Ninja Van Singapore's restructuring, layoffs, and operational scale. Customer‑review sites provide consistent negative feedback about service. No official registry entry was found for the exact name, but the weight of consistent media coverage supports the company's existence and activities.",
+  "claims_verified": 8,
+  "claims_unverified": 1,
+  "model_validity_status": "appears_real_and_consistent",
+  "about": "the brand named in the posting; the registered legal employer is not confirmed"
+ },
+ "could_not_read": [
+  {
+   "url": "https://www.trustpilot.com/review/www.ninjavan.co",
+   "why": "blocked_by_robots: the site's robots.txt does not allow this page"
+  },
+  {
+   "url": "https://www.techinasia.com/news/ninja-van-lays-off-12-of-singapore-workforce-in-latest-cuts",
+   "why": "blocked: challenge or login-wall text"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.co.uk/Reviews/Ninja-Van-Singapore-Reviews-EI_IE984783.0,9_IL.10,19_IC3235921.htm",
+   "title": "Ninja Van Singapore Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Location/Ninja-Van-Singapore-Location-EI_IE984783.0,9_IL.10,19_IC3235921.htm",
+   "title": "Ninja Van Singapore (Singapore) Office | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.co.in/Location/All-Ninja-Van-Singapore-Office-Locations-EI_IE984783.4,13_IL.14,23_IC3235921.htm",
+   "title": "Ninja Van Singapore office | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Location/All-Ninja-Van-Singapore-Office-Locations-EI_IE984783.4,13_IL.14,23_IC3235921.htm",
+   "title": "Ninja Van Singapore Office | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.co.in/Reviews/Ninja-Van-Singapore-Reviews-EI_IE984783.0,9_IL.10,19_IM1123.htm",
+   "title": "Ninja Van Singapore reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.co.in/Reviews/Ninja-Van-Singapore-Reviews-EI_IE984783.0,9_IL.10,19_IC3235921.htm",
+   "title": "Ninja Van Singapore reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.facebook.com/ninjavansingapore/posts/%EF%B8%8F-scam-alertweve-received-reports-of-fraudulent-messages-impersonating-ninja-van/1487819533361205",
+   "title": "⚠ Scam Alert We've received... - Ninja Van Singapore | Facebook",
+   "why": "link out only (facebook.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Official company registry record confirming a Singapore entity named exactly \"Ninja Van Singapore\" was not found.",
+  "Which registered company is the legal employer behind this brand."
+ ],
+ "seconds": 128.1,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

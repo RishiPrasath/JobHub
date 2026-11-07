@@ -1,0 +1,500 @@
+{
+ "employer": "Raffles Medical Group",
+ "role": "Staff Nurse",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "RAFFLES MEDICAL GROUP LTD is registered in Singapore (status: Live Company, registered 1989-05-16).",
+  "basis": "name only",
+  "entity": {
+   "uen": "198901967K",
+   "name": "RAFFLES MEDICAL GROUP LTD",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1989-05-16",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [
+   "other entities start with this name: RAFFLES MEDICAL SUPPLIES GROUP"
+  ],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Raffles Medical Group\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Raffles Medical Group\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 2,
+    "error": null
+   },
+   {
+    "query": "\"Raffles Medical Group\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 3,
+    "error": null
+   },
+   {
+    "query": "\"Raffles Medical Group\" Staff Nurse interview process salary",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"RAFFLES MEDICAL GROUP LTD\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://sginvestors.io/sgx/stock/bsl-raffles-medical/news-article",
+    "status": "ok",
+    "chars": 4898,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Raffles-Medical-Group-Ltd",
+    "status": "ok",
+    "chars": 16653,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.businesstimes.com.sg/keywords/raffles-medical-group",
+    "status": "irrelevant",
+    "chars": 407,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.rafflesmedicalgroup.com/investor-relations/sgx-announcements",
+    "status": "thin",
+    "chars": 345,
+    "note": "fewer than 400 characters of real content",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.rafflesmedicalgroup.com/careers-at-raffles/nurses-at-raffles/nurses-overview",
+    "status": "ok",
+    "chars": 2507,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.companies.sg/business/198901967K/RAFFLES-MEDICAL-GROUP-LTD",
+    "status": "ok",
+    "chars": 42597,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://recordowl.com/company/raffles-medical-group-ltd",
+    "status": "ok",
+    "chars": 12103,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://opengovsg.com/corporate/198901967K",
+    "status": "ok",
+    "chars": 4830,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.indeed.com/cmp/Raffles-Medical-Group/reviews",
+    "title": "Raffles Medical Group Employee Reviews - Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Raffles-Medical-Group/salaries?job_category=mednurse&location=SG%2FS00",
+    "title": "Nursing Salaries in Singapore for Raffles Medical Group",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/raffles-medical-group-168555834064846/reviews",
+    "title": "Reviews Raffles Medical Group employee ratings and reviews | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Raffles-Medical-Group-Reviews-E139031.htm",
+    "title": "Raffles Medical Group Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Raffles-Medical-Group-Singapore-Reviews-EI_IE139031.0,21_IL.22,31_IM1123.htm",
+    "title": "Raffles Medical Group Reviews in Singapore | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/raffles-medical-group-168555834064846",
+    "title": "Working at Raffles Medical Group company profile and information ...",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/Raffles-Medical-Group-Reviews-E139031.htm",
+    "title": "Raffles Medical Group reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/Raffles-Medical-Group-Reviews-E8558156.htm",
+    "title": "Raffles Medical Group reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/raffles-medical-group-168555834064846/salaries/staff-nurse",
+    "title": "Staff Nurse Salary Estimate at Raffles Medical Group (Singapore ...",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Interview/Raffles-Medical-Group-Staff-Nurse-Interview-Questions-EI_IE139031.0,21_KO22,33.htm",
+    "title": "Raffles Medical Group Staff Nurse interview questions",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Interview/Raffles-Medical-Group-Interview-Questions-E139031.htm",
+    "title": "Raffles Medical Group Interview Questions (2025) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Interview/Raffles-Medical-Group-Staff-Nurse-Interview-Questions-EI_IE139031.0,21_KO22,33.htm",
+    "title": "Raffles Medical Group Staff Nurse Interview Questions",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com.hk/Interview/Raffles-Medical-Group-Interview-Questions-E139031.htm",
+    "title": "56 Raffles Medical Group Interview Questions & Answers (2026)",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "raffles medical group"
+   ],
+   "pages_with_exact_name": 6,
+   "snippets_with_exact_name": 29,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 0,
+  "registry_mirror_pages": 3
+ },
+ "headline": "exists_and_consistent",
+ "headline_meaning": "Registered in Singapore, and public sources agree it is the company named.",
+ "reasons": [
+  "registry: confirmed",
+  "model: consistent across 3 pages"
+ ],
+ "brief": {
+  "confidence": "high",
+  "could_not_verify": [
+   "Specific details about the Staff Nurse role responsibilities beyond the general nursing overview"
+  ],
+  "key_facts": [
+   {
+    "claim": "Raffles Medical Group Ltd is a public company incorporated on 16 May 1989 in Singapore.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Legal name: RAFFLES MEDICAL GROUP LTD ... Registered: 1989-05-16",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 2,
+      "url": "https://www.sgpbusiness.com/company/Raffles-Medical-Group-Ltd",
+      "quote": "incorporated on 16 May 1989 (Tuesday) in Singapore",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "The company’s UEN is 198901967K and its status is Live.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Company ID: 198901967K ... Status: Live Company",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://opengovsg.com/corporate/198901967K",
+      "quote": "Entity Status | Live Company",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Principal activity is clinics and other general medical services (Western) with a secondary holding‑company activity.",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://www.sgpbusiness.com/company/Raffles-Medical-Group-Ltd",
+      "quote": "principal activity is clinics and other general medical services (western)",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 6,
+      "url": "https://www.companies.sg/business/198901967K/RAFFLES-MEDICAL-GROUP-LTD",
+      "quote": "86201 — Clinics and other general medical services (Western) ... 64202 — Holding companies ...",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 8,
+      "url": "https://opengovsg.com/corporate/198901967K",
+      "quote": "Primary SSIC Code | 86201: CLINICS AND OTHER GENERAL MEDICAL SERVICES (WESTERN) ... Secondary SSIC Code | 64202",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Registered address is 585 North Bridge Road #11‑00, Raffles Hospital, Singapore 188770.",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://www.sgpbusiness.com/company/Raffles-Medical-Group-Ltd",
+      "quote": "REGISTERED ADDRESS 585 NORTH BRIDGE ROAD #11-00 RAFFLES HOSPITAL SINGAPORE (188770)",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 6,
+      "url": "https://www.companies.sg/business/198901967K/RAFFLES-MEDICAL-GROUP-LTD",
+      "quote": "Address585 NORTH BRIDGE ROAD #11-00 RAFFLES HOSPITAL Singapore 188770",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://opengovsg.com/corporate/198901967K",
+      "quote": "Street Address | 585 North Bridge Road #11-00 Raffles Hospital Singapore 188770",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Raffles Medical Group is listed on the Singapore Exchange under ticker BSL.",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://sginvestors.io/sgx/stock/bsl-raffles-medical/news-article",
+      "quote": "RAFFLES MEDICAL GROUP LTD (SGX:BSL)",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 6,
+      "url": "https://www.companies.sg/business/198901967K/RAFFLES-MEDICAL-GROUP-LTD",
+      "quote": "Listed on 11 April 1997 on SGX Sesdaq 10 July 2000 on SGX Mainboard",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "The company markets itself as Singapore’s largest private healthcare provider with a network of hospitals and clinics.",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://www.sgpbusiness.com/company/Raffles-Medical-Group-Ltd",
+      "quote": "Raffles Medical Group (SGX: RafflesMG) is a leading private healthcare provider in the region.",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 7,
+      "url": "https://recordowl.com/company/raffles-medical-group-ltd",
+      "quote": "Raffles Medical Group is one of Singapore's largest private integrated healthcare providers",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Nursing careers at Raffles Medical Group are promoted with collaborative environment, professional development, overseas exposure and competitive salary.",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.rafflesmedicalgroup.com/careers-at-raffles/nurses-at-raffles/nurses-overview",
+      "quote": "Collaborative Environment ... Professional Development ... Overseas Exposure ... Rewarding ... competitive salary package",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "The company has a dedicated Chief Nurse and showcases staff nurse testimonials.",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.rafflesmedicalgroup.com/careers-at-raffles/nurses-at-raffles/nurses-overview",
+      "quote": "Message from our Chief Nurse ... Ms Lilian Yew, Chief Nurse",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 5,
+      "url": "https://www.rafflesmedicalgroup.com/careers-at-raffles/nurses-at-raffles/nurses-overview",
+      "quote": "Chen Chia Chi, Senior Staff Nurse I NICU",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Raffles Medical Group operates a tertiary hospital (Raffles Hospital) and multiple clinics across Asia.",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://www.sgpbusiness.com/company/Raffles-Medical-Group-Ltd",
+      "quote": "Raffles Hospital is a tertiary hospital ... We also operate medical centres in Hong Kong and Shanghai.",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 7,
+      "url": "https://recordowl.com/company/raffles-medical-group-ltd",
+      "quote": "operating a comprehensive network of hospitals, specialist centres, and multi‑disciplinary clinics across Asia",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "red_flags": [
+   {
+    "claim": "Specific salary range or benefits for the Staff Nurse role are not disclosed in the sources.",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.rafflesmedicalgroup.com/careers-at-raffles/nurses-at-raffles/nurses-overview",
+      "quote": "From a competitive salary package to the joy of seeing patients recover",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "validity_reasoning": "Multiple independent official records (registry, ACRA, corporate profile) and the company’s own website consistently describe Raffles Medical Group Ltd, its incorporation details, activities, address, and public listing. The nursing career page provides direct evidence of the role environment. No conflicting information was found.",
+  "claims_verified": 9,
+  "claims_unverified": 1,
+  "model_validity_status": "appears_real_and_consistent"
+ },
+ "could_not_read": [
+  {
+   "url": "https://www.businesstimes.com.sg/keywords/raffles-medical-group",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.rafflesmedicalgroup.com/investor-relations/sgx-announcements",
+   "why": "thin: fewer than 400 characters of real content"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://sg.indeed.com/cmp/Raffles-Medical-Group/reviews",
+   "title": "Raffles Medical Group Employee Reviews - Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Raffles-Medical-Group/salaries?job_category=mednurse&location=SG%2FS00",
+   "title": "Nursing Salaries in Singapore for Raffles Medical Group",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/raffles-medical-group-168555834064846/reviews",
+   "title": "Reviews Raffles Medical Group employee ratings and reviews | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Raffles-Medical-Group-Reviews-E139031.htm",
+   "title": "Raffles Medical Group Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Raffles-Medical-Group-Singapore-Reviews-EI_IE139031.0,21_IL.22,31_IM1123.htm",
+   "title": "Raffles Medical Group Reviews in Singapore | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/raffles-medical-group-168555834064846",
+   "title": "Working at Raffles Medical Group company profile and information ...",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Raffles-Medical-Group-Reviews-E139031.htm",
+   "title": "Raffles Medical Group reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Raffles-Medical-Group-Reviews-E8558156.htm",
+   "title": "Raffles Medical Group reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/raffles-medical-group-168555834064846/salaries/staff-nurse",
+   "title": "Staff Nurse Salary Estimate at Raffles Medical Group (Singapore ...",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Interview/Raffles-Medical-Group-Staff-Nurse-Interview-Questions-EI_IE139031.0,21_KO22,33.htm",
+   "title": "Raffles Medical Group Staff Nurse interview questions",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Interview/Raffles-Medical-Group-Interview-Questions-E139031.htm",
+   "title": "Raffles Medical Group Interview Questions (2025) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Interview/Raffles-Medical-Group-Staff-Nurse-Interview-Questions-EI_IE139031.0,21_KO22,33.htm",
+   "title": "Raffles Medical Group Staff Nurse Interview Questions",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com.hk/Interview/Raffles-Medical-Group-Interview-Questions-E139031.htm",
+   "title": "56 Raffles Medical Group Interview Questions & Answers (2026)",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Specific details about the Staff Nurse role responsibilities beyond the general nursing overview"
+ ],
+ "seconds": 70.4,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

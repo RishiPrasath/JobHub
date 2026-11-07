@@ -1,0 +1,45 @@
+Sheng Siong Group Ltd  (role: Cashier)
+HEADLINE: exists_and_consistent
+  Registered in Singapore, and public sources agree it is the company named.
+  because: registry: confirmed; model: consistent across 8 pages
+REGISTRY: confirmed. SHENG SIONG GROUP LTD. is registered in Singapore (status: Live Company, registered 2010-11-10).
+WEB: 5 queries (bing), 8 of 8 pages read, exact name seen in 7 pages and 13 search results
+BRIEF (model rating: appears_real_and_consistent, confidence high; 9 claims verified, 2 unverified)
+  Facts:
+    [verified] Sheng Siong Group Ltd is a live Singaporean public company incorporated on 10
+    November 2010.
+    [verified] The company is listed on the Singapore Exchange (SGX) under code OV8 since 17 August
+    2011.
+    [verified] Sheng Siong operates a supermarket chain with dozens of outlets across Singapore.
+    [UNVERIFIED] The company emphasizes employee welfare, competitive wages and offers education
+    allowances.
+    [verified] Sheng Siong received a Plaque of Commendation at the NTUC May Day Awards 2023 for
+    employee welfare.
+    [verified] The CEO is Lim Hock Chee, who is known for a hands‑on leadership style.
+    [UNVERIFIED] The corporate headquarters and distribution centre are located at 6 Mandai Link,
+    Singapore 728652.
+    [verified] Sheng Siong actively recruits staff through its career portal and HR contact line.
+  Positive signals:
+    [verified] The company has a strong culture of employee support and training.
+    [verified] Sheng Siong is financially significant, with a market‑cap and regular analyst
+    coverage.
+  Red flags:
+    [verified] Exact number of stores varies between sources (68 vs 92 vs 90).
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 12):
+  - Sheng Siong Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/Sheng-Siong-
+    Reviews-E1186795.htm
+  - Reviews Sheng Siong employee ratings and reviews |  https://sg.jobstreet.com/companies/sheng-
+    siong-168553100524931/reviews
+  - SHENG SIONG SUPERMARKET Employee Reviews - Indeed  https://sg.indeed.com/cmp/Sheng-Siong-
+    Supermarket/reviews?fcountry=ALL
+  - Working at Sheng Siong company profile and informa  https://sg.jobstreet.com/companies/sheng-
+    siong-168553100524931
+  - SHENG SIONG SUPERMARKET Careers and Employment - I  https://sg.indeed.com/cmp/Sheng-Siong-
+    Supermarket
+  - Cashier Salaries in Singapore for SHENG SIONG SUPE  https://sg.indeed.com/cmp/Sheng-Siong-
+    Supermarket/salaries/Cashier
+COULD NOT VERIFY:
+  - specific cashier salary range
+  - exact daily duties of a cashier at Sheng Siong
+  - benefits specific to cashier role
+(127.9s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

@@ -1,0 +1,39 @@
+KPMG Singapore  (role: Audit Associate)
+HEADLINE: brand_legal_entity_unconfirmed
+  Public sources describe a company by this name, but the registry has no entity with this exact
+  name. It may trade under a brand name; the legal employer is not confirmed.
+  because: registry: similar_name_only; exact name seen 10 times in sources
+REGISTRY: similar_name_only. No registered entity is named 'KPMG Singapore'. The closest registered name is KPMG US TAX SERVICES (SINGAPORE) LLC, which may be a different company.
+WEB: 5 queries (bing, duckduckgo), 8 of 8 pages read, exact name seen in 0 pages and 10 search results
+BRIEF (model rating: appears_real_limited_evidence, confidence low; 1 claims verified, 6 unverified)
+  about: the brand named in the posting; the registered legal employer is not confirmed
+  Facts:
+    [UNVERIFIED] KPMG operates in Singapore through multiple legal entities.
+    [verified] KPMG LLP is a live Limited Liability Partnership with UEN T08LL1267L.
+    [UNVERIFIED] KPMG Services Pte. Ltd. is a live private company (UEN 200003956G).
+  Positive signals:
+    [UNVERIFIED] KPMG entities in Singapore have been awarded government tenders for consultancy
+    services.
+    [UNVERIFIED] KPMG LLP is listed as an accredited training organisation for Singapore Chartered
+    Accountant qualification.
+  Red flags:
+    [UNVERIFIED] Recent layoff news relates to KPMG globally, not specifically to its Singapore
+    operations.
+    [UNVERIFIED] No single registry entry confirms a company named exactly "KPMG Singapore".
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 7):
+  - Working at KPMG: 156 Reviews | Indeed.com  https://sg.indeed.com/cmp/Kpmg-0828bc85/reviews
+  - Life at KPMG Singapore : r/KPMG - Reddit
+    https://www.reddit.com/r/KPMG/comments/v3s971/life_at_kpmg_singapore
+  - KPMG Singapore reviews - Glassdoor  https://www.glassdoor.co.uk/Reviews/KPMG-Singapore-Reviews-
+    EI_IE2867.0,4_IL.5,14
+  - KPMG Singapore reviews - Glassdoor  https://www.glassdoor.ca/Reviews/KPMG-Singapore-Reviews-
+    EI_IE8422487.0,4_IL.5,14
+  - KPMG singapore Reviews | Glassdoor  https://www.glassdoor.com/Reviews/KPMG-singapore-Reviews-
+    EI_IE2867.0,4_KO5,14.ht
+  - KPMG Singapore Reviews - Glassdoor  https://www.glassdoor.com/Reviews/KPMG-Singapore-Reviews-
+    EI_IE8422487.0,4_IL.5,1
+COULD NOT VERIFY:
+  - Exact entity named "KPMG Singapore" (as a single legal entity) was not found in the official
+    registry.
+  - Which registered company is the legal employer behind this brand.
+(128.2s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

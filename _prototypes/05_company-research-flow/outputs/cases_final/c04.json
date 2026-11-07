@@ -1,0 +1,348 @@
+{
+ "employer": "Grab Holdings",
+ "role": "Backend Engineer",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'Grab Holdings'. The closest registered name is GRAB GEO HOLDINGS PTE. LTD., which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "201731650K",
+   "name": "GRAB GEO HOLDINGS PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2017-11-03",
+   "activity": "na",
+   "alternatives": [
+    "WONDERFUL GRAB N GO HOLDINGS PTE. LTD."
+   ]
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Grab Holdings\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Grab Holdings\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 2,
+    "error": null
+   },
+   {
+    "query": "\"Grab Holdings\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 6,
+    "error": null
+   },
+   {
+    "query": "\"Grab Holdings\" Backend Engineer interview process salary",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 4,
+    "error": null
+   },
+   {
+    "query": "\"Grab Holdings\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://sg.finance.yahoo.com/quote/GRAB/profile",
+    "status": "ok",
+    "chars": 3029,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Grab_Holdings",
+    "status": "ok",
+    "chars": 34081,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://investors.grab.com/overview/default.aspx",
+    "status": "ok",
+    "chars": 668,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://altindex.com/ticker/grab/employer-rating-overall",
+    "status": "ok",
+    "chars": 3098,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://pitchbook.com/profiles/company/62283-07",
+    "status": "thin",
+    "chars": 261,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://stockanalysis.com/stocks/grab/employees",
+    "status": "ok",
+    "chars": 1764,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://zlk.com/news/general/update-in-re-grab-holdings",
+    "status": "ok",
+    "chars": 616,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.straitstimes.com/business/singapores-grab-cuts-1000-jobs-or-11-of-workforce",
+    "status": "ok",
+    "chars": 2420,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://malaysia.indeed.com/cmp/Grab-Holdings-Inc/reviews?fcountry=ALL",
+    "title": "GRAB HOLDINGS INC Employee Reviews - Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Grab-Holdings-Inc/reviews",
+    "title": "GRAB HOLDINGS INC Employee Reviews - Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Grab-Holdings-Inc",
+    "title": "GRAB HOLDINGS INC Careers and Employment | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "grab holdings"
+   ],
+   "pages_with_exact_name": 5,
+   "snippets_with_exact_name": 28,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 0,
+  "registry_mirror_pages": 0
+ },
+ "headline": "brand_legal_entity_unconfirmed",
+ "headline_meaning": "Public sources describe a company by this name, but the registry has no entity with this exact name. It may trade under a brand name; the legal employer is not confirmed.",
+ "reasons": [
+  "registry: similar_name_only",
+  "exact name seen 33 times in sources"
+ ],
+ "brief": {
+  "confidence": "high",
+  "could_not_verify": [],
+  "key_facts": [
+   {
+    "claim": "Grab Holdings Limited is a Singapore‑based multinational technology company operating a super‑app.",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://en.wikipedia.org/wiki/Grab_Holdings",
+      "quote": "Grab Holdings Inc. is a Singaporean multinational technology company headquartered in one‑north, Singapore.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Founded in June 2012 (originally as MyTeksi) and rebranded to Grab.",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://en.wikipedia.org/wiki/Grab_Holdings",
+      "quote": "Founded in June 2012 (as MyTeksi) in Kuala Lumpur, Malaysia",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Headquarters located at 3 Media Close, one‑north, Singapore.",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://en.wikipedia.org/wiki/Grab_Holdings",
+      "quote": "Headquarters | 3 Media Close, one‑north, Singapore",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Approximately 12,000 employees as of end‑2025.",
+    "evidence": [
+     {
+      "source": 6,
+      "url": "https://stockanalysis.com/stocks/grab/employees",
+      "quote": "Grab Holdings had 12,012 employees as of December 31, 2025.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Publicly listed on NASDAQ under ticker GRAB.",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://en.wikipedia.org/wiki/Grab_Holdings",
+      "quote": "Nasdaq: GRAB (Class A)",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Provides ride‑hailing, food delivery, digital payments and financial services across eight Southeast Asian markets.",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://sg.finance.yahoo.com/quote/GRAB/profile",
+      "quote": "operates the Grab superapp in Cambodia, Indonesia, Malaysia, Myanmar, the Philippines, Singapore, Thailand, and Vietnam.",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 1,
+      "url": "https://sg.finance.yahoo.com/quote/GRAB/profile",
+      "quote": "offers GrabCar, GrabBike, GrabFood, GrabPay, GrabFin and many other services.",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "Glassdoor employee rating of 74/100 indicates generally satisfied workforce.",
+    "evidence": [
+     {
+      "source": 4,
+      "url": "https://altindex.com/ticker/grab/employer-rating-overall",
+      "quote": "Grab Holdings (GRAB) has a Glassdoor employee rating of 74/100",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Recent investor communications (Q2/Q3 2026 results) show ongoing public disclosures.",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://investors.grab.com/overview/default.aspx",
+      "quote": "Grab 2026 Q2 Results Webcast, August 3, 2026",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 3,
+      "url": "https://investors.grab.com/overview/default.aspx",
+      "quote": "Grab 2026 Q3 Results Webcast, November 2, 2026",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "red_flags": [
+   {
+    "claim": "Significant workforce reduction – 1,000 jobs (≈11% of staff) announced in 2023.",
+    "evidence": [
+     {
+      "source": 8,
+      "url": "https://www.straitstimes.com/business/singapores-grab-cuts-1000-jobs-or-11-of-workforce",
+      "quote": "Grab cuts 1,000 jobs, or 11 per cent of its workforce",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Class‑action settlement of $80 million related to alleged misleading statements about driver supply and incentive spending.",
+    "evidence": [
+     {
+      "source": 7,
+      "url": "https://zlk.com/news/general/update-in-re-grab-holdings",
+      "quote": "settlement provides for the payment of $80 million to eligible class members",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "validity_reasoning": "Multiple independent sources (company profile, Wikipedia, investor site, employee data) consistently describe Grab Holdings Limited as a real, publicly listed Singaporean tech firm with known size, services, and recent corporate actions. No conflicting or look‑alike information was found.",
+  "claims_verified": 8,
+  "claims_unverified": 2,
+  "model_validity_status": "appears_real_and_consistent",
+  "about": "the brand named in the posting; the registered legal employer is not confirmed"
+ },
+ "could_not_read": [
+  {
+   "url": "https://pitchbook.com/profiles/company/62283-07",
+   "why": "thin: fewer than 400 characters of real content"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://malaysia.indeed.com/cmp/Grab-Holdings-Inc/reviews?fcountry=ALL",
+   "title": "GRAB HOLDINGS INC Employee Reviews - Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Grab-Holdings-Inc/reviews",
+   "title": "GRAB HOLDINGS INC Employee Reviews - Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Grab-Holdings-Inc",
+   "title": "GRAB HOLDINGS INC Careers and Employment | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Which registered company is the legal employer behind this brand."
+ ],
+ "seconds": 127.6,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

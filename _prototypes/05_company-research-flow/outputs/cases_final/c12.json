@@ -1,0 +1,53 @@
+{
+ "employer": "Randstad Pte Limited",
+ "role": "Recruitment Consultant",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "uen_name_mismatch",
+  "summary": "The company ID 199201624D in the posting belongs to SINGAPORE TELECOMMUNICATIONS LIMITED, which is not the name used in the posting (Randstad Pte Limited). This also happens when a posting uses a trading or brand name; otherwise it is a reason to be careful.",
+  "basis": "company ID and name",
+  "entity": {
+   "uen": "199201624D",
+   "name": "SINGAPORE TELECOMMUNICATIONS LIMITED",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1992-03-28",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": "the registry settled it (uen_name_mismatch); web research would not change the headline",
+  "available": false,
+  "queries": [],
+  "pages": [],
+  "skipped_by_policy": [],
+  "gate": {
+   "phrases": [
+    "randstad"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 0,
+   "none": true,
+   "strong": false
+  },
+  "engines_used": [],
+  "registry_mirror_pages": 0
+ },
+ "headline": "identity_mismatch",
+ "headline_meaning": "The company ID in the posting does not match the name in the posting.",
+ "reasons": [
+  "registry: uen_name_mismatch"
+ ],
+ "brief": null,
+ "could_not_read": [],
+ "link_out": [],
+ "could_not_verify": [],
+ "seconds": 0.0,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

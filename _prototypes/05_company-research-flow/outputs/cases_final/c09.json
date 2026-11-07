@@ -1,0 +1,394 @@
+{
+ "employer": "Sheng Siong Group Ltd",
+ "role": "Cashier",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "SHENG SIONG GROUP LTD. is registered in Singapore (status: Live Company, registered 2010-11-10).",
+  "basis": "name only",
+  "entity": {
+   "uen": "201023989Z",
+   "name": "SHENG SIONG GROUP LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2010-11-10",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Sheng Siong Group Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 2,
+    "error": null
+   },
+   {
+    "query": "\"Sheng Siong Group Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Sheng Siong Group Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Sheng Siong Group Ltd\" Cashier interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"SHENG SIONG GROUP LTD.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://sginvestors.io/sgx/stock/ov8-sheng-siong/company-announcement",
+    "status": "ok",
+    "chars": 5017,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://drwealth.com/sheng-siong-fell-14-in-2-days-sales-at-its-existing-stores-are-slowing-how-bad-is-it",
+    "status": "ok",
+    "chars": 6165,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://links.sgx.com/1.0.0/corporate-announcements/5SKGHD4E6C5P7NN7/882126_SSG%20-%20FY2025%20Annual%20Report.pdf",
+    "status": "blocked",
+    "chars": 285,
+    "note": "challenge or login-wall text",
+    "tier": "plain"
+   },
+   {
+    "url": "https://corporate.shengsiong.com.sg/career",
+    "status": "ok",
+    "chars": 603,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Sheng-Siong-Group-Ltd",
+    "status": "ok",
+    "chars": 2974,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/business/201023989Z/SHENG-SIONG-GROUP-LTD",
+    "status": "ok",
+    "chars": 28783,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.companies.sg/business/201023989Z/SHENG-SIONG-GROUP-LTD-",
+    "status": "ok",
+    "chars": 28783,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://opengovsg.com/corporate/201023989Z",
+    "status": "ok",
+    "chars": 4314,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.jobstreet.com/companies/sheng-siong-168553100524931",
+    "title": "Working at Sheng Siong company profile and information | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.indeed.com/cmp/Sheng-Siong-Supermarket",
+    "title": "SHENG SIONG SUPERMARKET Careers and Employment | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Sheng-Siong-Supermarket/salaries/Cashier",
+    "title": "Cashier Salaries in Singapore for SHENG SIONG SUPERMARKET",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Salary/Sheng-Siong-Salaries-E1186795.htm",
+    "title": "154 Salaries at Sheng Siong Shared by Employees | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Interview/Sheng-Siong-Interview-Questions-E1186795.htm",
+    "title": "Sheng Siong Interview Questions (2026) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Sheng-Siong-Supermarket/salaries",
+    "title": "SHENG SIONG SUPERMARKET Salaries in Singapore - Indeed",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/Sheng-Siong-Group-jobs",
+    "title": "Sheng Siong Group Jobs in Singapore (with Salaries) - Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/SHENG-SIONG-jobs",
+    "title": "SHENG SIONG Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Salary/Sheng-Siong-Cashier-Singapore-Salaries-EI_IE1186795.0,11_KO12,19_IL.20,29_IM1123.htm",
+    "title": "Sheng Siong Cashier Salaries in Singapore, Singapore",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "sheng siong group"
+   ],
+   "pages_with_exact_name": 6,
+   "snippets_with_exact_name": 13,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 13,
+  "registry_mirror_pages": 3
+ },
+ "headline": "exists_and_consistent",
+ "headline_meaning": "Registered in Singapore, and public sources agree it is the company named.",
+ "reasons": [
+  "registry: confirmed",
+  "model: consistent across 4 pages"
+ ],
+ "brief": {
+  "confidence": "high",
+  "could_not_verify": [
+   "Specific duties, salary, or hiring process for the Cashier role"
+  ],
+  "key_facts": [
+   {
+    "claim": "Sheng Siong Group Ltd is a live public company incorporated on 10 November 2010 in Singapore.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Legal name: SHENG SIONG GROUP LTD. ... Registered: 2010-11-10 ... Status: Live Company",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 8,
+      "url": "https://opengovsg.com/corporate/201023989Z",
+      "quote": "Incorporation Date: 2010-11-10 ... Entity Status: Live Company",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "The company is listed on the SGX Mainboard under ticker OV8.",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://sginvestors.io/sgx/stock/ov8-sheng-siong/company-announcement",
+      "quote": "SHENG SIONG GROUP LTD (SGX:OV8) ... Market: SGX Mainboard",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 6,
+      "url": "https://www.companies.sg/business/201023989Z/SHENG-SIONG-GROUP-LTD",
+      "quote": "Listing date / history: Listed on 17 August 2011 on SGX Mainboard",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Sheng Siong Group Ltd’s principal activity is holding companies of firms engaged in non‑financial and insurance activities (SSIC 64202).",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.sgpbusiness.com/company/Sheng-Siong-Group-Ltd",
+      "quote": "Principal Activity: Other Information ... HOLDING COMPANIES OF FIRMS ENGAGED IN NON-FINANCIAL AND INSURANCE ACTIVITIES",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 8,
+      "url": "https://opengovsg.com/corporate/201023989Z",
+      "quote": "Primary SSIC Code: 64202: OTHER HOLDING COMPANIES",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "The company’s registered address is 6 Mandai Link, Singapore 728652.",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.sgpbusiness.com/company/Sheng-Siong-Group-Ltd",
+      "quote": "Registered Address: 6 MANDAI LINK, Singapore (728652)",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://opengovsg.com/corporate/201023989Z",
+      "quote": "Street Address: 6 Mandai Link Singapore 728652",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Sheng Siong maintains a corporate careers page inviting applications for branch positions.",
+    "evidence": [
+     {
+      "source": 4,
+      "url": "https://corporate.shengsiong.com.sg/career",
+      "quote": "Join Us ... At Sheng Siong, we have talented and committed individuals ... branches located island‑wide.",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 4,
+      "url": "https://corporate.shengsiong.com.sg/career",
+      "quote": "You may also contact our Human Resource Department via: Tel: (+65) 6895 1888 ... Email: hr@shengsiong.com.sg",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "The company has a history of expansion, operating dozens of supermarkets across Singapore.",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://drwealth.com/sheng-siong-fell-14-in-2-days-sales-at-its-existing-stores-are-slowing-how-bad-is-it",
+      "quote": "By late 2026, the group had expanded to 92 stores in Singapore.",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 5,
+      "url": "https://www.sgpbusiness.com/company/Sheng-Siong-Group-Ltd",
+      "quote": "For starters, the supermarket operator keeps adding new stores — from 27 at its IPO in 2011 to 90 today.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Sheng Siong is a constituent of the Singapore STI Consumer Staples sector.",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://sginvestors.io/sgx/stock/ov8-sheng-siong/company-announcement",
+      "quote": "Sector / Industry: Consumer Staples / Food & Staples Retailing",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "red_flags": [],
+  "validity_reasoning": "Multiple independent sources (official registry, SGX listing data, corporate website, and business directories) consistently describe the same legal entity, its incorporation date, status, address, and listing. No conflicting information was found.",
+  "claims_verified": 5,
+  "claims_unverified": 2,
+  "model_validity_status": "appears_real_and_consistent"
+ },
+ "could_not_read": [
+  {
+   "url": "https://links.sgx.com/1.0.0/corporate-announcements/5SKGHD4E6C5P7NN7/882126_SSG%20-%20FY2025%20Annual%20Report.pdf",
+   "why": "blocked: challenge or login-wall text"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://sg.jobstreet.com/companies/sheng-siong-168553100524931",
+   "title": "Working at Sheng Siong company profile and information | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.indeed.com/cmp/Sheng-Siong-Supermarket",
+   "title": "SHENG SIONG SUPERMARKET Careers and Employment | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Sheng-Siong-Supermarket/salaries/Cashier",
+   "title": "Cashier Salaries in Singapore for SHENG SIONG SUPERMARKET",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Salary/Sheng-Siong-Salaries-E1186795.htm",
+   "title": "154 Salaries at Sheng Siong Shared by Employees | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Interview/Sheng-Siong-Interview-Questions-E1186795.htm",
+   "title": "Sheng Siong Interview Questions (2026) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Sheng-Siong-Supermarket/salaries",
+   "title": "SHENG SIONG SUPERMARKET Salaries in Singapore - Indeed",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/Sheng-Siong-Group-jobs",
+   "title": "Sheng Siong Group Jobs in Singapore (with Salaries) - Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/SHENG-SIONG-jobs",
+   "title": "SHENG SIONG Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Salary/Sheng-Siong-Cashier-Singapore-Salaries-EI_IE1186795.0,11_KO12,19_IL.20,29_IM1123.htm",
+   "title": "Sheng Siong Cashier Salaries in Singapore, Singapore",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Specific duties, salary, or hiring process for the Cashier role"
+ ],
+ "seconds": 819.4,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

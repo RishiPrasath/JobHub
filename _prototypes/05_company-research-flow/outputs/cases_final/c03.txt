@@ -1,0 +1,34 @@
+Avanguarde Pte. Ltd.  (role: Customer Service Executive)
+HEADLINE: exists_limited_evidence
+  Registered in Singapore, but there is little public evidence beyond the registry.
+  because: registry: confirmed; web evidence thin (1 pages read, model:
+  appears_real_limited_evidence)
+REGISTRY: confirmed. AVANGUARDE PTE. LTD. is registered in Singapore (status: Live Company, registered 2025-10-13).
+WEB: 5 queries (bing, duckduckgo), 4 of 5 pages read, exact name seen in 4 pages and 8 search results
+BRIEF (model rating: appears_real_limited_evidence, confidence low; 9 claims verified, 1 unverified)
+  Facts:
+    [UNVERIFIED] Avanguarde Pte. Ltd. is a live local company incorporated on 13 Oct 2025.
+    [verified] Company UEN is 202545538Z.
+    [verified] Registered address is 22 Sin Ming Lane, #06-76, Midview City, Singapore 573969.
+    [verified] Entity type is Private Company Limited by Shares (Local Company).
+    [verified] Principal activity is holding companies of firms engaged in non‑financial and
+    insurance activities (SSIC 64202).
+    [verified] The company runs multiple fantasy lifestyle brands, including F&B and events.
+  Positive signals:
+    [verified] The company appears in official Singapore business registries and multiple commercial
+    directories.
+    [verified] The company has an active online presence (website quaichbar.com.sg).
+  Red flags:
+    [verified] Limited public information about specific business operations or financials.
+    [verified] Address is a virtual‑office location shared with many other entities.
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 1):
+  - Commis Chef at AVANGUARDE PTE. LTD. — Singapore, S  https://sg.linkedin.com/jobs/view/commis-
+    chef-at-avanguarde-pte-ltd-4468454729
+COULD NOT READ (1):
+  - https://sg.ltddir.com/companies/avanguarde-pte-ltd  (thin: fewer than 400 characters of real
+    content)
+COULD NOT VERIFY:
+  - Specific details of the Customer Service Executive role
+  - Salary, benefits, or reporting structure for the role
+  - Exact business activities related to customer service
+(128.2s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

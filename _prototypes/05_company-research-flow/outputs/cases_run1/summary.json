@@ -1,0 +1,229 @@
+[
+ {
+  "id": "c01",
+  "seen": true,
+  "employer": "Raffles Medical Group",
+  "expected": [
+   "exists_and_consistent"
+  ],
+  "got": "exists_and_consistent",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: confirmed",
+   "model: consistent across 6 pages"
+  ],
+  "degraded": [],
+  "seconds": 8.9
+ },
+ {
+  "id": "c02",
+  "seen": true,
+  "employer": "Lazada Singapore",
+  "expected": [
+   "exists_and_consistent",
+   "exists_limited_evidence"
+  ],
+  "got": "exists_and_consistent",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: confirmed",
+   "model: consistent across 4 pages"
+  ],
+  "degraded": [],
+  "seconds": 72.6
+ },
+ {
+  "id": "c03",
+  "seen": true,
+  "employer": "Avanguarde Pte. Ltd.",
+  "expected": [
+   "exists_limited_evidence"
+  ],
+  "got": "exists_limited_evidence",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (2 pages read, model: appears_real_limited_evidence)"
+  ],
+  "degraded": [],
+  "seconds": 127.6
+ },
+ {
+  "id": "c04",
+  "seen": true,
+  "employer": "Grab Holdings",
+  "expected": [
+   "brand_legal_entity_unconfirmed"
+  ],
+  "got": "brand_legal_entity_unconfirmed",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: similar_name_only",
+   "exact name seen 34 times in sources"
+  ],
+  "degraded": [],
+  "seconds": 127.9
+ },
+ {
+  "id": "c05",
+  "seen": true,
+  "employer": "Ninja Van Singapore",
+  "expected": [
+   "brand_legal_entity_unconfirmed"
+  ],
+  "got": "brand_legal_entity_unconfirmed",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: similar_name_only",
+   "exact name seen 11 times in sources"
+  ],
+  "degraded": [],
+  "seconds": 128.0
+ },
+ {
+  "id": "c06",
+  "seen": true,
+  "employer": "KPMG Singapore",
+  "expected": [
+   "brand_legal_entity_unconfirmed"
+  ],
+  "got": "brand_legal_entity_unconfirmed",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: similar_name_only",
+   "exact name seen 10 times in sources"
+  ],
+  "degraded": [],
+  "seconds": 125.8
+ },
+ {
+  "id": "c07",
+  "seen": true,
+  "employer": "Zzqxv Qwlmt Holdings Pte Ltd",
+  "expected": [
+   "could_not_confirm_company"
+  ],
+  "got": "could_not_confirm_company",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: not_in_registry",
+   "exact name seen 0 times"
+  ],
+  "degraded": [],
+  "seconds": 63.0
+ },
+ {
+  "id": "c08",
+  "seen": true,
+  "employer": "DBS Bank Singapore Recruitment Pte Ltd",
+  "expected": [
+   "likely_lookalike"
+  ],
+  "got": "likely_lookalike",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: similar_name_only",
+   "closest registered name is a different entity",
+   "exact name appears in no source"
+  ],
+  "degraded": [],
+  "seconds": 63.8
+ },
+ {
+  "id": "c09",
+  "seen": false,
+  "employer": "Sheng Siong Group Ltd",
+  "expected": [
+   "exists_and_consistent",
+   "exists_limited_evidence"
+  ],
+  "got": "exists_and_consistent",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: confirmed",
+   "model: consistent across 2 pages"
+  ],
+  "degraded": [],
+  "seconds": 126.4
+ },
+ {
+  "id": "c10",
+  "seen": false,
+  "employer": "Grab Singapore Recruitment Pte Ltd",
+  "expected": [
+   "likely_lookalike",
+   "could_not_confirm_company"
+  ],
+  "got": "likely_lookalike",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: similar_name_only",
+   "closest registered name is a different entity",
+   "exact name appears in no source"
+  ],
+  "degraded": [],
+  "seconds": 126.3
+ },
+ {
+  "id": "c11",
+  "seen": false,
+  "employer": "Singapore Airlines Careers Hub Pte Ltd",
+  "expected": [
+   "likely_lookalike",
+   "could_not_confirm_company"
+  ],
+  "got": "could_not_confirm_company",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: not_in_registry",
+   "exact name seen 0 times"
+  ],
+  "degraded": [],
+  "seconds": 125.0
+ },
+ {
+  "id": "c12",
+  "seen": false,
+  "employer": "Randstad Pte Limited",
+  "expected": [
+   "identity_mismatch"
+  ],
+  "got": "identity_mismatch",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: uen_name_mismatch"
+  ],
+  "degraded": [],
+  "seconds": 0.0
+ },
+ {
+  "id": "c13",
+  "seen": false,
+  "employer": "Underwriters Limited",
+  "expected": [
+   "not_active"
+  ],
+  "got": "not_active",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: registered_not_active"
+  ],
+  "degraded": [],
+  "seconds": 0.1
+ },
+ {
+  "id": "c14",
+  "seen": false,
+  "employer": "Land Transport Authority",
+  "expected": [
+   "public_body"
+  ],
+  "got": "public_body",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: public_body"
+  ],
+  "degraded": [],
+  "seconds": 0.3
+ }
+]
