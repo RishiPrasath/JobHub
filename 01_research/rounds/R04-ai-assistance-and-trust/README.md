@@ -1,6 +1,6 @@
 # Round 04 — AI assistance and trust
 
-Status: complete — two bounded runs completed 2026-10-19. The first inventories job-posting page structures and field provenance; the second covers the remaining research objectives.
+Status: complete — two bounded runs completed 2026-10-19. The first inventories job-posting page structures and field provenance; the second covers the remaining research objectives. See the [round synthesis](round-synthesis.md) (draft, owner review pending). The wider plan in the [round brief draft](round-brief-draft.md) was not adopted as a final brief.
 
 ## Current runs
 

@@ -28,7 +28,7 @@ ATS behaviour is implementation-specific. Greenhouse and Workday document failur
 | Keyword overfitting | Show requirement and supporting candidate evidence beside each suggestion |
 | Missing-field inference | Preserve `unknown`, `not stated`, `conflicting` and `inferred` as distinct states |
 | Proxy discrimination | Avoid sensitive-trait inference; test equivalent evidence across gaps, names, styles and sectors |
-| Privacy exposure | Minimise fields, separate contact data from 02_analysis/reports, disclose processing and deletion |
+| Privacy exposure | Minimise fields, separate contact data from analysis, disclose processing and deletion |
 | Provenance loss | Attach source spans/document locations and capture dates to consequential suggestions |
 | Automation bias | Require review-before-accept with edit, reject, keep-original and uncertainty actions |
 | Homogenisation | Preserve original wording, offer alternatives and measure correction effort/voice loss |

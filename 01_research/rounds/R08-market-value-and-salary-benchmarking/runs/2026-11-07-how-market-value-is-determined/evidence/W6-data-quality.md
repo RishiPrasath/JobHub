@@ -62,4 +62,4 @@ D) TOP 6 SOURCES
 5. https://www.minneapolisfed.org/research/staff-reports/online-job-posts-contain-very-little-wage-information (Federal Reserve Bank of Minneapolis, Staff Report 690, dated 28 September 2026 on the page). Pay disclosure rates, posted vs OES gap, and selection in posted pay.
 6. https://libertystreeteconomics.newyorkfed.org/2025/10/do-employers-comply-with-pay-transparency-requirements-in-job-postings/ (NY Fed Liberty Street Economics, October 2025). Compliance and disclosure trends in covered jurisdictions.
 
-Also useful for posting-range width: https://hiringlab.indeed.com/2023/05/18/advertised-salary-ranges (Indeed Hiring Lab, May 2023), a vendor 02_analysis/reports of Indeed postings.
+Also useful for posting-range width: https://hiringlab.indeed.com/2023/05/18/advertised-salary-ranges (Indeed Hiring Lab, May 2023), a vendor analysis of Indeed postings.
