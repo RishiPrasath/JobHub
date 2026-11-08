@@ -1,0 +1,19 @@
+services:
+  fetch:
+    build: .
+    init: true
+    ports:
+      - "127.0.0.1:8080:8080"     # local only
+    environment:
+      FETCH_TOKEN: ${FETCH_TOKEN:-local-dev-token}
+    read_only: true
+    tmpfs:
+      - /tmp:size=512m
+    shm_size: 1gb
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+      - seccomp=./seccomp_profile.json   # Playwright's profile: lets Chromium's own sandbox work as non-root
+    mem_limit: 2g
+    pids_limit: 512
+    networks: [default]

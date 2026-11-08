@@ -1,0 +1,155 @@
+ Container openserp-exp  Running
+p2-nurse         6 queries written
+p3-warehouse     6 queries written
+p2-nurse         search 200 8 organic in 0.9s via ['duckduckgo'] :: Raffles Medical Group employee reviews Singapore
+p1-software      6 queries written
+p4-marketing     6 queries written
+p5-finance       6 queries written
+p7-fictitious    6 queries written
+p7-fictitious    search 200 8 organic in 0.0s via ['duckduckgo'] :: Zzqxv Qwlmt Holdings Pte Ltd employee reviews Sing
+p7-fictitious    search 200 8 organic in 0.0s via ['duckduckgo'] :: Zzqxv Qwlmt Holdings Pte Ltd layoffs restructuring
+p7-fictitious    search 200 8 organic in 0.0s via ['duckduckgo'] :: Zzqxv Qwlmt Holdings Pte Ltd scam fraud reports
+p7-fictitious    search 200 8 organic in 0.0s via ['duckduckgo'] :: Zzqxv Qwlmt Holdings Pte Ltd interview process det
+p7-fictitious    search 200 8 organic in 0.0s via ['duckduckgo'] :: Zzqxv Qwlmt Holdings Pte Ltd salary information Si
+p7-fictitious    search 200 8 organic in 0.0s via ['duckduckgo'] :: Zzqxv Qwlmt Holdings Pte Ltd lawsuits regulatory n
+p7-fictitious    48 unique organic URLs, reading 8
+p7-fictitious    page irrelevant   4893 chars   0.3s https://sg.indeed.com/cmp/Viewqwest-Pte-Ltd/reviews
+p8-lookalike     6 queries written
+p6-obscure-real  6 queries written
+p7-fictitious    page error        0 chars   0.3s https://www.glassdoor.sg/Reviews/BORGWARNER-SINGAPORE-HOLDINGS-PTE-LTD
+p3-warehouse     search 200 8 organic in 6.3s via ['duckduckgo'] :: Ninja Van Singapore employee reviews
+p7-fictitious    page error        0 chars   0.3s https://www.glassdoor.com/Reviews/BORGWARNER-SINGAPORE-HOLDINGS-PTE-LT
+p7-fictitious    page blocked    490 chars   0.7s https://www.reddit.com/r/SingaporeRaw/comments/156h5vz/megathread_toxi
+p7-fictitious    page irrelevant   1532 chars   0.2s https://www.scam.sg/companies
+p7-fictitious    page irrelevant   3640 chars   0.3s https://sg.indeed.com/cmp/Natsteel-Holdings-Pte-Ltd/reviews?fcountry=A
+p2-nurse         search 200 8 organic in 12.1s via ['duckduckgo'] :: Raffles Medical Group layoffs restructuring news
+p7-fictitious    page error        0 chars   0.3s https://www.glassdoor.com/Reviews/SEA-Singapore-Reviews-E1882231.htm
+p7-fictitious    page blocked    490 chars   0.6s https://www.reddit.com/r/phcareers/comments/qdzecl/not_sure_if_i_still
+p1-software      search 200 8 organic in 17.7s via ['duckduckgo'] :: Grab Holdings employee reviews Singapore
+p7-fictitious    brief: cannot_verify / low ; claims verified 0, unverified 0
+p4-marketing     search 200 8 organic in 23.1s via ['duckduckgo'] :: Lazada Singapore employee reviews
+p5-finance       search 200 8 organic in 28.6s via ['duckduckgo'] :: KPMG Singapore employee reviews audit associate
+p8-lookalike     search 200 8 organic in 33.0s via ['duckduckgo'] :: DBS Bank Singapore Recruitment Pte Ltd employee re
+p6-obscure-real  search 200 8 organic in 38.4s via ['duckduckgo'] :: Avanguarde Pte. Ltd. employee reviews Singapore
+p3-warehouse     search 200 8 organic in 42.0s via ['duckduckgo'] :: Ninja Van Singapore layoffs restructuring news
+p2-nurse         search 200 8 organic in 42.0s via ['duckduckgo'] :: Raffles Medical Group scam fraud reports
+p1-software      search 200 8 organic in 42.1s via ['duckduckgo'] :: Grab Holdings layoffs restructuring news
+p4-marketing     search 200 8 organic in 42.3s via ['duckduckgo'] :: Lazada Singapore layoffs restructuring news
+p5-finance       search 200 8 organic in 42.1s via ['duckduckgo'] :: KPMG Singapore layoffs restructuring news
+p8-lookalike     search 200 8 organic in 42.0s via ['duckduckgo'] :: DBS Bank Singapore Recruitment Pte Ltd layoffs res
+p6-obscure-real  search 200 8 organic in 42.3s via ['duckduckgo'] :: Avanguarde Pte. Ltd. layoffs restructuring news
+p3-warehouse     search 200 8 organic in 42.3s via ['duckduckgo'] :: Ninja Van Singapore scam fraud reports
+p2-nurse         search 200 8 organic in 42.2s via ['duckduckgo'] :: Raffles Medical Group interview process staff nurs
+p1-software      search 200 8 organic in 42.2s via ['duckduckgo'] :: Grab Holdings scam fraud reports
+p4-marketing     search 200 8 organic in 42.0s via ['duckduckgo'] :: Lazada Singapore scam fraud reports
+p5-finance       search 200 8 organic in 41.9s via ['duckduckgo'] :: KPMG Singapore scam fraud reports
+p8-lookalike     search 200 8 organic in 42.1s via ['duckduckgo'] :: DBS Bank Singapore Recruitment Pte Ltd scam fraud 
+p6-obscure-real  search 200 8 organic in 41.8s via ['duckduckgo'] :: Avanguarde Pte. Ltd. scam fraud reports
+p3-warehouse     search 200 8 organic in 42.0s via ['duckduckgo'] :: Ninja Van Singapore interview process details
+p2-nurse         search 200 8 organic in 42.1s via ['duckduckgo'] :: Raffles Medical Group staff nurse salary Singapore
+p1-software      search 200 8 organic in 42.0s via ['duckduckgo'] :: Grab Holdings interview process Backend Engineer
+p4-marketing     search 200 8 organic in 41.9s via ['duckduckgo'] :: Lazada Singapore interview process details
+p5-finance       search 200 8 organic in 42.1s via ['duckduckgo'] :: KPMG Singapore audit associate interview process
+p8-lookalike     search 200 8 organic in 42.3s via ['duckduckgo'] :: DBS Bank Singapore Recruitment Pte Ltd interview p
+p6-obscure-real  search 200 8 organic in 42.0s via ['duckduckgo'] :: Avanguarde Pte. Ltd. interview process details
+p3-warehouse     search 200 8 organic in 42.1s via ['duckduckgo'] :: Ninja Van Singapore warehouse associate salary
+p2-nurse         search 200 8 organic in 42.1s via ['duckduckgo'] :: Raffles Medical Group lawsuits regulatory news
+p2-nurse         42 unique organic URLs, reading 8
+p2-nurse         page ok        7667 chars   0.4s https://sg.indeed.com/cmp/Raffles-Medical-Group/reviews?start=20
+p2-nurse         page blocked    178 chars   0.2s https://sginvestors.io/sgx/stock/bsl-raffles-medical/company-announcem
+p2-nurse         page ok         991 chars   0.9s https://www.rafflesmedicalgroup.com/our-group/news-room/press-releases
+p1-software      search 200 8 organic in 42.1s via ['duckduckgo'] :: Grab Holdings salary Backend Engineer Singapore
+p2-nurse         page ok        1027 chars   0.9s https://www.rafflesmedicalgroup.com/our-group/news-room/company-news
+p2-nurse         page ok        8401 chars   0.2s https://www.businesstimes.com.sg/keywords/raffles-medical-group
+p2-nurse         page blocked    178 chars   0.2s https://sginvestors.io/sgx/stock/bsl-raffles-medical/news-article
+p4-marketing     search 200 8 organic in 42.1s via ['duckduckgo'] :: Lazada Singapore salary Digital Marketing Executiv
+p2-nurse         page error        0 chars   0.5s https://www.glassdoor.sg/Reviews/Raffles-Medical-Group-Singapore-Revie
+p2-nurse         page error        0 chars   0.4s https://www.glassdoor.com/Reviews/Raffles-Medical-Group-Singapore-Revi
+p5-finance       search 200 8 organic in 42.3s via ['duckduckgo'] :: KPMG Singapore audit associate salary
+p2-nurse         brief: appears_real_and_consistent / medium ; claims verified 8, unverified 2
+p8-lookalike     search 200 8 organic in 41.8s via ['duckduckgo'] :: DBS Bank Singapore Recruitment Pte Ltd salary info
+p6-obscure-real  search 200 8 organic in 42.2s via ['duckduckgo'] :: Avanguarde Pte. Ltd. salary information Singapore
+p3-warehouse     search 200 8 organic in 42.0s via ['duckduckgo'] :: Ninja Van Singapore lawsuits regulatory news
+p3-warehouse     45 unique organic URLs, reading 8
+p3-warehouse     page ok        6162 chars   0.4s https://sg.indeed.com/cmp/Ninja-Van/reviews
+p3-warehouse     page ok        3753 chars   0.2s https://www.asiaone.com/singapore/over-s1-2m-lost-courier-phishing-sca
+p3-warehouse     page ok        1443 chars   1.2s https://sg.indeed.com/cmp/Ninja-Van/salaries
+p1-software      search 200 8 organic in 36.0s via ['duckduckgo'] :: Grab Holdings lawsuits regulatory news Singapore
+p1-software      47 unique organic URLs, reading 8
+p1-software      page ok        8533 chars   0.6s https://sg.indeed.com/cmp/Grab/reviews?fcountry=SG&floc=Singapore
+p3-warehouse     page error        0 chars   0.3s https://www.glassdoor.sg/Reviews/Ninja-Van-Singapore-Reviews-EI_IE9847
+p1-software      page error        0 chars   0.4s https://www.glassdoor.sg/Reviews/Grab-Singapore-Reviews-EI_IE958580.0,
+p3-warehouse     page ok         553 chars   0.4s https://sg.jobstreet.com/companies/ninja-van-168558704093230/reviews
+p1-software      page error        0 chars   0.3s https://www.glassdoor.com/Reviews/Grab-Singapore-Reviews-EI_IE958580.0
+p3-warehouse     page ok        1158 chars   0.5s https://sg.jobstreet.com/companies/ninja-van-168551459936163/reviews
+p4-marketing     search 200 8 organic in 36.0s via ['duckduckgo'] :: Lazada Singapore lawsuits regulatory news
+p4-marketing     48 unique organic URLs, reading 8
+p1-software      page error        0 chars   0.3s https://www.glassdoor.sg/Reviews/Grab-Reviews-E958580.htm
+p4-marketing     page ok        9522 chars   0.4s https://sg.indeed.com/cmp/Lazada/reviews
+p3-warehouse     page error        0 chars   0.3s https://www.glassdoor.com/Reviews/Ninja-Van-Reviews-E984783.htm
+p1-software      page ok         933 chars   0.5s https://sg.jobstreet.com/companies/grab-168542463310774/reviews
+p4-marketing     page error        0 chars   0.4s https://www.glassdoor.sg/Reviews/Lazada-Singapore-Reviews-EI_IE578726.
+p3-warehouse     page error        0 chars   0.4s https://www.glassdoor.sg/Reviews/Ninja-Van-Reviews-E984783.htm
+p4-marketing     page error        0 chars   0.3s https://www.glassdoor.com/Reviews/Lazada-Reviews-E578726.htm
+p1-software      page ok        2122 chars   1.6s https://www.payscale.com/research/SG/Employer=Grab/Reviews
+p4-marketing     page ok        1146 chars   0.4s https://sg.jobstreet.com/companies/lazada-168554893586129/reviews
+p5-finance       search 200 8 organic in 35.8s via ['duckduckgo'] :: KPMG Singapore lawsuits regulatory news
+p5-finance       46 unique organic URLs, reading 8
+p5-finance       page ok        7723 chars   0.4s https://sg.indeed.com/cmp/Kpmg-0828bc85/reviews?fjobtitle=Audit+Associ
+p1-software      page ok         933 chars   0.4s https://sg.jobstreet.com/companies/grab-168542463310774
+p4-marketing     page error        0 chars   0.3s https://www.glassdoor.sg/Reviews/Lazada-Reviews-E578726.htm
+p5-finance       page error        0 chars   0.3s https://www.glassdoor.com/Interview/KPMG-Audit-Associate-Singapore-Int
+p1-software      page ok        2979 chars   0.2s https://www.straitstimes.com/business/singapores-grab-cuts-1000-jobs-o
+p4-marketing     page ok        1967 chars   0.6s https://www.payscale.com/research/SG/Employer=Lazada_Group/Reviews
+p5-finance       page error        0 chars   0.3s https://www.glassdoor.sg/Reviews/KPMG-Audit-Associate-Reviews-EI_IE286
+p4-marketing     page error        0 chars   0.3s https://www.ambitionbox.com/reviews/lazada-reviews/singapore-location
+p5-finance       page error        0 chars   0.6s https://www.glassdoor.ca/Reviews/KPMG-Audit-Associate-Singapore-Review
+p8-lookalike     search 200 8 organic in 36.2s via ['duckduckgo'] :: DBS Bank Singapore Recruitment Pte Ltd lawsuits re
+p8-lookalike     46 unique organic URLs, reading 8
+p8-lookalike     page ok        9037 chars   0.6s https://sg.indeed.com/cmp/Dbs-Bank/reviews
+p4-marketing     page error        0 chars   0.6s https://www.glassdoor.co.in/Reviews/Lazada-Singapura-Reviews-EI_IE5787
+p5-finance       page error        0 chars   0.4s https://www.glassdoor.sg/Reviews/KPMG-Singapore-Reviews-EI_IE2867.0,4_
+p8-lookalike     page ok        2195 chars   1.2s https://sg.indeed.com/cmp/Dbs-Bank/salaries
+p5-finance       page ok       10046 chars   0.5s https://sg.jobstreet.com/companies/kpmg-168555534814946/reviews
+p8-lookalike     page ok         961 chars   0.5s https://sg.jobstreet.com/companies/dbs-bank-168553715857256/reviews
+p6-obscure-real  search 200 8 organic in 36.0s via ['duckduckgo'] :: Avanguarde Pte. Ltd. lawsuits regulatory news
+p6-obscure-real  33 unique organic URLs, reading 8
+p5-finance       page ok        9474 chars   0.7s https://www.indeed.com/cmp/Kpmg-0828bc85/reviews?fcountry=ALL&fjobtitl
+p6-obscure-real  page ok        2623 chars   0.3s https://www.sgpbusiness.com/company/Avanguarde-Pte-Ltd
+p8-lookalike     page error        0 chars   0.3s https://www.glassdoor.sg/Reviews/DBS-Bank-Reviews-E611812.htm
+p6-obscure-real  page ok        5311 chars   0.1s https://recordowl.com/company/avanguarde-pte-ltd
+p5-finance       page ok        5060 chars   1.0s https://www.big4events.com/blog/kpmg-layoffs-what-happened-who-affecte
+p8-lookalike     page error        0 chars   0.3s https://www.glassdoor.sg/Reviews/DBS-Bank-Singapore-Reviews-EI_IE61181
+p6-obscure-real  page thin        95 chars   0.7s https://www.scam.sg/companies/202545538Z/avanguarde-pte-ltd
+p8-lookalike     page ok         961 chars   0.5s https://sg.jobstreet.com/companies/dbs-bank-168553715857256
+p6-obscure-real  page ok        1475 chars   0.5s https://sg.jobstreet.com/Avanguarde-jobs
+p8-lookalike     page error        0 chars   0.4s https://www.glassdoor.com/Reviews/DBS-Bank-singapore-Reviews-EI_IE6118
+p6-obscure-real  page ok        9685 chars   0.2s https://www.companies.sg/business/202545538Z/AVANGUARDE-PTE-LTD
+p8-lookalike     page ok        2601 chars   0.4s https://www.prepnplaced.com/company-ratings/dbs
+p6-obscure-real  page ok        4371 chars   0.8s https://sg.linkedin.com/jobs/view/commis-chef-at-avanguarde-pte-ltd-44
+p6-obscure-real  page thin       151 chars   0.7s https://www.mycareersfuture.gov.sg/job/food-and-beverage/commis-chef-a
+p6-obscure-real  page error        0 chars   0.4s https://en-sg.whatjobs.com/company/avanguarde-pte-ltd/profile
+p3-warehouse     brief: appears_real_and_consistent / medium ; claims verified 13, unverified 3
+p1-software      brief: appears_real_and_consistent / medium ; claims verified 11, unverified 2
+p4-marketing     brief: appears_real_limited_evidence / medium ; claims verified 11, unverified 2
+p5-finance       brief: appears_real_and_consistent / high ; claims verified 11, unverified 3
+p8-lookalike     brief: appears_real_and_consistent / high ; claims verified 11, unverified 4
+p6-obscure-real  brief: appears_real_limited_evidence / medium ; claims verified 7, unverified 2
+{
+ "wall_seconds": 587.9,
+ "totals": {
+  "search_calls": 48,
+  "search_ok": 48,
+  "search_empty": 0,
+  "search_fail": 0,
+  "pages_tried": 64,
+  "pages_ok": 31,
+  "pages_thin": 2,
+  "pages_blocked": 4,
+  "pages_error": 24,
+  "pages_irrelevant": 3,
+  "llm_calls": 16,
+  "llm_tokens": 39033,
+  "llm_429": 0
+ }
+}

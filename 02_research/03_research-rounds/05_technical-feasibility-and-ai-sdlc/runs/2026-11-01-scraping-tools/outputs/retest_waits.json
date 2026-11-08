@@ -1,0 +1,72 @@
+[
+ {
+  "tool": "crawl4ai_raw",
+  "url": "https://www.mycareersfuture.gov.sg/job/customer-service/customer-service-executi",
+  "chars": 2989,
+  "seconds": 2.9,
+  "has_responsibilities": false
+ },
+ {
+  "tool": "crawl4ai_raw",
+  "url": "https://www.mycareersfuture.gov.sg/job/admin/customer-support-specialist-butterf",
+  "chars": 6427,
+  "seconds": 0.77,
+  "has_responsibilities": true
+ },
+ {
+  "tool": "crawl4ai_raw",
+  "url": "https://www.mycareersfuture.gov.sg/job/logistics/junior-vessel-operation-executi",
+  "chars": 3491,
+  "seconds": 0.75,
+  "has_responsibilities": false
+ },
+ {
+  "tool": "crawl4ai_raw",
+  "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/manufacturing-technician-",
+  "chars": 3291,
+  "seconds": 0.72,
+  "has_responsibilities": false
+ },
+ {
+  "tool": "crawl4ai_raw",
+  "url": "https://www.mycareersfuture.gov.sg/job/healthcare/patient-service-associate-nati",
+  "chars": 9998,
+  "seconds": 0.73,
+  "has_responsibilities": true
+ },
+ {
+  "tool": "lightpanda_wait",
+  "url": "https://www.mycareersfuture.gov.sg/job/customer-service/customer-service-executi",
+  "chars": 11888,
+  "seconds": 6.05,
+  "has_responsibilities": true
+ },
+ {
+  "tool": "lightpanda_wait",
+  "url": "https://www.mycareersfuture.gov.sg/job/admin/customer-support-specialist-butterf",
+  "chars": 4875,
+  "seconds": 6.4,
+  "has_responsibilities": true
+ },
+ {
+  "tool": "lightpanda_wait",
+  "url": "https://www.mycareersfuture.gov.sg/job/logistics/junior-vessel-operation-executi",
+  "chars": 5761,
+  "seconds": 5.6,
+  "has_responsibilities": true
+ },
+ {
+  "tool": "lightpanda_wait",
+  "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/manufacturing-technician-",
+  "chars": 8323,
+  "seconds": 5.7,
+  "has_responsibilities": true
+ },
+ {
+  "tool": "lightpanda_wait",
+  "url": "https://www.mycareersfuture.gov.sg/job/healthcare/patient-service-associate-nati",
+  "chars": 6277,
+  "seconds": 5.67,
+  "has_responsibilities": true
+ }
+]

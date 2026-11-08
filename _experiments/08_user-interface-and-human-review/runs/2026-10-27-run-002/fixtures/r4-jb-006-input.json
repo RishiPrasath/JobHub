@@ -1,0 +1,30 @@
+{
+  "posting_id": "R4-JB-006",
+  "captured_at": "2026-10-19",
+  "source": {
+    "name": "FastJobs",
+    "context": "trade/operational; Changi",
+    "ownership": "mixed"
+  },
+  "evidence": {
+    "employment": "full-time",
+    "work_pattern": "5.5-day week",
+    "salary_displayed": "S$2600–3000",
+    "qualification_wording": "minimum Nitec/Diploma Automotive",
+    "licence_wording": "Class 3/4/5",
+    "working_hours_and_location": "working hours and Singapore-only wording are present",
+    "employer_context_signal": "normally responds within 24 hours",
+    "updated": "2026-10-19",
+    "expiry": "2026-10-23"
+  },
+  "unknowns": [
+    "Whether the response indicator is employer-provided or platform-derived.",
+    "Detailed benefits.",
+    "Assessment stages.",
+    "Whether expiry guarantees hiring closure."
+  ],
+  "review_rules": [
+    "Do not treat normally responds within 24 hours as a guarantee.",
+    "Do not import Class 4 Driver qualifications into this role."
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "posting_id": "R4-JB-003",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "text": "$3,800 to $4,600 Monthly",
+      "state": "present",
+      "source_locator": "evidence.salary_displayed",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C2",
+      "text": "monthly income includes overtime, night and other allowances, plus training, year-end bonus and KPI incentive",
+      "state": "present",
+      "source_locator": "evidence.salary_and_benefits",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C3",
+      "text": "day/night shifts, six days per week, four rest days per month, rotation, night allowance and overtime policy",
+      "state": "present",
+      "source_locator": "evidence.working_hours",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C4",
+      "text": "full-time, long-term",
+      "state": "present",
+      "source_locator": "evidence.employment_type",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C5",
+      "text": "Pandan Loop and travel to ports",
+      "state": "present",
+      "source_locator": "evidence.work_location",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C6",
+      "text": "Class 4 licence, experience, shifts, overtime, responsibility and teamwork",
+      "state": "present",
+      "source_locator": "evidence.requirements",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C7",
+      "text": "PSA Pass, forklift, rigger/signalman and SCDF HazMat",
+      "state": "present",
+      "source_locator": "evidence.additional_qualifications",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C8",
+      "text": "Application via MyCareersFuture; WhatsApp contact visible",
+      "state": "present",
+      "source_locator": "evidence.application_route",
+      "source_owner": "platform",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C9",
+      "text": "0% skills matched",
+      "state": "platform_signal",
+      "source_locator": "evidence.platform_signal",
+      "source_owner": "platform",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C10",
+      "text": "Whether every allowance is guaranteed.",
+      "state": "unknown",
+      "source_locator": null,
+      "source_owner": "unknown",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C11",
+      "text": "How overtime is calculated.",
+      "state": "unknown",
+      "source_locator": null,
+      "source_owner": "unknown",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C12",
+      "text": "Response time.",
+      "state": "unknown",
+      "source_locator": null,
+      "source_owner": "unknown",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C13",
+      "text": "Vacancy authenticity beyond the displayed content.",
+      "state": "unknown",
+      "source_locator": null,
+      "source_owner": "unknown",
+      "review_status": "draft",
+      "verification_question": null
+    }
+  ],
+  "review_coverage": {
+    "role_identity": {
+      "status": "not_visible",
+      "claim_ids": []
+    },
+    "duties": {
+      "status": "not_visible",
+      "claim_ids": []
+    },
+    "qualifications": {
+      "status": "covered",
+      "claim_ids": [
+        "C6",
+        "C7"
+      ]
+    },
+    "work_conditions": {
+      "status": "covered",
+      "claim_ids": [
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    "compensation": {
+      "status": "covered",
+      "claim_ids": [
+        "C1",
+        "C2"
+      ]
+    },
+    "compensation_rules": {
+      "status": "unknown",
+      "claim_ids": [
+        "C10",
+        "C11"
+      ]
+    },
+    "application_process": {
+      "status": "covered",
+      "claim_ids": [
+        "C8"
+      ]
+    },
+    "employer_context": {
+      "status": "not_visible",
+      "claim_ids": []
+    },
+    "contradictions": {
+      "status": "not_visible",
+      "claim_ids": []
+    },
+    "unknowns": {
+      "status": "covered",
+      "claim_ids": [
+        "C10",
+        "C11",
+        "C12",
+        "C13"
+      ]
+    },
+    "verification_questions": {
+      "status": "not_visible",
+      "claim_ids": []
+    }
+  },
+  "decision_changing_questions": [
+    "Whether every allowance is guaranteed.",
+    "How overtime is calculated.",
+    "Response time.",
+    "Vacancy authenticity beyond the displayed content."
+  ],
+  "external_action_allowed": false
+}

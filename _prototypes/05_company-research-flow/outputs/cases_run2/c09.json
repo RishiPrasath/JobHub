@@ -1,0 +1,506 @@
+{
+ "employer": "Sheng Siong Group Ltd",
+ "role": "Cashier",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "SHENG SIONG GROUP LTD. is registered in Singapore (status: Live Company, registered 2010-11-10).",
+  "basis": "name only",
+  "entity": {
+   "uen": "201023989Z",
+   "name": "SHENG SIONG GROUP LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2010-11-10",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Sheng Siong Group Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Sheng Siong Group Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Sheng Siong Group Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Sheng Siong Group Ltd\" Cashier interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"SHENG SIONG GROUP LTD.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://corporate.shengsiong.com.sg/career",
+    "status": "ok",
+    "chars": 603,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://aniday.com/en/blog/working-at-sheng-siong-group-singapore-company-history-culture-benefits-and-leadership-2954",
+    "status": "ok",
+    "chars": 7277,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.ntuc.org.sg/uportal/news/Sheng%20Siong%20Group%20A%20culture%20of%20care%20and%20support%20for%20every%20employee",
+    "status": "ok",
+    "chars": 5195,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://sginvestors.io/sgx/stock/ov8-sheng-siong/company-announcement",
+    "status": "ok",
+    "chars": 5017,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://drwealth.com/sheng-siong-fell-14-in-2-days-sales-at-its-existing-stores-are-slowing-how-bad-is-it",
+    "status": "ok",
+    "chars": 6165,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Sheng-Siong-Group-Ltd",
+    "status": "ok",
+    "chars": 2960,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/business/201023989Z/SHENG-SIONG-GROUP-LTD",
+    "status": "ok",
+    "chars": 28783,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.companies.sg/business/201023989Z/SHENG-SIONG-GROUP-LTD-",
+    "status": "ok",
+    "chars": 28783,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Sheng-Siong-Reviews-E1186795.htm",
+    "title": "Sheng Siong Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/sheng-siong-168553100524931/reviews",
+    "title": "Reviews Sheng Siong employee ratings and reviews | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Sheng-Siong-Supermarket/reviews?fcountry=ALL",
+    "title": "SHENG SIONG SUPERMARKET Employee Reviews - Indeed",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/sheng-siong-168553100524931",
+    "title": "Working at Sheng Siong company profile and information | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Sheng-Siong-Supermarket",
+    "title": "SHENG SIONG SUPERMARKET Careers and Employment - Indeed",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Sheng-Siong-Supermarket/salaries/Cashier",
+    "title": "Cashier Salaries in Singapore for SHENG SIONG SUPERMARKET",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Interview/Sheng-Siong-Interview-Questions-E1186795.htm",
+    "title": "Sheng Siong Interview Questions (2026) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Salary/Sheng-Siong-Salaries-E1186795.htm",
+    "title": "154 Salaries at Sheng Siong Shared by Employees | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Sheng-Siong-Supermarket/salaries",
+    "title": "SHENG SIONG SUPERMARKET Salaries in Singapore - Indeed",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/Sheng-Siong-Group-jobs",
+    "title": "Sheng Siong Group Jobs in Singapore (with Salaries) - Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/SHENG-SIONG-jobs",
+    "title": "SHENG SIONG Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Salary/Sheng-Siong-Cashier-Singapore-Salaries-EI_IE1186795.0,11_KO12,19_IL.20,29_IM1123.htm",
+    "title": "Sheng Siong Cashier Salaries in Singapore, Singapore",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "sheng siong group"
+   ],
+   "pages_with_exact_name": 7,
+   "snippets_with_exact_name": 13,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 14
+ },
+ "headline": "exists_and_consistent",
+ "headline_meaning": "Registered in Singapore, and public sources agree it is the company named.",
+ "reasons": [
+  "registry: confirmed",
+  "model: consistent across 8 pages"
+ ],
+ "brief": {
+  "confidence": "high",
+  "could_not_verify": [
+   "specific cashier salary range",
+   "exact daily duties of a cashier at Sheng Siong",
+   "benefits specific to cashier role"
+  ],
+  "key_facts": [
+   {
+    "claim": "Sheng Siong Group Ltd is a live Singaporean public company incorporated on 10 November 2010.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Legal name: SHENG SIONG GROUP LTD. ... Registered: 2010-11-10 ... Status: Live Company",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 6,
+      "url": "https://www.sgpbusiness.com/company/Sheng-Siong-Group-Ltd",
+      "quote": "Incorporated 10 Nov 2010 (16 years) ... Status Live Company",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "The company is listed on the Singapore Exchange (SGX) under code OV8 since 17 August 2011.",
+    "evidence": [
+     {
+      "source": 7,
+      "url": "https://www.companies.sg/business/201023989Z/SHENG-SIONG-GROUP-LTD",
+      "quote": "Listing date / history: Listed on 17 August 2011 on SGX Mainboard",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 4,
+      "url": "https://sginvestors.io/sgx/stock/ov8-sheng-siong/company-announcement",
+      "quote": "SHENG SIONG GROUP LTD (SGX:OV8) ... SGX Mainboard",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Sheng Siong operates a supermarket chain with dozens of outlets across Singapore.",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://aniday.com/en/blog/working-at-sheng-siong-group-singapore-company-history-culture-benefits-and-leadership-2954",
+      "quote": "oversees a Singaporean supermarket chain with 68 outlets",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 5,
+      "url": "https://drwealth.com/sheng-siong-fell-14-in-2-days-sales-at-its-existing-stores-are-slowing-how-bad-is-it",
+      "quote": "by late 2026, the group had expanded to 92 stores in Singapore",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "The company emphasizes employee welfare, competitive wages and offers education allowances.",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://aniday.com/en/blog/working-at-sheng-siong-group-singapore-company-history-culture-benefits-and-leadership-2954",
+      "quote": "committed to employee welfare and provision of competitive wages",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 3,
+      "url": "https://www.ntuc.org.sg/uportal/news/Sheng%20Siong%20Group%20A%20culture%20of%20care%20and%20support%20for%20every%20employee",
+      "quote": "supports employees' children’s education with a tailored allowance scheme",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Sheng Siong received a Plaque of Commendation at the NTUC May Day Awards 2023 for employee welfare.",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://aniday.com/en/blog/working-at-sheng-siong-group-singapore-company-history-culture-benefits-and-leadership-2954",
+      "quote": "received the Plaque of Commendation at the NTUC May Day Awards 2023",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 3,
+      "url": "https://www.ntuc.org.sg/uportal/news/Sheng%20Siong%20Group%20A%20culture%20of%20care%20and%20support%20for%20every%20employee",
+      "quote": "conferred the Plaque of Commendation at the NTUC May Day Awards 2023",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "The CEO is Lim Hock Chee, who is known for a hands‑on leadership style.",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://aniday.com/en/blog/working-at-sheng-siong-group-singapore-company-history-culture-benefits-and-leadership-2954",
+      "quote": "CEO Lim Hock Chee, 62, who believes in leading by example",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 7,
+      "url": "https://www.companies.sg/business/201023989Z/SHENG-SIONG-GROUP-LTD",
+      "quote": "Mr. Lim Hock Chee Chief Executive Officer (“CEO”)",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "The corporate headquarters and distribution centre are located at 6 Mandai Link, Singapore 728652.",
+    "evidence": [
+     {
+      "source": 6,
+      "url": "https://www.sgpbusiness.com/company/Sheng-Siong-Group-Ltd",
+      "quote": "registered address is 6 MANDAI LINK, SINGAPORE (728652)",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 7,
+      "url": "https://www.companies.sg/business/201023989Z/SHENG-SIONG-GROUP-LTD",
+      "quote": "Registered address ... 6 MANDAI LINK Singapore 728652",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Sheng Siong actively recruits staff through its career portal and HR contact line.",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://corporate.shengsiong.com.sg/career",
+      "quote": "You may also contact our Human Resource Department via: Tel: (+65) 6895 1888",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 1,
+      "url": "https://corporate.shengsiong.com.sg/career",
+      "quote": "Join Us ... At Sheng Siong, we have talented and committed individuals",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "The company has a strong culture of employee support and training.",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://www.ntuc.org.sg/uportal/news/Sheng%20Siong%20Group%20A%20culture%20of%20care%20and%20support%20for%20every%20employee",
+      "quote": "We often send our employees for courses for them to learn new skills",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 2,
+      "url": "https://aniday.com/en/blog/working-at-sheng-siong-group-singapore-company-history-culture-benefits-and-leadership-2954",
+      "quote": "culture fosters, aids, and elevates each employee, guaranteeing competitive wages",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Sheng Siong is financially significant, with a market‑cap and regular analyst coverage.",
+    "evidence": [
+     {
+      "source": 4,
+      "url": "https://sginvestors.io/sgx/stock/ov8-sheng-siong/company-announcement",
+      "quote": "Sector / Industry: Consumer Staples / Food & Staples Retailing",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 5,
+      "url": "https://drwealth.com/sheng-siong-fell-14-in-2-days-sales-at-its-existing-stores-are-slowing-how-bad-is-it",
+      "quote": "defensive market darling, Sheng Siong Group Ltd (SGX: OV8)",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "red_flags": [
+   {
+    "claim": "Exact number of stores varies between sources (68 vs 92 vs 90).",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://aniday.com/en/blog/working-at-sheng-siong-group-singapore-company-history-culture-benefits-and-leadership-2954",
+      "quote": "with 68 outlets",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 5,
+      "url": "https://drwealth.com/sheng-siong-fell-14-in-2-days-sales-at-its-existing-stores-are-slowing-how-bad-is-it",
+      "quote": "expanded to 92 stores in Singapore",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 5,
+      "url": "https://drwealth.com/sheng-siong-fell-14-in-2-days-sales-at-its-existing-stores-are-slowing-how-bad-is-it",
+      "quote": "second biggest supermarket chain in Singapore with nearly 100 stores today",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "validity_reasoning": "Multiple independent sources (official registry, corporate website, news/analysis articles, and company registry listings) consistently confirm the existence, registration details, SGX listing, and employee‑focused culture of Sheng Siong Group Ltd. Minor discrepancies (store count) are typical for a rapidly expanding retailer and do not undermine overall credibility.",
+  "claims_verified": 9,
+  "claims_unverified": 2,
+  "model_validity_status": "appears_real_and_consistent"
+ },
+ "could_not_read": [],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Sheng-Siong-Reviews-E1186795.htm",
+   "title": "Sheng Siong Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/sheng-siong-168553100524931/reviews",
+   "title": "Reviews Sheng Siong employee ratings and reviews | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Sheng-Siong-Supermarket/reviews?fcountry=ALL",
+   "title": "SHENG SIONG SUPERMARKET Employee Reviews - Indeed",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/sheng-siong-168553100524931",
+   "title": "Working at Sheng Siong company profile and information | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Sheng-Siong-Supermarket",
+   "title": "SHENG SIONG SUPERMARKET Careers and Employment - Indeed",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Sheng-Siong-Supermarket/salaries/Cashier",
+   "title": "Cashier Salaries in Singapore for SHENG SIONG SUPERMARKET",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Interview/Sheng-Siong-Interview-Questions-E1186795.htm",
+   "title": "Sheng Siong Interview Questions (2026) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Salary/Sheng-Siong-Salaries-E1186795.htm",
+   "title": "154 Salaries at Sheng Siong Shared by Employees | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Sheng-Siong-Supermarket/salaries",
+   "title": "SHENG SIONG SUPERMARKET Salaries in Singapore - Indeed",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/Sheng-Siong-Group-jobs",
+   "title": "Sheng Siong Group Jobs in Singapore (with Salaries) - Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/SHENG-SIONG-jobs",
+   "title": "SHENG SIONG Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Salary/Sheng-Siong-Cashier-Singapore-Salaries-EI_IE1186795.0,11_KO12,19_IL.20,29_IM1123.htm",
+   "title": "Sheng Siong Cashier Salaries in Singapore, Singapore",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "specific cashier salary range",
+  "exact daily duties of a cashier at Sheng Siong",
+  "benefits specific to cashier role"
+ ],
+ "seconds": 127.9,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

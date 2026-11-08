@@ -1,0 +1,16 @@
+c01 RIGHT     Raffles Medical Group              expected exists_and_consistent                        got exists_and_consistent            (8.9s)
+c02 RIGHT     Lazada Singapore                   expected exists_and_consistent/exists_limited_evidence got exists_and_consistent            (72.6s)
+c03 RIGHT     Avanguarde Pte. Ltd.               expected exists_limited_evidence                      got exists_limited_evidence          (127.6s)
+c04 RIGHT     Grab Holdings                      expected brand_legal_entity_unconfirmed               got brand_legal_entity_unconfirmed   (127.9s)
+c05 RIGHT     Ninja Van Singapore                expected brand_legal_entity_unconfirmed               got brand_legal_entity_unconfirmed   (128.0s)
+c06 RIGHT     KPMG Singapore                     expected brand_legal_entity_unconfirmed               got brand_legal_entity_unconfirmed   (125.8s)
+c07 RIGHT     Zzqxv Qwlmt Holdings Pte Ltd       expected could_not_confirm_company                    got could_not_confirm_company        (63.0s)
+c08 RIGHT     DBS Bank Singapore Recruitment Pte expected likely_lookalike                             got likely_lookalike                 (63.8s)
+c09 RIGHT     Sheng Siong Group Ltd              expected exists_and_consistent/exists_limited_evidence got exists_and_consistent            (126.4s)
+c10 RIGHT     Grab Singapore Recruitment Pte Ltd expected likely_lookalike/could_not_confirm_company   got likely_lookalike                 (126.3s)
+c12 RIGHT     Randstad Pte Limited               expected identity_mismatch                            got identity_mismatch                (0.0s)
+c13 RIGHT     Underwriters Limited               expected not_active                                   got not_active                       (0.1s)
+c14 RIGHT     Land Transport Authority           expected public_body                                  got public_body                      (0.3s)
+c11 RIGHT     Singapore Airlines Careers Hub Pte expected likely_lookalike/could_not_confirm_company   got could_not_confirm_company        (125.0s)
+seen before  8 cases: 8 right, 0 off, 0 dangerous
+new          6 cases: 6 right, 0 off, 0 dangerous

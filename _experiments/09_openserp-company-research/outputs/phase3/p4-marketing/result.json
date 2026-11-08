@@ -1,0 +1,21 @@
+{
+ "persona": "p4-marketing",
+ "who": "marketing professional",
+ "company": "Lazada Singapore",
+ "role": "Digital Marketing Executive",
+ "truth_note": "real, well known",
+ "stages": {},
+ "ok": true,
+ "validity": "appears_real_limited_evidence",
+ "confidence": "medium",
+ "claims_verified": 11,
+ "claims_unverified": 2,
+ "queries": 6,
+ "searches_ok": 6,
+ "unique_urls": 48,
+ "pages_tried": 8,
+ "pages_ok": 3,
+ "pages_failed": 5,
+ "llm_tokens_brief": 4015,
+ "seconds": 394.3
+}

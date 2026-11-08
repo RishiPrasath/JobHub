@@ -1,0 +1,405 @@
+[
+ {
+  "id": "P01",
+  "wayback": null,
+  "gdelt": {
+   "query": "Moda Paolo",
+   "error": "429:HTTP Error 429: Too Many Requests"
+  },
+  "seconds": 22.4
+ },
+ {
+  "id": "P02",
+  "wayback": null,
+  "gdelt": {
+   "query": "Yan Business Group",
+   "error": "429:HTTP Error 429: Too Many Requests"
+  },
+  "seconds": 25.1
+ },
+ {
+  "id": "P03",
+  "wayback": {
+   "host": "palo-it.com",
+   "years_with_captures": [
+    "2012",
+    "2013",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020"
+   ],
+   "first_year": "2012",
+   "n_years": 8
+  },
+  "gdelt": {
+   "query": "Palo IT",
+   "error": "429:HTTP Error 429: Too Many Requests"
+  },
+  "seconds": 27.6
+ },
+ {
+  "id": "P04",
+  "wayback": {
+   "host": "grab.com",
+   "years_with_captures": [
+    "1997",
+    "1999",
+    "2000",
+    "2001",
+    "2002",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016"
+   ],
+   "first_year": "1997",
+   "n_years": 18
+  },
+  "gdelt": {
+   "query": "Grab",
+   "error": "429:HTTP Error 429: Too Many Requests"
+  },
+  "seconds": 27.5
+ },
+ {
+  "id": "P05",
+  "wayback": {
+   "host": "amkh.org.sg",
+   "years_with_captures": [
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "first_year": "2008",
+   "n_years": 18
+  },
+  "gdelt": {
+   "query": "Ang Mo Kio-Thye Hua Kwan Hospital",
+   "error": "429:HTTP Error 429: Too Many Requests"
+  },
+  "seconds": 31.6
+ },
+ {
+  "id": "P06",
+  "wayback": {
+   "host": "sgh.com.sg",
+   "years_with_captures": [
+    "2000",
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "first_year": "2000",
+   "n_years": 20
+  },
+  "gdelt": {
+   "query": "Singapore General Hospital",
+   "error": "429:HTTP Error 429: Too Many Requests"
+  },
+  "seconds": 30.4
+ },
+ {
+  "id": "P07",
+  "wayback": {
+   "host": "hrnetgroup.com",
+   "years_with_captures": [
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "first_year": "2013",
+   "n_years": 14
+  },
+  "gdelt": {
+   "query": "HRnetGroup",
+   "error": "429:HTTP Error 429: Too Many Requests"
+  },
+  "seconds": 28.7
+ },
+ {
+  "id": "P08",
+  "wayback": {
+   "host": "dhl.com",
+   "years_with_captures": [
+    "1996",
+    "1997",
+    "1998",
+    "1999",
+    "2000",
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2026"
+   ],
+   "first_year": "1996",
+   "n_years": 16
+  },
+  "gdelt": {
+   "query": "DHL Supply Chain Singapore",
+   "error": "429:HTTP Error 429: Too Many Requests"
+  },
+  "seconds": 26.9
+ },
+ {
+  "id": "P09",
+  "wayback": null,
+  "gdelt": {
+   "query": "Supreme HR Advisory",
+   "error": "429:HTTP Error 429: Too Many Requests"
+  },
+  "seconds": 22.7
+ },
+ {
+  "id": "P10",
+  "wayback": {
+   "host": "marinabaysands.com",
+   "years_with_captures": [
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "first_year": "2007",
+   "n_years": 20
+  },
+  "gdelt": {
+   "query": "Marina Bay Sands",
+   "error": "429:HTTP Error 429: Too Many Requests"
+  },
+  "seconds": 27.7
+ },
+ {
+  "id": "P11",
+  "wayback": {
+   "host": "natureland.com.sg",
+   "years_with_captures": [
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "first_year": "2012",
+   "n_years": 15
+  },
+  "gdelt": {
+   "query": "Natureland",
+   "error": "429:HTTP Error 429: Too Many Requests"
+  },
+  "seconds": 28.6
+ },
+ {
+  "id": "P12",
+  "wayback": {
+   "host": "fairprice.com.sg",
+   "years_with_captures": [
+    "1999",
+    "2000",
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "first_year": "1999",
+   "n_years": 28
+  },
+  "gdelt": {
+   "query": "NTUC FairPrice",
+   "error": "429:HTTP Error 429: Too Many Requests"
+  },
+  "seconds": 28.2
+ },
+ {
+  "id": "P13",
+  "wayback": null,
+  "gdelt": {
+   "query": "Curos Learning",
+   "articles": 0,
+   "titles": []
+  },
+  "seconds": 29.0
+ },
+ {
+  "id": "P14",
+  "wayback": {
+   "host": "littleskoolhouse.com",
+   "years_with_captures": [
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "first_year": "2001",
+   "n_years": 26
+  },
+  "gdelt": {
+   "query": "Little Skool-House",
+   "error": "429:HTTP Error 429: Too Many Requests"
+  },
+  "seconds": 34.6
+ },
+ {
+  "id": "P15",
+  "wayback": {
+   "host": "randstad.com.sg",
+   "years_with_captures": [
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+   ],
+   "first_year": "2009",
+   "n_years": 18
+  },
+  "gdelt": {
+   "query": "Randstad Singapore",
+   "error": "429:HTTP Error 429: Too Many Requests"
+  },
+  "seconds": 29.0
+ }
+]

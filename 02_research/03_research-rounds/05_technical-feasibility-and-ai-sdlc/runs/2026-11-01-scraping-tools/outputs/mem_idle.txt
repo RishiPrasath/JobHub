@@ -1,0 +1,3 @@
+code-lightpanda-1 idle_mem=3.031MiB / 15.51GiB
+code-steel-1 idle_mem=395.6MiB / 15.51GiB
+code-crawl4ai-1 idle_mem=326.8MiB / 15.51GiB

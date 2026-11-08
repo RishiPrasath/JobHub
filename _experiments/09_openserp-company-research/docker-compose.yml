@@ -1,0 +1,45 @@
+# OpenSERP feasibility experiment. Built from the pinned source in vendor/openserp (see README for the commit).
+# Local only: the API is bound to 127.0.0.1. No proxies, no captcha solver.
+services:
+  openserp:
+    build:
+      context: ./vendor/openserp
+    image: jobhub-openserp-experiment:0.8.18
+    container_name: openserp-exp
+    init: true
+    command: ["serve"]
+    shm_size: 2gb                 # Chrome crashes on the default 64 MB /dev/shm
+    ports:
+      - "127.0.0.1:7000:7000"
+    environment:
+      OPENSERP_SERVER_HOST: "0.0.0.0"
+      OPENSERP_SERVER_PORT: "7000"
+    volumes:
+      - ./config/openserp.yaml:/usr/src/app/config.yaml:ro
+    read_only: true
+    tmpfs:
+      - /tmp:size=1g
+      - /home/chrome:size=512m,uid=1001
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 3g
+    pids_limit: 512
+    restart: "no"
+
+  # Throwaway tool container for the probes and the harness: standard library only, nothing installed on the host.
+  harness:
+    image: python:3.12-slim
+    profiles: ["tools"]
+    working_dir: /work
+    volumes:
+      - ./harness:/work
+      - ./outputs:/outputs
+    environment:
+      OPENSERP_URL: "http://openserp:7000"
+      PYTHONUNBUFFERED: "1"
+    env_file:
+      - path: ../../.env          # repo-root .env (git-ignored); only GROQ_* values are used, by the Phase 3 harness
+        required: false
+    depends_on:
+      - openserp

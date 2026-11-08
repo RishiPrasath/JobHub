@@ -1,0 +1,425 @@
+[
+ {
+  "id": "P01",
+  "employer": "MODA PAOLO FOOTWEAR PTE. LTD.",
+  "state": "exact_match",
+  "n_candidates": 1,
+  "n_live": 1,
+  "top": [
+   {
+    "score": 1.0,
+    "uen": "202225796R",
+    "name": "MODA PAOLO FOOTWEAR PTE. LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2022-07-25",
+    "ssic": "SALES OF SHOES"
+   }
+  ]
+ },
+ {
+  "id": "P02",
+  "employer": "YAN BUSINESS GROUP",
+  "state": "exact_match",
+  "n_candidates": 1,
+  "n_live": 1,
+  "top": [
+   {
+    "score": 1.0,
+    "uen": "53456498D",
+    "name": "YAN BUSINESS GROUP",
+    "matched_former_name": "",
+    "type": "Sole Proprietorship/ Partnership",
+    "status": "Live",
+    "incorporated": "2022-09-20",
+    "ssic": "na"
+   }
+  ]
+ },
+ {
+  "id": "P03",
+  "employer": "Palo IT Singapore",
+  "state": "exact_match",
+  "n_candidates": 1,
+  "n_live": 1,
+  "top": [
+   {
+    "score": 1.0,
+    "uen": "201206436K",
+    "name": "PALO IT SINGAPORE PTE. LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2012-03-14",
+    "ssic": "INFORMATION TECHNOLOGY CONSULTANCY"
+   }
+  ]
+ },
+ {
+  "id": "P04",
+  "employer": "Grab Taxi Holdings Pte. Ltd.",
+  "state": "unresolved",
+  "n_candidates": 0,
+  "n_live": 0,
+  "top": []
+ },
+ {
+  "id": "P05",
+  "employer": "Thye Hua Kwan Hospital",
+  "state": "likely_match",
+  "n_candidates": 1,
+  "n_live": 1,
+  "top": [
+   {
+    "score": 0.8,
+    "uen": "200201385C",
+    "name": "ANG MO KIO - THYE HUA KWAN HOSPITAL LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2002-02-22",
+    "ssic": "ESTABLISH, TAKEOVER, MAINTAIN HOSPITAL, HOSPICE, NURSING HOME ETC"
+   }
+  ]
+ },
+ {
+  "id": "P06",
+  "employer": "Singapore General Hospital",
+  "state": "exact_match",
+  "n_candidates": 7,
+  "n_live": 7,
+  "top": [
+   {
+    "score": 1.0,
+    "uen": "198703907Z",
+    "name": "SINGAPORE GENERAL HOSPITAL PTE LTD",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "1987-12-12",
+    "ssic": "na"
+   },
+   {
+    "score": 0.821,
+    "uen": "198904226R",
+    "name": "CHANGI GENERAL HOSPITAL PTE LTD",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "1989-10-01",
+    "ssic": "na"
+   },
+   {
+    "score": 0.821,
+    "uen": "200918847D",
+    "name": "LAPTOP GENERAL HOSPITAL PTE. LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2009-10-08",
+    "ssic": "na"
+   },
+   {
+    "score": 0.8,
+    "uen": "202226005E",
+    "name": "EASTERN GENERAL HOSPITAL PTE. LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2022-07-26",
+    "ssic": "na"
+   },
+   {
+    "score": 0.78,
+    "uen": "201220357K",
+    "name": "SENGKANG GENERAL HOSPITAL PTE. LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2012-08-16",
+    "ssic": "na"
+   }
+  ]
+ },
+ {
+  "id": "P07",
+  "employer": "HRnet Ventures",
+  "state": "exact_match",
+  "n_candidates": 1,
+  "n_live": 1,
+  "top": [
+   {
+    "score": 1.0,
+    "uen": "201841218K",
+    "name": "HRNET VENTURES PTE. LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2018-12-07",
+    "ssic": "na"
+   }
+  ]
+ },
+ {
+  "id": "P08",
+  "employer": "DHL Supply Chain Singapore Pte Ltd",
+  "state": "exact_match",
+  "n_candidates": 1,
+  "n_live": 1,
+  "top": [
+   {
+    "score": 1.0,
+    "uen": "199805868N",
+    "name": "DHL SUPPLY CHAIN SINGAPORE PTE. LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "1998-11-28",
+    "ssic": "WAREHOUSING, TRANSPORT,VAS,CALL CENTRE LOGISTICS SOLUTIONS TO CLIENTS GLOBALLY"
+   }
+  ]
+ },
+ {
+  "id": "P09",
+  "employer": "JL99 Supreme HR Advisory",
+  "state": "unresolved",
+  "n_candidates": 0,
+  "n_live": 0,
+  "top": []
+ },
+ {
+  "id": "P10",
+  "employer": "Marina Bay Sands Pte Ltd",
+  "state": "exact_match",
+  "n_candidates": 4,
+  "n_live": 2,
+  "top": [
+   {
+    "score": 1.0,
+    "uen": "200507292R",
+    "name": "MARINA BAY SANDS  PTE. LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2005-05-27",
+    "ssic": "na"
+   },
+   {
+    "score": 0.865,
+    "uen": "53142033K",
+    "name": "REDS @ NEX",
+    "matched_former_name": "REDS @ MARINA BAY SANDS",
+    "type": "Sole Proprietorship/ Partnership",
+    "status": "Terminated",
+    "incorporated": "2009-05-07",
+    "ssic": "na"
+   },
+   {
+    "score": 0.865,
+    "uen": "200908660E",
+    "name": "BYSI MARINA BAY SANDS PTE. LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Struck Off",
+    "incorporated": "2009-05-16",
+    "ssic": "RETAIL OF LADIES APPAREL"
+   },
+   {
+    "score": 0.485,
+    "uen": "202605332R",
+    "name": "SINGAPORE MARINA BAY SANDS ANTIQUITIES INTERNATIONAL AUCTION PTE. LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2026-02-03",
+    "ssic": "na"
+   }
+  ]
+ },
+ {
+  "id": "P11",
+  "employer": "Natureland",
+  "state": "exact_match",
+  "n_candidates": 13,
+  "n_live": 13,
+  "top": [
+   {
+    "score": 1.0,
+    "uen": "201617314W",
+    "name": "NATURELAND SINGAPORE PTE. LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2016-06-24",
+    "ssic": "na"
+   },
+   {
+    "score": 0.833,
+    "uen": "201630159R",
+    "name": "NATURELAND SPA PTE. LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2016-11-03",
+    "ssic": "na"
+   },
+   {
+    "score": 0.8,
+    "uen": "201219975K",
+    "name": "NATURELAND CARE PTE. LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2012-08-13",
+    "ssic": "na"
+   },
+   {
+    "score": 0.769,
+    "uen": "201501538R",
+    "name": "NATURELAND GROUP PTE. LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2015-01-15",
+    "ssic": "na"
+   },
+   {
+    "score": 0.741,
+    "uen": "202211492E",
+    "name": "NATURELAND GLOBAL PTE. LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2022-04-04",
+    "ssic": "na"
+   }
+  ]
+ },
+ {
+  "id": "P12",
+  "employer": "NTUC FairPrice Co-operative Ltd",
+  "state": "ambiguous",
+  "n_candidates": 1,
+  "n_live": 1,
+  "top": [
+   {
+    "score": 0.718,
+    "uen": "200611163W",
+    "name": "NTUC FAIRPRICE FOUNDATION LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2006-08-01",
+    "ssic": "FINANCIAL ASSISTANCE TO THE NEEDY, AGED AND DISABLED"
+   }
+  ]
+ },
+ {
+  "id": "P13",
+  "employer": "Curos Learning",
+  "state": "exact_match",
+  "n_candidates": 1,
+  "n_live": 1,
+  "top": [
+   {
+    "score": 1.0,
+    "uen": "202225563R",
+    "name": "CUROS LEARNING PTE. LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2022-07-22",
+    "ssic": "na"
+   }
+  ]
+ },
+ {
+  "id": "P14",
+  "employer": "Little Skool-House International Pte Ltd",
+  "state": "ambiguous",
+  "n_candidates": 2,
+  "n_live": 1,
+  "top": [
+   {
+    "score": 1.0,
+    "uen": "199406237Z",
+    "name": "THE LITTLE SKOOL-HOUSE INTERNATIONAL PTE LTD",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "1994-09-03",
+    "ssic": "PROV OF CHILDCARE, INFANT & STUDT CARE SVC, EARLY CHILDHD EDU & ENRICHMNT PROG"
+   },
+   {
+    "score": 0.914,
+    "uen": "201018144C",
+    "name": "THE LITTLE SKOOL-HOUSE INTERNATIONAL (CHINA) PTE. LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Dissolved - Members Voluntary Winding Up",
+    "incorporated": "2010-08-26",
+    "ssic": "na"
+   }
+  ]
+ },
+ {
+  "id": "P15",
+  "employer": "Randstad Pte Ltd",
+  "state": "exact_match",
+  "n_candidates": 7,
+  "n_live": 4,
+  "top": [
+   {
+    "score": 1.0,
+    "uen": "199304055W",
+    "name": "RANDSTAD PTE. LIMITED",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "1993-06-24",
+    "ssic": "TEMPORARY AND PERMANENT EMPLOYMENT SERVICES"
+   },
+   {
+    "score": 0.8,
+    "uen": "201606304K",
+    "name": "RANDSTAD FTC PTE. LTD.",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2016-03-10",
+    "ssic": "TREASURY CENTRES"
+   },
+   {
+    "score": 0.667,
+    "uen": "53488934D",
+    "name": "RANDSTAD DIGITAL",
+    "matched_former_name": "",
+    "type": "Sole Proprietorship/ Partnership",
+    "status": "Live",
+    "incorporated": "2024-07-22",
+    "ssic": "TEMPORARY AND PERMANENT EMPLOYMENT SERVICES"
+   },
+   {
+    "score": 0.667,
+    "uen": "T05FC6730L",
+    "name": "RANDSTAD CPE PTY LTD",
+    "matched_former_name": "",
+    "type": "Foreign Company Branch",
+    "status": "Ceased Registration",
+    "incorporated": "2005-08-05",
+    "ssic": "na"
+   },
+   {
+    "score": 0.593,
+    "uen": "199802935H",
+    "name": "RANDSTAD STAFFING (S) PTE LTD",
+    "matched_former_name": "",
+    "type": "Local Company",
+    "status": "Struck Off",
+    "incorporated": "1998-06-15",
+    "ssic": "HUMANITIES RESEARCH AND DEVELOPMENT SERVICES"
+   }
+  ]
+ }
+]

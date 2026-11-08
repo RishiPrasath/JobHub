@@ -1,0 +1,524 @@
+ssoc2024,occupation,basic_p25,basic_median,basic_p75,gross_p25,gross_median,gross_p75
+12112,Administration manager,5306,7970,10800,5450,8050,10950
+12221,Advertising/Public relations manager,5500,7546,10850,5640,7711,11047
+13430,Aged care services manager,5366,6962,8506,5571,7149,8832
+14322,Attractions manager,4632,5556,8384,4633,5558,8425
+12113,Audit manager,8100,10515,14097,8262,10650,14403
+12111,Budgeting/Financial accounting manager,7245,9958,14729,7380,10136,15000
+12212,Business development manager,6677,9717,15350,6865,10000,15736
+12242,Call centre manager,4346,6400,8978,4346,6428,9230
+14321,Casino operations manager,6081,7918,9721,6081,7918,9740
+14122,Catering manager,3105,4874,6292,3140,4884,6292
+13301,Chief information officer/Chief technology officer/Chief information security officer,12158,17500,20000,12763,17812,20000
+11203,Chief operating officer/General manager,9938,13500,19274,10000,13750,19585
+12193,Cleaning operations manager,2700,3600,5405,3000,4925,6100
+13492,Community partnership/relations manager,6370,7382,9463,6482,7600,9820
+11202,Company director,8855,13562,18986,9000,13839,19472
+13230,Construction manager,3572,5821,8800,3800,6000,9058
+12241,Customer service manager,6135,8461,11524,6300,8700,11875
+14391,Event manager,4841,6230,9253,4888,6240,9292
+13463,Financial risk manager,8274,12816,18571,8453,13058,19480
+13461,Financial services manager,7618,11208,18508,7725,11600,19194
+14123,Food and beverage operations manager,2717,3776,5433,2900,3980,5640
+13420,Health services manager,6441,8643,12799,6500,8709,12799
+14110,Hotel operations/Lodging services manager,4105,5000,6765,4210,5143,6848
+13304,ICT service manager,7178,9398,12312,7249,9510,12436
+12122,Industrial relations manager,4928,6833,9242,5632,7804,9937
+13462,Insurance services manager,8113,11139,17785,8220,11450,18103
+12192,Landscape manager,3100,4580,5914,3500,4826,6500
+11201,Managing director/Chief executive officer,6800,12378,19981,7144,13000,20000
+13210,Manufacturing manager,4000,6864,10579,4285,7315,10922
+12222,Marketing manager,6573,9856,15070,6773,10069,15600
+13493,Media/Broadcast manager,6655,8554,10816,6660,8561,10825
+12214,Merchandising/Category manager,6317,8508,11956,6585,8670,12420
+13303,Network/Communications/Infrastructure manager,8500,10680,14720,8600,10911,15033
+12215,Online sales channel manager,7510,10394,13986,7659,10405,14173
+12121,Personnel/Human resource manager,5994,8588,13827,6100,8759,14045
+12131,Policy manager,8243,12208,19593,8540,12512,20000
+13245,Port/Shipping operations manager,7180,9519,15000,7384,9681,15200
+13244,Postal service manager,5589,9832,13605,5939,10878,14688
+12191,Premises/Facilities maintenance manager (excluding building security),5911,7922,11079,6045,8070,11351
+13410,Preschool education/Early intervention centre manager,6793,8106,9519,6821,8242,9542
+13242,Procurement/Purchasing manager,6237,8495,12620,6386,8644,13042
+13292,Quality control/assurance manager,6644,9057,12888,7000,9500,13221
+12213,Regional sales manager,8450,12213,16633,8820,12457,17361
+12230,Research and development manager,8713,11859,16251,8988,12000,16547
+14121,Restaurant manager,2488,3500,4877,2857,3900,5086
+14201,Retail manager,3500,5000,7363,3816,5270,7700
+12133,Risk management manager,12250,16833,19984,12611,17078,20000
+12211,Sales manager,5600,8146,13125,6000,8559,13631
+13451,School principal,5525,6602,8011,5740,6828,8345
+12194,Security manager,5020,7738,11331,5214,7838,11410
+13441,Social services manager,4330,6517,9345,4427,6580,9390
+13302,Software and applications manager,8998,12000,16345,9243,12500,16816
+14310,Sports centre manager,3708,5205,8226,4594,6402,9314
+12132,Strategic planning manager,7900,10937,15882,8103,11150,16387
+13241,Supply and distribution/Logistics/Warehousing manager,5573,8205,12338,5833,8500,12678
+13291,Technical/Engineering services manager (excluding transport),6704,9940,13687,7039,10112,14114
+12123,Training manager,5886,8000,10800,6079,8082,11055
+13243,Transport/Technical operations manager (excluding port and shipping operations),4141,6121,9000,4592,6297,9165
+14392,Travel agency manager,4300,7240,9557,5000,7240,11000
+14324,Wellness centre manager,2745,4000,6000,4261,6000,9932
+14202,Wholesale trade manager,6980,10323,19345,7530,10650,20000
+24111,Accountant (excluding tax accountant),4525,5834,7725,4638,5968,7953
+21213,Actuary,5287,7814,11480,5433,7953,11616
+26111,Advocate/Solicitor (practising),6800,8300,11300,7700,10000,13500
+21471,Aeronautical engineer,4633,6311,8541,4645,6329,8600
+21443,Air-conditioning/Refrigeration engineer,5115,6441,8670,5184,6497,8802
+25141,Applications/Systems programmer,5593,8021,9836,5680,8209,10000
+25143,Artificial intelligence/Machine learning engineer,8000,10300,13970,8000,10700,14046
+26543,Artistic director (stage/film/television/commercial/video/radio),4225,5500,8975,4225,5500,9225
+21524,Audio/Video equipment engineer,3792,4869,6301,3860,4911,6500
+22661,Audiologist,4520,5457,6325,4520,5457,6325
+24112,Auditor (accounting),4570,5750,7750,4650,5750,7800
+21413,Automation engineer,6333,9972,15416,6694,10019,15482
+21472,Automotive engineer,3780,4212,5113,4127,4796,5469
+21343,Biochemist,7708,9227,10461,7708,9227,10461
+21311,Biologist,4899,5896,7904,5982,7320,9705
+21491,Biomedical engineer,5982,8563,11213,6238,8626,11294
+21610,Building architect,4800,5961,8189,4858,6051,8450
+21422,Building construction engineer,4098,5329,7280,4378,5743,7650
+24212,Business consultant,5292,6897,10326,5400,7000,10690
+24122,Business valuer,7259,9319,13964,7458,10080,15484
+24213,Business/Financial project management professional,5177,7350,9958,5400,7670,10800
+21451,Chemical engineer (excluding petroleum and petrochemical),4480,5953,8625,5034,6400,9000
+21452,Chemical engineer (petroleum),7659,9678,11799,7744,9730,11851
+21130,Chemist,4326,6150,9418,4728,6770,10153
+21421,Civil engineer,4699,5767,7324,4785,5974,7550
+26611,Clinical psychologist,3682,4715,5719,3682,4715,5720
+21347,Clinical research professional,6187,8273,9842,6294,8343,9904
+25231,Cloud specialist,7085,9332,16242,7085,10169,16615
+21721,Commercial airline pilot,12322,17054,20000,12322,17054,20000
+24351,"Commodities trader (excluding oil, bunker and environmental commodities)",5000,9509,16817,5000,9509,16845
+24154,Commodities/Freight derivatives broker,7961,10002,13820,8034,10174,14260
+24132,Compliance officer/Risk analyst (financial),6529,8996,13582,6785,9500,15000
+21522,Computer engineer,4245,6143,8341,4366,6385,8507
+26413,Content writer,4305,6480,9168,4460,6669,9225
+26633,Counsellor (family),3989,4786,5735,4000,4800,5812
+24311,Creative advertising professional,4714,7050,10705,4760,7135,10800
+26212,Curator,4459,5936,7524,4460,5938,7525
+25241,Cyber risk specialist,7000,10247,14333,7293,10495,15250
+25245,Cybersecurity architect,7000,9623,15024,7078,9821,15583
+25291,Data centre engineer,5323,7020,11296,5437,7175,11525
+25213,Data engineer,6351,8551,10674,6351,8721,11400
+21222,Data scientist,7528,9522,12563,7857,10111,13727
+25211,Data/Database administrator,5542,8115,13198,5750,8471,13540
+25212,Data/Database architect,8486,10486,16822,8500,10500,16823
+25125,DevOps engineer,5941,6450,8336,6052,6561,8502
+22693,Diagnostic radiographer,4730,5775,7646,4800,6031,7761
+22142,Diagnostic radiologist,10849,20000,30000,10849,20000,30000
+22651,Dietitian,4174,5095,6459,4197,5125,6484
+24314,Digital marketing professional,4000,5513,7700,4165,5623,7754
+26542,Director (stage/film/television/commercial/video/radio),5198,6900,10461,5200,6900,10500
+23622,Early intervention teacher for infants and children,3250,3772,4654,3250,3772,4826
+26310,Economist,7500,12959,19892,7600,12995,20000
+26422,Editor (news/periodicals),6200,10250,15500,6239,10369,15688
+26544,Editor (radio/television/video),4316,5618,7663,4320,5618,7663
+21511,Electrical engineer,4369,5638,7250,4748,6042,7643
+21521,Electronics engineer,5200,7765,10520,5976,8200,10967
+21526,Embedded systems engineer,6097,7620,9183,6121,7656,9248
+25113,Enterprise/Solution/Software architect,9151,12971,17213,9579,13614,17746
+21430,Environmental engineer,4907,5723,7976,5000,5743,8055
+21331,Environmental officer (environmental protection),3897,5072,6940,3900,5072,6940
+24232,Executive search consultant,3100,3663,6900,3300,3900,7729
+21631,Fashion designer,3280,4150,7066,3300,4175,7091
+24131,Financial analyst,5979,8150,12310,6050,8366,12786
+24143,Financial derivatives dealer,16006,19895,19895,16090,20000,20000
+24135,Financial product structurer,7128,9178,14214,7220,9987,15840
+24121,Financial/Investment adviser,5099,7883,11823,5560,8050,12700
+21723,Flying instructor (excluding air force),7846,20000,30000,9567,20000,30000
+21454,Food/Drink technologist,3823,4581,6617,3823,4635,6674
+24142,Foreign exchange dealer,9031,10775,17250,9136,13500,20000
+24133,Fund/Portfolio manager,9608,15431,19880,9702,15751,20000
+22611,General dental practitioner,4937,4984,5409,4937,5007,5409
+22110,General practitioner/Physician,6552,7128,10287,6553,7165,10449
+21661,Graphic designer,3170,4188,5481,3200,4225,5500
+21321,Horticulturist/Arborist,3121,4200,5636,3600,4216,5731
+24231,Human resource consultant (excluding executive search consultant),5000,6760,9410,5168,6894,9524
+25152,ICT auditor,7851,10742,13650,7851,12125,13700
+25112,ICT business process consultant/Business analyst,5471,8242,11132,5588,8445,11400
+25151,ICT quality assurance specialist,4934,6966,8661,5076,7022,9210
+24333,ICT sales and services professional,7661,14247,18500,8088,15841,19687
+21442,Industrial machinery/tools engineer,4518,5602,6683,4957,5969,7069
+24234,Industrial relations officer,4161,4944,6305,4760,5843,7178
+21493,Industrial safety engineer,4264,6605,9402,4500,6936,9680
+26112,"In-house legal counsel (excluding judiciary, ministries and statutory boards)",7000,12423,19758,7083,13000,20000
+26521,Instrumentalist,6760,7463,8121,6911,7599,8376
+21525,Instrumentation engineer,5486,6702,8532,5580,6976,8564
+24160,Insurance underwriter,6155,9544,14583,6357,9567,14583
+25124,Interaction designer,6784,9804,13593,6887,10477,15966
+22124,Internal medicine physician,7068,7877,10709,7068,8883,10709
+25232,IT infrastructure specialist,5300,7777,11065,5460,7836,11126
+26421,Journalist,4998,6220,8431,5000,6222,8434
+21651,Land surveyor,3000,5000,7500,3043,5183,7800
+26221,Librarian,3988,5463,7078,4000,5472,7100
+21513,Lift engineer,4300,4989,5851,4510,5220,6290
+24211,Management consultant,7350,9340,14749,7434,9701,15108
+21411,Manufacturing engineer,4658,5988,8005,5180,6476,8833
+21473,Marine engineer,4532,5733,7819,4890,6200,8549
+21714,Marine superintendent,7000,11878,15200,7150,12000,15250
+24312,Market research professional,5230,7066,10897,5300,7223,11280
+24313,Marketing strategy/planning professional,6350,8800,13997,6465,9000,14970
+21492,Materials engineer,5449,7009,9712,5508,7058,9739
+21441,Mechanical engineer,4354,5660,7739,4615,6015,8210
+21531,Media/Broadcast engineer,4615,5532,7030,4619,5540,7040
+21342,Medical laboratory scientist,5570,7411,11003,5578,7436,11120
+21346,Medical scientist,7119,9018,10695,7265,9203,10914
+26622,Medical social worker,4319,4882,6627,4319,4883,6627
+24332,Medical/Pharmaceutical products sales professional,4727,6174,7688,5340,6571,8651
+26361,Minister of religion,3842,5384,7080,3842,5424,7165
+21662,Multimedia designer/artist/animator,3896,5400,7800,4000,5400,7800
+25123,Multimedia-games developer/designer,5202,7025,13280,5381,7176,13280
+25220,Network/Server/Applications/Computer systems administrator,4690,6071,8722,4712,6167,8850
+22631,Occupational health and safety professional,4364,5737,8403,4435,5777,8598
+22680,Occupational therapist,4217,4919,6430,4260,4962,6430
+24352,Oil/Bunker trader,7691,10179,15000,7841,10883,15000
+21212,Operations research analyst,6810,9055,13300,7114,9600,13398
+21497,Optical engineer,6961,9415,13233,6961,9503,13233
+22670,Optometrist,4830,5561,6450,4830,5561,6450
+24233,Personnel/Human resource officer,3480,4500,6032,3522,4565,6163
+22621,Pharmacist (patient care),4663,5578,7097,4682,5612,7123
+22640,Physiotherapist,4556,5323,6890,4579,5349,7000
+24221,Policy administration professional,4591,6138,11073,4620,6180,11667
+21415,Process engineer,4500,5801,8046,4759,6130,8869
+21498,Procurement engineer,6213,7672,12001,6250,7756,12131
+26541,Producer (stage/film/television/commercial/video/radio),4451,5812,8109,4457,5830,8120
+21632,Product/Industrial designer,4755,6235,9163,4974,6296,9275
+21412,Production engineer,4020,5610,8344,4120,5783,8570
+24320,Public relations/Corporate communications professional,3822,4865,7140,3925,5000,7479
+21414,Quality control/assurance engineer,4700,6653,8538,4780,6803,8600
+21494,Quantity surveyor,3200,4600,5990,3389,4800,6082
+22694,Radiation therapist,4609,5411,7491,4699,5622,7939
+22200,Registered nurse and related nursing professional (excluding enrolled nurse),4057,4943,6456,4261,5210,6843
+24291,Research officer (non-statistical),4785,6088,7943,4793,6100,7943
+24315,Revenue specialist,5096,6601,7873,5096,6876,8146
+21475,Rolling stock engineer,5362,6111,7083,5427,6146,7176
+24334,Sales professional (institutional sales of financial products),6665,11159,17813,7080,11837,19563
+26412,Script writer/editor,8780,10439,12030,8780,10439,12030
+24141,Securities/Finance dealer,5568,7865,11614,5776,8075,11614
+25243,Security operations specialist,7880,9625,11833,8047,10148,12083
+21523,Semi-conductor engineer,4988,6859,8413,5129,6863,8414
+21670,Service designer,6956,9306,12584,6956,10400,13872
+24362,Ship broker,7975,12351,17174,8567,13792,18417
+24353,Ship charterer,7739,10000,13846,7941,10000,14000
+26621,Social worker (general),3992,4550,5480,4020,4570,5609
+25121,Software developer,5697,7605,10830,5994,7808,11092
+22612,Specialised dentist,4702,5059,5349,4702,5104,5515
+22662,Speech therapist,4200,4900,6500,4200,4900,6500
+21231,Statistical officer/Data analyst,4548,5694,7118,4561,5869,7375
+21221,Statistician,6220,7723,9173,6292,7723,9173
+25111,Systems designer/analyst,5479,6790,8646,5540,6840,8800
+24113,Tax accountant,6400,9925,14000,6450,10085,14500
+24331,Technical sales professional,4040,5239,8177,4335,5936,8957
+21712,Technical superintendent,5604,8000,14119,5650,8087,14251
+26414,Technical writer,4581,5801,7257,4750,6039,7424
+23300,Technical/Vocational/Commercial education institute teacher/trainer,3587,4603,6626,3600,4629,6667
+21532,Telecommunications engineer,4618,6143,7970,4727,6228,8180
+25247,Threat analysis specialist,6205,7590,9754,6528,7940,9754
+24361,Trade broker,6574,8988,19860,6581,9750,20000
+22301,Traditional Chinese medicine practitioner,1695,3789,4713,2000,4170,6000
+24240,Training/Staff development professional,4104,5717,7993,4279,5955,8336
+26431,Translator,4036,6839,10575,4096,6839,10741
+24134,Treasury manager,8030,11802,17352,8280,12000,18197
+23101,University lecturer,9462,13374,17441,9500,13403,17540
+22500,Veterinarian,4605,8938,10610,4760,9313,11834
+25122,Web/Mobile applications developer,4800,6290,8495,4818,6290,8495
+33392,Advertising salesperson,4999,5722,6407,4999,5722,6407
+31211,Aeronautical engineering technician,3902,4959,7297,4252,5400,7411
+33222,After sales adviser/Client account service executive,3460,4493,6116,3500,4500,6130
+31594,Air cargo officer,3216,3926,4927,3300,4000,4927
+33601,Air transport equipment project executive,3531,3989,4750,3531,3989,4750
+31571,Air transport service supervisor,3101,3895,4605,3110,3919,4618
+31152,Air-conditioning/Refrigeration engineering technician,2496,3508,4524,2657,3766,4638
+31295,Airport maintenance technician,3194,3699,4238,3194,3699,4238
+33151,Appraiser/Valuer (excluding intangible asset valuer),2720,3140,4554,2833,3296,4800
+31184,Architectural draughtsperson,3890,4716,5730,4000,4785,5830
+36202,Art and craft instructor (extracurriculum),2971,3826,4647,2997,3826,4688
+33152,Assessor,3884,4976,6543,3910,5000,6628
+33131,Assistant accountant,3481,4265,5237,3568,4364,5331
+31001,Assistant civil/structural engineer,3357,4394,5088,3357,4428,5088
+31002,Assistant electrical engineer,3758,4430,5000,3900,4770,5385
+31003,Assistant electronics engineer,3051,4020,4889,3305,4332,5196
+31006,Assistant manufacturing engineer,2972,3331,4184,3203,3656,4505
+31004,Assistant mechanical engineer,3468,4022,4850,3875,4488,5299
+31143,Audio/Video equipment technician,3110,4030,6926,3300,4235,7203
+33132,Audit associate professional,4093,5600,7270,4200,5600,7450
+31174,Automation technician,2477,3254,4518,3007,3984,4847
+31212,Automotive engineering technician,2489,2950,3240,2748,3598,4236
+31411,Biological technician,3413,5107,7170,3413,5791,7314
+31122,Building technician,2722,3208,3976,2842,3431,4289
+33221,Business development executive,3542,4920,6428,3689,5084,6600
+33231,Buyer,3707,4741,6210,3778,4842,6300
+34341,Chef (excluding pastry chef),2568,3460,4625,2743,3650,4784
+31161,"Chemical engineering technician (excluding petroleum, natural gas and petrochemical)",3089,4107,5340,4450,5498,6803
+31163,Chemical engineering technician (petrochemical),3611,5038,5800,7168,8301,10109
+31162,Chemical engineering technician (petroleum/natural gas),2951,4942,6060,4843,5628,6867
+31111,Chemistry technician,2990,3600,4671,3420,4303,5224
+31121,Civil engineering technician,2566,2990,3638,2688,3623,4896
+31183,Civil/Structural engineering draughtsperson,3300,4200,5524,3300,4305,6000
+33311,Clearing/Forwarding agent,3618,4173,5010,3740,4300,5330
+31412,Clinical research coordinator,4029,4729,6050,4095,4769,6199
+35110,Computer systems operator,3714,4979,5820,3960,5025,5880
+33120,Credit/Loans officer,3852,4827,5023,4000,4827,5673
+33493,Crewing executive (ship),3956,4895,6131,4000,5000,6200
+32143,Dental technician,2420,2978,3540,2500,2990,3540
+31131,Electrical engineering technician,3174,3868,4946,3354,4326,5588
+31182,Electrical/Electronics draughtsperson,3150,3850,5575,3200,4119,5688
+31141,Electronics engineering technician,2931,3666,4765,3157,3843,4955
+33330,Employment agent/Labour contractor,2300,4100,5688,2352,4313,5900
+32200,Enrolled/Assistant nurse (excluding registered nurse),2696,3280,4015,2825,3439,4279
+32571,Environmental inspector (environmental public health),5000,7418,10120,5087,7470,10276
+33494,Executive secretary,4030,5261,6899,4200,5500,7000
+33320,Exhibition/Conference/Event planner,3200,4000,5200,3300,4097,5249
+33160,Financial services back office administrator,4594,5529,6756,4658,5868,7304
+31711,Fire and safety inspector,3501,4697,6475,3645,4925,6653
+31593,Flight operations officer,3904,4664,5772,3985,4813,6105
+31144,Instrumentation technician,3154,4248,5903,3365,4656,6270
+33211,Insurance sales agent/broker,4500,6013,8800,4500,6050,8890
+34321,Interior designer,2991,4000,5300,3000,4130,5350
+35121,IT infrastructure technician,3880,5043,6140,4130,5189,6222
+35123,IT support technician,3024,4437,6120,3150,4586,6326
+34342,Kitchen operations head/supervisor,2634,4387,5568,3116,4517,5781
+31123,Land surveying technician,2416,2960,3728,2440,3043,3874
+31602,Landscape operations officer,2200,3262,4056,2273,3287,4115
+36201,Language instructor (extracurriculum),2800,4000,4600,2964,4124,4700
+34110,Legal associate professional,4057,5590,7942,4300,5725,8167
+34331,Library officer,2580,2944,4572,2580,2974,4595
+31132,Lift technician,3041,3678,4957,3455,4264,5387
+33461,Logistics/Production planner,3180,4258,5788,3300,4443,5939
+31153,Machining/Tooling technician,2399,2930,3330,2651,3344,4230
+33462,Maintenance planner,3136,5100,6242,3150,5341,6492
+33491,Management executive,3509,4550,5509,3605,4584,5643
+31171,Manufacturing engineering technician,3355,4472,5466,3750,5092,6334
+31185,Marine draughtsperson,4150,4500,5557,4200,4550,5600
+31510,Marine engineering officer,2658,3850,4954,2794,4025,5369
+31213,Marine surveyor (ship/nautical),3500,7671,11262,5394,8121,11262
+33223,Marketing and sales executive (food and beverage services),1600,2680,4174,1600,2792,4520
+31181,Mechanical draughtsperson,2251,3620,4697,2321,3670,4750
+31151,Mechanical engineering technician,2671,3334,4181,2951,3780,4960
+35211,Media/Broadcasting operations technician,3696,4250,5217,3809,4285,5238
+32120,Medical/Pathology laboratory technician,3728,4454,5804,3858,4655,5937
+33225,Merchandising/Category executive,2500,3300,4500,2776,3425,4700
+36204,Music instructor (extracurriculum),2156,2850,3500,2345,3117,4010
+39910,Non-ordained religious associate professional,3096,3976,4695,3100,4000,4746
+32572,Occupational health and safety inspector,3606,4848,6500,3780,5000,6530
+33224,Online sales channel executive,2969,3894,4989,3008,4065,5143
+33492,Operations officer (administrative),2968,4000,5384,3100,4160,5568
+32540,Optician,3216,3657,4500,3450,4250,5100
+32591,Paramedic,2060,2440,3000,3052,3724,4570
+34343,Pastry chef,2412,3240,5000,2665,3436,5305
+32130,Pharmacy technician,2715,3218,4063,2741,3260,4130
+34310,Photographer,4558,7781,9847,4558,7831,9847
+34223,Physical fitness instructor,2057,2339,3084,2400,2730,4200
+31574,Port/Shipping operations supervisor,3802,5121,6977,4170,5477,7852
+31601,Premises/Facilities maintenance officer,3079,3817,4746,3165,3933,4900
+36100,Preschool education teacher,3293,3957,4754,3396,4062,4865
+36910,Private tutor (academic),3097,4117,5693,3100,4164,5757
+31173,Process engineering technician,2612,3078,4105,2617,3145,4754
+31172,Production engineering technician,2413,3200,4611,2733,3691,5128
+33232,Purchasing agent,3007,4000,5212,3054,4077,5353
+31175,Quality assurance technician,2825,3982,5731,3114,4363,6313
+36991,Relief teacher,2563,3425,5000,2600,3550,5025
+31124,Resident technical officer,2384,3011,4497,2662,3284,4500
+31597,Road transport operations officer,2526,2985,3553,2951,3800,4560
+31573,Road transport supervisor,2800,3140,3621,3334,3812,4226
+31214,Rolling stock engineering technician,2721,3197,3580,3076,3621,4030
+31720,Safety inspector (vehicles/processes/products),2616,3489,4603,2769,3844,4938
+33394,Safety/Security consultant,4275,6200,7458,4354,6200,7458
+31142,Semi-conductor technician,3063,3637,3681,3631,5232,6932
+33312,Shipping agent/Boarding officer,2867,3729,5215,3000,3975,5350
+34122,Social work associate,3070,4010,4820,3070,4037,4922
+32111,Sonographer,4718,5692,7010,4718,5709,7030
+34221,Sports coach,2300,3495,4807,2438,3600,5000
+33133,Tax associate professional,3300,4043,5150,3460,4132,5200
+35220,Telecommunications engineering technician,2830,3397,3653,2939,3526,4060
+31596,Train operations officer,2710,3150,3700,3108,3711,4374
+31572,Train service supervisor,2312,2622,3380,2668,3031,3901
+32400,Veterinary technician/assistant,3310,4098,5348,3310,4210,5403
+35212,Video camera operator,3879,5588,7325,3879,5588,7325
+34323,Visual merchandiser,3000,3787,4678,3030,3810,4790
+34123,Volunteer executive,3250,3975,4954,3367,3985,4995
+35140,Website administrator/Webmaster,1600,3150,4735,1600,3169,4853
+34121,Youth work associate,3291,3985,4718,3300,4010,4718
+43233,Air transport clerk,2717,3284,3877,2766,3318,3920
+43113,Audit clerk,3500,3850,4720,4200,4525,5205
+43121,Bank operations clerk,4327,5219,6591,4356,5294,6667
+42111,Bank teller,3981,4530,5025,4040,4572,5162
+42141,Bill collector,1888,3182,4741,1888,3209,4741
+43115,Billing clerk,2450,3247,4145,2500,3296,4192
+43111,Bookkeeper,1600,2850,4187,1606,2910,4300
+42246,Contact centre information clerk,2595,3272,4084,2670,3304,4256
+42245,Customer service officer/clerk,2386,3193,4302,2500,3300,4412
+41320,Data entry clerk,1596,2051,2979,1600,2100,3034
+43151,Data processing control clerk,2000,2711,4258,2000,2857,4293
+43142,Enumerator/Market research interviewer,2008,2972,3327,2045,3000,3372
+42247,Hotel executive,2253,2780,3311,2328,2969,3532
+42242,Hotel receptionist,2420,2800,3503,2590,3100,3752
+43122,Insurance/Underwriting clerk,3643,4419,5600,3800,4534,5671
+43232,Land transport clerk,1796,2701,3738,1900,3000,4313
+43112,Ledger/Accounts clerk,2330,3400,4357,2390,3470,4465
+44170,Legal clerk,3000,4245,5871,3200,4500,6000
+44110,Library clerk,1867,2580,2580,1872,2580,2580
+43221,Material planning clerk,2986,4460,5540,3169,4532,5700
+42243,Medical/Dental receptionist,2536,2896,3302,2564,2931,3329
+42113,Money changer,2974,3511,3717,2974,3511,3717
+41101,Office clerk,1594,2215,3484,1600,2286,3519
+40000,Office supervisor,2515,3545,4700,2662,3706,4875
+42244,Passenger services agent,2240,3226,3969,2275,3234,3969
+43114,Payroll/Wages clerk,2580,4027,5300,2663,4100,5394
+41102,Personnel/Human resource clerk,1600,2787,3881,1612,2810,3950
+43116,Procurement/Purchasing clerk,1600,2704,3800,1600,2800,3889
+43222,Production planning clerk,1900,2680,4000,2078,2800,4240
+42241,Receptionist (general),1926,2755,3520,1991,2849,3609
+41201,Secretary,3045,4410,5849,3100,4480,5920
+43231,Shipping clerk,2593,3350,4267,2691,3442,4380
+43141,Statistical clerk,3498,4321,5085,3498,4321,5085
+43211,Stock records clerk,1615,2485,3266,1670,2580,3371
+43212,Storekeeper,1908,2430,3011,2000,2556,3200
+42230,Telephone operator,2015,2502,3475,2025,2614,3475
+42210,Travel consultant/reservation executive,2495,3469,4852,2500,3500,4912
+41310,Typist/Word processing operator,2187,2700,3970,2200,2770,3970
+51132,Attractions guide,2445,3080,4868,2445,3080,4868
+51322,Barista,1293,2155,2450,1600,2242,2650
+51321,Bartender/Mixologist,1588,2695,3195,1600,2751,3470
+51421,Beautician,1511,1600,2500,1600,1618,3220
+51702,Bookmaker/Croupier/Casino dealer and related gaming worker,3382,3853,4261,3491,3958,4378
+51112,Cabin attendant/steward,3158,4287,5295,3160,4290,5299
+51311,Captain waiter/Waiter supervisor,1787,2574,3183,1927,2783,3417
+52302,Cashier (general),1600,2300,2607,1620,2407,2752
+51111,Chief steward,6177,7375,8483,6177,7375,8483
+53113,Child/After school care centre worker,1900,2330,3800,1930,2350,3800
+51201,Cook,1535,1792,2743,1600,1897,3000
+53203,Dental aide/assistant,2353,2851,3219,2435,2887,3383
+51950,Driving instructor/tester,3249,3733,4233,3572,4015,4344
+52492,Food service counter attendant,1110,1882,2114,1600,2279,2641
+51931,Funeral director,2477,2898,3460,2907,3572,4754
+51701,Gaming supervisor,3289,3922,4829,3450,4000,4879
+51411,Hair stylist/Hairdresser,1524,1524,1774,1600,1600,2000
+53201,Healthcare assistant,2007,2352,2687,2100,2410,2766
+51502,House steward,2004,2494,4391,2082,2672,4498
+51501,Housekeeper (hotel and related establishment),2403,3159,4513,2493,3264,4813
+51503,Housekeeping matron,1603,2455,3664,1608,2455,3785
+51942,Keeper/Trainer in zoological/bird/aquatic park,2684,3164,3703,2685,3165,3704
+54150,Lifeguard,2200,2790,3279,2385,2829,3296
+51422,Manicurist,1600,1898,2500,1600,2050,2950
+53202,Nursing aide/assistant,2318,2762,3583,2338,2762,3583
+52303,Office cashier,2336,2524,2830,2460,2650,2972
+52491,Petrol station attendant,1325,1500,1608,1602,1724,1976
+54144,Private security officer,2375,2870,3170,2565,2990,3356
+51121,Rail station service assistant,2787,3044,3225,3234,3564,3935
+52421,Sales demonstrator,1504,1627,2110,1600,1977,2800
+52201,Sales supervisor,2129,2943,3717,2373,3173,4000
+52422,Salesperson (door-to-door),1600,2293,3722,1600,2884,4954
+54142,Security supervisor,2870,3211,3780,3020,3470,4086
+51202,Senior cook,1600,2400,3193,1664,2515,3495
+54143,Senior private security officer,2870,3170,3355,3025,3304,3559
+54141,Senior security supervisor,3180,3555,4000,3462,3835,4410
+52202,Shop sales assistant,1579,2116,2709,1600,2305,2902
+51313,Sommelier,3730,4787,6000,4000,4792,6000
+53120,Teacher aide,2200,3011,4024,2229,3092,4054
+52440,Telemarketer,1580,2563,4053,1600,2710,4250
+51131,Tour guide,1600,2124,2600,1600,2237,2704
+51312,Waiter,1337,1546,2034,1600,1600,2280
+61133,Gardener/Horticultural worker,1720,1835,1950,1800,1850,1950
+61131,Landscape/Plant nursery supervisor,1599,1700,1985,1600,1740,2000
+61132,Plant nursery worker,1508,1846,1966,1520,1860,2122
+71271,Air-conditioning/Refrigeration equipment mechanic,1830,2738,3350,1898,2771,3500
+72310,Automotive mechanic,1600,2375,3061,1600,2500,3272
+75121,Baker,1566,1849,2557,1600,2000,3007
+71331,Building maintenance worker,1600,2400,3125,1600,2621,3340
+71311,Building painter,1587,1600,2310,1600,1600,2310
+75110,Butcher/Fishmonger and related food preparer,1676,2763,2900,2462,2780,2992
+71151,Carpenter,1532,1600,2310,1600,1630,2400
+74121,Electrical fitter,1610,2302,2995,1610,2491,3200
+74122,Electrical lift/escalator and related equipment fitter,2758,2983,4046,2998,3751,4467
+74110,Electrician,1600,2335,3152,1675,2400,3570
+71220,Floor/Wall tiler,1598,1600,1800,1600,1600,1800
+75440,Fumigator and related pest/weed controller,1941,2232,2651,2035,2400,2811
+74001,Lift supervisor,3650,4132,4661,4186,4701,5581
+73113,Medical device assembler/repairer,1918,2597,3238,2312,2946,4037
+72240,Metal polisher/Wheel grinder/Tool sharpener,1663,2289,2975,1671,2387,3000
+75122,Pastry/Confectionery maker,1568,1838,2800,1600,2341,3225
+71262,Pipe fitter,1600,1675,2671,1600,1700,2760
+71261,Plumber,1600,2500,3700,1700,2500,3700
+71000,Supervisor/General foreman (building and related trades),1580,1949,3703,1600,2000,4000
+74002,"Supervisor/General foreman (electrical/electronic trades, excluding lift)",1750,3418,4671,2309,3733,4768
+75000,Supervisor/General foreman (food processing/woodworking/garment/leather and related trades),1956,2800,3663,2000,3016,3921
+72000,Supervisor/General foreman (metal/machinery and related trades),3335,4099,4801,3689,4412,5142
+73000,Supervisor/General foreman (precision/handicraft/printing and related trades),2872,3531,4588,2992,3700,4800
+75310,Tailor/Dressmaker,1584,2260,3393,1600,2319,3500
+72221,Tool/Die maker,1776,2837,3294,1880,3323,4328
+72120,Welder/Flame cutter,1600,2778,3910,1800,3000,4461
+83492,Airport mobile equipment operator,2610,3175,3821,2704,3202,3873
+83224,Ambulance driver,2263,2776,3420,2400,2934,3800
+83311,Bus driver,2010,2418,2997,2260,3619,4656
+83222,Chauffeur,1585,2323,3233,1600,2536,3600
+81311,Chemical processing/products plant/machine operator,2654,3232,3951,3089,4168,5271
+83323,Concrete mix truck driver,2200,2659,3214,2667,3131,3785
+83432,Crane operator (on-site),2430,2995,3388,2448,2998,3388
+83431,Crane/Hoist operator (excluding port),2868,3808,5366,3509,5194,6734
+81602,Dairy/Confectionery products machine operator,1810,2255,4005,2057,2617,4235
+82121,Electrical equipment/component assembler,1732,2402,3064,2112,2572,3188
+82131,Electrical/Electronic products quality checker/tester,1600,2209,3168,1886,2325,3230
+82122,Electronic equipment/component assembler,1422,1770,2263,1774,2122,2616
+83421,Excavating/Trench digging machine operator,1900,3175,4130,2422,3652,4797
+83441,Fork lift truck operator,1901,2385,2938,2070,2669,3240
+81502,"Laundry/Dry cleaning worker (machine, non-household)",1600,1700,2000,1600,1825,2429
+83321,Lorry driver,1590,2001,2792,1600,2200,3096
+82110,Mechanical equipment/component assembler,1600,1700,1800,1600,1845,2768
+82132,Mechanical products quality checker/tester,1926,2712,3139,2150,3396,4810
+81251,Metalworking machine setter-operator,1824,2242,3420,2140,2718,4301
+83000,Mobile machinery supervisor/general foreman,2017,2714,4200,2056,2767,4352
+83211,Motorcycle delivery worker,1599,1971,2562,1600,2181,2715
+83491,Motorised sweeper operator,2455,2700,2700,2906,3567,3974
+81830,Packing/Bottling/Labelling machine operator,1600,1795,2159,1635,1988,2551
+81420,Plastic products machine operator,1387,1490,1894,1463,1624,2463
+83501,Port limit helmsman/steersman/engine driver/tugmaster,1960,2599,3718,2368,3000,4030
+81252,Precision grinding machine setter-operator,2270,2472,2600,2571,2785,3289
+81501,Sewing machine operator,1600,1800,2388,1600,1800,2388
+81000,Stationary plant/machine supervisor/general foreman,2990,3770,4892,3280,4312,5357
+82000,Supervisor/General foreman of assemblers/quality checkers,2343,3061,4210,2453,3486,4483
+83322,Trailer-truck driver,1333,2074,3147,2000,3070,4065
+83110,Train operator,2222,2378,2606,2623,2876,3267
+83223,Van driver,1589,2000,2710,1600,2150,2963
+83324,Waste truck driver,2620,2810,2930,3319,4235,4876
+91292,Aircraft cleaner,1227,1652,1853,1967,2848,3231
+93333,Aircraft loader,1488,2000,2000,1600,2003,2992
+96212,Bellboy/Hotel porter,1860,2175,2566,2163,2377,2670
+96261,Building caretaker,1740,2468,2952,1754,2483,3038
+96256,Bus attendant,1574,1576,1674,1600,1600,1700
+96254,Car park attendant,1355,1667,2100,1600,1783,2521
+93100,Civil engineering/Building construction labourer,1507,1600,1700,1600,1600,1800
+91000,Cleaning supervisor,1668,2047,2589,1740,2128,2700
+96272,Concierge (hotel),2500,3123,3432,2657,3222,3900
+91153,Dishwasher,1530,1600,2060,1600,1600,2180
+94103,Fast food preparer,1600,1901,2155,1750,2420,2660
+91151,Food and beverage establishment general cleaner,1567,1600,1840,1600,1600,1910
+94102,Food/Drink stall assistant,1496,1600,1998,1600,1600,2080
+96101,General waste collection/recycling/material recovery worker,1650,2320,3262,1800,2692,3784
+91210,Hand launderer/presser (non-household),1512,1600,2216,1600,1600,2299
+93201,Hand packer,1566,1610,2105,1600,1630,2333
+96253,Hospital/Clinic attendant,1300,1300,1600,1600,1700,2060
+91122,Hotel cleaner,1691,2030,2260,1767,2093,2655
+91121,Housekeeping/Linen room attendant,1700,2010,2325,1800,2110,2500
+94101,Kitchen assistant,1424,1600,2155,1600,1620,2384
+96252,Laboratory attendant,1947,2303,3206,2012,2346,3262
+92142,Landscape worker,1785,1850,1950,1850,1865,2000
+91220,Motor vehicle cleaner/polisher,1956,2700,2700,2025,3660,4154
+93336,Mover,1596,2108,2825,1601,2183,2891
+96293,Odd job person,1600,1600,1950,1600,1600,1950
+91131,Office/Commercial/Industrial establishment indoor cleaner,1596,1740,1920,1600,1820,2050
+91133,Office/Commercial/Industrial establishment multi-skilled cleaner cum machine operator,1809,2157,2530,1907,2307,2660
+91132,Office/Commercial/Industrial establishment outdoor cleaner,1910,2060,2325,1929,2219,2404
+96251,Office/Library attendant,2000,3087,3188,2000,3100,3200
+91161,Residential/Open areas general cleaner,1552,1740,2060,1600,1850,2325
+91162,Residential/Open areas multi-skilled cleaner cum machine operator,1897,2270,2530,2268,2323,3177
+96257,Restroom attendant,1800,2300,2325,1991,2325,2755
+96255,Sports/Recreational attendant,1752,1854,2173,1800,1905,2293
+91152,Table-top cleaner,1565,1683,2010,1600,1800,2010
+94104,"Tea server/steward (excluding bartender, barista and food/drink stall assistant)",1600,1764,2106,1600,1800,2170
+92141,Tree worker/technician,1989,2170,2330,2000,2200,2330
+93335,Vehicle attendant,1600,1759,2300,1613,2000,2579
+93334,Warehouse worker,1900,2369,2900,2000,2526,3100
+96000,Waste collection/recycling/material recovery supervisor,2554,4140,5223,3385,4300,5620
+96102,Waste recycling sorter,1882,2341,3199,2227,2455,3225

@@ -1,0 +1,21 @@
+DBS Bank Singapore Recruitment Pte Ltd  (role: Customer Service Officer)
+HEADLINE: likely_lookalike
+  No registered company has this exact name and no source uses it. The closest registered name
+  belongs to a different company. Treat the posting with caution.
+  because: registry: similar_name_only; closest registered name is a different entity; exact name
+  appears in no source
+REGISTRY: similar_name_only. No registered entity is named 'DBS Bank Singapore Recruitment Pte Ltd'. The closest registered name is DBS BANK LTD., which may be a different company.
+WEB: 5 queries (bing), 7 of 8 pages read, exact name seen in 0 pages and 0 search results
+BRIEF (model rating: cannot_verify, confidence low; 2 claims verified, 1 unverified)
+  facts and positive signals hidden: the company was not confirmed under this exact name
+  Red flags:
+    [UNVERIFIED] No verifiable registration of DBS Bank Singapore Recruitment Pte Ltd in Singapore
+    corporate records.
+    [verified] Scams impersonating DBS Bank are reported in Singapore.
+    [verified] DBS Bank provides guidance on how to avoid scams and fraud.
+COULD NOT READ (1):
+  - https://www.elitigation.sg/gd/Home/Index?CurrentPage=2&Filter=SUPCT&Pa  (irrelevant: the page
+    never mentions the company name)
+COULD NOT VERIFY:
+  - Official company registry record for "DBS Bank Singapore Recruitment Pte Ltd" was not found.
+(41.8s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

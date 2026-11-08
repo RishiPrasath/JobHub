@@ -1,0 +1,266 @@
+{
+ "employer": "Grab Singapore Recruitment Pte Ltd",
+ "role": "Customer Service Officer",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'Grab Singapore Recruitment Pte Ltd'. The closest registered name is TALENTS RECRUITMENT AGENCY PTE. LTD., which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "202100941E",
+   "name": "TALENTS RECRUITMENT AGENCY PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2021-01-07",
+   "activity": "na",
+   "alternatives": [
+    "TALENTS RECRUITMENT AGENCY PTE. LTD.",
+    "SINGAPORE RECRUITMENT AGENCY"
+   ]
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Grab Singapore Recruitment Pte Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Grab Singapore Recruitment Pte Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Grab Singapore Recruitment Pte Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Grab Singapore Recruitment Pte Ltd\" Customer Service Officer interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Grab Singapore Recruitment Pte Ltd\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.bestinsingapore.co/best-recruitment-agencies-singapore",
+    "status": "ok",
+    "chars": 42087,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://sbr.com.sg/hr-education/in-focus/heavier-workloads-push-singapore-workers-consider-quitting-survey",
+    "status": "irrelevant",
+    "chars": 2255,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.thebestsingapore.com/the-best-maid-agencies-in-singapore",
+    "status": "irrelevant",
+    "chars": 3411,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://sea.peoplemattersglobal.com/news/compensation-benefits/singapore-salary-increases-to-remain-steady-at-4percent-in-2027-as-employers-prioritise-skills-and-role-redesign-wtw-51067",
+    "status": "irrelevant",
+    "chars": 4814,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.channelnewsasia.com/singapore/gxs-bank-layoff-82-people-workforce-5530276",
+    "status": "ok",
+    "chars": 1610,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.scamshield.gov.sg/check-for-scams",
+    "status": "irrelevant",
+    "chars": 471,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.scamshield.gov.sg/",
+    "status": "irrelevant",
+    "chars": 2190,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.scam.sg/companies",
+    "status": "irrelevant",
+    "chars": 1327,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Singapore-Post-Reviews-E37718.htm",
+    "title": "Singapore Post Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.linkedin.com/pulse/top-recruitment-agencies-singapore-2026-expert-review-6lnzc",
+    "title": "Top Recruitment Agencies in Singapore 2026: An …",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Iss-World-e8c83370/reviews?fcountry=SG&floc=Singapore",
+    "title": "ISS World Employee Reviews in Singapore - Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "grab singapore recruitment"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 0,
+   "none": true,
+   "strong": false
+  },
+  "engines_used": [
+   "bing"
+  ]
+ },
+ "headline": "likely_lookalike",
+ "headline_meaning": "No registered company has this exact name and no source uses it. The closest registered name belongs to a different company. Treat the posting with caution.",
+ "reasons": [
+  "registry: similar_name_only",
+  "closest registered name is a different entity",
+  "exact name appears in no source"
+ ],
+ "brief": {
+  "confidence": "low",
+  "could_not_verify": [
+   "No source confirms the existence of a company named \"Grab Singapore Recruitment Pte Ltd\" in official Singapore company registers."
+  ],
+  "key_facts": [],
+  "positive_signals": [],
+  "red_flags": [
+   {
+    "claim": "The company name \"Grab Singapore Recruitment Pte Ltd\" is not found in the official ACRA registry.",
+    "evidence": [
+     {
+      "source": 8,
+      "url": "https://www.scam.sg/companies",
+      "quote": "Check any of 617,000+ ACRA-registered Singapore businesses by name or UEN. See registration status, TrustScore, reviews and …",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Potential scam warning: Singapore’s ScamShield resources list common scam indicators but do not list this company.",
+    "evidence": [
+     {
+      "source": 7,
+      "url": "https://www.scamshield.gov.sg/",
+      "quote": "Monthly Scams Bulletin Get updates of the latest scams trends and scam statistics in Singapore. Learn to spot red flags and protect …",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 6,
+      "url": "https://www.scamshield.gov.sg/check-for-scams",
+      "quote": "How to check for scams on ScamShield app Learn how to use the ScamShield app to check if a suspicious number, …",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "validity_reasoning": "The provided sources include a search tool for ACRA-registered businesses (source 8) but no record of \"Grab Singapore Recruitment Pte Ltd\" appears. No other source confirms the company's existence, and the only mentions are generic recruitment agency lists that do not include this exact name. Additionally, scam‑prevention resources (sources 6 and 7) highlight the need for verification, implying a red flag when a company cannot be found in official registers.",
+  "claims_verified": 2,
+  "claims_unverified": 0,
+  "model_validity_status": "cannot_verify",
+  "suppressed": "facts and positive signals hidden: the company was not confirmed under this exact name"
+ },
+ "could_not_read": [
+  {
+   "url": "https://sbr.com.sg/hr-education/in-focus/heavier-workloads-push-singapore-workers-consider-quitting-survey",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.thebestsingapore.com/the-best-maid-agencies-in-singapore",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://sea.peoplemattersglobal.com/news/compensation-benefits/singapore-salary-increases-to-remain-steady-at-4percent-in-2027-as-employers-prioritise-skills-and-role-redesign-wtw-51067",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.scamshield.gov.sg/check-for-scams",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.scamshield.gov.sg/",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.scam.sg/companies",
+   "why": "irrelevant: the page never mentions the company name"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Singapore-Post-Reviews-E37718.htm",
+   "title": "Singapore Post Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.linkedin.com/pulse/top-recruitment-agencies-singapore-2026-expert-review-6lnzc",
+   "title": "Top Recruitment Agencies in Singapore 2026: An …",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Iss-World-e8c83370/reviews?fcountry=SG&floc=Singapore",
+   "title": "ISS World Employee Reviews in Singapore - Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "No source confirms the existence of a company named \"Grab Singapore Recruitment Pte Ltd\" in official Singapore company registers."
+ ],
+ "seconds": 126.3,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

@@ -1,0 +1,102 @@
+[
+ {
+  "tool": "httpx",
+  "kind": "homepage",
+  "n": 20,
+  "ok": 16,
+  "namehit": 14,
+  "err": 1,
+  "med_s": 0.32,
+  "med_chars": 2966
+ },
+ {
+  "tool": "httpx",
+  "kind": "mcf_job",
+  "n": 5,
+  "ok": 0,
+  "namehit": 0,
+  "err": 0,
+  "med_s": 0.05,
+  "med_chars": 0
+ },
+ {
+  "tool": "lightpanda",
+  "kind": "homepage",
+  "n": 20,
+  "ok": 19,
+  "namehit": 19,
+  "err": 1,
+  "med_s": 0.54,
+  "med_chars": 6567
+ },
+ {
+  "tool": "lightpanda",
+  "kind": "mcf_job",
+  "n": 5,
+  "ok": 5,
+  "namehit": 2,
+  "err": 0,
+  "med_s": 1.05,
+  "med_chars": 548
+ },
+ {
+  "tool": "crawl4ai",
+  "kind": "homepage",
+  "n": 20,
+  "ok": 19,
+  "namehit": 18,
+  "err": 0,
+  "med_s": 0.81,
+  "med_chars": 6569
+ },
+ {
+  "tool": "crawl4ai",
+  "kind": "mcf_job",
+  "n": 5,
+  "ok": 5,
+  "namehit": 2,
+  "err": 0,
+  "med_s": 0.73,
+  "med_chars": 993
+ },
+ {
+  "tool": "steel",
+  "kind": "homepage",
+  "n": 20,
+  "ok": 19,
+  "namehit": 17,
+  "err": 0,
+  "med_s": 0.93,
+  "med_chars": 3544
+ },
+ {
+  "tool": "steel",
+  "kind": "mcf_job",
+  "n": 5,
+  "ok": 0,
+  "namehit": 0,
+  "err": 0,
+  "med_s": 0.23,
+  "med_chars": 0
+ },
+ {
+  "tool": "playwright",
+  "kind": "homepage",
+  "n": 20,
+  "ok": 19,
+  "namehit": 19,
+  "err": 1,
+  "med_s": 2.52,
+  "med_chars": 4349
+ },
+ {
+  "tool": "playwright",
+  "kind": "mcf_job",
+  "n": 5,
+  "ok": 5,
+  "namehit": 5,
+  "err": 0,
+  "med_s": 3.22,
+  "med_chars": 5489
+ }
+]

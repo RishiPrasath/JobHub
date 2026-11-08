@@ -1,0 +1,130 @@
+{
+  "posting_id": "R4-JB-011",
+  "claims": [
+    {
+      "claim_id": "c1",
+      "text": "Job title is \"Part-Time Admin Assistant\"",
+      "state": "present",
+      "source_locator": "header",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "c2",
+      "text": "Company name is \"YAN BUSINESS GROUP\"",
+      "state": "present",
+      "source_locator": "company",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "c3",
+      "text": "Hourly pay is \"$12–15/hour\"",
+      "state": "present",
+      "source_locator": "pay",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "c4",
+      "text": "Work schedule is \"2–3 weekdays/week\"",
+      "state": "present",
+      "source_locator": "schedule",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "c5",
+      "text": "Hours are negotiable",
+      "state": "conditional",
+      "source_locator": "schedule",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "c6",
+      "text": "Work arrangement is \"office/on-site\"",
+      "state": "present",
+      "source_locator": "work_arrangement",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "c7",
+      "text": "Application note: \"Send resume; details explained at interview; shortlisted only.\"",
+      "state": "present",
+      "source_locator": "application_note",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "c8",
+      "text": "Platform safety warning is visible",
+      "state": "platform_signal",
+      "source_locator": "platform_signals[0]",
+      "source_owner": "platform",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "c9",
+      "text": "Report action is visible",
+      "state": "platform_signal",
+      "source_locator": "platform_signals[1]",
+      "source_owner": "platform",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "c10",
+      "text": "Related salary teaser reads \"Administration Officer\"",
+      "state": "present",
+      "source_locator": "related_salary_teaser",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "c11",
+      "text": "URL job ID is \"95357572\"",
+      "state": "present",
+      "source_locator": "contradictions[0].values.url_job_id",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "c12",
+      "text": "Page title and body state \"Part-Time Admin Assistant\"",
+      "state": "present",
+      "source_locator": "contradictions[0].values.page_title_and_body",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "c13",
+      "text": "Posting identity fields (URL job ID vs. page title/body) conflict",
+      "state": "conflicting",
+      "source_locator": "contradictions[0]",
+      "source_owner": "mixed",
+      "review_status": "draft",
+      "verification_question": null
+    }
+  ],
+  "decision_changing_questions": [
+    "Is the hourly rate of $12–15 inclusive of any overtime, bonuses, or allowances?",
+    "What is the final agreed number of workdays per week once hours are negotiated?",
+    "Do the platform safety warning and report action indicate any specific concerns that affect the validity of the posting?",
+    "Which identifier (URL job ID or page title) should be used for tracking or reference purposes?",
+    "Does the related salary teaser \"Administration Officer\" imply any additional compensation expectations for this role?"
+  ],
+  "external_action_allowed": false
+}

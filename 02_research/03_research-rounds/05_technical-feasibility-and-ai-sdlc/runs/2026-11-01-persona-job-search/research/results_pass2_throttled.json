@@ -1,0 +1,3131 @@
+[
+ {
+  "id": "J01",
+  "employer": "CENTRAL PROVIDENT FUND BOARD",
+  "job_title": "Customer Service Executive",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/customer-service/customer-service-executive-central-provident-fund-board-847433dfb537021ee0bfd088c7781d57",
+  "registry": {
+   "state": "unresolved",
+   "why": "no registry name contains the name tokens",
+   "chosen": null,
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.cpf.gov.sg/member",
+     "title": "Central Provident Fund Board (CPFB)",
+     "description": "Boost your savings through CPF contributions, cash top-ups and attractive interest rates. ... Enjoy lifelong monthly payouts and the option to make retirement ..."
+    },
+    {
+     "url": "https://www.cpf.gov.sg/member/cpf-overview",
+     "title": "CPF overview - CPFB",
+     "description": "2 Jan 2026 ... The Central Provident Fund (CPF) is a key pillar of Singapore's social security system. CPF helps Singapore Citizens and Permanent Residents set ..."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Central_Provident_Fund",
+     "title": "Central Provident Fund - Wikipedia",
+     "description": "The Central Provident Fund Board (CPFB), commonly known as the CPF Board or simply the Central Provident Fund (CPF), is a compulsory comprehensive savings ..."
+    },
+    {
+     "url": "https://www.nlb.gov.sg/main/article-detail?cmsuuid=b545089e-ca60-43ac-9eb6-0f964e62fa1f",
+     "title": "Central Provident Fund - Singapore - NLB",
+     "description": "The Central Provident Fund (CPF) is a key component of Singapore's social security structure. It is a compulsory save-as-you-earn scheme that enables ..."
+    },
+    {
+     "url": "https://www.swfinstitute.org/profile/598cdaa50124e9fd2d05ac13",
+     "title": "Central Provident Fund (CPF) - Public Pension, Singapore | SWFI",
+     "description": "Type: Public Pension ; Address: 79 Robinson Road, Level 41, CPF Building, Singapore, 068897 ; City: Singapore ; Postal: 68897 ; Region: Asia."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://www.cpf.gov.sg/member",
+    "page_status": "ok",
+    "match": "verified"
+   }
+  ],
+  "site": {
+   "url": "https://www.cpf.gov.sg/member",
+   "title": "Central Provident Fund Board (CPFB)",
+   "description": "Boost your savings through CPF contributions, cash top-ups and attractive interest rates. ... Enjoy lifelong monthly payouts and the option to make retirement ...",
+   "match": "verified",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "url": "https://www.cpf.gov.sg/member",
+   "fetched_at": "2026-11-01T06:10:54+0000",
+   "robots": "read",
+   "http": 200,
+   "status": "ok",
+   "title": "Central Provident Fund Board (CPFB)"
+  },
+  "history": {
+   "host": "cpf.gov.sg",
+   "first_year": "1998",
+   "years_with_captures": 20
+  },
+  "answers": {
+   "excerpts": 124,
+   "tokens": 2535,
+   "answers": {
+    "what_company_does": {
+     "status": "supported",
+     "answer": "Provides CPF services such as account balances, dashboards, statements and related financial planning tools.",
+     "excerpt_id": 7,
+     "quote": "Account balances, dashboards, statements, and more.",
+     "why": null
+    },
+    "markets_locations": {
+     "status": "supported",
+     "answer": "Serves users of the Singapore Government CPF system.",
+     "excerpt_id": 3,
+     "quote": "A Singapore Government Agency Website",
+     "why": null
+    },
+    "employer_type": {
+     "status": "supported",
+     "answer": "direct_employer",
+     "excerpt_id": 4,
+     "quote": "Central Provident Fund Board (CPFB)",
+     "why": null
+    },
+    "hiring_information": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "contact_or_address": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    }
+   }
+  },
+  "seconds": 11.5
+ },
+ {
+  "id": "J02",
+  "employer": "BUTTERFLY EFFECT PTE. LTD.",
+  "job_title": "Customer Support Specialist",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/admin/customer-support-specialist-butterfly-effect-e818ce83964f9d768635e830e6ea47ec",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "202330764R",
+    "name": "BUTTERFLY EFFECT PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2023-08-02",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.bloomberg.com/profile/company/2557152D:SP",
+     "title": "Butterfly Effect Pte Ltd - Company Profile and News - Bloomberg",
+     "description": "Butterfly Effect Pte. Ltd., doing business as Manus AI, operates as a software company. The Company develops AI agent tools that deliver automated digital ..."
+    },
+    {
+     "url": "https://www.sgpbusiness.com/company/Butterfly-Effect-Pte-Ltd",
+     "title": "BUTTERFLY EFFECT PTE. LTD. (202330764R) - Singapore Company",
+     "description": "10 Apr 2026 ... BUTTERFLY EFFECT PTE. LTD. ... BUTTERFLY EFFECT PTE. LTD. (the \"Company\") is a Private Company Limited by Shares, incorporated on 2 August 2023 ( ..."
+    },
+    {
+     "url": "https://www.businesstimes.com.sg/international/global/ai-arms-race-and-chinas-bid-stop-manus-us2-billion-sale-meta-explained",
+     "title": "The AI arms race and China's bid to stop Manus' US$2 billion sale to ...",
+     "description": "28 Apr 2026 ... In June 2025, Butterfly Effect announced it had changed its operating entity to Butterfly Effect Pte Ltd and moved its headquarters to Singapore ..."
+    },
+    {
+     "url": "https://sg.linkedin.com/company/thebutterflyeffectco",
+     "title": "The Butterfly Effect Co | LinkedIn",
+     "description": "The Butterfly Effect Co | 630 followers on LinkedIn. We provide effective growth hacking solutions to startups and Fortune 500 companies."
+    },
+    {
+     "url": "https://companieshouse.sg/butterfly-effect-pte-ltd",
+     "title": "BUTTERFLY EFFECT PTE. LTD. - Companies House Singapore",
+     "description": "BUTTERFLY EFFECT PTE. LTD. is a private company limited by shares, registered in Singapore under UEN 202330764R. Established on Aug 02, 2023, the company ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://play.google.com/store/apps/details?id=tech.butterfly.app&hl=en_SG",
+    "page_status": "ok",
+    "match": "article_or_listing"
+   },
+   {
+    "url": "https://www.thinkchina.sg/technology/why-manus-chinas-rising-ai-star-moved-singapore",
+    "page_status": "ok",
+    "match": "article_or_listing"
+   },
+   {
+    "url": "https://www.butterflyeffect.ai/career",
+    "page_status": "ok",
+    "match": "article_or_listing"
+   }
+  ],
+  "site": null,
+  "answers": {
+   "note": "no verified official site found; registry record only"
+  },
+  "seconds": 1.5
+ },
+ {
+  "id": "J03",
+  "employer": "THE SUPREME HR ADVISORY PTE. LTD.",
+  "job_title": "Junior Vessel Operation Executive | Training Provided | Paya Lebar | 5 Days | Up To $3.5K - 4461",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/logistics/junior-vessel-operation-executive-training-provided-paya-lebar-5-days-35k-4461-supreme-hr-advisory-2f175b99d50896a9fbdd306ae97a095a",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "201426535W",
+    "name": "THE SUPREME HR ADVISORY PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2014-09-08",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://thesupremehr.com/",
+     "title": "Recruitment and Employment Agency Singapore | The Supreme HR",
+     "description": "The Supreme HR Advisory Pte. Ltd. has been providing an efficient, effective and enjoyable staffing experience to job-seekers and employers since 2014. Our ..."
+    },
+    {
+     "url": "https://thesupremehr.com/careers/",
+     "title": "Careers - The Supreme HR Advisory Pte Ltd",
+     "description": "An opportunity to learn through structured professional training program comprising of training, personal coaching and mentoring and perform as a recruitment ..."
+    },
+    {
+     "url": "https://sg.linkedin.com/company/the-supreme-hr",
+     "title": "The Supreme HR Advisory - LinkedIn Singapore",
+     "description": "The Supreme HR Advisory | 54680 followers on LinkedIn. Connecting Talents To Business Opportunities In Singapore | Here at The Supreme HR Advisory, ..."
+    },
+    {
+     "url": "https://thesupremehr.com/about-us/",
+     "title": "About Us - The Supreme HR Advisory Pte Ltd",
+     "description": "At The Supreme HR Advisory, we are more than just a recruitment agency. With our roots firmly in Singapore and our reach spanning across Southeast Asia, ..."
+    },
+    {
+     "url": "https://thesupremehr.com/career-advisory/",
+     "title": "Career Advisory - The Supreme HR Advisory Pte Ltd",
+     "description": "Whether you are in the initial stages of choosing a career, researching for options, standing at a career crossroad or opening doors to new opportunities and ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://thesupremehr.com/",
+    "page_status": "ok",
+    "match": "verified"
+   }
+  ],
+  "site": {
+   "url": "https://thesupremehr.com/",
+   "title": "Recruitment and Employment Agency Singapore | The Supreme HR",
+   "description": "The Supreme HR Advisory Pte. Ltd. has been providing an efficient, effective and enjoyable staffing experience to job-seekers and employers since 2014. Our ...",
+   "match": "verified",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "url": "https://thesupremehr.com/",
+   "fetched_at": "2026-11-01T06:11:09+0000",
+   "robots": "read",
+   "http": 200,
+   "status": "ok",
+   "title": "Recruitment and Employment Agency Singapore | The Supreme HR"
+  },
+  "history": {
+   "host": "thesupremehr.com",
+   "first_year": "2015",
+   "years_with_captures": 11
+  },
+  "answers": {
+   "excerpts": 72,
+   "tokens": 2307,
+   "answers": {
+    "what_company_does": {
+     "status": "supported",
+     "answer": "Provides staffing and recruitment solutions, including event recruitment, contract staffing, payroll management, and work pass services.",
+     "excerpt_id": 10,
+     "quote": "Efficient, effective staffing solutions to match top talent with your business needs.",
+     "why": null
+    },
+    "markets_locations": {
+     "status": "supported",
+     "answer": "Serves employers and job‑seekers in Singapore.",
+     "excerpt_id": 14,
+     "quote": "Our employment agency in Singapore know that a resume is important, but it’s also just a piece of paper.",
+     "why": null
+    },
+    "employer_type": {
+     "status": "supported",
+     "answer": "recruitment_agency",
+     "excerpt_id": 20,
+     "quote": "At our recruitment agency in Singapore, we provide comprehensive staffing solutions to streamline your hiring process.",
+     "why": null
+    },
+    "hiring_information": {
+     "status": "supported",
+     "answer": "Invites candidates to get in touch to pursue employment opportunities.",
+     "excerpt_id": 18,
+     "quote": "Get in touch with us today and move one step closer to achieving your employment goals",
+     "why": null
+    },
+    "contact_or_address": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    }
+   }
+  },
+  "seconds": 17.9
+ },
+ {
+  "id": "J04",
+  "employer": "PERSOL SINGAPORE PTE. LTD.",
+  "job_title": "Manufacturing Technician, 12 month contract UID:2269",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/banking-finance/manufacturing-technician-12-month-contract-uid2269-persol-singapore-f05952347873ccbb98aad84709102759",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "200007268E",
+    "name": "PERSOL SINGAPORE PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2000-08-19",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": [
+    "PERSOL CONSULTING PTE. LTD.",
+    "PERSOL OUTSOURCING SINGAPORE PTE. LTD."
+   ]
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.persolsingapore.com/",
+     "title": "PERSOL Singapore: Top Talent Recruitment Agency Singapore",
+     "description": "PERSOL Singapore is a leading recruitment agency providing tailored HR advisory and talent solutions, backed by deep expertise in Singapore's employment ..."
+    },
+    {
+     "url": "https://www.persolsingapore.com/contact-us",
+     "title": "Get in touch - PERSOL Singapore",
+     "description": "Our office is located at 50 Raffles Place, #07-01 Singapore Land Tower, Singapore 048623."
+    },
+    {
+     "url": "https://www.persolsingapore.com/locate-us",
+     "title": "Locate Us - PERSOL Singapore",
+     "description": "SINGAPORE HEADQUARTERS. PERSOL Singapore Pte Ltd 50 Raffles Place, #07-01 Singapore Land Tower, Singapore 048623. Tel: (65) 6709 3388"
+    },
+    {
+     "url": "https://www.facebook.com/persolapacsg/",
+     "title": "PERSOL Singapore - Facebook",
+     "description": "From Sydney to Seoul, PERSOL connects the world of work across Asia-Pacific - building careers, and enabling a future where work works for everyone. Recruiter."
+    },
+    {
+     "url": "https://sg.linkedin.com/company/persolapac",
+     "title": "PERSOL APAC - LinkedIn Singapore",
+     "description": "PERSOL APAC | 617680 followers on LinkedIn. PERSOL is Asia-Pacific's leading ... Singapore, Singapore 049909, SG. Get directions. 36 Robinson Rd. Level 21."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://www.persolsingapore.com/",
+    "page_status": "ok",
+    "match": "verified"
+   }
+  ],
+  "site": {
+   "url": "https://www.persolsingapore.com/",
+   "title": "PERSOL Singapore: Top Talent Recruitment Agency Singapore",
+   "description": "PERSOL Singapore is a leading recruitment agency providing tailored HR advisory and talent solutions, backed by deep expertise in Singapore's employment ...",
+   "match": "verified",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "url": "https://www.persolsingapore.com/",
+   "fetched_at": "2026-11-01T06:11:25+0000",
+   "robots": "read",
+   "http": 200,
+   "status": "ok",
+   "title": "Top Talent Recruitment Agency Singapore - PERSOL Singapore"
+  },
+  "history": {
+   "host": "persolsingapore.com",
+   "first_year": "2025",
+   "years_with_captures": 2
+  },
+  "answers": {
+   "excerpts": 70,
+   "tokens": 2268,
+   "answers": {
+    "what_company_does": {
+     "status": "supported",
+     "answer": "Provides recruitment and talent solutions, HR advisory, and workforce services.",
+     "excerpt_id": 5,
+     "quote": "PERSOL Singapore is a leading recruitment agency providing tailored HR advisory and talent solutions, backed by deep expertise in Singapore’s employment landscape, hiring trends, and workforce requirements.",
+     "why": null
+    },
+    "markets_locations": {
+     "status": "supported",
+     "answer": "Serves Singapore businesses and across 13 Asia‑Pacific markets.",
+     "excerpt_id": 29,
+     "quote": "As a leading recruitment agency and workforce solutions provider in Singapore, with over 65,000 placements and 80+ offices, we help businesses across 13 APAC markets with:",
+     "why": null
+    },
+    "employer_type": {
+     "status": "supported",
+     "answer": "recruitment_agency",
+     "excerpt_id": 5,
+     "quote": "PERSOL Singapore is a leading recruitment agency providing tailored HR advisory and talent solutions...",
+     "why": null
+    },
+    "hiring_information": {
+     "status": "supported",
+     "answer": "Offers job listings and application options for short‑term gigs, contract jobs, and full‑time positions.",
+     "excerpt_id": 34,
+     "quote": "Search and apply for short-term gigs and contract jobs",
+     "why": null
+    },
+    "contact_or_address": {
+     "status": "supported",
+     "answer": "Provides a contact route for assistance.",
+     "excerpt_id": 59,
+     "quote": "Contact our team for expert assistance",
+     "why": null
+    }
+   }
+  },
+  "seconds": 13.8
+ },
+ {
+  "id": "J05",
+  "employer": "NATIONAL UNIVERSITY HEALTH SERVICES GROUP PTE. LTD.",
+  "job_title": "Patient Service Associate*(252) - National University Polyclinics",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/healthcare/patient-service-associate-national-university-polyclinics-national-university-health-services-group-7afad7e636e7672e582d7b4cd5d2cd65",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "200910555Z",
+    "name": "NATIONAL UNIVERSITY HEALTH SERVICES GROUP PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2009-06-11",
+    "ssic": "PROVISION OF HEALTHCARE SERVICES, OPERATING HOSPITAL",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.nuhs.edu.sg/",
+     "title": "National University Health System | Singapore's Academic Health ...",
+     "description": "The National University Health System (NUHS) is an integrated Academic Health System in Singapore that delivers value-driven, innovative and sustainable ..."
+    },
+    {
+     "url": "https://www.nuh.com.sg/",
+     "title": "National University Hospital (NUH) | Singapore's University Hospital",
+     "description": "The National University Hospital (NUH) is Singapore's University Hospital, serving as a major referral centre for specialised care for both adults and ..."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/National_University_Health_System",
+     "title": "National University Health System - Wikipedia",
+     "description": "The National University Health System (NUHS) is a group of healthcare institutions in Singapore. The group was formed in 2008 and operates several hospitals ..."
+    },
+    {
+     "url": "https://www.facebook.com/NationalUniversityHealthSystem/",
+     "title": "National University Health System - NUHS | Singapore ... - Facebook",
+     "description": "National University Health System - NUHS, Singapore. 21797 followers · 121 talking about this · 3565 were here. Advancing health by integrating..."
+    },
+    {
+     "url": "https://www.sgdi.gov.sg/ministries/moh/others/nuhs",
+     "title": "gov.sg | NUHS - SGDI",
+     "description": "2 Jul 2026 ... The National University Health System (NUHS) is an integrated Academic Health System which delivers value-driven, innovative and sustainable ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://www.nuhs.edu.sg/",
+    "page_status": "ok",
+    "match": "verified"
+   }
+  ],
+  "site": {
+   "url": "https://www.nuhs.edu.sg/",
+   "title": "National University Health System | Singapore's Academic Health ...",
+   "description": "The National University Health System (NUHS) is an integrated Academic Health System in Singapore that delivers value-driven, innovative and sustainable ...",
+   "match": "verified",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "url": "https://www.nuhs.edu.sg/",
+   "fetched_at": "2026-11-01T06:11:39+0000",
+   "robots": "read",
+   "http": 200,
+   "status": "ok",
+   "title": "National University Health System | Singapore's Academic Health System"
+  },
+  "history": {
+   "host": "nuhs.edu.sg",
+   "first_year": "2008",
+   "years_with_captures": 16
+  },
+  "answers": {
+   "excerpts": 104,
+   "tokens": 2570,
+   "answers": {
+    "what_company_does": {
+     "status": "supported",
+     "answer": "NUHS is a leading academic health system delivering comprehensive healthcare services.",
+     "excerpt_id": 65,
+     "quote": "Embark on a dynamic and empowering career in healthcare at NUHS, a leading academic health system in Singapore, and be part of a collaborative team delivering",
+     "why": null
+    },
+    "markets_locations": {
+     "status": "supported",
+     "answer": "It serves the community in Singapore, providing health services across hospitals, primary care, and community programs.",
+     "excerpt_id": 52,
+     "quote": "At NUHS, we are committed to enhancing the health of the community we serve.",
+     "why": null
+    },
+    "employer_type": {
+     "status": "supported",
+     "answer": "direct_employer",
+     "excerpt_id": 35,
+     "quote": "Build your career with us",
+     "why": null
+    },
+    "hiring_information": {
+     "status": "supported",
+     "answer": "The page provides career opportunities and invites people to join NUHS.",
+     "excerpt_id": 67,
+     "quote": "Career Opportunities at NUHS",
+     "why": null
+    },
+    "contact_or_address": {
+     "status": "supported",
+     "answer": "Contact NUHS Development Office is provided as a contact route.",
+     "excerpt_id": 22,
+     "quote": "Contact NUHS Development Office",
+     "why": null
+    }
+   }
+  },
+  "seconds": 11.1
+ },
+ {
+  "id": "J06",
+  "employer": "AVANGUARDE PTE. LTD.",
+  "job_title": "Chef De Partie",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/food-and-beverage/chef-de-partie-avanguarde-d015b80458c7e303c1f08c958346f6f5",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "202545538Z",
+    "name": "AVANGUARDE PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2025-10-13",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.mycareersfuture.gov.sg/companies/avanguarde-202545538Z",
+     "title": "AVANGUARDE PTE. LTD. Careers Singapore - MyCareersFuture",
+     "description": "Considering a job @ AVANGUARDE PTE. LTD. in Singapore? View the latest jobs on offer from AVANGUARDE PTE. LTD. on MyCareersFuture.gov.sg."
+    },
+    {
+     "url": "https://avant-garde.com.sg/",
+     "title": "Avant-Garde Services – Premier Limousine and Transportation ...",
+     "description": "Travel around Singapore in style, comfort and safe. All our professional ... AVANT-GARDE SERIVCES PTE LTD. Facebook-f. Connect. Customer Portal; Employee ..."
+    },
+    {
+     "url": "https://sg.linkedin.com/jobs/view/f-b-server-full-time-part-time-flexi-time-at-avanguarde-pte-ltd-4468466108",
+     "title": "F&B Server (Full-time, Part-time, Flexi-time) - LinkedIn Singapore",
+     "description": "AVANGUARDE PTE. LTD. Singapore, Singapore. 1 month ago Be among the first 25 applicants. No longer accepting applications ... Frontline staff responsible for ..."
+    },
+    {
+     "url": "https://www.sgpbusiness.com/company/Avant-garde-Services-Pte-Ltd",
+     "title": "avant-garde services pte. ltd. - Singapore Business Directory",
+     "description": "28 Aug 2026 ... AVANT-GARDE SERVICES PTE. LTD. ... AVANT-GARDE SERVICES PTE. LTD. (the \"Company\") is a Exempt Private Company Limited by Shares, incorporated on ..."
+    },
+    {
+     "url": "https://www.mycareersfuture.gov.sg/job/food-and-beverage/commis-chef-avanguarde-16df831499d19f0b8ca8f85dec9e4154?source=MCF&event=Search",
+     "title": "Commis Chef (Fresh grad can apply) F&B Jobs Singapore",
+     "description": "3 days ago ... AVANGUARDE PTE. LTD. is a holdings company that run multiple fantasy lifestyle brands across multiple industries that include F&B, Events, TTRPG ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://avant-garde.com.sg/",
+    "page_status": "ok",
+    "match": "unverified"
+   },
+   {
+    "url": "https://avant-garde.sg/contact-us/",
+    "page_status": "ok",
+    "match": "unverified"
+   },
+   {
+    "url": "https://avantgarde-realty.com.sg/",
+    "page_status": "ok",
+    "match": "unverified"
+   }
+  ],
+  "site": null,
+  "answers": {
+   "note": "no verified official site found; registry record only"
+  },
+  "seconds": 2.0
+ },
+ {
+  "id": "J07",
+  "employer": "TIONG BAHRU BAKERY PTE. LTD.",
+  "job_title": "Central Kitchen Chefs @Pandan Loop",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/food-and-beverage/central-kitchen-chefs-pandan-loop-tiong-bahru-bakery-91ec7bbb3b672caa7f283747b358ab3f",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "201133471H",
+    "name": "TIONG BAHRU BAKERY PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2011-11-17",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": [
+    "TIONG BAHRU BAKERY PRODUCTION PTE. LTD."
+   ]
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://tiongbahrubakery.com/",
+     "title": "Tiong Bahru Bakery",
+     "description": "Pick any 3 and enjoy a FREE Kouign Amann! Come taste the evidence. In-store only."
+    },
+    {
+     "url": "https://tiongbahrubakery.com/pages/our-story",
+     "title": "Our Story - Tiong Bahru Bakery",
+     "description": "Born in Tiong Bahru. Baked into the city. Loved beyond it. ... We first opened our doors in 2012 at 56 Eng Hoon Street, in a neighbourhood that felt like home the ..."
+    },
+    {
+     "url": "https://www.facebook.com/tiongbahrubakery/",
+     "title": "Tiong Bahru Bakery (@tiongbahrubakery) - Facebook",
+     "description": "Born in 2012 on Eng Hoon Street, TBB grew from one bakery with a love for buttery precision, into a family across Singapore. Known for flaky icons, ..."
+    },
+    {
+     "url": "https://www.yelp.com/biz/tiong-bahru-bakery-singapore",
+     "title": "Tiong Bahru Bakery - Updated October 2026 - 30 Reviews - Yelp",
+     "description": "TIONG BAHRU BAKERY - Try Our New Menu - 252 North Bridge Road, #B1-11/12, Raffles City Shopping Centre, Singapore 179103, Singapore, 121 Photos, +6563334160 ..."
+    },
+    {
+     "url": "https://www.instagram.com/tiongbahrubakery/?hl=en",
+     "title": "Tiong Bahru Bakery (@tiongbahrubakery) - Singapore - Instagram",
+     "description": "Born in Tiong Bahru | Baked into the City Come Taste the Difference in Every Flake."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://tiongbahrubakery.com/",
+    "page_status": "blocked_or_failed:429",
+    "match": "unreadable"
+   }
+  ],
+  "site": {
+   "url": "https://tiongbahrubakery.com/",
+   "title": "Tiong Bahru Bakery",
+   "description": "Pick any 3 and enjoy a FREE Kouign Amann! Come taste the evidence. In-store only.",
+   "match": "found_unreadable",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "status": "blocked_or_failed:429"
+  },
+  "history": {
+   "host": "tiongbahrubakery.com",
+   "first_year": "2012",
+   "years_with_captures": 15
+  },
+  "answers": {
+   "note": "site found but page unreadable (blocked or empty); not evidence of absence"
+  },
+  "seconds": 7.0
+ },
+ {
+  "id": "J08",
+  "employer": "OCEANDA HR PTE. LTD.",
+  "job_title": "CHEF",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/food-and-beverage/chef-abhinash-ef5ee0852127eb4664f0e2a88af3f54e",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "202137553K",
+    "name": "OCEANDA HR PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2021-10-28",
+    "ssic": "HR, BUSINESS AND MANAGEMENT CONSULTANCY SERVICES",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "http://www.oceanda.biz/",
+     "title": "Welcome to Oceanda Corporate Website",
+     "description": "Services. Check our Services. Oceanda Pte Ltd. Food & Beverage Services. Oceanda HR Pte Ltd ... Singapore 218055. Phone: +65 8779 4079 | +91 93849 01890. Email ..."
+    },
+    {
+     "url": "https://sg.indeed.com/cmp/Oceanda-HR-Pte.-Ltd.",
+     "title": "OCEANDA HR PTE. LTD. Careers and Employment | Indeed.com",
+     "description": "Find out what works well at OCEANDA HR PTE. LTD. from the people who know best. Get the inside scoop on jobs, salaries, top office locations, ..."
+    },
+    {
+     "url": "https://www.foundit.sg/job/technical-sales-engineer-oceanda-hr-pte-ltd-singapore-69659018",
+     "title": "TECHNICAL SALES ENGINEER with 5 - oceanda hr pte. ltd. - foundit",
+     "description": "13 hours ago ... oceanda hr pte. ltd. 5-8 Years. SGD 3,000 - 5,000 per month. Singapore."
+    },
+    {
+     "url": "https://www.jobleads.com/sg/job/procurement-clerk--singapore--e380cd1c800c8fe3c8c43fdaaf98b0ee9",
+     "title": "PROCUREMENT CLERK | Singapore | JobLeads.com",
+     "description": "5 days ago ... OCEANDA HR PTE. LTD. in Singapore seeks a purchasing administrator to manage end-to-end procurement, from handling requests to fulfilling ..."
+    },
+    {
+     "url": "https://www.foundit.sg/job/marine-mechanical-engineering-technician-oceanda-hr-pte-ltd-singapore-69659023",
+     "title": "MARINE MECHANICAL ENGINEERING TECHNICIAN with 5 - foundit",
+     "description": "13 hours ago ... oceanda hr pte. ltd. 5-8 Years. SGD 3,000 - 5,000 per month. Singapore."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "http://www.oceanda.biz/",
+    "page_status": "ok",
+    "match": "verified"
+   }
+  ],
+  "site": {
+   "url": "http://www.oceanda.biz/",
+   "title": "Welcome to Oceanda Corporate Website",
+   "description": "Services. Check our Services. Oceanda Pte Ltd. Food & Beverage Services. Oceanda HR Pte Ltd ... Singapore 218055. Phone: +65 8779 4079 | +91 93849 01890. Email ...",
+   "match": "verified",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "url": "http://www.oceanda.biz/",
+   "fetched_at": "2026-11-01T06:11:59+0000",
+   "robots": "unavailable:404",
+   "http": 200,
+   "status": "ok",
+   "title": "Welcome to Oceanda Corporate Website"
+  },
+  "history": {
+   "host": "oceanda.biz",
+   "first_year": "2025",
+   "years_with_captures": 1
+  },
+  "answers": {
+   "excerpts": 39,
+   "tokens": 1810,
+   "answers": {
+    "what_company_does": {
+     "status": "supported",
+     "answer": "Offers a wide range of products/services for individuals and businesses.",
+     "excerpt_id": 9,
+     "quote": "Today, we are proud to offer a wide range of products/services that cater to the needs of individuals and businesses alike.",
+     "why": null
+    },
+    "markets_locations": {
+     "status": "supported",
+     "answer": "Singapore (176, Serangoon Road, Unit # 02-00, Singapore 218055)",
+     "excerpt_id": 31,
+     "quote": "176, Serangoon Road, Unit # 02-00, Singapore 218055",
+     "why": null
+    },
+    "employer_type": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "hiring_information": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "contact_or_address": {
+     "status": "supported",
+     "answer": "176, Serangoon Road, Unit # 02-00, Singapore 218055",
+     "excerpt_id": 31,
+     "quote": "176, Serangoon Road, Unit # 02-00, Singapore 218055",
+     "why": null
+    }
+   }
+  },
+  "seconds": 11.9
+ },
+ {
+  "id": "J09",
+  "employer": "MEAT AND GREEN PTE. LTD.",
+  "job_title": "HEAD CHEF",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/food-and-beverage/head-chef-meat-green-ea875d830fad6537597d275852826bde",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "201535185H",
+    "name": "MEAT AND GREEN PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2015-09-20",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.tripadvisor.com.sg/Restaurant_Review-g294265-d8396589-Reviews-Meat_and_Green-Singapore.html",
+     "title": "Meat and Green - Singapore Restaurants - Tripadvisor",
+     "description": "If you're looking for something healthy and tasty, Meat and Green is your place to go if you're in the area of Boat Quay. The team there always have a friendly ..."
+    },
+    {
+     "url": "https://www.facebook.com/meatandgreen/",
+     "title": "Meat And Green | Singapore Singapore - Facebook",
+     "description": "Meat And Green, Singapore. 901 followers · 222 were here. Beer garden ... Details. meatandgreen.com/menu. Links. Specialties. Dine-in · Outdoor seating ..."
+    },
+    {
+     "url": "https://www.instagram.com/meatandgreen/?hl=en",
+     "title": "Meat and Green (@meatandgreen) • Instagram photos and videos",
+     "description": "403 followers · 78 following · 124 posts · @meatandgreen: “Restaurant and bar with local elevated cuisine, craft beer on tap, wine and others."
+    },
+    {
+     "url": "https://www.ntu.edu.sg/docs/default-source/academic-services/ntu-singapore-and-poultry-firm-leong-hup-singapore-collaborate-to-create-singapore-s-first-zero-waste-poultry-processing-facility.pdf",
+     "title": "ntu-singapore-and-poultry-firm-leong-hup-singapore-collaborate-to ...",
+     "description": "5 Jul 2022 ... Nanyang Technological University, Singapore (NTU Singapore) and poultry producer Leong Hup Singapore Pte Ltd have jointly developed processes to."
+    },
+    {
+     "url": "https://www.nea.gov.sg/docs/default-source/envision/eenp-and-esco/list-of-eenp-partners-(1-jan-2026).pdf",
+     "title": "List of EENP Partners - Singapore - NEA",
+     "description": "1 Jan 2026 ... 223) DRY AGED MEATS & NEEDS PRIVATE LIMITED. Page 9. List of EENP ... 816) THOMAS AND GREEN PTE LTD. 817) THOMSON REUTERS ASIA PTE LTD. 818 ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://www.ntu.edu.sg/docs/default-source/academic-services/ntu-singapore-and-poultry-firm-leong-hup-singapore-collaborate-to-create-singapore-s-first-zero-waste-poultry-processing-facility.pdf",
+    "page_status": "ok",
+    "match": "unverified"
+   },
+   {
+    "url": "https://gfi-apac.org/mapped-singapores-plant-based-meat-b2b-ecosystem/",
+    "page_status": "ok",
+    "match": "unverified"
+   },
+   {
+    "url": "https://www.researchgate.net/publication/373209735_Cultivated_Meat_in_Singapore_The_Road_to_Commercialization",
+    "page_status": "blocked_or_failed:403",
+    "match": "unreadable"
+   }
+  ],
+  "site": null,
+  "answers": {
+   "note": "no verified official site found; registry record only"
+  },
+  "seconds": 1.4
+ },
+ {
+  "id": "J10",
+  "employer": "PARIS BAGUETTE SINGAPORE PTE. LTD.",
+  "job_title": "Section Head (Central Kitchen - Bread)",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/food-and-beverage/section-head-paris-baguette-singapore-ea4fa12730eae934b904fd86d0484cf0",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "201108952N",
+    "name": "PARIS BAGUETTE SINGAPORE PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2011-04-13",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.parisbaguette.com.sg/",
+     "title": "Paris Baguette Singapore",
+     "description": "Paris Baguette Singapore is a French-inspired bakery that offers freshly baked cakes, pastries, sandwiches, bread, salads and more. Visit our website today!"
+    },
+    {
+     "url": "https://www.parisbaguette.com.sg/location/",
+     "title": "PB Location - Paris Baguette Singapore",
+     "description": "Paris Baguette Singapore Pte Ltd. Online Catering Orders. Islandwide Delivery ... We are an international bakery founded in 1988, born from a love of bread ..."
+    },
+    {
+     "url": "https://pbrewards.parisbaguette.com.sg/p/cake",
+     "title": "Paris Baguette Singapore",
+     "description": "Fresh Strawberry Yogurt Cream Cake. Fresh yogurt cream cake filled with strawberry compote and topped with fresh strawberry · Strawberry Mochi Fresh Cream Cake."
+    },
+    {
+     "url": "https://www.parisbaguette.com.sg/about-us/",
+     "title": "About PB - Paris Baguette Singapore",
+     "description": "For the business partnership, Paris Baguette's affiliate in Singapore established a joint venture, dubbed H.SPC, with HSC Food & Beverages, an affiliate of the ..."
+    },
+    {
+     "url": "https://www.facebook.com/sg.parisbaguette/",
+     "title": "Paris Baguette Singapore (@sg.parisbaguette) - Facebook",
+     "description": "Paris Baguette Singapore. My Friend, My Love, My Paris Baguette. A taste that makes the world a happier place. ... Bedok, Singapore · Yishun, Singapore · Jurong, ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://www.parisbaguette.com.sg/",
+    "page_status": "ok",
+    "match": "verified"
+   }
+  ],
+  "site": {
+   "url": "https://www.parisbaguette.com.sg/",
+   "title": "Paris Baguette Singapore",
+   "description": "Paris Baguette Singapore is a French-inspired bakery that offers freshly baked cakes, pastries, sandwiches, bread, salads and more. Visit our website today!",
+   "match": "verified",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "url": "https://www.parisbaguette.com.sg/",
+   "fetched_at": "2026-11-01T06:12:14+0000",
+   "robots": "read",
+   "http": 200,
+   "status": "ok",
+   "title": "Paris Baguette Singapore  Paris Baguette Singapore"
+  },
+  "history": {
+   "host": "parisbaguette.com.sg",
+   "first_year": "2020",
+   "years_with_captures": 7
+  },
+  "answers": {
+   "excerpts": 20,
+   "tokens": 1404,
+   "answers": {
+    "what_company_does": {
+     "status": "supported",
+     "answer": "It is an international bakery offering Korean‑inspired café items and breads.",
+     "excerpt_id": 18,
+     "quote": "We are an international bakery founded in 1988, born from a love of bread and a passion for quality...",
+     "why": null
+    },
+    "markets_locations": {
+     "status": "supported",
+     "answer": "It serves selected markets worldwide.",
+     "excerpt_id": 3,
+     "quote": "Now available across selected markets worldwide.",
+     "why": null
+    },
+    "employer_type": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "hiring_information": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "contact_or_address": {
+     "status": "supported",
+     "answer": "Paris Baguette Singapore Pte Ltd.",
+     "excerpt_id": 20,
+     "quote": "Paris Baguette Singapore Pte Ltd.",
+     "why": null
+    }
+   }
+  },
+  "seconds": 13.5
+ },
+ {
+  "id": "J11",
+  "employer": "MEL & PARTNERS DRS. PTE LTD",
+  "job_title": "Clinic Assistant",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/healthcare/clinic-assistant-mel-partners-drs-df33be809525da28c7e79059e35121ad",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "199308313N",
+    "name": "MEL & PARTNERS DRS. PTE LTD",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "1993-12-16",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.practo.com/singapore/clinic/mel-partners-drs-pte-ltd-orchard",
+     "title": "Mel & Partners Drs Pte Ltd, Orchard - Singapore Clinics - Practo",
+     "description": "Address. 350 Orchard Road, Shaw House, #15-07, Singapore 238868. Map. Get Direction. Timings. Open Today - 9:00 AM - 1: ..."
+    },
+    {
+     "url": "https://www.picktime.com/melpartners?lang=en",
+     "title": "Book an Appointment with Mel & Partners Drs Pte Ltd - Picktime",
+     "description": "Mel & Partners Drs Pte Ltd provides trusted Doctors care to patients seeking expert medical attention. Schedule your appointment online for convenient access to ..."
+    },
+    {
+     "url": "https://orchardmalls.com/shop/mel-partners-drs-pte-ltd-shaw-centre",
+     "title": "Mel Partners Drs Pte Ltd at Orchard Road",
+     "description": "Mel & Partners Drs Pte Ltd is an established medical clinic located at Shaw Centre, providing comprehensive general medical services and wellness care to ..."
+    },
+    {
+     "url": "https://www.mycareersfuture.gov.sg/companies/mel-partners-drs-199308313N",
+     "title": "MEL & PARTNERS DRS. PTE LTD Careers Singapore",
+     "description": "3 days ago ... Considering a job @ MEL & PARTNERS DRS. PTE LTD in Singapore? View the latest jobs on offer from MEL & PARTNERS DRS."
+    },
+    {
+     "url": "https://recordowl.com/company/mel-partners-drs-pte-ltd",
+     "title": "MEL & PARTNERS DRS. PTE LTD (199308313N) - RecordOwl",
+     "description": "MEL & PARTNERS DRS. PTE LTD (the \"Company\") The Company is a Exempt Private Company Limited by Shares and it's current status is Live Company. ... The company has ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://www.practo.com/singapore/clinic/mel-partners-drs-pte-ltd-orchard",
+    "page_status": "blocked_or_failed:410",
+    "match": "unreadable"
+   },
+   {
+    "url": "https://orchardmalls.com/shop/mel-partners-drs-pte-ltd-shaw-centre",
+    "page_status": "ok",
+    "match": "article_or_listing"
+   },
+   {
+    "url": "https://www.moh.gov.sg/newsroom/speech-by-dr-amy-khor-senior-minister-of-state-for-health-at-the-iltc-manpower-development-awards-ceremony-27-august-2015/",
+    "page_status": "ok",
+    "match": "unverified"
+   }
+  ],
+  "site": {
+   "url": "https://www.practo.com/singapore/clinic/mel-partners-drs-pte-ltd-orchard",
+   "title": "Mel & Partners Drs Pte Ltd, Orchard - Singapore Clinics - Practo",
+   "description": "Address. 350 Orchard Road, Shaw House, #15-07, Singapore 238868. Map. Get Direction. Timings. Open Today - 9:00 AM - 1: ...",
+   "match": "found_unreadable",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "status": "blocked_or_failed:410"
+  },
+  "history": {
+   "host": "practo.com",
+   "first_year": "2004",
+   "years_with_captures": 18
+  },
+  "answers": {
+   "note": "site found but page unreadable (blocked or empty); not evidence of absence"
+  },
+  "seconds": 2.9
+ },
+ {
+  "id": "J12",
+  "employer": "RECRUIT EXPRESS PTE LTD",
+  "job_title": "Staff Nurse – Inpatient Ward | Med-Surg | Attractive Sign-On Bonus! #HTJ",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/healthcare/staff-nurse-%E2%80%93-inpatient-ward-med-surg-attractive-sign-on-bonus-htj-recruit-express-9feee4443bdb0064f9cc963e99e3ac66",
+  "registry": {
+   "state": "needs_confirmation",
+   "why": "1 other live entity(ies) share the name stem: RECRUIT EXPRESS (TAIWAN) PTE LTD",
+   "chosen": {
+    "score": 1.0,
+    "uen": "199601303W",
+    "name": "RECRUIT EXPRESS PTE LTD",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "1996-02-22",
+    "ssic": "PERSONNEL RECRUITMENT & PROVISION OF HUMAN RESOURCES RELATED SVS.",
+    "partial_name_match": false
+   },
+   "alternatives": [
+    "RECRUIT EXPRESS (TAIWAN) PTE LTD",
+    "RECRUIT EXPRESS SERVICES PTE. LTD.",
+    "RECRUIT EXPRESS (AUSTRALIA) PTE. LTD."
+   ]
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "CAPTCHA"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.recruitexpress.com.sg/",
+     "title": "Recruit Express - Home - ONLINE JOBS - RECRUIT EXPRESS",
+     "description": "Please contact us at 6732 6006 or email to hr.spore@recruitexpress.com.sg if you are unsure if it is a scam."
+    },
+    {
+     "url": "https://www.recruitexpress.com.sg/jobs",
+     "title": "Jobs - ONLINE JOBS - RECRUIT EXPRESS",
+     "description": "Please contact us at 6732 6006 or email to hr.spore@recruitexpress.com.sg if you are unsure if it is a scam. ... © 2026 Recruit Express Pte Ltd . All Rights ..."
+    },
+    {
+     "url": "https://www.recruitexpress.com.sg/contact-us",
+     "title": "Contact Us - ONLINE JOBS - Recruit Express",
+     "description": "391A Orchard Road Ngee Ann City Tower A #12-08 Singapore 238873 · Call Us :(+65) 6732 6006 · Fax : (+65) 6733 6211 · Email : hr.spore@recruitexpress.com.sg ..."
+    },
+    {
+     "url": "https://sg.linkedin.com/company/recruit-express-sg",
+     "title": "Recruit Express Group - LinkedIn Singapore",
+     "description": "Locations · 391A Orchard Road Ngee Ann City Tower A #12-08. Singapore, 238873, SG · Suite 3608, 36/F, Tower 6, The Gateway, Harbour City, Tsim Sha Tsui. Kowloon, ..."
+    },
+    {
+     "url": "https://www.recruitexpress.com.sg/public/index.php",
+     "title": "Recruit Express - Home - ONLINE JOBS",
+     "description": "Please contact us at 6732 6006 or email to hr.spore@recruitexpress.com.sg if you are unsure if it is a scam."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://www.recruitexpress.com.sg/",
+    "page_status": "ok",
+    "match": "verified"
+   }
+  ],
+  "site": {
+   "url": "https://www.recruitexpress.com.sg/",
+   "title": "Recruit Express - Home - ONLINE JOBS - RECRUIT EXPRESS",
+   "description": "Please contact us at 6732 6006 or email to hr.spore@recruitexpress.com.sg if you are unsure if it is a scam.",
+   "match": "verified",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "url": "https://www.recruitexpress.com.sg/",
+   "fetched_at": "2026-11-01T06:12:29+0000",
+   "robots": "read",
+   "http": 200,
+   "status": "ok",
+   "title": "Recruit Express - Home - ONLINE JOBS - RECRUIT EXPRESS"
+  },
+  "history": {
+   "host": "recruitexpress.com.sg",
+   "first_year": "2000",
+   "years_with_captures": 27
+  },
+  "answers": {
+   "excerpts": 33,
+   "tokens": 1501,
+   "answers": {
+    "what_company_does": {
+     "status": "supported",
+     "answer": "Provides quality staffing services.",
+     "excerpt_id": 9,
+     "quote": "A leader in quality staffing services.",
+     "why": null
+    },
+    "markets_locations": {
+     "status": "supported",
+     "answer": "Serves locations at 391A Orchard Road Ngee Ann City.",
+     "excerpt_id": 25,
+     "quote": "391A Orchard Road Ngee Ann City",
+     "why": null
+    },
+    "employer_type": {
+     "status": "supported",
+     "answer": "recruitment_agency",
+     "excerpt_id": 9,
+     "quote": "A leader in quality staffing services.",
+     "why": null
+    },
+    "hiring_information": {
+     "status": "supported",
+     "answer": "Provides career and application information such as \"Careers at RecruitExpress\" and \"Apply for this Position now!\"",
+     "excerpt_id": 23,
+     "quote": "Careers at RecruitExpress",
+     "why": null
+    },
+    "contact_or_address": {
+     "status": "supported",
+     "answer": "Contact email is hr.spore@recruitexpress.com.sg.",
+     "excerpt_id": 3,
+     "quote": "hr.spore@recruitexpress.com.sg",
+     "why": null
+    }
+   }
+  },
+  "seconds": 12.1
+ },
+ {
+  "id": "J13",
+  "employer": "ASIA KIDNEY DIALYSIS CENTRE (BEDOK) PTE. LTD.",
+  "job_title": "Staff Nurse",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/healthcare/staff-nurse-asia-kidney-dialysis-centre-7e0e7c56a5b213408bc1ce87b06211a9",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "201202015K",
+    "name": "ASIA KIDNEY DIALYSIS CENTRE (BEDOK) PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2012-01-27",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "access denied"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://recordowl.com/company/asia-kidney-dialysis-centre-bedok-pte-ltd",
+     "title": "asia kidney dialysis centre (bedok) pte. ltd. - RecordOwl",
+     "description": "The center is located at 531 Bedok North Street 3, #01-702, Singapore 460531. Company Information. ASIA KIDNEY DIALYSIS CENTRE (BEDOK) PTE. LTD. (the \"Company\") ..."
+    },
+    {
+     "url": "https://www.healthcare.com.sg/item/asia-kidney-dialysis-centre-bedok/",
+     "title": "Asia Kidney Dialysis Centre (Bedok) - Healthcare Singapore",
+     "description": "DISCLAMER: The information provided on this website (HEALTHCARE.COM.SG)is meant purely for general information sources purposes and may not be used as a ..."
+    },
+    {
+     "url": "https://nkfs.org/contact-us/dialysis-centre-locations/",
+     "title": "Dialysis Centre Locations - Singapore - National Kidney Foundation",
+     "description": "NKF Dialysis Centre Supported By New Creation Church · Blk 274 Bangkit Rd #01-54 (S)670274 ; NKF Dialysis Centre Supported by Le Champ (South East Asia) Pte Ltd ( ..."
+    },
+    {
+     "url": "https://www.companies.sg/places/company/201202015K/asia-kidney-dialysis-centre-bedok-pte-ltd",
+     "title": "ASIA KIDNEY DIALYSIS CENTRE (BEDOK) PTE. LTD. · Locations",
+     "description": "Explore 1 directory listings linked to ASIA KIDNEY DIALYSIS CENTRE (BEDOK) PTE. LTD.. Find outlet addresses and locations across Singapore on the map. Place, ..."
+    },
+    {
+     "url": "https://www.channelnewsasia.com/watch/upgraded-dialysis-centre-bedok-has-25-stations-treats-40-more-patients-week-4347626",
+     "title": "Upgraded dialysis centre in Bedok has 25 stations - Singapore - CNA",
+     "description": "19 May 2024 ... More kidney patients in eastern Singapore can now get the care they need. Additional dialysis stations have been added to a centre run by ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://nkfs.org/contact-us/dialysis-centre-locations/",
+    "page_status": "thin",
+    "match": "unverified"
+   },
+   {
+    "url": "https://www.channelnewsasia.com/watch/upgraded-dialysis-centre-bedok-has-25-stations-treats-40-more-patients-week-4347626",
+    "page_status": "ok",
+    "match": "article_or_listing"
+   }
+  ],
+  "site": null,
+  "answers": {
+   "note": "no verified official site found; registry record only"
+  },
+  "seconds": 1.9
+ },
+ {
+  "id": "J14",
+  "employer": "ABER CARE PTE. LTD.",
+  "job_title": "Physiotherapist | Senior Care Centre",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/environment/physiotherapist-senior-care-centre-aber-care-e2def68ffe7814efc83cf481cc1a409e",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "201306299N",
+    "name": "ABER CARE PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2013-03-09",
+    "ssic": "RECRUITMENT OF FOREIGN WORKER AND PROFESSIONALS MAINLY FOR HEALTHCARE ORG",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://abercare.sg/",
+     "title": "ABER CARE – Your Professional Care Recruiter",
+     "description": "Aber Care is a recruitment agency specializing in connecting talented professionals with career opportunities in both healthcare and early childhood education."
+    },
+    {
+     "url": "https://abercare.sg/jobs-vacancies/",
+     "title": "Jobs Vacancies – ABER CARE",
+     "description": "Aber Care specialises in career matching services for local and foreign job seekers interested to work in the health care setting. As a candidate with us, you ..."
+    },
+    {
+     "url": "https://abercare.sg/healthcare-jobs/",
+     "title": "HealthCare Jobs – ABER CARE",
+     "description": "Assistant Director Of Nursing · Assistant Nurse (Welfare Home| 12 Hours Shift) · Assistant Nurse Manager · Care Assistant (Home Care | Mon To Fri) ..."
+    },
+    {
+     "url": "https://sg.jobstreet.com/companies/aber-care-pte-ltd-168550867812026",
+     "title": "Working at Aber Care Pte. Ltd. company profile and information",
+     "description": "At Aber care, our years of experience working in healthcare organizations has given us in-depth knowledge and insight into the manpower needs of the sector."
+    },
+    {
+     "url": "https://sg.indeed.com/cmp/Aber-Care-5",
+     "title": "ABER CARE Careers and Employment | Indeed.com",
+     "description": "Aber Care Health Care Division specialises in Healthcare professionals Recruitment for both Local and Foreign Manpower. We focus on sourcing for Nurse ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://abercare.sg/",
+    "page_status": "ok",
+    "match": "verified"
+   }
+  ],
+  "site": {
+   "url": "https://abercare.sg/",
+   "title": "ABER CARE – Your Professional Care Recruiter",
+   "description": "Aber Care is a recruitment agency specializing in connecting talented professionals with career opportunities in both healthcare and early childhood education.",
+   "match": "verified",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "url": "https://abercare.sg/",
+   "fetched_at": "2026-11-01T06:12:44+0000",
+   "robots": "read",
+   "http": 200,
+   "status": "ok",
+   "title": "ABER CARE – Your Professional Care Recruiter"
+  },
+  "history": {
+   "host": "abercare.sg",
+   "first_year": "2018",
+   "years_with_captures": 8
+  },
+  "answers": {
+   "excerpts": 14,
+   "tokens": 1396,
+   "answers": {
+    "what_company_does": {
+     "status": "supported",
+     "answer": "A recruitment agency that connects talented professionals with career opportunities in healthcare and early childhood education.",
+     "excerpt_id": 4,
+     "quote": "Aber Care is a recruitment agency specializing in connecting talented professionals with career opportunities in both healthcare and early childhood education.",
+     "why": null
+    },
+    "markets_locations": {
+     "status": "supported",
+     "answer": "Serves hospitals, community hospitals, nursing homes, hospices, senior care centers, and preschools.",
+     "excerpt_id": 6,
+     "quote": "We support hospitals, community hospitals, nursing homes, hospices, and senior care centers by placing skilled professionals such as staff nurses, nursing aides, nurse managers, healthcare assistants, and live-in caregivers.",
+     "why": null
+    },
+    "employer_type": {
+     "status": "supported",
+     "answer": "recruitment_agency",
+     "excerpt_id": 4,
+     "quote": "Aber Care is a recruitment agency specializing in connecting talented professionals with career opportunities in both healthcare and early childhood education.",
+     "why": null
+    },
+    "hiring_information": {
+     "status": "supported",
+     "answer": "Provides information about the recruitment process, including sourcing, selection, hiring, and onboarding.",
+     "excerpt_id": 11,
+     "quote": "At Aber Care, we walk the journey with you through the entire recruitment process of sourcing, selection, hiring to on-boarding.",
+     "why": null
+    },
+    "contact_or_address": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    }
+   }
+  },
+  "seconds": 18.5
+ },
+ {
+  "id": "J15",
+  "employer": "CAPEN MARKETING PTE. LTD.",
+  "job_title": "Operations & Sales Support Admin Executive",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/admin/operations-sales-support-admin-executive-capen-marketing-2d771dbc0717dbb711821d1401fc10b8",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "201027214Z",
+    "name": "CAPEN MARKETING PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2010-12-27",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.kele.sg/",
+     "title": "Kele Singapore | Singapore Bakery Crafting Premium Pineapple Tarts",
+     "description": "Established in 1983 as a family bakery in Singapore, Kele has since ... Capen Marketing Pte Ltd, 2026. Cart (0). You haven't added anything to cart ..."
+    },
+    {
+     "url": "https://sg.linkedin.com/company/capen-marketing-pte-ltd",
+     "title": "Capen Marketing Pte Ltd - LinkedIn Singapore",
+     "description": "About us. Kele has made great strides since our humble beginnings in 1983. Over the past 30 years, we have perfected our signature pineapple pastry to emerge as ..."
+    },
+    {
+     "url": "https://www.kele.sg/pages/contact",
+     "title": "Contact Us - Kele Pineapple Tarts",
+     "description": "Singapore Heritage · Asian Flavours. CNY '27 Pre-Order. CNY '27 Pre-Order ... Capen Marketing Pte Ltd, 2026. Cart (0). You haven't added anything to cart ..."
+    },
+    {
+     "url": "https://www.sgpbusiness.com/company/Capen-Marketing-Pte-Ltd",
+     "title": "CAPEN MARKETING PTE. LTD. (201027214Z) - Singapore Company",
+     "description": "28 Aug 2026 ... CAPEN MARKETING PTE. LTD. ... CAPEN MARKETING PTE. LTD. (the \"Company\") is a Exempt Private Company Limited by Shares, incorporated on 27 December ..."
+    },
+    {
+     "url": "https://www.mycareersfuture.gov.sg/companies/capen-marketing-201027214Z",
+     "title": "CAPEN MARKETING PTE. LTD. Careers Singapore",
+     "description": "CAPEN MARKETING PTE. LTD. ... “A Legacy of Taste, Now a Singapore Heritage Brand!” Kele is proudly awarded a Singapore Heritage Brand by National Heritage Board!"
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://www.kele.sg/",
+    "page_status": "blocked_or_failed:429",
+    "match": "unreadable"
+   }
+  ],
+  "site": {
+   "url": "https://www.kele.sg/",
+   "title": "Kele Singapore | Singapore Bakery Crafting Premium Pineapple Tarts",
+   "description": "Established in 1983 as a family bakery in Singapore, Kele has since ... Capen Marketing Pte Ltd, 2026. Cart (0). You haven't added anything to cart ...",
+   "match": "found_unreadable",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "status": "blocked_or_failed:429"
+  },
+  "history": {
+   "host": "kele.sg",
+   "first_year": "2012",
+   "years_with_captures": 15
+  },
+  "answers": {
+   "note": "site found but page unreadable (blocked or empty); not evidence of absence"
+  },
+  "seconds": 2.1
+ },
+ {
+  "id": "J16",
+  "employer": "RECRUIT AVENUE PTE. LTD.",
+  "job_title": "Bank Receptionist cum Admin Assistant (1-Year Contract)",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/admin/bank-receptionist-cum-admin-assistant-recruit-avenue-2a5c044ff5d14bdf296abc3060bef040",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "202337204C",
+    "name": "RECRUIT AVENUE PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2023-09-15",
+    "ssic": "RECRUITMENT AGENCY",
+    "partial_name_match": false
+   },
+   "alternatives": [
+    "RECRUIT AVENUE"
+   ]
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.mycareersfuture.gov.sg/companies/recruit-avenue-202337204C",
+     "title": "RECRUIT AVENUE PTE. LTD. Careers Singapore - MyCareersFuture",
+     "description": "RECRUIT AVENUE PTE. LTD. Treasury Operations (checker) – Corporate Actions (Private Banking). Islandwide. Permanent. Professional. Banking and Finance. 6 years ..."
+    },
+    {
+     "url": "https://sg.jobstreet.com/recruit-avenue-pte-ltd-jobs",
+     "title": "Recruit Avenue Pte Ltd Jobs in Singapore (with Salaries) - Oct 2026",
+     "description": "2 Recruit Avenue Pte Ltd jobs in Singapore · Warehouse Executive · Logistic Officer · Select a job. Display details here. Singapore. Copyright © 2026, Jobstreet."
+    },
+    {
+     "url": "https://sg.linkedin.com/jobs/view/director-managing-director-investments-at-recruit-avenue-pte-ltd-4255612161",
+     "title": "Director / Managing Director, Investments at Recruit Avenue Pte. Ltd.",
+     "description": "Recruit Avenue Pte. Ltd. Singapore, Singapore. 1 year ago Be among the first 25 applicants. No longer accepting applications · 1. Investment Strategy & ..."
+    },
+    {
+     "url": "https://www.sgpbusiness.com/company/Recruit-Avenue-Pte-Ltd",
+     "title": "RECRUIT AVENUE PTE. LTD. (202337204C) - Singapore Company",
+     "description": "RECRUIT AVENUE PTE. LTD. ... RECRUIT AVENUE PTE. LTD. (the \"Company\") is a Exempt Private Company Limited by Shares, incorporated on 15 September 2023 (Friday) in ..."
+    },
+    {
+     "url": "https://searchavenue.com.sg/",
+     "title": "Search Avenue",
+     "description": "Company Logo. Find Us At. Blk 8 Kaki Bukit Rd 2 #03-34, Ruby Warehouse Complex S(417841). recruit@searchavenue.com.sg. UEN: 202503459R. EA License No: 25C2695 ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://searchavenue.com.sg/",
+    "page_status": "thin",
+    "match": "verified"
+   }
+  ],
+  "site": {
+   "url": "https://searchavenue.com.sg/",
+   "title": "Search Avenue",
+   "description": "Company Logo. Find Us At. Blk 8 Kaki Bukit Rd 2 #03-34, Ruby Warehouse Complex S(417841). recruit@searchavenue.com.sg. UEN: 202503459R. EA License No: 25C2695 ...",
+   "match": "verified",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "url": "https://searchavenue.com.sg/",
+   "fetched_at": "2026-11-01T06:13:04+0000",
+   "robots": "unavailable:404",
+   "http": 200,
+   "status": "thin",
+   "title": "Search Avenue"
+  },
+  "history": {
+   "host": "searchavenue.com.sg",
+   "first_year": "2025",
+   "years_with_captures": 2
+  },
+  "answers": {
+   "excerpts": 3,
+   "tokens": 986,
+   "answers": {
+    "what_company_does": {
+     "status": "supported",
+     "answer": "Provides specialized recruitment services across multiple sectors",
+     "excerpt_id": 2,
+     "quote": "Specialized recruitment across multiple sectors",
+     "why": null
+    },
+    "markets_locations": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "employer_type": {
+     "status": "supported",
+     "answer": "recruitment_agency",
+     "excerpt_id": 2,
+     "quote": "Specialized recruitment across multiple sectors",
+     "why": null
+    },
+    "hiring_information": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "contact_or_address": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    }
+   }
+  },
+  "seconds": 14.7
+ },
+ {
+  "id": "J17",
+  "employer": "SUNNYHILL ACE PTE. LTD.",
+  "job_title": "School Receptionist (Yishun-Secondary School)",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/admin/school-receptionist-sunnyhill-ace-49199be056147d1620c9d7bb683c00f1",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "202227941Z",
+    "name": "SUNNYHILL ACE PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2022-08-10",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.mycareersfuture.gov.sg/companies/sunnyhill-ace-202227941Z",
+     "title": "SUNNYHILL ACE PTE. LTD. Careers Singapore - MyCareersFuture",
+     "description": "SUNNYHILL ACE PTE. LTD. ... The company's services encompass standard office cleaning duties as detailed in its job descriptions for cleaner positions. Typical ..."
+    },
+    {
+     "url": "https://www.sgpbusiness.com/company/Sunnyhill-Ace-Pte-Ltd",
+     "title": "SUNNYHILL ACE PTE. LTD. (202227941Z) - Singapore Company",
+     "description": "20 Sept 2026 ... SUNNYHILL ACE PTE. LTD. ... SUNNYHILL ACE PTE. LTD. (the \"Company\") is a Exempt Private Company Limited by Shares, incorporated on 10 August 2022 ..."
+    },
+    {
+     "url": "https://www.sunnyhills.com.sg/",
+     "title": "SunnyHills Singapore",
+     "description": "#1 PINEAPPLE TART in TW, HK & SG. WELCOME TO SUNNYHILLS. Discover what Sunshine taste like, if ... © SunnyHills Delights Pte Ltd UEN: 201015096D. Search. Clear."
+    },
+    {
+     "url": "https://sg.jobstreet.com/Sunnyhill-Ace-jobs",
+     "title": "Sunnyhill Ace Jobs in Singapore (with Salaries) - Oct 2026 | Jobstreet",
+     "description": "10 Sunnyhill Ace jobs in Singapore · School Administrative Assistant (Part-Time Morning Shift) · Administrative Assistant (Frontline Reception / Junior College)."
+    },
+    {
+     "url": "https://sg.linkedin.com/jobs/view/school-operations-executive-at-sunnyhill-ace-pte-ltd-4474291995",
+     "title": "School Operations Executive at SUNNYHILL ACE PTE. LTD.",
+     "description": "15 Oct 2026 ... SUNNYHILL ACE PTE. LTD. Singapore, Singapore. 2 weeks ago Be among the first 25 applicants. No longer accepting applications · Daily Operations ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://www.sunnyhills.com.sg/",
+    "page_status": "ok",
+    "match": "unverified"
+   }
+  ],
+  "site": null,
+  "answers": {
+   "note": "no verified official site found; registry record only"
+  },
+  "seconds": 1.0
+ },
+ {
+  "id": "J18",
+  "employer": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO. PTE. LTD.",
+  "job_title": "RECEPTIONIST",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/admin/receptionist-china-construction-development-3b9343e0d909115d62e21c6534e44005",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "199201093N",
+    "name": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO. PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "1992-03-02",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://en.chinaconstruction.cscec.com/",
+     "title": "CHINA CONSTRUCTION (SOUTH PACIFIC)",
+     "description": "Housing · Education · Commercial & Mixed · Healthcare · Infrastructure · Industry & Public Institution · Property Development · Overseas Projects."
+    },
+    {
+     "url": "https://sg.linkedin.com/company/cscec-singapore",
+     "title": "CSCEC Singapore | LinkedIn",
+     "description": "CSCEC is konwn as China Construction (South Pacific) Development Co Pte Ltd (CCDC) , established in 1992 in Singapore, as a regional wholly-owned subsidiary ..."
+    },
+    {
+     "url": "https://www.facebook.com/CCDCNews/",
+     "title": "CSCEC Singapore - Facebook",
+     "description": "As the main contractor, CSCEC Singapore is honoured to have contributed to delivering this landmark development, advancing innovation, functionality and ..."
+    },
+    {
+     "url": "https://www.timesbusinessdirectory.com/company-details/china-construction-south-pacific-development-co-pte-ltd/",
+     "title": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO ...",
+     "description": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO. PTE LTD · 182, Cecil Street, #31-01 Frasers Tower, Singapore, 069547 · (65) 6227 4537 · chinacon@ ..."
+    },
+    {
+     "url": "https://www.asiabuilders.com.sg/company-details/china-construction-south-pacific-development-co-pte-ltd/",
+     "title": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO ...",
+     "description": "CHINA CONSTRUCTION (SOUTH PACIFIC) DEVELOPMENT CO. PTE LTD · 182, Cecil Street, #31-01 Frasers Tower, Singapore, 069547 · http://www.chinaconstruction.com.sg · (65) ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://en.chinaconstruction.cscec.com/",
+    "page_status": "blocked_or_failed:URLError",
+    "match": "unreadable"
+   },
+   {
+    "url": "https://www.asiabuilders.com.sg/company-details/china-construction-south-pacific-development-co-pte-ltd/",
+    "page_status": "ok",
+    "match": "article_or_listing"
+   },
+   {
+    "url": "https://www.straitstimes.com/singapore/building-neighbourhoods-and-advancing-innovation",
+    "page_status": "ok",
+    "match": "article_or_listing"
+   }
+  ],
+  "site": {
+   "url": "https://en.chinaconstruction.cscec.com/",
+   "title": "CHINA CONSTRUCTION (SOUTH PACIFIC)",
+   "description": "Housing · Education · Commercial & Mixed · Healthcare · Infrastructure · Industry & Public Institution · Property Development · Overseas Projects.",
+   "match": "found_unreadable",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "status": "blocked_or_failed:URLError"
+  },
+  "history": {
+   "host": "en.chinaconstruction.cscec.com",
+   "first_year": "2021",
+   "years_with_captures": 5
+  },
+  "answers": {
+   "note": "site found but page unreadable (blocked or empty); not evidence of absence"
+  },
+  "seconds": 7.0
+ },
+ {
+  "id": "J19",
+  "employer": "TEMP-TEAM PTE LTD",
+  "job_title": "Operations Support Coordinator (Order Processing)",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/admin/operations-support-coordinator-temp-team-c92c1d72b6396c1493db67214aa90284",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "198202672R",
+    "name": "TEMP-TEAM PTE LTD",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "1982-06-22",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.temp-team.com.sg/",
+     "title": "Temp-Team | Singapore: Find A Job In Singapore",
+     "description": "TEMP-TEAM (EA Licence No. 01C3135) is a certified recruitment agency in Singapore with over 20 years of industry experience. We combine a strong local presence ..."
+    },
+    {
+     "url": "https://www.temp-team.com.sg/careerwithus",
+     "title": "Career with us - Temp-Team | Singapore",
+     "description": "With TEMP-TEAM, you can get a challenging and rewarding career. We provide an attractive package, a dynamic working environment, comprehensive training and ..."
+    },
+    {
+     "url": "https://www.temp-team.com.sg/temporaryemployment",
+     "title": "Temporary Employment - Temp-Team | Singapore",
+     "description": "Are you reliable, flexible, and motivated? Join TEMP-TEAM as a temporary worker and gain access to rewarding short-term and contract job opportunities across ..."
+    },
+    {
+     "url": "https://sg.linkedin.com/company/temp-team-sg",
+     "title": "Temp-Team Singapore | LinkedIn",
+     "description": "Temp-Team provides Temporary, Permanent, Contract, Executive and International Placement. Payroll & Work pass applications are also one of our value-added ..."
+    },
+    {
+     "url": "https://www.temp-team.com.sg/remote-staffing",
+     "title": "Remote Staffing in Singapore | Temp-Team",
+     "description": "Remote Staffing in Singapore - an innovative and cost-effective solution for companies seeking to hire top-tier talent in Singapore."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://www.temp-team.com.sg/",
+    "page_status": "ok",
+    "match": "verified"
+   }
+  ],
+  "site": {
+   "url": "https://www.temp-team.com.sg/",
+   "title": "Temp-Team | Singapore: Find A Job In Singapore",
+   "description": "TEMP-TEAM (EA Licence No. 01C3135) is a certified recruitment agency in Singapore with over 20 years of industry experience. We combine a strong local presence ...",
+   "match": "verified",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "url": "https://www.temp-team.com.sg/",
+   "fetched_at": "2026-11-01T06:13:26+0000",
+   "robots": "read",
+   "http": 200,
+   "status": "ok",
+   "title": "Find A Job In Singapore | Temp-Team | Singapore"
+  },
+  "history": {
+   "host": "temp-team.com.sg",
+   "first_year": "2001",
+   "years_with_captures": 26
+  },
+  "answers": {
+   "excerpts": 65,
+   "tokens": 2245,
+   "answers": {
+    "what_company_does": {
+     "status": "supported",
+     "answer": "Provides recruitment and staffing services, including temporary staff, permanent recruitment, payroll outsourcing, and work pass applications.",
+     "excerpt_id": 14,
+     "quote": "We combine a strong local presence with the resources of a larger group, delivering personalized, high-quality recruitment services to both clients and candidates.",
+     "why": null
+    },
+    "markets_locations": {
+     "status": "supported",
+     "answer": "Serves businesses and international companies in Singapore and across all industries nationwide.",
+     "excerpt_id": 25,
+     "quote": "Remote staffing in Singapore lets international companies hire local professionals without setting up a physical office or entity.",
+     "why": null
+    },
+    "employer_type": {
+     "status": "rejected_unverified_quote",
+     "answer": "",
+     "excerpt_id": 13,
+     "quote": "TEMP-TEAM (EA Licence No. 01C3135) is a certified recruitment agency in Singapore with over 20 years of industry experience.",
+     "why": "quote not found in cited excerpt"
+    },
+    "hiring_information": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "contact_or_address": {
+     "status": "supported",
+     "answer": "Contact via WhatsApp or email.",
+     "excerpt_id": 50,
+     "quote": "Get in touch with us via WhatsApp or email:",
+     "why": null
+    }
+   }
+  },
+  "seconds": 12.4
+ },
+ {
+  "id": "J20",
+  "employer": "COFFEE CLUB PTE LTD",
+  "job_title": "Service Crew (Orchard) - 5 Days Work",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/food-and-beverage/service-crew-5-days-work-coffee-club-1422bd7f56fd5c03b5c3df451cf69ccd",
+  "registry": {
+   "state": "needs_confirmation",
+   "why": "1 other live entity(ies) share the name stem: MA COFFEECLUB PTE. LTD.",
+   "chosen": {
+    "score": 1.0,
+    "uen": "198404361H",
+    "name": "COFFEE CLUB PTE LTD",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "1984-12-21",
+    "ssic": "OPERATING SPECIALTY BEVERAGE OUTLETS",
+    "partial_name_match": false
+   },
+   "alternatives": [
+    "COFFEE CAT CLUB",
+    "MA COFFEECLUB PTE. LTD.",
+    "COFFEE CLUB XPRESS"
+   ]
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.ocoffeeclub.com/",
+     "title": "Coffee Club Pte Ltd",
+     "description": "Singapore's Coffee Pioneer. Established in 1991, O'Coffee Club holds the distinction of being Singapore's first independent gourmet coffee chain. It played a ..."
+    },
+    {
+     "url": "https://sg.indeed.com/cmp/Coffee-Club-Pte-Ltd/salaries",
+     "title": "Coffee Club Pte Ltd Salaries in Singapore | Indeed.com",
+     "description": "The average Coffee Club Pte Ltd monthly salary ranges from approximately $2,284 per month for Food & Beverage Supervisor to $3,130 per month for Assistant ..."
+    },
+    {
+     "url": "https://www.foundit.sg/job/service-crew-orchard-5-days-work-coffee-club-pte-ltd-singapore-69652082",
+     "title": "Service Crew (Orchard) - 5 Days Work with 0 - foundit",
+     "description": "15 hours ago ... Posted 04:58:23 PM coffee club pte ltd is hiring an Service Crew (Orchard) - 5 Days Work with 0 - 1 Years of Experience in Singapore."
+    },
+    {
+     "url": "https://www.ocoffeeclub.com/our-stores/",
+     "title": "Our Stores – Coffee Club Pte Ltd",
+     "description": "Our Stores · O'COFFEE CLUB Indulgence · O'COFFEE CLUB Raffles City · O'COFFEE CLUB Isetan Scotts · O'COFFEE CLUB Jun Xin Building · O'COFFEE CLUB Terminal 3 · O' ..."
+    },
+    {
+     "url": "https://www.ocoffeeclub.com/our-menu/",
+     "title": "Our Menu – Coffee Club Pte Ltd",
+     "description": "Careers. A Brand of. The Connoisseur Collective Group. theconnoisseurcollective.sg · Facebook Instagram. Copyright © 2026 Coffee Club Pte Ltd. All Rights ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://www.ocoffeeclub.com/",
+    "page_status": "ok",
+    "match": "verified"
+   }
+  ],
+  "site": {
+   "url": "https://www.ocoffeeclub.com/",
+   "title": "Coffee Club Pte Ltd",
+   "description": "Singapore's Coffee Pioneer. Established in 1991, O'Coffee Club holds the distinction of being Singapore's first independent gourmet coffee chain. It played a ...",
+   "match": "verified",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "url": "https://www.ocoffeeclub.com/",
+   "fetched_at": "2026-11-01T06:13:38+0000",
+   "robots": "read",
+   "http": 200,
+   "status": "ok",
+   "title": "Coffee Club Pte Ltd"
+  },
+  "history": {
+   "host": "ocoffeeclub.com",
+   "first_year": "2011",
+   "years_with_captures": 16
+  },
+  "answers": {
+   "excerpts": 54,
+   "tokens": 2009,
+   "answers": {
+    "what_company_does": {
+     "status": "supported",
+     "answer": "It is a homegrown gourmet coffee chain.",
+     "excerpt_id": 1,
+     "quote": "O’Coffee Club is a homegrown gourmet coffee chain, founded in 1991.",
+     "why": null
+    },
+    "markets_locations": {
+     "status": "supported",
+     "answer": "It serves Singapore, Malaysia and Indonesia.",
+     "excerpt_id": 3,
+     "quote": "Today, O’Coffee Club has expanded across Singapore, Malaysia and Indonesia….",
+     "why": null
+    },
+    "employer_type": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "hiring_information": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "contact_or_address": {
+     "status": "supported",
+     "answer": "290 Orchard Road, #05-46 & #05-K3/K4, Paragon, Singapore 238859",
+     "excerpt_id": 13,
+     "quote": "290 Orchard Road, #05-46 & #05-K3/K4, Paragon, Singapore 238859",
+     "why": null
+    }
+   }
+  },
+  "seconds": 13.5
+ },
+ {
+  "id": "J21",
+  "employer": "VILLAGE HOTEL SENTOSA",
+  "job_title": "Senior / Guest Service Assistant",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/hospitality/senior-guest-service-assistant-village-hotel-sentosa-c110d1347fb0e4c07d5467f067db9730",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "53274919K",
+    "name": "VILLAGE HOTEL SENTOSA",
+    "type": "Sole Proprietorship/ Partnership",
+    "status": "Live",
+    "incorporated": "2014-09-17",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.villagehotels.asia/en/hotels/village-hotel-sentosa",
+     "title": "Village Hotel Sentosa | Official Global Site",
+     "description": "Village Hotel Sentosa. 10 Artillery Avenue, #02-01 Palawan Ridge, Sentosa Island, Singapore 099951; Check-in: 3:00 PM; Checkout: 12:00 PM. Get In Touch. Email ..."
+    },
+    {
+     "url": "https://www.fareasthospitality.com/en/hotels/village-hotel-sentosa",
+     "title": "Village Hotel Sentosa, Singapore | By Far East Hospitality",
+     "description": "Village Hotel Sentosa · 10 Artillery Avenue, #02-01 Palawan Ridge, Sentosa Island, Singapore 099951 · Check-in: 3:00 PM · Checkout: 12:00 PM."
+    },
+    {
+     "url": "https://www.booking.com/hotel/sg/village-at-sentosa.html",
+     "title": "Village Hotel Sentosa by Far East Hospitality",
+     "description": "The newest addition to the Village brand by Far East Hospitality, Village Hotel Sentosa delivers a unique experience for families, as well as leisure and ..."
+    },
+    {
+     "url": "https://www.facebook.com/VillageHotelSentosa/",
+     "title": "Village Hotel Sentosa - Facebook",
+     "description": "At Village Hotel Sentosa, good food is always within reach. With @‌nativekitchensg, Mess Hall, Good Old Days Singapore Flavours and @‌theweavesingapore all ..."
+    },
+    {
+     "url": "https://www.tripadvisor.com.sg/Hotel_Review-g294264-d15294579-Reviews-Village_Hotel_Sentosa_by_Far_East_Hospitality-Sentosa_Island_Singapore.html",
+     "title": "Village Hotel Sentosa by Far East Hospitality - Tripadvisor",
+     "description": "The kids-friendly Village Hotel Sentosa offers an energetic, fun and vibrant stay for families, as well as leisure and meeting groups. The hotel's 606 cosy ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://www.villagehotels.asia/en/hotels/village-hotel-sentosa",
+    "page_status": "ok",
+    "match": "verified"
+   }
+  ],
+  "site": {
+   "url": "https://www.villagehotels.asia/en/hotels/village-hotel-sentosa",
+   "title": "Village Hotel Sentosa | Official Global Site",
+   "description": "Village Hotel Sentosa. 10 Artillery Avenue, #02-01 Palawan Ridge, Sentosa Island, Singapore 099951; Check-in: 3:00 PM; Checkout: 12:00 PM. Get In Touch. Email ...",
+   "match": "verified",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "url": "https://www.villagehotels.asia/en/hotels/village-hotel-sentosa",
+   "fetched_at": "2026-11-01T06:13:52+0000",
+   "robots": "read",
+   "http": 200,
+   "status": "ok",
+   "title": "Village Hotel Sentosa | Official Global Site\r\n    Group 103Group 3016"
+  },
+  "history": {
+   "host": "villagehotels.asia",
+   "first_year": "2019",
+   "years_with_captures": 8
+  },
+  "answers": {
+   "excerpts": 96,
+   "tokens": 2426,
+   "answers": {
+    "what_company_does": {
+     "status": "supported",
+     "answer": "Operates hotels and serviced residences",
+     "excerpt_id": 43,
+     "quote": "Village Hotel Albert Court",
+     "why": null
+    },
+    "markets_locations": {
+     "status": "supported",
+     "answer": "Serves locations including Albert Court, Osaka, Tokyo, Yokohama",
+     "excerpt_id": 43,
+     "quote": "Village Hotel Albert Court",
+     "why": null
+    },
+    "employer_type": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "hiring_information": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "contact_or_address": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    }
+   }
+  },
+  "seconds": 11.8
+ },
+ {
+  "id": "J22",
+  "employer": "BAN LEONG PAWNSHOP PTE. LTD.",
+  "job_title": "Retail Sales Assistant",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/sales/retail-sales-assistant-ban-leong-pawnshop-ef43ecf9c8dd070bc6eed5cc73aadacb",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "200602212R",
+    "name": "BAN LEONG PAWNSHOP PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2006-02-18",
+    "ssic": "PAWNBROKERAGE",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://www.banleongpawnshop.sg/",
+     "title": "Ban Leong Pawnshop: Pawn Shop in Woodlands Singapore",
+     "description": "Licensed Singapore pawnbroker since 2006. Get instant cash for gold, jewellery and Rolex watches at Ban Leong Pawnshop. Two Woodlands branches, fair rates, ..."
+    },
+    {
+     "url": "https://www.banleongpawnshop.sg/about.html",
+     "title": "About Us - Ban Leong Pawnshop",
+     "description": "19 Oct 2026 ... Ban Leong Pawnshop is a licensed Singapore pawnbroker operating since 2006, with two Woodlands branches serving the community with fair, ..."
+    },
+    {
+     "url": "https://www.singpawn.org/ttps://www.singpawn.org/en/find-a-shop/woodlands/37-ban-leong-pawnshop-pte-ltd&lang=en",
+     "title": "Ban Leong Pawnshop Pte Ltd - Singapore Pawnbrokers' Association",
+     "description": "✓ Provide short term loans (6-mth tenure) based on pledged collateral of all gold jewellery of various grade; 18K,22K &24K etc. ✓ Provide short term loans ..."
+    },
+    {
+     "url": "https://www.sgpbusiness.com/company/Ban-Leong-Pawnshop-Pte-Ltd",
+     "title": "ban leong pawnshop pte. ltd. - Singapore Business Directory",
+     "description": "25 May 2026 ... BAN LEONG PAWNSHOP PTE. LTD. ... BAN LEONG PAWNSHOP PTE. LTD. (the \"Company\") is a Private Company Limited by Shares, incorporated on 18 February ..."
+    },
+    {
+     "url": "https://www.facebook.com/banleong.pawnshop.7/",
+     "title": "Ban Leong Pawnshop - Facebook",
+     "description": "Ban Leong Pawnshop. We provide free professional valuation, high prices for your jewelry, watches. Friendly service!!! Singapore. Lives in Singapore. Photos."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://www.banleongpawnshop.sg/",
+    "page_status": "ok",
+    "match": "verified"
+   }
+  ],
+  "site": {
+   "url": "https://www.banleongpawnshop.sg/",
+   "title": "Ban Leong Pawnshop: Pawn Shop in Woodlands Singapore",
+   "description": "Licensed Singapore pawnbroker since 2006. Get instant cash for gold, jewellery and Rolex watches at Ban Leong Pawnshop. Two Woodlands branches, fair rates, ...",
+   "match": "verified",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "url": "https://www.banleongpawnshop.sg/",
+   "fetched_at": "2026-11-01T06:14:03+0000",
+   "robots": "read",
+   "http": 200,
+   "status": "ok",
+   "title": "Pawn Shop in Woodlands Singapore | Ban Leong Pawnshop"
+  },
+  "history": {
+   "host": "banleongpawnshop.sg",
+   "first_year": null,
+   "years_with_captures": 0
+  },
+  "answers": {
+   "excerpts": 81,
+   "tokens": 2252,
+   "answers": {
+    "what_company_does": {
+     "status": "supported",
+     "answer": "Provides pawnbroking services for gold, jewellery and branded watches, offering cash loans against these items.",
+     "excerpt_id": 2,
+     "quote": "Fast, fair and discreet pawnbroking for gold, jewellery and branded watches.",
+     "why": null
+    },
+    "markets_locations": {
+     "status": "supported",
+     "answer": "Serves customers in Woodlands, Singapore with two branches located at 678A Woodlands Avenue 6 and 888 Woodlands Drive 50.",
+     "excerpt_id": 49,
+     "quote": "678A Woodlands Avenue 6, #01-11, Singapore 731678",
+     "why": null
+    },
+    "employer_type": {
+     "status": "supported",
+     "answer": "direct_employer",
+     "excerpt_id": 21,
+     "quote": "A licensed pawnbroker regulated under the Pawnbrokers Act.",
+     "why": null
+    },
+    "hiring_information": {
+     "status": "not_found",
+     "answer": "",
+     "excerpt_id": 0,
+     "quote": "",
+     "why": null
+    },
+    "contact_or_address": {
+     "status": "supported",
+     "answer": "Provides physical address: 678A Woodlands Avenue 6, #01-11, Singapore 731678.",
+     "excerpt_id": 49,
+     "quote": "678A Woodlands Avenue 6, #01-11, Singapore 731678",
+     "why": null
+    }
+   }
+  },
+  "seconds": 15.7
+ },
+ {
+  "id": "J23",
+  "employer": "ZY FUTURE INTERNATIONAL PTE. LTD.",
+  "job_title": "Japanese Restaurant Service Staff",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/customer-service/japanese-restaurant-service-staff-guanhuo-e749a9b0a7f6f8faca747e487f81ebc3",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "202241080G",
+    "name": "ZY FUTURE INTERNATIONAL PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2022-11-17",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "ok",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ]
+   ],
+   "top_results": [
+    {
+     "url": "https://zyagent.com/",
+     "title": "ZY Future International - Professional Manpower Solutions Singapore",
+     "description": "Empowering Global Workforce Connecting Employers & Talents ... Founded in 2022, ZY Future International is a trusted manpower and recruitment agency delivering ..."
+    },
+    {
+     "url": "https://www.sgpbusiness.com/company/Zy-Future-International-Pte-Ltd",
+     "title": "zy future international pte. ltd. - Singapore Business Directory",
+     "description": "ZY FUTURE INTERNATIONAL PTE. LTD. ... ZY FUTURE INTERNATIONAL PTE. LTD. (the \"Company\") is a Exempt Private Company Limited by Shares, incorporated on 17 November ..."
+    },
+    {
+     "url": "https://recordowl.com/company/zy-future-international-pte-ltd",
+     "title": "ZY FUTURE INTERNATIONAL PTE. LTD. (202241080G) - RecordOwl",
+     "description": "ZY Future International is a Singapore-based manpower and recruitment agency specializing in connecting employers with both local and foreign talent across ..."
+    },
+    {
+     "url": "https://www.mycareersfuture.gov.sg/companies/zy-future-international-202241080G",
+     "title": "ZY FUTURE INTERNATIONAL PTE. LTD. Careers Singapore",
+     "description": "LTD. (ZY) has steadily transformed into one of Singapore's leading staffing and recruitment agencies under prudent management. Backed by dedicated and best- ..."
+    },
+    {
+     "url": "https://www.facebook.com/p/ZY-Future-International-Pte-Ltd-100085624583923/",
+     "title": "ZY Future International Pte. Ltd. - Facebook",
+     "description": "ZY Future International Pte. Ltd., Singapore. 60 followers. Our company provides long-term job opportunities in Singapore, Japan, New Zealand, ..."
+    }
+   ]
+  },
+  "candidates_tried": [
+   {
+    "url": "https://zyagent.com/",
+    "page_status": "thin",
+    "match": "verified"
+   }
+  ],
+  "site": {
+   "url": "https://zyagent.com/",
+   "title": "ZY Future International - Professional Manpower Solutions Singapore",
+   "description": "Empowering Global Workforce Connecting Employers & Talents ... Founded in 2022, ZY Future International is a trusted manpower and recruitment agency delivering ...",
+   "match": "verified",
+   "found_by": "searxng_local"
+  },
+  "page": {
+   "url": "https://zyagent.com/",
+   "fetched_at": "2026-11-01T06:14:19+0000",
+   "robots": "read",
+   "http": 200,
+   "status": "thin",
+   "title": "ZY Future International - Professional Manpower Solutions Singapore"
+  },
+  "history": {
+   "host": "zyagent.com",
+   "first_year": "2010",
+   "years_with_captures": 3
+  },
+  "answers": {
+   "note": "site found but page unreadable (blocked or empty); not evidence of absence"
+  },
+  "seconds": 1.7
+ },
+ {
+  "id": "J24",
+  "employer": "HRNET VENTURES PTE. LTD.",
+  "job_title": "Sportswear Retail Associate / Sales Assistant | Up to $4.5K | Jurong East & Changi | URGENT HIRING",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/sales/%F0%9F%91%9F-sportswear-retail-associate-sales-assistant-45k-jurong-east-changi-urgent-hiring-hrnet-ventures-92412e5a5586a6e48d807fd74cc08b9f",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "201841218K",
+    "name": "HRNET VENTURES PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2018-12-07",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "no_results",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ],
+    [
+     "google cse",
+     "too many requests"
+    ]
+   ],
+   "top_results": []
+  },
+  "candidates_tried": [],
+  "site": null,
+  "answers": {
+   "note": "no verified official site found; registry record only"
+  },
+  "seconds": 2.0
+ },
+ {
+  "id": "J25",
+  "employer": "ACTIVATE INTERACTIVE PTE LTD",
+  "job_title": "Senior Software Engineer - A26428",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/information-technology/senior-software-engineer-a26428-activate-interactive-f3612ee28dcd698912833f8310ede341",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "199707097N",
+    "name": "ACTIVATE INTERACTIVE PTE LTD",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "1997-10-11",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "no_results",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ],
+    [
+     "google cse",
+     "Suspended: too many requests"
+    ]
+   ],
+   "top_results": []
+  },
+  "candidates_tried": [],
+  "site": null,
+  "answers": {
+   "note": "no verified official site found; registry record only"
+  },
+  "seconds": 2.9
+ },
+ {
+  "id": "J26",
+  "employer": "KYNDRYL (SINGAPORE) PTE. LTD.",
+  "job_title": "Data Engineer - Databricks Platform",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/information-technology/data-engineer-databricks-platform-kyndryl-120a7ed07638c899cdbe43a34c84a6ef",
+  "registry": {
+   "state": "needs_confirmation",
+   "why": "1 other live entity(ies) share the name stem: KYNDRYL (SINGAPORE) BTTS PTE. LTD.",
+   "chosen": {
+    "score": 1.0,
+    "uen": "202101462E",
+    "name": "KYNDRYL (SINGAPORE) PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2021-01-12",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": [
+    "KYNDRYL (SINGAPORE) BTTS PTE. LTD."
+   ]
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "no_results",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ],
+    [
+     "google cse",
+     "Suspended: too many requests"
+    ]
+   ],
+   "top_results": []
+  },
+  "candidates_tried": [],
+  "site": null,
+  "answers": {
+   "note": "no verified official site found; registry record only"
+  },
+  "seconds": 3.2
+ },
+ {
+  "id": "J27",
+  "employer": "RANDSTAD PTE. LIMITED",
+  "job_title": "Data Engineer | AWS",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/information-technology/data-engineer-aws-randstad-9a872b975790cdd220021973bea982bc",
+  "registry": {
+   "state": "needs_confirmation",
+   "why": "1 other live entity(ies) share the name stem: RANDSTAD FTC PTE. LTD.",
+   "chosen": {
+    "score": 1.0,
+    "uen": "199304055W",
+    "name": "RANDSTAD PTE. LIMITED",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "1993-06-24",
+    "ssic": "TEMPORARY AND PERMANENT EMPLOYMENT SERVICES",
+    "partial_name_match": false
+   },
+   "alternatives": [
+    "RANDSTAD FTC PTE. LTD.",
+    "RANDSTAD DIGITAL",
+    "RANDSTAD CPE PTY LTD"
+   ]
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "no_results",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ],
+    [
+     "google cse",
+     "Suspended: too many requests"
+    ]
+   ],
+   "top_results": []
+  },
+  "candidates_tried": [],
+  "site": null,
+  "answers": {
+   "note": "no verified official site found; registry record only"
+  },
+  "seconds": 2.8
+ },
+ {
+  "id": "J28",
+  "employer": "SINGAPORE TELECOMMUNICATIONS LIMITED",
+  "job_title": "Product Manager",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/information-technology/product-manager-singapore-telecommunications-a162c57ea38c0b54f079f532b677c3ae",
+  "registry": {
+   "state": "needs_confirmation",
+   "why": "1 other live entity(ies) share the name stem: SINGAPORE SMART TELECOMMUNICATIONS PTE. LTD.",
+   "chosen": {
+    "score": 1.0,
+    "uen": "199201624D",
+    "name": "SINGAPORE TELECOMMUNICATIONS LIMITED",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "1992-03-28",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": [
+    "SINGAPORE SMART TELECOMMUNICATIONS PTE. LTD.",
+    "SINGAPORE ESINN TELECOMMUNICATIONS PTE. LTD.",
+    "GENBAND (SINGAPORE) TELECOMMUNICATIONS PTE. LTD."
+   ]
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "no_results",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ],
+    [
+     "google cse",
+     "Suspended: too many requests"
+    ]
+   ],
+   "top_results": []
+  },
+  "candidates_tried": [],
+  "site": null,
+  "answers": {
+   "note": "no verified official site found; registry record only"
+  },
+  "seconds": 3.0
+ },
+ {
+  "id": "J29",
+  "employer": "VANGUARD SOFTWARE PTE. LTD.",
+  "job_title": "Junior Data Engineer",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/information-technology/junior-data-engineer-vanguard-software-65b4862bc01cb6c14b9ea7c05ea3e877",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "202342779N",
+    "name": "VANGUARD SOFTWARE PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2023-10-26",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "no_results",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ],
+    [
+     "google cse",
+     "Suspended: too many requests"
+    ]
+   ],
+   "top_results": []
+  },
+  "candidates_tried": [],
+  "site": null,
+  "answers": {
+   "note": "no verified official site found; registry record only"
+  },
+  "seconds": 3.1
+ },
+ {
+  "id": "J30",
+  "employer": "CHARTERHOUSE RESOURCES PTE. LTD.",
+  "job_title": "Forklift Operator @ WEST | $2500 + AWS",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/general-work/forklift-operator-west-2500-aws-charterhouse-resources-13426465331479d303d51b3daa68ccf5",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "200719352W",
+    "name": "CHARTERHOUSE RESOURCES PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2007-10-18",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "no_results",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ],
+    [
+     "google cse",
+     "Suspended: too many requests"
+    ]
+   ],
+   "top_results": []
+  },
+  "candidates_tried": [],
+  "site": null,
+  "answers": {
+   "note": "no verified official site found; registry record only"
+  },
+  "seconds": 3.1
+ },
+ {
+  "id": "J31",
+  "employer": "BIGFOOT MEATS PTE. LTD.",
+  "job_title": "DELIVERY DRIVER",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/logistics/delivery-driver-bigfoot-meats-6589cfdeafa6fad8d52fa5f136b9ccce",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "200412500R",
+    "name": "BIGFOOT MEATS PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2004-09-30",
+    "ssic": "WHOLESALE OF MEAT, POULTRY AND OTHER FROZEN FOOD",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "no_results",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ],
+    [
+     "google cse",
+     "Suspended: too many requests"
+    ]
+   ],
+   "top_results": []
+  },
+  "candidates_tried": [],
+  "site": null,
+  "answers": {
+   "note": "no verified official site found; registry record only"
+  },
+  "seconds": 2.8
+ },
+ {
+  "id": "J32",
+  "employer": "AIM RECRUIT CONSULTANCY PTE. LIMITED",
+  "job_title": "Lift Technician - Entry level @Jurong East",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/building-construction/lift-technician-entry-level-jurong-east-aim-recruit-consultancy-493313ffdc127e53d03c220340861125",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "202331793Z",
+    "name": "AIM RECRUIT CONSULTANCY PTE. LIMITED",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2023-08-08",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "no_results",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ],
+    [
+     "google cse",
+     "Suspended: too many requests"
+    ]
+   ],
+   "top_results": []
+  },
+  "candidates_tried": [],
+  "site": null,
+  "answers": {
+   "note": "no verified official site found; registry record only"
+  },
+  "seconds": 3.0
+ },
+ {
+  "id": "J33",
+  "employer": "WEITUO M&E PTE. LTD.",
+  "job_title": "MECHANICAL TECHNICIAN",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/engineering/mechanical-technician-weituo-me-69e3a9c37e517cc47bfd6f0ac0459c91",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "202114703K",
+    "name": "WEITUO M&E PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2021-04-26",
+    "ssic": "MINOR MECHANICAL & ELECTRICAL WORKS",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "no_results",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ],
+    [
+     "google cse",
+     "Suspended: too many requests"
+    ]
+   ],
+   "top_results": []
+  },
+  "candidates_tried": [],
+  "site": null,
+  "answers": {
+   "note": "no verified official site found; registry record only"
+  },
+  "seconds": 2.9
+ },
+ {
+  "id": "J34",
+  "employer": "RECRUITFLASH PTE. LTD.",
+  "job_title": "(X5) Warehouse cum Driver class 3 (Clrementi / Paya lebar / West / Centre area) Good Pay",
+  "job_url": "https://www.mycareersfuture.gov.sg/job/logistics/warehouse-cum-driver-class-3-good-pay-recruitflash-99d586d014fe65b7fd48c08b78fbec88",
+  "registry": {
+   "state": "exact",
+   "why": "single live entity with matching name",
+   "chosen": {
+    "score": 1.0,
+    "uen": "201908399D",
+    "name": "RECRUITFLASH PTE. LTD.",
+    "type": "Local Company",
+    "status": "Live Company",
+    "incorporated": "2019-03-14",
+    "ssic": "na",
+    "partial_name_match": false
+   },
+   "alternatives": []
+  },
+  "search": {
+   "source": "searxng_local",
+   "status": "no_results",
+   "note": null,
+   "unresponsive_engines": [
+    [
+     "brave",
+     "Suspended: too many requests"
+    ],
+    [
+     "duckduckgo",
+     "Suspended: access denied"
+    ],
+    [
+     "google cse",
+     "Suspended: too many requests"
+    ]
+   ],
+   "top_results": []
+  },
+  "candidates_tried": [],
+  "site": null,
+  "answers": {
+   "note": "no verified official site found; registry record only"
+  },
+  "seconds": 3.2
+ }
+]

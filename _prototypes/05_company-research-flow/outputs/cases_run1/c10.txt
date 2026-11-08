@@ -1,0 +1,37 @@
+Grab Singapore Recruitment Pte Ltd  (role: Customer Service Officer)
+HEADLINE: likely_lookalike
+  No registered company has this exact name and no source uses it. The closest registered name
+  belongs to a different company. Treat the posting with caution.
+  because: registry: similar_name_only; closest registered name is a different entity; exact name
+  appears in no source
+REGISTRY: similar_name_only. No registered entity is named 'Grab Singapore Recruitment Pte Ltd'. The closest registered name is TALENTS RECRUITMENT AGENCY PTE. LTD., which may be a different company.
+WEB: 5 queries (bing), 2 of 8 pages read, exact name seen in 0 pages and 0 search results
+BRIEF (model rating: cannot_verify, confidence low; 2 claims verified, 0 unverified)
+  facts and positive signals hidden: the company was not confirmed under this exact name
+  Red flags:
+    [verified] The company name "Grab Singapore Recruitment Pte Ltd" is not found in the official
+    ACRA registry.
+    [verified] Potential scam warning: Singapore’s ScamShield resources list common scam indicators
+    but do not list this company.
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 3):
+  - Singapore Post Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/Singapore-Post-
+    Reviews-E37718.htm
+  - Top Recruitment Agencies in Singapore 2026: An …  https://www.linkedin.com/pulse/top-
+    recruitment-agencies-singapore-2026-expert-re
+  - ISS World Employee Reviews in Singapore - Indeed.c  https://sg.indeed.com/cmp/Iss-
+    World-e8c83370/reviews?fcountry=SG&floc=Singapore
+COULD NOT READ (6):
+  - https://sbr.com.sg/hr-education/in-focus/heavier-workloads-push-singap  (irrelevant: the page
+    never mentions the company name)
+  - https://www.thebestsingapore.com/the-best-maid-agencies-in-singapore  (irrelevant: the page
+    never mentions the company name)
+  - https://sea.peoplemattersglobal.com/news/compensation-benefits/singapo  (irrelevant: the page
+    never mentions the company name)
+  - https://www.scamshield.gov.sg/check-for-scams  (irrelevant: the page never mentions the company
+    name)
+  - https://www.scamshield.gov.sg/  (irrelevant: the page never mentions the company name)
+  - https://www.scam.sg/companies  (irrelevant: the page never mentions the company name)
+COULD NOT VERIFY:
+  - No source confirms the existence of a company named "Grab Singapore Recruitment Pte Ltd" in
+    official Singapore company registers.
+(126.3s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

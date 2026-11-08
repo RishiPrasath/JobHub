@@ -1,0 +1,289 @@
+{
+ "query": {
+  "text": "Randstad Singapore employee reviews",
+  "engines_requested": [
+   "duckduckgo"
+  ]
+ },
+ "meta": {
+  "request_id": "01a1b45b-7542-7b15-b1be-e60c97b63f43",
+  "requested_at": "2026-11-07T04:54:15Z",
+  "took_ms": 988,
+  "engines_failed": [],
+  "version": "2.1"
+ },
+ "results": [
+  {
+   "id": "s_5fe22cff8ca94093",
+   "rank": 1,
+   "type": "organic",
+   "title": "Randstad Reviews in Singapore | Glassdoor",
+   "url": "https://www.glassdoor.sg/Reviews/Randstad-Singapore-Reviews-EI_IE302306.0,8_IL.9,18_IM1123.htm",
+   "display_url": "glassdoor.sg › Reviews › Randstad-Singapore-Reviews-EI_…",
+   "snippet": "66 Randstad reviews in Singapore. A free inside look at company reviews and salaries posted anonymously by employees.",
+   "domain": "glassdoor.sg",
+   "favicon": "https://glassdoor.sg/favicon.ico",
+   "position": {
+    "absolute": 1
+   },
+   "engine": "duckduckgo",
+   "domain_info": {
+    "tld": "sg",
+    "sld": "glassdoor",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_d5157b4264655fe9",
+   "rank": 2,
+   "type": "organic",
+   "title": "Working at Randstad: Employee Reviews | Indeed.com",
+   "url": "https://sg.indeed.com/cmp/Randstad/reviews",
+   "display_url": "sg.indeed.com › cmp › Randstad › reviews",
+   "snippet": "Reviews from Randstad employees about Randstad culture, salaries, benefits, work-life balance, management, job security, and more.",
+   "domain": "sg.indeed.com",
+   "favicon": "https://sg.indeed.com/favicon.ico",
+   "position": {
+    "absolute": 2
+   },
+   "engine": "duckduckgo",
+   "domain_info": {
+    "tld": "com",
+    "sld": "indeed",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_519c2ca1c10a50fa",
+   "rank": 3,
+   "type": "organic",
+   "title": "Randstad Reviews in Singapour | Glassdoor",
+   "url": "https://www.glassdoor.com/Reviews/Randstad-Singapour-Reviews-EI_IE302306.0,8_IL.9,18_IM1123.htm",
+   "display_url": "glassdoor.com › Reviews › Randstad-Singapour-Reviews-EI…",
+   "snippet": "64 Randstad reviews in Singapour. A free inside look at company reviews and salaries posted anonymously by employees.",
+   "domain": "glassdoor.com",
+   "favicon": "https://glassdoor.com/favicon.ico",
+   "position": {
+    "absolute": 3
+   },
+   "engine": "duckduckgo",
+   "domain_info": {
+    "tld": "com",
+    "sld": "glassdoor",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_34f3185a529747ee",
+   "rank": 4,
+   "type": "organic",
+   "title": "Reviews Randstad employee ratings and reviews | Jobstreet",
+   "url": "https://sg.jobstreet.com/companies/randstad-168558234250811/reviews",
+   "display_url": "sg.jobstreet.com › companies › randstad-168558234250811…",
+   "snippet": "Thinking of working at Randstad? Read 6 employee reviews on Jobstreet to learn about salaries, benefits, company culture, work-life balance, and career opportunities",
+   "domain": "sg.jobstreet.com",
+   "favicon": "https://sg.jobstreet.com/favicon.ico",
+   "position": {
+    "absolute": 4
+   },
+   "engine": "duckduckgo",
+   "domain_info": {
+    "tld": "com",
+    "sld": "jobstreet",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_730619ecac819281",
+   "rank": 5,
+   "type": "organic",
+   "title": "Randstad Reviews - Glassdoor",
+   "url": "https://www.glassdoor.sg/Reviews/Randstad-Reviews-E302306.htm",
+   "display_url": "glassdoor.sg › Reviews › Randstad-Reviews-E302306.htm",
+   "snippet": "5,939 Randstad reviews. A free inside look at company reviews and salaries posted anonymously by employees.",
+   "domain": "glassdoor.sg",
+   "favicon": "https://glassdoor.sg/favicon.ico",
+   "position": {
+    "absolute": 5
+   },
+   "engine": "duckduckgo",
+   "domain_info": {
+    "tld": "sg",
+    "sld": "glassdoor",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_d035756e9817c021",
+   "rank": 6,
+   "type": "organic",
+   "title": "Randstad Enterprise Reviews in Singapore | Glassdoor",
+   "url": "https://www.glassdoor.com/Reviews/Randstad-Enterprise-Singapore-Reviews-EI_IE494861.0,19_IL.20,29_IC3235921.htm",
+   "display_url": "glassdoor.com › Reviews › Randstad-Enterprise-Singapore…",
+   "snippet": "26 Randstad Enterprise reviews in Singapore. A free inside look at company reviews and salaries posted anonymously by employees.",
+   "domain": "glassdoor.com",
+   "favicon": "https://glassdoor.com/favicon.ico",
+   "position": {
+    "absolute": 6
+   },
+   "engine": "duckduckgo",
+   "domain_info": {
+    "tld": "com",
+    "sld": "glassdoor",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_1be7f7d4efd88972",
+   "rank": 7,
+   "type": "organic",
+   "title": "Working at Randstad company profile and information | Jobstreet",
+   "url": "https://sg.jobstreet.com/companies/randstad-168558234250811",
+   "display_url": "sg.jobstreet.com › companies › randstad-168558234250811",
+   "snippet": "Considering a career at Randstad? Learn what its like to work for Randstad by reading employee ratings and reviews on sg.jobstreet.com",
+   "domain": "sg.jobstreet.com",
+   "favicon": "https://sg.jobstreet.com/favicon.ico",
+   "position": {
+    "absolute": 7
+   },
+   "engine": "duckduckgo",
+   "domain_info": {
+    "tld": "com",
+    "sld": "jobstreet",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_99459bcf107e106d",
+   "rank": 8,
+   "type": "organic",
+   "title": "Randstad Employee Reviews",
+   "url": "https://www.indeed.com/cmp/Randstad/reviews",
+   "display_url": "indeed.com › cmp › Randstad › reviews",
+   "snippet": "Today11,941 reviews from Randstad employees about Randstad culture, salaries, benefits, work-life balance, management, job security, and more.",
+   "domain": "indeed.com",
+   "favicon": "https://indeed.com/favicon.ico",
+   "position": {
+    "absolute": 8
+   },
+   "engine": "duckduckgo",
+   "domain_info": {
+    "tld": "com",
+    "sld": "indeed",
+    "category": ""
+   }
+  }
+ ],
+ "serp_features": [
+  {
+   "id": "f_7881464053bc30e3",
+   "engine": "duckduckgo",
+   "type": "related_searches",
+   "title": "Related searches",
+   "items": [
+    {
+     "title": "is randstad staffing legit",
+     "text": "is randstad staffing legit",
+     "link": "https://duckduckgo.com/?origin=related&q=is+randstad+staffing+legit&t=h"
+    },
+    {
+     "title": "randstad reviews",
+     "text": "randstad reviews",
+     "link": "https://duckduckgo.com/?origin=related&q=randstad+reviews&t=h"
+    },
+    {
+     "title": "is randstad a legit company",
+     "text": "is randstad a legit company",
+     "link": "https://duckduckgo.com/?origin=related&q=is+randstad+a+legit+company&t=h"
+    },
+    {
+     "title": "randstad reviews and complaints",
+     "text": "randstad reviews and complaints",
+     "link": "https://duckduckgo.com/?origin=related&q=randstad+reviews+and+complaints&t=h"
+    },
+    {
+     "title": "randstad recruitment agency reviews",
+     "text": "randstad recruitment agency reviews",
+     "link": "https://duckduckgo.com/?origin=related&q=randstad+recruitment+agency+reviews&t=h"
+    },
+    {
+     "title": "randstad recruitment reviews",
+     "text": "randstad recruitment reviews",
+     "link": "https://duckduckgo.com/?origin=related&q=randstad+recruitment+reviews&t=h"
+    },
+    {
+     "title": "randstad staffing reviews",
+     "text": "randstad staffing reviews",
+     "link": "https://duckduckgo.com/?origin=related&q=randstad+staffing+reviews&t=h"
+    },
+    {
+     "title": "is randstad legit",
+     "text": "is randstad legit",
+     "link": "https://duckduckgo.com/?origin=related&q=is+randstad+legit&t=h"
+    },
+    {
+     "title": "is randstad a good company",
+     "text": "is randstad a good company",
+     "link": "https://duckduckgo.com/?origin=related&q=is+randstad+a+good+company&t=h"
+    },
+    {
+     "title": "working at randstad reviews",
+     "text": "working at randstad reviews",
+     "link": "https://duckduckgo.com/?origin=related&q=working+at+randstad+reviews&t=h"
+    }
+   ],
+   "links": [
+    {
+     "title": "is randstad staffing legit",
+     "url": "https://duckduckgo.com/?origin=related&q=is+randstad+staffing+legit&t=h"
+    },
+    {
+     "title": "randstad reviews",
+     "url": "https://duckduckgo.com/?origin=related&q=randstad+reviews&t=h"
+    },
+    {
+     "title": "is randstad a legit company",
+     "url": "https://duckduckgo.com/?origin=related&q=is+randstad+a+legit+company&t=h"
+    },
+    {
+     "title": "randstad reviews and complaints",
+     "url": "https://duckduckgo.com/?origin=related&q=randstad+reviews+and+complaints&t=h"
+    },
+    {
+     "title": "randstad recruitment agency reviews",
+     "url": "https://duckduckgo.com/?origin=related&q=randstad+recruitment+agency+reviews&t=h"
+    },
+    {
+     "title": "randstad recruitment reviews",
+     "url": "https://duckduckgo.com/?origin=related&q=randstad+recruitment+reviews&t=h"
+    },
+    {
+     "title": "randstad staffing reviews",
+     "url": "https://duckduckgo.com/?origin=related&q=randstad+staffing+reviews&t=h"
+    },
+    {
+     "title": "is randstad legit",
+     "url": "https://duckduckgo.com/?origin=related&q=is+randstad+legit&t=h"
+    },
+    {
+     "title": "is randstad a good company",
+     "url": "https://duckduckgo.com/?origin=related&q=is+randstad+a+good+company&t=h"
+    },
+    {
+     "title": "working at randstad reviews",
+     "url": "https://duckduckgo.com/?origin=related&q=working+at+randstad+reviews&t=h"
+    }
+   ],
+   "source_result_ids": [
+    "s_5fe22cff8ca94093"
+   ],
+   "confidence": 0.75,
+   "extracted_at": "2026-11-07T04:54:15Z"
+  }
+ ],
+ "pagination": {
+  "page": 1,
+  "has_more": true,
+  "next_start": 8
+ }
+}

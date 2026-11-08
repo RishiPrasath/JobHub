@@ -1,0 +1,10 @@
+{
+ "error": "captcha_detected",
+ "code": 429,
+ "request_id": "01a1b45c-afa9-77eb-b981-2a77f4d3643c",
+ "message": "captcha detected",
+ "meta": {
+  "engine": "yandex",
+  "proxy_used": "direct"
+ }
+}

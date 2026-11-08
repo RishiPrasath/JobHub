@@ -1,0 +1,31 @@
+{
+  "posting_id": "R4-JB-003",
+  "review_status": "human_reviewed_corrections_recorded",
+  "source_output": "outputs/R4-JB-003/model-output.json",
+  "accepted_corrections": [
+    {
+      "target": "review_coverage.verification_questions",
+      "change": "set status to covered and link unknown claims C10-C13",
+      "reason": "The output contains decision-changing questions even though the model marked the section not_visible."
+    }
+  ],
+  "rejected_claims": [],
+  "reviewed_coverage_overrides": {
+    "role_identity": {"status": "not_visible", "claim_ids": []},
+    "duties": {"status": "not_visible", "claim_ids": []},
+    "qualifications": {"status": "covered", "claim_ids": ["C6", "C7"]},
+    "work_conditions": {"status": "covered", "claim_ids": ["C3", "C4", "C5"]},
+    "compensation": {"status": "covered", "claim_ids": ["C1", "C2"]},
+    "compensation_rules": {"status": "unknown", "claim_ids": ["C10", "C11"]},
+    "application_process": {"status": "covered", "claim_ids": ["C8"]},
+    "employer_context": {"status": "not_visible", "claim_ids": []},
+    "contradictions": {"status": "not_visible", "claim_ids": []},
+    "unknowns": {"status": "covered", "claim_ids": ["C10", "C11", "C12", "C13"]},
+    "verification_questions": {"status": "covered", "claim_ids": ["C10", "C11", "C12", "C13"]}
+  },
+  "human_notes": [
+    "The supplied fixture does not expose a role title or legal employer identity.",
+    "Do not convert the monthly income wording into guaranteed base salary.",
+    "The 0% skills-matched panel remains a platform signal, not an employer assessment."
+  ]
+}

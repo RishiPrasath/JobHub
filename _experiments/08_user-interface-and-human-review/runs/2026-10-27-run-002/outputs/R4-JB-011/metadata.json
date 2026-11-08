@@ -1,0 +1,26 @@
+{
+  "timestamp_utc": "2026-10-27T05:21:07.220251+00:00",
+  "provider_base_url": "https://api.groq.com/openai/v1",
+  "model": "openai/gpt-oss-120b",
+  "posting_id": "R4-JB-011",
+  "fixture": "_experiments\\08_user-interface-and-human-review\\runs\\2026-10-27-run-002\\fixtures\\r4-jb-011-input.json",
+  "prompt": "_experiments\\08_user-interface-and-human-review\\runs\\2026-10-27-run-002\\prompts\\guarded-role-review-v2.md",
+  "max_tokens": 4096,
+  "json_parse_error": null,
+  "usage": {
+    "completion_tokens": 2341,
+    "prompt_tokens": 1184,
+    "total_tokens": 3525,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1390,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.398483879,
+    "prompt_time": 0.110116894,
+    "completion_time": 4.862598146,
+    "total_time": 4.97271504
+  }
+}

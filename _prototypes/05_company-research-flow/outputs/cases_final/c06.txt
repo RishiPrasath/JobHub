@@ -1,0 +1,23 @@
+KPMG Singapore  (role: Audit Associate)
+HEADLINE: brand_legal_entity_unconfirmed
+  Public sources describe a company by this name, but the registry has no entity with this exact
+  name. It may trade under a brand name; the legal employer is not confirmed.
+  because: registry: similar_name_only; exact name seen 10 times in sources
+REGISTRY: similar_name_only. No registered entity is named 'KPMG Singapore'. The closest registered name is KPMG US TAX SERVICES (SINGAPORE) LLC, which may be a different company.
+WEB: 5 queries (bing, duckduckgo), 8 of 8 pages read, exact name seen in 0 pages and 10 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 7):
+  - Working at KPMG: 156 Reviews | Indeed.com  https://sg.indeed.com/cmp/Kpmg-0828bc85/reviews
+  - Life at KPMG Singapore : r/KPMG - Reddit
+    https://www.reddit.com/r/KPMG/comments/v3s971/life_at_kpmg_singapore
+  - KPMG Singapore reviews - Glassdoor  https://www.glassdoor.co.uk/Reviews/KPMG-Singapore-Reviews-
+    EI_IE2867.0,4_IL.5,14
+  - KPMG Singapore reviews - Glassdoor  https://www.glassdoor.ca/Reviews/KPMG-Singapore-Reviews-
+    EI_IE8422487.0,4_IL.5,14
+  - KPMG singapore Reviews | Glassdoor  https://www.glassdoor.com/Reviews/KPMG-singapore-Reviews-
+    EI_IE2867.0,4_KO5,14.ht
+  - KPMG Singapore Reviews - Glassdoor  https://www.glassdoor.com/Reviews/KPMG-Singapore-Reviews-
+    EI_IE8422487.0,4_IL.5,1
+COULD NOT VERIFY:
+  - Which registered company is the legal employer behind this brand.
+DEGRADED: summary_unavailable: model service HTTP 413
+(125.6s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

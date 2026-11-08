@@ -1,0 +1,147 @@
+{
+ "agent_id": "A3",
+ "company_chosen": "Sheng Siong Group Ltd",
+ "why_chosen": "Assigned; job seeker considering store/outlet management role",
+ "industry": "Supermarket retail (Singapore)",
+ "needs": {
+  "identity": {
+   "status": "answered",
+   "confidence": "high",
+   "summary": "SGX-listed (2011) supermarket group, established 1985, Sheng Siong Group Ltd (SGX: OV8).",
+   "sources": [
+    "https://corporate.shengsiong.com.sg/investors"
+   ],
+   "how_openserp_helped": "Search surfaced the company's own IR page and SGX filings.",
+   "what_was_missing": "Exact legal registration details not checked."
+  },
+  "business_and_headcount": {
+   "status": "answered",
+   "confidence": "medium",
+   "summary": "90 stores in Singapore plus 6 in Kunming, China (Jul 2026); new S$520M HQ/distribution centre to support 120+ stores. Employee count 4,174 reported only in a search snippet from companies.sg (unverified in full).",
+   "sources": [
+    "https://corporate.shengsiong.com.sg/sheng-siong-groups-1h-fy2026-net-profit-increases-11-9-to-s81-0-million",
+    "https://corporate.shengsiong.com.sg/sheng-siong-breaks-ground-on-s520-million-future-ready-distribution-centre",
+    "https://www.companies.sg/register/annual-report-facts/record/b4bd9a35d5125f34510c7a831616b8f9ebfc1426e75cd92100485247ef75287d"
+   ],
+   "how_openserp_helped": "Press releases extracted cleanly.",
+   "what_was_missing": "Headcount not confirmed from the annual report itself."
+  },
+  "financial_performance": {
+   "status": "answered",
+   "confidence": "high",
+   "summary": "FY2025 revenue S$1.57B (+9.9%), net profit S$149.2M (+8.5%), cash S$435.5M, dividends 7.0c. 1H FY2026 revenue S$855.4M (+11.9%), net profit S$81.0M (+11.9%).",
+   "sources": [
+    "https://corporate.shengsiong.com.sg/sheng-siong-groups-fy2025-net-profit-grows-8-5-to-s149-2-million",
+    "https://corporate.shengsiong.com.sg/sheng-siong-groups-1h-fy2026-net-profit-increases-11-9-to-s81-0-million"
+   ],
+   "how_openserp_helped": "Primary company releases found and read fully.",
+   "what_was_missing": "Independent analyst view only via snippets."
+  },
+  "layoffs_restructuring": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "No Sheng Siong layoffs found; the search returned only generic Singapore retrenchment pages. Absence of evidence, not proof. Staff numbers rose in FY2025 per results release.",
+   "sources": [
+    "https://corporate.shengsiong.com.sg/sheng-siong-groups-fy2025-net-profit-grows-8-5-to-s149-2-million"
+   ],
+   "how_openserp_helped": "Search ran; nothing company-specific.",
+   "what_was_missing": "Layoff tracker page not extracted; no way to confirm none."
+  },
+  "culture_and_sentiment": {
+   "status": "partial",
+   "confidence": "medium",
+   "summary": "Glassdoor snippets: 49% recommend, work-life balance 2.6/5, culture 3.3, career 3.2 (another regional page: 52%, WLB 2.8). Jobstreet (13 reviews): WLB 4.1, management 4.2; cashier roles described as physically demanding, long hours; some manager communication issues. One Indeed review snippet calls it very stressful. Small samples, conflicting.",
+   "sources": [
+    "https://www.glassdoor.sg/Reviews/Sheng-Siong-Reviews-E1186795.htm",
+    "https://sg.jobstreet.com/companies/sheng-siong-168553100524931/reviews",
+    "https://malaysia.indeed.com/cmp/Sheng-Siong-Supermarket/reviews/bad-experience-working-in-this-company?id=683ec1d3dff2ee2f"
+   ],
+   "how_openserp_helped": "Search snippets gave Glassdoor ratings even though Glassdoor extraction failed; Jobstreet extracted.",
+   "what_was_missing": "Reddit search returned unrelated junk; no forum discussion; no management-level-specific sentiment."
+  },
+  "pay_and_benefits": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "Indeed: retail cashier about S$1,609/month (2 reports), process worker S$1,714 (4). Glassdoor snippet: manager average 'S$7,000 per year or S$3/hour' (5 submissions) which is implausible and unusable. No store manager salary or benefits list found.",
+   "sources": [
+    "https://sg.indeed.com/cmp/Sheng-Siong-Supermarket/salaries",
+    "https://www.glassdoor.sg/Salary/Sheng-Siong-Manager-Salaries-E1186795_D_KO12,19.htm"
+   ],
+   "how_openserp_helped": "Indeed salary page extracted.",
+   "what_was_missing": "Store manager / assistant manager pay and benefits not found."
+  },
+  "interview_and_hiring": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "Company career page lists Management Trainee roles open to degree/diploma/ITE holders incl. fresh graduates; Glassdoor has 19-20 interview reviews but only snippet generic text read. No store-manager-specific hiring process found.",
+   "sources": [
+    "https://corporate.shengsiong.com.sg/career",
+    "https://corporate.shengsiong.com.sg/jobs/management-trainee-retail-operations",
+    "https://www.glassdoor.sg/Interview/Sheng-Siong-Interview-Questions-E1186795.htm"
+   ],
+   "how_openserp_helped": "Search found career pages and interview-review pages.",
+   "what_was_missing": "Job page extract was mostly a country-code dropdown; interview details not read."
+  },
+  "red_flags_and_scams": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "No scams or regulatory trouble found in searches. Only legal news was a shoplifter jailed after Sheng Siong facial-recognition match (not a company issue).",
+   "sources": [
+    "https://www.straitstimes.com/singapore/courts-crime/woman-caught-by-sheng-siongs-facial-recognition-tech-after-shoplifting-12-times-gets-weeks-jail"
+   ],
+   "how_openserp_helped": "Search worked for news.",
+   "what_was_missing": "No dedicated MOM/court/regulator check possible."
+  },
+  "recent_news": {
+   "status": "answered",
+   "confidence": "high",
+   "summary": "Jul 2026 groundbreaking of S$520M integrated HQ and distribution centre (DPM attended); 1H FY2026 profit +11.9%; 3 more stores expected Q3 2026.",
+   "sources": [
+    "https://corporate.shengsiong.com.sg/sheng-siong-breaks-ground-on-s520-million-future-ready-distribution-centre",
+    "https://thesmartinvestor.com.sg/the-s520m-roadmap-inside-sheng-siongs-next-phase-of-expansion"
+   ],
+   "how_openserp_helped": "Good recency and dates in search results.",
+   "what_was_missing": ""
+  }
+ },
+ "tool": {
+  "searches": 9,
+  "extracts": 8,
+  "failed_or_blocked_calls": 1,
+  "blocked_or_unreadable_sites": [
+   "glassdoor.sg (extract_failed 502)",
+   "corporate.shengsiong.com.sg job page returned mostly form dropdown junk"
+  ],
+  "most_useful_sources": [
+   "corporate.shengsiong.com.sg press releases",
+   "sg.jobstreet.com reviews",
+   "sg.indeed.com salaries",
+   "Glassdoor snippets in search results"
+  ],
+  "search_relevance_1to5": 3,
+  "extraction_quality_1to5": 4,
+  "coverage_of_needs_1to5": 3,
+  "reliability_1to5": 4,
+  "misleading_or_wrong_results": [
+   "Reddit query returned unrelated Reddit/Halloween/NY Post pages",
+   "Layoff query returned generic Singapore retrenchment news",
+   "Glassdoor manager salary snippet (S$7,000/yr, S$3/hr) is implausible"
+  ],
+  "minutes_spent": 6
+ },
+ "verdict": {
+  "would_rely_on_for_a_job_decision": "with_caveats",
+  "reasoning": "Excellent for company facts and finance; weak for management-level pay, culture depth and interview detail, where review sites block extraction or return thin samples. Some searches take 25-30s.",
+  "biggest_gaps": [
+   "Store/assistant manager salary and benefits",
+   "Management-level working hours and turnover",
+   "Interview process detail",
+   "Independent layoff/regulatory checks"
+  ],
+  "what_else_a_job_seeker_would_need": [
+   "Talk to current store managers",
+   "Offer letter terms on shifts and hours",
+   "MOM and court record checks"
+  ]
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "_note": "Expected headline verdicts written BEFORE the flow was built or run (see git history). 'seen' marks the eight companies from experiment 09, whose behaviour I already knew; the other six are new. An answer counts as right if the headline is in 'expect'. 'wrong_if' lists headlines that would be a dangerous error.",
+  "cases": [
+    {"id": "c01", "seen": true,  "employer": "Raffles Medical Group", "role": "Staff Nurse", "expect": ["exists_and_consistent"], "wrong_if": ["likely_lookalike", "could_not_confirm_company", "not_active", "identity_mismatch"]},
+    {"id": "c02", "seen": true,  "employer": "Lazada Singapore", "role": "Digital Marketing Executive", "expect": ["exists_and_consistent", "exists_limited_evidence"], "wrong_if": ["likely_lookalike", "could_not_confirm_company", "not_active", "identity_mismatch"]},
+    {"id": "c03", "seen": true,  "employer": "Avanguarde Pte. Ltd.", "role": "Customer Service Executive", "expect": ["exists_limited_evidence"], "wrong_if": ["exists_and_consistent", "likely_lookalike", "not_active", "identity_mismatch"]},
+    {"id": "c04", "seen": true,  "employer": "Grab Holdings", "role": "Backend Engineer", "expect": ["brand_legal_entity_unconfirmed"], "wrong_if": ["exists_and_consistent", "likely_lookalike", "not_active"]},
+    {"id": "c05", "seen": true,  "employer": "Ninja Van Singapore", "role": "Warehouse Associate", "expect": ["brand_legal_entity_unconfirmed"], "wrong_if": ["exists_and_consistent", "likely_lookalike", "not_active"]},
+    {"id": "c06", "seen": true,  "employer": "KPMG Singapore", "role": "Audit Associate", "expect": ["brand_legal_entity_unconfirmed"], "wrong_if": ["exists_and_consistent", "likely_lookalike", "not_active"]},
+    {"id": "c07", "seen": true,  "employer": "Zzqxv Qwlmt Holdings Pte Ltd", "role": "Operations Manager", "expect": ["could_not_confirm_company"], "wrong_if": ["exists_and_consistent", "exists_limited_evidence", "brand_legal_entity_unconfirmed"]},
+    {"id": "c08", "seen": true,  "employer": "DBS Bank Singapore Recruitment Pte Ltd", "role": "Customer Service Officer", "expect": ["likely_lookalike"], "wrong_if": ["exists_and_consistent", "exists_limited_evidence", "brand_legal_entity_unconfirmed"]},
+    {"id": "c09", "seen": false, "employer": "Sheng Siong Group Ltd", "role": "Cashier", "expect": ["exists_and_consistent", "exists_limited_evidence"], "wrong_if": ["likely_lookalike", "could_not_confirm_company", "not_active", "identity_mismatch"]},
+    {"id": "c10", "seen": false, "employer": "Grab Singapore Recruitment Pte Ltd", "role": "Customer Service Officer", "expect": ["likely_lookalike", "could_not_confirm_company"], "wrong_if": ["exists_and_consistent", "exists_limited_evidence", "brand_legal_entity_unconfirmed"]},
+    {"id": "c11", "seen": false, "employer": "Singapore Airlines Careers Hub Pte Ltd", "role": "Cabin Crew", "expect": ["likely_lookalike", "could_not_confirm_company"], "wrong_if": ["exists_and_consistent", "exists_limited_evidence", "brand_legal_entity_unconfirmed"]},
+    {"id": "c12", "seen": false, "employer": "Randstad Pte Limited", "uen": "199201624D", "role": "Recruitment Consultant", "expect": ["identity_mismatch"], "wrong_if": ["exists_and_consistent", "exists_limited_evidence"], "_note": "199201624D is Singapore Telecommunications Limited's company ID, not Randstad's"},
+    {"id": "c13", "seen": false, "employer": "Underwriters Limited", "role": "Underwriter", "expect": ["not_active"], "wrong_if": ["exists_and_consistent", "exists_limited_evidence", "brand_legal_entity_unconfirmed"], "_note": "an entity with exactly this name is struck off in the registry"},
+    {"id": "c14", "seen": false, "employer": "Land Transport Authority", "role": "Project Officer", "expect": ["public_body"], "wrong_if": ["exists_and_consistent", "likely_lookalike", "could_not_confirm_company"]}
+  ]
+}

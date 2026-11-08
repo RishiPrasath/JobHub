@@ -1,0 +1,260 @@
+[
+ {
+  "id": "P01",
+  "query": "Moda Paolo",
+  "hits": []
+ },
+ {
+  "id": "P02",
+  "query": "Yan Business Group",
+  "hits": []
+ },
+ {
+  "id": "P03",
+  "query": "Palo IT",
+  "hits": [
+   {
+    "id": "Q115706437",
+    "label": "Palo IT",
+    "desc": null,
+    "websites": [
+     "https://www.palo-it.com/"
+    ]
+   },
+   {
+    "id": "Q115706508",
+    "label": "Palo IT Lyon",
+    "desc": null,
+    "websites": []
+   }
+  ]
+ },
+ {
+  "id": "P04",
+  "query": "Grab",
+  "hits": [
+   {
+    "id": "Q37041592",
+    "label": "Grab",
+    "desc": "family name",
+    "websites": []
+   },
+   {
+    "id": "Q20873932",
+    "label": "Grab",
+    "desc": "Southeast Asian technology company headquartered in Singapore",
+    "websites": [
+     "https://www.grab.com"
+    ]
+   },
+   {
+    "id": "Q3446035",
+    "label": "Grab",
+    "desc": "settlement in the Municipality of Gra\u010dac, Zadar County, Croatia",
+    "websites": []
+   }
+  ]
+ },
+ {
+  "id": "P05",
+  "query": "Ang Mo Kio - Thye Hua Kwan Hospital",
+  "hits": [
+   {
+    "id": "Q20983835",
+    "label": "Ang Mo Kio - Thye Hua Kwan Hospital",
+    "desc": "hospital in Singapore",
+    "websites": [
+     "http://www.amkh.com.sg/"
+    ]
+   },
+   {
+    "id": "Q136696658",
+    "label": "Ang Mo Kio - Thye Hua Kwan Hospital Ltd.",
+    "desc": "nonprofit organisation from Singapore",
+    "websites": [
+     "https://www.amkh.com.sg"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "P06",
+  "query": "Singapore General Hospital",
+  "hits": [
+   {
+    "id": "Q7522983",
+    "label": "Singapore General Hospital",
+    "desc": "hospital in Singapore",
+    "websites": [
+     "http://www.sgh.com.sg/Pages/default.aspx",
+     "https://www.sgh.com.sg/Pages/default.aspx"
+    ]
+   },
+   {
+    "id": "Q5866512",
+    "label": "history of Singapore General Hospital",
+    "desc": "aspect of history",
+    "websites": []
+   },
+   {
+    "id": "Q96333691",
+    "label": "Singapore General Hospital Proceedings",
+    "desc": null,
+    "websites": []
+   }
+  ]
+ },
+ {
+  "id": "P07",
+  "query": "HRnetGroup",
+  "hits": [
+   {
+    "id": "Q105616657",
+    "label": "HRnetGroup",
+    "desc": "Singaporean recruitment and consulting company",
+    "websites": [
+     "https://www.hrnetgroup.com"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "P08",
+  "query": "DHL Supply Chain",
+  "hits": [
+   {
+    "id": "Q474230",
+    "label": "DHL Supply Chain",
+    "desc": "Division of Deutsche Post",
+    "websites": [
+     "http://www.dhl.com/en/logistics/supply_chain_solutions.html/"
+    ]
+   },
+   {
+    "id": "Q58507855",
+    "label": "DHL Supply Chain s.r.o.",
+    "desc": "Czech company",
+    "websites": []
+   }
+  ]
+ },
+ {
+  "id": "P09",
+  "query": "Supreme HR Advisory",
+  "hits": []
+ },
+ {
+  "id": "P10",
+  "query": "Marina Bay Sands",
+  "hits": [
+   {
+    "id": "Q548679",
+    "label": "Marina Bay Sands",
+    "desc": "integrated resort in Singapore",
+    "websites": [
+     "https://www.marinabaysands.com"
+    ]
+   },
+   {
+    "id": "Q136099151",
+    "label": "Marina Bay Sands SkyPark",
+    "desc": "observation deck on the 56th floor of the Marina Bay Sands hotel",
+    "websites": []
+   }
+  ]
+ },
+ {
+  "id": "P11",
+  "query": "Natureland",
+  "hits": [
+   {
+    "id": "Q6980986",
+    "label": "Natureland Seal Sanctuary",
+    "desc": "seal sanctuary in Skegness, Lincolnshire, England",
+    "websites": [
+     "http://www.skegnessnatureland.co.uk"
+    ]
+   },
+   {
+    "id": "Q111857526",
+    "label": "Natureland Efes Pension",
+    "desc": "hotel in Sel\u00e7uk, Turkey",
+    "websites": []
+   },
+   {
+    "id": "Q136754570",
+    "label": "Natureland Wildlife Trust",
+    "desc": "charity from New Zealand",
+    "websites": [
+     "https://www.natureland.nz/"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "P12",
+  "query": "NTUC FairPrice",
+  "hits": [
+   {
+    "id": "Q6955519",
+    "label": "NTUC FairPrice",
+    "desc": "supermarket chain in Singapore",
+    "websites": [
+     "http://www.fairprice.com.sg/",
+     "https://www.fairprice.com.sg/"
+    ]
+   },
+   {
+    "id": "Q136696785",
+    "label": "Ntuc Fairprice Foundation Ltd.",
+    "desc": "nonprofit organisation from Singapore",
+    "websites": []
+   }
+  ]
+ },
+ {
+  "id": "P13",
+  "query": "Curos Learning",
+  "hits": []
+ },
+ {
+  "id": "P14",
+  "query": "Little Skool-House",
+  "hits": []
+ },
+ {
+  "id": "P15",
+  "query": "Randstad",
+  "hits": [
+   {
+    "id": "Q267840",
+    "label": "Randstad N.V.",
+    "desc": "Dutch human resource consulting firm",
+    "websites": [
+     "https://www.randstad.com/",
+     "https://www.randstadusa.com/",
+     "https://www.randstad.fr/",
+     "https://www.randstad.de",
+     "https://www.randstad.it",
+     "https://www.randstad.nl/",
+     "https://www.randstad.be",
+     "https://www.randstad.es"
+    ]
+   },
+   {
+    "id": "Q806",
+    "label": "Randstad",
+    "desc": "conurbation in the Netherlands",
+    "websites": []
+   },
+   {
+    "id": "Q3056105",
+    "label": "RandstadRail 3",
+    "desc": "light rail line in the Haaglanden region (The Hague and surroundings), the Netherlands",
+    "websites": [
+     "https://www.htm.nl/reisinformatie/tram-3/"
+    ]
+   }
+  ]
+ }
+]

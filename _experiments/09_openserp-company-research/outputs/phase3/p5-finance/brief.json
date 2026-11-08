@@ -1,0 +1,293 @@
+{
+ "validity_status": "appears_real_and_consistent",
+ "validity_reasoning": "Multiple independent sources (Indeed, Glassdoor snippets, JobStreet) describe KPMG Singapore's audit associate role, providing consistent ratings and employee comments.",
+ "confidence": "high",
+ "confidence_reasoning": "Evidence comes from several reputable job‑review platforms covering the same role and location, with overlapping details on ratings, work‑life balance, and culture.",
+ "could_not_verify": [
+  "Exact salary figures for Audit Associates at KPMG Singapore",
+  "Specific promotion timelines or criteria"
+ ],
+ "key_facts": [
+  {
+   "claim": "Overall employee rating for Audit Associates is 3.8/5 (Indeed Singapore).",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Overall rating 3.8 Based on 9,969 reviews",
+     "url": "https://sg.indeed.com/cmp/Kpmg-0828bc85/reviews?fjobtitle=Audit+Associate",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Work‑life balance rating is 3.3/5 (Indeed Singapore).",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "3.3 out of 5 stars for Work-life balance",
+     "url": "https://sg.indeed.com/cmp/Kpmg-0828bc85/reviews?fjobtitle=Audit+Associate",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Pay and benefits rating is 3.5/5 (Indeed Singapore).",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "3.5 out of 5 stars for Pay and benefits",
+     "url": "https://sg.indeed.com/cmp/Kpmg-0828bc85/reviews?fjobtitle=Audit+Associate",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Culture rating is 3.7/5 (Indeed Singapore).",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "3.7 out of 5 stars for Culture",
+     "url": "https://sg.indeed.com/cmp/Kpmg-0828bc85/reviews?fjobtitle=Audit+Associate",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Employees cite a supportive environment and learning opportunities as positives.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "What people like Supportive environment",
+     "url": "https://sg.indeed.com/cmp/Kpmg-0828bc85/reviews?fjobtitle=Audit+Associate",
+     "quote_found_in_source": false
+    },
+    {
+     "source": 1,
+     "quote": "What people like Ability to learn new things",
+     "url": "https://sg.indeed.com/cmp/Kpmg-0828bc85/reviews?fjobtitle=Audit+Associate",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "unverified"
+  },
+  {
+   "claim": "Common challenges include long hours, especially during peak audit season.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "It’s the big 4 after all, and will make a great stepping stone for career. If you are in audit, long working hours during peak is a given",
+     "url": "https://sg.indeed.com/cmp/Kpmg-0828bc85/reviews?fjobtitle=Audit+Associate",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 6,
+     "quote": "Ever increasing expectations/burden on auditors from clients, regulators, boss etc",
+     "url": "https://sg.jobstreet.com/companies/kpmg-168555534814946/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Glassdoor rates Audit Associates at KPMG Singapore around 3.5‑3.7 stars.",
+   "evidence": [
+    {
+     "source": 3,
+     "quote": "Audit Associate employees have rated KPMG with 3.5 out of 5 stars",
+     "url": "https://www.glassdoor.sg/Reviews/KPMG-Audit-Associate-Reviews-EI_IE2867.0,4_KO5,20.htm",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 5,
+     "quote": "1,745 KPMG reviews in Singapore",
+     "url": "https://www.glassdoor.sg/Reviews/KPMG-Singapore-Reviews-EI_IE2867.0,4_IL.5,14_IM1123.htm",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "JobStreet reviews mention good learning exposure but poor work‑life balance.",
+   "evidence": [
+    {
+     "source": 6,
+     "quote": "Good exposure to different kind of work and yearly promotion",
+     "url": "https://sg.jobstreet.com/companies/kpmg-168555534814946/reviews",
+     "quote_found_in_source": false
+    },
+    {
+     "source": 6,
+     "quote": "Poor work life balance, overloaded and understaff",
+     "url": "https://sg.jobstreet.com/companies/kpmg-168555534814946/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Recent layoff news indicates KPMG cut audit associate positions globally, including US, but no specific Singapore data.",
+   "evidence": [
+    {
+     "source": 8,
+     "quote": "November 2024 — Audit workforce reduction: approximately 330 job cuts in its US audit practice",
+     "url": "https://www.big4events.com/blog/kpmg-layoffs-what-happened-who-affected",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "unverified"
+  }
+ ],
+ "positive_signals": [
+  {
+   "claim": "KPMG is viewed as a strong stepping‑stone for early‑career auditors.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Great stepping stone and friendly colleagues",
+     "url": "https://sg.indeed.com/cmp/Kpmg-0828bc85/reviews?fjobtitle=Audit+Associate",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 6,
+     "quote": "It is a good stepping stone",
+     "url": "https://sg.jobstreet.com/companies/kpmg-168555534814946/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Employees appreciate the inclusive work environment and personal appreciation.",
+   "evidence": [
+    {
+     "source": 7,
+     "quote": "What people like Feeling of personal appreciation",
+     "url": "https://www.indeed.com/cmp/Kpmg-0828bc85/reviews?fcountry=ALL&fjobtitle=Audit+Associate",
+     "quote_found_in_source": false
+    },
+    {
+     "source": 7,
+     "quote": "What people like Inclusive work environment",
+     "url": "https://www.indeed.com/cmp/Kpmg-0828bc85/reviews?fcountry=ALL&fjobtitle=Audit+Associate",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "unverified"
+  }
+ ],
+ "red_flags": [
+  {
+   "claim": "Work‑life balance can be poor, with reports of excessive overtime.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "How your life is in audit is dependent on the engagements... Generally, people and culture is nice.",
+     "url": "https://sg.indeed.com/cmp/Kpmg-0828bc85/reviews?fjobtitle=Audit+Associate",
+     "quote_found_in_source": false
+    },
+    {
+     "source": 6,
+     "quote": "Work loads madness...",
+     "url": "https://sg.jobstreet.com/companies/kpmg-168555534814946/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Management quality is perceived as inconsistent, with some reviews calling it “bad”.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "SingpaoreGood environment, bad management, little bonus and progression.",
+     "url": "https://sg.indeed.com/cmp/Kpmg-0828bc85/reviews?fjobtitle=Audit+Associate",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Some employees report feeling undervalued during busy periods.",
+   "evidence": [
+    {
+     "source": 6,
+     "quote": "The people expects you to work at all times. It hard to find a work life balance",
+     "url": "https://sg.jobstreet.com/companies/kpmg-168555534814946/reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  }
+ ],
+ "relevance_for_persona": "Highly relevant: the brief highlights work‑life balance, learning opportunities, compensation perception, and cultural fit—key factors for a finance/accounting professional evaluating an Audit Associate role at KPMG Singapore.",
+ "sources_used": [
+  {
+   "id": 1,
+   "url": "https://sg.indeed.com/cmp/Kpmg-0828bc85/reviews?fjobtitle=Audit+Associate",
+   "kind": "page"
+  },
+  {
+   "id": 2,
+   "url": "https://www.glassdoor.com/Interview/KPMG-Audit-Associate-Singapore-Interview-Questions-EI_IE2867.0,4_KO5,20_IL.21,30_IN217.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 3,
+   "url": "https://www.glassdoor.sg/Reviews/KPMG-Audit-Associate-Reviews-EI_IE2867.0,4_KO5,20.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 4,
+   "url": "https://www.glassdoor.ca/Reviews/KPMG-Audit-Associate-Singapore-Reviews-EI_IE2867.0,4_KO5,20_IL.21,30_IC3235921.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 5,
+   "url": "https://www.glassdoor.sg/Reviews/KPMG-Singapore-Reviews-EI_IE2867.0,4_IL.5,14_IM1123.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 6,
+   "url": "https://sg.jobstreet.com/companies/kpmg-168555534814946/reviews",
+   "kind": "page"
+  },
+  {
+   "id": 7,
+   "url": "https://www.indeed.com/cmp/Kpmg-0828bc85/reviews?fcountry=ALL&fjobtitle=Audit+Associate",
+   "kind": "page"
+  },
+  {
+   "id": 8,
+   "url": "https://www.big4events.com/blog/kpmg-layoffs-what-happened-who-affected",
+   "kind": "page"
+  }
+ ],
+ "sources_failed_or_blocked": [
+  {
+   "url": "https://www.glassdoor.com/Interview/KPMG-Audit-Associate-Singapore-Interview-Questions-EI_IE2867.0,4_KO5,20_IL.21,30_IN217.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/KPMG-Audit-Associate-Reviews-EI_IE2867.0,4_KO5,20.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  },
+  {
+   "url": "https://www.glassdoor.ca/Reviews/KPMG-Audit-Associate-Singapore-Reviews-EI_IE2867.0,4_KO5,20_IL.21,30_IC3235921.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/KPMG-Singapore-Reviews-EI_IE2867.0,4_IL.5,14_IM1123.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  }
+ ],
+ "claims_verified": 11,
+ "claims_unverified": 3
+}

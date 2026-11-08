@@ -1,0 +1,25 @@
+Grab Singapore Recruitment Pte Ltd  (role: Customer Service Officer)
+HEADLINE: could_not_confirm_company
+  Neither the registry nor the web confirms this company exists under this name.
+  because: registry: similar_name_only; exact name seen 1 times
+REGISTRY: similar_name_only. No registered entity is named 'Grab Singapore Recruitment Pte Ltd'. The closest registered name is TALENTS RECRUITMENT AGENCY PTE. LTD., which may be a different company.
+WEB: 5 queries (bing), 3 of 4 pages read, exact name seen in 0 pages and 1 search results
+BRIEF (model rating: cannot_verify, confidence low; 1 claims verified, 1 unverified)
+  facts and positive signals hidden: the company was not confirmed under this exact name
+  Red flags:
+    [UNVERIFIED] The company name "Grab Singapore Recruitment Pte Ltd" is not found in official
+    Singapore company registers.
+    [verified] No source links the recruitment firm to Grab Holdings or confirms it as a legitimate
+    subsidiary.
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 2):
+  - Top Recruitment Agencies in Singapore 2026: An …  https://www.linkedin.com/pulse/top-
+    recruitment-agencies-singapore-2026-expert-re
+  - Grab Singapore-Recruitment-Pte-Ltd-Salary-Customer
+    https://my.jobstreet.com/grab+singapore+recruitment+pte+ltd+salary+customer+serv
+COULD NOT READ (1):
+  - https://www.teamblind.com/layoffs/company/grab  (thin: fewer than 400 characters of real
+    content)
+COULD NOT VERIFY:
+  - No company registry record confirming the existence of "Grab Singapore Recruitment Pte Ltd".
+  - No independent source describing this specific recruitment entity or its operations.
+(127.4s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

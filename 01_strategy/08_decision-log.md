@@ -41,3 +41,15 @@ For each decision, record:
 - **Decision:** Use lightweight behavior descriptions during discovery and more formal specifications for stable, critical workflows.
 - **Revisit trigger:** Prototype and maintenance experience.
 
+### Job-opportunity evaluation is an integrated evidence workflow
+
+- **Date:** 2026-10-29
+- **Status:** Accepted working direction
+- **Decision:** Update the four proposed feature ideas—red-flag evidence database, company and role research service, discriminatory and harmful signals knowledge base, and candidate profile and preferences—so they work together across the full job-opportunity journey: posting, communication, interview, offer and decision.
+- **Context and problem:** A job posting alone may not reveal whether the role is suitable, clearly defined, responsibly handled or worth pursuing. Important evidence can appear later in employer communication, interview answers, role history and offer discussions.
+- **Evidence:** [Pre-interview job red-flags research](../02_research/04_results/product-and-users/2026-10-29-pre-interview-job-red-flags.md), [red-flag evidence database](../04_feature-ideas/00_red-flag-evidence-database.md), [company and role research service](../04_feature-ideas/01_company-and-role-research-service.md), [harmful-signals knowledge base](../04_feature-ideas/02_discriminatory-and-harmful-signals-knowledge-base.md), and [candidate profile and preferences](../04_feature-ideas/03_candidate-profile-and-preferences.md).
+- **Options considered:** Keep the product posting-only; create a separate interview feature immediately; or extend the existing features into one staged evidence workflow. The accepted direction is the third option. A standalone interview feature is deferred until the workflow proves large enough to justify it.
+- **Consequences and trade-offs:** JobHub should preserve evidence, uncertainty, alternative explanations, user preferences and decision history. It must not create universal toxicity, fraud or suitability scores, make automatic legal conclusions or silently decide for the user. This direction increases research and state-tracking complexity but better reflects the user’s real decision process.
+- **Scope boundary:** This is an accepted product direction, not a final MVP, platform, architecture or implementation commitment.
+- **Revisit trigger:** Prototype or concierge testing shows that the staged workflow does not improve identification of meaningful unknowns, question quality or decision confidence without creating excessive false alarms or user burden.
+

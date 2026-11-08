@@ -1,0 +1,523 @@
+12112|Administration manager
+12221|Advertising/Public relations manager
+13430|Aged care services manager
+14322|Attractions manager
+12113|Audit manager
+12111|Budgeting/Financial accounting manager
+12212|Business development manager
+12242|Call centre manager
+14321|Casino operations manager
+14122|Catering manager
+13301|Chief information officer/Chief technology officer/Chief information security officer
+11203|Chief operating officer/General manager
+12193|Cleaning operations manager
+13492|Community partnership/relations manager
+11202|Company director
+13230|Construction manager
+12241|Customer service manager
+14391|Event manager
+13463|Financial risk manager
+13461|Financial services manager
+14123|Food and beverage operations manager
+13420|Health services manager
+14110|Hotel operations/Lodging services manager
+13304|ICT service manager
+12122|Industrial relations manager
+13462|Insurance services manager
+12192|Landscape manager
+11201|Managing director/Chief executive officer
+13210|Manufacturing manager
+12222|Marketing manager
+13493|Media/Broadcast manager
+12214|Merchandising/Category manager
+13303|Network/Communications/Infrastructure manager
+12215|Online sales channel manager
+12121|Personnel/Human resource manager
+12131|Policy manager
+13245|Port/Shipping operations manager
+13244|Postal service manager
+12191|Premises/Facilities maintenance manager (excluding building security)
+13410|Preschool education/Early intervention centre manager
+13242|Procurement/Purchasing manager
+13292|Quality control/assurance manager
+12213|Regional sales manager
+12230|Research and development manager
+14121|Restaurant manager
+14201|Retail manager
+12133|Risk management manager
+12211|Sales manager
+13451|School principal
+12194|Security manager
+13441|Social services manager
+13302|Software and applications manager
+14310|Sports centre manager
+12132|Strategic planning manager
+13241|Supply and distribution/Logistics/Warehousing manager
+13291|Technical/Engineering services manager (excluding transport)
+12123|Training manager
+13243|Transport/Technical operations manager (excluding port and shipping operations)
+14392|Travel agency manager
+14324|Wellness centre manager
+14202|Wholesale trade manager
+24111|Accountant (excluding tax accountant)
+21213|Actuary
+26111|Advocate/Solicitor (practising)
+21471|Aeronautical engineer
+21443|Air-conditioning/Refrigeration engineer
+25141|Applications/Systems programmer
+25143|Artificial intelligence/Machine learning engineer
+26543|Artistic director (stage/film/television/commercial/video/radio)
+21524|Audio/Video equipment engineer
+22661|Audiologist
+24112|Auditor (accounting)
+21413|Automation engineer
+21472|Automotive engineer
+21343|Biochemist
+21311|Biologist
+21491|Biomedical engineer
+21610|Building architect
+21422|Building construction engineer
+24212|Business consultant
+24122|Business valuer
+24213|Business/Financial project management professional
+21451|Chemical engineer (excluding petroleum and petrochemical)
+21452|Chemical engineer (petroleum)
+21130|Chemist
+21421|Civil engineer
+26611|Clinical psychologist
+21347|Clinical research professional
+25231|Cloud specialist
+21721|Commercial airline pilot
+24351|Commodities trader (excluding oil, bunker and environmental commodities)
+24154|Commodities/Freight derivatives broker
+24132|Compliance officer/Risk analyst (financial)
+21522|Computer engineer
+26413|Content writer
+26633|Counsellor (family)
+24311|Creative advertising professional
+26212|Curator
+25241|Cyber risk specialist
+25245|Cybersecurity architect
+25291|Data centre engineer
+25213|Data engineer
+21222|Data scientist
+25211|Data/Database administrator
+25212|Data/Database architect
+25125|DevOps engineer
+22693|Diagnostic radiographer
+22142|Diagnostic radiologist
+22651|Dietitian
+24314|Digital marketing professional
+26542|Director (stage/film/television/commercial/video/radio)
+23622|Early intervention teacher for infants and children
+26310|Economist
+26422|Editor (news/periodicals)
+26544|Editor (radio/television/video)
+21511|Electrical engineer
+21521|Electronics engineer
+21526|Embedded systems engineer
+25113|Enterprise/Solution/Software architect
+21430|Environmental engineer
+21331|Environmental officer (environmental protection)
+24232|Executive search consultant
+21631|Fashion designer
+24131|Financial analyst
+24143|Financial derivatives dealer
+24135|Financial product structurer
+24121|Financial/Investment adviser
+21723|Flying instructor (excluding air force)
+21454|Food/Drink technologist
+24142|Foreign exchange dealer
+24133|Fund/Portfolio manager
+22611|General dental practitioner
+22110|General practitioner/Physician
+21661|Graphic designer
+21321|Horticulturist/Arborist
+24231|Human resource consultant (excluding executive search consultant)
+25152|ICT auditor
+25112|ICT business process consultant/Business analyst
+25151|ICT quality assurance specialist
+24333|ICT sales and services professional
+21442|Industrial machinery/tools engineer
+24234|Industrial relations officer
+21493|Industrial safety engineer
+26112|In-house legal counsel (excluding judiciary, ministries and statutory boards)
+26521|Instrumentalist
+21525|Instrumentation engineer
+24160|Insurance underwriter
+25124|Interaction designer
+22124|Internal medicine physician
+25232|IT infrastructure specialist
+26421|Journalist
+21651|Land surveyor
+26221|Librarian
+21513|Lift engineer
+24211|Management consultant
+21411|Manufacturing engineer
+21473|Marine engineer
+21714|Marine superintendent
+24312|Market research professional
+24313|Marketing strategy/planning professional
+21492|Materials engineer
+21441|Mechanical engineer
+21531|Media/Broadcast engineer
+21342|Medical laboratory scientist
+21346|Medical scientist
+26622|Medical social worker
+24332|Medical/Pharmaceutical products sales professional
+26361|Minister of religion
+21662|Multimedia designer/artist/animator
+25123|Multimedia-games developer/designer
+25220|Network/Server/Applications/Computer systems administrator
+22631|Occupational health and safety professional
+22680|Occupational therapist
+24352|Oil/Bunker trader
+21212|Operations research analyst
+21497|Optical engineer
+22670|Optometrist
+24233|Personnel/Human resource officer
+22621|Pharmacist (patient care)
+22640|Physiotherapist
+24221|Policy administration professional
+21415|Process engineer
+21498|Procurement engineer
+26541|Producer (stage/film/television/commercial/video/radio)
+21632|Product/Industrial designer
+21412|Production engineer
+24320|Public relations/Corporate communications professional
+21414|Quality control/assurance engineer
+21494|Quantity surveyor
+22694|Radiation therapist
+22200|Registered nurse and related nursing professional (excluding enrolled nurse)
+24291|Research officer (non-statistical)
+24315|Revenue specialist
+21475|Rolling stock engineer
+24334|Sales professional (institutional sales of financial products)
+26412|Script writer/editor
+24141|Securities/Finance dealer
+25243|Security operations specialist
+21523|Semi-conductor engineer
+21670|Service designer
+24362|Ship broker
+24353|Ship charterer
+26621|Social worker (general)
+25121|Software developer
+22612|Specialised dentist
+22662|Speech therapist
+21231|Statistical officer/Data analyst
+21221|Statistician
+25111|Systems designer/analyst
+24113|Tax accountant
+24331|Technical sales professional
+21712|Technical superintendent
+26414|Technical writer
+23300|Technical/Vocational/Commercial education institute teacher/trainer
+21532|Telecommunications engineer
+25247|Threat analysis specialist
+24361|Trade broker
+22301|Traditional Chinese medicine practitioner
+24240|Training/Staff development professional
+26431|Translator
+24134|Treasury manager
+23101|University lecturer
+22500|Veterinarian
+25122|Web/Mobile applications developer
+33392|Advertising salesperson
+31211|Aeronautical engineering technician
+33222|After sales adviser/Client account service executive
+31594|Air cargo officer
+33601|Air transport equipment project executive
+31571|Air transport service supervisor
+31152|Air-conditioning/Refrigeration engineering technician
+31295|Airport maintenance technician
+33151|Appraiser/Valuer (excluding intangible asset valuer)
+31184|Architectural draughtsperson
+36202|Art and craft instructor (extracurriculum)
+33152|Assessor
+33131|Assistant accountant
+31001|Assistant civil/structural engineer
+31002|Assistant electrical engineer
+31003|Assistant electronics engineer
+31006|Assistant manufacturing engineer
+31004|Assistant mechanical engineer
+31143|Audio/Video equipment technician
+33132|Audit associate professional
+31174|Automation technician
+31212|Automotive engineering technician
+31411|Biological technician
+31122|Building technician
+33221|Business development executive
+33231|Buyer
+34341|Chef (excluding pastry chef)
+31161|Chemical engineering technician (excluding petroleum, natural gas and petrochemical)
+31163|Chemical engineering technician (petrochemical)
+31162|Chemical engineering technician (petroleum/natural gas)
+31111|Chemistry technician
+31121|Civil engineering technician
+31183|Civil/Structural engineering draughtsperson
+33311|Clearing/Forwarding agent
+31412|Clinical research coordinator
+35110|Computer systems operator
+33120|Credit/Loans officer
+33493|Crewing executive (ship)
+32143|Dental technician
+31131|Electrical engineering technician
+31182|Electrical/Electronics draughtsperson
+31141|Electronics engineering technician
+33330|Employment agent/Labour contractor
+32200|Enrolled/Assistant nurse (excluding registered nurse)
+32571|Environmental inspector (environmental public health)
+33494|Executive secretary
+33320|Exhibition/Conference/Event planner
+33160|Financial services back office administrator
+31711|Fire and safety inspector
+31593|Flight operations officer
+31144|Instrumentation technician
+33211|Insurance sales agent/broker
+34321|Interior designer
+35121|IT infrastructure technician
+35123|IT support technician
+34342|Kitchen operations head/supervisor
+31123|Land surveying technician
+31602|Landscape operations officer
+36201|Language instructor (extracurriculum)
+34110|Legal associate professional
+34331|Library officer
+31132|Lift technician
+33461|Logistics/Production planner
+31153|Machining/Tooling technician
+33462|Maintenance planner
+33491|Management executive
+31171|Manufacturing engineering technician
+31185|Marine draughtsperson
+31510|Marine engineering officer
+31213|Marine surveyor (ship/nautical)
+33223|Marketing and sales executive (food and beverage services)
+31181|Mechanical draughtsperson
+31151|Mechanical engineering technician
+35211|Media/Broadcasting operations technician
+32120|Medical/Pathology laboratory technician
+33225|Merchandising/Category executive
+36204|Music instructor (extracurriculum)
+39910|Non-ordained religious associate professional
+32572|Occupational health and safety inspector
+33224|Online sales channel executive
+33492|Operations officer (administrative)
+32540|Optician
+32591|Paramedic
+34343|Pastry chef
+32130|Pharmacy technician
+34310|Photographer
+34223|Physical fitness instructor
+31574|Port/Shipping operations supervisor
+31601|Premises/Facilities maintenance officer
+36100|Preschool education teacher
+36910|Private tutor (academic)
+31173|Process engineering technician
+31172|Production engineering technician
+33232|Purchasing agent
+31175|Quality assurance technician
+36991|Relief teacher
+31124|Resident technical officer
+31597|Road transport operations officer
+31573|Road transport supervisor
+31214|Rolling stock engineering technician
+31720|Safety inspector (vehicles/processes/products)
+33394|Safety/Security consultant
+31142|Semi-conductor technician
+33312|Shipping agent/Boarding officer
+34122|Social work associate
+32111|Sonographer
+34221|Sports coach
+33133|Tax associate professional
+35220|Telecommunications engineering technician
+31596|Train operations officer
+31572|Train service supervisor
+32400|Veterinary technician/assistant
+35212|Video camera operator
+34323|Visual merchandiser
+34123|Volunteer executive
+35140|Website administrator/Webmaster
+34121|Youth work associate
+43233|Air transport clerk
+43113|Audit clerk
+43121|Bank operations clerk
+42111|Bank teller
+42141|Bill collector
+43115|Billing clerk
+43111|Bookkeeper
+42246|Contact centre information clerk
+42245|Customer service officer/clerk
+41320|Data entry clerk
+43151|Data processing control clerk
+43142|Enumerator/Market research interviewer
+42247|Hotel executive
+42242|Hotel receptionist
+43122|Insurance/Underwriting clerk
+43232|Land transport clerk
+43112|Ledger/Accounts clerk
+44170|Legal clerk
+44110|Library clerk
+43221|Material planning clerk
+42243|Medical/Dental receptionist
+42113|Money changer
+41101|Office clerk
+40000|Office supervisor
+42244|Passenger services agent
+43114|Payroll/Wages clerk
+41102|Personnel/Human resource clerk
+43116|Procurement/Purchasing clerk
+43222|Production planning clerk
+42241|Receptionist (general)
+41201|Secretary
+43231|Shipping clerk
+43141|Statistical clerk
+43211|Stock records clerk
+43212|Storekeeper
+42230|Telephone operator
+42210|Travel consultant/reservation executive
+41310|Typist/Word processing operator
+51132|Attractions guide
+51322|Barista
+51321|Bartender/Mixologist
+51421|Beautician
+51702|Bookmaker/Croupier/Casino dealer and related gaming worker
+51112|Cabin attendant/steward
+51311|Captain waiter/Waiter supervisor
+52302|Cashier (general)
+51111|Chief steward
+53113|Child/After school care centre worker
+51201|Cook
+53203|Dental aide/assistant
+51950|Driving instructor/tester
+52492|Food service counter attendant
+51931|Funeral director
+51701|Gaming supervisor
+51411|Hair stylist/Hairdresser
+53201|Healthcare assistant
+51502|House steward
+51501|Housekeeper (hotel and related establishment)
+51503|Housekeeping matron
+51942|Keeper/Trainer in zoological/bird/aquatic park
+54150|Lifeguard
+51422|Manicurist
+53202|Nursing aide/assistant
+52303|Office cashier
+52491|Petrol station attendant
+54144|Private security officer
+51121|Rail station service assistant
+52421|Sales demonstrator
+52201|Sales supervisor
+52422|Salesperson (door-to-door)
+54142|Security supervisor
+51202|Senior cook
+54143|Senior private security officer
+54141|Senior security supervisor
+52202|Shop sales assistant
+51313|Sommelier
+53120|Teacher aide
+52440|Telemarketer
+51131|Tour guide
+51312|Waiter
+61133|Gardener/Horticultural worker
+61131|Landscape/Plant nursery supervisor
+61132|Plant nursery worker
+71271|Air-conditioning/Refrigeration equipment mechanic
+72310|Automotive mechanic
+75121|Baker
+71331|Building maintenance worker
+71311|Building painter
+75110|Butcher/Fishmonger and related food preparer
+71151|Carpenter
+74121|Electrical fitter
+74122|Electrical lift/escalator and related equipment fitter
+74110|Electrician
+71220|Floor/Wall tiler
+75440|Fumigator and related pest/weed controller
+74001|Lift supervisor
+73113|Medical device assembler/repairer
+72240|Metal polisher/Wheel grinder/Tool sharpener
+75122|Pastry/Confectionery maker
+71262|Pipe fitter
+71261|Plumber
+71000|Supervisor/General foreman (building and related trades)
+74002|Supervisor/General foreman (electrical/electronic trades, excluding lift)
+75000|Supervisor/General foreman (food processing/woodworking/garment/leather and related trades)
+72000|Supervisor/General foreman (metal/machinery and related trades)
+73000|Supervisor/General foreman (precision/handicraft/printing and related trades)
+75310|Tailor/Dressmaker
+72221|Tool/Die maker
+72120|Welder/Flame cutter
+83492|Airport mobile equipment operator
+83224|Ambulance driver
+83311|Bus driver
+83222|Chauffeur
+81311|Chemical processing/products plant/machine operator
+83323|Concrete mix truck driver
+83432|Crane operator (on-site)
+83431|Crane/Hoist operator (excluding port)
+81602|Dairy/Confectionery products machine operator
+82121|Electrical equipment/component assembler
+82131|Electrical/Electronic products quality checker/tester
+82122|Electronic equipment/component assembler
+83421|Excavating/Trench digging machine operator
+83441|Fork lift truck operator
+81502|Laundry/Dry cleaning worker (machine, non-household)
+83321|Lorry driver
+82110|Mechanical equipment/component assembler
+82132|Mechanical products quality checker/tester
+81251|Metalworking machine setter-operator
+83000|Mobile machinery supervisor/general foreman
+83211|Motorcycle delivery worker
+83491|Motorised sweeper operator
+81830|Packing/Bottling/Labelling machine operator
+81420|Plastic products machine operator
+83501|Port limit helmsman/steersman/engine driver/tugmaster
+81252|Precision grinding machine setter-operator
+81501|Sewing machine operator
+81000|Stationary plant/machine supervisor/general foreman
+82000|Supervisor/General foreman of assemblers/quality checkers
+83322|Trailer-truck driver
+83110|Train operator
+83223|Van driver
+83324|Waste truck driver
+91292|Aircraft cleaner
+93333|Aircraft loader
+96212|Bellboy/Hotel porter
+96261|Building caretaker
+96256|Bus attendant
+96254|Car park attendant
+93100|Civil engineering/Building construction labourer
+91000|Cleaning supervisor
+96272|Concierge (hotel)
+91153|Dishwasher
+94103|Fast food preparer
+91151|Food and beverage establishment general cleaner
+94102|Food/Drink stall assistant
+96101|General waste collection/recycling/material recovery worker
+91210|Hand launderer/presser (non-household)
+93201|Hand packer
+96253|Hospital/Clinic attendant
+91122|Hotel cleaner
+91121|Housekeeping/Linen room attendant
+94101|Kitchen assistant
+96252|Laboratory attendant
+92142|Landscape worker
+91220|Motor vehicle cleaner/polisher
+93336|Mover
+96293|Odd job person
+91131|Office/Commercial/Industrial establishment indoor cleaner
+91133|Office/Commercial/Industrial establishment multi-skilled cleaner cum machine operator
+91132|Office/Commercial/Industrial establishment outdoor cleaner
+96251|Office/Library attendant
+91161|Residential/Open areas general cleaner
+91162|Residential/Open areas multi-skilled cleaner cum machine operator
+96257|Restroom attendant
+96255|Sports/Recreational attendant
+91152|Table-top cleaner
+94104|Tea server/steward (excluding bartender, barista and food/drink stall assistant)
+92141|Tree worker/technician
+93335|Vehicle attendant
+93334|Warehouse worker
+96000|Waste collection/recycling/material recovery supervisor
+96102|Waste recycling sorter

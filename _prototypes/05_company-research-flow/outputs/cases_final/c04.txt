@@ -1,0 +1,37 @@
+Grab Holdings  (role: Backend Engineer)
+HEADLINE: brand_legal_entity_unconfirmed
+  Public sources describe a company by this name, but the registry has no entity with this exact
+  name. It may trade under a brand name; the legal employer is not confirmed.
+  because: registry: similar_name_only; exact name seen 33 times in sources
+REGISTRY: similar_name_only. No registered entity is named 'Grab Holdings'. The closest registered name is GRAB GEO HOLDINGS PTE. LTD., which may be a different company.
+WEB: 5 queries (duckduckgo), 7 of 8 pages read, exact name seen in 5 pages and 28 search results
+BRIEF (model rating: appears_real_and_consistent, confidence high; 8 claims verified, 2 unverified)
+  about: the brand named in the posting; the registered legal employer is not confirmed
+  Facts:
+    [verified] Grab Holdings Limited is a Singapore‑based multinational technology company operating
+    a super‑app.
+    [UNVERIFIED] Founded in June 2012 (originally as MyTeksi) and rebranded to Grab.
+    [verified] Headquarters located at 3 Media Close, one‑north, Singapore.
+    [verified] Approximately 12,000 employees as of end‑2025.
+    [verified] Publicly listed on NASDAQ under ticker GRAB.
+    [verified] Provides ride‑hailing, food delivery, digital payments and financial services across
+    eight Southeast Asian markets.
+  Positive signals:
+    [verified] Glassdoor employee rating of 74/100 indicates generally satisfied workforce.
+    [verified] Recent investor communications (Q2/Q3 2026 results) show ongoing public disclosures.
+  Red flags:
+    [UNVERIFIED] Significant workforce reduction – 1,000 jobs (≈11% of staff) announced in 2023.
+    [verified] Class‑action settlement of $80 million related to alleged misleading statements about
+    driver supply and incentive spending.
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 3):
+  - GRAB HOLDINGS INC Employee Reviews - Indeed.com  https://malaysia.indeed.com/cmp/Grab-Holdings-
+    Inc/reviews?fcountry=ALL
+  - GRAB HOLDINGS INC Employee Reviews - Indeed.com  https://sg.indeed.com/cmp/Grab-Holdings-
+    Inc/reviews
+  - GRAB HOLDINGS INC Careers and Employment | Indeed.  https://sg.indeed.com/cmp/Grab-Holdings-Inc
+COULD NOT READ (1):
+  - https://pitchbook.com/profiles/company/62283-07  (thin: fewer than 400 characters of real
+    content)
+COULD NOT VERIFY:
+  - Which registered company is the legal employer behind this brand.
+(127.6s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

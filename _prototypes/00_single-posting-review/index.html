@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JobHub — Single-posting review</title>
+  <style>
+    :root {
+      --ink: #17221f;
+      --muted: #61716c;
+      --paper: #f6f8f5;
+      --surface: #ffffff;
+      --line: #d8e1dd;
+      --accent: #176b5a;
+      --accent-soft: #e4f2ed;
+      --warning: #946000;
+      --warning-soft: #fff3d8;
+      --danger: #a33e32;
+      --danger-soft: #fde9e5;
+      --purple: #634d8f;
+      --purple-soft: #eee9f8;
+      --shadow: 0 18px 45px rgba(23, 34, 31, .08);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+    }
+
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); }
+    button, select, textarea { font: inherit; }
+    button { cursor: pointer; }
+    button:focus-visible, select:focus-visible, textarea:focus-visible, input:focus-visible, summary:focus-visible {
+      outline: 3px solid #8bc9b7;
+      outline-offset: 2px;
+    }
+    .app-shell { min-height: 100vh; }
+    .topbar {
+      border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,.92);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(10px);
+    }
+    .topbar-inner, main { max-width: 1440px; margin: 0 auto; padding: 0 28px; }
+    .topbar-inner { min-height: 70px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .brand { display: flex; gap: 12px; align-items: center; }
+    .brand-mark { width: 34px; height: 34px; border-radius: 10px; background: var(--accent); color: white; display: grid; place-items: center; font-weight: 800; }
+    .brand-name { font-weight: 800; letter-spacing: -.03em; }
+    .eyebrow { color: var(--muted); font-size: .76rem; text-transform: uppercase; letter-spacing: .12em; font-weight: 700; }
+    .toolbar { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+    .toolbar select { min-width: 250px; border: 1px solid var(--line); border-radius: 9px; padding: 9px 10px; background: var(--surface); color: var(--ink); }
+    .btn { border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 8px; padding: 9px 12px; font-weight: 700; }
+    .btn:hover { border-color: #9cbab0; background: #f4faf7; }
+    .btn-primary { color: white; background: var(--accent); border-color: var(--accent); }
+    .btn-primary:hover { background: #0f5648; }
+    .btn-danger { color: var(--danger); border-color: #e4b8b1; background: var(--danger-soft); }
+    .btn-quiet { background: transparent; border-color: transparent; color: var(--muted); }
+    main { padding-top: 30px; padding-bottom: 70px; }
+    .hero { display: flex; justify-content: space-between; gap: 24px; align-items: flex-start; margin-bottom: 20px; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { margin-bottom: 7px; font-size: clamp(1.7rem, 3vw, 2.6rem); letter-spacing: -.05em; }
+    h2 { margin-bottom: 8px; font-size: 1.22rem; letter-spacing: -.02em; }
+    h3 { margin-bottom: 6px; font-size: 1rem; }
+    .subhead { color: var(--muted); max-width: 720px; margin-bottom: 0; line-height: 1.55; }
+    .draft-banner { display: flex; gap: 10px; align-items: flex-start; background: var(--purple-soft); border: 1px solid #d9cbee; padding: 13px 15px; border-radius: 12px; color: #48316e; margin-bottom: 18px; }
+    .draft-banner strong { display: block; margin-bottom: 2px; }
+    .source-banner { background: var(--warning-soft); border: 1px solid #efd59a; color: #654500; border-radius: 12px; padding: 12px 15px; margin-bottom: 18px; }
+    .source-banner.hidden { display: none; }
+    .summary-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-bottom: 18px; }
+    .summary-card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 15px; box-shadow: 0 5px 17px rgba(23,34,31,.03); }
+    .summary-card .label { color: var(--muted); font-size: .75rem; text-transform: uppercase; letter-spacing: .08em; font-weight: 800; margin-bottom: 6px; }
+    .summary-card .value { font-weight: 750; line-height: 1.35; }
+    .workspace { display: grid; grid-template-columns: minmax(0, 1fr) 250px; gap: 16px; align-items: start; }
+    .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); }
+    .history-panel { padding: 12px; position: sticky; top: 88px; }
+    .nav-title, .history-title { padding: 7px 9px 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .1em; font-size: .72rem; font-weight: 800; }
+    .section-btn { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 7px; text-align: left; border: 0; background: transparent; border-radius: 8px; padding: 9px; color: var(--ink); }
+    .section-btn:hover { background: #f1f6f3; }
+    .section-btn.active { background: var(--accent-soft); color: #0e584a; font-weight: 800; }
+    .section-label { min-width: 0; }
+    .section-state { font-size: .68rem; color: var(--muted); white-space: nowrap; }
+    .section-btn.active .section-state { color: #0e584a; }
+    .review-panel { min-width: 0; }
+    .panel-header { padding: 22px 24px; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; }
+    .panel-body { padding: 22px 24px 26px; }
+    .report-intro { display: flex; justify-content: space-between; gap: 14px; align-items: baseline; margin-bottom: 8px; }
+    .report-intro p { color: var(--muted); margin: 0; font-size: .88rem; }
+    .report-section { padding: 23px 24px; border-top: 1px solid var(--line); scroll-margin-top: 90px; }
+    .report-section:first-child { border-top: 0; }
+    .report-section-header { display: flex; justify-content: space-between; gap: 14px; align-items: flex-start; margin-bottom: 8px; }
+    .report-section h3 { font-size: 1.08rem; margin: 0; }
+    .section-description { color: var(--muted); line-height: 1.55; margin-bottom: 17px; }
+    .status { display: inline-flex; align-items: center; gap: 6px; border-radius: 999px; padding: 5px 9px; font-size: .76rem; font-weight: 800; border: 1px solid transparent; white-space: nowrap; }
+    .status.covered, .status.accepted { background: var(--accent-soft); color: #0e584a; border-color: #b7dfd1; }
+    .status.unknown, .status.not_visible, .status.unresolved { background: var(--warning-soft); color: #704d00; border-color: #efd59a; }
+    .status.conflicting, .status.rejected { background: var(--danger-soft); color: #8b2e24; border-color: #e4b8b1; }
+    .status.platform_signal { background: var(--purple-soft); color: #533e7b; border-color: #d9cbee; }
+    .claim-list { display: grid; gap: 12px; }
+    .claim { border: 1px solid var(--line); border-radius: 11px; padding: 15px; background: #fcfdfc; }
+    .claim.rejected { opacity: .72; }
+    .claim-top { display: flex; gap: 10px; justify-content: space-between; align-items: flex-start; }
+    .claim-text { font-weight: 700; line-height: 1.45; }
+    .claim-meta { display: flex; flex-wrap: wrap; gap: 7px; margin: 11px 0 0; color: var(--muted); font-size: .8rem; }
+    .meta-chip { border: 1px solid var(--line); border-radius: 999px; padding: 4px 7px; background: var(--surface); }
+    .claim-actions { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 13px; }
+    .claim-actions .btn { font-size: .8rem; padding: 7px 9px; }
+    .source-note { color: var(--muted); font-size: .8rem; align-self: center; }
+    .claim-note { width: 100%; margin-top: 11px; border: 1px solid var(--line); border-radius: 8px; padding: 9px; resize: vertical; min-height: 55px; }
+    .empty-state { border: 1px dashed #b6c9c1; border-radius: 10px; padding: 16px; color: var(--muted); background: #fbfdfc; }
+    .question-list { display: grid; gap: 10px; }
+    .question { display: flex; gap: 10px; align-items: flex-start; border: 1px solid var(--line); border-radius: 10px; padding: 12px; }
+    .question input { width: 18px; height: 18px; margin-top: 2px; accent-color: var(--accent); }
+    .question small { display: block; color: var(--muted); margin-top: 4px; }
+    .decision-options { display: grid; grid-template-columns: repeat(5, minmax(0,1fr)); gap: 8px; margin: 16px 0; }
+    .decision-option { display: block; border: 1px solid var(--line); border-radius: 10px; padding: 11px; text-align: center; font-weight: 750; cursor: pointer; }
+    .decision-option:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); color: #0e584a; }
+    .decision-option input { position: absolute; opacity: 0; }
+    textarea.rationale { width: 100%; min-height: 115px; resize: vertical; border: 1px solid var(--line); border-radius: 9px; padding: 11px; }
+    .source-details { margin-top: 18px; border-top: 1px solid var(--line); padding-top: 15px; }
+    .source-details summary { cursor: pointer; font-weight: 800; }
+    pre.source-text { white-space: pre-wrap; max-height: 270px; overflow: auto; background: #18211f; color: #e8f2ee; border-radius: 10px; padding: 14px; line-height: 1.55; font-size: .82rem; margin-bottom: 0; }
+    .history-panel { min-width: 0; }
+    .history-block { padding: 12px; border-top: 1px solid var(--line); }
+    .history-block:first-of-type { border-top: 0; }
+    .history-block strong { display: block; margin-bottom: 4px; }
+    .history-block p { color: var(--muted); line-height: 1.45; font-size: .86rem; margin-bottom: 0; }
+    .history-list { display: grid; gap: 9px; padding: 0; margin: 0; list-style: none; }
+    .history-list li { font-size: .82rem; color: var(--muted); border-left: 3px solid #c2d5cd; padding-left: 9px; line-height: 1.4; }
+    .live { min-height: 24px; color: var(--accent); font-size: .85rem; font-weight: 700; margin: 12px 0 0; }
+    .footer-note { color: var(--muted); font-size: .82rem; margin-top: 18px; }
+    @media (max-width: 1100px) { .workspace { grid-template-columns: minmax(0,1fr) 220px; } .history-panel { position: static; } .history-panel-inner { display: grid; grid-template-columns: 1fr; } }
+    @media (max-width: 760px) { .topbar-inner, main { padding-left: 16px; padding-right: 16px; } .topbar-inner, .hero { align-items: flex-start; flex-direction: column; } .toolbar, .toolbar select { width: 100%; } .toolbar select { min-width: 0; } .summary-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } .workspace { grid-template-columns: 1fr; } .panel-header, .panel-body, .report-section { padding: 18px; } .decision-options { grid-template-columns: repeat(2,minmax(0,1fr)); } .history-panel-inner { grid-template-columns: 1fr; } }
+    @media (max-width: 430px) { .summary-grid { grid-template-columns: 1fr; } .decision-options { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="brand" aria-label="JobHub review workspace">
+          <div class="brand-mark" aria-hidden="true">J</div>
+          <div><div class="brand-name">JobHub</div><div class="eyebrow">Review workspace</div></div>
+        </div>
+        <div class="toolbar">
+          <label class="eyebrow" for="fixtureSelect">Posting</label>
+          <select id="fixtureSelect" aria-label="Choose a captured posting"></select>
+          <button class="btn" id="resumeBtn" type="button">Resume saved review</button>
+          <button class="btn btn-quiet" id="resetBtn" type="button">Reset draft</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <div class="eyebrow">One posting at a time</div>
+          <h1 id="pageTitle">Review this posting before investing more effort.</h1>
+          <p class="subhead">Read what the posting says, see what is missing, and decide whether anything needs follow-up. JobHub does not decide whether a job is good, legitimate or a fit.</p>
+        </div>
+        <div class="status not_visible" aria-label="Review status">AI draft — not verified</div>
+      </section>
+
+      <div class="draft-banner" role="note">
+        <span aria-hidden="true">◆</span>
+        <div><strong>Read first; confirm only what matters</strong><span>Most source facts are ready to read. Your input is requested only where the system has interpreted, qualified or failed to establish something important.</span></div>
+      </div>
+      <div class="source-banner hidden" id="sourceBanner" role="status"></div>
+
+      <section class="summary-grid" id="summaryGrid" aria-label="Posting summary"></section>
+
+      <div class="workspace">
+        <section class="panel review-panel" aria-live="polite">
+          <div class="panel-header">
+            <div><div class="eyebrow">Readable evidence report</div><h2>What this posting tells us</h2></div>
+            <p class="report-intro-note">Read from top to bottom</p>
+          </div>
+          <div id="reportContent"></div>
+        </section>
+        <aside class="panel history-panel" aria-label="Review history and recovery">
+          <div class="history-title">Review record</div>
+          <div class="history-panel-inner">
+            <div class="history-block"><strong>Source snapshot</strong><p id="historySource">Preserved capture</p></div>
+            <div class="history-block"><strong>Current decision</strong><p id="historyDecision">Not selected</p></div>
+            <div class="history-block"><strong>Recovery</strong><p id="historyRecovery">No saved changes yet.</p></div>
+            <div class="history-block"><strong>Activity</strong><ul class="history-list" id="historyList"></ul></div>
+          </div>
+        </aside>
+      </div>
+      <div class="live" id="live" role="status" aria-live="polite"></div>
+      <p class="footer-note">Prototype boundary: no browsing, messaging, application submission, profile matching, fit scoring or sensitive-question handling.</p>
+    </main>
+  </div>
+
+  <script>
+    const sections = [
+      ["role_identity", "Role identity"], ["duties", "Duties"], ["qualifications", "Qualifications"],
+      ["work_conditions", "Work conditions"], ["compensation", "Compensation"], ["compensation_rules", "Compensation rules"],
+      ["application_process", "Application process"], ["employer_context", "Employer context"], ["contradictions", "Contradictions"],
+      ["unknowns", "Unknowns"], ["verification_questions", "Questions"], ["decision", "Your decision"]
+    ];
+
+    const fixtures = {
+      "R4-JB-011": {
+        label: "Part-Time Admin Assistant",
+        title: "Part-Time Admin Assistant",
+        employer: "YAN BUSINESS GROUP",
+        source: "Jobstreet Singapore",
+        captured: "19 Oct 2026",
+        reference: "95357572",
+        freshness: "Captured source",
+        stale: false,
+        summary: [
+          ["Pay", "S$12–S$15/hour"], ["Schedule", "2–3 weekdays; negotiable"], ["Arrangement", "Office/on-site"], ["Important gaps", "Duties · rate rules · employer context"]
+        ],
+        sourceText: "Part-Time Admin Assistant ($12-$15/hr | 2-3 weekdays/week)\nCompany: YAN BUSINESS GROUP\nPay: $12–15/hour\nSchedule: 2–3 weekdays/week; hours negotiable\nWork arrangement: office/on-site\nApplication: send resume; details explained at interview; shortlisted only.\nPlatform signals: safety warning and report action visible.\nRelated salary teaser: Administration Officer.\nContradiction: URL job ID 95357572; page title/body identify Part-Time Admin Assistant.",
+        sections: {
+          role_identity: { status: "covered", description: "What the source identifies about this posting.", claims: [{ id: "C1", text: "The position is titled Part-Time Admin Assistant.", state: "present", owner: "employer", locator: "header", review: "draft" }, { id: "C8", text: "Employer displayed as YAN BUSINESS GROUP.", state: "present", owner: "employer", locator: "company", review: "draft" }] },
+          duties: { status: "not_visible", description: "The captured record does not show day-to-day duties.", claims: [{ id: "C10", text: "The actual day-to-day duties are not established in the captured record.", state: "not_visible", owner: "unknown", locator: null, review: "accepted", question: "What are the actual duties and responsibilities of the role?" }] },
+          qualifications: { status: "not_visible", description: "No role qualifications are visible in this capture.", claims: [] },
+          work_conditions: { status: "covered", description: "Stated schedule and arrangement, without inferring anything beyond the source.", claims: [{ id: "C3", text: "The schedule is 2–3 weekdays per week and hours are negotiable.", state: "present", owner: "employer", locator: "schedule", review: "draft" }, { id: "C4", text: "The work arrangement is office/on-site.", state: "present", owner: "employer", locator: "work_arrangement", review: "draft" }] },
+          compensation: { status: "covered", description: "The displayed hourly range is visible; the exact rate rule is separate.", claims: [{ id: "C2", text: "Compensation is S$12–S$15 per hour.", state: "present", owner: "employer", locator: "pay", review: "draft" }, { id: "C9", text: "A related salary teaser mentions Administration Officer.", state: "present", owner: "employer", locator: "related_salary_teaser", review: "draft", note: "Do not treat this teaser as compensation for the current role." }] },
+          compensation_rules: { status: "unknown", description: "The method for determining the exact rate is not stated.", claims: [{ id: "C12", text: "The method for determining the exact hourly rate within S$12–S$15 is not stated.", state: "unknown", owner: "unknown", locator: null, review: "accepted", question: "How is the exact hourly rate within the S$12–S$15 range determined?" }] },
+          application_process: { status: "covered", description: "The source requests a resume and defers details to an interview.", claims: [{ id: "C5", text: "Send resume; details explained at interview; shortlisted only.", state: "present", owner: "employer", locator: "application_note", review: "draft" }, { id: "C13", text: "Information or commitment requested during or after the interview is not established.", state: "unknown", owner: "unknown", locator: null, review: "accepted", question: "What information or commitment is requested during or after the interview?" }] },
+          employer_context: { status: "unknown", description: "A displayed company name does not establish the legal employer or recruiter/client relationship.", claims: [{ id: "C11", text: "The legal employer or recruiter/client relationship is not established in the captured record.", state: "unknown", owner: "unknown", locator: null, review: "accepted", question: "Who is the legal employer, and is YAN BUSINESS GROUP the hiring organisation or a recruiter/client reference?" }] },
+          contradictions: { status: "conflicting", description: "Both identity values are preserved; the system has not selected a winner.", claims: [{ id: "C7", text: "The URL job ID 95357572 does not align cleanly with the visible title/body identity.", state: "conflicting", owner: "platform", locator: "contradictions[0]", review: "draft" }] },
+          unknowns: { status: "covered", description: "Unknown information is a first-class part of the review, not a verdict.", claims: [{ id: "C10", text: "Actual duties are not visible.", state: "not_visible", owner: "unknown", locator: null, review: "accepted" }, { id: "C11", text: "Legal employer relationship is not established.", state: "unknown", owner: "unknown", locator: null, review: "accepted" }, { id: "C12", text: "Exact rate determination is not stated.", state: "unknown", owner: "unknown", locator: null, review: "accepted" }, { id: "C13", text: "Interview expectations are not established.", state: "unknown", owner: "unknown", locator: null, review: "accepted" }] },
+          verification_questions: { status: "covered", description: "Questions linked to information that could change the next action.", questions: [{ text: "What are the actual duties and responsibilities?", source: "Duties" }, { text: "How is the exact hourly rate within the S$12–S$15 range determined?", source: "Compensation rules" }, { text: "Who is the legal employer?", source: "Employer context" }, { text: "What information or commitment is requested during or after the interview?", source: "Application process" }] }
+        },
+        history: ["Human correction added C10–C13 unknowns and questions.", "Source/title identity mismatch preserved.", "Prototype ready for a personal decision."]
+      },
+      "R4-JB-003": {
+        label: "Class 4 Driver",
+        title: "Class 4 Driver — title not visible in supplied capture",
+        employer: "Employer not visible",
+        source: "MyCareersFuture",
+        captured: "19 Oct 2026",
+        reference: "MCF-2026-0620087",
+        freshness: "Captured source",
+        stale: false,
+        summary: [["Pay", "$3,800–$4,600 monthly"], ["Conditions", "Day/night · six days"], ["Location", "Pandan Loop + ports"], ["Important gaps", "Allowance rules · overtime calculation"]],
+        sourceText: "Salary: $3,800 to $4,600 Monthly.\nWorking hours: day/night shifts, six days per week, four rest days per month, rotation, night allowance and overtime policy.\nRequirements: Class 4 licence, experience, shifts, overtime, responsibility and teamwork.\nAdditional qualifications: PSA Pass, forklift, rigger/signalman and SCDF HazMat.\nLocation: Pandan Loop and travel to ports.\nEmployment: full-time, long-term.\nIncome includes overtime, night and other allowances, plus training, year-end bonus and KPI incentive.\nPlatform signal: 0% skills matched.",
+        sections: {
+          role_identity: { status: "not_visible", description: "The supplied capture does not expose a clear role title or legal employer.", claims: [] },
+          duties: { status: "not_visible", description: "Specific day-to-day duties are not visible.", claims: [] },
+          qualifications: { status: "covered", description: "Licence and additional qualifications are stated.", claims: [{ id: "C6", text: "Class 4 licence, experience, shifts, overtime, responsibility and teamwork are listed.", state: "present", owner: "mixed", locator: "requirements", review: "draft" }, { id: "C7", text: "PSA Pass, forklift, rigger/signalman and SCDF HazMat are listed.", state: "present", owner: "mixed", locator: "additional_qualifications", review: "draft" }] },
+          work_conditions: { status: "covered", description: "The source states shifts, days, rest days, location and travel.", claims: [{ id: "C3", text: "Day/night shifts, six days per week, four rest days per month and rotation are stated.", state: "present", owner: "mixed", locator: "working_hours", review: "draft" }, { id: "C4", text: "The arrangement is full-time and long-term.", state: "present", owner: "mixed", locator: "employment_type", review: "draft" }, { id: "C5", text: "Work is at Pandan Loop with travel to ports.", state: "present", owner: "mixed", locator: "work_location", review: "draft" }] },
+          compensation: { status: "covered", description: "The displayed range is visible, with important qualifiers.", claims: [{ id: "C1", text: "Salary is displayed as $3,800 to $4,600 monthly.", state: "present", owner: "mixed", locator: "salary_displayed", review: "draft" }, { id: "C2", text: "Monthly income includes overtime, night and other allowances, plus training, bonus and KPI incentive.", state: "conditional", owner: "mixed", locator: "salary_and_benefits", review: "draft", note: "Do not present as guaranteed base salary." }] },
+          compensation_rules: { status: "unknown", description: "The source mentions overtime and allowances but does not establish every guarantee or calculation.", claims: [{ id: "C10", text: "Whether every allowance is guaranteed is unknown.", state: "unknown", owner: "unknown", locator: null, review: "draft", question: "Are all allowances guaranteed?" }, { id: "C11", text: "How overtime is calculated is unknown.", state: "unknown", owner: "unknown", locator: null, review: "draft", question: "How is overtime calculated?" }] },
+          application_process: { status: "covered", description: "The source indicates MyCareersFuture and a visible WhatsApp contact.", claims: [{ id: "C8", text: "Application route is MyCareersFuture and a WhatsApp contact is visible.", state: "present", owner: "mixed", locator: "application_route", review: "draft" }] },
+          employer_context: { status: "not_visible", description: "Legal employer context is not visible in the supplied record.", claims: [] },
+          contradictions: { status: "not_visible", description: "No source contradiction is recorded in this fixture.", claims: [] },
+          unknowns: { status: "covered", description: "The capture preserves unresolved compensation and source questions.", claims: [{ id: "C10", text: "Allowance guarantees are unknown.", state: "unknown", owner: "unknown", locator: null, review: "draft" }, { id: "C11", text: "Overtime calculation is unknown.", state: "unknown", owner: "unknown", locator: null, review: "draft" }, { id: "C12", text: "Response time is unknown.", state: "unknown", owner: "unknown", locator: null, review: "draft" }, { id: "C13", text: "Vacancy authenticity beyond displayed content is unknown.", state: "unknown", owner: "unknown", locator: null, review: "draft" }] },
+          verification_questions: { status: "covered", description: "Questions are based on unresolved compensation and source information.", questions: [{ text: "Are all allowances guaranteed?", source: "Compensation rules" }, { text: "How is overtime calculated?", source: "Compensation rules" }, { text: "What source information should be verified before relying on this posting?", source: "Unknowns" }] }
+        },
+        history: ["Platform match panel kept separate from employer evidence.", "Monthly income qualifiers preserved.", "No user decision selected in this prototype."]
+      },
+      "R4-JB-006": {
+        label: "Vehicle Mechanic",
+        title: "Vehicle Mechanic",
+        employer: "Employer identity not established",
+        source: "FastJobs",
+        captured: "19 Oct 2026",
+        reference: "Changi · expiry 23 Oct 2026",
+        freshness: "Captured source; expiry visible",
+        stale: true,
+        summary: [["Pay", "S$2600–3000"], ["Work pattern", "Full-time · 5.5 days"], ["Qualification", "Nitec/Diploma Automotive"], ["Important gaps", "Duties · benefits · employer context"]],
+        sourceText: "Employment: full-time.\nWork pattern: 5.5-day week.\nSalary: S$2600–3000.\nQualification: minimum Nitec/Diploma Automotive.\nLicence wording: Class 3/4/5.\nWorking hours and Singapore-only wording are present.\nResponse indicator: normally responds within 24 hours.\nUpdated: 19 Oct 2026. Expiry: 23 Oct 2026.\nUnknowns: response indicator ownership, benefits, assessment stages, meaning of expiry.",
+        sections: {
+          role_identity: { status: "unknown", description: "The supplied input does not establish the legal employer or full role identity.", claims: [] },
+          duties: { status: "not_visible", description: "Detailed duties are not visible.", claims: [] },
+          qualifications: { status: "covered", description: "Automotive qualification and licence wording are stated.", claims: [{ id: "C4", text: "Minimum qualification is Nitec/Diploma Automotive.", state: "present", owner: "mixed", locator: "qualification_wording", review: "draft" }, { id: "C5", text: "Licence wording includes Class 3/4/5.", state: "present", owner: "mixed", locator: "licence_wording", review: "draft" }] },
+          work_conditions: { status: "covered", description: "Full-time, work pattern, hours and Singapore-only wording are visible.", claims: [{ id: "C1", text: "Employment type is full-time.", state: "present", owner: "mixed", locator: "employment", review: "draft" }, { id: "C2", text: "Work pattern is a 5.5-day week.", state: "present", owner: "mixed", locator: "work_pattern", review: "draft" }, { id: "C6", text: "Working hours and Singapore-only wording are present.", state: "present", owner: "mixed", locator: "working_hours_and_location", review: "draft" }] },
+          compensation: { status: "covered", description: "The salary range is displayed.", claims: [{ id: "C3", text: "Salary displayed is S$2600–3000.", state: "present", owner: "mixed", locator: "salary_displayed", review: "draft" }] },
+          compensation_rules: { status: "unknown", description: "Benefits and other compensation rules are not established.", claims: [{ id: "C11", text: "Detailed benefits are not disclosed.", state: "unknown", owner: "unknown", locator: null, review: "draft", question: "What benefits, if any, are offered?" }] },
+          application_process: { status: "covered", description: "The source includes response and expiry signals, but they are not guarantees.", claims: [{ id: "C7", text: "A response-time indicator says normally responds within 24 hours.", state: "platform_signal", owner: "unknown", locator: "employer_context_signal", review: "draft", note: "Ownership is unclear; this is not a response guarantee." }, { id: "C8", text: "The posting was updated on 19 Oct 2026.", state: "present", owner: "platform", locator: "updated", review: "draft" }, { id: "C9", text: "The posting expiry is 23 Oct 2026.", state: "present", owner: "platform", locator: "expiry", review: "draft" }] },
+          employer_context: { status: "unknown", description: "The response indicator may be platform-derived and legal employer context is not established.", claims: [{ id: "C10", text: "It is unknown whether the response indicator is employer-provided or platform-derived.", state: "unknown", owner: "unknown", locator: null, review: "draft", question: "Who owns the response-time indicator?" }] },
+          contradictions: { status: "not_visible", description: "No source contradiction is recorded. A review rule is not a posting contradiction.", claims: [] },
+          unknowns: { status: "covered", description: "Benefits, assessment stages, response ownership and expiry meaning remain unresolved.", claims: [{ id: "C10", text: "Response indicator ownership is unknown.", state: "unknown", owner: "unknown", locator: null, review: "draft" }, { id: "C11", text: "Detailed benefits are unknown.", state: "unknown", owner: "unknown", locator: null, review: "draft" }, { id: "C12", text: "Assessment stages are not described.", state: "unknown", owner: "unknown", locator: null, review: "draft" }, { id: "C13", text: "Expiry does not establish hiring closure.", state: "unknown", owner: "unknown", locator: null, review: "draft" }] },
+          verification_questions: { status: "covered", description: "Questions linked to the unresolved source information.", questions: [{ text: "Is the response-time indicator supplied by the employer or the platform?", source: "Employer context" }, { text: "What benefits are offered?", source: "Compensation rules" }, { text: "What are the assessment or interview stages?", source: "Application process" }, { text: "Does the expiry date imply hiring will close?", source: "Application process" }] }
+        },
+        history: ["False AI contradiction removed: evaluation rule was not source conflict.", "Response indicator kept as ownership-unknown signal.", "No user decision selected in this prototype."]
+      }
+    };
+
+    const state = { fixtureId: "R4-JB-011", decisions: {}, claimReviews: {}, notes: {}, selectedQuestions: {}, savedAt: {} };
+    const clone = value => JSON.parse(JSON.stringify(value));
+    const currentFixture = () => fixtures[state.fixtureId];
+    const storageKey = id => `jobhub-prototype-report:${id}`;
+    const escapeHtml = value => String(value ?? "").replace(/[&<>'"]/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;","\"":"&quot;"}[char]));
+    const prettyState = value => String(value || "").replaceAll("_", " ");
+    const announce = text => { document.getElementById("live").textContent = text; };
+
+    function saveLocal() {
+      localStorage.setItem(storageKey(state.fixtureId), JSON.stringify({ decisions: state.decisions, claimReviews: state.claimReviews, notes: state.notes, selectedQuestions: state.selectedQuestions, savedAt: state.savedAt }));
+      state.savedAt[state.fixtureId] = new Date().toLocaleString();
+      localStorage.setItem(storageKey(state.fixtureId), JSON.stringify({ decisions: state.decisions, claimReviews: state.claimReviews, notes: state.notes, selectedQuestions: state.selectedQuestions, savedAt: state.savedAt }));
+    }
+
+    function loadLocal() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey(state.fixtureId)) || "null");
+        if (saved) Object.assign(state, saved);
+      } catch { announce("Saved review could not be loaded; the original draft remains available."); }
+    }
+
+    function renderSummary() {
+      const fixture = currentFixture();
+      document.getElementById("pageTitle").textContent = fixture.title;
+      const banner = document.getElementById("sourceBanner");
+      banner.classList.toggle("hidden", !fixture.stale);
+      banner.textContent = fixture.stale ? `This captured source may be stale or unavailable. Review the preserved snapshot from ${fixture.captured}; do not treat the expiry date as a hiring guarantee.` : "";
+      document.getElementById("summaryGrid").innerHTML = fixture.summary.map(([label, value]) => `<div class="summary-card"><div class="label">${escapeHtml(label)}</div><div class="value">${escapeHtml(value)}</div></div>`).join("");
+    }
+
+    function claimNeedsReview(claim) { return claim.state !== "present" || ["mixed", "unknown"].includes(claim.owner) || !claim.locator; }
+    function claimConfirmationLabel(claim) {
+      if (["unknown", "not_visible"].includes(claim.state)) return "Confirm gap";
+      if (claim.state === "conflicting") return "Keep conflict";
+      return "Confirm";
+    }
+    function claimStatus(claim) { return state.claimReviews[`${state.fixtureId}:${claim.id}`]?.review || "draft"; }
+    function claimText(claim) { return state.claimReviews[`${state.fixtureId}:${claim.id}`]?.text || claim.text; }
+    function claimNote(claim) { return state.notes[`${state.fixtureId}:${claim.id}`] || claim.note || ""; }
+
+    function renderClaim(claim) {
+      const review = claimStatus(claim);
+      const note = claimNote(claim);
+      const locator = claim.locator ? `Source: ${claim.locator}` : "Source location unavailable in capture";
+      const needsReview = claimNeedsReview(claim);
+      const reviewMeta = needsReview ? `<span class="meta-chip">Review: ${escapeHtml(prettyState(review))}</span>` : `<span class="meta-chip">Source-backed · no confirmation needed</span>`;
+      const actions = needsReview
+        ? `<div class="claim-actions">
+          <button class="btn" type="button" data-action="accept" data-claim="${escapeHtml(claim.id)}">${claimConfirmationLabel(claim)}</button>
+          <button class="btn" type="button" data-action="edit" data-claim="${escapeHtml(claim.id)}">Edit</button>
+          <button class="btn btn-danger" type="button" data-action="reject" data-claim="${escapeHtml(claim.id)}">Reject</button>
+          <button class="btn" type="button" data-action="unresolved" data-claim="${escapeHtml(claim.id)}">Leave unresolved</button>
+          <button class="btn btn-quiet" type="button" data-action="undo" data-claim="${escapeHtml(claim.id)}">Undo</button>
+          <button class="btn btn-quiet" type="button" data-action="note" data-claim="${escapeHtml(claim.id)}">Add note</button>
+        </div>`
+        : `<div class="claim-actions"><span class="source-note">This is shown directly from the captured posting.</span><button class="btn btn-quiet" type="button" data-action="edit" data-claim="${escapeHtml(claim.id)}">Correct</button></div>`;
+      return `<article class="claim ${review === "rejected" ? "rejected" : ""}">
+        <div class="claim-top"><div class="claim-text">${escapeHtml(claimText(claim))}</div><span class="status ${escapeHtml(claim.state)}">${escapeHtml(prettyState(claim.state))}</span></div>
+        <div class="claim-meta"><span class="meta-chip">Owner: ${escapeHtml(prettyState(claim.owner))}</span><span class="meta-chip">${escapeHtml(locator)}</span>${reviewMeta}</div>
+        ${note ? `<div class="claim-meta"><span class="meta-chip">Note: ${escapeHtml(note)}</span></div>` : ""}
+        ${actions}
+      </article>`;
+    }
+
+    function renderQuestions(section, sectionId) {
+      const key = `${state.fixtureId}:${sectionId}`;
+      const selected = state.selectedQuestions[key] || [];
+      const questions = section.questions || [];
+      return `<div class="question-list">${questions.map((question, index) => `<label class="question"><input type="checkbox" data-question-index="${index}" ${selected.includes(index) ? "checked" : ""}><span><strong>${escapeHtml(question.text)}</strong><small>Linked section: ${escapeHtml(question.source)}</small></span></label>`).join("")}</div><div class="claim-actions"><button class="btn" type="button" data-action="add-question">Add a question</button></div>`;
+    }
+
+    function renderDecision() {
+      const fixture = currentFixture();
+      const decision = state.decisions[state.fixtureId] || { value: "", rationale: "" };
+      const options = ["continue", "investigate", "save", "pause", "decline"];
+      return `<p class="section-description">This is your decision, not an AI verdict. Choose what you want to do next with this posting.</p><div class="decision-options">${options.map(option => `<label class="decision-option"><input type="radio" name="decision" value="${option}" ${decision.value === option ? "checked" : ""}>${option[0].toUpperCase() + option.slice(1)}</label>`).join("")}</div><label class="eyebrow" for="rationale">Your rationale</label><textarea class="rationale" id="rationale" placeholder="Tie your decision to a fact, unknown or contradiction.">${escapeHtml(decision.rationale)}</textarea><div class="claim-actions"><button class="btn btn-primary" type="button" data-action="save-review">Save review</button></div><div class="source-details"><details><summary>Review boundary</summary><p class="section-description">Saving does not submit an application, contact an employer, decide whether this is a scam or calculate your fit.</p></details></div>`;
+    }
+
+    function renderReport() {
+      const fixture = currentFixture();
+      let report = `<div class="panel-body"><div class="report-intro"><strong>Readable evidence report</strong><p>All available sections are shown below. Nothing important is hidden behind a tab.</p></div><div class="source-details"><details><summary>Original captured source · ${escapeHtml(fixture.source)} · ${escapeHtml(fixture.captured)}</summary><p class="section-description">Reference: ${escapeHtml(fixture.reference)} · Status: ${escapeHtml(fixture.freshness)}</p><pre class="source-text">${escapeHtml(fixture.sourceText)}</pre></details></div></div>`;
+      report += sections.map(([id, label]) => {
+        if (id === "decision") return `<article class="report-section" id="report-decision"><div class="report-section-header"><div><div class="eyebrow">User-owned action</div><h3>${escapeHtml(label)}</h3></div><span class="status ${state.decisions[state.fixtureId] ? "accepted" : "not_visible"}">${state.decisions[state.fixtureId] ? "Saved" : "Not selected"}</span></div>${renderDecision()}</article>`;
+        const section = fixture.sections[id];
+        let body = `<p class="section-description">${escapeHtml(section.description)}</p>`;
+        if (id === "verification_questions") body += renderQuestions(section, id);
+        else if (section.claims?.length) body += `<div class="claim-list">${section.claims.map(renderClaim).join("")}</div>`;
+        else body += `<div class="empty-state">No source-backed claim is available for this section. Keep the section visible as <strong>${escapeHtml(prettyState(section.status))}</strong> rather than filling the gap with an inference.</div>`;
+        if (id === "contradictions" && section.claims?.length) body += `<div class="source-details"><details><summary>Why this is not a verdict</summary><p class="section-description">A source mismatch is preserved for verification. It does not establish that the posting is fraudulent, unsafe or illegitimate.</p></details></div>`;
+        if (id === "unknowns") body += `<div class="source-details"><details><summary>What “unknown” means</summary><p class="section-description">The capture does not establish the answer. It is not evidence of wrongdoing and should not be converted into a fit or legitimacy score.</p></details></div>`;
+        return `<article class="report-section" id="report-${id}"><div class="report-section-header"><div><div class="eyebrow">Evidence section</div><h3>${escapeHtml(label)}</h3></div><span class="status ${escapeHtml(section.status)}">${escapeHtml(prettyState(section.status))}</span></div>${body}</article>`;
+      }).join("");
+      document.getElementById("reportContent").innerHTML = report;
+    }
+
+    function renderHistory() {
+      const fixture = currentFixture();
+      const decision = state.decisions[state.fixtureId];
+      document.getElementById("historySource").textContent = `${fixture.source} · captured ${fixture.captured}`;
+      document.getElementById("historyDecision").textContent = decision ? `${decision.value[0].toUpperCase() + decision.value.slice(1)} — saved` : "Not selected";
+      document.getElementById("historyRecovery").textContent = state.savedAt[state.fixtureId] ? `Saved ${state.savedAt[state.fixtureId]}. Resume is available.` : "No saved changes yet.";
+      const items = [...(fixture.history || [])];
+      if (decision) items.unshift(`Saved personal decision: ${decision.value}.`);
+      document.getElementById("historyList").innerHTML = items.map(item => `<li>${escapeHtml(item)}</li>`).join("");
+    }
+
+    function renderAll() { renderSummary(); renderReport(); renderHistory(); }
+
+    function getClaim(id) { return Object.values(currentFixture().sections).flatMap(section => section.claims || []).find(claim => claim.id === id); }
+
+    document.getElementById("fixtureSelect").addEventListener("change", event => { state.fixtureId = event.target.value; loadLocal(); renderAll(); announce(`Loaded ${currentFixture().label}.`); });
+    document.getElementById("resumeBtn").addEventListener("click", () => { loadLocal(); renderAll(); announce(state.savedAt[state.fixtureId] ? `Restored saved review from ${state.savedAt[state.fixtureId]}.` : "No saved review exists for this posting."); });
+    document.getElementById("resetBtn").addEventListener("click", () => { localStorage.removeItem(storageKey(state.fixtureId)); delete state.decisions[state.fixtureId]; state.claimReviews = {}; state.notes = {}; state.selectedQuestions = {}; delete state.savedAt[state.fixtureId]; renderAll(); announce("Draft reset. Original captured evidence remains unchanged."); });
+    document.getElementById("reportContent").addEventListener("change", event => {
+      if (event.target.matches("[data-question-index]")) {
+        const key = `${state.fixtureId}:verification_questions`; const current = new Set(state.selectedQuestions[key] || []); const index = Number(event.target.dataset.questionIndex); event.target.checked ? current.add(index) : current.delete(index); state.selectedQuestions[key] = [...current]; announce(event.target.checked ? "Question selected." : "Question removed from selection.");
+      }
+      if (event.target.id === "rationale") { const decision = state.decisions[state.fixtureId] || { value: "", rationale: "" }; decision.rationale = event.target.value; state.decisions[state.fixtureId] = decision; }
+    });
+    document.getElementById("reportContent").addEventListener("click", event => {
+      const button = event.target.closest("button[data-action]"); if (!button) return; const action = button.dataset.action;
+      if (action === "add-question") { const question = window.prompt("Add a decision-changing question"); if (question?.trim()) { currentFixture().sections.verification_questions.questions.push({ text: question.trim(), source: "Human-added question" }); renderReport(); announce("Human question added."); } return; }
+      if (action === "save-review") { const selected = document.querySelector("input[name=decision]:checked"); if (!selected) { announce("Choose a next action before saving."); return; } const rationale = document.getElementById("rationale").value.trim(); state.decisions[state.fixtureId] = { value: selected.value, rationale }; saveLocal(); renderHistory(); renderReport(); announce("Review saved. No external action was taken."); return; }
+      const claim = getClaim(button.dataset.claim); if (!claim) return; const key = `${state.fixtureId}:${claim.id}`;
+      if (action === "accept") state.claimReviews[key] = { ...(state.claimReviews[key] || {}), review: "accepted", text: claim.text };
+      if (action === "reject") state.claimReviews[key] = { ...(state.claimReviews[key] || {}), review: "rejected", text: claim.text };
+      if (action === "unresolved") state.claimReviews[key] = { ...(state.claimReviews[key] || {}), review: "unresolved", text: claim.text };
+      if (action === "edit") { const edited = window.prompt("Edit this claim", claimText(claim)); if (edited?.trim()) state.claimReviews[key] = { ...(state.claimReviews[key] || {}), review: "edited", text: edited.trim() }; }
+      if (action === "undo") { delete state.claimReviews[key]; delete state.notes[key]; }
+      if (action === "note") { const note = window.prompt("Add a reviewer note", claimNote(claim)); if (note !== null) state.notes[key] = note.trim(); }
+      renderReport(); renderHistory(); announce(`Claim ${claim.id} marked ${action}.`);
+    });
+
+    const select = document.getElementById("fixtureSelect");
+    select.innerHTML = Object.entries(fixtures).map(([id, fixture]) => `<option value="${id}">${escapeHtml(fixture.label)}</option>`).join("");
+    select.value = state.fixtureId;
+    loadLocal();
+    renderAll();
+  </script>
+</body>
+</html>

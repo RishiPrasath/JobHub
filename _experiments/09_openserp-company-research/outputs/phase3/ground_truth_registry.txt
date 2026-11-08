@@ -1,0 +1,8 @@
+Grab Holdings                            | similar_name_only      | GRAB GEO HOLDINGS PTE. LTD.              | Live Company
+Raffles Medical Group                    | confirmed              | RAFFLES MEDICAL GROUP LTD                | Live Company
+Ninja Van Singapore                      | similar_name_only      | GREIF SINGAPORE PTE. LTD.                | Live Company
+Lazada Singapore                         | confirmed              | LAZADA SINGAPORE PTE. LTD.               | Live Company
+KPMG Singapore                           | similar_name_only      | KPMG US TAX SERVICES (SINGAPORE) LLC     | Live Company
+Avanguarde Pte. Ltd.                     | confirmed              | AVANGUARDE PTE. LTD.                     | Live Company
+Zzqxv Qwlmt Holdings Pte Ltd             | not_in_registry        | -                                        | -
+DBS Bank Singapore Recruitment Pte Ltd   | similar_name_only      | DBS BANK LTD.                            | Live Company

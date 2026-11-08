@@ -1,0 +1,44 @@
+Sheng Siong Group Ltd  (role: Cashier)
+HEADLINE: exists_and_consistent
+  Registered in Singapore, and public sources agree it is the company named.
+  because: registry: confirmed; model: consistent across 2 pages
+REGISTRY: confirmed. SHENG SIONG GROUP LTD. is registered in Singapore (status: Live Company, registered 2010-11-10).
+WEB: 5 queries (bing), 2 of 8 pages read, exact name seen in 2 pages and 12 search results
+BRIEF (model rating: appears_real_and_consistent, confidence medium; 10 claims verified, 1 unverified)
+  Facts:
+    [verified] Legal name and registration details
+    [verified] Sheng Siong Group operates a supermarket chain with 68 outlets in Singapore
+    [verified] The company employs more than 3,500 staff
+    [verified] Sheng Siong Group was awarded the Plaque of Commendation at the NTUC May Day Awards
+    2023
+    [verified] The company supports employees’ children’s education with a tailored allowance scheme
+    [verified] Sheng Siong adopts the Retail Progressive Wage Model and raised wages early
+    [verified] CEO Lim Hock Chee leads by example, working alongside staff
+    [verified] Sheng Siong Group is listed on the Singapore Exchange (SGX) under code OV8
+  Positive signals:
+    [verified] Strong employee welfare culture recognized by industry awards
+    [UNVERIFIED] Leadership actively engages with frontline staff
+    [verified] Commitment to lifelong learning for staff
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 6):
+  - Sheng Siong Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/Sheng-Siong-
+    Reviews-E1186795.htm
+  - Reviews Sheng Siong employee ratings and reviews |  https://sg.jobstreet.com/companies/sheng-
+    siong-168553100524931/reviews
+  - Sheng Siong Reviews in Singapore | Glassdoor  https://www.glassdoor.sg/Reviews/Sheng-Siong-
+    Singapore-Reviews-EI_IE1186795.0,11
+  - SHENG SIONG SUPERMARKET Employee Reviews - Indeed  https://sg.indeed.com/cmp/Sheng-Siong-
+    Supermarket/reviews?fcountry=ALL
+  - Working at Sheng Siong company profile and informa  https://sg.jobstreet.com/companies/sheng-
+    siong-168553100524931
+  - SHENG SIONG SUPERMARKET Careers and Employment - I  https://sg.indeed.com/cmp/Sheng-Siong-
+    Supermarket
+COULD NOT READ (6):
+  - https://www.scamshield.gov.sg/check-for-scams  (irrelevant: the page never mentions the company
+    name)
+  - https://www.scamadviser.com/  (thin: fewer than 400 characters of real content)
+  - https://www.centreforcybersecurity.com/scam-alerts  (irrelevant: the page never mentions the
+    company name)
+  - https://www.scamshield.gov.sg/  (irrelevant: the page never mentions the company name)
+  - https://www.case.org.sg/company-alert  (irrelevant: the page never mentions the company name)
+  - https://www.truecaller.com/scam-checker  (irrelevant: the page never mentions the company name)
+(126.4s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

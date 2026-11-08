@@ -1,0 +1,49 @@
+Ninja Van Singapore  (role: Warehouse Associate)
+HEADLINE: brand_legal_entity_unconfirmed
+  Public sources describe a company by this name, but the registry has no entity with this exact
+  name. It may trade under a brand name; the legal employer is not confirmed.
+  because: registry: similar_name_only; exact name seen 11 times in sources
+REGISTRY: similar_name_only. No registered entity is named 'Ninja Van Singapore'. The closest registered name is GREIF SINGAPORE PTE. LTD., which may be a different company.
+WEB: 5 queries (bing, duckduckgo), 6 of 8 pages read, exact name seen in 1 pages and 10 search results
+BRIEF (model rating: appears_real_and_consistent, confidence high; 4 claims verified, 5 unverified)
+  about: the brand named in the posting; the registered legal employer is not confirmed
+  Facts:
+    [verified] Ninja Van is a Singapore‑based logistics company that operates across Southeast Asia.
+    [verified] The company announced a restructuring that cut about 12 % of its Singapore workforce
+    in August 2025.
+    [UNVERIFIED] Layoffs were described as “strategic” and “not made lightly”, with severance,
+    extended health insurance and mental‑health support offered.
+    [UNVERIFIED] Ninja Van has raised significant venture capital, including a US$578 million
+    Series E round in 2021 that gave it unicorn status.
+    [UNVERIFIED] The company is reportedly in talks for a new US$80 million funding round that could
+    halve its valuation.
+  Positive signals:
+    [verified] Ninja Van is a major player in the regional logistics market, handling millions of
+    parcels daily.
+    [UNVERIFIED] It has secured backing from high‑profile investors such as Alibaba and B Capital.
+  Red flags:
+    [UNVERIFIED] Customer‑service complaints and negative reviews suggest poor service quality.
+    [verified] Multiple public complaints cite missed deliveries, lack of tracking, and unresponsive
+    support.
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 7):
+  - Ninja Van Singapore Reviews - Glassdoor  https://www.glassdoor.co.uk/Reviews/Ninja-Van-
+    Singapore-Reviews-EI_IE984783.0,9_
+  - Ninja Van Singapore (Singapore) Office | Glassdoor  https://www.glassdoor.com/Location/Ninja-
+    Van-Singapore-Location-EI_IE984783.0,9_
+  - Ninja Van Singapore office | Glassdoor  https://www.glassdoor.co.in/Location/All-Ninja-Van-
+    Singapore-Office-Locations-EI
+  - Ninja Van Singapore Office | Glassdoor  https://www.glassdoor.com/Location/All-Ninja-Van-
+    Singapore-Office-Locations-EI_I
+  - Ninja Van Singapore reviews - Glassdoor  https://www.glassdoor.co.in/Reviews/Ninja-Van-
+    Singapore-Reviews-EI_IE984783.0,9_
+  - Ninja Van Singapore reviews - Glassdoor  https://www.glassdoor.co.in/Reviews/Ninja-Van-
+    Singapore-Reviews-EI_IE984783.0,9_
+COULD NOT READ (2):
+  - https://www.trustpilot.com/review/www.ninjavan.co  (blocked_by_robots: the site's robots.txt
+    does not allow this page)
+  - https://www.techinasia.com/news/ninja-van-lays-off-12-of-singapore-wor  (blocked: challenge or
+    login-wall text)
+COULD NOT VERIFY:
+  - Official company registry record confirming a legal entity named exactly "Ninja Van Singapore"
+  - Which registered company is the legal employer behind this brand.
+(128.1s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

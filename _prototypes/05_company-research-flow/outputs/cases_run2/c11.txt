@@ -1,0 +1,17 @@
+Singapore Airlines Careers Hub Pte Ltd  (role: Cabin Crew)
+HEADLINE: could_not_confirm_company
+  Neither the registry nor the web confirms this company exists under this name.
+  because: registry: not_in_registry; exact name seen 0 times
+REGISTRY: not_in_registry. No registered entity in Singapore resembles 'Singapore Airlines Careers Hub Pte Ltd'.
+WEB: 5 queries (bing), 3 of 5 pages read, exact name seen in 0 pages and 0 search results
+BRIEF (model rating: cannot_verify, confidence low; 0 claims verified, 1 unverified)
+  facts and positive signals hidden: the company was not confirmed under this exact name
+  Red flags:
+    [UNVERIFIED] The job posting may be a phishing or scam attempt.
+COULD NOT READ (2):
+  - https://www.singaporeair.com/en_UK/sg/corporate/newsroom/newsalert-lis  (thin: fewer than 400
+    characters of real content)
+  - https://careers.etihad.com/  (irrelevant: the page never mentions the company name)
+COULD NOT VERIFY:
+  - No source confirms the existence of a company named "Singapore Airlines Careers Hub Pte Ltd".
+(125.1s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

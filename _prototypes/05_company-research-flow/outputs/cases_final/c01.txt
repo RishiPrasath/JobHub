@@ -1,0 +1,54 @@
+Raffles Medical Group  (role: Staff Nurse)
+HEADLINE: exists_and_consistent
+  Registered in Singapore, and public sources agree it is the company named.
+  because: registry: confirmed; model: consistent across 3 pages
+REGISTRY: confirmed. RAFFLES MEDICAL GROUP LTD is registered in Singapore (status: Live Company, registered 1989-05-16).
+  flag: other entities start with this name: RAFFLES MEDICAL SUPPLIES GROUP
+WEB: 5 queries (duckduckgo), 6 of 8 pages read, exact name seen in 6 pages and 29 search results
+BRIEF (model rating: appears_real_and_consistent, confidence high; 6 claims verified, 5 unverified)
+  Facts:
+    [UNVERIFIED] Raffles Medical Group Ltd is a public company incorporated on 16 May 1989 and
+    currently live.
+    [verified] The company’s registered address is 585 North Bridge Road, #11-00, Raffles Hospital,
+    Singapore 188770.
+    [verified] Principal business activity is clinics and other general medical services (Western)
+    (SSIC 86201).
+    [verified] Raffles Medical Group is listed on the Singapore Exchange under ticker BSL.SI.
+    [verified] The company operates a large private healthcare network, including Raffles Hospital
+    and many clinics across Asia.
+    [UNVERIFIED] Nursing careers are promoted on the company’s official careers page, highlighting
+    collaborative environment, professional development, overseas exposure and competitive salary.
+  Positive signals:
+    [UNVERIFIED] The company has a long operating history (over 35 years) and stable corporate
+    status.
+    [verified] It is a publicly listed, financially transparent entity with disclosed paid‑up
+    capital (≈ S$394‑433 million).
+    [UNVERIFIED] The careers page emphasizes professional growth, training funding and international
+    rotation opportunities for nurses.
+  Red flags:
+    [verified] The official registry record does not list a specific business activity description
+    (shows ‘na’).
+    [UNVERIFIED] The company shares its registered address with many other entities, which may cause
+    confusion about on‑site operations.
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 13):
+  - Raffles Medical Group Employee Reviews - Indeed.co  https://sg.indeed.com/cmp/Raffles-Medical-
+    Group/reviews
+  - Nursing Salaries in Singapore for Raffles Medical   https://sg.indeed.com/cmp/Raffles-Medical-
+    Group/salaries?job_category=mednurse&l
+  - Reviews Raffles Medical Group employee ratings and  https://sg.jobstreet.com/companies/raffles-
+    medical-group-168555834064846/reviews
+  - Raffles Medical Group Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/Raffles-Medical-
+    Group-Reviews-E139031.htm
+  - Raffles Medical Group Reviews in Singapore | Glass  https://www.glassdoor.sg/Reviews/Raffles-
+    Medical-Group-Singapore-Reviews-EI_IE13
+  - Working at Raffles Medical Group company profile a  https://sg.jobstreet.com/companies/raffles-
+    medical-group-168555834064846
+COULD NOT READ (2):
+  - https://www.businesstimes.com.sg/keywords/raffles-medical-group  (irrelevant: the page never
+    mentions the company name)
+  - https://www.rafflesmedicalgroup.com/investor-relations/sgx-announcemen  (thin: fewer than 400
+    characters of real content)
+COULD NOT VERIFY:
+  - Specific details about the Staff Nurse role (salary, shift patterns, exact duties) are not
+    provided in the sources.
+(73.0s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

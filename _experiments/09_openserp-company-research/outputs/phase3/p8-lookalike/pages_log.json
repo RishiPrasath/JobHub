@@ -1,0 +1,100 @@
+[
+ {
+  "url": "https://sg.indeed.com/cmp/Dbs-Bank/reviews",
+  "http": 200,
+  "seconds": 0.6,
+  "status": "ok",
+  "chars": 9037,
+  "note": null,
+  "title": "DBS Bank Employee Reviews",
+  "mode_used": "fast",
+  "search_title": "Working at DBS Bank: 388 Reviews | Indeed.com",
+  "snippet": "Aug 10, 2026388 reviews from DBS Bank employees about DBS Bank culture, salaries, benefits, work-life balance, management, job security, and more.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://sg.indeed.com/cmp/Dbs-Bank/salaries",
+  "http": 200,
+  "seconds": 1.2,
+  "status": "ok",
+  "chars": 2195,
+  "note": null,
+  "title": "DBS Bank Salaries in Singapore",
+  "mode_used": "fast",
+  "search_title": "DBS Bank Salaries in Singapore | Indeed.com",
+  "snippet": "How much does DBS Bank in Singapore pay? The average DBS Bank monthly salary ranges from approximately $3,894 per month for Business Support to $16,817 per month for Foreign Exchange Trader. The average DBS Bank daily wage ranges from approximately $112 per day for Centre Head to $250 per day for Vice President of Strategy. Salary estimated from 4,556 past and present job postings on Indeed ...",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://sg.jobstreet.com/companies/dbs-bank-168553715857256/reviews",
+  "http": 200,
+  "seconds": 0.5,
+  "status": "ok",
+  "chars": 961,
+  "note": null,
+  "title": "Reviews DBS Bank employee ratings and reviews | Jobstreet | DBS Securities Singapore Pte Ltd",
+  "mode_used": "fast",
+  "search_title": "Reviews DBS Bank employee ratings and reviews - Jobstreet",
+  "snippet": "Thinking of working at DBS Bank (DBS Securities Singapore Pte Ltd)? Read 137 employee reviews on Jobstreet to learn about salaries, benefits, company culture, work-life balance, and career opportunities",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.glassdoor.sg/Reviews/DBS-Bank-Reviews-E611812.htm",
+  "http": 502,
+  "seconds": 0.3,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "DBS Bank Reviews - Glassdoor",
+  "snippet": "7,783 DBS Bank reviews. A free inside look at company reviews and salaries posted anonymously by employees.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.glassdoor.sg/Reviews/DBS-Bank-Singapore-Reviews-EI_IE611812.0,8_IL.9,18_IM1123.htm",
+  "http": 502,
+  "seconds": 0.3,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "DBS Bank Reviews in Singapore | Glassdoor",
+  "snippet": "3,026 DBS Bank reviews in Singapore. A free inside look at company reviews and salaries posted anonymously by employees.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://sg.jobstreet.com/companies/dbs-bank-168553715857256",
+  "http": 200,
+  "seconds": 0.5,
+  "status": "ok",
+  "chars": 961,
+  "note": null,
+  "title": "Working at DBS Bank company profile and information | Jobstreet | DBS Securities Singapore Pte Ltd",
+  "mode_used": "fast",
+  "search_title": "Working at DBS Bank company profile and information - Jobstreet",
+  "snippet": "Considering a career at DBS Bank? Learn what its like to work for DBS Bank (DBS Securities Singapore Pte Ltd) by reading employee ratings and reviews on sg.jobstreet.com",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.glassdoor.com/Reviews/DBS-Bank-singapore-Reviews-EI_IE611812.0,8_KH9,18.htm",
+  "http": 502,
+  "seconds": 0.4,
+  "status": "error",
+  "chars": 0,
+  "note": "Failed to extract URL content",
+  "search_title": "DBS Bank \"singapore\" Reviews | Glassdoor",
+  "snippet": "66 DBS Bank reviews. A free inside look at company reviews and salaries posted anonymously by employees.",
+  "engine": "duckduckgo"
+ },
+ {
+  "url": "https://www.prepnplaced.com/company-ratings/dbs",
+  "http": 200,
+  "seconds": 0.4,
+  "status": "ok",
+  "chars": 2601,
+  "note": null,
+  "title": "Dbs Employee Ratings & Reviews (2026)",
+  "mode_used": "fast",
+  "search_title": "Dbs Employee Ratings & Reviews (2026) - prepnplaced.com",
+  "snippet": "Sep 7, 2026Dbs employee ratings: work-life balance, salary, job security, career growth and culture, updated 7 Sept 2026. See how it compares and whether to join.",
+  "engine": "duckduckgo"
+ }
+]

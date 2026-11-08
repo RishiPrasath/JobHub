@@ -1,0 +1,20 @@
+--- security checks
+no token: 401
+localhost: 400 {"detail":"host is not a public address"}
+metadata ip: 400 {"detail":"host is not a public address"}
+private 10.x: 400 {"detail":"host is not a public address"}
+file scheme: 400 {"detail":"only http(s) URLs are allowed"}
+docker internal name: 400 {"detail":"host is not a public address"}
+bad mode: 400 {"detail":"mode must be auto, plain or render"}
+robots disallow (nytimes search page?): Disallow: /search
+200 {"url":"https://www.google.com/search?q=test","status":"blocked_by_robots","tier":null,"text":""}
+--- hardening
+user=pwuser readonly=true capdrop=[ALL] pids=512 mem=2147483648
+uid=1001(pwuser) gid=1001(pwuser) groups=1001(pwuser),100(users)
+touch: cannot touch '/srv/x': Read-only file system
+tmp-writable
+--- concurrency: 6 parallel render requests
+/usr/bin/bash: line 34: bc: command not found
+total seconds: 
+mem=429.8MiB / 2GiB
+04_fetch-render-service-fetch 3.76GB

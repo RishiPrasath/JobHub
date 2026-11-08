@@ -1,0 +1,31 @@
+{
+  "posting_id": "R4-JB-003",
+  "captured_at": "2026-10-19",
+  "source": {
+    "name": "MyCareersFuture",
+    "context": "Singapore logistics/supply chain",
+    "job_reference": "MCF-2026-0620087",
+    "ownership": "mixed"
+  },
+  "evidence": {
+    "salary_displayed": "$3,800 to $4,600 Monthly",
+    "working_hours": "day/night shifts, six days per week, four rest days per month, rotation, night allowance and overtime policy",
+    "requirements": "Class 4 licence, experience, shifts, overtime, responsibility and teamwork",
+    "additional_qualifications": "PSA Pass, forklift, rigger/signalman and SCDF HazMat",
+    "work_location": "Pandan Loop and travel to ports",
+    "employment_type": "full-time, long-term",
+    "salary_and_benefits": "monthly income includes overtime, night and other allowances, plus training, year-end bonus and KPI incentive",
+    "application_route": "MyCareersFuture; WhatsApp contact visible",
+    "platform_signal": "0% skills matched"
+  },
+  "unknowns": [
+    "Whether every allowance is guaranteed.",
+    "How overtime is calculated.",
+    "Response time.",
+    "Vacancy authenticity beyond the displayed content."
+  ],
+  "review_rules": [
+    "Do not convert monthly income into guaranteed base salary.",
+    "Do not treat the skills-match panel as an employer assessment."
+  ]
+}

@@ -1,0 +1,183 @@
+{
+ "employer": "Singapore Airlines Careers Hub Pte Ltd",
+ "role": "Cabin Crew",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "not_in_registry",
+  "summary": "No registered entity in Singapore resembles 'Singapore Airlines Careers Hub Pte Ltd'.",
+  "basis": "name only",
+  "entity": null,
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Singapore Airlines Careers Hub Pte Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Singapore Airlines Careers Hub Pte Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Singapore Airlines Careers Hub Pte Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": null,
+    "results": 0,
+    "error": null
+   },
+   {
+    "query": "\"Singapore Airlines Careers Hub Pte Ltd\" Cabin Crew interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Singapore Airlines Careers Hub Pte Ltd\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.comparably.com/companies/singapore-airlines/reviews/1897081/service-is-very-good-and-conssitent",
+    "status": "thin",
+    "chars": 297,
+    "note": "fewer than 400 characters of real content",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.pilotjobsnetwork.com/jobs/Singapore_Airlines",
+    "status": "ok",
+    "chars": 6769,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.singaporeair.com/en_UK/sg/corporate/newsroom/newsalert-listing/advisory-on-phishing-scams-and-good-cybersecurity-practice/?msockid=31aa502291b068321a0f482890376991",
+    "status": "thin",
+    "chars": 302,
+    "note": "fewer than 400 characters of real content",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.emiratesgroupcareers.com/cabin-crew",
+    "status": "ok",
+    "chars": 2500,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://careers.etihad.com/",
+    "status": "irrelevant",
+    "chars": 1083,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [],
+  "gate": {
+   "phrases": [
+    "singapore airlines careers hub"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 0,
+   "none": true,
+   "strong": false
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 27,
+  "registry_mirror_pages": 0
+ },
+ "headline": "could_not_confirm_company",
+ "headline_meaning": "Neither the registry nor the web confirms this company exists under this name.",
+ "reasons": [
+  "registry: not_in_registry",
+  "exact name seen 0 times"
+ ],
+ "brief": {
+  "confidence": "low",
+  "could_not_verify": [
+   "No registry record or official source confirms the existence of \"Singapore Airlines Careers Hub Pte Ltd\" as a distinct legal entity."
+  ],
+  "key_facts": [],
+  "positive_signals": [],
+  "red_flags": [
+   {
+    "claim": "The company name appears only in job postings and is not listed in official Singapore company registries.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": null,
+      "quote": "The company registry did NOT confirm a company with this exact name.",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Singapore Airlines has issued phishing warnings, indicating scammers may impersonate the airline or related entities.",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://www.singaporeair.com/en_UK/sg/corporate/newsroom/newsalert-listing/advisory-on-phishing-scams-and-good-cybersecurity-practice/?msockid=31aa502291b068321a0f482890376991",
+      "quote": "The protection of our customers’ personal data is of utmost importance... advise on phishing scams.",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   }
+  ],
+  "validity_reasoning": "None of the provided sources (including the official registry record) verify the existence of a company called Singapore Airlines Careers Hub Pte Ltd. The only relevant evidence is a general phishing advisory from Singapore Airlines, which suggests that fraudulent actors may use similar names. With no corroborating corporate records or independent mentions, the posting cannot be confirmed as legitimate.",
+  "claims_verified": 0,
+  "claims_unverified": 2,
+  "model_validity_status": "cannot_verify",
+  "suppressed": "facts and positive signals hidden: the company was not confirmed under this exact name"
+ },
+ "could_not_read": [
+  {
+   "url": "https://www.comparably.com/companies/singapore-airlines/reviews/1897081/service-is-very-good-and-conssitent",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://www.singaporeair.com/en_UK/sg/corporate/newsroom/newsalert-listing/advisory-on-phishing-scams-and-good-cybersecurity-practice/?msockid=31aa502291b068321a0f482890376991",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://careers.etihad.com/",
+   "why": "irrelevant: the page never mentions the company name"
+  }
+ ],
+ "link_out": [],
+ "could_not_verify": [
+  "No registry record or official source confirms the existence of \"Singapore Airlines Careers Hub Pte Ltd\" as a distinct legal entity."
+ ],
+ "seconds": 75.7,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

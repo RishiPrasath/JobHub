@@ -1,0 +1,103 @@
+{
+ "validity_status": "cannot_verify",
+ "validity_reasoning": "None of the provided sources contain any information about Zzqxv Qwlmt Holdings Pte Ltd. All snippets refer to unrelated companies or generic discussions, so the existence, industry, size, culture, or any other details of the target company cannot be confirmed.",
+ "key_facts": [],
+ "positive_signals": [],
+ "red_flags": [],
+ "relevance_for_persona": "No verifiable information is available to assess how the company aligns with an operations manager role.",
+ "confidence": "low",
+ "confidence_reasoning": "The lack of any relevant source means there is no evidence to support any claim about the company.",
+ "could_not_verify": [
+  "Company existence",
+  "Industry sector",
+  "Company size and revenue",
+  "Work culture and employee satisfaction",
+  "Specific operations manager responsibilities"
+ ],
+ "sources_used": [
+  {
+   "id": 1,
+   "url": "https://sg.indeed.com/cmp/Viewqwest-Pte-Ltd/reviews",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 2,
+   "url": "https://www.glassdoor.sg/Reviews/BORGWARNER-SINGAPORE-HOLDINGS-PTE-LTD-Reviews-E5931845.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 3,
+   "url": "https://www.glassdoor.com/Reviews/BORGWARNER-SINGAPORE-HOLDINGS-PTE-LTD-Reviews-E5931845.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 4,
+   "url": "https://www.reddit.com/r/SingaporeRaw/comments/156h5vz/megathread_toxic_employers_of_singapore",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 5,
+   "url": "https://www.scam.sg/companies",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 6,
+   "url": "https://sg.indeed.com/cmp/Natsteel-Holdings-Pte-Ltd/reviews?fcountry=ALL",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 7,
+   "url": "https://www.glassdoor.com/Reviews/SEA-Singapore-Reviews-E1882231.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 8,
+   "url": "https://www.reddit.com/r/phcareers/comments/qdzecl/not_sure_if_i_still_like_to_work_here",
+   "kind": "snippet_only"
+  }
+ ],
+ "sources_failed_or_blocked": [
+  {
+   "url": "https://sg.indeed.com/cmp/Viewqwest-Pte-Ltd/reviews",
+   "status": "irrelevant",
+   "note": "the page never mentions the company name (zzqxv, qwlmt)"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/BORGWARNER-SINGAPORE-HOLDINGS-PTE-LTD-Reviews-E5931845.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/BORGWARNER-SINGAPORE-HOLDINGS-PTE-LTD-Reviews-E5931845.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  },
+  {
+   "url": "https://www.reddit.com/r/SingaporeRaw/comments/156h5vz/megathread_toxic_employers_of_singapore",
+   "status": "blocked",
+   "note": "challenge or login-wall text (title: Prove your humanity)"
+  },
+  {
+   "url": "https://www.scam.sg/companies",
+   "status": "irrelevant",
+   "note": "the page never mentions the company name (zzqxv, qwlmt)"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Natsteel-Holdings-Pte-Ltd/reviews?fcountry=ALL",
+   "status": "irrelevant",
+   "note": "the page never mentions the company name (zzqxv, qwlmt)"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/SEA-Singapore-Reviews-E1882231.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  },
+  {
+   "url": "https://www.reddit.com/r/phcareers/comments/qdzecl/not_sure_if_i_still_like_to_work_here",
+   "status": "blocked",
+   "note": "challenge or login-wall text (title: Prove your humanity)"
+  }
+ ],
+ "claims_verified": 0,
+ "claims_unverified": 0
+}

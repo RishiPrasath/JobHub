@@ -1,0 +1,36 @@
+{
+  "agent_id": "A3",
+  "company_chosen": "Sheng Siong Group Ltd (SGX: OV8)",
+  "why_chosen": "Homegrown mid-size listed supermarket chain (92 stores), not a global giant; many outlets so plausible store-management openings; expected to have public data.",
+  "industry": "Retail (supermarkets)",
+  "needs": {
+    "identity": {"status": "answered", "confidence": "high", "summary": "SGX-listed since 2011, founded 1985, HQ 6 Mandai Link; operating entity Sheng Siong Supermarket Pte Ltd UEN 198304925E.", "sources": ["https://en.wikipedia.org/wiki/Sheng_Siong", "https://corporate.shengsiong.com.sg/about", "https://www.sgpbusiness.com/company/Sheng-Siong-Supermarket-Pte-Ltd"], "how_openserp_helped": "First successful search returned official site, Wikipedia and registry listing at ranks 1-6.", "what_was_missing": "Full registry details were not extracted (snippet only)."},
+    "business_and_headcount": {"status": "partial", "confidence": "medium", "summary": "92 stores in Singapore at 30 Sep 2026 (84 a year earlier); 12 new stores in FY2025. Headcount only available as 2,324 in 2010 (stale).", "sources": ["https://sgbusinessnews.com/2026/11/03/sheng-siong-q3-net-profit-rises-1-8-to-s44-6-million-on-new-stores", "https://corporate.shengsiong.com.sg/sheng-siong-groups-fy2025-net-profit-grows-8-5-to-s149-2-million", "https://en.wikipedia.org/wiki/Sheng_Siong"], "how_openserp_helped": "News and press release extracted cleanly with store counts.", "what_was_missing": "Current headcount; annual report PDF extraction failed (502)."},
+    "financial_performance": {"status": "answered", "confidence": "high", "summary": "FY2025 revenue S$1.57b (+9.9%), net profit S$149.2m (+8.5%); Q3 2026 net profit +1.8% to S$44.6m, growth moderating; strong cash.", "sources": ["https://corporate.shengsiong.com.sg/sheng-siong-groups-fy2025-net-profit-grows-8-5-to-s149-2-million", "https://sgbusinessnews.com/2026/11/03/sheng-siong-q3-net-profit-rises-1-8-to-s44-6-million-on-new-stores"], "how_openserp_helped": "Search surfaced the company's own press releases and news; extraction was clean and fast.", "what_was_missing": "Nothing material."},
+    "layoffs_restructuring": {"status": "not_found", "confidence": "low", "summary": "No layoffs found; the one targeted search returned generic MOM/NTUC retrenchment pages. Company is adding staff for new stores.", "sources": ["https://corporate.shengsiong.com.sg/sheng-siong-groups-fy2025-net-profit-grows-8-5-to-s149-2-million"], "how_openserp_helped": "Little; results were generic.", "what_was_missing": "Company-specific layoff news; a single search cannot prove absence."},
+    "culture_and_sentiment": {"status": "partial", "confidence": "low", "summary": "Glassdoor snippets: 49-55% recommend (page unreadable). Jobstreet 13 reviews rate 4.0-4.2/5 with praise for supervisors and complaints about physically demanding roles and some managers.", "sources": ["https://sg.jobstreet.com/companies/sheng-siong-168553100524931/reviews", "https://www.glassdoor.com/Reviews/Sheng-Siong-Reviews-E1186795.htm"], "how_openserp_helped": "Found review pages; Jobstreet extracted with AI summary and ratings.", "what_was_missing": "Glassdoor content (extract failed), recent reviews, manager-level perspective."},
+    "pay_and_benefits": {"status": "partial", "confidence": "low", "summary": "Glassdoor snippets give assistant manager roughly 42K-83K per year or 55K (4 reports), with one snippet clearly wrong (6,023); Indeed cashier S$1,609/month. No store manager band or benefits list.", "sources": ["https://www.glassdoor.sg/Salary/Sheng-Siong-Assistant-Manager-Salaries-E1186795_D_KO12,29.htm", "https://sg.indeed.com/cmp/Sheng-Siong-Supermarket/salaries"], "how_openserp_helped": "Located salary pages; Indeed extracted.", "what_was_missing": "Role-specific store manager pay, benefits, currency clarity, larger samples."},
+    "interview_and_hiring": {"status": "partial", "confidence": "low", "summary": "Official careers page with HR contact only; Glassdoor has about 19 interview reviews but unreadable.", "sources": ["https://corporate.shengsiong.com.sg/career", "https://www.glassdoor.sg/Interview/Sheng-Siong-Interview-Questions-E1186795.htm"], "how_openserp_helped": "Found the careers page and interview review page.", "what_was_missing": "Process steps and red flags; forum search returned irrelevant results."},
+    "red_flags_and_scams": {"status": "not_found", "confidence": "low", "summary": "No scams, MOM penalties or legal trouble found, but the search was swamped by generic results.", "sources": [], "how_openserp_helped": "Minimal; returned generic government pages.", "what_was_missing": "Targeted complaint, court or MOM enforcement data."},
+    "recent_news": {"status": "answered", "confidence": "high", "summary": "Q3 2026 results (29 Oct), H1 2026 results, RTS competition commentary, S$520m HQ groundbreaking (13 Jul 2026).", "sources": ["https://sgbusinessnews.com/2026/11/03/sheng-siong-q3-net-profit-rises-1-8-to-s44-6-million-on-new-stores", "https://www.straitstimes.com/business/sheng-siong-prepared-to-adjust-pricing-product-mix-to-stay-competitive-after-rts-opens-ceo", "https://mothership.sg/2026/07/sheng-siong-is-spending-s520-million-on-a-new-hq-and-warehouse"], "how_openserp_helped": "One search gave eight dated, relevant news items.", "what_was_missing": "Some snippets conflict on store opening counts."}
+  },
+  "tool": {
+    "searches": 12,
+    "extracts": 8,
+    "failed_or_blocked_calls": 7,
+    "blocked_or_unreadable_sites": ["glassdoor.sg (extract_failed 502)", "links.sgx.com annual report PDF (extract_failed 502)"],
+    "most_useful_sources": ["corporate.shengsiong.com.sg press release", "sgbusinessnews.com", "sg.jobstreet.com reviews", "sg.indeed.com salaries"],
+    "search_relevance_1to5": 4,
+    "extraction_quality_1to5": 4,
+    "coverage_of_needs_1to5": 3,
+    "reliability_1to5": 2,
+    "misleading_or_wrong_results": ["Glassdoor snippet 'SGD 6,023 per year' for Assistant Manager is implausible", "Layoff/complaint search returned generic MOM/NTUC pages", "Interview search returned Carousell/sgforums junk", "Snippets disagree on number of 2026 store openings"],
+    "minutes_spent": 13
+  },
+  "verdict": {
+    "would_rely_on_for_a_job_decision": "with_caveats",
+    "reasoning": "OpenSERP is strong for identity, financials and news, where company and news pages are indexed and extract cleanly. It is weak for sentiment, pay and interview detail, because the main review sites block extraction. Reliability was hurt by repeated 504 timeouts (5 searches failed or were circuit-open, including a DuckDuckGo 503), likely rate-limit contention; waits of 30-45 seconds were needed.",
+    "biggest_gaps": ["Readable Glassdoor review, salary and interview content", "Current headcount", "Company-specific layoff, complaint or MOM data", "Store manager pay band"],
+    "what_else_a_job_seeker_would_need": ["Current store manager salary and bonus from the actual offer or recruiters", "Shift patterns and hours for outlet managers", "Staff turnover figures", "Reviews or conversations from current outlet managers"]
+  }
+}

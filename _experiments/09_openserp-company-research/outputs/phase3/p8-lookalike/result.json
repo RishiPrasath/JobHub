@@ -1,0 +1,21 @@
+{
+ "persona": "p8-lookalike",
+ "who": "customer service officer",
+ "company": "DBS Bank Singapore Recruitment Pte Ltd",
+ "role": "Customer Service Officer",
+ "truth_note": "lookalike of a real bank: no such registered entity",
+ "stages": {},
+ "ok": true,
+ "validity": "appears_real_and_consistent",
+ "confidence": "high",
+ "claims_verified": 11,
+ "claims_unverified": 4,
+ "queries": 6,
+ "searches_ok": 6,
+ "unique_urls": 46,
+ "pages_tried": 8,
+ "pages_ok": 5,
+ "pages_failed": 3,
+ "llm_tokens_brief": 4901,
+ "seconds": 523.6
+}

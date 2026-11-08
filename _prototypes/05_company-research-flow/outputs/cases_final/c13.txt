@@ -1,0 +1,7 @@
+Underwriters Limited  (role: Underwriter)
+HEADLINE: not_active
+  A company with this name is registered, but its status is not live.
+  because: registry: registered_not_active
+REGISTRY: registered_not_active. UNDERWRITERS LIMITED exists in the registry but its status is 'Struck Off'.
+WEB: skipped, the registry settled it (registered_not_active); web research would not change the headline
+(0.0s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

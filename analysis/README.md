@@ -13,6 +13,12 @@ This folder converts completed research into evidence-backed product opportuniti
 - [Manual versus AI-assisted review](06_manual-vs-ai-review-comparison.md)
 - [Role-pursuit learning-test results](07_role-pursuit-learning-test-results.md)
 - [Role-pursuit evidence and claim audit](08_role-pursuit-evidence-audit.md)
+- [Experiment-to-scope decision](09_experiment-to-scope-decision.md)
+- [Low-fidelity role-review test instrument](10_low-fidelity-test-instrument.md)
+- [Experiment-to-feature roadmap](11-experiment-to-feature-roadmap.md)
+- [Low-fidelity single-posting review workflow](12_low-fidelity-review-workflow.md)
+- [First scope decision brief](13_first-scope-decision-brief.md)
+- [UX prototype design brief](14_ux-prototype-design-brief.md)
 
 ## Working rule
 

@@ -1,0 +1,234 @@
+"""ACRA entity resolution from data.gov.sg bulk CSVs, indexed in SQLite FTS5. No API key."""
+import csv, json, re, sqlite3, time, urllib.error, urllib.request
+from difflib import SequenceMatcher
+from pathlib import Path
+
+UA = "JobHubResearchBot/0.1 (research prototype)"
+META = "https://api-production.data.gov.sg/v2/public/api/collections/2/metadata"
+POLL = "https://api-open.data.gov.sg/v1/public/api/datasets/{}/poll-download"
+STOP = {"pte", "ltd", "limited", "private", "co", "operative", "the", "of", "and"}   # 'singapore' is kept: it can be the distinctive word
+SIBLING_GAP = 0.2   # another live entity within this score of the top one -> needs confirmation
+
+
+def toks(s):
+    return [t for t in re.sub(r"[^a-z0-9 ]", " ", (s or "").lower()).split() if t not in STOP]
+
+
+def _get(url, timeout=60):
+    return urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=timeout)
+
+
+def csv_complete(path):
+    """A downloaded ACRA file is usable when it has the header we index and ends on a full line."""
+    try:
+        with open(path, "rb") as fh:
+            head = fh.readline().lower()
+            fh.seek(-1, 2)
+            return b"uen" in head and b"entity_name" in head and fh.read(1) == b"\n"
+    except OSError:
+        return False
+
+
+def download(csv_dir, ids=None, on_progress=None):
+    """Download every ACRA entity CSV; honours the 429 'retry in 10 seconds' limit.
+    Files are written to .part and renamed when complete, so a crash never leaves a truncated file that looks
+    finished, and a rerun resumes with the files already fetched."""
+    csv_dir = Path(csv_dir)
+    csv_dir.mkdir(parents=True, exist_ok=True)
+    for stale in csv_dir.glob("*.part"):          # left by an interrupted run
+        stale.unlink(missing_ok=True)
+    ids = ids or json.load(_get(META))["data"]["collectionMetadata"]["childDatasets"]
+    for n, i in enumerate(ids, 1):
+        dest = csv_dir / f"{i}.csv"
+        if on_progress:
+            on_progress(n - 1, len(ids))
+        if dest.exists() and csv_complete(dest):
+            continue
+        dest.unlink(missing_ok=True)
+        last = "no attempt"
+        for _ in range(8):
+            try:
+                r = json.load(_get(POLL.format(i)))
+                if r.get("code") == 0 and r["data"].get("url"):
+                    part = dest.with_suffix(".part")
+                    part.write_bytes(_get(r["data"]["url"], 300).read())
+                    part.replace(dest)
+                    break
+                last = "rate limited: %s" % str(r)[:80]            # the API answers 'retry in 10 seconds'; wait and ask again
+                time.sleep(12)
+            except urllib.error.HTTPError as e:
+                last = "HTTP %s" % e.code
+                time.sleep(12)                                      # 429 and friends: wait and retry
+            except Exception as e:                                  # network down, disk full: no point hammering 26 more files
+                raise RuntimeError("download of %s failed: %s: %s" % (i, type(e).__name__, str(e)[:120]))
+        else:
+            raise RuntimeError("download of %s gave up after 8 tries (%s); finished files are kept for the next try" % (i, last))
+        time.sleep(6)
+    if on_progress:
+        on_progress(len(ids), len(ids))
+    return len([f for f in csv_dir.glob("*.csv") if csv_complete(f)])
+
+
+def build_index(csv_dir, db_path):
+    """(Re)build the SQLite index from the CSVs."""
+    db_path = Path(db_path)
+    if db_path.exists():
+        db_path.unlink()
+    con = sqlite3.connect(db_path)
+    con.execute("create table ent(id integer primary key, uen, name, f1, f2, f3, type, status, inc, ssic)")
+    con.execute("create virtual table fts using fts5(name, former, tokenize='unicode61')")
+    csv.field_size_limit(10 ** 7)
+    n = 0
+    for f in sorted(Path(csv_dir).glob("*.csv")):
+        with open(f, encoding="utf-8-sig", newline="") as fh:
+            rows, frows = [], []
+            reader = csv.DictReader(fh)
+            need = {"uen", "entity_name", "entity_type_description", "entity_status_description",
+                    "registration_incorporation_date", "primary_ssic_description"}
+            missing = need - set(reader.fieldnames or [])
+            if missing:
+                raise RuntimeError("%s lacks expected columns %s; ACRA may have changed the file format" % (f.name, sorted(missing)))
+            for r in reader:
+                n += 1
+                f1, f2, f3 = (r.get(f"former_entity_name{i}", "") for i in (1, 2, 3))
+                rows.append((n, r["uen"], r["entity_name"], f1, f2, f3, r["entity_type_description"],
+                             r["entity_status_description"], r["registration_incorporation_date"], r["primary_ssic_description"]))
+                frows.append((n, " ".join(toks(r["entity_name"])), " ".join(toks(" ".join((f1, f2, f3))))))
+            con.executemany("insert into ent values(?,?,?,?,?,?,?,?,?,?)", rows)
+            con.executemany("insert into fts(rowid,name,former) values(?,?,?)", frows)
+    con.execute("create index ix_uen on ent(uen)")
+    con.commit()
+    con.close()
+    return n
+
+
+def _variants(tokens):
+    """Original tokens plus versions with one adjacent pair joined ('grab taxi' -> 'grabtaxi')."""
+    out = [tokens]
+    for i in range(len(tokens) - 1):
+        out.append(tokens[:i] + [tokens[i] + tokens[i + 1]] + tokens[i + 2:])
+    return out
+
+
+def _search(con, tokens, limit=60):
+    if not tokens:
+        return {}
+    q = " OR ".join("(" + " AND ".join('"%s"' % t for t in v) + ")" for v in _variants(tokens))
+    rows = con.execute("select e.uen,e.name,e.f1,e.f2,e.f3,e.type,e.status,e.inc,e.ssic from fts join ent e on e.id=fts.rowid "
+                       "where fts match ? limit ?", (q, limit)).fetchall()
+    return {r[0]: r for r in rows}
+
+
+MAX_NAME_CHARS = 200     # callers should reject longer names; the matcher also caps tokens as a second guard
+MAX_TOKENS = 12
+QUERY_SECONDS = 8        # abort a lookup that runs longer than this
+
+
+class LookupTimeout(Exception):
+    pass
+
+
+def _score(q_tokens, row):
+    names = [row[1], row[2], row[3], row[4]]
+    qs = " ".join(q_tokens)
+    return max(SequenceMatcher(None, qs, " ".join(toks(n))).ratio() for n in names if n)
+
+
+def _is_live(row):
+    return row[6].lower().startswith("live")
+
+
+PUBLIC_BODY = re.compile(r"\b(board|authority|ministry|council|agency|commission|department)\b", re.I)
+
+
+def _same_name(q_tokens, row):
+    """True when the query and any registered name of the entity have exactly the same tokens."""
+    return any(n and sorted(toks(n)) == sorted(q_tokens) for n in (row[1], row[2], row[3], row[4]))
+
+
+def _record(score, row, partial=False):
+    return {"score": round(score, 3), "uen": row[0], "name": row[1], "type": row[5], "status": row[6],
+            "incorporated": row[7], "ssic": row[8], "partial_name_match": partial}
+
+
+def resolve(db_path, employer, uen=None, hint=None):
+    """Return {'state', 'chosen', 'candidates', 'why'}. States: exact_by_uen, exact, likely,
+    needs_confirmation, unresolved. Never silently picks between sibling entities."""
+    con = sqlite3.connect("file:%s?mode=ro" % Path(db_path).as_posix(), uri=True)   # read-only: a lookup can never modify the index
+    deadline = time.time() + QUERY_SECONDS
+    con.set_progress_handler(lambda: 1 if time.time() > deadline else 0, 20000)
+    try:
+        return _resolve(con, employer, uen, hint)
+    except sqlite3.OperationalError as e:
+        if "interrupted" in str(e):
+            raise LookupTimeout("lookup exceeded %d s" % QUERY_SECONDS)
+        raise
+    finally:
+        con.close()
+
+
+def _resolve(con, employer, uen, hint):
+    if uen:
+        r = con.execute("select uen,name,f1,f2,f3,type,status,inc,ssic from ent where uen=?", (uen,)).fetchone()
+        if r:
+            return {"state": "exact_by_uen", "chosen": _record(1.0, r), "candidates": [], "why": "UEN supplied by the posting"}
+        return {"state": "unresolved", "chosen": None, "candidates": [], "why": "UEN %s not in registry" % uen}
+    q = toks(hint or employer)[:MAX_TOKENS]
+    found = _search(con, q)
+    partial = False
+    if not found and len(q) > 1:           # brand prefix / extra token: retry with one token dropped
+        for i in range(len(q)):
+            found.update(_search(con, q[:i] + q[i + 1:]))
+        partial = bool(found)
+    scored = sorted(((_score(q, r), r) for r in found.values()), key=lambda x: -x[0])
+    cands = [_record(s, r, partial) for s, r in scored[:6]]
+    if not scored:
+        if PUBLIC_BODY.search(employer):
+            return {"state": "public_body", "chosen": None, "candidates": [],
+                    "why": "looks like a statutory board or government body; these are not in the company registry datasets"}
+        return {"state": "unresolved", "chosen": None, "candidates": [], "why": "no registry name contains the name tokens"}
+    live = [(s, r) for s, r in scored if _is_live(r)]
+    pool = live or scored                   # prefer live entities; dissolved ones are context only
+    top_s, top_r = pool[0]
+    rivals = [r for s, r in pool[1:] if top_s - s <= SIBLING_GAP and s >= 0.6]
+    base = {"candidates": cands}
+    if partial and PUBLIC_BODY.search(employer):
+        return {"state": "public_body", "chosen": None, "candidates": cands,
+                "why": "looks like a statutory board or government body; the closest registry names are unrelated companies"}
+    if partial:
+        return {**base, "state": "needs_confirmation", "chosen": _record(top_s, top_r, True),
+                "why": "matched only after dropping a name token (brand or extra word)"}
+    if rivals and not partial and top_s >= 0.99 and _same_name(q, top_r) and not any(_same_name(q, r) for r in rivals):
+        # the posted name is a registered name word for word; other entities only add words to it
+        return {**base, "state": "exact", "chosen": _record(top_s, top_r),
+                "why": "posted name matches this registered name exactly; %d sibling entity(ies) with extra words: %s"
+                       % (len(rivals), ", ".join(r[1] for r in rivals[:3])), "siblings": [r[1] for r in rivals]}
+    if rivals:
+        return {**base, "state": "needs_confirmation", "chosen": _record(top_s, top_r),
+                "why": "%d other live entity(ies) share the name stem: %s" % (len(rivals), ", ".join(r[1] for r in rivals[:3]))}
+    if top_s >= 0.95 and sorted(toks(top_r[1])) != sorted(q) and _same_name(q, top_r):
+        return {**base, "state": "needs_confirmation", "chosen": _record(top_s, top_r),
+                "why": "matches a former or alternate registered name; current name is " + top_r[1]}
+    if top_s >= 0.95:
+        return {**base, "state": "exact", "chosen": _record(top_s, top_r), "why": "single live entity with matching name"}
+    extra = [t for t in toks(top_r[1]) if t not in q]
+    if top_s >= 0.8 and extra:
+        return {**base, "state": "needs_confirmation", "chosen": _record(top_s, top_r),
+                "why": "closest registered name adds words not in the posted name: " + " ".join(extra)}
+    if top_s >= 0.8:
+        return {**base, "state": "likely", "chosen": _record(top_s, top_r), "why": "name differs from registered name"}
+    return {**base, "state": "needs_confirmation", "chosen": _record(top_s, top_r), "why": "weak name match"}
+
+
+def exact_name_rows(db_path, employer, hint=None):
+    """Every entity whose current name has exactly the same words as the query, in any status (the matcher
+    prefers live entities, so this is how an exact-name entity that is struck off or dissolved is found)."""
+    q = toks(hint or employer)[:MAX_TOKENS]
+    if not q:
+        return []
+    con = sqlite3.connect("file:%s?mode=ro" % Path(db_path).as_posix(), uri=True)
+    try:
+        found = _search(con, q, limit=300)
+    finally:
+        con.close()
+    return [r for r in found.values() if sorted(toks(r[1])) == sorted(q)]

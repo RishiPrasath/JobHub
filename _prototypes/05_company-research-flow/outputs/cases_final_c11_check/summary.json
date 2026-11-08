@@ -1,0 +1,21 @@
+[
+ {
+  "id": "c11",
+  "seen": false,
+  "employer": "Singapore Airlines Careers Hub Pte Ltd",
+  "expected": [
+   "likely_lookalike",
+   "could_not_confirm_company"
+  ],
+  "got": "could_not_confirm_company",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: not_in_registry",
+   "exact name seen 0 times"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 743 s)"
+  ],
+  "seconds": 4.7
+ }
+]

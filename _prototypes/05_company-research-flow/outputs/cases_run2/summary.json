@@ -1,0 +1,185 @@
+[
+ {
+  "id": "c01",
+  "seen": true,
+  "employer": "Raffles Medical Group",
+  "expected": [
+   "exists_and_consistent"
+  ],
+  "got": "exists_and_consistent",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: confirmed",
+   "model: consistent across 6 pages"
+  ],
+  "degraded": [],
+  "seconds": 71.2
+ },
+ {
+  "id": "c02",
+  "seen": true,
+  "employer": "Lazada Singapore",
+  "expected": [
+   "exists_and_consistent",
+   "exists_limited_evidence"
+  ],
+  "got": "exists_limited_evidence",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (5 pages read, model: appears_real_limited_evidence)"
+  ],
+  "degraded": [],
+  "seconds": 6.9
+ },
+ {
+  "id": "c03",
+  "seen": true,
+  "employer": "Avanguarde Pte. Ltd.",
+  "expected": [
+   "exists_limited_evidence"
+  ],
+  "got": "exists_and_consistent",
+  "verdict": "DANGEROUS",
+  "reasons": [
+   "registry: confirmed",
+   "model: consistent across 4 pages"
+  ],
+  "degraded": [],
+  "seconds": 128.0
+ },
+ {
+  "id": "c04",
+  "seen": true,
+  "employer": "Grab Holdings",
+  "expected": [
+   "brand_legal_entity_unconfirmed"
+  ],
+  "got": "brand_legal_entity_unconfirmed",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: similar_name_only",
+   "exact name seen 33 times in sources"
+  ],
+  "degraded": [],
+  "seconds": 127.5
+ },
+ {
+  "id": "c05",
+  "seen": true,
+  "employer": "Ninja Van Singapore",
+  "expected": [
+   "brand_legal_entity_unconfirmed"
+  ],
+  "got": "brand_legal_entity_unconfirmed",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: similar_name_only",
+   "exact name seen 11 times in sources"
+  ],
+  "degraded": [],
+  "seconds": 128.1
+ },
+ {
+  "id": "c06",
+  "seen": true,
+  "employer": "KPMG Singapore",
+  "expected": [
+   "brand_legal_entity_unconfirmed"
+  ],
+  "got": "brand_legal_entity_unconfirmed",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: similar_name_only",
+   "exact name seen 10 times in sources"
+  ],
+  "degraded": [],
+  "seconds": 128.2
+ },
+ {
+  "id": "c07",
+  "seen": true,
+  "employer": "Zzqxv Qwlmt Holdings Pte Ltd",
+  "expected": [
+   "could_not_confirm_company"
+  ],
+  "got": "could_not_confirm_company",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: not_in_registry",
+   "exact name seen 0 times"
+  ],
+  "degraded": [
+   "no_web_sources: nothing could be read or found, so no summary was written"
+  ],
+  "seconds": 33.8
+ },
+ {
+  "id": "c08",
+  "seen": true,
+  "employer": "DBS Bank Singapore Recruitment Pte Ltd",
+  "expected": [
+   "likely_lookalike"
+  ],
+  "got": "likely_lookalike",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: similar_name_only",
+   "closest registered name is a different entity",
+   "exact name appears in no source"
+  ],
+  "degraded": [],
+  "seconds": 93.1
+ },
+ {
+  "id": "c09",
+  "seen": false,
+  "employer": "Sheng Siong Group Ltd",
+  "expected": [
+   "exists_and_consistent",
+   "exists_limited_evidence"
+  ],
+  "got": "exists_and_consistent",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: confirmed",
+   "model: consistent across 8 pages"
+  ],
+  "degraded": [],
+  "seconds": 127.9
+ },
+ {
+  "id": "c10",
+  "seen": false,
+  "employer": "Grab Singapore Recruitment Pte Ltd",
+  "expected": [
+   "likely_lookalike",
+   "could_not_confirm_company"
+  ],
+  "got": "could_not_confirm_company",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: similar_name_only",
+   "exact name seen 1 times"
+  ],
+  "degraded": [],
+  "seconds": 127.4
+ },
+ {
+  "id": "c11",
+  "seen": false,
+  "employer": "Singapore Airlines Careers Hub Pte Ltd",
+  "expected": [
+   "likely_lookalike",
+   "could_not_confirm_company"
+  ],
+  "got": "could_not_confirm_company",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: not_in_registry",
+   "exact name seen 0 times"
+  ],
+  "degraded": [],
+  "seconds": 125.1
+ }
+]

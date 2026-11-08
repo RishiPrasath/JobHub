@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jobhub.local/schemas/company-research-response-0.1.json",
+  "title": "Company Research Service response",
+  "type": "object",
+  "required": ["service", "experiment_version", "retrieved_at", "request", "identity", "source_discovery", "interpretation", "limitations"],
+  "properties": {
+    "service": {"const": "company-research-service"},
+    "experiment_version": {"type": "string"},
+    "retrieved_at": {"type": "string"},
+    "request": {"type": "object", "required": ["company_name"], "properties": {"company_name": {"type": "string"}}},
+    "identity": {"type": "object"},
+    "source_discovery": {
+      "type": "object",
+      "required": ["query_plan", "queries", "evidence", "source_counts"],
+      "properties": {"query_plan": {"type": "array"}, "queries": {"type": "array"}, "evidence": {"type": "array"}, "source_counts": {"type": "object"}}
+    },
+    "interpretation": {
+      "type": "object",
+      "required": ["claims", "scores", "note"],
+      "properties": {"claims": {"const": []}, "scores": {"const": []}, "note": {"type": "string"}}
+    },
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  }
+}

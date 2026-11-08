@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JobHub V2 posting report",
+  "type": "object",
+  "required": ["source", "role", "fit", "missing", "checks", "next_action"],
+  "properties": {
+    "source": {
+      "type": "object",
+      "required": ["input_type", "captured_text"],
+      "properties": {
+        "input_type": { "enum": ["pasted_text", "url", "url_and_text"] },
+        "url": { "type": ["string", "null"] },
+        "title": { "type": ["string", "null"] },
+        "captured_text": { "type": "string" },
+        "capture_status": { "enum": ["captured", "partial", "blocked", "not_attempted"] }
+      }
+    },
+    "role": {
+      "type": "object",
+      "required": ["title", "employer", "duties", "requirements", "conditions", "compensation"],
+      "properties": {
+        "title": { "type": ["string", "null"] },
+        "employer": { "type": ["string", "null"] },
+        "duties": { "type": "array", "items": { "type": "string" } },
+        "requirements": { "type": "array", "items": { "type": "string" } },
+        "conditions": { "type": "array", "items": { "type": "string" } },
+        "compensation": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "fit": {
+      "type": "object",
+      "required": ["status", "matched_skills", "unconfirmed_skills"],
+      "properties": {
+        "status": { "enum": ["appears_relevant", "partially_relevant", "unclear", "not_enough_information"] },
+        "matched_skills": { "type": "array", "items": { "type": "string" } },
+        "unconfirmed_skills": { "type": "array", "items": { "type": "string" } },
+        "basis": { "type": "string" }
+      }
+    },
+    "missing": { "type": "array", "items": { "type": "string" } },
+    "checks": { "type": "array", "items": { "type": "string" } },
+    "next_action": { "type": "string" }
+  }
+}

@@ -1,0 +1,148 @@
+{
+ "agent_id": "A4",
+ "company_chosen": "Ninja Van (Ninja Logistics Pte. Ltd.)",
+ "why_chosen": "Assigned",
+ "industry": "Last-mile logistics / courier",
+ "needs": {
+  "identity": {
+   "status": "answered",
+   "confidence": "high",
+   "summary": "Brand Ninja Van = NINJA LOGISTICS PTE. LTD., UEN 201412014E, live, incorporated 25 Apr 2014, 438A Alexandra Road #07-01 Alexandra Technopark. Linked by RecordOwl (ACRA-sourced) saying it operates under brand Ninja Van, and by Indeed/Foundit/MyCareersFuture listings of Ninja Logistics Pte Ltd Warehouse Supervisor roles.",
+   "sources": [
+    "https://recordowl.com/company/ninja-logistics-pte-ltd",
+    "https://www.sgpbusiness.com/company/Ninja-Logistics-Pte-Ltd",
+    "https://www.mycareersfuture.gov.sg/job/logistics/warehouse-supervisor-ninja-logistics-18ecf793ad02f53a4e03234e8671fe1f"
+   ],
+   "how_openserp_helped": "Search for the legal name returned registry aggregators directly",
+   "what_was_missing": "Did not read ACRA itself; other Singapore group entities not checked"
+  },
+  "business_and_headcount": {
+   "status": "partial",
+   "confidence": "medium",
+   "summary": "Tech-enabled last-mile/B2B restocking/cold chain; six markets (SG, MY, ID, VN, PH, TH); founders Lai Chang Wen, Shaun Chong, Boxian Tan. No SG headcount found (CNA said it asked company).",
+   "sources": [
+    "https://www.ninjavan.co/en-sg/company/about-us",
+    "https://www.channelnewsasia.com/singapore/ninja-van-layoffs-retrenchments-singapore-logistics-employees-august-2025-5290286"
+   ],
+   "how_openserp_helped": "Official About page extracted cleanly",
+   "what_was_missing": "No headcount figure"
+  },
+  "financial_performance": {
+   "status": "answered",
+   "confidence": "medium",
+   "summary": "FY2025 revenue down 3% to US$702m (second straight decline), losses narrowed 31%; reported plan to raise ~US$80m at roughly halved valuation; peak unicorn. Figures from Tech in Asia headline/summary via secondary BEAMSTART; Tech in Asia page itself unreadable.",
+   "sources": [
+    "https://www.techinasia.com/ninja-vans-revenue-shrinks-losses-narrow-31-fy2025",
+    "https://beamstart.com/news/ninja-vans-logistics-reality-check-17787195882120",
+    "https://asianmorning.com/2025/08/11/singapores-ninja-van-faces-valuation-slump-latest-funding-round-halves-its-market-worth-amid-market-turbulence"
+   ],
+   "how_openserp_helped": "Search snippets gave headline numbers",
+   "what_was_missing": "Primary financials; still loss-making; Tech in Asia paywall/JS"
+  },
+  "layoffs_restructuring": {
+   "status": "answered",
+   "confidence": "high",
+   "summary": "Aug 2025: ~12% of Singapore staff cut, severance per tripartite advisory, even for <2 years service; earlier rounds Apr 2024 (regional tech) and Jul 2024 (Singapore staff). Headquarters streamlining to focus on B2B restocking and cold chain.",
+   "sources": [
+    "https://www.channelnewsasia.com/singapore/ninja-van-layoffs-retrenchments-singapore-logistics-employees-august-2025-5290286",
+    "https://mothership.sg/2025/08/ninja-van-layoffs-aug-2025"
+   ],
+   "how_openserp_helped": "Many independent outlets returned; CNA extracted fully",
+   "what_was_missing": "Absolute numbers; whether warehouse ops affected (cuts described as HQ)"
+  },
+  "culture_and_sentiment": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "Glassdoor SG 3.3/5 from 195 reviews (worldwide 3.2); snippets mention friendly colleagues but some toxic leadership, stressful peak periods. Jobstreet summary: independence, supportive team; pay could be better, physically demanding in heat. Review text itself not read.",
+   "sources": [
+    "https://www.glassdoor.sg/Reviews/Ninja-Van-Singapore-Reviews-EI_IE984783.0,9_IL.10,19_IM1123.htm",
+    "https://www.glassdoor.com/Reviews/Ninja-Van-Reviews-E984783.htm",
+    "https://sg.jobstreet.com/companies/ninja-van-168558704093230/reviews"
+   ],
+   "how_openserp_helped": "Snippets carried ratings and AI summaries",
+   "what_was_missing": "Glassdoor extract failed; Indeed gave sign-in page; no warehouse-supervisor specific sentiment"
+  },
+  "pay_and_benefits": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "No Ninja Van supervisor pay figure read. Generic SG warehouse supervisor average about S$67-68k/yr (SalaryExpert snippets). Company-specific Indeed/Jobstreet/Glassdoor salary pages exist but not readable. Benefits: only layoff-package details (medical, mental health support, stock options).",
+   "sources": [
+    "https://www.salaryexpert.com/salary/job/warehouse-supervisor/singapore",
+    "https://sg.indeed.com/cmp/Ninja-Logistics-Pte.-Ltd./salaries/Warehouse-Supervisor"
+   ],
+   "how_openserp_helped": "Located the right pages",
+   "what_was_missing": "Actual numbers behind walls"
+  },
+  "interview_and_hiring": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "Glassdoor lists 175 interview reviews; snippet says warehouse process = screening call then face-to-face/virtual interview, questions on inventory, safety, teamwork. Open Night Shift Warehouse Supervisor listing on Indeed/Foundit/MyCareersFuture.",
+   "sources": [
+    "https://www.glassdoor.com/Interview/Ninja-Van-Warehouse-Operative-Interview-Questions-EI_IE984783.0,9_KO10,29.htm",
+    "https://www.foundit.sg/job/warehouse-supervisor-logistics-supervisor-night-shift-ninja-logistics-pte-ltd-singapore-46727762"
+   ],
+   "how_openserp_helped": "Snippets only",
+   "what_was_missing": "Details; red flags"
+  },
+  "red_flags_and_scams": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "No Ninja Van-specific scam or MOM action found in one search. Zaobao Aug 2026 reports scammers impersonating courier companies by SMS (not stated to be Ninja Van specifically; inferred relevant only as a general caution).",
+   "sources": [
+    "https://www.zaobao.com.sg/news/singapore/story20260805-9474634"
+   ],
+   "how_openserp_helped": "General scam context",
+   "what_was_missing": "Targeted legal/regulatory search came back generic"
+  },
+  "recent_news": {
+   "status": "answered",
+   "confidence": "medium",
+   "summary": "May 2026: apologised for Singapore delivery delays citing parcel surge; May 2026 FY2025 results; Vietnam express exit mentioned.",
+   "sources": [
+    "https://mothership.sg/2026/05/ninjavan-apologise-delivery-delays",
+    "https://www.techinasia.com/ninja-vans-logistics-reality-check"
+   ],
+   "how_openserp_helped": "Search returned dated news",
+   "what_was_missing": "Nothing after May 2026 confirmed"
+  }
+ },
+ "tool": {
+  "searches": 10,
+  "extracts": 8,
+  "failed_or_blocked_calls": 1,
+  "blocked_or_unreadable_sites": [
+   "techinasia.com (200 but JS-disabled notice only)",
+   "indeed.com (200, sign-in page only)",
+   "glassdoor.sg (extract_failed 502)"
+  ],
+  "most_useful_sources": [
+   "recordowl.com",
+   "channelnewsasia.com",
+   "ninjavan.co about page",
+   "search snippets of glassdoor/jobstreet"
+  ],
+  "search_relevance_1to5": 4,
+  "extraction_quality_1to5": 3,
+  "coverage_of_needs_1to5": 3,
+  "reliability_1to5": 4,
+  "misleading_or_wrong_results": [
+   "ex-workscargo.com claims 5% cut vs 12% reported by CNA",
+   "tracxn lists company as App-based B2C platform (stale)"
+  ],
+  "minutes_spent": 8
+ },
+ "verdict": {
+  "would_rely_on_for_a_job_decision": "with_caveats",
+  "reasoning": "Identity, layoffs and finance are well covered with strong sources; pay and sentiment for the specific role rely on snippets because review/salary sites are walled.",
+  "biggest_gaps": [
+   "role-specific pay",
+   "review content",
+   "benefits"
+  ],
+  "what_else_a_job_seeker_would_need": [
+   "Actual posted salary range",
+   "Shift pattern and overtime for night supervisor",
+   "Whether warehouse headcount affected by cuts"
+  ]
+ }
+}

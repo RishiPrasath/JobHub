@@ -1,0 +1,138 @@
+{
+ "agent_id": "A8",
+ "company_chosen": "Recruit Express Pte Ltd (Singapore)",
+ "why_chosen": "Assigned; job seeker contacted by a consultant and wants legitimacy and complaints check",
+ "industry": "Staffing / employment agency",
+ "needs": {
+  "identity": {
+   "status": "answered",
+   "confidence": "high",
+   "summary": "UEN 199601303W, incorporated 22 Feb 1996, live, Ngee Ann City #12-08; EA licence 99C4599 (comprehensive non-FDW); official site warns it never asks for Singpass",
+   "sources": [
+    "https://www.sgpbusiness.com/company/Recruit-Express-Pte-Ltd",
+    "https://recruitexpress.com.sg/"
+   ],
+   "how_openserp_helped": "Found registry-style aggregator and company site in first search",
+   "what_was_missing": "No direct ACRA/MOM EA register page returned; licence number is from aggregator"
+  },
+  "business_and_headcount": {
+   "status": "partial",
+   "confidence": "medium",
+   "summary": "Self-described: offices across Asia Pacific, ~400 consultants (company marketing text, undated); site links to HrnetGroup; healthcare locum and admin postings seen; 17 govt tenders listed",
+   "sources": [
+    "https://www.sgpbusiness.com/company/Recruit-Express-Pte-Ltd",
+    "https://recruitexpress.com.sg/"
+   ],
+   "how_openserp_helped": "Extraction gave company description",
+   "what_was_missing": "No independent headcount, undated claim"
+  },
+  "financial_performance": {
+   "status": "not_found",
+   "confidence": "low",
+   "summary": "No financials found",
+   "sources": [],
+   "how_openserp_helped": "None",
+   "what_was_missing": "No revenue or profit data"
+  },
+  "layoffs_restructuring": {
+   "status": "not_found",
+   "confidence": "low",
+   "summary": "Nothing found; absence is not evidence of none",
+   "sources": [],
+   "how_openserp_helped": "One news-style search returned nothing relevant",
+   "what_was_missing": "Needs news archive access"
+  },
+  "culture_and_sentiment": {
+   "status": "partial",
+   "confidence": "medium",
+   "summary": "Glassdoor rating about 3.2/5 from 393 reviews (search snippet; page extract failed). Jobstreet summary: friendly colleagues, approachable management, but commission pay fluctuates, limited perks, demanding hours. 2014 forum: boiler-room sales, high targets, mixed",
+   "sources": [
+    "https://www.glassdoor.sg/Reviews/Recruit-Express-Reviews-E321279.htm",
+    "https://sg.jobstreet.com/companies/recruit-express-168518824579270/reviews",
+    "https://forums.salary.sg/income-jobs/4858-anyone-working-recruit-express.html"
+   ],
+   "how_openserp_helped": "Snippets and jobstreet and forum extracts",
+   "what_was_missing": "Glassdoor and Indeed text unreadable; forum is 2014"
+  },
+  "pay_and_benefits": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "Recruitment consultant avg 3000-3600 SGD market figure (Jobstreet snippet, not company-specific); base plus commission per forum; Glassdoor salary pages found but not read",
+   "sources": [
+    "https://sg.jobstreet.com/career-advice/role/recruitment-consultant/salary",
+    "https://forums.salary.sg/income-jobs/4858-anyone-working-recruit-express.html"
+   ],
+   "how_openserp_helped": "Found salary pages",
+   "what_was_missing": "No company-specific numbers"
+  },
+  "interview_and_hiring": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "Reddit commenter says legit and got first full job but recalled paying a one-time recommendation fee (snippet only; page behind bot challenge). Unverified",
+   "sources": [
+    "https://www.reddit.com/r/SGExams/comments/10cln4g/who_the_heck_are_recruit_express_and_are_they"
+   ],
+   "how_openserp_helped": "Snippet only",
+   "what_was_missing": "No interview process details; fee claim unverified"
+  },
+  "red_flags_and_scams": {
+   "status": "partial",
+   "confidence": "medium",
+   "summary": "Licensed EA; no regulatory action found in searches. Reddit thread asks if they are legit; old complaintsboard entry (2012, page unreadable). Company warns about Singpass scam. Verify consultant via 6732 6006",
+   "sources": [
+    "https://www.complaintsboard.com/singapore-recruit-express-bad-experience-being-look-down-at-c588714",
+    "https://recruitexpress.com.sg/",
+    "https://www.reddit.com/r/SGExams/comments/10cln4g/who_the_heck_are_recruit_express_and_are_they"
+   ],
+   "how_openserp_helped": "Surfaced complaint and warning pages",
+   "what_was_missing": "Complaint pages not readable; MOM EA alerts not checked for this firm"
+  },
+  "recent_news": {
+   "status": "not_found",
+   "confidence": "low",
+   "summary": "No recent news found",
+   "sources": [],
+   "how_openserp_helped": "None",
+   "what_was_missing": ""
+  }
+ },
+ "tool": {
+  "searches": 8,
+  "extracts": 7,
+  "failed_or_blocked_calls": 3,
+  "blocked_or_unreadable_sites": [
+   "reddit.com (200 but bot challenge)",
+   "glassdoor.sg (502 extract_failed)",
+   "complaintsboard.com (502 extract_failed)"
+  ],
+  "most_useful_sources": [
+   "https://www.sgpbusiness.com/company/Recruit-Express-Pte-Ltd",
+   "https://sg.jobstreet.com/companies/recruit-express-168518824579270/reviews",
+   "https://forums.salary.sg/income-jobs/4858-anyone-working-recruit-express.html",
+   "search snippets"
+  ],
+  "search_relevance_1to5": 4,
+  "extraction_quality_1to5": 3,
+  "coverage_of_needs_1to5": 3,
+  "reliability_1to5": 3,
+  "misleading_or_wrong_results": [
+   "sgpbusiness text shows nonsense 'operating for 824922000'; news query returned nothing relevant"
+  ],
+  "minutes_spent": 6
+ },
+ "verdict": {
+  "would_rely_on_for_a_job_decision": "with_caveats",
+  "reasoning": "Good for identity, licence and rough sentiment; review sites mostly blocked so culture, pay, hiring evidence is thin",
+  "biggest_gaps": [
+   "Glassdoor/Indeed content",
+   "financials",
+   "news/layoffs",
+   "regulatory records"
+  ],
+  "what_else_a_job_seeker_would_need": [
+   "MOM EA licence register check",
+   "ask consultant for written terms and fee policy",
+   "current employee reviews"
+  ]
+ }
+}

@@ -1,0 +1,134 @@
+{
+  "posting_id": "R4-JB-011",
+  "claims": [
+    {
+      "claim_id": "C1",
+      "text": "The position is titled Part-Time Admin Assistant.",
+      "state": "present",
+      "source_locator": "header",
+      "source_owner": "employer",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C2",
+      "text": "Compensation is $12–15 per hour.",
+      "state": "present",
+      "source_locator": "pay",
+      "source_owner": "employer",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C3",
+      "text": "Work schedule: 2–3 weekdays per week; hours are negotiable.",
+      "state": "present",
+      "source_locator": "schedule",
+      "source_owner": "employer",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C4",
+      "text": "Work arrangement is office/on-site.",
+      "state": "present",
+      "source_locator": "work_arrangement",
+      "source_owner": "employer",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C5",
+      "text": "Application process: send resume; details explained at interview; shortlisted only.",
+      "state": "present",
+      "source_locator": "application_note",
+      "source_owner": "employer",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C6",
+      "text": "Platform safety warning is visible.",
+      "state": "platform_signal",
+      "source_locator": "platform_signals[0]",
+      "source_owner": "platform",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C7",
+      "text": "The posting identifier appears as URL job ID 95357572, while the page title and body state \"Part-Time Admin Assistant\".",
+      "state": "conflicting",
+      "source_locator": "contradictions[0]",
+      "source_owner": "platform",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C8",
+      "text": "Employer: YAN BUSINESS GROUP.",
+      "state": "present",
+      "source_locator": "company",
+      "source_owner": "employer",
+      "review_status": "draft",
+      "verification_question": null
+    },
+    {
+      "claim_id": "C9",
+      "text": "A related salary teaser mentions \"Administration Officer\".",
+      "state": "present",
+      "source_locator": "related_salary_teaser",
+      "source_owner": "employer",
+      "review_status": "draft",
+      "verification_question": null
+    }
+  ],
+  "review_coverage": {
+    "role_identity": {
+      "status": "covered",
+      "claim_ids": ["C1"]
+    },
+    "duties": {
+      "status": "not_visible",
+      "claim_ids": []
+    },
+    "qualifications": {
+      "status": "not_visible",
+      "claim_ids": []
+    },
+    "work_conditions": {
+      "status": "covered",
+      "claim_ids": ["C3", "C4"]
+    },
+    "compensation": {
+      "status": "covered",
+      "claim_ids": ["C2"]
+    },
+    "compensation_rules": {
+      "status": "not_visible",
+      "claim_ids": []
+    },
+    "application_process": {
+      "status": "covered",
+      "claim_ids": ["C5"]
+    },
+    "employer_context": {
+      "status": "covered",
+      "claim_ids": ["C8"]
+    },
+    "contradictions": {
+      "status": "covered",
+      "claim_ids": ["C7"]
+    },
+    "unknowns": {
+      "status": "covered",
+      "claim_ids": ["C9"]
+    },
+    "verification_questions": {
+      "status": "covered",
+      "claim_ids": []
+    }
+  },
+  "decision_changing_questions": [],
+  "external_action_allowed": false
+}

@@ -1,0 +1,47 @@
+Lazada Singapore  (role: Digital Marketing Executive)
+HEADLINE: exists_and_consistent
+  Registered in Singapore, and public sources agree it is the company named.
+  because: registry: confirmed; model: consistent across 4 pages
+REGISTRY: confirmed. LAZADA SINGAPORE PTE. LTD. is registered in Singapore (status: Live Company, registered 2014-02-12).
+  flag: other entities start with this name: LAZADA EXPRESS (SINGAPORE) PTE. LTD.
+WEB: 5 queries (bing, duckduckgo), 4 of 8 pages read, exact name seen in 0 pages and 17 search results
+BRIEF (model rating: appears_real_and_consistent, confidence medium; 8 claims verified, 0 unverified)
+  Facts:
+    [verified] Legal name and registration details of Lazada Singapore
+    [verified] Lazada Singapore is the regional headquarters for Alibaba's e‑commerce ventures in
+    Southeast Asia
+    [verified] Lazada Singapore underwent a 5% workforce reduction across Southeast Asia in June
+    2024
+    [verified] The company works with the Food, Drinks and Allied Workers Union (FDAWU) to support
+    affected employees
+    [verified] Lazada Singapore previously retrenched staff in January 2024 without prior union
+    consultation
+  Positive signals:
+    [verified] Lazada Singapore receives relatively high job‑security ratings on employee review
+    sites
+  Red flags:
+    [verified] Recent layoffs indicate potential instability for certain roles
+    [verified] Union expressed disappointment over prior retrenchment process
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 5):
+  - Lazada Singapore Reviews - Glassdoor  https://www.glassdoor.com.au/Reviews/Lazada-Singapore-
+    Reviews-EI_IE578726.0,6_IL
+  - Lazada Singapore reviews - Glassdoor  https://www.glassdoor.com/Reviews/Lazada-Singapore-
+    Reviews-EI_IE578726.0,6_IL.7,
+  - Lazada Singapore reviews - Glassdoor  https://www.glassdoor.co.uk/Reviews/Lazada-Singapore-
+    Reviews-EI_IE578726.0,6_IL.
+  - Lazada Singapore reviews - Glassdoor  https://www.glassdoor.co.uk/Reviews/Lazada-Singapore-
+    Reviews-EI_IE578726.0,6_IL.
+  - Lazada Singapore Reviews - Glassdoor  https://www.glassdoor.com/Reviews/Lazada-Singapore-
+    Reviews-EI_IE578726.0,6_IL.7,
+COULD NOT READ (4):
+  - https://www.trustpilot.com/review/lazada.sg  (blocked_by_robots: the site's robots.txt does not
+    allow this page)
+  - https://www.ambitionbox.com/reviews/lazada-reviews/singapore-location  (blocked: challenge or
+    login-wall text)
+  - https://au.trustpilot.com/review/lazada.sg  (blocked_by_robots: the site's robots.txt does not
+    allow this page)
+  - https://layoffsg.com/  (irrelevant: the page never mentions the company name)
+COULD NOT VERIFY:
+  - Specific responsibilities and salary for the Digital Marketing Executive role
+  - Exact number of employees in the Singapore office
+(72.6s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

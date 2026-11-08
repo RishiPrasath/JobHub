@@ -1,0 +1,120 @@
+{
+ "agent_id": "A9",
+ "company_chosen": "Quillfeather Dynamics Pte Ltd",
+ "why_chosen": "Assigned",
+ "industry": "Unknown",
+ "needs": {
+  "identity": {
+   "status": "not_found",
+   "confidence": "medium",
+   "summary": "No registry record, website or any web presence for 'Quillfeather Dynamics' found via OpenSERP. ACRA lookup sites could not be queried by name (results page empty). Only differently named entities surfaced.",
+   "sources": [
+    "https://pitchbook.com/profiles/company/1456124-05"
+   ],
+   "how_openserp_helped": "Found registry lookup sites but not a way to query them",
+   "what_was_missing": "Bizfile/ACRA record by name; searching by name through OpenSERP search cannot substitute for the registry"
+  },
+  "business_and_headcount": {
+   "status": "not_found",
+   "confidence": "low",
+   "summary": "Nothing found",
+   "sources": [],
+   "how_openserp_helped": "Searches returned nothing about this company",
+   "what_was_missing": "Everything"
+  },
+  "financial_performance": {
+   "status": "not_found",
+   "confidence": "low",
+   "summary": "Nothing found",
+   "sources": [],
+   "how_openserp_helped": "Searches returned nothing about this company",
+   "what_was_missing": "Everything"
+  },
+  "layoffs_restructuring": {
+   "status": "not_found",
+   "confidence": "low",
+   "summary": "Nothing found",
+   "sources": [],
+   "how_openserp_helped": "Searches returned nothing about this company",
+   "what_was_missing": "Everything"
+  },
+  "culture_and_sentiment": {
+   "status": "not_found",
+   "confidence": "low",
+   "summary": "Nothing found",
+   "sources": [],
+   "how_openserp_helped": "Searches returned nothing about this company",
+   "what_was_missing": "Reviews"
+  },
+  "pay_and_benefits": {
+   "status": "not_found",
+   "confidence": "low",
+   "summary": "Nothing found",
+   "sources": [],
+   "how_openserp_helped": "Searches returned nothing about this company",
+   "what_was_missing": "Pay data"
+  },
+  "interview_and_hiring": {
+   "status": "partial",
+   "confidence": "medium",
+   "summary": "No info on this firm's hiring, but the described pattern (social media posting, messaging-app recruiter, upfront fee) matches SPF-published job scam patterns; asking a fee is a classic advance-fee red flag.",
+   "sources": [
+    "https://www.police.gov.sg/Media-Hub/News/2025/08/20250829_police_advisory_on_job_scams_involving_messaging_platforms"
+   ],
+   "how_openserp_helped": "Surfaced SPF/ScamShield advisories",
+   "what_was_missing": "Company-specific reports"
+  },
+  "red_flags_and_scams": {
+   "status": "partial",
+   "confidence": "medium",
+   "summary": "No scam report naming the company found, but absence is weak evidence; the offer's characteristics are themselves red flags.",
+   "sources": [
+    "https://www.police.gov.sg/Media-Hub/News/2025/08/20250829_police_advisory_on_job_scams_involving_messaging_platforms",
+    "https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/job-scams"
+   ],
+   "how_openserp_helped": "Good for general scam advisories",
+   "what_was_missing": "Scam-report databases for the specific name"
+  },
+  "recent_news": {
+   "status": "not_found",
+   "confidence": "low",
+   "summary": "Nothing found",
+   "sources": [],
+   "how_openserp_helped": "Searches returned nothing about this company",
+   "what_was_missing": "News"
+  }
+ },
+ "tool": {
+  "searches": 8,
+  "extracts": 3,
+  "failed_or_blocked_calls": 2,
+  "blocked_or_unreadable_sites": [
+   "acrawatch.sg search results page (HTTP 200, no results rendered, likely JS-driven)"
+  ],
+  "most_useful_sources": [
+   "police.gov.sg advisory",
+   "bing exact-phrase search"
+  ],
+  "search_relevance_1to5": 3,
+  "extraction_quality_1to5": 4,
+  "coverage_of_needs_1to5": 1,
+  "reliability_1to5": 3,
+  "misleading_or_wrong_results": [
+   "Feather Dynamics (defense UAV), Quillfeather Analytics (Tasmania), Singfeather Global Pte Ltd, Quill Pte Ltd, Mech Quillfeather - all different entities"
+  ],
+  "minutes_spent": 6
+ },
+ "verdict": {
+  "would_rely_on_for_a_job_decision": "with_caveats",
+  "reasoning": "Enough to say no trace exists and match scam pattern, but cannot confirm ACRA status directly.",
+  "biggest_gaps": [
+   "No ACRA/Bizfile query by name",
+   "duckduckgo timeouts"
+  ],
+  "what_else_a_job_seeker_would_need": [
+   "Direct Bizfile search",
+   "ScamShield/police check",
+   "Verify recruiter via company's official channels"
+  ]
+ }
+}

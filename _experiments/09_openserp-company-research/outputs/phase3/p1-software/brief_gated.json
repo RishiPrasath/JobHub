@@ -1,0 +1,308 @@
+{
+ "validity_status": "appears_real_and_consistent",
+ "validity_reasoning": "Multiple independent sources (Indeed, JobStreet, The Straits Times, Payscale) describe Grab Holdings in Singapore, its employee ratings, compensation, and recent workforce reductions, confirming the company's existence and operations.",
+ "confidence": "medium",
+ "confidence_reasoning": "Evidence is present but limited to employee reviews and news articles; no direct technical or engineering-specific data is available.",
+ "could_not_verify": [
+  "Specific details about the Backend Engineer role (team, tech stack, salary range).",
+  "Exact number of engineers employed at Grab Singapore."
+ ],
+ "key_facts": [
+  {
+   "claim": "Grab Holdings Singapore has an overall employee rating of 3.9 out of 5 on Indeed.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Overall rating 3.9 Based on 790 reviews",
+     "url": "https://sg.indeed.com/cmp/Grab/reviews?fcountry=SG&floc=Singapore",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Work‑life balance rating is 3.7, pay & benefits 3.5, job security 3.2 on Indeed.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "3.7 out of 5 stars for Work-life balance",
+     "url": "https://sg.indeed.com/cmp/Grab/reviews?fcountry=SG&floc=Singapore",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 1,
+     "quote": "3.5 out of 5 stars for Pay and benefits",
+     "url": "https://sg.indeed.com/cmp/Grab/reviews?fcountry=SG&floc=Singapore",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 1,
+     "quote": "3.2 out of 5 stars for Job security and advancement",
+     "url": "https://sg.indeed.com/cmp/Grab/reviews?fcountry=SG&floc=Singapore",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Employees frequently mention energizing work tasks, ability to learn new things, and general work happiness.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "What people likeEnergizing work tasks",
+     "url": "https://sg.indeed.com/cmp/Grab/reviews?fcountry=SG&floc=Singapore",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 1,
+     "quote": "What people likeAbility to learn new things",
+     "url": "https://sg.indeed.com/cmp/Grab/reviews?fcountry=SG&floc=Singapore",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 1,
+     "quote": "What people likeGeneral feeling of work happiness",
+     "url": "https://sg.indeed.com/cmp/Grab/reviews?fcountry=SG&floc=Singapore",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Some employees report concerns about job security and frequent layoffs.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "They layoff people every 6 months, scary.",
+     "url": "https://sg.indeed.com/cmp/Grab/reviews?fcountry=SG&floc=Singapore",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 8,
+     "quote": "Grab cuts 1,000 jobs, or 11% of its workforce",
+     "url": "https://www.straitstimes.com/business/singapores-grab-cuts-1000-jobs-or-11-of-workforce",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Grab announced the 1,000‑job cut as a strategic reorganisation to manage costs.",
+   "evidence": [
+    {
+     "source": 8,
+     "quote": "cutting 1,000 jobs ... citing the need to manage costs and ensure more affordable services",
+     "url": "https://www.straitstimes.com/business/singapores-grab-cuts-1000-jobs-or-11-of-workforce",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "unverified"
+  },
+  {
+   "claim": "Average base salary reported on Payscale is about S$82,000 per year.",
+   "evidence": [
+    {
+     "source": 6,
+     "quote": "S$82k / year",
+     "url": "https://www.payscale.com/research/SG/Employer=Grab/Reviews",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "unverified"
+  },
+  {
+   "claim": "Grab drivers value flexibility to choose their own working hours.",
+   "evidence": [
+    {
+     "source": 5,
+     "quote": "flexibility of being able to choose their own working hours",
+     "url": "https://sg.jobstreet.com/companies/grab-168542463310774/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 7,
+     "quote": "flexibility of being able to choose their own working hours",
+     "url": "https://sg.jobstreet.com/companies/grab-168542463310774",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Drivers report long working hours, sometimes up to 7 days a week.",
+   "evidence": [
+    {
+     "source": 5,
+     "quote": "long working hours, sometimes up to 7 days a week",
+     "url": "https://sg.jobstreet.com/companies/grab-168542463310774/reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 7,
+     "quote": "long working hours, sometimes up to 7 days a week",
+     "url": "https://sg.jobstreet.com/companies/grab-168542463310774",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  }
+ ],
+ "positive_signals": [
+  {
+   "claim": "Employees appreciate opportunities to learn and work on energizing tasks.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "What people likeAbility to learn new things",
+     "url": "https://sg.indeed.com/cmp/Grab/reviews?fcountry=SG&floc=Singapore",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 1,
+     "quote": "What people likeEnergizing work tasks",
+     "url": "https://sg.indeed.com/cmp/Grab/reviews?fcountry=SG&floc=Singapore",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "The company offers a “super app” platform across eight Southeast Asian countries, indicating large‑scale product impact.",
+   "evidence": [
+    {
+     "source": 8,
+     "quote": "offers deliveries, rides and financial services in eight South-east Asian countries",
+     "url": "https://www.straitstimes.com/business/singapores-grab-cuts-1000-jobs-or-11-of-workforce",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  }
+ ],
+ "red_flags": [
+  {
+   "claim": "Frequent layoffs and perceived lack of job security.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "They layoff people every 6 months, scary.",
+     "url": "https://sg.indeed.com/cmp/Grab/reviews?fcountry=SG&floc=Singapore",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 8,
+     "quote": "cutting 1,000 jobs, or 11% of its workforce",
+     "url": "https://www.straitstimes.com/business/singapores-grab-cuts-1000-jobs-or-11-of-workforce",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Employee reviews mention stressful workload and long hours.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Stressful and demanding environment!",
+     "url": "https://sg.indeed.com/cmp/Grab/reviews?fcountry=SG&floc=Singapore",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 1,
+     "quote": "Due to the workload, even though the working hours are 10 am to 7 pm, I had to start at 8 am and work until 9 pm",
+     "url": "https://sg.indeed.com/cmp/Grab/reviews?fcountry=SG&floc=Singapore",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Some reviewers cite favoritism, politics, and limited career stability.",
+   "evidence": [
+    {
+     "source": 6,
+     "quote": "no job stability in Grab",
+     "url": "https://www.payscale.com/research/SG/Employer=Grab/Reviews",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 6,
+     "quote": "Politics, nepotism, sexism for roles in higher management",
+     "url": "https://www.payscale.com/research/SG/Employer=Grab/Reviews",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  }
+ ],
+ "relevance_for_persona": "For a software engineer targeting a Backend Engineer role, Grab offers exposure to large‑scale, multi‑service platforms and opportunities to learn new technologies, but candidates should weigh the reported job‑security concerns and high workload against the potential for impact and flexible work environments.",
+ "sources_used": [
+  {
+   "id": 1,
+   "url": "https://sg.indeed.com/cmp/Grab/reviews?fcountry=SG&floc=Singapore",
+   "kind": "page"
+  },
+  {
+   "id": 2,
+   "url": "https://www.glassdoor.sg/Reviews/Grab-Singapore-Reviews-EI_IE958580.0,4_IL.5,14_IM1123.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 3,
+   "url": "https://www.glassdoor.com/Reviews/Grab-Singapore-Reviews-EI_IE958580.0,4_IL.5,14_IN217.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 4,
+   "url": "https://www.glassdoor.sg/Reviews/Grab-Reviews-E958580.htm",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 5,
+   "url": "https://sg.jobstreet.com/companies/grab-168542463310774/reviews",
+   "kind": "page"
+  },
+  {
+   "id": 6,
+   "url": "https://www.payscale.com/research/SG/Employer=Grab/Reviews",
+   "kind": "page"
+  },
+  {
+   "id": 7,
+   "url": "https://sg.jobstreet.com/companies/grab-168542463310774",
+   "kind": "page"
+  },
+  {
+   "id": 8,
+   "url": "https://www.straitstimes.com/business/singapores-grab-cuts-1000-jobs-or-11-of-workforce",
+   "kind": "page"
+  }
+ ],
+ "sources_failed_or_blocked": [
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Grab-Singapore-Reviews-EI_IE958580.0,4_IL.5,14_IM1123.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Grab-Singapore-Reviews-EI_IE958580.0,4_IL.5,14_IN217.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Grab-Reviews-E958580.htm",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  }
+ ],
+ "claims_verified": 11,
+ "claims_unverified": 2,
+ "llm_validity_status": "appears_real_and_consistent",
+ "llm_confidence": "medium",
+ "name_gate": {
+  "phrase": "grab holdings",
+  "pages_with_exact_name": 1,
+  "snippets_with_exact_name": 10,
+  "note": null
+ }
+}

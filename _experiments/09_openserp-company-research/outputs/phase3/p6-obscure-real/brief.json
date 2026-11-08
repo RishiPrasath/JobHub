@@ -1,0 +1,236 @@
+{
+ "validity_status": "appears_real_limited_evidence",
+ "validity_reasoning": "Several independent sources confirm Avanguarde Pte. Ltd. is a live Singapore private limited company with a registered address and a website, but details about its operations, size, and relevance to a Customer Service Executive role are sparse.",
+ "confidence": "medium",
+ "confidence_reasoning": "Evidence exists for basic corporate facts, yet the lack of detailed operational information reduces confidence in assessing fit for a customer‑service role.",
+ "could_not_verify": [
+  "Exact scope of customer service functions within the company",
+  "Number of employees or team size",
+  "Revenue or financial performance",
+  "Specific brands or business units beyond the Quaich Bar mention"
+ ],
+ "key_facts": [
+  {
+   "claim": "Avanguarde Pte. Ltd. is a private company limited by shares incorporated on 13 Oct 2025.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "AVANGUARDE PTE. LTD. ... incorporated on 13 October 2025 (Monday) in Singapore.",
+     "url": "https://www.sgpbusiness.com/company/Avanguarde-Pte-Ltd",
+     "quote_found_in_source": false
+    },
+    {
+     "source": 2,
+     "quote": "Avanguarde Pte. Ltd. ... incorporated on 13 October 2025 (Monday), 1 year ago.",
+     "url": "https://recordowl.com/company/avanguarde-pte-ltd",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "unverified"
+  },
+  {
+   "claim": "The company’s registered address is 22 Sin Ming Lane #06-76, Midview City, Singapore 573969.",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Registered Address 22 SIN MING LANE #06-76 MIDVIEW CITY SINGAPORE (573969).",
+     "url": "https://www.sgpbusiness.com/company/Avanguarde-Pte-Ltd",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 5,
+     "quote": "Registered address is at 22 SIN MING LANE, #6-76, MIDVIEW CITY, Singapore 573969.",
+     "url": "https://www.companies.sg/business/202545538Z/AVANGUARDE-PTE-LTD",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Avanguarde’s principal activity is listed as a holding company (SSIC 64202).",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Principal activity is holding companies of firms engaged in non‑financial and insurance activities.",
+     "url": "https://www.sgpbusiness.com/company/Avanguarde-Pte-Ltd",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 5,
+     "quote": "Registered business activities: 64202 — Holding companies of firms engaged in non‑financial and insurance activities.",
+     "url": "https://www.companies.sg/business/202545538Z/AVANGUARDE-PTE-LTD",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "The company operates a whisky bar website quaichbar.com.sg.",
+   "evidence": [
+    {
+     "source": 2,
+     "quote": "Website: quaichbar.com.sg … Quaich Bar Avant‑Garde is a premier whisky destination in Singapore.",
+     "url": "https://recordowl.com/company/avanguarde-pte-ltd",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "unverified"
+  },
+  {
+   "claim": "Avanguarde is described as a holdings company managing multiple fantasy lifestyle brands across F&B, Events, and TTRPG.",
+   "evidence": [
+    {
+     "source": 6,
+     "quote": "AVANGUARDE PTE. LTD. is a holdings company managing multiple fantasy lifestyle brands across industries including F&B, Events, and TTRPG.",
+     "url": "https://sg.linkedin.com/jobs/view/commis-chef-at-avanguarde-pte-ltd-4468454729",
+     "quote_found_in_source": false
+    },
+    {
+     "source": 7,
+     "quote": "Company Overview AVANGUARDE PTE. LTD. is a holdings company managing multiple fantasy lifestyle brands...",
+     "url": "https://www.mycareersfuture.gov.sg/job/food-and-beverage/commis-chef-avanguarde-16df831499d19f0b8ca8f85dec9e4154",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  }
+ ],
+ "positive_signals": [
+  {
+   "claim": "The company is currently active (Live status).",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Operating Status Live Company as on 26 Mar 2026.",
+     "url": "https://www.sgpbusiness.com/company/Avanguarde-Pte-Ltd",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 2,
+     "quote": "Operating status Live Company.",
+     "url": "https://recordowl.com/company/avanguarde-pte-ltd",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "The company has an online presence (website and job listings).",
+   "evidence": [
+    {
+     "source": 2,
+     "quote": "Website: quaichbar.com.sg.",
+     "url": "https://recordowl.com/company/avanguarde-pte-ltd",
+     "quote_found_in_source": true
+    },
+    {
+     "source": 4,
+     "quote": "JobStreet shows 2 jobs posted by Avanguarde Pte. Ltd.",
+     "url": "https://sg.jobstreet.com/Avanguarde-jobs",
+     "quote_found_in_source": false
+    },
+    {
+     "source": 6,
+     "quote": "LinkedIn job posting for a Commis Chef at Avanguarde Pte. Ltd.",
+     "url": "https://sg.linkedin.com/jobs/view/commis-chef-at-avanguarde-pte-ltd-4468454729",
+     "quote_found_in_source": false
+    }
+   ],
+   "status": "verified"
+  }
+ ],
+ "red_flags": [
+  {
+   "claim": "Limited public information about the company’s core business beyond the whisky bar.",
+   "evidence": [
+    {
+     "source": 3,
+     "quote": "Only address details are provided; no operational description.",
+     "url": "https://www.scam.sg/companies/202545538Z/avanguarde-pte-ltd",
+     "quote_found_in_source": false
+    },
+    {
+     "source": 8,
+     "quote": "Specific operational details are not widely publicized.",
+     "url": "https://en-sg.whatjobs.com/company/avanguarde-pte-ltd/profile",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "claim": "Registered address appears to be a virtual‑office location.",
+   "evidence": [
+    {
+     "source": 5,
+     "quote": "This company’s registered unit matches an address publicly advertised for virtual‑office services.",
+     "url": "https://www.companies.sg/business/202545538Z/AVANGUARDE-PTE-LTD",
+     "quote_found_in_source": true
+    }
+   ],
+   "status": "verified"
+  }
+ ],
+ "relevance_for_persona": "A Customer Service Executive could potentially work within Avanguarde’s F&B or events brands (e.g., the Quaich Bar), handling guest interactions, reservations, or brand‑related inquiries. However, the lack of detailed information about dedicated customer‑service departments makes it unclear how directly the role aligns with the company’s current structure.",
+ "sources_used": [
+  {
+   "id": 1,
+   "url": "https://www.sgpbusiness.com/company/Avanguarde-Pte-Ltd",
+   "kind": "page"
+  },
+  {
+   "id": 2,
+   "url": "https://recordowl.com/company/avanguarde-pte-ltd",
+   "kind": "page"
+  },
+  {
+   "id": 3,
+   "url": "https://www.scam.sg/companies/202545538Z/avanguarde-pte-ltd",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 4,
+   "url": "https://sg.jobstreet.com/Avanguarde-jobs",
+   "kind": "page"
+  },
+  {
+   "id": 5,
+   "url": "https://www.companies.sg/business/202545538Z/AVANGUARDE-PTE-LTD",
+   "kind": "page"
+  },
+  {
+   "id": 6,
+   "url": "https://sg.linkedin.com/jobs/view/commis-chef-at-avanguarde-pte-ltd-4468454729",
+   "kind": "page"
+  },
+  {
+   "id": 7,
+   "url": "https://www.mycareersfuture.gov.sg/job/food-and-beverage/commis-chef-avanguarde-16df831499d19f0b8ca8f85dec9e4154",
+   "kind": "snippet_only"
+  },
+  {
+   "id": 8,
+   "url": "https://en-sg.whatjobs.com/company/avanguarde-pte-ltd/profile",
+   "kind": "snippet_only"
+  }
+ ],
+ "sources_failed_or_blocked": [
+  {
+   "url": "https://www.scam.sg/companies/202545538Z/avanguarde-pte-ltd",
+   "status": "thin",
+   "note": "fewer than 400 characters of real content came back"
+  },
+  {
+   "url": "https://www.mycareersfuture.gov.sg/job/food-and-beverage/commis-chef-avanguarde-16df831499d19f0b8ca8f85dec9e4154",
+   "status": "thin",
+   "note": "fewer than 400 characters of real content came back"
+  },
+  {
+   "url": "https://en-sg.whatjobs.com/company/avanguarde-pte-ltd/profile",
+   "status": "error",
+   "note": "Failed to extract URL content"
+  }
+ ],
+ "claims_verified": 7,
+ "claims_unverified": 2
+}

@@ -1,0 +1,39 @@
+Sheng Siong Group Ltd  (role: Cashier)
+HEADLINE: exists_and_consistent
+  Registered in Singapore, and public sources agree it is the company named.
+  because: registry: confirmed; model: consistent across 4 pages
+REGISTRY: confirmed. SHENG SIONG GROUP LTD. is registered in Singapore (status: Live Company, registered 2010-11-10).
+WEB: 5 queries (bing, duckduckgo), 7 of 8 pages read, exact name seen in 6 pages and 13 search results
+BRIEF (model rating: appears_real_and_consistent, confidence high; 4 claims verified, 3 unverified)
+  Facts:
+    [UNVERIFIED] Sheng Siong Group Ltd is a live Singapore company incorporated on 10 November 2010.
+    [verified] The company is listed on the SGX Mainboard under ticker OV8.
+    [verified] Sheng Siong Group Ltd operates a supermarket chain with around 90–92 stores in
+    Singapore (late 2026).
+    [UNVERIFIED] The company maintains a corporate careers page inviting applications for branch
+    positions.
+    [verified] Sheng Siong Group Ltd’s registered address is 6 Mandai Link, Singapore 728652.
+  Positive signals:
+    [verified] The company is financially active and publicly reported, with annual reports filed in
+    2026.
+    [UNVERIFIED] Sheng Siong Group Ltd has a sizable paid‑up capital of over S$239 million.
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 9):
+  - Working at Sheng Siong company profile and informa  https://sg.jobstreet.com/companies/sheng-
+    siong-168553100524931
+  - SHENG SIONG SUPERMARKET Careers and Employment | I  https://www.indeed.com/cmp/Sheng-Siong-
+    Supermarket
+  - Sheng Siong Interview Questions (2026) | Glassdoor  https://www.glassdoor.sg/Interview/Sheng-
+    Siong-Interview-Questions-E1186795.htm
+  - Cashier Salaries in Singapore for SHENG SIONG SUPE  https://sg.indeed.com/cmp/Sheng-Siong-
+    Supermarket/salaries/Cashier
+  - 154 Salaries at Sheng Siong Shared by Employees |   https://www.glassdoor.sg/Salary/Sheng-Siong-
+    Salaries-E1186795.htm
+  - Sheng Siong Super Market Jobs in Singapore (with S  https://sg.jobstreet.com/sheng-siong-super-
+    market-jobs
+COULD NOT READ (1):
+  - https://links.sgx.com/1.0.0/corporate-announcements/5SKGHD4E6C5P7NN7/8  (blocked: challenge or
+    login-wall text)
+COULD NOT VERIFY:
+  - Specific details about the Cashier role responsibilities and salary
+  - Exact number of stores where cashiers are employed
+(127.6s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

@@ -1,0 +1,17 @@
+[   3.2s] 6 queries written
+[  31.8s] search 200 8 organic in 28.6s via ['duckduckgo'] :: KPMG Singapore employee reviews audit associate
+[  73.9s] search 200 8 organic in 42.1s via ['duckduckgo'] :: KPMG Singapore layoffs restructuring news
+[ 115.8s] search 200 8 organic in 41.9s via ['duckduckgo'] :: KPMG Singapore scam fraud reports
+[ 157.9s] search 200 8 organic in 42.1s via ['duckduckgo'] :: KPMG Singapore audit associate interview process
+[ 200.2s] search 200 8 organic in 42.3s via ['duckduckgo'] :: KPMG Singapore audit associate salary
+[ 236.0s] search 200 8 organic in 35.8s via ['duckduckgo'] :: KPMG Singapore lawsuits regulatory news
+[ 236.0s] 46 unique organic URLs, reading 8
+[ 236.5s] page ok        7723 chars   0.4s https://sg.indeed.com/cmp/Kpmg-0828bc85/reviews?fjobtitle=Audit+Associ
+[ 238.3s] page error        0 chars   0.3s https://www.glassdoor.com/Interview/KPMG-Audit-Associate-Singapore-Int
+[ 240.1s] page error        0 chars   0.3s https://www.glassdoor.sg/Reviews/KPMG-Audit-Associate-Reviews-EI_IE286
+[ 242.2s] page error        0 chars   0.6s https://www.glassdoor.ca/Reviews/KPMG-Audit-Associate-Singapore-Review
+[ 244.1s] page error        0 chars   0.4s https://www.glassdoor.sg/Reviews/KPMG-Singapore-Reviews-EI_IE2867.0,4_
+[ 246.1s] page ok       10046 chars   0.5s https://sg.jobstreet.com/companies/kpmg-168555534814946/reviews
+[ 248.2s] page ok        9474 chars   0.7s https://www.indeed.com/cmp/Kpmg-0828bc85/reviews?fcountry=ALL&fjobtitl
+[ 250.8s] page ok        5060 chars   1.0s https://www.big4events.com/blog/kpmg-layoffs-what-happened-who-affecte
+[ 458.7s] brief: appears_real_and_consistent / high ; claims verified 11, unverified 3

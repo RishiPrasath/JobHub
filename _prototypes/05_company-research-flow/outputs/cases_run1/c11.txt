@@ -1,0 +1,35 @@
+Singapore Airlines Careers Hub Pte Ltd  (role: Cabin Crew)
+HEADLINE: could_not_confirm_company
+  Neither the registry nor the web confirms this company exists under this name.
+  because: registry: not_in_registry; exact name seen 0 times
+REGISTRY: not_in_registry. No registered entity in Singapore resembles 'Singapore Airlines Careers Hub Pte Ltd'.
+WEB: 5 queries (bing), 2 of 8 pages read, exact name seen in 0 pages and 0 search results
+BRIEF (model rating: cannot_verify, confidence low; 1 claims verified, 0 unverified)
+  facts and positive signals hidden: the company was not confirmed under this exact name
+  Red flags:
+    [verified] The name resembles Singapore Airlines but may be used in phishing scams.
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 4):
+  - Civil Aviation Authority of Singapore Reviews - Gl  https://www.glassdoor.sg/Reviews/Civil-
+    Aviation-Authority-of-Singapore-Reviews-E
+  - Top Recruitment Agencies in Singapore 2026: An …  https://www.linkedin.com/pulse/top-
+    recruitment-agencies-singapore-2026-expert-re
+  - ISS World Employee Reviews in Singapore - Indeed.c  https://sg.indeed.com/cmp/Iss-
+    World-e8c83370/reviews?fcountry=SG&floc=Singapore
+  - Working at RecruitFirst company profile and inform
+    https://sg.jobstreet.com/companies/recruitfirst-168534295843333
+COULD NOT READ (6):
+  - https://www.comparably.com/companies/singapore-airlines/reviews/189708  (thin: fewer than 400
+    characters of real content)
+  - https://sea.peoplemattersglobal.com/news/compensation-benefits/singapo  (irrelevant: the page
+    never mentions the company name)
+  - https://www.singaporeair.com/en_UK/sg/corporate/newsroom/newsalert-lis  (thin: fewer than 400
+    characters of real content)
+  - https://www.scamshield.gov.sg/check-for-scams  (irrelevant: the page never mentions the company
+    name)
+  - https://www.centreforcybersecurity.com/scam-alerts  (irrelevant: the page never mentions the
+    company name)
+  - https://www.scamshield.gov.sg/  (irrelevant: the page never mentions the company name)
+COULD NOT VERIFY:
+  - No source confirms the existence of a company named "Singapore Airlines Careers Hub Pte Ltd" in
+    Singapore.
+(125.0s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

@@ -1,0 +1,271 @@
+{
+ "query": {
+  "text": "Randstad Singapore employee reviews",
+  "engines_requested": [
+   "bing"
+  ]
+ },
+ "meta": {
+  "request_id": "01a1b45b-bbdf-7c34-a577-2e63fcafa206",
+  "requested_at": "2026-11-07T04:54:33Z",
+  "took_ms": 3299,
+  "engines_failed": [],
+  "version": "2.1"
+ },
+ "results": [
+  {
+   "id": "s_2a01ed13bead1c30",
+   "rank": 1,
+   "type": "organic",
+   "title": "Randstad Reviews in Singapore | Glassdoor",
+   "url": "https://www.glassdoor.sg/Reviews/Randstad-Singapore-Reviews-EI_IE302306.0,8_IL.9,18_IM1123.htm",
+   "display_url": "glassdoor.sg › Reviews › Randstad-Singapore-Reviews-EI_…",
+   "snippet": "66 Randstad reviews in Singapore. A free inside look at company reviews and salaries posted anonymously by employees.",
+   "domain": "glassdoor.sg",
+   "favicon": "https://glassdoor.sg/favicon.ico",
+   "position": {
+    "absolute": 1
+   },
+   "engine": "bing",
+   "domain_info": {
+    "tld": "sg",
+    "sld": "glassdoor",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_cb3b872dbf8330ba",
+   "rank": 2,
+   "type": "organic",
+   "title": "Reviews Randstad employee ratings and reviews | Jobstreet",
+   "url": "https://sg.jobstreet.com/companies/randstad-168558234250811/reviews",
+   "display_url": "sg.jobstreet.com › companies › randstad-168558234250811…",
+   "snippet": "Read 6 employee reviews on Jobstreet to learn about salaries, benefits, company culture, work-life balance, and career opportunities.",
+   "domain": "sg.jobstreet.com",
+   "favicon": "https://sg.jobstreet.com/favicon.ico",
+   "position": {
+    "absolute": 2
+   },
+   "engine": "bing",
+   "domain_info": {
+    "tld": "com",
+    "sld": "jobstreet",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_2620354f6cad6b33",
+   "rank": 3,
+   "type": "organic",
+   "title": "Working at Randstad: Employee Reviews | Indeed.com",
+   "url": "https://sg.indeed.com/cmp/Randstad/reviews",
+   "display_url": "sg.indeed.com › cmp › Randstad › reviews",
+   "snippet": "Reviews from Randstad employees about Randstad culture, salaries, benefits, work-life balance, management, job security, and …",
+   "domain": "sg.indeed.com",
+   "favicon": "https://sg.indeed.com/favicon.ico",
+   "position": {
+    "absolute": 3
+   },
+   "engine": "bing",
+   "domain_info": {
+    "tld": "com",
+    "sld": "indeed",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_6882552d201cfa32",
+   "rank": 4,
+   "type": "organic",
+   "title": "Randstad Reviews - Glassdoor",
+   "url": "https://www.glassdoor.sg/Reviews/Randstad-Reviews-E302306.htm",
+   "display_url": "glassdoor.sg › Reviews › Randstad-Reviews-E302306.htm",
+   "snippet": "Read employee reviews and ratings on Glassdoor to decide if Randstad is right for you. 5,939 Randstad reviews. A free inside …",
+   "domain": "glassdoor.sg",
+   "favicon": "https://glassdoor.sg/favicon.ico",
+   "position": {
+    "absolute": 4
+   },
+   "engine": "bing",
+   "domain_info": {
+    "tld": "sg",
+    "sld": "glassdoor",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_dfd0712be995de98",
+   "rank": 5,
+   "type": "organic",
+   "title": "Working at Randstad company profile and information | Jobstreet",
+   "url": "https://sg.jobstreet.com/companies/randstad-168558234250811",
+   "display_url": "sg.jobstreet.com › companies › randstad-168558234250811",
+   "snippet": "Learn what its like to work for Randstad by reading employee ratings and reviews on sg.jobstreet.com.",
+   "domain": "sg.jobstreet.com",
+   "favicon": "https://sg.jobstreet.com/favicon.ico",
+   "position": {
+    "absolute": 5
+   },
+   "engine": "bing",
+   "domain_info": {
+    "tld": "com",
+    "sld": "jobstreet",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_0339442911e6749d",
+   "rank": 6,
+   "type": "organic",
+   "title": "Randstad Reviews (5,939): Pros & Cons of Working At Randstad",
+   "url": "https://www.glassdoor.com/Reviews/Randstad-Reviews-E302306.htm",
+   "display_url": "glassdoor.com › Reviews › Randstad-Reviews-E302306.htm",
+   "snippet": "Randstad has an overall rating of 3.5 out of 5, based on over 5,939 reviews left anonymously by employees. This rating has …",
+   "domain": "glassdoor.com",
+   "favicon": "https://glassdoor.com/favicon.ico",
+   "position": {
+    "absolute": 6
+   },
+   "engine": "bing",
+   "domain_info": {
+    "tld": "com",
+    "sld": "glassdoor",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_1fd445b136a8ae45",
+   "rank": 7,
+   "type": "organic",
+   "title": "Randstad Enterprise Reviews in Singapore | Glassdoor",
+   "url": "https://www.glassdoor.com/Reviews/Randstad-Enterprise-Singapore-Reviews-EI_IE494861.0,19_IL.20,29_IC3235921.htm",
+   "display_url": "glassdoor.com › Reviews › Randstad-Enterprise-Singapore…",
+   "snippet": "26 Randstad Enterprise reviews in Singapore. A free inside look at company reviews and salaries posted anonymously by …",
+   "domain": "glassdoor.com",
+   "favicon": "https://glassdoor.com/favicon.ico",
+   "position": {
+    "absolute": 7
+   },
+   "engine": "bing",
+   "domain_info": {
+    "tld": "com",
+    "sld": "glassdoor",
+    "category": ""
+   }
+  },
+  {
+   "id": "s_27d95366e70d616d",
+   "rank": 8,
+   "type": "organic",
+   "title": "Randstad Employee Reviews",
+   "url": "https://www.indeed.com/cmp/Randstad/reviews",
+   "display_url": "indeed.com › cmp › Randstad › reviews",
+   "snippet": "1 day ago · 11,941 reviews from Randstad employees about Randstad culture, salaries, benefits, work-life balance, management, …",
+   "domain": "indeed.com",
+   "favicon": "https://indeed.com/favicon.ico",
+   "position": {
+    "absolute": 8
+   },
+   "engine": "bing",
+   "domain_info": {
+    "tld": "com",
+    "sld": "indeed",
+    "category": ""
+   }
+  }
+ ],
+ "serp_features": [
+  {
+   "id": "f_64754896ee90eaa8",
+   "engine": "bing",
+   "type": "related_searches",
+   "title": "Related searches",
+   "items": [
+    {
+     "title": "is Randstad staffing legit",
+     "text": "is Randstad staffing legit",
+     "link": "https://www.bing.com/ck/a?%21=&fclid=30f9ec79-cfaa-63cb-3e22-f473ce6262c1&hsh=4&ntb=1&p=c739b7b9c03760b373188b454fb4654c464af381dd8113ff4633de81adbe6710JmltdHM9MTc5MzkyMzIwMA&ptn=3&u=a1L3NlYXJjaD9xPWlzK1JhbmRzdGFkK1N0YWZmaW5nK2xlZ2l0JkZPUk09UVNSRTE&ver=2"
+    },
+    {
+     "title": "Randstad reviews",
+     "text": "Randstad reviews",
+     "link": "https://www.bing.com/ck/a?%21=&fclid=30f9ec79-cfaa-63cb-3e22-f473ce6262c1&hsh=4&ntb=1&p=2313a1069783db93f75f69dd9ec9a0d5424040008cd72dedfe87ea6b56d33d39JmltdHM9MTc5MzkyMzIwMA&ptn=3&u=a1L3NlYXJjaD9xPVJhbmRzdGFkK3Jldmlld3MmRk9STT1RU1JFMg&ver=2"
+    },
+    {
+     "title": "is Randstad a legit company",
+     "text": "is Randstad a legit company",
+     "link": "https://www.bing.com/ck/a?%21=&fclid=30f9ec79-cfaa-63cb-3e22-f473ce6262c1&hsh=4&ntb=1&p=f3ee642120831f78eec86e6a3b28f3eb962d9bb6a11d355dba2431199bd51523JmltdHM9MTc5MzkyMzIwMA&ptn=3&u=a1L3NlYXJjaD9xPWlzK1JhbmRzdGFkK2ErbGVnaXQrY29tcGFueSZGT1JNPVFTUkUz&ver=2"
+    },
+    {
+     "title": "Randstad reviews and complaints",
+     "text": "Randstad reviews and complaints",
+     "link": "https://www.bing.com/ck/a?%21=&fclid=30f9ec79-cfaa-63cb-3e22-f473ce6262c1&hsh=4&ntb=1&p=b4a5377e2b1f2afa92468acebf342208031adf467dab169ae8d7f26e1d039e81JmltdHM9MTc5MzkyMzIwMA&ptn=3&u=a1L3NlYXJjaD9xPVJhbmRzdGFkK3Jldmlld3MrYW5kK2NvbXBsYWludHMmRk9STT1RU1JFNA&ver=2"
+    },
+    {
+     "title": "Randstad recruitment agency reviews",
+     "text": "Randstad recruitment agency reviews",
+     "link": "https://www.bing.com/ck/a?%21=&fclid=30f9ec79-cfaa-63cb-3e22-f473ce6262c1&hsh=4&ntb=1&p=d057beecf93b545a30d1da87e4b88a4e0382eec3ff0dd3a9152e93de6cb8c451JmltdHM9MTc5MzkyMzIwMA&ptn=3&u=a1L3NlYXJjaD9xPVJhbmRzdGFkK3JlY3J1aXRtZW50K2FnZW5jeStyZXZpZXdzJkZPUk09UVNSRTU&ver=2"
+    },
+    {
+     "title": "Randstad recruitment reviews",
+     "text": "Randstad recruitment reviews",
+     "link": "https://www.bing.com/ck/a?%21=&fclid=30f9ec79-cfaa-63cb-3e22-f473ce6262c1&hsh=4&ntb=1&p=b784333b9e46a808ec88ea66f961f8f219bf543d7bbb1562f503801857f42736JmltdHM9MTc5MzkyMzIwMA&ptn=3&u=a1L3NlYXJjaD9xPVJhbmRzdGFkK3JlY3J1aXRtZW50K3Jldmlld3MmRk9STT1RU1JFNg&ver=2"
+    },
+    {
+     "title": "Randstad staffing reviews",
+     "text": "Randstad staffing reviews",
+     "link": "https://www.bing.com/ck/a?%21=&fclid=30f9ec79-cfaa-63cb-3e22-f473ce6262c1&hsh=4&ntb=1&p=6ec130c4447378540c0a34bb7ba245d34eca2f7c891aa8c4e4089daad79968ccJmltdHM9MTc5MzkyMzIwMA&ptn=3&u=a1L3NlYXJjaD9xPVJhbmRzdGFkK1N0YWZmaW5nK3Jldmlld3MmRk9STT1RU1JFNw&ver=2"
+    },
+    {
+     "title": "is Randstad legit",
+     "text": "is Randstad legit",
+     "link": "https://www.bing.com/ck/a?%21=&fclid=30f9ec79-cfaa-63cb-3e22-f473ce6262c1&hsh=4&ntb=1&p=049a15b1330388b0cbb4bfe65d24d4f594b7beb54acfd8df2ded91693c4f4fcaJmltdHM9MTc5MzkyMzIwMA&ptn=3&u=a1L3NlYXJjaD9xPWlzK1JhbmRzdGFkK2xlZ2l0JkZPUk09UVNSRTg&ver=2"
+    }
+   ],
+   "links": [
+    {
+     "title": "is Randstad staffing legit",
+     "url": "https://www.bing.com/ck/a?%21=&fclid=30f9ec79-cfaa-63cb-3e22-f473ce6262c1&hsh=4&ntb=1&p=c739b7b9c03760b373188b454fb4654c464af381dd8113ff4633de81adbe6710JmltdHM9MTc5MzkyMzIwMA&ptn=3&u=a1L3NlYXJjaD9xPWlzK1JhbmRzdGFkK1N0YWZmaW5nK2xlZ2l0JkZPUk09UVNSRTE&ver=2"
+    },
+    {
+     "title": "Randstad reviews",
+     "url": "https://www.bing.com/ck/a?%21=&fclid=30f9ec79-cfaa-63cb-3e22-f473ce6262c1&hsh=4&ntb=1&p=2313a1069783db93f75f69dd9ec9a0d5424040008cd72dedfe87ea6b56d33d39JmltdHM9MTc5MzkyMzIwMA&ptn=3&u=a1L3NlYXJjaD9xPVJhbmRzdGFkK3Jldmlld3MmRk9STT1RU1JFMg&ver=2"
+    },
+    {
+     "title": "is Randstad a legit company",
+     "url": "https://www.bing.com/ck/a?%21=&fclid=30f9ec79-cfaa-63cb-3e22-f473ce6262c1&hsh=4&ntb=1&p=f3ee642120831f78eec86e6a3b28f3eb962d9bb6a11d355dba2431199bd51523JmltdHM9MTc5MzkyMzIwMA&ptn=3&u=a1L3NlYXJjaD9xPWlzK1JhbmRzdGFkK2ErbGVnaXQrY29tcGFueSZGT1JNPVFTUkUz&ver=2"
+    },
+    {
+     "title": "Randstad reviews and complaints",
+     "url": "https://www.bing.com/ck/a?%21=&fclid=30f9ec79-cfaa-63cb-3e22-f473ce6262c1&hsh=4&ntb=1&p=b4a5377e2b1f2afa92468acebf342208031adf467dab169ae8d7f26e1d039e81JmltdHM9MTc5MzkyMzIwMA&ptn=3&u=a1L3NlYXJjaD9xPVJhbmRzdGFkK3Jldmlld3MrYW5kK2NvbXBsYWludHMmRk9STT1RU1JFNA&ver=2"
+    },
+    {
+     "title": "Randstad recruitment agency reviews",
+     "url": "https://www.bing.com/ck/a?%21=&fclid=30f9ec79-cfaa-63cb-3e22-f473ce6262c1&hsh=4&ntb=1&p=d057beecf93b545a30d1da87e4b88a4e0382eec3ff0dd3a9152e93de6cb8c451JmltdHM9MTc5MzkyMzIwMA&ptn=3&u=a1L3NlYXJjaD9xPVJhbmRzdGFkK3JlY3J1aXRtZW50K2FnZW5jeStyZXZpZXdzJkZPUk09UVNSRTU&ver=2"
+    },
+    {
+     "title": "Randstad recruitment reviews",
+     "url": "https://www.bing.com/ck/a?%21=&fclid=30f9ec79-cfaa-63cb-3e22-f473ce6262c1&hsh=4&ntb=1&p=b784333b9e46a808ec88ea66f961f8f219bf543d7bbb1562f503801857f42736JmltdHM9MTc5MzkyMzIwMA&ptn=3&u=a1L3NlYXJjaD9xPVJhbmRzdGFkK3JlY3J1aXRtZW50K3Jldmlld3MmRk9STT1RU1JFNg&ver=2"
+    },
+    {
+     "title": "Randstad staffing reviews",
+     "url": "https://www.bing.com/ck/a?%21=&fclid=30f9ec79-cfaa-63cb-3e22-f473ce6262c1&hsh=4&ntb=1&p=6ec130c4447378540c0a34bb7ba245d34eca2f7c891aa8c4e4089daad79968ccJmltdHM9MTc5MzkyMzIwMA&ptn=3&u=a1L3NlYXJjaD9xPVJhbmRzdGFkK1N0YWZmaW5nK3Jldmlld3MmRk9STT1RU1JFNw&ver=2"
+    },
+    {
+     "title": "is Randstad legit",
+     "url": "https://www.bing.com/ck/a?%21=&fclid=30f9ec79-cfaa-63cb-3e22-f473ce6262c1&hsh=4&ntb=1&p=049a15b1330388b0cbb4bfe65d24d4f594b7beb54acfd8df2ded91693c4f4fcaJmltdHM9MTc5MzkyMzIwMA&ptn=3&u=a1L3NlYXJjaD9xPWlzK1JhbmRzdGFkK2xlZ2l0JkZPUk09UVNSRTg&ver=2"
+    }
+   ],
+   "source_result_ids": [
+    "s_2a01ed13bead1c30"
+   ],
+   "confidence": 0.75,
+   "extracted_at": "2026-11-07T04:54:33Z"
+  }
+ ],
+ "pagination": {
+  "page": 1,
+  "has_more": true,
+  "next_start": 8
+ }
+}

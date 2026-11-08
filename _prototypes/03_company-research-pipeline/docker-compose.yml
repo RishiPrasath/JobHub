@@ -1,0 +1,110 @@
+# Usage (from this folder):
+#   docker compose build
+#   docker compose up -d registry                         # provisions the current ACRA release by itself (~641 MB download, several minutes), then keeps it fresh
+#   curl localhost:8090/status ; curl 'localhost:8090/resolve?name=Palo+IT+Singapore'
+#   docker compose run --rm pipeline acra-status          # compare the local copy with ACRA's published release
+#   docker compose run --rm pipeline resolve "Palo IT Singapore"
+#   docker compose run --rm pipeline find-site "Curos Learning"     # starts the local SearXNG automatically
+#   docker compose run --rm pipeline research "Palo IT Singapore" --site https://www.palo-it.com/
+services:
+  searxng:                       # local meta-search: queries other engines on your behalf, returns URLs/titles/descriptions as JSON
+    image: searxng/searxng:latest
+    ports:
+      - "127.0.0.1:8888:8080"    # localhost only; remove this line if you only use it from the pipeline container
+    environment:
+      SEARXNG_SECRET: ${SEARXNG_SECRET:-local-only-change-me}
+      SEARXNG_BASE_URL: http://127.0.0.1:8888/
+    volumes:
+      - ./searxng/settings.yml:/etc/searxng/settings.yml:ro
+    cap_drop: [ALL]
+    cap_add: [CHOWN, SETGID, SETUID]
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+
+  registry:                      # ACRA registry service: nothing baked in; provisions the current release on first start, then refreshes
+    build: .
+    image: jobhub-company-research:dev
+    command: ["serve"]
+    init: true                   # tini as PID 1: signals reach the service and the refresh worker, no zombie processes
+    stop_grace_period: 15s
+    mem_limit: 1536m             # a runaway request or refresh is killed here instead of taking the Docker VM down
+    pids_limit: 128
+    ports:
+      - "127.0.0.1:8090:8090"    # localhost only
+    environment:
+      ACRA_CHECK_HOURS: ${ACRA_CHECK_HOURS:-24}       # how often to compare with ACRA's published release (cheap); it refreshes only when that changed
+    volumes:
+      - acra-data:/data
+    healthcheck:                 # unhealthy until the first index exists (first provision takes several minutes)
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8090/health', timeout=5)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40m
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+
+  pipeline:
+    build: .
+    image: jobhub-company-research:dev
+    depends_on:
+      - searxng
+    env_file:
+      - path: ../../.env      # repo-root .env (git-ignored); only GROQ_* values are used
+        required: false
+    environment:
+      SEARXNG_URL: http://searxng:8080
+      SEARCH_MIN_INTERVAL: ${SEARCH_MIN_INTERVAL:-3}   # seconds between searches; faster makes SearXNG's Brave engine suspend itself
+      JOBHUB_ENABLE_DDG: ${JOBHUB_ENABLE_DDG:-1}       # last-resort direct DuckDuckGo fallback (unsanctioned; currently blocked)
+    volumes:
+      - acra-data:/data
+      - ./samples:/samples:ro
+      - ../../02_research/03_research-rounds/05_technical-feasibility-and-ai-sdlc/runs:/runs   # experiment run folders (inputs and outputs)
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+
+  research:
+    build: .
+    image: jobhub-company-research:dev
+    command: ["python", "-m", "pipeline.service"]
+    depends_on:
+      - registry
+      - searxng
+    env_file:
+      - path: ../../.env
+        required: false
+    environment:
+      COMPANY_RESEARCH_PORT: 8091
+      JOBHUB_REGISTRY_URL: http://registry:8090
+      SEARXNG_URL: http://searxng:8080
+      COMPANY_RESEARCH_REGISTRY_TIMEOUT_SECONDS: 8
+      COMPANY_RESEARCH_SEARCH_TIMEOUT_SECONDS: 8
+      JOBHUB_ENABLE_DDG: "0"
+    ports:
+      - "127.0.0.1:8091:8091"
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8091/health', timeout=5)"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+volumes:
+  acra-data:

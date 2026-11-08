@@ -1,0 +1,86 @@
+{
+ "A2": {
+  "claimed_name": "ECON Healthcare (Asia) Pte. Ltd.",
+  "uen": "200400965N",
+  "registry_name": "ECON HEALTHCARE (ASIA) PTE. LTD.",
+  "registry_status": "Live Company",
+  "registry_incorporated": "2004-01-28",
+  "claimed_incorporated": null,
+  "uen_exists": true,
+  "date_matches": null
+ },
+ "A3": {
+  "claimed_name": "Sheng Siong Supermarket Pte Ltd",
+  "uen": "198304925E",
+  "registry_name": "SHENG SIONG SUPERMARKET PTE LTD",
+  "registry_status": "Live Company",
+  "registry_incorporated": "1983-10-14",
+  "claimed_incorporated": null,
+  "uen_exists": true,
+  "date_matches": null
+ },
+ "A4": {
+  "claimed_name": "Ninja Logistics Pte. Ltd.",
+  "uen": "201412014E",
+  "registry_name": "NINJA LOGISTICS PTE. LTD.",
+  "registry_status": "Live Company",
+  "registry_incorporated": "2014-04-25",
+  "claimed_incorporated": "2014-04-25",
+  "uen_exists": true,
+  "date_matches": true
+ },
+ "A6": {
+  "claimed_name": "Grand Venture Technology",
+  "uen": "201222831E",
+  "registry_name": "GRAND VENTURE TECHNOLOGY PRIVATE LIMITED",
+  "registry_status": "Live Company",
+  "registry_incorporated": "2012-09-17",
+  "claimed_incorporated": "2012-09-17",
+  "uen_exists": true,
+  "date_matches": true
+ },
+ "A7": {
+  "claimed_name": "The LearningLab Education Centre Pte Ltd",
+  "uen": "200102900E",
+  "registry_name": "THE LEARNINGLAB EDUCATION CENTRE PTE LTD",
+  "registry_status": "Live Company",
+  "registry_incorporated": "2001-05-02",
+  "claimed_incorporated": "2001-05-02",
+  "uen_exists": true,
+  "date_matches": true
+ },
+ "A8": {
+  "claimed_name": "Recruit Express Pte Ltd",
+  "uen": "199601303W",
+  "registry_name": "RECRUIT EXPRESS PTE LTD",
+  "registry_status": "Live Company",
+  "registry_incorporated": "1996-02-22",
+  "claimed_incorporated": "1996-02-22",
+  "uen_exists": true,
+  "date_matches": true
+ },
+ "A1": {
+  "claimed_name": "Grab Holdings Limited",
+  "registry_verdict": "similar_name_only",
+  "registry_name": "GRAB GEO HOLDINGS PTE. LTD.",
+  "uen": "201731650K",
+  "registry_status": "Live Company",
+  "registry_incorporated": "2017-11-03"
+ },
+ "A5": {
+  "claimed_name": "Singapore Life Limited",
+  "registry_verdict": "similar_name_only",
+  "registry_name": "EVYD RESEARCH PRIVATE LIMITED",
+  "uen": "201933950N",
+  "registry_status": "Live Company",
+  "registry_incorporated": "2019-10-09"
+ },
+ "A9": {
+  "claimed_name": "Quillfeather Dynamics Pte Ltd",
+  "registry_verdict": "similar_name_only",
+  "registry_name": "ULTRA DYNAMICS PTE. LTD.",
+  "uen": "202301242W",
+  "registry_status": "Live Company",
+  "registry_incorporated": "2023-01-10"
+ }
+}

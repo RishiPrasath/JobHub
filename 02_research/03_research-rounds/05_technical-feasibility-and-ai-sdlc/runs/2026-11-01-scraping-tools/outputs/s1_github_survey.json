@@ -1,0 +1,296 @@
+[
+ {
+  "repo": "microsoft/playwright",
+  "stars": 99030,
+  "license": "Apache-2.0",
+  "lang": "TypeScript",
+  "pushed": "2026-10-31",
+  "archived": false,
+  "open_issues": 48,
+  "desc": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with "
+ },
+ {
+  "repo": "puppeteer/puppeteer",
+  "stars": 95779,
+  "license": "Apache-2.0",
+  "lang": "TypeScript",
+  "pushed": "2026-11-01",
+  "archived": false,
+  "open_issues": 219,
+  "desc": "JavaScript API for Chrome and Firefox"
+ },
+ {
+  "repo": "SeleniumHQ/selenium",
+  "stars": 34582,
+  "license": "Apache-2.0",
+  "lang": "Java",
+  "pushed": "2026-11-01",
+  "archived": false,
+  "open_issues": 196,
+  "desc": "A browser automation framework and ecosystem."
+ },
+ {
+  "repo": "chromedp/chromedp",
+  "stars": 13346,
+  "license": "MIT",
+  "lang": "Go",
+  "pushed": "2026-10-11",
+  "archived": false,
+  "open_issues": 1,
+  "desc": "A faster, simpler way to drive browsers supporting the Chrome DevTools Protocol."
+ },
+ {
+  "repo": "go-rod/rod",
+  "stars": 7143,
+  "license": "MIT",
+  "lang": "Go",
+  "pushed": "2026-08-11",
+  "archived": false,
+  "open_issues": 217,
+  "desc": "A Chrome DevTools Protocol driver for web automation and scraping."
+ },
+ {
+  "repo": "browserless/browserless",
+  "stars": 13880,
+  "license": "NOASSERTION",
+  "lang": "TypeScript",
+  "pushed": "2026-10-30",
+  "archived": false,
+  "open_issues": 15,
+  "desc": "Deploy headless browsers in Docker. Run on our cloud or bring your own. Free for non-commercial uses."
+ },
+ {
+  "repo": "steel-dev/steel-browser",
+  "stars": 7898,
+  "license": "Apache-2.0",
+  "lang": "TypeScript",
+  "pushed": "2026-10-31",
+  "archived": false,
+  "open_issues": 80,
+  "desc": "\ud83d\udd25 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that let"
+ },
+ {
+  "repo": "lightpanda-io/browser",
+  "stars": 39637,
+  "license": "AGPL-3.0",
+  "lang": "Zig",
+  "pushed": "2026-11-01",
+  "archived": false,
+  "open_issues": 99,
+  "desc": "Lightpanda: the headless browser designed for AI and automation"
+ },
+ {
+  "repo": "apify/crawlee",
+  "stars": 26306,
+  "license": "Apache-2.0",
+  "lang": "TypeScript",
+  "pushed": "2026-11-01",
+  "archived": false,
+  "open_issues": 156,
+  "desc": "Crawlee\u2014A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript an"
+ },
+ {
+  "repo": "scrapy/scrapy",
+  "stars": 65151,
+  "license": "BSD-3-Clause",
+  "lang": "Python",
+  "pushed": "2026-10-30",
+  "archived": false,
+  "open_issues": 187,
+  "desc": "Scrapy, a fast high-level web crawling & scraping framework for Python."
+ },
+ {
+  "repo": "D4Vinci/Scrapling",
+  "stars": 91452,
+  "license": "BSD-3-Clause",
+  "lang": "Python",
+  "pushed": "2026-10-31",
+  "archived": false,
+  "open_issues": 17,
+  "desc": "\ud83d\udd77\ufe0f The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't "
+ },
+ {
+  "repo": "unclecode/crawl4ai",
+  "stars": 86692,
+  "license": "Apache-2.0",
+  "lang": "Python",
+  "pushed": "2026-11-01",
+  "archived": false,
+  "open_issues": 308,
+  "desc": "Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it"
+ },
+ {
+  "repo": "firecrawl/firecrawl",
+  "stars": 197539,
+  "license": "AGPL-3.0",
+  "lang": "TypeScript",
+  "pushed": "2026-10-31",
+  "archived": false,
+  "open_issues": 740,
+  "desc": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. \ud83d\udd25"
+ },
+ {
+  "repo": "jina-ai/reader",
+  "stars": 12219,
+  "license": "Apache-2.0",
+  "lang": "TypeScript",
+  "pushed": "2026-05-22",
+  "archived": false,
+  "open_issues": 39,
+  "desc": "Convert any URL to an LLM-friendly input with a simple prefix https://r.jina.ai/"
+ },
+ {
+  "repo": "ScrapeGraphAI/Scrapegraph-ai",
+  "stars": 32412,
+  "license": "MIT",
+  "lang": "Python",
+  "pushed": "2026-10-06",
+  "archived": false,
+  "open_issues": 28,
+  "desc": "Python scraper based on AI"
+ },
+ {
+  "repo": "encode/httpx",
+  "stars": 15945,
+  "license": "BSD-3-Clause",
+  "lang": "Python",
+  "pushed": "2026-10-02",
+  "archived": false,
+  "open_issues": 140,
+  "desc": "A next generation HTTP client for Python. \ud83e\udd8b"
+ },
+ {
+  "repo": "lexiforest/curl_cffi",
+  "stars": 6806,
+  "license": "MIT",
+  "lang": "Python",
+  "pushed": "2026-10-27",
+  "archived": false,
+  "open_issues": 49,
+  "desc": "Python binding for curl-impersonate fork via cffi. A http client that can impersonate browser tls/ja3/http2 fi"
+ },
+ {
+  "repo": "rushter/selectolax",
+  "stars": 1703,
+  "license": "MIT",
+  "lang": "Python",
+  "pushed": "2026-11-01",
+  "archived": false,
+  "open_issues": 2,
+  "desc": "Python binding to Modest and Lexbor engines. Fast HTML5 parser with CSS selectors for Python."
+ },
+ {
+  "repo": "adbar/trafilatura",
+  "stars": 7051,
+  "license": "Apache-2.0",
+  "lang": "Python",
+  "pushed": "2026-10-30",
+  "archived": false,
+  "open_issues": 92,
+  "desc": "Python & Command-line tool to gather text and metadata on the Web: Crawling, scraping, extraction, output as C"
+ },
+ {
+  "repo": "browser-use/browser-use",
+  "stars": 119728,
+  "license": "MIT",
+  "lang": "Python",
+  "pushed": "2026-10-31",
+  "archived": false,
+  "open_issues": 615,
+  "desc": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent "
+ },
+ {
+  "repo": "browserbase/stagehand",
+  "stars": 25894,
+  "license": "MIT",
+  "lang": "TypeScript",
+  "pushed": "2026-10-30",
+  "archived": false,
+  "open_issues": 402,
+  "desc": "The SDK to extract data and interact with any site on the web. Get started with Claude Code, Codex, Eve, Mastr"
+ },
+ {
+  "repo": "microsoft/playwright-mcp",
+  "stars": 38933,
+  "license": "Apache-2.0",
+  "lang": "TypeScript",
+  "pushed": "2026-10-31",
+  "archived": false,
+  "open_issues": 1,
+  "desc": "Playwright MCP server"
+ },
+ {
+  "repo": "Kaliiiiiiiiii-Vinyl/patchright",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "repo": "daijro/camoufox",
+  "stars": 12960,
+  "license": "MPL-2.0",
+  "lang": "Python",
+  "pushed": "2026-10-31",
+  "archived": false,
+  "open_issues": 70,
+  "desc": "\ud83e\udd8a Anti-detect browser"
+ },
+ {
+  "repo": "ultrafunkamsterdam/nodriver",
+  "stars": 4906,
+  "license": "AGPL-3.0",
+  "lang": "Python",
+  "pushed": "2026-10-26",
+  "archived": false,
+  "open_issues": 19,
+  "desc": "Successor of Undetected-Chromedriver. Providing a blazing fast framework for web automation, webscraping, bots"
+ },
+ {
+  "repo": "ultrafunkamsterdam/undetected-chromedriver",
+  "stars": 12894,
+  "license": "GPL-3.0",
+  "lang": "Python",
+  "pushed": "2025-07-05",
+  "archived": false,
+  "open_issues": 1142,
+  "desc": "Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadad"
+ },
+ {
+  "repo": "scrapy-plugins/scrapy-playwright",
+  "stars": 1463,
+  "license": "BSD-3-Clause",
+  "lang": "Python",
+  "pushed": "2026-11-01",
+  "archived": false,
+  "open_issues": 22,
+  "desc": "\ud83c\udfad Playwright integration for Scrapy"
+ },
+ {
+  "repo": "projectdiscovery/katana",
+  "stars": 17780,
+  "license": "MIT",
+  "lang": "Go",
+  "pushed": "2026-11-01",
+  "archived": false,
+  "open_issues": 39,
+  "desc": "A next-generation crawling and spidering framework."
+ },
+ {
+  "repo": "mozilla/readability",
+  "stars": 11520,
+  "license": "Apache-2.0",
+  "lang": "JavaScript",
+  "pushed": "2026-08-04",
+  "archived": false,
+  "open_issues": 320,
+  "desc": "A standalone version of the readability lib"
+ },
+ {
+  "repo": "microsoft/markitdown",
+  "stars": 193332,
+  "license": "MIT",
+  "lang": "Python",
+  "pushed": "2026-10-28",
+  "archived": false,
+  "open_issues": 782,
+  "desc": "Python tool for converting files and office documents to Markdown."
+ }
+]

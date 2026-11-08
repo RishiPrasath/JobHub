@@ -1,0 +1,155 @@
+{
+ "agent_id": "A5",
+ "company_chosen": "Singlife (Singapore Life Ltd)",
+ "why_chosen": "Assigned",
+ "industry": "Life insurance / financial services",
+ "needs": {
+  "identity": {
+   "status": "answered",
+   "confidence": "high",
+   "summary": "Real MAS-licensed Singapore insurer; Singapore Life Ltd; founded 2014/2017 by Walter de Oude; merged with Aviva Singapore (announced 2020, company says 2022); Sumitomo Life bought Aviva's 25.9% stake in 2023; CEO Pearlyn Phau.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Singlife",
+    "https://singlife.com/en/about-us",
+    "https://thekopinotes.com/articles/life-insurance/singapore-life-ltd-insurance-review-2026"
+   ],
+   "how_openserp_helped": "Search + Wikipedia and company page extraction worked well.",
+   "what_was_missing": "Merger date inconsistent across sources (2020 deal vs 2022 per company)."
+  },
+  "business_and_headcount": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "Life/health/savings/investment insurer, also Singlife Financial Advisers, presence in Philippines. Headcount only from third-party aggregators (Revelio snippet: 1,615 employees Mar 2026 for 'Singlife Financial'; ZoomInfo 501-1,000 for the advisers arm); unreliable and not extracted.",
+   "sources": [
+    "https://www.reveliolabs.com/companies/singlife-financial/employees",
+    "https://www.zoominfo.com/c/singlife-financial-advisers/1323043693",
+    "https://singlife.com/content/dam/public/sg/documents/investment/reports/ilf-funds-report-jun2026-thin-web.pdf"
+   ],
+   "how_openserp_helped": "Search snippets gave numbers.",
+   "what_was_missing": "No authoritative headcount; Revelio extract failed."
+  },
+  "financial_performance": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "Annual report snippet: new business grew over 20% and net customer growth over 20% (2025). Third-party review claims AUM S$10B+ (unverified, appears low). Actual profit figures not read: annual report and financial statement PDFs found but extraction failed or not attempted.",
+   "sources": [
+    "https://6rt99wqv.media.zestyio.com/2025_Singlife_Annual_Report-_v8small_Publishing_04292026.pdf",
+    "https://singlife.com/content/dam/public/sg/documents/merger/singapore-life-holdings-financial-statements-fy2025.pdf"
+   ],
+   "how_openserp_helped": "Located primary documents via search.",
+   "what_was_missing": "PDF extraction failed (502); no profit numbers."
+  },
+  "layoffs_restructuring": {
+   "status": "not_found",
+   "confidence": "low",
+   "summary": "Two searches returned only generic Singapore layoff pages, no Singlife-specific item. Absence of results is weak evidence, not proof of no layoffs.",
+   "sources": [
+    "https://layoffsg.com/"
+   ],
+   "how_openserp_helped": "Search ran but returned generic results.",
+   "what_was_missing": "Could not check layoffsg tracker for Singlife entries."
+  },
+  "culture_and_sentiment": {
+   "status": "partial",
+   "confidence": "medium",
+   "summary": "Glassdoor snippets: 3.4/5 from 254 reviews; ~53-54% recommend to a friend; work-life balance 3.6 (Singapore 3.7); culture 3.5; career opportunities 3.3. Review text unreadable.",
+   "sources": [
+    "https://www.glassdoor.com/Reviews/Singlife-Reviews-E3512693.htm",
+    "https://www.glassdoor.com/Reviews/Singlife-work-life-balance-Reviews-EI_IE3512693.0,8_KH9,26.htm"
+   ],
+   "how_openserp_helped": "Search snippets carried the aggregate ratings.",
+   "what_was_missing": "Glassdoor extract failed; no review text."
+  },
+  "pay_and_benefits": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "Snippets: Glassdoor average Operations salary in Singapore S$5,300 (5 salaries only); generic Operations Analyst average S$5,301/mo on Indeed. Nothing for relationship manager; benefits only 'flexi work' in review phrases.",
+   "sources": [
+    "https://www.glassdoor.sg/Salary/Singlife-Operations-Singapore-Salaries-EJI_IE3512693.0,8_KO9,19_IL.20,29_IM1123.htm",
+    "https://sg.indeed.com/career/operations-analyst/salaries"
+   ],
+   "how_openserp_helped": "Snippets gave a few figures.",
+   "what_was_missing": "Salary pages not extractable; tiny samples; no RM data."
+  },
+  "interview_and_hiring": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "Interview review pages exist (Glassdoor 35 reviews, NodeFlair) but not read. Snippet: internship difficulty 3/5.",
+   "sources": [
+    "https://www.glassdoor.com/Interview/Singlife-Interview-Questions-E3512693.htm",
+    "https://nodeflair.com/companies/singlife-3e0474dd-1cbb-4e64-a187-e8e0b6b16015/interviews"
+   ],
+   "how_openserp_helped": "Found the pages.",
+   "what_was_missing": "Content not read."
+  },
+  "red_flags_and_scams": {
+   "status": "partial",
+   "confidence": "low",
+   "summary": "Singlife homepage carries a scam-call alert about people impersonating Singlife staff or financial adviser representatives (customer-facing scam, not hiring scam). No regulatory penalty found, but search was weak.",
+   "sources": [
+    "https://singlife.com/en"
+   ],
+   "how_openserp_helped": "Surfaced the official alert.",
+   "what_was_missing": "No dedicated MAS enforcement search results."
+  },
+  "recent_news": {
+   "status": "partial",
+   "confidence": "medium",
+   "summary": "Feb 2026 launch of gold-backed ILPs (Wikipedia citing Straits Times); Oct 2026 Straits Times piece on CEO Phau eyeing growth and acquisitions (snippet only); Oct 2026 Bloomberg: Sumitomo Life CEO targets acquisitions in SE Asia/US.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Singlife",
+    "https://www.straitstimes.com/opinion/pearlyn-phau-is-in-the-market-for-a-suitable-match-for-singlife",
+    "https://www.bloomberg.com/news/articles/2026-10-15/sumitomo-life-ceo-targets-acquisitions-in-southeast-asia-us"
+   ],
+   "how_openserp_helped": "Search surfaced current news.",
+   "what_was_missing": "Articles not read; newsroom page extracted with no news content."
+  }
+ },
+ "tool": {
+  "searches": 11,
+  "extracts": 9,
+  "failed_or_blocked_calls": 5,
+  "blocked_or_unreadable_sites": [
+   "glassdoor.com (502 extract_failed)",
+   "glassdoor.sg salaries (502)",
+   "reveliolabs.com (502)",
+   "zestyio annual report PDF (502)",
+   "sumitomolife.co.jp PDF (502)",
+   "singlife.com newsroom (200 but no news text, likely JS-rendered)"
+  ],
+  "most_useful_sources": [
+   "Search snippets (Glassdoor aggregate ratings)",
+   "en.wikipedia.org/wiki/Singlife",
+   "singlife.com/en/about-us",
+   "thekopinotes.com review"
+  ],
+  "search_relevance_1to5": 3,
+  "extraction_quality_1to5": 2,
+  "coverage_of_needs_1to5": 2,
+  "reliability_1to5": 3,
+  "misleading_or_wrong_results": [
+   "Layoff queries returned unrelated Canva/Porsche/generic results",
+   "Scam query returned generic scam checkers",
+   "Headcount results were for 'Singlife Financial' / advisers arm, not the whole group",
+   "Third-party review gives AUM S$10B+ and Founded 2014 vs Wikipedia 2017"
+  ],
+  "minutes_spent": 10
+ },
+ "verdict": {
+  "would_rely_on_for_a_job_decision": "with_caveats",
+  "reasoning": "Search finds the right pages and snippets carry key numbers, but extraction failed on almost every high-value page (Glassdoor, PDFs, aggregators), so culture, pay, interview and financial detail rest on snippets.",
+  "biggest_gaps": [
+   "Financial figures",
+   "Layoffs",
+   "Review text",
+   "RM salary",
+   "Headcount"
+  ],
+  "what_else_a_job_seeker_would_need": [
+   "Actual employee review text",
+   "Relationship manager pay and commission structure",
+   "Recent layoff checks",
+   "Contact with current staff"
+  ]
+ }
+}

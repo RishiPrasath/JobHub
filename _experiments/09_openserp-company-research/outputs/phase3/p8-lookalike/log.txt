@@ -1,0 +1,17 @@
+[   4.7s] 6 queries written
+[  37.7s] search 200 8 organic in 33.0s via ['duckduckgo'] :: DBS Bank Singapore Recruitment Pte Ltd employee re
+[  79.8s] search 200 8 organic in 42.0s via ['duckduckgo'] :: DBS Bank Singapore Recruitment Pte Ltd layoffs res
+[ 121.8s] search 200 8 organic in 42.1s via ['duckduckgo'] :: DBS Bank Singapore Recruitment Pte Ltd scam fraud 
+[ 164.2s] search 200 8 organic in 42.3s via ['duckduckgo'] :: DBS Bank Singapore Recruitment Pte Ltd interview p
+[ 206.0s] search 200 8 organic in 41.8s via ['duckduckgo'] :: DBS Bank Singapore Recruitment Pte Ltd salary info
+[ 242.2s] search 200 8 organic in 36.2s via ['duckduckgo'] :: DBS Bank Singapore Recruitment Pte Ltd lawsuits re
+[ 242.2s] 46 unique organic URLs, reading 8
+[ 242.8s] page ok        9037 chars   0.6s https://sg.indeed.com/cmp/Dbs-Bank/reviews
+[ 245.5s] page ok        2195 chars   1.2s https://sg.indeed.com/cmp/Dbs-Bank/salaries
+[ 247.5s] page ok         961 chars   0.5s https://sg.jobstreet.com/companies/dbs-bank-168553715857256/reviews
+[ 249.3s] page error        0 chars   0.3s https://www.glassdoor.sg/Reviews/DBS-Bank-Reviews-E611812.htm
+[ 251.1s] page error        0 chars   0.3s https://www.glassdoor.sg/Reviews/DBS-Bank-Singapore-Reviews-EI_IE61181
+[ 253.1s] page ok         961 chars   0.5s https://sg.jobstreet.com/companies/dbs-bank-168553715857256
+[ 254.9s] page error        0 chars   0.4s https://www.glassdoor.com/Reviews/DBS-Bank-singapore-Reviews-EI_IE6118
+[ 256.8s] page ok        2601 chars   0.4s https://www.prepnplaced.com/company-ratings/dbs
+[ 523.6s] brief: appears_real_and_consistent / high ; claims verified 11, unverified 4

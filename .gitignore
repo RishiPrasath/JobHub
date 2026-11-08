@@ -2,3 +2,8 @@
 .env
 .env.*
 !.env.example
+
+# Local prototype dependencies
+node_modules/
+__pycache__/
+*.pyc

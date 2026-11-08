@@ -1,0 +1,86 @@
+{
+ "Grab": [
+  "registered_not_active",
+  "53355133A",
+  "GRAB",
+  "Cancelled (Non-Renewal)",
+  null
+ ],
+ "Shopee": [
+  "multiple_entities",
+  null,
+  null,
+  null,
+  "202143332W"
+ ],
+ "Ninja Van": [
+  "similar_name_only",
+  null,
+  null,
+  null,
+  "T12LL0437D"
+ ],
+ "Deliveroo": [
+  "similar_name_only",
+  null,
+  null,
+  null,
+  "201534633Z"
+ ],
+ "Jollibee": [
+  "similar_name_only",
+  null,
+  null,
+  null,
+  "200507479R"
+ ],
+ "BreadTalk": [
+  "confirmed",
+  "200003528M",
+  "BREADTALK PTE LTD",
+  "Live Company",
+  null
+ ],
+ "Courts": [
+  "multiple_entities",
+  null,
+  null,
+  null,
+  "201001347K"
+ ],
+ "Old Chang Kee": [
+  "confirmed",
+  "200416190W",
+  "OLD CHANG KEE LTD.",
+  "Live Company",
+  null
+ ],
+ "Paris Baguette": [
+  "similar_name_only",
+  null,
+  null,
+  null,
+  "201108952N"
+ ],
+ "Mr Bean": [
+  "similar_name_only",
+  null,
+  null,
+  null,
+  "202024062H"
+ ],
+ "Ya Kun Kaya Toast": [
+  "similar_name_only",
+  null,
+  null,
+  null,
+  "200701478N"
+ ],
+ "Din Tai Fung": [
+  "similar_name_only",
+  null,
+  null,
+  null,
+  "53442777D"
+ ]
+}

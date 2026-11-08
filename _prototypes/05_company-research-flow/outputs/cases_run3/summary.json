@@ -1,0 +1,68 @@
+[
+ {
+  "id": "c01",
+  "seen": true,
+  "employer": "Raffles Medical Group",
+  "expected": [
+   "exists_and_consistent"
+  ],
+  "got": "exists_and_consistent",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: confirmed",
+   "model: consistent across 3 pages"
+  ],
+  "degraded": [],
+  "seconds": 70.4
+ },
+ {
+  "id": "c02",
+  "seen": true,
+  "employer": "Lazada Singapore",
+  "expected": [
+   "exists_and_consistent",
+   "exists_limited_evidence"
+  ],
+  "got": "exists_and_consistent",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: confirmed",
+   "model: consistent across 5 pages"
+  ],
+  "degraded": [],
+  "seconds": 6.2
+ },
+ {
+  "id": "c03",
+  "seen": true,
+  "employer": "Avanguarde Pte. Ltd.",
+  "expected": [
+   "exists_limited_evidence"
+  ],
+  "got": "exists_limited_evidence",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (1 pages read, model: appears_real_and_consistent)"
+  ],
+  "degraded": [],
+  "seconds": 127.9
+ },
+ {
+  "id": "c09",
+  "seen": false,
+  "employer": "Sheng Siong Group Ltd",
+  "expected": [
+   "exists_and_consistent",
+   "exists_limited_evidence"
+  ],
+  "got": "exists_and_consistent",
+  "verdict": "RIGHT",
+  "reasons": [
+   "registry: confirmed",
+   "model: consistent across 4 pages"
+  ],
+  "degraded": [],
+  "seconds": 127.6
+ }
+]

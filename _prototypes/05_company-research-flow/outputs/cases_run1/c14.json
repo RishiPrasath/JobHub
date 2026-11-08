@@ -1,0 +1,45 @@
+{
+ "employer": "Land Transport Authority",
+ "role": "Project Officer",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "public_body",
+  "summary": "Land Transport Authority looks like a statutory board or government body. These are not in the company registry, so existence has to be checked on the agency's own .gov.sg site.",
+  "basis": "name only",
+  "entity": null,
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": "the registry settled it (public_body); web research would not change the headline",
+  "available": false,
+  "queries": [],
+  "pages": [],
+  "skipped_by_policy": [],
+  "gate": {
+   "phrases": [
+    "land transport authority"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 0,
+   "none": true,
+   "strong": false
+  },
+  "engines_used": []
+ },
+ "headline": "public_body",
+ "headline_meaning": "A government body or statutory board. These are not in the company registry; check the agency's own .gov.sg site.",
+ "reasons": [
+  "registry: public_body"
+ ],
+ "brief": null,
+ "could_not_read": [],
+ "link_out": [],
+ "could_not_verify": [],
+ "seconds": 0.3,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

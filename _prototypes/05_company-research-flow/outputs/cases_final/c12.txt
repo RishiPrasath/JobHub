@@ -1,0 +1,7 @@
+Randstad Pte Limited  (role: Recruitment Consultant)
+HEADLINE: identity_mismatch
+  The company ID in the posting does not match the name in the posting.
+  because: registry: uen_name_mismatch
+REGISTRY: uen_name_mismatch. The company ID 199201624D in the posting belongs to SINGAPORE TELECOMMUNICATIONS LIMITED, which is not the name used in the posting (Randstad Pte Limited). This also happens when a posting uses a trading or brand name; otherwise it is a reason to be careful.
+WEB: skipped, the registry settled it (uen_name_mismatch); web research would not change the headline
+(0.0s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

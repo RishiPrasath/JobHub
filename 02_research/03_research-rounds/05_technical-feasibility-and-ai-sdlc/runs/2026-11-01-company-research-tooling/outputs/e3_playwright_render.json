@@ -1,0 +1,117 @@
+[
+ {
+  "id": "P03",
+  "url": "https://www.palo-it.com/",
+  "plain_status": "ok",
+  "plain_chars": 7377,
+  "http": 200,
+  "rendered_chars": 6334,
+  "title": "A Leading Technology Consultancy | PALO IT",
+  "status": "ok",
+  "seconds": 6
+ },
+ {
+  "id": "P04",
+  "url": "https://www.grab.com/sg/",
+  "plain_status": "ok",
+  "plain_chars": 15742,
+  "http": 200,
+  "rendered_chars": 5630,
+  "title": "Grab. The Everyday Everything App",
+  "status": "ok",
+  "seconds": 1.3
+ },
+ {
+  "id": "P05",
+  "url": "https://www.amkh.org.sg/",
+  "plain_status": "ok",
+  "plain_chars": 3754,
+  "http": 200,
+  "rendered_chars": 6618,
+  "title": "Home - Ang Mo Kio - Thye Hua Kwan Hospital",
+  "status": "ok",
+  "seconds": 2.5
+ },
+ {
+  "id": "P06",
+  "url": "https://www.sgh.com.sg/",
+  "plain_status": "ok",
+  "plain_chars": 8408,
+  "http": 200,
+  "rendered_chars": 3455,
+  "title": "Singapore General Hospital | Trusted Care, Advancing Medicine",
+  "status": "ok",
+  "seconds": 1
+ },
+ {
+  "id": "P07",
+  "url": "https://www.hrnetgroup.com/",
+  "plain_status": "ok",
+  "plain_chars": 1361,
+  "http": 200,
+  "rendered_chars": 1589,
+  "title": "HRnetGroup",
+  "status": "ok",
+  "seconds": 1.1
+ },
+ {
+  "id": "P08",
+  "url": "https://www.dhl.com/sg-en/home/supply-chain.html",
+  "plain_status": "fetch_failed:ConnectionResetError",
+  "plain_chars": null,
+  "status": "render_failed:page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.dhl.com/sg-en/home/suppl",
+  "seconds": 0.1
+ },
+ {
+  "id": "P10",
+  "url": "https://www.marinabaysands.com/",
+  "plain_status": "fetch_failed:ConnectionResetError",
+  "plain_chars": null,
+  "status": "render_failed:page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.marinabaysands.com/",
+  "seconds": 0.1
+ },
+ {
+  "id": "P11",
+  "url": "https://www.natureland.com.sg/",
+  "plain_status": "ok",
+  "plain_chars": 11220,
+  "http": 200,
+  "rendered_chars": 10467,
+  "title": "Massage & Wellness Spa in Singapore | Natureland",
+  "status": "ok",
+  "seconds": 3.5
+ },
+ {
+  "id": "P12",
+  "url": "https://www.fairprice.com.sg/",
+  "plain_status": "ok",
+  "plain_chars": 2532,
+  "http": 200,
+  "rendered_chars": 2790,
+  "title": "Shop Groceries, Fresh Food & Home Essentials",
+  "status": "ok",
+  "seconds": 8.8
+ },
+ {
+  "id": "P14",
+  "url": "https://www.littleskoolhouse.com/",
+  "plain_status": "ok",
+  "plain_chars": 12948,
+  "http": 200,
+  "rendered_chars": 5872,
+  "title": "Top Preschool, Kindergarten & Childcare - Little Skool-House",
+  "status": "ok",
+  "seconds": 2.3
+ },
+ {
+  "id": "P15",
+  "url": "https://www.randstad.com.sg/",
+  "plain_status": "ok",
+  "plain_chars": 8536,
+  "http": 200,
+  "rendered_chars": 5058,
+  "title": "Recruitment Agency | Job Agency | Randstad Singapore",
+  "status": "ok",
+  "seconds": 1.3
+ }
+]

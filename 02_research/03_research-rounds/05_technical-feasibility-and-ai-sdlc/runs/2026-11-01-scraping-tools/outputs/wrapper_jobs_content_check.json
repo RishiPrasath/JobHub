@@ -1,0 +1,37 @@
+[
+ {
+  "chars": 6057,
+  "tier": "render",
+  "seconds": 3.02,
+  "has_responsibilities": true,
+  "has_requirements": true
+ },
+ {
+  "chars": 2132,
+  "tier": "render",
+  "seconds": 2.78,
+  "has_responsibilities": true,
+  "has_requirements": true
+ },
+ {
+  "chars": 3209,
+  "tier": "render",
+  "seconds": 2.93,
+  "has_responsibilities": true,
+  "has_requirements": true
+ },
+ {
+  "chars": 3402,
+  "tier": "render",
+  "seconds": 2.84,
+  "has_responsibilities": true,
+  "has_requirements": true
+ },
+ {
+  "chars": 1949,
+  "tier": "render",
+  "seconds": 3.45,
+  "has_responsibilities": true,
+  "has_requirements": true
+ }
+]

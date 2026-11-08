@@ -1,0 +1,20 @@
+# Local SearXNG for the JobHub pipeline. Private instance: bound to localhost only, no public access.
+use_default_settings: true
+
+general:
+  instance_name: "jobhub-local-search"
+
+search:
+  safe_search: 0
+  formats:
+    - html
+    - json        # the pipeline reads /search?format=json
+
+server:
+  limiter: false          # private, localhost-only; the limiter protects public instances
+  image_proxy: false
+  # secret_key comes from the SEARXNG_SECRET environment variable (docker-compose.yml), never from this file
+
+outgoing:
+  request_timeout: 6.0
+  max_request_timeout: 10.0

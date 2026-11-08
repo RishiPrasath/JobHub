@@ -1,0 +1,299 @@
+{
+ "employer": "Avanguarde Pte. Ltd.",
+ "role": "Customer Service Executive",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "AVANGUARDE PTE. LTD. is registered in Singapore (status: Live Company, registered 2025-10-13).",
+  "basis": "name only",
+  "entity": {
+   "uen": "202545538Z",
+   "name": "AVANGUARDE PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2025-10-13",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Avanguarde Pte. Ltd.\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 3,
+    "error": null
+   },
+   {
+    "query": "\"Avanguarde Pte. Ltd.\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Avanguarde Pte. Ltd.\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Avanguarde Pte. Ltd.\" Customer Service Executive interview process salary",
+    "ok": true,
+    "engine": null,
+    "results": 0,
+    "error": null
+   },
+   {
+    "query": "\"Avanguarde Pte. Ltd.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 4,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://sg.ltddir.com/companies/avanguarde-pte-ltd",
+    "status": "thin",
+    "chars": 164,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Avanguarde-Pte-Ltd",
+    "status": "ok",
+    "chars": 1298,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.mycareersfuture.gov.sg/job/food-and-beverage/commis-chef-avanguarde-16df831499d19f0b8ca8f85dec9e4154",
+    "status": "ok",
+    "chars": 4269,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/business/202545538Z/AVANGUARDE-PTE-LTD",
+    "status": "ok",
+    "chars": 5823,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://recordowl.com/company/avanguarde-pte-ltd",
+    "status": "ok",
+    "chars": 3627,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.linkedin.com/jobs/view/commis-chef-at-avanguarde-pte-ltd-4468454729",
+    "title": "Commis Chef at AVANGUARDE PTE. LTD. — Singapore, Singapore | LinkedIn Jobs",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "avanguarde"
+   ],
+   "pages_with_exact_name": 4,
+   "snippets_with_exact_name": 8,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 15,
+  "registry_mirror_pages": 3
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (1 pages read, model: appears_real_and_consistent)"
+ ],
+ "brief": {
+  "confidence": "high",
+  "could_not_verify": [
+   "Specific details about the Customer Service Executive role (responsibilities, salary, reporting line)",
+   "Company's exact business operations beyond holding activities"
+  ],
+  "key_facts": [
+   {
+    "claim": "Avanguarde Pte. Ltd. is a Singapore-registered private company (Local Company).",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Legal name: AVANGUARDE PTE. LTD. ... Entity type: Local Company",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 2,
+      "url": "https://www.sgpbusiness.com/company/Avanguarde-Pte-Ltd",
+      "quote": "Entity Type Private Company Limited By Shares ... Type of Local Company",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Company was incorporated on 13 October 2025 and is currently live.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Registered: 2025-10-13 ... Status: Live Company",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 2,
+      "url": "https://www.sgpbusiness.com/company/Avanguarde-Pte-Ltd",
+      "quote": "Incorporated 13 Oct 2025 (13 months) ... Status Live Company",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "UEN (Unique Entity Number) is 202545538Z.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Company ID: 202545538Z",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 2,
+      "url": "https://www.sgpbusiness.com/company/Avanguarde-Pte-Ltd",
+      "quote": "UEN 202545538Z",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Registered address is 22 Sin Ming Lane, #06-76, Midview City, Singapore 573969.",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://www.sgpbusiness.com/company/Avanguarde-Pte-Ltd",
+      "quote": "Registered Address 22 SIN MING LANE #06-76 MIDVIEW CITY SINGAPORE (573969)",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 4,
+      "url": "https://www.companies.sg/business/202545538Z/AVANGUARDE-PTE-LTD",
+      "quote": "Registered address is at 22 SIN MING LANE, #6-76, MIDVIEW CITY, Singapore 573969",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Principal activity is holding companies of firms engaged in non‑financial and insurance activities (SSIC 64202).",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://www.sgpbusiness.com/company/Avanguarde-Pte-Ltd",
+      "quote": "principal activity is holding companies of firms engaged in non‑financial and insurance activities",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 4,
+      "url": "https://www.companies.sg/business/202545538Z/AVANGUARDE-PTE-LTD",
+      "quote": "Registered business activities: 64202 — Holding companies of firms engaged in non‑financial and insurance activities",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "Company appears in multiple independent registries with consistent details.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Status: Live Company",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 1,
+      "url": "https://sg.ltddir.com/companies/avanguarde-pte-ltd",
+      "quote": "current entity status is Live Company",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 2,
+      "url": "https://www.sgpbusiness.com/company/Avanguarde-Pte-Ltd",
+      "quote": "Operating Status Live Company as on 26 Mar 2026",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Company has an online presence (website quaichbar.com.sg) indicating active business.",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://recordowl.com/company/avanguarde-pte-ltd",
+      "quote": "Website quaichbar.com.sg ↗",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "red_flags": [],
+  "validity_reasoning": "Several independent sources (official registry record, business directories, and a corporate profile) consistently confirm the company's name, registration date, UEN, status, address, and principal activity. No conflicting information was found, and the data aligns across at least three separate records.",
+  "claims_verified": 6,
+  "claims_unverified": 1,
+  "model_validity_status": "appears_real_and_consistent"
+ },
+ "could_not_read": [
+  {
+   "url": "https://sg.ltddir.com/companies/avanguarde-pte-ltd",
+   "why": "thin: fewer than 400 characters of real content"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://sg.linkedin.com/jobs/view/commis-chef-at-avanguarde-pte-ltd-4468454729",
+   "title": "Commis Chef at AVANGUARDE PTE. LTD. — Singapore, Singapore | LinkedIn Jobs",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Specific details about the Customer Service Executive role (responsibilities, salary, reporting line)",
+  "Company's exact business operations beyond holding activities"
+ ],
+ "seconds": 127.9,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

@@ -1,0 +1,264 @@
+{
+ "employer": "Singapore Airlines Careers Hub Pte Ltd",
+ "role": "Cabin Crew",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "not_in_registry",
+  "summary": "No registered entity in Singapore resembles 'Singapore Airlines Careers Hub Pte Ltd'.",
+  "basis": "name only",
+  "entity": null,
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Singapore Airlines Careers Hub Pte Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Singapore Airlines Careers Hub Pte Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Singapore Airlines Careers Hub Pte Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Singapore Airlines Careers Hub Pte Ltd\" Cabin Crew interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Singapore Airlines Careers Hub Pte Ltd\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.comparably.com/companies/singapore-airlines/reviews/1897081/service-is-very-good-and-conssitent",
+    "status": "thin",
+    "chars": 354,
+    "note": "fewer than 400 characters of real content",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.bestinsingapore.co/best-recruitment-agencies-singapore",
+    "status": "ok",
+    "chars": 42087,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.pilotjobsnetwork.com/jobs/Singapore_Airlines",
+    "status": "ok",
+    "chars": 6769,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://sea.peoplemattersglobal.com/news/compensation-benefits/singapore-salary-increases-to-remain-steady-at-4percent-in-2027-as-employers-prioritise-skills-and-role-redesign-wtw-51067",
+    "status": "irrelevant",
+    "chars": 4814,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.singaporeair.com/en_UK/sg/corporate/newsroom/newsalert-listing/advisory-on-phishing-scams-and-good-cybersecurity-practice/?msockid=036a70112d5f682438fc681b2cc769b7",
+    "status": "thin",
+    "chars": 302,
+    "note": "fewer than 400 characters of real content",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.scamshield.gov.sg/check-for-scams",
+    "status": "irrelevant",
+    "chars": 471,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.centreforcybersecurity.com/scam-alerts",
+    "status": "irrelevant",
+    "chars": 38284,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.scamshield.gov.sg/",
+    "status": "irrelevant",
+    "chars": 2190,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Civil-Aviation-Authority-of-Singapore-Reviews-E242460.htm",
+    "title": "Civil Aviation Authority of Singapore Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.linkedin.com/pulse/top-recruitment-agencies-singapore-2026-expert-review-6lnzc",
+    "title": "Top Recruitment Agencies in Singapore 2026: An …",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Iss-World-e8c83370/reviews?fcountry=SG&floc=Singapore",
+    "title": "ISS World Employee Reviews in Singapore - Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/recruitfirst-168534295843333",
+    "title": "Working at RecruitFirst company profile and information | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "singapore airlines careers hub"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 0,
+   "none": true,
+   "strong": false
+  },
+  "engines_used": [
+   "bing"
+  ]
+ },
+ "headline": "could_not_confirm_company",
+ "headline_meaning": "Neither the registry nor the web confirms this company exists under this name.",
+ "reasons": [
+  "registry: not_in_registry",
+  "exact name seen 0 times"
+ ],
+ "brief": {
+  "confidence": "low",
+  "could_not_verify": [
+   "No source confirms the existence of a company named \"Singapore Airlines Careers Hub Pte Ltd\" in Singapore."
+  ],
+  "key_facts": [],
+  "positive_signals": [],
+  "red_flags": [
+   {
+    "claim": "The name resembles Singapore Airlines but may be used in phishing scams.",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.singaporeair.com/en_UK/sg/corporate/newsroom/newsalert-listing/advisory-on-phishing-scams-and-good-cybersecurity-practice/?msockid=036a70112d5f682438fc681b2cc769b7",
+      "quote": "Singapore Airlines (SIA) wishes to advise … protection of our customers’ personal data is of utmost importance",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 6,
+      "url": "https://www.scamshield.gov.sg/check-for-scams",
+      "quote": "How to check for scams on ScamShield app Learn how to use the ScamShield app",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 7,
+      "url": "https://www.centreforcybersecurity.com/scam-alerts",
+      "quote": "Know the scam before it reaches you The scams circulating in Singapore right …",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://www.scamshield.gov.sg/",
+      "quote": "Monthly Scams Bulletin Get updates of the latest scams trends and scam statistics",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "validity_reasoning": "The company registry (source 0) did not list a company with this exact name, and none of the provided sources contain any direct reference to \"Singapore Airlines Careers Hub Pte Ltd\". The only relevant information are general scam warnings from Singapore authorities, indicating a risk of fraudulent use of similar airline branding. Therefore the existence of the specific entity cannot be verified.",
+  "claims_verified": 1,
+  "claims_unverified": 0,
+  "model_validity_status": "cannot_verify",
+  "suppressed": "facts and positive signals hidden: the company was not confirmed under this exact name"
+ },
+ "could_not_read": [
+  {
+   "url": "https://www.comparably.com/companies/singapore-airlines/reviews/1897081/service-is-very-good-and-conssitent",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://sea.peoplemattersglobal.com/news/compensation-benefits/singapore-salary-increases-to-remain-steady-at-4percent-in-2027-as-employers-prioritise-skills-and-role-redesign-wtw-51067",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.singaporeair.com/en_UK/sg/corporate/newsroom/newsalert-listing/advisory-on-phishing-scams-and-good-cybersecurity-practice/?msockid=036a70112d5f682438fc681b2cc769b7",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://www.scamshield.gov.sg/check-for-scams",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.centreforcybersecurity.com/scam-alerts",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.scamshield.gov.sg/",
+   "why": "irrelevant: the page never mentions the company name"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Civil-Aviation-Authority-of-Singapore-Reviews-E242460.htm",
+   "title": "Civil Aviation Authority of Singapore Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.linkedin.com/pulse/top-recruitment-agencies-singapore-2026-expert-review-6lnzc",
+   "title": "Top Recruitment Agencies in Singapore 2026: An …",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Iss-World-e8c83370/reviews?fcountry=SG&floc=Singapore",
+   "title": "ISS World Employee Reviews in Singapore - Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/recruitfirst-168534295843333",
+   "title": "Working at RecruitFirst company profile and information | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "No source confirms the existence of a company named \"Singapore Airlines Careers Hub Pte Ltd\" in Singapore."
+ ],
+ "seconds": 125.0,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}
