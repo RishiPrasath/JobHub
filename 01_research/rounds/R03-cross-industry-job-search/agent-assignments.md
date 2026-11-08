@@ -10,7 +10,7 @@ Status: execution design only. Three native subagents helped plan the round: sec
 4. **Three collection workers** cover two selected baskets each. They apply Job Domain Researcher and Job-Seeker Practices Researcher role definitions, not a generic software-developer lens. A fourth bounded worker may own the shared vacancy-credibility strand.
 5. **Evidence Synthesizer** consolidates source families, comparison and limitations after collection. This is reconciliation, not a fresh unbounded search sweep.
 6. **Independent Responsible AI / Quality reviewer** checks status/intent inferences, survey methods, source independence, sector attribution, completeness and privacy. UX Expert adds access/comprehension review only where needed.
-7. The **Product Strategist** proposes evidence-linked questions or candidate comparisons for `03_analysis/`; the **Decision Record Keeper** records only decisions actually accepted by the owner.
+7. The **Product Strategist** proposes evidence-linked questions or candidate comparisons for `02_analysis/reports/`; the **Decision Record Keeper** records only decisions actually accepted by the owner.
 
 Keep no more than four simultaneous collectors and no more than five specialists active overall. Planning/query and synthesis/review stages need not all run concurrently. A collector must not review its own consequential employer-intent claim as independent validation.
 
@@ -35,4 +35,4 @@ Every specialist reports task/scope, exact files and original sources inspected,
 
 For every proposed claim about hiring intent, hand off the requisition/time scope, original observation or statement, source dependence, plausible alternatives, what remains unknown and whether independent corroboration exists. Ambiguous cases and any proposed deception finding need separate review; disagreement stays visible.
 
-The [presentation specialist](../../../_agents/18_research-presentation-strategist.md) may brief accepted/reviewed research later, but slide creation is not part of this planning task. Full-Stack Developer, architecture work and AI-provider benchmarking are not default assignments for this round.
+The [presentation specialist](../../../agents/roles/18_research-presentation-strategist.md) may brief accepted/reviewed research later, but slide creation is not part of this planning task. Full-Stack Developer, architecture work and AI-provider benchmarking are not default assignments for this round.

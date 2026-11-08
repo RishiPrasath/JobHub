@@ -72,6 +72,6 @@ The [Product Strategist's proposed protocol](specialists/product-review.md) make
 
 ## Review disposition and promotion
 
-The workflow reviewer accepted the synthesis's qualifications in its post-synthesis check. The product reviewer found it suitable for promotion and requested one wording correction to avoid implying a study priority; that correction is applied above. Source thresholds, unranked status and limitations are retained. The [reviewed result](../../../../04_results/product-and-users/2026-10-18-job-search-friction.md) links back to this run and the [evidence index](../../../../05_evidence/external/2026-10-18-job-search-friction.md).
+The workflow reviewer accepted the synthesis's qualifications in its post-synthesis check. The product reviewer found it suitable for promotion and requested one wording correction to avoid implying a study priority; that correction is applied above. Source thresholds, unranked status and limitations are retained. The [reviewed result](../../results/product-and-users/2026-10-18-job-search-friction.md) links back to this run and the [evidence index](../../../../sources/external/2026-10-18-job-search-friction.md).
 
 No participant contact, prototype, product-scope change, strategy update, commit or external write is part of this run. No research decision record is necessary because the approved direction did not change and no product decision was made. Revisit before a consequential product decision or on 2027-01-18; no automation has been scheduled.

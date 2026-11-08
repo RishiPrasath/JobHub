@@ -23,7 +23,7 @@ The tests used:
 - synthetic contradiction and prompt-injection fixtures;
 - no private resume, personal identifier or real participant data.
 
-Source baseline: [Round 4 page inventory](../02_research/03_research-rounds/04_ai-assistance-and-trust/runs/2026-10-19-job-posting-page-inventory/page-inventory.md).
+Source baseline: [Round 4 page inventory](../../01_research/rounds/R04-ai-assistance-and-trust/runs/2026-10-19-job-posting-page-inventory/page-inventory.md).
 
 Models used:
 
@@ -35,7 +35,7 @@ Models used:
 
 ### 0. Model inventory
 
-Completed before this run. The SDK successfully listed the models available through the Groq account. The inventory is recorded in the [OpenAI SDK briefing](../Tools/OpenAI%20SDK/briefing.md).
+Completed before this run. The SDK successfully listed the models available through the Groq account. The inventory is recorded in the [OpenAI SDK briefing](../../tools/openai-sdk/briefing.md).
 
 ### 1. Claim-level grounding
 
@@ -123,7 +123,7 @@ Observed errors included:
 - merging three roles into one `role_id` instead of returning one comparison per role;
 - treating Excel experience as evidence of administrative experience despite an explicit prohibition;
 - stating that all three roles were full-time even though the Admin Assistant role was part-time;
-- introducing an unsupported Class 4 requirement into the Vehicle Mechanic analysis;
+- introducing an unsupported Class 4 requirement into the Vehicle Mechanic 02_analysis/reports;
 - omitting some known location and employment-type facts;
 - producing no explicit matches for the logistics role even though the profile contained relevant logistics experience.
 

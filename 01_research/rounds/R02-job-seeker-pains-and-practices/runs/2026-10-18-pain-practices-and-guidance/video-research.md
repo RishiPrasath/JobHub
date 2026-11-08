@@ -1,10 +1,10 @@
 # Round 02 video research — practices, guidance, and counterexamples
 
-Researcher: Job-Seeker Practices Researcher / Research Query Strategist. Access and analysis: 2026-10-18, Asia/Singapore (UTC+08:00). Status: specialist handoff; conclusions require coordinator review and human acceptance.
+Researcher: Job-Seeker Practices Researcher / Research Query Strategist. Access and 02_analysis/reports: 2026-10-18, Asia/Singapore (UTC+08:00). Status: specialist handoff; conclusions require coordinator review and human acceptance.
 
 ## Scope and evidence standard
 
-Read `AGENTS.md`, `_agents/README.md`, `_agents/04_job-seeker-practices-researcher.md`, `_agents/17_research-query-strategist.md`, this run's `brief.md`, and the round's `query-plan-draft.md`. Reviewed the complete caption text of all five supplied SRT files before complementary discovery, then all five new captures. Exact searches, candidate accounting, metadata checks, paths, download commands, failures, and file integrity are in [youtube-discovery-log.md](youtube-discovery-log.md).
+Read `AGENTS.md`, `agents/roles/README.md`, `agents/roles/04_job-seeker-practices-researcher.md`, `agents/roles/17_research-query-strategist.md`, this run's `brief.md`, and the round's `query-plan-draft.md`. Reviewed the complete caption text of all five supplied SRT files before complementary discovery, then all five new captures. Exact searches, candidate accounting, metadata checks, paths, download commands, failures, and file integrity are in [youtube-discovery-log.md](youtube-discovery-log.md).
 
 Ten caption files were analysed: five supplied and five additional; eight distinct creator/channel families. Six additional candidate URL checks count against the eight-candidate cap, including one inaccessible, incorrectly capitalised URL. Five canonical additional videos were captured. No audio listening or audiovisual verification was performed. Every high-impact claim below remains **unverified against audio**, including numbers, negations, role titles, legal/platform statements, and outcome accounts. Manual subtitle availability does not establish transcription accuracy.
 
@@ -21,7 +21,7 @@ All entries below paraphrase the captions. Timestamp ranges are navigation windo
 
 ### V01 — Spot the red flags in job listings | Work It podcast
 
-[Video](https://www.youtube.com/watch?v=iVeoEF3bzlY), CNA, published 2025-06-09 according to the supplied source index; Singapore employment discussion. [Caption](../../../../05_evidence/external/youtube/2026-10-18-job-posting-red-flags/iVeoEF3bzlY.en-orig.srt), English original automatic track, 796 cues, coverage 00:00:03–00:27:00. Hosts interview an executive-search practitioner. Guest-name spelling is not relied on because captions are automatic. Confidence: high that these themes appear in the text; low for their generality or predictive validity.
+[Video](https://www.youtube.com/watch?v=iVeoEF3bzlY), CNA, published 2025-06-09 according to the supplied source index; Singapore employment discussion. [Caption](../../../../sources/external/youtube/2026-10-18-job-posting-red-flags/iVeoEF3bzlY.en-orig.srt), English original automatic track, 796 cues, coverage 00:00:03–00:27:00. Hosts interview an executive-search practitioner. Guest-name spelling is not relied on because captions are automatic. Confidence: high that these themes appear in the text; low for their generality or predictive validity.
 
 | Caption window | Paraphrased evidence and classification |
 |---|---|
@@ -42,7 +42,7 @@ New retrieval vocabulary: headcount approval; budgeted vacancy; must-have versus
 
 ### V02 — 7 Sneaky Red Flags To Pay Attention To In Your Job Search
 
-[Video](https://www.youtube.com/watch?v=0KXDCuxi3jk), A Life After Layoff, published 2025-06-09 per supplied index; recruiter perspective with international/U.S.-leaning context. [Caption](../../../../05_evidence/external/youtube/2026-10-18-job-posting-red-flags/0KXDCuxi3jk.en-orig.srt), automatic English, 244 cues, 00:00:00–00:08:34. Same creator family as V04; not independent corroboration. Confidence: high for text attribution; low for inferred employer motives.
+[Video](https://www.youtube.com/watch?v=0KXDCuxi3jk), A Life After Layoff, published 2025-06-09 per supplied index; recruiter perspective with international/U.S.-leaning context. [Caption](../../../../sources/external/youtube/2026-10-18-job-posting-red-flags/0KXDCuxi3jk.en-orig.srt), automatic English, 244 cues, 00:00:00–00:08:34. Same creator family as V04; not independent corroboration. Confidence: high for text attribution; low for inferred employer motives.
 
 | Caption window | Paraphrased evidence and classification |
 |---|---|
@@ -60,7 +60,7 @@ Vocabulary: exploding offer; unpaid work sample; test shift; assessment scope; i
 
 ### V03 — Major RED FLAGS to look out for in Job Postings!
 
-[Video](https://www.youtube.com/watch?v=x2sgf8zlNao), Recruiter Preston, published 2023-04-28 per index. Speaker identifies technology recruiting experience; U.S. states are mentioned. [Caption](../../../../05_evidence/external/youtube/2026-10-18-job-posting-red-flags/x2sgf8zlNao.en-orig.srt), automatic English, 315 cues, 00:00:00–00:10:19. Confidence: high for advice attribution; low for reputation/quality conclusions.
+[Video](https://www.youtube.com/watch?v=x2sgf8zlNao), Recruiter Preston, published 2023-04-28 per index. Speaker identifies technology recruiting experience; U.S. states are mentioned. [Caption](../../../../sources/external/youtube/2026-10-18-job-posting-red-flags/x2sgf8zlNao.en-orig.srt), automatic English, 315 cues, 00:00:00–00:10:19. Confidence: high for advice attribution; low for reputation/quality conclusions.
 
 | Caption window | Paraphrased evidence and classification |
 |---|---|
@@ -78,7 +78,7 @@ Vocabulary: commission-only; rapid automated acceptance; employer identity verif
 
 ### V04 — 10 Red Flags to Look Out For In Job Postings
 
-[Video](https://www.youtube.com/watch?v=fCd4wZQaWqo), A Life After Layoff, published 2021-12-28 per index. U.S. references, older recruiter guidance; shared source family with V02. [Caption](../../../../05_evidence/external/youtube/2026-10-18-job-posting-red-flags/fCd4wZQaWqo.en-orig.srt), automatic English, 298 cues, 00:00:00–00:09:20. Confidence: high for caption content; low for causal or present-market claims.
+[Video](https://www.youtube.com/watch?v=fCd4wZQaWqo), A Life After Layoff, published 2021-12-28 per index. U.S. references, older recruiter guidance; shared source family with V02. [Caption](../../../../sources/external/youtube/2026-10-18-job-posting-red-flags/fCd4wZQaWqo.en-orig.srt), automatic English, 298 cues, 00:00:00–00:09:20. Confidence: high for caption content; low for causal or present-market claims.
 
 | Caption window | Paraphrased evidence and classification |
 |---|---|
@@ -96,7 +96,7 @@ Vocabulary: temp-to-perm; title/responsibility mismatch; vacancy refresh; geogra
 
 ### V05 — 6 Things Your Boss SECRETLY Means by “Nobody Wants to Work”
 
-[Video](https://www.youtube.com/watch?v=IF3McdG_dSY), Dani Careers, published 2026-10-11 per index. Contemporary commentary using American labour references, not Singapore research. [Caption](../../../../05_evidence/external/youtube/2026-10-18-job-posting-red-flags/IF3McdG_dSY.en-orig.srt), automatic English, 346 cues, 00:00:00–00:13:24. Confidence: high for themes, low for claims about employers' intentions. No independently verified personal job-search outcome appears in the caption text.
+[Video](https://www.youtube.com/watch?v=IF3McdG_dSY), Dani Careers, published 2026-10-11 per index. Contemporary commentary using American labour references, not Singapore research. [Caption](../../../../sources/external/youtube/2026-10-18-job-posting-red-flags/IF3McdG_dSY.en-orig.srt), automatic English, 346 cues, 00:00:00–00:13:24. Confidence: high for themes, low for claims about employers' intentions. No independently verified personal job-search outcome appears in the caption text.
 
 | Caption window | Paraphrased evidence and classification |
 |---|---|
@@ -119,7 +119,7 @@ The following five add salary/negotiation, truthful resumes, interview practice,
 
 ### V06 — Land a Job using ChatGPT: The Definitive Guide!
 
-[Video](https://www.youtube.com/watch?v=pmnY5V16GSE), Jeff Su, 2023-04-25, duration 10:19. [English subtitle capture](../../../../05_evidence/external/youtube/2026-10-18-round-02-additional/pmnY5V16GSE.en.srt), listed under manual subtitles, 314 cues. International office/technology examples. Same creator as V07, not an independent source family.
+[Video](https://www.youtube.com/watch?v=pmnY5V16GSE), Jeff Su, 2023-04-25, duration 10:19. [English subtitle capture](../../../../sources/external/youtube/2026-10-18-round-02-additional/pmnY5V16GSE.en.srt), listed under manual subtitles, 314 cues. International office/technology examples. Same creator as V07, not an independent source family.
 
 - 00:00:30–00:02:50 — Advice/demonstration: derive role problems, draft a cover-letter hook, then edit and connect it to relevant experience.
 - 00:03:00–00:04:30 — Demonstration described in captions: compare original and tailored wording; identifies an AI-changed job title and rejects that alteration while retaining transferable skills.
@@ -132,7 +132,7 @@ Vocabulary: original/updated diff; title substitution; transferable-skill mappin
 
 ### V07 — Write a Killer Résumé in the AI Era: 5 New Rules!
 
-[Video](https://www.youtube.com/watch?v=N1Fm4JYae1I), Jeff Su, 2026-09-15, duration 13:09. [Automatic English capture](../../../../05_evidence/external/youtube/2026-10-18-round-02-additional/N1Fm4JYae1I.en-orig.srt), 359 cues. International office-role examples; V06 family.
+[Video](https://www.youtube.com/watch?v=N1Fm4JYae1I), Jeff Su, 2026-09-15, duration 13:09. [Automatic English capture](../../../../sources/external/youtube/2026-10-18-round-02-additional/N1Fm4JYae1I.en-orig.srt), 359 cues. International office-role examples; V06 family.
 
 - 00:02:05–00:03:40 — Advice: check selectable text and simple formatting; mentions local conventions and system limits.
 - 00:03:40–00:05:45 — Distinguishes describing real work with relevant language from stuffing unsupported keywords; keep only provable suggestions.
@@ -146,7 +146,7 @@ Vocabulary: keyword mapping/stuffing; fact-first drafting; defensible metrics; t
 
 ### V08 — CU Grad Webinars — Interview Preparation With Jeff Reep
 
-[Video](https://www.youtube.com/watch?v=ay_wtOte5Gc), Cedarville University, 2026-04-13, duration 57:39. [English (US) subtitle capture](../../../../05_evidence/external/youtube/2026-10-18-round-02-additional/ay_wtOte5Gc.en-US.srt), listed under manual subtitles, 653 cues. U.S. university/faith-based audience; not Singapore or a participant study.
+[Video](https://www.youtube.com/watch?v=ay_wtOte5Gc), Cedarville University, 2026-04-13, duration 57:39. [English (US) subtitle capture](../../../../sources/external/youtube/2026-10-18-round-02-additional/ay_wtOte5Gc.en-US.srt), listed under manual subtitles, 653 cues. U.S. university/faith-based audience; not Singapore or a participant study.
 
 - 00:03:00–00:08:00 — Advice: prepare an experience toolbox rather than memorise a script; use recorded mock interviews to notice delivery issues. Student examples are secondhand.
 - 00:13:00–00:16:20 — Advice: maintain real stories and STAR elements; update them when better examples arise.
@@ -161,7 +161,7 @@ Vocabulary: story toolbox; retrieval cues; practice recording; mock interview; f
 
 ### V09 — I Used ChatGPT to Apply For My Dream Job. Here's How
 
-[Video](https://www.youtube.com/watch?v=HHGQ_QeHjF0), Express Tech, 2025-04-24, duration 02:46. [Automatic English capture](../../../../05_evidence/external/youtube/2026-10-18-round-02-additional/HHGQ_QeHjF0.en-orig.srt), 73 cues. Remote social-media/content work, with Nigerian examples in the captions.
+[Video](https://www.youtube.com/watch?v=HHGQ_QeHjF0), Express Tech, 2025-04-24, duration 02:46. [Automatic English capture](../../../../sources/external/youtube/2026-10-18-round-02-additional/HHGQ_QeHjF0.en-orig.srt), 73 cues. Remote social-media/content work, with Nigerian examples in the captions.
 
 - 00:00:00–00:01:00 — Narrated demonstration asks an AI for jobs, descriptions, locations, requirements, pay, and application links. Speaker reports frequent personal use.
 - 00:01:00–00:01:35 — Speaker identifies social-media/content work as their own background: limited personal account, not a diary.
@@ -173,7 +173,7 @@ Vocabulary: listing freshness; generated application link; remote eligibility; v
 
 ### V10 — Salary Negotiation | How To Ask Your Boss For More Money
 
-[Video](https://www.youtube.com/watch?v=Risf_QQGX2o), Practical Wisdom - Interesting Ideas, 2020-08-17, duration 10:34. [English subtitle capture](../../../../05_evidence/external/youtube/2026-10-18-round-02-additional/Risf_QQGX2o.en.srt), listed under manual subtitles, 189 cues. International/U.S.-leaning dollar examples; current-job raise guidance, not Singapore offer negotiation. No named professional adviser established.
+[Video](https://www.youtube.com/watch?v=Risf_QQGX2o), Practical Wisdom - Interesting Ideas, 2020-08-17, duration 10:34. [English subtitle capture](../../../../sources/external/youtube/2026-10-18-round-02-additional/Risf_QQGX2o.en.srt), listed under manual subtitles, 189 cues. International/U.S.-leaning dollar examples; current-job raise guidance, not Singapore offer negotiation. No named professional adviser established.
 
 - 00:01:45–00:02:55 — Advice: document achievements and changes from the original scope.
 - 00:02:55–00:04:25 — Suggests comparing similar jobs, surveys, and advertised pay; acknowledges industry, region, duties, and benefits change comparisons.
@@ -228,5 +228,5 @@ Balanced next queries (proposals, **not executed**): `job seeker corrected AI in
 - Assumptions/uncertainty: upload dates are metadata; caption provenance does not prove accuracy; screen execution, audio wording, study methods, and outcomes remain unverified.
 - Risks/trade-offs: selected reach across themes over more red-flag repetition; two Jeff Su videos share a family, and the salary source is weak/old. Retaining weak tutorials is useful for mechanism questions only.
 - Recommended next action: coordinator integrates these labelled practices with current official/research and firsthand evidence; independently verify any high-impact claim before promotion into findings. Perform audio checks if a particular wording becomes consequential.
-- Files changed: only `video-research.md`, `youtube-discovery-log.md`, and new evidence in `02_research/05_evidence/external/youtube/2026-10-18-round-02-additional/`. Existing shared edits and supplied files preserved.
+- Files changed: only `video-research.md`, `youtube-discovery-log.md`, and new evidence in `01_research/sources/external/youtube/2026-10-18-round-02-additional/`. Existing shared edits and supplied files preserved.
 - Validation: ten nonempty SRTs, 3,587 parsed cues in total; all five new downloads completed, caption hashes recorded, no audio/video files retained. Five new bulky metadata JSON files removed only after minimal provenance was recorded, per coordinator request. Final acceptance and cross-report review remain coordinator/human work.

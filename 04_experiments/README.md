@@ -21,7 +21,7 @@ question → fixture → prompt → code → raw output → review → findings 
 - `08_user-interface-and-human-review/` — correction, accessibility, interruption and recovery tests.
 - `09_openserp-company-research/` — whether the self-hosted OpenSERP search service can power company research for job postings (Docker service, probes, eight persona sub-agents, report).
 
-Reusable SDK instructions live in [Tools/OpenAI SDK](../Tools/OpenAI%20SDK/briefing.md). Product interpretation belongs in [analysis](../analysis/README.md).
+Reusable SDK instructions live in [Tools/OpenAI SDK](../tools/openai-sdk/briefing.md). Product interpretation belongs in [analysis](../02_analysis/reports/README.md).
 
 ## Naming convention
 

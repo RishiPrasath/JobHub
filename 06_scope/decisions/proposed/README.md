@@ -14,4 +14,4 @@ Use `YYYY-MM-DD-decision-slug.md` and include:
 - Revisit trigger
 - Human owner
 
-Durable product or technical decisions must also be reflected in [`01_strategy/08_decision-log.md`](../../01_strategy/08_decision-log.md).
+Durable product or technical decisions must also be reflected in [`strategy/08_decision-log.md`](../../../strategy/08_decision-log.md).

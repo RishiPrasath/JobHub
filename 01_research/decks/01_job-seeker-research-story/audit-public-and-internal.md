@@ -148,7 +148,7 @@ Hypothesis IDs are not stable across rounds. Round 00 friction H1 concerns feedb
 
 ## 3. Round 01: exact source routes and what changed
 
-Canonical records: [sources](../../03_research-rounds/01_public-web-user-insights/runs/2026-10-18-web-based-user-insights/sources.md), [observations](../../03_research-rounds/01_public-web-user-insights/runs/2026-10-18-web-based-user-insights/observations.md), [query log](../../03_research-rounds/01_public-web-user-insights/runs/2026-10-18-web-based-user-insights/query-log.md). Access recorded by the run is 2026-10-18 throughout. Original sources were not all independently reopened in this audit; section 5 identifies actual spot checks and failures. Relative or index-derived forum dates remain uncertain.
+Canonical records: [sources](../../rounds/R01-public-web-user-insights/runs/2026-10-18-web-based-user-insights/sources.md), [observations](../../rounds/R01-public-web-user-insights/runs/2026-10-18-web-based-user-insights/observations.md), [query log](../../rounds/R01-public-web-user-insights/runs/2026-10-18-web-based-user-insights/query-log.md). Access recorded by the run is 2026-10-18 throughout. Original sources were not all independently reopened in this audit; section 5 identifies actual spot checks and failures. Relative or index-derived forum dates remain uncertain.
 
 | Qualified source / observation | Original source and dates | Context / support / limit |
 |---|---|---|
@@ -165,7 +165,7 @@ Canonical records: [sources](../../03_research-rounds/01_public-web-user-insight
 | R1/W S11 / O11 | [Application tracking discussion, thread 1qlh81g](https://www.reddit.com/r/jobsearchhacks/comments/1qlh81g/how_do_you_keep_track_of_job_applications_without/), 2026-01-24 | Email folders, PDFs, small spreadsheets and no-tracking alternatives coexist with follow-up burden. Selected reports, not a demand estimate for a dedicated tracker. |
 | R1/W S12 / O12 | [TestGorilla Skills-Based Hiring 2025](https://assets.ctfassets.net/vztl6s0hp3ro/6ea5daAQcxr7926XPdSrY9/2653b8509ba5d4a92f7292c97641176f/skills-based-hiring_the-state-of-skills-based-hiring-2025.pdf), 2025; April 2025 panel | Vendor-published UK/US survey, 1,076 current/recent seekers plus separate hiring panel. AI use and non-use; no Singapore adoption estimate or causal efficacy. |
 
-The [run findings](../../03_research-rounds/01_public-web-user-insights/runs/2026-10-18-web-based-user-insights/findings.md) support unranked questions, not a validated shortlist winner. H1 has some repeated-entry/checking evidence; H2 has conditions/choice evidence; H3 has general context/access evidence. Their strength does not establish comparative burden.
+The [run findings](../../rounds/R01-public-web-user-insights/runs/2026-10-18-web-based-user-insights/findings.md) support unranked questions, not a validated shortlist winner. H1 has some repeated-entry/checking evidence; H2 has conditions/choice evidence; H3 has general context/access evidence. Their strength does not establish comparative burden.
 
 The precise **Singapore phone discovery → intended laptop return → failed transition → lost opportunity** chain was not retrieved. Q4/Q8/Q9 searches and the additional narrow stop-check retained no complete account. Do not splice the screen-reader study, a desktop preference and a tracking complaint into a composite participant story. Retrieval failure is not disproof.
 
@@ -175,7 +175,7 @@ Screened sources remain screened: [MOM EP advertising guidance](https://www.mom.
 
 ## 4. Latest expanded Round 02: source inventory and concrete accounts
 
-Canonical ledgers: [Practices](../../03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/practices-research.md), [Domain](../../03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/domain-research.md), [Coordinator](../../03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/coordinator-research.md). All record access on 2026-10-18. The 26 entries are records, not 26 independent studies or newly discovered populations.
+Canonical ledgers: [Practices](../../rounds/R02-job-seeker-pains-and-practices/runs/2026-10-18-pain-practices-and-guidance/practices-research.md), [Domain](../../rounds/R02-job-seeker-pains-and-practices/runs/2026-10-18-pain-practices-and-guidance/domain-research.md), [Coordinator](../../rounds/R02-job-seeker-pains-and-practices/runs/2026-10-18-pain-practices-and-guidance/coordinator-research.md). All record access on 2026-10-18. The 26 entries are records, not 26 independent studies or newly discovered populations.
 
 ### 4.1 Practices P01–P12
 
@@ -250,7 +250,7 @@ Other public originals, including the forum accounts, were inspected through the
 
 ## 6. Caption evidence: every source, integrity and concrete examples
 
-Canonical [video report](../../03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/video-research.md) and [discovery/capture log](../../03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/youtube-discovery-log.md) supply creator/upload/track provenance. Captures were made 2026-10-18. This audit independently parsed all files and matched every hash. There are seven automatic tracks and three tracks listed as manual; the latter classification does not verify human authorship or transcription accuracy.
+Canonical [video report](../../rounds/R02-job-seeker-pains-and-practices/runs/2026-10-18-pain-practices-and-guidance/video-research.md) and [discovery/capture log](../../rounds/R02-job-seeker-pains-and-practices/runs/2026-10-18-pain-practices-and-guidance/youtube-discovery-log.md) supply creator/upload/track provenance. Captures were made 2026-10-18. This audit independently parsed all files and matched every hash. There are seven automatic tracks and three tracks listed as manual; the latter classification does not verify human authorship or transcription accuracy.
 
 ### 6.1 Caption inventory and integrity
 
@@ -299,7 +299,7 @@ Only the two short creator-caption quotations above are offered as quotation can
 
 ## 7. Internal process: reported originals, bounded observations, no private re-scan
 
-Primary local record: [expanded internal review](../../03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/internal-process-review.md); earlier record: [evidence process review](../../05_evidence/internal-job-hunt-workspace/2026-10-18-process-review.md). These are one owner's purposive process-document sample, not a cohort of users. Earlier I01–I07 are not equivalent IDs to expanded I01–I16.
+Primary local record: [expanded internal review](../../rounds/R02-job-seeker-pains-and-practices/runs/2026-10-18-pain-practices-and-guidance/internal-process-review.md); earlier record: [evidence process review](../../sources/internal-job-hunt-workspace/2026-10-18-process-review.md). These are one owner's purposive process-document sample, not a cohort of users. Earlier I01–I07 are not equivalent IDs to expanded I01–I16.
 
 The expanded reviewer reports 25 process documents plus five historical artifacts, accessed 2026-10-18. Most authoring metadata is July 2026; a discovery binding has September changes. The current auditor did not access the private drive, private profile, résumé, contact records, contract, correspondence, application outcomes, session bodies or runtime originals.
 
@@ -369,7 +369,7 @@ An external-facing story should refer to **one configured personal process** and
 
 ## 8. Historical fictional run: useful failures, no invented participants
 
-The [fixture](../../05_evidence/datasets-and-examples/2026-10-18-synthetic-workflow-check.md) was prepared rather than tested against ChatGPT/Claude/Gemini. R2/H later walked written scenarios against written flows. Jordan and Mira, every posting and employer-like detail, source changes, expiry events and malicious instructions are fictional. The owner did not perform the walkthrough; no job seeker or running software was tested.
+The [fixture](../../sources/datasets-and-examples/2026-10-18-synthetic-workflow-check.md) was prepared rather than tested against ChatGPT/Claude/Gemini. R2/H later walked written scenarios against written flows. Jordan and Mira, every posting and employer-like detail, source changes, expiry events and malicious instructions are fictional. The owner did not perform the walkthrough; no job seeker or running software was tested.
 
 | Trace / dimension | Concrete result in the written documents | Presentation boundary |
 |---|---|---|
@@ -409,7 +409,7 @@ Relevant older studies retain their caveats. [SBF/Empact Employability Fund eval
 
 ## 10. Objective coverage: investigated does not mean resolved
 
-The current [coverage record](../../03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/coverage.md) maps all ten objectives. The audit agrees that each has evidence or an explicit gap. It does not certify equal depth or closure of every question.
+The current [coverage record](../../rounds/R02-job-seeker-pains-and-practices/runs/2026-10-18-pain-practices-and-guidance/coverage.md) maps all ten objectives. The audit agrees that each has evidence or an explicit gap. It does not certify equal depth or closure of every question.
 
 | Objective | Traceable support | What remains unresolved |
 |---|---|---|
@@ -432,7 +432,7 @@ The expanded run records **15 Practices + 14 Domain + four Coordinator + 13 vide
 
 Practices logs preserve weak/malformed E11, failed honesty-page access, excluded self-reply/summary threads, and E13's missing exact device sequence. Domain logs preserve WSG redirect/empty extraction, NBER failures, a university-hosted replacement, and OECD full-PDF size failure (13,350,420 bytes). The OECD abstract was retained; the full method was not. Video logs preserve noisy/empty batches, failed lower-case ID and uncaptured salary leads. Failed access and snippets are not hidden source evidence.
 
-The [independent review](../../03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/review.md) reports a separate reviewer, original-source spot checks, all caption hashes/counts, selected caption passages and complete V09 text. It explicitly did **not** independently read all ten captions, inspect private originals, or inspect original specialist tool-call histories. Independent D07 retrieval timed out. Its correction/read-back record supports bounded research closure, not independent replication of every study or final owner acceptance.
+The [independent review](../../rounds/R02-job-seeker-pains-and-practices/runs/2026-10-18-pain-practices-and-guidance/review.md) reports a separate reviewer, original-source spot checks, all caption hashes/counts, selected caption passages and complete V09 text. It explicitly did **not** independently read all ten captions, inspect private originals, or inspect original specialist tool-call histories. Independent D07 retrieval timed out. Its correction/read-back record supports bounded research closure, not independent replication of every study or final owner acceptance.
 
 Material corrections recorded there were privacy coverage/F12, qualifying no-measurement wording, replacing stale current Round 01 dependencies, video integration, C01/C02 family overlap, and narrowing a multi-component evidence-pack proposal to one task. This audit directly confirms the corrected integrated wording is present. The review's historical count of 122 local links and 27 documents is a prior validation result, not this audit's independent check count.
 

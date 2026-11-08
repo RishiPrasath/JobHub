@@ -2,7 +2,7 @@
 
 Run and access date: 2026-10-18. Status: provenance and claim boundaries reviewed by the Evidence Synthesizer, UX reviewer and Product Strategist. Human acceptance of conclusions remains outstanding.
 
-Canonical source records: [sources.md](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-job-search-friction/sources.md). Approved purpose and scope: [brief.md](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-job-search-friction/brief.md). Reviewed interpretation: [findings.md](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-job-search-friction/findings.md).
+Canonical source records: [sources.md](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-job-search-friction/sources.md). Approved purpose and scope: [brief.md](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-job-search-friction/brief.md). Reviewed interpretation: [findings.md](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-job-search-friction/findings.md).
 
 This index preserves the route from source to claim. It does not duplicate full reports or contain participant-level private data. There are 13 substantive records: D01–D06, P01–P05 and G01–G02. All are public, Singapore-scoped and accessed through web search/page or PDF text retrieval. Exact source URLs, publication dates or explicit unknowns, underlying periods, populations, methods and locators are in the canonical register and linked collector records.
 
@@ -21,14 +21,14 @@ This index preserves the route from source to claim. It does not duplicate full 
 
 ## Review trail
 
-1. [Domain collector](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-job-search-friction/specialists/domain.md) and [practices collector](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-job-search-friction/specialists/practices.md) inspected original public sources and recorded limitations.
-2. [Targeted pass](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-job-search-friction/specialists/targeted-gap-pass.md) addressed one specified coverage/denominator gap.
-3. [Evidence synthesis](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-job-search-friction/specialists/synthesis.md) audited claim relevance, source independence, reporting issues and thresholds.
-4. [Workflow review](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-job-search-friction/specialists/workflow-review.md) and its post-synthesis check constrained workflow/UX inferences.
-5. [Product review](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-job-search-friction/specialists/product-review.md) checked validation implications and disconfirmation conditions.
+1. [Domain collector](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-job-search-friction/specialists/domain.md) and [practices collector](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-job-search-friction/specialists/practices.md) inspected original public sources and recorded limitations.
+2. [Targeted pass](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-job-search-friction/specialists/targeted-gap-pass.md) addressed one specified coverage/denominator gap.
+3. [Evidence synthesis](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-job-search-friction/specialists/synthesis.md) audited claim relevance, source independence, reporting issues and thresholds.
+4. [Workflow review](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-job-search-friction/specialists/workflow-review.md) and its post-synthesis check constrained workflow/UX inferences.
+5. [Product review](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-job-search-friction/specialists/product-review.md) checked validation implications and disconfirmation conditions.
 
-Reviewers worked from the recorded evidence, not a new independent source replication. The coordinator separately rechecked P01/P02/P05 passages; this is recorded in [notes.md](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-job-search-friction/notes.md). Shared publishers and series are documented in the register. No source-derived conclusion is strengthened by repeated summaries of the same source.
+Reviewers worked from the recorded evidence, not a new independent source replication. The coordinator separately rechecked P01/P02/P05 passages; this is recorded in [notes.md](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-job-search-friction/notes.md). Shared publishers and series are documented in the register. No source-derived conclusion is strengthened by repeated summaries of the same source.
 
 ## Preservation limits
 
-Records are concise paraphrases, metadata and links rather than immutable source snapshots. Original pages can change. Inaccessible candidates were excluded and recorded; exact publication uncertainty and source reporting inconsistencies were retained. Consult [limitations.md](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-job-search-friction/limitations.md) before reuse. Recheck currency before a consequential decision or on 2027-01-18; no automatic schedule exists.
+Records are concise paraphrases, metadata and links rather than immutable source snapshots. Original pages can change. Inaccessible candidates were excluded and recorded; exact publication uncertainty and source reporting inconsistencies were retained. Consult [limitations.md](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-job-search-friction/limitations.md) before reuse. Recheck currency before a consequential decision or on 2027-01-18; no automatic schedule exists.

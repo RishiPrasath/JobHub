@@ -21,7 +21,7 @@ The owner wants to better understand what people say about the pains of job hunt
 
 Use the [adopted query plan](runs/2026-10-18-pain-practices-and-guidance/query-plan.md), derived from the Research Query Strategist's [portfolio](query-plan-draft.md), before retrieval. Public sources require exact queries, opened-source records, and claim-level observations. Distinguish firsthand reports, official context, research, advice, private process evidence, and researcher interpretations.
 
-The [five supplied videos and English captures](../../05_evidence/external/youtube/2026-10-18-job-posting-red-flags/README.md) are source leads. Additional discovery is capped at eight candidate videos; prefer complementary perspectives. Record failures/exclusions. Free caption extraction is authorised; inspecting captions is not listening to audio.
+The [five supplied videos and English captures](../../sources/external/youtube/2026-10-18-job-posting-red-flags/README.md) are source leads. Additional discovery is capped at eight candidate videos; prefer complementary perspectives. Record failures/exclusions. Free caption extraction is authorised; inspecting captions is not listening to audio.
 
 Read-only internal scope: G:\My Drive\AgentHub\vaults\Workspace\Projects\Job Hunt and relevant linked process/agent/workflow material. Record strengths/weaknesses/gaps with minimal references; do not copy resumes, contracts, correspondence, or secrets. Internal evidence concerns one owner's documented process.
 

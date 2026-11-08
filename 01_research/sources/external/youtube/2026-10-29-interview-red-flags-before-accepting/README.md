@@ -23,5 +23,5 @@ yt-dlp --skip-download --write-auto-subs --sub-langs "en-orig" --sub-format vtt 
 
 The captions are machine-generated source material. They are useful for extracting the speaker's themes, but wording, punctuation, names and negations may be wrong. The video is one creator's advice, not prevalence evidence. Viewer comments are anecdotal and selected by engagement; they are not representative user research.
 
-The interpreted notes are recorded in [the reviewed result](../../../../04_results/product-and-users/2026-10-29-pre-interview-job-red-flags.md).
+The interpreted notes are recorded in [the reviewed result](../../../../rounds/R00-orientation-and-baseline/results/product-and-users/2026-10-29-pre-interview-job-red-flags.md).
 

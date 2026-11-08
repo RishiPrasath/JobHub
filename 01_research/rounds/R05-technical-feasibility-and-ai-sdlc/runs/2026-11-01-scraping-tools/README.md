@@ -13,4 +13,4 @@ Date: 2026-11-01 (Singapore)
 - `outputs/` — raw results per tool (`b_*.json`), summary, memory samples, logs
 
 ## Headline
-Plain fetch handles most homepages in about 0.3 s but nothing on JavaScript job pages. Playwright rendered every page that loaded. Crawl4AI is the best ready-made service, Lightpanda the lightest (AGPL; full on job pages once waits are set). Recommendation: plain fetch first, then a Playwright render service. The wrapper is built in `_prototypes/04_fetch-render-service` and passed the same 25 URLs and basic hardening checks.
+Plain fetch handles most homepages in about 0.3 s but nothing on JavaScript job pages. Playwright rendered every page that loaded. Crawl4AI is the best ready-made service, Lightpanda the lightest (AGPL; full on job pages once waits are set). Recommendation: plain fetch first, then a Playwright render service. The wrapper is built in `05_prototypes/P04-fetch-render-service` and passed the same 25 URLs and basic hardening checks.

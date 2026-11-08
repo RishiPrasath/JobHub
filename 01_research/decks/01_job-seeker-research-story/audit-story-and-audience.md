@@ -45,11 +45,11 @@ The intended close is an informed discussion of the next uncertainty. It should 
 
 ### Preserve both research agendas
 
-The [intent register](../../00_research-intent-register.md) explicitly preserves the owner's full questions separately from agent recommendations. The product draft contains the owner's workflow, posting analysis, candidate matching, company/market research, cross-industry support, technical, surface, AI-use, ordinary practices, competition and naming questions. Its recommended topics add explicit problem validation, inclusion, source reliability, explainability, profile maintenance, operating constraints, sustainability and research operations.
+The [intent register](../../method/00_research-intent-register.md) explicitly preserves the owner's full questions separately from agent recommendations. The product draft contains the owner's workflow, posting analysis, candidate matching, company/market research, cross-industry support, technical, surface, AI-use, ordinary practices, competition and naming questions. Its recommended topics add explicit problem validation, inclusion, source reliability, explainability, profile maintenance, operating constraints, sustainability and research operations.
 
 The development draft separately preserves owner questions about Gherkin/Cucumber, specification effort, UX learning, intuitive interfaces and accessibility. Recommended topics extend this to AI-assisted development responsibilities, coordination/context, evaluation, security, debt, tools/models, delivery and personal learning. Moving these questions to an appendix or companion brief is editorial sequencing. It does not discard them, relabel them as agent suggestions or claim they are resolved.
 
-The [canonical strategy](../../../01_strategy/02_product-research-strategy.md) prioritises decision-relevant questions and explicitly leaves scope, segment, surface, architecture, automation and commercial choices open. The initial idea document is historical concept material. Its feature language and simulated naming panel must not become validated requirements or participant evidence.
+The [canonical strategy](../../../strategy/02_product-research-strategy.md) prioritises decision-relevant questions and explicitly leaves scope, segment, surface, architecture, automation and commercial choices open. The initial idea document is historical concept material. Its feature language and simulated naming panel must not become validated requirements or participant evidence.
 
 ### Backlog coverage is different from an answered decision
 
@@ -73,11 +73,11 @@ The [canonical strategy](../../../01_strategy/02_product-research-strategy.md) p
 | R-14: suitable AI tools/models | Comparison criteria and manual/deterministic baselines exist. No model/provider winner or reliable operating estimate. | Keep this open and separate from the external writing experiments. |
 | R-15: owner learning and ownership | Exercises and responsibilities are proposed. Mastery and their teaching effectiveness are unmeasured. | Companion learning brief with explain-back goals. |
 
-Sources for this mapping: [backlog](../../01_research-backlog.md), [Round 00 promoted synthesis](../../04_results/00_cross-research-synthesis.md), the seven thematic promoted results inventoried below, [Round 01 synthesis](../../03_research-rounds/01_public-web-user-insights/round-synthesis.md), [Round 02 synthesis](../../03_research-rounds/02_synthetic-workflow-selection/round-synthesis.md) and their gates. This audit does not reopen the linked run evidence.
+Sources for this mapping: [backlog](../../method/01_research-backlog.md), [Round 00 promoted synthesis](../../rounds/R00-orientation-and-baseline/results/00_cross-research-synthesis.md), the seven thematic promoted results inventoried below, [Round 01 synthesis](../../rounds/R01-public-web-user-insights/round-synthesis.md), [Round 02 synthesis](../../rounds/R02-job-seeker-pains-and-practices/round-synthesis.md) and their gates. This audit does not reopen the linked run evidence.
 
 ### Expanded Round 02 coverage
 
-The [round brief](../../03_research-rounds/02_synthetic-workflow-selection/round-brief.md) defines ten objectives. Its synthesis reports completion as findings or explicit gaps. Their communication disposition is:
+The [round brief](../../rounds/R02-job-seeker-pains-and-practices/round-brief.md) defines ten objectives. Its synthesis reports completion as findings or explicit gaps. Their communication disposition is:
 
 | Objective | What belongs in this briefing | Completion boundary |
 | --- | --- | --- |
@@ -104,7 +104,7 @@ The ten objectives are a completion contract for one bounded pass. They do not c
 - **Round 05:** README says **planned**. Feasibility, evaluation, tooling and development-method comparisons are not completed experiments.
 - **Round 06:** README says **planned**. Readiness and initial scope remain a future human-owned decision.
 
-Only README files currently exist in the four future-round folders. Their presence establishes an agenda, not research execution. The [research decision record](../../06_research-decisions/2026-10-18-proposed-research-direction.md) marks P01–P06 as proposed. The strategy decision log preserves an open product surface; it does not accept a platform, stack, model or initial product scope.
+Only README files currently exist in the four future-round folders. Their presence establishes an agenda, not research execution. The [research decision record](../../../06_scope/decisions/proposed/2026-10-18-proposed-research-direction.md) marks P01–P06 as proposed. The strategy decision log preserves an open product surface; it does not accept a platform, stack, model or initial product scope.
 
 **Audit conclusion:** the intended research is broad and durably recorded. The inspected summaries support a bounded educational story with explicit gaps. They do not support saying that JobHub research is finished in the sense of answering the consequential decisions. Direct behavioral access is presently unavailable according to the strategy; additional public browsing and fictional walkthroughs cannot fill that methodological gap.
 

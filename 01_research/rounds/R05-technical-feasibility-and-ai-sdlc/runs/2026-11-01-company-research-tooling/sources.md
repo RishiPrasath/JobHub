@@ -38,7 +38,7 @@ ACRA Information on Corporate Entities, 26 CSV files, 2,066,468 rows, downloaded
 
 ## Internal sources
 
-- [Company and role research service idea](../../../../../04_feature-ideas/01_company-and-role-research-service.md)
-- [Decision log](../../../../../01_strategy/08_decision-log.md)
-- [Open questions](../../../../../01_strategy/09_open-questions.md)
-- Prototype 02 link set: `_prototypes/02_persona-job-review-v3/data/job-links.json`
+- [Company and role research service idea](../../../../../03_features/source-ideas/01_company-and-role-research-service.md)
+- [Decision log](../../../../../strategy/08_decision-log.md)
+- [Open questions](../../../../../strategy/09_open-questions.md)
+- Prototype 02 link set: `05_prototypes/P02-persona-job-review-v3/data/job-links.json`

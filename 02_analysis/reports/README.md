@@ -1,4 +1,4 @@
-# JobHub analysis
+# JobHub 02_analysis/reports
 
 This folder converts completed research into evidence-backed product opportunities, experiments and scope decisions. It does not replace the research folder and does not silently convert findings into accepted requirements.
 
@@ -15,11 +15,11 @@ This folder converts completed research into evidence-backed product opportuniti
 - [Role-pursuit evidence and claim audit](08_role-pursuit-evidence-audit.md)
 - [Experiment-to-scope decision](09_experiment-to-scope-decision.md)
 - [Low-fidelity role-review test instrument](10_low-fidelity-test-instrument.md)
-- [Experiment-to-feature roadmap](11-experiment-to-feature-roadmap.md)
+- [Experiment-to-feature roadmap](11_experiment-to-feature-roadmap.md)
 - [Low-fidelity single-posting review workflow](12_low-fidelity-review-workflow.md)
 - [First scope decision brief](13_first-scope-decision-brief.md)
 - [UX prototype design brief](14_ux-prototype-design-brief.md)
 
 ## Working rule
 
-Start each analysis activity with one human-owned decision. Preserve source lineage, contradictions and uncertainty. Treat features as hypotheses until a smallest coherent user episode has been tested and the owner has accepted the scope, non-goals, risks and revisit trigger.
+Start each 02_analysis/reports activity with one human-owned decision. Preserve source lineage, contradictions and uncertainty. Treat features as hypotheses until a smallest coherent user episode has been tested and the owner has accepted the scope, non-goals, risks and revisit trigger.

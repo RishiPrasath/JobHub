@@ -17,8 +17,8 @@
 ## AI and trust
 
 - Which tasks should be automated, assisted, or kept entirely under user control?
-- What evidence must be shown before users trust analysis or company warnings?
-- How should fit analysis avoid deterministic or discriminatory judgments?
+- What evidence must be shown before users trust 02_analysis/reports or company warnings?
+- How should fit 02_analysis/reports avoid deterministic or discriminatory judgments?
 - How should authenticity and user authorship be preserved?
 
 ## Development

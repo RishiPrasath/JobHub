@@ -4,7 +4,7 @@ Research/access date: 2026-10-18, Asia/Singapore. Author: Job Domain Researcher.
 
 ## Scope and method
 
-Read `AGENTS.md`, `_agents/README.md`, `_agents/03_job-domain-researcher.md`, `_agents/11_responsible-ai-reviewer.md`, the dated run `brief.md`, and round `query-plan-draft.md`. Followed the prepared Q4/Q5/Q6 portfolio with Singapore-specific adaptations, then reviewed retrieval before follow-ups. The owner's subsequent clarification prioritised full compensation and negotiation conditions, fit gaps versus actual disqualifiers, and employer phrases versus proof. The coordinator's C02 employer AI-post field experiment is outside this report's collection scope.
+Read `AGENTS.md`, `agents/roles/README.md`, `agents/roles/03_job-domain-researcher.md`, `agents/roles/11_responsible-ai-reviewer.md`, the dated run `brief.md`, and round `query-plan-draft.md`. Followed the prepared Q4/Q5/Q6 portfolio with Singapore-specific adaptations, then reviewed retrieval before follow-ups. The owner's subsequent clarification prioritised full compensation and negotiation conditions, fit gaps versus actual disqualifiers, and employer phrases versus proof. The coordinator's C02 employer AI-post field experiment is outside this report's collection scope.
 
 Used native web search and opened public primary guidance, statistical methodology, research, and original public accounts. Search snippets alone were not accepted as claim evidence. Inspected relevant sections of long documents, not every page. No YouTube discovery, participant contact, private-data retrieval, external writes, or implementation. This file is the only authorised local output.
 
@@ -121,7 +121,7 @@ All records and companion URLs below were accessed on **2026-10-18**. Dates desc
 ### D12 — SkillsFuture: transferable skills and career change
 
 - Source/creator: [Skills Demand for the Future Economy 2023/24 — SkillsFuture Singapore](https://www.skillsfuture.gov.sg/docs/default-source/skills-report-2023/ssg_2023_10nov2023_sdfe_final-(3).pdf); Chapter 4 contributor **Angeline Chiang, WSG Principal Career Coach**.
-- Publication/version: copyright **2023**, edition 2023/24; exact release day not verified. Type/scope: official Singapore skills analysis plus separately labelled practitioner advice/cases.
+- Publication/version: copyright **2023**, edition 2023/24; exact release day not verified. Type/scope: official Singapore skills 02_analysis/reports plus separately labelled practitioner advice/cases.
 - Passage: printed pp. 94–95 recommend clarifying motivators, identifying transferable skills, researching work and addressing requirements. A coach-reported transition from technical work to social services used customer-service/operations skills. Method pp. 100–101 defines skill transferability as the count of job roles mentioning it in 2019–2022 postings.
 - Confidence/limits: moderate for guidance; success vignette is practitioner-mediated, not direct seeker testimony or causal programme evaluation. Posting-based skill breadth does not establish an individual's proficiency or automatic transfer. Historical demand is not a 2026 forecast.
 

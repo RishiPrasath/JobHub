@@ -4,7 +4,7 @@ Date: 2026-10-18. Status: specialist review complete; suitable for promotion wit
 
 ## Task, scope and inspected material
 
-Review whether the shortlist and proposed validation follow the evidence, without selecting features, a platform, an initial customer segment or product scope. Read `_agents/README.md`, `_agents/06_product-strategist.md`, the [approved brief](../brief.md), [source register](../sources.md), [limitations](../limitations.md), [Evidence Synthesizer handoff](synthesis.md) and [UX workflow review](workflow-review.md). No new browsing, source collection, participant contact or independent source replication was performed. Evidence judgments below rely on the recorded collector provenance and specialist reconciliation.
+Review whether the shortlist and proposed validation follow the evidence, without selecting features, a platform, an initial customer segment or product scope. Read `agents/roles/README.md`, `agents/roles/06_product-strategist.md`, the [approved brief](../brief.md), [source register](../sources.md), [limitations](../limitations.md), [Evidence Synthesizer handoff](synthesis.md) and [UX workflow review](workflow-review.md). No new browsing, source collection, participant contact or independent source replication was performed. Evidence judgments below rely on the recorded collector provenance and specialist reconciliation.
 
 ## Findings, evidence and confidence
 

@@ -42,7 +42,7 @@ The owner reviews the deck, challenges it, and decides what to keep. The deck is
 |---|---|---|---|
 | 1 | Opening | 1 to 2 | What JobHub is trying to do, and how to read this deck (evidence labels, what is proven versus hypothesis) |
 | 2 | The domain: what job seekers actually do | 5 to 6 | The four as-is processes (search, apply, interview, offer to start), where people get stuck, and who differs (fresh graduate, switcher, experienced, foreign, low-wage). Source: research round 09 |
-| 3 | What the earlier research concluded | 4 to 5 | Friction types, AI and competition, truthfulness and trust, surface (mobile versus web), market value and pay. Sources: `02_research/04_results/`, round 08 |
+| 3 | What the earlier research concluded | 4 to 5 | Friction types, AI and competition, truthfulness and trust, surface (mobile versus web), market value and pay. Sources: `01_research/rounds/R00-orientation-and-baseline/results/`, round 08 |
 | 4 | Experiments in brief | 6 to 8 | One slide per experiment family with question, result, and the lesson: AI on postings (01 to 08), OpenSERP company research (09), prototypes 00 to 05, and the market-value and red-flag tests X0 to X3 (10) |
 | 5 | What we have learned across everything | 2 to 3 | The few findings that hold up, the ones that failed, and the gaps |
 | 6 | Initial proposal for the app | 5 to 6 | The proposal (section 5 below): who it is for, the core jobs it does, what it will not do, how it earns trust, a first slice to build, and how to test it |
@@ -53,29 +53,29 @@ The owner reviews the deck, challenges it, and decides what to keep. The deck is
 
 Status as of the second revision:
 
-1. **Done:** four as-is journeys, in `02_research/03_research-rounds/09_job-seeker-processes-as-is/runs/2026-11-07-how-job-seekers-actually-job-hunt/journeys/` (stored with the research, apart from product ideas).
-2. **Done (first draft):** 44 needs-only user stories in `_drafts/job-seeker-user-stories.md`.
+1. **Done:** four as-is journeys, in `01_research/rounds/R09-job-seeker-processes-as-is/runs/2026-11-07-how-job-seekers-actually-job-hunt/journeys/` (stored with the research, apart from product ideas).
+2. **Done (first draft):** 44 needs-only user stories in `02_analysis/needs.md`.
 3. **Done:** gap-fill research (`runs/2026-11-07-gap-fill/`), which re-rates the stories: supported 9 to 20, thin 8 to 3, 21 stay weak.
 4. **Done:** (a) story ratings in the stories draft now hold the gap-fill ratings (20 supported, 21 weak, 3 thin), with the first-draft rating kept in each row; (b) each of the four journeys has an "Update from the gap-fill research" section (the original tables are unchanged). **Still open:** (c) the owner reviews the new ratings, which are the lead's reading.
-5. Where the stories live permanently is still open (they are in `_drafts/` now). The deck can cite them there.
+5. Where the stories live permanently is still open (they are in `02_analysis/needs.md` now). The deck can cite them there.
 
 ## 4. Facts the deck must carry (verified in this repository)
 
 Each must be re-checked by the Claims Auditor against its source file before it goes into the brief for Open Design.
 
-- Experiment 10 (2026-11-07), in `_experiments/10_market-value-and-red-flag-experiments/FINDINGS.md`:
+- Experiment 10 (2026-11-07), in `04_experiments/E10-market-value-and-red-flag-experiments/FINDINGS.md`:
   - X0: only 2 of 7 official sources (MAS enforcement actions, CASE alerts) can be read automatically.
   - X1: fixed search sweep and free-form research both found 12 of 12 known problems, so the hypothesis was not supported; the test was too easy.
   - X2: registry alone matched 1 of 12 brands to the right employer; adding a web step matched 9 of 12, with 1 wrong and 2 refused.
   - X3: 77% of postings matched an official occupation (bar 80%), 70% judged good fits (bar 70%): inconclusive.
-- Experiment 09 (OpenSERP): see `_experiments/09_openserp-company-research/` (REPORT.md, AGENT-TEST.md).
-- AI experiments 01 to 08 and the scope conclusion: `_drafts/ai-experiment-findings-and-jobhub-scope.md` (AI is useful for organising posting evidence and preserving uncertainty, not for fit scores, resume rewriting or legitimacy judgments).
-- Research round 09 (job-seeker processes): `02_research/03_research-rounds/09_job-seeker-processes-as-is/`. The gap-fill findings (`runs/2026-11-07-gap-fill/findings.md`) supersede the first run where they differ. Facts the lead re-checked against the source (usable with official labels): Singapore notice tiers when the contract is silent; the Fair Consideration Framework 14-day advertising rule, its formality-advertising penalties and the salary-range rule; CPF 2026 rates for the two age bands checked; agency fee cap; SPF job-scam statistics for 2025 and first half 2026. All else in the gap-fill evidence files carries the agents' own status labels (P, R, S, U) and must keep them.
+- Experiment 09 (OpenSERP): see `04_experiments/E09-openserp-company-research/` (REPORT.md, AGENT-TEST.md).
+- AI experiments 01 to 08 and the scope conclusion: `04_experiments/E01-07-sequential-sdk-run/findings.md` (AI is useful for organising posting evidence and preserving uncertainty, not for fit scores, resume rewriting or legitimacy judgments).
+- Research round 09 (job-seeker processes): `01_research/rounds/R09-job-seeker-processes-as-is/`. The gap-fill findings (`runs/2026-11-07-gap-fill/findings.md`) supersede the first run where they differ. Facts the lead re-checked against the source (usable with official labels): Singapore notice tiers when the contract is silent; the Fair Consideration Framework 14-day advertising rule, its formality-advertising penalties and the salary-range rule; CPF 2026 rates for the two age bands checked; agency fee cap; SPF job-scam statistics for 2025 and first half 2026. All else in the gap-fill evidence files carries the agents' own status labels (P, R, S, U) and must keep them.
 - Known gaps the deck must show as gaps, not findings: Singapore time-to-reply and drop-off by stage; how people track applications; whether alerts or follow-ups help; Singapore negotiation and counteroffer rates; how local low-wage workers and foreign professionals search; SME differences; whether the current employer is contacted before an offer. Closing them needs primary data (interviews or a survey), not more desk research.
 - Unverified legal items to avoid stating as fact: the Employment Act text itself, the Workplace Fairness Act's recruitment duties and small-firm exemption, MOM's median unemployment duration value.
-- Round 08 (market value and salary): `02_research/03_research-rounds/08_market-value-and-salary-benchmarking/`.
-- Research synthesis: `02_research/04_results/00_cross-research-synthesis.md`.
-- Prototypes: `_prototypes/00` to `05`, especially `05_company-research-flow/FINDINGS.md`.
+- Round 08 (market value and salary): `01_research/rounds/R08-market-value-and-salary-benchmarking/`.
+- Research synthesis: `01_research/rounds/R00-orientation-and-baseline/results/00_cross-research-synthesis.md`.
+- Prototypes: `05_prototypes/P00` to `P05`, especially `P05-company-research-flow/FINDINGS.md`.
 
 ## 5. Initial proposal for the app (starting hypothesis for the Product Strategist to develop and test against the evidence)
 

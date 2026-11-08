@@ -28,7 +28,7 @@ Everything else in the evidence files is as the agents reported it, with their s
 - **G8 scams and verification:** official SPF statistics confirmed (see table). Main variants: online task jobs and social-media boosting, impersonation, and Singpass misuse. Official verification routes: ScamShield 1799, the ACRA register, and MOM's Employment Agency directory. MOM says it validates vacancies against MyCareersFuture and does not treat multi-portal posting as fictitious; no removal counts. A 2026 Indeed survey (1,000 Singapore respondents, read through a secondary report) puts official company emails and the role appearing on the company site as the top legitimacy signals. Review-site bias is documented in peer-reviewed work (not Singapore-specific).
 
 ## User stories: confidence after the gap-fill
-Old rating from the first draft in `_drafts/job-seeker-user-stories.md`. New rating applies the same definitions (supported: official source or several independent sources; weak: single or secondary source; thin: little or no evidence).
+Old rating from the first draft in `02_analysis/needs.md`. New rating applies the same definitions (supported: official source or several independent sources; weak: single or secondary source; thin: little or no evidence).
 
 | Story | Old | New | Why |
 |---|---|---|---|

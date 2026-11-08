@@ -366,7 +366,7 @@ Owner:
 
 ## Analysis exit criteria
 
-The analysis phase is ready to produce a first scoped product brief only when:
+The 02_analysis/reports phase is ready to produce a first scoped product brief only when:
 
 - the smallest user episode is clearly stated;
 - the manual baseline and AI-assisted workflow have been compared across multiple roles;

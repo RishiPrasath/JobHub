@@ -9,7 +9,7 @@ OpenSERP ([karust/openserp](https://github.com/karust/openserp), MIT) is a self-
 Needs only Docker (Compose v2). The language-model steps need `GROQ_API_KEY` in the repo-root `.env` (free tier; the same file the company-research prototype uses).
 
 ```bash
-cd _experiments/09_openserp-company-research
+cd 04_experiments/E09-openserp-company-research
 
 # 1. get the pinned source and build the service (about 2 minutes)
 git clone https://github.com/karust/openserp.git vendor/openserp

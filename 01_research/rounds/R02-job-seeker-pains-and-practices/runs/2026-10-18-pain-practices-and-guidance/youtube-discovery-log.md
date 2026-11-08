@@ -51,7 +51,7 @@ All successful records below came from live `py -m yt_dlp --skip-download --no-p
 | Candidate | URL / result | Creator; upload date; duration | English tracks observed | Selection / capture decision |
 |---|---|---|---|---|
 | C01 / V06 | https://www.youtube.com/watch?v=pmnY5V16GSE | Jeff Su; 2023-04-25; 619 sec | Manual `en`; automatic `en`, `en-orig` | Capture `en`; concrete invented-title detection, comparison, and interview-answer workflow beyond red flags. |
-| C02 / V09 | https://www.youtube.com/watch?v=HHGQ_QeHjF0 | Express Tech (metadata channel has trailing whitespace); 2025-04-24; 166 sec | No manual English; automatic `en-orig`, `en` | Capture `en-orig`; remote-job search sequence and checking omissions. Downgraded after analysis: no demonstrated dream-job success. |
+| C02 / V09 | https://www.youtube.com/watch?v=HHGQ_QeHjF0 | Express Tech (metadata channel has trailing whitespace); 2025-04-24; 166 sec | No manual English; automatic `en-orig`, `en` | Capture `en-orig`; remote-job search sequence and checking omissions. Downgraded after 02_analysis/reports: no demonstrated dream-job success. |
 | C03 / V07 | https://www.youtube.com/watch?v=N1Fm4JYae1I | Jeff Su; 2026-09-15; 789 sec | No manual English; automatic `en-orig`, `en` | Capture `en-orig`; adds fact-first drafting, verifiable metrics, and labelled project evidence. Same creator as C01; statistics quarantined. |
 | C04 / failed | https://www.youtube.com/watch?v=ay_wtote5gc | Unavailable; creator/date/duration and captions not returned | Unknown, not established absent | Exact failure: `ERROR: [youtube] ay_wtote5gc: This video is unavailable`. Erroneous ID inferred from lower-case page slug; counts toward cap. |
 | C05 / V08 | https://www.youtube.com/watch?v=ay_wtOte5Gc | Cedarville University; 2026-04-13; 3459 sec | Manual `en-US`; automatic `en-US`, `en-orig`, `en` | Correct link from publisher HTML. Capture `en-US`; long interview toolbox/notes/mock-practice material provides a manual alternative. Cultural and normative limits retained. |
@@ -63,12 +63,12 @@ All five additions complement rather than extend the supplied red-flag set. The 
 
 ## Reproduction and capture events
 
-Caption root, relative to repository: `02_research/05_evidence/external/youtube/2026-10-18-round-02-additional/`.
+Caption root, relative to repository: `01_research/sources/external/youtube/2026-10-18-round-02-additional/`.
 
 For each successful candidate, run with the selected language in the ledger:
 
 ```powershell
-py -m yt_dlp --skip-download --write-subs --write-auto-subs --sub-langs LANGUAGE --sub-format srt --write-info-json --no-playlist --no-warnings -P '02_research/05_evidence/external/youtube/2026-10-18-round-02-additional' -o '%(id)s.%(ext)s' 'https://www.youtube.com/watch?v=VIDEO_ID'
+py -m yt_dlp --skip-download --write-subs --write-auto-subs --sub-langs LANGUAGE --sub-format srt --write-info-json --no-playlist --no-warnings -P '01_research/sources/external/youtube/2026-10-18-round-02-additional' -o '%(id)s.%(ext)s' 'https://www.youtube.com/watch?v=VIDEO_ID'
 ```
 
 The exact executed pairs were `(pmnY5V16GSE, en)`, `(N1Fm4JYae1I, en-orig)`, `(ay_wtOte5Gc, en-US)`, `(HHGQ_QeHjF0, en-orig)`, `(Risf_QQGX2o, en)`, in that order. Both subtitle switches allow the named manual track when available and automatic fallback where selected. Each capture reported writing the selected SRT and metadata. No format media file was saved: yt-dlp printed format selection despite `--skip-download`, which is not evidence of an audio/video transfer.
@@ -87,7 +87,7 @@ All five successful completions were observed before the 21:45:48.9393388+08:00 
 
 ## File integrity and supplied-set coverage
 
-Hashes checked on local SRT bytes, SHA-256. Original metadata below comes from the supplied index, not a fresh metadata download. Source analysis links and publication dates are in `video-research.md`.
+Hashes checked on local SRT bytes, SHA-256. Original metadata below comes from the supplied index, not a fresh metadata download. Source 02_analysis/reports links and publication dates are in `video-research.md`.
 
 | File | Cues | Caption coverage | SHA-256 |
 |---|---:|---|---|
@@ -102,7 +102,7 @@ Hashes checked on local SRT bytes, SHA-256. Original metadata below comes from t
 | Additional `HHGQ_QeHjF0.en-orig.srt` | 73 | See capture table | `212C3B2FFFF801A87A863A07073710146A4B90B92D46891948D122579AE1CBE3` |
 | Additional `Risf_QQGX2o.en.srt` | 189 | See capture table | `0382B1BC6B0806F0B22B761C6637C375CCA3AB4AC82FAC8010FEB7213436D299` |
 
-Original root: `02_research/05_evidence/external/youtube/2026-10-18-job-posting-red-flags/`. All five original files are automatic `en-orig` captures. Total: 1,999 supplied cues + 1,588 additional cues = 3,587. Parsing/read completion does not establish audio accuracy or representativeness.
+Original root: `01_research/sources/external/youtube/2026-10-18-job-posting-red-flags/`. All five original files are automatic `en-orig` captures. Total: 1,999 supplied cues + 1,588 additional cues = 3,587. Parsing/read completion does not establish audio accuracy or representativeness.
 
 ## Metadata minimisation and verification
 
@@ -124,4 +124,4 @@ Validation checkpoint: **2026-10-18T21:51:36.3323939+08:00**. Confirmed ten SRT 
 
 Candidate gaps/exclusions at handoff: failed C04 is retained in the count; the CNA salary page did not yield a checked YouTube video; the SDSU lead returned 429; Khan text extraction was empty; UNI led to documents rather than a retained video. These page failures are logged without inventing video metadata or claiming missing English captions. Express Tech remains a weak tutorial, not a verified success story; Practical Wisdom remains weak historical salary guidance. No further collection was undertaken after the coordinator requested closure with the existing five captures.
 
-Stop: thematic complements captured, bounded candidate checks complete, transcript analysis complete, unsupported statistics separated, and unresolved Singapore/firsthand/accessibility/device-continuation gaps handed off. This is neither exhaustive discovery nor source saturation.
+Stop: thematic complements captured, bounded candidate checks complete, transcript 02_analysis/reports complete, unsupported statistics separated, and unresolved Singapore/firsthand/accessibility/device-continuation gaps handed off. This is neither exhaustive discovery nor source saturation.

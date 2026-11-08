@@ -110,4 +110,4 @@ That is still a candidate direction, not an accepted feature.
 
 Create a simple low-fidelity worksheet or prototype and test the correction, interruption and accessibility states using the same three postings. Do not add resume generation, fit scoring or application automation yet.
 
-Sources: [Round 4 page inventory](../02_research/03_research-rounds/04_ai-assistance-and-trust/runs/2026-10-19-job-posting-page-inventory/page-inventory.md), [role-pursuit walkthrough](05_role-pursuit-walkthrough.md), [role-pursuit learning test](04_role-pursuit-learning-test.md).
+Sources: [Round 4 page inventory](../../01_research/rounds/R04-ai-assistance-and-trust/runs/2026-10-19-job-posting-page-inventory/page-inventory.md), [role-pursuit walkthrough](05_role-pursuit-walkthrough.md), [role-pursuit learning test](04_role-pursuit-learning-test.md).

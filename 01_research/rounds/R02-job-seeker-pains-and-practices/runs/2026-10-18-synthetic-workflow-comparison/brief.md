@@ -8,7 +8,7 @@ Compare two bounded fictional workflows: adjacent-occupation preparation and fro
 
 ## Setup
 
-Use the [Round 00 proposal](../../../00_orientation-and-baseline/round-synthesis.md), the [cross-research synthesis](../../../../04_results/00_cross-research-synthesis.md), and the [fictional fixture](../../../../05_evidence/datasets-and-examples/2026-10-18-synthetic-workflow-check.md). Add only fictional frontline facts needed for the second comparison. The [Round 01 synthesis](../../../01_public-web-user-insights/round-synthesis.md) is not started, so no candidate is ranked by public user insight.
+Use the [Round 00 proposal](../../../R00-orientation-and-baseline/round-synthesis.md), the [cross-research synthesis](../../../R00-orientation-and-baseline/results/00_cross-research-synthesis.md), and the [fictional fixture](../../../../sources/datasets-and-examples/2026-10-18-synthetic-workflow-check.md). Add only fictional frontline facts needed for the second comparison. The [Round 01 synthesis](../../../R01-public-web-user-insights/round-synthesis.md) is not started, so no candidate is ranked by public user insight.
 
 ## Method
 

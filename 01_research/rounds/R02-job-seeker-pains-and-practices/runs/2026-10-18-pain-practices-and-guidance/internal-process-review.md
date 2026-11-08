@@ -6,7 +6,7 @@ The inspected process has substantial documented strengths: evidence-backed care
 
 ## Scope, method, and handling
 
-Read the repository's `AGENTS.md`, `_agents/README.md`, `_agents/04_job-seeker-practices-researcher.md`, `_agents/10_quality-and-evaluation-engineer.md`, this run's `brief.md`, and the prior `02_research/05_evidence/internal-job-hunt-workspace/2026-10-18-process-review.md`. The prior review supplied context; substantive observations below were checked against the selected source files again.
+Read the repository's `AGENTS.md`, `agents/roles/README.md`, `agents/roles/04_job-seeker-practices-researcher.md`, `agents/roles/10_quality-and-evaluation-engineer.md`, this run's `brief.md`, and the prior `01_research/sources/internal-job-hunt-workspace/2026-10-18-process-review.md`. The prior review supplied context; substantive observations below were checked against the selected source files again.
 
 Started with the private workspace's `index.md`, `context-map.md`, and `_WORKSPACE.md`; followed their relevant workflow, agent, tool, phase, and lab references. Inspected **25 representative process files**, plus **five historical runtime artifacts**. This is a purposive sample from one highly configured personal process, not participant research or a representative account of job seekers.
 
@@ -48,7 +48,7 @@ All sources were accessed on 2026-10-18. Process authoring metadata mostly names
 | S24 | `L/README.md` | Lab isolation, historical extraction limitation, proposal/evidence boundaries. |
 | S25 | `V/Workflows/Job-Hunt/Job-Discovery/ACTION-ROUTING.md` | Selected operation/outcome/receipt entries and mirror policy; targeted count/search for source-trust operation IDs. Not a complete routing implementation audit. |
 
-Directory/filename metadata was used only to navigate W's root, workflow phases, `files`, `results`, `output`, `test-results`, lab output/analysis directories, and candidate receipt/error names under `scratch`, `tmp`, and `sessions`. Session bodies, role-specific preflight files, cached job lists, screenshots, and analysis proposals were not opened. No matching route/error/receipt/log filename was found by the targeted session filename search; this is not proof that traces are absent elsewhere.
+Directory/filename metadata was used only to navigate W's root, workflow phases, `files`, `results`, `output`, `test-results`, lab output/analysis directories, and candidate receipt/error names under `scratch`, `tmp`, and `sessions`. Session bodies, role-specific preflight files, cached job lists, screenshots, and 02_analysis/reports proposals were not opened. No matching route/error/receipt/log filename was found by the targeted session filename search; this is not proof that traces are absent elsewhere.
 
 ### Historical execution evidence
 

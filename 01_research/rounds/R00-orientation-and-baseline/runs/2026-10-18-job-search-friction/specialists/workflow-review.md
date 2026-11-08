@@ -4,7 +4,7 @@ Date: 2026-10-18. Status: supplied evidence reviewed; suitable for synthesis wit
 
 ## Task, scope and inspected material
 
-Review workflow transitions, effort, uncertainty, interruptions and access without choosing a platform or feature. Read `_agents/README.md`, `_agents/07_ux-and-user-flow-designer.md`, [approved brief](../brief.md), [domain handoff](domain.md) (D01–D06), [practices handoff](practices.md) (P01–P05), and [targeted pass](targeted-gap-pass.md) (G01–G02). No new external collection or independent reinspection of original sources was performed; source confidence is inherited from those handoffs. No observed portal session or directly observed seeker behaviour is present in the supplied evidence.
+Review workflow transitions, effort, uncertainty, interruptions and access without choosing a platform or feature. Read `agents/roles/README.md`, `agents/roles/07_ux-and-user-flow-designer.md`, [approved brief](../brief.md), [domain handoff](domain.md) (D01–D06), [practices handoff](practices.md) (P01–P05), and [targeted pass](targeted-gap-pass.md) (G01–G02). No new external collection or independent reinspection of original sources was performed; source confidence is inherited from those handoffs. No observed portal session or directly observed seeker behaviour is present in the supplied evidence.
 
 ## Workflow scaffold and loops
 

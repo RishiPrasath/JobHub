@@ -4,7 +4,7 @@ Date: 2026-10-18. Roles: UX and User-Flow Designer with UX Expert perspective; o
 
 ## Scope and evidence boundary
 
-Coverage: R-06 and UX/R-15, with implications for R-02/05/09/10. Inspected: `AGENTS.md`, `_agents/README.md`, roles 07/13, the [brief](brief.md), instructions README and 00/01/02/05, backlog, and both [product](../../../../../_drafts/product-research-strategy.md) and [development](../../../../../_drafts/ai-era-development-strategy.md) drafts.
+Coverage: R-06 and UX/R-15, with implications for R-02/05/09/10. Inspected: `AGENTS.md`, `agents/roles/README.md`, roles 07/13, the [brief](brief.md), instructions README and 00/01/02/05, backlog, and both [product](../../../../../archive/drafts/product-research-strategy.md) and [development](../../../../../archive/drafts/ai-era-development-strategy.md) drafts.
 
 Prior [UX findings](../2026-10-18-ai-job-hunting-workflows/specialists/ux-workflows.md) document a preparation workflow, propose comprehension/return exercises, and explicitly lack device-behaviour evidence. The [friction review](../2026-10-18-job-search-friction/specialists/workflow-review.md) distinguishes unsuitable working conditions, information uncertainty and process effort. This report extends those findings with capability constraints and testable interactions; it does not repeat population research or claim that software fixes employment conditions.
 
@@ -26,7 +26,7 @@ Prior [UX findings](../2026-10-18-ai-job-hunting-workflows/specialists/ux-workfl
 
 **Reported capabilities:** outbound Web Share sends content; Web Share Target registers an installed web app to receive it. Chrome also warns that incoming fields can vary [U02]. **Observed:** WebKit issue 194593 remains `NEW` [U03]. **Inference:** do not promise iPhone PWA share reception; retain paste/manual capture and test actual supported devices. An open issue is not a complete compatibility matrix.
 
-Offline functionality needs implemented storage/caching, and browser data can be evicted or cleared [U05]. Recommend initially testing previously saved text and queued notes; new remote analysis should say it needs a connection. Local saving must never imply cross-device availability.
+Offline functionality needs implemented storage/caching, and browser data can be evicted or cleared [U05]. Recommend initially testing previously saved text and queued notes; new remote 02_analysis/reports should say it needs a connection. Local saving must never imply cross-device availability.
 
 WebKit documents web push for iOS/iPadOS 16.4 Home Screen web apps with user interaction and permission [U04]. That is a conditional capability, not guaranteed reminder delivery. Recommend opt-in reminders after a user chooses a next action, discreet notification text, quiet controls and an in-product return list. Declining notifications must leave the journey usable. Neither notifications nor native packaging should be justified by hypothetical engagement gains.
 
@@ -54,7 +54,7 @@ Lead each job with identity, status and one next action. Group related fields; u
 
 Use four plain labels: “Posting says,” “Your confirmed experience,” “Possible implication,” and “Not known.” For example, a synthetic posting's rotating-shift requirement can support “Check whether the schedule works for you”; it cannot establish an unsafe employer or predict rejection. Reveal the excerpt, source/date and reason for the suggestion. Distinguish source reliability, extraction uncertainty and personal relevance; a single confidence percentage conflates them. Prefer explained strengths and unresolved requirements over an unexplained fit score. Provide “Correct this” and “This does not reflect my situation.”
 
-Keep summaries short, with detail available on request. Avoid anxiety-inducing badges for missing information, application streaks and fabricated completion estimates. During analysis, name the actual activity, provide cancellation, and allow return later. Test labels with people unfamiliar with AI terminology and across occupations; plain English alone does not prove language inclusion.
+Keep summaries short, with detail available on request. Avoid anxiety-inducing badges for missing information, application streaks and fabricated completion estimates. During 02_analysis/reports, name the actual activity, provide cancellation, and allow return later. Test labels with people unfamiliar with AI terminology and across occupations; plain English alone does not prove language inclusion.
 
 ## Accessibility requirements and practical evaluation
 

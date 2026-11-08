@@ -1,10 +1,10 @@
 # User stories (draft, derived from as-is journeys)
 
-Status: draft for owner review; needs only, no solutions. Final storage location is an open decision (see `_drafts/review-deck-plan.md`).
+Status: draft for owner review; needs only, no solutions. Final storage location is an open decision (see `01_research/decks/review-deck-plan.md`).
 
-Source: the four as-is journeys (searching, applying, interviewing, offer to first day) in `02_research/03_research-rounds/09_job-seeker-processes-as-is/runs/2026-11-07-how-job-seekers-actually-job-hunt/journeys/`. They rest on desk research, mostly search snippets, and much of it is old, US-based or vendor data. Every story is a need the journeys give evidence for, not a validated finding.
+Source: the four as-is journeys (searching, applying, interviewing, offer to first day) in `01_research/rounds/R09-job-seeker-processes-as-is/runs/2026-11-07-how-job-seekers-actually-job-hunt/journeys/`. They rest on desk research, mostly search snippets, and much of it is old, US-based or vendor data. Every story is a need the journeys give evidence for, not a validated finding.
 
-**Updated after the gap-fill research (2026-11-07):** the Confidence column now holds the gap-fill ratings; each Evidence cell adds a "Gap-fill" note and the first-draft rating. Supported stories rise from 9 to 20 and thin falls from 8 to 3 (S-09, S-10, S-18). The reasons are in `02_research/03_research-rounds/09_job-seeker-processes-as-is/runs/2026-11-07-gap-fill/findings.md`. The ratings are the lead's reading of the agents' notes and have not been reviewed by the owner. The journeys now carry a matching update section.
+**Updated after the gap-fill research (2026-11-07):** the Confidence column now holds the gap-fill ratings; each Evidence cell adds a "Gap-fill" note and the first-draft rating. Supported stories rise from 9 to 20 and thin falls from 8 to 3 (S-09, S-10, S-18). The reasons are in `01_research/rounds/R09-job-seeker-processes-as-is/runs/2026-11-07-gap-fill/findings.md`. The ratings are the lead's reading of the agents' notes and have not been reviewed by the owner. The journeys now carry a matching update section.
 
 Evidence tags are copied from the journeys: S = official or primary source, Sn = snippet or secondary write-up, A = anecdote or small sample, I = inference.
 Confidence levels:

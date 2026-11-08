@@ -10,7 +10,7 @@ AI is most defensible as a reviewable assistant for discovery/filtering, require
 |---|---|---|---|
 | Discovery/matching | Natural-language search and profile/preference matching | Hidden rationale, stale/duplicate results, missed adjacent careers | Show criteria, inclusion/exclusion reasons, freshness, source and confidence |
 | Posting summarisation | Extract requirements and provide concise summaries | Omit required/preferred distinction or invent context | Preserve original, timestamp, source and exact supporting text |
-| Resume tailoring | Keyword analysis, versions, bullets, summaries and letters | Keyword stuffing, generic language, fabricated metrics, false confidence | Claims ledger, per-claim approval and before/after diff |
+| Resume tailoring | Keyword 02_analysis/reports, versions, bullets, summaries and letters | Keyword stuffing, generic language, fabricated metrics, false confidence | Claims ledger, per-claim approval and before/after diff |
 | Cover letters | Draft structure and variants from supplied evidence | Repetition, false employer facts, homogenisation | Candidate-specific evidence and human final pass |
 | Interview practice | Role-specific questions, recording and feedback | Formulaic feedback, transcription error, unsafe live assistance | Practice/post-session feedback; consent, retention and policy checks |
 | Employer research | Multi-source summaries with citations | Stale reviews, defamation, marketing treated as fact | Source tiers; separate facts, signals and unresolved claims |

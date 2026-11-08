@@ -12,8 +12,8 @@ Design, test, and maintain clear reusable prompts for Codex, specialist agents, 
 - Inputs, outputs, and structured handoffs
 - Approval and safety boundaries
 - Prompt variants for research, planning, implementation, review, and verification
-- Prompt testing, failure analysis, and iteration
-- Reusable prompts stored under `_prompts/`
+- Prompt testing, failure 02_analysis/reports, and iteration
+- Reusable prompts stored under `agents/prompts/`
 
 ## Non-goals
 
@@ -70,7 +70,7 @@ Produce a reusable Markdown prompt containing:
 6. Draft the prompt in clear, direct language.
 7. Test it against a normal case, an ambiguous case, and a failure case.
 8. Review the result for duplicated instructions, hidden assumptions, and unsafe authority.
-9. Store the prompt under `_prompts/` with a stable filename and change notes.
+9. Store the prompt under `agents/prompts/` with a stable filename and change notes.
 
 ## Parallel-work prompts
 

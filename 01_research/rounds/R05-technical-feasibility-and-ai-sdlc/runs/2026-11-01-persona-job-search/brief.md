@@ -2,11 +2,11 @@
 
 ## Research question
 
-When job seekers in different professions each search for roles and the employers behind them are then researched, does the new company-research service ([prototype 03](../../../../../_prototypes/03_company-research-pipeline/README.md)) find useful, verifiable information on real employers?
+When job seekers in different professions each search for roles and the employers behind them are then researched, does the new company-research service ([prototype 03](../../../../../05_prototypes/P03-company-research-pipeline/README.md)) find useful, verifiable information on real employers?
 
 ## Method
 
-1. **Persona sub-agents.** Seven agents, one per persona already defined in `_prototypes/02_persona-job-review-v3/data/personas.json`: office and administration, technology, skilled trade and operations, healthcare and care, retail/hospitality/service, culinary and food service, career change or early career. Each ran up to three searches relevant to its profession and kept five links.
+1. **Persona sub-agents.** Seven agents, one per persona already defined in `05_prototypes/P02-persona-job-review-v3/data/personas.json`: office and administration, technology, skilled trade and operations, healthcare and care, retail/hospitality/service, culinary and food service, career change or early career. Each ran up to three searches relevant to its profession and kept five links.
 2. **Browser access: Kimi WebBridge.** The user's own browser, through the local daemon. Each persona had its own session and tab group ("JobHub job search: <persona>"). A shared helper (`code/mcf_search.py`) did the browser steps; agents chose search terms and judged relevance.
 3. **Source: MyCareersFuture only.** A government job board with public search pages. LinkedIn, Indeed, Glassdoor and JobStreet were not used, following the earlier research guidance to link out to boards that ban scraping.
 4. **Collation.** One list of all captured links: `links_all.json`.

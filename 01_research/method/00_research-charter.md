@@ -48,9 +48,9 @@ Every substantive research task has:
 - A specialist reviewer when the task involves UX, technical, quality, privacy, safety, or fairness risk.
 - A human decision owner for consequential conclusions.
 
-The assignment rules are defined in [`02_instructions/01_agent-assignment-and-coordination.md`](02_instructions/01_agent-assignment-and-coordination.md).
+The assignment rules are defined in [`02_instructions/01_agent-assignment-and-coordination.md`](instructions/01_agent-assignment-and-coordination.md).
 
 ## Relationship to strategy
 
-Research results are stored here. Product and development strategy live in [`01_strategy/`](../01_strategy/). A result may recommend a strategy update, but it does not silently become a requirement or decision.
+Research results are stored here. Product and development strategy live in [`strategy/`](../../strategy/). A result may recommend a strategy update, but it does not silently become a requirement or decision.
 

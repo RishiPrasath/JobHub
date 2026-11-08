@@ -6,7 +6,7 @@ These files describe responsibilities and operating boundaries. They do not assu
 
 Last reviewed: 2026-10-18.
 
-For Codex CLI repository integration, see the root [AGENTS.md](../AGENTS.md). It defines how Codex selects and coordinates these roles without loading every specialist into every task.
+For Codex CLI repository integration, see the root [AGENTS.md](../../AGENTS.md). It defines how Codex selects and coordinates these roles without loading every specialist into every task.
 
 ## Agent catalogue
 

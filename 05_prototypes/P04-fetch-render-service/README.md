@@ -2,7 +2,7 @@
 
 A small container that fetches a public page and returns its main text. It tries plain HTTP first and starts a headless Chromium (Playwright) only when the plain result is thin. Everything is free and open source (FastAPI, httpx, trafilatura, Playwright, Apache-2.0 / BSD / MIT).
 
-Research behind it: [scraping-tools run](../../02_research/03_research-rounds/05_technical-feasibility-and-ai-sdlc/runs/2026-11-01-scraping-tools/findings.md).
+Research behind it: [scraping-tools run](../../01_research/rounds/R05-technical-feasibility-and-ai-sdlc/runs/2026-11-01-scraping-tools/findings.md).
 
 ## Run
 

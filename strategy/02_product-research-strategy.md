@@ -2,13 +2,13 @@
 
 ## Status and purpose
 
-This is the canonical strategy for reducing product uncertainty before JobHub scope, surface, automation, and technical choices are accepted. It is a research strategy, not a product specification or an approval of the proposals in the [proposed research direction](../02_research/06_research-decisions/2026-10-18-proposed-research-direction.md).
+This is the canonical strategy for reducing product uncertainty before JobHub scope, surface, automation, and technical choices are accepted. It is a research strategy, not a product specification or an approval of the proposals in the [proposed research direction](../06_scope/decisions/proposed/2026-10-18-proposed-research-direction.md).
 
-The 2026-10-18 desk-research pass identified bounded hypotheses; a [first public-web insight pass](../02_research/03_research-rounds/01_public-web-user-insights/round-synthesis.md) has now been conducted and reviewed. It did not establish comparative burden, demand, usability, willingness to pay, a first segment, a preferred platform, a technology stack, or a model/provider winner. The [Round 01 gate](../02_research/03_research-rounds/01_public-web-user-insights/decision-gate.md) records a narrow retrieval stop check and the next separate owner-intent question. The detailed run sequence below remains the method record for that first pass, not a claim that its full stopping rule was met.
+The 2026-10-18 desk-research pass identified bounded hypotheses; a [first public-web insight pass](../01_research/rounds/R01-public-web-user-insights/round-synthesis.md) has now been conducted and reviewed. It did not establish comparative burden, demand, usability, willingness to pay, a first segment, a preferred platform, a technology stack, or a model/provider winner. The [Round 01 gate](../01_research/rounds/R01-public-web-user-insights/decision-gate.md) records a narrow retrieval stop check and the next separate owner-intent question. The detailed run sequence below remains the method record for that first pass, not a claim that its full stopping rule was met.
 
 ## Working product direction, with decisions still open
 
-Execution update, 2026-10-18: the owner subsequently authorised an [expanded Round 02 run](../02_research/03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/brief.md) covering public pains/practices, video captions, and a bounded read-only internal Job Hunt process review. The public-only and no-internal-input wording below describes the earlier Round 01 activity. The new brief governs Round 02's authorised inputs; private material stays out of external search and public-source evidence. No product direction is accepted by this execution update.
+Execution update, 2026-10-18: the owner subsequently authorised an [expanded Round 02 run](../01_research/rounds/R02-job-seeker-pains-and-practices/runs/2026-10-18-pain-practices-and-guidance/brief.md) covering public pains/practices, video captions, and a bounded read-only internal Job Hunt process review. The public-only and no-internal-input wording below describes the earlier Round 01 activity. The new brief governs Round 02's authorised inputs; private material stays out of external search and public-source evidence. No product direction is accepted by this execution update.
 
 JobHub is exploring a cross-industry job-search workspace that may help people understand opportunities, compare them with their own circumstances, prepare honestly, and follow through. Singapore is the initial research context; international evidence may be used as labelled comparison. The product should not assume technology-sector work, one career path, one language, one device, or one level of digital confidence.
 
@@ -23,7 +23,7 @@ The following remain explicitly open until the owner accepts a decision supporte
 
 JobHub remains the working name. Public name overlap is a screening signal, not trademark, domain, app-store, or market-confusion clearance.
 
-Research update, 2026-10-19: [Round 03](../02_research/03_research-rounds/03_cross-industry-job-search/README.md) has conducted bounded cross-industry research, with 13 industry profiles, six non-IT deep dives, separate industry/occupation/arrangement tagging and a fake/ghost-posting credibility strand. Its former UX placeholder is preserved, broader platform testing deferred, and product scope remains open. Read the run's coverage, limitations and review; completed documents do not mean every empirical question is resolved.
+Research update, 2026-10-19: [Round 03](../01_research/rounds/R03-cross-industry-job-search/README.md) has conducted bounded cross-industry research, with 13 industry profiles, six non-IT deep dives, separate industry/occupation/arrangement tagging and a fake/ghost-posting credibility strand. Its former UX placeholder is preserved, broader platform testing deferred, and product scope remains open. Read the run's coverage, limitations and review; completed documents do not mean every empirical question is resolved.
 
 ## What research must learn
 
@@ -37,13 +37,13 @@ Research should answer the smallest decision-relevant question in each area, whi
 6. **Competition and alternatives:** which existing products, manual workflows, coaching, or no-product options already address the problem, and whether any gap is durable and worth testing.
 7. **Responsible operation:** what evidence, correction, privacy, accessibility, security, source-rights, and uncertainty controls a useful workflow would require.
 
-The detailed topic inventory remains in the [original product research draft](../_drafts/product-research-strategy.md). It is a source of questions, not a mandate to research every topic before testing one bounded workflow. AI-era development questions remain in the [AI-era development draft](../_drafts/ai-era-development-strategy.md) and are sequenced after the immediate product uncertainty.
+The detailed topic inventory remains in the [original product research draft](../archive/drafts/product-research-strategy.md). It is a source of questions, not a mandate to research every topic before testing one bounded workflow. AI-era development questions remain in the [AI-era development draft](../archive/drafts/ai-era-development-strategy.md) and are sequenced after the immediate product uncertainty.
 
 ## Evidence boundary for the next activity
 
 The next run is public-web research only because the owner has no direct user access. It may use openly accessible academic or qualitative studies, official statistics and reports, transparent public surveys, public firsthand accounts, public forum or review material, public support discussions, and public blog or video transcripts. It must not use private groups or accounts, author contact, profiling, sensitive inference, direct interviews, participant observation, purchases, live applications, private uploads, or external writes.
 
-Public material is evidence about what a source reports, not permission to identify, contact, market to, or infer attributes about the author. Convenience material must not be used to claim population prevalence. The [cross-research synthesis](../02_research/04_results/00_cross-research-synthesis.md), earlier run findings, and their limitations are prior evidence and constraints; they are not a substitute for direct user validation.
+Public material is evidence about what a source reports, not permission to identify, contact, market to, or infer attributes about the author. Convenience material must not be used to claim population prevalence. The [cross-research synthesis](../01_research/rounds/R00-orientation-and-baseline/results/00_cross-research-synthesis.md), earlier run findings, and their limitations are prior evidence and constraints; they are not a substitute for direct user validation.
 
 The private Job Hunt workspace is not an input to this next run. Earlier bounded internal process observations remain labelled internal evidence in their historical run and must not be mixed into the public source ledger. Any future internal review requires separate scope and authorization.
 
@@ -98,7 +98,7 @@ Each handoff names the query family, intended question, source-quality rule, exc
 
 ## Recording contract
 
-The run must use these exact files under `02_research/03_research-rounds/01_public-web-user-insights/runs/YYYY-MM-DD-topic-slug/`:
+The run must use these exact files under `01_research/rounds/R01-public-web-user-insights/runs/YYYY-MM-DD-topic-slug/`:
 
 - `README.md` — status, purpose, role order, and relationship to later work;
 - `brief.md` — approved decision, questions, scope, exclusions, pass budget, and stopping rule;
@@ -139,6 +139,6 @@ If these conditions cannot be met within the time box, stop with the gap documen
 
 ## Research lifecycle and decision gate
 
-Research moves from question → query plan → source and observation ledgers → synthesis → candidate experiment → human decision. A result may recommend a strategy change, but it does not become a requirement until the owner accepts it and records the decision in [`08_decision-log.md`](08_decision-log.md). The [research charter](../02_research/00_research-charter.md), [common protocol](../02_research/02_instructions/00_common-research-protocol.md), [research backlog](../02_research/01_research-backlog.md), and [coverage matrix](../02_research/03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-remaining-research/coverage.md) remain the supporting operating documents.
+Research moves from question → query plan → source and observation ledgers → synthesis → candidate experiment → human decision. A result may recommend a strategy change, but it does not become a requirement until the owner accepts it and records the decision in [`08_decision-log.md`](08_decision-log.md). The [research charter](../01_research/method/00_research-charter.md), [common protocol](../01_research/method/instructions/00_common-research-protocol.md), [research backlog](../01_research/method/01_research-backlog.md), and [coverage matrix](../01_research/rounds/R00-orientation-and-baseline/runs/2026-10-18-remaining-research/coverage.md) remain the supporting operating documents.
 
 Research is complete enough for the next reversible experiment when the remaining uncertainty is explicit, the evidence and limitations are traceable, the alternatives have been considered, and more desk research is less valuable than the experiment. This is not approval of product scope, platform, stack, automation, pricing, or final strategy.

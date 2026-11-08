@@ -114,7 +114,7 @@ Each deep-dive report covers hiring routes; requirements and verified/unknown co
 
 Stop when all 13 breadth rows have evidence or explicit gaps; six deep-dive selections and reports exist; the credibility categories and source methods are examined; contrary searches and source-family overlap are documented; and independent review has resolved material overclaims or marked unresolved matters. Reaching the budget instead closes the run as bounded/partial, with the missing objectives identified. Never turn budget exhaustion into a completed finding.
 
-The synthesis should explain observed/reportable commonalities, conditional differences, contradictions, uncertainty and exclusions. It may suggest questions or test candidates for [03_analysis](../../../03_analysis/), but must not select the first sector, market, platform, architecture, automation level, legal position or product scope. No ranking of sector "drama", deception or customer value is permitted from convenience sources.
+The synthesis should explain observed/reportable commonalities, conditional differences, contradictions, uncertainty and exclusions. It may suggest questions or test candidates for [03_analysis](../../../02_analysis/reports/), but must not select the first sector, market, platform, architecture, automation level, legal position or product scope. No ranking of sector "drama", deception or customer value is permitted from convenience sources.
 
 ## Planning provenance
 

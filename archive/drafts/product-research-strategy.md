@@ -12,7 +12,7 @@
   - People returning after career breaks
   - International candidates
   - Non-degree, service, trades, and operational workers
-- What information users want from job-posting analysis
+- What information users want from job-posting 02_analysis/reports
 - How users define a good fit between themselves and a role
 - What users consider useful or harmful career advice
 - How users want to track applications and follow-ups
@@ -83,7 +83,7 @@ Research how JobHub should support the journey from discovering a job to prepari
 - How users move between phone, tablet, laptop, and desktop
 - How context switching and limited available time affect follow-through
 - Whether mobile is best suited to capture, review, reminders, or full preparation
-- Whether larger screens are necessary for analysis, CV preparation, and interview work
+- Whether larger screens are necessary for 02_analysis/reports, CV preparation, and interview work
 - Whether JobHub should be:
   - A desktop-focused web application
   - A responsive web application
@@ -192,7 +192,7 @@ The central research question is:
 ### Main Research Themes
 
 1. Understand the job seeker’s real workflow and difficulties.
-2. Make AI analysis evidence-based and responsible.
+2. Make AI 02_analysis/reports evidence-based and responsible.
 3. Research companies and identify risks without overclaiming.
 4. Support different industries and types of workers fairly.
 5. Choose a technically responsible but adaptable architecture.
@@ -213,7 +213,7 @@ The central research question is:
 - Which user segments have the strongest unmet need and are reachable for research
 - How job-search needs differ by employment status, career stage, industry, language, disability, and digital confidence
 - How financial pressure, immigration status, caregiving, health, and time constraints affect the workflow
-- Which users may be harmed or excluded by automated fit analysis or application advice
+- Which users may be harmed or excluded by automated fit 02_analysis/reports or application advice
 - How to recruit representative users without overgeneralising from a small sample
 
 ### Job-Posting Capture and Source Reliability
@@ -226,7 +226,7 @@ The central research question is:
 
 ### Evidence, Trust, and Explainability
 
-- What evidence users need before trusting a job analysis or company warning
+- What evidence users need before trusting a job 02_analysis/reports or company warning
 - How to show source excerpts, missing data, confidence, and uncertainty without overwhelming users
 - How users interpret fit scores, rankings, red flags, and AI recommendations
 - How to support correction, disagreement, appeal, and user override
@@ -235,7 +235,7 @@ The central research question is:
 ### Mobile, Web, and Cross-Device Product Shape
 
 - Where job discovery occurs and where serious preparation occurs
-- Whether capture, review, analysis, resume work, interview preparation, and tracking belong on the same surface
+- Whether capture, review, 02_analysis/reports, resume work, interview preparation, and tracking belong on the same surface
 - How interruptions and delayed return affect saved jobs and application completion
 - Whether a responsive web application, native application, progressive web application, browser capture tool, or multi-surface approach best fits the evidence
 - What product surface can deliver useful value with the least long-term complexity
@@ -269,7 +269,7 @@ The central research question is:
 
 - What personal, career, application, and company data JobHub must store and for how long
 - Which data should remain local, be encrypted, or be excluded from model input
-- Expected latency, cost, reliability, and scale for capture, research, and AI analysis
+- Expected latency, cost, reliability, and scale for capture, research, and AI 02_analysis/reports
 - Which functions require live information and which can use stored evidence
 - What legal, regulatory, platform, and employment-context constraints apply to the initial market
 

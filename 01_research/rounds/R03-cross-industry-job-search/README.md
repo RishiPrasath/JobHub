@@ -27,4 +27,4 @@ Fake/ghost postings form a separate strand across that comparison. Distinguish e
 
 Round 03 previously contained only a product-surface/UX placeholder. That note was moved here and preserved in [prior-ux-plan.md](prior-ux-plan.md). This is the only active Round 03 entry; the former directory is empty. Current navigation points here; dated presentation audits remain historical snapshots with the prior path. Rounds 04–06 keep their numbers. UX/access needs remain comparison dimensions here; a broader platform/usability study remains deferred.
 
-Research outputs stay under this round's dated `runs/` folders once execution is authorised. Later interpretation belongs in [03_analysis](../../../03_analysis/); final scope remains the owner's decision.
+Research outputs stay under this round's dated `runs/` folders once execution is authorised. Later interpretation belongs in [03_analysis](../../../02_analysis/reports/); final scope remains the owner's decision.

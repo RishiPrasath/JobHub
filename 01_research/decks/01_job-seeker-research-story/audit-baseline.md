@@ -37,14 +37,14 @@ Source IDs collide between runs. Never cite an unqualified `P01`, `D01` or `S01`
 
 | Key | Exact local source route |
 | --- | --- |
-| A | [AI-workflow run](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-ai-job-hunting-workflows/README.md); `A/Pxx` is in [practices](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-ai-job-hunting-workflows/specialists/job-seeker-practices.md), `A/Txx` in [tools](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-ai-job-hunting-workflows/specialists/ai-tools.md), `A/Dxx` in [domain](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-ai-job-hunting-workflows/specialists/job-domain.md). |
-| F | [Friction source register](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-job-search-friction/sources.md); detail in `specialists/domain.md`, `practices.md` and `targeted-gap-pass.md` in that run. |
-| R/PM | [Remaining-research product/market report](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-remaining-research/product-market.md). |
-| R/U | [Remaining-research UX/accessibility report](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-remaining-research/ux-and-accessibility.md). |
-| R/D | [Remaining-research development-method report](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-remaining-research/development-method.md). |
-| R/S | [Remaining-research technical/responsible-AI report](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-remaining-research/technical-and-responsible-ai.md). |
-| R/C | [Remaining-research Codex/delivery report](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-remaining-research/codex-and-delivery.md). |
-| I | [Sanitized internal process record](../../05_evidence/internal-job-hunt-workspace/2026-10-18-process-review.md), I01–I07 plus a review addendum about a linked trust contract. |
+| A | [AI-workflow run](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-ai-job-hunting-workflows/README.md); `A/Pxx` is in [practices](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-ai-job-hunting-workflows/specialists/job-seeker-practices.md), `A/Txx` in [tools](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-ai-job-hunting-workflows/specialists/ai-tools.md), `A/Dxx` in [domain](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-ai-job-hunting-workflows/specialists/job-domain.md). |
+| F | [Friction source register](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-job-search-friction/sources.md); detail in `specialists/domain.md`, `practices.md` and `targeted-gap-pass.md` in that run. |
+| R/PM | [Remaining-research product/market report](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-remaining-research/product-market.md). |
+| R/U | [Remaining-research UX/accessibility report](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-remaining-research/ux-and-accessibility.md). |
+| R/D | [Remaining-research development-method report](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-remaining-research/development-method.md). |
+| R/S | [Remaining-research technical/responsible-AI report](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-remaining-research/technical-and-responsible-ai.md). |
+| R/C | [Remaining-research Codex/delivery report](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-remaining-research/codex-and-delivery.md). |
+| I | [Sanitized internal process record](../../sources/internal-job-hunt-workspace/2026-10-18-process-review.md), I01–I07 plus a review addendum about a linked trust contract. |
 
 All source registers record access on 2026-10-18. Publication, underlying observation and version dates below are those recorded in the corpus unless explicitly identified as rechecked. Unknown dates remain unknown. URLs preserve the originals in the inspected records; companion pages are not extra independent studies.
 
@@ -141,7 +141,7 @@ The samples lean toward English-language graduates, professionals, online freela
 
 Private process documents show intended controls, not adherence, detection accuracy, completion time, saved effort or employment outcomes. Their authenticity phases conflict with some package-map tables. This is a concrete documentation issue, not evidence that the process failed in use. This audit did not reopen original private documents or inspect profiles, conversations, applications or contracts. Their private locators are intentionally not copied into the presentation audit.
 
-No Round 00 researcher directly observed people using JobHub. No controlled six-tool comparison, prototype usability study, cross-device test, model benchmark, payment test, native-agent configuration smoke test or software implementation experiment was completed there. The [synthetic fixture](../../05_evidence/datasets-and-examples/2026-10-18-synthetic-workflow-check.md) was prepared, not executed in that run. Later fictional work does not retroactively turn it into a product benchmark.
+No Round 00 researcher directly observed people using JobHub. No controlled six-tool comparison, prototype usability study, cross-device test, model benchmark, payment test, native-agent configuration smoke test or software implementation experiment was completed there. The [synthetic fixture](../../sources/datasets-and-examples/2026-10-18-synthetic-workflow-check.md) was prepared, not executed in that run. Later fictional work does not retroactively turn it into a product benchmark.
 
 Limited/gated access remains material: PeopleScout and Morgan McKinley full reports; DORA full report; PDPC full AI guideline PDFs; OWASP 2026 download; some SkillsFuture/career-service pages; Apple's current web-push documentation. The collectors used accessible summaries or qualified alternatives and recorded failures. An audit of their notes cannot establish the contents of the unread material.
 

@@ -70,7 +70,7 @@ Use `verify.mjs --check-only` for validation without writing a receipt. The veri
 
 ## Agent and assets
 
-Use the [Research Presentation Strategist and Designer](../../../_agents/18_research-presentation-strategist.md) for future briefings. It is a reusable role definition integrated into the repository agent catalogue and instructions, not an installed presentation application or a separate native runtime registration. For parallel work, provide that role file and a bounded task to a specialist.
+Use the [Research Presentation Strategist and Designer](../../../agents/roles/18_research-presentation-strategist.md) for future briefings. It is a reusable role definition integrated into the repository agent catalogue and instructions, not an installed presentation application or a separate native runtime registration. For parallel work, provide that role file and a bounded task to a specialist.
 
 The [asset record](ASSETS.md) contains both final illustration paths and exact prompts. The built-in image tool created them. Its fictional editorial style supports the learning sequence without serving as source evidence.
 

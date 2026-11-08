@@ -4,7 +4,7 @@ Date/access date: 2026-10-18. Collector: Technical Architect, incorporating Resp
 
 ## Scope and evidence
 
-Read `AGENTS.md`, `_agents/README.md`, roles 08/11/15, this run's [brief](brief.md), research instructions 00/01/07, the backlog, both [product](../../../../../_drafts/product-research-strategy.md) and [development](../../../../../_drafts/ai-era-development-strategy.md) drafts, technical/quality strategy documents, and the earlier [workflow synthesis](../../../../04_results/ai-and-job-hunting/2026-10-18-ai-job-hunting-workflows.md), responsible-AI review, tools handoff, and [synthetic fixture](../../../../05_evidence/datasets-and-examples/2026-10-18-synthetic-workflow-check.md). This report extends those findings with capture, lifecycle, architecture and evaluation contracts; consumer-product comparisons, Codex configuration, CI and development methods are outside scope.
+Read `AGENTS.md`, `agents/roles/README.md`, roles 08/11/15, this run's [brief](brief.md), research instructions 00/01/07, the backlog, both [product](../../../../../archive/drafts/product-research-strategy.md) and [development](../../../../../archive/drafts/ai-era-development-strategy.md) drafts, technical/quality strategy documents, and the earlier [workflow synthesis](../../results/ai-and-job-hunting/2026-10-18-ai-job-hunting-workflows.md), responsible-AI review, tools handoff, and [synthetic fixture](../../../../sources/datasets-and-examples/2026-10-18-synthetic-workflow-check.md). This report extends those findings with capture, lifecycle, architecture and evaluation contracts; consumer-product comparisons, Codex configuration, CI and development methods are outside scope.
 
 **Observed** means content actually inspected in an opened official source. **Reported** means an authority's guidance or vendor's stated policy, not independently verified implementation. **Recommendation** means this report's proposed design. Confidence is high in the narrow source observations, moderate in design applicability, and unmeasured for runtime effectiveness.
 
@@ -23,11 +23,11 @@ Read `AGENTS.md`, `_agents/README.md`, roles 08/11/15, this run's [brief](brief.
 | Email | Prefer selected-message import over inbox-wide access; strip signatures, recipients and unrelated threads where unnecessary. Sender identity and forwarding are not proof of reuse rights. |
 | Manual entry | Always provide a structured fallback; label user assertions separately from verified source statements. |
 
-Preserve immutable versions where retention rights permit; a new capture supersedes rather than silently rewrites the evidence used for an earlier analysis. Deduplicate provisionally by employer, title, location and source identifier; never merge conflicting salary or contract terms silently. Use snapshots for reproducible analysis; recheck availability, deadlines and material terms before consequential preparation. Display “captured on” separately from “last checked.” A content hash detects change, not authenticity.
+Preserve immutable versions where retention rights permit; a new capture supersedes rather than silently rewrites the evidence used for an earlier analysis. Deduplicate provisionally by employer, title, location and source identifier; never merge conflicting salary or contract terms silently. Use snapshots for reproducible 02_analysis/reports; recheck availability, deadlines and material terms before consequential preparation. Display “captured on” separately from “last checked.” A content hash detects change, not authenticity.
 
 ## Data contract and lifecycle
 
-**Recommendation:** keep profile evidence separate from postings and generated advice. Minimum profile: user-confirmed experience/skills and supporting examples, relevant qualifications, preferences and optional constraints. Exclude identity documents, full birth dates, health narratives, protected-characteristic inference and third-party reference details from routine model inputs. Let users express functional needs, such as predictable hours, without disclosing diagnoses. Keep contact details separate from analysis context; add them only to an explicitly reviewed export.
+**Recommendation:** keep profile evidence separate from postings and generated advice. Minimum profile: user-confirmed experience/skills and supporting examples, relevant qualifications, preferences and optional constraints. Exclude identity documents, full birth dates, health narratives, protected-characteristic inference and third-party reference details from routine model inputs. Let users express functional needs, such as predictable hours, without disclosing diagnoses. Keep contact details separate from 02_analysis/reports context; add them only to an explicitly reviewed export.
 
 Proposed logical schema, independent of database or language:
 
@@ -61,9 +61,9 @@ Architecture options are recommendations for comparison, not adopted choices:
 | --- | --- | --- |
 | Local processing/storage | Offline access and smaller remote-data exposure | Device loss, backup/key recovery and hardware support; reconsider if multi-device continuity is essential. A remote model call still transfers data. |
 | Cloud service | Central recovery, coordinated updates and cross-device state | Tenant isolation, operational security, transfers, contracts and deletion obligations; reconsider if these exceed owner capacity. |
-| Hybrid | Local raw profile/capture with selected redacted remote analysis | More complex sync, conflict resolution and deletion; reconsider if measured privacy benefit does not justify complexity. |
+| Hybrid | Local raw profile/capture with selected redacted remote 02_analysis/reports | More complex sync, conflict resolution and deletion; reconsider if measured privacy benefit does not justify complexity. |
 
-For the first technical experiment, recommend a portable source/claim contract and deterministic capture/review baseline. Compare local and managed-cloud operation using synthetic data before selecting deployment. Add hybrid synchronization only if observed journeys require it. Keep extraction, evidence storage, analysis and external actions as distinct logical boundaries; this does not prescribe microservices or any stack.
+For the first technical experiment, recommend a portable source/claim contract and deterministic capture/review baseline. Compare local and managed-cloud operation using synthetic data before selecting deployment. Add hybrid synchronization only if observed journeys require it. Keep extraction, evidence storage, 02_analysis/reports and external actions as distinct logical boundaries; this does not prescribe microservices or any stack.
 
 ### Threat controls and corresponding fixtures
 

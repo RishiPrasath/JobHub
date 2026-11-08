@@ -8,7 +8,7 @@ Identify Singapore job-search workflow barriers and segment differences using of
 
 ## Files and sources inspected
 
-Repository context: `_agents/README.md`, `_agents/03_job-domain-researcher.md`, and this run's `brief.md`. Source pages and relevant PDF findings/methodology sections were opened through web retrieval, not accepted from snippets alone. Numbers below are source-reported statistics, not direct observation by this researcher.
+Repository context: `agents/roles/README.md`, `agents/roles/03_job-domain-researcher.md`, and this run's `brief.md`. Source pages and relevant PDF findings/methodology sections were opened through web retrieval, not accepted from snippets alone. Numbers below are source-reported statistics, not direct observation by this researcher.
 
 ## Source register and pinpoint evidence
 
@@ -117,4 +117,4 @@ No consequential access failure. Broad searches returned news, Reddit and syndic
 
 ## Files changed and validation
 
-Changed only `specialists/domain.md` in this run. Source identities, reference periods, denominator caveats and inspected links are recorded above. Relevant report sections and methods were read. No participant observation, raw-data analysis, current legal determination, repository implementation, or test execution was performed.
+Changed only `specialists/domain.md` in this run. Source identities, reference periods, denominator caveats and inspected links are recorded above. Relevant report sections and methods were read. No participant observation, raw-data 02_analysis/reports, current legal determination, repository implementation, or test execution was performed.

@@ -4,8 +4,8 @@ This folder is the curated strategy source of truth for JobHub.
 
 ## Working model
 
-- `_drafts/` is for exploration, working notes, and unfinished thinking.
-- `01_strategy/` contains reviewed strategy documents that guide product and development decisions.
+- `archive/drafts/` holds the exploratory drafts these documents came from.
+- `strategy/` contains reviewed strategy documents that guide product and development decisions.
 - `evidence/` will hold research notes, source records, and internal references as research is conducted.
 - `08_decision-log.md` records decisions that should remain understandable after the surrounding discussion changes.
 - `09_open-questions.md` records unresolved questions instead of hiding uncertainty inside other documents.
@@ -34,7 +34,7 @@ JobHub is in discovery and strategy formation. The product surface, technology s
 ## Related operating files
 
 - [`AGENTS.md`](../AGENTS.md) defines repository-level collaboration guidance.
-- [`_agents/`](../_agents/) contains platform-agnostic specialist role references.
-- [`_prompts/`](../_prompts/) is reserved for reusable execution prompts.
-- [`_drafts/`](../_drafts/) contains the active exploratory drafts from which these documents were curated.
+- [`agents/roles/`](../agents/roles/) contains platform-agnostic specialist role references.
+- [`agents/prompts/`](../agents/prompts/) is reserved for reusable execution prompts.
+- [`archive/drafts/`](../archive/drafts/) contains the exploratory drafts from which these documents were curated.
 

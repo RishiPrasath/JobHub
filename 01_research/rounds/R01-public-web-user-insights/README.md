@@ -2,7 +2,7 @@
 
 ## Status
 
-Bounded first public-web evidence pass completed and reviewed 2026-10-18; product priority remains open. The [owner/agent research intents](../../00_research-intent-register.md) are retained. Query planning preceded browsing; findings are based on opened sources, not snippets or fictional flows. See the [round synthesis](round-synthesis.md) and [decision gate](decision-gate.md).
+Bounded first public-web evidence pass completed and reviewed 2026-10-18; product priority remains open. The [owner/agent research intents](../../method/00_research-intent-register.md) are retained. Query planning preceded browsing; findings are based on opened sources, not snippets or fictional flows. See the [round synthesis](round-synthesis.md) and [decision gate](decision-gate.md).
 
 ## Purpose
 

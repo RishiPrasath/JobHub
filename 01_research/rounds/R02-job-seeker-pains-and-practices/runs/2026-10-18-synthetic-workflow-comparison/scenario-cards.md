@@ -1,6 +1,6 @@
 # Scenario cards — fictional inputs for a paper comparison
 
-Status: proposed task scripts, not walkthrough observations. Both cards use the same dimensions: capture, interruption, return, assessment, preparation or comparison, next action, changed/expired source, and saved versus applied. Round 01 is [not started](../../../01_public-web-user-insights/round-synthesis.md), so neither workflow has a validated priority. The [run brief](brief.md) fixes the comparison scope; the [prepared fixture](../../../../05_evidence/datasets-and-examples/2026-10-18-synthetic-workflow-check.md) supplies A. Every person, posting, employer-like detail, and event below is fictional.
+Status: proposed task scripts, not walkthrough observations. Both cards use the same dimensions: capture, interruption, return, assessment, preparation or comparison, next action, changed/expired source, and saved versus applied. Round 01 is [not started](../../../R01-public-web-user-insights/round-synthesis.md), so neither workflow has a validated priority. The [run brief](brief.md) fixes the comparison scope; the [prepared fixture](../../../../sources/datasets-and-examples/2026-10-18-synthetic-workflow-check.md) supplies A. Every person, posting, employer-like detail, and event below is fictional.
 
 ## A — Jordan prepares for an adjacent occupation
 

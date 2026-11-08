@@ -133,7 +133,7 @@ Adapt message-first presentation techniques to exploratory research. Do not impo
 - [Evidence Synthesizer](02_evidence-synthesizer.md)
 - [UX Expert](13_ux-expert.md)
 - [Research Query Strategist](17_research-query-strategist.md)
-- [Research presentations](../02_research/07_presentations/README.md)
+- [Research presentations](../../01_research/decks/README.md)
 
 ## Change log
 

@@ -15,7 +15,7 @@ This run has not yet included:
 Command:
 
 ```text
-python _experiments/08_user-interface-and-human-review/runs/2026-10-20-run-001/code/claim_review_harness.py _experiments/08_user-interface-and-human-review/runs/2026-10-20-run-001/fixtures/sample-ai-output.json
+python 04_experiments/E08-user-interface-and-human-review/runs/2026-10-20-run-001/code/claim_review_harness.py 04_experiments/E08-user-interface-and-human-review/runs/2026-10-20-run-001/fixtures/sample-ai-output.json
 ```
 
 Observed result:

@@ -1,6 +1,6 @@
 # Experiments 10: market-value and red-flag experiments (X0 to X3)
 
-Date: 2026-11-07 (Singapore). Follows [research round 08](../../02_research/03_research-rounds/08_market-value-and-salary-benchmarking/runs/2026-11-07-how-market-value-is-determined/findings.md) (how market value is determined) and [experiment 09](../09_openserp-company-research/AGENT-TEST.md) (OpenSERP for company research).
+Date: 2026-11-07 (Singapore). Follows [research round 08](../../01_research/rounds/R08-market-value-and-salary-benchmarking/runs/2026-11-07-how-market-value-is-determined/findings.md) (how market value is determined) and [experiment 09](../E09-openserp-company-research/AGENT-TEST.md) (OpenSERP for company research).
 
 | ID | Experiment | Question | Protocol |
 |---|---|---|---|

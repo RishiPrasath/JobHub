@@ -1,6 +1,6 @@
 # Coordinator: internal workflow evidence
 
-Task: inspect the approved internal reference and its relevant links, read-only. Sources: I01-I07 in the [internal process review](../../../../../05_evidence/internal-job-hunt-workspace/2026-10-18-process-review.md).
+Task: inspect the approved internal reference and its relevant links, read-only. Sources: I01-I07 in the [internal process review](../../../../../sources/internal-job-hunt-workspace/2026-10-18-process-review.md).
 
 Observed: explicit intake review; verified career claims; staged document preparation; separation of prepared versus submitted applications; application-to-interview evidence reuse; specialist responsibilities and storage boundaries.
 

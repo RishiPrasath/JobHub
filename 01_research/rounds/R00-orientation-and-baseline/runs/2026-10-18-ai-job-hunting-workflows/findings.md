@@ -69,7 +69,7 @@ The UX specialist recommends testing role screening first. The tools specialist 
 
 ## Next validation and decision criteria
 
-Use the [synthetic comparison fixture](../../../../05_evidence/datasets-and-examples/2026-10-18-synthetic-workflow-check.md) and [UX experiment proposals](specialists/ux-workflows.md). Record task completion, unsupported claims, correction effort, source understanding, state recovery, and user willingness to return. Include frontline/shift workers, career changers/returners, and varied digital confidence and accessibility needs. Small pilots reveal problems; they do not estimate national rates.
+Use the [synthetic comparison fixture](../../../../sources/datasets-and-examples/2026-10-18-synthetic-workflow-check.md) and [UX experiment proposals](specialists/ux-workflows.md). Record task completion, unsupported claims, correction effort, source understanding, state recovery, and user willingness to return. Include frontline/shift workers, career changers/returners, and varied digital confidence and accessibility needs. Small pilots reveal problems; they do not estimate national rates.
 
 Choose a scope only after comparing these options against observed user needs. Reconsider the proposed first experiment if users mainly need sourcing, networking, or interview support, or if existing tools already solve continuity adequately.
 

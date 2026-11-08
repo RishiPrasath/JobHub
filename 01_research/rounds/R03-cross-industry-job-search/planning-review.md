@@ -26,4 +26,4 @@ Checks occurred during planning on 18–19 October 2026. They are not the 66-que
 
 ## Preserved boundaries
 
-The former UX placeholder is preserved in [prior-ux-plan.md](prior-ux-plan.md); the current round replaces that unused placeholder without renumbering Rounds 04–06. Product scope, platform, architecture, privacy decisions and final acceptance remain with the owner. Analysis follows evidence collection in [03_analysis](../../../03_analysis/), not before it.
+The former UX placeholder is preserved in [prior-ux-plan.md](prior-ux-plan.md); the current round replaces that unused placeholder without renumbering Rounds 04–06. Product scope, platform, architecture, privacy decisions and final acceptance remain with the owner. Analysis follows evidence collection in [03_analysis](../../../02_analysis/reports/), not before it.

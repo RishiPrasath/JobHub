@@ -25,4 +25,4 @@ The 66 queries, 140 inspection attempts, 86 retained source IDs/URLs and 84 obse
 
 ## Handoff
 
-Use the profiles, comparison and uncertainty in [03_analysis](../../../03_analysis/) to formulate scope alternatives and fair comparisons with today's practices. No target industry, first feature, platform, architecture, provider, automation level or privacy implementation is accepted by completing this research. Read the updated [research briefing](../../07_presentations/01_job-seeker-research-story/README.md) alongside the evidence, not instead of it.
+Use the profiles, comparison and uncertainty in [03_analysis](../../../02_analysis/reports/) to formulate scope alternatives and fair comparisons with today's practices. No target industry, first feature, platform, architecture, provider, automation level or privacy implementation is accepted by completing this research. Read the updated [research briefing](../../decks/01_job-seeker-research-story/README.md) alongside the evidence, not instead of it.

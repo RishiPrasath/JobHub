@@ -15,7 +15,7 @@ Find the freest and easiest-to-set-up way to research a company and a role as a 
 - [limitations.md](limitations.md) — what was not shown
 - [sources.md](sources.md) — pricing/terms pages and data sources
 - `data/postings.json` — the 15-posting set
-- `code/` — one script per experiment (run with `python -I`; Playwright script needs the `_prototypes/02_persona-job-review-v3` `node_modules`)
+- `code/` — one script per experiment (run with `python -I`; Playwright script needs the `05_prototypes/P02-persona-job-review-v3` `node_modules`)
 - `outputs/` — raw JSON and console logs per experiment; `outputs/pages/` holds captured page text
 
 ## Headline

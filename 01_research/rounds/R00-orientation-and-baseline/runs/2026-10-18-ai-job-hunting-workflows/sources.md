@@ -7,7 +7,7 @@ Access date: 2026-10-18 for every retained record. The following registers conta
 | P01-P08 | Empirical studies, surveys, firsthand accounts | [Job-seeker practices](specialists/job-seeker-practices.md) |
 | T01-T08 | Official tool documentation and policy | [AI tools](specialists/ai-tools.md) |
 | D01-D07 | Singapore labour-market and career-service evidence | [Job domain](specialists/job-domain.md) |
-| I01-I07 | Local process documents and linked agent/workflows | [Internal evidence](../../../../05_evidence/internal-job-hunt-workspace/2026-10-18-process-review.md) |
+| I01-I07 | Local process documents and linked agent/workflows | [Internal evidence](../../../../sources/internal-job-hunt-workspace/2026-10-18-process-review.md) |
 
 Twenty-three external source records (D02 includes separate findings and methodology URLs) and seven internal process records were retained. Multiple pages from one institution or anecdotes repeating a common claim are not independent confirmation.
 

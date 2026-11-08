@@ -12,7 +12,7 @@ Re-ran the registry matcher on the 34 persona-run employers with the local index
 | technology-digital | 2 exact, 3 confirm | 5 exact |
 | trade-operations | 5 exact | 5 exact |
 
-Changes in `_prototypes/03_company-research-pipeline/pipeline/acra.py`:
+Changes in `05_prototypes/P03-company-research-pipeline/pipeline/acra.py`:
 1. A posted name that equals a registered name exactly is `exact` even when other entities only add words to it (Recruit Express, Coffee Club, Kyndryl, Randstad, Singtel). Two live entities with the identical name are still flagged.
 2. Names with "board", "authority", "ministry" and similar words that find nothing, or only unrelated partial matches, return `public_body` instead of a wrong candidate.
 3. Matches through a former name, or to a registered name with extra words ("Grab Holdings" to "Grab Geo Holdings"), now need confirmation instead of `likely`.

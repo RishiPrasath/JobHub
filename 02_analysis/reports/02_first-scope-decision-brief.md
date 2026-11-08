@@ -27,9 +27,9 @@ This is not yet a decision about:
 
 Relevant research includes:
 
-- [Round 1–4 research](../02_research/README.md)
-- [Round 4 integrated findings](../02_research/03_research-rounds/04_ai-assistance-and-trust/runs/2026-10-19-round4-remaining-objectives/findings.md)
-- [Round 4 job-posting inventory](../02_research/03_research-rounds/04_ai-assistance-and-trust/runs/2026-10-19-job-posting-page-inventory/README.md)
+- [Round 1–4 research](../../01_research/README.md)
+- [Round 4 integrated findings](../../01_research/rounds/R04-ai-assistance-and-trust/runs/2026-10-19-round4-remaining-objectives/findings.md)
+- [Round 4 job-posting inventory](../../01_research/rounds/R04-ai-assistance-and-trust/runs/2026-10-19-job-posting-page-inventory/README.md)
 - [Research-to-scope method](00_research-to-scope-draft.md)
 
 The existing evidence is public-web, internal and desk research. It does not yet establish a greatest-burden ranking, representative user behaviour, willingness to use, or the best first workflow.

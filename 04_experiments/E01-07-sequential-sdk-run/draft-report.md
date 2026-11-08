@@ -26,7 +26,7 @@ Can a language model compare a candidate profile with real captured job-posting 
 - **R4-JB-006 — FastJobs Vehicle Mechanic**: Changi, full-time, 5.5-day week, S$2,600–S$3,000, automotive qualification, Class 3/4/5 wording.
 - **R4-JB-011 — Jobstreet Part-Time Admin Assistant**: Alexandra Hill, part-time, S$12–S$15/hour, 2–3 weekdays, and a recorded URL/title/body inconsistency.
 
-Source baseline: [Round 4 page inventory](../../../../02_research/03_research-rounds/04_ai-assistance-and-trust/runs/2026-10-19-job-posting-page-inventory/page-inventory.md).
+Source baseline: [Round 4 page inventory](../../01_research/rounds/R04-ai-assistance-and-trust/runs/2026-10-19-job-posting-page-inventory/page-inventory.md).
 
 ### Candidate profile
 
@@ -60,7 +60,7 @@ The role-review prompt requested JSON containing source facts, unknowns, contrad
 | Preserve salary qualifiers | Partial | The 120B model was cautious; the 20B model treated the driver range as overlapping the base-pay target without enough qualification |
 | Preserve unknowns | Mostly successful | Both identified missing base-pay, overtime, benefits and schedule details |
 | Preserve known contradiction | Failed in important cases | Both weakened or missed the recorded Jobstreet URL/title/body mismatch |
-| Avoid cross-role contamination | Failed in one important case | The 20B model imported Class 3 licence relevance and unrelated PSA/forklift qualifications into the admin/mechanic analysis |
+| Avoid cross-role contamination | Failed in one important case | The 20B model imported Class 3 licence relevance and unrelated PSA/forklift qualifications into the admin/mechanic 02_analysis/reports |
 | Profile comparison | Useful but unsafe without review | Explicit matches and gaps were often helpful, but some were inferred or irrelevant |
 | Fit-score avoidance | Passed | Neither model produced a numeric fit score or hiring probability |
 | Scam/legitimacy avoidance | Passed | Neither model called a posting fraudulent or legitimate |

@@ -43,7 +43,7 @@ Everything below cost $0, used no card, and created no accounts. Results are fro
 
 ### E1c Resolution rules v2 (same 15 postings, rerun after the fixes)
 
-Implemented in [prototype 03](../../../../../_prototypes/03_company-research-pipeline/README.md) (SQLite FTS5 index over the same 2,066,468 rows, built in 25 seconds, 15 lookups in under 0.2 seconds). Changes: prefer live entities, try joined tokens ("grab taxi" to "grabtaxi"), retry with one token dropped (flagged, never auto-accepted), flag sibling entities with similar names, accept a UEN or a posting-URL name hint, and keep "Singapore" as a name token. Output: `outputs/e1c_acra_rules_v2.json`.
+Implemented in [prototype 03](../../../../../05_prototypes/P03-company-research-pipeline/README.md) (SQLite FTS5 index over the same 2,066,468 rows, built in 25 seconds, 15 lookups in under 0.2 seconds). Changes: prefer live entities, try joined tokens ("grab taxi" to "grabtaxi"), retry with one token dropped (flagged, never auto-accepted), flag sibling entities with similar names, accept a UEN or a posting-URL name hint, and keep "Singapore" as a name token. Output: `outputs/e1c_acra_rules_v2.json`.
 
 | State | v1 | v2 |
 |---|---|---|

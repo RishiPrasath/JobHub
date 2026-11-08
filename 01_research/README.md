@@ -2,11 +2,11 @@
 
 This folder contains the instructions, active research work, evidence, and results used to inform JobHub strategy and product decisions.
 
-The research folder is separate from [`01_strategy`](../01_strategy/). Research produces evidence and findings; strategy interprets that evidence into product and technical direction.
+The research folder is separate from [`strategy`](../strategy/). Research produces evidence and findings; strategy interprets that evidence into product and technical direction.
 
 ## Current research status — 2026-10-18
 
-The original topic lists remain in the drafts, indexed by the [research intent register](00_research-intent-register.md). Round 00 is prior desk research; Round 01's bounded public-web pass is completed and reviewed. The owner authorised an [expanded Round 02 evidence pass](03_research-rounds/02_synthetic-workflow-selection/runs/2026-10-18-pain-practices-and-guidance/README.md) on job-seeker pains, practical guidance, video captions, and a bounded internal process review. Its earlier fictional comparison stays historical. Direct interviews, product/device tests, live tool comparisons and launch clearance are not claimed complete.
+The original topic lists remain in the drafts, indexed by the [research intent register](method/00_research-intent-register.md). Round 00 is prior desk research; Round 01's bounded public-web pass is completed and reviewed. The owner authorised an [expanded Round 02 evidence pass](rounds/R02-job-seeker-pains-and-practices/runs/2026-10-18-pain-practices-and-guidance/README.md) on job-seeker pains, practical guidance, video captions, and a bounded internal process review. Its earlier fictional comparison stays historical. Direct interviews, product/device tests, live tool comparisons and launch clearance are not claimed complete.
 
 ## Research-round structure
 
@@ -107,7 +107,7 @@ Contains source records and supporting material. External sources, the internal 
 
 ### `06_research-decisions/`
 
-Contains conclusions that directly change product or development direction. These should link back to the relevant result and be reflected in `01_strategy/08_decision-log.md` when they become durable strategy decisions.
+Contains conclusions that directly change product or development direction. These should link back to the relevant result and be reflected in `strategy/08_decision-log.md` when they become durable strategy decisions.
 
 ## Research lifecycle
 
@@ -154,12 +154,12 @@ Research results should not silently turn an assumption into a requirement. When
 
 ## Current operating order
 
-For a reading overview before analysis, open the [storytelling research briefing](07_presentations/01_job-seeker-research-story/README.md). It includes an offline browser presentation with readable text, an editable PPTX, sources and limitations. The earlier briefing is preserved. Slides summarise the research and do not approve product decisions.
+For a reading overview before 02_analysis/reports, open the [storytelling research briefing](decks/01_job-seeker-research-story/README.md). It includes an offline browser presentation with readable text, an editable PPTX, sources and limitations. The earlier briefing is preserved. Slides summarise the research and do not approve product decisions.
 
-1. Preserve the full [owner and agent topic lists](00_research-intent-register.md) without turning them all into simultaneous studies.
-2. Use the reviewed [Round 01 first pass](03_research-rounds/01_public-web-user-insights/round-synthesis.md) and its [narrow gate](03_research-rounds/01_public-web-user-insights/decision-gate.md) to guide any additional public retrieval.
-3. Review the completed [Round 02 expanded evidence run](03_research-rounds/02_synthetic-workflow-selection/README.md) and proposed next task, keeping its historical fictional work distinct from public and internal evidence.
+1. Preserve the full [owner and agent topic lists](method/00_research-intent-register.md) without turning them all into simultaneous studies.
+2. Use the reviewed [Round 01 first pass](rounds/R01-public-web-user-insights/round-synthesis.md) and its [narrow gate](rounds/R01-public-web-user-insights/decision-gate.md) to guide any additional public retrieval.
+3. Review the completed [Round 02 expanded evidence run](rounds/R02-job-seeker-pains-and-practices/README.md) and proposed next task, keeping its historical fictional work distinct from public and internal evidence.
 4. Promote a result into strategy only after its evidence and limitations support a human-owned decision.
 
-Research update, 2026-10-19: the owner authorised [Round 03 cross-industry research](03_research-rounds/03_cross-industry-job-search/README.md), industry profiles and updated slides. Bounded collection is complete; integration/review and presentation finalisation are tracked there. Evidence remains partial and does not select scope for `03_analysis/`.
+Research update, 2026-10-19: the owner authorised [Round 03 cross-industry research](rounds/R03-cross-industry-job-search/README.md), industry profiles and updated slides. Bounded collection is complete; integration/review and presentation finalisation are tracked there. Evidence remains partial and does not select scope for `02_analysis/reports/`.
 

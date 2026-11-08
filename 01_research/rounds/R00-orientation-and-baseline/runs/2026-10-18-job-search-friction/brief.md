@@ -4,7 +4,7 @@ Date: 2026-10-18 (Asia/Singapore). Status: approved for execution; research conc
 
 ## Authority and decision
 
-The user approved the nine-section plan presented after executing `_prompts/00_research-kickoff.md`, replying "approved". This authorises this bounded desk-research run, its specialist assignments, and local research artifacts. It does not approve product scope, architecture, outreach, external writes, commits, or deployment.
+The user approved the nine-section plan presented after executing `agents/prompts/00_research-kickoff.md`, replying "approved". This authorises this bounded desk-research run, its specialist assignments, and local research artifacts. It does not approve product scope, architecture, outreach, external writes, commits, or deployment.
 
 Question: Which job-search moments create the greatest loss of time, confidence, or opportunity, for whom and in what circumstances?
 
@@ -22,7 +22,7 @@ Decision informed: which problem hypotheses JobHub should validate next, not whi
 
 ## Assignments and ownership
 
-Role definitions are under `_agents/`. All specialists read their relevant role and use the repository handoff format. Only the coordinator writes integrated run files and promoted results.
+Role definitions are under `agents/roles/`. All specialists read their relevant role and use the repository handoff format. Only the coordinator writes integrated run files and promoted results.
 
 | Role | Definition | Bounded responsibility | Owned output | Dependency |
 | --- | --- | --- | --- | --- |
@@ -48,11 +48,11 @@ No more than three specialists concurrently. Collection tasks may run in paralle
 
 ## Deliverables
 
-Run: `02_research/03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-job-search-friction/` with `brief.md`, `sources.md`, `notes.md`, `findings.md`, `limitations.md`, and separate `specialists/` handoffs.
+Run: `01_research/rounds/R00-orientation-and-baseline/runs/2026-10-18-job-search-friction/` with `brief.md`, `sources.md`, `notes.md`, `findings.md`, `limitations.md`, and separate `specialists/` handoffs.
 
-Reviewed synthesis: `02_research/04_results/product-and-users/2026-10-18-job-search-friction.md`.
+Reviewed synthesis: `01_research/rounds/R00-orientation-and-baseline/results/product-and-users/2026-10-18-job-search-friction.md`.
 
-Public evidence/provenance record: `02_research/05_evidence/external/2026-10-18-job-search-friction.md`.
+Public evidence/provenance record: `01_research/sources/external/2026-10-18-job-search-friction.md`.
 
 Outputs include a workflow map, segment notes, pain points, workarounds, evidence gaps, up to three testable problem hypotheses, and proposed next validation activities. Do not update strategy, the backlog, or research decisions without a reason supported by an actual human decision.
 

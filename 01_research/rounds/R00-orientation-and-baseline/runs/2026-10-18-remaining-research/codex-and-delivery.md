@@ -8,11 +8,11 @@ Keep the portable role library, use Codex's native delegation when independent w
 
 ## Observed local state
 
-- `AGENTS.md` supplies coordinator/specialist rules; `_agents/README.md` lists 16 portable roles. These are instructions, not evidence that 16 custom native agent types are registered.
+- `AGENTS.md` supplies coordinator/specialist rules; `agents/roles/README.md` lists 16 portable roles. These are instructions, not evidence that 16 custom native agent types are registered.
 - `Test-Path .codex` returned `False`. No project-local native configuration was present during this inspection. User/global configuration was not audited.
 - The resolved CLI is `C:/Users/prasa/AppData/Roaming/npm/codex.ps1`; `codex --version` returned `codex-cli 0.163.0`. Its help documents `--search`, `--strict-config`, `--worktree`, and the `agents` session browser. Help output alone does not test custom-agent loading.
 - This research used real native spawn tools with four independent child agents and disjoint Markdown outputs. Role instructions were supplied in each task; no claim is made that these were custom registered role types.
-- `_prompts/00_research-kickoff.md` is a plan/approval template. The user's current instruction authorises this continuation; it is not necessary to ask for the same research approval again. Future external writes and consequential decisions remain separate.
+- `agents/prompts/00_research-kickoff.md` is a plan/approval template. The user's current instruction authorises this continuation; it is not necessary to ask for the same research approval again. Future external writes and consequential decisions remain separate.
 
 ## Official capability findings
 
@@ -29,9 +29,9 @@ Keep the portable role library, use Codex's native delegation when independent w
 | Artifact | Keep here | Avoid |
 | --- | --- | --- |
 | Root `AGENTS.md` | Stable boundaries, source precedence, validation conventions | Whole strategy, every specialist definition, temporary task status |
-| `_agents/` | Portable responsibilities and handoff contracts | Claims of tool availability or executable permissions |
+| `agents/roles/` | Portable responsibilities and handoff contracts | Claims of tool availability or executable permissions |
 | Future `.codex/agents/` | Thin runtime-specific identity/configuration referring to relevant role | Full duplicated role text that drifts independently |
-| `_prompts/` | Bounded repeatable task, context paths, non-goals, evidence and checks | Secrets, copied private resumes, implicit external-write permission |
+| `agents/prompts/` | Bounded repeatable task, context paths, non-goals, evidence and checks | Secrets, copied private resumes, implicit external-write permission |
 | Dated research run | Sources, claims, dissent and executed work | Unlabelled future plans represented as findings |
 | Strategy / decision log | Accepted choices and rationale, linked to evidence | Promoting an agent recommendation into user approval |
 

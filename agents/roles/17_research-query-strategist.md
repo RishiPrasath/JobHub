@@ -173,9 +173,9 @@ Every handoff should include the assigned query family, intended question, sourc
 
 ## Related Documents
 
-- [Agent assignment and coordination](../02_research/02_instructions/01_agent-assignment-and-coordination.md)
-- [Common research protocol](../02_research/02_instructions/00_common-research-protocol.md)
-- [Public user insight brief](../02_research/03_research-rounds/01_public-web-user-insights/runs/2026-10-18-web-based-user-insights/brief.md)
+- [Agent assignment and coordination](../../01_research/method/instructions/01_agent-assignment-and-coordination.md)
+- [Common research protocol](../../01_research/method/instructions/00_common-research-protocol.md)
+- [Public user insight brief](../../01_research/rounds/R01-public-web-user-insights/runs/2026-10-18-web-based-user-insights/brief.md)
 - [Research Planner](01_research-planner.md)
 - [Evidence Synthesizer](02_evidence-synthesizer.md)
 - [Job-Seeker Practices Researcher](04_job-seeker-practices-researcher.md)

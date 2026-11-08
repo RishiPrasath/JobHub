@@ -78,7 +78,7 @@ manual_fallback
 
 The current static prototype is:
 
-[_prototypes/00_single-posting-review/index.html](../_prototypes/00_single-posting-review/index.html)
+[05_prototypes/P00-single-posting-review/index.html](../../05_prototypes/P00-single-posting-review/index.html)
 
 It uses static data from Run 002 and does not make live AI or external requests.
 

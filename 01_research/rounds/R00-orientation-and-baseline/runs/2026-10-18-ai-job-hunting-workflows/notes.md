@@ -19,7 +19,7 @@ The coordinator's supplementary Pew/Indeed search returned mainly workplace adop
 
 ## Method adjustment
 
-No controlled comparisons inside the six products were performed. Accessible documentation was compared instead; it cannot establish output quality, runtime behavior, or actual compatibility. A [synthetic fixture](../../../../05_evidence/datasets-and-examples/2026-10-18-synthetic-workflow-check.md) was prepared for later matched testing. No interviews were conducted or participants contacted. These remain validation work rather than completed research activities.
+No controlled comparisons inside the six products were performed. Accessible documentation was compared instead; it cannot establish output quality, runtime behavior, or actual compatibility. A [synthetic fixture](../../../../sources/datasets-and-examples/2026-10-18-synthetic-workflow-check.md) was prepared for later matched testing. No interviews were conducted or participants contacted. These remain validation work rather than completed research activities.
 
 ## Contradictions to retain
 

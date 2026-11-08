@@ -58,7 +58,7 @@ Sources: R3-P02 and R3-B08. No provider capability, permission to scrape, compar
 
 Sources: R3-M02/M04/M14, R3-A11/A12, R3-B12/B16 and R3-P01. P01's promotional numerical comparisons were excluded for missing methods. Silence about AI does not establish deliberate non-use.
 
-## What to carry into analysis
+## What to carry into 02_analysis/reports
 
 These are questions for the owner, not accepted scope:
 

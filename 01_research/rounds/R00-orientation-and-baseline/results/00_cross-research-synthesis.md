@@ -22,7 +22,7 @@ For the product, test a role-by-role workspace for understanding an opportunity,
 | Codex | Native delegation works in this run; portable role files are not native custom-agent registration. No project `.codex` directory was found | Locally observed; setup/benchmark remains a separate change |
 | Owner learning | Personally own user interpretation, acceptance, data-flow understanding, test rationale and rollback; use AI for tutoring and critique | Concrete exercises prepared; mastery not yet demonstrated |
 
-These implications are research proposals, not accepted strategy changes. Detailed source support, contrary evidence and specialist-versus-coordinator distinctions are in the [integrated findings](../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-remaining-research/findings.md).
+These implications are research proposals, not accepted strategy changes. Detailed source support, contrary evidence and specialist-versus-coordinator distinctions are in the [integrated findings](../runs/2026-10-18-remaining-research/findings.md).
 
 ## Read by topic
 
@@ -35,9 +35,9 @@ These implications are research proposals, not accepted strategy changes. Detail
 
 ## What is finished—and what is not
 
-All R-01–R-15 questions and both drafts' topic groups have a desk-research treatment, tracked in the [coverage matrix](../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-remaining-research/coverage.md). Four research subagents used web tools; two separate reviewers checked selected sources and the synthesis. The [review record](../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-remaining-research/review.md) records corrections and review limits. All three development articles you supplied were assessed.
+All R-01–R-15 questions and both drafts' topic groups have a desk-research treatment, tracked in the [coverage matrix](../runs/2026-10-18-remaining-research/coverage.md). Four research subagents used web tools; two separate reviewers checked selected sources and the synthesis. The [review record](../runs/2026-10-18-remaining-research/review.md) records corrections and review limits. All three development articles you supplied were assessed.
 
-No interviews, live product/model comparisons, usability tests or implementation experiments were performed. The [six-activity validation queue](../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-remaining-research/validation-next.md) makes these remaining needs concrete, with assigned agents and boundaries. Public naming overlap is not legal clearance; JobHub remains the chosen working name.
+No interviews, live product/model comparisons, usability tests or implementation experiments were performed. The [six-activity validation queue](../runs/2026-10-18-remaining-research/validation-next.md) makes these remaining needs concrete, with assigned agents and boundaries. Public naming overlap is not legal clearance; JobHub remains the chosen working name.
 
-Recommended next step: review the [proposed decisions](../06_research-decisions/2026-10-18-proposed-research-direction.md), then execute the bounded [web-based user-insight study](../03_research-rounds/01_public-web-user-insights/runs/2026-10-18-web-based-user-insights/brief.md). Use its strongest supported hypothesis to choose the low-fidelity flow comparison. More broad browsing should stop once the brief's evidence threshold is met. See [limitations](../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-remaining-research/limitations.md) before acting on regulated, private-data or launch decisions.
+Recommended next step: review the [proposed decisions](../../../../06_scope/decisions/proposed/2026-10-18-proposed-research-direction.md), then execute the bounded [web-based user-insight study](../../R01-public-web-user-insights/runs/2026-10-18-web-based-user-insights/brief.md). Use its strongest supported hypothesis to choose the low-fidelity flow comparison. More broad browsing should stop once the brief's evidence threshold is met. See [limitations](../runs/2026-10-18-remaining-research/limitations.md) before acting on regulated, private-data or launch decisions.
 

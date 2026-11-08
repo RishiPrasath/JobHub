@@ -2,7 +2,7 @@
 
 ## Objective
 
-Use the completed AI experiments and existing JobHub analysis to define the first narrow, testable product workflow for JobHub.
+Use the completed AI experiments and existing JobHub 02_analysis/reports to define the first narrow, testable product workflow for JobHub.
 
 The goal is not to design the entire application. The goal is to decide what one user episode should be tested next, what capability supports it, and what must remain out of scope.
 
@@ -31,17 +31,17 @@ Treat these findings as bounded evidence, not universal claims about AI or job s
 Read these files before making recommendations:
 
 - `AGENTS.md`
-- `analysis/README.md`
-- `analysis/02_first-scope-decision-brief.md`
-- `analysis/03_role-pursuit-opportunity-hypothesis.md`
-- `analysis/05_role-pursuit-walkthrough.md`
-- `analysis/06_manual-vs-ai-review-comparison.md`
-- `analysis/07_role-pursuit-learning-test-results.md`
-- `analysis/08_role-pursuit-evidence-audit.md`
-- `_drafts/ai-experiment-findings-and-jobhub-scope.md`
-- `_experiments/README.md`
-- `Tools/OpenAI SDK/briefing.md`
-- `Tools/OpenAI SDK/experiments/2026-10-19-role-review-and-profile-comparison/draft-report.md`
+- `02_analysis/reports/README.md`
+- `02_analysis/reports/02_first-scope-decision-brief.md`
+- `02_analysis/reports/03_role-pursuit-opportunity-hypothesis.md`
+- `02_analysis/reports/05_role-pursuit-walkthrough.md`
+- `02_analysis/reports/06_manual-vs-ai-review-comparison.md`
+- `02_analysis/reports/07_role-pursuit-learning-test-results.md`
+- `02_analysis/reports/08_role-pursuit-evidence-audit.md`
+- `04_experiments/E01-07-sequential-sdk-run/findings.md`
+- `04_experiments/README.md`
+- `tools/openai-sdk/briefing.md`
+- `04_experiments/E01-07-sequential-sdk-run/draft-report.md`
 
 Also inspect the Round 4 source records referenced by those files, especially the three captured postings:
 
@@ -59,7 +59,7 @@ Use no more than three bounded specialists if parallel subagents are available:
 
 The coordinator must reconcile their reports. Specialists should not edit the same files. Every report must distinguish evidence, inference, uncertainty, risk and recommendation.
 
-## Required analysis tasks
+## Required 02_analysis/reports tasks
 
 1. Summarise what the experiments actually established.
 2. Separate demonstrated capabilities from failed or untested capabilities.
@@ -79,7 +79,7 @@ Evaluate this as a hypothesis, not a predetermined decision:
 
 > Help a job seeker understand what a job posting says, what is missing or conflicting, and what they should verify before spending more time on the role.
 
-The analysis must be willing to reject or revise this direction if the evidence does not support it.
+The 02_analysis/reports must be willing to reject or revise this direction if the evidence does not support it.
 
 ## Scope boundaries to preserve
 
@@ -96,9 +96,9 @@ Do not turn the first scope into any of the following:
 
 ## Required output
 
-Create or update one analysis document:
+Create or update one 02_analysis/reports document:
 
-`analysis/09_experiment-to-scope-decision.md`
+`02_analysis/reports/09_experiment-to-scope-decision.md`
 
 Use this structure:
 
@@ -139,7 +139,7 @@ The output must not claim that a feature is validated merely because a model pro
 
 ## Approval boundary
 
-The coordinator may update the analysis document and create the recommendation. The following remain under owner control:
+The coordinator may update the 02_analysis/reports document and create the recommendation. The following remain under owner control:
 
 - final product scope;
 - product non-goals;

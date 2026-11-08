@@ -5,10 +5,10 @@ Status: specialist-reviewed feasibility assessment; implementation and final MVP
 
 ## Features reviewed
 
-1. [Fact-based red-flag evidence database](../04_feature-ideas/00_red-flag-evidence-database.md)
-2. [Company and role research service](../04_feature-ideas/01_company-and-role-research-service.md)
-3. [Discriminatory and harmful signals knowledge base](../04_feature-ideas/02_discriminatory-and-harmful-signals-knowledge-base.md)
-4. [Candidate profile and preferences](../04_feature-ideas/03_candidate-profile-and-preferences.md)
+1. [Fact-based red-flag evidence database](../../03_features/source-ideas/00_red-flag-evidence-database.md)
+2. [Company and role research service](../../03_features/source-ideas/01_company-and-role-research-service.md)
+3. [Discriminatory and harmful signals knowledge base](../../03_features/source-ideas/02_discriminatory-and-harmful-signals-knowledge-base.md)
+4. [Candidate profile and preferences](../../03_features/source-ideas/03_candidate-profile-and-preferences.md)
 
 Four bounded specialists inspected the repository and performed read-only web research. No specialist edited files. The coordinator reconciled their findings here and in the feature documents.
 

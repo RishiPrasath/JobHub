@@ -1,6 +1,6 @@
 # Research brief: public user insight study
 
-Date prepared: 2026-10-18. Status: used for a bounded first public-web pass on 2026-10-18; its full stopping rule was **not** certified. The [findings](findings.md) and [limitations](limitations.md) record what was actually achieved. This brief is aligned to the [canonical product research strategy](../../../../../01_strategy/02_product-research-strategy.md).
+Date prepared: 2026-10-18. Status: used for a bounded first public-web pass on 2026-10-18; its full stopping rule was **not** certified. The [findings](findings.md) and [limitations](limitations.md) record what was actually achieved. This brief is aligned to the [canonical product research strategy](../../../../../strategy/02_product-research-strategy.md).
 
 ## Decision
 

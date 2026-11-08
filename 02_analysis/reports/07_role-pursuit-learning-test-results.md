@@ -14,7 +14,7 @@ The comparison used the three existing Round 4 posting records:
 - R4-JB-006 — FastJobs Vehicle Mechanic
 - R4-JB-011 — Jobstreet Part-Time Admin Assistant
 
-Sources: [page inventory](../02_research/03_research-rounds/04_ai-assistance-and-trust/runs/2026-10-19-job-posting-page-inventory/page-inventory.md), [findings](../02_research/03_research-rounds/04_ai-assistance-and-trust/runs/2026-10-19-job-posting-page-inventory/findings.md), and [AI-assisted job-seeking and trust](../02_research/03_research-rounds/04_ai-assistance-and-trust/runs/2026-10-19-round4-remaining-objectives/ai-assisted-job-seeking-and-trust.md).
+Sources: [page inventory](../../01_research/rounds/R04-ai-assistance-and-trust/runs/2026-10-19-job-posting-page-inventory/page-inventory.md), [findings](../../01_research/rounds/R04-ai-assistance-and-trust/runs/2026-10-19-job-posting-page-inventory/findings.md), and [AI-assisted job-seeking and trust](../../01_research/rounds/R04-ai-assistance-and-trust/runs/2026-10-19-round4-remaining-objectives/ai-assisted-job-seeking-and-trust.md).
 
 ## Conditions compared
 
@@ -92,7 +92,7 @@ The review should preserve, at minimum:
 - current decision state: continue, investigate, save, pause or decline;
 - the exact source version used for the review.
 
-This is a design requirement derived from the analysis, not a tested product behaviour.
+This is a design requirement derived from the 02_analysis/reports, not a tested product behaviour.
 
 ## Accessibility and comprehension requirement
 
@@ -118,7 +118,7 @@ No pass claim is made for these items until a rendered prototype is available.
 5. The value is likely to come from better next questions and decision clarity, not from a polished summary alone.
 6. The remaining uncertainty is interactional and behavioural: whether people can correct, resume, understand and act on the review.
 
-## Independent review of the analysis
+## Independent review of the 02_analysis/reports
 
 Three read-only specialist reviews checked the UX/recovery, evidence-safety and product-decision conclusions. They agreed that the simulation is directionally sound but identified an auditability gap: the repository does not yet contain the raw AI output, claim-level source locators, human correction log or reproducible error ledger.
 

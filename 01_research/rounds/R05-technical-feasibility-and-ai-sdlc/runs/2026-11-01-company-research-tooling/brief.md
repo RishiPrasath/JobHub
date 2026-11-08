@@ -6,7 +6,7 @@ What is the freest and easiest-to-set-up stack for a JobHub service that researc
 
 ## Context
 
-The earlier 4-agent options report (`research\2026-11-01-company-research-tooling-options.md`) was not available in the repository, so this run redoes the work from first principles: re-check pricing and terms pages, then run small experiments. The feature definition and its smallest experiment come from [the company and role research service idea](../../../../../04_feature-ideas/01_company-and-role-research-service.md).
+The earlier 4-agent options report (`research\2026-11-01-company-research-tooling-options.md`) was not available in the repository, so this run redoes the work from first principles: re-check pricing and terms pages, then run small experiments. The feature definition and its smallest experiment come from [the company and role research service idea](../../../../../03_features/source-ideas/01_company-and-role-research-service.md).
 
 ## Posting set (15 postings, 5 industry groups)
 

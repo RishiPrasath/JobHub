@@ -5,7 +5,7 @@ Status: source-grounded side research; not a product-scope decision.
 
 ## Source reviewed
 
-The primary source is Lucy on Life's video, [5 Job Interview Red Flags That Scream Toxic Workplace](https://www.youtube.com/watch?v=mHqVlYalhm0). English auto-generated captions were retrieved with `yt-dlp` and preserved as [source evidence](../../05_evidence/external/youtube/2026-10-29-interview-red-flags-before-accepting/mHqVlYalhm0.en-orig.vtt).
+The primary source is Lucy on Life's video, [5 Job Interview Red Flags That Scream Toxic Workplace](https://www.youtube.com/watch?v=mHqVlYalhm0). English auto-generated captions were retrieved with `yt-dlp` and preserved as [source evidence](../../../../sources/external/youtube/2026-10-29-interview-red-flags-before-accepting/mHqVlYalhm0.en-orig.vtt).
 
 The video frames an interview as a two-way evaluation: the candidate is also deciding whether to invest time, energy and experience in the employer. Its five themes are summarised below. These are the speaker's claims and recommendations, not established universal rules.
 

@@ -4,7 +4,7 @@ Date: 2026-10-18. Status: specialist synthesis complete; Product Strategist revi
 
 ## Task, scope and inspected material
 
-Audit the 13 retained records, reconcile the collectors and workflow reviewer, and identify up to three unranked hypotheses for validation. Read `_agents/README.md`, `_agents/02_evidence-synthesizer.md`, [brief](../brief.md), [source register](../sources.md), [domain](domain.md), [practices](practices.md), [targeted gap pass](targeted-gap-pass.md) and [workflow review](workflow-review.md). No new collection or independent reopening of original sources was performed. Source-checking evidence is inherited from the collectors; this review checks their recorded provenance, claims and reasoning.
+Audit the 13 retained records, reconcile the collectors and workflow reviewer, and identify up to three unranked hypotheses for validation. Read `agents/roles/README.md`, `agents/roles/02_evidence-synthesizer.md`, [brief](../brief.md), [source register](../sources.md), [domain](domain.md), [practices](practices.md), [targeted gap pass](targeted-gap-pass.md) and [workflow review](workflow-review.md). No new collection or independent reopening of original sources was performed. Source-checking evidence is inherited from the collectors; this review checks their recorded provenance, claims and reasoning.
 
 ## Provenance and dependency audit
 

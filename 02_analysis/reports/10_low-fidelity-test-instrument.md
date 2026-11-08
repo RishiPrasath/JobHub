@@ -16,9 +16,9 @@ It compares a raw posting, a manual worksheet and a guarded AI-assisted workshee
 
 The executable test package is located at:
 
-[`_experiments/08_user-interface-and-human-review/runs/2026-10-20-run-001/`](../_experiments/08_user-interface-and-human-review/runs/2026-10-20-run-001/)
+[`04_experiments/E08-user-interface-and-human-review/runs/2026-10-20-run-001/`](../../04_experiments/E08-user-interface-and-human-review/runs/2026-10-20-run-001/)
 
-The completeness-gated follow-up run is documented at [`_experiments/08_user-interface-and-human-review/runs/2026-10-27-run-002/`](../_experiments/08_user-interface-and-human-review/runs/2026-10-27-run-002/).
+The completeness-gated follow-up run is documented at [`04_experiments/E08-user-interface-and-human-review/runs/2026-10-27-run-002/`](../../04_experiments/E08-user-interface-and-human-review/runs/2026-10-27-run-002/).
 
 It contains:
 

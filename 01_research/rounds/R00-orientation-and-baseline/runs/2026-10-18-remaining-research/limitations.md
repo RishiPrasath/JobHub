@@ -22,7 +22,7 @@ The owner has not accepted a platform, stack, segment, business model, retention
 
 ## Access limits
 
-All three user-supplied AI-SDLC article texts were accessible to the development researcher; embedded illustrations were not independently analysed. DORA's full report was form-gated; accessible primary analysis and questionnaire were used. The technical researcher read PDPC landing-page summaries but not the full guideline PDFs. OWASP's 2026 download failed, so the report explicitly uses inspected 2025 material. Some SkillsFuture/career-centre routes and Apple's current web-push page were blocked or JavaScript-only; qualified alternative sources are recorded. No unseen contents were inferred from search snippets.
+All three user-supplied AI-SDLC article texts were accessible to the development researcher; embedded illustrations were not independently analysed. DORA's full report was form-gated; accessible primary 02_analysis/reports and questionnaire were used. The technical researcher read PDPC landing-page summaries but not the full guideline PDFs. OWASP's 2026 download failed, so the report explicitly uses inspected 2025 material. Some SkillsFuture/career-centre routes and Apple's current web-push page were blocked or JavaScript-only; qualified alternative sources are recorded. No unseen contents were inferred from search snippets.
 
 ## Regulatory and provider boundaries
 

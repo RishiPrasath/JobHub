@@ -11,7 +11,7 @@ The Research Planner must define:
 - Evidence types required and acceptable source quality.
 - A stopping rule and expected output.
 
-For broad, current, or public-web research, the Research Planner must hand the approved brief to the Research Query Strategist first. The Query Strategist prepares the vocabulary map, balanced query portfolio, source-seeking plan, query log, retrieval-risk notes, and search stopping rule before any evidence-collection specialist begins. For the current solo-founder public-web run, use the file contract and pass structure in the [canonical product research strategy](../../01_strategy/02_product-research-strategy.md) and [run brief](../03_research-rounds/01_public-web-user-insights/runs/2026-10-18-web-based-user-insights/brief.md).
+For broad, current, or public-web research, the Research Planner must hand the approved brief to the Research Query Strategist first. The Query Strategist prepares the vocabulary map, balanced query portfolio, source-seeking plan, query log, retrieval-risk notes, and search stopping rule before any evidence-collection specialist begins. For the current solo-founder public-web run, use the file contract and pass structure in the [canonical product research strategy](../../../strategy/02_product-research-strategy.md) and [run brief](../../rounds/R01-public-web-user-insights/runs/2026-10-18-web-based-user-insights/brief.md).
 
 ## During research
 

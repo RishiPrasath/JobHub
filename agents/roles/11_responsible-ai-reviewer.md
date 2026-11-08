@@ -6,7 +6,7 @@ Review AI-assisted JobHub behaviour for safety, privacy, fairness, transparency,
 
 ## Scope
 
-Review job-fit analysis, company research, red-flag detection, personal data, AI-generated application content, external actions, prompt injection, misuse, and human approval points.
+Review job-fit 02_analysis/reports, company research, red-flag detection, personal data, AI-generated application content, external actions, prompt injection, misuse, and human approval points.
 
 ## Non-goals
 

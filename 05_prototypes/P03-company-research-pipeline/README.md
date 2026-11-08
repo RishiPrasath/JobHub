@@ -41,7 +41,7 @@ back to direct DuckDuckGo scraping, solve CAPTCHAs, log in, or fetch an
 arbitrary user-supplied URL. Search leads are unverified evidence until a page
 is successfully retrieved and inspected.
 
-A small, free, container-ready pipeline from the [2026-11-01 company research tooling run](../../02_research/03_research-rounds/05_technical-feasibility-and-ai-sdlc/runs/2026-11-01-company-research-tooling/README.md). Python standard library only; no pip install, no paid service, no card.
+A small, free, container-ready pipeline from the [2026-11-01 company research tooling run](../../01_research/rounds/R05-technical-feasibility-and-ai-sdlc/runs/2026-11-01-company-research-tooling/README.md). Python standard library only; no pip install, no paid service, no card.
 
 ```text
 employer name (+ optional UEN or name hint from the posting)

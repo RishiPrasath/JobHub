@@ -66,7 +66,7 @@ URLs: 20 employer homepages found in the persona run and 5 MyCareersFuture job p
 
 ## 5. Service built and tested (follow-up, same day)
 
-The wrapper is in [`_prototypes/04_fetch-render-service`](../../../../../_prototypes/04_fetch-render-service/README.md): FastAPI around one long-lived Chromium, plain fetch first and render on a thin result, robots.txt check, honest user agent, bearer token, refusal of non-public addresses.
+The wrapper is in [`05_prototypes/P04-fetch-render-service`](../../../../../05_prototypes/P04-fetch-render-service/README.md): FastAPI around one long-lived Chromium, plain fetch first and render on a thin result, robots.txt check, honest user agent, bearer token, refusal of non-public addresses.
 
 **Same 25 URLs through the service (`mode: auto`):**
 

@@ -2,9 +2,9 @@
 name: 05_company-research-flow
 
 # Needs three other services running first, each from its own folder (they own the networks this joins):
-#   _prototypes/03_company-research-pipeline : docker compose up -d registry      (company registry, port 8090)
-#   _prototypes/04_fetch-render-service      : docker compose up -d                (page reader, port 8080)
-#   _experiments/09_openserp-company-research: docker compose up -d                (search, port 7000)
+#   05_prototypes/P03-company-research-pipeline : docker compose up -d registry      (company registry, port 8090)
+#   05_prototypes/P04-fetch-render-service      : docker compose up -d                (page reader, port 8080)
+#   04_experiments/E09-openserp-company-research: docker compose up -d                (search, port 7000)
 # Then here: docker compose up -d --build     (API on http://127.0.0.1:8100)
 services:
   flow:

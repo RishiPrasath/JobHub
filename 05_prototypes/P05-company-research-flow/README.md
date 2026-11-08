@@ -1,6 +1,6 @@
 # 05: registry-first company research flow
 
-Given the employer named in a job posting, answer in this order: **does it exist and is it the entity the posting names** (company registry), then **what do public sources say** (search and read), then **write it up with citations and an explicit list of what could not be read or verified**. It implements [the integration proposal](../../_experiments/09_openserp-company-research/INTEGRATION-PROPOSAL.md) from experiment 09.
+Given the employer named in a job posting, answer in this order: **does it exist and is it the entity the posting names** (company registry), then **what do public sources say** (search and read), then **write it up with citations and an explicit list of what could not be read or verified**. It implements [the integration proposal](../../04_experiments/E09-openserp-company-research/INTEGRATION-PROPOSAL.md) from experiment 09.
 
 It is a prototype: local only, stdlib Python, one container. It is a separate attempt from the evidence-first service being built in prototype 03 (`pipeline/service.py`), and does not touch it.
 
@@ -54,10 +54,10 @@ Nothing is turned into "no problems found". Each failure is listed under `degrad
 Start the three services it depends on, each from its own folder, then this one:
 
 ```bash
-cd _prototypes/03_company-research-pipeline && docker compose up -d registry     # company registry (first start downloads the registry, about 4 minutes)
-cd _prototypes/04_fetch-render-service      && docker compose up -d                # page reader
-cd _experiments/09_openserp-company-research && docker compose up -d --build       # search (see its README for the clone step)
-cd _prototypes/05_company-research-flow     && docker compose up -d --build        # this service, http://127.0.0.1:8100
+cd 05_prototypes/P03-company-research-pipeline && docker compose up -d registry     # company registry (first start downloads the registry, about 4 minutes)
+cd 05_prototypes/P04-fetch-render-service      && docker compose up -d                # page reader
+cd 04_experiments/E09-openserp-company-research && docker compose up -d --build       # search (see its README for the clone step)
+cd 05_prototypes/P05-company-research-flow     && docker compose up -d --build        # this service, http://127.0.0.1:8100
 ```
 
 The model step needs `GROQ_API_KEY` in the repo-root `.env`.

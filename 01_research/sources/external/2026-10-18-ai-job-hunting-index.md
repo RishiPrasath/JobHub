@@ -1,6 +1,6 @@
 # External evidence index: AI job-hunting workflows
 
-Accessed 2026-10-18. See the [run source register](../../03_research-rounds/00_orientation-and-baseline/runs/2026-10-18-ai-job-hunting-workflows/sources.md) for retained sources and access exclusions.
+Accessed 2026-10-18. See the [run source register](../../rounds/R00-orientation-and-baseline/runs/2026-10-18-ai-job-hunting-workflows/sources.md) for retained sources and access exclusions.
 
 - P01-P08: empirical studies, surveys, and two firsthand accounts.
 - T01-T08: official product documentation and one vendor privacy policy.

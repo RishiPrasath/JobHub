@@ -4,7 +4,7 @@
 
 ## Reading order
 
-1. [Integrated cross-research synthesis](../../../../04_results/00_cross-research-synthesis.md) — the short decision-ready entry point.
+1. [Integrated cross-research synthesis](../../results/00_cross-research-synthesis.md) — the short decision-ready entry point.
 2. [Coverage and remaining uncertainty](coverage.md) — every backlog question and both drafts' topic groups.
 3. [Empirical validation handoff](validation-next.md) — what needs users, prototypes, controlled comparisons or launch clearance, not more generic browsing.
 

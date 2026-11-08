@@ -8,7 +8,7 @@ How can JobHub fetch and read public web pages programmatically, for free, with 
 
 ## Why
 
-The company-research service ([prototype 03](../../../../../_prototypes/03_company-research-pipeline/README.md)) reads one page per site with plain HTTP. Earlier runs found plain fetch enough for many sites, but some pages are JavaScript-rendered or refuse plain clients, and the job-board side currently depends on Kimi WebBridge (the user's own browser), which is not a service. A containerised fetch-and-render service is the missing piece.
+The company-research service ([prototype 03](../../../../../05_prototypes/P03-company-research-pipeline/README.md)) reads one page per site with plain HTTP. Earlier runs found plain fetch enough for many sites, but some pages are JavaScript-rendered or refuse plain clients, and the job-board side currently depends on Kimi WebBridge (the user's own browser), which is not a service. A containerised fetch-and-render service is the missing piece.
 
 ## Scope
 
@@ -44,7 +44,7 @@ Out: paid scraping APIs, credit-based tiers, and anything needing a card. Bypass
 1. **Survey (web).** For each candidate: repository, licence, last release, stars, docs, pricing page where any hosted tier exists. Accessed pages recorded in `sources.md`.
 2. **Claude in Chrome.** Used for pages that plain web search or fetch cannot read (JavaScript-rendered docs, pricing pages, GitHub release pages, search result pages). Read-only; no logins.
 3. **Shortlist** of up to five on the criteria above.
-4. **Benchmark in Docker** on the same set: 20 employer homepages from `_prototypes/03_company-research-pipeline/samples` and the earlier persona run (known good and known JS-heavy), plus 5 public MyCareersFuture job pages. Per tool and page: status, time, text length, whether the main text is present, memory use. Scripts in `code/`, raw results in `outputs/`.
+4. **Benchmark in Docker** on the same set: 20 employer homepages from `05_prototypes/P03-company-research-pipeline/samples` and the earlier persona run (known good and known JS-heavy), plus 5 public MyCareersFuture job pages. Per tool and page: status, time, text length, whether the main text is present, memory use. Scripts in `code/`, raw results in `outputs/`.
 5. **Service test** of the winner: a small HTTP wrapper in a container with a read-only filesystem and dropped capabilities, called by the existing pipeline.
 6. **Recommendation** with what was verified, what was not, and the cheapest next step.
 
