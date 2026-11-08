@@ -1,3 +1,6 @@
+# Project name pinned so network and volume names survive folder renames.
+name: 03_company-research-pipeline
+
 # Usage (from this folder):
 #   docker compose build
 #   docker compose up -d registry                         # provisions the current ACRA release by itself (~641 MB download, several minutes), then keeps it fresh

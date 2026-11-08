@@ -1,3 +1,6 @@
+# Project name pinned so network and volume names survive folder renames.
+name: 05_company-research-flow
+
 # Needs three other services running first, each from its own folder (they own the networks this joins):
 #   _prototypes/03_company-research-pipeline : docker compose up -d registry      (company registry, port 8090)
 #   _prototypes/04_fetch-render-service      : docker compose up -d                (page reader, port 8080)

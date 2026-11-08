@@ -1,3 +1,6 @@
+# Project name pinned so network and volume names survive folder renames.
+name: 04_fetch-render-service
+
 services:
   fetch:
     build: .

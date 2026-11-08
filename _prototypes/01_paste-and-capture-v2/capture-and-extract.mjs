@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import { chromium } from "playwright";
 import OpenAI from "openai";
 
-dotenv.config({ path: new URL("../../../.env", import.meta.url) });
+dotenv.config({ path: new URL("../../.env", import.meta.url) });
 
 const args = process.argv.slice(2);
 const valueAfter = (flag) => {

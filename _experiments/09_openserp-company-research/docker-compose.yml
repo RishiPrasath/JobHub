@@ -1,3 +1,6 @@
+# Project name pinned so network and volume names survive folder renames.
+name: 09_openserp-company-research
+
 # OpenSERP feasibility experiment. Built from the pinned source in vendor/openserp (see README for the commit).
 # Local only: the API is bound to 127.0.0.1. No proxies, no captcha solver.
 services:
