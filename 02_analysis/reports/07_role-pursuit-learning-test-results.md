@@ -92,7 +92,7 @@ The review should preserve, at minimum:
 - current decision state: continue, investigate, save, pause or decline;
 - the exact source version used for the review.
 
-This is a design requirement derived from the 02_analysis/reports, not a tested product behaviour.
+This is a design requirement derived from the analysis, not a tested product behaviour.
 
 ## Accessibility and comprehension requirement
 
@@ -118,7 +118,7 @@ No pass claim is made for these items until a rendered prototype is available.
 5. The value is likely to come from better next questions and decision clarity, not from a polished summary alone.
 6. The remaining uncertainty is interactional and behavioural: whether people can correct, resume, understand and act on the review.
 
-## Independent review of the 02_analysis/reports
+## Independent review of the analysis
 
 Three read-only specialist reviews checked the UX/recovery, evidence-safety and product-decision conclusions. They agreed that the simulation is directionally sound but identified an auditability gap: the repository does not yet contain the raw AI output, claim-level source locators, human correction log or reproducible error ledger.
 

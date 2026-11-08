@@ -123,7 +123,7 @@ Observed errors included:
 - merging three roles into one `role_id` instead of returning one comparison per role;
 - treating Excel experience as evidence of administrative experience despite an explicit prohibition;
 - stating that all three roles were full-time even though the Admin Assistant role was part-time;
-- introducing an unsupported Class 4 requirement into the Vehicle Mechanic 02_analysis/reports;
+- introducing an unsupported Class 4 requirement into the Vehicle Mechanic analysis;
 - omitting some known location and employment-type facts;
 - producing no explicit matches for the logistics role even though the profile contained relevant logistics experience.
 

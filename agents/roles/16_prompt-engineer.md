@@ -12,7 +12,7 @@ Design, test, and maintain clear reusable prompts for Codex, specialist agents, 
 - Inputs, outputs, and structured handoffs
 - Approval and safety boundaries
 - Prompt variants for research, planning, implementation, review, and verification
-- Prompt testing, failure 02_analysis/reports, and iteration
+- Prompt testing, failure analysis, and iteration
 - Reusable prompts stored under `agents/prompts/`
 
 ## Non-goals

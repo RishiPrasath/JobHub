@@ -6,7 +6,7 @@ Date: 2026-10-19
 
 ## Purpose
 
-This folder documents how JobHub will use the OpenAI Python SDK with Groq’s OpenAI-compatible API to run controlled experiments during 02_analysis/reports and research.
+This folder documents how JobHub will use the OpenAI Python SDK with Groq’s OpenAI-compatible API to run controlled experiments during analysis and research.
 
 The SDK is an experiment instrument, not a product decision. It helps us test claims such as:
 
@@ -147,7 +147,7 @@ tools/openai-sdk/experiments/YYYY-MM-DD-short-name/
   result.md
 ```
 
-## Experiments relevant to the current JobHub 02_analysis/reports
+## Experiments relevant to the current JobHub analysis
 
 ### 1. Source-grounded role review
 

@@ -1,6 +1,6 @@
 # Role-pursuit opportunity and hypothesis card
 
-Status: working hypothesis — accepted as the first 02_analysis/reports subject
+Status: working hypothesis — accepted as the first analysis subject
 
 Date: 2026-10-19
 
@@ -116,7 +116,7 @@ Use one realistic but fully redacted or synthetic job posting from a non-IT cont
 ### Test flow
 
 1. Present the raw posting and ask for an initial continue/pause/decline decision.
-2. Present a structured, source-linked 02_analysis/reports with explicit unknowns.
+2. Present a structured, source-linked analysis with explicit unknowns.
 3. Ask the reviewer to identify what is known, inferred, missing and worth verifying.
 4. Ask for a revised decision and written rationale.
 5. Introduce an interruption or missing-information state.
@@ -140,7 +140,7 @@ The comparison is about reasoning quality and control, not about proving that AI
 | Fit reasoning | Are skills, credentials, work conditions and preferences kept separate? |
 | Red-flag discipline | Are concerns framed as signals/questions rather than unsupported accusations? |
 | Decision usefulness | Does the output support a clear next action? |
-| Trust calibration | Does the reviewer understand what the 02_analysis/reports cannot establish? |
+| Trust calibration | Does the reviewer understand what the analysis cannot establish? |
 | Correction | Can the reviewer edit, reject or annotate the analysis? |
 | Recovery | Can the reviewer resume after interruption or missing data? |
 | Accessibility | Can the material be inspected with readable structure, keyboard access and non-colour cues? |
@@ -153,7 +153,7 @@ The comparison is about reasoning quality and control, not about proving that AI
 - No silent inference of salary, eligibility, shift, licence, location or work conditions.
 - No personal resumes, identifiable candidate data or private employer information in the first test.
 - No autonomous browsing, application submission or external messaging.
-- Preserve the original posting and 02_analysis/reports version.
+- Preserve the original posting and analysis version.
 - Mark every AI suggestion as draft until human-reviewed.
 - Fail closed when source evidence is missing or contradictory.
 
@@ -190,7 +190,7 @@ The comparison is about reasoning quality and control, not about proving that AI
 ### Continue to prototype if
 
 - reviewers can explain the role and uncertainty more clearly;
-- the 02_analysis/reports changes decisions for understandable reasons;
+- the analysis changes decisions for understandable reasons;
 - a manual baseline is useful but burdensome;
 - the workflow remains correctable and accessible;
 - the next uncertainty is interaction or workflow performance.

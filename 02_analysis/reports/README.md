@@ -1,4 +1,4 @@
-# JobHub 02_analysis/reports
+# JobHub analysis
 
 This folder converts completed research into evidence-backed product opportunities, experiments and scope decisions. It does not replace the research folder and does not silently convert findings into accepted requirements.
 
@@ -22,4 +22,4 @@ This folder converts completed research into evidence-backed product opportuniti
 
 ## Working rule
 
-Start each 02_analysis/reports activity with one human-owned decision. Preserve source lineage, contradictions and uncertainty. Treat features as hypotheses until a smallest coherent user episode has been tested and the owner has accepted the scope, non-goals, risks and revisit trigger.
+Start each analysis activity with one human-owned decision. Preserve source lineage, contradictions and uncertainty. Treat features as hypotheses until a smallest coherent user episode has been tested and the owner has accepted the scope, non-goals, risks and revisit trigger.

@@ -6,11 +6,11 @@ Date: 2026-10-19
 
 ## Purpose
 
-This audit checks whether the role-pursuit 02_analysis/reports distinguishes source facts, platform signals, unknowns, contradictions and recommendations. It is not a claim that a production AI system has passed evaluation.
+This audit checks whether the role-pursuit analysis distinguishes source facts, platform signals, unknowns, contradictions and recommendations. It is not a claim that a production AI system has passed evaluation.
 
 ## Audited claims
 
-| ID | Claim used in the 02_analysis/reports | Evidence and locator | State | Safe wording |
+| ID | Claim used in the analysis | Evidence and locator | State | Safe wording |
 |---|---|---|---|---|
 | C-01 | The Class 4 Driver listing displays `$3,800–$4,600 monthly` | [R4-JB-003 page record](../../01_research/rounds/R04-ai-assistance-and-trust/runs/2026-10-19-job-posting-page-inventory/page-inventory.md#r4-jb-003--mycareersfuture-class-4-driver), line 44 | Present, source/platform-reported | “The page displays…”; do not call it guaranteed base pay |
 | C-02 | The Class 4 Driver role includes day/night shifts, six days per week and four rest days per month | [R4-JB-003 page record](../../01_research/rounds/R04-ai-assistance-and-trust/runs/2026-10-19-job-posting-page-inventory/page-inventory.md#r4-jb-003--mycareersfuture-class-4-driver), line 46 | Present, conditional details retained | Preserve shift, rest-day and allowance wording |
@@ -68,4 +68,4 @@ The following cannot be completed from the current Markdown evidence alone:
 
 ## Audit conclusion
 
-The 02_analysis/reports is evidence-disciplined enough to proceed to preparation of a low-fidelity test instrument. It is not evidence that an AI feature is validated. The next test must preserve this audit trail and add observable interaction results before any production scope is accepted.
+The analysis is evidence-disciplined enough to proceed to preparation of a low-fidelity test instrument. It is not evidence that an AI feature is validated. The next test must preserve this audit trail and add observable interaction results before any production scope is accepted.

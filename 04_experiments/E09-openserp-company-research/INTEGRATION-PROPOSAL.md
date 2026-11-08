@@ -1,4 +1,4 @@
-# Proposal: where company research plugs into job-posting 02_analysis/reports
+# Proposal: where company research plugs into job-posting analysis
 
 Short, and a proposal only. Nothing here is built. It follows from [REPORT.md](REPORT.md).
 

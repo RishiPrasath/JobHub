@@ -6,7 +6,7 @@ Status: revised after web research and specialist review — 2026-10-19
 
 This document proposes a disciplined way to turn JobHub’s research into meaningful product scope without treating every observation as a feature request. It is a working method, not a product decision.
 
-## Decision this 02_analysis/reports should support
+## Decision this analysis should support
 
 Which user problem, workflow and smallest coherent capability should JobHub test first, given the evidence already collected, the remaining uncertainty, and the risks of misleading or over-automating job preparation?
 
@@ -17,7 +17,7 @@ Which user problem, workflow and smallest coherent capability should JobHub test
 - Round 4 remaining-objectives evidence on industry fit, truthful tailoring, ATS/accessibility, market value, AI-assisted job seeking and trust.
 - The user’s original product ideas and strategy drafts.
 
-The 02_analysis/reports must distinguish source observations, interpretations, hypotheses, product opportunities, decisions and unresolved questions.
+The analysis must distinguish source observations, interpretations, hypotheses, product opportunities, decisions and unresolved questions.
 
 ## Proposed evidence-to-scope pipeline
 
@@ -61,7 +61,7 @@ Implementation slice and regression checks
 
 10. **Use an experiment before an implementation commitment.** Desk research can establish context and plausible need; it cannot establish that a workflow is useful, understandable or effective for JobHub.
 
-## Proposed 02_analysis/reports artefacts
+## Proposed analysis artefacts
 
 ### 1. Evidence ledger
 
@@ -231,7 +231,7 @@ Use categories before ordering:
 - **Useful later:** valuable but dependent or not yet validated.
 - **Out of scope:** intentionally excluded for this stage.
 
-## Proposed first-pass 02_analysis/reports sequence
+## Proposed first-pass analysis sequence
 
 1. Build the evidence ledger from the completed research, without adding new features.
 2. Cluster evidence into user needs, pains, constraints, workarounds and desired outcomes.
@@ -257,7 +257,7 @@ No capability should enter proposed scope unless we can answer:
 - How will we evaluate usefulness, factuality, accessibility and harm?
 - What would change our mind?
 
-For AI-assisted 02_analysis/reports, also ask:
+For AI-assisted analysis, also ask:
 
 - Can every material claim be traced to source evidence or marked `unknown`?
 - Were supporting, failure, contradiction and alternative-explanation searches performed?
@@ -279,7 +279,7 @@ For AI-assisted 02_analysis/reports, also ask:
 - Which discovery-to-scope frameworks best preserve evidence while remaining practical for a solo product owner?
 - How should qualitative, desk, market, competitive and technical evidence be combined without false precision?
 - What is the right balance between a traceable evidence ledger and the speed needed to learn?
-- How should AI assist 02_analysis/reports without becoming an unreviewed source of product decisions?
+- How should AI assist analysis without becoming an unreviewed source of product decisions?
 - What artefacts help explain scope decisions months later when research and assumptions change?
 
 ## Web research review — revised operating approach
@@ -323,4 +323,4 @@ Use exploratory traces while the workflow is unstable. Once expected behaviour i
 
 ### What this means for JobHub now
 
-The current evidence does not justify choosing a final feature list, first segment, platform or architecture. The next 02_analysis/reports activity should produce a small set of traceable opportunity statements and competing hypotheses from the existing research, then select one high-consequence user episode for a low-fidelity test. The decision should be about what to learn next, not what to build forever.
+The current evidence does not justify choosing a final feature list, first segment, platform or architecture. The next analysis activity should produce a small set of traceable opportunity statements and competing hypotheses from the existing research, then select one high-consequence user episode for a low-fidelity test. The decision should be about what to learn next, not what to build forever.

@@ -31,7 +31,7 @@ All fifteen questions have a desk-research treatment. None is marked universally
 | Draft topic | Coverage |
 | --- | --- |
 | Product/user research and differing job seekers | A, P, U; V01 observations and segmentation |
-| Job-posting 02_analysis/reports and facts/inference/signals/missing data | T, P, A; V04 field/claim evaluation |
+| Job-posting analysis and facts/inference/signals/missing data | T, P, A; V04 field/claim evaluation |
 | Candidate matching, transferable skills, essential/trainable gaps | P, T; evidence-backed comparison rather than deterministic hiring scores |
 | Market/company research, current sources, Singapore and later US | P, A; dated scoped evidence, contradiction handling, expansion conditions |
 | Cross-industry support and sector differences | P, A; common evidence core plus verified sector-specific requirements |

@@ -7,7 +7,7 @@ Each idea should answer two separate questions:
 1. Would this be useful to a job seeker?
 2. Is this feasible and appropriate for the current product stage?
 
-Do not treat an idea stored here as an approved requirement. Move an idea into the 02_analysis/reports or strategy work only after it has been reviewed.
+Do not treat an idea stored here as an approved requirement. Move an idea into the analysis or strategy work only after it has been reviewed.
 
 ## Suggested workflow
 

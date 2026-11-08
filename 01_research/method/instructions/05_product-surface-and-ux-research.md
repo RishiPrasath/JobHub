@@ -2,7 +2,7 @@
 
 ## Use this instruction for
 
-Determining how users should move between discovery, capture, 02_analysis/reports, application preparation, interview preparation, and tracking across phones, tablets, laptops, desktops, browsers, and other surfaces.
+Determining how users should move between discovery, capture, analysis, application preparation, interview preparation, and tracking across phones, tablets, laptops, desktops, browsers, and other surfaces.
 
 ## Assigned team
 

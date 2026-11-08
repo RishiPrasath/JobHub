@@ -140,7 +140,7 @@ Topics you identify will be recorded here as they arise.
 
 ### Evaluation-Driven AI Development
 
-- How to build representative datasets for JobHub’s research, UX, coding, and 02_analysis/reports workflows
+- How to build representative datasets for JobHub’s research, UX, coding, and analysis workflows
 - How to evaluate factuality, evidence grounding, uncertainty, usefulness, accessibility, and consistency
 - How to evaluate tool selection, handoffs, permissions, and coordinator decisions
 - When to use human review, automated checks, model graders, traces, or end-to-end tests

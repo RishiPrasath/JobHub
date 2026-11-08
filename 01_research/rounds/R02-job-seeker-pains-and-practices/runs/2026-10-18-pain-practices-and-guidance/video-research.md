@@ -1,6 +1,6 @@
 # Round 02 video research — practices, guidance, and counterexamples
 
-Researcher: Job-Seeker Practices Researcher / Research Query Strategist. Access and 02_analysis/reports: 2026-10-18, Asia/Singapore (UTC+08:00). Status: specialist handoff; conclusions require coordinator review and human acceptance.
+Researcher: Job-Seeker Practices Researcher / Research Query Strategist. Access and analysis: 2026-10-18, Asia/Singapore (UTC+08:00). Status: specialist handoff; conclusions require coordinator review and human acceptance.
 
 ## Scope and evidence standard
 

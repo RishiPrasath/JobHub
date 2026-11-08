@@ -13,7 +13,7 @@ Status: **bounded collection complete; evidence partial; no product decision**. 
 
 Close a bounded pass when the brief's coverage and review conditions are met. A documented gap is a legitimate outcome but does not resolve the underlying question. If time, access or query allowance ends first, report partial coverage and the unanswered objectives; do not silently search indefinitely or claim saturation.
 
-Advance evidence into [03_analysis](../../../02_analysis/reports/) only with source-linked findings, contrary evidence, limits and unresolved cases. The 02_analysis/reports may compare shared versus sector-sensitive needs and propose scope alternatives. It must not convert the six-sector sample into a target-market decision or choose a platform automatically.
+Advance evidence into [03_analysis](../../../02_analysis/reports/) only with source-linked findings, contrary evidence, limits and unresolved cases. The analysis may compare shared versus sector-sensitive needs and propose scope alternatives. It must not convert the six-sector sample into a target-market decision or choose a platform automatically.
 
 ## Deferred work and human control
 

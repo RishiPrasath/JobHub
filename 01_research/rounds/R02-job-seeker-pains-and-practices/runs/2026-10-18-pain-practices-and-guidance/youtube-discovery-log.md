@@ -51,7 +51,7 @@ All successful records below came from live `py -m yt_dlp --skip-download --no-p
 | Candidate | URL / result | Creator; upload date; duration | English tracks observed | Selection / capture decision |
 |---|---|---|---|---|
 | C01 / V06 | https://www.youtube.com/watch?v=pmnY5V16GSE | Jeff Su; 2023-04-25; 619 sec | Manual `en`; automatic `en`, `en-orig` | Capture `en`; concrete invented-title detection, comparison, and interview-answer workflow beyond red flags. |
-| C02 / V09 | https://www.youtube.com/watch?v=HHGQ_QeHjF0 | Express Tech (metadata channel has trailing whitespace); 2025-04-24; 166 sec | No manual English; automatic `en-orig`, `en` | Capture `en-orig`; remote-job search sequence and checking omissions. Downgraded after 02_analysis/reports: no demonstrated dream-job success. |
+| C02 / V09 | https://www.youtube.com/watch?v=HHGQ_QeHjF0 | Express Tech (metadata channel has trailing whitespace); 2025-04-24; 166 sec | No manual English; automatic `en-orig`, `en` | Capture `en-orig`; remote-job search sequence and checking omissions. Downgraded after analysis: no demonstrated dream-job success. |
 | C03 / V07 | https://www.youtube.com/watch?v=N1Fm4JYae1I | Jeff Su; 2026-09-15; 789 sec | No manual English; automatic `en-orig`, `en` | Capture `en-orig`; adds fact-first drafting, verifiable metrics, and labelled project evidence. Same creator as C01; statistics quarantined. |
 | C04 / failed | https://www.youtube.com/watch?v=ay_wtote5gc | Unavailable; creator/date/duration and captions not returned | Unknown, not established absent | Exact failure: `ERROR: [youtube] ay_wtote5gc: This video is unavailable`. Erroneous ID inferred from lower-case page slug; counts toward cap. |
 | C05 / V08 | https://www.youtube.com/watch?v=ay_wtOte5Gc | Cedarville University; 2026-04-13; 3459 sec | Manual `en-US`; automatic `en-US`, `en-orig`, `en` | Correct link from publisher HTML. Capture `en-US`; long interview toolbox/notes/mock-practice material provides a manual alternative. Cultural and normative limits retained. |
@@ -87,7 +87,7 @@ All five successful completions were observed before the 21:45:48.9393388+08:00 
 
 ## File integrity and supplied-set coverage
 
-Hashes checked on local SRT bytes, SHA-256. Original metadata below comes from the supplied index, not a fresh metadata download. Source 02_analysis/reports links and publication dates are in `video-research.md`.
+Hashes checked on local SRT bytes, SHA-256. Original metadata below comes from the supplied index, not a fresh metadata download. Source analysis links and publication dates are in `video-research.md`.
 
 | File | Cues | Caption coverage | SHA-256 |
 |---|---:|---|---|
@@ -124,4 +124,4 @@ Validation checkpoint: **2026-10-18T21:51:36.3323939+08:00**. Confirmed ten SRT 
 
 Candidate gaps/exclusions at handoff: failed C04 is retained in the count; the CNA salary page did not yield a checked YouTube video; the SDSU lead returned 429; Khan text extraction was empty; UNI led to documents rather than a retained video. These page failures are logged without inventing video metadata or claiming missing English captions. Express Tech remains a weak tutorial, not a verified success story; Practical Wisdom remains weak historical salary guidance. No further collection was undertaken after the coordinator requested closure with the existing five captures.
 
-Stop: thematic complements captured, bounded candidate checks complete, transcript 02_analysis/reports complete, unsupported statistics separated, and unresolved Singapore/firsthand/accessibility/device-continuation gaps handed off. This is neither exhaustive discovery nor source saturation.
+Stop: thematic complements captured, bounded candidate checks complete, transcript analysis complete, unsupported statistics separated, and unresolved Singapore/firsthand/accessibility/device-continuation gaps handed off. This is neither exhaustive discovery nor source saturation.

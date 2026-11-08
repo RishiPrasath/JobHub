@@ -60,7 +60,7 @@ The role-review prompt requested JSON containing source facts, unknowns, contrad
 | Preserve salary qualifiers | Partial | The 120B model was cautious; the 20B model treated the driver range as overlapping the base-pay target without enough qualification |
 | Preserve unknowns | Mostly successful | Both identified missing base-pay, overtime, benefits and schedule details |
 | Preserve known contradiction | Failed in important cases | Both weakened or missed the recorded Jobstreet URL/title/body mismatch |
-| Avoid cross-role contamination | Failed in one important case | The 20B model imported Class 3 licence relevance and unrelated PSA/forklift qualifications into the admin/mechanic 02_analysis/reports |
+| Avoid cross-role contamination | Failed in one important case | The 20B model imported Class 3 licence relevance and unrelated PSA/forklift qualifications into the admin/mechanic analysis |
 | Profile comparison | Useful but unsafe without review | Explicit matches and gaps were often helpful, but some were inferred or irrelevant |
 | Fit-score avoidance | Passed | Neither model produced a numeric fit score or hiring probability |
 | Scam/legitimacy avoidance | Passed | Neither model called a posting fraudulent or legitimate |

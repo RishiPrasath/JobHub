@@ -62,7 +62,7 @@ Numbers may expose disagreement, but should not pretend to replace owner judgmen
 
 It is not simply the fewest screens. It includes context, input, output, explanation, uncertainty, missing/conflicting/stale states, interruption, recovery, correction, accessibility, user control and evaluation.
 
-### 7. AI should accelerate 02_analysis/reports, not become the authority
+### 7. AI should accelerate analysis, not become the authority
 
 Appropriate bounded uses include extraction, clustering, duplicate detection, contradiction flags, candidate themes, draft opportunity statements and test preparation. AI must not silently determine prevalence, user priority, final confidence, scope or risk acceptability.
 

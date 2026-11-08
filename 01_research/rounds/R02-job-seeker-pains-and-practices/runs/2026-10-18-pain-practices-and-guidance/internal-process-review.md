@@ -48,7 +48,7 @@ All sources were accessed on 2026-10-18. Process authoring metadata mostly names
 | S24 | `L/README.md` | Lab isolation, historical extraction limitation, proposal/evidence boundaries. |
 | S25 | `V/Workflows/Job-Hunt/Job-Discovery/ACTION-ROUTING.md` | Selected operation/outcome/receipt entries and mirror policy; targeted count/search for source-trust operation IDs. Not a complete routing implementation audit. |
 
-Directory/filename metadata was used only to navigate W's root, workflow phases, `files`, `results`, `output`, `test-results`, lab output/analysis directories, and candidate receipt/error names under `scratch`, `tmp`, and `sessions`. Session bodies, role-specific preflight files, cached job lists, screenshots, and 02_analysis/reports proposals were not opened. No matching route/error/receipt/log filename was found by the targeted session filename search; this is not proof that traces are absent elsewhere.
+Directory/filename metadata was used only to navigate W's root, workflow phases, `files`, `results`, `output`, `test-results`, lab output/analysis directories, and candidate receipt/error names under `scratch`, `tmp`, and `sessions`. Session bodies, role-specific preflight files, cached job lists, screenshots, and analysis proposals were not opened. No matching route/error/receipt/log filename was found by the targeted session filename search; this is not proof that traces are absent elsewhere.
 
 ### Historical execution evidence
 

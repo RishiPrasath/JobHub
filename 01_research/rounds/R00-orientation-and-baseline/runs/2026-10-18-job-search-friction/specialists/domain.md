@@ -117,4 +117,4 @@ No consequential access failure. Broad searches returned news, Reddit and syndic
 
 ## Files changed and validation
 
-Changed only `specialists/domain.md` in this run. Source identities, reference periods, denominator caveats and inspected links are recorded above. Relevant report sections and methods were read. No participant observation, raw-data 02_analysis/reports, current legal determination, repository implementation, or test execution was performed.
+Changed only `specialists/domain.md` in this run. Source identities, reference periods, denominator caveats and inspected links are recorded above. Relevant report sections and methods were read. No participant observation, raw-data analysis, current legal determination, repository implementation, or test execution was performed.

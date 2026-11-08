@@ -81,7 +81,7 @@ Queries:
 - `employer language job quality turnover workload low pay research`
 - `labour research employer complaints worker shortages wages working conditions`
 
-Evidence sought: interpretations and 02_analysis/reports of employer language, power, pay, workload, turnover, and working conditions.
+Evidence sought: interpretations and analysis of employer language, power, pay, workload, turnover, and working conditions.
 
 Assigned specialists: Job Domain Researcher and Responsible AI Reviewer.
 

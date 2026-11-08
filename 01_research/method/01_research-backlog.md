@@ -8,8 +8,8 @@ This backlog is the starting queue derived from the product research and AI-era 
 | R-02 | Which job-seeker groups have the strongest unmet need and should be included first? | 1 | Job-Seeker Practices Researcher | Job Domain Researcher, UX Expert | Responsible AI Reviewer |
 | R-03 | How do people actually use ChatGPT, Claude, Gemini, and dedicated career tools in daily job hunting? | 1 | Job-Seeker Practices Researcher | AI Tools Expert, Job Domain Researcher | Evidence Synthesizer |
 | R-04 | Which job-hunt activities do users want automated, assisted, or kept under personal control? | 1 | Job-Seeker Practices Researcher | AI Tools Expert, Responsible AI Reviewer | Product Strategist |
-| R-05 | What evidence do users need to trust job 02_analysis/reports, fit guidance, and company warnings? | 1 | Evidence Synthesizer | Job Domain Researcher, UX Expert | Responsible AI Reviewer |
-| R-06 | Where should capture, 02_analysis/reports, preparation, and tracking happen across devices? | 1 | UX and User-Flow Designer | Job-Seeker Practices Researcher, Job Domain Researcher | UX Expert, Product Strategist |
+| R-05 | What evidence do users need to trust job analysis, fit guidance, and company warnings? | 1 | Evidence Synthesizer | Job Domain Researcher, UX Expert | Responsible AI Reviewer |
+| R-06 | Where should capture, analysis, preparation, and tracking happen across devices? | 1 | UX and User-Flow Designer | Job-Seeker Practices Researcher, Job Domain Researcher | UX Expert, Product Strategist |
 | R-07 | Which existing products solve parts of this workflow, and where are their durable gaps? | 2 | Competitive Landscape Researcher | AI Tools Expert, Job Domain Researcher | Evidence Synthesizer |
 | R-08 | What should JobHub support first across industries and markets? | 2 | Product Strategist | Job Domain Researcher, Job-Seeker Practices Researcher | Decision Record Keeper |
 | R-09 | How should job postings and company information be captured, preserved, and cited? | 2 | Job Domain Researcher | Technical Architect, Responsible AI Reviewer | Quality and Evaluation Engineer |

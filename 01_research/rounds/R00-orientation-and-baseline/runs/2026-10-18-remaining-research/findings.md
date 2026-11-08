@@ -23,7 +23,7 @@ The coordinator recommends testing one role at a time: preserve the opportunity,
 | Initial audience | Compare operations/administration transitions and frontline/service contexts; include returners, graduates and varied access needs | Choose by observed consequential friction and reachability, not vacancy counts or simulated personas |
 | Value proposition | Evidence-backed understanding and truthful preparation | If existing tools work adequately, improve a workflow/template rather than build another platform |
 | Fit guidance | Explain requirement, candidate evidence, uncertainty and possible next action | Do not infer hiring probability; preserve correction and the choice to pursue an opportunity |
-| Company 02_analysis/reports | Identity, dated evidence and useful questions | Defer reputation synthesis if source conflicts create unsupported warnings |
+| Company analysis | Identity, dated evidence and useful questions | Defer reputation synthesis if source conflicts create unsupported warnings |
 | Surface | Compare responsive and capture-companion concepts using the same task | Native/PWA/extension only if necessary capabilities and user benefit justify maintenance; phone-only preparation remains a research need |
 | Commercial model | Evaluate free useful access with optional episodic or sponsor-supported value | Subscriptions, pricing and partner demand remain unvalidated; do not sell identifiable candidate information |
 

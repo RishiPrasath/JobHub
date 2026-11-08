@@ -59,7 +59,7 @@ Users should be able to update these details over time. The profile can later be
 
 ### Candidate-to-Job Fit Analysis
 
-The app should compare the user’s profile with each captured job posting and generate a clear 02_analysis/reports, including:
+The app should compare the user’s profile with each captured job posting and generate a clear analysis, including:
 
 - **Strengths:** Where the candidate aligns well with the role
 - **Weaknesses:** Areas where the candidate may be less competitive
@@ -71,7 +71,7 @@ The app should compare the user’s profile with each captured job posting and g
 - How the candidate could position themselves in an application or interview
 - Which existing skills, experiences, or achievements should be highlighted
 
-The 02_analysis/reports should explain its reasoning and distinguish between evidence from the job posting, information from the user profile, and AI-generated interpretation.
+The analysis should explain its reasoning and distinguish between evidence from the job posting, information from the user profile, and AI-generated interpretation.
 
 ### Job-Market Context
 
@@ -98,7 +98,7 @@ The application list should eventually support details such as:
 - Date saved and date applied
 - Application status
 - Notes and follow-up actions
-- Relevant fit 02_analysis/reports and job-posting details
+- Relevant fit analysis and job-posting details
 
 Users should be able to refer back to a clear overview of the jobs they have applied to, including their current statuses and key details. They should be able to review, search, filter, and update this application history as it changes.
 
@@ -112,15 +112,15 @@ The product should:
 - Group jobs into useful industry and sector categories
 - Accommodate sector-specific skills, qualifications, terminology, requirements, and career paths
 - Recognize both technical and non-technical experience
-- Adapt its fit 02_analysis/reports, skills-gap assessment, and positioning advice to the relevant sector
+- Adapt its fit analysis, skills-gap assessment, and positioning advice to the relevant sector
 - Avoid assuming that technology-sector criteria apply to every candidate or job
 - Allow new sectors and custom categories to be added over time
 
-Potential sector groups should be researched and designed thoughtfully, with appropriate fields and 02_analysis/reports for each group while preserving a common core profile and application-tracking experience.
+Potential sector groups should be researched and designed thoughtfully, with appropriate fields and analysis for each group while preserving a common core profile and application-tracking experience.
 
 ### Company Research and Red-Flag Detection
 
-AI should be able to research the hiring company and combine that research with the captured job posting. The 02_analysis/reports should look for:
+AI should be able to research the hiring company and combine that research with the captured job posting. The analysis should look for:
 
 - Company background, industry, size, location, and reputation
 - Publicly available information relevant to the role and workplace
@@ -132,7 +132,7 @@ AI should be able to research the hiring company and combine that research with 
 
 The app should not treat a phrase or a negative review as proof of misconduct. It should explain why something may be a concern, show the supporting evidence and source, distinguish facts from signals and speculation, and recommend questions the user can ask.
 
-This feature will require extensive research into reliable sources, job-posting language, company research methods, sector-specific red flags, and suitable AI agents or 02_analysis/reports techniques. Research findings should inform the design of the appropriate agents, workflows, and safeguards.
+This feature will require extensive research into reliable sources, job-posting language, company research methods, sector-specific red flags, and suitable AI agents or analysis techniques. Research findings should inform the design of the appropriate agents, workflows, and safeguards.
 
 ### Technical Direction
 
@@ -245,7 +245,7 @@ The strongest current candidates are **Vettly**, **Sift**, and **Footing**. **Ve
 
 ### Research Round: Hunt, Tune, Prepare
 
-Further research shows that the adjacent market is converging around an end-to-end workflow: finding jobs, matching them to a profile, tailoring a CV, tracking applications, and preparing for interviews. Examples include JobMatch, Jobflow, JobTailor, Applique, and Singapore-focused Career Kaki. [JobMatch](https://usejobmatch.com/) explicitly combines search, resume tailoring, interview preparation, and coaching; [Jobflow](https://www.myjobflow.com/) emphasizes fit explanations and authentic tailoring; [JobTailor](https://www.jobtailor.app/) connects ATS 02_analysis/reports, truthful CV changes, interview questions, and tracking; and [Career Kaki](https://careerkaki.gov.sg/) provides Singapore-focused job search, resume preparation, and interview guidance.
+Further research shows that the adjacent market is converging around an end-to-end workflow: finding jobs, matching them to a profile, tailoring a CV, tracking applications, and preparing for interviews. Examples include JobMatch, Jobflow, JobTailor, Applique, and Singapore-focused Career Kaki. [JobMatch](https://usejobmatch.com/) explicitly combines search, resume tailoring, interview preparation, and coaching; [Jobflow](https://www.myjobflow.com/) emphasizes fit explanations and authentic tailoring; [JobTailor](https://www.jobtailor.app/) connects ATS analysis, truthful CV changes, interview questions, and tracking; and [Career Kaki](https://careerkaki.gov.sg/) provides Singapore-focused job search, resume preparation, and interview guidance.
 
 This reinforces a product position based on an **informed job hunt**: help the user decide what to pursue, tune their CV from their real evidence, and prepare for the specific company and role. The product should help the user become more prepared and more truthful, not simply generate more applications.
 
@@ -325,7 +325,7 @@ The strongest conceptual fit is **FitGuide**. It captures the most important pro
 
 The naming emphasis is now narrower: the product helps the user decide how to apply, build a truthful role-specific application, understand the story they should tell, and rehearse for the interview. It is not merely a job board or a generic career chatbot.
 
-The most obvious names in this territory are already crowded. **ApplyBrief** is an active application product, **PrepBrief** creates company and role-specific interview briefs, and **ApplyWise** combines job-posting 02_analysis/reports, CV tailoring, tracking, and interview preparation. See [ApplyBrief](https://www.applybrief.com/), [PrepBrief](https://prepbrief.io/), and [ApplyWise](https://www.applywisehq.com/).
+The most obvious names in this territory are already crowded. **ApplyBrief** is an active application product, **PrepBrief** creates company and role-specific interview briefs, and **ApplyWise** combines job-posting analysis, CV tailoring, tracking, and interview preparation. See [ApplyBrief](https://www.applybrief.com/), [PrepBrief](https://prepbrief.io/), and [ApplyWise](https://www.applywisehq.com/).
 
 New exploratory candidates:
 

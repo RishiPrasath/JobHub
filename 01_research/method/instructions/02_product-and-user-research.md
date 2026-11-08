@@ -16,7 +16,7 @@ Understanding job-seeker goals, workflows, segments, constraints, job-posting in
 - How people discover, save, compare, apply to, and follow up on jobs.
 - Which moments create time pressure, uncertainty, anxiety, or abandonment.
 - How needs differ across career stage, industry, employment status, language, ability, and digital confidence.
-- What users want from job-posting 02_analysis/reports, candidate comparison, company research, application preparation, and interview preparation.
+- What users want from job-posting analysis, candidate comparison, company research, application preparation, and interview preparation.
 
 ## Required output
 
