@@ -7,6 +7,7 @@ This folder converts completed research into evidence-backed product opportuniti
 - [Research-to-scope working draft](00_research-to-scope-draft.md)
 - [Web research review and recommended operating model](01_research-to-scope-web-review.md)
 - [First-scope decision brief](02_first-scope-decision-brief.md)
+- [Feature feasibility review](15_feature-feasibility-review.md)
 - [Role-pursuit opportunity and hypothesis](03_role-pursuit-opportunity-hypothesis.md)
 - [Role-pursuit learning test](04_role-pursuit-learning-test.md)
 - [Role-pursuit walkthrough](05_role-pursuit-walkthrough.md)

@@ -1,5 +1,7 @@
 # First-scope decision brief
 
+> **Superseded** by [09](09_experiment-to-scope-decision.md) and [13](13_first-scope-decision-brief.md). Kept as the record of the episode choice.
+
 Status: draft for owner review
 
 Date: 2026-10-19

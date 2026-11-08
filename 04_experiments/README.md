@@ -1,34 +1,16 @@
-# JobHub Experiments
+# Experiments
 
-This folder contains reproducible experiments used to evaluate JobHub ideas, AI behaviour and proposed workflows.
+Stage question: **does it work?**
 
-Each experiment should preserve the full chain:
+Each experiment should preserve the full chain: question, fixture, prompt, code, raw output, review, findings, limitations.
 
-```text
-question → fixture → prompt → code → raw output → review → findings → limitations
-```
+| ID | Folder | Status | Results |
+|---|---|---|---|
+| E01-07 | [E01-07-sequential-sdk-run](E01-07-sequential-sdk-run/README.md) | Complete, narrative only | `findings.md` |
+| E08 | [E08-user-interface-and-human-review](E08-user-interface-and-human-review/) | Two model runs; no interface or participant test | `runs/*/findings.md` |
+| E09 | [E09-openserp-company-research](E09-openserp-company-research/README.md) | Complete | `REPORT.md`, `AGENT-TEST.md` |
+| E10 | [E10-market-value-and-red-flag-experiments](E10-market-value-and-red-flag-experiments/README.md) | X0-X3 complete, pre-registered; P1-P3 not run | `FINDINGS.md` |
 
-## Structure
+New experiments start from [_template](_template/README.md). Add results to [findings](../02_analysis/findings.md) and update the affected feature. SDK instructions are in [tools/openai-sdk](../tools/openai-sdk/briefing.md).
 
-- `00_templates/` — reusable experiment documents and checklists.
-- `01_source-grounding/` — whether model claims remain linked to source evidence.
-- `02_contradiction-handling/` — conflicting, stale or mismatched job-posting information.
-- `03_profile-comparison/` — cautious comparison of candidate facts with role requirements.
-- `04_resume-alignment/` — truthful, evidence-backed resume suggestions.
-- `05_prompt-injection-and-safety/` — untrusted content, privacy and external-action resistance.
-- `06_industry-portability/` — shared and sector-specific review fields.
-- `07_model-comparison/` — model accuracy, consistency, latency and output differences.
-- `08_user-interface-and-human-review/` — correction, accessibility, interruption and recovery tests.
-- `09_openserp-company-research/` — whether the self-hosted OpenSERP search service can power company research for job postings (Docker service, probes, eight persona sub-agents, report).
-
-Reusable SDK instructions live in [Tools/OpenAI SDK](../tools/openai-sdk/briefing.md). Product interpretation belongs in [analysis](../02_analysis/reports/README.md).
-
-## Naming convention
-
-Use dated run folders:
-
-```text
-YYYY-MM-DD-run-001/
-```
-
-Do not overwrite previous runs. Create a new run when the fixture, prompt, model or evaluation method changes materially.
+Use dated run folders (`runs/YYYY-MM-DD-run-001/`). Do not overwrite earlier runs: create a new one when the fixture, prompt, model or method changes.

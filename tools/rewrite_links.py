@@ -28,7 +28,7 @@ def tracked():
 OLD_FILES = subprocess.run(['git', 'ls-tree', '-r', '--name-only', '-z', 'pre-reorg'], capture_output=True, text=True, encoding='utf-8').stdout.split('\0')
 INVERSE = {to_new(o): o for o in OLD_FILES if o}
 LINK = re.compile(r'(\]\()(<?)([^)\s>]+)(>?)((?:\s+"[^"]*")?\))')
-BARE = re.compile(r'(?<![\w./%-])(' + '|'.join(re.escape(o) for o, _ in PAIRS if '/' in o or o.startswith(('_', '0', 'analysis'))) + r')(?=[/`\s:,;)"\']|$)', re.M)
+BARE = re.compile(r'(?<![\w./%-])(' + '|'.join(re.escape(o) for o, _ in PAIRS if '/' in o or o.startswith(('_', '0'))) + r')(?=[/`\s:,;)"\']|$)', re.M)
 
 def fix_links(text, new_path):
     old_path = INVERSE.get(new_path)

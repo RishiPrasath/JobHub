@@ -1,5 +1,7 @@
 # Role-pursuit learning test
 
+> **Superseded** by [07](07_role-pursuit-learning-test-results.md) and [10](10_low-fidelity-test-instrument.md). The "not yet executed" status below is out of date.
+
 Status: draft test plan — not yet executed
 
 ## Purpose
