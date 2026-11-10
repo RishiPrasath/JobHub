@@ -35,19 +35,22 @@ Every field is optional, so the setup can be skipped and finished later. "Choice
 | Employment type | multi-choice | Full-time, part-time, contract, internship, freelance |
 | Work arrangement | multi-choice | Remote, hybrid, on-site (work from office) |
 | Preferred locations | list | City or region |
-| Maximum commute | number | Minutes each way, if on-site or hybrid |
 | Willing to relocate | choice | Yes, no, for the right role |
 | Willing to travel | choice | None, occasionally, often |
 | Industries of interest | multi-choice | Fixed list |
 | Industries to avoid | multi-choice | Same list |
 | Company size | multi-choice | Startup, small, mid-size, large |
-| Minimum acceptable pay | number and currency, per month or year | Private |
+| Minimum acceptable pay | amount, currency and period (per month or per year) | Private |
 | Notice period or earliest start | choice or date | Immediately, 1 month, 2 months, 3 months or more, or a date |
 | Deal-breakers | list of text | Free text, for example "no weekend work" |
 
 ## Not included yet
 
-The source idea also describes working-style preferences such as tolerance for overtime or ambiguity, need for structure or training, and management style. No job portal researched captures these, so they are left out until the owner decides they are worth the effort.
+Left out of the first version by owner decision (2026-11-10):
+
+- **Maximum commute** (minutes each way). Deferred to a later version.
+- **Working-style preferences** from the source idea, such as tolerance for overtime or ambiguity, need for structure or training, and management style. No job portal researched captures these. Revisit after the first test.
+- **Importance levels** (must-have, nice-to-have) on each preference. Choices are plain for now; only the deal-breakers field says what is non-negotiable.
 
 ## Evidence for
 
@@ -63,10 +66,12 @@ The source idea also describes working-style preferences such as tolerance for o
 
 ## Open questions for the owner
 
-1. Which of the fields above are essential for a first version, and which can wait?
-2. Is the setup shown right after account creation, or offered as a skippable step later?
-3. Does the minimum pay field need a currency and period, or can it be a single monthly amount?
-4. Should preferences carry importance (must-have, strong preference, nice-to-have), or are they plain choices?
+No open questions remain from the first pass. Decided 2026-11-10:
+
+- The setup is shown right after sign-up and can be skipped and finished later.
+- Minimum pay is captured as amount, currency and period.
+- Maximum commute, working-style preferences and importance levels are left for later (see "Not included yet").
+- The option lists in the table are still proposals and can be changed when the screen is designed.
 
 ## Research basis
 

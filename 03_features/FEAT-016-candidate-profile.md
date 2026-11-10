@@ -26,7 +26,7 @@ Origin: [source idea](source-ideas/03_candidate-profile-and-preferences.md).
 
 ## Fields captured at account creation
 
-**Required at sign-up (owner decision, 2026-11-10):** the minimal personal details, at least one work experience entry and at least one education entry. Everything else is optional. "Required" in the tables below means required within an entry that the user adds, or required in section 1.
+**Required at sign-up (owner decision, 2026-11-10):** the minimal personal details, at least one work experience entry (or the user ticks "No work experience yet") and at least one education entry. Everything else is optional. "Required" in the tables below means required within an entry that the user adds, or required in section 1.
 
 **Resume upload (owner decision):** a resume can pre-fill the profile. The user reviews and confirms every parsed field before it is saved.
 
@@ -130,11 +130,10 @@ Date of birth or age, NRIC / FIN / passport number, gender, race, religion, mari
 
 ## Open questions for the owner
 
-1. Requiring a work experience entry would block first-time job seekers and fresh graduates. Should there be a "no work experience yet" option?
-2. How will right to work be used? It is captured now, but nationality questions are a grey area in TAFEP guidance, so the use needs deciding before it affects any review.
-3. Where is the profile stored, and for how long? This is a privacy and architecture decision.
+1. How will right to work be used? It is captured now, but nationality questions are a grey area in TAFEP guidance, so the use needs deciding before it affects any review.
+2. Where is the profile stored, and for how long? Decided to settle this together with the architecture choice. Until then it is a dependency, and it blocks any build.
 
-Decided 2026-11-10: required fields (minimal details, work experience, education), resume pre-fill with full user review, capture right to work, and defer job preferences to a separate feature.
+Decided 2026-11-10: required fields (minimal details, work experience, education); a "No work experience yet" option satisfies the work experience requirement; resume pre-fill with full user review; capture right to work; defer job preferences to FEAT-017; the raw research notes are not saved, and the summaries here are the record.
 
 ## Research basis
 
