@@ -1,0 +1,41 @@
+{
+ "key": "tigerair",
+ "domain": "www.scoot.com",
+ "pages": [
+  {
+   "url": "https://www.scoot.com/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://www.scoot.com/privacy-policy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://www.scoot.com/privacy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://www.scoot.com/terms",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://www.scoot.com/terms-and-conditions",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  }
+ ]
+}

@@ -1,0 +1,202 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "prompt_version": "llm-check-prompt v1",
+ "usage": {
+  "prompt_tokens": 11957,
+  "completion_tokens": 882,
+  "calls": 13,
+  "cached": 2
+ },
+ "items": {
+  "H01": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "missing",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "closing_date_iso": null,
+   "partial_flag": true,
+   "partial_reasons": [
+    "cards_nav"
+   ],
+   "parsed": true,
+   "finish": "stop"
+  },
+  "H02": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-28",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "parsed": true,
+   "finish": "stop"
+  },
+  "H03": {
+   "fields": {
+    "title": "present",
+    "employer": "hidden_labelled",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-12-14",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "parsed": true,
+   "finish": "stop"
+  },
+  "H04": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-13",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "parsed": true,
+   "finish": "stop"
+  },
+  "H05": {
+   "fields": {
+    "title": "present",
+    "employer": "missing",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "parsed": true,
+   "finish": "stop"
+  },
+  "H06": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "explicit_absence"
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "parsed": true,
+   "finish": "stop"
+  },
+  "H07": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-30",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "parsed": true,
+   "finish": "stop"
+  },
+  "H08": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "explicit_absence",
+    "duties": "present",
+    "closing": "explicit_absence"
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "parsed": true,
+   "finish": "stop"
+  },
+  "H09": {
+   "fields": {
+    "title": "present",
+    "employer": "hidden_labelled",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "parsed": true,
+   "finish": "stop"
+  },
+  "H10": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "missing",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "parsed": true,
+   "finish": "stop"
+  },
+  "HP1": {
+   "fields": {
+    "title": "present",
+    "employer": "hidden_labelled",
+    "pay": "missing",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "closing_date_iso": null,
+   "partial_flag": true,
+   "partial_reasons": [
+    "cut_off"
+   ],
+   "parsed": true,
+   "finish": "stop"
+  },
+  "HP2": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "missing",
+    "duties": "missing",
+    "closing": "missing"
+   },
+   "closing_date_iso": null,
+   "partial_flag": true,
+   "partial_reasons": [
+    "no_body"
+   ],
+   "parsed": true,
+   "finish": "stop"
+  },
+  "HP3": {
+   "fields": {
+    "title": "missing",
+    "employer": "missing",
+    "pay": "missing",
+    "duties": "missing",
+    "closing": "missing"
+   },
+   "closing_date_iso": null,
+   "partial_flag": true,
+   "partial_reasons": [
+    "cards_nav"
+   ],
+   "parsed": true,
+   "finish": "stop"
+  }
+ }
+}

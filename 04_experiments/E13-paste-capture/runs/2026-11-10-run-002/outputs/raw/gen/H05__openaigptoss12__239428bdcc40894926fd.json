@@ -1,0 +1,39 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "H05",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:03:51Z",
+ "latency_s": 1.46,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1100,
+  "temperature": 0.8,
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "user",
+   "content": "Write the raw text that a person would get by pressing Select All then Copy on a FastJobs-style mobile-friendly job page in Singapore, for a fictional employer and a made-up job. Output the pasted text ONLY: no commentary, no markdown, no code fences. Include realistic page furniture (menu text, buttons, banners, footer links). Target 250 to 400 words. Requirements for this paste:\n- uses emoji bullets for duties\n- the page says the pay per day\n- NO employer name anywhere (only 'Posted by a verified employer')\n- NO closing date, only 'Posted 5 hours ago'\nToday is 2026-11-10; any dates you write must be in November or December 2026."
+  }
+ ],
+ "content": "Home | Jobs | Companies | Career Advice | Help Center\n\n🔍 Search jobs\n[Search bar]   [Search]\n\nFeatured Jobs\n- Retail Sales Associate – $85/day\n- Food Delivery Rider – $78/day\n- Customer Service Representative – $92/day\n\n---  \n\nJob Details  \n\n📌 Position: Junior Digital Marketing Assistant  \n📍 Location: Singapore (Hybrid – Office & Remote)  \n💰 Pay: $120 per day  \n🕒 Employment Type: Full‑time (40 hrs/week)  \n📅 Posted: 5 hours ago  \n\nPosted by a verified employer  \n\nJob Description  \nJoin a dynamic startup focused on AI‑driven e‑commerce solutions. As a Junior Digital Marketing Assistant, you will support the marketing team in executing campaigns, analyzing performance, and creating engaging content.\n\nResponsibilities  \n✅ Develop and schedule social media posts across Facebook, Instagram, and LinkedIn  \n✅ Assist in setting up Google Ads and Facebook Ads campaigns  \n✅ Monitor campaign performance and generate weekly reports  \n✅ Conduct keyword research and SEO audits for blog articles  \n✅ Collaborate with designers to produce visual assets  \n✅ Engage with online community, respond to comments and messages  \n\nRequirements  \n- Diploma or degree in Marketing, Communications, or related field  \n- Proficiency in Canva, Google Analytics, and Meta Business Suite  \n- Strong written English; Mandarin a plus  \n- Ability to work independently and meet deadlines  \n- Passion for digital trends and e‑commerce  \n\nBenefits  \n• Competitive daily rate  \n• Flexible work hours & remote days  \n• Training budget and certification support  \n• Team outings and quarterly retreats  \n• Health & wellness allowance  \n\nHow to Apply  \n[Apply Now]   [Save Job]   [Share]  \n\nCompany Profile  \n- Industry: Technology & E‑commerce  \n- Size: 50‑100 employees  \n- Founded: 2022  \n- Headquarters: Singapore  \n\n---  \n\nRelated Jobs  \n- Content Writer – $110/day  \n- SEO Analyst – $130/day  \n- Social Media Coordinator – $115/day  \n\n---  \n\n© 2026 FastJobs Singapore | Terms of Service | Privacy Policy | Contact Us | Sitemap  \n\n\n\n---  \n\nFollow us:  \n[Facebook] [LinkedIn] [Instagram]  \n\n---  ",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 534,
+  "prompt_tokens": 219,
+  "total_tokens": 753,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 59,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.171093671,
+  "prompt_time": 0.067035831,
+  "completion_time": 1.115311404,
+  "total_time": 1.182347235
+ },
+ "cached": false
+}

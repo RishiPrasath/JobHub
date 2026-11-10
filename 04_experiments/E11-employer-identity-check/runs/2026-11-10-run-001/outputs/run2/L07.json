@@ -1,0 +1,168 @@
+{
+ "employer": "Starbucks Coffee Singapore Pte. Ltd.",
+ "role": "Barista",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 2813 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "STARBUCKS COFFEE SINGAPORE PTE. LTD. is registered in Singapore (status: Live Company, registered 1988-03-03).",
+  "basis": "name only",
+  "entity": {
+   "uen": "198800670D",
+   "name": "STARBUCKS COFFEE SINGAPORE PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1988-03-03",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Starbucks Coffee Singapore Pte. Ltd.\" Singapore employee reviews",
+    "ok": true,
+    "engine": null,
+    "results": 0,
+    "error": null
+   },
+   {
+    "query": "\"Starbucks Coffee Singapore Pte. Ltd.\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Starbucks Coffee Singapore Pte. Ltd.\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Starbucks Coffee Singapore Pte. Ltd.\" Barista interview process salary",
+    "ok": true,
+    "engine": null,
+    "results": 0,
+    "error": null
+   },
+   {
+    "query": "\"Starbucks Coffee Singapore Pte. Ltd.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://claveprep.com/blog/starbucks-layoffs-2026-career-transition-guide",
+    "status": "ok",
+    "chars": 23150,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.metaintro.com/blog/starbucks-layoffs-2026-300-corporate-jobs-cut",
+    "status": "thin",
+    "chars": 120,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.peoplematters.in/news/strategic-hr/starbucks-layoffs-over-200-jobs-eliminated-as-company-reshapes-corporate-workforce-51591",
+    "status": "ok",
+    "chars": 4519,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://restaurantassociation.com/news/starbucks-restructures-workforce-amid-expansion-plan",
+    "status": "ok",
+    "chars": 3550,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.thehrdigest.com/inside-the-brewing-storm-of-2026-starbucks-layoffs",
+    "status": "thin",
+    "chars": 51,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Starbucks-Coffee-Singapore-Pte-Ltd",
+    "status": "ok",
+    "chars": 10150,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/business/198800670D/STARBUCKS-COFFEE-SINGAPORE-PTE-LTD-",
+    "status": "ok",
+    "chars": 12718,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Starbucks-Coffee-Singapore-Pte-Ltd/domains",
+    "status": "ok",
+    "chars": 3698,
+    "note": null,
+    "tier": "render"
+   }
+  ],
+  "skipped_by_policy": [],
+  "gate": {
+   "phrases": [
+    "starbucks coffee singapore"
+   ],
+   "pages_with_exact_name": 3,
+   "snippets_with_exact_name": 8,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 11,
+  "registry_mirror_pages": 3
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (3 pages read, model: None)"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://www.metaintro.com/blog/starbucks-layoffs-2026-300-corporate-jobs-cut",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://www.thehrdigest.com/inside-the-brewing-storm-of-2026-starbucks-layoffs",
+   "why": "thin: fewer than 400 characters of real content"
+  }
+ ],
+ "link_out": [],
+ "could_not_verify": [],
+ "seconds": 90.9,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

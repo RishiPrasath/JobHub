@@ -1,0 +1,32 @@
+Singtel Careers Hub Pte Ltd  (role: Sales Associate)
+HEADLINE: could_not_confirm_company
+  Neither the registry nor the web confirms this company exists under this name.
+  because: registry: not_in_registry; exact name seen 0 times
+REGISTRY: not_in_registry. No registered entity in Singapore resembles 'Singtel Careers Hub Pte Ltd'.
+WEB: 5 queries (bing), 2 of 3 pages read, exact name seen in 0 pages and 0 search results
+BRIEF (model rating: inconsistent_or_suspicious, confidence low; 2 claims verified, 1 unverified)
+  facts and positive signals hidden: the company was not confirmed under this exact name
+  Red flags:
+    [UNVERIFIED] Company name not found in official Singapore company registry
+    [verified] Only generic Singtel group pages are available, not specific to Singtel Careers Hub
+    Pte Ltd
+    [verified] Job posting may be a phishing or impersonation scam
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 6):
+  - Singtel Interview Questions (2026) | Glassdoor  https://www.glassdoor.sg/Interview/Singtel-
+    Interview-Questions-E3971.htm
+  - Sales Executive Salaries in Singapore for Singtel
+    https://sg.indeed.com/cmp/Singtel/salaries/Sales-Executive
+  - Singtel Interview Questions in Singapore - Glassdo  https://www.glassdoor.com/Interview/Singtel-
+    Singapore-Interview-Questions-EI_IE3
+  - 4,328 Salaries at Singtel Shared by Employees | Gl  https://www.glassdoor.sg/Salary/Singtel-
+    Salaries-E3971.htm
+  - Singtel Jobs in Singapore (with Salaries) - Nov 20  https://sg.jobstreet.com/singtel-jobs
+  - Careers Singtel Jobs in Singapore (with Salaries)   https://sg.jobstreet.com/careers-singtel-
+    jobs
+COULD NOT READ (1):
+  - https://www.singtel.com/personal/support/scam-advisory  (thin: fewer than 400 characters of real
+    content)
+COULD NOT VERIFY:
+  - No official registry record confirming existence of Singtel Careers Hub Pte Ltd
+  - No source specifically describing the company’s operations, size, or legitimacy
+(97.6s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

@@ -1,0 +1,58 @@
+{
+ "key": "dbs",
+ "domain": "www.dbs.com.sg",
+ "pages": [
+  {
+   "url": "https://www.dbs.com.sg/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://www.dbs.com.sg/privacy-policy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Credit card rewards DBS Instalment plans Payment controls Inc",
+    "DBS Bank Ltd"
+   ],
+   "copyright": [
+    "Kong India Indonesia Mainland China Taiwan Terms of Service ©2026 DBS Bank Ltd Co. Reg. No. 19680030 Terms & Conditions Privacy Policy Fair Dealing Commitment Vulnerability Disclosu"
+   ]
+  },
+  {
+   "url": "https://www.dbs.com.sg/privacy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://www.dbs.com.sg/terms",
+   "status": 200,
+   "reg_hits": [
+    "Co. Reg. No. 196800306E"
+   ],
+   "legal_names": [
+    "DBS Bank Ltd",
+    "Guide Deposit Insurance Scheme Terms & Conditions Governing Accounts Limited"
+   ],
+   "copyright": [
+    "icy Fair Dealing Commitment Vulnerability Disclosure Policy ©2026 DBS Bank Ltd Co. Reg. No. 196800306E "
+   ]
+  },
+  {
+   "url": "https://www.dbs.com.sg/terms-and-conditions",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Credit card rewards DBS Instalment plans Payment controls Inc",
+    "DBS Bank Ltd"
+   ],
+   "copyright": [
+    "Kong India Indonesia Mainland China Taiwan Terms of Service ©2026 DBS Bank Ltd Co. Reg. No. 19680030 Terms & Conditions Privacy Policy Fair Dealing Commitment Vulnerability Disclosu"
+   ]
+  }
+ ]
+}

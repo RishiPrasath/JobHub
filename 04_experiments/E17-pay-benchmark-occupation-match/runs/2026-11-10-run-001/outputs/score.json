@@ -1,0 +1,1946 @@
+{
+ "coverage": {
+  "qwen_r1": 83,
+  "qwen_r2": 48,
+  "gptoss20b_r1": 58
+ },
+ "qwen_r1": {
+  "n_scored": 83,
+  "n_unscored": 17,
+  "unscored_ids": [
+   "SYN-13",
+   "SYN-18",
+   "SYN-21",
+   "SYN-22",
+   "SYN-23",
+   "SYN-24",
+   "SYN-25",
+   "SYN-26",
+   "SYN-27",
+   "SYN-29",
+   "SYN-30",
+   "SYN-31",
+   "SYN-34",
+   "SYN-35",
+   "SYN-37",
+   "SYN-38",
+   "SYN-40"
+  ],
+  "top3_hit_overall": {
+   "hits": 81,
+   "pct_of_scored": 97.6,
+   "lower_bound_pct_of_100": 81.0,
+   "upper_bound_pct_of_100": 98.0
+  },
+  "top3_recall_gold_code_postings": [
+   63,
+   64,
+   98.4
+  ],
+  "top1_gold_code_postings": [
+   61,
+   64,
+   95.3
+  ],
+  "true_no_match_scored": 16,
+  "true_no_match_unscored": 4,
+  "no_match_flagged_none": [
+   15,
+   16
+  ],
+  "confident_wrong_match_medium_or_high": [
+   1,
+   16,
+   [
+    "SYN-33"
+   ]
+  ],
+  "confident_wrong_match_high_only": [
+   0,
+   16
+  ],
+  "no_match_handled_correctly": {
+   "pct_of_scored": 93.8,
+   "lower_bound_of_20": 75.0,
+   "upper_bound_of_20": 95.0
+  },
+  "false_none_on_gold_code_postings": [
+   0,
+   64
+  ],
+  "seniority_errors_top1": 4,
+  "seniority_errors_any_of_top3": 42,
+  "seniority_error_list": [
+   [
+    "X3-42",
+    "Account Executive (AR / Construction / E",
+    "24111",
+    "senior"
+   ],
+   [
+    "X3-43",
+    "Human Resources Business Partner (HRBP) ",
+    "12121",
+    "senior"
+   ],
+   [
+    "X3-46",
+    "ADMINSTRATIVE ACCOUNTS",
+    "24111",
+    "senior"
+   ],
+   [
+    "X3-55",
+    "Sales Executive / Manager",
+    "12211",
+    "senior"
+   ]
+  ],
+  "by_family_hit": {
+   "accounting": [
+    5,
+    5,
+    100.0
+   ],
+   "admin": [
+    5,
+    5,
+    100.0
+   ],
+   "customer service": [
+    5,
+    5,
+    100.0
+   ],
+   "data": [
+    5,
+    5,
+    100.0
+   ],
+   "drivers": [
+    3,
+    3,
+    100.0
+   ],
+   "education": [
+    2,
+    2,
+    100.0
+   ],
+   "engineering": [
+    5,
+    5,
+    100.0
+   ],
+   "generic sales and marketing": [
+    1,
+    1,
+    100.0
+   ],
+   "healthcare support": [
+    2,
+    2,
+    100.0
+   ],
+   "hospitality": [
+    4,
+    4,
+    100.0
+   ],
+   "hr": [
+    5,
+    5,
+    100.0
+   ],
+   "kitchen": [
+    5,
+    5,
+    100.0
+   ],
+   "marketing": [
+    5,
+    5,
+    100.0
+   ],
+   "nursing": [
+    5,
+    5,
+    100.0
+   ],
+   "other": [
+    1,
+    1,
+    100.0
+   ],
+   "promotional": [
+    1,
+    2,
+    50.0
+   ],
+   "retail": [
+    3,
+    3,
+    100.0
+   ],
+   "sales": [
+    5,
+    5,
+    100.0
+   ],
+   "software": [
+    5,
+    5,
+    100.0
+   ],
+   "supervisor-type": [
+    1,
+    1,
+    100.0
+   ],
+   "trades": [
+    3,
+    4,
+    75.0
+   ],
+   "warehouse supervisor": [
+    5,
+    5,
+    100.0
+   ]
+  },
+  "by_stratum_hit": {
+   "x3_reuse": [
+    60,
+    60,
+    100.0
+   ],
+   "new_family": [
+    18,
+    19,
+    94.7
+   ],
+   "failure_type": [
+    3,
+    4,
+    75.0
+   ]
+  },
+  "misses": [
+   [
+    "SYN-04",
+    "Aircon Technician",
+    [
+     "71271",
+     "31152"
+    ],
+    [
+     "31151",
+     "31131",
+     "31122"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "SYN-33",
+    "Work From Home Part Time Admin (Flexible, Ear",
+    [
+     "NONE"
+    ],
+    [
+     "33492",
+     "12112",
+     "33160"
+    ],
+    "match",
+    "medium"
+   ]
+  ]
+ },
+ "qwen_r2": {
+  "n_scored": 48,
+  "n_unscored": 52,
+  "unscored_ids": [
+   "X3-41",
+   "X3-46",
+   "X3-50",
+   "X3-51",
+   "X3-52",
+   "X3-53",
+   "X3-55",
+   "X3-56",
+   "X3-57",
+   "X3-58",
+   "X3-59",
+   "X3-60",
+   "SYN-01",
+   "SYN-02",
+   "SYN-03",
+   "SYN-04",
+   "SYN-05",
+   "SYN-06",
+   "SYN-07",
+   "SYN-08",
+   "SYN-09",
+   "SYN-10",
+   "SYN-11",
+   "SYN-12",
+   "SYN-13",
+   "SYN-14",
+   "SYN-15",
+   "SYN-16",
+   "SYN-17",
+   "SYN-18",
+   "SYN-19",
+   "SYN-20",
+   "SYN-21",
+   "SYN-22",
+   "SYN-23",
+   "SYN-24",
+   "SYN-25",
+   "SYN-26",
+   "SYN-27",
+   "SYN-28",
+   "SYN-29",
+   "SYN-30",
+   "SYN-31",
+   "SYN-32",
+   "SYN-33",
+   "SYN-34",
+   "SYN-35",
+   "SYN-36",
+   "SYN-37",
+   "SYN-38",
+   "SYN-39",
+   "SYN-40"
+  ],
+  "top3_hit_overall": {
+   "hits": 48,
+   "pct_of_scored": 100.0,
+   "lower_bound_pct_of_100": 48.0,
+   "upper_bound_pct_of_100": 100.0
+  },
+  "top3_recall_gold_code_postings": [
+   37,
+   37,
+   100.0
+  ],
+  "top1_gold_code_postings": [
+   35,
+   37,
+   94.6
+  ],
+  "true_no_match_scored": 11,
+  "true_no_match_unscored": 9,
+  "no_match_flagged_none": [
+   11,
+   11
+  ],
+  "confident_wrong_match_medium_or_high": [
+   0,
+   11,
+   []
+  ],
+  "confident_wrong_match_high_only": [
+   0,
+   11
+  ],
+  "no_match_handled_correctly": {
+   "pct_of_scored": 100.0,
+   "lower_bound_of_20": 55.0,
+   "upper_bound_of_20": 100.0
+  },
+  "false_none_on_gold_code_postings": [
+   1,
+   37
+  ],
+  "seniority_errors_top1": 2,
+  "seniority_errors_any_of_top3": 28,
+  "seniority_error_list": [
+   [
+    "X3-02",
+    "Accountant",
+    "12111",
+    "senior"
+   ],
+   [
+    "X3-43",
+    "Human Resources Business Partner (HRBP) ",
+    "12121",
+    "senior"
+   ]
+  ],
+  "by_family_hit": {
+   "accounting": [
+    5,
+    5,
+    100.0
+   ],
+   "admin": [
+    3,
+    3,
+    100.0
+   ],
+   "customer service": [
+    5,
+    5,
+    100.0
+   ],
+   "engineering": [
+    5,
+    5,
+    100.0
+   ],
+   "hr": [
+    4,
+    4,
+    100.0
+   ],
+   "kitchen": [
+    5,
+    5,
+    100.0
+   ],
+   "marketing": [
+    5,
+    5,
+    100.0
+   ],
+   "nursing": [
+    5,
+    5,
+    100.0
+   ],
+   "sales": [
+    1,
+    1,
+    100.0
+   ],
+   "software": [
+    5,
+    5,
+    100.0
+   ],
+   "warehouse supervisor": [
+    5,
+    5,
+    100.0
+   ]
+  },
+  "by_stratum_hit": {
+   "x3_reuse": [
+    48,
+    48,
+    100.0
+   ]
+  },
+  "misses": []
+ },
+ "gptoss20b_r1": {
+  "n_scored": 58,
+  "n_unscored": 42,
+  "unscored_ids": [
+   "X3-46",
+   "X3-55",
+   "X3-57",
+   "X3-58",
+   "X3-59",
+   "SYN-01",
+   "SYN-02",
+   "SYN-04",
+   "SYN-05",
+   "SYN-06",
+   "SYN-07",
+   "SYN-08",
+   "SYN-10",
+   "SYN-11",
+   "SYN-12",
+   "SYN-14",
+   "SYN-15",
+   "SYN-16",
+   "SYN-17",
+   "SYN-18",
+   "SYN-19",
+   "SYN-20",
+   "SYN-21",
+   "SYN-22",
+   "SYN-23",
+   "SYN-24",
+   "SYN-25",
+   "SYN-26",
+   "SYN-27",
+   "SYN-28",
+   "SYN-29",
+   "SYN-30",
+   "SYN-31",
+   "SYN-32",
+   "SYN-33",
+   "SYN-34",
+   "SYN-35",
+   "SYN-36",
+   "SYN-37",
+   "SYN-38",
+   "SYN-39",
+   "SYN-40"
+  ],
+  "top3_hit_overall": {
+   "hits": 46,
+   "pct_of_scored": 79.3,
+   "lower_bound_pct_of_100": 46.0,
+   "upper_bound_pct_of_100": 88.0
+  },
+  "top3_recall_gold_code_postings": [
+   41,
+   44,
+   93.2
+  ],
+  "top1_gold_code_postings": [
+   37,
+   44,
+   84.1
+  ],
+  "true_no_match_scored": 13,
+  "true_no_match_unscored": 7,
+  "no_match_flagged_none": [
+   5,
+   13
+  ],
+  "confident_wrong_match_medium_or_high": [
+   8,
+   13,
+   [
+    "X3-10",
+    "X3-16",
+    "X3-18",
+    "X3-21",
+    "X3-24",
+    "X3-51",
+    "X3-52",
+    "X3-54"
+   ]
+  ],
+  "confident_wrong_match_high_only": [
+   6,
+   13
+  ],
+  "no_match_handled_correctly": {
+   "pct_of_scored": 38.5,
+   "lower_bound_of_20": 25.0,
+   "upper_bound_of_20": 60.0
+  },
+  "false_none_on_gold_code_postings": [
+   0,
+   44
+  ],
+  "seniority_errors_top1": 7,
+  "seniority_errors_any_of_top3": 20,
+  "seniority_error_list": [
+   [
+    "X3-02",
+    "Accountant",
+    "12111",
+    "senior"
+   ],
+   [
+    "X3-03",
+    "Accountant",
+    "12111",
+    "senior"
+   ],
+   [
+    "X3-23",
+    "Senior Marketing Executive",
+    "12222",
+    "senior"
+   ],
+   [
+    "X3-41",
+    "Human Resource Executive (YS81)",
+    "12121",
+    "senior"
+   ],
+   [
+    "X3-42",
+    "Account Executive (AR / Construction / E",
+    "24111",
+    "senior"
+   ],
+   [
+    "X3-43",
+    "Human Resources Business Partner (HRBP) ",
+    "12121",
+    "senior"
+   ],
+   [
+    "X3-44",
+    "Human Resource Executive (Full Spectrum)",
+    "12121",
+    "senior"
+   ]
+  ],
+  "by_family_hit": {
+   "accounting": [
+    5,
+    5,
+    100.0
+   ],
+   "admin": [
+    4,
+    4,
+    100.0
+   ],
+   "customer service": [
+    5,
+    5,
+    100.0
+   ],
+   "data": [
+    2,
+    2,
+    100.0
+   ],
+   "education": [
+    1,
+    1,
+    100.0
+   ],
+   "engineering": [
+    5,
+    5,
+    100.0
+   ],
+   "hr": [
+    2,
+    5,
+    40.0
+   ],
+   "kitchen": [
+    5,
+    5,
+    100.0
+   ],
+   "marketing": [
+    3,
+    5,
+    60.0
+   ],
+   "nursing": [
+    5,
+    5,
+    100.0
+   ],
+   "retail": [
+    1,
+    1,
+    100.0
+   ],
+   "sales": [
+    0,
+    4,
+    0.0
+   ],
+   "software": [
+    4,
+    5,
+    80.0
+   ],
+   "trades": [
+    1,
+    1,
+    100.0
+   ],
+   "warehouse supervisor": [
+    3,
+    5,
+    60.0
+   ]
+  },
+  "by_stratum_hit": {
+   "x3_reuse": [
+    43,
+    55,
+    78.2
+   ],
+   "new_family": [
+    3,
+    3,
+    100.0
+   ]
+  },
+  "misses": [
+   [
+    "X3-10",
+    "#FreshGrads 🎓 This one's for you!",
+    [
+     "NONE"
+    ],
+    [
+     "33392",
+     "24311",
+     "12221"
+    ],
+    "match",
+    "medium"
+   ],
+   [
+    "X3-16",
+    "Warehouse Supervisor",
+    [
+     "NONE"
+    ],
+    [
+     "96000",
+     "93334",
+     "12241"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "X3-18",
+    "Warehouse Supervisor",
+    [
+     "NONE"
+    ],
+    [
+     "71000",
+     "81000",
+     "93334"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "X3-21",
+    "Roadshow (Travel Opportunities 🌎)",
+    [
+     "NONE"
+    ],
+    [
+     "12221",
+     "12222",
+     "24320"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "X3-24",
+    "👑 (Travelling Opportunities) Events and Marke",
+    [
+     "NONE"
+    ],
+    [
+     "24314",
+     "33223",
+     "24313"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "X3-41",
+    "Human Resource Executive (YS81)",
+    [
+     "24233"
+    ],
+    [
+     "12121",
+     "24231",
+     "24232"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "X3-42",
+    "Account Executive (AR / Construction / ERP / ",
+    [
+     "43112",
+     "33131"
+    ],
+    [
+     "24111",
+     "24112",
+     "24113"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "X3-44",
+    "Human Resource Executive (Full Spectrum) - LC",
+    [
+     "24233"
+    ],
+    [
+     "12121",
+     "24231",
+     "24232"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "X3-51",
+    "Marketing and Sales Lead (Entry level)",
+    [
+     "NONE"
+    ],
+    [
+     "33223",
+     "33224",
+     "33222"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "X3-52",
+    "Sales and Engagement (Travel Opportunities ✈️",
+    [
+     "NONE"
+    ],
+    [
+     "12211",
+     "12221",
+     "14392"
+    ],
+    "match",
+    "medium"
+   ],
+   [
+    "X3-53",
+    "Sales Executive",
+    [
+     "NONE",
+     "33221"
+    ],
+    [
+     "33223",
+     "33224",
+     "33225"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "X3-54",
+    "FUN🤩 Sales and Marketing Executive",
+    [
+     "NONE"
+    ],
+    [
+     "33223",
+     "33221",
+     "33224"
+    ],
+    "match",
+    "high"
+   ]
+  ]
+ },
+ "stability_qwen_r1_vs_r2": {
+  "n_overlap": 48,
+  "same_top3_set": [
+   40,
+   83.3
+  ],
+  "same_top1": [
+   44,
+   91.7
+  ],
+  "same_verdict": [
+   47,
+   97.9
+  ],
+  "unstable_ids": [
+   [
+    "X3-01",
+    [
+     "24113",
+     "33133",
+     "24112"
+    ],
+    [
+     "24113",
+     "33133",
+     "24111"
+    ]
+   ],
+   [
+    "X3-08",
+    [
+     "25121",
+     "25113",
+     "25125"
+    ],
+    [
+     "25121",
+     "25113",
+     "21522"
+    ]
+   ],
+   [
+    "X3-11",
+    [
+     "22200",
+     "32200",
+     "53201"
+    ],
+    [
+     "22200",
+     "32200",
+     "53202"
+    ]
+   ],
+   [
+    "X3-16",
+    [
+     "13241",
+     "93334",
+     "40000"
+    ],
+    [
+     "93334",
+     "13241",
+     "81000"
+    ]
+   ],
+   [
+    "X3-20",
+    [
+     "93334",
+     "93201",
+     "13241"
+    ],
+    [
+     "93334",
+     "93201",
+     "75000"
+    ]
+   ],
+   [
+    "X3-21",
+    [
+     "42210",
+     "24320",
+     "24314"
+    ],
+    [
+     "24314",
+     "24320",
+     "24313"
+    ]
+   ],
+   [
+    "X3-45",
+    [
+     "33221",
+     "12212",
+     "24212"
+    ],
+    [
+     "33221",
+     "12212",
+     "33491"
+    ]
+   ],
+   [
+    "X3-49",
+    [
+     "33494",
+     "33491",
+     "33221"
+    ],
+    [
+     "33494",
+     "33491",
+     "33493"
+    ]
+   ]
+  ],
+  "families_in_overlap": [
+   "accounting",
+   "admin",
+   "customer service",
+   "engineering",
+   "hr",
+   "kitchen",
+   "marketing",
+   "nursing",
+   "sales",
+   "software",
+   "warehouse supervisor"
+  ]
+ },
+ "qwen_r1_on_r2_overlap": {
+  "n_scored": 48,
+  "n_unscored": 52,
+  "unscored_ids": [
+   "X3-41",
+   "X3-46",
+   "X3-50",
+   "X3-51",
+   "X3-52",
+   "X3-53",
+   "X3-55",
+   "X3-56",
+   "X3-57",
+   "X3-58",
+   "X3-59",
+   "X3-60",
+   "SYN-01",
+   "SYN-02",
+   "SYN-03",
+   "SYN-04",
+   "SYN-05",
+   "SYN-06",
+   "SYN-07",
+   "SYN-08",
+   "SYN-09",
+   "SYN-10",
+   "SYN-11",
+   "SYN-12",
+   "SYN-13",
+   "SYN-14",
+   "SYN-15",
+   "SYN-16",
+   "SYN-17",
+   "SYN-18",
+   "SYN-19",
+   "SYN-20",
+   "SYN-21",
+   "SYN-22",
+   "SYN-23",
+   "SYN-24",
+   "SYN-25",
+   "SYN-26",
+   "SYN-27",
+   "SYN-28",
+   "SYN-29",
+   "SYN-30",
+   "SYN-31",
+   "SYN-32",
+   "SYN-33",
+   "SYN-34",
+   "SYN-35",
+   "SYN-36",
+   "SYN-37",
+   "SYN-38",
+   "SYN-39",
+   "SYN-40"
+  ],
+  "top3_hit_overall": {
+   "hits": 48,
+   "pct_of_scored": 100.0,
+   "lower_bound_pct_of_100": 48.0,
+   "upper_bound_pct_of_100": 100.0
+  },
+  "top3_recall_gold_code_postings": [
+   37,
+   37,
+   100.0
+  ],
+  "top1_gold_code_postings": [
+   35,
+   37,
+   94.6
+  ],
+  "true_no_match_scored": 11,
+  "true_no_match_unscored": 9,
+  "no_match_flagged_none": [
+   11,
+   11
+  ],
+  "confident_wrong_match_medium_or_high": [
+   0,
+   11,
+   []
+  ],
+  "confident_wrong_match_high_only": [
+   0,
+   11
+  ],
+  "no_match_handled_correctly": {
+   "pct_of_scored": 100.0,
+   "lower_bound_of_20": 55.0,
+   "upper_bound_of_20": 100.0
+  },
+  "false_none_on_gold_code_postings": [
+   0,
+   37
+  ],
+  "seniority_errors_top1": 2,
+  "seniority_errors_any_of_top3": 28,
+  "seniority_error_list": [
+   [
+    "X3-42",
+    "Account Executive (AR / Construction / E",
+    "24111",
+    "senior"
+   ],
+   [
+    "X3-43",
+    "Human Resources Business Partner (HRBP) ",
+    "12121",
+    "senior"
+   ]
+  ],
+  "by_family_hit": {
+   "accounting": [
+    5,
+    5,
+    100.0
+   ],
+   "admin": [
+    3,
+    3,
+    100.0
+   ],
+   "customer service": [
+    5,
+    5,
+    100.0
+   ],
+   "engineering": [
+    5,
+    5,
+    100.0
+   ],
+   "hr": [
+    4,
+    4,
+    100.0
+   ],
+   "kitchen": [
+    5,
+    5,
+    100.0
+   ],
+   "marketing": [
+    5,
+    5,
+    100.0
+   ],
+   "nursing": [
+    5,
+    5,
+    100.0
+   ],
+   "sales": [
+    1,
+    1,
+    100.0
+   ],
+   "software": [
+    5,
+    5,
+    100.0
+   ],
+   "warehouse supervisor": [
+    5,
+    5,
+    100.0
+   ]
+  },
+  "by_stratum_hit": {
+   "x3_reuse": [
+    48,
+    48,
+    100.0
+   ]
+  },
+  "misses": []
+ },
+ "qwen_r2_on_r2_overlap": {
+  "n_scored": 48,
+  "n_unscored": 52,
+  "unscored_ids": [
+   "X3-41",
+   "X3-46",
+   "X3-50",
+   "X3-51",
+   "X3-52",
+   "X3-53",
+   "X3-55",
+   "X3-56",
+   "X3-57",
+   "X3-58",
+   "X3-59",
+   "X3-60",
+   "SYN-01",
+   "SYN-02",
+   "SYN-03",
+   "SYN-04",
+   "SYN-05",
+   "SYN-06",
+   "SYN-07",
+   "SYN-08",
+   "SYN-09",
+   "SYN-10",
+   "SYN-11",
+   "SYN-12",
+   "SYN-13",
+   "SYN-14",
+   "SYN-15",
+   "SYN-16",
+   "SYN-17",
+   "SYN-18",
+   "SYN-19",
+   "SYN-20",
+   "SYN-21",
+   "SYN-22",
+   "SYN-23",
+   "SYN-24",
+   "SYN-25",
+   "SYN-26",
+   "SYN-27",
+   "SYN-28",
+   "SYN-29",
+   "SYN-30",
+   "SYN-31",
+   "SYN-32",
+   "SYN-33",
+   "SYN-34",
+   "SYN-35",
+   "SYN-36",
+   "SYN-37",
+   "SYN-38",
+   "SYN-39",
+   "SYN-40"
+  ],
+  "top3_hit_overall": {
+   "hits": 48,
+   "pct_of_scored": 100.0,
+   "lower_bound_pct_of_100": 48.0,
+   "upper_bound_pct_of_100": 100.0
+  },
+  "top3_recall_gold_code_postings": [
+   37,
+   37,
+   100.0
+  ],
+  "top1_gold_code_postings": [
+   35,
+   37,
+   94.6
+  ],
+  "true_no_match_scored": 11,
+  "true_no_match_unscored": 9,
+  "no_match_flagged_none": [
+   11,
+   11
+  ],
+  "confident_wrong_match_medium_or_high": [
+   0,
+   11,
+   []
+  ],
+  "confident_wrong_match_high_only": [
+   0,
+   11
+  ],
+  "no_match_handled_correctly": {
+   "pct_of_scored": 100.0,
+   "lower_bound_of_20": 55.0,
+   "upper_bound_of_20": 100.0
+  },
+  "false_none_on_gold_code_postings": [
+   1,
+   37
+  ],
+  "seniority_errors_top1": 2,
+  "seniority_errors_any_of_top3": 28,
+  "seniority_error_list": [
+   [
+    "X3-02",
+    "Accountant",
+    "12111",
+    "senior"
+   ],
+   [
+    "X3-43",
+    "Human Resources Business Partner (HRBP) ",
+    "12121",
+    "senior"
+   ]
+  ],
+  "by_family_hit": {
+   "accounting": [
+    5,
+    5,
+    100.0
+   ],
+   "admin": [
+    3,
+    3,
+    100.0
+   ],
+   "customer service": [
+    5,
+    5,
+    100.0
+   ],
+   "engineering": [
+    5,
+    5,
+    100.0
+   ],
+   "hr": [
+    4,
+    4,
+    100.0
+   ],
+   "kitchen": [
+    5,
+    5,
+    100.0
+   ],
+   "marketing": [
+    5,
+    5,
+    100.0
+   ],
+   "nursing": [
+    5,
+    5,
+    100.0
+   ],
+   "sales": [
+    1,
+    1,
+    100.0
+   ],
+   "software": [
+    5,
+    5,
+    100.0
+   ],
+   "warehouse supervisor": [
+    5,
+    5,
+    100.0
+   ]
+  },
+  "by_stratum_hit": {
+   "x3_reuse": [
+    48,
+    48,
+    100.0
+   ]
+  },
+  "misses": []
+ },
+ "cross_model_qwen_r1_vs_gptoss": {
+  "n_overlap": 57,
+  "same_top3_set": 15,
+  "same_top1": 36,
+  "same_verdict": 48
+ },
+ "qwen_r1_on_gptoss_overlap": {
+  "n_scored": 57,
+  "n_unscored": 43,
+  "unscored_ids": [
+   "X3-46",
+   "X3-55",
+   "X3-57",
+   "X3-58",
+   "X3-59",
+   "SYN-01",
+   "SYN-02",
+   "SYN-04",
+   "SYN-05",
+   "SYN-06",
+   "SYN-07",
+   "SYN-08",
+   "SYN-10",
+   "SYN-11",
+   "SYN-12",
+   "SYN-13",
+   "SYN-14",
+   "SYN-15",
+   "SYN-16",
+   "SYN-17",
+   "SYN-18",
+   "SYN-19",
+   "SYN-20",
+   "SYN-21",
+   "SYN-22",
+   "SYN-23",
+   "SYN-24",
+   "SYN-25",
+   "SYN-26",
+   "SYN-27",
+   "SYN-28",
+   "SYN-29",
+   "SYN-30",
+   "SYN-31",
+   "SYN-32",
+   "SYN-33",
+   "SYN-34",
+   "SYN-35",
+   "SYN-36",
+   "SYN-37",
+   "SYN-38",
+   "SYN-39",
+   "SYN-40"
+  ],
+  "top3_hit_overall": {
+   "hits": 57,
+   "pct_of_scored": 100.0,
+   "lower_bound_pct_of_100": 57.0,
+   "upper_bound_pct_of_100": 100.0
+  },
+  "top3_recall_gold_code_postings": [
+   43,
+   43,
+   100.0
+  ],
+  "top1_gold_code_postings": [
+   41,
+   43,
+   95.3
+  ],
+  "true_no_match_scored": 13,
+  "true_no_match_unscored": 7,
+  "no_match_flagged_none": [
+   13,
+   13
+  ],
+  "confident_wrong_match_medium_or_high": [
+   0,
+   13,
+   []
+  ],
+  "confident_wrong_match_high_only": [
+   0,
+   13
+  ],
+  "no_match_handled_correctly": {
+   "pct_of_scored": 100.0,
+   "lower_bound_of_20": 65.0,
+   "upper_bound_of_20": 100.0
+  },
+  "false_none_on_gold_code_postings": [
+   0,
+   43
+  ],
+  "seniority_errors_top1": 2,
+  "seniority_errors_any_of_top3": 30,
+  "seniority_error_list": [
+   [
+    "X3-42",
+    "Account Executive (AR / Construction / E",
+    "24111",
+    "senior"
+   ],
+   [
+    "X3-43",
+    "Human Resources Business Partner (HRBP) ",
+    "12121",
+    "senior"
+   ]
+  ],
+  "by_family_hit": {
+   "accounting": [
+    5,
+    5,
+    100.0
+   ],
+   "admin": [
+    4,
+    4,
+    100.0
+   ],
+   "customer service": [
+    5,
+    5,
+    100.0
+   ],
+   "data": [
+    2,
+    2,
+    100.0
+   ],
+   "engineering": [
+    5,
+    5,
+    100.0
+   ],
+   "hr": [
+    5,
+    5,
+    100.0
+   ],
+   "kitchen": [
+    5,
+    5,
+    100.0
+   ],
+   "marketing": [
+    5,
+    5,
+    100.0
+   ],
+   "nursing": [
+    5,
+    5,
+    100.0
+   ],
+   "retail": [
+    1,
+    1,
+    100.0
+   ],
+   "sales": [
+    4,
+    4,
+    100.0
+   ],
+   "software": [
+    5,
+    5,
+    100.0
+   ],
+   "trades": [
+    1,
+    1,
+    100.0
+   ],
+   "warehouse supervisor": [
+    5,
+    5,
+    100.0
+   ]
+  },
+  "by_stratum_hit": {
+   "x3_reuse": [
+    55,
+    55,
+    100.0
+   ],
+   "new_family": [
+    2,
+    2,
+    100.0
+   ]
+  },
+  "misses": []
+ },
+ "gptoss_on_qwen_overlap": {
+  "n_scored": 57,
+  "n_unscored": 43,
+  "unscored_ids": [
+   "X3-46",
+   "X3-55",
+   "X3-57",
+   "X3-58",
+   "X3-59",
+   "SYN-01",
+   "SYN-02",
+   "SYN-04",
+   "SYN-05",
+   "SYN-06",
+   "SYN-07",
+   "SYN-08",
+   "SYN-10",
+   "SYN-11",
+   "SYN-12",
+   "SYN-13",
+   "SYN-14",
+   "SYN-15",
+   "SYN-16",
+   "SYN-17",
+   "SYN-18",
+   "SYN-19",
+   "SYN-20",
+   "SYN-21",
+   "SYN-22",
+   "SYN-23",
+   "SYN-24",
+   "SYN-25",
+   "SYN-26",
+   "SYN-27",
+   "SYN-28",
+   "SYN-29",
+   "SYN-30",
+   "SYN-31",
+   "SYN-32",
+   "SYN-33",
+   "SYN-34",
+   "SYN-35",
+   "SYN-36",
+   "SYN-37",
+   "SYN-38",
+   "SYN-39",
+   "SYN-40"
+  ],
+  "top3_hit_overall": {
+   "hits": 45,
+   "pct_of_scored": 78.9,
+   "lower_bound_pct_of_100": 45.0,
+   "upper_bound_pct_of_100": 88.0
+  },
+  "top3_recall_gold_code_postings": [
+   40,
+   43,
+   93.0
+  ],
+  "top1_gold_code_postings": [
+   36,
+   43,
+   83.7
+  ],
+  "true_no_match_scored": 13,
+  "true_no_match_unscored": 7,
+  "no_match_flagged_none": [
+   5,
+   13
+  ],
+  "confident_wrong_match_medium_or_high": [
+   8,
+   13,
+   [
+    "X3-10",
+    "X3-16",
+    "X3-18",
+    "X3-21",
+    "X3-24",
+    "X3-51",
+    "X3-52",
+    "X3-54"
+   ]
+  ],
+  "confident_wrong_match_high_only": [
+   6,
+   13
+  ],
+  "no_match_handled_correctly": {
+   "pct_of_scored": 38.5,
+   "lower_bound_of_20": 25.0,
+   "upper_bound_of_20": 60.0
+  },
+  "false_none_on_gold_code_postings": [
+   0,
+   43
+  ],
+  "seniority_errors_top1": 7,
+  "seniority_errors_any_of_top3": 20,
+  "seniority_error_list": [
+   [
+    "X3-02",
+    "Accountant",
+    "12111",
+    "senior"
+   ],
+   [
+    "X3-03",
+    "Accountant",
+    "12111",
+    "senior"
+   ],
+   [
+    "X3-23",
+    "Senior Marketing Executive",
+    "12222",
+    "senior"
+   ],
+   [
+    "X3-41",
+    "Human Resource Executive (YS81)",
+    "12121",
+    "senior"
+   ],
+   [
+    "X3-42",
+    "Account Executive (AR / Construction / E",
+    "24111",
+    "senior"
+   ],
+   [
+    "X3-43",
+    "Human Resources Business Partner (HRBP) ",
+    "12121",
+    "senior"
+   ],
+   [
+    "X3-44",
+    "Human Resource Executive (Full Spectrum)",
+    "12121",
+    "senior"
+   ]
+  ],
+  "by_family_hit": {
+   "accounting": [
+    5,
+    5,
+    100.0
+   ],
+   "admin": [
+    4,
+    4,
+    100.0
+   ],
+   "customer service": [
+    5,
+    5,
+    100.0
+   ],
+   "data": [
+    2,
+    2,
+    100.0
+   ],
+   "engineering": [
+    5,
+    5,
+    100.0
+   ],
+   "hr": [
+    2,
+    5,
+    40.0
+   ],
+   "kitchen": [
+    5,
+    5,
+    100.0
+   ],
+   "marketing": [
+    3,
+    5,
+    60.0
+   ],
+   "nursing": [
+    5,
+    5,
+    100.0
+   ],
+   "retail": [
+    1,
+    1,
+    100.0
+   ],
+   "sales": [
+    0,
+    4,
+    0.0
+   ],
+   "software": [
+    4,
+    5,
+    80.0
+   ],
+   "trades": [
+    1,
+    1,
+    100.0
+   ],
+   "warehouse supervisor": [
+    3,
+    5,
+    60.0
+   ]
+  },
+  "by_stratum_hit": {
+   "x3_reuse": [
+    43,
+    55,
+    78.2
+   ],
+   "new_family": [
+    2,
+    2,
+    100.0
+   ]
+  },
+  "misses": [
+   [
+    "X3-10",
+    "#FreshGrads 🎓 This one's for you!",
+    [
+     "NONE"
+    ],
+    [
+     "33392",
+     "24311",
+     "12221"
+    ],
+    "match",
+    "medium"
+   ],
+   [
+    "X3-16",
+    "Warehouse Supervisor",
+    [
+     "NONE"
+    ],
+    [
+     "96000",
+     "93334",
+     "12241"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "X3-18",
+    "Warehouse Supervisor",
+    [
+     "NONE"
+    ],
+    [
+     "71000",
+     "81000",
+     "93334"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "X3-21",
+    "Roadshow (Travel Opportunities 🌎)",
+    [
+     "NONE"
+    ],
+    [
+     "12221",
+     "12222",
+     "24320"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "X3-24",
+    "👑 (Travelling Opportunities) Events and Marke",
+    [
+     "NONE"
+    ],
+    [
+     "24314",
+     "33223",
+     "24313"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "X3-41",
+    "Human Resource Executive (YS81)",
+    [
+     "24233"
+    ],
+    [
+     "12121",
+     "24231",
+     "24232"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "X3-42",
+    "Account Executive (AR / Construction / ERP / ",
+    [
+     "43112",
+     "33131"
+    ],
+    [
+     "24111",
+     "24112",
+     "24113"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "X3-44",
+    "Human Resource Executive (Full Spectrum) - LC",
+    [
+     "24233"
+    ],
+    [
+     "12121",
+     "24231",
+     "24232"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "X3-51",
+    "Marketing and Sales Lead (Entry level)",
+    [
+     "NONE"
+    ],
+    [
+     "33223",
+     "33224",
+     "33222"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "X3-52",
+    "Sales and Engagement (Travel Opportunities ✈️",
+    [
+     "NONE"
+    ],
+    [
+     "12211",
+     "12221",
+     "14392"
+    ],
+    "match",
+    "medium"
+   ],
+   [
+    "X3-53",
+    "Sales Executive",
+    [
+     "NONE",
+     "33221"
+    ],
+    [
+     "33223",
+     "33224",
+     "33225"
+    ],
+    "match",
+    "high"
+   ],
+   [
+    "X3-54",
+    "FUN🤩 Sales and Marketing Executive",
+    [
+     "NONE"
+    ],
+    [
+     "33223",
+     "33221",
+     "33224"
+    ],
+    "match",
+    "high"
+   ]
+  ]
+ },
+ "shortlist_loss": {
+  "postings_with_real_gold_code": 80,
+  "gold_absent_from_shortlist": 1,
+  "pct": 1.2,
+  "lost": [
+   [
+    "SYN-04",
+    "Aircon Technician",
+    [
+     "71271",
+     "31152"
+    ]
+   ]
+  ]
+ }
+}

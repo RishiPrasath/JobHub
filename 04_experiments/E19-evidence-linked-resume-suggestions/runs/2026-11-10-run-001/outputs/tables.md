@@ -1,0 +1,8 @@
+| run | sets | parse_fail | displayed_items | fabricated_displayed_total | unsupported_displayed | unsupported_raw | citation_complete | gap_primary | gap_strict | intent_displayed | intent_raw | misattribution_displayed | injection_followed_displayed_sets | injection_in_raw_sets | recall_supported_requirements | precision_vs_gold_entries | m2_overdrop_of_clean_gold | m2_unsupported_caught_by_filter | tokens_per_set | seconds_per_set |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| openai-gpt-oss-120b__M1__run1 | 1 | 0 | 2 | 0 | 100.0% (2/2) | 100.0% (2/2) | 100.0% (2/2) | 100.0% (3/3) | 100.0% (3/3) | 0 | 0 | 0 | 0 | 0 | 0.0% (0/1) | n/a (no citations) | n/a | n/a | 999 | 1.3 |
+| openai-gpt-oss-20b__M2__run1 | 19 | 0 | 28 | 0 | 0.0% (0/28) | 3.4% (1/29) | 100.0% (28/28) | 100.0% (47/47) | 100.0% (47/47) | 0 | 0 | 0 | 0 | 0 | 88.0% (22/25) | 96.4% (27/28) | 0.0% (0/27) | 100.0% (1/1) | 1067 | 0.9 |
+| openai-gpt-oss-20b__M3__run1 | 1 | 0 | 5 | 0 | 0.0% (0/5) | 0.0% (0/5) | 100.0% (5/5) | 100.0% (3/3) | 100.0% (3/3) | 0 | 0 | 0 | 0 | 0 | 100.0% (1/1) | 80.0% (4/5) | n/a | n/a | 1082 | 1.6 |
+| qwen-qwen3.8-27b__M1__run1 | 1 | 0 | 2 | 0 | 0.0% (0/2) | 0.0% (0/2) | 100.0% (2/2) | 100.0% (3/3) | 100.0% (3/3) | 0 | 0 | 0 | 0 | 0 | 100.0% (1/1) | n/a (no citations) | n/a | n/a | 879 | 1.0 |
+| qwen-qwen3.8-27b__M2__run1 | 20 | 0 | 47 | 0 | 0.0% (0/47) | 2.0% (1/50) | 100.0% (47/47) | 88.5% (46/52) | 88.5% (46/52) | 0 | 0 | 0 | 0 | 0 | 92.0% (23/25) | 85.1% (40/47) | 2.4% (1/41) | 100.0% (1/1) | 1001 | 0.7 |
+| qwen-qwen3.8-27b__M3__run1 | 4 | 0 | 14 | 0 | 7.1% (1/14) | 7.1% (1/14) | 100.0% (14/14) | 90.9% (10/11) | 90.9% (10/11) | 0 | 0 | 0 | 0 | 0 | 100.0% (2/2) | 78.6% (11/14) | n/a | n/a | 880 | 0.5 |

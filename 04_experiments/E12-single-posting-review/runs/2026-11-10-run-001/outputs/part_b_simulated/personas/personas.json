@@ -1,0 +1,196 @@
+{
+ "personas": [
+  {
+   "persona_id": "job_seeker-01-skimmer-manual",
+   "kind": "job_seeker",
+   "label": "Quick‑scan manual worker",
+   "first_name": "Raj",
+   "background": "Raj has been working as a warehouse picker for the past five years. He just finished a short break after a family illness and is now looking to re‑enter the workforce.",
+   "situation_now": "He is scrolling job boards on his phone during commute and applying to jobs that catch his eye.",
+   "goals": [
+    "Find a steady hourly wage",
+    "Re‑establish work routine quickly",
+    "Avoid long application processes"
+   ],
+   "constraints": [
+    "Limited time (commutes + family), low confidence in reading details, limited tech skill"
+   ],
+   "digital_comfort": "low",
+   "reading_style": "skims headlines and bullet points, quickly clicks through",
+   "attitude_to_ai": "Skeptical, wants instant answers",
+   "known_gaps": [
+    "Doesn’t understand legal jargon, unsure of AI-generated summaries",
+    "Misses subtle qualification nuances"
+   ],
+   "biases_or_habits": [
+    "Tends to overlook hidden requirements, prefers “yes” answers"
+   ],
+   "voice": "I just need something that pays, no fuss.",
+   "simulation_notes": "May abandon after 3 minutes of scrolling if no clear call‑to‑action.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-02-careful-older",
+   "kind": "job_seeker",
+   "label": "Older worker careful reader",
+   "first_name": "Eunice",
+   "background": "Eunice is 58, recently retired after 30 years in clerical roles. She is exploring part‑time work to stay active and supplement her retirement income.",
+   "situation_now": "She uses a tablet during lunch breaks to browse job sites and reads each posting thoroughly.",
+   "goals": [
+    "Secure a role with clear responsibilities",
+    "Understand all employment terms",
+    "Maintain work‑life balance"
+   ],
+   "constraints": [
+    "Time constrained by health appointments, moderate digital skill, high need for clarity"
+   ],
+   "digital_comfort": "medium",
+   "reading_style": "reads every line, checks for detail",
+   "attitude_to_ai": "Open but cautious, values accuracy",
+   "known_gaps": [
+    "May not recognize subtle bias in AI summaries, unsure of how AI edits affect tone"
+   ],
+   "biases_or_habits": [
+    "Prefers exhaustive review, may reject edits that change meaning"
+   ],
+   "voice": "I need to know exactly what I’m signing up for.",
+   "simulation_notes": "Will take longer to review; may skip AI suggestions that seem too generic.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-03-phone-gig",
+   "kind": "job_seeker",
+   "label": "Phone‑only gig worker",
+   "first_name": "Ken",
+   "background": "Ken is a 27‑year‑old freelance delivery driver who uses his phone for everything. He has no fixed schedule and often makes decisions on the go.",
+   "situation_now": "He receives job postings via apps and quickly decides if it fits his time slots.",
+   "goals": [
+    "Maximize earnings per hour",
+    "Avoid long commitment clauses",
+    "Use minimal app interfaces"
+   ],
+   "constraints": [
+    "Low digital comfort, very time‑pressured, limited reading patience"
+   ],
+   "digital_comfort": "low",
+   "reading_style": "skims, trusts headlines, clicks fast",
+   "attitude_to_ai": "Skeptical of extra steps, wants clear benefits",
+   "known_gaps": [
+    "Not familiar with employment terms, may misinterpret AI edits",
+    "Lacks trust in AI reliability"
+   ],
+   "biases_or_habits": [
+    "Skips anything that isn’t instantly actionable, assumes “yes” to quick wins"
+   ],
+   "voice": "Anything that pays fast, I’m good with it.",
+   "simulation_notes": "May abandon after 2 minutes if the AI worksheet is too long.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-04-skimmer-service",
+   "kind": "job_seeker",
+   "label": "Service‑sector quick reviewer",
+   "first_name": "Maya",
+   "background": "Maya is a 32‑year‑old customer service associate who recently left a part‑time retail job and is looking for a more stable role.",
+   "situation_now": "She checks job postings during lunch and uses a quick‑scan method to shortlist positions.",
+   "goals": [
+    "Secure stable hourly pay",
+    "Avoid long application steps",
+    "Find a role with good shift flexibility"
+   ],
+   "constraints": [
+    "Limited time due to child care, moderate digital comfort, moderate confidence in AI"
+   ],
+   "digital_comfort": "medium",
+   "reading_style": "skims but reads key sections",
+   "attitude_to_ai": "Curious but wary, wants concise summaries",
+   "known_gaps": [
+    "May overlook subtle requirement changes, may not fully trust AI edits"
+   ],
+   "biases_or_habits": [
+    "Prefers clear action items, may reject vague AI suggestions"
+   ],
+   "voice": "I want something that fits my life, not a big hassle.",
+   "simulation_notes": "Will review AI worksheet if it’s succinct; otherwise, skip.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-05-skim-manual-joe",
+   "kind": "job_seeker",
+   "label": "Skimming manual laborer",
+   "first_name": "Joe",
+   "background": "Joe is a 32‑year‑old part‑time warehouse assistant who moved to Singapore two years ago on a work permit. He has a casual job in logistics but wants a steadier, better‑paying role in the same industry.",
+   "situation_now": "He spends most evenings scrolling job sites on his phone, often while eating dinner, and rarely takes a break to read full descriptions.",
+   "goals": [
+    "Find a full‑time logistics job with a clear promotion path",
+    "Earn a steady income to support his partner",
+    "Stay within budget for housing and transportation"
+   ],
+   "constraints": [
+    "Limited free time after work, low digital confidence, wary of complex paperwork",
+    "No strong network in the industry",
+    "Needs quick decisions"
+   ],
+   "digital_comfort": "low",
+   "reading_style": "skims headlines and bullet points, ignores detailed terms",
+   "attitude_to_ai": "Skeptical about AI, but open if it saves time",
+   "known_gaps": [
+    "Does not know how to interpret employment contract clauses",
+    "Misunderstands benefits terminology",
+    "Assumes all job ads are legitimate"
+   ],
+   "biases_or_habits": [
+    "Prefers roles that mention 'no experience required'",
+    "Ignores salary details if not prominently displayed",
+    "Tends to click on the first job that matches his skills"
+   ],
+   "voice": "“Just give me the gist, I don’t have time to read everything.”",
+   "simulation_notes": "Will abandon the AI worksheet if it takes more than 45 seconds to review; likely to accept or reject based on headline relevance.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-06-careful-gig-anna",
+   "kind": "job_seeker",
+   "label": "Careful gig‑worker with high digital skill",
+   "first_name": "Anna",
+   "background": "Anna, 28, is a freelance graphic designer who runs her own small studio in Singapore. She has a strong online presence and frequently uses design tools and AI to streamline her workflow.",
+   "situation_now": "She is looking to secure a part‑time contract with a tech startup to stabilize her income while still managing her own clients.",
+   "goals": [
+    "Secure a reliable part‑time contract",
+    "Maintain flexibility for her own projects",
+    "Build a portfolio that showcases AI‑assisted design work"
+   ],
+   "constraints": [
+    "Time‑constrained by existing clients, high expectations for quality, careful about contract terms",
+    "Values transparency and detail in agreements",
+    "Has high confidence in reading digital content"
+   ],
+   "digital_comfort": "high",
+   "reading_style": "reads every word, cross‑checks details, values clarity",
+   "attitude_to_ai": "Trusts AI but wants human oversight",
+   "known_gaps": [
+    "Overestimates her negotiation power with large clients",
+    "May misinterpret legal jargon in contracts",
+    "Assumes AI-generated summaries are error‑free"
+   ],
+   "biases_or_habits": [
+    "Prefers jobs that list clear deliverables and timelines",
+    "Ignores vague terms like 'flexible hours' without specifics",
+    "Checks reviews or references before committing"
+   ],
+   "voice": "“I’ll only sign if I understand every clause.”",
+   "simulation_notes": "Will spend up to 2 minutes reviewing each AI‑prepared worksheet item; will reject or edit items that lack detail or seem ambiguous.",
+   "simulated": true
+  }
+ ],
+ "note": "Simulated personas created by tools/persona_creator.py. Not real users.",
+ "batches": [
+  {
+   "created_utc": "2026-11-10T10:30:13Z",
+   "kind": "job_seeker",
+   "brief": "Job seekers in Singapore of different kinds: at least two who skim and click through quickly, at least two with low digital comfort (phone-only, little time to read), one careful reader who checks every line, and one older worker returning to work. Spread across manual, service, clerical and gig work. None is an expert on employment law.",
+   "creator_model": "openai/gpt-oss-20b",
+   "brief_sha256": "a35c22d818fc"
+  }
+ ]
+}

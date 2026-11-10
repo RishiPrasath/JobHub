@@ -1,0 +1,46 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "create-early_career-0",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T09:55:04Z",
+ "latency_s": 1.4,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1400,
+  "temperature": 0.9,
+  "response_format": {
+   "type": "json_object"
+  },
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are the Persona Creator for JobHub, a research project on job-search intelligence in Singapore.\nYou create FICTIONAL simulation personas for testing. Rules:\n- Every persona is invented. Never use a real person, a real company's staff, or identifiable details.\n- Vary the personas along the requested axes so the set is not clustered. Do not default to one profile.\n- Describe circumstances and behaviour, not protected characteristics as a basis for judgement. Include\n  age band, citizenship or work-pass status, or family situation ONLY where the brief makes it relevant to the task.\n- Give each persona realistic limits: what they do not know, where they get impatient, what they would skip.\n- Do not make any persona an expert, enthusiastic or compliant by default.\n- Output JSON only."
+  },
+  {
+   "role": "user",
+   "content": "Brief: A recent graduate who prepares heavily, uses AI assistants and mock-interview tools regularly, and had several interviews in the last 6 months. A deliberate counter-view: someone likely satisfied with existing tools.\nKind of persona: early_career (a recent graduate or first-time job seeker)\nNumber of personas: 1\nVariation axes (spread the set across these): AI use, number of interviews, confidence\nTask context (what the personas will be asked to do; do not answer it): a research interview about how they prepared for their latest job interview\n\nReturn JSON: {\"personas\": [{\n  \"persona_id\": \"short-slug\",\n  \"kind\": \"early_career\",\n  \"label\": \"6-10 word description\",\n  \"first_name\": \"fictional first name\",\n  \"background\": \"2-3 sentences, no identifying detail\",\n  \"situation_now\": \"what they are doing about work/hiring right now\",\n  \"goals\": [\"...\"],\n  \"constraints\": [\"time, money, status, confidence, digital skill ...\"],\n  \"digital_comfort\": \"low|medium|high\",\n  \"reading_style\": \"how they read documents (skims, reads every word, trusts headlines ...)\",\n  \"attitude_to_ai\": \"short\",\n  \"known_gaps\": [\"things they do not know or would get wrong\"],\n  \"biases_or_habits\": [\"...\"],\n  \"voice\": \"how they speak, 1 sentence\",\n  \"simulation_notes\": \"anything the runner must keep in mind (e.g. would abandon after 3 minutes)\"\n}]}"
+  }
+ ],
+ "content": "{\"personas\":[{\"persona_id\":\"ai‑prep‑grad\",\"kind\":\"early_career\",\"label\":\"Recent grad, AI‑driven interview prep, 8 interviews past 6 months\",\"first_name\":\"Ravi\",\"background\":\"Ravi finished a BSc in Computer Science in May 2024 and has been job‑hunting full‑time ever since. He grew up in a bilingual household and spent his university years tinkering with chat‑bots for class projects. He now lives in a shared HDB flat near the city centre.\",\"situation_now\":\"Actively applying to software engineering roles, scheduled three interviews this month, and using an AI‑assistant to tailor his CV and rehearse answers.\",\"goals\":[\"Land a junior developer position at a fintech firm\",\"Build a professional network in Singapore\",\"Improve interview confidence without over‑relying on scripts\"],\"constraints\":[\"Limited budget for premium interview‑coaching services\",\"Time pressure from multiple interview slots\",\"Occasional self‑doubt after a tough interview\"],\"digital_comfort\":\"high\",\"reading_style\":\"Skims headings then deep‑dives on bullet points; trusts AI‑summarised key takeaways\",\"attitude_to_ai\":\"Views AI as a necessary coach, but worries it may make him sound rehearsed\",\"known_gaps\":[\"Struggles to improvise when interview deviates from common questions\",\"May overlook company culture nuances beyond data sheets\"],\"biases_or_habits\":[\"Prefers tools that give instant feedback; skips long articles unless AI flags them as essential\",\"Tends to accept AI suggestions without cross‑checking\"],\"voice\":\"Speaks in a concise, data‑driven tone, peppered with tech slang\",\"simulation_notes\":\"Will answer in detail about AI‑assisted prep but may stop after 4‑5 minutes if asked to reflect on feelings rather than process\"}]}",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 441,
+  "prompt_tokens": 594,
+  "total_tokens": 1035,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 54,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.167919858,
+  "prompt_time": 0.210380979,
+  "completion_time": 0.931861628,
+  "total_time": 1.142242607
+ },
+ "cached": false
+}

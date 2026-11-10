@@ -1,0 +1,28 @@
+Singapore Airlines Limited  (role: Cabin Crew)
+HEADLINE: exists_limited_evidence
+  Registered in Singapore, but there is little public evidence beyond the registry.
+  because: registry: confirmed; web evidence thin (5 pages read, model: None)
+REGISTRY: confirmed. SINGAPORE AIRLINES LIMITED is registered in Singapore (status: Live Company, registered 1972-01-28).
+  flag: other entities start with this name: SINGAPORE AIRLINES CARGO PTE LTD
+WEB: 5 queries (bing, duckduckgo), 5 of 8 pages read, exact name seen in 5 pages and 25 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 8):
+  - Singapore Airlines reviews - Glassdoor  https://www.glassdoor.com/Reviews/Singapore-Airlines-
+    Reviews-E3379.htm
+  - Singapore Airlines Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/Singapore-Airlines-
+    Reviews-E3379.htm
+  - Singapore Airlines Careers and Employment | Indeed  https://sg.indeed.com/cmp/Singapore-Airlines
+  - Singapore Airlines: Employee Benefits and Perks |   https://www.glassdoor.sg/Benefits/Singapore-
+    Airlines-Singapore-Benefits-EI_IE337
+  - Singapore Airlines Mission, Benefits, and Work Cul  https://sg.indeed.com/cmp/Singapore-
+    Airlines/about
+  - Singapore Airlines Careers and Employment | Indeed  https://www.indeed.com/cmp/Singapore-
+    Airlines
+COULD NOT READ (3):
+  - https://www.singaporeair.com/en_UK/sg/corporate/newsroom/newsalert-lis  (thin: fewer than 400
+    characters of real content)
+  - https://www.singaporeair.com/en_UK/sg/careers/why-join-us/our-hiring-p  (thin: fewer than 400
+    characters of real content)
+  - https://cabincrew24.com/singapore-airlines-cabin-crew-recruitment-proc  (irrelevant: the page
+    never mentions the company name)
+DEGRADED: summary_unavailable: model service busy: waited 90 s
+(125.1s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

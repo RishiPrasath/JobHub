@@ -1,0 +1,49 @@
+P01 {'title': 'present', 'employer': 'present', 'pay': 'present', 'duties': 'present', 'closing': 'present'} False []
+P02 {'title': 'present', 'employer': 'present', 'pay': 'present', 'duties': 'present', 'closing': 'present'} False []
+P03 {'title': 'present', 'employer': 'present', 'pay': 'present', 'duties': 'present', 'closing': 'present'} False []
+P04 {'title': 'present', 'employer': 'present', 'pay': 'present', 'duties': 'present', 'closing': 'present'} False []
+P05 {'title': 'present', 'employer': 'present', 'pay': 'present', 'duties': 'present', 'closing': 'present'} False []
+P06 {'title': 'present', 'employer': 'hidden_labelled', 'pay': 'present', 'duties': 'present', 'closing': 'present'} False []
+P07 {'title': 'present', 'employer': 'present', 'pay': 'present', 'duties': 'present', 'closing': 'present'} False []
+P08 {'title': 'missing', 'employer': 'missing', 'pay': 'missing', 'duties': 'present', 'closing': 'missing'} False []
+P09 {'title': 'present', 'employer': 'present', 'pay': 'present', 'duties': 'present', 'closing': 'present'} False []
+P10 {'title': 'present', 'employer': 'present', 'pay': 'missing', 'duties': 'present', 'closing': 'missing'} False []
+P11 {'title': 'present', 'employer': 'hidden_labelled', 'pay': 'present', 'duties': 'present', 'closing': 'present'} False []
+P12 {'title': 'present', 'employer': 'present', 'pay': 'present', 'duties': 'present', 'closing': 'missing'} False []
+P13 {'title': 'present', 'employer': 'present', 'pay': 'explicit_absence', 'duties': 'present', 'closing': 'explicit_absence'} False []
+P31 {'title': 'present', 'employer': 'present', 'pay': 'present', 'duties': 'present', 'closing': 'present'} True ['cut_off']
+P32 {'title': 'present', 'employer': 'present', 'pay': 'present', 'duties': 'present', 'closing': 'missing'} True ['cut_off']
+P33 {'title': 'present', 'employer': 'present', 'pay': 'present', 'duties': 'present', 'closing': 'missing'} True ['cut_off']
+P34 {'title': 'present', 'employer': 'present', 'pay': 'present', 'duties': 'present', 'closing': 'present'} True ['cut_off']
+P35 {'title': 'present', 'employer': 'present', 'pay': 'present', 'duties': 'missing', 'closing': 'present'} True ['no_body']
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199912, Requested 1257. Please try again in 8m25.008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E13-paste-capture\harness\llm_check.py", line 56, in <module>
+    r = chat(model, msgs, json_mode=True, max_tokens=700, temperature=0.0, reasoning_effort="low",
+             cache_dir=str(out / "raw" / "llm_check"), tag=g["id"])
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 205, in chat
+    raise RuntimeError(f"DAILY LIMIT: {text[:300]}") from e
+RuntimeError: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199912, Requested 1257. Please try again in 8m25.008s. Need more tokens? Upgrade to Dev Tier 

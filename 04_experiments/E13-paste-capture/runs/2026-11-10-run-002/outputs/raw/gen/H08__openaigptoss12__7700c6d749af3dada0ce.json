@@ -1,0 +1,39 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "H08",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:04:52Z",
+ "latency_s": 1.59,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1100,
+  "temperature": 0.8,
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "user",
+   "content": "Write the raw text that a person would get by pressing Select All then Copy on a company careers page job page in Singapore, for a fictional employer and a made-up job. Output the pasted text ONLY: no commentary, no markdown, no code fences. Include realistic page furniture (menu text, buttons, banners, footer links). Target 250 to 400 words. Requirements for this paste:\n- employer named, job title shown\n- duties as bullets\n- the page says 'Salary will be discussed at interview'\n- the page says applications are 'open until the position is filled'\nToday is 2026-11-10; any dates you write must be in November or December 2026."
+  }
+ ],
+ "content": "Home | About Us | Careers | Contact  \n\n[Banner: Join Our Innovative Team – Shape the Future of FinTech]  \n\nCareers at NovaWave Solutions  \n\nLocation: Singapore  \n\nJob Title: Senior Data Analytics Engineer  \n\nPosted: 12 November 2026  \n\nApplication Deadline: Open until the position is filled  \n\nSalary will be discussed at interview  \n\nJob Summary  \nWe are seeking a highly skilled Senior Data Analytics Engineer to lead the design, development, and optimization of our data pipelines and analytics platforms. You will collaborate with cross‑functional teams to turn complex data sets into actionable insights that drive business decisions across our fintech products.\n\nKey Responsibilities  \n- Design, build, and maintain scalable data pipelines using Spark, Kafka, and Airflow.  \n- Develop advanced analytics models and dashboards in Python, R, and Tableau.  \n- Lead data quality initiatives, implementing automated testing and monitoring frameworks.  \n- Partner with product managers and engineers to define data requirements and deliver analytical solutions.  \n- Mentor junior data engineers and promote best practices in data engineering and analytics.  \n- Conduct performance tuning and cost optimization for cloud‑based data services on AWS and Azure.  \n- Present findings and recommendations to senior leadership and stakeholders.  \n\nQualifications  \n- Bachelor’s or Master’s degree in Computer Science, Statistics, or related field.  \n- Minimum 5 years of experience in data engineering or analytics roles.  \n- Proficiency in SQL, Python, Scala, and big‑data technologies (Spark, Hadoop, Kafka).  \n- Strong knowledge of cloud platforms (AWS, Azure) and containerization (Docker, Kubernetes).  \n- Excellent problem‑solving skills and ability to communicate complex concepts clearly.  \n\nBenefits  \n- Competitive compensation package (salary discussed at interview)  \n- Flexible working hours and hybrid office model  \n- Comprehensive health and wellness benefits  \n- Professional development budget and tuition assistance  \n- Generous annual leave and paid public holidays  \n\nHow to Apply  \nClick “Apply Now” to submit your resume, cover letter, and portfolio. Ensure your application highlights relevant projects and achievements.  \n\n[Apply Now]   [Save Job]  \n\n---  \n\n© 2026 NovaWave Solutions. All rights reserved.  \n\nPrivacy Policy | Terms of Use | Cookie Settings | Careers | Contact Us | Sitemap  ",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 522,
+  "prompt_tokens": 213,
+  "total_tokens": 735,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 58,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.368560131,
+  "prompt_time": 0.009099977,
+  "completion_time": 1.098804422,
+  "total_time": 1.107904399
+ },
+ "cached": false
+}

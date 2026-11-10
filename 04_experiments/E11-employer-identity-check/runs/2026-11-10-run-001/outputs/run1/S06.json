@@ -1,0 +1,376 @@
+{
+ "employer": "Seedly Pte. Ltd.",
+ "role": "Content Marketing Executive",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "SEEDLY PTE. LTD. is registered in Singapore (status: Live Company, registered 2016-02-02).",
+  "basis": "name only",
+  "entity": {
+   "uen": "201602731H",
+   "name": "SEEDLY PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2016-02-02",
+   "activity": "IDM SOFTWARE DEVELOPMENT/SOFTWARE PROGRAMMING ACTIVITIES"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Seedly Pte. Ltd.\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Seedly Pte. Ltd.\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Seedly Pte. Ltd.\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Seedly Pte. Ltd.\" Content Marketing Executive interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Seedly Pte. Ltd.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://seedly.sg/",
+    "status": "ok",
+    "chars": 746,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.scam.sg/companies/201602731H/seedly-pte-ltd",
+    "status": "ok",
+    "chars": 7494,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://recordowl.com/company/seedly-pte-ltd",
+    "status": "ok",
+    "chars": 6794,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.trustpilot.com/review/seedly.sg",
+    "status": "blocked_by_robots",
+    "chars": 0,
+    "note": "the site's robots.txt does not allow this page",
+    "tier": null
+   },
+   {
+    "url": "https://rocketreach.co/seedly-profile_b56687a8f6bf9d53",
+    "status": "thin",
+    "chars": 262,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.internsg.com/job/seedly-pte-ltd-talent-acquisition-intern",
+    "status": "ok",
+    "chars": 1688,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/seo-associate-seedly-f2ae96a3fb98c1c853d6ac35f30c35bc",
+    "status": "ok",
+    "chars": 3168,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://seedly.sg/about",
+    "status": "ok",
+    "chars": 3292,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Seedly-Reviews-E2002835.htm",
+    "title": "Seedly Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Overview/Working-at-Seedly-EI_IE2002835.11,17.htm",
+    "title": "Working at Seedly | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.linkedin.com/company/seedly",
+    "title": "Seedly - LinkedIn",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.linkedin.com/company/seedly",
+    "title": "Seedly - LinkedIn",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "seedly"
+   ],
+   "pages_with_exact_name": 6,
+   "snippets_with_exact_name": 23,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 16,
+  "registry_mirror_pages": 2
+ },
+ "headline": "exists_and_consistent",
+ "headline_meaning": "Registered in Singapore, and public sources agree it is the company named.",
+ "reasons": [
+  "registry: confirmed",
+  "model: consistent across 4 pages"
+ ],
+ "brief": {
+  "confidence": "high",
+  "could_not_verify": [
+   "specific salary or compensation details for the Content Marketing Executive role",
+   "exact number of employees",
+   "detailed financial performance figures"
+  ],
+  "key_facts": [
+   {
+    "claim": "Legal name is SEEDLY PTE. LTD. and it is a live local company registered on 02 Feb 2016.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Legal name: SEEDLY PTE. LTD. ... Status: Live Company ... Registered: 2016-02-02",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Primary business activity is IDM software development / software programming.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Registered business activity: IDM SOFTWARE DEVELOPMENT/SOFTWARE PROGRAMMING ACTIVITIES",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Seedly operates a personal finance management platform offering expense tracking, budgeting and product reviews.",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://recordowl.com/company/seedly-pte-ltd",
+      "quote": "Seedly is a Singapore-based personal finance management platform that provides tools for expense tracking, budgeting, and financial decision-making.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "The platform includes community‑driven discussions, unbiased product reviews, and in‑house content such as SeedlyTV and SeedlyComics.",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://recordowl.com/company/seedly-pte-ltd",
+      "quote": "It features a robust community for crowdsourcing financial knowledge and an unbiased review platform for products...",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 3,
+      "url": "https://recordowl.com/company/seedly-pte-ltd",
+      "quote": "Seedly also produces in‑house content such as editorial thought leadership articles, SeedlyTV, and SeedlyComics.",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Seedly was founded in 2016 and is part of the MoneyHero Group.",
+    "evidence": [
+     {
+      "source": 8,
+      "url": "https://seedly.sg/about",
+      "quote": "Seedly is a Singapore‑born personal finance management solution founded in 2016.",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://seedly.sg/about",
+      "quote": "As of October 2020, we have officially joined forces with MoneyHero Group!",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "The company has been continuously registered for over seven years and has more than ten registered officers.",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://www.scam.sg/companies/201602731H/seedly-pte-ltd",
+      "quote": "SEEDLY PTE. LTD. has maintained an active business registration ... for more than seven years",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 2,
+      "url": "https://www.scam.sg/companies/201602731H/seedly-pte-ltd",
+      "quote": "The company has more than ten registered officers, reflecting a well‑structured organisation",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "Seedly’s website and community are actively maintained (e.g., blog posts in 2026).",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://seedly.sg/",
+      "quote": "BLOG 24 Jul 2026 ... 23 Sep 2026 ... 24 Aug 2026",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "The company is listed as a live entity on multiple business directories.",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://recordowl.com/company/seedly-pte-ltd",
+      "quote": "Operating status - Live Company",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Status: Live Company",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Seedly is described as a fast‑growing startup with a clear mission to improve personal finance for millennials.",
+    "evidence": [
+     {
+      "source": 7,
+      "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/seo-associate-seedly-f2ae96a3fb98c1c853d6ac35f30c35bc",
+      "quote": "A fast‑paced dynamic start‑up that is seeking to make a dent in personal finance in South East Asia",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "red_flags": [
+   {
+    "claim": "Some online reviews label the company as “terrible” for businesses.",
+    "evidence": [
+     {
+      "source": 4,
+      "url": "https://www.trustpilot.com/review/seedly.sg",
+      "quote": "Terrible terrible company for businesses to use.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "validity_reasoning": "Multiple independent sources (official registry, company overview sites, and the company’s own website) consistently describe Seedly Pte. Ltd. as a live Singaporean software/company focused on personal finance. The information aligns across at least three sources, giving high confidence in the company’s existence and core activities. The only contradictory element is a negative review snippet, which does not dispute the factual existence of the company.",
+  "claims_verified": 8,
+  "claims_unverified": 2,
+  "model_validity_status": "appears_real_and_consistent"
+ },
+ "could_not_read": [
+  {
+   "url": "https://www.trustpilot.com/review/seedly.sg",
+   "why": "blocked_by_robots: the site's robots.txt does not allow this page"
+  },
+  {
+   "url": "https://rocketreach.co/seedly-profile_b56687a8f6bf9d53",
+   "why": "thin: fewer than 400 characters of real content"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Seedly-Reviews-E2002835.htm",
+   "title": "Seedly Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Overview/Working-at-Seedly-EI_IE2002835.11,17.htm",
+   "title": "Working at Seedly | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.linkedin.com/company/seedly",
+   "title": "Seedly - LinkedIn",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.linkedin.com/company/seedly",
+   "title": "Seedly - LinkedIn",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "specific salary or compensation details for the Content Marketing Executive role",
+  "exact number of employees",
+  "detailed financial performance figures"
+ ],
+ "seconds": 129.1,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

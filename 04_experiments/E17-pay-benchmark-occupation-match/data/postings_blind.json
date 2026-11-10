@@ -1,0 +1,702 @@
+[
+ {
+  "id": "X3-01",
+  "title": "Senior Tax Accountant (MSI-AIS / GTP)",
+  "seniority": "Senior Executive",
+  "employment_type": "Permanent",
+  "function": "Accounting / Auditing / Taxation"
+ },
+ {
+  "id": "X3-02",
+  "title": "Accountant",
+  "seniority": "Manager",
+  "employment_type": "Full Time",
+  "function": "Accounting / Auditing / Taxation"
+ },
+ {
+  "id": "X3-03",
+  "title": "Accountant",
+  "seniority": "Senior Executive",
+  "employment_type": "Permanent",
+  "function": "Accounting / Auditing / Taxation"
+ },
+ {
+  "id": "X3-04",
+  "title": "Accountant (Manufacturing, SAP R3 / S4 HANA)",
+  "seniority": "Senior Executive",
+  "employment_type": "Permanent",
+  "function": "Accounting / Auditing / Taxation ..."
+ },
+ {
+  "id": "X3-05",
+  "title": "Accountant",
+  "seniority": "Executive",
+  "employment_type": "Full Time",
+  "function": "Accounting / Auditing / Taxation"
+ },
+ {
+  "id": "X3-06",
+  "title": "Software Engineer – Engineering Applications (Data Centres)",
+  "seniority": "Professional",
+  "employment_type": "Full Time",
+  "function": "Information Technology"
+ },
+ {
+  "id": "X3-07",
+  "title": "Java Backend Developer-Contract",
+  "seniority": "Professional",
+  "employment_type": "Temporary",
+  "function": "Banking And Finance"
+ },
+ {
+  "id": "X3-08",
+  "title": "Senior Software Engineer (Java, React) - Tech industry",
+  "seniority": "Professional",
+  "employment_type": "Full Time",
+  "function": "Information Technology"
+ },
+ {
+  "id": "X3-09",
+  "title": "Software Engineer / Power Platform",
+  "seniority": "Executive",
+  "employment_type": "Full Time",
+  "function": "Information Technology"
+ },
+ {
+  "id": "X3-10",
+  "title": "#FreshGrads 🎓 This one's for you!",
+  "seniority": "Fresh/Entry Level",
+  "employment_type": "Part Time ...",
+  "function": "Advertising / Media ..."
+ },
+ {
+  "id": "X3-11",
+  "title": "Staff Nurse (Private Clinic, Cannulation & Port Care)",
+  "seniority": "Executive",
+  "employment_type": "Permanent",
+  "function": "Healthcare / Pharmaceutical"
+ },
+ {
+  "id": "X3-12",
+  "title": "Staff Nurse (Private Clinic, Paediatrics)",
+  "seniority": "Executive",
+  "employment_type": "Permanent",
+  "function": "Healthcare / Pharmaceutical"
+ },
+ {
+  "id": "X3-13",
+  "title": "Staff Nurse",
+  "seniority": "Non-Executive",
+  "employment_type": "Permanent ...",
+  "function": "Healthcare / Pharmaceutical"
+ },
+ {
+  "id": "X3-14",
+  "title": "Staff Nurse (Renal Care / Dialysis)",
+  "seniority": "Non-Executive",
+  "employment_type": "Permanent",
+  "function": "Healthcare / Pharmaceutical ..."
+ },
+ {
+  "id": "X3-15",
+  "title": "Senior / Staff Nurse (Urgent Care / Emergency)",
+  "seniority": "Senior Executive",
+  "employment_type": "Permanent ...",
+  "function": "Healthcare / Pharmaceutical"
+ },
+ {
+  "id": "X3-16",
+  "title": "Warehouse Supervisor",
+  "seniority": "Non-Executive",
+  "employment_type": "Full Time",
+  "function": "Customer Service ..."
+ },
+ {
+  "id": "X3-17",
+  "title": "Warehouse Supervisor (Female product)",
+  "seniority": "Executive",
+  "employment_type": "Permanent",
+  "function": "Logistics / Supply Chain"
+ },
+ {
+  "id": "X3-18",
+  "title": "Warehouse Supervisor",
+  "seniority": "Junior Executive",
+  "employment_type": "Full Time",
+  "function": "Logistics / Supply Chain"
+ },
+ {
+  "id": "X3-19",
+  "title": "Singapore Manufacturing Company - Warehouse Supervisor Candidates with Logistic or Manufacturing Experience",
+  "seniority": "Executive",
+  "employment_type": "Full Time",
+  "function": "Manufacturing ..."
+ },
+ {
+  "id": "X3-20",
+  "title": "SUPERVISOR WAREHOUSE (Picker Packer for Food & Beverage Distribution)",
+  "seniority": "Senior Executive",
+  "employment_type": "Full Time",
+  "function": "F&B ..."
+ },
+ {
+  "id": "X3-21",
+  "title": "Roadshow (Travel Opportunities 🌎)",
+  "seniority": "Non-Executive",
+  "employment_type": "Permanent ...",
+  "function": "Marketing / Public Relations ..."
+ },
+ {
+  "id": "X3-22",
+  "title": "👑 (Training Provided) Junior Marketing Associate 👑",
+  "seniority": "Non-Executive",
+  "employment_type": "Permanent ...",
+  "function": "Events / Promotions ..."
+ },
+ {
+  "id": "X3-23",
+  "title": "Senior Marketing Executive",
+  "seniority": "Senior Executive",
+  "employment_type": "Permanent",
+  "function": "Marketing / Public Relations"
+ },
+ {
+  "id": "X3-24",
+  "title": "👑 (Travelling Opportunities) Events and Marketing Associates 👑",
+  "seniority": "Fresh/Entry Level",
+  "employment_type": "Permanent ...",
+  "function": "Events / Promotions ..."
+ },
+ {
+  "id": "X3-25",
+  "title": "👑 (Training Providing) Brand Marketing Assistant 👑",
+  "seniority": "Non-Executive",
+  "employment_type": "Permanent ...",
+  "function": "Events / Promotions ..."
+ },
+ {
+  "id": "X3-26",
+  "title": "CUSTOMER SERVICE OFFICER",
+  "seniority": "Executive",
+  "employment_type": "Full Time",
+  "function": "Admin / Secretarial ..."
+ },
+ {
+  "id": "X3-27",
+  "title": "Customer Service",
+  "seniority": "Executive",
+  "employment_type": "Permanent",
+  "function": "Customer Service"
+ },
+ {
+  "id": "X3-28",
+  "title": "Customer Service Officer (Shipping Operations)",
+  "seniority": "Junior Executive",
+  "employment_type": "Permanent",
+  "function": "Sales / Retail"
+ },
+ {
+  "id": "X3-29",
+  "title": "Customer support officer , East",
+  "seniority": "Fresh/Entry Level",
+  "employment_type": "Full Time",
+  "function": "Customer Service ..."
+ },
+ {
+  "id": "X3-30",
+  "title": "Customer Service Officer",
+  "seniority": "Non-Executive",
+  "employment_type": "Permanent ...",
+  "function": "Customer Service ..."
+ },
+ {
+  "id": "X3-31",
+  "title": "Mechanical Engineer (Manufacturing / Industrial) / West",
+  "seniority": "Executive",
+  "employment_type": "Permanent",
+  "function": "Engineering"
+ },
+ {
+  "id": "X3-32",
+  "title": "Engineering Assistant (Mechanical / Electrical, Class 3)",
+  "seniority": "Executive",
+  "employment_type": "Permanent",
+  "function": "Engineering"
+ },
+ {
+  "id": "X3-33",
+  "title": "Mechanical Design Engineer",
+  "seniority": "Executive",
+  "employment_type": "Permanent ...",
+  "function": "Engineering ..."
+ },
+ {
+  "id": "X3-34",
+  "title": "Mechanical Engineer (Tuas, Manufacturing / Precision Engineering)",
+  "seniority": "Executive",
+  "employment_type": "Permanent",
+  "function": "Manufacturing ..."
+ },
+ {
+  "id": "X3-35",
+  "title": "Engineer Mechanical",
+  "seniority": "Senior Executive",
+  "employment_type": "Full Time",
+  "function": "Engineering ..."
+ },
+ {
+  "id": "X3-36",
+  "title": "DEMI CHEF",
+  "seniority": "Junior Executive",
+  "employment_type": "Full Time",
+  "function": "F&B"
+ },
+ {
+  "id": "X3-37",
+  "title": "HEAD CHEF",
+  "seniority": "Manager",
+  "employment_type": "Full Time",
+  "function": "F&B"
+ },
+ {
+  "id": "X3-38",
+  "title": "Kitchen Assistant",
+  "seniority": "Non-Executive",
+  "employment_type": "Full Time",
+  "function": "Environment / Health ..."
+ },
+ {
+  "id": "X3-39",
+  "title": "Chef",
+  "seniority": "Fresh/Entry Level",
+  "employment_type": "Full Time",
+  "function": "F&B"
+ },
+ {
+  "id": "X3-40",
+  "title": "Head Chef",
+  "seniority": "Professional",
+  "employment_type": "Permanent ...",
+  "function": "F&B ..."
+ },
+ {
+  "id": "X3-41",
+  "title": "Human Resource Executive (YS81)",
+  "seniority": "Executive",
+  "employment_type": "Full Time",
+  "function": "Admin / Secretarial ..."
+ },
+ {
+  "id": "X3-42",
+  "title": "Account Executive (AR / Construction / ERP / Saga 300 / Ubi)",
+  "seniority": "Junior Executive",
+  "employment_type": "Permanent ...",
+  "function": "Accounting / Auditing / Taxation"
+ },
+ {
+  "id": "X3-43",
+  "title": "Human Resources Business Partner (HRBP) - APAC",
+  "seniority": "Professional",
+  "employment_type": "Permanent",
+  "function": "Human Resources"
+ },
+ {
+  "id": "X3-44",
+  "title": "Human Resource Executive (Full Spectrum) - LCYL",
+  "seniority": "Executive",
+  "employment_type": "Permanent ...",
+  "function": "Human Resources"
+ },
+ {
+  "id": "X3-45",
+  "title": "Business Development Executive [Technology Recruitment | Basic plus Commissions]",
+  "seniority": "Junior Executive",
+  "employment_type": "Full Time",
+  "function": "Information Technology ..."
+ },
+ {
+  "id": "X3-46",
+  "title": "ADMINSTRATIVE ACCOUNTS",
+  "seniority": "Executive",
+  "employment_type": "Full Time",
+  "function": "Accounting / Auditing / Taxation ..."
+ },
+ {
+  "id": "X3-47",
+  "title": "ADMINISTRATIVE ASSISTANT",
+  "seniority": "Non-Executive",
+  "employment_type": "Full Time",
+  "function": "Admin / Secretarial"
+ },
+ {
+  "id": "X3-48",
+  "title": "Administrative Assistant",
+  "seniority": "Junior Executive",
+  "employment_type": "Full Time",
+  "function": "Building And Construction"
+ },
+ {
+  "id": "X3-49",
+  "title": "Executive Assistant (5 Days / Up to $4,000 + Performance Bonus / Jurong Port)",
+  "seniority": "Executive",
+  "employment_type": "Permanent ...",
+  "function": "Admin / Secretarial ..."
+ },
+ {
+  "id": "X3-50",
+  "title": "ADMIN ASSISTANT",
+  "seniority": "Junior Executive",
+  "employment_type": "Full Time",
+  "function": "Admin / Secretarial"
+ },
+ {
+  "id": "X3-51",
+  "title": "Marketing and Sales Lead (Entry level)",
+  "seniority": "Fresh/Entry Level",
+  "employment_type": "Permanent ...",
+  "function": "Events / Promotions ..."
+ },
+ {
+  "id": "X3-52",
+  "title": "Sales and Engagement (Travel Opportunities ✈️)",
+  "seniority": "Non-Executive",
+  "employment_type": "Permanent ...",
+  "function": "Marketing / Public Relations ..."
+ },
+ {
+  "id": "X3-53",
+  "title": "Sales Executive",
+  "seniority": "Junior Executive",
+  "employment_type": "Full Time",
+  "function": "Marketing / Public Relations ..."
+ },
+ {
+  "id": "X3-54",
+  "title": "FUN🤩 Sales and Marketing Executive",
+  "seniority": "Executive",
+  "employment_type": "Full Time",
+  "function": "Customer Service ..."
+ },
+ {
+  "id": "X3-55",
+  "title": "Sales Executive / Manager",
+  "seniority": "Executive",
+  "employment_type": "Permanent ...",
+  "function": "Sales / Retail"
+ },
+ {
+  "id": "X3-56",
+  "title": "Data Analyst (1 Year Contract / Up to $7500)",
+  "seniority": "Fresh/Entry Level",
+  "employment_type": "Contract",
+  "function": "Information Technology ..."
+ },
+ {
+  "id": "X3-57",
+  "title": "Data Analyst (JD#10924)",
+  "seniority": "Executive",
+  "employment_type": "Contract",
+  "function": "Banking And Finance ..."
+ },
+ {
+  "id": "X3-58",
+  "title": "Data Business Analyst",
+  "seniority": "Executive",
+  "employment_type": "Permanent",
+  "function": "Information Technology"
+ },
+ {
+  "id": "X3-59",
+  "title": "Data Analyst (Banking / Contract)",
+  "seniority": "Professional",
+  "employment_type": "Contract ...",
+  "function": "Banking And Finance ..."
+ },
+ {
+  "id": "X3-60",
+  "title": "Data Scientist / Data Analyst",
+  "seniority": "Professional",
+  "employment_type": "Full Time",
+  "function": "Information Technology"
+ },
+ {
+  "id": "SYN-01",
+  "title": "Electrician (Industrial, Class 2 licence)",
+  "seniority": "Non-Executive",
+  "employment_type": "Permanent",
+  "function": "Building And Construction"
+ },
+ {
+  "id": "SYN-02",
+  "title": "Plumber",
+  "seniority": "Non-Executive",
+  "employment_type": "Full Time",
+  "function": "Building And Construction"
+ },
+ {
+  "id": "SYN-03",
+  "title": "Welder (6G, Shipyard)",
+  "seniority": "Non-Executive",
+  "employment_type": "Contract",
+  "function": "Manufacturing"
+ },
+ {
+  "id": "SYN-04",
+  "title": "Aircon Technician",
+  "seniority": "Non-Executive",
+  "employment_type": "Full Time",
+  "function": "Building And Construction"
+ },
+ {
+  "id": "SYN-05",
+  "title": "Class 3 Lorry Driver",
+  "seniority": "Non-Executive",
+  "employment_type": "Full Time",
+  "function": "Logistics / Supply Chain"
+ },
+ {
+  "id": "SYN-06",
+  "title": "Part-time Food Delivery Rider (Motorcycle)",
+  "seniority": "Non-Executive",
+  "employment_type": "Part Time",
+  "function": "Logistics / Supply Chain"
+ },
+ {
+  "id": "SYN-07",
+  "title": "Forklift Operator",
+  "seniority": "Non-Executive",
+  "employment_type": "Contract",
+  "function": "Logistics / Supply Chain"
+ },
+ {
+  "id": "SYN-08",
+  "title": "Retail Sales Assistant (Weekend)",
+  "seniority": "Non-Executive",
+  "employment_type": "Part Time",
+  "function": "Sales / Retail"
+ },
+ {
+  "id": "SYN-09",
+  "title": "Store Manager (Fashion Retail)",
+  "seniority": "Manager",
+  "employment_type": "Permanent",
+  "function": "Sales / Retail"
+ },
+ {
+  "id": "SYN-10",
+  "title": "Retail Store Supervisor",
+  "seniority": "Executive",
+  "employment_type": "Full Time",
+  "function": "Sales / Retail"
+ },
+ {
+  "id": "SYN-11",
+  "title": "Relief Teacher (Primary School)",
+  "seniority": "Professional",
+  "employment_type": "Contract",
+  "function": "Education And Training"
+ },
+ {
+  "id": "SYN-12",
+  "title": "Preschool Teacher (Nursery)",
+  "seniority": "Executive",
+  "employment_type": "Full Time",
+  "function": "Education And Training"
+ },
+ {
+  "id": "SYN-13",
+  "title": "Secondary Maths Tutor",
+  "seniority": "Non-Executive",
+  "employment_type": "Part Time",
+  "function": "Education And Training"
+ },
+ {
+  "id": "SYN-14",
+  "title": "Barista",
+  "seniority": "Non-Executive",
+  "employment_type": "Full Time",
+  "function": "F&B"
+ },
+ {
+  "id": "SYN-15",
+  "title": "Hotel Front Desk Receptionist",
+  "seniority": "Junior Executive",
+  "employment_type": "Full Time",
+  "function": "Hotel / Hospitality"
+ },
+ {
+  "id": "SYN-16",
+  "title": "Housekeeping Attendant (Hotel)",
+  "seniority": "Non-Executive",
+  "employment_type": "Full Time",
+  "function": "Hotel / Hospitality"
+ },
+ {
+  "id": "SYN-17",
+  "title": "Pastry Chef",
+  "seniority": "Executive",
+  "employment_type": "Full Time",
+  "function": "F&B"
+ },
+ {
+  "id": "SYN-18",
+  "title": "Healthcare Assistant (Nursing Home)",
+  "seniority": "Non-Executive",
+  "employment_type": "Full Time",
+  "function": "Healthcare / Pharmaceutical"
+ },
+ {
+  "id": "SYN-19",
+  "title": "Pharmacy Assistant",
+  "seniority": "Non-Executive",
+  "employment_type": "Full Time",
+  "function": "Healthcare / Pharmaceutical"
+ },
+ {
+  "id": "SYN-20",
+  "title": "Physiotherapist",
+  "seniority": "Professional",
+  "employment_type": "Permanent",
+  "function": "Healthcare / Pharmaceutical"
+ },
+ {
+  "id": "SYN-21",
+  "title": "Accounts Payable Executive",
+  "seniority": "Executive",
+  "employment_type": "Permanent",
+  "function": "Accounting / Auditing / Taxation"
+ },
+ {
+  "id": "SYN-22",
+  "title": "Payroll Executive",
+  "seniority": "Executive",
+  "employment_type": "Permanent",
+  "function": "Human Resources"
+ },
+ {
+  "id": "SYN-23",
+  "title": "Credit Control Officer",
+  "seniority": "Junior Executive",
+  "employment_type": "Full Time",
+  "function": "Banking And Finance"
+ },
+ {
+  "id": "SYN-24",
+  "title": "Graphic Designer",
+  "seniority": "Executive",
+  "employment_type": "Full Time",
+  "function": "Arts / Creative / Entertainment"
+ },
+ {
+  "id": "SYN-25",
+  "title": "Video Editor",
+  "seniority": "Executive",
+  "employment_type": "Contract",
+  "function": "Advertising / Media"
+ },
+ {
+  "id": "SYN-26",
+  "title": "Social Media Content Creator",
+  "seniority": "Executive",
+  "employment_type": "Full Time",
+  "function": "Advertising / Media"
+ },
+ {
+  "id": "SYN-27",
+  "title": "Security Officer (Condominium)",
+  "seniority": "Non-Executive",
+  "employment_type": "Full Time",
+  "function": "Security"
+ },
+ {
+  "id": "SYN-28",
+  "title": "Office Cleaner",
+  "seniority": "Non-Executive",
+  "employment_type": "Contract",
+  "function": "Building Maintenance"
+ },
+ {
+  "id": "SYN-29",
+  "title": "Personal Trainer",
+  "seniority": "Executive",
+  "employment_type": "Full Time",
+  "function": "Sports / Fitness"
+ },
+ {
+  "id": "SYN-30",
+  "title": "Social Worker (Family Service Centre)",
+  "seniority": "Professional",
+  "employment_type": "Permanent",
+  "function": "Social Services"
+ },
+ {
+  "id": "SYN-31",
+  "title": "NO EXPERIENCE NEEDED!! Earn big, train with us, join the fun team 🔥",
+  "seniority": "Fresh/Entry Level",
+  "employment_type": "Permanent",
+  "function": "Sales / Retail"
+ },
+ {
+  "id": "SYN-32",
+  "title": "Brand Ambassador (Travel Opportunities ✈️ Bonus Every Week)",
+  "seniority": "Non-Executive",
+  "employment_type": "Permanent",
+  "function": "Events / Promotions"
+ },
+ {
+  "id": "SYN-33",
+  "title": "Work From Home Part Time Admin (Flexible, Earn Daily)",
+  "seniority": "Fresh/Entry Level",
+  "employment_type": "Part Time",
+  "function": "Admin / Secretarial"
+ },
+ {
+  "id": "SYN-34",
+  "title": "Sales and Marketing Executive",
+  "seniority": "Executive",
+  "employment_type": "Full Time",
+  "function": "Marketing / Public Relations"
+ },
+ {
+  "id": "SYN-35",
+  "title": "Marketing & Sales Associate (Basic + Uncapped Commission)",
+  "seniority": "Junior Executive",
+  "employment_type": "Permanent",
+  "function": "Sales / Retail"
+ },
+ {
+  "id": "SYN-36",
+  "title": "Business Development Associate",
+  "seniority": "Junior Executive",
+  "employment_type": "Full Time",
+  "function": "Sales / Retail"
+ },
+ {
+  "id": "SYN-37",
+  "title": "Stores Supervisor (Cold Chain Distribution)",
+  "seniority": "Executive",
+  "employment_type": "Full Time",
+  "function": "Logistics / Supply Chain"
+ },
+ {
+  "id": "SYN-38",
+  "title": "Production Supervisor (Electronics Assembly)",
+  "seniority": "Executive",
+  "employment_type": "Full Time",
+  "function": "Manufacturing"
+ },
+ {
+  "id": "SYN-39",
+  "title": "Logistics Supervisor",
+  "seniority": "Executive",
+  "employment_type": "Full Time",
+  "function": "Logistics / Supply Chain"
+ },
+ {
+  "id": "SYN-40",
+  "title": "Cleaning Operations Supervisor",
+  "seniority": "Executive",
+  "employment_type": "Full Time",
+  "function": "Building Maintenance"
+ }
+]

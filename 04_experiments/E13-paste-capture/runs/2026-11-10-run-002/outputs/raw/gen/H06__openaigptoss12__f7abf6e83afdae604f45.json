@@ -1,0 +1,39 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "H06",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:03:53Z",
+ "latency_s": 1.6,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1100,
+  "temperature": 0.8,
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "user",
+   "content": "Write the raw text that a person would get by pressing Select All then Copy on a FastJobs-style mobile-friendly job page in Singapore, for a fictional employer and a made-up job. Output the pasted text ONLY: no commentary, no markdown, no code fences. Include realistic page furniture (menu text, buttons, banners, footer links). Target 250 to 400 words. Requirements for this paste:\n- a short phone-style copy with no menu text, starting with one line like an emoji, the job title and the pay\n- the employer is named in a line near the top\n- duties given in 2 or 3 short lines\n- the text says 'Apply anytime, no deadline'\nToday is 2026-11-10; any dates you write must be in November or December 2026."
+  }
+ ],
+ "content": "🏷️ Junior Marketing Assistant – $2,800–$3,200/month\n\nFastJobs Singapore\nHome   Jobs   Companies   Blog   Help Center   Login / Sign Up\n\nFeatured Jobs\n- Sales Associate – $2,500/month\n- Data Entry Clerk – $2,200/month\n- Customer Service Rep – $2,600/month\n\n[Banner] Hire Fast, Hire Smart – Post your job for FREE today!\n\nCompany: BrightFuture Media Pte Ltd\nLocation: Singapore (central region)\nJob Type: Full‑time, Permanent\nSalary: $2,800 – $3,200 per month\nPosted: 12 Nov 2026\nWork Hours: 9am–6pm, Mon‑Fri\nBenefits: Medical & Dental, Annual Leave, Training Allowance, Flexible Work Arrangements\n\nJob Description\n- Assist the marketing team in creating social media content and email newsletters.\n- Conduct market research and compile competitor analysis reports.\n- Support event planning and on‑site coordination for brand activations.\n\nRequirements\n- Diploma or degree in Marketing, Communications or related field.\n- Proficient in Canva, Photoshop and basic video editing.\n- Strong written English skills and attention to detail.\n- Ability to work independently and meet tight deadlines.\n\nApply anytime, no deadline\n\n[Button] Apply Now\n[Button] Save Job\n[Button] Share\n\nSimilar Jobs\n- Social Media Intern – $1,800/month\n- Content Writer – $2,500/month\n- Brand Assistant – $2,900/month\n\n[Banner] Upgrade to FastJobs Premium – Reach top talent faster!\n\nFooter\nAbout Us   Contact Us   Terms of Service   Privacy Policy   Cookie Policy   Sitemap\nFollow us: Facebook   Instagram   LinkedIn   Twitter\n© 2026 FastJobs Singapore Pte Ltd. All rights reserved.   Powered by FastJobs Technology.   Singapore © 2026.   Careers   Press   Affiliate Program   FAQs   Support.",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 504,
+  "prompt_tokens": 237,
+  "total_tokens": 741,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 94,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.373739212,
+  "prompt_time": 0.041285116,
+  "completion_time": 1.058233088,
+  "total_time": 1.099518204
+ },
+ "cached": false
+}

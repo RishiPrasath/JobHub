@@ -1,0 +1,55 @@
+{
+  "organisation": "Wonderful Agency Pte. Ltd.",
+  "queries_run": [
+    "\"Wonderful Agency\" Singapore",
+    "\"Wonderful Agency Pte Ltd\" scam OR complaint OR warning",
+    "\"Wonderful Agency\" employment agency Singapore MOM licence",
+    "\"Wonderful Agency\" Singapore court case OR lawsuit OR tribunal",
+    "\"Wonderful Agency\" Singapore reviews complaints job seekers",
+    "Zhao Yanxiao Hu Yuping Wonderful Agency charged Employment of Foreign Manpower Act",
+    "Wonderful Agency Pte Ltd false employment declarations kickbacks court"
+  ],
+  "pages_read": [
+    "https://mom.gov.sg/newsroom/press-releases/2026/0528-2-singaporeans-and-an-employment-agency-charged-for-efma-offences",
+    "https://www.labourbeat.org/tag/employment-of-foreign-manpower-act/"
+  ],
+  "failed_reads": [],
+  "items": [
+    {
+      "claim": "Wonderful Agency Pte Ltd was charged in court on 28 May 2026 under the Employment of Foreign Manpower Act 1990 with 12 charges for false declarations of employment and 2 charges for false declarations of salary in work pass applications. These are charges only; the MOM page reports no verdict or sentence.",
+      "entity_the_claim_is_about": "Wonderful Agency Pte Ltd",
+      "category": "employer_action",
+      "source_url": "https://mom.gov.sg/newsroom/press-releases/2026/0528-2-singaporeans-and-an-employment-agency-charged-for-efma-offences",
+      "quoted_evidence": "12 charges under s 22(1)(d) of the EFMA for making false declarations in work pass applications"
+    },
+    {
+      "claim": "Media tag page reports that Wonderful Agency Pte Ltd, together with two individuals, faces multiple charges under the Employment of Foreign Manpower Act. The teaser gives no verdict or sentence.",
+      "entity_the_claim_is_about": "Wonderful Agency Pte Ltd",
+      "category": "employer_action",
+      "source_url": "https://www.labourbeat.org/tag/employment-of-foreign-manpower-act/",
+      "quoted_evidence": "Zhao Yanxiao, Hu Yuping and Wonderful Agency Pte Ltd face multiple charges under the Employment of Foreign Manpower Act"
+    },
+    {
+      "claim": "Zhao Yanxiao, a 43-year-old individual described by MOM as employment agency personnel of Wonderful, is charged with 14 offences in connection with the same case (alleged false declarations in work pass applications). This is an individual charge tied to the agency's staff, not a separate organisation.",
+      "entity_the_claim_is_about": "Zhao Yanxiao (agency staff member of Wonderful)",
+      "category": "other",
+      "source_url": "https://mom.gov.sg/newsroom/press-releases/2026/0528-2-singaporeans-and-an-employment-agency-charged-for-efma-offences",
+      "quoted_evidence": "\"Employment Agency Personnel of Wonderful.\" She faces 14 charges in total."
+    },
+    {
+      "claim": "Hu Yuping, a 58-year-old manager of a massage establishment, is charged with abetting the agency's false declaration and with collecting a $500 kickback from a worker. This concerns a different organisation and person, not the agency itself.",
+      "entity_the_claim_is_about": "Hu Yuping (manager of a massage establishment)",
+      "category": "other_entity",
+      "source_url": "https://mom.gov.sg/newsroom/press-releases/2026/0528-2-singaporeans-and-an-employment-agency-charged-for-efma-offences",
+      "quoted_evidence": "\"manager of a massage establishment.\" She faces one charge of abetting Wonderful's false declaration and one charge of collecting a $500 kickback from a worker."
+    },
+    {
+      "claim": "A different company called Wonderful (an AI company, backed by US$300 million in funding) launched Singapore operations in June 2026. It is not the employment agency. Based on search snippet only; the page was not read.",
+      "entity_the_claim_is_about": "Wonderful (AI company), a different company",
+      "category": "other_entity",
+      "source_url": "https://newswav.com/article/wonderful-launches-singapore-operations-to-accelerate-enterprise-ai-adoptio-A2606_tmJPjh",
+      "quoted_evidence": "Wonderful Launches Singapore Operations to Accelerate Enterprise AI Adoption at Scale"
+    }
+  ],
+  "notes": "Only one enforcement matter was found for Wonderful Agency Pte Ltd: charges under the EFMA filed in court on 28 May 2026. The MOM press release (read directly) is the primary source. These are allegations, not convictions, and no verdict, sentence or later outcome was found in the sources read. Count descriptions differ across secondary sources: MOM and HCA Mag give 12 employment-declaration counts plus 2 salary-declaration counts (14 total), which is consistent. The LabourBeat tag page was read but only its teaser was visible. The kickback element (SGD 500 charged against Hu Yuping) is attributed to a different person, not confirmed as tied to the agency's own conduct beyond the charge text. Searches found no licence suspension or revocation, no consumer complaints or reviews, no scam or impersonation warnings, and no retrenchment reports for this organisation. A search for MOM EA licence status returned no result naming the agency, so licence status is unverified. A June 2026 Small Claims Tribunal ruling against a maid agency for a false Mandarin-skills claim surfaced in search, but the sources do not name the agency, so it was excluded. An aggregator (recordowl.com) describes the company as registration 201604187D, incorporated 19 Feb 2016, classed as an employment agency (excluding maid agencies); this came from search snippet only, was not read, and is not an item here. Search budget: 7 of 8 searches used. Page reads: 2 of 4 used, 0 failed."
+}

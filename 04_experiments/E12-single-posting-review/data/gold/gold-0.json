@@ -1,0 +1,205 @@
+{
+  "_note": "Gold labels P01-P09. Written by Claude (an AI) on 2026-11-10 BEFORE any model call, from the posting files only. Frozen by hash in protocol/FROZEN.md. sections: absent = not established by the posting (a good review marks unknown/not_visible); either = reasonable readers could differ (not scored); all other sections = present. gaps.kw are case-insensitive regexes (no backslashes). lookup = public source that could answer the gap (none = only the employer can). route = an official source for the point (from the author's general knowledge; not verified live).",
+  "postings": {
+    "E12-P01": {
+      "type": "manual-driver", "board": "MyCareersFuture", "synthetic": false,
+      "absent": ["duties", "employer_context"], "either": ["compensation_rules"],
+      "key_claims": [
+        {"what": "salary $3,800 to $4,600 monthly", "lines": ["L02"]},
+        {"what": "day/night shifts, six days a week, four rest days a month", "lines": ["L03"]},
+        {"what": "Class 4 licence and other requirements", "lines": ["L04", "L05"]},
+        {"what": "income includes overtime and allowances, plus bonus and KPI incentive", "lines": ["L08"]},
+        {"what": "work location Pandan Loop and travel to ports", "lines": ["L06"]},
+        {"what": "application via MCF, WhatsApp visible", "lines": ["L09"]}
+      ],
+      "platform_lines": ["L10"],
+      "contradictions": [],
+      "gaps": [
+        {"id": "G1", "what": "which parts of monthly income are guaranteed base pay versus overtime/allowances/bonus", "kw": ["guarant", "base", "basic", "fixed", "allowance", "overtime", "income", "include"], "critical": true, "lookup": "none", "route": "MOM key employment terms"},
+        {"id": "G2", "what": "how overtime is calculated and how many hours are expected", "kw": ["overtime", "ot ", "calculat", "rate"], "critical": true, "lookup": "none", "route": "MOM Employment Act overtime rules"},
+        {"id": "G3", "what": "actual roster: six days a week versus four rest days a month, night rotation frequency", "kw": ["shift", "rest day", "roster", "rotation", "six days", "night"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G4", "what": "duties, vehicle type and cargo are not stated", "kw": ["dut", "vehicle", "cargo", "trailer", "prime mover", "truck", "responsibil", "tasks", "role"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G5", "what": "who the employer is (no company name shown)", "kw": ["employer", "company", "who", "identity", "uen", "hiring organi", "recruiter"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G6", "what": "travel to ports: frequency, transport and allowances", "kw": ["travel", "port", "transport"], "critical": false, "lookup": "none", "route": null}
+      ]
+    },
+    "E12-P02": {
+      "type": "manual-mechanic", "board": "FastJobs", "synthetic": false,
+      "absent": ["duties", "employer_context", "compensation_rules"], "either": ["work_conditions"],
+      "key_claims": [
+        {"what": "full-time, 5.5-day week", "lines": ["L02", "L03"]},
+        {"what": "salary S$2600-3000", "lines": ["L04"]},
+        {"what": "minimum Nitec/Diploma Automotive", "lines": ["L05"]},
+        {"what": "Class 3/4/5 licence wording", "lines": ["L06"]},
+        {"what": "normally responds within 24 hours", "lines": ["L08"]},
+        {"what": "updated 2026-10-19, expiry 2026-10-23", "lines": ["L09"]}
+      ],
+      "platform_lines": ["L08"],
+      "contradictions": [],
+      "gaps": [
+        {"id": "G1", "what": "who the employer is (no company shown)", "kw": ["employer", "company", "who", "identity", "uen", "hiring organi"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G2", "what": "duties and vehicle types the mechanic works on", "kw": ["dut", "vehicle", "work on", "scope", "responsibil", "tasks", "role"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G3", "what": "actual working hours and which half-day (hours are mentioned as present but not given)", "kw": ["hour", "shift", "schedule", "5.5", "saturday", "half"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G4", "what": "whether the salary range is base pay or includes overtime/allowances", "kw": ["base", "basic", "overtime", "allowance", "salary", "pay", "range"], "critical": true, "lookup": "none", "route": "MOM key employment terms"},
+        {"id": "G5", "what": "benefits not stated", "kw": ["benefit", "leave", "medical", "insurance"], "critical": false, "lookup": "none", "route": null},
+        {"id": "G6", "what": "whether the response indicator comes from the employer or the platform", "kw": ["respon", "indicator", "24 hours"], "critical": false, "lookup": "none", "route": null},
+        {"id": "G7", "what": "assessment stages and what the expiry date means", "kw": ["assess", "stage", "interview", "expiry", "expire", "closing"], "critical": false, "lookup": "none", "route": null},
+        {"id": "G8", "what": "whether Class 3/4/5 means any one or all", "kw": ["licen", "class 3", "class"], "critical": false, "lookup": "none", "route": null}
+      ]
+    },
+    "E12-P03": {
+      "type": "clerical-parttime", "board": "JobStreet", "synthetic": false,
+      "absent": ["duties", "qualifications", "compensation_rules"], "either": ["employer_context"],
+      "key_claims": [
+        {"what": "title Part-Time Admin Assistant, $12-15/hr, 2-3 weekdays/week", "lines": ["L02", "L04", "L05"]},
+        {"what": "company YAN BUSINESS GROUP", "lines": ["L03"]},
+        {"what": "hours negotiable; office/on-site", "lines": ["L05", "L06"]},
+        {"what": "send resume; details explained at interview; shortlisted only", "lines": ["L07"]},
+        {"what": "URL job id versus page title mismatch", "lines": ["L10"]}
+      ],
+      "platform_lines": ["L08", "L09"],
+      "contradictions": [
+        {"id": "X1", "lines": ["L10"], "values": ["95357572", "Part-Time Admin Assistant"], "planted": false, "note": "captured by E08; weak textual conflict; not one of the 4 planted"}
+      ],
+      "gaps": [
+        {"id": "G1", "what": "duties are not stated", "kw": ["dut", "responsibil", "tasks", "role", "scope", "job scope"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G2", "what": "where in the $12-15 range the pay falls and how it is decided", "kw": ["rate", "range", "determin", "12", "15", "depend", "pay"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G3", "what": "actual hours and days (hours negotiable)", "kw": ["hour", "days", "schedule", "negotiab", "weekday"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G4", "what": "who the employer is and what is withheld until interview", "kw": ["employer", "company", "yan", "who", "hiring", "agency", "recruiter", "interview", "details"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G5", "what": "URL job id versus page title mismatch: which posting is this", "kw": ["url", "95357572", "mismatch", "identity", "job id", "title"], "critical": false, "lookup": "none", "route": null}
+      ]
+    },
+    "E12-P04": {
+      "type": "manual-warehouse", "board": "MyCareersFuture", "synthetic": true,
+      "absent": [], "either": ["compensation_rules", "employer_context"],
+      "key_claims": [
+        {"what": "salary $2,200 to $2,700 monthly", "lines": ["L04"]},
+        {"what": "permanent full time", "lines": ["L05"]},
+        {"what": "duties: receive, pick, pack, load", "lines": ["L07", "L08"]},
+        {"what": "lift 25kg; cold room", "lines": ["L09", "L10"]},
+        {"what": "rotating shifts six days; shift allowance provided", "lines": ["L11"]},
+        {"what": "benefits AWS, medical, leave", "lines": ["L12"]}
+      ],
+      "platform_lines": ["L13", "L14"],
+      "contradictions": [],
+      "gaps": [
+        {"id": "G1", "what": "whether the pay range includes the shift allowance and overtime; allowance amount", "kw": ["allowance", "overtime", "ot ", "basic", "base", "include"], "critical": true, "lookup": "none", "route": "MOM key employment terms"},
+        {"id": "G2", "what": "actual shift times, rotation pattern and overtime frequency", "kw": ["shift", "hour", "rotat", "roster", "schedule", "time"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G3", "what": "what the AWS and medical benefits are", "kw": ["aws", "medical", "benefit", "bonus"], "critical": false, "lookup": "none", "route": null},
+        {"id": "G4", "what": "employer registration number not shown", "kw": ["uen", "registered", "acra", "company registration"], "critical": false, "lookup": "ACRA", "route": null}
+      ]
+    },
+    "E12-P05": {
+      "type": "clerical-data-entry", "board": "MyCareersFuture", "synthetic": true,
+      "absent": [], "either": ["compensation_rules", "employer_context"],
+      "key_claims": [
+        {"what": "salary $2,400 to $3,000 monthly", "lines": ["L04"]},
+        {"what": "responsibilities: data entry, emails, ad-hoc finance tasks", "lines": ["L06", "L07", "L08"]},
+        {"what": "Diploma or Higher Nitec; Excel; SAP advantage", "lines": ["L09", "L10"]},
+        {"what": "Mon-Fri 8.30-5.30, alternate Saturdays as required", "lines": ["L12"]},
+        {"what": "apply via MCF", "lines": ["L16"]}
+      ],
+      "platform_lines": ["L13", "L14"],
+      "contradictions": [],
+      "gaps": [
+        {"id": "G1", "what": "how often alternate Saturdays are required and whether paid or compensated", "kw": ["saturday", "alternate", "weekend"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G2", "what": "where in the pay range an offer falls and what decides it", "kw": ["range", "determin", "depend", "experience", "offer", "negotiat", "base", "salary"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G3", "what": "benefits, leave and probation not stated", "kw": ["benefit", "leave", "probation", "bonus", "aws"], "critical": false, "lookup": "none", "route": null},
+        {"id": "G4", "what": "scope of the ad-hoc finance tasks", "kw": ["ad-hoc", "ad hoc", "finance", "scope"], "critical": false, "lookup": "none", "route": null},
+        {"id": "G5", "what": "employer registration number not shown", "kw": ["uen", "registered", "acra"], "critical": false, "lookup": "ACRA", "route": null}
+      ]
+    },
+    "E12-P06": {
+      "type": "professional-accountant", "board": "MyCareersFuture", "synthetic": true,
+      "absent": [], "either": ["employer_context"],
+      "key_claims": [
+        {"what": "header salary $5,500 to $7,000 monthly", "lines": ["L04"]},
+        {"what": "package text salary $4,800 to $6,000 plus AWS and variable bonus", "lines": ["L13"]},
+        {"what": "responsibilities: close, consolidation, GST/tax, supervise two", "lines": ["L07", "L08", "L09"]},
+        {"what": "degree, ISCA/ACCA, 6 years", "lines": ["L06", "L10"]},
+        {"what": "Mon-Fri 9-6; hybrid after probation", "lines": ["L12"]}
+      ],
+      "platform_lines": ["L14", "L15"],
+      "contradictions": [
+        {"id": "X1", "lines": ["L04", "L13"], "values": ["5,500", "4,800"], "planted": true, "note": "two different pay ranges"}
+      ],
+      "gaps": [
+        {"id": "G1", "what": "which pay range is correct: $5,500-7,000 or $4,800-6,000", "kw": ["salary", "pay", "range", "5,500", "4,800", "7,000", "6,000", "conflict", "discrep"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G2", "what": "hybrid terms and probation length", "kw": ["hybrid", "probation", "office", "remote", "wfh"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G3", "what": "basis of the variable bonus and whether 13th month AWS is guaranteed", "kw": ["bonus", "variable", "aws", "13th"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G4", "what": "employer registration number not shown", "kw": ["uen", "registered", "acra"], "critical": false, "lookup": "ACRA", "route": null}
+      ]
+    },
+    "E12-P07": {
+      "type": "clerical-customer-service", "board": "JobStreet", "synthetic": true,
+      "absent": [], "either": ["compensation_rules", "employer_context"],
+      "key_claims": [
+        {"what": "salary S$2,600 - S$3,200 per month, full time", "lines": ["L04", "L05"]},
+        {"what": "duties: inbound calls/chat, billing and service issues, CRM", "lines": ["L09", "L10"]},
+        {"what": "shift 9am to 6pm Mon-Fri, rotating weekend duty monthly", "lines": ["L11"]},
+        {"what": "working hours 11am to 8pm, 5 days", "lines": ["L14"]},
+        {"what": "benefits: shift allowance, incentive, medical, dental", "lines": ["L13"]},
+        {"what": "requirements O-Level, language", "lines": ["L12"]}
+      ],
+      "platform_lines": ["L07", "L15", "L16"],
+      "contradictions": [
+        {"id": "X1", "lines": ["L11", "L14"], "values": ["9am", "11am"], "planted": true, "note": "two different working hours"}
+      ],
+      "gaps": [
+        {"id": "G1", "what": "which working hours apply: 9am-6pm or 11am-8pm", "kw": ["hour", "shift", "9am", "11am", "time", "schedule", "conflict"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G2", "what": "shift allowance and incentive amounts and whether inside the pay range", "kw": ["allowance", "incentive", "bonus", "range", "amount"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G3", "what": "how rotating weekend duty is compensated", "kw": ["weekend", "rotating", "saturday", "sunday", "duty"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G4", "what": "permanent or contract not stated; probation", "kw": ["permanent", "contract", "employment type", "term", "probation"], "critical": false, "lookup": "none", "route": null},
+        {"id": "G5", "what": "employer registration number not shown", "kw": ["uen", "registered", "acra"], "critical": false, "lookup": "ACRA", "route": null}
+      ]
+    },
+    "E12-P08": {
+      "type": "parttime-retail", "board": "FastJobs", "synthetic": true,
+      "absent": ["compensation_rules"], "either": ["employer_context"],
+      "key_claims": [
+        {"what": "header pay S$14 /hour", "lines": ["L02"]},
+        {"what": "salary S$11.50 per hour paid weekly", "lines": ["L09"]},
+        {"what": "Sat and Sun 10am to 7pm", "lines": ["L10"]},
+        {"what": "duties: cashier, shelves, cleaning", "lines": ["L07"]},
+        {"what": "must work every Sat and Sun; min age 18", "lines": ["L08"]},
+        {"what": "apply now or WhatsApp", "lines": ["L13"]}
+      ],
+      "platform_lines": ["L04", "L11", "L12"],
+      "contradictions": [
+        {"id": "X1", "lines": ["L02", "L09"], "values": ["S$14", "S$11.50"], "planted": true, "note": "two different hourly rates"}
+      ],
+      "gaps": [
+        {"id": "G1", "what": "which hourly rate applies: S$14 or S$11.50", "kw": ["rate", "pay", "salary", "hour", "14", "11.50", "conflict", "discrep"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G2", "what": "paid breaks within a 9-hour day", "kw": ["break", "meal", "lunch", "unpaid", "rest"], "critical": false, "lookup": "none", "route": null},
+        {"id": "G3", "what": "CPF and payslip for a part-time worker", "kw": ["cpf", "payslip", "payroll", "contribution"], "critical": false, "lookup": "none", "route": "CPF Board"},
+        {"id": "G4", "what": "how long the job lasts", "kw": ["how long", "duration", "temporary", "end", "term", "contract", "period"], "critical": false, "lookup": "none", "route": null},
+        {"id": "G5", "what": "trade name versus registered company", "kw": ["uen", "registered", "acra", "legal", "entity", "corner basket"], "critical": false, "lookup": "ACRA", "route": null},
+        {"id": "G6", "what": "what the Verified employer badge actually verifies", "kw": ["verified", "badge"], "critical": false, "lookup": "none", "route": null}
+      ]
+    },
+    "E12-P09": {
+      "type": "manual-security", "board": "Company careers page", "synthetic": true,
+      "absent": [], "either": ["compensation_rules"],
+      "key_claims": [
+        {"what": "12-hour night shift 7pm to 7am, 6 days", "lines": ["L05"]},
+        {"what": "night duty reports 8pm, ends 6am, 1-hour meal break", "lines": ["L09"]},
+        {"what": "salary from $2,350 including allowances; overtime separate", "lines": ["L06"]},
+        {"what": "licensed security agency claim", "lines": ["L03"]},
+        {"what": "duties: patrol, access, incidents", "lines": ["L04"]},
+        {"what": "apply by email", "lines": ["L11"]}
+      ],
+      "platform_lines": [],
+      "contradictions": [
+        {"id": "X1", "lines": ["L05", "L09"], "values": ["7pm", "8pm"], "planted": true, "note": "two different shift times"}
+      ],
+      "gaps": [
+        {"id": "G1", "what": "which shift times apply: 7pm-7am or 8pm-6am", "kw": ["shift", "7pm", "8pm", "time", "hour", "conflict", "6am", "7am"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G2", "what": "base pay versus allowances inside the $2,350", "kw": ["base", "basic", "allowance", "breakdown", "include", "salary"], "critical": true, "lookup": "none", "route": "MOM Progressive Wage Model (security)"},
+        {"id": "G3", "what": "how overtime is calculated for 12-hour shifts, 6 days", "kw": ["overtime", "ot ", "12-hour", "hours", "rate"], "critical": true, "lookup": "none", "route": "MOM Employment Act overtime rules"},
+        {"id": "G4", "what": "whether the agency holds a security agency licence", "kw": ["licen", "plrd", "police", "registered"], "critical": true, "lookup": "PLRD", "route": "Police Licensing and Regulatory Department list of licensed security agencies"},
+        {"id": "G5", "what": "which site or client the officer will be posted to", "kw": ["site", "mall", "client", "location", "where"], "critical": false, "lookup": "none", "route": null},
+        {"id": "G6", "what": "who pays for certification and training", "kw": ["training", "certif", "cost", "course", "fee"], "critical": false, "lookup": "none", "route": null}
+      ]
+    }
+  }
+}

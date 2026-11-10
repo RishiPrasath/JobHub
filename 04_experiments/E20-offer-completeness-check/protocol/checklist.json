@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "compiled_utc": "2026-11-10",
+  "compiled_by": "AI specialist (not an HR or employment-law reviewer); owner review pending",
+  "sources": {
+    "S1": {"title": "MOM, Key Employment Terms", "url": "https://www.mom.gov.sg/employment-practices/contract-of-service/key-employment-terms", "page_date": "Last Updated 14 March 2024", "accessed": "2026-11-10", "read": "yes, WebFetch"},
+    "S2": {"title": "MOM FAQ, why must I issue written KETs within 14 days of my employee's first day of work", "url": "https://www.mom.gov.sg/faq/key-employment-terms/why-must-i-issue-written-kets-within-14-days-of-my-employees-first-day-of-work-instead-of-before-their-first-day-of-work", "page_date": "Last Updated 14 March 2024", "accessed": "2026-11-10", "read": "yes, WebFetch"},
+    "S3": {"title": "MOM FAQ, notice period during probation and upon confirmation", "url": "https://www.mom.gov.sg/faq/termination/what-is-my-notice-period-during-probation-and-upon-confirmation", "page_date": "Last Updated 14 March 2024", "accessed": "2026-11-10", "read": "yes, WebFetch"},
+    "S4": {"title": "MOM, Termination with notice", "url": "https://www.mom.gov.sg/employment-practices/termination-of-employment/termination-with-notice", "page_date": "Updated 22 April 2026", "accessed": "2026-11-10", "read": "yes, WebFetch"},
+    "S5": {"title": "TAFEP, Fair Recruitment Practices for Employers in Singapore: Preparing for the Workplace Fairness Act", "url": "https://www.tal.sg/tafep/resources/articles/2026/fair-recruitment-practices-for-employers-in-singapore---preparing-for-the-workplace-fairness-act", "page_date": "18 May 2026", "accessed": "2026-11-10", "read": "yes, WebFetch"},
+    "S6": {"title": "TAFEP, Fair Recruitment & Selection Handbook (Step 4: Preparing Employment Contracts)", "url": "https://www.tal.sg/tafep/-/media/TAL/Tafep/Employment-Practices/Files/Fair-Recruitment--Selection-Handbook_2018.pdf", "page_date": "Content updated on November 2025 (per the PDF's own cover page)", "accessed": "2026-11-10", "read": "yes, PDF downloaded and text extracted with pdftotext; WebFetch could not parse it"}
+  },
+  "items": [
+    {"id": "C01", "term": "Full name of employer", "sources": ["S1"], "guidance": "MOM lists the full name of the employer as Key Employment Term item 1.", "applies": "always"},
+    {"id": "C02", "term": "Full name of employee", "sources": ["S1"], "guidance": "MOM lists the full name of the employee as Key Employment Term item 2.", "applies": "always"},
+    {"id": "C03", "term": "Job title, main duties and responsibilities", "sources": ["S1", "S5"], "guidance": "MOM lists job title, main duties and responsibilities as item 3. TAFEP says offers should set out key terms such as responsibilities.", "applies": "always"},
+    {"id": "C04", "term": "Start date of employment", "sources": ["S1", "S5"], "guidance": "MOM lists the start date as item 4. TAFEP says offers should set out key terms such as start date.", "applies": "always"},
+    {"id": "C05", "term": "Duration of employment (if fixed-term contract)", "sources": ["S1"], "guidance": "MOM lists duration of employment, for employees on a fixed-term contract, as item 5.", "applies": "only if fixed-term; not_applicable if the letter says permanent"},
+    {"id": "C06", "term": "Working arrangements: daily working hours, number of working days per week, rest day", "sources": ["S1"], "guidance": "MOM lists working arrangements (daily working hours, working days per week, rest day) as item 6.", "applies": "always"},
+    {"id": "C07", "term": "Salary period", "sources": ["S1"], "guidance": "MOM lists the salary period as item 7.", "applies": "always"},
+    {"id": "C08", "term": "Basic salary (for hourly, daily or piece-rated workers, the basic rate of pay)", "sources": ["S1", "S5"], "guidance": "MOM lists basic salary as item 8; for hourly, daily or piece-rated workers the basic rate of pay should also be indicated. TAFEP says offers should set out key terms such as salary.", "applies": "always"},
+    {"id": "C09", "term": "Fixed allowances", "sources": ["S1"], "guidance": "MOM lists fixed allowances as item 9.", "applies": "always (a statement that there are none counts as stated)"},
+    {"id": "C10", "term": "Fixed deductions", "sources": ["S1"], "guidance": "MOM lists fixed deductions as item 10.", "applies": "always (a statement that there are none counts as stated)"},
+    {"id": "C11", "term": "Overtime payment period (if different from the salary period)", "sources": ["S1"], "guidance": "MOM lists the overtime payment period, if different from the salary period, as item 11. MOM says items 11 and 12 need not be included for a PME to whom overtime pay does not apply.", "applies": "only if overtime pay applies; not_applicable if the letter says the role is not eligible for overtime pay"},
+    {"id": "C12", "term": "Overtime rate of pay", "sources": ["S1"], "guidance": "MOM lists the overtime rate of pay as item 12. MOM says items 11 and 12 need not be included for a PME to whom overtime pay does not apply.", "applies": "only if overtime pay applies; not_applicable if the letter says the role is not eligible for overtime pay"},
+    {"id": "C13", "term": "Other salary-related components such as bonuses and incentives", "sources": ["S1"], "guidance": "MOM lists other salary-related components, such as bonuses and incentives, as item 13.", "applies": "always (a statement that there are none counts as stated)"},
+    {"id": "C14", "term": "Types of leave: annual, outpatient sick, hospitalisation, maternity, childcare", "sources": ["S1"], "guidance": "MOM lists the types of leave (annual, outpatient sick, hospitalisation, maternity, childcare) as item 14.", "applies": "always"},
+    {"id": "C15", "term": "Other medical benefits such as insurance, medical and dental benefits", "sources": ["S1", "S5"], "guidance": "MOM lists other medical benefits (insurance, medical, dental) as item 15. TAFEP says offers should set out key terms such as benefits.", "applies": "always (a statement that there are none counts as stated)"},
+    {"id": "C16", "term": "Probation period", "sources": ["S1", "S3"], "guidance": "MOM lists the probation period as item 16. MOM says notice during probation is the same as after confirmation unless the contract sets a different probation notice.", "applies": "always (a statement that there is none counts as stated)"},
+    {"id": "C17", "term": "Notice period", "sources": ["S1", "S3", "S4"], "guidance": "MOM lists the notice period as item 17. MOM says that if the contract does not specify a notice period, it depends on length of service: under 26 weeks 1 day; 26 weeks to under 2 years 1 week; 2 years to under 5 years 2 weeks; 5 years or more 4 weeks.", "applies": "always"},
+    {"id": "C18", "term": "Place of work (optional)", "sources": ["S1"], "guidance": "MOM lists place of work as an optional item 18 and strongly encourages including it, used if the work location differs from the employer's address.", "applies": "always (optional item)"},
+    {"id": "C19", "term": "Time to consider the offer (a response deadline or stated period to clarify and decide)", "sources": ["S5"], "guidance": "TAFEP says candidates should get sufficient time and opportunity to clarify and consider the terms and conditions of the offer before acceptance. TAFEP gives no number of days.", "applies": "always"}
+  ],
+  "consistency_rule": {
+    "sources": ["S6"],
+    "guidance": "The TAFEP Handbook says contracts should be clearly written and include Key Employment Terms, and that at the point of job offer all relevant information regarding employment terms must be in place."
+  }
+}

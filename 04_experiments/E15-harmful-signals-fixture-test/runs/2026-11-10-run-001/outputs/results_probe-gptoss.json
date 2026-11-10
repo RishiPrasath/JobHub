@@ -1,0 +1,41 @@
+{
+ "label": "probe-gptoss",
+ "model": "openai/gpt-oss-20b",
+ "run": 1,
+ "params": {
+  "temperature": 0.2,
+  "reasoning_effort": "low",
+  "max_tokens": 900,
+  "json_mode": true
+ },
+ "finished_utc": "2026-11-10T09:59:07Z",
+ "total_tokens": 1084,
+ "results": [
+  {
+   "case_id": "B03",
+   "method": "probe-gptoss",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 921,
+    "total_tokens": 1084,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 143,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.154537568,
+    "prompt_time": 0.04680256,
+    "completion_time": 0.177486425,
+    "total_time": 0.224288985
+   },
+   "cached": false,
+   "flags": [],
+   "no_reliable_signal": true,
+   "raw_content": "{\"flags\":[],\"no_reliable_signal\":true}"
+  }
+ ]
+}

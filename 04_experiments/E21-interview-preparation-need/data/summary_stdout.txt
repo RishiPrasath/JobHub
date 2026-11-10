@@ -1,0 +1,43 @@
+{
+ "n": 8,
+ "prep_specific": "6/8 (75%)",
+ "prep_none": "1/8 (12%)",
+ "gap_named": "8/8 (100%)",
+ "gap_unmet": "8/8 (100%)",
+ "tried_ai_mock": "4/8 (50%)",
+ "ai_continued": 0,
+ "ai_stopped": 4,
+ "use_posting_tool_strict_yes": "1/8 (12%)",
+ "use_posting_tool_loose_yes_or_conditional": "3/8 (38%)",
+ "neutral_wants_practice_or_tool": "2/8 (25%)",
+ "recording_concern": {
+  "both": 7,
+  "storage": 1
+ },
+ "tool_satisfaction": {
+  "partial": 7,
+  "no_tools": 1
+ },
+ "stories_raised": {
+  "S-24": 1,
+  "S-23": 6,
+  "none": 1,
+  "S-25": 1
+ },
+ "gap_types": {
+  "role_technical": 7,
+  "switch_story": 1,
+  "behavioural": 2,
+  "process_unknown": 2,
+  "assessment_format": 1
+ },
+ "methods": {
+  "videos": 3,
+  "articles": 6,
+  "friends_family": 6,
+  "own_notes": 2,
+  "ai_assistant": 1,
+  "mock_tool": 1
+ }
+}
+auto vs manual agreement: 48/80 (60%) disagreements: 32

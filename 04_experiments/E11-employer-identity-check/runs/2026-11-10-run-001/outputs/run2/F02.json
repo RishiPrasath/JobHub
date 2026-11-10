@@ -1,0 +1,209 @@
+{
+ "employer": "Shopee Talent Solutions Pte Ltd",
+ "role": "Data Entry Clerk",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 2495 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'Shopee Talent Solutions Pte Ltd'. The closest registered name is ASPIRE TALENT SOLUTIONS PTE. LTD., which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "202541718W",
+   "name": "ASPIRE TALENT SOLUTIONS PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2025-09-18",
+   "activity": "na",
+   "alternatives": [
+    "ASPIRE TALENT SOLUTIONS PTE. LTD.",
+    "APEX TALENT SOLUTIONS PTE. LTD."
+   ]
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Shopee Talent Solutions Pte Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Shopee Talent Solutions Pte Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Shopee Talent Solutions Pte Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Shopee Talent Solutions Pte Ltd\" Data Entry Clerk interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Shopee Talent Solutions Pte Ltd\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://theindependent.sg/shopee-cuts-singapore-jobs-as-ai-takes-over-their-work-even-local-software-engineers-among-hundreds-of-global-developer-roles-are-also-affected",
+    "status": "ok",
+    "chars": 5230,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://sea.peoplemattersglobal.com/news/workforce-planning/shopee-cuts-jobs-in-singapore-as-ai-expansion-gathers-pace-50272",
+    "status": "ok",
+    "chars": 3902,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://fintechnews.sg/132895/ai/shopee-job-cuts",
+    "status": "ok",
+    "chars": 1837,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.channelnewsasia.com/singapore/shopee-job-cuts-layoff-employees-software-engineers-6173816",
+    "status": "ok",
+    "chars": 5228,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://theonlinecitizen.com/2026/06/11/shopee-cuts-singapore-jobs-as-sea-accelerates-artificial-intelligence-expansion-strategy",
+    "status": "ok",
+    "chars": 7292,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.8world.com/singapore/shopee-cuts-jobs-3175961",
+    "status": "ok",
+    "chars": 888,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://vulcanpost.com/911697/shopee-layoffs-singapore-2026",
+    "status": "ok",
+    "chars": 3445,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Shopee-Singapore-Private-Limited",
+    "status": "ok",
+    "chars": 9376,
+    "note": null,
+    "tier": "render"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Interview/Shopee-Interview-Questions-E1263091.htm",
+    "title": "Shopee Interview Questions (2026) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.co.in/Interview/Shopee-Singapore-Interview-Questions-EI_IE1263091.0,6_IL.7,16_IM1123.htm",
+    "title": "Shopee interview questions in Singapore - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Salary/Shopee-Salaries-E1263091.htm",
+    "title": "How Much Does Shopee Pay in 2026? (96 Salaries) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Shopee/salaries",
+    "title": "Shopee Salaries in Singapore | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "shopee talent solutions"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 0,
+   "none": true,
+   "strong": false
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 22,
+  "registry_mirror_pages": 1
+ },
+ "headline": "likely_lookalike",
+ "headline_meaning": "No registered company has this exact name and no source uses it. The closest registered name belongs to a different company. Treat the posting with caution.",
+ "reasons": [
+  "registry: similar_name_only",
+  "closest registered name is a different entity",
+  "exact name appears in no source"
+ ],
+ "brief": null,
+ "could_not_read": [],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Interview/Shopee-Interview-Questions-E1263091.htm",
+   "title": "Shopee Interview Questions (2026) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.co.in/Interview/Shopee-Singapore-Interview-Questions-EI_IE1263091.0,6_IL.7,16_IM1123.htm",
+   "title": "Shopee interview questions in Singapore - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Salary/Shopee-Salaries-E1263091.htm",
+   "title": "How Much Does Shopee Pay in 2026? (96 Salaries) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Shopee/salaries",
+   "title": "Shopee Salaries in Singapore | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 119.6,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

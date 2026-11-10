@@ -1,0 +1,236 @@
+{
+ "employer": "Changi Airport Recruitment Centre Pte Ltd",
+ "role": "Ground Staff",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 2320 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'Changi Airport Recruitment Centre Pte Ltd'. The closest registered name is CHANGI AIRPORT DESIGN CENTRE, which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "35894200D",
+   "name": "CHANGI AIRPORT DESIGN CENTRE",
+   "type": "Sole Proprietorship/ Partnership",
+   "status": "Terminated",
+   "incorporated": "1986-04-30",
+   "activity": "na",
+   "alternatives": []
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Changi Airport Recruitment Centre Pte Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Changi Airport Recruitment Centre Pte Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Changi Airport Recruitment Centre Pte Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Changi Airport Recruitment Centre Pte Ltd\" Ground Staff interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Changi Airport Recruitment Centre Pte Ltd\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.straitstimes.com/singapore/changi-airport-group-starts-major-recruitment-drive-to-fill-6600-job-vacancies",
+    "status": "ok",
+    "chars": 3358,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.changiairport.com/en/careers/job-opportunities.html",
+    "status": "ok",
+    "chars": 1274,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.bestinsingapore.co/best-recruitment-agencies-singapore",
+    "status": "ok",
+    "chars": 42087,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.changiairport.com/en/cai/careers.html",
+    "status": "ok",
+    "chars": 1257,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.centreforcybersecurity.com/scam-alerts",
+    "status": "ok",
+    "chars": 38284,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://singaporeemploymentagency.com/7-recruitment-scams-targeting-singapore-employers-how-to-stay-safe",
+    "status": "ok",
+    "chars": 9408,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://theindependent.sg/45-companies-at-changi-airport-investigated-by-ministry-of-manpower-for-suspected-work-pass-offences",
+    "status": "ok",
+    "chars": 2580,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Changi-Airport-Group-Singapore-Pte-Ltd",
+    "status": "ok",
+    "chars": 4623,
+    "note": null,
+    "tier": "render"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Changi-Airport-Group-Reviews-E1466539.htm",
+    "title": "Changi Airport Group Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/changi-airport-jobs",
+    "title": "Changi Airport Jobs in Singapore (with Salaries) - Nov 2026 - Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Interview/Changi-Airport-Group-Interview-Questions-E1466539.htm",
+    "title": "Changi Airport Group interview questions - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Interview/Changi-Airport-Group-Interview-Questions-E1466539.htm",
+    "title": "Changi Airport Group Interview Questions (2026) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/airport-ground-staff-jobs",
+    "title": "Airport Ground Staff Jobs in Singapore (with Salaries) - Nov 2026 ...",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.co.in/Interview/Changi-Airport-Group-Interview-Questions-E1466539.htm",
+    "title": "167 Changi Airport Group Interview Questions & Answers (2026)",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Changi-Airport-Group/faq/what-is-the-interview-process-like-at-changi-airport-group?quid=1bl3icagb7a0lb2l",
+    "title": "What is the interview process like at Changi Airport Group?",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "changi airport recruitment centre"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 0,
+   "none": true,
+   "strong": false
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 17,
+  "registry_mirror_pages": 1
+ },
+ "headline": "likely_lookalike",
+ "headline_meaning": "No registered company has this exact name and no source uses it. The closest registered name belongs to a different company. Treat the posting with caution.",
+ "reasons": [
+  "registry: similar_name_only",
+  "closest registered name is a different entity",
+  "exact name appears in no source"
+ ],
+ "brief": null,
+ "could_not_read": [],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Changi-Airport-Group-Reviews-E1466539.htm",
+   "title": "Changi Airport Group Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/changi-airport-jobs",
+   "title": "Changi Airport Jobs in Singapore (with Salaries) - Nov 2026 - Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Interview/Changi-Airport-Group-Interview-Questions-E1466539.htm",
+   "title": "Changi Airport Group interview questions - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Interview/Changi-Airport-Group-Interview-Questions-E1466539.htm",
+   "title": "Changi Airport Group Interview Questions (2026) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/airport-ground-staff-jobs",
+   "title": "Airport Ground Staff Jobs in Singapore (with Salaries) - Nov 2026 ...",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.co.in/Interview/Changi-Airport-Group-Interview-Questions-E1466539.htm",
+   "title": "167 Changi Airport Group Interview Questions & Answers (2026)",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Changi-Airport-Group/faq/what-is-the-interview-process-like-at-changi-airport-group?quid=1bl3icagb7a0lb2l",
+   "title": "What is the interview process like at Changi Airport Group?",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 65.4,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

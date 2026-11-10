@@ -1,0 +1,31 @@
+Home   About Us   Careers   Contact  
+[Banner: Join Our Team – Innovate, Grow, Succeed]  
+
+Careers at AuroraTech Solutions  
+
+Current Openings  
+
+Senior Data Analytics Engineer – Singapore  
+
+Location: Singapore (Hybrid)  
+Employment Type: Full‑Time  
+
+[Apply Now]   [Save Job]  
+
+About the role  
+As a Senior Data Analytics Engineer at AuroraTech Solutions, you will lead the design, development, and deployment of advanced analytics pipelines that power our next‑generation fintech products. Working closely with product managers, data scientists, and software engineers, you will translate business requirements into scalable data models, implement ETL processes using Spark and Airflow, and ensure data quality through rigorous testing and monitoring. You will also mentor junior engineers, contribute to architectural decisions, and champion best practices in data governance. The role offers a competitive salary ranging from SGD 9,500 to SGD 12,000 per month, plus performance bonuses and equity options. You will be part of a dynamic, cross‑functional team that values innovation, continuous learning, and impact‑driven outcomes. Please apply by 30 November 2026.  
+
+About you  
+You hold a bachelor’s degree in Computer Science, Statistics, or a related field, and have at least five years of hands‑on experience building large‑scale data platforms in the financial services sector. Proficiency in Python, SQL, and cloud services such as AWS or Azure is essential, as is a deep understanding of data warehousing concepts and machine‑learning pipelines. You are a strong communicator who can convey complex technical ideas to non‑technical stakeholders, and you thrive in a fast‑paced environment where collaboration and agility are key. A track record of mentoring team members, publishing technical documentation, and driving process improvements will set you apart.  
+
+Benefits  
+• Flexible working hours and hybrid office model  
+• Health and dental insurance for you and dependents  
+• Annual learning & development allowance  
+• Generous paid time off and parental leave  
+• Employee stock purchase plan  
+
+[Back to Careers]   [Contact HR]  
+
+© 2026 AuroraTech Solutions. All rights reserved.  
+Privacy Policy   Terms of Use   Careers   Sitemap   LinkedIn   Twitter   Facebook   Instagram

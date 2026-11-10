@@ -1,0 +1,20 @@
+{
+ "key": "fairprice",
+ "domain": "www.fairprice.com.sg",
+ "pages": [
+  {
+   "url": "https://www.fairprice.com.sg/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "A subsidiary of PSC Corporation Ltd",
+    "Hai Sia Seafood Pte Ltd",
+    "Jacobs Douwe Egberts RTL SCC SG Pte. Ltd.",
+    "Manufacturing Pte Ltd",
+    "NTUC FairPrice Co-operative Ltd",
+    "Topseller Pte Ltd"
+   ],
+   "copyright": []
+  }
+ ]
+}

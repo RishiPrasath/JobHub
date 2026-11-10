@@ -1,0 +1,48 @@
+Funding Societies Pte. Ltd.  (role: Credit Analyst)
+HEADLINE: exists_and_consistent
+  Registered in Singapore, and public sources agree it is the company named.
+  because: registry: confirmed; model: consistent across 3 pages
+REGISTRY: confirmed. FUNDING SOCIETIES PTE. LTD. is registered in Singapore (status: Live Company, registered 2015-02-26).
+WEB: 5 queries (bing), 4 of 8 pages read, exact name seen in 4 pages and 26 search results
+BRIEF (model rating: appears_real_and_consistent, confidence high; 9 claims verified, 3 unverified)
+  Facts:
+    [UNVERIFIED] Legal name and registration details
+    [verified] Company status is live
+    [verified] Primary business activity is marketplace lending for SMEs
+    [verified] Holds a Capital Markets Services licence from MAS
+    [verified] Headquarters address is 108 Robinson Road, #06-01, Singapore 068900
+    [verified] Founded in 2015 with mission to uplift societies in Southeast Asia
+    [verified] Backed by SoftBank Ventures Asia and Sequoia India
+    [verified] Operates in Singapore, Indonesia, Malaysia, Thailand, Vietnam
+    [UNVERIFIED] Core values include Grow Relentlessly, Enable Teamwork, Test‑Measure‑Act, Focus on
+    Impact, Serve with Obsession
+  Positive signals:
+    [verified] Recognised as the largest SME digital financing platform in Southeast Asia
+    [verified] Awarded multiple industry recognitions (MAS FinTech Award 2016, UN ITU award 2017,
+    KPMG Fintech100 2018)
+    [UNVERIFIED] Approximately 699 employees worldwide as of March 2026
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 6):
+  - Reviews Funding Societies employee ratings and rev  https://sg.jobstreet.com/companies/funding-
+    societies-168554983954787/reviews
+  - Funding Societies Pte Ltd Careers and Employment -  https://sg.indeed.com/cmp/Funding-Societies-
+    Pte-Ltd
+  - Working at Funding Societies | Glassdoor  https://www.glassdoor.sg/Overview/Working-at-Funding-
+    Societies-EI_IE1325206.11,2
+  - Funding Societies salaries in Singapore: What is t  https://sg.jobstreet.com/companies/funding-
+    societies-168554983954787/salaries
+  - 125 Salaries at Funding Societies Shared by Employ  https://www.glassdoor.sg/Salary/Funding-
+    Societies-Salaries-E1325206.htm
+  - Funding Societies Pte Ltd Salaries in Singapore -   https://sg.indeed.com/cmp/Funding-Societies-
+    Pte-Ltd/salaries
+COULD NOT READ (4):
+  - https://www.reveliolabs.com/companies/funding-societies/employees  (thin: fewer than 400
+    characters of real content)
+  - https://www.zoominfo.com/pic/funding-societies-pte-ltd/369231695  (thin: fewer than 400
+    characters of real content)
+  - https://contactout.com/company/Funding-Societies-Singapore-8815  (thin: fewer than 400
+    characters of real content)
+  - https://www.companies.sg/business/201505169M/FUNDING-SOCIETIES-PTE-LTD  (error: )
+COULD NOT VERIFY:
+  - Specific details about the Credit Analyst role responsibilities or compensation
+  - Exact number of employees beyond the approximate figure in a search snippet
+(128.9s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

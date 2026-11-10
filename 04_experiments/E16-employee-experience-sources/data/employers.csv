@@ -1,0 +1,21 @@
+id,employer,stratum,basis_for_stratum
+L1,DBS Bank Singapore,large,public knowledge (bank; thousands of staff in SG)
+L2,Singapore Airlines,large,public knowledge
+L3,Grab,large,E09 persona employer
+L4,Singtel,large,public knowledge
+L5,Shopee Singapore (Sea Group),large,public knowledge
+L6,ST Engineering,large,public knowledge
+M1,Ninja Van Singapore,mid,E09 persona employer
+M2,Lazada Singapore,mid,E09 persona employer
+M3,Raffles Medical Group,mid,E09 persona employer
+M4,Sheng Siong,mid,E09 persona employer
+M5,Carousell,mid,public knowledge
+M6,Razer,mid,public knowledge
+S1,Avanguarde Pte. Ltd.,small,E09 persona employer (tiny; live in registry)
+S2,The Learning Lab,small,E09 persona employer
+S3,Tiong Bahru Bakery,small,public knowledge (small F&B chain; size not verified)
+S4,Swee Choon Tim Sum,small,public knowledge (small F&B group; size not verified)
+S5,Song Fa Bak Kut Teh,small,public knowledge (small F&B group; size not verified)
+A1,Randstad Singapore,agency,E09 persona employer
+A2,Recruit Express,agency,E09 persona employer
+A3,Adecco Singapore,agency,public knowledge

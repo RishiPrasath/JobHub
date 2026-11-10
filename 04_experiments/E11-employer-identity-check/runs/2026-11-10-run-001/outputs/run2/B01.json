@@ -1,0 +1,276 @@
+{
+ "employer": "OCBC Bank",
+ "role": "Relationship Manager",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 1720 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'OCBC Bank'. The closest registered name is OCBC PEARL LIMITED, which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "195900017D",
+   "name": "OCBC PEARL LIMITED",
+   "type": "Local Company",
+   "status": "Dissolved - Members Voluntary Winding Up",
+   "incorporated": "1959-01-29",
+   "activity": "na",
+   "alternatives": []
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"OCBC Bank\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"OCBC Bank\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"OCBC Bank\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"OCBC Bank\" Relationship Manager interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"OCBC Bank\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.ambitionbox.com/reviews/ocbc-bank-reviews/singapore-location",
+    "status": "blocked",
+    "chars": 243,
+    "note": "challenge or login-wall text",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.ambitionbox.com/reviews/ocbc-bank-reviews",
+    "status": "blocked",
+    "chars": 224,
+    "note": "challenge or login-wall text",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.ocbc.com/personal-banking/security/secure-banking-ways/phishing-scams.page",
+    "status": "ok",
+    "chars": 8517,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.ocbc.com/personal-banking/security/secure-banking-ways/impersonation-scams.page",
+    "status": "ok",
+    "chars": 10228,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.straitstimes.com/singapore/courts-crime/only-later-did-i-realise-how-stupid-i-was-retiree-85-almost-loses-110k-to-tech-support-scam",
+    "status": "ok",
+    "chars": 4303,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.channelnewsasia.com/singapore/7th-youth-guilty-role-ocbc-phishing-scam-4880521",
+    "status": "ok",
+    "chars": 5674,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://fintechnews.sg/130306/ai/singapore-banks-headcount",
+    "status": "ok",
+    "chars": 2490,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://hyring.com/company/ocbc-bank",
+    "status": "ok",
+    "chars": 2872,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.jobstreet.com/companies/ocbc-bank-168556574020149/reviews",
+    "title": "Reviews OCBC Bank employee ratings and reviews | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/OCBC-Reviews-E9773.htm",
+    "title": "OCBC Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/OCBC-Singapore-Reviews-EI_IE9773.0,4_IL.5,14_IM1123.htm",
+    "title": "OCBC Reviews in Singapore | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Ocbc-3/reviews",
+    "title": "Working at OCBC: 254 Reviews | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/OCBC-Reviews-E9773.htm",
+    "title": "OCBC Reviews (3,661): Pros & Cons of Working At OCBC",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/ocbc-bank-168556574020149",
+    "title": "Working at OCBC Bank company profile and information | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Salary/OCBC-Relationship-Manager-Salaries-E9773_D_KO5,25.htm",
+    "title": "OCBC Relationship Manager Salaries (295 Salaries submitted)",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Interview/OCBC-Interview-Questions-E9773.htm",
+    "title": "OCBC Interview Experience & Questions (2026) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/ocbc-bank-168556574020149/salaries/relationship-manager",
+    "title": "Relationship Manager Salary Estimate at OCBC Bank (Singapore ...",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Salary/OCBC-Salaries-E9773.htm",
+    "title": "5,087 Salaries at OCBC Shared by Employees | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "ocbc bank"
+   ],
+   "pages_with_exact_name": 2,
+   "snippets_with_exact_name": 14,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 10,
+  "registry_mirror_pages": 0
+ },
+ "headline": "brand_legal_entity_unconfirmed",
+ "headline_meaning": "Public sources describe a company by this name, but the registry has no entity with this exact name. It may trade under a brand name; the legal employer is not confirmed.",
+ "reasons": [
+  "registry: similar_name_only",
+  "exact name seen 16 times in sources"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://www.ambitionbox.com/reviews/ocbc-bank-reviews/singapore-location",
+   "why": "blocked: challenge or login-wall text"
+  },
+  {
+   "url": "https://www.ambitionbox.com/reviews/ocbc-bank-reviews",
+   "why": "blocked: challenge or login-wall text"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://sg.jobstreet.com/companies/ocbc-bank-168556574020149/reviews",
+   "title": "Reviews OCBC Bank employee ratings and reviews | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/OCBC-Reviews-E9773.htm",
+   "title": "OCBC Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/OCBC-Singapore-Reviews-EI_IE9773.0,4_IL.5,14_IM1123.htm",
+   "title": "OCBC Reviews in Singapore | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Ocbc-3/reviews",
+   "title": "Working at OCBC: 254 Reviews | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/OCBC-Reviews-E9773.htm",
+   "title": "OCBC Reviews (3,661): Pros & Cons of Working At OCBC",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/ocbc-bank-168556574020149",
+   "title": "Working at OCBC Bank company profile and information | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Salary/OCBC-Relationship-Manager-Salaries-E9773_D_KO5,25.htm",
+   "title": "OCBC Relationship Manager Salaries (295 Salaries submitted)",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Interview/OCBC-Interview-Questions-E9773.htm",
+   "title": "OCBC Interview Experience & Questions (2026) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/ocbc-bank-168556574020149/salaries/relationship-manager",
+   "title": "Relationship Manager Salary Estimate at OCBC Bank (Singapore ...",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Salary/OCBC-Salaries-E9773.htm",
+   "title": "5,087 Salaries at OCBC Shared by Employees | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Which registered company is the legal employer behind this brand."
+ ],
+ "seconds": 60.5,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

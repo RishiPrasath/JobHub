@@ -1,0 +1,22 @@
+Changi Airport Recruitment Centre Pte Ltd  (role: Ground Staff)
+HEADLINE: likely_lookalike
+  No registered company has this exact name and no source uses it. The closest registered name
+  belongs to a different company. Treat the posting with caution.
+  because: registry: similar_name_only; closest registered name is a different entity; exact name
+  appears in no source
+REGISTRY: similar_name_only. No registered entity is named 'Changi Airport Recruitment Centre Pte Ltd'. The closest registered name is CHANGI AIRPORT DESIGN CENTRE, which may be a different company.
+WEB: 5 queries (bing), 8 of 8 pages read, exact name seen in 0 pages and 0 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 8):
+  - Reviews SATS employee ratings and reviews | Jobstr
+    https://sg.jobstreet.com/companies/sats-168549812990351/reviews
+  - Changi Airport Group Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/Changi-Airport-Group-
+    Reviews-E1466539.htm
+  - Changi Airport Jobs in Singapore (with Salaries) -  https://sg.jobstreet.com/changi-airport-jobs
+  - Changi Airport Group interview questions - Glassdo  https://www.glassdoor.com/Interview/Changi-
+    Airport-Group-Interview-Questions-E14
+  - Changi Airport Group Interview Questions (2026) |   https://www.glassdoor.sg/Interview/Changi-
+    Airport-Group-Interview-Questions-E146
+  - Airport Ground Staff Jobs in Singapore (with Salar  https://sg.jobstreet.com/airport-ground-
+    staff-jobs
+DEGRADED: summary_unavailable: model rate limit reached (retry in 2870 s)
+(66.3s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

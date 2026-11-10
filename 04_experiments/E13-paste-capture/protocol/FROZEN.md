@@ -1,0 +1,55 @@
+# E13 frozen inputs
+
+Frozen at 2026-11-10T09:55:47Z (UTC), before the snapshot step was written and before any model call.
+
+These files are not edited after this time. Any change to a prompt, harness, sample or method after results are seen is a new run folder (run-002), labelled post hoc.
+
+Gold labels and the 40 pastes were written by the experiment author, an AI, not a human reviewer. The files are not committed to git because the owner has not asked for commits.
+
+sha256  file
+```
+aa4a30cf3b91c8be4eabca99232cf05002aa5b77c97b150d1185c221e76da6a8  protocol/thresholds.md
+576f04009d5df680158484c02619b0d5db7568acd57ea3222bf8ba7c150281dc  protocol/operational-definitions.md
+c9f42b77bd0ced44e5cb3d9b0b9fafcde5e61d790ddc352a7147c161a3dac779  data/gold_labels.json
+0203067cbf51fb777b577aa8075289485c278c8ca8f40d0f2e59331c20512e83  data/stale_rule_cases.json
+2cdaf8e5fc379e94ad88c963cd76e972df56fa6bcca2849094e17abcf3990b13  data/pastes/P01.txt
+085b9b67fbe792e302d04b5312823374297f8049a5bf540517905036c91f853b  data/pastes/P02.txt
+21efc78e29309f7054b6fbf2989c878ca9557592adadda6370fa17a728230ec9  data/pastes/P03.txt
+a97ab64d01b02145ec0f4d27cc7164f60addf3ec0031d7f391ff3335d5577f56  data/pastes/P04.txt
+ed23b61a0dc933e652a3c3493244b24f816c8405d82b25774c19a35a70cf4681  data/pastes/P05.txt
+82e1336a813287559bb3f25bdf8747a54ff774db7d7177bf47d45e21c09e355d  data/pastes/P06.txt
+a47dd954803640c7f4b9a5818b6db52afe292478b5dc2577dce90127f96f7115  data/pastes/P07.txt
+7526f7ead4f0f958916ecbcb6002ddcabcb3d3cc9c4416f83cb37975a09569de  data/pastes/P08.txt
+a84b1bce03d78305701bc956ec32ffbefdebd6319e5c98b117d95f85daef5ecb  data/pastes/P09.txt
+4cd5ec8f8f61cc51da8b3a0e3a9258a6f7e5b1ee88f50e449282c0437f9582c8  data/pastes/P10.txt
+8a6037b86905291839501233b3f09a70287bd73ab06e2b94448cb44f35abd4b3  data/pastes/P11.txt
+e65c0b3b6e165d5dc8e23943d1f350afb92641b175948d25c1e86a4ffdca1ea7  data/pastes/P12.txt
+21dd90ab2fae5225d12103924beed27dfa619b59e86e3405ca5166e4110d0c73  data/pastes/P13.txt
+b070e8b4976302fc3492be0808db538f6f209911f0548950c0ba726204e372ac  data/pastes/P14.txt
+b448a4fea32d06ff8c62bca8ad1d967a2a7b5437bd755bb0794247e1318da3b4  data/pastes/P15.txt
+51716b66b29759a3ad31f800728c78481bc8820155d45326fb60130c37bab400  data/pastes/P16.txt
+f00168717c4c254e959ddc7061298ce5209edb1e3000f120dabba0a3737f6049  data/pastes/P17.txt
+b4e7786d9a06b4744bc282e6e327432bd6d813a03e46f635f204abe03bb59ed7  data/pastes/P18.txt
+49e312c0cf246815bac537131ef8093491547ab6555c77b1da84a0c801b46146  data/pastes/P19.txt
+c93896aceb792d210a893a8d985e9b35a85c55e4b7531f3213a2d1301f36a9b3  data/pastes/P20.txt
+ae0fba78640ba15fbb6faef1eef036d565c2e03ffeb4a80dcf134aae1b214e2e  data/pastes/P21.txt
+b3a6c2ed69f4521d9e2125892647a876dbed9c0da4ffee51bede75116b12e8d4  data/pastes/P22.txt
+a0878e688af56bbc61f57c621bb8efb23295c46d9ba15a5c6b3d3e9c7de39ce1  data/pastes/P23.txt
+47a7a4626eed456b86a0e1825cea735fe4e186cf79f911228f0d80f1e33a7946  data/pastes/P24.txt
+96280e7b4c32f77c1c855f2a43b996a3cc77e00822974ef34e8fc8c2b6f7b523  data/pastes/P25.txt
+52b28882bc6ec96391a0a0de7794d3fa1df38f834ed0a05a54f49f98e4b97820  data/pastes/P26.txt
+fa1e09d5902a543e14b234582ad22f48324976e4424f30991646e28f5ee33b13  data/pastes/P27.txt
+607d5875a61eaf8276422fe50e04084ac42a7ca1d189ebaeb3b1d3ae86f0784c  data/pastes/P28.txt
+70fef99eec077b3873336e55a1450a08104ac744d761d2aad661d98612ac0822  data/pastes/P29.txt
+5584ba8763a3bc88f922082f38b116a6cabb291143ca7578a2094d22ae3d5834  data/pastes/P30.txt
+81d8d5c4f41d7ee7a47a3874f927af7ac77af56d118014d42adc55d837851ff3  data/pastes/P31.txt
+8fa96eeaf226a5128ecc43fe9a1cb3cded8ea4f588ed0978133d3fac49711653  data/pastes/P32.txt
+bb4d2622726d8b7953e23c2bd85113e7bbffd77f722481ab99a1c560db9b7550  data/pastes/P33.txt
+2509c0c6d64eba131b0d93e29ef32538968b2c2eb16cd0ba5f3d9aabecd0065d  data/pastes/P34.txt
+d69936fa4d17de12902bf7c899e8cf6e22c45aa33a3d916661d9c9c9d2a01dad  data/pastes/P35.txt
+f7fef25f2e9927a4106f4d03f130b111e8e2008afd9e608afd211be40f196e9f  data/pastes/P36.txt
+43709074c704653a8636e5dd6cfa6489befc77adea058cee171474a6a87d7d25  data/pastes/P37.txt
+291e6ff65c32ab3a0c280b9a0bd01d9d50b2667f4ff6a8048150a8f076b5020f  data/pastes/P38.txt
+e1d205b3653fc9905fb4450a20b69ef3d40708037e441d5ef8fe506a5b92ed9b  data/pastes/P39.txt
+ae7d117e83354edd43a7ff8698851d6841541a0bf89009185074b36b8ab32524  data/pastes/P40.txt
+```

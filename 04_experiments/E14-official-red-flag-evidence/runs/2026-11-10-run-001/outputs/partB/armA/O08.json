@@ -1,0 +1,21 @@
+{
+  "organisation": "Kelly Services Singapore",
+  "queries_run": [
+    "\"Kelly Services Singapore\" Singapore regulator penalty fine",
+    "\"Kelly Services Singapore\" enforcement action Singapore",
+    "\"Kelly Services Singapore\" court judgment Singapore",
+    "\"Kelly Services Singapore\" complaints Singapore",
+    "\"Kelly Services Singapore\" retrenchment layoffs Singapore",
+    "\"Kelly Services Singapore\" scam fraud warning Singapore"
+  ],
+  "items": [
+    {
+      "claim": "A warning page titled 'Beware the Fake Kelly Services Job Offer Scam' reports scammers impersonating Kelly Services with fake job offers. The result does not show a Singapore-specific case.",
+      "entity_the_claim_is_about": "Kelly Services (brand name; the result does not say which entity, and it is not confirmed as the Singapore entity)",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://malwaretips.com/blogs/kelly-services/",
+      "quoted_evidence": "Beware the Fake Kelly Services Job Offer Scam"
+    }
+  ],
+  "notes": "Only one item is listed. Other results were excluded: (1) The scam.sg and AcraWatch/scam.sg profiles for KELLY SERVICES (2012) PTE. LTD. (UEN 202438781D) and PERSOLKELLY SINGAPORE PTE. LTD. (UEN 200007268E) show no enforcement or complaint content in the results; the scam.sg PERSOLKELLY page says 'No reviews available'. The PERSOLKELLY entity is described as formerly Kelly Services Holding (Singapore) Pte Ltd, but the searches used only the given name, so records under the former or current name were not searched. (2) A Kelly Services Inc. verdict and a US political committee fine appear in results but concern a different entity or jurisdiction, so they were excluded as other_entity or non-Singapore. (3) A 2008 Glassdoor review describing sales-based pay is one individual's opinion, not a complaint record, so it was excluded. (4) The May 2026 Singapore police advisory on recruitment-agency impersonation does not name this organisation, so it was excluded. No regulator, court, enforcement, complaint, or retrenchment record tied to this organisation appeared in the six result sets."
+}

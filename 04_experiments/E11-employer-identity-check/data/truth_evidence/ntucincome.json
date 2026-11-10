@@ -1,0 +1,84 @@
+{
+ "key": "ntucincome",
+ "domain": "www.income.com.sg",
+ "pages": [
+  {
+   "url": "https://www.income.com.sg/",
+   "status": 200,
+   "reg_hits": [
+    "UEN 202135698W"
+   ],
+   "legal_names": [
+    "About Us Inc",
+    "Affiliate Program Staff Intranet About Inc",
+    "Docs Log in Personal Corporate My Inc",
+    "Download My Inc",
+    "Insurance Home Ultimate Protect Happy Tails Pet Insurance Download My Inc",
+    "Insurance for Schools, Centres & MOE Personnel Useful Links Blog My Inc",
+    "My IncomeDocs Support Provide feedback or complaint Inc",
+    "Pet Insurance Promotions Support Make a claim Buy online Download My Inc",
+    "Promotions Support Make a claim Buy online Log in Personal Corporate My Inc",
+    "Representative Search Policy Documents & Forms Inc",
+    "Treats Inc"
+   ],
+   "copyright": [
+    "cookies to make your experience on our website even better. © 2026 Income (UEN 202135698W). All rights reserved. "
+   ]
+  },
+  {
+   "url": "https://www.income.com.sg/privacy-policy",
+   "status": 200,
+   "reg_hits": [
+    "Reg. No. 202135698W",
+    "UEN 202135698W"
+   ],
+   "legal_names": [
+    "A) Job applicants If you are applying to Inc",
+    "About Us Inc",
+    "Affiliate Program Staff Intranet About Inc",
+    "All Inc",
+    "App Privacy Policy Inc",
+    "As part of Inc",
+    "B) Shareholders of Inc",
+    "Call Inc",
+    "Constitution of Inc",
+    "Docs Log in Personal Corporate My Inc",
+    "Financial information and account details Inc",
+    "For data protection concern or queries, please email Inc",
+    "Honest Insurance, this Privacy Policy tells you how Inc",
+    "IP addresses when you visit Inc",
+    "If you choose not to allow Inc"
+   ],
+   "copyright": [
+    "cookies to make your experience on our website even better. © 2026 Income (UEN 202135698W). All rights reserved. "
+   ]
+  },
+  {
+   "url": "https://www.income.com.sg/terms-of-use",
+   "status": 200,
+   "reg_hits": [
+    "UEN 202135698W"
+   ],
+   "legal_names": [
+    "About Us Inc",
+    "Activity Tracking The Services offered by some of Inc",
+    "Affiliate Program Staff Intranet About Inc",
+    "Application is distributed through Apple, Inc.",
+    "Certain sections or pages on Inc",
+    "Docs Log in Personal Corporate My Inc",
+    "However, you could be held liable for losses incurred by Inc",
+    "Income websites and Inc",
+    "Insurance Home Ultimate Protect Happy Tails Pet Insurance Download My Inc",
+    "Insurance Limited",
+    "Insurance for Schools, Centres & MOE Personnel Useful Links Blog My Inc",
+    "Licensed e, Inc.",
+    "Member Account, Password and Security When purchasing any Inc",
+    "My IncomeDocs Support Provide feedback or complaint Inc",
+    "Online Facilities, Inc"
+   ],
+   "copyright": [
+    "cookies to make your experience on our website even better. © 2026 Income (UEN 202135698W). All rights reserved. "
+   ]
+  }
+ ]
+}

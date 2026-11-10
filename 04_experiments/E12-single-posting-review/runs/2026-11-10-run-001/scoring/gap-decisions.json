@@ -1,0 +1,66 @@
+{
+ "E12-P01__gpt120__r1": [],
+ "E12-P01__gpt120__r2": [
+  "G1",
+  "G4"
+ ],
+ "E12-P01__qwen__r1": [
+  "G1",
+  "G3",
+  "G4"
+ ],
+ "E12-P02__gpt120__r1": [],
+ "E12-P04__gpt120__r1": [],
+ "E12-P06__gpt120__r1": [
+  "G1"
+ ],
+ "E12-P06__qwen__r1": [
+  "G1",
+  "G2"
+ ],
+ "E12-P07__gpt120__r1": [
+  "G1",
+  "G2"
+ ],
+ "E12-P07__qwen__r1": [
+  "G1",
+  "G2",
+  "G4"
+ ],
+ "E12-P08__gpt120__r1": [
+  "G1"
+ ],
+ "E12-P09__gpt120__r1": [
+  "G1",
+  "G2"
+ ],
+ "E12-P15__gpt120__r1": [],
+ "E12-P15__qwen__r1": [
+  "G1",
+  "G2",
+  "G3",
+  "G4",
+  "G5"
+ ],
+ "E12-P16__qwen__r1": [
+  "G1"
+ ],
+ "E12-P17__qwen__r1": [
+  "G1",
+  "G2"
+ ],
+ "E12-P19__gpt120__r2": [
+  "G3"
+ ],
+ "E12-P22__gpt120__r2": [],
+ "E12-P23__gpt120__r2": [],
+ "E12-P24__gpt120__r2": [],
+ "_note": "Rater: Claude (an AI). For each reviewed output, the list of gold gap IDs the rater judges the output flagged (as an unknown/not-visible/conditional/conflicting claim or a question), after reading every unknown-type claim and question in the output. Automated kw matching had many false positives (e.g. a restated 'conflicting' claim), so hits as well as misses were read. Standard: the item must plausibly elicit the information in the gap.",
+ "E12-P09__qwen__r1": [
+  "G1",
+  "G2",
+  "G3",
+  "G4",
+  "G6"
+ ]
+}

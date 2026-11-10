@@ -1,0 +1,39 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "H02",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:01:55Z",
+ "latency_s": 2.14,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1100,
+  "temperature": 0.8,
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "user",
+   "content": "Write the raw text that a person would get by pressing Select All then Copy on a JobStreet-style (left list of search result cards plus the selected job detail on the right) job page in Singapore, for a fictional employer and a made-up job. Output the pasted text ONLY: no commentary, no markdown, no code fences. Include realistic page furniture (menu text, buttons, banners, footer links). Target 250 to 400 words. Requirements for this paste:\n- the description uses bullets under 'Your day to day' and 'About you'\n- the employer is named\n- pay is shown as 'Up to $3,000 + commission'\n- the closing date is written inside a sentence of the description as 'applications will be reviewed until 28 November 2026'\nToday is 2026-11-10; any dates you write must be in November or December 2026."
+  }
+ ],
+ "content": "JobStreet Singapore\n\nHome   Jobs   Companies   Salary Guide   Career Advice   Sign In / Register\n\nTop Banner: “Find your next career move – Free job alerts, no cost!”\n\nSearch results (left column)\n\n1. Marketing Executive – BrightWave Media\n   Location: Singapore\n   Salary: Up to $3,000 + commission\n   Posted: 2 days ago\n   [Save] [Apply]\n\n2. Sales Associate – BrightWave Media\n   Location: Singapore\n   Salary: Up to $3,000 + commission\n   Posted: 5 days ago\n   [Save] [Apply]\n\n3. Customer Service Rep – BrightWave Media\n   Location: Singapore\n   Salary: Up to $3,000 + commission\n   Posted: 1 week ago\n   [Save] [Apply]\n\n4. Business Development Executive – BrightWave Media\n   Location: Singapore\n   Salary: Up to $3,000 + commission\n   Posted: 3 days ago\n   [Save] [Apply]\n\n5. Account Manager – BrightWave Media\n   Location: Singapore\n   Salary: Up to $3,000 + commission\n   Posted: 4 days ago\n   [Save] [Apply]\n\nSelected Job Detail (right column)\n\nJob Title: Sales Associate\nCompany: BrightWave Media\nLocation: Singapore – Central Business District\nEmployment Type: Full‑time\nSalary: Up to $3,000 + commission\nPosted: 5 days ago\nApplication Deadline: applications will be reviewed until 28 November 2026\n\nJob Description\nBrightWave Media is a fast‑growing digital marketing agency focused on delivering innovative campaigns for regional brands. We are looking for a motivated Sales Associate to join our dynamic team and drive new business opportunities.\n\nYour day to day\n- Identify and prospect potential clients through cold calling, networking events and social media.\n- Conduct needs‑analysis meetings and present tailored media solutions.\n- Prepare and deliver compelling proposals and quotations.\n- Negotiate contracts and close sales in line with company targets.\n- Maintain accurate records in the CRM system and provide weekly sales reports.\n- Collaborate with the creative and account teams to ensure seamless onboarding of new clients.\n\nAbout you\n- Minimum 1‑year experience in B2B sales, preferably in advertising or digital services.\n- Strong communication and interpersonal skills; fluency in English and Mandarin is a plus.\n- Proven track record of meeting or exceeding sales targets.\n- Ability to work independently and as part of a team in a fast‑paced environment.\n- Proficient with Microsoft Office and CRM tools (e.g., HubSpot, Salesforce).\n\nBenefits\n- Competitive base salary up to $3,000 plus uncapped commission.\n- Medical and dental insurance.\n- Annual leave of 14 days plus public holidays.\n- Professional development allowance.\n- Flexible working hours and remote work options.\n\nHow to apply\nClick the “Apply Now” button below, upload your resume and a brief cover letter highlighting your relevant experience. Our recruitment team will review applications promptly.\n\n[Apply Now]   [Save Job]   [Share]\n\nCompany Overview\nBrightWave Media\nFounded: 2015\nEmployees: 120\nIndustry: Digital Marketing & Advertising\nHeadquarters: 10 Raffles Place, #12-01, Singapore 048619\nWebsite: www.brightwavemedia.sg\nFollow us: LinkedIn | Facebook | Instagram\n\nRelated Jobs\n- Marketing Executive – BrightWave Media\n- Business Development Executive – BrightWave Media\n- Account Manager – BrightWave Media\n\nFooter Links\nAbout JobStreet   Contact Us   Privacy Policy   Terms of Use   Help Center   Sitemap   Careers   Advertise with Us   Subscribe to Job Alerts\n\n© 2026 JobStreet.com Pte Ltd. All rights reserved.   Singapore | Malaysia | Indonesia | Philippines | Thailand   Follow us: LinkedIn | Twitter | Instagram   © 2026 © BrightWave Media.   All trademarks are property of their respective owners.",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 876,
+  "prompt_tokens": 254,
+  "total_tokens": 1130,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 56,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.162246577,
+  "prompt_time": 0.011513901,
+  "completion_time": 1.8429480150000002,
+  "total_time": 1.854461916
+ },
+ "cached": false
+}

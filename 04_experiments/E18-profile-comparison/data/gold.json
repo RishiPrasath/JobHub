@@ -1,0 +1,2917 @@
+{
+ "J03": {
+  "facts": "full-time; arrangement not stated; Pandan Loop; S$3,800-4,600 monthly including overtime and allowances; start not stated; no right-to-work wording",
+  "type_scored": false,
+  "hard": {
+   "P1": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u",
+      "c"
+     ]
+    },
+    "notice": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P2": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "loc": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u",
+      "c"
+     ]
+    },
+    "notice": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P3": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u",
+      "c"
+     ]
+    },
+    "notice": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   }
+  },
+  "requirements": [
+   {
+    "id": "J03-R1",
+    "name": "Class 4 licence",
+    "kw": "class\\s*4",
+    "type": "required",
+    "kind": "credential",
+    "excerpt": "Requirements: Class 4 licence",
+    "labels": {
+     "P1": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P2": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P3": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     }
+    }
+   },
+   {
+    "id": "J03-R2",
+    "name": "PSA Pass",
+    "kw": "psa",
+    "type": "preferred",
+    "kind": "credential",
+    "excerpt": "Additional qualifications: PSA Pass",
+    "labels": {
+     "P1": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P2": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P3": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     }
+    }
+   },
+   {
+    "id": "J03-R3",
+    "name": "Forklift",
+    "kw": "forklift",
+    "type": "preferred",
+    "kind": "credential",
+    "excerpt": "forklift",
+    "labels": {
+     "P1": {
+      "primary": "m",
+      "accept": [
+       "m"
+      ]
+     },
+     "P2": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P3": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     }
+    }
+   },
+   {
+    "id": "J03-R4",
+    "name": "Rigger/signalman",
+    "kw": "rigger|signalman",
+    "type": "preferred",
+    "kind": "credential",
+    "excerpt": "rigger/signalman",
+    "labels": {
+     "P1": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P2": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P3": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     }
+    }
+   },
+   {
+    "id": "J03-R5",
+    "name": "SCDF HazMat",
+    "kw": "hazmat|scdf",
+    "type": "preferred",
+    "kind": "credential",
+    "excerpt": "SCDF HazMat",
+    "labels": {
+     "P1": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P2": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P3": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "J06": {
+  "facts": "full-time; arrangement not stated; Changi; S$2600-3000 with no pay period stated; start not stated; 'Singapore-only wording' is ambiguous (location or status)",
+  "type_scored": false,
+  "hard": {
+   "P1": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "loc": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u",
+      "c"
+     ]
+    },
+    "notice": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "rtw": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    }
+   },
+   "P2": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "loc": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u",
+      "c"
+     ]
+    },
+    "notice": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "rtw": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    }
+   },
+   "P3": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u",
+      "c"
+     ]
+    },
+    "notice": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "rtw": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    }
+   }
+  },
+  "requirements": [
+   {
+    "id": "J06-R1",
+    "name": "Minimum Nitec/Diploma in Automotive",
+    "kw": "nitec|automotive",
+    "type": "required",
+    "kind": "credential",
+    "excerpt": "minimum Nitec/Diploma Automotive",
+    "labels": {
+     "P1": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P2": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P3": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     }
+    }
+   },
+   {
+    "id": "J06-R2",
+    "name": "Class 3/4/5 licence",
+    "kw": "class\\s*3|class\\s*4|licen[cs]e",
+    "type": "required",
+    "kind": "credential",
+    "excerpt": "Licence wording: Class 3/4/5",
+    "labels": {
+     "P1": {
+      "primary": "u",
+      "accept": [
+       "u",
+       "c"
+      ]
+     },
+     "P2": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P3": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "J11": {
+  "facts": "part-time; on-site; Alexandra Hill; $12-15 per hour, 2-3 weekdays a week, hours negotiable; start not stated; no requirements stated; no right-to-work wording",
+  "type_scored": false,
+  "hard": {
+   "P1": {
+    "emp": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P2": {
+    "emp": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P3": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   }
+  },
+  "requirements": []
+ },
+ "S01": {
+  "facts": "full-time; on-site; Tuas; S$3,300-3,800/month; immediate start required",
+  "type_scored": true,
+  "hard": {
+   "P1": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "notice": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P2": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "pay": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "notice": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P3": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "notice": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   }
+  },
+  "requirements": [
+   {
+    "id": "S01-R1",
+    "name": "2 years warehouse experience",
+    "kw": "warehouse exp|2 years|two years",
+    "type": "required",
+    "kind": "experience",
+    "excerpt": "At least 2 years of warehouse experience",
+    "labels": {
+     "P1": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     },
+     "P2": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P3": {
+      "primary": "c",
+      "accept": [
+       "c",
+       "x"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S01-R2",
+    "name": "WMS",
+    "kw": "wms|warehouse management",
+    "type": "preferred",
+    "kind": "skill",
+    "excerpt": "warehouse management system (WMS) is preferred",
+    "labels": {
+     "P1": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     },
+     "P2": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P3": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S01-R3",
+    "name": "Forklift certificate",
+    "kw": "forklift",
+    "type": "preferred",
+    "kind": "credential",
+    "excerpt": "A forklift certificate is an advantage",
+    "labels": {
+     "P1": {
+      "primary": "m",
+      "accept": [
+       "m"
+      ]
+     },
+     "P2": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P3": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "S02": {
+  "facts": "full-time; hybrid; Raffles Place; S$2,800-3,200/month; start within 1 month preferred",
+  "type_scored": true,
+  "hard": {
+   "P1": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "loc": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P2": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "notice": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P3": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   }
+  },
+  "requirements": [
+   {
+    "id": "S02-R1",
+    "name": "Diploma in any discipline",
+    "kw": "diploma",
+    "type": "required",
+    "kind": "credential",
+    "excerpt": "Diploma in any discipline",
+    "labels": {
+     "P1": {
+      "primary": "u",
+      "accept": [
+       "u",
+       "x"
+      ]
+     },
+     "P2": {
+      "primary": "m",
+      "accept": [
+       "m"
+      ]
+     },
+     "P3": {
+      "primary": "m",
+      "accept": [
+       "m"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S02-R2",
+    "name": "2 years administrative experience",
+    "kw": "admin",
+    "type": "required",
+    "kind": "experience",
+    "excerpt": "At least 2 years of administrative experience",
+    "labels": {
+     "P1": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P2": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     },
+     "P3": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S02-R3",
+    "name": "Microsoft Excel",
+    "kw": "excel",
+    "type": "required",
+    "kind": "skill",
+    "excerpt": "Proficiency in Microsoft Excel",
+    "labels": {
+     "P1": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     },
+     "P2": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     },
+     "P3": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S02-R4",
+    "name": "SAP",
+    "kw": "\\bsap\\b",
+    "type": "preferred",
+    "kind": "skill",
+    "excerpt": "Experience with SAP is a plus",
+    "labels": {
+     "P1": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P2": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     },
+     "P3": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "S03": {
+  "facts": "part-time; on-site; Tampines; S$11/hour at about 20 hours a week (about S$950 a month); immediate start",
+  "type_scored": true,
+  "hard": {
+   "P1": {
+    "emp": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "pay": {
+     "primary": "x",
+     "accept": [
+      "x",
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P2": {
+    "emp": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "pay": {
+     "primary": "x",
+     "accept": [
+      "x",
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P3": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "x",
+     "accept": [
+      "x",
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   }
+  },
+  "requirements": [
+   {
+    "id": "S03-R1",
+    "name": "Retail experience",
+    "kw": "retail",
+    "type": "preferred",
+    "kind": "experience",
+    "excerpt": "Retail experience is preferred",
+    "labels": {
+     "P1": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P2": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P3": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S03-R2",
+    "name": "Work weekends",
+    "kw": "weekend",
+    "type": "required",
+    "kind": "availability",
+    "excerpt": "Must be able to work weekends",
+    "labels": {
+     "P1": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P2": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P3": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "S04": {
+  "facts": "contract; remote (Singapore-based); S$2,000/month; start within 2 weeks",
+  "type_scored": true,
+  "hard": {
+   "P1": {
+    "emp": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "arr": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "loc": {
+     "primary": "u",
+     "accept": [
+      "u",
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "notice": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P2": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "loc": {
+     "primary": "u",
+     "accept": [
+      "u",
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "notice": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P3": {
+    "emp": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m",
+      "u"
+     ]
+    },
+    "pay": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "notice": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   }
+  },
+  "requirements": [
+   {
+    "id": "S04-R1",
+    "name": "Typing speed 40 wpm",
+    "kw": "typing|wpm|words per minute",
+    "type": "required",
+    "kind": "skill",
+    "excerpt": "Typing speed of at least 40 words per minute",
+    "labels": {
+     "P1": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P2": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P3": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S04-R2",
+    "name": "Microsoft Excel",
+    "kw": "excel",
+    "type": "required",
+    "kind": "skill",
+    "excerpt": "Proficient in Microsoft Excel",
+    "labels": {
+     "P1": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     },
+     "P2": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     },
+     "P3": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S04-R3",
+    "name": "CRM data entry",
+    "kw": "crm",
+    "type": "preferred",
+    "kind": "experience",
+    "excerpt": "Experience with CRM data entry is preferred",
+    "labels": {
+     "P1": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P2": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P3": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "S05": {
+  "facts": "full-time; on-site; Jurong; S$6,500-8,000/month; notice up to 3 months acceptable",
+  "type_scored": true,
+  "hard": {
+   "P1": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "notice": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P2": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "pay": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "notice": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P3": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "notice": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   }
+  },
+  "requirements": [
+   {
+    "id": "S05-R1",
+    "name": "Degree",
+    "kw": "degree",
+    "type": "required",
+    "kind": "credential",
+    "excerpt": "Degree in Supply Chain, Logistics or a related field",
+    "labels": {
+     "P1": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P2": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P3": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S05-R2",
+    "name": "8 years logistics incl 3 managerial",
+    "kw": "8 years|eight years|managerial|logistics exp",
+    "type": "required",
+    "kind": "experience",
+    "excerpt": "At least 8 years of logistics experience, including 3 years in a managerial role",
+    "labels": {
+     "P1": {
+      "primary": "x",
+      "accept": [
+       "x",
+       "c"
+      ]
+     },
+     "P2": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P3": {
+      "primary": "x",
+      "accept": [
+       "x",
+       "c",
+       "u"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S05-R3",
+    "name": "PMP",
+    "kw": "pmp|project management",
+    "type": "preferred",
+    "kind": "credential",
+    "excerpt": "PMP or equivalent certification is preferred",
+    "labels": {
+     "P1": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P2": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P3": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "S06": {
+  "facts": "employment type, arrangement, location, pay (negotiable) and start all not stated; 1 year admin experience required",
+  "type_scored": false,
+  "hard": {
+   "P1": {
+    "emp": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "arr": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "loc": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P2": {
+    "emp": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "arr": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "loc": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P3": {
+    "emp": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "arr": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "loc": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   }
+  },
+  "requirements": [
+   {
+    "id": "S06-R1",
+    "name": "1 year administrative experience",
+    "kw": "admin",
+    "type": "required",
+    "kind": "experience",
+    "excerpt": "At least 1 year of administrative experience required",
+    "labels": {
+     "P1": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P2": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     },
+     "P3": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "S07": {
+  "facts": "full-time; arrangement not stated; Woodlands; S$2,400/month; start within 1 month",
+  "type_scored": true,
+  "hard": {
+   "P1": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "loc": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "pay": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "notice": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P2": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "loc": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "pay": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "notice": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P3": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "notice": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   }
+  },
+  "requirements": [
+   {
+    "id": "S07-R1",
+    "name": "Class 3 licence",
+    "kw": "class\\s*3",
+    "type": "required",
+    "kind": "credential",
+    "excerpt": "Must hold a valid Class 3 driving licence",
+    "labels": {
+     "P1": {
+      "primary": "m",
+      "accept": [
+       "m"
+      ]
+     },
+     "P2": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P3": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S07-R2",
+    "name": "Class 4 licence",
+    "kw": "class\\s*4",
+    "type": "preferred",
+    "kind": "credential",
+    "excerpt": "A Class 4 licence is an advantage",
+    "labels": {
+     "P1": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P2": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P3": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S07-R3",
+    "name": "Singapore roads",
+    "kw": "road",
+    "type": "required",
+    "kind": "skill",
+    "excerpt": "Knowledge of Singapore roads is required",
+    "labels": {
+     "P1": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P2": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P3": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "S08": {
+  "facts": "full-time; hybrid; Orchard Road; S$3,000-3,500/month; up to 1 month notice welcome; contains a hidden instruction",
+  "type_scored": true,
+  "hard": {
+   "P1": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "loc": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P2": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "notice": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P3": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "notice": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   }
+  },
+  "requirements": [
+   {
+    "id": "S08-R1",
+    "name": "2 years customer service",
+    "kw": "customer service",
+    "type": "required",
+    "kind": "experience",
+    "excerpt": "2 years of customer service experience",
+    "labels": {
+     "P1": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P2": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     },
+     "P3": {
+      "primary": "c",
+      "accept": [
+       "c",
+       "x"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S08-R2",
+    "name": "Fluent English and Mandarin",
+    "kw": "mandarin|english|fluent",
+    "type": "required",
+    "kind": "skill",
+    "excerpt": "Fluent English and Mandarin",
+    "labels": {
+     "P1": {
+      "primary": "c",
+      "accept": [
+       "c",
+       "x"
+      ]
+     },
+     "P2": {
+      "primary": "c",
+      "accept": [
+       "c",
+       "x"
+      ]
+     },
+     "P3": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S08-R3",
+    "name": "Zendesk ticketing",
+    "kw": "zendesk|ticket",
+    "type": "preferred",
+    "kind": "skill",
+    "excerpt": "Experience with ticketing tools such as Zendesk is preferred",
+    "labels": {
+     "P1": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P2": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P3": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "S09": {
+  "facts": "full-time; on-site; Jurong; S$3,000-3,400/month; start within 1 month; the related-jobs block lists other roles' requirements",
+  "type_scored": false,
+  "hard": {
+   "P1": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P2": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "pay": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "notice": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   },
+   "P3": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "notice": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "rtw": {
+     "primary": "n",
+     "accept": [
+      "n"
+     ]
+    }
+   }
+  },
+  "requirements": [
+   {
+    "id": "S09-R1",
+    "name": "1 year logistics or administration experience",
+    "kw": "logistics|admin",
+    "type": "required",
+    "kind": "experience",
+    "excerpt": "1 year of experience in logistics or administration",
+    "labels": {
+     "P1": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     },
+     "P2": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     },
+     "P3": {
+      "primary": "c",
+      "accept": [
+       "c",
+       "u"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S09-R2",
+    "name": "Microsoft Excel",
+    "kw": "excel",
+    "type": "required",
+    "kind": "skill",
+    "excerpt": "Microsoft Excel",
+    "labels": {
+     "P1": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     },
+     "P2": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     },
+     "P3": {
+      "primary": "c",
+      "accept": [
+       "c"
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "S10": {
+  "facts": "full-time; on-site; Raffles Place; S$2,600-3,000/month; immediate start; Singaporeans only",
+  "type_scored": true,
+  "hard": {
+   "P1": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "pay": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "notice": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "rtw": {
+     "primary": "d",
+     "accept": [
+      "d"
+     ]
+    }
+   },
+   "P2": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "rtw": {
+     "primary": "k",
+     "accept": [
+      "k"
+     ]
+    }
+   },
+   "P3": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "rtw": {
+     "primary": "d",
+     "accept": [
+      "d"
+     ]
+    }
+   }
+  },
+  "requirements": [
+   {
+    "id": "S10-R1",
+    "name": "Diploma in Accountancy",
+    "kw": "accountancy|accounting|diploma",
+    "type": "required",
+    "kind": "credential",
+    "excerpt": "Diploma in Accountancy",
+    "labels": {
+     "P1": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P2": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P3": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S10-R2",
+    "name": "Xero or QuickBooks",
+    "kw": "xero|quickbooks",
+    "type": "preferred",
+    "kind": "skill",
+    "excerpt": "Knowledge of Xero or QuickBooks is preferred",
+    "labels": {
+     "P1": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P2": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P3": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "S11": {
+  "facts": "12-month contract; hybrid; Changi Business Park; S$3,000-3,600/month; start within 2 weeks; must hold Employment Pass or S Pass",
+  "type_scored": true,
+  "hard": {
+   "P1": {
+    "emp": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "arr": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "loc": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "rtw": {
+     "primary": "d",
+     "accept": [
+      "d"
+     ]
+    }
+   },
+   "P2": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "pay": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "notice": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "rtw": {
+     "primary": "d",
+     "accept": [
+      "d"
+     ]
+    }
+   },
+   "P3": {
+    "emp": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "notice": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "rtw": {
+     "primary": "k",
+     "accept": [
+      "k"
+     ]
+    }
+   }
+  },
+  "requirements": [
+   {
+    "id": "S11-R1",
+    "name": "Diploma in IT or Computer Science",
+    "kw": "diploma|computer",
+    "type": "required",
+    "kind": "credential",
+    "excerpt": "Diploma in IT or Computer Science",
+    "labels": {
+     "P1": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P2": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P3": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S11-R2",
+    "name": "1 year helpdesk experience",
+    "kw": "helpdesk|help desk",
+    "type": "required",
+    "kind": "experience",
+    "excerpt": "At least 1 year of helpdesk experience",
+    "labels": {
+     "P1": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P2": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P3": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S11-R3",
+    "name": "CompTIA A+",
+    "kw": "comptia|a\\+",
+    "type": "preferred",
+    "kind": "credential",
+    "excerpt": "CompTIA A+ is preferred",
+    "labels": {
+     "P1": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P2": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P3": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "S12": {
+  "facts": "full-time or part-time; on-site; Orchard; S$10/hour, hours not stated; immediate start; Singapore Citizens and PRs only",
+  "type_scored": true,
+  "hard": {
+   "P1": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "rtw": {
+     "primary": "k",
+     "accept": [
+      "k"
+     ]
+    }
+   },
+   "P2": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "x",
+     "accept": [
+      "x"
+     ]
+    },
+    "rtw": {
+     "primary": "k",
+     "accept": [
+      "k"
+     ]
+    }
+   },
+   "P3": {
+    "emp": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "arr": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "loc": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "pay": {
+     "primary": "u",
+     "accept": [
+      "u"
+     ]
+    },
+    "notice": {
+     "primary": "m",
+     "accept": [
+      "m"
+     ]
+    },
+    "rtw": {
+     "primary": "d",
+     "accept": [
+      "d"
+     ]
+    }
+   }
+  },
+  "requirements": [
+   {
+    "id": "S12-R1",
+    "name": "Food Hygiene Certificate",
+    "kw": "hygiene",
+    "type": "required",
+    "kind": "credential",
+    "excerpt": "Food Hygiene Certificate",
+    "labels": {
+     "P1": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P2": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     },
+     "P3": {
+      "primary": "x",
+      "accept": [
+       "x"
+      ]
+     }
+    }
+   },
+   {
+    "id": "S12-R2",
+    "name": "F&B experience",
+    "kw": "f&b|food|beverage",
+    "type": "preferred",
+    "kind": "experience",
+    "excerpt": "Prior F&B experience is preferred",
+    "labels": {
+     "P1": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P2": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     },
+     "P3": {
+      "primary": "u",
+      "accept": [
+       "u"
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "key": "yakun",
+ "domain": "www.yakun.com",
+ "pages": [
+  {
+   "url": "https://www.yakun.com/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Ya Kun International Private Limited"
+   ],
+   "copyright": [
+    "Returns --> Career --> Contact Us Join Our Community Submit Copyright © 2024 Ya Kun International Private Limited. All rights reserved. ",
+    "> Career --> Contact Us Join Our Community Submit Copyright © 2024 Ya Kun International Private Limited. All rights reserved. "
+   ]
+  },
+  {
+   "url": "https://www.yakun.com/privacy-policy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Ya Kun International Private Limited"
+   ],
+   "copyright": [
+    "Returns --> Career --> Contact Us Join Our Community Submit Copyright © 2024 Ya Kun International Private Limited. All rights reserved. ",
+    "> Career --> Contact Us Join Our Community Submit Copyright © 2024 Ya Kun International Private Limited. All rights reserved. "
+   ]
+  },
+  {
+   "url": "https://www.yakun.com/terms-and-conditions",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Ya Kun International Private Limited"
+   ],
+   "copyright": [
+    "Returns --> Career --> Contact Us Join Our Community Submit Copyright © 2024 Ya Kun International Private Limited. All rights reserved. ",
+    "> Career --> Contact Us Join Our Community Submit Copyright © 2024 Ya Kun International Private Limited. All rights reserved. "
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+Ohmyhome Pte. Ltd.  (role: Sales Coordinator)
+HEADLINE: exists_limited_evidence
+  Registered in Singapore, but there is little public evidence beyond the registry.
+  because: registry: confirmed; web evidence thin (4 pages read, model: None)
+REGISTRY: confirmed. OHMYHOME PTE. LTD. is registered in Singapore (status: Live Company, registered 2015-06-12).
+WEB: 5 queries (bing, duckduckgo), 4 of 8 pages read, exact name seen in 4 pages and 21 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 5):
+  - Ohmyhome Pte. Ltd. Careers and Employment | Indeed  https://sg.indeed.com/cmp/Ohmyhome-
+    Pte.-Ltd.-1
+  - Ohmyhome Interview Experience & Questions (2026) |
+    https://www.glassdoor.com/Interview/Ohmyhome-Interview-Questions-E2252823.htm
+  - Ohmyhome Interview Questions (2026) | Glassdoor  https://www.glassdoor.sg/Interview/Ohmyhome-
+    Interview-Questions-E2252823.htm
+  - Ohmyhome Jobs in Singapore (with Salaries) - Nov 2  https://sg.jobstreet.com/Ohmyhome-jobs
+  - 7 Ohmyhome Interview Questions & Answers (2025) |
+    https://www.glassdoor.co.in/Interview/Ohmyhome-Interview-Questions-E2252823.htm
+COULD NOT READ (4):
+  - https://www.signalhire.com/companies/ohmyhome-pte-ltd  (thin: fewer than 400 characters of real
+    content)
+  - https://fiscal.ai/company/NASDAQ_OMH/news/2026-06-27/ohmyhome-announce  (thin: fewer than 400
+    characters of real content)
+  - https://www.marketscreener.com/news/ohmyhome-announces-strategic-restr  (blocked: challenge or
+    login-wall text)
+  - https://pm.ohmyhome.com/career  (irrelevant: the page never mentions the company name)
+DEGRADED: summary_unavailable: model rate limit reached (retry in 1044 s)
+(100.9s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

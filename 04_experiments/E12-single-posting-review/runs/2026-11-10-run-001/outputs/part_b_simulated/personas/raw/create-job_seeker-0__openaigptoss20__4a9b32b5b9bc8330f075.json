@@ -1,0 +1,46 @@
+{
+ "model": "openai/gpt-oss-20b",
+ "tag": "create-job_seeker-0",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:24:15Z",
+ "latency_s": 2.36,
+ "params": {
+  "model": "openai/gpt-oss-20b",
+  "max_tokens": 2200,
+  "temperature": 0.9,
+  "response_format": {
+   "type": "json_object"
+  },
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are the Persona Creator for JobHub, a research project on job-search intelligence in Singapore.\nYou create FICTIONAL simulation personas for testing. Rules:\n- Every persona is invented. Never use a real person, a real company's staff, or identifiable details.\n- Vary the personas along the requested axes so the set is not clustered. Do not default to one profile.\n- Describe circumstances and behaviour, not protected characteristics as a basis for judgement. Include\n  age band, citizenship or work-pass status, or family situation ONLY where the brief makes it relevant to the task.\n- Give each persona realistic limits: what they do not know, where they get impatient, what they would skip.\n- Do not make any persona an expert, enthusiastic or compliant by default.\n- Output JSON only."
+  },
+  {
+   "role": "user",
+   "content": "Brief: Job seekers in Singapore of different kinds: at least two who skim and click through quickly, at least two with low digital comfort (phone-only, little time to read), one careful reader who checks every line, and one older worker returning to work. Spread across manual, service, clerical and gig work. None is an expert on employment law.\nKind of persona: job_seeker (a person looking for work in Singapore)\nNumber of personas: 4\nVariation axes (spread the set across these): reading style (skims vs reads every word), digital comfort, time pressure, trust in AI tools, industry, confidence\nTask context (what the personas will be asked to do; do not answer it): read a job posting, then review an AI-prepared worksheet about it and accept, edit or reject each item\n\nReturn JSON: {\"personas\": [{\n  \"persona_id\": \"short-slug\",\n  \"kind\": \"job_seeker\",\n  \"label\": \"6-10 word description\",\n  \"first_name\": \"fictional first name\",\n  \"background\": \"2-3 sentences, no identifying detail\",\n  \"situation_now\": \"what they are doing about work/hiring right now\",\n  \"goals\": [\"...\"],\n  \"constraints\": [\"time, money, status, confidence, digital skill ...\"],\n  \"digital_comfort\": \"low|medium|high\",\n  \"reading_style\": \"how they read documents (skims, reads every word, trusts headlines ...)\",\n  \"attitude_to_ai\": \"short\",\n  \"known_gaps\": [\"things they do not know or would get wrong\"],\n  \"biases_or_habits\": [\"...\"],\n  \"voice\": \"how they speak, 1 sentence\",\n  \"simulation_notes\": \"anything the runner must keep in mind (e.g. would abandon after 3 minutes)\"\n}]}"
+  }
+ ],
+ "content": "{\"personas\":[{\"persona_id\":\"skimmer-manual\",\"kind\":\"job_seeker\",\"label\":\"Quick‑scan manual worker\",\"first_name\":\"Raj\",\"background\":\"Raj has been working as a warehouse picker for the past five years. He just finished a short break after a family illness and is now looking to re‑enter the workforce.\",\"situation_now\":\"He is scrolling job boards on his phone during commute and applying to jobs that catch his eye.\",\"goals\":[\"Find a steady hourly wage\",\"Re‑establish work routine quickly\",\"Avoid long application processes\"],\"constraints\":[\"Limited time (commutes + family), low confidence in reading details, limited tech skill\"],\"digital_comfort\":\"low\",\"reading_style\":\"skims headlines and bullet points, quickly clicks through\",\"attitude_to_ai\":\"Skeptical, wants instant answers\",\"known_gaps\":[\"Doesn’t understand legal jargon, unsure of AI-generated summaries\",\"Misses subtle qualification nuances\"],\"biases_or_habits\":[\"Tends to overlook hidden requirements, prefers “yes” answers\"],\"voice\":\"I just need something that pays, no fuss.\",\"simulation_notes\":\"May abandon after 3 minutes of scrolling if no clear call‑to‑action.\"},{\"persona_id\":\"careful-older\",\"kind\":\"job_seeker\",\"label\":\"Older worker careful reader\",\"first_name\":\"Eunice\",\"background\":\"Eunice is 58, recently retired after 30 years in clerical roles. She is exploring part‑time work to stay active and supplement her retirement income.\",\"situation_now\":\"She uses a tablet during lunch breaks to browse job sites and reads each posting thoroughly.\",\"goals\":[\"Secure a role with clear responsibilities\",\"Understand all employment terms\",\"Maintain work‑life balance\"],\"constraints\":[\"Time constrained by health appointments, moderate digital skill, high need for clarity\"],\"digital_comfort\":\"medium\",\"reading_style\":\"reads every line, checks for detail\",\"attitude_to_ai\":\"Open but cautious, values accuracy\",\"known_gaps\":[\"May not recognize subtle bias in AI summaries, unsure of how AI edits affect tone\"],\"biases_or_habits\":[\"Prefers exhaustive review, may reject edits that change meaning\"],\"voice\":\"I need to know exactly what I’m signing up for.\",\"simulation_notes\":\"Will take longer to review; may skip AI suggestions that seem too generic.\"},{\"persona_id\":\"phone-gig\",\"kind\":\"job_seeker\",\"label\":\"Phone‑only gig worker\",\"first_name\":\"Ken\",\"background\":\"Ken is a 27‑year‑old freelance delivery driver who uses his phone for everything. He has no fixed schedule and often makes decisions on the go.\",\"situation_now\":\"He receives job postings via apps and quickly decides if it fits his time slots.\",\"goals\":[\"Maximize earnings per hour\",\"Avoid long commitment clauses\",\"Use minimal app interfaces\"],\"constraints\":[\"Low digital comfort, very time‑pressured, limited reading patience\"],\"digital_comfort\":\"low\",\"reading_style\":\"skims, trusts headlines, clicks fast\",\"attitude_to_ai\":\"Skeptical of extra steps, wants clear benefits\",\"known_gaps\":[\"Not familiar with employment terms, may misinterpret AI edits\",\"Lacks trust in AI reliability\"],\"biases_or_habits\":[\"Skips anything that isn’t instantly actionable, assumes “yes” to quick wins\"],\"voice\":\"Anything that pays fast, I’m good with it.\",\"simulation_notes\":\"May abandon after 2 minutes if the AI worksheet is too long.\"},{\"persona_id\":\"skimmer-service\",\"kind\":\"job_seeker\",\"label\":\"Service‑sector quick reviewer\",\"first_name\":\"Maya\",\"background\":\"Maya is a 32‑year‑old customer service associate who recently left a part‑time retail job and is looking for a more stable role.\",\"situation_now\":\"She checks job postings during lunch and uses a quick‑scan method to shortlist positions.\",\"goals\":[\"Secure stable hourly pay\",\"Avoid long application steps\",\"Find a role with good shift flexibility\"],\"constraints\":[\"Limited time due to child care, moderate digital comfort, moderate confidence in AI\"],\"digital_comfort\":\"medium\",\"reading_style\":\"skims but reads key sections\",\"attitude_to_ai\":\"Curious but wary, wants concise summaries\",\"known_gaps\":[\"May overlook subtle requirement changes, may not fully trust AI edits\"],\"biases_or_habits\":[\"Prefers clear action items, may reject vague AI suggestions\"],\"voice\":\"I want something that fits my life, not a big hassle.\",\"simulation_notes\":\"Will review AI worksheet if it’s succinct; otherwise, skip.\"}]}",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 1048,
+  "prompt_tokens": 649,
+  "total_tokens": 1697,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 107,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.350212193,
+  "prompt_time": 0.091093092,
+  "completion_time": 1.28999162,
+  "total_time": 1.381084712
+ },
+ "cached": false
+}

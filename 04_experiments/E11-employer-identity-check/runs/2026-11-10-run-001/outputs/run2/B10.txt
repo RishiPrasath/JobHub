@@ -1,0 +1,27 @@
+Toast Box  (role: Service Crew)
+HEADLINE: brand_legal_entity_unconfirmed
+  Public sources describe a company by this name, but the registry has no entity with this exact
+  name. It may trade under a brand name; the legal employer is not confirmed.
+  because: registry: similar_name_only; exact name seen 22 times in sources
+REGISTRY: similar_name_only. No registered entity is named 'Toast Box'. The closest registered name is PATRONS' BOX PTE. LTD., which may be a different company.
+WEB: 5 queries (bing), 5 of 7 pages read, exact name seen in 4 pages and 18 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 11):
+  - Working at Toast Box company profile and informati  https://sg.jobstreet.com/companies/toast-
+    box-168554580394717
+  - Toast Box Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/Toast-Box-Reviews-E2923734.htm
+  - Working at Toast Box | Glassdoor  https://www.glassdoor.sg/Overview/Working-at-Toast-Box-
+    EI_IE2923734.11,20.htm
+  - Toast Box Reviews: What Is It Like to Work At Toas  https://www.glassdoor.com/Reviews/Toast-Box-
+    Reviews-E2923734.htm
+  - Toast Box Reviews in Singapore - Glassdoor  https://www.glassdoor.co.in/Reviews/Toast-Box-
+    Singapore-Reviews-EI_IE2923734.0,9
+  - Toast Box Careers and Employment | Indeed.com  https://sg.indeed.com/cmp/Toast-Box
+COULD NOT READ (2):
+  - https://tracxn.com/d/companies/toast-box/__yWnB_zcDDg5K5RzkvelFnwywkPU  (blocked_by_robots: the
+    site's robots.txt does not allow this page)
+  - https://www.zoominfo.com/c/toast-box/425056784  (thin: fewer than 400 characters of real
+    content)
+COULD NOT VERIFY:
+  - Which registered company is the legal employer behind this brand.
+DEGRADED: summary_unavailable: model rate limit reached (retry in 1313 s)
+(68.4s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

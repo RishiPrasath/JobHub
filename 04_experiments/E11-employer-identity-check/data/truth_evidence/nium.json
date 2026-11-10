@@ -1,0 +1,68 @@
+{
+ "key": "nium",
+ "domain": "www.nium.com",
+ "pages": [
+  {
+   "url": "https://www.nium.com/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Nium Pte. Ltd."
+   ],
+   "copyright": [
+    "Company About Partners Careers Newsroom Licenses Contact us Copyright © 2026 Nium Pte. Ltd. | All Rights Reserved Legal Privacy Policy Trust Center Your Privacy Choices Terms & Conditions E",
+    "out Partners Careers Newsroom Licenses Contact us Copyright © 2026 Nium Pte. Ltd. | All Rights Reserved Legal Privacy Policy Trust Center Your Privacy Choices Terms & Conditions Eng"
+   ]
+  },
+  {
+   "url": "https://www.nium.com/privacy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Entity Registered address Data Protection Authority Australia Nium Pty Ltd",
+    "Kong Privacy Commissioner for Personal Data India Nium Forex India Pvt Ltd",
+    "Kuala Lumpur Department of Personal Data New Zealand Nium (New Zealand) Limited",
+    "L Amsterdam, the Netherlands Autoriteit Persoonsgegevens Hong Kong Nium Limited",
+    "Nium Payments UK Limited",
+    "Nium Pte. Ltd.",
+    "Nium Pty Limited",
+    "Nium Solutions Limited",
+    "Nium refers to Nium Pte. Ltd.",
+    "Office United States Nium, Inc.",
+    "Pagamento Ltd",
+    "Personal Data Protection Commission United Kingdom Nium Fintech Limited",
+    "State Data Protection Inspectorate Nium Financial Services Malta Limited",
+    "United States with Nium, Inc."
+   ],
+   "copyright": [
+    "Company About Partners Careers Newsroom Licenses Contact us Copyright © 2026 Nium Pte. Ltd. | All Rights Reserved Legal Privacy Policy Trust Center Your Privacy Choices Terms & Conditions E",
+    "out Partners Careers Newsroom Licenses Contact us Copyright © 2026 Nium Pte. Ltd. | All Rights Reserved Legal Privacy Policy Trust Center Your Privacy Choices Terms & Conditions Eng"
+   ]
+  },
+  {
+   "url": "https://www.nium.com/terms-of-use",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Nium Pte. Ltd.",
+    "Nium refers to Nium Pte. Ltd."
+   ],
+   "copyright": [
+    "Company About Partners Careers Newsroom Licenses Contact us Copyright © 2026 Nium Pte. Ltd. | All Rights Reserved Legal Privacy Policy Trust Center Your Privacy Choices Terms & Conditions E",
+    "out Partners Careers Newsroom Licenses Contact us Copyright © 2026 Nium Pte. Ltd. | All Rights Reserved Legal Privacy Policy Trust Center Your Privacy Choices Terms & Conditions Eng"
+   ]
+  },
+  {
+   "url": "https://www.nium.com/legal",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Nium Pte. Ltd."
+   ],
+   "copyright": [
+    "Company About Partners Careers Newsroom Licenses Contact us Copyright © 2026 Nium Pte. Ltd. | All Rights Reserved Legal Privacy Policy Trust Center Your Privacy Choices Terms & Conditions E",
+    "out Partners Careers Newsroom Licenses Contact us Copyright © 2026 Nium Pte. Ltd. | All Rights Reserved Legal Privacy Policy Trust Center Your Privacy Choices Terms & Conditions Eng"
+   ]
+  }
+ ]
+}

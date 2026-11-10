@@ -1,0 +1,39 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "H04",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:02:55Z",
+ "latency_s": 1.79,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1100,
+  "temperature": 0.8,
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "user",
+   "content": "Write the raw text that a person would get by pressing Select All then Copy on a MyCareersFuture-style job page in Singapore, for a fictional employer and a made-up job. Output the pasted text ONLY: no commentary, no markdown, no code fences. Include realistic page furniture (menu text, buttons, banners, footer links). Target 250 to 400 words. Requirements for this paste:\n- the header lines appear AFTER the description in the copied text (order mixed up)\n- employer named, salary range shown\n- closing shown only as 'Closing in 3 days'\n- includes badges such as 'Job Match: 64%' and 'Be an early applicant'\nToday is 2026-11-10; any dates you write must be in November or December 2026."
+  }
+ ],
+ "content": "Senior Data Analyst – Singapore (Hybrid)  \nJoin XYZ Corp, a leading fintech innovator, as we expand our analytics team to drive data‑powered decisions across our product suite. In this role, you will lead the design and implementation of advanced analytics pipelines, work closely with product managers to translate business needs into data solutions, and mentor junior analysts. You’ll be responsible for developing predictive models, automating reporting dashboards, and ensuring data quality across multiple sources.  \n\nKey Responsibilities  \n- Design, build, and maintain scalable data pipelines using Python, SQL, and Spark.  \n- Develop and deploy machine learning models to forecast customer behavior and churn.  \n- Create interactive visualisations and self‑service dashboards in Power BI and Tableau for stakeholders.  \n- Conduct ad‑hoc analysis to support product launches and strategic initiatives.  \n- Collaborate with engineering, product, and compliance teams to ensure data governance and security.  \n- Lead code reviews and provide technical mentorship to junior team members.  \n\nQualifications  \n- Bachelor’s degree in Computer Science, Statistics, or related field; Master’s preferred.  \n- Minimum 5 years of experience in data analytics or data engineering roles.  \n- Proficient in Python (pandas, scikit‑learn), SQL, and big‑data tools (Spark, Hadoop).  \n- Hands‑on experience with cloud platforms (AWS, Azure) and containerisation (Docker, Kubernetes).  \n- Strong communication skills and ability to present insights to non‑technical audiences.  \n\nBenefits  \n- Competitive salary: SGD 8,500 – 12,000 per month  \n- Annual performance bonus up to 15% of base salary  \n- Flexible work arrangements (3 days office, 2 days remote)  \n- Health & dental insurance, wellness stipend, and professional development budget  \n- Employee stock options and transport allowance  \n\nApply Now   Save Job   Share  \n\nJob Match: 64%   Be an early applicant  \n\nMenu: Home | Jobs | Companies | Salary Insights | Career Advice | My Profile | Logout  \n\nBanner: “Top 10 Companies Hiring in Singapore – November 2026”  \n\nFooter Links: About Us | Contact | Privacy Policy | Terms of Use | Sitemap  \n\nCompany: XYZ Corp  \nJob Title: Senior Data Analyst  \nLocation: Singapore (Hybrid)  \nSalary: SGD 8,500 – 12,000 per month  \nClosing in 3 days   Posted: 5 November 2026   Application Deadline: 13 November 2026   Apply by: 13 Nov 2026   Share this job   Report this job   © 2026 MyCareersFuture. All rights reserved.",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 636,
+  "prompt_tokens": 232,
+  "total_tokens": 868,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 95,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.283155954,
+  "prompt_time": 0.071034714,
+  "completion_time": 1.340287689,
+  "total_time": 1.411322403
+ },
+ "cached": false
+}

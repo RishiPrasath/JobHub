@@ -1,0 +1,15 @@
+{
+ "key": "ikea",
+ "domain": "www.ikea.com",
+ "pages": [
+  {
+   "url": "https://www.ikea.com/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "/ Submit complaint Frequently asked questions Sitemap Legal © Inter IKEA Systems B.V. 1999 - 2026 https://www.ikea.com/ae/ar/ https://www.ikea.com/ae/en/ https://www.ikea.com/at/de/"
+   ]
+  }
+ ]
+}

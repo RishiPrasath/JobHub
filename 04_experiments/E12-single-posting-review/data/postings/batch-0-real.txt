@@ -1,0 +1,39 @@
+# Batch 0: the 3 real captured fixtures from E08 (Round 4 captures dated 2026-10-19), re-expressed as numbered lines.
+# Source files: 04_experiments/E08-user-interface-and-human-review/runs/2026-10-20-run-001/fixtures/r4-jb-003-class-4-driver.md, r4-jb-006-vehicle-mechanic.md, r4-jb-011-part-time-admin.md
+# Only the "Source metadata" and "Captured evidence" content is used. The "Captured unknowns" and "Review rule" sections of the E08 fixtures are reviewer notes, not posting content, and are NOT shown to the model.
+# These are captured records (note-form), not raw page dumps. synthetic=false. Not claims that the postings remain active or legitimate.
+
+=== E12-P01 | real=R4-JB-003 | board=MyCareersFuture | ownership=mixed | type=manual-driver | synthetic=false | captured=2026-10-19 ===
+L01: Fixture title: Class 4 Driver. Source: MyCareersFuture. Context: Singapore logistics/supply chain. Job reference MCF-2026-0620087.
+L02: Salary displayed: $3,800 to $4,600 Monthly.
+L03: Working hours: day/night shifts, six days per week, four rest days per month, rotation, night allowance and overtime policy.
+L04: Requirements: Class 4 licence, experience, shifts, overtime, responsibility and teamwork.
+L05: Additional qualifications: PSA Pass, forklift, rigger/signalman and SCDF HazMat.
+L06: Work location: Pandan Loop and travel to ports.
+L07: Employment type: full-time, long-term.
+L08: Salary and benefits wording says monthly income includes overtime, night and other allowances, plus training, year-end bonus and KPI incentive.
+L09: Application route: MyCareersFuture; WhatsApp contact visible.
+L10: Platform panel: 0% skills matched.
+
+=== E12-P02 | real=R4-JB-006 | board=FastJobs | ownership=mixed | type=manual-mechanic | synthetic=false | captured=2026-10-19 ===
+L01: Fixture title: Vehicle Mechanic. Source: FastJobs. Context: trade/operational; Changi.
+L02: Employment: full-time.
+L03: Work pattern: 5.5-day week.
+L04: Salary displayed: S$2600-3000.
+L05: Qualification wording: minimum Nitec/Diploma Automotive.
+L06: Licence wording: Class 3/4/5.
+L07: Working hours and Singapore-only wording are present.
+L08: Employer context displays "normally responds within 24 hours".
+L09: Updated: 2026-10-19; expiry: 2026-10-23.
+
+=== E12-P03 | real=R4-JB-011 | board=JobStreet | ownership=mixed | type=clerical-parttime | synthetic=false | captured=2026-10-19 ===
+L01: Source: Jobstreet Singapore. Context: administrative/part-time; Alexandra Hill.
+L02: Header: Part-Time Admin Assistant ($12-$15/hr | 2-3 weekdays/week)
+L03: Company: YAN BUSINESS GROUP.
+L04: Pay: $12-15/hour.
+L05: Schedule: 2-3 weekdays/week; hours negotiable.
+L06: Work arrangement: office/on-site.
+L07: Application note: send resume; details explained at interview; shortlisted only.
+L08: Platform safety warning and report action are visible.
+L09: Related salary teaser: Administration Officer.
+L10: Capture note: the visible URL identifies job 95357572, while the browser/page title and body identify a Part-Time Admin Assistant.

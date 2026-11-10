@@ -1,0 +1,279 @@
+{
+ "employer": "ComfortDelGro Corporation Limited",
+ "role": "Bus Captain",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 3117 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "COMFORTDELGRO CORPORATION LIMITED is registered in Singapore (status: Live Company, registered 2003-01-01).",
+  "basis": "name only",
+  "entity": {
+   "uen": "200300002K",
+   "name": "COMFORTDELGRO CORPORATION LIMITED",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2003-01-01",
+   "activity": "INVESTMENT HOLDING COMPANY"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"ComfortDelGro Corporation Limited\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"ComfortDelGro Corporation Limited\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"ComfortDelGro Corporation Limited\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"ComfortDelGro Corporation Limited\" Bus Captain interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"ComfortDelGro Corporation Limited\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://hk.jobsdb.com/companies/comfortdelgro-rent-a-car-168555133742280",
+    "status": "ok",
+    "chars": 3134,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.cdgtaxi.com.sg/contact",
+    "status": "thin",
+    "chars": 229,
+    "note": "fewer than 400 characters of real content",
+    "tier": "plain"
+   },
+   {
+    "url": "https://sginvestors.io/sgx/stock/c52-comfortdelgro/news-article",
+    "status": "ok",
+    "chars": 3488,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://hyring.com/company/comfortdelgro",
+    "status": "ok",
+    "chars": 4341,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.mycareersfuture.gov.sg/job/bus-captain-comfortdelgro-bus-1a6ce05df15b49a35a30d37a3a3a43f6",
+    "status": "ok",
+    "chars": 1507,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.comfortdelgro.com/your-career-our-future/career-opportunities",
+    "status": "ok",
+    "chars": 6695,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.comfortdelgrobus.com.sg/careers",
+    "status": "ok",
+    "chars": 5910,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Comfortdelgro-Corporation-Limited",
+    "status": "ok",
+    "chars": 17903,
+    "note": null,
+    "tier": "render"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.com/Overview/Working-at-ComfortDelGro-EI_IE16161.11,24.htm",
+    "title": "Working at ComfortDelGro | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Comfortdelgro/reviews",
+    "title": "Working at ComfortDelGro: 50 Reviews | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/comfortdelgro-168554962952764/reviews",
+    "title": "Reviews ComfortDelGro employee ratings and reviews | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/comfortdelgro-168554962952764",
+    "title": "Working at ComfortDelGro company profile and information | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/ComfortDelGro-Reviews-E16161.htm",
+    "title": "ComfortDelGro Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/ComfortDelGro-Reviews-E16161.htm",
+    "title": "ComfortDelGro Reviews (271): Pros & Cons of Working At ... - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/ComfortDelGro-Executivo-Reviews-EI_IE16161.0,13_KO14,23.htm",
+    "title": "ComfortDelGro Executivo Reviews | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.facebook.com/groups/complaintsingapore/posts/1929113637535521",
+    "title": "COMPLAINT SINGAPORE | ComfortDELGRO taxi driver scam: super …",
+    "why": "link out only (facebook.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/comfortdelgro-168554962952764/salaries/bus-captain",
+    "title": "Bus Captain Salary Estimate at ComfortDelGro (Singapore) | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/ComfortDelGro-Bus-jobs",
+    "title": "ComfortDelGro Bus Jobs in Singapore (with Salaries) - Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Salary/ComfortDelGro-Salaries-E16161.htm",
+    "title": "341 Salaries at ComfortDelGro Shared by Employees | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "comfortdelgro corporation"
+   ],
+   "pages_with_exact_name": 5,
+   "snippets_with_exact_name": 8,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 13,
+  "registry_mirror_pages": 1
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (6 pages read, model: None)"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://www.cdgtaxi.com.sg/contact",
+   "why": "thin: fewer than 400 characters of real content"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.com/Overview/Working-at-ComfortDelGro-EI_IE16161.11,24.htm",
+   "title": "Working at ComfortDelGro | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Comfortdelgro/reviews",
+   "title": "Working at ComfortDelGro: 50 Reviews | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/comfortdelgro-168554962952764/reviews",
+   "title": "Reviews ComfortDelGro employee ratings and reviews | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/comfortdelgro-168554962952764",
+   "title": "Working at ComfortDelGro company profile and information | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/ComfortDelGro-Reviews-E16161.htm",
+   "title": "ComfortDelGro Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/ComfortDelGro-Reviews-E16161.htm",
+   "title": "ComfortDelGro Reviews (271): Pros & Cons of Working At ... - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/ComfortDelGro-Executivo-Reviews-EI_IE16161.0,13_KO14,23.htm",
+   "title": "ComfortDelGro Executivo Reviews | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.facebook.com/groups/complaintsingapore/posts/1929113637535521",
+   "title": "COMPLAINT SINGAPORE | ComfortDELGRO taxi driver scam: super …",
+   "why": "link out only (facebook.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/comfortdelgro-168554962952764/salaries/bus-captain",
+   "title": "Bus Captain Salary Estimate at ComfortDelGro (Singapore) | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/ComfortDelGro-Bus-jobs",
+   "title": "ComfortDelGro Bus Jobs in Singapore (with Salaries) - Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Salary/ComfortDelGro-Salaries-E16161.htm",
+   "title": "341 Salaries at ComfortDelGro Shared by Employees | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 56.0,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

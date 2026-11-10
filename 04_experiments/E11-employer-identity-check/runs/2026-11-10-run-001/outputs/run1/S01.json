@@ -1,0 +1,541 @@
+{
+ "employer": "Ya Kun International Private Limited",
+ "role": "Kitchen Assistant",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "YA KUN INTERNATIONAL PTE LTD is registered in Singapore (status: Live Company, registered 2001-07-16).",
+  "basis": "name only",
+  "entity": {
+   "uen": "200104668W",
+   "name": "YA KUN INTERNATIONAL PTE LTD",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2001-07-16",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Ya Kun International Private Limited\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Ya Kun International Private Limited\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Ya Kun International Private Limited\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Ya Kun International Private Limited\" Kitchen Assistant interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"YA KUN INTERNATIONAL PTE LTD\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://recordowl.com/company/ya-kun-international-pte-ltd",
+    "status": "ok",
+    "chars": 5322,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.emis.com/php/company-profile/SG/Ya_Kun_International_Pte_Ltd_en_9341431.html",
+    "status": "ok",
+    "chars": 1296,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.companies.sg/business/200104668W/YA-KUN-INTERNATIONAL-PTE-LTD",
+    "status": "error",
+    "chars": 0,
+    "note": "",
+    "tier": null
+   },
+   {
+    "url": "https://rocketreach.co/ya-kun-international-pte-ltd-profile_b40e4a2fffe700de",
+    "status": "thin",
+    "chars": 262,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.bizapore.com/en/ya-kun-international-pte-ltd_2C-6222-4567",
+    "status": "irrelevant",
+    "chars": 460,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://sgpgrid.com/company/ya-kun-international-pte-ltd-ID0000",
+    "status": "irrelevant",
+    "chars": 460,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Ya-Kun-International-Pte-Ltd",
+    "status": "ok",
+    "chars": 11185,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://opengovsg.com/corporate/200104668W",
+    "status": "ok",
+    "chars": 4748,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.linkedin.com/company/ya-kun-international",
+    "title": "Ya Kun International Pte Ltd - LinkedIn",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/Ya-Kun-Cafe-jobs",
+    "title": "Ya Kun Cafe Jobs in Singapore (with Salaries) - Oct 2026 | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Ya-Kun-International-Pte-Ltd/salaries",
+    "title": "Ya Kun International Pte Ltd Salaries in Singapore - Indeed",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/ya-kun-jobs",
+    "title": "Ya Kun Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Ya-Kun-(s)-Pte-Ltd/salaries",
+    "title": "Ya Kun (S) Pte Ltd Salaries in Singapore | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Overview/Working-at-Ya-Kun-EI_IE1460468.11,17.htm",
+    "title": "Working at Ya Kun | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Salary/Ya-Kun-Singapore-Salaries-EI_IE1460468.0,6_IL.7,16_IM1123.htm",
+    "title": "Ya Kun Salaries in Singapore - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Ya-Kun-Reviews-E1460468.htm",
+    "title": "Ya Kun Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/Ya-Kun-Singapore-Reviews-EI_IE1460468.0,6_IL.7,16_IN217.htm",
+    "title": "Ya Kun Reviews in Singapore | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "ya kun international"
+   ],
+   "pages_with_exact_name": 4,
+   "snippets_with_exact_name": 16,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 17,
+  "registry_mirror_pages": 2
+ },
+ "headline": "exists_and_consistent",
+ "headline_meaning": "Registered in Singapore, and public sources agree it is the company named.",
+ "reasons": [
+  "registry: confirmed",
+  "model: consistent across 2 pages"
+ ],
+ "brief": {
+  "confidence": "high",
+  "could_not_verify": [
+   "Exact number of employees working as kitchen staff",
+   "Specific salary or benefits for the Kitchen Assistant role",
+   "Detailed job description for Kitchen Assistant"
+  ],
+  "key_facts": [
+   {
+    "claim": "Legal name is YA KUN INTERNATIONAL PTE LTD",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Legal name: YA KUN INTERNATIONAL PTE LTD",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://opengovsg.com/corporate/200104668W",
+      "quote": "Entity Name | YA KUN INTERNATIONAL PTE LTD",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Company ID (UEN) is 200104668W",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Company ID: 200104668W",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://opengovsg.com/corporate/200104668W",
+      "quote": "Unique Entity Number (UEN) | 200104668W",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Status is Live Company",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Status: Live Company",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://opengovsg.com/corporate/200104668W",
+      "quote": "Entity Status | Live Company",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Incorporated on 16 July 2001",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Registered: 2001-07-16",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://opengovsg.com/corporate/200104668W",
+      "quote": "Incorporation Date | 2001-07-16",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Registered address is 237 Alexandra Road #03-09/10 The Alexcier, Singapore 159929",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/ya-kun-international-pte-ltd",
+      "quote": "Registered address - 237 ALEXANDRA ROAD #03-09/10 THE ALEXCIER SINGAPORE 159929",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://opengovsg.com/corporate/200104668W",
+      "quote": "Street Address | 237 Alexandra Road #03-09/10 The Alexcier Singapore 159929",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Principal activity is Other Holding Companies (SSIC 64202)",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/ya-kun-international-pte-ltd",
+      "quote": "Its principal activity is OTHER HOLDING COMPANIES",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://opengovsg.com/corporate/200104668W",
+      "quote": "Primary SSIC Code | 64202: OTHER HOLDING COMPANIES",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Secondary activity is Management Consultancy Services N.E.C. (SSIC 70209)",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/ya-kun-international-pte-ltd",
+      "quote": "Its secondary activity is MANAGEMENT CONSULTANCY SERVICES N.E.C.",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://opengovsg.com/corporate/200104668W",
+      "quote": "Secondary SSIC Code | 70209: MANAGEMENT CONSULTANCY SERVICES N.E.C.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "The company operates the Ya Kun Kaya Toast food‑and‑beverage brand",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/ya-kun-international-pte-ltd",
+      "quote": "Ya Kun International Pte Ltd is the Singapore‑based company behind Ya Kun Kaya Toast",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 7,
+      "url": "https://www.sgpbusiness.com/company/Ya-Kun-International-Pte-Ltd",
+      "quote": "Ya Kun Kaya Toast strives to establish itself as a household name in Singapore",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Paid‑up capital is S$300,000",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/ya-kun-international-pte-ltd",
+      "quote": "paid up capital of S$300,000",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 7,
+      "url": "https://www.sgpbusiness.com/company/Ya-Kun-International-Pte-Ltd",
+      "quote": "Paid‑up capital | S$300,000",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Company has 7 officers/directors",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/ya-kun-international-pte-ltd",
+      "quote": "The Company has 7 officers, owners and shareholders",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://opengovsg.com/corporate/200104668W",
+      "quote": "Number Officers | 7",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "Company is live and has been operating for over 25 years",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Status: Live Company",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/ya-kun-international-pte-ltd",
+      "quote": "Company age - 25 years, 3 months",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Well‑known local F&B brand with multiple outlets in Singapore",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/ya-kun-international-pte-ltd",
+      "quote": "Ya Kun Kaya Toast ... a well‑known Hainanese coffee shop chain",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 7,
+      "url": "https://www.sgpbusiness.com/company/Ya-Kun-International-Pte-Ltd",
+      "quote": "Ya Kun Kaya Toast strives to establish itself as a household name",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Contact number publicly listed as +65‑6222‑4567",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/ya-kun-international-pte-ltd",
+      "quote": "Contact number - 6222 4567",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 7,
+      "url": "https://www.sgpbusiness.com/company/Ya-Kun-International-Pte-Ltd",
+      "quote": "PHONE | +65-62224567",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Company maintains an official website (yakun.com)",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/ya-kun-international-pte-ltd",
+      "quote": "Website - yakun.com",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 7,
+      "url": "https://www.sgpbusiness.com/company/Ya-Kun-International-Pte-Ltd",
+      "quote": "WEBSITE | www.yakun.com.sg",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "red_flags": [],
+  "validity_reasoning": "Multiple independent official sources (registry record, ACRA listing, corporate profile pages) consistently confirm the company's legal name, UEN, status, incorporation date, address, activities, and brand ownership. No conflicting information was found.",
+  "claims_verified": 14,
+  "claims_unverified": 0,
+  "model_validity_status": "appears_real_and_consistent"
+ },
+ "could_not_read": [
+  {
+   "url": "https://www.companies.sg/business/200104668W/YA-KUN-INTERNATIONAL-PTE-LTD",
+   "why": "error: "
+  },
+  {
+   "url": "https://rocketreach.co/ya-kun-international-pte-ltd-profile_b40e4a2fffe700de",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://www.bizapore.com/en/ya-kun-international-pte-ltd_2C-6222-4567",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://sgpgrid.com/company/ya-kun-international-pte-ltd-ID0000",
+   "why": "irrelevant: the page never mentions the company name"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://sg.linkedin.com/company/ya-kun-international",
+   "title": "Ya Kun International Pte Ltd - LinkedIn",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/Ya-Kun-Cafe-jobs",
+   "title": "Ya Kun Cafe Jobs in Singapore (with Salaries) - Oct 2026 | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Ya-Kun-International-Pte-Ltd/salaries",
+   "title": "Ya Kun International Pte Ltd Salaries in Singapore - Indeed",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/ya-kun-jobs",
+   "title": "Ya Kun Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Ya-Kun-(s)-Pte-Ltd/salaries",
+   "title": "Ya Kun (S) Pte Ltd Salaries in Singapore | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Overview/Working-at-Ya-Kun-EI_IE1460468.11,17.htm",
+   "title": "Working at Ya Kun | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Salary/Ya-Kun-Singapore-Salaries-EI_IE1460468.0,6_IL.7,16_IM1123.htm",
+   "title": "Ya Kun Salaries in Singapore - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Ya-Kun-Reviews-E1460468.htm",
+   "title": "Ya Kun Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Ya-Kun-Singapore-Reviews-EI_IE1460468.0,6_IL.7,16_IN217.htm",
+   "title": "Ya Kun Reviews in Singapore | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Exact number of employees working as kitchen staff",
+  "Specific salary or benefits for the Kitchen Assistant role",
+  "Detailed job description for Kitchen Assistant"
+ ],
+ "seconds": 168.7,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

@@ -1,0 +1,277 @@
+{
+ "employer": "Adecco Personnel Pte Ltd",
+ "role": "IT Project Manager",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 1247 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "ADECCO PERSONNEL PTE LTD is registered in Singapore (status: Live Company, registered 1985-01-22).",
+  "basis": "name only",
+  "entity": {
+   "uen": "198500164K",
+   "name": "ADECCO PERSONNEL PTE LTD",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1985-01-22",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Adecco Personnel Pte Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Adecco Personnel Pte Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Adecco Personnel Pte Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Adecco Personnel Pte Ltd\" IT Project Manager interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Adecco Personnel Pte Ltd\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.maukerja.my/en/company/adecco-personnel-pte-ltd",
+    "status": "ok",
+    "chars": 3160,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://orchardmalls.com/shop/adecco-personnel-pte-ltd-shaw-centre/reviews",
+    "status": "ok",
+    "chars": 3485,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.adeccogroup.com/candidates-fraud-awareness",
+    "status": "ok",
+    "chars": 4797,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://dataford.io/interview-guides/adecco/project-manager",
+    "status": "thin",
+    "chars": 120,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.adecco.com/en-sg/resources/salary-guide",
+    "status": "irrelevant",
+    "chars": 507,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.adecco.com/en-sg/resources/salary-guide/form",
+    "status": "thin",
+    "chars": 272,
+    "note": "fewer than 400 characters of real content",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Adecco-Personnel-Pte-Ltd",
+    "status": "ok",
+    "chars": 16227,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/business/198500164K/ADECCO-PERSONNEL-PTE-LTD",
+    "status": "ok",
+    "chars": 13547,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.indeed.com/cmp/Adecco/reviews",
+    "title": "Working at Adecco: Employee Reviews | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/Adecco-Singapore-Reviews-EI_IE1089.0,6_IL.7,16_IN217.htm",
+    "title": "Adecco Reviews in Singapore | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Adecco-Reviews-E1089.htm",
+    "title": "Adecco Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/adecco-177432365537119",
+    "title": "Working at Adecco company profile and information | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://my.jobstreet.com/companies/adecco-personnel-168490975813230/reviews",
+    "title": "Reviews Adecco Personnel employee ratings and reviews | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/adecco-177432365537119/salaries/information-technology-project-manager",
+    "title": "Information Technology Project Manager Salary Estimate at Adecco ...",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Adecco/salaries/project-manager",
+    "title": "Project Manager Salaries in Singapore for Adecco | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/adecco-177432365537119/salaries/project-manager",
+    "title": "Project Manager Salary Estimate at Adecco (Singapore) | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Adecco-Personnel-Pte.-Ltd./salaries",
+    "title": "Adecco Personnel Pte. Ltd. Salaries in Singapore | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Interview/Adecco-Interview-Questions-E1089.htm",
+    "title": "Adecco Interview Questions (2026) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "adecco personnel"
+   ],
+   "pages_with_exact_name": 3,
+   "snippets_with_exact_name": 12,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 15,
+  "registry_mirror_pages": 2
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (3 pages read, model: None)"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://dataford.io/interview-guides/adecco/project-manager",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://www.adecco.com/en-sg/resources/salary-guide",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.adecco.com/en-sg/resources/salary-guide/form",
+   "why": "thin: fewer than 400 characters of real content"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://sg.indeed.com/cmp/Adecco/reviews",
+   "title": "Working at Adecco: Employee Reviews | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Adecco-Singapore-Reviews-EI_IE1089.0,6_IL.7,16_IN217.htm",
+   "title": "Adecco Reviews in Singapore | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Adecco-Reviews-E1089.htm",
+   "title": "Adecco Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/adecco-177432365537119",
+   "title": "Working at Adecco company profile and information | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://my.jobstreet.com/companies/adecco-personnel-168490975813230/reviews",
+   "title": "Reviews Adecco Personnel employee ratings and reviews | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/adecco-177432365537119/salaries/information-technology-project-manager",
+   "title": "Information Technology Project Manager Salary Estimate at Adecco ...",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Adecco/salaries/project-manager",
+   "title": "Project Manager Salaries in Singapore for Adecco | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/adecco-177432365537119/salaries/project-manager",
+   "title": "Project Manager Salary Estimate at Adecco (Singapore) | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Adecco-Personnel-Pte.-Ltd./salaries",
+   "title": "Adecco Personnel Pte. Ltd. Salaries in Singapore | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Interview/Adecco-Interview-Questions-E1089.htm",
+   "title": "Adecco Interview Questions (2026) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 63.1,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

@@ -1,0 +1,46 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "create-job_seeker-0",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T09:55:03Z",
+ "latency_s": 1.5,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1400,
+  "temperature": 0.9,
+  "response_format": {
+   "type": "json_object"
+  },
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are the Persona Creator for JobHub, a research project on job-search intelligence in Singapore.\nYou create FICTIONAL simulation personas for testing. Rules:\n- Every persona is invented. Never use a real person, a real company's staff, or identifiable details.\n- Vary the personas along the requested axes so the set is not clustered. Do not default to one profile.\n- Describe circumstances and behaviour, not protected characteristics as a basis for judgement. Include\n  age band, citizenship or work-pass status, or family situation ONLY where the brief makes it relevant to the task.\n- Give each persona realistic limits: what they do not know, where they get impatient, what they would skip.\n- Do not make any persona an expert, enthusiastic or compliant by default.\n- Output JSON only."
+  },
+  {
+   "role": "user",
+   "content": "Brief: A job seeker who NEVER prepares for interviews: they turn up and rely on being themselves, and see preparation as unnecessary or fake. Had an interview in the last 6 months.\nKind of persona: job_seeker (a person looking for work in Singapore)\nNumber of personas: 1\nVariation axes (spread the set across these): why they do not prepare, confidence, how interviews went\nTask context (what the personas will be asked to do; do not answer it): a research interview about how they prepared for their latest job interview\n\nReturn JSON: {\"personas\": [{\n  \"persona_id\": \"short-slug\",\n  \"kind\": \"job_seeker\",\n  \"label\": \"6-10 word description\",\n  \"first_name\": \"fictional first name\",\n  \"background\": \"2-3 sentences, no identifying detail\",\n  \"situation_now\": \"what they are doing about work/hiring right now\",\n  \"goals\": [\"...\"],\n  \"constraints\": [\"time, money, status, confidence, digital skill ...\"],\n  \"digital_comfort\": \"low|medium|high\",\n  \"reading_style\": \"how they read documents (skims, reads every word, trusts headlines ...)\",\n  \"attitude_to_ai\": \"short\",\n  \"known_gaps\": [\"things they do not know or would get wrong\"],\n  \"biases_or_habits\": [\"...\"],\n  \"voice\": \"how they speak, 1 sentence\",\n  \"simulation_notes\": \"anything the runner must keep in mind (e.g. would abandon after 3 minutes)\"\n}]}"
+  }
+ ],
+ "content": "{\n  \"personas\": [\n    {\n      \"persona_id\": \"no-prep-spontaneity\",\n      \"kind\": \"job_seeker\",\n      \"label\": \"Spontaneous interviewee who avoids preparation\",\n      \"first_name\": \"Jian\",\n      \"background\": \"Jian is a 28‑year‑old Singapore‑born graduate with a degree in communications. He has bounced between short‑term gigs in retail and event support, never staying long enough to build deep expertise. He values authenticity over polish and believes his personality will sell itself.\",\n      \"situation_now\": \"Currently applying to a few entry‑level marketing coordinator roles while doing part‑time barista work to cover rent.\",\n      \"goals\": [\n        \"Secure a full‑time position in a creative team within three months\",\n        \"Earn enough to move out of his parents' flat\",\n        \"Gain a role where he can talk openly without rehearsed scripts\"\n      ],\n      \"constraints\": [\n        \"Limited budget for interview attire\",\n        \"Low confidence in technical knowledge of digital marketing tools\",\n        \"Time pressure from part‑time shift schedule\"\n      ],\n      \"digital_comfort\": \"medium\",\n      \"reading_style\": \"Skims headlines and bullet points; skips dense paragraphs\",\n      \"attitude_to_ai\": \"Skeptical, thinks AI answers feel scripted\",\n      \"known_gaps\": [\n        \"Doesn't know how to research company culture beforehand\",\n        \"Unaware of common competency‑based interview formats\",\n        \"May misinterpret technical jargon during interviews\"\n      ],\n      \"biases_or_habits\": [\n        \"Avoids any pre‑interview checklist, seeing it as fake\",\n        \"Relies on last‑minute pep talks from friends\",\n        \"Tends to over‑talk when nervous, filling silence with anecdotes\"\n      ],\n      \"voice\": \"Casual, upbeat, often throws in colloquial singlish phrases.\",\n      \"simulation_notes\": \"If the interview discussion drifts into detailed prep strategies, Jian will become defensive and may cut the session short after about 4 minutes.\"\n    }\n  ]\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 475,
+  "prompt_tokens": 592,
+  "total_tokens": 1067,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 28,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.3705147,
+  "prompt_time": 0.02833009,
+  "completion_time": 0.995408495,
+  "total_time": 1.023738585
+ },
+ "cached": false
+}

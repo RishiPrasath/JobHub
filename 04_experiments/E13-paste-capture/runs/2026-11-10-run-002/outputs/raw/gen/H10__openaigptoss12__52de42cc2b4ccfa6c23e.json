@@ -1,0 +1,39 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "H10",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:05:54Z",
+ "latency_s": 1.35,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1100,
+  "temperature": 0.8,
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "user",
+   "content": "Write the raw text that a person would get by pressing Select All then Copy on a company careers page job page in Singapore, for a fictional employer and a made-up job. Output the pasted text ONLY: no commentary, no markdown, no code fences. Include realistic page furniture (menu text, buttons, banners, footer links). Target 250 to 400 words. Requirements for this paste:\n- duties and requirements are in one prose paragraph, no headings\n- employer named\n- NO pay mentioned\n- NO closing date mentioned\n- includes a cookie banner and a newsletter signup block in the middle of the text\nToday is 2026-11-10; any dates you write must be in November or December 2026."
+  }
+ ],
+ "content": "Home  About Us  Careers  Contact  Blog  \n\nSingapore | Asia Pacific  \n\n[Company Logo]  \n\nInnovateTech Solutions  \n\nJoin Our Team – Business Development Manager (Singapore)  \n\nInnovateTech Solutions is a leading provider of AI‑driven enterprise software, empowering businesses across Asia Pacific to accelerate digital transformation. We are seeking a dynamic Business Development Manager to drive market expansion, forge strategic partnerships, and lead the sales cycle from prospecting to closing. In this role you will identify new business opportunities, build and maintain relationships with key stakeholders, develop and execute go‑to‑market strategies, conduct market research and competitive analysis, negotiate contracts, and collaborate closely with product, marketing and customer success teams to ensure seamless delivery and client satisfaction; the ideal candidate will have a bachelor’s degree in Business, Marketing or a related field, at least 5 years of B2B sales experience in the technology sector, proven track record of exceeding revenue targets, strong communication and presentation skills, fluency in English and Mandarin, ability to work independently in a fast‑paced environment, and a deep understanding of the Singapore enterprise market and SaaS business models.  \n\n[Cookie Banner] We use cookies to enhance your experience. By continuing to browse you agree to our use of cookies.  Accept  Manage Settings  \n\nSubscribe to our newsletter for the latest career opportunities and company news  \n\nEnter your email address  \n\n[Subscribe]  \n\nWhy work with us?  \n\n- Innovative culture that encourages creativity and continuous learning  \n- Collaborative global team with diverse perspectives  \n- Comprehensive health and wellness benefits  \n- Professional development programs and tuition reimbursement  \n- Flexible work arrangements and modern office spaces  \n\nApply Now  \n\n[Apply]  \n\n© 2026 InnovateTech Solutions. All rights reserved.  \n\nPrivacy Policy  Terms of Use  Cookie Policy  Contact Us  Careers  Site Map  \n\nLinkedIn  Twitter  Facebook  YouTube  ",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 470,
+  "prompt_tokens": 219,
+  "total_tokens": 689,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 64,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.00766645,
+  "prompt_time": 0.009843904,
+  "completion_time": 0.991124256,
+  "total_time": 1.00096816
+ },
+ "cached": false
+}

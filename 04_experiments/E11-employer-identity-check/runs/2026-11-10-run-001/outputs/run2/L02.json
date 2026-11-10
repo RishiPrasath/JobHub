@@ -1,0 +1,232 @@
+{
+ "employer": "Keppel Ltd",
+ "role": "Project Engineer",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 2925 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "KEPPEL LTD. is registered in Singapore (status: Live Company, registered 1968-08-03).",
+  "basis": "name only",
+  "entity": {
+   "uen": "196800351N",
+   "name": "KEPPEL LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1968-08-03",
+   "activity": "INVESTMENT HOLDING AND MANAGEMENT COMPANY"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Keppel Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": null,
+    "results": 0,
+    "error": null
+   },
+   {
+    "query": "\"Keppel Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Keppel Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Keppel Ltd\" Project Engineer interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"KEPPEL LTD.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://sginvestors.io/sgx/stock/bn4-keppel-corp/company-announcement",
+    "status": "ok",
+    "chars": 1243,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://jobbridge.io/blog/salary-guide/Keppel/singapore",
+    "status": "ok",
+    "chars": 7211,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Keppel-Ltd",
+    "status": "ok",
+    "chars": 13578,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/business/196800351N/KEPPEL-LTD-",
+    "status": "ok",
+    "chars": 60000,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.companies.sg/business/196800351N/KEPPEL-LTD",
+    "status": "ok",
+    "chars": 60000,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://recordowl.com/company/keppel-corporation-limited",
+    "status": "ok",
+    "chars": 10228,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://opengovsg.com/corporate/196800351N",
+    "status": "ok",
+    "chars": 4820,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.scam.sg/companies/196800351N/keppel-ltd",
+    "status": "ok",
+    "chars": 7830,
+    "note": null,
+    "tier": "render"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.jobstreet.com/companies/keppel-168558913195354/salaries/project-engineer",
+    "title": "Project Engineer salary at Keppel - Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Interview/Keppel-Corporation-Interview-Questions-E8078.htm",
+    "title": "Keppel Corporation Interview Questions (2026) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/keppel-corporation-168558913195354/salaries/engineer",
+    "title": "Engineer Salary Estimate at Keppel Corporation (Singapore) | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Interview/Keppel-Singapore-Interview-Questions-EI_IE8078.0,6_IL.7,16_IM1123.htm",
+    "title": "Keppel Corporation Interview Questions in Singapore - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Salary/Keppel-Corporation-Singapore-Salaries-EI_IE8078.0,18_IL.19,28_IM1123.htm",
+    "title": "Keppel Corporation Salaries in Singapore | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com.hk/Interview/Keppel-Corporation-Interview-Questions-E8078.htm",
+    "title": "84 Keppel Corporation Interview Questions & Answers (2026)",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Keppel-Corporation/salaries",
+    "title": "Keppel Corporation Salaries in Singapore | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "keppel"
+   ],
+   "pages_with_exact_name": 8,
+   "snippets_with_exact_name": 17,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 15,
+  "registry_mirror_pages": 5
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (3 pages read, model: None)"
+ ],
+ "brief": null,
+ "could_not_read": [],
+ "link_out": [
+  {
+   "url": "https://sg.jobstreet.com/companies/keppel-168558913195354/salaries/project-engineer",
+   "title": "Project Engineer salary at Keppel - Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Interview/Keppel-Corporation-Interview-Questions-E8078.htm",
+   "title": "Keppel Corporation Interview Questions (2026) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/keppel-corporation-168558913195354/salaries/engineer",
+   "title": "Engineer Salary Estimate at Keppel Corporation (Singapore) | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Interview/Keppel-Singapore-Interview-Questions-EI_IE8078.0,6_IL.7,16_IM1123.htm",
+   "title": "Keppel Corporation Interview Questions in Singapore - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Salary/Keppel-Corporation-Singapore-Salaries-EI_IE8078.0,18_IL.19,28_IM1123.htm",
+   "title": "Keppel Corporation Salaries in Singapore | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com.hk/Interview/Keppel-Corporation-Interview-Questions-E8078.htm",
+   "title": "84 Keppel Corporation Interview Questions & Answers (2026)",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Keppel-Corporation/salaries",
+   "title": "Keppel Corporation Salaries in Singapore | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 43.7,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

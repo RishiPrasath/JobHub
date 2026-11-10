@@ -1,0 +1,43 @@
+"""Hand-written stale-rule test cases. Expected values are written by hand from the rule in
+protocol/operational-definitions.md (notice if closing date < today in Singapore, or age > 7 days exactly)."""
+import json, pathlib
+OUT = pathlib.Path(__file__).resolve().parent.parent
+C = []
+def c(cid, cap, closing, now, expected, reasons, why):
+    C.append({"id": cid, "captured_at": cap, "closing_date": closing, "now": now, "expected_notice": expected,
+              "expected_reasons": reasons, "why": why})
+c("R01","2026-11-03T09:00:00+08:00",None,"2026-11-10T09:00:00+08:00",False,[],"age exactly 7 days is not older than 7 days")
+c("R02","2026-11-03T09:00:00+08:00",None,"2026-11-10T09:00:01+08:00",True,["snapshot_old"],"age 7 days and 1 second")
+c("R03","2026-11-03T09:00:00+08:00",None,"2026-11-10T08:59:00+08:00",False,[],"age 6 days 23 h 59 min")
+c("R04","2026-11-01T12:00:00+08:00",None,"2026-11-10T12:00:00+08:00",True,["snapshot_old"],"9 days old, no closing date")
+c("R05","2026-11-10T09:00:00+08:00",None,"2026-11-10T10:00:00+08:00",False,[],"1 hour old, no closing date")
+c("R06","2026-10-01T09:00:00+08:00",None,"2026-11-10T09:00:00+08:00",True,["snapshot_old"],"40 days old")
+c("R07","2026-11-09T10:00:00+08:00","2026-11-09","2026-11-10T10:00:00+08:00",True,["closing_passed"],"closed yesterday")
+c("R08","2026-11-09T10:00:00+08:00","2026-11-10","2026-11-10T23:59:59+08:00",False,[],"closes today, not yet passed")
+c("R09","2026-11-09T10:00:00+08:00","2026-11-10","2026-11-11T00:00:00+08:00",True,["closing_passed"],"first second after the closing day")
+c("R10","2026-11-09T10:00:00+08:00","2026-11-11","2026-11-10T10:00:00+08:00",False,[],"closes tomorrow")
+c("R11","2026-11-09T10:00:00+08:00","2026-11-30","2026-11-10T10:00:00+08:00",False,[],"fresh, closing in 20 days")
+c("R12","2026-11-01T09:00:00+08:00","2026-11-05","2026-11-10T09:00:00+08:00",True,["closing_passed","snapshot_old"],"both conditions")
+c("R13","2026-11-01T09:00:00+08:00","2026-12-05","2026-11-10T09:00:00+08:00",True,["snapshot_old"],"old snapshot, open posting")
+c("R14","2026-11-09T09:00:00+08:00","2026-11-05","2026-11-10T09:00:00+08:00",True,["closing_passed"],"already closed when pasted")
+c("R15","2026-11-10T09:00:00+08:00","2026-11-10","2026-11-10T09:30:00+08:00",False,[],"pasted on the closing day")
+c("R16","2026-11-09T09:00:00+08:00","2026-11-10","2026-11-10T16:30:00Z",True,["closing_passed"],"16:30 UTC is 00:30 on 11 Nov in Singapore")
+c("R17","2026-11-09T09:00:00+08:00","2026-11-10","2026-11-10T15:30:00Z",False,[],"15:30 UTC is 23:30 on 10 Nov in Singapore")
+c("R18","2026-11-03T01:00:00Z",None,"2026-11-10T00:59:59Z",False,[],"UTC inputs, 6 d 23 h 59 min 59 s")
+c("R19","2026-11-03T01:00:00Z",None,"2026-11-10T01:00:01Z",True,["snapshot_old"],"UTC inputs, 7 d 1 s")
+c("R20","2026-11-10T08:00:00+08:00",None,"2026-11-17T07:00:00+08:00",False,[],"6 d 23 h")
+c("R21","2026-11-10T08:00:00+08:00",None,"2026-11-17T08:00:00+08:00",False,[],"exactly 7 d")
+c("R22","2026-11-10T08:00:00+08:00",None,"2026-11-17T08:00:01+08:00",True,["snapshot_old"],"7 d 1 s")
+c("R23","2026-11-10T08:00:00+08:00",None,"2026-12-10T08:00:00+08:00",True,["snapshot_old"],"30 days")
+c("R24","2026-09-01T09:00:00+08:00","2027-01-31","2026-11-10T09:00:00+08:00",True,["snapshot_old"],"far-future closing date, old snapshot")
+c("R25","2026-12-28T09:00:00+08:00","2026-12-31","2027-01-01T00:00:00+08:00",True,["closing_passed"],"year boundary")
+c("R26","2026-02-27T09:00:00+08:00","2026-02-28","2026-02-28T20:00:00+08:00",False,[],"month end, still open")
+c("R27","2026-02-27T09:00:00+08:00","2026-02-28","2026-03-01T00:00:00+08:00",True,["closing_passed"],"month end, passed")
+c("R28","2026-11-10T09:00:00+08:00",None,"2026-11-10T09:00:00+08:00",False,[],"zero age")
+c("R29","2026-11-08T09:00:00+08:00",None,"2026-11-12T09:00:00+08:00",False,[],"explicit absence of closing date, 4 days old")
+c("R30","2026-11-08T09:00:00+08:00","2026-11-12","2026-11-12T09:00:00+08:00",False,[],"closing day, 4 days old")
+c("R31","2026-11-08T09:00:00+08:00","2026-11-12","2026-11-13T09:00:00+08:00",True,["closing_passed"],"day after closing, 5 days old")
+c("R32","2026-11-01T09:00:00+08:00","2026-11-10","2026-11-08T09:00:00+08:00",False,[],"7 d exactly, closing in future")
+c("R33","2026-11-01T09:00:00+08:00","2026-11-10","2026-11-08T09:01:00+08:00",True,["snapshot_old"],"7 d 1 min, closing in future")
+(OUT / "stale_rule_cases.json").write_text(json.dumps({"note": "Hand-written. Expected values come from the rule, not from the code under test.", "cases": C}, indent=1), encoding="utf-8")
+print(len(C))

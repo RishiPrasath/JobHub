@@ -1,0 +1,337 @@
+{
+ "note": "Hand-written. Expected values come from the rule, not from the code under test.",
+ "cases": [
+  {
+   "id": "R01",
+   "captured_at": "2026-11-03T09:00:00+08:00",
+   "closing_date": null,
+   "now": "2026-11-10T09:00:00+08:00",
+   "expected_notice": false,
+   "expected_reasons": [],
+   "why": "age exactly 7 days is not older than 7 days"
+  },
+  {
+   "id": "R02",
+   "captured_at": "2026-11-03T09:00:00+08:00",
+   "closing_date": null,
+   "now": "2026-11-10T09:00:01+08:00",
+   "expected_notice": true,
+   "expected_reasons": [
+    "snapshot_old"
+   ],
+   "why": "age 7 days and 1 second"
+  },
+  {
+   "id": "R03",
+   "captured_at": "2026-11-03T09:00:00+08:00",
+   "closing_date": null,
+   "now": "2026-11-10T08:59:00+08:00",
+   "expected_notice": false,
+   "expected_reasons": [],
+   "why": "age 6 days 23 h 59 min"
+  },
+  {
+   "id": "R04",
+   "captured_at": "2026-11-01T12:00:00+08:00",
+   "closing_date": null,
+   "now": "2026-11-10T12:00:00+08:00",
+   "expected_notice": true,
+   "expected_reasons": [
+    "snapshot_old"
+   ],
+   "why": "9 days old, no closing date"
+  },
+  {
+   "id": "R05",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "closing_date": null,
+   "now": "2026-11-10T10:00:00+08:00",
+   "expected_notice": false,
+   "expected_reasons": [],
+   "why": "1 hour old, no closing date"
+  },
+  {
+   "id": "R06",
+   "captured_at": "2026-10-01T09:00:00+08:00",
+   "closing_date": null,
+   "now": "2026-11-10T09:00:00+08:00",
+   "expected_notice": true,
+   "expected_reasons": [
+    "snapshot_old"
+   ],
+   "why": "40 days old"
+  },
+  {
+   "id": "R07",
+   "captured_at": "2026-11-09T10:00:00+08:00",
+   "closing_date": "2026-11-09",
+   "now": "2026-11-10T10:00:00+08:00",
+   "expected_notice": true,
+   "expected_reasons": [
+    "closing_passed"
+   ],
+   "why": "closed yesterday"
+  },
+  {
+   "id": "R08",
+   "captured_at": "2026-11-09T10:00:00+08:00",
+   "closing_date": "2026-11-10",
+   "now": "2026-11-10T23:59:59+08:00",
+   "expected_notice": false,
+   "expected_reasons": [],
+   "why": "closes today, not yet passed"
+  },
+  {
+   "id": "R09",
+   "captured_at": "2026-11-09T10:00:00+08:00",
+   "closing_date": "2026-11-10",
+   "now": "2026-11-11T00:00:00+08:00",
+   "expected_notice": true,
+   "expected_reasons": [
+    "closing_passed"
+   ],
+   "why": "first second after the closing day"
+  },
+  {
+   "id": "R10",
+   "captured_at": "2026-11-09T10:00:00+08:00",
+   "closing_date": "2026-11-11",
+   "now": "2026-11-10T10:00:00+08:00",
+   "expected_notice": false,
+   "expected_reasons": [],
+   "why": "closes tomorrow"
+  },
+  {
+   "id": "R11",
+   "captured_at": "2026-11-09T10:00:00+08:00",
+   "closing_date": "2026-11-30",
+   "now": "2026-11-10T10:00:00+08:00",
+   "expected_notice": false,
+   "expected_reasons": [],
+   "why": "fresh, closing in 20 days"
+  },
+  {
+   "id": "R12",
+   "captured_at": "2026-11-01T09:00:00+08:00",
+   "closing_date": "2026-11-05",
+   "now": "2026-11-10T09:00:00+08:00",
+   "expected_notice": true,
+   "expected_reasons": [
+    "closing_passed",
+    "snapshot_old"
+   ],
+   "why": "both conditions"
+  },
+  {
+   "id": "R13",
+   "captured_at": "2026-11-01T09:00:00+08:00",
+   "closing_date": "2026-12-05",
+   "now": "2026-11-10T09:00:00+08:00",
+   "expected_notice": true,
+   "expected_reasons": [
+    "snapshot_old"
+   ],
+   "why": "old snapshot, open posting"
+  },
+  {
+   "id": "R14",
+   "captured_at": "2026-11-09T09:00:00+08:00",
+   "closing_date": "2026-11-05",
+   "now": "2026-11-10T09:00:00+08:00",
+   "expected_notice": true,
+   "expected_reasons": [
+    "closing_passed"
+   ],
+   "why": "already closed when pasted"
+  },
+  {
+   "id": "R15",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "closing_date": "2026-11-10",
+   "now": "2026-11-10T09:30:00+08:00",
+   "expected_notice": false,
+   "expected_reasons": [],
+   "why": "pasted on the closing day"
+  },
+  {
+   "id": "R16",
+   "captured_at": "2026-11-09T09:00:00+08:00",
+   "closing_date": "2026-11-10",
+   "now": "2026-11-10T16:30:00Z",
+   "expected_notice": true,
+   "expected_reasons": [
+    "closing_passed"
+   ],
+   "why": "16:30 UTC is 00:30 on 11 Nov in Singapore"
+  },
+  {
+   "id": "R17",
+   "captured_at": "2026-11-09T09:00:00+08:00",
+   "closing_date": "2026-11-10",
+   "now": "2026-11-10T15:30:00Z",
+   "expected_notice": false,
+   "expected_reasons": [],
+   "why": "15:30 UTC is 23:30 on 10 Nov in Singapore"
+  },
+  {
+   "id": "R18",
+   "captured_at": "2026-11-03T01:00:00Z",
+   "closing_date": null,
+   "now": "2026-11-10T00:59:59Z",
+   "expected_notice": false,
+   "expected_reasons": [],
+   "why": "UTC inputs, 6 d 23 h 59 min 59 s"
+  },
+  {
+   "id": "R19",
+   "captured_at": "2026-11-03T01:00:00Z",
+   "closing_date": null,
+   "now": "2026-11-10T01:00:01Z",
+   "expected_notice": true,
+   "expected_reasons": [
+    "snapshot_old"
+   ],
+   "why": "UTC inputs, 7 d 1 s"
+  },
+  {
+   "id": "R20",
+   "captured_at": "2026-11-10T08:00:00+08:00",
+   "closing_date": null,
+   "now": "2026-11-17T07:00:00+08:00",
+   "expected_notice": false,
+   "expected_reasons": [],
+   "why": "6 d 23 h"
+  },
+  {
+   "id": "R21",
+   "captured_at": "2026-11-10T08:00:00+08:00",
+   "closing_date": null,
+   "now": "2026-11-17T08:00:00+08:00",
+   "expected_notice": false,
+   "expected_reasons": [],
+   "why": "exactly 7 d"
+  },
+  {
+   "id": "R22",
+   "captured_at": "2026-11-10T08:00:00+08:00",
+   "closing_date": null,
+   "now": "2026-11-17T08:00:01+08:00",
+   "expected_notice": true,
+   "expected_reasons": [
+    "snapshot_old"
+   ],
+   "why": "7 d 1 s"
+  },
+  {
+   "id": "R23",
+   "captured_at": "2026-11-10T08:00:00+08:00",
+   "closing_date": null,
+   "now": "2026-12-10T08:00:00+08:00",
+   "expected_notice": true,
+   "expected_reasons": [
+    "snapshot_old"
+   ],
+   "why": "30 days"
+  },
+  {
+   "id": "R24",
+   "captured_at": "2026-09-01T09:00:00+08:00",
+   "closing_date": "2027-01-31",
+   "now": "2026-11-10T09:00:00+08:00",
+   "expected_notice": true,
+   "expected_reasons": [
+    "snapshot_old"
+   ],
+   "why": "far-future closing date, old snapshot"
+  },
+  {
+   "id": "R25",
+   "captured_at": "2026-12-28T09:00:00+08:00",
+   "closing_date": "2026-12-31",
+   "now": "2027-01-01T00:00:00+08:00",
+   "expected_notice": true,
+   "expected_reasons": [
+    "closing_passed"
+   ],
+   "why": "year boundary"
+  },
+  {
+   "id": "R26",
+   "captured_at": "2026-02-27T09:00:00+08:00",
+   "closing_date": "2026-02-28",
+   "now": "2026-02-28T20:00:00+08:00",
+   "expected_notice": false,
+   "expected_reasons": [],
+   "why": "month end, still open"
+  },
+  {
+   "id": "R27",
+   "captured_at": "2026-02-27T09:00:00+08:00",
+   "closing_date": "2026-02-28",
+   "now": "2026-03-01T00:00:00+08:00",
+   "expected_notice": true,
+   "expected_reasons": [
+    "closing_passed"
+   ],
+   "why": "month end, passed"
+  },
+  {
+   "id": "R28",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "closing_date": null,
+   "now": "2026-11-10T09:00:00+08:00",
+   "expected_notice": false,
+   "expected_reasons": [],
+   "why": "zero age"
+  },
+  {
+   "id": "R29",
+   "captured_at": "2026-11-08T09:00:00+08:00",
+   "closing_date": null,
+   "now": "2026-11-12T09:00:00+08:00",
+   "expected_notice": false,
+   "expected_reasons": [],
+   "why": "explicit absence of closing date, 4 days old"
+  },
+  {
+   "id": "R30",
+   "captured_at": "2026-11-08T09:00:00+08:00",
+   "closing_date": "2026-11-12",
+   "now": "2026-11-12T09:00:00+08:00",
+   "expected_notice": false,
+   "expected_reasons": [],
+   "why": "closing day, 4 days old"
+  },
+  {
+   "id": "R31",
+   "captured_at": "2026-11-08T09:00:00+08:00",
+   "closing_date": "2026-11-12",
+   "now": "2026-11-13T09:00:00+08:00",
+   "expected_notice": true,
+   "expected_reasons": [
+    "closing_passed"
+   ],
+   "why": "day after closing, 5 days old"
+  },
+  {
+   "id": "R32",
+   "captured_at": "2026-11-01T09:00:00+08:00",
+   "closing_date": "2026-11-10",
+   "now": "2026-11-08T09:00:00+08:00",
+   "expected_notice": false,
+   "expected_reasons": [],
+   "why": "7 d exactly, closing in future"
+  },
+  {
+   "id": "R33",
+   "captured_at": "2026-11-01T09:00:00+08:00",
+   "closing_date": "2026-11-10",
+   "now": "2026-11-08T09:01:00+08:00",
+   "expected_notice": true,
+   "expected_reasons": [
+    "snapshot_old"
+   ],
+   "why": "7 d 1 min, closing in future"
+  }
+ ]
+}

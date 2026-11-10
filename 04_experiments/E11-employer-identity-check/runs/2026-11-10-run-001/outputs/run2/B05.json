@@ -1,0 +1,259 @@
+{
+ "employer": "NTUC Income",
+ "role": "Financial Services Associate",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 1418 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'NTUC Income'. The closest registered name is NTUC INCOME HOLDINGS PTE. LTD., which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "201731790R",
+   "name": "NTUC INCOME HOLDINGS PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2017-11-06",
+   "activity": "na",
+   "alternatives": [
+    "NTUC INCOME TRAVEL & RECREATION CLUB",
+    "NTUC INCOME I-SHOP"
+   ]
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"NTUC Income\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"NTUC Income\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 7,
+    "error": null
+   },
+   {
+    "query": "\"NTUC Income\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"NTUC Income\" Financial Services Associate interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"NTUC Income\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.ambitionbox.com/reviews/ntuc-income-reviews/singapore-location",
+    "status": "blocked",
+    "chars": 245,
+    "note": "challenge or login-wall text",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.ambitionbox.com/reviews/ntuc-income-reviews",
+    "status": "blocked",
+    "chars": 226,
+    "note": "challenge or login-wall text",
+    "tier": "plain"
+   },
+   {
+    "url": "https://mplrs.com/e/ntuc-income-insurance-co-op-ltd",
+    "status": "ok",
+    "chars": 877,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.ntuc.org.sg/uportal/help-centre/scam-advisory",
+    "status": "ok",
+    "chars": 4224,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://spaces.ntuc.org.sg/news/How-NTUC-supports-workers-before-during-and-after-job-loss",
+    "status": "ok",
+    "chars": 6275,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.straitstimes.com/singapore/more-retrenched-pmes-seek-union-help-ntuc-flags-concerns-about-offshoring-and-ai-job-cuts",
+    "status": "ok",
+    "chars": 7873,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.ntuc.org.sg/uportal/how-we-help/retrenchment-support",
+    "status": "ok",
+    "chars": 4244,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.payscale.com/research/SG/Employer=NTUC_Income/Salary",
+    "status": "ok",
+    "chars": 2048,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.jobstreet.com/companies/ntuc-income-insurance-co-operative-168550030413422/reviews",
+    "title": "Reviews NTUC Income Insurance Co-operative employee ratings and …",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Income-Insurance-Limited-1/reviews",
+    "title": "Working at Income Insurance Limited: 68 Reviews | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/ntuc-income-insurance-co-operative-168550030413422",
+    "title": "Working at NTUC Income Insurance Co-operative company profile …",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Income-Insurance-Limited-Reviews-E377696.htm",
+    "title": "Income Insurance Limited Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Overview/Working-at-Income-Insurance-Limited-EI_IE377696.11,35.htm",
+    "title": "Working at Income Insurance Limited | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Interview/NTUC-Income-Insurance-Co-Op-Ltd-Interview-Questions-E377696.htm",
+    "title": "Income Insurance Limited interview questions - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Salary/Income-Insurance-Limited-Salaries-E377696.htm",
+    "title": "905 Salaries at Income Insurance Limited Shared by Employees",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Monthly-Pay/NTUC-Income-Insurance-Co-Op-Ltd-Financial-Services-Representative-Singapore-Monthly-Pay-EJI_IE377696.0,31_KO32,65_IL.66,75_IC3235921.htm",
+    "title": "Ntuc Income Insurance Co Op Ltd Financial Services Representative ...",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "ntuc income"
+   ],
+   "pages_with_exact_name": 2,
+   "snippets_with_exact_name": 14,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 11,
+  "registry_mirror_pages": 0
+ },
+ "headline": "brand_legal_entity_unconfirmed",
+ "headline_meaning": "Public sources describe a company by this name, but the registry has no entity with this exact name. It may trade under a brand name; the legal employer is not confirmed.",
+ "reasons": [
+  "registry: similar_name_only",
+  "exact name seen 16 times in sources"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://www.ambitionbox.com/reviews/ntuc-income-reviews/singapore-location",
+   "why": "blocked: challenge or login-wall text"
+  },
+  {
+   "url": "https://www.ambitionbox.com/reviews/ntuc-income-reviews",
+   "why": "blocked: challenge or login-wall text"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://sg.jobstreet.com/companies/ntuc-income-insurance-co-operative-168550030413422/reviews",
+   "title": "Reviews NTUC Income Insurance Co-operative employee ratings and …",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Income-Insurance-Limited-1/reviews",
+   "title": "Working at Income Insurance Limited: 68 Reviews | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/ntuc-income-insurance-co-operative-168550030413422",
+   "title": "Working at NTUC Income Insurance Co-operative company profile …",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Income-Insurance-Limited-Reviews-E377696.htm",
+   "title": "Income Insurance Limited Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Overview/Working-at-Income-Insurance-Limited-EI_IE377696.11,35.htm",
+   "title": "Working at Income Insurance Limited | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Interview/NTUC-Income-Insurance-Co-Op-Ltd-Interview-Questions-E377696.htm",
+   "title": "Income Insurance Limited interview questions - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Salary/Income-Insurance-Limited-Salaries-E377696.htm",
+   "title": "905 Salaries at Income Insurance Limited Shared by Employees",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Monthly-Pay/NTUC-Income-Insurance-Co-Op-Ltd-Financial-Services-Representative-Singapore-Monthly-Pay-EJI_IE377696.0,31_KO32,65_IL.66,75_IC3235921.htm",
+   "title": "Ntuc Income Insurance Co Op Ltd Financial Services Representative ...",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Which registered company is the legal employer behind this brand."
+ ],
+ "seconds": 56.7,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

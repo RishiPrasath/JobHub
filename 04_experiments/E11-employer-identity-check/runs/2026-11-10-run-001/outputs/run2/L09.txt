@@ -1,0 +1,18 @@
+NTUC FairPrice Co-operative Ltd  (role: Store Assistant)
+HEADLINE: likely_lookalike
+  No registered company has this exact name and no source uses it. The closest registered name
+  belongs to a different company. Treat the posting with caution.
+  because: registry: similar_name_only; closest registered name is a different entity; exact name
+  appears in no source
+REGISTRY: similar_name_only. No registered entity is named 'NTUC FairPrice Co-operative Ltd'. The closest registered name is NTUC FAIRPRICE FOUNDATION LTD., which may be a different company.
+WEB: 5 queries (bing, duckduckgo), 6 of 8 pages read, exact name seen in 0 pages and 0 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 1):
+  - Some of the over 3,900 retrenchment... - The Strai
+    https://www.facebook.com/TheStraitsTimes/posts/some-of-the-over-3900-retrenchmen
+COULD NOT READ (2):
+  - https://www.ampliz.com/company/ntuc-fairprice-co-operative-ltd/8207022  (irrelevant: the page
+    never mentions the company name)
+  - https://contactout.com/company/NTUC-FairPrice-5021  (thin: fewer than 400 characters of real
+    content)
+DEGRADED: summary_unavailable: model rate limit reached (retry in 1462 s)
+(13.9s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

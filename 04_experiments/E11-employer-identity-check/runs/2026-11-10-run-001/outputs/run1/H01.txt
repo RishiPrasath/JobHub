@@ -1,0 +1,24 @@
+Confidential Employer  (role: Marketing Manager)
+HEADLINE: likely_lookalike
+  No registered company has this exact name and no source uses it. The closest registered name
+  belongs to a different company. Treat the posting with caution.
+  because: registry: similar_name_only; closest registered name is a different entity; exact name
+  appears in no source
+REGISTRY: similar_name_only. No registered entity is named 'Confidential Employer'. The closest registered name is THE CONFIDENTIAL COVE, which may be a different company.
+WEB: 5 queries (bing), 4 of 5 pages read, exact name seen in 0 pages and 0 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 5):
+  - Confidential Reviews (2,677): Pros & Cons of Worki
+    https://www.glassdoor.com/Reviews/Confidential-Reviews-E3147060.htm
+  - [Megathread] Toxic employers of Singapore : r/Sing
+    https://www.reddit.com/r/SingaporeRaw/comments/156h5vz/megathread_toxic_employer
+  - Working at Confidential | Glassdoor  https://www.glassdoor.com/Overview/Working-at-Confidential-
+    EI_IE3147060.11,23.ht
+  - Confidential Pte Ltd Jobs in Singapore (with Salar  https://sg.jobstreet.com/confidential-pte-
+    ltd-jobs
+  - Confidential Company Jobs in Singapore (1,000+ Ope  https://sg.linkedin.com/jobs/confidential-
+    company-jobs
+COULD NOT READ (1):
+  - https://www.foundit.sg/job/marketing-manager-confidential-singapore-41  (blocked: challenge or
+    login-wall text)
+DEGRADED: summary_unavailable: model rate limit reached (retry in 344 s)
+(61.4s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

@@ -1,0 +1,41 @@
+{
+ "key": "mrbean",
+ "domain": "www.mrbean.com.sg",
+ "pages": [
+  {
+   "url": "https://www.mrbean.com.sg/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "te Sales Vouchers Customer SERVICE FAQ Contact Us Follow Us © Copyright Mr Bean. 2022. All Rights Reserved. Terms & Conditions Privacy Policy Select Your Country Singapore Internati",
+    " Sales Vouchers Customer SERVICE FAQ Contact Us Follow Us © Copyright Mr Bean. 2022. All Rights Reserved. Terms & Conditions Privacy Policy Select Your Country Singapore International "
+   ]
+  },
+  {
+   "url": "https://www.mrbean.com.sg/privacy-policy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Data Protection Officer Super Bean International Pte Ltd",
+    "Ship To Home Privacy Policy Privacy Policy We, Super Bean International Pte Ltd"
+   ],
+   "copyright": [
+    "te Sales Vouchers Customer SERVICE FAQ Contact Us Follow Us © Copyright Mr Bean. 2022. All Rights Reserved. Terms & Conditions Privacy Policy Select Your Country Singapore Internati",
+    " Sales Vouchers Customer SERVICE FAQ Contact Us Follow Us © Copyright Mr Bean. 2022. All Rights Reserved. Terms & Conditions Privacy Policy Select Your Country Singapore International "
+   ]
+  },
+  {
+   "url": "https://www.mrbean.com.sg/terms-and-conditions",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Super Bean International Pte Ltd"
+   ],
+   "copyright": [
+    "te Sales Vouchers Customer SERVICE FAQ Contact Us Follow Us © Copyright Mr Bean. 2022. All Rights Reserved. Terms & Conditions Privacy Policy Select Your Country Singapore Internati",
+    " Sales Vouchers Customer SERVICE FAQ Contact Us Follow Us © Copyright Mr Bean. 2022. All Rights Reserved. Terms & Conditions Privacy Policy Select Your Country Singapore International "
+   ]
+  }
+ ]
+}

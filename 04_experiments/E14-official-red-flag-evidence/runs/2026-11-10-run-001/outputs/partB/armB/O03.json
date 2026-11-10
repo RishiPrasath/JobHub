@@ -1,0 +1,25 @@
+{
+  "organisation": "Perrett Laver Pte. Ltd.",
+  "queries_run": [
+    "Perrett Laver Singapore",
+    "\"Perrett Laver\" Singapore scam OR complaint OR court OR retrenchment",
+    "\"Perrett Laver\" Pte Ltd",
+    "\"Perrett Laver\" fake job recruitment scam warning",
+    "Perrett Laver executive search Singapore office",
+    "scam.sg \"Perrett Laver\""
+  ],
+  "pages_read": [
+    "https://scam.sg/companies/201908251K/perrett-laver-pte-ltd"
+  ],
+  "failed_reads": [],
+  "items": [
+    {
+      "claim": "A UK company named PERRETT LAVER HOLDINGS LIMITED (company number 12663017) appears on the UK Companies House register. This is a different legal entity from the Singapore company and is noted only to avoid confusion.",
+      "entity_the_claim_is_about": "Perrett Laver Holdings Limited (UK), a possible parent or namesake of Perrett Laver Pte. Ltd.",
+      "category": "other_entity",
+      "source_url": "https://find-and-update.company-information.service.gov.uk/company/12663017",
+      "quoted_evidence": "PERRETT LAVER HOLDINGS LIMITED (12663017)"
+    }
+  ],
+  "notes": "No employer_action, consumer_complaint or impersonation_warning_about_brand evidence was found for Perrett Laver Pte. Ltd. in six searches. No court, regulator, licence, retrenchment or scam-warning results named the firm. The Singapore entity was identified only through a scam.sg company listing (UEN 201908251K). The search summary for that listing reported a TrustScore of 80 labelled Low Risk, registration on 14 March 2019, registered activity of employment agencies and management consultancy, and no reviews. The page read returned only its title, so these details are unverified and are not recorded as items. The Singapore office is listed on the firm's own site (perrettlaver.com) per a search summary and a JobLeads posting, but the firm's office count differs between sources. The item above is a single UK namesake, not a red flag about the Singapore entity. The 'fake recruiter' results describe general recruitment scam patterns and do not mention this firm."
+}

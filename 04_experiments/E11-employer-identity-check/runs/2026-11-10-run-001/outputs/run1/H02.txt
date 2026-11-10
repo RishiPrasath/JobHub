@@ -1,0 +1,12 @@
+Our Client - A Global Bank  (role: Credit Risk Analyst)
+HEADLINE: could_not_confirm_company
+  Neither the registry nor the web confirms this company exists under this name.
+  because: registry: not_in_registry; exact name seen 0 times
+REGISTRY: not_in_registry. No registered entity in Singapore resembles 'Our Client - A Global Bank'.
+WEB: 5 queries (bing), 6 of 8 pages read, exact name seen in 0 pages and 0 search results
+COULD NOT READ (2):
+  - https://sea.peoplemattersglobal.com/news/compensation-benefits/singapo  (error: )
+  - https://www.gobusiness.gov.sg/scam-advisory  (irrelevant: the page never mentions the company
+    name)
+DEGRADED: summary_unavailable: model rate limit reached (retry in 2115 s)
+(84.7s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

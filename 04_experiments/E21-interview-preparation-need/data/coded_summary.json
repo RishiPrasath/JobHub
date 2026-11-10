@@ -1,0 +1,279 @@
+{
+ "simulated": true,
+ "label": "SIMULATED PILOT. Not evidence about job seekers. No verdict computed.",
+ "figures_manual": {
+  "n": 8,
+  "prep_specific": "6/8 (75%)",
+  "prep_none": "1/8 (12%)",
+  "gap_named": "8/8 (100%)",
+  "gap_unmet": "8/8 (100%)",
+  "tried_ai_mock": "4/8 (50%)",
+  "ai_continued": 0,
+  "ai_stopped": 4,
+  "use_posting_tool_strict_yes": "1/8 (12%)",
+  "use_posting_tool_loose_yes_or_conditional": "3/8 (38%)",
+  "neutral_wants_practice_or_tool": "2/8 (25%)",
+  "recording_concern": {
+   "both": 7,
+   "storage": 1
+  },
+  "tool_satisfaction": {
+   "partial": 7,
+   "no_tools": 1
+  },
+  "stories_raised": {
+   "S-24": 1,
+   "S-23": 6,
+   "none": 1,
+   "S-25": 1
+  },
+  "gap_types": {
+   "role_technical": 7,
+   "switch_story": 1,
+   "behavioural": 2,
+   "process_unknown": 2,
+   "assessment_format": 1
+  },
+  "methods": {
+   "videos": 3,
+   "articles": 6,
+   "friends_family": 6,
+   "own_notes": 2,
+   "ai_assistant": 1,
+   "mock_tool": 1
+  }
+ },
+ "figures_auto": {
+  "n": 8,
+  "prep_specific": "4/8 (50%)",
+  "prep_none": "0/8 (0%)",
+  "gap_named": "4/8 (50%)",
+  "gap_unmet": "4/8 (50%)",
+  "tried_ai_mock": "6/8 (75%)",
+  "ai_continued": 0,
+  "ai_stopped": 6,
+  "use_posting_tool_strict_yes": "1/8 (12%)",
+  "use_posting_tool_loose_yes_or_conditional": "3/8 (38%)",
+  "neutral_wants_practice_or_tool": "6/8 (75%)",
+  "recording_concern": {
+   "both": 7,
+   "none": 1
+  },
+  "tool_satisfaction": {
+   "dissatisfied": 2,
+   "partial": 5,
+   "satisfied": 1
+  },
+  "stories_raised": {
+   "none": 6,
+   "S-23": 2
+  },
+  "gap_types": {
+   "process_unknown": 3,
+   "behavioural": 2,
+   "none": 4
+  },
+  "methods": {
+   "friends_family": 6,
+   "videos": 5,
+   "articles": 6,
+   "ai_assistant": 2,
+   "own_notes": 2
+  }
+ },
+ "auto_vs_manual_scalar_agreement": "48/80 (60%)",
+ "disagreements": [
+  {
+   "persona": "career_switcher-01-office-to-office",
+   "field": "tool_satisfaction",
+   "manual": "partial",
+   "auto": "dissatisfied"
+  },
+  {
+   "persona": "career_switcher-01-office-to-office",
+   "field": "would_use_neutral",
+   "manual": "other_help",
+   "auto": "named_tool_or_practice"
+  },
+  {
+   "persona": "career_switcher-02-nonoffice-to-office",
+   "field": "prep_cost",
+   "manual": "free",
+   "auto": "paid"
+  },
+  {
+   "persona": "career_switcher-02-nonoffice-to-office",
+   "field": "would_use_posting_tool",
+   "manual": "no",
+   "auto": "unsure"
+  },
+  {
+   "persona": "low_wage_worker-01-cafe-jan23",
+   "field": "prep_cost",
+   "manual": "free",
+   "auto": "unstated"
+  },
+  {
+   "persona": "low_wage_worker-01-cafe-jan23",
+   "field": "gap_named",
+   "manual": "yes",
+   "auto": "no"
+  },
+  {
+   "persona": "low_wage_worker-01-cafe-jan23",
+   "field": "tool_satisfaction",
+   "manual": "partial",
+   "auto": "satisfied"
+  },
+  {
+   "persona": "low_wage_worker-01-cafe-jan23",
+   "field": "gap_unmet",
+   "manual": "yes",
+   "auto": "no"
+  },
+  {
+   "persona": "low_wage_worker-01-cafe-jan23",
+   "field": "would_use_posting_tool",
+   "manual": "conditional",
+   "auto": "unsure"
+  },
+  {
+   "persona": "low_wage_worker-02-warehouse-lee",
+   "field": "prep_for_role",
+   "manual": "specific",
+   "auto": "generic"
+  },
+  {
+   "persona": "low_wage_worker-02-warehouse-lee",
+   "field": "gap_named",
+   "manual": "yes",
+   "auto": "no"
+  },
+  {
+   "persona": "low_wage_worker-02-warehouse-lee",
+   "field": "gap_unmet",
+   "manual": "yes",
+   "auto": "no"
+  },
+  {
+   "persona": "low_wage_worker-02-warehouse-lee",
+   "field": "tried_ai_mock",
+   "manual": "no",
+   "auto": "yes"
+  },
+  {
+   "persona": "low_wage_worker-02-warehouse-lee",
+   "field": "ai_mock_outcome",
+   "manual": "na",
+   "auto": "stopped"
+  },
+  {
+   "persona": "low_wage_worker-02-warehouse-lee",
+   "field": "would_use_neutral",
+   "manual": "other_help",
+   "auto": "named_tool_or_practice"
+  },
+  {
+   "persona": "foreign_professional-01-german-tech",
+   "field": "prep_for_role",
+   "manual": "specific",
+   "auto": "generic"
+  },
+  {
+   "persona": "foreign_professional-01-german-tech",
+   "field": "tool_satisfaction",
+   "manual": "partial",
+   "auto": "dissatisfied"
+  },
+  {
+   "persona": "foreign_professional-01-german-tech",
+   "field": "tried_ai_mock",
+   "manual": "no",
+   "auto": "yes"
+  },
+  {
+   "persona": "foreign_professional-01-german-tech",
+   "field": "ai_mock_outcome",
+   "manual": "na",
+   "auto": "stopped"
+  },
+  {
+   "persona": "foreign_professional-01-german-tech",
+   "field": "would_use_neutral",
+   "manual": "other_help",
+   "auto": "named_tool_or_practice"
+  },
+  {
+   "persona": "job_seeker-01-senior-phone",
+   "field": "prep_for_role",
+   "manual": "none",
+   "auto": "generic"
+  },
+  {
+   "persona": "job_seeker-01-senior-phone",
+   "field": "prep_cost",
+   "manual": "free",
+   "auto": "unstated"
+  },
+  {
+   "persona": "job_seeker-01-senior-phone",
+   "field": "gap_named",
+   "manual": "yes",
+   "auto": "no"
+  },
+  {
+   "persona": "job_seeker-01-senior-phone",
+   "field": "tool_satisfaction",
+   "manual": "no_tools",
+   "auto": "partial"
+  },
+  {
+   "persona": "job_seeker-01-senior-phone",
+   "field": "gap_unmet",
+   "manual": "yes",
+   "auto": "no"
+  },
+  {
+   "persona": "job_seeker-01-senior-phone",
+   "field": "would_use_posting_tool",
+   "manual": "unsure",
+   "auto": "conditional"
+  },
+  {
+   "persona": "job_seeker-01-no-prep-spontaneity",
+   "field": "prep_cost",
+   "manual": "free",
+   "auto": "unstated"
+  },
+  {
+   "persona": "job_seeker-01-no-prep-spontaneity",
+   "field": "gap_named",
+   "manual": "yes",
+   "auto": "no"
+  },
+  {
+   "persona": "job_seeker-01-no-prep-spontaneity",
+   "field": "gap_unmet",
+   "manual": "yes",
+   "auto": "no"
+  },
+  {
+   "persona": "job_seeker-01-no-prep-spontaneity",
+   "field": "would_use_posting_tool",
+   "manual": "no",
+   "auto": "unsure"
+  },
+  {
+   "persona": "job_seeker-01-no-prep-spontaneity",
+   "field": "would_use_neutral",
+   "manual": "other_help",
+   "auto": "named_tool_or_practice"
+  },
+  {
+   "persona": "early_career-01-ai\u2011prep\u2011grad",
+   "field": "recording_concern",
+   "manual": "storage",
+   "auto": "none"
+  }
+ ]
+}

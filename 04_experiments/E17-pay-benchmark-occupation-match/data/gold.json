@@ -1,0 +1,2285 @@
+[
+ {
+  "id": "X3-01",
+  "title": "Senior Tax Accountant (MSI-AIS / GTP)",
+  "family": "accounting",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "24113",
+  "accept": [
+   "24113"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12111"
+  ],
+  "too_junior": [
+   "33131",
+   "43112"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "24113",
+  "B_primary": "24113",
+  "reason_A": "Senior tax accountant: tax accountant entry exists",
+  "reason_B": "Senior tax accountant is a tax accountant."
+ },
+ {
+  "id": "X3-02",
+  "title": "Accountant",
+  "family": "accounting",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "24111",
+  "accept": [
+   "24111"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12111"
+  ],
+  "too_junior": [
+   "33131",
+   "43112"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "24111",
+  "B_primary": "24111",
+  "reason_A": "Title Accountant; seniority tag Manager noted but title governs",
+  "reason_B": "Accountant; manager seniority label but the title is the plain accountant occupation."
+ },
+ {
+  "id": "X3-03",
+  "title": "Accountant",
+  "family": "accounting",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "24111",
+  "accept": [
+   "24111"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12111"
+  ],
+  "too_junior": [
+   "33131",
+   "43112"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "24111",
+  "B_primary": "24111",
+  "reason_A": "Accountant",
+  "reason_B": "Accountant."
+ },
+ {
+  "id": "X3-04",
+  "title": "Accountant (Manufacturing, SAP R3 / S4 HANA)",
+  "family": "accounting",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "24111",
+  "accept": [
+   "24111"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12111"
+  ],
+  "too_junior": [
+   "33131",
+   "43112"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "24111",
+  "B_primary": "24111",
+  "reason_A": "Accountant, manufacturing ERP",
+  "reason_B": "Manufacturing accountant (cost/financial accounting)."
+ },
+ {
+  "id": "X3-05",
+  "title": "Accountant",
+  "family": "accounting",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "24111",
+  "accept": [
+   "24111",
+   "33131"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12111"
+  ],
+  "too_junior": [
+   "43112"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "24111",
+  "B_primary": "24111",
+  "reason_A": "Accountant, executive level; assistant accountant defensible",
+  "reason_B": "Accountant."
+ },
+ {
+  "id": "X3-06",
+  "title": "Software Engineer – Engineering Applications (Data Centres)",
+  "family": "software",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "25121",
+  "accept": [
+   "25121",
+   "25122",
+   "25141"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "13302",
+   "25113"
+  ],
+  "too_junior": [
+   "35123"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "25121",
+  "B_primary": "25121",
+  "reason_A": "Software engineer = software developer",
+  "reason_B": "Software engineer building engineering applications is a software developer."
+ },
+ {
+  "id": "X3-07",
+  "title": "Java Backend Developer-Contract",
+  "family": "software",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "25121",
+  "accept": [
+   "25121",
+   "25122"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "13302",
+   "25113"
+  ],
+  "too_junior": [
+   "35123"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "25121",
+  "B_primary": "25121",
+  "reason_A": "Java backend developer",
+  "reason_B": "Java backend developer is a software developer."
+ },
+ {
+  "id": "X3-08",
+  "title": "Senior Software Engineer (Java, React) - Tech industry",
+  "family": "software",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "25121",
+  "accept": [
+   "25121",
+   "25122"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "13302",
+   "25113"
+  ],
+  "too_junior": [
+   "35123"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "25121",
+  "B_primary": "25121",
+  "reason_A": "Senior software engineer",
+  "reason_B": "Senior software engineer (Java/React) is a software developer."
+ },
+ {
+  "id": "X3-09",
+  "title": "Software Engineer / Power Platform",
+  "family": "software",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "25121",
+  "accept": [
+   "25121",
+   "25122"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "13302",
+   "25113"
+  ],
+  "too_junior": [
+   "35123"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "25121",
+  "B_primary": "25121",
+  "reason_A": "Software engineer, Power Platform",
+  "reason_B": "Software engineer on Power Platform; software developer is closest."
+ },
+ {
+  "id": "X3-10",
+  "title": "#FreshGrads 🎓 This one's for you!",
+  "family": "software",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Promotional hashtag title, no duties",
+  "reason_B": "Promotional text with no usable information about duties."
+ },
+ {
+  "id": "X3-11",
+  "title": "Staff Nurse (Private Clinic, Cannulation & Port Care)",
+  "family": "nursing",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "22200",
+  "accept": [
+   "22200"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "13420"
+  ],
+  "too_junior": [
+   "32200",
+   "53202"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "22200",
+  "B_primary": "22200",
+  "reason_A": "Staff nurse = registered nurse",
+  "reason_B": "Staff nurse in a private clinic with cannulation and port care is a registered nurse role."
+ },
+ {
+  "id": "X3-12",
+  "title": "Staff Nurse (Private Clinic, Paediatrics)",
+  "family": "nursing",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "22200",
+  "accept": [
+   "22200"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "13420"
+  ],
+  "too_junior": [
+   "32200",
+   "53202"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "22200",
+  "B_primary": "22200",
+  "reason_A": "Staff nurse = registered nurse",
+  "reason_B": "Staff nurse (paediatrics) is a registered nurse role."
+ },
+ {
+  "id": "X3-13",
+  "title": "Staff Nurse",
+  "family": "nursing",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "22200",
+  "accept": [
+   "22200",
+   "32200"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "13420"
+  ],
+  "too_junior": [
+   "53202"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "22200",
+  "B_primary": "22200",
+  "reason_A": "Staff nurse; non-executive tag could mean enrolled nurse",
+  "reason_B": "Staff nurse; usually registered nurse, but non-executive label leaves enrolled nurse plausible."
+ },
+ {
+  "id": "X3-14",
+  "title": "Staff Nurse (Renal Care / Dialysis)",
+  "family": "nursing",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "22200",
+  "accept": [
+   "22200",
+   "32200"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "13420"
+  ],
+  "too_junior": [
+   "53202"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "22200",
+  "B_primary": "22200",
+  "reason_A": "Staff nurse renal; non-executive tag could mean enrolled nurse",
+  "reason_B": "Staff nurse (renal/dialysis); usually registered nurse, enrolled nurse plausible given non-executive label."
+ },
+ {
+  "id": "X3-15",
+  "title": "Senior / Staff Nurse (Urgent Care / Emergency)",
+  "family": "nursing",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "22200",
+  "accept": [
+   "22200"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "13420"
+  ],
+  "too_junior": [
+   "32200",
+   "53202"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "22200",
+  "B_primary": "22200",
+  "reason_A": "Senior/staff nurse",
+  "reason_B": "Senior/staff nurse in urgent care is a registered nurse role."
+ },
+ {
+  "id": "X3-16",
+  "title": "Warehouse Supervisor",
+  "family": "warehouse supervisor",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [
+   "13241"
+  ],
+  "too_junior": [
+   "93334",
+   "43212"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Warehouse supervisor: only warehousing manager (too senior) or warehouse worker/storekeeper (too junior)",
+  "reason_B": "No warehouse supervisor entry; warehousing manager is more senior, warehouse worker and storekeeper are more junior or clerical."
+ },
+ {
+  "id": "X3-17",
+  "title": "Warehouse Supervisor (Female product)",
+  "family": "warehouse supervisor",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [
+   "13241"
+  ],
+  "too_junior": [
+   "93334",
+   "43212"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Warehouse supervisor: no supervisor entry at the right level",
+  "reason_B": "No warehouse supervisor entry; nearest entries are manager level or worker/clerk level."
+ },
+ {
+  "id": "X3-18",
+  "title": "Warehouse Supervisor",
+  "family": "warehouse supervisor",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [
+   "13241"
+  ],
+  "too_junior": [
+   "93334",
+   "43212"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Warehouse supervisor: no supervisor entry at the right level",
+  "reason_B": "No warehouse supervisor entry; nearest entries are manager level or worker/clerk level."
+ },
+ {
+  "id": "X3-19",
+  "title": "Singapore Manufacturing Company - Warehouse Supervisor Candidates with Logistic or Manufacturing Experience",
+  "family": "warehouse supervisor",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [
+   "13241"
+  ],
+  "too_junior": [
+   "93334",
+   "43212"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Warehouse supervisor: no supervisor entry at the right level",
+  "reason_B": "No warehouse supervisor entry; nearest entries are manager level or worker/clerk level."
+ },
+ {
+  "id": "X3-20",
+  "title": "SUPERVISOR WAREHOUSE (Picker Packer for Food & Beverage Distribution)",
+  "family": "warehouse supervisor",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [
+   "13241"
+  ],
+  "too_junior": [
+   "93334",
+   "43212"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Warehouse supervisor (picker packer): no entry at the right level",
+  "reason_B": "Warehouse supervisor over pickers/packers; no matching supervisor entry, warehouse worker is junior and logistics manager is senior."
+ },
+ {
+  "id": "X3-21",
+  "title": "Roadshow (Travel Opportunities 🌎)",
+  "family": "marketing",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Promotional roadshow title, no duties",
+  "reason_B": "Vague promotional roadshow text; duties unclear."
+ },
+ {
+  "id": "X3-22",
+  "title": "👑 (Training Provided) Junior Marketing Associate 👑",
+  "family": "marketing",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Promotional 'training provided' associate title, no duties",
+  "reason_B": "Promotional listing with training-provided hook; no usable duty information and associate level unclear."
+ },
+ {
+  "id": "X3-23",
+  "title": "Senior Marketing Executive",
+  "family": "marketing",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "24313",
+  "accept": [
+   "24313",
+   "24314"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12222"
+  ],
+  "too_junior": [
+   "33223"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "24313",
+  "B_primary": "24313",
+  "reason_A": "Senior marketing executive: marketing strategy/planning professional is nearest professional entry",
+  "reason_B": "Senior marketing executive plans and runs marketing; marketing strategy/planning professional is closest at professional level, manager would be too senior."
+ },
+ {
+  "id": "X3-24",
+  "title": "👑 (Travelling Opportunities) Events and Marketing Associates 👑",
+  "family": "marketing",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Promotional events and marketing associate, no duties",
+  "reason_B": "Promotional listing (travelling opportunities); duties unclear."
+ },
+ {
+  "id": "X3-25",
+  "title": "👑 (Training Providing) Brand Marketing Assistant 👑",
+  "family": "marketing",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Promotional brand marketing assistant, no duties; no assistant-level marketing entry",
+  "reason_B": "Promotional listing (training providing); duties unclear."
+ },
+ {
+  "id": "X3-26",
+  "title": "CUSTOMER SERVICE OFFICER",
+  "family": "customer service",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "42245",
+  "accept": [
+   "42245",
+   "42246"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12241"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "42245",
+  "B_primary": "42245",
+  "reason_A": "Customer service officer",
+  "reason_B": "Customer service officer."
+ },
+ {
+  "id": "X3-27",
+  "title": "Customer Service",
+  "family": "customer service",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "42245",
+  "accept": [
+   "42245",
+   "42246"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12241"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "42245",
+  "B_primary": "42245",
+  "reason_A": "Customer service",
+  "reason_B": "Customer service role; customer service officer/clerk is the fit."
+ },
+ {
+  "id": "X3-28",
+  "title": "Customer Service Officer (Shipping Operations)",
+  "family": "customer service",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "42245",
+  "accept": [
+   "42245"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12241"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "42245",
+  "B_primary": "42245",
+  "reason_A": "Customer service officer, shipping ops",
+  "reason_B": "Customer service officer in shipping operations; customer service officer is closest."
+ },
+ {
+  "id": "X3-29",
+  "title": "Customer support officer , East",
+  "family": "customer service",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "42245",
+  "accept": [
+   "42245",
+   "42246"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12241"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "42245",
+  "B_primary": "42245",
+  "reason_A": "Customer support officer",
+  "reason_B": "Customer support officer is a customer service officer."
+ },
+ {
+  "id": "X3-30",
+  "title": "Customer Service Officer",
+  "family": "customer service",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "42245",
+  "accept": [
+   "42245",
+   "42246"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12241"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "42245",
+  "B_primary": "42245",
+  "reason_A": "Customer service officer",
+  "reason_B": "Customer service officer."
+ },
+ {
+  "id": "X3-31",
+  "title": "Mechanical Engineer (Manufacturing / Industrial) / West",
+  "family": "engineering",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "21441",
+  "accept": [
+   "21441"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "13291"
+  ],
+  "too_junior": [
+   "31004",
+   "31151"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "21441",
+  "B_primary": "21441",
+  "reason_A": "Mechanical engineer",
+  "reason_B": "Mechanical engineer in manufacturing."
+ },
+ {
+  "id": "X3-32",
+  "title": "Engineering Assistant (Mechanical / Electrical, Class 3)",
+  "family": "engineering",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "31004",
+  "accept": [
+   "31004",
+   "31151",
+   "31002"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "21441"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "31004",
+  "B_primary": "31004",
+  "reason_A": "Engineering assistant (mechanical/electrical, class 3)",
+  "reason_B": "Engineering assistant (mechanical/electrical) is assistant engineer level."
+ },
+ {
+  "id": "X3-33",
+  "title": "Mechanical Design Engineer",
+  "family": "engineering",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "21441",
+  "accept": [
+   "21441"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "13291"
+  ],
+  "too_junior": [
+   "31004",
+   "31181"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "21441",
+  "B_primary": "21441",
+  "reason_A": "Mechanical design engineer",
+  "reason_B": "Mechanical design engineer is a mechanical engineer."
+ },
+ {
+  "id": "X3-34",
+  "title": "Mechanical Engineer (Tuas, Manufacturing / Precision Engineering)",
+  "family": "engineering",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "21441",
+  "accept": [
+   "21441"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "13291"
+  ],
+  "too_junior": [
+   "31004",
+   "31151"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "21441",
+  "B_primary": "21441",
+  "reason_A": "Mechanical engineer",
+  "reason_B": "Mechanical engineer in manufacturing/precision engineering."
+ },
+ {
+  "id": "X3-35",
+  "title": "Engineer Mechanical",
+  "family": "engineering",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "21441",
+  "accept": [
+   "21441"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "13291"
+  ],
+  "too_junior": [
+   "31004",
+   "31151"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "21441",
+  "B_primary": "21441",
+  "reason_A": "Mechanical engineer",
+  "reason_B": "Mechanical engineer."
+ },
+ {
+  "id": "X3-36",
+  "title": "DEMI CHEF",
+  "family": "kitchen",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "34341",
+  "accept": [
+   "34341",
+   "51201"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "34342"
+  ],
+  "too_junior": [
+   "94101"
+  ],
+  "labeller_agreement": "disagree_resolved",
+  "A_primary": "34341",
+  "B_primary": "51201",
+  "reason_A": "Demi chef, junior chef",
+  "reason_B": "Demi chef (demi chef de partie) is a junior cook/chef."
+ },
+ {
+  "id": "X3-37",
+  "title": "HEAD CHEF",
+  "family": "kitchen",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "34342",
+  "accept": [
+   "34342",
+   "34341"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "14123",
+   "14121"
+  ],
+  "too_junior": [
+   "51201",
+   "94101"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "34342",
+  "B_primary": "34342",
+  "reason_A": "Head chef = kitchen head",
+  "reason_B": "Head chef leads the kitchen; kitchen operations head is the fit, catering manager is a different job."
+ },
+ {
+  "id": "X3-38",
+  "title": "Kitchen Assistant",
+  "family": "kitchen",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "94101",
+  "accept": [
+   "94101"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "94101",
+  "B_primary": "94101",
+  "reason_A": "Kitchen assistant",
+  "reason_B": "Kitchen assistant."
+ },
+ {
+  "id": "X3-39",
+  "title": "Chef",
+  "family": "kitchen",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "34341",
+  "accept": [
+   "34341",
+   "51201"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "34342"
+  ],
+  "too_junior": [
+   "94101"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "34341",
+  "B_primary": "34341",
+  "reason_A": "Chef, entry level",
+  "reason_B": "Entry-level chef."
+ },
+ {
+  "id": "X3-40",
+  "title": "Head Chef",
+  "family": "kitchen",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "34342",
+  "accept": [
+   "34342",
+   "34341"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "14123",
+   "14121"
+  ],
+  "too_junior": [
+   "51201",
+   "94101"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "34342",
+  "B_primary": "34342",
+  "reason_A": "Head chef",
+  "reason_B": "Head chef leads the kitchen."
+ },
+ {
+  "id": "X3-41",
+  "title": "Human Resource Executive (YS81)",
+  "family": "hr",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "24233",
+  "accept": [
+   "24233"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12121"
+  ],
+  "too_junior": [
+   "41102"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "24233",
+  "B_primary": "24233",
+  "reason_A": "HR executive = personnel/HR officer",
+  "reason_B": "HR executive is a personnel/HR officer."
+ },
+ {
+  "id": "X3-42",
+  "title": "Account Executive (AR / Construction / ERP / Saga 300 / Ubi)",
+  "family": "hr",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "43112",
+  "accept": [
+   "43112",
+   "33131"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "24111"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "disagree_resolved",
+  "A_primary": "43112",
+  "B_primary": "33131",
+  "reason_A": "Account executive, AR/ERP: ledger/accounts clerk or assistant accountant",
+  "reason_B": "Account executive handling AR/accounts is assistant accountant or accounts clerk level."
+ },
+ {
+  "id": "X3-43",
+  "title": "Human Resources Business Partner (HRBP) - APAC",
+  "family": "hr",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "24231",
+  "accept": [
+   "24231",
+   "24233"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12121"
+  ],
+  "too_junior": [
+   "41102"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "24231",
+  "B_primary": "24231",
+  "reason_A": "HR business partner: HR consultant or officer",
+  "reason_B": "HR business partner advises the business on HR; HR consultant is closest."
+ },
+ {
+  "id": "X3-44",
+  "title": "Human Resource Executive (Full Spectrum) - LCYL",
+  "family": "hr",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "24233",
+  "accept": [
+   "24233"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12121"
+  ],
+  "too_junior": [
+   "41102"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "24233",
+  "B_primary": "24233",
+  "reason_A": "HR executive full spectrum",
+  "reason_B": "HR executive (full spectrum) is a personnel/HR officer."
+ },
+ {
+  "id": "X3-45",
+  "title": "Business Development Executive [Technology Recruitment | Basic plus Commissions]",
+  "family": "hr",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "33221",
+  "accept": [
+   "33221"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12212"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "33221",
+  "B_primary": "33221",
+  "reason_A": "Business development executive (tech recruitment)",
+  "reason_B": "Business development executive (recruitment sector)."
+ },
+ {
+  "id": "X3-46",
+  "title": "ADMINSTRATIVE ACCOUNTS",
+  "family": "admin",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "43112",
+  "accept": [
+   "43112",
+   "43111",
+   "NONE"
+  ],
+  "true_no_match": false,
+  "none_acceptable": true,
+  "too_senior": [
+   "24111"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "disagree_resolved",
+  "A_primary": "43112",
+  "B_primary": "NONE",
+  "reason_A": "Administrative accounts: ledger/accounts clerk or bookkeeper",
+  "reason_B": "Title 'administrative accounts' gives no clear duties or level."
+ },
+ {
+  "id": "X3-47",
+  "title": "ADMINISTRATIVE ASSISTANT",
+  "family": "admin",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "41101",
+  "accept": [
+   "41101",
+   "33492"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12112"
+  ],
+  "too_junior": [
+   "41310"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "41101",
+  "B_primary": "41101",
+  "reason_A": "Administrative assistant = office clerk",
+  "reason_B": "Administrative assistant is an office clerk."
+ },
+ {
+  "id": "X3-48",
+  "title": "Administrative Assistant",
+  "family": "admin",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "41101",
+  "accept": [
+   "41101",
+   "33492"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12112"
+  ],
+  "too_junior": [
+   "41310"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "41101",
+  "B_primary": "41101",
+  "reason_A": "Administrative assistant",
+  "reason_B": "Administrative assistant is an office clerk."
+ },
+ {
+  "id": "X3-49",
+  "title": "Executive Assistant (5 Days / Up to $4,000 + Performance Bonus / Jurong Port)",
+  "family": "admin",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "33494",
+  "accept": [
+   "33494",
+   "41201"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "33494",
+  "B_primary": "33494",
+  "reason_A": "Executive assistant = executive secretary",
+  "reason_B": "Executive assistant is an executive secretary."
+ },
+ {
+  "id": "X3-50",
+  "title": "ADMIN ASSISTANT",
+  "family": "admin",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "41101",
+  "accept": [
+   "41101",
+   "33492"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12112"
+  ],
+  "too_junior": [
+   "41310"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "41101",
+  "B_primary": "41101",
+  "reason_A": "Admin assistant",
+  "reason_B": "Admin assistant is an office clerk."
+ },
+ {
+  "id": "X3-51",
+  "title": "Marketing and Sales Lead (Entry level)",
+  "family": "sales",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Promotional 'marketing and sales lead (entry level)', no duties",
+  "reason_B": "Promotional entry-level lead listing; duties unclear."
+ },
+ {
+  "id": "X3-52",
+  "title": "Sales and Engagement (Travel Opportunities ✈️)",
+  "family": "sales",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Promotional sales and engagement, no duties",
+  "reason_B": "Promotional listing (travel opportunities); duties unclear."
+ },
+ {
+  "id": "X3-53",
+  "title": "Sales Executive",
+  "family": "sales",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "NONE",
+  "accept": [
+   "NONE",
+   "33221"
+  ],
+  "true_no_match": false,
+  "none_acceptable": true,
+  "too_senior": [
+   "12211"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Generic 'sales executive': no general sales executive entry; business development executive is the nearest",
+  "reason_B": "Generic sales executive with no product or channel; no generic sales executive entry."
+ },
+ {
+  "id": "X3-54",
+  "title": "FUN🤩 Sales and Marketing Executive",
+  "family": "sales",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Promotional 'fun' sales and marketing executive",
+  "reason_B": "Promotional wording and generic sales/marketing; the only executive entry is F&B-specific."
+ },
+ {
+  "id": "X3-55",
+  "title": "Sales Executive / Manager",
+  "family": "sales",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "NONE",
+  "accept": [
+   "NONE",
+   "33221"
+  ],
+  "true_no_match": false,
+  "none_acceptable": true,
+  "too_senior": [
+   "12211"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Generic 'sales executive / manager', mixed level",
+  "reason_B": "Ambiguous Executive/Manager level and generic sales; manager entry is too senior."
+ },
+ {
+  "id": "X3-56",
+  "title": "Data Analyst (1 Year Contract / Up to $7500)",
+  "family": "data",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "21231",
+  "accept": [
+   "21231"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "21231",
+  "B_primary": "21231",
+  "reason_A": "Data analyst",
+  "reason_B": "Data analyst."
+ },
+ {
+  "id": "X3-57",
+  "title": "Data Analyst (JD#10924)",
+  "family": "data",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "21231",
+  "accept": [
+   "21231"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "21231",
+  "B_primary": "21231",
+  "reason_A": "Data analyst",
+  "reason_B": "Data analyst."
+ },
+ {
+  "id": "X3-58",
+  "title": "Data Business Analyst",
+  "family": "data",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "25112",
+  "accept": [
+   "25112",
+   "21231"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "disagree_resolved",
+  "A_primary": "25112",
+  "B_primary": "21231",
+  "reason_A": "Data business analyst",
+  "reason_B": "Data business analyst; data analyst closest, business analyst plausible."
+ },
+ {
+  "id": "X3-59",
+  "title": "Data Analyst (Banking / Contract)",
+  "family": "data",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "21231",
+  "accept": [
+   "21231"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "21231",
+  "B_primary": "21231",
+  "reason_A": "Data analyst",
+  "reason_B": "Data analyst."
+ },
+ {
+  "id": "X3-60",
+  "title": "Data Scientist / Data Analyst",
+  "family": "data",
+  "stratum": "x3_reuse",
+  "synthetic": false,
+  "primary": "21222",
+  "accept": [
+   "21222",
+   "21231"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "21222",
+  "B_primary": "21222",
+  "reason_A": "Data scientist / data analyst",
+  "reason_B": "Data scientist / data analyst; data scientist listed first."
+ },
+ {
+  "id": "SYN-01",
+  "title": "Electrician (Industrial, Class 2 licence)",
+  "family": "trades",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "74110",
+  "accept": [
+   "74110"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "74002"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "74110",
+  "B_primary": "74110",
+  "reason_A": "Electrician",
+  "reason_B": "Electrician."
+ },
+ {
+  "id": "SYN-02",
+  "title": "Plumber",
+  "family": "trades",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "71261",
+  "accept": [
+   "71261"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "71000"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "71261",
+  "B_primary": "71261",
+  "reason_A": "Plumber",
+  "reason_B": "Plumber."
+ },
+ {
+  "id": "SYN-03",
+  "title": "Welder (6G, Shipyard)",
+  "family": "trades",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "72120",
+  "accept": [
+   "72120"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "72000"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "72120",
+  "B_primary": "72120",
+  "reason_A": "Welder",
+  "reason_B": "Welder."
+ },
+ {
+  "id": "SYN-04",
+  "title": "Aircon Technician",
+  "family": "trades",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "71271",
+  "accept": [
+   "71271",
+   "31152"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "71271",
+  "B_primary": "71271",
+  "reason_A": "Aircon technician: equipment mechanic; technician defensible",
+  "reason_B": "Aircon technician is an air-conditioning equipment mechanic."
+ },
+ {
+  "id": "SYN-05",
+  "title": "Class 3 Lorry Driver",
+  "family": "drivers",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "83321",
+  "accept": [
+   "83321"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "83000"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "83321",
+  "B_primary": "83321",
+  "reason_A": "Lorry driver",
+  "reason_B": "Lorry driver."
+ },
+ {
+  "id": "SYN-06",
+  "title": "Part-time Food Delivery Rider (Motorcycle)",
+  "family": "drivers",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "83211",
+  "accept": [
+   "83211"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "83211",
+  "B_primary": "83211",
+  "reason_A": "Motorcycle delivery rider",
+  "reason_B": "Motorcycle delivery rider."
+ },
+ {
+  "id": "SYN-07",
+  "title": "Forklift Operator",
+  "family": "drivers",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "83441",
+  "accept": [
+   "83441"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "83000"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "83441",
+  "B_primary": "83441",
+  "reason_A": "Forklift operator",
+  "reason_B": "Forklift operator."
+ },
+ {
+  "id": "SYN-08",
+  "title": "Retail Sales Assistant (Weekend)",
+  "family": "retail",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "52202",
+  "accept": [
+   "52202"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "52201",
+   "14201"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "52202",
+  "B_primary": "52202",
+  "reason_A": "Retail sales assistant",
+  "reason_B": "Retail sales assistant is a shop sales assistant."
+ },
+ {
+  "id": "SYN-09",
+  "title": "Store Manager (Fashion Retail)",
+  "family": "retail",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "14201",
+  "accept": [
+   "14201"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [
+   "52201"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "14201",
+  "B_primary": "14201",
+  "reason_A": "Retail (store) manager",
+  "reason_B": "Retail store manager."
+ },
+ {
+  "id": "SYN-10",
+  "title": "Retail Store Supervisor",
+  "family": "retail",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "52201",
+  "accept": [
+   "52201"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "14201"
+  ],
+  "too_junior": [
+   "52202"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "52201",
+  "B_primary": "52201",
+  "reason_A": "Retail store supervisor = sales supervisor",
+  "reason_B": "Retail store supervisor is a sales supervisor."
+ },
+ {
+  "id": "SYN-11",
+  "title": "Relief Teacher (Primary School)",
+  "family": "education",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "36991",
+  "accept": [
+   "36991"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "36991",
+  "B_primary": "36991",
+  "reason_A": "Relief teacher",
+  "reason_B": "Relief teacher."
+ },
+ {
+  "id": "SYN-12",
+  "title": "Preschool Teacher (Nursery)",
+  "family": "education",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "36100",
+  "accept": [
+   "36100"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "13410"
+  ],
+  "too_junior": [
+   "53120",
+   "53113"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "36100",
+  "B_primary": "36100",
+  "reason_A": "Preschool teacher",
+  "reason_B": "Preschool teacher."
+ },
+ {
+  "id": "SYN-13",
+  "title": "Secondary Maths Tutor",
+  "family": "education",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "36910",
+  "accept": [
+   "36910"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "36910",
+  "B_primary": "36910",
+  "reason_A": "Private tutor (academic)",
+  "reason_B": "Academic tutor."
+ },
+ {
+  "id": "SYN-14",
+  "title": "Barista",
+  "family": "hospitality",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "51322",
+  "accept": [
+   "51322"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "51322",
+  "B_primary": "51322",
+  "reason_A": "Barista",
+  "reason_B": "Barista."
+ },
+ {
+  "id": "SYN-15",
+  "title": "Hotel Front Desk Receptionist",
+  "family": "hospitality",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "42242",
+  "accept": [
+   "42242"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "42247",
+   "14110"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "42242",
+  "B_primary": "42242",
+  "reason_A": "Hotel receptionist",
+  "reason_B": "Hotel receptionist."
+ },
+ {
+  "id": "SYN-16",
+  "title": "Housekeeping Attendant (Hotel)",
+  "family": "hospitality",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "91121",
+  "accept": [
+   "91121",
+   "91122",
+   "51501"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "51503"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "91121",
+  "B_primary": "91121",
+  "reason_A": "Hotel housekeeping attendant",
+  "reason_B": "Hotel housekeeping attendant; housekeeping/linen room attendant is closest."
+ },
+ {
+  "id": "SYN-17",
+  "title": "Pastry Chef",
+  "family": "hospitality",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "34343",
+  "accept": [
+   "34343"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "14122"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "34343",
+  "B_primary": "34343",
+  "reason_A": "Pastry chef",
+  "reason_B": "Pastry chef."
+ },
+ {
+  "id": "SYN-18",
+  "title": "Healthcare Assistant (Nursing Home)",
+  "family": "healthcare support",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "53201",
+  "accept": [
+   "53201",
+   "53202"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "53201",
+  "B_primary": "53201",
+  "reason_A": "Healthcare assistant",
+  "reason_B": "Healthcare assistant."
+ },
+ {
+  "id": "SYN-19",
+  "title": "Pharmacy Assistant",
+  "family": "healthcare support",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "32130",
+  "accept": [
+   "32130"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "22621"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "32130",
+  "B_primary": "32130",
+  "reason_A": "Pharmacy assistant = pharmacy technician (nearest)",
+  "reason_B": "Pharmacy assistant; pharmacy technician is the nearest support role."
+ },
+ {
+  "id": "SYN-20",
+  "title": "Physiotherapist",
+  "family": "healthcare support",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "22640",
+  "accept": [
+   "22640"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "22640",
+  "B_primary": "22640",
+  "reason_A": "Physiotherapist",
+  "reason_B": "Physiotherapist."
+ },
+ {
+  "id": "SYN-21",
+  "title": "Accounts Payable Executive",
+  "family": "finance operations",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "43112",
+  "accept": [
+   "43112",
+   "33131"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "24111"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "disagree_resolved",
+  "A_primary": "43112",
+  "B_primary": "33131",
+  "reason_A": "Accounts payable executive: ledger/accounts clerk",
+  "reason_B": "Accounts payable executive: assistant accountant or accounts clerk level."
+ },
+ {
+  "id": "SYN-22",
+  "title": "Payroll Executive",
+  "family": "finance operations",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "43114",
+  "accept": [
+   "43114"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "43114",
+  "B_primary": "43114",
+  "reason_A": "Payroll executive = payroll/wages clerk",
+  "reason_B": "Payroll executive is payroll/wages clerk work."
+ },
+ {
+  "id": "SYN-23",
+  "title": "Credit Control Officer",
+  "family": "finance operations",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "33120",
+  "accept": [
+   "33120",
+   "42141"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "33120",
+  "B_primary": "33120",
+  "reason_A": "Credit control officer: credit officer or bill collector; ambiguous",
+  "reason_B": "Credit control officer manages customer credit and collections."
+ },
+ {
+  "id": "SYN-24",
+  "title": "Graphic Designer",
+  "family": "creative",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "21661",
+  "accept": [
+   "21661"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "21661",
+  "B_primary": "21661",
+  "reason_A": "Graphic designer",
+  "reason_B": "Graphic designer."
+ },
+ {
+  "id": "SYN-25",
+  "title": "Video Editor",
+  "family": "creative",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "21662",
+  "accept": [
+   "21662",
+   "26544"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "disagree_resolved",
+  "A_primary": "21662",
+  "B_primary": "26544",
+  "reason_A": "Video editor: multimedia designer/animator or video editor",
+  "reason_B": "Video editor."
+ },
+ {
+  "id": "SYN-26",
+  "title": "Social Media Content Creator",
+  "family": "creative",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "24314",
+  "accept": [
+   "24314",
+   "26413"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "disagree_resolved",
+  "A_primary": "24314",
+  "B_primary": "26413",
+  "reason_A": "Social media content creator: digital marketing or content writer",
+  "reason_B": "Social media content creator; content writer or digital marketing professional are near."
+ },
+ {
+  "id": "SYN-27",
+  "title": "Security Officer (Condominium)",
+  "family": "other",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "54144",
+  "accept": [
+   "54144"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "54143",
+   "54142"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "54144",
+  "B_primary": "54144",
+  "reason_A": "Private security officer",
+  "reason_B": "Security officer."
+ },
+ {
+  "id": "SYN-28",
+  "title": "Office Cleaner",
+  "family": "other",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "91131",
+  "accept": [
+   "91131"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "91000"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "91131",
+  "B_primary": "91131",
+  "reason_A": "Indoor office cleaner",
+  "reason_B": "Office cleaner."
+ },
+ {
+  "id": "SYN-29",
+  "title": "Personal Trainer",
+  "family": "other",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "34223",
+  "accept": [
+   "34223"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "34223",
+  "B_primary": "34223",
+  "reason_A": "Physical fitness instructor",
+  "reason_B": "Personal trainer is a physical fitness instructor."
+ },
+ {
+  "id": "SYN-30",
+  "title": "Social Worker (Family Service Centre)",
+  "family": "other",
+  "stratum": "new_family",
+  "synthetic": true,
+  "primary": "26621",
+  "accept": [
+   "26621"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "13441"
+  ],
+  "too_junior": [
+   "34122"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "26621",
+  "B_primary": "26621",
+  "reason_A": "Social worker (general)",
+  "reason_B": "Social worker."
+ },
+ {
+  "id": "SYN-31",
+  "title": "NO EXPERIENCE NEEDED!! Earn big, train with us, join the fun team 🔥",
+  "family": "promotional",
+  "stratum": "failure_type",
+  "synthetic": true,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Promotional 'no experience needed, earn big', no duties",
+  "reason_B": "Promotional text with no information about the role."
+ },
+ {
+  "id": "SYN-32",
+  "title": "Brand Ambassador (Travel Opportunities ✈️ Bonus Every Week)",
+  "family": "promotional",
+  "stratum": "failure_type",
+  "synthetic": true,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Promotional brand ambassador with travel and bonus hooks; sales demonstrator 52421 is a possible reading",
+  "reason_B": "Promotional brand ambassador listing; duties unclear."
+ },
+ {
+  "id": "SYN-33",
+  "title": "Work From Home Part Time Admin (Flexible, Earn Daily)",
+  "family": "promotional",
+  "stratum": "failure_type",
+  "synthetic": true,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Work-from-home 'earn daily' admin: suspicious style, no duties",
+  "reason_B": "Work-from-home earn-daily admin text; duties unclear and scam-like."
+ },
+ {
+  "id": "SYN-34",
+  "title": "Sales and Marketing Executive",
+  "family": "generic sales and marketing",
+  "stratum": "failure_type",
+  "synthetic": true,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [
+   "12211",
+   "12222"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Generic sales and marketing executive; only F&B-specific marketing and sales executive 33223",
+  "reason_B": "Generic sales and marketing executive; no matching entry (F&B-specific one rejected)."
+ },
+ {
+  "id": "SYN-35",
+  "title": "Marketing & Sales Associate (Basic + Uncapped Commission)",
+  "family": "generic sales and marketing",
+  "stratum": "failure_type",
+  "synthetic": true,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Generic marketing and sales associate on commission",
+  "reason_B": "Commission-based marketing and sales associate; generic, no matching entry."
+ },
+ {
+  "id": "SYN-36",
+  "title": "Business Development Associate",
+  "family": "generic sales and marketing",
+  "stratum": "failure_type",
+  "synthetic": true,
+  "primary": "33221",
+  "accept": [
+   "33221"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12212"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "33221",
+  "B_primary": "33221",
+  "reason_A": "Business development associate = business development executive (nearest)",
+  "reason_B": "Business development associate; business development executive is nearest."
+ },
+ {
+  "id": "SYN-37",
+  "title": "Stores Supervisor (Cold Chain Distribution)",
+  "family": "supervisor-type",
+  "stratum": "failure_type",
+  "synthetic": true,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [
+   "13241"
+  ],
+  "too_junior": [
+   "43212",
+   "93334"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Stores supervisor: no supervisor entry at the right level",
+  "reason_B": "No stores supervisor entry; storekeeper is clerical and logistics manager is senior."
+ },
+ {
+  "id": "SYN-38",
+  "title": "Production Supervisor (Electronics Assembly)",
+  "family": "supervisor-type",
+  "stratum": "failure_type",
+  "synthetic": true,
+  "primary": "82000",
+  "accept": [
+   "82000"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "13210"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "82000",
+  "B_primary": "82000",
+  "reason_A": "Production supervisor of electronics assemblers",
+  "reason_B": "Production supervisor in electronics assembly."
+ },
+ {
+  "id": "SYN-39",
+  "title": "Logistics Supervisor",
+  "family": "supervisor-type",
+  "stratum": "failure_type",
+  "synthetic": true,
+  "primary": "NONE",
+  "accept": [
+   "NONE"
+  ],
+  "true_no_match": true,
+  "none_acceptable": true,
+  "too_senior": [
+   "13241"
+  ],
+  "too_junior": [
+   "33461"
+  ],
+  "labeller_agreement": "agree",
+  "A_primary": "NONE",
+  "B_primary": "NONE",
+  "reason_A": "Logistics supervisor: only logistics manager (too senior)",
+  "reason_B": "No logistics supervisor entry; nearest are manager or transport/planning roles."
+ },
+ {
+  "id": "SYN-40",
+  "title": "Cleaning Operations Supervisor",
+  "family": "supervisor-type",
+  "stratum": "failure_type",
+  "synthetic": true,
+  "primary": "91000",
+  "accept": [
+   "91000"
+  ],
+  "true_no_match": false,
+  "none_acceptable": false,
+  "too_senior": [
+   "12193"
+  ],
+  "too_junior": [],
+  "labeller_agreement": "agree",
+  "A_primary": "91000",
+  "B_primary": "91000",
+  "reason_A": "Cleaning supervisor",
+  "reason_B": "Cleaning supervisor; cleaning operations manager is more senior."
+ }
+]

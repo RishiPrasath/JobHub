@@ -1,0 +1,28 @@
+NTUC Income  (role: Financial Services Associate)
+HEADLINE: brand_legal_entity_unconfirmed
+  Public sources describe a company by this name, but the registry has no entity with this exact
+  name. It may trade under a brand name; the legal employer is not confirmed.
+  because: registry: similar_name_only; exact name seen 16 times in sources
+REGISTRY: similar_name_only. No registered entity is named 'NTUC Income'. The closest registered name is NTUC INCOME HOLDINGS PTE. LTD., which may be a different company.
+WEB: 5 queries (bing), 6 of 8 pages read, exact name seen in 2 pages and 14 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 8):
+  - Reviews NTUC Income Insurance Co-operative employe  https://sg.jobstreet.com/companies/ntuc-
+    income-insurance-co-operative-1685500304
+  - Working at Income Insurance Limited: 68 Reviews |   https://sg.indeed.com/cmp/Income-Insurance-
+    Limited-1/reviews
+  - Working at NTUC Income Insurance Co-operative comp  https://sg.jobstreet.com/companies/ntuc-
+    income-insurance-co-operative-1685500304
+  - Income Insurance Limited Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/Income-Insurance-
+    Limited-Reviews-E377696.htm
+  - Working at Income Insurance Limited | Glassdoor  https://www.glassdoor.sg/Overview/Working-at-
+    Income-Insurance-Limited-EI_IE37769
+  - Income Insurance Limited interview questions - Gla  https://www.glassdoor.com/Interview/NTUC-
+    Income-Insurance-Co-Op-Ltd-Interview-Qu
+COULD NOT READ (2):
+  - https://www.ambitionbox.com/reviews/ntuc-income-reviews/singapore-loca  (blocked: challenge or
+    login-wall text)
+  - https://www.ambitionbox.com/reviews/ntuc-income-reviews  (blocked: challenge or login-wall text)
+COULD NOT VERIFY:
+  - Which registered company is the legal employer behind this brand.
+DEGRADED: summary_unavailable: model rate limit reached (retry in 1418 s)
+(56.7s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

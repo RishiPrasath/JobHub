@@ -1,0 +1,8 @@
+Singtel  (role: Network Engineer)
+HEADLINE: ambiguous_entity
+  More than one live company is registered with this exact name. A company ID or address is needed
+  to say which one.
+  because: registry: multiple_entities
+REGISTRY: multiple_entities. More than one live entity matches 'Singtel' (SINGTEL GBS PTE. LTD., SINGTEL ICT PTE. LTD., SINGTEL NEX PTE. LTD.). A company ID or an address is needed to say which one the posting means.
+WEB: skipped, the registry settled it (multiple_entities); web research would not change the headline
+(0.0s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

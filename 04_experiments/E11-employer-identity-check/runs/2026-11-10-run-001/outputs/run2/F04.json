@@ -1,0 +1,214 @@
+{
+ "employer": "CapitaLand Recruitment Services Pte Ltd",
+ "role": "Customer Service Officer",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 1988 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'CapitaLand Recruitment Services Pte Ltd'. The closest registered name is EI RECRUITMENT SERVICES PTE. LTD., which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "202242548M",
+   "name": "EI RECRUITMENT SERVICES PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2022-11-29",
+   "activity": "na",
+   "alternatives": [
+    "PNE RECRUITMENT SERVICES",
+    "UNITED RECRUITMENT SERVICES"
+   ]
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"CapitaLand Recruitment Services Pte Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"CapitaLand Recruitment Services Pte Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"CapitaLand Recruitment Services Pte Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"CapitaLand Recruitment Services Pte Ltd\" Customer Service Officer interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"CapitaLand Recruitment Services Pte Ltd\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.capitaland.com/en/about-capitaland/careers.html",
+    "status": "ok",
+    "chars": 695,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://singaporeemploymentagency.com/7-recruitment-scams-targeting-singapore-employers-how-to-stay-safe",
+    "status": "ok",
+    "chars": 9408,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.straitstimes.com/business/capitaland-investment-retrenches-90-singapore-staff-in-2026-as-part-of-restructuring",
+    "status": "ok",
+    "chars": 2831,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.channelnewsasia.com/singapore/capitaland-lays-90-workers-singapore-6359906",
+    "status": "ok",
+    "chars": 2014,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.businesstimes.com.sg/companies-markets/capitaland-investment-retrenches-90-singapore-staff-2026-part-restructuring",
+    "status": "ok",
+    "chars": 2627,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.edgeprop.sg/property-news/capitaland-investment-cuts-90-singapore-jobs-amid-restructuring",
+    "status": "irrelevant",
+    "chars": 2211,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://thekopinotes.com/articles/news/capitaland-retrenchment-2026-reit-impact",
+    "status": "ok",
+    "chars": 12088,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.asiaone.com/singapore/capitaland-retrenchment-restructuring",
+    "status": "ok",
+    "chars": 3090,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Reviews/CapitaLand-Singapore-Reviews-EI_IE9451.0,10_IL.11,20_IM1123.htm",
+    "title": "CapitaLand Reviews in Singapore | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/CapitaLand-Reviews-E9451.htm",
+    "title": "CapitaLand Reviews (566): Pros & Cons of Working At CapitaLand",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/capitaland-168557653428036",
+    "title": "Working at CapitaLand company profile and information | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/CapitaLand-jobs",
+    "title": "CapitaLand Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "capitaland recruitment services"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 0,
+   "none": true,
+   "strong": false
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 10,
+  "registry_mirror_pages": 0
+ },
+ "headline": "likely_lookalike",
+ "headline_meaning": "No registered company has this exact name and no source uses it. The closest registered name belongs to a different company. Treat the posting with caution.",
+ "reasons": [
+  "registry: similar_name_only",
+  "closest registered name is a different entity",
+  "exact name appears in no source"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://www.edgeprop.sg/property-news/capitaland-investment-cuts-90-singapore-jobs-amid-restructuring",
+   "why": "irrelevant: the page never mentions the company name"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Reviews/CapitaLand-Singapore-Reviews-EI_IE9451.0,10_IL.11,20_IM1123.htm",
+   "title": "CapitaLand Reviews in Singapore | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/CapitaLand-Reviews-E9451.htm",
+   "title": "CapitaLand Reviews (566): Pros & Cons of Working At CapitaLand",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/capitaland-168557653428036",
+   "title": "Working at CapitaLand company profile and information | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/CapitaLand-jobs",
+   "title": "CapitaLand Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 54.9,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

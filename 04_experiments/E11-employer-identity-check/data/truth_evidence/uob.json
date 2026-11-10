@@ -1,0 +1,41 @@
+{
+ "key": "uob",
+ "domain": "www.uob.com.sg",
+ "pages": [
+  {
+   "url": "https://www.uob.com.sg/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://www.uob.com.sg/privacy-policy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://www.uob.com.sg/privacy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://www.uob.com.sg/terms",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://www.uob.com.sg/terms-and-conditions",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  }
+ ]
+}

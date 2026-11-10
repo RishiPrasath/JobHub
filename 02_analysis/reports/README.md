@@ -20,6 +20,7 @@ This folder converts completed research into evidence-backed product opportuniti
 - [Low-fidelity single-posting review workflow](12_low-fidelity-review-workflow.md)
 - [First scope decision brief](13_first-scope-decision-brief.md)
 - [UX prototype design brief](14_ux-prototype-design-brief.md)
+- [Experiment round 2026-11-10: feasibility summary](16_experiment-round-feasibility-summary.md)
 
 ## Working rule
 

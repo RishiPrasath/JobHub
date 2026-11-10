@@ -1,0 +1,222 @@
+[
+ {
+  "id": "L01",
+  "synthetic": true,
+  "class": "control",
+  "style": "prose",
+  "profile": "pme",
+  "note": "complete control, formal letter",
+  "styled_on_real_template": false,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L02",
+  "synthetic": true,
+  "class": "control",
+  "style": "list",
+  "profile": "clerk",
+  "note": "complete control, fixed-term, terms list",
+  "styled_on_real_template": false,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L03",
+  "synthetic": true,
+  "class": "control",
+  "style": "numbered",
+  "profile": "tech",
+  "note": "complete control, hourly technician with overtime, numbered clauses",
+  "styled_on_real_template": false,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L04",
+  "synthetic": true,
+  "class": "control",
+  "style": "email",
+  "profile": "exec",
+  "note": "complete control, email style",
+  "styled_on_real_template": false,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L05",
+  "synthetic": true,
+  "class": "missing",
+  "style": "email",
+  "profile": "pme",
+  "note": "no probation, no notice",
+  "styled_on_real_template": false,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L06",
+  "synthetic": true,
+  "class": "missing",
+  "style": "prose",
+  "profile": "clerk",
+  "note": "no salary period, no start date",
+  "styled_on_real_template": false,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L07",
+  "synthetic": true,
+  "class": "missing",
+  "style": "list",
+  "profile": "clerk",
+  "note": "no response deadline, no leave",
+  "styled_on_real_template": false,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L08",
+  "synthetic": true,
+  "class": "missing",
+  "style": "prose",
+  "profile": "exec",
+  "note": "salary not specified, no medical benefits",
+  "styled_on_real_template": false,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L09",
+  "synthetic": true,
+  "class": "missing",
+  "style": "numbered",
+  "profile": "tech",
+  "note": "no working hours or rest day, no place of work",
+  "styled_on_real_template": false,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L10",
+  "synthetic": true,
+  "class": "missing",
+  "style": "email",
+  "profile": "pme",
+  "note": "title only without duties, no bonus statement",
+  "styled_on_real_template": false,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L11",
+  "synthetic": true,
+  "class": "missing",
+  "style": "list",
+  "profile": "tech",
+  "note": "no allowances, deductions or overtime terms though overtime is required",
+  "styled_on_real_template": false,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L12",
+  "synthetic": true,
+  "class": "missing",
+  "style": "prose",
+  "profile": "exec",
+  "note": "probation 'to be confirmed', notice 'per company policy'",
+  "styled_on_real_template": false,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L13",
+  "synthetic": true,
+  "class": "inconsistent",
+  "style": "prose",
+  "profile": "pme",
+  "note": "two basic salary figures",
+  "styled_on_real_template": false,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L14",
+  "synthetic": true,
+  "class": "inconsistent",
+  "style": "email",
+  "profile": "exec",
+  "note": "two start dates",
+  "styled_on_real_template": false,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L15",
+  "synthetic": true,
+  "class": "inconsistent",
+  "style": "prose",
+  "profile": "clerk",
+  "note": "probation and notice differ from the attached handbook extract",
+  "styled_on_real_template": false,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L16",
+  "synthetic": true,
+  "class": "inconsistent",
+  "style": "list",
+  "profile": "tech",
+  "note": "working days stated as 5.5 and as 6",
+  "styled_on_real_template": false,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L17",
+  "synthetic": true,
+  "class": "template",
+  "style": "email",
+  "profile": "pme",
+  "note": "multinational-style email; leave and benefits by portal and global policy",
+  "styled_on_real_template": true,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L18",
+  "synthetic": true,
+  "class": "template",
+  "style": "sme",
+  "profile": "clerk",
+  "note": "small-business one-page letter",
+  "styled_on_real_template": true,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L19",
+  "synthetic": true,
+  "class": "template",
+  "style": "agency",
+  "profile": "tech",
+  "note": "staffing-agency assignment letter, hourly",
+  "styled_on_real_template": true,
+  "hidden_instruction": false,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ },
+ {
+  "id": "L20",
+  "synthetic": true,
+  "class": "template",
+  "style": "numbered",
+  "profile": "tech",
+  "note": "numbered clauses, hidden instruction to the reviewer",
+  "styled_on_real_template": true,
+  "hidden_instruction": true,
+  "label_source": "written by AI specialist before any run; not human or HR reviewed"
+ }
+]

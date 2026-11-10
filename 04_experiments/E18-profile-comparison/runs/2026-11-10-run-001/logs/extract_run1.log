@@ -1,0 +1,433 @@
+[    68s]   1 extract run1 J03 tokens=1268 cached=False ok=True
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 39, in <module>
+    res, rec = C.extraction([p["id"]], run)
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 193, in extraction
+    rec = run_extract(posting_ids, run)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 189, in run_extract
+    return llm(M_EXTRACT, extract_messages(posting_ids), sub="extract", tag=tag, run=run, max_tokens=mt)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 38, in llm
+    return llm_client.chat(model, messages, json_mode=json_mode, max_tokens=max_tokens, temperature=0.2,
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           reasoning_effort=effort, cache_dir=str(RAW / sub), tag=tag, run=run)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 176, in chat
+    _reserve(model, _est_tokens(messages, max_tokens))
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 104, in _reserve
+    with _Lock(model):
+         ~~~~~^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 80, in __enter__
+    fd = os.open(str(self.p), os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\prasa\\AppData\\Local\\Temp\\jobhub_ratelimit\\openai_gpt-oss-20b.lock'
+[     0s]   1 extract run1 J03 tokens=1268 cached=True ok=True
+[     0s]   1 extract run1 J03 tokens=1268 cached=True ok=True
+[   236s]   2 extract run1 J06 tokens=1151 cached=False ok=True
+[   353s]   3 extract run1 J11 tokens=930 cached=False ok=True
+[   775s]   4 extract run1 S01 tokens=997 cached=False ok=True
+[   775s]   5 extract run1 S02 tokens=1161 cached=True ok=True
+[  1498s]   6 extract run1 S03 tokens=901 cached=False ok=True
+[  1498s]   7 extract run1 S04 tokens=1004 cached=True ok=True
+[  1498s]   8 extract run1 S05 tokens=1012 cached=True ok=True
+[  1498s]   9 extract run1 S06 tokens=845 cached=True ok=True
+[  1617s]  10 extract run1 S07 tokens=980 cached=False ok=True
+[  1918s]  11 extract run1 S08 tokens=921 cached=False ok=True
+[  2399s]  12 extract run1 S09 tokens=955 cached=False ok=True
+[  2399s]  13 extract run1 S10 tokens=919 cached=True ok=True
+[  2399s]  14 extract run1 S11 tokens=1099 cached=True ok=True
+[  2459s]  15 extract run1 S12 tokens=955 cached=False ok=True
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199996, Requested 1869. Please try again in 13m25.68s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 67, in <module>
+    r_ = safe(C.extraction, C.BATCH_IDS, run, label="extract BATCH")
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 25, in safe
+    return fn(*a)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 199, in extraction
+    rec = run_extract(posting_ids, run)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 195, in run_extract
+    return llm(M_EXTRACT, extract_messages(posting_ids), sub="extract", tag=tag, run=run, max_tokens=mt)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 41, in llm
+    return llm_client.chat(model, messages, json_mode=json_mode, max_tokens=max_tokens, temperature=0.2,
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           reasoning_effort=effort, cache_dir=str(RAW / sub), tag=tag, run=run)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 205, in chat
+    raise RuntimeError(f"DAILY LIMIT: {text[:300]}") from e
+RuntimeError: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199996, Requested 1869. Please try again in 13m25.68s. Need more tokens? Upgrade to Dev Tie
+[     0s]   1 extract run1 J03 tokens=1268 cached=True ok=True
+[     0s]   2 extract run1 J06 tokens=1151 cached=True ok=True
+[     0s]   3 extract run1 J11 tokens=925 cached=True ok=True
+[     0s]   4 extract run1 S01 tokens=997 cached=True ok=True
+[     0s]   5 extract run1 S02 tokens=1161 cached=True ok=True
+[     0s]   6 extract run1 S03 tokens=901 cached=True ok=True
+[     0s]   7 extract run1 S04 tokens=1004 cached=True ok=True
+[     0s]   8 extract run1 S05 tokens=1012 cached=True ok=True
+[     0s]   9 extract run1 S06 tokens=845 cached=True ok=True
+[     0s]  10 extract run1 S07 tokens=967 cached=True ok=True
+[     0s]  11 extract run1 S08 tokens=925 cached=True ok=True
+[     0s]  12 extract run1 S09 tokens=955 cached=True ok=True
+[     0s]  13 extract run1 S10 tokens=919 cached=True ok=True
+[     0s]  14 extract run1 S11 tokens=1099 cached=True ok=True
+[     0s]  15 extract run1 S12 tokens=942 cached=True ok=True
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198797, Requested 1254. Please try again in 22.032s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 67, in <module>
+    r_ = safe(C.extraction, C.BATCH_IDS, run, label="extract BATCH")
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 25, in safe
+    return fn(*a)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 199, in extraction
+    rec = run_extract(posting_ids, run)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 195, in run_extract
+    return llm(M_EXTRACT, extract_messages(posting_ids), sub="extract", tag=tag, run=run, max_tokens=mt)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 41, in llm
+    return llm_client.chat(model, messages, json_mode=json_mode, max_tokens=max_tokens, temperature=0.2,
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           reasoning_effort=effort, cache_dir=str(RAW / sub), tag=tag, run=run)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 205, in chat
+    raise RuntimeError(f"DAILY LIMIT: {text[:300]}") from e
+RuntimeError: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198797, Requested 1254. Please try again in 22.032s. Need more tokens? Upgrade to Dev Tier 
+[     0s]   1 extract run1 J03 tokens=1268 cached=True ok=True
+[     0s]   2 extract run1 J06 tokens=1151 cached=True ok=True
+[     0s]   3 extract run1 J11 tokens=925 cached=True ok=True
+[     0s]   4 extract run1 S01 tokens=997 cached=True ok=True
+[     0s]   5 extract run1 S02 tokens=1161 cached=True ok=True
+[     0s]   6 extract run1 S03 tokens=901 cached=True ok=True
+[     0s]   7 extract run1 S04 tokens=1004 cached=True ok=True
+[     0s]   8 extract run1 S05 tokens=1012 cached=True ok=True
+[     0s]   9 extract run1 S06 tokens=845 cached=True ok=True
+[     0s]  10 extract run1 S07 tokens=967 cached=True ok=True
+[     0s]  11 extract run1 S08 tokens=925 cached=True ok=True
+[     0s]  12 extract run1 S09 tokens=955 cached=True ok=True
+[     0s]  13 extract run1 S10 tokens=919 cached=True ok=True
+[     0s]  14 extract run1 S11 tokens=1099 cached=True ok=True
+[     0s]  15 extract run1 S12 tokens=942 cached=True ok=True
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199463, Requested 1290. Please try again in 5m25.296s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 67, in <module>
+    r_ = safe(C.extraction, C.BATCH_IDS, run, label="extract BATCH")
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 25, in safe
+    return fn(*a)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 199, in extraction
+    rec = run_extract(posting_ids, run)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 195, in run_extract
+    return llm(M_EXTRACT, extract_messages(posting_ids), sub="extract", tag=tag, run=run, max_tokens=mt)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 41, in llm
+    return llm_client.chat(model, messages, json_mode=json_mode, max_tokens=max_tokens, temperature=0.2,
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           reasoning_effort=effort, cache_dir=str(RAW / sub), tag=tag, run=run)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 205, in chat
+    raise RuntimeError(f"DAILY LIMIT: {text[:300]}") from e
+RuntimeError: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199463, Requested 1290. Please try again in 5m25.296s. Need more tokens? Upgrade to Dev Tie
+[     0s]   1 extract run1 J03 tokens=1268 cached=True ok=True
+[     0s]   2 extract run1 J06 tokens=1151 cached=True ok=True
+[     0s]   3 extract run1 J11 tokens=925 cached=True ok=True
+[     0s]   4 extract run1 S01 tokens=997 cached=True ok=True
+[     0s]   5 extract run1 S02 tokens=1161 cached=True ok=True
+[     0s]   6 extract run1 S03 tokens=901 cached=True ok=True
+[     0s]   7 extract run1 S04 tokens=1004 cached=True ok=True
+[     0s]   8 extract run1 S05 tokens=1012 cached=True ok=True
+[     0s]   9 extract run1 S06 tokens=845 cached=True ok=True
+[     0s]  10 extract run1 S07 tokens=967 cached=True ok=True
+[     0s]  11 extract run1 S08 tokens=925 cached=True ok=True
+[     0s]  12 extract run1 S09 tokens=955 cached=True ok=True
+[     0s]  13 extract run1 S10 tokens=919 cached=True ok=True
+[     0s]  14 extract run1 S11 tokens=1099 cached=True ok=True
+[     0s]  15 extract run1 S12 tokens=942 cached=True ok=True
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199324, Requested 1265. Please try again in 4m14.448s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 67, in <module>
+    r_ = safe(C.extraction, C.BATCH_IDS, run, label="extract BATCH")
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 25, in safe
+    return fn(*a)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 199, in extraction
+    rec = run_extract(posting_ids, run)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 195, in run_extract
+    return llm(M_EXTRACT, extract_messages(posting_ids), sub="extract", tag=tag, run=run, max_tokens=mt)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 41, in llm
+    return llm_client.chat(model, messages, json_mode=json_mode, max_tokens=max_tokens, temperature=0.2,
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           reasoning_effort=effort, cache_dir=str(RAW / sub), tag=tag, run=run)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 205, in chat
+    raise RuntimeError(f"DAILY LIMIT: {text[:300]}") from e
+RuntimeError: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199324, Requested 1265. Please try again in 4m14.448s. Need more tokens? Upgrade to Dev Tie
+[     0s]   1 extract run1 J03 tokens=1268 cached=True ok=True
+[     0s]   2 extract run1 J06 tokens=1151 cached=True ok=True
+[     0s]   3 extract run1 J11 tokens=925 cached=True ok=True
+[     0s]   4 extract run1 S01 tokens=997 cached=True ok=True
+[     0s]   5 extract run1 S02 tokens=1161 cached=True ok=True
+[     0s]   6 extract run1 S03 tokens=901 cached=True ok=True
+[     0s]   7 extract run1 S04 tokens=1004 cached=True ok=True
+[     0s]   8 extract run1 S05 tokens=1012 cached=True ok=True
+[     0s]   9 extract run1 S06 tokens=845 cached=True ok=True
+[     0s]  10 extract run1 S07 tokens=967 cached=True ok=True
+[     0s]  11 extract run1 S08 tokens=925 cached=True ok=True
+[     0s]  12 extract run1 S09 tokens=955 cached=True ok=True
+[     0s]  13 extract run1 S10 tokens=919 cached=True ok=True
+[     0s]  14 extract run1 S11 tokens=1099 cached=True ok=True
+[     0s]  15 extract run1 S12 tokens=942 cached=True ok=True
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199185, Requested 1342. Please try again in 3m47.664s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 67, in <module>
+    r_ = safe(C.extraction, C.BATCH_IDS, run, label="extract BATCH")
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 25, in safe
+    return fn(*a)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 199, in extraction
+    rec = run_extract(posting_ids, run)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 195, in run_extract
+    return llm(M_EXTRACT, extract_messages(posting_ids), sub="extract", tag=tag, run=run, max_tokens=mt)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 41, in llm
+    return llm_client.chat(model, messages, json_mode=json_mode, max_tokens=max_tokens, temperature=0.2,
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           reasoning_effort=effort, cache_dir=str(RAW / sub), tag=tag, run=run)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 205, in chat
+    raise RuntimeError(f"DAILY LIMIT: {text[:300]}") from e
+RuntimeError: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199185, Requested 1342. Please try again in 3m47.664s. Need more tokens? Upgrade to Dev Tie
+[     0s]   1 extract run1 J03 tokens=1268 cached=True ok=True
+[     0s]   2 extract run1 J06 tokens=1151 cached=True ok=True
+[     0s]   3 extract run1 J11 tokens=925 cached=True ok=True
+[     0s]   4 extract run1 S01 tokens=997 cached=True ok=True
+[     0s]   5 extract run1 S02 tokens=1161 cached=True ok=True
+[     0s]   6 extract run1 S03 tokens=901 cached=True ok=True
+[     0s]   7 extract run1 S04 tokens=1004 cached=True ok=True
+[     0s]   8 extract run1 S05 tokens=1012 cached=True ok=True
+[     0s]   9 extract run1 S06 tokens=845 cached=True ok=True
+[     0s]  10 extract run1 S07 tokens=967 cached=True ok=True
+[     0s]  11 extract run1 S08 tokens=925 cached=True ok=True
+[     0s]  12 extract run1 S09 tokens=955 cached=True ok=True
+[     0s]  13 extract run1 S10 tokens=919 cached=True ok=True
+[     0s]  14 extract run1 S11 tokens=1099 cached=True ok=True
+[     0s]  15 extract run1 S12 tokens=942 cached=True ok=True
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199045, Requested 1234. Please try again in 2m0.527999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 67, in <module>
+    r_ = safe(C.extraction, C.BATCH_IDS, run, label="extract BATCH")
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 25, in safe
+    return fn(*a)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 199, in extraction
+    rec = run_extract(posting_ids, run)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 195, in run_extract
+    return llm(M_EXTRACT, extract_messages(posting_ids), sub="extract", tag=tag, run=run, max_tokens=mt)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 41, in llm
+    return llm_client.chat(model, messages, json_mode=json_mode, max_tokens=max_tokens, temperature=0.2,
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           reasoning_effort=effort, cache_dir=str(RAW / sub), tag=tag, run=run)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 205, in chat
+    raise RuntimeError(f"DAILY LIMIT: {text[:300]}") from e
+RuntimeError: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199045, Requested 1234. Please try again in 2m0.527999999s. Need more tokens? Upgrade to De
+[     0s]   1 extract run1 J03 tokens=1268 cached=True ok=True
+[     0s]   2 extract run1 J06 tokens=1151 cached=True ok=True
+[     0s]   3 extract run1 J11 tokens=925 cached=True ok=True
+[     0s]   4 extract run1 S01 tokens=997 cached=True ok=True
+[     0s]   5 extract run1 S02 tokens=1161 cached=True ok=True
+[     0s]   6 extract run1 S03 tokens=901 cached=True ok=True
+[     0s]   7 extract run1 S04 tokens=1004 cached=True ok=True
+[     0s]   8 extract run1 S05 tokens=1012 cached=True ok=True
+[     0s]   9 extract run1 S06 tokens=845 cached=True ok=True
+[     0s]  10 extract run1 S07 tokens=967 cached=True ok=True
+[     0s]  11 extract run1 S08 tokens=925 cached=True ok=True
+[     0s]  12 extract run1 S09 tokens=955 cached=True ok=True
+[     0s]  13 extract run1 S10 tokens=919 cached=True ok=True
+[     0s]  14 extract run1 S11 tokens=1099 cached=True ok=True
+[     0s]  15 extract run1 S12 tokens=942 cached=True ok=True
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198906, Requested 1275. Please try again in 1m18.192s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 67, in <module>
+    r_ = safe(C.extraction, C.BATCH_IDS, run, label="extract BATCH")
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 25, in safe
+    return fn(*a)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 199, in extraction
+    rec = run_extract(posting_ids, run)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 195, in run_extract
+    return llm(M_EXTRACT, extract_messages(posting_ids), sub="extract", tag=tag, run=run, max_tokens=mt)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 41, in llm
+    return llm_client.chat(model, messages, json_mode=json_mode, max_tokens=max_tokens, temperature=0.2,
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           reasoning_effort=effort, cache_dir=str(RAW / sub), tag=tag, run=run)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 205, in chat
+    raise RuntimeError(f"DAILY LIMIT: {text[:300]}") from e
+RuntimeError: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198906, Requested 1275. Please try again in 1m18.192s. Need more tokens? Upgrade to Dev Tie

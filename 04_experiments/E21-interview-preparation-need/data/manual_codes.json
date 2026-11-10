@@ -1,0 +1,188 @@
+{
+ "_note": "Manual coding by the specialist (an AI) after reading all 8 simulated transcripts, per protocol/coding_scheme.md. SIMULATED. Borderline calls are explained in FINDINGS.md.",
+ "career_switcher-01-office-to-office": {
+  "prep_for_role": "specific",
+  "prep_methods": [
+   "videos",
+   "articles",
+   "friends_family"
+  ],
+  "prep_cost": "free",
+  "gap_named": "yes",
+  "gap_type": [
+   "role_technical",
+   "switch_story"
+  ],
+  "tool_satisfaction": "partial",
+  "gap_unmet": "yes",
+  "tried_ai_mock": "yes",
+  "ai_mock_outcome": "stopped",
+  "would_use_posting_tool": "conditional",
+  "would_use_neutral": "other_help",
+  "recording_concern": "both",
+  "story_raised": [
+   "S-24"
+  ]
+ },
+ "career_switcher-02-nonoffice-to-office": {
+  "prep_for_role": "specific",
+  "prep_methods": [
+   "friends_family",
+   "articles"
+  ],
+  "prep_cost": "free",
+  "gap_named": "yes",
+  "gap_type": [
+   "behavioural"
+  ],
+  "tool_satisfaction": "partial",
+  "gap_unmet": "yes",
+  "tried_ai_mock": "yes",
+  "ai_mock_outcome": "stopped",
+  "would_use_posting_tool": "no",
+  "would_use_neutral": "named_tool_or_practice",
+  "recording_concern": "both",
+  "story_raised": [
+   "S-23"
+  ]
+ },
+ "low_wage_worker-01-cafe-jan23": {
+  "prep_for_role": "generic",
+  "prep_methods": [
+   "articles",
+   "videos",
+   "friends_family"
+  ],
+  "prep_cost": "free",
+  "gap_named": "yes",
+  "gap_type": [
+   "role_technical"
+  ],
+  "tool_satisfaction": "partial",
+  "gap_unmet": "yes",
+  "tried_ai_mock": "no",
+  "ai_mock_outcome": "na",
+  "would_use_posting_tool": "conditional",
+  "would_use_neutral": "other_help",
+  "recording_concern": "both",
+  "story_raised": [
+   "none"
+  ]
+ },
+ "low_wage_worker-02-warehouse-lee": {
+  "prep_for_role": "specific",
+  "prep_methods": [
+   "friends_family"
+  ],
+  "prep_cost": "free",
+  "gap_named": "yes",
+  "gap_type": [
+   "role_technical",
+   "process_unknown"
+  ],
+  "tool_satisfaction": "partial",
+  "gap_unmet": "yes",
+  "tried_ai_mock": "no",
+  "ai_mock_outcome": "na",
+  "would_use_posting_tool": "no",
+  "would_use_neutral": "other_help",
+  "recording_concern": "both",
+  "story_raised": [
+   "S-23"
+  ]
+ },
+ "foreign_professional-01-german-tech": {
+  "prep_for_role": "specific",
+  "prep_methods": [
+   "articles",
+   "own_notes"
+  ],
+  "prep_cost": "free",
+  "gap_named": "yes",
+  "gap_type": [
+   "role_technical",
+   "process_unknown"
+  ],
+  "tool_satisfaction": "partial",
+  "gap_unmet": "yes",
+  "tried_ai_mock": "no",
+  "ai_mock_outcome": "na",
+  "would_use_posting_tool": "no",
+  "would_use_neutral": "other_help",
+  "recording_concern": "both",
+  "story_raised": [
+   "S-23"
+  ]
+ },
+ "job_seeker-01-senior-phone": {
+  "prep_for_role": "none",
+  "prep_methods": [
+   "friends_family"
+  ],
+  "prep_cost": "free",
+  "gap_named": "yes",
+  "gap_type": [
+   "role_technical"
+  ],
+  "tool_satisfaction": "no_tools",
+  "gap_unmet": "yes",
+  "tried_ai_mock": "no",
+  "ai_mock_outcome": "na",
+  "would_use_posting_tool": "unsure",
+  "would_use_neutral": "other_help",
+  "recording_concern": "both",
+  "story_raised": [
+   "S-23"
+  ]
+ },
+ "job_seeker-01-no-prep-spontaneity": {
+  "prep_for_role": "specific",
+  "prep_methods": [
+   "videos",
+   "friends_family",
+   "articles"
+  ],
+  "prep_cost": "free",
+  "gap_named": "yes",
+  "gap_type": [
+   "role_technical",
+   "assessment_format"
+  ],
+  "tool_satisfaction": "partial",
+  "gap_unmet": "yes",
+  "tried_ai_mock": "yes",
+  "ai_mock_outcome": "stopped",
+  "would_use_posting_tool": "no",
+  "would_use_neutral": "other_help",
+  "recording_concern": "both",
+  "story_raised": [
+   "S-23",
+   "S-25"
+  ]
+ },
+ "early_career-01-ai‑prep‑grad": {
+  "prep_for_role": "specific",
+  "prep_methods": [
+   "articles",
+   "ai_assistant",
+   "mock_tool",
+   "own_notes"
+  ],
+  "prep_cost": "free",
+  "gap_named": "yes",
+  "gap_type": [
+   "role_technical",
+   "behavioural"
+  ],
+  "tool_satisfaction": "partial",
+  "gap_unmet": "yes",
+  "tried_ai_mock": "yes",
+  "ai_mock_outcome": "stopped",
+  "would_use_posting_tool": "yes",
+  "would_use_neutral": "named_tool_or_practice",
+  "recording_concern": "storage",
+  "story_raised": [
+   "S-23"
+  ]
+ }
+}

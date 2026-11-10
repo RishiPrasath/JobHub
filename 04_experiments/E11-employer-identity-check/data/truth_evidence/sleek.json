@@ -1,0 +1,20 @@
+{
+ "key": "sleek",
+ "domain": "sleek.com",
+ "pages": [
+  {
+   "url": "https://sleek.com/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://sleek.com/about",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  }
+ ]
+}

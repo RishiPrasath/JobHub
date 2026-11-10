@@ -1,0 +1,63 @@
+{
+ "key": "koufu",
+ "domain": "www.koufu.com.sg",
+ "pages": [
+  {
+   "url": "https://www.koufu.com.sg/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "feb; &#120; &times; Previous Next English 简体中文 --> COPYRIGHT© 2017 ALL RIGHTS RESERVED BY KOUFU PTE LTD SUPPLY OF GOODS & SERVICES POLICY TERMS OF USE & PRIVACY POLICY WEBSITE DESIG"
+   ]
+  },
+  {
+   "url": "https://www.koufu.com.sg/privacy-policy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "However Koufu Group Limited",
+    "Koufu Group Limited",
+    "Site. Koufu Group Limited",
+    "Your information is stored in Koufu Group Limited"
+   ],
+   "copyright": [
+    "Food. Better People. Better Life. English 简体中文 --> COPYRIGHT© 2017 ALL RIGHTS RESERVED BY KOUFU PTE LTD SUPPLY OF GOODS & SERVICES POLICY TERMS OF USE & PRIVACY POLICY WEBSITE DESIG"
+   ]
+  },
+  {
+   "url": "https://www.koufu.com.sg/privacy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "However Koufu Group Limited",
+    "Koufu Group Limited",
+    "Site. Koufu Group Limited",
+    "Your information is stored in Koufu Group Limited"
+   ],
+   "copyright": [
+    "Food. Better People. Better Life. English 简体中文 --> COPYRIGHT© 2017 ALL RIGHTS RESERVED BY KOUFU PTE LTD SUPPLY OF GOODS & SERVICES POLICY TERMS OF USE & PRIVACY POLICY WEBSITE DESIG"
+   ]
+  },
+  {
+   "url": "https://www.koufu.com.sg/terms",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "ean malesuada libero ac ante venenatis tempor. --> COPYRIGHT© 2017 ALL RIGHTS RESERVED BY KOUFU PTE LTD SUPPLY OF GOODS & SERVICES POLICY TERMS OF USE & PRIVACY POLICY WEBSITE DESIG"
+   ]
+  },
+  {
+   "url": "https://www.koufu.com.sg/terms-of-use",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Koufu Group Limited"
+   ],
+   "copyright": [
+    "Food. Better People. Better Life. English 简体中文 --> COPYRIGHT© 2017 ALL RIGHTS RESERVED BY KOUFU PTE LTD SUPPLY OF GOODS & SERVICES POLICY TERMS OF USE & PRIVACY POLICY WEBSITE DESIG"
+   ]
+  }
+ ]
+}

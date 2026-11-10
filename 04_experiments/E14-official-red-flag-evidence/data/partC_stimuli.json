@@ -1,0 +1,12 @@
+{
+ "_note": "Six prepared stimuli for the Part C instrument. ALL SYNTHETIC: company names are invented (synthetic: true) and modelled on the structure of real sources (MOM EA Directory status, brand-impersonation press statements, CASE company alerts, no-result pages, police news about a non-employment matter). Wording is the draft product wording under test, written by the specialist; it is not final copy.",
+ "synthetic": true,
+ "stimuli": [
+  {"id":"S1","type":"confirmed regulator action","text":"Employer check: Brightwell Staffing Pte Ltd.\nFound in an official list: MOM Employment Agencies Directory shows this agency's licence as SUSPENDED (list read 10 Nov 2026). Source: MOM Employment Agencies Directory, 'Under Revocation/Suspension/Surveillance'. This is a record of a regulator action against this agency."},
+  {"id":"S2","type":"brand-impersonation warning","text":"Employer check: Northgate Recruitment Pte Ltd.\nFound: SCAM WARNING ABOUT THIS NAME. Northgate Recruitment published a notice (Aug 2022) that scammers are posing as its staff on Telegram and asking candidates to pay fees for fake jobs. Source: Northgate Recruitment press statement. This warning is about people imitating the brand."},
+  {"id":"S3","type":"consumer-complaint alert","text":"Employer check: Lumen Hair Studio.\nFound: CASE (Consumers Association of Singapore) company alert listing this business for consumer complaints, 2023 to 2024. Source: CASE company alert list. This is a consumer-complaint alert and not a finding by a regulator."},
+  {"id":"S4","type":"nothing found, entity resolved","text":"Employer check: Orchard Peak Logistics Pte Ltd (company confirmed in the ACRA register).\nNothing found in the sources checked: MOM Employment Agencies Directory flagged list, MOM stop-work orders (Jan to Sep 2026), MAS enforcement actions, CASE company alerts. Checked 10 Nov 2026."},
+  {"id":"S5","type":"nothing found, entity unresolved","text":"Employer check: 'Sunrise Services'.\nNothing found in the sources checked. We could not confirm which registered company this name refers to, so the check used the name only."},
+  {"id":"S6","type":"non-employment item","text":"Employer check: FreshBite Foods Pte Ltd.\nFound: news report (2024) that police are investigating misuse of the company's mobile ordering app by scammers. Source: news report. This item is about the app and customers, not about employment."}
+ ]
+}

@@ -1,0 +1,1 @@
+2026-11-10 (UTC ~10:45) gpt-oss-120b: HTTP 429 on tokens per day (TPD): Limit 200000, Used 199315, Requested 3056 (org-wide, shared with all specialists). Per the run brief, no further gpt-oss-120b calls are made in this run. First seen by the E12 harness process for posting E12-P18 / P11 / P23 loops; the error text is in the harness stdout (not saved by llm_client).

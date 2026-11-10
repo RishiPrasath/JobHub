@@ -1,0 +1,963 @@
+{
+ "run1": {
+  "classes": {
+   "correct": 21,
+   "unknown_accept": 4,
+   "unknown_refusal": 2,
+   "unresolved_brand": 5,
+   "wrong_refusal": 3,
+   "wrong_accepted": 4
+  },
+  "by_stratum": {
+   "large": {
+    "correct": 7,
+    "unknown_accept": 1,
+    "unknown_refusal": 1
+   },
+   "sme": {
+    "correct": 6,
+    "unknown_accept": 2
+   },
+   "brand": {
+    "unresolved_brand": 5,
+    "wrong_refusal": 3,
+    "unknown_refusal": 1,
+    "unknown_accept": 1
+   },
+   "hidden": {
+    "correct": 2,
+    "wrong_accepted": 4
+   },
+   "lookalike": {
+    "correct": 6
+   }
+  },
+  "known_n": 33,
+  "known_correct": 21,
+  "correct_rate_known": 0.636,
+  "wrong_accepted": 4,
+  "wrong_accepted_ids": [
+   "H03",
+   "H04",
+   "H05",
+   "H06"
+  ],
+  "lookalikes_not_confirmed": 6,
+  "hidden_no_company": 2,
+  "hidden_anonymous": 2,
+  "hidden_agency": 0,
+  "entity_items": 21,
+  "entity_correct": 13,
+  "accepted_entity_precision": "13/13",
+  "seconds_sum": 3447.8,
+  "seconds_mean": 88.4,
+  "briefs_written": 18,
+  "summary_unavailable": 15,
+  "searches": 175,
+  "pages_read": 254,
+  "rows": {
+   "L01": {
+    "employer": "DBS Bank Ltd",
+    "stratum": "large",
+    "truth": "entity",
+    "truth_uen": "196800306E",
+    "headline": "exists_and_consistent",
+    "uen": "196800306E",
+    "cls": "correct",
+    "seconds": 181.4
+   },
+   "L02": {
+    "employer": "Keppel Ltd",
+    "stratum": "large",
+    "truth": "entity",
+    "truth_uen": "196800351N",
+    "headline": "exists_and_consistent",
+    "uen": "196800351N",
+    "cls": "correct",
+    "seconds": 118.0
+   },
+   "L03": {
+    "employer": "ComfortDelGro Corporation Limited",
+    "stratum": "large",
+    "truth": "entity",
+    "truth_uen": "200300002K",
+    "headline": "exists_and_consistent",
+    "uen": "200300002K",
+    "cls": "correct",
+    "seconds": 137.7
+   },
+   "L04": {
+    "employer": "Changi Airport Group (Singapore) Pte. Ltd.",
+    "stratum": "large",
+    "truth": "entity",
+    "truth_uen": "200910817N",
+    "headline": "exists_limited_evidence",
+    "uen": "200910817N",
+    "cls": "correct",
+    "seconds": 135.4
+   },
+   "L05": {
+    "employer": "CapitaLand Group Pte. Ltd.",
+    "stratum": "large",
+    "truth": "entity",
+    "truth_uen": "198900036N",
+    "headline": "exists_limited_evidence",
+    "uen": "198900036N",
+    "cls": "correct",
+    "seconds": 68.3
+   },
+   "L06": {
+    "employer": "Raffles Medical Group Ltd",
+    "stratum": "large",
+    "truth": "entity",
+    "truth_uen": "198901967K",
+    "headline": "exists_and_consistent",
+    "uen": "198901967K",
+    "cls": "correct",
+    "seconds": 71.1
+   },
+   "L07": {
+    "employer": "Starbucks Coffee Singapore Pte. Ltd.",
+    "stratum": "large",
+    "truth": "entity",
+    "truth_uen": "198800670D",
+    "headline": "exists_and_consistent",
+    "uen": "198800670D",
+    "cls": "correct",
+    "seconds": 127.8
+   },
+   "L08": {
+    "employer": "Singapore Airlines Limited",
+    "stratum": "large",
+    "truth": "unknown",
+    "truth_uen": null,
+    "headline": "exists_limited_evidence",
+    "uen": "197200078R",
+    "cls": "unknown_accept",
+    "seconds": 125.1
+   },
+   "L09": {
+    "employer": "NTUC FairPrice Co-operative Ltd",
+    "stratum": "large",
+    "truth": "unknown",
+    "truth_uen": null,
+    "headline": "likely_lookalike",
+    "uen": null,
+    "cls": "unknown_refusal",
+    "seconds": 63.3
+   },
+   "S01": {
+    "employer": "Ya Kun International Private Limited",
+    "stratum": "sme",
+    "truth": "entity",
+    "truth_uen": "200104668W",
+    "headline": "exists_and_consistent",
+    "uen": "200104668W",
+    "cls": "correct",
+    "seconds": 168.7
+   },
+   "S02": {
+    "employer": "Burger King Singapore Pte. Ltd.",
+    "stratum": "sme",
+    "truth": "entity",
+    "truth_uen": "200900741N",
+    "headline": "exists_and_consistent",
+    "uen": "200900741N",
+    "cls": "correct",
+    "seconds": 102.1
+   },
+   "S03": {
+    "employer": "Nium Pte. Ltd.",
+    "stratum": "sme",
+    "truth": "entity",
+    "truth_uen": "201422465R",
+    "headline": "exists_and_consistent",
+    "uen": "201422465R",
+    "cls": "correct",
+    "seconds": 128.5
+   },
+   "S04": {
+    "employer": "Funding Societies Pte. Ltd.",
+    "stratum": "sme",
+    "truth": "entity",
+    "truth_uen": "201505169M",
+    "headline": "exists_and_consistent",
+    "uen": "201505169M",
+    "cls": "correct",
+    "seconds": 128.9
+   },
+   "S05": {
+    "employer": "Ohmyhome Pte. Ltd.",
+    "stratum": "sme",
+    "truth": "entity",
+    "truth_uen": "201525768E",
+    "headline": "exists_and_consistent",
+    "uen": "201525768E",
+    "cls": "correct",
+    "seconds": 129.5
+   },
+   "S06": {
+    "employer": "Seedly Pte. Ltd.",
+    "stratum": "sme",
+    "truth": "entity",
+    "truth_uen": "201602731H",
+    "headline": "exists_and_consistent",
+    "uen": "201602731H",
+    "cls": "correct",
+    "seconds": 129.1
+   },
+   "S07": {
+    "employer": "Koufu Group Limited",
+    "stratum": "sme",
+    "truth": "unknown",
+    "truth_uen": null,
+    "headline": "exists_and_consistent",
+    "uen": "201732833D",
+    "cls": "unknown_accept",
+    "seconds": 128.8
+   },
+   "S08": {
+    "employer": "Carousell",
+    "stratum": "sme",
+    "truth": "unknown",
+    "truth_uen": null,
+    "headline": "exists_limited_evidence",
+    "uen": "201300296D",
+    "cls": "unknown_accept",
+    "seconds": 125.3
+   },
+   "B01": {
+    "employer": "OCBC Bank",
+    "stratum": "brand",
+    "truth": "entity",
+    "truth_uen": "193200032W",
+    "headline": "brand_legal_entity_unconfirmed",
+    "uen": null,
+    "cls": "unresolved_brand",
+    "seconds": 63.1
+   },
+   "B02": {
+    "employer": "Singtel",
+    "stratum": "brand",
+    "truth": "entity",
+    "truth_uen": "199201624D",
+    "headline": "ambiguous_entity",
+    "uen": null,
+    "cls": "wrong_refusal",
+    "seconds": 0.0
+   },
+   "B03": {
+    "employer": "SingPost",
+    "stratum": "brand",
+    "truth": "entity",
+    "truth_uen": "199201623M",
+    "headline": "not_active",
+    "uen": "202439966W",
+    "cls": "wrong_refusal",
+    "seconds": 0.0
+   },
+   "B04": {
+    "employer": "Grab",
+    "stratum": "brand",
+    "truth": "unknown",
+    "truth_uen": null,
+    "headline": "not_active",
+    "uen": "53355133A",
+    "cls": "unknown_refusal",
+    "seconds": 0.0
+   },
+   "B05": {
+    "employer": "NTUC Income",
+    "stratum": "brand",
+    "truth": "entity",
+    "truth_uen": "202135698W",
+    "headline": "brand_legal_entity_unconfirmed",
+    "uen": null,
+    "cls": "unresolved_brand",
+    "seconds": 64.9
+   },
+   "B06": {
+    "employer": "McDonald's Singapore",
+    "stratum": "brand",
+    "truth": "entity",
+    "truth_uen": "197600722D",
+    "headline": "brand_legal_entity_unconfirmed",
+    "uen": null,
+    "cls": "unresolved_brand",
+    "seconds": 131.8
+   },
+   "B07": {
+    "employer": "Mr Bean",
+    "stratum": "brand",
+    "truth": "entity",
+    "truth_uen": "199901613E",
+    "headline": "brand_legal_entity_unconfirmed",
+    "uen": null,
+    "cls": "unresolved_brand",
+    "seconds": 132.2
+   },
+   "B08": {
+    "employer": "Swensen's",
+    "stratum": "brand",
+    "truth": "entity",
+    "truth_uen": "197803023H",
+    "headline": "brand_legal_entity_unconfirmed",
+    "uen": null,
+    "cls": "unresolved_brand",
+    "seconds": 117.6
+   },
+   "B09": {
+    "employer": "Aspire",
+    "stratum": "brand",
+    "truth": "entity",
+    "truth_uen": "201903520D",
+    "headline": "not_active",
+    "uen": "200407197M",
+    "cls": "wrong_refusal",
+    "seconds": 0.1
+   },
+   "B10": {
+    "employer": "Toast Box",
+    "stratum": "brand",
+    "truth": "unknown",
+    "truth_uen": null,
+    "headline": "brand_legal_entity_unconfirmed",
+    "uen": null,
+    "cls": "unknown_accept",
+    "seconds": 115.3
+   },
+   "H01": {
+    "employer": "Confidential Employer",
+    "stratum": "hidden",
+    "truth": "not_disclosed",
+    "truth_uen": null,
+    "headline": "likely_lookalike",
+    "uen": null,
+    "cls": "correct",
+    "seconds": 61.4
+   },
+   "H02": {
+    "employer": "Our Client - A Global Bank",
+    "stratum": "hidden",
+    "truth": "not_disclosed",
+    "truth_uen": null,
+    "headline": "could_not_confirm_company",
+    "uen": null,
+    "cls": "correct",
+    "seconds": 84.7
+   },
+   "H03": {
+    "employer": "A Leading MNC",
+    "stratum": "hidden",
+    "truth": "not_disclosed",
+    "truth_uen": null,
+    "headline": "brand_legal_entity_unconfirmed",
+    "uen": null,
+    "cls": "wrong_accepted",
+    "seconds": 57.3
+   },
+   "H04": {
+    "employer": "Adecco Personnel Pte Ltd",
+    "stratum": "hidden",
+    "truth": "not_disclosed",
+    "truth_uen": null,
+    "headline": "exists_limited_evidence",
+    "uen": "198500164K",
+    "cls": "wrong_accepted",
+    "seconds": 41.5
+   },
+   "H05": {
+    "employer": "Hays Specialist Recruitment Pte. Ltd.",
+    "stratum": "hidden",
+    "truth": "not_disclosed",
+    "truth_uen": null,
+    "headline": "exists_limited_evidence",
+    "uen": "200609504D",
+    "cls": "wrong_accepted",
+    "seconds": 71.5
+   },
+   "H06": {
+    "employer": "Robert Walters (Singapore) Pte Ltd",
+    "stratum": "hidden",
+    "truth": "not_disclosed",
+    "truth_uen": null,
+    "headline": "exists_limited_evidence",
+    "uen": "199706961E",
+    "cls": "wrong_accepted",
+    "seconds": 58.4
+   },
+   "F01": {
+    "employer": "Singtel Careers Hub Pte Ltd",
+    "stratum": "lookalike",
+    "truth": "not_real",
+    "truth_uen": null,
+    "headline": "could_not_confirm_company",
+    "uen": null,
+    "cls": "correct",
+    "seconds": 65.6
+   },
+   "F02": {
+    "employer": "Shopee Talent Solutions Pte Ltd",
+    "stratum": "lookalike",
+    "truth": "not_real",
+    "truth_uen": null,
+    "headline": "likely_lookalike",
+    "uen": null,
+    "cls": "correct",
+    "seconds": 97.4
+   },
+   "F03": {
+    "employer": "DBS Talent Acquisition Pte Ltd",
+    "stratum": "lookalike",
+    "truth": "not_real",
+    "truth_uen": null,
+    "headline": "likely_lookalike",
+    "uen": null,
+    "cls": "correct",
+    "seconds": 52.7
+   },
+   "F04": {
+    "employer": "CapitaLand Recruitment Services Pte Ltd",
+    "stratum": "lookalike",
+    "truth": "not_real",
+    "truth_uen": null,
+    "headline": "likely_lookalike",
+    "uen": null,
+    "cls": "correct",
+    "seconds": 52.3
+   },
+   "F05": {
+    "employer": "Changi Airport Recruitment Centre Pte Ltd",
+    "stratum": "lookalike",
+    "truth": "not_real",
+    "truth_uen": null,
+    "headline": "likely_lookalike",
+    "uen": null,
+    "cls": "correct",
+    "seconds": 66.3
+   },
+   "F06": {
+    "employer": "Merlion Prime Staffing Solutions Pte Ltd",
+    "stratum": "lookalike",
+    "truth": "not_real",
+    "truth_uen": null,
+    "headline": "could_not_confirm_company",
+    "uen": null,
+    "cls": "correct",
+    "seconds": 44.7
+   }
+  }
+ },
+ "run2": {
+  "classes": {
+   "correct": 22,
+   "unknown_accept": 4,
+   "unknown_refusal": 2,
+   "unresolved_brand": 5,
+   "wrong_refusal": 3,
+   "wrong_accepted": 3
+  },
+  "by_stratum": {
+   "large": {
+    "correct": 7,
+    "unknown_accept": 1,
+    "unknown_refusal": 1
+   },
+   "sme": {
+    "correct": 6,
+    "unknown_accept": 2
+   },
+   "brand": {
+    "unresolved_brand": 5,
+    "wrong_refusal": 3,
+    "unknown_refusal": 1,
+    "unknown_accept": 1
+   },
+   "hidden": {
+    "correct": 3,
+    "wrong_accepted": 3
+   },
+   "lookalike": {
+    "correct": 6
+   }
+  },
+  "known_n": 33,
+  "known_correct": 22,
+  "correct_rate_known": 0.667,
+  "wrong_accepted": 3,
+  "wrong_accepted_ids": [
+   "H04",
+   "H05",
+   "H06"
+  ],
+  "lookalikes_not_confirmed": 6,
+  "hidden_no_company": 3,
+  "hidden_anonymous": 3,
+  "hidden_agency": 0,
+  "entity_items": 21,
+  "entity_correct": 13,
+  "accepted_entity_precision": "13/13",
+  "seconds_sum": 2207.5,
+  "seconds_mean": 56.6,
+  "briefs_written": 1,
+  "summary_unavailable": 32,
+  "searches": 175,
+  "pages_read": 253,
+  "rows": {
+   "L01": {
+    "employer": "DBS Bank Ltd",
+    "stratum": "large",
+    "truth": "entity",
+    "truth_uen": "196800306E",
+    "headline": "exists_limited_evidence",
+    "uen": "196800306E",
+    "cls": "correct",
+    "seconds": 38.8
+   },
+   "L02": {
+    "employer": "Keppel Ltd",
+    "stratum": "large",
+    "truth": "entity",
+    "truth_uen": "196800351N",
+    "headline": "exists_limited_evidence",
+    "uen": "196800351N",
+    "cls": "correct",
+    "seconds": 43.7
+   },
+   "L03": {
+    "employer": "ComfortDelGro Corporation Limited",
+    "stratum": "large",
+    "truth": "entity",
+    "truth_uen": "200300002K",
+    "headline": "exists_limited_evidence",
+    "uen": "200300002K",
+    "cls": "correct",
+    "seconds": 56.0
+   },
+   "L04": {
+    "employer": "Changi Airport Group (Singapore) Pte. Ltd.",
+    "stratum": "large",
+    "truth": "entity",
+    "truth_uen": "200910817N",
+    "headline": "exists_limited_evidence",
+    "uen": "200910817N",
+    "cls": "correct",
+    "seconds": 59.4
+   },
+   "L05": {
+    "employer": "CapitaLand Group Pte. Ltd.",
+    "stratum": "large",
+    "truth": "entity",
+    "truth_uen": "198900036N",
+    "headline": "exists_limited_evidence",
+    "uen": "198900036N",
+    "cls": "correct",
+    "seconds": 37.6
+   },
+   "L06": {
+    "employer": "Raffles Medical Group Ltd",
+    "stratum": "large",
+    "truth": "entity",
+    "truth_uen": "198901967K",
+    "headline": "exists_limited_evidence",
+    "uen": "198901967K",
+    "cls": "correct",
+    "seconds": 73.6
+   },
+   "L07": {
+    "employer": "Starbucks Coffee Singapore Pte. Ltd.",
+    "stratum": "large",
+    "truth": "entity",
+    "truth_uen": "198800670D",
+    "headline": "exists_limited_evidence",
+    "uen": "198800670D",
+    "cls": "correct",
+    "seconds": 90.9
+   },
+   "L08": {
+    "employer": "Singapore Airlines Limited",
+    "stratum": "large",
+    "truth": "unknown",
+    "truth_uen": null,
+    "headline": "exists_limited_evidence",
+    "uen": "197200078R",
+    "cls": "unknown_accept",
+    "seconds": 59.3
+   },
+   "L09": {
+    "employer": "NTUC FairPrice Co-operative Ltd",
+    "stratum": "large",
+    "truth": "unknown",
+    "truth_uen": null,
+    "headline": "likely_lookalike",
+    "uen": null,
+    "cls": "unknown_refusal",
+    "seconds": 13.9
+   },
+   "S01": {
+    "employer": "Ya Kun International Private Limited",
+    "stratum": "sme",
+    "truth": "entity",
+    "truth_uen": "200104668W",
+    "headline": "exists_limited_evidence",
+    "uen": "200104668W",
+    "cls": "correct",
+    "seconds": 59.8
+   },
+   "S02": {
+    "employer": "Burger King Singapore Pte. Ltd.",
+    "stratum": "sme",
+    "truth": "entity",
+    "truth_uen": "200900741N",
+    "headline": "exists_limited_evidence",
+    "uen": "200900741N",
+    "cls": "correct",
+    "seconds": 50.5
+   },
+   "S03": {
+    "employer": "Nium Pte. Ltd.",
+    "stratum": "sme",
+    "truth": "entity",
+    "truth_uen": "201422465R",
+    "headline": "exists_limited_evidence",
+    "uen": "201422465R",
+    "cls": "correct",
+    "seconds": 83.0
+   },
+   "S04": {
+    "employer": "Funding Societies Pte. Ltd.",
+    "stratum": "sme",
+    "truth": "entity",
+    "truth_uen": "201505169M",
+    "headline": "exists_limited_evidence",
+    "uen": "201505169M",
+    "cls": "correct",
+    "seconds": 89.0
+   },
+   "S05": {
+    "employer": "Ohmyhome Pte. Ltd.",
+    "stratum": "sme",
+    "truth": "entity",
+    "truth_uen": "201525768E",
+    "headline": "exists_limited_evidence",
+    "uen": "201525768E",
+    "cls": "correct",
+    "seconds": 100.9
+   },
+   "S06": {
+    "employer": "Seedly Pte. Ltd.",
+    "stratum": "sme",
+    "truth": "entity",
+    "truth_uen": "201602731H",
+    "headline": "exists_limited_evidence",
+    "uen": "201602731H",
+    "cls": "correct",
+    "seconds": 90.7
+   },
+   "S07": {
+    "employer": "Koufu Group Limited",
+    "stratum": "sme",
+    "truth": "unknown",
+    "truth_uen": null,
+    "headline": "exists_limited_evidence",
+    "uen": "201732833D",
+    "cls": "unknown_accept",
+    "seconds": 43.7
+   },
+   "S08": {
+    "employer": "Carousell",
+    "stratum": "sme",
+    "truth": "unknown",
+    "truth_uen": null,
+    "headline": "exists_limited_evidence",
+    "uen": "201300296D",
+    "cls": "unknown_accept",
+    "seconds": 59.7
+   },
+   "B01": {
+    "employer": "OCBC Bank",
+    "stratum": "brand",
+    "truth": "entity",
+    "truth_uen": "193200032W",
+    "headline": "brand_legal_entity_unconfirmed",
+    "uen": null,
+    "cls": "unresolved_brand",
+    "seconds": 60.5
+   },
+   "B02": {
+    "employer": "Singtel",
+    "stratum": "brand",
+    "truth": "entity",
+    "truth_uen": "199201624D",
+    "headline": "ambiguous_entity",
+    "uen": null,
+    "cls": "wrong_refusal",
+    "seconds": 0.0
+   },
+   "B03": {
+    "employer": "SingPost",
+    "stratum": "brand",
+    "truth": "entity",
+    "truth_uen": "199201623M",
+    "headline": "not_active",
+    "uen": "202439966W",
+    "cls": "wrong_refusal",
+    "seconds": 0.0
+   },
+   "B04": {
+    "employer": "Grab",
+    "stratum": "brand",
+    "truth": "unknown",
+    "truth_uen": null,
+    "headline": "not_active",
+    "uen": "53355133A",
+    "cls": "unknown_refusal",
+    "seconds": 0.0
+   },
+   "B05": {
+    "employer": "NTUC Income",
+    "stratum": "brand",
+    "truth": "entity",
+    "truth_uen": "202135698W",
+    "headline": "brand_legal_entity_unconfirmed",
+    "uen": null,
+    "cls": "unresolved_brand",
+    "seconds": 56.7
+   },
+   "B06": {
+    "employer": "McDonald's Singapore",
+    "stratum": "brand",
+    "truth": "entity",
+    "truth_uen": "197600722D",
+    "headline": "brand_legal_entity_unconfirmed",
+    "uen": null,
+    "cls": "unresolved_brand",
+    "seconds": 65.3
+   },
+   "B07": {
+    "employer": "Mr Bean",
+    "stratum": "brand",
+    "truth": "entity",
+    "truth_uen": "199901613E",
+    "headline": "brand_legal_entity_unconfirmed",
+    "uen": null,
+    "cls": "unresolved_brand",
+    "seconds": 60.0
+   },
+   "B08": {
+    "employer": "Swensen's",
+    "stratum": "brand",
+    "truth": "entity",
+    "truth_uen": "197803023H",
+    "headline": "brand_legal_entity_unconfirmed",
+    "uen": null,
+    "cls": "unresolved_brand",
+    "seconds": 47.3
+   },
+   "B09": {
+    "employer": "Aspire",
+    "stratum": "brand",
+    "truth": "entity",
+    "truth_uen": "201903520D",
+    "headline": "not_active",
+    "uen": "200407197M",
+    "cls": "wrong_refusal",
+    "seconds": 0.0
+   },
+   "B10": {
+    "employer": "Toast Box",
+    "stratum": "brand",
+    "truth": "unknown",
+    "truth_uen": null,
+    "headline": "brand_legal_entity_unconfirmed",
+    "uen": null,
+    "cls": "unknown_accept",
+    "seconds": 68.4
+   },
+   "H01": {
+    "employer": "Confidential Employer",
+    "stratum": "hidden",
+    "truth": "not_disclosed",
+    "truth_uen": null,
+    "headline": "could_not_confirm_company",
+    "uen": null,
+    "cls": "correct",
+    "seconds": 45.5
+   },
+   "H02": {
+    "employer": "Our Client - A Global Bank",
+    "stratum": "hidden",
+    "truth": "not_disclosed",
+    "truth_uen": null,
+    "headline": "could_not_confirm_company",
+    "uen": null,
+    "cls": "correct",
+    "seconds": 76.3
+   },
+   "H03": {
+    "employer": "A Leading MNC",
+    "stratum": "hidden",
+    "truth": "not_disclosed",
+    "truth_uen": null,
+    "headline": "could_not_confirm_company",
+    "uen": null,
+    "cls": "correct",
+    "seconds": 63.1
+   },
+   "H04": {
+    "employer": "Adecco Personnel Pte Ltd",
+    "stratum": "hidden",
+    "truth": "not_disclosed",
+    "truth_uen": null,
+    "headline": "exists_limited_evidence",
+    "uen": "198500164K",
+    "cls": "wrong_accepted",
+    "seconds": 63.1
+   },
+   "H05": {
+    "employer": "Hays Specialist Recruitment Pte. Ltd.",
+    "stratum": "hidden",
+    "truth": "not_disclosed",
+    "truth_uen": null,
+    "headline": "exists_limited_evidence",
+    "uen": "200609504D",
+    "cls": "wrong_accepted",
+    "seconds": 67.6
+   },
+   "H06": {
+    "employer": "Robert Walters (Singapore) Pte Ltd",
+    "stratum": "hidden",
+    "truth": "not_disclosed",
+    "truth_uen": null,
+    "headline": "exists_limited_evidence",
+    "uen": "199706961E",
+    "cls": "wrong_accepted",
+    "seconds": 44.4
+   },
+   "F01": {
+    "employer": "Singtel Careers Hub Pte Ltd",
+    "stratum": "lookalike",
+    "truth": "not_real",
+    "truth_uen": null,
+    "headline": "could_not_confirm_company",
+    "uen": null,
+    "cls": "correct",
+    "seconds": 97.6
+   },
+   "F02": {
+    "employer": "Shopee Talent Solutions Pte Ltd",
+    "stratum": "lookalike",
+    "truth": "not_real",
+    "truth_uen": null,
+    "headline": "likely_lookalike",
+    "uen": null,
+    "cls": "correct",
+    "seconds": 119.6
+   },
+   "F03": {
+    "employer": "DBS Talent Acquisition Pte Ltd",
+    "stratum": "lookalike",
+    "truth": "not_real",
+    "truth_uen": null,
+    "headline": "likely_lookalike",
+    "uen": null,
+    "cls": "correct",
+    "seconds": 61.4
+   },
+   "F04": {
+    "employer": "CapitaLand Recruitment Services Pte Ltd",
+    "stratum": "lookalike",
+    "truth": "not_real",
+    "truth_uen": null,
+    "headline": "likely_lookalike",
+    "uen": null,
+    "cls": "correct",
+    "seconds": 54.9
+   },
+   "F05": {
+    "employer": "Changi Airport Recruitment Centre Pte Ltd",
+    "stratum": "lookalike",
+    "truth": "not_real",
+    "truth_uen": null,
+    "headline": "likely_lookalike",
+    "uen": null,
+    "cls": "correct",
+    "seconds": 65.4
+   },
+   "F06": {
+    "employer": "Merlion Prime Staffing Solutions Pte Ltd",
+    "stratum": "lookalike",
+    "truth": "not_real",
+    "truth_uen": null,
+    "headline": "could_not_confirm_company",
+    "uen": null,
+    "cls": "correct",
+    "seconds": 39.9
+   }
+  }
+ },
+ "stability": {
+  "same_headline": 25,
+  "same_accepted_uen_or_refusal": 39,
+  "same_class": 38,
+  "n": 39,
+  "differing_headlines": {
+   "L01": [
+    "exists_and_consistent",
+    "exists_limited_evidence"
+   ],
+   "L02": [
+    "exists_and_consistent",
+    "exists_limited_evidence"
+   ],
+   "L03": [
+    "exists_and_consistent",
+    "exists_limited_evidence"
+   ],
+   "L06": [
+    "exists_and_consistent",
+    "exists_limited_evidence"
+   ],
+   "L07": [
+    "exists_and_consistent",
+    "exists_limited_evidence"
+   ],
+   "S01": [
+    "exists_and_consistent",
+    "exists_limited_evidence"
+   ],
+   "S02": [
+    "exists_and_consistent",
+    "exists_limited_evidence"
+   ],
+   "S03": [
+    "exists_and_consistent",
+    "exists_limited_evidence"
+   ],
+   "S04": [
+    "exists_and_consistent",
+    "exists_limited_evidence"
+   ],
+   "S05": [
+    "exists_and_consistent",
+    "exists_limited_evidence"
+   ],
+   "S06": [
+    "exists_and_consistent",
+    "exists_limited_evidence"
+   ],
+   "S07": [
+    "exists_and_consistent",
+    "exists_limited_evidence"
+   ],
+   "H01": [
+    "likely_lookalike",
+    "could_not_confirm_company"
+   ],
+   "H03": [
+    "brand_legal_entity_unconfirmed",
+    "could_not_confirm_company"
+   ]
+  }
+ }
+}

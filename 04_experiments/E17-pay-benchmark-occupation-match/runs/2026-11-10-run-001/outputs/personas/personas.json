@@ -1,0 +1,195 @@
+{
+ "personas": [
+  {
+   "persona_id": "job_seeker-01-grad-skim",
+   "kind": "job_seeker",
+   "label": "Recent graduate, low digital confidence, skims fast",
+   "first_name": "Ravi",
+   "background": "27-year-old Singaporean who just finished a B.Sc. in Environmental Science. He has a few internships but no full‑time job yet.",
+   "situation_now": "Scrolling job boards on his phone while waiting for a coffee break, hoping to find an entry‑level analyst role.",
+   "goals": [
+    "Secure a full‑time position within 2 months",
+    "Earn enough to afford his first rented flat"
+   ],
+   "constraints": [
+    "Limited budget for commuting",
+    "Low confidence in evaluating detailed job specs"
+   ],
+   "digital_comfort": "low",
+   "reading_style": "Skims headings and bullet points, skips fine print",
+   "attitude_to_ai": "Neutral, hasn't tried AI‑based job matchers",
+   "known_gaps": [
+    "Misinterprets salary brackets presented as annual vs monthly",
+    "Overlooks required software proficiencies"
+   ],
+   "biases_or_habits": [
+    "Favors roles that mention 'training provided'",
+    "Distrusts overly technical jargon"
+   ],
+   "voice": "A bit hesitant, often asks for clarification in simple terms.",
+   "simulation_notes": "Will abandon the task if more than three job listings need detailed reading.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-02-mid-switch-skeptic",
+   "kind": "job_seeker",
+   "label": "Mid‑career switcher, medium digital skill, AI‑skeptical",
+   "first_name": "Mei Ling",
+   "background": "38-year-old Singapore permanent resident who spent 12 years as a retail manager and now wants to move into supply‑chain coordination.",
+   "situation_now": "Uses a laptop at home to compare a shortlist of postings, wary of automated recommendations.",
+   "goals": [
+    "Find a role that values management experience",
+    "Transition without taking a pay cut"
+   ],
+   "constraints": [
+    "Limited time due to current part‑time consulting gigs",
+    "Reluctant to rely on AI suggestions"
+   ],
+   "digital_comfort": "medium",
+   "reading_style": "Reads each bullet but stops at long paragraphs",
+   "attitude_to_ai": "Skeptical, prefers human‑reviewed listings",
+   "known_gaps": [
+    "May miss hidden requirements listed in small font",
+    "Confuses senior vs lead titles"
+   ],
+   "biases_or_habits": [
+    "Prefers companies with clear career progression statements",
+    "Avoids startups citing 'fast‑pace environment'"
+   ],
+   "voice": "Direct and pragmatic, often questioning the relevance of tech buzzwords.",
+   "simulation_notes": "Will ignore any AI‑generated match score and may quit after 5 minutes if she feels the list is too AI‑driven.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-03-service-worker-literal",
+   "kind": "job_seeker",
+   "label": "Service staff, high digital comfort, reads literally",
+   "first_name": "Kumar",
+   "background": "45-year-old Singapore citizen who has been a food‑court attendant for 20 years and recently learned basic computer use through community courses.",
+   "situation_now": "Browsing job portals on a shared tablet at the community centre, looking for a night‑shift position.",
+   "goals": [
+    "Maintain steady income for family support",
+    "Find a shift that aligns with his current work hours"
+   ],
+   "constraints": [
+    "Limited flexibility for daytime interviews",
+    "Needs clear, unambiguous job descriptions"
+   ],
+   "digital_comfort": "high",
+   "reading_style": "Reads every word, takes statements at face value",
+   "attitude_to_ai": "Indifferent, hasn't tried AI tools yet",
+   "known_gaps": [
+    "May misinterpret phrases like 'flexible hours' as any time slot",
+    "Overlooks implied benefits not explicitly listed"
+   ],
+   "biases_or_habits": [
+    "Trusts listings that include exact salary numbers",
+    "Dislikes roles that use abbreviations without explanation"
+   ],
+   "voice": "Straightforward, repeats key points to confirm understanding.",
+   "simulation_notes": "Will spend extra time double‑checking any ambiguous wording; may request clarification before proceeding.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-04-decade-pro",
+   "kind": "job_seeker",
+   "label": "10‑year professional, medium digital skill, confident",
+   "first_name": "Jia Hao",
+   "background": "32-year-old Singapore permanent resident with a decade of experience as a software tester in fintech, now eyeing a product‑owner role.",
+   "situation_now": "Uses a desktop with multiple tabs open, comparing role responsibilities and pay ranges.",
+   "goals": [
+    "Step up to a leadership position",
+    "Negotiate a higher salary band"
+   ],
+   "constraints": [
+    "Limited patience for overly generic listings",
+    "Wants clear evidence of career growth"
+   ],
+   "digital_comfort": "medium",
+   "reading_style": "Skims headlines, then reads bullet points thoroughly",
+   "attitude_to_ai": "Cautiously optimistic, will glance at AI suggestions but validates manually",
+   "known_gaps": [
+    "May overestimate his fit for roles requiring extensive stakeholder management",
+    "Could miss niche industry certifications listed"
+   ],
+   "biases_or_habits": [
+    "Favors companies that mention agile methodologies",
+    "Distrusts postings with salary ranges that seem too low for senior titles"
+   ],
+   "voice": "Confident and concise, often using industry terminology.",
+   "simulation_notes": "Will quickly discard any posting lacking a clear salary range; may spend up to 10 minutes on a promising role.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-05-grad-skim-lowai",
+   "kind": "job_seeker",
+   "label": "Recent graduate, low digital confidence, skims fast",
+   "first_name": "Wei",
+   "background": "Wei, 23, recently finished a Bachelor of Business Administration at a local university. He has limited experience with online job platforms and prefers mobile apps over desktop tools.",
+   "situation_now": "Scrolling through job boards on his phone during evenings, hoping to land an entry‑level analyst role.",
+   "goals": [
+    "Secure a full‑time position within 2 months",
+    "Earn enough to cover rent and student loan repayments"
+   ],
+   "constraints": [
+    "Low digital confidence makes him avoid complex filters",
+    "Limited time – only 1‑2 hours per day to job search",
+    "Budget constraints for premium job‑site subscriptions"
+   ],
+   "digital_comfort": "low",
+   "reading_style": "Skims headlines and bullet points, stops if anything looks unfamiliar",
+   "attitude_to_ai": "Uncertain, thinks AI suggestions might be generic",
+   "known_gaps": [
+    "May misinterpret salary ranges presented in yearly vs monthly terms",
+    "Unfamiliar with industry‑specific jargon"
+   ],
+   "biases_or_habits": [
+    "Prefers roles that mention \"training provided\"",
+    "Avoids postings with long paragraphs"
+   ],
+   "voice": "I just want something clear and quick to read, so I can decide fast.",
+   "simulation_notes": "If the pay range isn’t highlighted in bold or a separate line, Wei will skip the posting after 30 seconds.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-06-service-lit-highai",
+   "kind": "job_seeker",
+   "label": "Service staff, high digital comfort, reads literally",
+   "first_name": "Aisha",
+   "background": "Aisha, 38, has worked 12 years as a front‑desk officer at a hotel chain. She is comfortable with smartphones, uses multiple apps daily, and follows tech news.",
+   "situation_now": "Actively looking for a supervisory role in hospitality or retail, browsing curated job lists on a laptop.",
+   "goals": [
+    "Find a position with clear promotion path",
+    "Maintain a stable income to support her family"
+   ],
+   "constraints": [
+    "Needs a role with predictable hours for childcare",
+    "Wants transparent salary information before applying"
+   ],
+   "digital_comfort": "high",
+   "reading_style": "Reads every word, takes notes line by line, flags any ambiguous phrasing",
+   "attitude_to_ai": "Open, trusts AI‑generated match scores if they explain the reasoning",
+   "known_gaps": [
+    "May overlook benefits that are implied rather than explicitly listed",
+    "Could get stuck on minor wording differences"
+   ],
+   "biases_or_habits": [
+    "Prefers postings that list exact pay range rather than “competitive”",
+    "Avoids roles that require heavy travel"
+   ],
+   "voice": "I need all the details spelled out so I can compare options accurately.",
+   "simulation_notes": "Aisha will spend up to 5 minutes per posting, but will abandon if the pay range is not presented in a separate, clearly labeled field.",
+   "simulated": true
+  }
+ ],
+ "note": "Simulated personas created by tools/persona_creator.py. Not real users.",
+ "batches": [
+  {
+   "created_utc": "2026-11-10T11:35:45Z",
+   "kind": "job_seeker",
+   "brief": "six job seekers in Singapore with mixed digital comfort, who skim: include an early-career graduate, a mid-career switcher, a worker in a manual or service job, a professional with a decade of experience, one sceptical of AI tools, and one who reads very literally",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "8d3be840dc04"
+  }
+ ]
+}

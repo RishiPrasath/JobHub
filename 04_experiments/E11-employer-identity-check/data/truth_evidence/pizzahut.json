@@ -1,0 +1,41 @@
+{
+ "key": "pizzahut",
+ "domain": "www.pizzahut.com.sg",
+ "pages": [
+  {
+   "url": "https://www.pizzahut.com.sg/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://www.pizzahut.com.sg/privacy-policy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://www.pizzahut.com.sg/privacy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://www.pizzahut.com.sg/terms",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://www.pizzahut.com.sg/terms-and-conditions",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  }
+ ]
+}

@@ -1,0 +1,234 @@
+{
+ "employer": "Carousell",
+ "role": "Community Specialist",
+ "degraded": [
+  "summary_unavailable: model service busy: waited 90 s"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "CAROUSELL PTE. LTD. is registered in Singapore (status: Live Company, registered 2013-01-02).",
+  "basis": "name only",
+  "entity": {
+   "uen": "201300296D",
+   "name": "CAROUSELL PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2013-01-02",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Carousell\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Carousell\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Carousell\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Carousell\" Community Specialist interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"CAROUSELL PTE. LTD.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://support.carousell.com/hc/en-us/articles/13933586066457--Singapore-Police-advisory-on-phishing-scams-involving-fake-buyers",
+    "status": "ok",
+    "chars": 3229,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://support.carousell.com/hc/en-us/articles/14436609604377-Common-phishing-scam-patterns-spotted-on-Carousell",
+    "status": "ok",
+    "chars": 4385,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.channelnewsasia.com/singapore/carousell-facebook-scam-fake-buyer-phishing-december-police-3999606",
+    "status": "ok",
+    "chars": 1590,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.police.gov.sg/media-hub/news/2022/20221202_police_advisory_on_phishing_scams_involving_fake_buyers_on_carousell",
+    "status": "ok",
+    "chars": 4562,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.channelnewsasia.com/singapore/fake-buyers-carousell-scam-losses-s335000-5598046",
+    "status": "ok",
+    "chars": 3106,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.straitstimes.com/singapore/at-least-877-people-duped-by-fake-buyers-on-carousell-since-december",
+    "status": "ok",
+    "chars": 2267,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.straitstimes.com/singapore/courts-crime/woman-who-tried-selling-15-keychain-loses-1k-after-falling-for-carousell-phishing-scam",
+    "status": "ok",
+    "chars": 3655,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.mha.gov.sg/e-commerce-marketplace-transaction-safety-ratings/carousell",
+    "status": "ok",
+    "chars": 6496,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.indeed.com/cmp/Carousell-3/reviews",
+    "title": "Working at Carousell: Employee Reviews | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Carousell-Singapore-Reviews-EI_IE988629.0,9_IL.10,19_IM1123.htm",
+    "title": "Carousell Reviews in Singapore | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Carousell-Reviews-E988629.htm",
+    "title": "Carousell Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/Carousell-Reviews-E988629.htm",
+    "title": "Carousell Reviews (315): Pros & Cons of Working At Carousell",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/Carousell-Singapore-Reviews-EI_IE988629.0,9_IL.10,19_IC3235921.htm",
+    "title": "Carousell Reviews in Singapore - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/carousell-168554362569732",
+    "title": "Working at Carousell company profile and information | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/carousell-168554362569732/reviews",
+    "title": "Reviews Carousell employee ratings and reviews | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "carousell"
+   ],
+   "pages_with_exact_name": 8,
+   "snippets_with_exact_name": 34,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 0,
+  "registry_mirror_pages": 0
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (8 pages read, model: None)"
+ ],
+ "brief": null,
+ "could_not_read": [],
+ "link_out": [
+  {
+   "url": "https://sg.indeed.com/cmp/Carousell-3/reviews",
+   "title": "Working at Carousell: Employee Reviews | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Carousell-Singapore-Reviews-EI_IE988629.0,9_IL.10,19_IM1123.htm",
+   "title": "Carousell Reviews in Singapore | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Carousell-Reviews-E988629.htm",
+   "title": "Carousell Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Carousell-Reviews-E988629.htm",
+   "title": "Carousell Reviews (315): Pros & Cons of Working At Carousell",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Carousell-Singapore-Reviews-EI_IE988629.0,9_IL.10,19_IC3235921.htm",
+   "title": "Carousell Reviews in Singapore - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/carousell-168554362569732",
+   "title": "Working at Carousell company profile and information | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/carousell-168554362569732/reviews",
+   "title": "Reviews Carousell employee ratings and reviews | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 125.3,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

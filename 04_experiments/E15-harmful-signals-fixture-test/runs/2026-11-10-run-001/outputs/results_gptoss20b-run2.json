@@ -1,0 +1,459 @@
+{
+ "label": "gptoss20b-run2",
+ "model": "openai/gpt-oss-20b",
+ "run": 2,
+ "batched": true,
+ "params": {
+  "temperature": 0.2,
+  "reasoning_effort": "low",
+  "max_tokens": 1800,
+  "json_mode": true,
+  "batch_size": 4
+ },
+ "finished_utc": "2026-11-10T10:58:16Z",
+ "total_tokens": 4450,
+ "calls": [
+  {
+   "batch": 0,
+   "case_ids": [
+    "E2",
+    "E4",
+    "A05",
+    "J01"
+   ],
+   "usage": {
+    "completion_tokens": 480,
+    "prompt_tokens": 1044,
+    "total_tokens": 1524,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 97,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cached_tokens": 256
+    },
+    "queue_time": 0.283073122,
+    "prompt_time": 0.178054353,
+    "completion_time": 0.53964172,
+    "total_time": 0.717696073
+   },
+   "finish_reason": "stop",
+   "cached": false
+  },
+  {
+   "batch": 1,
+   "case_ids": [
+    "B01",
+    "B08",
+    "J04",
+    "C07"
+   ],
+   "usage": {
+    "completion_tokens": 414,
+    "prompt_tokens": 1077,
+    "total_tokens": 1491,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 174,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.318737975,
+    "prompt_time": 0.085999512,
+    "completion_time": 0.446358056,
+    "total_time": 0.532357568
+   },
+   "finish_reason": "stop",
+   "cached": false
+  },
+  {
+   "batch": 2,
+   "case_ids": [
+    "A08",
+    "B09",
+    "J06",
+    "C06"
+   ],
+   "usage": {
+    "completion_tokens": 348,
+    "prompt_tokens": 1087,
+    "total_tokens": 1435,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 183,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.368376018,
+    "prompt_time": 0.062789609,
+    "completion_time": 0.367040313,
+    "total_time": 0.429829922
+   },
+   "finish_reason": "stop",
+   "cached": false
+  }
+ ],
+ "results": [
+  {
+   "case_id": "E2",
+   "method": "gptoss20b-run2",
+   "batch": 0,
+   "posting_id_in_batch": "P1",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P1-AGE",
+     "category": 1,
+     "excerpt": "年龄25至30岁",
+     "span": [
+      10,
+      18
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "The posting specifies an age range, which could be discriminatory.",
+     "what_is_not_established": "It is unclear whether the age requirement is genuinely job-related.",
+     "suggested_question": "Could you explain why the age range is necessary for this role?"
+    },
+    {
+     "entry_id": "P1-GENDER",
+     "category": 1,
+     "excerpt": "限女性",
+     "span": [
+      6,
+      9
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "The posting restricts the position to a specific gender, which may be discriminatory.",
+     "what_is_not_established": "It is not established whether gender is a legitimate requirement for the role.",
+     "suggested_question": "Is gender a genuine requirement for this position, or could it be open to all applicants?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P1\", \"flags\": [{\"entry_id\": \"P1-AGE\", \"excerpt\": \"年龄25至30岁\", \"why_it_may_matter\": \"The posting specifies an age range, which could be discriminatory.\", \"what_is_not_established\": \"It is unclear whether the age requirement is genuinely job-related.\", \"suggested_question\": \"Could you explain why the age range is necessary for this role?\"}, {\"entry_id\": \"P1-GENDER\", \"excerpt\": \"限女性\", \"why_it_may_matter\": \"The posting restricts the position to a specific gender, which may be discriminatory.\", \"what_is_not_established\": \"It is not established whether gender is a legitimate requirement for the role.\", \"suggested_question\": \"Is gender a genuine requirement for this position, or could it be open to all applicants?\"}], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "E4",
+   "method": "gptoss20b-run2",
+   "batch": 0,
+   "posting_id_in_batch": "P2",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P1-AGE",
+     "category": 1,
+     "excerpt": "young peoples",
+     "span": [
+      12,
+      25
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "The posting uses a vague age descriptor that could be interpreted as a preference for younger applicants.",
+     "what_is_not_established": "It is not clear whether age is a legitimate job requirement.",
+     "suggested_question": "Could you clarify if age is a relevant factor for this role?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P2\", \"flags\": [{\"entry_id\": \"P1-AGE\", \"excerpt\": \"young peoples\", \"why_it_may_matter\": \"The posting uses a vague age descriptor that could be interpreted as a preference for younger applicants.\", \"what_is_not_established\": \"It is not clear whether age is a legitimate job requirement.\", \"suggested_question\": \"Could you clarify if age is a relevant factor for this role?\"}], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "A05",
+   "method": "gptoss20b-run2",
+   "batch": 0,
+   "posting_id_in_batch": "P3",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P2-FAMILY",
+     "category": 2,
+     "excerpt": "no personal commitments that could interfere with work",
+     "span": [
+      68,
+      122
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "The posting implies that personal or family commitments are undesirable, which could be discriminatory.",
+     "what_is_not_established": "It is not established that such commitments would actually interfere with job performance.",
+     "suggested_question": "Could you explain how personal commitments might impact the responsibilities of this role?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P3\", \"flags\": [{\"entry_id\": \"P2-FAMILY\", \"excerpt\": \"no personal commitments that could interfere with work\", \"why_it_may_matter\": \"The posting implies that personal or family commitments are undesirable, which could be discriminatory.\", \"what_is_not_established\": \"It is not established that such commitments would actually interfere with job performance.\", \"suggested_question\": \"Could you explain how personal commitments might impact the responsibilities of this role?\"}], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "J01",
+   "method": "gptoss20b-run2",
+   "batch": 0,
+   "posting_id_in_batch": "P4",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": true,
+   "raw_content": "{\"id\": \"P4\", \"flags\": [], \"no_reliable_signal\": true}"
+  },
+  {
+   "case_id": "B01",
+   "method": "gptoss20b-run2",
+   "batch": 1,
+   "posting_id_in_batch": "P1",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P1\", \"flags\": [], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "B08",
+   "method": "gptoss20b-run2",
+   "batch": 1,
+   "posting_id_in_batch": "P2",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P2\", \"flags\": [], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "J04",
+   "method": "gptoss20b-run2",
+   "batch": 1,
+   "posting_id_in_batch": "P3",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P1-RELIGION",
+     "category": 1,
+     "excerpt": "A Hindu priest is required",
+     "span": [
+      25,
+      51
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "The job explicitly requires a specific religion, which could be a discriminatory practice.",
+     "what_is_not_established": "Whether the requirement is genuinely essential for the role or merely a preference.",
+     "suggested_question": "Could you clarify if the role is open to candidates of other religions?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P3\", \"flags\": [{\"entry_id\": \"P1-RELIGION\", \"excerpt\": \"A Hindu priest is required\", \"why_it_may_matter\": \"The job explicitly requires a specific religion, which could be a discriminatory practice.\", \"what_is_not_established\": \"Whether the requirement is genuinely essential for the role or merely a preference.\", \"suggested_question\": \"Could you clarify if the role is open to candidates of other religions?\"}], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "C07",
+   "method": "gptoss20b-run2",
+   "batch": 1,
+   "posting_id_in_batch": "P4",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P3-DOCS",
+     "category": 3,
+     "excerpt": "keep your original passport and academic certificates",
+     "span": [
+      54,
+      107
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [],
+     "source_support": "none",
+     "why_it_may_matter": "The employer intends to retain original documents, which may raise concerns about privacy and security.",
+     "what_is_not_established": "The exact duration and conditions under which the documents will be held.",
+     "suggested_question": "Could you explain the policy on retaining original documents and how they will be safeguarded?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P4\", \"flags\": [{\"entry_id\": \"P3-DOCS\", \"excerpt\": \"keep your original passport and academic certificates\", \"why_it_may_matter\": \"The employer intends to retain original documents, which may raise concerns about privacy and security.\", \"what_is_not_established\": \"The exact duration and conditions under which the documents will be held.\", \"suggested_question\": \"Could you explain the policy on retaining original documents and how they will be safeguarded?\"}], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "A08",
+   "method": "gptoss20b-run2",
+   "batch": 2,
+   "posting_id_in_batch": "P1",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P1\", \"flags\": [], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "B09",
+   "method": "gptoss20b-run2",
+   "batch": 2,
+   "posting_id_in_batch": "P2",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P2\", \"flags\": [], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "J06",
+   "method": "gptoss20b-run2",
+   "batch": 2,
+   "posting_id_in_batch": "P3",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P3\", \"flags\": [], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "C06",
+   "method": "gptoss20b-run2",
+   "batch": 2,
+   "posting_id_in_batch": "P4",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P3-FEE",
+     "category": 3,
+     "excerpt": "Candidates must remit a $300 course fee before the first shift.",
+     "span": [
+      24,
+      87
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S5",
+       "name": "MOM FAQ, employment agency fees for workers (web page)",
+       "url": "https://www.mom.gov.sg/faq/employment-agencies/how-will-foreign-workers-know-the-amount-that-they-are-expected-to-pay-the-singapore-ea",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S4",
+       "name": "MOM, Allowable salary deductions (web page)",
+       "url": "https://www.mom.gov.sg/employment-practices/salary/salary-deductions",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "partial",
+     "why_it_may_matter": "The requirement to pay a fee before starting work could be a financial barrier for applicants.",
+     "what_is_not_established": "It is unclear whether the fee is refundable or mandatory for all candidates.",
+     "suggested_question": "Could you clarify whether the course fee is refundable and if it applies to all applicants?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P4\", \"flags\": [{\"entry_id\": \"P3-FEE\", \"excerpt\": \"Candidates must remit a $300 course fee before the first shift.\", \"why_it_may_matter\": \"The requirement to pay a fee before starting work could be a financial barrier for applicants.\", \"what_is_not_established\": \"It is unclear whether the fee is refundable or mandatory for all candidates.\", \"suggested_question\": \"Could you clarify whether the course fee is refundable and if it applies to all applicants?\"}], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "A02",
+   "method": "gptoss20b-run2",
+   "error": "DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199355, Requested 1842. Please try again in 8m37.104s. Need more tokens? Upgra",
+   "flags": [],
+   "no_reliable_signal": null
+  },
+  {
+   "case_id": "E5",
+   "method": "gptoss20b-run2",
+   "error": "DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199355, Requested 1842. Please try again in 8m37.104s. Need more tokens? Upgra",
+   "flags": [],
+   "no_reliable_signal": null
+  },
+  {
+   "case_id": "J03",
+   "method": "gptoss20b-run2",
+   "error": "DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199355, Requested 1842. Please try again in 8m37.104s. Need more tokens? Upgra",
+   "flags": [],
+   "no_reliable_signal": null
+  },
+  {
+   "case_id": "A01",
+   "method": "gptoss20b-run2",
+   "error": "DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199355, Requested 1842. Please try again in 8m37.104s. Need more tokens? Upgra",
+   "flags": [],
+   "no_reliable_signal": null
+  }
+ ]
+}

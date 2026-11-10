@@ -1,0 +1,57 @@
+{
+  "organisation": "Robert Walters Singapore",
+  "queries_run": [
+    "Robert Walters Singapore scam fake job warning",
+    "Robert Walters Singapore court case OR lawsuit OR complaint",
+    "Robert Walters Singapore retrenchment layoffs",
+    "Robert Walters Singapore TAFEP OR MOM OR regulator enforcement action",
+    "robertwalters.com.sg fraud alert impersonation recruiters",
+    "Robert Walters Singapore employee reviews complaints recruiter",
+    "Robert Walters Singapore unpaid wages Ministry of Manpower investigation"
+  ],
+  "pages_read": [
+    "https://www.gov.uk/employment-tribunal-decisions/ms-l-sheridan-v-robert-walters-plc-and-others-2416932-2018"
+  ],
+  "failed_reads": [
+    "https://www.robertwalters.com.my/fraud-alert.html",
+    "https://www.robertwalters.co.uk/about-us/trust-centre.html"
+  ],
+  "items": [
+    {
+      "claim": "Robert Walters' Malaysia fraud alert warns of an impersonation scam in which individuals pretend to be Robert Walters employees. The firm advises checking any listed role against its website.",
+      "entity_the_claim_is_about": "Robert Walters (group; Malaysia fraud alert page, not Singapore-specific)",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://www.robertwalters.com.my/fraud-alert.html",
+      "quoted_evidence": "Paraphrase from search-result summary (page returned HTTP 403, not read): 'alerting people to an impersonation scam involving individuals pretending to be Robert Walters employees'"
+    },
+    {
+      "claim": "Robert Walters' UK trust centre lists @robertwalters.com.sg among its official email domains and says scammers may use lookalike email addresses or fake domains, fake job ads, or pose as recruiters via email, calls, WhatsApp or LinkedIn. It says recruiters use corporate addresses on official domains, not Gmail or Hotmail, and that the firm never requests payment from candidates.",
+      "entity_the_claim_is_about": "Robert Walters (group trust centre; lists a Singapore domain)",
+      "category": "other",
+      "source_url": "https://www.robertwalters.co.uk/about-us/trust-centre.html",
+      "quoted_evidence": "Paraphrase from search-result summary (page returned HTTP 403, not read): 'scammers may use lookalike email addresses or fake domains, create fake job ads, or pretend to be recruiters'"
+    },
+    {
+      "claim": "Robert Walters' Japan fraud alert reports scam messages, mainly on WhatsApp, from people pretending to be Robert Walters recruiters, including use of a fake name ('Walters Recruitment Japan').",
+      "entity_the_claim_is_about": "Robert Walters Japan (brand impersonation; not Singapore)",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://www.robertwalters.co.jp/en/about-us/fraud-alert.html",
+      "quoted_evidence": "Paraphrase from search-result summary (page not read): 'scam messages, primarily on WhatsApp, from individuals pretending to be Robert Walters recruiters'"
+    },
+    {
+      "claim": "A single anonymous Glassdoor reviewer (2016, analyst) says the firm tried to force a new contract on worse terms, and that a local employment regulator investigation found over $14,000 in unpaid wages was owed. This is one unverified account; no regulator record was found.",
+      "entity_the_claim_is_about": "Robert Walters Singapore (anonymous employee review; unverified)",
+      "category": "other",
+      "source_url": "Glassdoor Singapore review of Robert Walters (exact review URL not identified; taken from search-result summary)",
+      "quoted_evidence": "Paraphrase from search-result summary: 'an investigation by the local employment regulator found that over $14,000 in unpaid wages was owed'"
+    },
+    {
+      "claim": "Ms L Sheridan brought a disability discrimination and Working Time Regulations claim at the Employment Tribunal for England and Wales against Robert Walters plc and others (and separately Robert Walters Operations Ltd). A decision dated 19 March 2020 is labelled 'Part Withdrawal' in one document and 'Withdrawal' in another. This is a UK case, not a Singapore one, and the outcome is not confirmed beyond the withdrawal label.",
+      "entity_the_claim_is_about": "Robert Walters plc and Robert Walters Operations Ltd (UK group entities, not Robert Walters Singapore)",
+      "category": "other_entity",
+      "source_url": "https://www.gov.uk/employment-tribunal-decisions/ms-l-sheridan-v-robert-walters-plc-and-others-2416932-2018",
+      "quoted_evidence": "'Part Withdrawal'"
+    }
+  ],
+  "notes": "No Singapore-specific red flags found. Searches found no Singapore court case, no regulator, TAFEP, MOM or licence enforcement action against Robert Walters Singapore, no retrenchment announcements by the firm (national Q1 2026 retrenchment data only), and no MOM unpaid-wage probe naming it (the June 2026 MOM probes named KPA Engineering and SK Industries). Two page reads returned HTTP 403 and were counted as failed; the impersonation and domain items rely on search-result summaries rather than verbatim page text, so quoted_evidence for those items is paraphrased and marked as such. The Glassdoor items are anonymous, mostly 2012 to 2018 reviews, with a Glassdoor rating of 3.7 from 2,294 reviews; recurring themes were high turnover, KPI pressure and management criticism, which are employee sentiment rather than verified red flags. The company responded to some reviews. Robert Walters' Singapore-specific fraud alert page was not found. The Sheridan case is a UK matter and was only partly confirmed; the page gave no substantive outcome. Total: 7 searches and 3 WebFetch calls (1 successful, 2 failed)."
+}

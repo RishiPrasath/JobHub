@@ -1,0 +1,164 @@
+{
+ "summary": {
+  "planted": 12,
+  "found": 12,
+  "recall": 1.0,
+  "clean_files": 4,
+  "clean_files_with_false_flags": 0,
+  "missed": [],
+  "unplanted_extra_flags": [],
+  "files_with_banned_wording": [],
+  "caveat": "Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file.",
+  "format_proxy": "None. Real DOCX (python-docx) and real PDF (PyMuPDF) files."
+ },
+ "files": {
+  "C01_docx_clean.docx": {
+   "findings": [],
+   "message": "No structural problems were found by this check. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "C02_docx_clean_header_footer.docx": {
+   "findings": [],
+   "message": "No structural problems were found by this check. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "C03_pdf_clean.pdf": {
+   "findings": [],
+   "message": "No structural problems were found by this check. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "C04_pdf_clean_two_pages_link.pdf": {
+   "findings": [],
+   "message": "No structural problems were found by this check. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "F01_docx_experience_as_image.docx": {
+   "findings": [
+    {
+     "code": "image_text",
+     "where": "body: picture found; any words inside it cannot be read as text",
+     "why": "Text inside a picture is not text to a parser. Words, dates or contact details in an image may be missing from what a system reads.",
+     "suggestion": "Put the words in normal text."
+    }
+   ],
+   "message": "1 structural feature(s) found that some parsers handle badly. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "F02_docx_experience_in_table.docx": {
+   "findings": [
+    {
+     "code": "table_core",
+     "where": "table holds 250 of 436 characters of text",
+     "why": "Some parsers read table cells out of order or skip them. Core content (jobs, dates, duties) held in a table may be mixed up or lost.",
+     "suggestion": "Use plain paragraphs and lists for jobs and dates."
+    }
+   ],
+   "message": "1 structural feature(s) found that some parsers handle badly. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "F03_docx_contact_in_header.docx": {
+   "findings": [
+    {
+     "code": "header_contact",
+     "where": "word/header1.xml: email or phone only here",
+     "why": "Some parsers ignore page headers. Contact details kept only in the header may not be read.",
+     "suggestion": "Repeat contact details in the main body."
+    }
+   ],
+   "message": "1 structural feature(s) found that some parsers handle badly. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "F04_docx_contact_in_footer.docx": {
+   "findings": [
+    {
+     "code": "footer_contact",
+     "where": "word/footer1.xml: email or phone only here",
+     "why": "Some parsers ignore page footers. Contact details kept only in the footer may not be read.",
+     "suggestion": "Repeat contact details in the main body."
+    }
+   ],
+   "message": "1 structural feature(s) found that some parsers handle badly. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "F05_docx_text_box.docx": {
+   "findings": [
+    {
+     "code": "text_box",
+     "where": "body: text box found",
+     "why": "Text in a text box sits outside the main text flow. Some parsers skip it or read it out of order.",
+     "suggestion": "Move the text into the main body."
+    }
+   ],
+   "message": "1 structural feature(s) found that some parsers handle badly. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "F06_docx_two_columns.docx": {
+   "findings": [
+    {
+     "code": "multi_column",
+     "where": "section with 2 columns",
+     "why": "Columns can be read straight across the page instead of down each column, which mixes the order of your content.",
+     "suggestion": "Use a single column."
+    }
+   ],
+   "message": "1 structural feature(s) found that some parsers handle badly. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "F07_docx_no_headings.docx": {
+   "findings": [
+    {
+     "code": "missing_headings",
+     "where": "no heading styles and fewer than 2 standard section labels",
+     "why": "No standard section headings found. Parsers and screen readers use headings such as Experience and Education to find sections.",
+     "suggestion": "Add headings such as Experience, Education and Skills."
+    }
+   ],
+   "message": "1 structural feature(s) found that some parsers handle badly. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "F08_pdf_scanned_no_text_layer.pdf": {
+   "findings": [
+    {
+     "code": "non_selectable",
+     "where": "page 1: image covers 100% and almost no selectable text",
+     "why": "The page has no selectable text (it looks like a scan or picture). A parser would have nothing to read without text recognition.",
+     "suggestion": "Export from the original document so the text is selectable."
+    }
+   ],
+   "message": "1 structural feature(s) found that some parsers handle badly. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "F09_pdf_contact_as_image.pdf": {
+   "findings": [
+    {
+     "code": "image_text",
+     "where": "page 1: picture found; any words inside it cannot be read as text",
+     "why": "Text inside a picture is not text to a parser. Words, dates or contact details in an image may be missing from what a system reads.",
+     "suggestion": "Put the words in normal text."
+    }
+   ],
+   "message": "1 structural feature(s) found that some parsers handle badly. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "F10_pdf_two_columns.pdf": {
+   "findings": [
+    {
+     "code": "multi_column",
+     "where": "page 1: text blocks sit side by side",
+     "why": "Columns can be read straight across the page instead of down each column, which mixes the order of your content.",
+     "suggestion": "Use a single column."
+    }
+   ],
+   "message": "1 structural feature(s) found that some parsers handle badly. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "F11_pdf_contact_in_header.pdf": {
+   "findings": [
+    {
+     "code": "header_contact",
+     "where": "page 1: email or phone only in the page margin zone",
+     "why": "Some parsers ignore page headers. Contact details kept only in the header may not be read.",
+     "suggestion": "Repeat contact details in the main body."
+    }
+   ],
+   "message": "1 structural feature(s) found that some parsers handle badly. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "F12_pdf_experience_in_table.pdf": {
+   "findings": [
+    {
+     "code": "table_core",
+     "where": "page 1: ruled table holds much of the page text",
+     "why": "Some parsers read table cells out of order or skip them. Core content (jobs, dates, duties) held in a table may be mixed up or lost.",
+     "suggestion": "Use plain paragraphs and lists for jobs and dates."
+    }
+   ],
+   "message": "1 structural feature(s) found that some parsers handle badly. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  }
+ }
+}

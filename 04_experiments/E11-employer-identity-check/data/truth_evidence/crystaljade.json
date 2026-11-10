@@ -1,0 +1,51 @@
+{
+ "key": "crystaljade",
+ "domain": "www.crystaljade.com",
+ "pages": [
+  {
+   "url": "https://www.crystaljade.com/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Korea Crystal Jade Dim Sum 1B, Shinsegae Dpt, Yeonnam-ro 35, Nam-gu, Inc"
+   ],
+   "copyright": []
+  },
+  {
+   "url": "https://www.crystaljade.com/privacy-policy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "VACY POLICY | PERSONAL DATA PROTECTION ACT (PDPA) COPYRIGHT © 2026 CRYSTAL JADE CULINARY CONCEPTS HOLDING. ALL RIGHTS RESERVED. Back to Top "
+   ]
+  },
+  {
+   "url": "https://www.crystaljade.com/privacy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "VACY POLICY | PERSONAL DATA PROTECTION ACT (PDPA) COPYRIGHT © 2026 CRYSTAL JADE CULINARY CONCEPTS HOLDING. ALL RIGHTS RESERVED. Back to Top "
+   ]
+  },
+  {
+   "url": "https://www.crystaljade.com/terms",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "VACY POLICY | PERSONAL DATA PROTECTION ACT (PDPA) COPYRIGHT © 2026 CRYSTAL JADE CULINARY CONCEPTS HOLDING. ALL RIGHTS RESERVED. Back to Top "
+   ]
+  },
+  {
+   "url": "https://www.crystaljade.com/terms-and-conditions",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "VACY POLICY | PERSONAL DATA PROTECTION ACT (PDPA) COPYRIGHT © 2026 CRYSTAL JADE CULINARY CONCEPTS HOLDING. ALL RIGHTS RESERVED. Back to Top "
+   ]
+  }
+ ]
+}

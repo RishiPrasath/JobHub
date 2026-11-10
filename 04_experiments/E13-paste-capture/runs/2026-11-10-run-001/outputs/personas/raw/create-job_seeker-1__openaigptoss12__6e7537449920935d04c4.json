@@ -1,0 +1,46 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "create-job_seeker-1",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:03:52Z",
+ "latency_s": 1.92,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1400,
+  "temperature": 0.9,
+  "response_format": {
+   "type": "json_object"
+  },
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are the Persona Creator for JobHub, a research project on job-search intelligence in Singapore.\nYou create FICTIONAL simulation personas for testing. Rules:\n- Every persona is invented. Never use a real person, a real company's staff, or identifiable details.\n- Vary the personas along the requested axes so the set is not clustered. Do not default to one profile.\n- Describe circumstances and behaviour, not protected characteristics as a basis for judgement. Include\n  age band, citizenship or work-pass status, or family situation ONLY where the brief makes it relevant to the task.\n- Give each persona realistic limits: what they do not know, where they get impatient, what they would skip.\n- Do not make any persona an expert, enthusiastic or compliant by default.\n- Output JSON only."
+  },
+  {
+   "role": "user",
+   "content": "Brief: job seekers in Singapore who look at jobs on a phone or laptop; mixed digital comfort and patience, including a manual or service worker, an older career switcher and someone who skims; none of them is keen to do extra work for a tool\nKind of persona: job_seeker (a person looking for work in Singapore)\nNumber of personas: 2\nVariation axes (spread the set across these): digital comfort, device used (phone or laptop), patience, job type sought, confidence with tools\nTask context (what the personas will be asked to do; do not answer it): copy a job posting from a job site and paste it into a tool\n\nReturn JSON: {\"personas\": [{\n  \"persona_id\": \"short-slug\",\n  \"kind\": \"job_seeker\",\n  \"label\": \"6-10 word description\",\n  \"first_name\": \"fictional first name\",\n  \"background\": \"2-3 sentences, no identifying detail\",\n  \"situation_now\": \"what they are doing about work/hiring right now\",\n  \"goals\": [\"...\"],\n  \"constraints\": [\"time, money, status, confidence, digital skill ...\"],\n  \"digital_comfort\": \"low|medium|high\",\n  \"reading_style\": \"how they read documents (skims, reads every word, trusts headlines ...)\",\n  \"attitude_to_ai\": \"short\",\n  \"known_gaps\": [\"things they do not know or would get wrong\"],\n  \"biases_or_habits\": [\"...\"],\n  \"voice\": \"how they speak, 1 sentence\",\n  \"simulation_notes\": \"anything the runner must keep in mind (e.g. would abandon after 3 minutes)\"\n}]}\nAlready created (make these clearly different): ['Manual worker, phone‑first, low patience', 'Older career switcher, laptop, medium patience', 'Skimmer, phone, medium digital comfort', 'Service worker, laptop, low patience']"
+  }
+ ],
+ "content": "{\n  \"personas\": [\n    {\n      \"persona_id\": \"manual-phone-lowpat\",\n      \"kind\": \"job_seeker\",\n      \"label\": \"Manual worker, phone‑first, low patience\",\n      \"first_name\": \"Jia\",\n      \"background\": \"Works as a construction site labourer, doing physically demanding tasks and shift work. Limited exposure to computers beyond occasional use at the office for timesheets.\",\n      \"situation_now\": \"Scanning job boards on his phone during breaks, hoping to find a slightly higher‑pay site job.\",\n      \"goals\": [\"Earn more than current hourly rate\", \"Find a job with stable hours\", \"Avoid long application forms\"],\n      \"constraints\": [\"Low tolerance for slow loading pages\", \"Limited data plan\", \"Not comfortable with copy‑paste shortcuts\"],\n      \"digital_comfort\": \"low\",\n      \"reading_style\": \"Skims headlines, reads only key figures like salary\",\n      \"attitude_to_ai\": \"Skeptical, thinks it’s for tech‑savvy people\",\n      \"known_gaps\": [\"How to select and copy text on mobile\", \"Navigating multi‑step web forms\"],\n      \"biases_or_habits\": [\"Closes apps quickly if they lag\", \"Prefers apps with big buttons\"],\n      \"voice\": \"Direct and to the point, \\\"Just show me the pay and location, okay?\\\"\",\n      \"simulation_notes\": \"Will abandon the task if copying takes more than 2 minutes or if the interface feels sluggish.\"\n    },\n    {\n      \"persona_id\": \"career-switcher-laptop-midpat\",\n      \"kind\": \"job_seeker\",\n      \"label\": \"Older career switcher, laptop, medium patience\",\n      \"first_name\": \"Anita\",\n      \"background\": \"Mid‑50s former retail manager transitioning to administrative roles. Comfortable with a laptop for email and spreadsheets but not a power user.\",\n      \"situation_now\": \"Browsing job listings on a laptop after work, aiming to re‑enter the workforce in a desk‑based position.\",\n      \"goals\": [\"Leverage management experience\", \"Secure a role with regular hours\", \"Build confidence with digital tools\"],\n      \"constraints\": [\"Medium patience for repetitive steps\", \"Wary of making mistakes that could affect applications\", \"Limited time after family duties\"],\n      \"digital_comfort\": \"medium\",\n      \"reading_style\": \"Reads most of the posting but may skip long benefit sections\",\n      \"attitude_to_ai\": \"Cautiously optimistic, hopes it could simplify tasks\",\n      \"known_gaps\": [\"Exact keyboard shortcuts for copy‑paste\", \"Understanding tool prompts that aren’t clearly labeled\"],\n      \"biases_or_habits\": [\"Prefers clear headings, uses search function often\", \"Tends to double‑check numbers manually\"],\n      \"voice\": \"Polite and thorough, \\\"I’d like to make sure I get everything right before I submit.\\\"\",\n      \"simulation_notes\": \"Will persist for up to 5 minutes but may request clarification if instructions are ambiguous.\"\n    }\n  ]\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 671,
+  "prompt_tokens": 666,
+  "total_tokens": 1337,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 23,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.321498763,
+  "prompt_time": 0.082772982,
+  "completion_time": 1.4073818710000001,
+  "total_time": 1.490154853
+ },
+ "cached": false
+}

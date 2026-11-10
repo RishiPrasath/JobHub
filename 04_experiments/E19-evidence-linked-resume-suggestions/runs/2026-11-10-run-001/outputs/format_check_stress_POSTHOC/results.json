@@ -1,0 +1,124 @@
+{
+ "summary": {
+  "planted": 7,
+  "found": 6,
+  "recall": 0.857,
+  "clean_files": 4,
+  "clean_files_with_false_flags": 0,
+  "missed": [
+   [
+    "S05_docx_textbox_in_header.docx",
+    "text_box"
+   ]
+  ],
+  "unplanted_extra_flags": [
+   [
+    "S04_docx_layout_table.docx",
+    "missing_headings"
+   ],
+   [
+    "S10_docx_whole_page_picture.docx",
+    "missing_headings"
+   ]
+  ],
+  "files_with_banned_wording": [],
+  "caveat": "Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file.",
+  "format_proxy": "None. Real DOCX and PDF files."
+ },
+ "files": {
+  "S01_docx_clean_logo_in_header.docx": {
+   "findings": [],
+   "message": "No structural problems were found by this check. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "S02_docx_clean_caps_labels_no_styles.docx": {
+   "findings": [],
+   "message": "No structural problems were found by this check. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "S03_docx_three_columns.docx": {
+   "findings": [
+    {
+     "code": "multi_column",
+     "where": "section with 3 columns",
+     "why": "Columns can be read straight across the page instead of down each column, which mixes the order of your content.",
+     "suggestion": "Use a single column."
+    }
+   ],
+   "message": "1 structural feature(s) found that some parsers handle badly. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "S04_docx_layout_table.docx": {
+   "findings": [
+    {
+     "code": "table_core",
+     "where": "table holds 311 of 311 characters of text",
+     "why": "Some parsers read table cells out of order or skip them. Core content (jobs, dates, duties) held in a table may be mixed up or lost.",
+     "suggestion": "Use plain paragraphs and lists for jobs and dates."
+    },
+    {
+     "code": "missing_headings",
+     "where": "no heading styles and fewer than 2 standard section labels",
+     "why": "No standard section headings found. Parsers and screen readers use headings such as Experience and Education to find sections.",
+     "suggestion": "Add headings such as Experience, Education and Skills."
+    }
+   ],
+   "message": "2 structural feature(s) found that some parsers handle badly. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "S05_docx_textbox_in_header.docx": {
+   "findings": [
+    {
+     "code": "header_contact",
+     "where": "word/header1.xml: email or phone only here",
+     "why": "Some parsers ignore page headers. Contact details kept only in the header may not be read.",
+     "suggestion": "Repeat contact details in the main body."
+    }
+   ],
+   "message": "1 structural feature(s) found that some parsers handle badly. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "S06_pdf_three_columns.pdf": {
+   "findings": [
+    {
+     "code": "multi_column",
+     "where": "page 1: text blocks sit side by side",
+     "why": "Columns can be read straight across the page instead of down each column, which mixes the order of your content.",
+     "suggestion": "Use a single column."
+    }
+   ],
+   "message": "1 structural feature(s) found that some parsers handle badly. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "S07_pdf_contact_in_footer.pdf": {
+   "findings": [
+    {
+     "code": "footer_contact",
+     "where": "page 1: email or phone only in the page margin zone",
+     "why": "Some parsers ignore page footers. Contact details kept only in the footer may not be read.",
+     "suggestion": "Repeat contact details in the main body."
+    }
+   ],
+   "message": "1 structural feature(s) found that some parsers handle badly. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "S08_pdf_clean_logo.pdf": {
+   "findings": [],
+   "message": "No structural problems were found by this check. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "S09_pdf_clean_nonstandard_labels.pdf": {
+   "findings": [],
+   "message": "No structural problems were found by this check. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  },
+  "S10_docx_whole_page_picture.docx": {
+   "findings": [
+    {
+     "code": "image_text",
+     "where": "body: picture found; any words inside it cannot be read as text",
+     "why": "Text inside a picture is not text to a parser. Words, dates or contact details in an image may be missing from what a system reads.",
+     "suggestion": "Put the words in normal text."
+    },
+    {
+     "code": "missing_headings",
+     "where": "no heading styles and fewer than 2 standard section labels",
+     "why": "No standard section headings found. Parsers and screen readers use headings such as Experience and Education to find sections.",
+     "suggestion": "Add headings such as Experience, Education and Skills."
+    }
+   ],
+   "message": "2 structural feature(s) found that some parsers handle badly. Parsers differ between systems. This check lists structural features that some parsers handle badly; it does not tell you how any particular system will read your file."
+  }
+ }
+}

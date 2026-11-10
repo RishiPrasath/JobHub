@@ -1,0 +1,13 @@
+{
+ "key": "decathlon",
+ "domain": "www.decathlon.sg",
+ "pages": [
+  {
+   "url": "https://www.decathlon.sg/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  }
+ ]
+}

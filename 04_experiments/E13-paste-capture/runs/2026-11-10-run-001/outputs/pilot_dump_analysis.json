@@ -1,0 +1,28 @@
+{
+ "version": "snapshot-step 0.1.0 (E13, deterministic)",
+ "input": "data/pilot/page_dump.txt",
+ "analysis": {
+  "fields": {
+   "title": "present",
+   "employer": "present",
+   "pay": "present",
+   "duties": "present",
+   "closing": "missing"
+  },
+  "values": {
+   "title": "Admin Assistant",
+   "employer": "Marina Dental Group",
+   "pay": "$2,200",
+   "closing": null
+  },
+  "closing_date_iso": null,
+  "partial_flag": true,
+  "partial_reasons": [
+   "cards_nav"
+  ],
+  "missing_fields": [
+   "closing"
+  ],
+  "minimum_fields_present": false
+ }
+}

@@ -1,0 +1,283 @@
+{
+ "employer": "DBS Bank Ltd",
+ "role": "Customer Service Officer",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "DBS BANK LTD. is registered in Singapore (status: Live Company, registered 1968-07-16).",
+  "basis": "name only",
+  "entity": {
+   "uen": "196800306E",
+   "name": "DBS BANK LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1968-07-16",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [
+   "an earlier entity with the same name is now Terminated"
+  ],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"DBS Bank Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 1,
+    "error": null
+   },
+   {
+    "query": "\"DBS Bank Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"DBS Bank Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"DBS Bank Ltd\" Customer Service Officer interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"DBS BANK LTD.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.mycareersfuture.gov.sg/companies/dbs-bank-196800306E",
+    "status": "ok",
+    "chars": 6534,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.dbs.com.sg/corporate/contact-us/what-to-do-if-you-were-scammed",
+    "status": "ok",
+    "chars": 1277,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.dbs.com.sg/personal/support/guide-security-on-scams-and-fraud.html",
+    "status": "ok",
+    "chars": 2180,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.posb.com.sg/personal/scam-defence/protecting-yourself-online",
+    "status": "ok",
+    "chars": 6625,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.police.gov.sg/Media-Hub/News/2026/03/20260327_advisory_on_phishing_scams_involving_emails_that_impersonate_dbs_posb",
+    "status": "ok",
+    "chars": 2986,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://theindependent.sg/beware-of-dbs-scam-netizen-shares-screenshots-of-authentic-looking-phishing-website",
+    "status": "ok",
+    "chars": 3356,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://inf.news/en/economy/e72e5cb3aea23fd9721c63afa77f0314.html",
+    "status": "irrelevant",
+    "chars": 460,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://sginvestors.io/sgx/stock/d05-dbs/company-announcement",
+    "status": "ok",
+    "chars": 4829,
+    "note": null,
+    "tier": "render"
+   }
+  ],
+  "skipped_by_policy": [],
+  "gate": {
+   "phrases": [
+    "dbs bank"
+   ],
+   "pages_with_exact_name": 4,
+   "snippets_with_exact_name": 15,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 4,
+  "registry_mirror_pages": 0
+ },
+ "headline": "exists_and_consistent",
+ "headline_meaning": "Registered in Singapore, and public sources agree it is the company named.",
+ "reasons": [
+  "registry: confirmed",
+  "model: consistent across 7 pages"
+ ],
+ "brief": {
+  "confidence": "medium",
+  "could_not_verify": [
+   "specific details about the Customer Service Officer role",
+   "exact employee count or revenue figures for DBS Bank Ltd (Singapore)"
+  ],
+  "key_facts": [
+   {
+    "claim": "DBS BANK LTD is a live local company registered in Singapore since 1968.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Legal name: DBS BANK LTD. Status: Live Company. Registered: 1968-07-16",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "DBS Bank Ltd is the legal entity behind the Development Bank of Singapore, a major financial services group in Asia.",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://www.mycareersfuture.gov.sg/companies/dbs-bank-196800306E",
+      "quote": "DBS is a leading financial services group in Asia, with over 280 branches across 18 markets.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "The bank provides 24/7 fraud‑reporting and scam‑prevention services to customers.",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://www.dbs.com.sg/corporate/contact-us/what-to-do-if-you-were-scammed",
+      "quote": "Reporting can be done 24/7, at any time. Call us and select Option 1 to report fraud.",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 3,
+      "url": "https://www.dbs.com.sg/personal/support/guide-security-on-scams-and-fraud.html",
+      "quote": "If you suspect fraud or believe you’ve been scammed, contact us immediately.",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "DBS collaborates with Singapore authorities to educate the public about phishing and scam threats.",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.police.gov.sg/Media-Hub/News/2026/03/20260327_advisory_on_phishing_scams_involving_emails_that_impersonate_dbs_posb",
+      "quote": "DBS has intensified its prevention efforts through co‑created educational content with the Police.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "DBS Bank Ltd maintains a strong reputation and high credit ratings in the Asia‑Pacific region.",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://www.mycareersfuture.gov.sg/companies/dbs-bank-196800306E",
+      "quote": "The bank's capital position, as well as \"AA-\" and \"Aa1\" credit ratings, is among the highest in Asia‑Pacific.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "The bank is recognized for leadership, having been named “Asia’s Best Bank” by The Banker.",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://www.mycareersfuture.gov.sg/companies/dbs-bank-196800306E",
+      "quote": "DBS has been recognised for its leadership in the region, having been named “Asia’s Best Bank”",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "red_flags": [
+   {
+    "claim": "There are frequent phishing and scam attempts impersonating DBS, which could affect candidate perception.",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.police.gov.sg/Media-Hub/News/2026/03/20260327_advisory_on_phishing_scams_involving_emails_that_impersonate_dbs_posb",
+      "quote": "Since 15 January 2026, there were at least 72 cases involving the impersonation of DBS and POSB",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 6,
+      "url": "https://theindependent.sg/beware-of-dbs-scam-netizen-shares-screenshots-of-authentic-looking-phishing-website",
+      "quote": "Beware of DBS scam: netizen shares screenshots of authentic‑looking phishing website",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "validity_reasoning": "Multiple independent sources (registry record, government job portal, official DBS website, and police advisories) consistently describe DBS BANK LTD as a live, registered Singaporean bank with a strong market presence and active fraud‑prevention efforts. No conflicting information was found.",
+  "claims_verified": 6,
+  "claims_unverified": 1,
+  "model_validity_status": "appears_real_and_consistent"
+ },
+ "could_not_read": [
+  {
+   "url": "https://inf.news/en/economy/e72e5cb3aea23fd9721c63afa77f0314.html",
+   "why": "irrelevant: the page never mentions the company name"
+  }
+ ],
+ "link_out": [],
+ "could_not_verify": [
+  "specific details about the Customer Service Officer role",
+  "exact employee count or revenue figures for DBS Bank Ltd (Singapore)"
+ ],
+ "seconds": 181.4,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

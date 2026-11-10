@@ -1,0 +1,958 @@
+[
+ {
+  "id": "X3-01",
+  "code": "24113",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Senior tax accountant is a tax accountant.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-02",
+  "code": "24111",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Accountant; manager seniority label but the title is the plain accountant occupation.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-03",
+  "code": "24111",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Accountant.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-04",
+  "code": "24111",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Manufacturing accountant (cost/financial accounting).",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-05",
+  "code": "24111",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Accountant.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-06",
+  "code": "25121",
+  "alt": [
+   "25141"
+  ],
+  "nearest_rejected": [],
+  "reason": "Software engineer building engineering applications is a software developer.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-07",
+  "code": "25121",
+  "alt": [
+   "25122"
+  ],
+  "nearest_rejected": [],
+  "reason": "Java backend developer is a software developer.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-08",
+  "code": "25121",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Senior software engineer (Java/React) is a software developer.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-09",
+  "code": "25121",
+  "alt": [
+   "25122"
+  ],
+  "nearest_rejected": [],
+  "reason": "Software engineer on Power Platform; software developer is closest.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-10",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "26413",
+   "24314"
+  ],
+  "reason": "Promotional text with no usable information about duties.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-11",
+  "code": "22200",
+  "alt": [],
+  "nearest_rejected": [
+   "32200"
+  ],
+  "reason": "Staff nurse in a private clinic with cannulation and port care is a registered nurse role.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-12",
+  "code": "22200",
+  "alt": [],
+  "nearest_rejected": [
+   "32200"
+  ],
+  "reason": "Staff nurse (paediatrics) is a registered nurse role.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-13",
+  "code": "22200",
+  "alt": [
+   "32200"
+  ],
+  "nearest_rejected": [],
+  "reason": "Staff nurse; usually registered nurse, but non-executive label leaves enrolled nurse plausible.",
+  "confidence": "low"
+ },
+ {
+  "id": "X3-14",
+  "code": "22200",
+  "alt": [
+   "32200"
+  ],
+  "nearest_rejected": [],
+  "reason": "Staff nurse (renal/dialysis); usually registered nurse, enrolled nurse plausible given non-executive label.",
+  "confidence": "low"
+ },
+ {
+  "id": "X3-15",
+  "code": "22200",
+  "alt": [],
+  "nearest_rejected": [
+   "32200"
+  ],
+  "reason": "Senior/staff nurse in urgent care is a registered nurse role.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-16",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "13241",
+   "93334",
+   "43212"
+  ],
+  "reason": "No warehouse supervisor entry; warehousing manager is more senior, warehouse worker and storekeeper are more junior or clerical.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-17",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "13241",
+   "93334",
+   "43212"
+  ],
+  "reason": "No warehouse supervisor entry; nearest entries are manager level or worker/clerk level.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-18",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "13241",
+   "93334",
+   "43212"
+  ],
+  "reason": "No warehouse supervisor entry; nearest entries are manager level or worker/clerk level.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-19",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "13241",
+   "93334",
+   "43212"
+  ],
+  "reason": "No warehouse supervisor entry; nearest entries are manager level or worker/clerk level.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-20",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "13241",
+   "93334",
+   "43212"
+  ],
+  "reason": "Warehouse supervisor over pickers/packers; no matching supervisor entry, warehouse worker is junior and logistics manager is senior.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-21",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "52422",
+   "52421"
+  ],
+  "reason": "Vague promotional roadshow text; duties unclear.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-22",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "33223",
+   "24313"
+  ],
+  "reason": "Promotional listing with training-provided hook; no usable duty information and associate level unclear.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-23",
+  "code": "24313",
+  "alt": [
+   "24314"
+  ],
+  "nearest_rejected": [
+   "12222",
+   "33223"
+  ],
+  "reason": "Senior marketing executive plans and runs marketing; marketing strategy/planning professional is closest at professional level, manager would be too senior.",
+  "confidence": "low"
+ },
+ {
+  "id": "X3-24",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "33320",
+   "33223"
+  ],
+  "reason": "Promotional listing (travelling opportunities); duties unclear.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-25",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "33223",
+   "24313"
+  ],
+  "reason": "Promotional listing (training providing); duties unclear.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-26",
+  "code": "42245",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Customer service officer.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-27",
+  "code": "42245",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Customer service role; customer service officer/clerk is the fit.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-28",
+  "code": "42245",
+  "alt": [],
+  "nearest_rejected": [
+   "43231"
+  ],
+  "reason": "Customer service officer in shipping operations; customer service officer is closest.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-29",
+  "code": "42245",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Customer support officer is a customer service officer.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-30",
+  "code": "42245",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Customer service officer.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-31",
+  "code": "21441",
+  "alt": [
+   "21411"
+  ],
+  "nearest_rejected": [],
+  "reason": "Mechanical engineer in manufacturing.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-32",
+  "code": "31004",
+  "alt": [
+   "31002"
+  ],
+  "nearest_rejected": [
+   "21441"
+  ],
+  "reason": "Engineering assistant (mechanical/electrical) is assistant engineer level.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-33",
+  "code": "21441",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Mechanical design engineer is a mechanical engineer.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-34",
+  "code": "21441",
+  "alt": [
+   "21411"
+  ],
+  "nearest_rejected": [],
+  "reason": "Mechanical engineer in manufacturing/precision engineering.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-35",
+  "code": "21441",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Mechanical engineer.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-36",
+  "code": "51201",
+  "alt": [
+   "34341"
+  ],
+  "nearest_rejected": [],
+  "reason": "Demi chef (demi chef de partie) is a junior cook/chef.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-37",
+  "code": "34342",
+  "alt": [
+   "34341"
+  ],
+  "nearest_rejected": [
+   "14122"
+  ],
+  "reason": "Head chef leads the kitchen; kitchen operations head is the fit, catering manager is a different job.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-38",
+  "code": "94101",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Kitchen assistant.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-39",
+  "code": "34341",
+  "alt": [
+   "51201"
+  ],
+  "nearest_rejected": [],
+  "reason": "Entry-level chef.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-40",
+  "code": "34342",
+  "alt": [
+   "34341"
+  ],
+  "nearest_rejected": [],
+  "reason": "Head chef leads the kitchen.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-41",
+  "code": "24233",
+  "alt": [],
+  "nearest_rejected": [
+   "41102"
+  ],
+  "reason": "HR executive is a personnel/HR officer.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-42",
+  "code": "33131",
+  "alt": [
+   "43112"
+  ],
+  "nearest_rejected": [],
+  "reason": "Account executive handling AR/accounts is assistant accountant or accounts clerk level.",
+  "confidence": "low"
+ },
+ {
+  "id": "X3-43",
+  "code": "24231",
+  "alt": [],
+  "nearest_rejected": [
+   "12121"
+  ],
+  "reason": "HR business partner advises the business on HR; HR consultant is closest.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-44",
+  "code": "24233",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "HR executive (full spectrum) is a personnel/HR officer.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-45",
+  "code": "33221",
+  "alt": [],
+  "nearest_rejected": [
+   "24232",
+   "33330"
+  ],
+  "reason": "Business development executive (recruitment sector).",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-46",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "43112",
+   "33131",
+   "43111"
+  ],
+  "reason": "Title 'administrative accounts' gives no clear duties or level.",
+  "confidence": "low"
+ },
+ {
+  "id": "X3-47",
+  "code": "41101",
+  "alt": [],
+  "nearest_rejected": [
+   "41201"
+  ],
+  "reason": "Administrative assistant is an office clerk.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-48",
+  "code": "41101",
+  "alt": [],
+  "nearest_rejected": [
+   "41201"
+  ],
+  "reason": "Administrative assistant is an office clerk.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-49",
+  "code": "33494",
+  "alt": [
+   "41201"
+  ],
+  "nearest_rejected": [],
+  "reason": "Executive assistant is an executive secretary.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-50",
+  "code": "41101",
+  "alt": [],
+  "nearest_rejected": [
+   "41201"
+  ],
+  "reason": "Admin assistant is an office clerk.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-51",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "33221",
+   "24313"
+  ],
+  "reason": "Promotional entry-level lead listing; duties unclear.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-52",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "33221",
+   "52422"
+  ],
+  "reason": "Promotional listing (travel opportunities); duties unclear.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-53",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "24331",
+   "33221",
+   "52202"
+  ],
+  "reason": "Generic sales executive with no product or channel; no generic sales executive entry.",
+  "confidence": "low"
+ },
+ {
+  "id": "X3-54",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "33223",
+   "33221"
+  ],
+  "reason": "Promotional wording and generic sales/marketing; the only executive entry is F&B-specific.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-55",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "12211",
+   "24331",
+   "33221"
+  ],
+  "reason": "Ambiguous Executive/Manager level and generic sales; manager entry is too senior.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-56",
+  "code": "21231",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Data analyst.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-57",
+  "code": "21231",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Data analyst.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-58",
+  "code": "21231",
+  "alt": [
+   "25112"
+  ],
+  "nearest_rejected": [],
+  "reason": "Data business analyst; data analyst closest, business analyst plausible.",
+  "confidence": "medium"
+ },
+ {
+  "id": "X3-59",
+  "code": "21231",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Data analyst.",
+  "confidence": "high"
+ },
+ {
+  "id": "X3-60",
+  "code": "21222",
+  "alt": [
+   "21231"
+  ],
+  "nearest_rejected": [],
+  "reason": "Data scientist / data analyst; data scientist listed first.",
+  "confidence": "medium"
+ },
+ {
+  "id": "SYN-01",
+  "code": "74110",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Electrician.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-02",
+  "code": "71261",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Plumber.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-03",
+  "code": "72120",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Welder.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-04",
+  "code": "71271",
+  "alt": [],
+  "nearest_rejected": [
+   "31152"
+  ],
+  "reason": "Aircon technician is an air-conditioning equipment mechanic.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-05",
+  "code": "83321",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Lorry driver.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-06",
+  "code": "83211",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Motorcycle delivery rider.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-07",
+  "code": "83441",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Forklift operator.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-08",
+  "code": "52202",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Retail sales assistant is a shop sales assistant.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-09",
+  "code": "14201",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Retail store manager.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-10",
+  "code": "52201",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Retail store supervisor is a sales supervisor.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-11",
+  "code": "36991",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Relief teacher.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-12",
+  "code": "36100",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Preschool teacher.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-13",
+  "code": "36910",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Academic tutor.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-14",
+  "code": "51322",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Barista.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-15",
+  "code": "42242",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Hotel receptionist.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-16",
+  "code": "91121",
+  "alt": [
+   "51501",
+   "91122"
+  ],
+  "nearest_rejected": [],
+  "reason": "Hotel housekeeping attendant; housekeeping/linen room attendant is closest.",
+  "confidence": "medium"
+ },
+ {
+  "id": "SYN-17",
+  "code": "34343",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Pastry chef.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-18",
+  "code": "53201",
+  "alt": [
+   "53202"
+  ],
+  "nearest_rejected": [],
+  "reason": "Healthcare assistant.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-19",
+  "code": "32130",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Pharmacy assistant; pharmacy technician is the nearest support role.",
+  "confidence": "medium"
+ },
+ {
+  "id": "SYN-20",
+  "code": "22640",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Physiotherapist.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-21",
+  "code": "33131",
+  "alt": [
+   "43112"
+  ],
+  "nearest_rejected": [],
+  "reason": "Accounts payable executive: assistant accountant or accounts clerk level.",
+  "confidence": "low"
+ },
+ {
+  "id": "SYN-22",
+  "code": "43114",
+  "alt": [
+   "24233"
+  ],
+  "nearest_rejected": [],
+  "reason": "Payroll executive is payroll/wages clerk work.",
+  "confidence": "medium"
+ },
+ {
+  "id": "SYN-23",
+  "code": "33120",
+  "alt": [
+   "42141"
+  ],
+  "nearest_rejected": [
+   "43112"
+  ],
+  "reason": "Credit control officer manages customer credit and collections.",
+  "confidence": "low"
+ },
+ {
+  "id": "SYN-24",
+  "code": "21661",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Graphic designer.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-25",
+  "code": "26544",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Video editor.",
+  "confidence": "medium"
+ },
+ {
+  "id": "SYN-26",
+  "code": "26413",
+  "alt": [
+   "24314"
+  ],
+  "nearest_rejected": [],
+  "reason": "Social media content creator; content writer or digital marketing professional are near.",
+  "confidence": "low"
+ },
+ {
+  "id": "SYN-27",
+  "code": "54144",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Security officer.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-28",
+  "code": "91131",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Office cleaner.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-29",
+  "code": "34223",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Personal trainer is a physical fitness instructor.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-30",
+  "code": "26621",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Social worker.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-31",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Promotional text with no information about the role.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-32",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "52421",
+   "52422"
+  ],
+  "reason": "Promotional brand ambassador listing; duties unclear.",
+  "confidence": "medium"
+ },
+ {
+  "id": "SYN-33",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "41101",
+   "41310"
+  ],
+  "reason": "Work-from-home earn-daily admin text; duties unclear and scam-like.",
+  "confidence": "medium"
+ },
+ {
+  "id": "SYN-34",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "33223",
+   "24313"
+  ],
+  "reason": "Generic sales and marketing executive; no matching entry (F&B-specific one rejected).",
+  "confidence": "medium"
+ },
+ {
+  "id": "SYN-35",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "33223",
+   "33221"
+  ],
+  "reason": "Commission-based marketing and sales associate; generic, no matching entry.",
+  "confidence": "medium"
+ },
+ {
+  "id": "SYN-36",
+  "code": "33221",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Business development associate; business development executive is nearest.",
+  "confidence": "low"
+ },
+ {
+  "id": "SYN-37",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "43212",
+   "13241"
+  ],
+  "reason": "No stores supervisor entry; storekeeper is clerical and logistics manager is senior.",
+  "confidence": "medium"
+ },
+ {
+  "id": "SYN-38",
+  "code": "82000",
+  "alt": [],
+  "nearest_rejected": [],
+  "reason": "Production supervisor in electronics assembly.",
+  "confidence": "high"
+ },
+ {
+  "id": "SYN-39",
+  "code": "NONE",
+  "alt": [],
+  "nearest_rejected": [
+   "13241",
+   "31573",
+   "33461"
+  ],
+  "reason": "No logistics supervisor entry; nearest are manager or transport/planning roles.",
+  "confidence": "medium"
+ },
+ {
+  "id": "SYN-40",
+  "code": "91000",
+  "alt": [],
+  "nearest_rejected": [
+   "12193"
+  ],
+  "reason": "Cleaning supervisor; cleaning operations manager is more senior.",
+  "confidence": "high"
+ }
+]

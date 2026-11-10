@@ -1,0 +1,402 @@
+[
+ {
+  "id": "P01",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 1208,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P02",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 1186,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P03",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 1197,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P04",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 1038,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P05",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 962,
+  "has_crlf": true,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P06",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 905,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P07",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 937,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P08",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 756,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P09",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 916,
+  "has_crlf": false,
+  "has_nbsp": true,
+  "has_zero_width": true
+ },
+ {
+  "id": "P10",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 928,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P11",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 862,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P12",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 1071,
+  "has_crlf": false,
+  "has_nbsp": true,
+  "has_zero_width": false
+ },
+ {
+  "id": "P13",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 984,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P14",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 915,
+  "has_crlf": true,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P15",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 903,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P16",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 583,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P17",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 1032,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P18",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 592,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": true
+ },
+ {
+  "id": "P19",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 657,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P20",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 676,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P21",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 644,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P22",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 714,
+  "has_crlf": true,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P23",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 571,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P24",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 831,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P25",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 794,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P26",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 765,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P27",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 650,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P28",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 810,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P29",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 1071,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P30",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 742,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P31",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 594,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P32",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 522,
+  "has_crlf": false,
+  "has_nbsp": true,
+  "has_zero_width": false
+ },
+ {
+  "id": "P33",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 327,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P34",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 555,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P35",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 789,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P36",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 459,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P37",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 357,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P38",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 745,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P39",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 630,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ },
+ {
+  "id": "P40",
+  "stored_equals_original": true,
+  "correction_applied": true,
+  "restore_equals_original": true,
+  "bytes": 321,
+  "has_crlf": false,
+  "has_nbsp": false,
+  "has_zero_width": false
+ }
+]

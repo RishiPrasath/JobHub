@@ -1,0 +1,20 @@
+{
+ "key": "glints",
+ "domain": "glints.com",
+ "pages": [
+  {
+   "url": "https://glints.com/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://glints.com/about",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  }
+ ]
+}

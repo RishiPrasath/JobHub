@@ -1,0 +1,40 @@
+Senior Data Analyst – Singapore (Hybrid)  
+Join XYZ Corp, a leading fintech innovator, as we expand our analytics team to drive data‑powered decisions across our product suite. In this role, you will lead the design and implementation of advanced analytics pipelines, work closely with product managers to translate business needs into data solutions, and mentor junior analysts. You’ll be responsible for developing predictive models, automating reporting dashboards, and ensuring data quality across multiple sources.  
+
+Key Responsibilities  
+- Design, build, and maintain scalable data pipelines using Python, SQL, and Spark.  
+- Develop and deploy machine learning models to forecast customer behavior and churn.  
+- Create interactive visualisations and self‑service dashboards in Power BI and Tableau for stakeholders.  
+- Conduct ad‑hoc analysis to support product launches and strategic initiatives.  
+- Collaborate with engineering, product, and compliance teams to ensure data governance and security.  
+- Lead code reviews and provide technical mentorship to junior team members.  
+
+Qualifications  
+- Bachelor’s degree in Computer Science, Statistics, or related field; Master’s preferred.  
+- Minimum 5 years of experience in data analytics or data engineering roles.  
+- Proficient in Python (pandas, scikit‑learn), SQL, and big‑data tools (Spark, Hadoop).  
+- Hands‑on experience with cloud platforms (AWS, Azure) and containerisation (Docker, Kubernetes).  
+- Strong communication skills and ability to present insights to non‑technical audiences.  
+
+Benefits  
+- Competitive salary: SGD 8,500 – 12,000 per month  
+- Annual performance bonus up to 15% of base salary  
+- Flexible work arrangements (3 days office, 2 days remote)  
+- Health & dental insurance, wellness stipend, and professional development budget  
+- Employee stock options and transport allowance  
+
+Apply Now   Save Job   Share  
+
+Job Match: 64%   Be an early applicant  
+
+Menu: Home | Jobs | Companies | Salary Insights | Career Advice | My Profile | Logout  
+
+Banner: “Top 10 Companies Hiring in Singapore – November 2026”  
+
+Footer Links: About Us | Contact | Privacy Policy | Terms of Use | Sitemap  
+
+Company: XYZ Corp  
+Job Title: Senior Data Analyst  
+Location: Singapore (Hybrid)  
+Salary: SGD 8,500 – 12,000 per month  
+Closing in 3 days   Posted: 5 November 2026   Application Deadline: 13 November 2026   Apply by: 13 Nov 2026   Share this job   Report this job   © 2026 MyCareersFuture. All rights reserved.

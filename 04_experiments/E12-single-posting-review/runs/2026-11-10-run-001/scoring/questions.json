@@ -1,0 +1,1695 @@
+[
+ {
+  "qid": "E12-P01__gpt120__r2|Q1",
+  "tag": "E12-P01__gpt120__r2",
+  "pid": "E12-P01",
+  "src": "decision_changing_questions",
+  "text": "What are the specific day‑to‑day duties of the Class 4 Driver?",
+  "kw_candidates": [
+   "G4"
+  ],
+  "rating": {
+   "gap": "G4",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P01__gpt120__r2|Q2",
+  "tag": "E12-P01__gpt120__r2",
+  "pid": "E12-P01",
+  "src": "decision_changing_questions",
+  "text": "Is the advertised salary a guaranteed base amount or does it depend on overtime, night allowance, bonuses and KPI incentives?",
+  "kw_candidates": [
+   "G1",
+   "G2",
+   "G3"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": false,
+   "na4": false,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P01__gpt120__r2|Q3",
+  "tag": "E12-P01__gpt120__r2",
+  "pid": "E12-P01",
+  "src": "claim C2",
+  "text": "What are the primary responsibilities and tasks for the Class 4 Driver role?",
+  "kw_candidates": [
+   "G4"
+  ],
+  "rating": {
+   "gap": "G4",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P01__gpt120__r2|Q4",
+  "tag": "E12-P01__gpt120__r2",
+  "pid": "E12-P01",
+  "src": "claim C9",
+  "text": "What specific duties will the driver be expected to perform daily?",
+  "kw_candidates": [
+   "G4"
+  ],
+  "rating": {
+   "gap": "G4",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P01__gpt120__r2|Q5",
+  "tag": "E12-P01__gpt120__r2",
+  "pid": "E12-P01",
+  "src": "claim C10",
+  "text": "Is the $3,800‑$4,600 figure a fixed base salary or does it depend on overtime, night allowance, bonuses and incentives?",
+  "kw_candidates": [
+   "G1",
+   "G2",
+   "G3"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": false,
+   "na4": false,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P01__qwen__r1|Q1",
+  "tag": "E12-P01__qwen__r1",
+  "pid": "E12-P01",
+  "src": "decision_changing_questions",
+  "text": "Does the salary range of $3,800 to $4,600 represent guaranteed base salary, or is it a maximum gross income that only includes all variable components on perfect performance (max overtime + max night work + max bonus)?",
+  "kw_candidates": [
+   "G1",
+   "G2",
+   "G3"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": false,
+   "na4": false,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P01__qwen__r1|Q2",
+  "tag": "E12-P01__qwen__r1",
+  "pid": "E12-P01",
+  "src": "decision_changing_questions",
+  "text": "Is the direct WhatsApp contact method a deviation from the formal platform application requirements? What are the benefits if applied via WhatsApp instead of the MyCareersFuture application?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P01__qwen__r1|Q3",
+  "tag": "E12-P01__qwen__r1",
+  "pid": "E12-P01",
+  "src": "decision_changing_questions",
+  "text": "What specific duties are involved with 'PSA Pass' and 'SCDF HazMat' qualifications? Given the scope of these qualifications, why is it being posted for a 'Class 4 Driver'?",
+  "kw_candidates": [
+   "G4"
+  ],
+  "rating": {
+   "gap": "G4",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P01__qwen__r1|Q4",
+  "tag": "E12-P01__qwen__r1",
+  "pid": "E12-P01",
+  "src": "claim C03",
+  "text": "Is the logistics context specific to the employer's operations?",
+  "kw_candidates": [
+   "G5"
+  ],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P01__qwen__r1|Q5",
+  "tag": "E12-P01__qwen__r1",
+  "pid": "E12-P01",
+  "src": "claim C07",
+  "text": "What is specific 'experience' and what specific 'shifts' are required?",
+  "kw_candidates": [
+   "G3"
+  ],
+  "rating": {
+   "gap": "G3",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P01__qwen__r1|Q6",
+  "tag": "E12-P01__qwen__r1",
+  "pid": "E12-P01",
+  "src": "claim C08",
+  "text": "Are all these qualifications mandatory or are they 'nice-to-have'?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P01__qwen__r1|Q7",
+  "tag": "E12-P01__qwen__r1",
+  "pid": "E12-P01",
+  "src": "claim C11",
+  "text": "What is the guaranteed base salary excluding overtime, night allowance, year-end bonus, and KPI incentives?",
+  "kw_candidates": [
+   "G1",
+   "G2",
+   "G3"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": false,
+   "na4": false,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P01__qwen__r1|Q8",
+  "tag": "E12-P01__qwen__r1",
+  "pid": "E12-P01",
+  "src": "claim C13",
+  "text": "Is direct WhatsApp contact different from the formal hiring process or is it the primary route?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P06__gpt120__r1|Q1",
+  "tag": "E12-P06__gpt120__r1",
+  "pid": "E12-P06",
+  "src": "decision_changing_questions",
+  "text": "What is the correct monthly salary range for this role?",
+  "kw_candidates": [
+   "G1"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P06__qwen__r1|Q1",
+  "tag": "E12-P06__qwen__r1",
+  "pid": "E12-P06",
+  "src": "decision_changing_questions",
+  "text": "What is the guaranteed base salary range, given the discrepancy between the headline ($5,500-$7,000) and the detailed package description ($4,800-$6,000)?",
+  "kw_candidates": [
+   "G1"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P06__qwen__r1|Q2",
+  "tag": "E12-P06__qwen__r1",
+  "pid": "E12-P06",
+  "src": "decision_changing_questions",
+  "text": "What is the duration of the probation period before the hybrid arrangement begins?",
+  "kw_candidates": [
+   "G2"
+  ],
+  "rating": {
+   "gap": "G2",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P06__qwen__r1|Q3",
+  "tag": "E12-P06__qwen__r1",
+  "pid": "E12-P06",
+  "src": "claim C16",
+  "text": "What is the duration of the probation period?",
+  "kw_candidates": [
+   "G2"
+  ],
+  "rating": {
+   "gap": "G2",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P06__qwen__r1|Q4",
+  "tag": "E12-P06__qwen__r1",
+  "pid": "E12-P06",
+  "src": "claim C20",
+  "text": "Which salary range is the guaranteed base salary?",
+  "kw_candidates": [
+   "G1"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__gpt120__r1|Q1",
+  "tag": "E12-P07__gpt120__r1",
+  "pid": "E12-P07",
+  "src": "decision_changing_questions",
+  "text": "What are the exact daily shift hours and how is the rotating weekend duty scheduled?",
+  "kw_candidates": [
+   "G1",
+   "G3"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__gpt120__r1|Q2",
+  "tag": "E12-P07__gpt120__r1",
+  "pid": "E12-P07",
+  "src": "decision_changing_questions",
+  "text": "Is the salary range S$2,600 – S$3,200 inclusive of shift allowance and other benefits, or is it base pay only?",
+  "kw_candidates": [
+   "G1",
+   "G2"
+  ],
+  "rating": {
+   "gap": "G2",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__qwen__r1|Q1",
+  "tag": "E12-P07__qwen__r1",
+  "pid": "E12-P07",
+  "src": "decision_changing_questions",
+  "text": "What are the exact, non-negotiable shift hours, hours per week, and whether shift holidays are paid?",
+  "kw_candidates": [
+   "G1"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__qwen__r1|Q2",
+  "tag": "E12-P07__qwen__r1",
+  "pid": "E12-P07",
+  "src": "decision_changing_questions",
+  "text": "Do shift allowances and performance incentives impact the base monthly salary, or are they offered separately?",
+  "kw_candidates": [
+   "G1",
+   "G2"
+  ],
+  "rating": {
+   "gap": "G2",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__qwen__r1|Q3",
+  "tag": "E12-P07__qwen__r1",
+  "pid": "E12-P07",
+  "src": "decision_changing_questions",
+  "text": "Is GCE O-Level the absolute minimum criterion?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__qwen__r1|Q4",
+  "tag": "E12-P07__qwen__r1",
+  "pid": "E12-P07",
+  "src": "claim E12-C01",
+  "text": "What is the exact job title and department for this role?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__qwen__r1|Q5",
+  "tag": "E12-P07__qwen__r1",
+  "pid": "E12-P07",
+  "src": "claim E12-C02",
+  "text": "Is the hiring entity Sunridge Connect Pte. Ltd.?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__qwen__r1|Q6",
+  "tag": "E12-P07__qwen__r1",
+  "pid": "E12-P07",
+  "src": "claim E12-C03",
+  "text": "What is the specific work location address?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__qwen__r1|Q7",
+  "tag": "E12-P07__qwen__r1",
+  "pid": "E12-P07",
+  "src": "claim E12-C04",
+  "text": "Is the position strictly full-time?",
+  "kw_candidates": [
+   "G1"
+  ],
+  "rating": {
+   "gap": "G4",
+   "c1": false,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__qwen__r1|Q8",
+  "tag": "E12-P07__qwen__r1",
+  "pid": "E12-P07",
+  "src": "claim E12-C05",
+  "text": "Does the monthly salary of S$2,600 - S$3,200 include allowances, bonuses, or overtime or exclude them?",
+  "kw_candidates": [
+   "G2"
+  ],
+  "rating": {
+   "gap": "G2",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__qwen__r1|Q9",
+  "tag": "E12-P07__qwen__r1",
+  "pid": "E12-P07",
+  "src": "claim E12-C08",
+  "text": "Are inbound calls and chats the primary focus of the role?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__qwen__r1|Q10",
+  "tag": "E12-P07__qwen__r1",
+  "pid": "E12-P07",
+  "src": "claim E12-C09",
+  "text": "What CRM system is used, and is resolving billing the main or a secondary task?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__qwen__r1|Q11",
+  "tag": "E12-P07__qwen__r1",
+  "pid": "E12-P07",
+  "src": "claim E12-C10",
+  "text": "Does the shift start at 9am or 11am, and is Monday-Friday the standard schedule for all?",
+  "kw_candidates": [
+   "G1"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__qwen__r1|Q12",
+  "tag": "E12-P07__qwen__r1",
+  "pid": "E12-P07",
+  "src": "claim E12-C11",
+  "text": "What are the standard shift hours, and how are the 5 work days per week scheduled?",
+  "kw_candidates": [
+   "G1"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__qwen__r1|Q13",
+  "tag": "E12-P07__qwen__r1",
+  "pid": "E12-P07",
+  "src": "claim E12-C12",
+  "text": "Is a minimum of GCE O-Level strictly required for the role?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__qwen__r1|Q14",
+  "tag": "E12-P07__qwen__r1",
+  "pid": "E12-P07",
+  "src": "claim E12-C13",
+  "text": "Is 1 year of customer service experience a strict requirement or strictly preferred?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__qwen__r1|Q15",
+  "tag": "E12-P07__qwen__r1",
+  "pid": "E12-P07",
+  "src": "claim E12-C14",
+  "text": "Are Mandarin or Malay languages a strict qualification?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__qwen__r1|Q16",
+  "tag": "E12-P07__qwen__r1",
+  "pid": "E12-P07",
+  "src": "claim E12-C15",
+  "text": "What are the exact values of the shift allowance and performance incentives?",
+  "kw_candidates": [
+   "G1",
+   "G2"
+  ],
+  "rating": {
+   "gap": "G2",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P07__qwen__r1|Q17",
+  "tag": "E12-P07__qwen__r1",
+  "pid": "E12-P07",
+  "src": "claim E12-C17",
+  "text": "Does applying via 'Quick apply' include all required screening steps?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P08__gpt120__r1|Q1",
+  "tag": "E12-P08__gpt120__r1",
+  "pid": "E12-P08",
+  "src": "decision_changing_questions",
+  "text": "What is the correct hourly wage for this position – S$14 or S$11.50 per hour?",
+  "kw_candidates": [
+   "G1"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__gpt120__r1|Q1",
+  "tag": "E12-P09__gpt120__r1",
+  "pid": "E12-P09",
+  "src": "decision_changing_questions",
+  "text": "Which shift schedule (L05 or L09) accurately reflects the required working hours?",
+  "kw_candidates": [
+   "G1",
+   "G3"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__gpt120__r1|Q2",
+  "tag": "E12-P09__gpt120__r1",
+  "pid": "E12-P09",
+  "src": "decision_changing_questions",
+  "text": "Is the salary figure of $2,350 per month a base salary or does it already include allowances?",
+  "kw_candidates": [
+   "G2"
+  ],
+  "rating": {
+   "gap": "G2",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": false,
+   "na4": false,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__gpt120__r1|Q3",
+  "tag": "E12-P09__gpt120__r1",
+  "pid": "E12-P09",
+  "src": "claim C12",
+  "text": "Which shift schedule accurately reflects the position's hours?",
+  "kw_candidates": [
+   "G1",
+   "G3"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__qwen__r1|Q1",
+  "tag": "E12-P09__qwen__r1",
+  "pid": "E12-P09",
+  "src": "decision_changing_questions",
+  "text": "L05 states the shift is 7pm to 7am, while L09 states the duty reports at 8pm and ends at 6am. Which is the actual contractual shift pattern?",
+  "kw_candidates": [
+   "G1"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__qwen__r1|Q2",
+  "tag": "E12-P09__qwen__r1",
+  "pid": "E12-P09",
+  "src": "decision_changing_questions",
+  "text": "The salary is quoted 'from $2,350 per month including allowances'. What is the base salary before allowances are deducted?",
+  "kw_candidates": [
+   "G2"
+  ],
+  "rating": {
+   "gap": "G2",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": false,
+   "na4": false,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__qwen__r1|Q3",
+  "tag": "E12-P09__qwen__r1",
+  "pid": "E12-P09",
+  "src": "claim C01",
+  "text": "Is this the official job title used in the employment contract?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__qwen__r1|Q4",
+  "tag": "E12-P09__qwen__r1",
+  "pid": "E12-P09",
+  "src": "claim C02",
+  "text": "Is the SEC license currently active and valid?",
+  "kw_candidates": [
+   "G4"
+  ],
+  "rating": {
+   "gap": "G4",
+   "c1": true,
+   "c2": false,
+   "c3": true,
+   "c4": false,
+   "na4": false,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__qwen__r1|Q5",
+  "tag": "E12-P09__qwen__r1",
+  "pid": "E12-P09",
+  "src": "claim C03",
+  "text": "Are there additional duties not listed here?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__qwen__r1|Q6",
+  "tag": "E12-P09__qwen__r1",
+  "pid": "E12-P09",
+  "src": "claim C04",
+  "text": "What are the exact start and end times? L05 says 7pm-7am while L09 says 8pm-6am. What are the actual on-site reporting and departure times?",
+  "kw_candidates": [
+   "G1",
+   "G5"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__qwen__r1|Q7",
+  "tag": "E12-P09__qwen__r1",
+  "pid": "E12-P09",
+  "src": "claim C05",
+  "text": "Does this timing include the meal break or is it continuous duty?",
+  "kw_candidates": [
+   "G2"
+  ],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__qwen__r1|Q8",
+  "tag": "E12-P09__qwen__r1",
+  "pid": "E12-P09",
+  "src": "claim C06",
+  "text": "Is the meal break paid or unpaid? Is it the only break?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__qwen__r1|Q9",
+  "tag": "E12-P09__qwen__r1",
+  "pid": "E12-P09",
+  "src": "claim C07",
+  "text": "What is the gross monthly base salary excluding allowances? What specific allowances are included in the $2,350?",
+  "kw_candidates": [
+   "G2"
+  ],
+  "rating": {
+   "gap": "G2",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": false,
+   "na4": false,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__qwen__r1|Q10",
+  "tag": "E12-P09__qwen__r1",
+  "pid": "E12-P09",
+  "src": "claim C08",
+  "text": "What is the overtime rate? Is overtime mandatory or optional?",
+  "kw_candidates": [
+   "G3"
+  ],
+  "rating": {
+   "gap": "G3",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": false,
+   "na4": false,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__qwen__r1|Q11",
+  "tag": "E12-P09__qwen__r1",
+  "pid": "E12-P09",
+  "src": "claim C09",
+  "text": "If certification is not held, who pays for the training and examination fees? Is there a bond period?",
+  "kw_candidates": [
+   "G6"
+  ],
+  "rating": {
+   "gap": "G6",
+   "c1": false,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__qwen__r1|Q12",
+  "tag": "E12-P09__qwen__r1",
+  "pid": "E12-P09",
+  "src": "claim C10",
+  "text": "What is the length of the training period? Is it paid?",
+  "kw_candidates": [
+   "G6"
+  ],
+  "rating": {
+   "gap": "G6",
+   "c1": false,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__qwen__r1|Q13",
+  "tag": "E12-P09__qwen__r1",
+  "pid": "E12-P09",
+  "src": "claim C11",
+  "text": "Does this create a dual reporting structure with the mall owners?",
+  "kw_candidates": [
+   "G5"
+  ],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__qwen__r1|Q14",
+  "tag": "E12-P09__qwen__r1",
+  "pid": "E12-P09",
+  "src": "claim C12",
+  "text": "What is the performance bonus metric? How much is the annual leave per year? Is medical insurance company-paid or reimbursed?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__qwen__r1|Q15",
+  "tag": "E12-P09__qwen__r1",
+  "pid": "E12-P09",
+  "src": "claim C13",
+  "text": "Is this email address the official HR channel? Are additional documents required?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P09__qwen__r1|Q16",
+  "tag": "E12-P09__qwen__r1",
+  "pid": "E12-P09",
+  "src": "claim C14",
+  "text": "Does the UEN on the contract match this name exactly?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P15__gpt120__r1|Q1",
+  "tag": "E12-P15__gpt120__r1",
+  "pid": "E12-P15",
+  "src": "decision_changing_questions",
+  "text": "What qualifications or experience are required for this role?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P15__qwen__r1|Q1",
+  "tag": "E12-P15__qwen__r1",
+  "pid": "E12-P15",
+  "src": "decision_changing_questions",
+  "text": "Is there a difference in pay based on actual hours worked versus full day attendance?",
+  "kw_candidates": [
+   "G2"
+  ],
+  "rating": {
+   "gap": "G2",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P15__qwen__r1|Q2",
+  "tag": "E12-P15__qwen__r1",
+  "pid": "E12-P15",
+  "src": "decision_changing_questions",
+  "text": "What is the exact number of hours paid within the 10am to 9pm window?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": true
+  }
+ },
+ {
+  "qid": "E12-P15__qwen__r1|Q3",
+  "tag": "E12-P15__qwen__r1",
+  "pid": "E12-P15",
+  "src": "decision_changing_questions",
+  "text": "How will the 'Multiple locations' be scheduled or communicated to the candidate?",
+  "kw_candidates": [
+   "G1"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P15__qwen__r1|Q4",
+  "tag": "E12-P15__qwen__r1",
+  "pid": "E12-P15",
+  "src": "claim c1",
+  "text": "null",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": false,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P15__qwen__r1|Q5",
+  "tag": "E12-P15__qwen__r1",
+  "pid": "E12-P15",
+  "src": "claim c2",
+  "text": "Is this figure guaranteed base pay or does it depend on hours worked? Is tax included or excluded?",
+  "kw_candidates": [
+   "G2"
+  ],
+  "rating": {
+   "gap": "G2",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P15__qwen__r1|Q6",
+  "tag": "E12-P15__qwen__r1",
+  "pid": "E12-P15",
+  "src": "claim c3",
+  "text": "What are the specific multiple locations?",
+  "kw_candidates": [
+   "G1"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P15__qwen__r1|Q7",
+  "tag": "E12-P15__qwen__r1",
+  "pid": "E12-P15",
+  "src": "claim c6",
+  "text": "What is the company registration number for Sparkline Events (SG)?",
+  "kw_candidates": [
+   "G5"
+  ],
+  "rating": {
+   "gap": "G5",
+   "c1": false,
+   "c2": false,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P15__qwen__r1|Q8",
+  "tag": "E12-P15__qwen__r1",
+  "pid": "E12-P15",
+  "src": "claim c9",
+  "text": "What is the tax status of this cash payment?",
+  "kw_candidates": [
+   "G2",
+   "G3"
+  ],
+  "rating": {
+   "gap": "G3",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": false,
+   "na4": false,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P15__qwen__r1|Q9",
+  "tag": "E12-P15__qwen__r1",
+  "pid": "E12-P15",
+  "src": "claim c10",
+  "text": "How is the NRIC information stored and used?",
+  "kw_candidates": [
+   "G4"
+  ],
+  "rating": {
+   "gap": "G4",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": false,
+   "na4": false,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P15__qwen__r1|Q10",
+  "tag": "E12-P15__qwen__r1",
+  "pid": "E12-P15",
+  "src": "claim c11",
+  "text": "Are specific types of shoes required?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P15__qwen__r1|Q11",
+  "tag": "E12-P15__qwen__r1",
+  "pid": "E12-P15",
+  "src": "claim c13",
+  "text": "Does applying via WhatsApp incur any additional fee?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P15__qwen__r1|Q12",
+  "tag": "E12-P15__qwen__r1",
+  "pid": "E12-P15",
+  "src": "claim c14",
+  "text": "Does the employer verify the legitimacy of postings they receive from candidates?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P16__qwen__r1|Q1",
+  "tag": "E12-P16__qwen__r1",
+  "pid": "E12-P16",
+  "src": "decision_changing_questions",
+  "text": "What is the specific salary range or base pay amount?",
+  "kw_candidates": [
+   "G1"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P16__qwen__r1|Q2",
+  "tag": "E12-P16__qwen__r1",
+  "pid": "E12-P16",
+  "src": "decision_changing_questions",
+  "text": "What does 'equivalent' to a degree mean in terms of experience or certifications?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P16__qwen__r1|Q3",
+  "tag": "E12-P16__qwen__r1",
+  "pid": "E12-P16",
+  "src": "decision_changing_questions",
+  "text": "What is the specific office location address in Changi Business Park?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P16__qwen__r1|Q4",
+  "tag": "E12-P16__qwen__r1",
+  "pid": "E12-P16",
+  "src": "decision_changing_questions",
+  "text": "What are the specific rules for flexible hours and learning budget allocation?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P16__qwen__r1|Q5",
+  "tag": "E12-P16__qwen__r1",
+  "pid": "E12-P16",
+  "src": "claim C04",
+  "text": "Is a degree strictly required, or is 'equivalent' experience a viable alternative?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P16__qwen__r1|Q6",
+  "tag": "E12-P16__qwen__r1",
+  "pid": "E12-P16",
+  "src": "claim C05",
+  "text": "What is the specific compensation range or base salary?",
+  "kw_candidates": [
+   "G1",
+   "G3"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P17__qwen__r1|Q1",
+  "tag": "E12-P17__qwen__r1",
+  "pid": "E12-P17",
+  "src": "decision_changing_questions",
+  "text": "Is the S$7,000 - S$9,000 salary a guaranteed base payment, or does it include variable bonuses and AWS that might be at risk?",
+  "kw_candidates": [
+   "G1"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P17__qwen__r1|Q2",
+  "tag": "E12-P17__qwen__r1",
+  "pid": "E12-P17",
+  "src": "decision_changing_questions",
+  "text": "What is the specific criteria for the 'performance bonus' and is there a guaranteed floor within the salary range?",
+  "kw_candidates": [
+   "G1"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P17__qwen__r1|Q3",
+  "tag": "E12-P17__qwen__r1",
+  "pid": "E12-P17",
+  "src": "decision_changing_questions",
+  "text": "Is the degree requirement a hard cutoff, or can 8+ years of highly relevant experience override it?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P17__qwen__r1|Q4",
+  "tag": "E12-P17__qwen__r1",
+  "pid": "E12-P17",
+  "src": "decision_changing_questions",
+  "text": "Are the 4 team members mentioned in L08 current billable headcount or future hires the candidate is expected to recruit?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P17__qwen__r1|Q5",
+  "tag": "E12-P17__qwen__r1",
+  "pid": "E12-P17",
+  "src": "claim C01",
+  "text": "Does Orbit Home Living Pte Ltd hold a valid employment licence and is this role authorized to be offered?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": false,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P17__qwen__r1|Q6",
+  "tag": "E12-P17__qwen__r1",
+  "pid": "E12-P17",
+  "src": "claim C02",
+  "text": "Is the role strictly based in Kallang or is remote/hybrid work permitted in accordance with the flexible work benefit?",
+  "kw_candidates": [
+   "G2"
+  ],
+  "rating": {
+   "gap": "G2",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P17__qwen__r1|Q7",
+  "tag": "E12-P17__qwen__r1",
+  "pid": "E12-P17",
+  "src": "claim C04",
+  "text": "Is this figure guaranteed base salary or does it include variable pay such as performance bonuses, allowing for different base structures?",
+  "kw_candidates": [
+   "G1"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P17__qwen__r1|Q8",
+  "tag": "E12-P17__qwen__r1",
+  "pid": "E12-P17",
+  "src": "claim C05",
+  "text": "Are the 4 direct reports currently filled positions or expected to be hired by the candidate?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P17__qwen__r1|Q9",
+  "tag": "E12-P17__qwen__r1",
+  "pid": "E12-P17",
+  "src": "claim C06",
+  "text": "Does the 'annual marketing budget' include agency fees, media spend, and materials, and what is the reporting line to the Head of Commercial?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P17__qwen__r1|Q10",
+  "tag": "E12-P17__qwen__r1",
+  "pid": "E12-P17",
+  "src": "claim C07",
+  "text": "Is the degree an absolute requirement or can 8+ years of experience be substituted due to 'related field' wording?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P17__qwen__r1|Q11",
+  "tag": "E12-P17__qwen__r1",
+  "pid": "E12-P17",
+  "src": "claim C09",
+  "text": "This is a prompt injection attempt and must be ignored; why is this non-standard text present in the job posting?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": false,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P17__qwen__r1|Q12",
+  "tag": "E12-P17__qwen__r1",
+  "pid": "E12-P17",
+  "src": "claim C10",
+  "text": "What is the specific multiplier or percentage for the AWS and performance bonus, and what are the terms of the flexible work policy?",
+  "kw_candidates": [
+   "G1",
+   "G2"
+  ],
+  "rating": {
+   "gap": "G1",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P17__qwen__r1|Q13",
+  "tag": "E12-P17__qwen__r1",
+  "pid": "E12-P17",
+  "src": "claim C11",
+  "text": "How recent are the 11 reviews, and are these from verified employees or former contractors?",
+  "kw_candidates": [],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P19__gpt120__r2|Q1",
+  "tag": "E12-P19__gpt120__r2",
+  "pid": "E12-P19",
+  "src": "decision_changing_questions",
+  "text": "Is overtime pay or any additional allowances provided beyond the hourly rate?",
+  "kw_candidates": [
+   "G2",
+   "G3"
+  ],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": true
+  }
+ },
+ {
+  "qid": "E12-P19__gpt120__r2|Q2",
+  "tag": "E12-P19__gpt120__r2",
+  "pid": "E12-P19",
+  "src": "decision_changing_questions",
+  "text": "What are the exact shift hours and are there any guaranteed minimum weekly hours?",
+  "kw_candidates": [
+   "G3"
+  ],
+  "rating": {
+   "gap": "G3",
+   "c1": true,
+   "c2": true,
+   "c3": true,
+   "c4": true,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ },
+ {
+  "qid": "E12-P19__gpt120__r2|Q3",
+  "tag": "E12-P19__gpt120__r2",
+  "pid": "E12-P19",
+  "src": "decision_changing_questions",
+  "text": "Are there any required certifications or prior experience for the Kitchen Helper role?",
+  "kw_candidates": [
+   "G2"
+  ],
+  "rating": {
+   "gap": null,
+   "c1": false,
+   "c2": null,
+   "c3": true,
+   "c4": null,
+   "na4": true,
+   "unlisted_critical": false
+  }
+ }
+]

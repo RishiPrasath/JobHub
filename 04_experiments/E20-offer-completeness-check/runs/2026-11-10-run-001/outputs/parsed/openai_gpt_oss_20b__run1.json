@@ -1,0 +1,443 @@
+{
+ "model": "openai/gpt-oss-20b",
+ "run": 1,
+ "harness": "e20-harness-v1.1",
+ "results": {
+  "L01": {
+   "parsed": {
+    "status": {
+     "C01": "stated",
+     "C02": "stated",
+     "C03": "stated",
+     "C04": "stated",
+     "C05": "not_applicable",
+     "C06": "stated",
+     "C07": "stated",
+     "C08": "stated",
+     "C09": "stated",
+     "C10": "stated",
+     "C11": "not_applicable",
+     "C12": "not_applicable",
+     "C13": "stated",
+     "C14": "stated",
+     "C15": "stated",
+     "C16": "stated",
+     "C17": "stated",
+     "C18": "stated",
+     "C19": "stated"
+    },
+    "flags": [],
+    "inconsistencies": [],
+    "injection_noted": false
+   },
+   "raw_content": "{\"status\":{\"C01\":\"stated\",\"C02\":\"stated\",\"C03\":\"stated\",\"C04\":\"stated\",\"C05\":\"not_applicable\",\"C06\":\"stated\",\"C07\":\"stated\",\"C08\":\"stated\",\"C09\":\"stated\",\"C10\":\"stated\",\"C11\":\"not_applicable\",\"C12\":\"not_applicable\",\"C13\":\"stated\",\"C14\":\"stated\",\"C15\":\"stated\",\"C16\":\"stated\",\"C17\":\"stated\",\"C18\":\"stated\",\"C19\":\"stated\"},\"flags\":[],\"inconsistencies\":[],\"injection_noted\":false}",
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 592,
+    "prompt_tokens": 2286,
+    "total_tokens": 2878,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 446,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.285696298,
+    "prompt_time": 0.14361177,
+    "completion_time": 0.661280984,
+    "total_time": 0.804892754
+   },
+   "cached": true,
+   "created_utc": "2026-11-10T10:03:08Z"
+  },
+  "L03": {
+   "parsed": {
+    "status": {
+     "C01": "stated",
+     "C02": "stated",
+     "C03": "stated",
+     "C04": "stated",
+     "C05": "not_applicable",
+     "C06": "stated",
+     "C07": "stated",
+     "C08": "stated",
+     "C09": "stated",
+     "C10": "stated",
+     "C11": "stated",
+     "C12": "stated",
+     "C13": "stated",
+     "C14": "stated",
+     "C15": "stated",
+     "C16": "stated",
+     "C17": "stated",
+     "C18": "stated",
+     "C19": "stated"
+    },
+    "flags": [],
+    "inconsistencies": [],
+    "injection_noted": false
+   },
+   "raw_content": "{\"status\":{\"C01\":\"stated\",\"C02\":\"stated\",\"C03\":\"stated\",\"C04\":\"stated\",\"C05\":\"not_applicable\",\"C06\":\"stated\",\"C07\":\"stated\",\"C08\":\"stated\",\"C09\":\"stated\",\"C10\":\"stated\",\"C11\":\"stated\",\"C12\":\"stated\",\"C13\":\"stated\",\"C14\":\"stated\",\"C15\":\"stated\",\"C16\":\"stated\",\"C17\":\"stated\",\"C18\":\"stated\",\"C19\":\"stated\"},\"flags\":[],\"inconsistencies\":[],\"injection_noted\":false}",
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 555,
+    "prompt_tokens": 2279,
+    "total_tokens": 2834,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 411,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 2.083769499,
+    "prompt_time": 0.136149412,
+    "completion_time": 0.658299362,
+    "total_time": 0.794448774
+   },
+   "cached": true,
+   "created_utc": "2026-11-10T10:15:12Z"
+  },
+  "L05": {
+   "parsed": {
+    "status": {
+     "C01": "stated",
+     "C02": "stated",
+     "C03": "stated",
+     "C04": "stated",
+     "C05": "not_applicable",
+     "C06": "stated",
+     "C07": "stated",
+     "C08": "stated",
+     "C09": "stated",
+     "C10": "stated",
+     "C11": "not_applicable",
+     "C12": "not_applicable",
+     "C13": "stated",
+     "C14": "stated",
+     "C15": "stated",
+     "C16": "stated",
+     "C17": "missing",
+     "C18": "stated",
+     "C19": "stated"
+    },
+    "flags": [
+     {
+      "id": "C17",
+      "quote": "",
+      "guidance": "MOM lists the notice period as item 17. MOM says that if the contract does not specify a notice period, it depends on length of service: under 26 weeks 1 day; 26 weeks to under 2 years 1 week; 2 years to under 5 years 2 weeks; 5 years or more 4 weeks.",
+      "source": "S1"
+     }
+    ],
+    "inconsistencies": [],
+    "injection_noted": false
+   },
+   "raw_content": "{\"status\":{\"C01\":\"stated\",\"C02\":\"stated\",\"C03\":\"stated\",\"C04\":\"stated\",\"C05\":\"not_applicable\",\"C06\":\"stated\",\"C07\":\"stated\",\"C08\":\"stated\",\"C09\":\"stated\",\"C10\":\"stated\",\"C11\":\"not_applicable\",\"C12\":\"not_applicable\",\"C13\":\"stated\",\"C14\":\"stated\",\"C15\":\"stated\",\"C16\":\"stated\",\"C17\":\"missing\",\"C18\":\"stated\",\"C19\":\"stated\"},\"flags\":[{\"id\":\"C17\",\"quote\":\"\", \"guidance\":\"MOM lists the notice period as item 17. MOM says that if the contract does not specify a notice period, it depends on length of service: under 26 weeks 1 day; 26 weeks to under 2 years 1 week; 2 years to under 5 years 2 weeks; 5 years or more 4 weeks.\",\"source\":\"S1\"}],\"inconsistencies\":[],\"injection_noted\":false}",
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 574,
+    "prompt_tokens": 2235,
+    "total_tokens": 2809,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 339,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.366610483,
+    "prompt_time": 0.174338825,
+    "completion_time": 0.658730036,
+    "total_time": 0.833068861
+   },
+   "cached": true,
+   "created_utc": "2026-11-10T10:20:13Z"
+  },
+  "L08": {
+   "parsed": {
+    "status": {
+     "C01": "stated",
+     "C02": "stated",
+     "C03": "stated",
+     "C04": "stated",
+     "C05": "not_applicable",
+     "C06": "stated",
+     "C07": "stated",
+     "C08": "unclear",
+     "C09": "stated",
+     "C10": "stated",
+     "C11": "not_applicable",
+     "C12": "not_applicable",
+     "C13": "stated",
+     "C14": "stated",
+     "C15": "missing",
+     "C16": "stated",
+     "C17": "stated",
+     "C18": "stated",
+     "C19": "stated"
+    },
+    "flags": [
+     {
+      "id": "C08",
+      "quote": "Your salary will be competitive and commensurate with your experience, and will be finalised with HR before you start.",
+      "guidance": "TAFEP says offers should set out key terms such as salary.",
+      "source": "S5"
+     },
+     {
+      "id": "C15",
+      "quote": "",
+      "guidance": "MOM lists other medical benefits (insurance, medical, dental) as item 15.",
+      "source": "S1"
+     }
+    ],
+    "inconsistencies": [],
+    "injection_noted": false
+   },
+   "raw_content": "{\"status\":{\"C01\":\"stated\",\"C02\":\"stated\",\"C03\":\"stated\",\"C04\":\"stated\",\"C05\":\"not_applicable\",\"C06\":\"stated\",\"C07\":\"stated\",\"C08\":\"unclear\",\"C09\":\"stated\",\"C10\":\"stated\",\"C11\":\"not_applicable\",\"C12\":\"not_applicable\",\"C13\":\"stated\",\"C14\":\"stated\",\"C15\":\"missing\",\"C16\":\"stated\",\"C17\":\"stated\",\"C18\":\"stated\",\"C19\":\"stated\"},\"flags\":[{\"id\":\"C08\",\"quote\":\"Your salary will be competitive and commensurate with your experience, and will be finalised with HR before you start.\",\"guidance\":\"TAFEP says offers should set out key terms such as salary.\",\"source\":\"S5\"},{\"id\":\"C15\",\"quote\":\"\",\"guidance\":\"MOM lists other medical benefits (insurance, medical, dental) as item 15.\",\"source\":\"S1\"}],\"inconsistencies\":[],\"injection_noted\":false}",
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 830,
+    "prompt_tokens": 2276,
+    "total_tokens": 3106,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 598,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.305423241,
+    "prompt_time": 0.138981498,
+    "completion_time": 0.901873436,
+    "total_time": 1.040854934
+   },
+   "cached": true,
+   "created_utc": "2026-11-10T10:22:14Z"
+  },
+  "L11": {
+   "parsed": {
+    "status": {
+     "C01": "stated",
+     "C02": "stated",
+     "C03": "stated",
+     "C04": "stated",
+     "C05": "not_applicable",
+     "C06": "stated",
+     "C07": "stated",
+     "C08": "stated",
+     "C09": "missing",
+     "C10": "missing",
+     "C11": "missing",
+     "C12": "missing",
+     "C13": "stated",
+     "C14": "stated",
+     "C15": "stated",
+     "C16": "stated",
+     "C17": "stated",
+     "C18": "stated",
+     "C19": "stated"
+    },
+    "flags": [
+     {
+      "id": "C09",
+      "quote": "",
+      "guidance": "MOM lists fixed allowances as item 9.",
+      "source": "S1"
+     },
+     {
+      "id": "C10",
+      "quote": "",
+      "guidance": "MOM lists fixed deductions as item 10.",
+      "source": "S1"
+     },
+     {
+      "id": "C11",
+      "quote": "",
+      "guidance": "MOM lists the overtime payment period, if different from the salary period, as item 11.",
+      "source": "S1"
+     },
+     {
+      "id": "C12",
+      "quote": "",
+      "guidance": "MOM lists the overtime rate of pay as item 12.",
+      "source": "S1"
+     }
+    ],
+    "inconsistencies": [],
+    "injection_noted": false
+   },
+   "raw_content": "{\"status\":{\"C01\":\"stated\",\"C02\":\"stated\",\"C03\":\"stated\",\"C04\":\"stated\",\"C05\":\"not_applicable\",\"C06\":\"stated\",\"C07\":\"stated\",\"C08\":\"stated\",\"C09\":\"missing\",\"C10\":\"missing\",\"C11\":\"missing\",\"C12\":\"missing\",\"C13\":\"stated\",\"C14\":\"stated\",\"C15\":\"stated\",\"C16\":\"stated\",\"C17\":\"stated\",\"C18\":\"stated\",\"C19\":\"stated\"},\"flags\":[{\"id\":\"C09\",\"quote\":\"\",\"guidance\":\"MOM lists fixed allowances as item 9.\",\"source\":\"S1\"},{\"id\":\"C10\",\"quote\":\"\",\"guidance\":\"MOM lists fixed deductions as item 10.\",\"source\":\"S1\"},{\"id\":\"C11\",\"quote\":\"\",\"guidance\":\"MOM lists the overtime payment period, if different from the salary period, as item 11.\",\"source\":\"S1\"},{\"id\":\"C12\",\"quote\":\"\",\"guidance\":\"MOM lists the overtime rate of pay as item 12.\",\"source\":\"S1\"}],\"inconsistencies\":[],\"injection_noted\":false}",
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 658,
+    "prompt_tokens": 2236,
+    "total_tokens": 2894,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 404,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 1.403322739,
+    "prompt_time": 0.154997815,
+    "completion_time": 0.801525495,
+    "total_time": 0.95652331
+   },
+   "cached": true,
+   "created_utc": "2026-11-10T10:28:14Z"
+  },
+  "L12": {
+   "parsed": {
+    "status": {
+     "C01": "stated",
+     "C02": "stated",
+     "C03": "stated",
+     "C04": "stated",
+     "C05": "not_applicable",
+     "C06": "stated",
+     "C07": "stated",
+     "C08": "stated",
+     "C09": "stated",
+     "C10": "stated",
+     "C11": "not_applicable",
+     "C12": "not_applicable",
+     "C13": "stated",
+     "C14": "stated",
+     "C15": "stated",
+     "C16": "unclear",
+     "C17": "unclear",
+     "C18": "stated",
+     "C19": "stated"
+    },
+    "flags": [
+     {
+      "id": "C16",
+      "quote": "Your probation period will be confirmed by HR after you join.",
+      "guidance": "MOM lists the probation period as item 16.",
+      "source": "S1"
+     },
+     {
+      "id": "C17",
+      "quote": "Notice of termination will be as per company policy.",
+      "guidance": "MOM lists the notice period as item 17.",
+      "source": "S1"
+     }
+    ],
+    "inconsistencies": [],
+    "injection_noted": false
+   },
+   "raw_content": "{\"status\":{\"C01\":\"stated\",\"C02\":\"stated\",\"C03\":\"stated\",\"C04\":\"stated\",\"C05\":\"not_applicable\",\"C06\":\"stated\",\"C07\":\"stated\",\"C08\":\"stated\",\"C09\":\"stated\",\"C10\":\"stated\",\"C11\":\"not_applicable\",\"C12\":\"not_applicable\",\"C13\":\"stated\",\"C14\":\"stated\",\"C15\":\"stated\",\"C16\":\"unclear\",\"C17\":\"unclear\",\"C18\":\"stated\",\"C19\":\"stated\"},\"flags\":[{\"id\":\"C16\",\"quote\":\"Your probation period will be confirmed by HR after you join.\",\"guidance\":\"MOM lists the probation period as item 16.\",\"source\":\"S1\"},{\"id\":\"C17\",\"quote\":\"Notice of termination will be as per company policy.\",\"guidance\":\"MOM lists the notice period as item 17.\",\"source\":\"S1\"}],\"inconsistencies\":[],\"injection_noted\":false}",
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 310,
+    "prompt_tokens": 2282,
+    "total_tokens": 2592,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 89,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.366232322,
+    "prompt_time": 0.142348978,
+    "completion_time": 0.343535693,
+    "total_time": 0.485884671
+   },
+   "cached": false,
+   "created_utc": "2026-11-10T10:39:14Z"
+  },
+  "L13": {
+   "parsed": {
+    "status": {
+     "C01": "stated",
+     "C02": "stated",
+     "C03": "stated",
+     "C04": "stated",
+     "C05": "not_applicable",
+     "C06": "unclear",
+     "C07": "stated",
+     "C08": "unclear",
+     "C09": "stated",
+     "C10": "stated",
+     "C11": "not_applicable",
+     "C12": "not_applicable",
+     "C13": "stated",
+     "C14": "stated",
+     "C15": "stated",
+     "C16": "stated",
+     "C17": "stated",
+     "C18": "stated",
+     "C19": "stated"
+    },
+    "flags": [
+     {
+      "id": "C06",
+      "quote": "Your working hours are 9.00am to 6.00pm, 5 days a week, and your rest day is Sunday (Saturday is an off day).",
+      "guidance": "MOM lists working arrangements (daily working hours, working days per week, rest day) as item 6.",
+      "source": "S1"
+     },
+     {
+      "id": "C08",
+      "quote": "Your basic salary is $5,200 per month.",
+      "guidance": "MOM lists basic salary as item 8; for hourly, daily or piece-rated workers the basic rate of pay should also be indicated.",
+      "source": "S1"
+     },
+     {
+      "id": "C08",
+      "quote": "Basic monthly salary: $5,800",
+      "guidance": "MOM lists basic salary as item 8; for hourly, daily or piece-rated workers the basic rate of pay should also be indicated.",
+      "source": "S1"
+     }
+    ],
+    "inconsistencies": [
+     {
+      "items": [
+       "C08"
+      ],
+      "quotes": [
+       "Your basic salary is $5,200 per month.",
+       "Basic monthly salary: $5,800"
+      ],
+      "note": "basic salary stated differently in letter body and summary",
+      "source": "S6"
+     }
+    ],
+    "injection_noted": false
+   },
+   "raw_content": "{\"status\":{\"C01\":\"stated\",\"C02\":\"stated\",\"C03\":\"stated\",\"C04\":\"stated\",\"C05\":\"not_applicable\",\"C06\":\"unclear\",\"C07\":\"stated\",\"C08\":\"unclear\",\"C09\":\"stated\",\"C10\":\"stated\",\"C11\":\"not_applicable\",\"C12\":\"not_applicable\",\"C13\":\"stated\",\"C14\":\"stated\",\"C15\":\"stated\",\"C16\":\"stated\",\"C17\":\"stated\",\"C18\":\"stated\",\"C19\":\"stated\"},\"flags\":[{\"id\":\"C06\",\"quote\":\"Your working hours are 9.00am to 6.00pm, 5 days a week, and your rest day is Sunday (Saturday is an off day).\",\"guidance\":\"MOM lists working arrangements (daily working hours, working days per week, rest day) as item 6.\",\"source\":\"S1\"},{\"id\":\"C08\",\"quote\":\"Your basic salary is $5,200 per month.\",\"guidance\":\"MOM lists basic salary as item 8; for hourly, daily or piece-rated workers the basic rate of pay should also be indicated.\",\"source\":\"S1\"},{\"id\":\"C08\",\"quote\":\"Basic monthly salary: $5,800\",\"guidance\":\"MOM lists basic salary as item 8; for hourly, daily or piece-rated workers the basic rate of pay should also be indicated.\",\"source\":\"S1\"}],\"inconsistencies\":[{\"items\":[\"C08\"],\"quotes\":[\"Your basic salary is $5,200 per month.\",\"Basic monthly salary: $5,800\"],\"note\":\"basic salary stated differently in letter body and summary\",\"source\":\"S6\"}],\"injection_noted\":false}",
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 622,
+    "prompt_tokens": 2303,
+    "total_tokens": 2925,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 248,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cached_tokens": 1024
+    },
+    "queue_time": 0.157130458,
+    "prompt_time": 0.118756089,
+    "completion_time": 0.830359973,
+    "total_time": 0.949116062
+   },
+   "cached": false,
+   "created_utc": "2026-11-10T10:48:15Z"
+  },
+  "L15": {
+   "error": "API error: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199216, Requested 3153. Plea"
+  }
+ },
+ "usage_new_tokens": {
+  "prompt": 4585,
+  "completion": 932,
+  "total": 5517
+ }
+}

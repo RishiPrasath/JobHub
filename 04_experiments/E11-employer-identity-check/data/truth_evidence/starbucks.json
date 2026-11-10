@@ -1,0 +1,36 @@
+{
+ "key": "starbucks",
+ "domain": "www.starbucks.com.sg",
+ "pages": [
+  {
+   "url": "https://www.starbucks.com.sg/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://www.starbucks.com.sg/privacy-policy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Starbucks Coffee Singapore Pte Ltd",
+    "Starbucks Coffee Singapore Pte. Ltd."
+   ],
+   "copyright": []
+  },
+  {
+   "url": "https://www.starbucks.com.sg/terms-of-use",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Copyright and Limited",
+    "Starbucks Coffee Singapore Pte Ltd"
+   ],
+   "copyright": [
+    "ill be successfully, accurately or securely transmitted. 6. Copyright and Limited License 6.1. Unless otherwise indicated, the Sites and all content and other materials therein, including, ",
+    "ty or other right and any goodwill associated therewith. 7. Copyright Claim 7.1. If you believe any material available via the Sites infringes a copyright you own or control, you may file a"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "version": "format-stress-gold-v1",
+ "status": "POST HOC: written after the frozen 16-file check had run. Expectations written before the check was run on these files.",
+ "files": {
+  "S01_docx_clean_logo_in_header.docx": {
+   "planted": [],
+   "clean": true
+  },
+  "S02_docx_clean_caps_labels_no_styles.docx": {
+   "planted": [],
+   "clean": true
+  },
+  "S03_docx_three_columns.docx": {
+   "planted": [
+    "multi_column"
+   ],
+   "clean": false
+  },
+  "S04_docx_layout_table.docx": {
+   "planted": [
+    "table_core"
+   ],
+   "clean": false
+  },
+  "S05_docx_textbox_in_header.docx": {
+   "planted": [
+    "header_contact",
+    "text_box"
+   ],
+   "clean": false
+  },
+  "S06_pdf_three_columns.pdf": {
+   "planted": [
+    "multi_column"
+   ],
+   "clean": false
+  },
+  "S07_pdf_contact_in_footer.pdf": {
+   "planted": [
+    "footer_contact"
+   ],
+   "clean": false
+  },
+  "S08_pdf_clean_logo.pdf": {
+   "planted": [],
+   "clean": true
+  },
+  "S09_pdf_clean_nonstandard_labels.pdf": {
+   "planted": [],
+   "clean": true
+  },
+  "S10_docx_whole_page_picture.docx": {
+   "planted": [
+    "image_text"
+   ],
+   "clean": false
+  }
+ }
+}

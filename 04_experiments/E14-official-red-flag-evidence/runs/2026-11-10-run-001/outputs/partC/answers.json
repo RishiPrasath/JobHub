@@ -1,0 +1,252 @@
+{
+ "label": "SIMULATED - personas are language-model simulations, not participants",
+ "agent_model": "openai/gpt-oss-20b",
+ "results": [
+  {
+   "persona_id": "job_seeker-01-cautious-lee",
+   "order": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6"
+   ],
+   "simulated": true,
+   "json_mode_failed": false,
+   "raw": "{\"S1\":{\"meaning\":\"Agency licence suspended, likely illegal to hire.\",\"next\":\"Avoid applying.\"},\"S2\":{\"meaning\":\"Scammers using name, but real firm ok.\",\"next\":\"Check official site, confirm contact.\"},\"S3\":{\"meaning\":\"Consumer complaints, not employment issue.\",\"next\":\"Still avoid, unless firm’s reputation good.\"},\"S4\":{\"meaning\":\"No red flags, company is legit.\",\"next\":\"Proceed to apply.\"},\"S5\":{\"meaning\":\"Name unclear, no data found.\",\"next\":\"Research company name further before applying.\"},\"S6\":{\"meaning\":\"App scam, not hiring problem.\",\"next\":\"Ignore, but stay cautious of phishing.\"}}",
+   "parsed": {
+    "S1": {
+     "meaning": "Agency licence suspended, likely illegal to hire.",
+     "next": "Avoid applying."
+    },
+    "S2": {
+     "meaning": "Scammers using name, but real firm ok.",
+     "next": "Check official site, confirm contact."
+    },
+    "S3": {
+     "meaning": "Consumer complaints, not employment issue.",
+     "next": "Still avoid, unless firm’s reputation good."
+    },
+    "S4": {
+     "meaning": "No red flags, company is legit.",
+     "next": "Proceed to apply."
+    },
+    "S5": {
+     "meaning": "Name unclear, no data found.",
+     "next": "Research company name further before applying."
+    },
+    "S6": {
+     "meaning": "App scam, not hiring problem.",
+     "next": "Ignore, but stay cautious of phishing."
+    }
+   },
+   "usage": {}
+  },
+  {
+   "persona_id": "job_seeker-02-hurried-ana",
+   "order": [
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S1"
+   ],
+   "simulated": true,
+   "json_mode_failed": false,
+   "raw": "{\"S1\":{\"meaning\":\"Agency licence suspended by MOM.\",\"next\":\"Skip applying, find another agency.\"},\"S2\":{\"meaning\":\"Scammers impersonating this recruiter.\",\"next\":\"Avoid, check official site first.\"},\"S3\":{\"meaning\":\"Customer complaints, not regulator action.\",\"next\":\"Read reviews, decide if okay.\"},\"S4\":{\"meaning\":\"No red flags found, legit company.\",\"next\":\"Consider applying, but verify role.\"},\"S5\":{\"meaning\":\"Name unclear, no data.\",\"next\":\"Search for full company name, then decide.\"},\"S6\":{\"meaning\":\"App scam, no hiring issue.\",\"next\":\"Ignore, focus on other employers.\"}}",
+   "parsed": {
+    "S1": {
+     "meaning": "Agency licence suspended by MOM.",
+     "next": "Skip applying, find another agency."
+    },
+    "S2": {
+     "meaning": "Scammers impersonating this recruiter.",
+     "next": "Avoid, check official site first."
+    },
+    "S3": {
+     "meaning": "Customer complaints, not regulator action.",
+     "next": "Read reviews, decide if okay."
+    },
+    "S4": {
+     "meaning": "No red flags found, legit company.",
+     "next": "Consider applying, but verify role."
+    },
+    "S5": {
+     "meaning": "Name unclear, no data.",
+     "next": "Search for full company name, then decide."
+    },
+    "S6": {
+     "meaning": "App scam, no hiring issue.",
+     "next": "Ignore, focus on other employers."
+    }
+   },
+   "usage": {}
+  },
+  {
+   "persona_id": "job_seeker-03-skeptical-raj",
+   "order": [
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S1",
+    "S2"
+   ],
+   "simulated": true,
+   "json_mode_failed": false,
+   "raw": "{\"S1\":{\"meaning\":\"Agency licence suspended, can't hire here.\",\"next\":\"Skip interview, look for other firms.\"},\"S2\":{\"meaning\":\"Brand being spoofed, but not itself a scam.\",\"next\":\"Verify contact details before applying.\"},\"S3\":{\"meaning\":\"Consumer complaints filed, not regulatory action.\",\"next\":\"Check reviews, consider risk.\"},\"S4\":{\"meaning\":\"No red flags, but no evidence of size.\",\"next\":\"Ask about company size, tech stack.\"},\"S5\":{\"meaning\":\"Unclear entity, name ambiguous.\",\"next\":\"Research corporate registration, confirm identity.\"},\"S6\":{\"meaning\":\"App used by scammers, employment fine.\",\"next\":\"Check internal policies, interview for security focus.\"}}",
+   "parsed": {
+    "S1": {
+     "meaning": "Agency licence suspended, can't hire here.",
+     "next": "Skip interview, look for other firms."
+    },
+    "S2": {
+     "meaning": "Brand being spoofed, but not itself a scam.",
+     "next": "Verify contact details before applying."
+    },
+    "S3": {
+     "meaning": "Consumer complaints filed, not regulatory action.",
+     "next": "Check reviews, consider risk."
+    },
+    "S4": {
+     "meaning": "No red flags, but no evidence of size.",
+     "next": "Ask about company size, tech stack."
+    },
+    "S5": {
+     "meaning": "Unclear entity, name ambiguous.",
+     "next": "Research corporate registration, confirm identity."
+    },
+    "S6": {
+     "meaning": "App used by scammers, employment fine.",
+     "next": "Check internal policies, interview for security focus."
+    }
+   },
+   "usage": {}
+  },
+  {
+   "persona_id": "job_seeker-04-lowskill-min",
+   "order": [
+    "S4",
+    "S5",
+    "S6",
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "simulated": true,
+   "json_mode_failed": false,
+   "raw": "{\"S1\":{\"meaning\":\"Agency licence is suspended by MOM, so it cannot legally hire.\",\"next\":\"Avoid applying; look for other agencies.\"},\"S2\":{\"meaning\":\"Scammers use this name; real company warns of fake job offers.\",\"next\":\"Verify contact details before any payment; skip if unsure.\"},\"S3\":{\"meaning\":\"Consumer complaints reported; no regulator action yet.\",\"next\":\"Check reviews, then decide if comfortable.\"},\"S4\":{\"meaning\":\"Company is registered but no red flags found. Good sign.\",\"next\":\"Proceed to application if interested.\"},\"S5\":{\"meaning\":\"Name unclear, no company info available.\",\"next\":\"Ask friend for more details or find another employer.\"},\"S6\":{\"meaning\":\"App scam issue, not about hiring. Company likely fine for employment.\",\"next\":\"Apply but keep phone safe from phishing.\"}}",
+   "parsed": {
+    "S1": {
+     "meaning": "Agency licence is suspended by MOM, so it cannot legally hire.",
+     "next": "Avoid applying; look for other agencies."
+    },
+    "S2": {
+     "meaning": "Scammers use this name; real company warns of fake job offers.",
+     "next": "Verify contact details before any payment; skip if unsure."
+    },
+    "S3": {
+     "meaning": "Consumer complaints reported; no regulator action yet.",
+     "next": "Check reviews, then decide if comfortable."
+    },
+    "S4": {
+     "meaning": "Company is registered but no red flags found. Good sign.",
+     "next": "Proceed to application if interested."
+    },
+    "S5": {
+     "meaning": "Name unclear, no company info available.",
+     "next": "Ask friend for more details or find another employer."
+    },
+    "S6": {
+     "meaning": "App scam issue, not about hiring. Company likely fine for employment.",
+     "next": "Apply but keep phone safe from phishing."
+    }
+   },
+   "usage": {}
+  },
+  {
+   "persona_id": "job_seeker-05-cautious-analyst",
+   "order": [
+    "S5",
+    "S6",
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "simulated": true,
+   "json_mode_failed": true,
+   "raw": "{\"S1\":{\"meaning\":\"Agency licence suspended – likely cannot hire you.\",\"next\":\"Avoid applying; look for other recruiters.\"},\"S2\":{\"meaning\":\"Scammers use name; real firm safe but be wary of fake messages.\",\"next\":\"Verify contact through official site before replying.\"},\"S3\":{\"meaning\":\"Consumer complaints, not employment issues.\",\"next\":\"Acceptable for job search; no red flag.\"},\"S4\":{\"meaning\":\"Company exists, no enforcement or alerts found.\",\"next\":\"Proceed with application, but keep documentation ready.\"},\"S5\":{\"meaning\":\"No data; name ambiguous – could be non‑existent or small.\",\"next\":\"Do own research; consider skipping until more info.\"},\"S6\":{\"meaning\":\"App fraud issue, unrelated to hiring.\",\"next\":\"Fine to apply; just ignore the app news.\"}}",
+   "parsed": {
+    "S1": {
+     "meaning": "Agency licence suspended – likely cannot hire you.",
+     "next": "Avoid applying; look for other recruiters."
+    },
+    "S2": {
+     "meaning": "Scammers use name; real firm safe but be wary of fake messages.",
+     "next": "Verify contact through official site before replying."
+    },
+    "S3": {
+     "meaning": "Consumer complaints, not employment issues.",
+     "next": "Acceptable for job search; no red flag."
+    },
+    "S4": {
+     "meaning": "Company exists, no enforcement or alerts found.",
+     "next": "Proceed with application, but keep documentation ready."
+    },
+    "S5": {
+     "meaning": "No data; name ambiguous – could be non‑existent or small.",
+     "next": "Do own research; consider skipping until more info."
+    },
+    "S6": {
+     "meaning": "App fraud issue, unrelated to hiring.",
+     "next": "Fine to apply; just ignore the app news."
+    }
+   },
+   "usage": {}
+  },
+  {
+   "persona_id": "job_seeker-06-hurried-graduate",
+   "order": [
+    "S6",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
+   ],
+   "simulated": true,
+   "json_mode_failed": false,
+   "raw": "{\"S1\":{\"meaning\":\"Agency licence suspended – not legit to hire.\",\"next\":\"Skip this company, look elsewhere.\"},\"S2\":{\"meaning\":\"Scammers using this name – be wary.\",\"next\":\"Avoid any requests for money, verify directly.\"},\"S3\":{\"meaning\":\"Consumer complaints exist – may have issues.\",\"next\":\"Check reviews, consider other options.\"},\"S4\":{\"meaning\":\"No red flags found – safe so far.\",\"next\":\"Good to research further, maybe apply.\"},\"S5\":{\"meaning\":\"Name unclear, no data – unknown risk.\",\"next\":\"Find a clear company profile before deciding.\"},\"S6\":{\"meaning\":\"App scam, not about jobs – no hiring problem.\",\"next\":\"No action needed for employment.\"}}",
+   "parsed": {
+    "S1": {
+     "meaning": "Agency licence suspended – not legit to hire.",
+     "next": "Skip this company, look elsewhere."
+    },
+    "S2": {
+     "meaning": "Scammers using this name – be wary.",
+     "next": "Avoid any requests for money, verify directly."
+    },
+    "S3": {
+     "meaning": "Consumer complaints exist – may have issues.",
+     "next": "Check reviews, consider other options."
+    },
+    "S4": {
+     "meaning": "No red flags found – safe so far.",
+     "next": "Good to research further, maybe apply."
+    },
+    "S5": {
+     "meaning": "Name unclear, no data – unknown risk.",
+     "next": "Find a clear company profile before deciding."
+    },
+    "S6": {
+     "meaning": "App scam, not about jobs – no hiring problem.",
+     "next": "No action needed for employment."
+    }
+   },
+   "usage": {}
+  }
+ ]
+}

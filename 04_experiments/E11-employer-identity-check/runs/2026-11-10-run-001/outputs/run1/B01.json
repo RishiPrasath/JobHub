@@ -1,0 +1,311 @@
+{
+ "employer": "OCBC Bank",
+ "role": "Relationship Manager",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'OCBC Bank'. The closest registered name is OCBC PEARL LIMITED, which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "195900017D",
+   "name": "OCBC PEARL LIMITED",
+   "type": "Local Company",
+   "status": "Dissolved - Members Voluntary Winding Up",
+   "incorporated": "1959-01-29",
+   "activity": "na",
+   "alternatives": []
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"OCBC Bank\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"OCBC Bank\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"OCBC Bank\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"OCBC Bank\" Relationship Manager interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"OCBC Bank\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.ambitionbox.com/reviews/ocbc-bank-reviews/singapore-location",
+    "status": "blocked",
+    "chars": 243,
+    "note": "challenge or login-wall text",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.ambitionbox.com/reviews/ocbc-bank-reviews",
+    "status": "blocked",
+    "chars": 224,
+    "note": "challenge or login-wall text",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.ocbc.com/personal-banking/security/secure-banking-ways/phishing-scams.page",
+    "status": "ok",
+    "chars": 8517,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.straitstimes.com/singapore/courts-crime/only-later-did-i-realise-how-stupid-i-was-retiree-85-almost-loses-110k-to-tech-support-scam",
+    "status": "ok",
+    "chars": 4303,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.ocbc.com/personal-banking/security/secure-banking-ways/impersonation-scams.page",
+    "status": "ok",
+    "chars": 10228,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.channelnewsasia.com/singapore/ocbc-phishing-scam-more-losses-victims-reported-2469086",
+    "status": "ok",
+    "chars": 2143,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.straitstimes.com/singapore/dont-access-accounts-via-sms-links-ocbc-says-to-customers-what-else-you-need-to-know-to-avoid-scams",
+    "status": "ok",
+    "chars": 11502,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.channelnewsasia.com/singapore/7th-youth-guilty-role-ocbc-phishing-scam-4880521",
+    "status": "ok",
+    "chars": 5674,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.jobstreet.com/companies/ocbc-bank-168556574020149/reviews",
+    "title": "Reviews OCBC Bank employee ratings and reviews | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/OCBC-Reviews-E9773.htm",
+    "title": "OCBC Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/OCBC-Singapore-Reviews-EI_IE9773.0,4_IL.5,14_IM1123.htm",
+    "title": "OCBC Reviews in Singapore | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Ocbc-3/reviews",
+    "title": "Working at OCBC: 254 Reviews | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/OCBC-Reviews-E9773.htm",
+    "title": "OCBC Reviews (3,661): Pros & Cons of Working At OCBC",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/ocbc-bank-168556574020149",
+    "title": "Working at OCBC Bank company profile and information | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "ocbc bank"
+   ],
+   "pages_with_exact_name": 4,
+   "snippets_with_exact_name": 15,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 1,
+  "registry_mirror_pages": 0
+ },
+ "headline": "brand_legal_entity_unconfirmed",
+ "headline_meaning": "Public sources describe a company by this name, but the registry has no entity with this exact name. It may trade under a brand name; the legal employer is not confirmed.",
+ "reasons": [
+  "registry: similar_name_only",
+  "exact name seen 19 times in sources"
+ ],
+ "brief": {
+  "confidence": "low",
+  "could_not_verify": [
+   "Existence of a specific OCBC Bank entity matching the job posting (registry record not found)",
+   "Details of the Relationship Manager role, responsibilities, salary, or hiring process"
+  ],
+  "key_facts": [],
+  "positive_signals": [],
+  "red_flags": [
+   {
+    "claim": "OCBC Bank has been targeted by multiple phishing and impersonation scams in Singapore",
+    "evidence": [
+     {
+      "source": 6,
+      "url": "https://www.channelnewsasia.com/singapore/ocbc-phishing-scam-more-losses-victims-reported-2469086",
+      "quote": "A total of S$13.7 million was lost in the recent spate of phishing scams involving OCBC Bank",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 4,
+      "url": "https://www.straitstimes.com/singapore/courts-crime/only-later-did-i-realise-how-stupid-i-was-retiree-85-almost-loses-110k-to-tech-support-scam",
+      "quote": "An 85‑year‑old retiree nearly lost $110,000 to a tech support scam involving a fake OCBC account",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 8,
+      "url": "https://www.channelnewsasia.com/singapore/7th-youth-guilty-role-ocbc-phishing-scam-4880521",
+      "quote": "More than 768 police reports from OCBC bank account holders were made between Dec 8, 2021 and Jan 19, 2022",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Scammers impersonate OCBC staff to obtain personal and banking details from victims",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.ocbc.com/personal-banking/security/secure-banking-ways/impersonation-scams.page",
+      "quote": "Scammers will ask for personal details, bank account details, digital banking login credentials, One‑Time Passwords (OTPs)",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 5,
+      "url": "https://www.ocbc.com/personal-banking/security/secure-banking-ways/impersonation-scams.page",
+      "quote": "The victim will receive a call from someone pretending to be from a bank asking to discuss certain ‘issues’ with financial transactions",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "OCBC has issued public warnings and goodwill payouts due to scam losses",
+    "evidence": [
+     {
+      "source": 7,
+      "url": "https://www.straitstimes.com/singapore/dont-access-accounts-via-sms-links-ocbc-says-to-customers-what-else-you-need-to-know-to-avoid-scams",
+      "quote": "OCBC said it would cover in full the losses suffered by its customers to SMS phishing scams",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 6,
+      "url": "https://www.channelnewsasia.com/singapore/ocbc-phishing-scam-more-losses-victims-reported-2469086",
+      "quote": "OCBC said it took the decision to reimburse affected customers in full “as a one‑off gesture of goodwill”",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "validity_reasoning": "The official company registry (source 0) did not confirm a company named exactly 'OCBC Bank (Singapore)'. No independent sources verify the existence of the specific hiring entity or the Relationship Manager role. Multiple independent news and security pages document that OCBC Bank is a frequent target of phishing, impersonation, and tech‑support scams, indicating a high risk of fraud attempts using the bank's name. Because the only verifiable information relates to scams and not to legitimate employment, the brief must treat the posting with caution.",
+  "claims_verified": 3,
+  "claims_unverified": 0,
+  "model_validity_status": "cannot_verify",
+  "about": "the brand named in the posting; the registered legal employer is not confirmed"
+ },
+ "could_not_read": [
+  {
+   "url": "https://www.ambitionbox.com/reviews/ocbc-bank-reviews/singapore-location",
+   "why": "blocked: challenge or login-wall text"
+  },
+  {
+   "url": "https://www.ambitionbox.com/reviews/ocbc-bank-reviews",
+   "why": "blocked: challenge or login-wall text"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://sg.jobstreet.com/companies/ocbc-bank-168556574020149/reviews",
+   "title": "Reviews OCBC Bank employee ratings and reviews | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/OCBC-Reviews-E9773.htm",
+   "title": "OCBC Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/OCBC-Singapore-Reviews-EI_IE9773.0,4_IL.5,14_IM1123.htm",
+   "title": "OCBC Reviews in Singapore | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Ocbc-3/reviews",
+   "title": "Working at OCBC: 254 Reviews | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/OCBC-Reviews-E9773.htm",
+   "title": "OCBC Reviews (3,661): Pros & Cons of Working At OCBC",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/ocbc-bank-168556574020149",
+   "title": "Working at OCBC Bank company profile and information | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Existence of a specific OCBC Bank entity matching the job posting (registry record not found)",
+  "Details of the Relationship Manager role, responsibilities, salary, or hiring process",
+  "Which registered company is the legal employer behind this brand."
+ ],
+ "seconds": 63.1,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

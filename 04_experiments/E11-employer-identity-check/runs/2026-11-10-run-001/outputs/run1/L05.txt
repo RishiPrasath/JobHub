@@ -1,0 +1,31 @@
+CapitaLand Group Pte. Ltd.  (role: Asset Manager)
+HEADLINE: exists_limited_evidence
+  Registered in Singapore, but there is little public evidence beyond the registry.
+  because: registry: confirmed; web evidence thin (7 pages read, model:
+  appears_real_limited_evidence)
+REGISTRY: confirmed. CAPITALAND GROUP PTE. LTD. is registered in Singapore (status: Live Company, registered 1989-01-05).
+WEB: 5 queries (bing), 8 of 8 pages read, exact name seen in 1 pages and 10 search results
+BRIEF (model rating: appears_real_limited_evidence, confidence medium; 6 claims verified, 0 unverified)
+  Facts:
+    [verified] Legal name is CAPITALAND GROUP PTE. LTD.
+    [verified] Company ID is 198900036N and status is Live.
+    [verified] Entity type is Local Company registered on 5 Jan 1989.
+    [verified] Registered business activity is Investment Holding and Corporate Headquarters.
+  Positive signals:
+    [verified] The company has been operational for several decades.
+    [verified] It is described as a mature, systemically important entity.
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 6):
+  - CapitaLand Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/CapitaLand-Reviews-E9451.htm
+  - CapitaLand Career: Working at CapitaLand | Glassdo
+    https://www.glassdoor.co.uk/Overview/Working-at-CapitaLand-EI_IE9451.11,21.htm
+  - CapitaLand Jobs & Careers - 144 Open Positions | G  https://www.glassdoor.sg/Jobs/CapitaLand-
+    Jobs-E9451.htm
+  - CapitaLand - LinkedIn  https://sg.linkedin.com/company/capitaland-limited
+  - CapitaLand job openings and vacancies | Jobstreet
+    https://sg.jobstreet.com/companies/capitaland-168557653428036/jobs
+  - 43 CapitaLand Group Pte. Ltd. jobs in Singapore  https://sg.jobstreet.com/CapitaLand-Group-
+    Pte.-Ltd.-jobs
+COULD NOT VERIFY:
+  - Specific details about the Asset Manager role being offered
+  - Compensation, reporting lines, or team structure for the role
+(68.3s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

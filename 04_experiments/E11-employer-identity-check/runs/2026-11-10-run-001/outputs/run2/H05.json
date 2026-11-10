@@ -1,0 +1,199 @@
+{
+ "employer": "Hays Specialist Recruitment Pte. Ltd.",
+ "role": "Finance Manager",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 1484 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "HAYS SPECIALIST RECRUITMENT PTE. LTD. is registered in Singapore (status: Live Company, registered 2006-06-29).",
+  "basis": "name only",
+  "entity": {
+   "uen": "200609504D",
+   "name": "HAYS SPECIALIST RECRUITMENT PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2006-06-29",
+   "activity": "SPECIALIST RECRUITMENT"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Hays Specialist Recruitment Pte. Ltd.\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Hays Specialist Recruitment Pte. Ltd.\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Hays Specialist Recruitment Pte. Ltd.\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Hays Specialist Recruitment Pte. Ltd.\" Finance Manager interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Hays Specialist Recruitment Pte. Ltd.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.sgpbusiness.com/company/Hays-Specialist-Recruitment-Pte-Ltd",
+    "status": "ok",
+    "chars": 12654,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/business/200609504D/HAYS-SPECIALIST-RECRUITMENT-PTE-LTD",
+    "status": "ok",
+    "chars": 12572,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.companies.sg/business/200609504D/HAYS-SPECIALIST-RECRUITMENT-PTE-LTD-",
+    "status": "ok",
+    "chars": 12572,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.hays.com.sg/",
+    "status": "ok",
+    "chars": 1260,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.hays.com.sg/about-hays",
+    "status": "ok",
+    "chars": 3086,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://malwaretips.com/blogs/hays-recruitment-job",
+    "status": "thin",
+    "chars": 263,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.staffingindustry.com/news/global-daily-news/hays-issues-recruitment-scam-warning-for-apac-job-seekers",
+    "status": "ok",
+    "chars": 2000,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://singaporeemploymentagency.com/7-recruitment-scams-targeting-singapore-employers-how-to-stay-safe",
+    "status": "ok",
+    "chars": 9408,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Hays-Singapore-Reviews-EI_IE10166.0,4_IL.5,14_IM1123.htm",
+    "title": "Hays Reviews in Singapore | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Hays-Specialist-Recruitment-Pte.-Ltd./reviews?fcountry=ALL",
+    "title": "HAYS SPECIALIST RECRUITMENT PTE. LTD. Employee Reviews",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Hays-Reviews-E10166.htm",
+    "title": "Hays Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "hays specialist recruitment"
+   ],
+   "pages_with_exact_name": 3,
+   "snippets_with_exact_name": 15,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 5,
+  "registry_mirror_pages": 3
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (4 pages read, model: None)"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://malwaretips.com/blogs/hays-recruitment-job",
+   "why": "thin: fewer than 400 characters of real content"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Hays-Singapore-Reviews-EI_IE10166.0,4_IL.5,14_IM1123.htm",
+   "title": "Hays Reviews in Singapore | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Hays-Specialist-Recruitment-Pte.-Ltd./reviews?fcountry=ALL",
+   "title": "HAYS SPECIALIST RECRUITMENT PTE. LTD. Employee Reviews",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Hays-Reviews-E10166.htm",
+   "title": "Hays Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 67.6,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

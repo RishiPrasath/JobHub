@@ -1,0 +1,302 @@
+{
+ "employer": "McDonald's Singapore",
+ "role": "Crew",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 2256 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'McDonald's Singapore'. The closest registered name is HANBAOBAO PTE. LTD., which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "197600722D",
+   "name": "HANBAOBAO PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1976-04-07",
+   "activity": "na",
+   "alternatives": []
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"McDonald's Singapore\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"McDonald's Singapore\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"McDonald's Singapore\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"McDonald's Singapore\" Crew interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"McDonald's Singapore\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://custcare.mcdonalds.com.sg/hc/en-us/articles/31668284627865-What-is-the-recruitment-process-like",
+    "status": "ok",
+    "chars": 583,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://jobbridge.io/blog/salary-guide/McDonald's/singapore",
+    "status": "ok",
+    "chars": 6957,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://careers.mcdonalds.com.sg/join-us-faq",
+    "status": "blocked",
+    "chars": 13,
+    "note": "challenge or login-wall text",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Hanbaobao-Pte-Ltd",
+    "status": "ok",
+    "chars": 8975,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Mcdonald-Industries-Singapore-Private-Limited",
+    "status": "ok",
+    "chars": 6631,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://opengovsg.com/corporate/S94UF0579L",
+    "status": "ok",
+    "chars": 3594,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.companies.sg/business/196600067C/MCDONALD-INDUSTRIES-SINGAPORE-PRIVATE-LIMITED",
+    "status": "ok",
+    "chars": 7055,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://opengovsg.com/corporate/S94FC4800A",
+    "status": "ok",
+    "chars": 4680,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Reviews/McDonald-s-Singapore-Reviews-EI_IE432.0,10_IL.11,20_IM1123.htm",
+    "title": "McDonald's Reviews in Singapore | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/McDonald-s-Singapore-Reviews-EI_IE432.0,10_IL.11,20_IN217.htm",
+    "title": "McDonald's Reviews in Singapore | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/mcdonalds-168555623111574/reviews",
+    "title": "Reviews McDonald's employee ratings and reviews | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/McDonald's/reviews",
+    "title": "Working at McDonald's: 275 Reviews | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/McDonald-s-Reviews-E432.htm",
+    "title": "McDonald's Reviews | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/mcdonalds-168555623111574",
+    "title": "Working at McDonald's company profile and information | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/McDonald%27s/reviews?ftopic=jobsecadv",
+    "title": "Working at McDonald's: Employee Reviews about Job security and",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.reddit.com/r/singapore/comments/yhb1wi/im_15_and_just_applied_for_a_parttime_job_at",
+    "title": "I’m 15 and just applied for a part-time job at McDonalds ... - Reddit",
+    "why": "link out only (reddit.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/McDonald's/salaries/Service-Crew",
+    "title": "Service Crew Salaries in Singapore for McDonald's | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/mcdonald-s-jobs",
+    "title": "Mcdonald S Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/McDonald's-jobs",
+    "title": "McDonald'S Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/McDonald's/salaries/Crew-Member",
+    "title": "Crew Member Salaries in Singapore for McDonald's | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Interview/McDonald-s-Interview-Questions-E432.htm",
+    "title": "McDonald's Interview Questions (2026) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "mcdonald s singapore"
+   ],
+   "pages_with_exact_name": 2,
+   "snippets_with_exact_name": 2,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 17,
+  "registry_mirror_pages": 3
+ },
+ "headline": "brand_legal_entity_unconfirmed",
+ "headline_meaning": "Public sources describe a company by this name, but the registry has no entity with this exact name. It may trade under a brand name; the legal employer is not confirmed.",
+ "reasons": [
+  "registry: similar_name_only",
+  "exact name seen 4 times in sources"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://careers.mcdonalds.com.sg/join-us-faq",
+   "why": "blocked: challenge or login-wall text"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Reviews/McDonald-s-Singapore-Reviews-EI_IE432.0,10_IL.11,20_IM1123.htm",
+   "title": "McDonald's Reviews in Singapore | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/McDonald-s-Singapore-Reviews-EI_IE432.0,10_IL.11,20_IN217.htm",
+   "title": "McDonald's Reviews in Singapore | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/mcdonalds-168555623111574/reviews",
+   "title": "Reviews McDonald's employee ratings and reviews | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/McDonald's/reviews",
+   "title": "Working at McDonald's: 275 Reviews | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/McDonald-s-Reviews-E432.htm",
+   "title": "McDonald's Reviews | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/mcdonalds-168555623111574",
+   "title": "Working at McDonald's company profile and information | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/McDonald%27s/reviews?ftopic=jobsecadv",
+   "title": "Working at McDonald's: Employee Reviews about Job security and",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.reddit.com/r/singapore/comments/yhb1wi/im_15_and_just_applied_for_a_parttime_job_at",
+   "title": "I’m 15 and just applied for a part-time job at McDonalds ... - Reddit",
+   "why": "link out only (reddit.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/McDonald's/salaries/Service-Crew",
+   "title": "Service Crew Salaries in Singapore for McDonald's | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/mcdonald-s-jobs",
+   "title": "Mcdonald S Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/McDonald's-jobs",
+   "title": "McDonald'S Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/McDonald's/salaries/Crew-Member",
+   "title": "Crew Member Salaries in Singapore for McDonald's | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Interview/McDonald-s-Interview-Questions-E432.htm",
+   "title": "McDonald's Interview Questions (2026) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Which registered company is the legal employer behind this brand."
+ ],
+ "seconds": 65.3,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

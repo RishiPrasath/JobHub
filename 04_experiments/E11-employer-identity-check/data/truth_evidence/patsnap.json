@@ -1,0 +1,49 @@
+{
+ "key": "patsnap",
+ "domain": "www.patsnap.com",
+ "pages": [
+  {
+   "url": "https://www.patsnap.com/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "e/sharing of personal information for targeted advertising. © 2026 Patsnap. All rights reserved. Legal | Privacy Policy | Public Records Privacy Notice | Do Not Sell or Share My Per"
+   ]
+  },
+  {
+   "url": "https://www.patsnap.com/privacy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Introduction Patsnap (UK) Ltd.",
+    "Patsnap (UK) Ltd",
+    "Patsnap, Inc.",
+    "The data controller of your personal data is Patsnap (UK) Ltd."
+   ],
+   "copyright": [
+    "e/sharing of personal information for targeted advertising. © 2026 Patsnap. All rights reserved. Legal | Privacy Policy | Public Records Privacy Notice | Do Not Sell or Share My Per"
+   ]
+  },
+  {
+   "url": "https://www.patsnap.com/about",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "e/sharing of personal information for targeted advertising. © 2026 Patsnap. All rights reserved. Legal | Privacy Policy | Public Records Privacy Notice | Do Not Sell or Share My Per"
+   ]
+  },
+  {
+   "url": "https://www.patsnap.com/legal",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Patsnap Cookie Policy Modern Slavery Act Transparency Statement Patsnap Limited"
+   ],
+   "copyright": [
+    "e/sharing of personal information for targeted advertising. © 2026 Patsnap. All rights reserved. Legal | Privacy Policy | Public Records Privacy Notice | Do Not Sell or Share My Per"
+   ]
+  }
+ ]
+}

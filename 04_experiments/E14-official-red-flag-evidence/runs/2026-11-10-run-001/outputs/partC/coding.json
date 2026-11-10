@@ -1,0 +1,14 @@
+{
+ "label": "SIMULATED pilot. Coded by the specialist (an AI) with the frozen rubric (protocol/partC-rubric.md). One coder. Does not evaluate any Part C threshold.",
+ "S2_impersonation_read_correctly": {"lee":true,"ana":true,"raj":true,"min":true,"analyst":true,"graduate":true, "count":"6 of 6", "note": "All six said scammers were imitating the name. But next steps for Ana ('Avoid, check official site first') and Graduate ('be wary') lean toward avoidance of the brand."},
+ "S4_nothing_found_resolved_treated_as_clean": {"lee":true,"ana":true,"raj":false,"min":false,"analyst":false,"graduate":false, "clean_treating":"2 of 6", "note": "Lee: 'company is legit. Proceed to apply.' Ana: 'legit company'. Graduate said 'safe so far' and planned more research (coded not clean-treating, borderline)."},
+ "S5_nothing_found_unresolved_treated_as_clean": {"lee":false,"ana":false,"raj":false,"min":false,"analyst":false,"graduate":false, "clean_treating":"0 of 6"},
+ "S6_non_employment_taken_as_employment_flag": {"lee":false,"ana":false,"raj":false,"min":false,"analyst":false,"graduate":false, "flagged":"0 of 6"},
+ "S3_complaint_alert_read_as_regulator_finding": {"all_six":false, "note": "All six said it was not a regulator action; next steps ranged from 'check reviews' to 'still avoid' (Lee) to 'ignore' (Analyst)."},
+ "S1_read_as_confirmed_regulator_action": {"all_six":true, "note": "Several over-read a suspension: 'likely illegal to hire' (Lee), 'not allowed to operate' (Min, Analyst), 'can't hire here' (Raj)."},
+ "wording_observations": [
+  "The stimuli carry an explicit label sentence ('This warning is about people imitating the brand', 'not a finding by a regulator'). Simulated readers echo the label, so the pilot cannot show whether real readers would read it without such a sentence. It does show the draft wording is at least parseable.",
+  "'No red flags found' (S4) invited 'legit' and 'proceed to apply' from 2 of 6. The word 'Nothing found in the sources checked' was paraphrased as 'no red flags' by most; consider wording that names what was NOT checked.",
+  "A suspended licence (S1) was over-read as 'illegal / not allowed to operate'; wording should say exactly what the status means."
+ ]
+}

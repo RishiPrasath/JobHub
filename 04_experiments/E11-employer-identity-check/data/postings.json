@@ -1,0 +1,353 @@
+[
+ {
+  "id": "L01",
+  "stratum": "large",
+  "employer_as_posted": "DBS Bank Ltd",
+  "role": "Customer Service Officer",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'DBS Bank Ltd'. Role: Customer Service Officer. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "L02",
+  "stratum": "large",
+  "employer_as_posted": "Keppel Ltd",
+  "role": "Project Engineer",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Keppel Ltd'. Role: Project Engineer. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "L03",
+  "stratum": "large",
+  "employer_as_posted": "ComfortDelGro Corporation Limited",
+  "role": "Bus Captain",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'ComfortDelGro Corporation Limited'. Role: Bus Captain. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "L04",
+  "stratum": "large",
+  "employer_as_posted": "Changi Airport Group (Singapore) Pte. Ltd.",
+  "role": "Airport Operations Executive",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Changi Airport Group (Singapore) Pte. Ltd.'. Role: Airport Operations Executive. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "L05",
+  "stratum": "large",
+  "employer_as_posted": "CapitaLand Group Pte. Ltd.",
+  "role": "Asset Manager",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'CapitaLand Group Pte. Ltd.'. Role: Asset Manager. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "L06",
+  "stratum": "large",
+  "employer_as_posted": "Raffles Medical Group Ltd",
+  "role": "Staff Nurse",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Raffles Medical Group Ltd'. Role: Staff Nurse. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "L07",
+  "stratum": "large",
+  "employer_as_posted": "Starbucks Coffee Singapore Pte. Ltd.",
+  "role": "Barista",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Starbucks Coffee Singapore Pte. Ltd.'. Role: Barista. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "L08",
+  "stratum": "large",
+  "employer_as_posted": "Singapore Airlines Limited",
+  "role": "Cabin Crew",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Singapore Airlines Limited'. Role: Cabin Crew. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "L09",
+  "stratum": "large",
+  "employer_as_posted": "NTUC FairPrice Co-operative Ltd",
+  "role": "Store Assistant",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'NTUC FairPrice Co-operative Ltd'. Role: Store Assistant. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "S01",
+  "stratum": "sme",
+  "employer_as_posted": "Ya Kun International Private Limited",
+  "role": "Kitchen Assistant",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Ya Kun International Private Limited'. Role: Kitchen Assistant. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "S02",
+  "stratum": "sme",
+  "employer_as_posted": "Burger King Singapore Pte. Ltd.",
+  "role": "Crew Member",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Burger King Singapore Pte. Ltd.'. Role: Crew Member. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "S03",
+  "stratum": "sme",
+  "employer_as_posted": "Nium Pte. Ltd.",
+  "role": "Software Engineer",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Nium Pte. Ltd.'. Role: Software Engineer. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "S04",
+  "stratum": "sme",
+  "employer_as_posted": "Funding Societies Pte. Ltd.",
+  "role": "Credit Analyst",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Funding Societies Pte. Ltd.'. Role: Credit Analyst. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "S05",
+  "stratum": "sme",
+  "employer_as_posted": "Ohmyhome Pte. Ltd.",
+  "role": "Property Consultant",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Ohmyhome Pte. Ltd.'. Role: Property Consultant. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "S06",
+  "stratum": "sme",
+  "employer_as_posted": "Seedly Pte. Ltd.",
+  "role": "Content Writer",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Seedly Pte. Ltd.'. Role: Content Writer. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "S07",
+  "stratum": "sme",
+  "employer_as_posted": "Koufu Group Limited",
+  "role": "Food Court Assistant",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Koufu Group Limited'. Role: Food Court Assistant. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "S08",
+  "stratum": "sme",
+  "employer_as_posted": "Carousell",
+  "role": "Community Operations Executive",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Carousell'. Role: Community Operations Executive. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "B01",
+  "stratum": "brand",
+  "employer_as_posted": "OCBC Bank",
+  "role": "Relationship Manager",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'OCBC Bank'. Role: Relationship Manager. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "B02",
+  "stratum": "brand",
+  "employer_as_posted": "Singtel",
+  "role": "Network Engineer",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Singtel'. Role: Network Engineer. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "B03",
+  "stratum": "brand",
+  "employer_as_posted": "SingPost",
+  "role": "Postal Officer",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'SingPost'. Role: Postal Officer. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "B05",
+  "stratum": "brand",
+  "employer_as_posted": "NTUC Income",
+  "role": "Customer Service Executive",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'NTUC Income'. Role: Customer Service Executive. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "B06",
+  "stratum": "brand",
+  "employer_as_posted": "McDonald's Singapore",
+  "role": "Crew Member",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'McDonald's Singapore'. Role: Crew Member. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "B07",
+  "stratum": "brand",
+  "employer_as_posted": "Mr Bean",
+  "role": "Store Assistant",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Mr Bean'. Role: Store Assistant. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "B08",
+  "stratum": "brand",
+  "employer_as_posted": "Swensen's",
+  "role": "Service Crew",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Swensen's'. Role: Service Crew. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "B09",
+  "stratum": "brand",
+  "employer_as_posted": "Aspire",
+  "role": "Customer Success Associate",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Aspire'. Role: Customer Success Associate. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "B04",
+  "stratum": "brand",
+  "employer_as_posted": "Grab",
+  "role": "Customer Support Specialist",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Grab'. Role: Customer Support Specialist. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "B10",
+  "stratum": "brand",
+  "employer_as_posted": "Toast Box",
+  "role": "Service Crew",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Toast Box'. Role: Service Crew. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "H01",
+  "stratum": "hidden",
+  "employer_as_posted": "Leading MNC",
+  "role": "Senior Executive, Finance",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Leading MNC'. Role: Senior Executive, Finance. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "H02",
+  "stratum": "hidden",
+  "employer_as_posted": "Confidential Employer",
+  "role": "Operations Manager",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Confidential Employer'. Role: Operations Manager. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "H03",
+  "stratum": "hidden",
+  "employer_as_posted": "Our Client (A Global Bank)",
+  "role": "Compliance Officer",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Our Client (A Global Bank)'. Role: Compliance Officer. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "H04",
+  "stratum": "hidden",
+  "employer_as_posted": "Adecco Personnel Pte Ltd",
+  "role": "Admin Executive",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Adecco Personnel Pte Ltd'. Role: Admin Executive. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "H05",
+  "stratum": "hidden",
+  "employer_as_posted": "Hays Specialist Recruitment Pte. Ltd.",
+  "role": "Finance Manager",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Hays Specialist Recruitment Pte. Ltd.'. Role: Finance Manager. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "H06",
+  "stratum": "hidden",
+  "employer_as_posted": "Robert Walters (Singapore) Pte Ltd",
+  "role": "HR Business Partner",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Robert Walters (Singapore) Pte Ltd'. Role: HR Business Partner. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "X01",
+  "stratum": "lookalike",
+  "employer_as_posted": "Singtel Careers Hub Pte Ltd",
+  "role": "Sales Executive",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Singtel Careers Hub Pte Ltd'. Role: Sales Executive. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "X02",
+  "stratum": "lookalike",
+  "employer_as_posted": "Shopee Talent Solutions Pte Ltd",
+  "role": "Data Entry Clerk (work from home)",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Shopee Talent Solutions Pte Ltd'. Role: Data Entry Clerk (work from home). Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "X03",
+  "stratum": "lookalike",
+  "employer_as_posted": "DBS Talent Acquisition Pte Ltd",
+  "role": "Part-time Online Assistant",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'DBS Talent Acquisition Pte Ltd'. Role: Part-time Online Assistant. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "X04",
+  "stratum": "lookalike",
+  "employer_as_posted": "CapitaLand Recruitment Services Pte Ltd",
+  "role": "Leasing Associate",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'CapitaLand Recruitment Services Pte Ltd'. Role: Leasing Associate. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "X05",
+  "stratum": "lookalike",
+  "employer_as_posted": "Changi Airport Recruitment Centre Pte Ltd",
+  "role": "Ground Staff",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Changi Airport Recruitment Centre Pte Ltd'. Role: Ground Staff. Body: standard duties, 5-day week, apply via the portal."
+ },
+ {
+  "id": "X06",
+  "stratum": "lookalike",
+  "employer_as_posted": "Merlion Prime Staffing Solutions Pte Ltd",
+  "role": "Marketing Executive",
+  "synthetic": true,
+  "provenance": "Synthetic. Employer name is a real public employer name or a constructed name; role and text invented. Written 2026-11-10 by the AI experiment specialist.",
+  "text": "SYNTHETIC POSTING (written by the experiment author, not collected). Employer line as a posting would show it: 'Merlion Prime Staffing Solutions Pte Ltd'. Role: Marketing Executive. Body: standard duties, 5-day week, apply via the portal."
+ }
+]

@@ -1,0 +1,21 @@
+Mr Bean  (role: Store Assistant)
+HEADLINE: brand_legal_entity_unconfirmed
+  Public sources describe a company by this name, but the registry has no entity with this exact
+  name. It may trade under a brand name; the legal employer is not confirmed.
+  because: registry: similar_name_only; exact name seen 32 times in sources
+REGISTRY: similar_name_only. No registered entity is named 'Mr Bean'. The closest registered name is MR BEAN GROUP PTE. LTD., which may be a different company.
+WEB: 5 queries (bing), 8 of 8 pages read, exact name seen in 8 pages and 24 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 13):
+  - mr bean Careers and Employment | Indeed.com  https://sg.indeed.com/cmp/Mr-Bean
+  - Mr Bean Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/Mr-Bean-Reviews-E2032362.htm
+  - Mr Bean Reviews in Singapore | Glassdoor  https://www.glassdoor.com/Reviews/Mr-Bean-Singapore-
+    Reviews-EI_IE2032362.0,7_IL.
+  - Working at mr bean: Employee Reviews | Indeed.com  https://sg.indeed.com/cmp/Mr-Bean/reviews
+  - Working at Mr Bean company profile and information  https://sg.jobstreet.com/companies/mr-
+    bean-168552122415686
+  - Mr Bean Reviews (90): Pros & Cons of Working At Mr  https://www.glassdoor.com/Reviews/Mr-Bean-
+    Reviews-E2032362.htm
+COULD NOT VERIFY:
+  - Which registered company is the legal employer behind this brand.
+DEGRADED: summary_unavailable: model rate limit reached (retry in 2340 s)
+(60.0s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

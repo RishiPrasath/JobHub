@@ -1,0 +1,116 @@
+{
+ "SIMULATED": true,
+ "agent_model": "openai/gpt-oss-20b",
+ "complete_personas": 3,
+ "note": "Language-model simulations, not participants. Stopped at the gpt-oss-20b daily token limit; personas without answers were not run.",
+ "rows": [
+  {
+   "persona_id": "job_seeker-01-handy-ops",
+   "label": "Manual worker, phone‑first, low patience",
+   "digital_comfort": "low",
+   "simulated": true,
+   "task_a": {
+    "would_paste_as_is": false,
+    "what_you_would_select_and_copy_instead": "everything",
+    "how_you_would_do_it_on_your_device": "tap and hold on text, drag handles to select all, tap copy",
+    "effort_1_to_5": 4,
+    "seconds_you_expect_it_to_take": 45,
+    "problems_you_notice_in_the_pasted_text": "lots of ads, navigation links, cookie banner, not just job details",
+    "would_you_do_this_for_every_job_you_consider": "no",
+    "why": "takes too long, I only care about the job title and pay"
+   },
+   "task_b": {
+    "message_1_means": "Posting might be old",
+    "message_1_why_it_appeared": "JobHub auto‑checks and warns if no new copy",
+    "what_you_would_do": "Paste the posting again",
+    "would_you_rely_on_the_old_copy_meanwhile": "no",
+    "message_2_means": "Job is probably closed",
+    "which_message_is_clearer": "2",
+    "wording_problem_if_any": "None"
+   }
+  },
+  {
+   "persona_id": "job_seeker-02-late‑pivot",
+   "label": "Older career switcher, laptop, medium patience",
+   "digital_comfort": "medium",
+   "simulated": true,
+   "task_a": {
+    "would_paste_as_is": false,
+    "what_you_would_select_and_copy_instead": "everything",
+    "how_you_would_do_it_on_your_device": "Click the three dots at top right of browser, tap 'Select all', then tap 'Copy'.",
+    "effort_1_to_5": 2,
+    "seconds_you_expect_it_to_take": 15,
+    "problems_you_notice_in_the_pasted_text": "It has header/footer and unrelated links; not just the job description.",
+    "would_you_do_this_for_every_job_you_consider": "sometimes",
+    "why": "I prefer to keep only the useful part, but copying all is quick and I can trim later."
+   },
+   "task_b": {
+    "message_1_means": "The posting you saved might not be the latest version.",
+    "message_1_why_it_appeared": "JobHub checks for updates and warns you if the copy is older than 7 days.",
+    "what_you_would_do": "I’d copy the text again from the website and paste it back into JobHub to refresh the data.",
+    "would_you_rely_on_the_old_copy_meanwhile": "unsure",
+    "message_2_means": "The job’s application deadline has already passed, so it might be closed.",
+    "which_message_is_clearer": "2",
+    "wording_problem_if_any": "None"
+   }
+  },
+  {
+   "persona_id": "job_seeker-03-quick‑glance",
+   "label": "Skimmer, phone, medium digital comfort",
+   "digital_comfort": "medium",
+   "simulated": true,
+   "task_a": {
+    "would_paste_as_is": false,
+    "what_you_would_select_and_copy_instead": "everything",
+    "how_you_would_do_it_on_your_device": "tap and hold on text, select All, tap Copy",
+    "effort_1_to_5": 1,
+    "seconds_you_expect_it_to_take": 5,
+    "problems_you_notice_in_the_pasted_text": "looks messy, many extra site info, hard to read",
+    "would_you_do_this_for_every_job_you_consider": "sometimes",
+    "why": "if the paste looks clean and has salary, I’ll copy, otherwise I skip"
+   },
+   "task_b": {
+    "message_1_means": "The job details you saved might not be the latest version",
+    "message_1_why_it_appeared": "JobHub checks for updates and warns you if the copy is older",
+    "what_you_would_do": "Paste the posting again from the source",
+    "would_you_rely_on_the_old_copy_meanwhile": "no",
+    "message_2_means": "The job’s deadline has already passed, so it might be closed",
+    "which_message_is_clearer": "2",
+    "wording_problem_if_any": "None"
+   }
+  },
+  {
+   "persona_id": "job_seeker-04-reluctant‑tech",
+   "label": "Service worker, laptop, low patience",
+   "digital_comfort": "low",
+   "simulated": true,
+   "task_a": {
+    "would_paste_as_is": false,
+    "what_you_would_select_and_copy_instead": "the part from \"Administrative Assistant\" to the next blank line after the job description ends",
+    "how_you_would_do_it_on_your_device": "tap and hold the text, drag the handles to the start and end of the section, then tap copy",
+    "effort_1_to_5": 3,
+    "seconds_you_expect_it_to_take": 10,
+    "problems_you_notice_in_the_pasted_text": "too much extra text like cookie notice, navigation, footer, and unrelated job listings",
+    "would_you_do_this_for_every_job_you_consider": "no",
+    "why": "I only want the headline and salary, the rest is noise and will make me quit"
+   },
+   "task_b": null
+  },
+  {
+   "persona_id": "job_seeker-05-manual-phone-lowpat",
+   "label": "Manual worker, phone‑first, low patience",
+   "digital_comfort": "low",
+   "simulated": true,
+   "task_a": null,
+   "task_b": null
+  },
+  {
+   "persona_id": "job_seeker-06-career-switcher-laptop-midpat",
+   "label": "Older career switcher, laptop, medium patience",
+   "digital_comfort": "medium",
+   "simulated": true,
+   "task_a": null,
+   "task_b": null
+  }
+ ]
+}

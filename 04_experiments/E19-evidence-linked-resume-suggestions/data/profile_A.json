@@ -1,0 +1,27 @@
+{
+  "profile_id": "A",
+  "synthetic": true,
+  "note": "Synthetic profile written for E19 in the FEAT-016 field format. No real person. Today is taken as 2026-11-10 for date arithmetic.",
+  "personal": {"name": "Alex Ng", "city": "Singapore", "right_to_work": "Singapore citizen"},
+  "summary": "Logistics coordinator with about four years in dispatch and cold-store warehouse work in Singapore.",
+  "entries": [
+    {"id": "A-W1", "type": "work", "title": "Dispatch Coordinator", "employer": "Harbourline Freight Pte Ltd", "employment_type": "full-time", "start": "Jan 2023", "end": "present",
+     "description": "Schedule and track daily delivery trips for 8 vans using a shared Excel sheet and a WhatsApp group; liaise with drivers and customers about delays.",
+     "achievements": ["Coordinated 12 to 15 delivery trips a day", "Kept the shared Excel dispatch log up to date for the team"],
+     "skills_used": ["Excel (basic)", "route planning", "WhatsApp coordination", "communication"]},
+    {"id": "A-W2", "type": "work", "title": "Warehouse Assistant", "employer": "Kallang Cold Stores Pte Ltd", "employment_type": "full-time", "start": "Jun 2021", "end": "Dec 2022",
+     "description": "Received and put away chilled and frozen goods, picked orders with a handheld scanner, and followed the cold room safety rules.",
+     "achievements": ["Did weekly stock counts for a cold room of about 400 pallets", "Attended monthly workplace safety briefings"],
+     "skills_used": ["inventory counting", "handheld scanner", "order picking", "workplace safety"]},
+    {"id": "A-ED1", "type": "education", "qualification": "Nitec in Logistics", "institution": "ITE College West", "field": "Logistics", "start": "2019", "end": "2021"},
+    {"id": "A-CE1", "type": "certification", "name": "Class 3 driving licence", "issuing_body": "Traffic Police", "issued": "2020"},
+    {"id": "A-CE2", "type": "certification", "name": "Basic Workplace Safety Orientation Course", "issuing_body": "in-house course at Kallang Cold Stores", "issued": "2021"},
+    {"id": "A-SK1", "type": "skill", "name": "Excel", "level": "basic", "detail": "sorting, filtering and simple sums"},
+    {"id": "A-SK2", "type": "skill", "name": "Route planning", "level": "working"},
+    {"id": "A-SK3", "type": "skill", "name": "Inventory counting", "level": "working"},
+    {"id": "A-LG1", "type": "language", "name": "Languages", "detail": "English (fluent), Mandarin (conversational)"},
+    {"id": "A-PR1", "type": "project", "title": "Bin relabelling project", "role": "team member of 4", "dates": "2020", "description": "School project at ITE College West: relabelled 60 storage bins and updated the bin location sheet.", "skills_used": ["teamwork", "inventory labelling"]}
+  ],
+  "employer_names": ["Harbourline Freight", "Kallang Cold Stores"],
+  "non_employer_names": ["ITE College West", "Nitec Logistics", "Traffic Police"]
+}

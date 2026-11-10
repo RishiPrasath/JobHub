@@ -1,0 +1,83 @@
+{
+  "organisation": "Randstad Singapore",
+  "queries_run": [
+    "Randstad Singapore scam warning fake job",
+    "Randstad Singapore court case OR tribunal OR MOM enforcement",
+    "Randstad Singapore complaints reviews candidates",
+    "Randstad Singapore retrenchment layoffs",
+    "Randstad fine OR lawsuit OR investigation parent group"
+  ],
+  "pages_read": [
+    "https://www.randstad.com.sg/about-us/press-releases/press-statement-job-scams",
+    "https://www.staffingindustry.com/news/global-daily-news/singapore-randstad-says-it-aware-job-scammers-impersonating-its-employees",
+    "https://www.randstad.com.sg/about-us/press-releases/scammers-using-fake-randstad-business-card/",
+    "https://www.randstad.com.sg/about-us/press-releases/scammers-impersonating-randstad-employees-on-telegram/"
+  ],
+  "failed_reads": [],
+  "items": [
+    {
+      "claim": "Randstad Singapore and Randstad Malaysia issued a joint statement (dated 10 August 2018) saying Randstad was aware of incidents of individuals or organisations claiming to be employed by it, with fraudulent job ads posted on social media and messaging apps and victims asked to pay upfront costs such as work permits.",
+      "entity_the_claim_is_about": "Randstad Singapore (joint statement with Randstad Malaysia); the scammers are unidentified third parties",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://www.randstad.com.sg/about-us/press-releases/press-statement-job-scams",
+      "quoted_evidence": "aware of recent incidents involving individuals and/or organisations claiming to be employed"
+    },
+    {
+      "claim": "Randstad Singapore said in April 2022 that scammers were actively targeting people in Singapore by impersonating Randstad employees on Telegram and WhatsApp, and used the full names and registered EA personnel numbers of real recruitment consultants. Victims were asked for identity card and phone numbers and pressed to pay via PayNow or bank transfer.",
+      "entity_the_claim_is_about": "Randstad Singapore; the scammers are unidentified third parties impersonating its staff",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://www.randstad.com.sg/about-us/press-releases/scammers-impersonating-randstad-employees-on-telegram/",
+      "quoted_evidence": "Scammers are actively targeting members of the public in Singapore by impersonating Randstad employees."
+    },
+    {
+      "claim": "Randstad Singapore warned (publication date 18 August 2022) that scammers introduced themselves on Telegram as employees of Randstad or Randstad Sourceright and used images of fake e-business cards and job advertisements.",
+      "entity_the_claim_is_about": "Randstad Singapore and Randstad Sourceright; the scammers are unidentified third parties",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://www.randstad.com.sg/about-us/press-releases/scammers-using-fake-randstad-business-card/",
+      "quoted_evidence": "introduced themselves as employees of Randstad or Randstad Sourceright on Telegram"
+    },
+    {
+      "claim": "A Glassdoor review titled 'Manager that ghost applicants shows culture of company' (Randstad employer page, glassdoor.sg) is returned in search results. The search summary describes a candidate from April 2026 who interviewed, followed up and got no reply. The exact review URL matching that description was not opened, so the attribution is unconfirmed.",
+      "entity_the_claim_is_about": "Randstad (Glassdoor employer page; the Singapore link is shown but the reviewer's location and the April 2026 date were not verified on the page)",
+      "category": "consumer_complaint",
+      "source_url": "https://www.glassdoor.sg/Reviews/Employee-Review-Randstad-E302306-RVW103444418.htm",
+      "quoted_evidence": "Manager that ghost applicants shows culture of company"
+    },
+    {
+      "claim": "A UK tribunal-type report states that Randstad Solutions Limited (UK) had a 2019 employment claim withdrawn and dismissed. This concerns a UK entity, not Randstad Singapore.",
+      "entity_the_claim_is_about": "Randstad Solutions Limited (UK), not Randstad Singapore",
+      "category": "other_entity",
+      "source_url": "https://assets.publishing.service.gov.uk/media/5da6f2d6e5274a5ca76d50c8/Miss_L_Brown_v_Randstand_Solutions_Limited_-_3300517-19__Withdrawal_Judgment.pdf",
+      "quoted_evidence": "Miss L Brown v Randstand Solutions Limited 3300517 19 Withdrawal Judgment"
+    },
+    {
+      "claim": "Staffing Industry Analysts reports (May 2026) that Randstad was ordered to pay C$195,833 in an Ontario case brought by a former employee who was let go in a 2023 restructuring after complaining through an internal channel. This concerns Randstad in Canada, not Randstad Singapore.",
+      "entity_the_claim_is_about": "Randstad (Canada / Ontario operations of the group), not Randstad Singapore",
+      "category": "other_entity",
+      "source_url": "https://www.staffingindustry.com/news/global-daily-news/randstad-to-pay-c195833-in-ontario-ruling",
+      "quoted_evidence": "Randstad to pay C$195,833 in Ontario ruling"
+    },
+    {
+      "claim": "A PYMNTS item reports that French antitrust regulators investigated several staffing firms including Randstad Holding (Netherlands), and that the firms confirmed they were cooperating. This concerns the parent group, not Randstad Singapore. The details were seen only in a search summary; the page was not opened.",
+      "entity_the_claim_is_about": "Randstad Holding (Netherlands parent group), not Randstad Singapore",
+      "category": "other_entity",
+      "source_url": "https://www.pymnts.com/?p=1576008",
+      "quoted_evidence": "no direct quote: claim taken from search result summary only, page not read"
+    },
+    {
+      "claim": "Randstad North America settled a US Justice Department claim (2020) over immigration-related discrimination in its New Jersey office, reportedly paying $135,000 in civil penalties. This concerns the US subsidiary, not Randstad Singapore.",
+      "entity_the_claim_is_about": "Randstad North America (US), not Randstad Singapore",
+      "category": "other_entity",
+      "source_url": "https://news.bloomberglaw.com/daily-labor-report/randstad-north-america-settles-doj-claims-of-immigrant-bias",
+      "quoted_evidence": "Randstad North America Settles DOJ Claims of Immigrant Bias"
+    },
+    {
+      "claim": "Randstad appealed a EUR 96,000 fine from the Dutch financial markets regulator AFM (reported 2012). The fine related to Vedior N.V. share price movements before Randstad acquired Vedior. This concerns the Dutch group, not Randstad Singapore.",
+      "entity_the_claim_is_about": "Randstad Holding / Vedior N.V. (Netherlands), not Randstad Singapore",
+      "category": "other_entity",
+      "source_url": "https://www.recruiter.co.uk/news/2012/09/randstad-lodges-appeal-against-fine-imposed-afm",
+      "quoted_evidence": "Randstad lodges appeal against fine imposed by AFM"
+    }
+  ],
+  "notes": "No employer_action (regulator, licence, court, or enforcement) record against Randstad Singapore was found. Searches for MOM, ECT, court and tribunal records returned only general Singapore material and one UK case, and none named Randstad Singapore. The impersonation items are scam warnings issued by Randstad Singapore about third parties using its name; they are not misconduct by the company. The 2018 statement is a joint statement with Randstad Malaysia. Two of the 2022 Telegram items were checked on the page; the 2022 Staffing Industry article (13 April 2022) was also read and repeats the Telegram/WhatsApp warning, so it was not listed separately. The Glassdoor item is based on a search-result title and summary only; the review was not opened, and the April 2026 date and the link to Singapore were not confirmed. Singapore candidate review evidence is thin (a small Jobstreet sample of about six reviews rated 4.06, plus a few Glassdoor reviews, many from other countries). A candidate-side review describing a background-check-related withdrawal of a job offer was seen in a search summary only, with no URL that could be matched to it, so it was left out. Retrenchment searches returned only general Singapore trend reporting (Q1 and Q2 2026 layoffs, mostly restructuring) and nothing naming Randstad Singapore. Other_entity items were taken from search summaries, not page reads, except where stated. Several older group matters (UK OFT 2009 investigation, US wage-and-hour and EEOC penalties in 2014 and 2016) were seen in search results but not listed. Searches used: 5 of 8. Page reads used: 4 of 4, with 0 failed."
+}

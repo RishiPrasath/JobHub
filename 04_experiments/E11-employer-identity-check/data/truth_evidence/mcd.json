@@ -1,0 +1,44 @@
+{
+ "key": "mcd",
+ "domain": "www.mcdonalds.com.sg",
+ "pages": [
+  {
+   "url": "https://www.mcdonalds.com.sg/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    " Center FAQs Facebook Instagram Youtube Tiktok --> COPYRIGHT© 2023 ALL RIGHTS RESERVED BY McDONALD'S THE GOLDEN ARCHES LOGO AND \"I'M LOVIN' IT\" ARE TRADEMARKS OF McDONALD'S CORPORAT"
+   ]
+  },
+  {
+   "url": "https://www.mcdonalds.com.sg/privacy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Hanbaobao Pte. Ltd.",
+    "How to Contact Us Hanbaobao Pte. Ltd.",
+    "One such supplier is Sift Science, Inc."
+   ],
+   "copyright": [
+    " Center FAQs Facebook Instagram Youtube Tiktok --> COPYRIGHT© 2023 ALL RIGHTS RESERVED BY McDONALD'S THE GOLDEN ARCHES LOGO AND \"I'M LOVIN' IT\" ARE TRADEMARKS OF McDONALD'S CORPORAT"
+   ]
+  },
+  {
+   "url": "https://www.mcdonalds.com.sg/terms-and-conditions",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "APR 2025 By booking the Event with Hanbaobao Pte. Ltd.",
+    "APR 2025 By booking the Party with Hanbaobao Pte. Ltd.",
+    "Apple Applications These terms incorporate and supplement the Apple, Inc.",
+    "Hanbaobao Pte. Ltd.",
+    "How to Contact Us Hanbaobao Pte. Ltd.",
+    "One such supplier is Sift Science, Inc."
+   ],
+   "copyright": [
+    " Center FAQs Facebook Instagram Youtube Tiktok --> COPYRIGHT© 2023 ALL RIGHTS RESERVED BY McDONALD'S THE GOLDEN ARCHES LOGO AND \"I'M LOVIN' IT\" ARE TRADEMARKS OF McDONALD'S CORPORAT"
+   ]
+  }
+ ]
+}

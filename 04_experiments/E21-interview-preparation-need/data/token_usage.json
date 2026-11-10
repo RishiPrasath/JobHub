@@ -1,0 +1,11 @@
+{
+ "tokens_by_model": {
+  "openai/gpt-oss-20b": 27930,
+  "openai/gpt-oss-120b": 6710
+ },
+ "calls_by_model": {
+  "openai/gpt-oss-20b": 24,
+  "openai/gpt-oss-120b": 6
+ },
+ "total_tokens": 34640
+}

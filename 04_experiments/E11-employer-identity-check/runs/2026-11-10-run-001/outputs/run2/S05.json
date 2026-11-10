@@ -1,0 +1,232 @@
+{
+ "employer": "Ohmyhome Pte. Ltd.",
+ "role": "Sales Coordinator",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 1044 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "OHMYHOME PTE. LTD. is registered in Singapore (status: Live Company, registered 2015-06-12).",
+  "basis": "name only",
+  "entity": {
+   "uen": "201525768E",
+   "name": "OHMYHOME PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2015-06-12",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Ohmyhome Pte. Ltd.\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 2,
+    "error": null
+   },
+   {
+    "query": "\"Ohmyhome Pte. Ltd.\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Ohmyhome Pte. Ltd.\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Ohmyhome Pte. Ltd.\" Sales Coordinator interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Ohmyhome Pte. Ltd.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 7,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.signalhire.com/companies/ohmyhome-pte-ltd",
+    "status": "thin",
+    "chars": 266,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.straitstimes.com/business/ohmyhome-restructuring-business-as-usual-but-owners-owe-shareholders-an-explanation",
+    "status": "ok",
+    "chars": 6979,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://fiscal.ai/company/NASDAQ_OMH/news/2026-06-27/ohmyhome-announces-strategic-restructuring-to-privatise-core-real-estate-business",
+    "status": "thin",
+    "chars": 120,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.marketscreener.com/news/ohmyhome-announces-strategic-restructuring-to-privatise-core-real-estate-business-ce7f5fd9d08afe2c",
+    "status": "blocked",
+    "chars": 303,
+    "note": "challenge or login-wall text",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.mingtiandi.com/real-estate/finance/ohmyhome-faces-delisting-risk-after-selling-core-unit-for-1",
+    "status": "ok",
+    "chars": 4048,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://ohmyhome.com/en-sg/careers",
+    "status": "ok",
+    "chars": 1155,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://pm.ohmyhome.com/career",
+    "status": "irrelevant",
+    "chars": 3700,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://nodeflair.com/companies/ohmyhome",
+    "status": "ok",
+    "chars": 1938,
+    "note": null,
+    "tier": "render"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.indeed.com/cmp/Ohmyhome-Pte.-Ltd.-1",
+    "title": "Ohmyhome Pte. Ltd. Careers and Employment | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Interview/Ohmyhome-Interview-Questions-E2252823.htm",
+    "title": "Ohmyhome Interview Experience & Questions (2026) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Interview/Ohmyhome-Interview-Questions-E2252823.htm",
+    "title": "Ohmyhome Interview Questions (2026) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/Ohmyhome-jobs",
+    "title": "Ohmyhome Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.co.in/Interview/Ohmyhome-Interview-Questions-E2252823.htm",
+    "title": "7 Ohmyhome Interview Questions & Answers (2025) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "ohmyhome"
+   ],
+   "pages_with_exact_name": 4,
+   "snippets_with_exact_name": 21,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 12,
+  "registry_mirror_pages": 0
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (4 pages read, model: None)"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://www.signalhire.com/companies/ohmyhome-pte-ltd",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://fiscal.ai/company/NASDAQ_OMH/news/2026-06-27/ohmyhome-announces-strategic-restructuring-to-privatise-core-real-estate-business",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://www.marketscreener.com/news/ohmyhome-announces-strategic-restructuring-to-privatise-core-real-estate-business-ce7f5fd9d08afe2c",
+   "why": "blocked: challenge or login-wall text"
+  },
+  {
+   "url": "https://pm.ohmyhome.com/career",
+   "why": "irrelevant: the page never mentions the company name"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://sg.indeed.com/cmp/Ohmyhome-Pte.-Ltd.-1",
+   "title": "Ohmyhome Pte. Ltd. Careers and Employment | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Interview/Ohmyhome-Interview-Questions-E2252823.htm",
+   "title": "Ohmyhome Interview Experience & Questions (2026) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Interview/Ohmyhome-Interview-Questions-E2252823.htm",
+   "title": "Ohmyhome Interview Questions (2026) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/Ohmyhome-jobs",
+   "title": "Ohmyhome Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.co.in/Interview/Ohmyhome-Interview-Questions-E2252823.htm",
+   "title": "7 Ohmyhome Interview Questions & Answers (2025) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 100.9,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

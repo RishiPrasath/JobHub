@@ -1,0 +1,66 @@
+{
+ "key": "ocbc",
+ "domain": "www.ocbc.com",
+ "pages": [
+  {
+   "url": "https://www.ocbc.com/",
+   "status": 200,
+   "reg_hits": [
+    "Co. Reg. No.: 193200032W"
+   ],
+   "legal_names": [],
+   "copyright": [
+    "Conditions of Access Policies Notices Fair Dealing Security © Copyright 2004 – – OCBC Bank. All Rights Reserved. Co. Reg. No.: 193200032W You are leaving the OCBC Bank's website to ",
+    "nditions of Access Policies Notices Fair Dealing Security © Copyright 2004 – – OCBC Bank. All Rights Reserved. Co. Reg. No.: 193200032W You are leaving the OCBC Bank's website to access a t"
+   ]
+  },
+  {
+   "url": "https://www.ocbc.com/privacy-policy",
+   "status": 200,
+   "reg_hits": [
+    "Co. Reg. No.: 193200032W"
+   ],
+   "legal_names": [],
+   "copyright": [
+    "ting this error . Conditions of Access Security and Privacy © Copyright 2004 &ndash; 2021 &ndash; OCBC Bank. All Rights Reserved. Co. Reg. No.: 193200032W ",
+    "ng this error . Conditions of Access Security and Privacy © Copyright 2004 &ndash; 2021 &ndash; OCBC Bank. All Rights Reserved. Co. Reg. No.: 193200032W "
+   ]
+  },
+  {
+   "url": "https://www.ocbc.com/privacy",
+   "status": 200,
+   "reg_hits": [
+    "Co. Reg. No.: 193200032W"
+   ],
+   "legal_names": [],
+   "copyright": [
+    "ting this error . Conditions of Access Security and Privacy © Copyright 2004 &ndash; 2021 &ndash; OCBC Bank. All Rights Reserved. Co. Reg. No.: 193200032W ",
+    "ng this error . Conditions of Access Security and Privacy © Copyright 2004 &ndash; 2021 &ndash; OCBC Bank. All Rights Reserved. Co. Reg. No.: 193200032W "
+   ]
+  },
+  {
+   "url": "https://www.ocbc.com/terms",
+   "status": 200,
+   "reg_hits": [
+    "Co. Reg. No.: 193200032W"
+   ],
+   "legal_names": [],
+   "copyright": [
+    "ting this error . Conditions of Access Security and Privacy © Copyright 2004 &ndash; 2021 &ndash; OCBC Bank. All Rights Reserved. Co. Reg. No.: 193200032W ",
+    "ng this error . Conditions of Access Security and Privacy © Copyright 2004 &ndash; 2021 &ndash; OCBC Bank. All Rights Reserved. Co. Reg. No.: 193200032W "
+   ]
+  },
+  {
+   "url": "https://www.ocbc.com/terms-and-conditions",
+   "status": 200,
+   "reg_hits": [
+    "Co. Reg. No.: 193200032W"
+   ],
+   "legal_names": [],
+   "copyright": [
+    "ting this error . Conditions of Access Security and Privacy © Copyright 2004 &ndash; 2021 &ndash; OCBC Bank. All Rights Reserved. Co. Reg. No.: 193200032W ",
+    "ng this error . Conditions of Access Security and Privacy © Copyright 2004 &ndash; 2021 &ndash; OCBC Bank. All Rights Reserved. Co. Reg. No.: 193200032W "
+   ]
+  }
+ ]
+}

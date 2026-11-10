@@ -28,6 +28,7 @@ For Codex CLI repository integration, see the root [AGENTS.md](../../AGENTS.md).
 16. [AI Tools Expert](15_ai-tools-expert.md) — evaluates AI tools, models, workflows, integrations, and trade-offs.
 17. [Prompt Engineer](16_prompt-engineer.md) — designs, tests, and maintains reusable prompts for Codex and specialist workflows.
 18. [Research Presentation Strategist and Designer](18_research-presentation-strategist.md) — turns research into accessible, evidence-linked domain briefings with a clear story and meaningful visuals.
+19. [Persona Creator](19_persona-creator.md) — creates fictional simulation personas (job seekers, employers, recruiters, career coaches and others) on the fly and spawns them as sub-agents for testing. Simulated, never evidence about real users. Tooling: `tools/persona_creator.py`.
 
 ## Usage principles
 

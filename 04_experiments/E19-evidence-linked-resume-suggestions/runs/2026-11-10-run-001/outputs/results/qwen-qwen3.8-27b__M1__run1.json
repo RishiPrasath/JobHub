@@ -1,0 +1,35 @@
+{
+ "meta": {
+  "model": "qwen/qwen3.8-27b",
+  "method": "M1",
+  "run": 1,
+  "prompt_version": "e19-prompts-v1",
+  "sets_completed": 1,
+  "params": {
+   "temperature": 0.2,
+   "reasoning_effort": "low (gpt-oss only)",
+   "max_tokens": 1000,
+   "json_mode": true
+  }
+ },
+ "method": "M1",
+ "sets": {
+  "P01-A": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R2\",\n      \"text\": \"Logistics coordinator with four years of experience in dispatch and cold-store warehouse operations in Singapore, including scheduling daily delivery trips and managing inventory.\"\n    },\n    {\n      \"requirement\": \"R5\",\n      \"text\": \"Demonstrated reliability and teamwork through coordinating daily logistics operations and participating in team-based projects.\"\n    }\n  ],\n  \"gaps\": [\n    \"R1\",\n    \"R3\",\n    \"R4\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 131,
+    "prompt_tokens": 748,
+    "total_tokens": 879,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.178484894,
+    "prompt_time": 0.056550899,
+    "completion_time": 0.25206417,
+    "total_time": 0.308615069
+   },
+   "latency_s": 1.01,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T11:07:14Z"
+  }
+ }
+}

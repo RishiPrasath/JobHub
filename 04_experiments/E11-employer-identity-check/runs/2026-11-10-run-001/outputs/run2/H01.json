@@ -1,0 +1,208 @@
+{
+ "employer": "Confidential Employer",
+ "role": "Marketing Manager",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 360 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'Confidential Employer'. The closest registered name is THE CONFIDENTIAL COVE, which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "53521573L",
+   "name": "THE CONFIDENTIAL COVE",
+   "type": "Sole Proprietorship/ Partnership",
+   "status": "Live",
+   "incorporated": "2026-04-05",
+   "activity": "na",
+   "alternatives": [
+    "IBL TRADING PTE LTD",
+    "S CONFIDENTIAL PTE. LTD."
+   ]
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Confidential Employer\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Confidential Employer\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Confidential Employer\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Confidential Employer\" Marketing Manager interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Confidential Employer\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.mom.gov.sg/employment-practices/retrenchment/responsible-retrenchment",
+    "status": "ok",
+    "chars": 4065,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.straitstimes.com/business/why-me-retrenchment-handbook-addresses-tough-layoff-conversations-and-other-hr-issues",
+    "status": "ok",
+    "chars": 4301,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.foundit.sg/job/marketing-manager-confidential-singapore-41890398",
+    "status": "blocked",
+    "chars": 245,
+    "note": "challenge or login-wall text",
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.com/Reviews/Confidential-Reviews-E3147060.htm",
+    "title": "Confidential Reviews (2,677): Pros & Cons of Working At ... - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Overview/Working-at-Confidential-EI_IE3147060.11,23.htm",
+    "title": "Working at Confidential | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.reddit.com/r/SingaporeRaw/comments/156h5vz/megathread_toxic_employers_of_singapore",
+    "title": "[Megathread] Toxic employers of Singapore : r/SingaporeRaw - Reddit",
+    "why": "link out only (reddit.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/confidential-pte-ltd-jobs",
+    "title": "Confidential Pte Ltd Jobs in Singapore (with Salaries) - Nov 2026 ...",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.reddit.com/r/recruitinghell/comments/yezkkd/confidential_company",
+    "title": "“Confidential” Company : r/recruitinghell - Reddit",
+    "why": "link out only (reddit.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.linkedin.com/company/confidentialemployer",
+    "title": "Confidential Employer - LinkedIn",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.linkedin.com/jobs/confidential-company-jobs",
+    "title": "Confidential Company Jobs in Singapore (1,000+ Open Roles) | LinkedIn",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "confidential employer"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 1,
+   "none": false,
+   "strong": false
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 29,
+  "registry_mirror_pages": 0
+ },
+ "headline": "could_not_confirm_company",
+ "headline_meaning": "Neither the registry nor the web confirms this company exists under this name.",
+ "reasons": [
+  "registry: similar_name_only",
+  "exact name seen 1 times"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://www.foundit.sg/job/marketing-manager-confidential-singapore-41890398",
+   "why": "blocked: challenge or login-wall text"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.com/Reviews/Confidential-Reviews-E3147060.htm",
+   "title": "Confidential Reviews (2,677): Pros & Cons of Working At ... - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Overview/Working-at-Confidential-EI_IE3147060.11,23.htm",
+   "title": "Working at Confidential | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.reddit.com/r/SingaporeRaw/comments/156h5vz/megathread_toxic_employers_of_singapore",
+   "title": "[Megathread] Toxic employers of Singapore : r/SingaporeRaw - Reddit",
+   "why": "link out only (reddit.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/confidential-pte-ltd-jobs",
+   "title": "Confidential Pte Ltd Jobs in Singapore (with Salaries) - Nov 2026 ...",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.reddit.com/r/recruitinghell/comments/yezkkd/confidential_company",
+   "title": "“Confidential” Company : r/recruitinghell - Reddit",
+   "why": "link out only (reddit.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.linkedin.com/company/confidentialemployer",
+   "title": "Confidential Employer - LinkedIn",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.linkedin.com/jobs/confidential-company-jobs",
+   "title": "Confidential Company Jobs in Singapore (1,000+ Open Roles) | LinkedIn",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 45.5,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

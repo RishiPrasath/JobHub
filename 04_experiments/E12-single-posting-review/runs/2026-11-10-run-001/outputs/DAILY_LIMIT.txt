@@ -1,0 +1,1 @@
+E12-P10__oss20__r1: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199602, Requested 1384. Please try again in 7m5.952s. Need more tokens? Upgrad

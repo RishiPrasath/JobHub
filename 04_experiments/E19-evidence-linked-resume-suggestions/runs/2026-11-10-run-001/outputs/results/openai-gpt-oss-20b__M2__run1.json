@@ -1,0 +1,436 @@
+{
+ "meta": {
+  "model": "openai/gpt-oss-20b",
+  "method": "M2",
+  "run": 1,
+  "prompt_version": "e19-prompts-v1",
+  "sets_completed": 19,
+  "params": {
+   "temperature": 0.2,
+   "reasoning_effort": "low (gpt-oss only)",
+   "max_tokens": 1000,
+   "json_mode": true
+  }
+ },
+ "method": "M2",
+ "sets": {
+  "P01-A": {
+   "content": "{\"suggestions\":[],\"gaps\":[\"R1\",\"R2\",\"R3\",\"R4\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 897,
+    "total_tokens": 1011,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 81,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.154077795,
+    "prompt_time": 0.051090503,
+    "completion_time": 0.118826609,
+    "total_time": 0.169917112
+   },
+   "latency_s": 1.09,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:13:12Z"
+  },
+  "P01-B": {
+   "content": "{\"suggestions\":[],\"gaps\":[\"R1\",\"R2\",\"R3\",\"R4\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 99,
+    "prompt_tokens": 869,
+    "total_tokens": 968,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 66,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.156758994,
+    "prompt_time": 0.054946609,
+    "completion_time": 0.101568615,
+    "total_time": 0.156515224
+   },
+   "latency_s": 0.43,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:13:09Z"
+  },
+  "P02-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R2\",\"entry_ids\":[\"A-CE1\"],\"text\":\"Class 3 driving licence (issued by Traffic Police, 2020).\"},{\"requirement\":\"R5\",\"entry_ids\":[\"A-CE2\"],\"text\":\"Basic Workplace Safety Orientation Course (issued by in-house course at Kallang Cold Stores, 2021).\"}],\"gaps\":[\"R1\",\"R3\",\"R4\"]}",
+   "usage": {
+    "completion_tokens": 290,
+    "prompt_tokens": 865,
+    "total_tokens": 1155,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 189,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.285847724,
+    "prompt_time": 0.050489914,
+    "completion_time": 0.339052494,
+    "total_time": 0.389542408
+   },
+   "latency_s": 1.2,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:17:13Z"
+  },
+  "P02-B": {
+   "content": "{\"suggestions\":[],\"gaps\":[\"R1\",\"R2\",\"R3\",\"R4\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 837,
+    "total_tokens": 935,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 65,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.777160256,
+    "prompt_time": 0.056057136,
+    "completion_time": 0.130586752,
+    "total_time": 0.186643888
+   },
+   "latency_s": 1.06,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:18:13Z"
+  },
+  "P03-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"entry_ids\":[\"A-W1\"],\"text\":\"Maintained a shared Excel dispatch log to record daily delivery trips for 8 vans.\"},{\"requirement\":\"R5\",\"entry_ids\":[\"A-W1\"],\"text\":\"Communicated with drivers and customers about delivery delays via WhatsApp group.\"}],\"gaps\":[\"R2\",\"R3\",\"R4\"]}",
+   "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 869,
+    "total_tokens": 1046,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 84,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.365348463,
+    "prompt_time": 0.051763147,
+    "completion_time": 0.191745656,
+    "total_time": 0.243508803
+   },
+   "latency_s": 0.7,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:19:10Z"
+  },
+  "P03-B": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"entry_ids\":[\"B-W1\"],\"text\":\"Filed and retrieved paper patient records.\"},{\"requirement\":\"R2\",\"entry_ids\":[\"B-W1\"],\"text\":\"Answer front-desk phone.\"},{\"requirement\":\"R3\",\"entry_ids\":[\"B-SK1\"],\"text\":\"MS Word, level working.\"},{\"requirement\":\"R4\",\"entry_ids\":[\"B-W1\"],\"text\":\"Work 3 days a week.\"},{\"requirement\":\"R5\",\"entry_ids\":[\"B-W1\"],\"text\":\"Greet patients.\"}],\"gaps\":[]}",
+   "usage": {
+    "completion_tokens": 520,
+    "prompt_tokens": 841,
+    "total_tokens": 1361,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 385,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.285730516,
+    "prompt_time": 0.05528531,
+    "completion_time": 0.656351513,
+    "total_time": 0.711636823
+   },
+   "latency_s": 1.11,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:29:13Z"
+  },
+  "P04-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R6\",\"entry_ids\":[\"A-W1\"],\"text\":\"Coordinated daily delivery trips for 8 vans using a shared Excel sheet and a WhatsApp group; liaised with drivers and customers about delays.\"}],\"gaps\":[\"R1\",\"R2\",\"R3\",\"R4\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 277,
+    "prompt_tokens": 867,
+    "total_tokens": 1144,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 196,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.00516486,
+    "prompt_time": 0.050388671,
+    "completion_time": 0.29277081,
+    "total_time": 0.343159481
+   },
+   "latency_s": 0.49,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:27:14Z"
+  },
+  "P04-B": {
+   "content": "{\"suggestions\":[],\"gaps\":[\"R1\",\"R2\",\"R3\",\"R4\",\"R5\",\"R6\"]}",
+   "usage": {
+    "completion_tokens": 124,
+    "prompt_tokens": 839,
+    "total_tokens": 963,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 88,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 1.377600323,
+    "prompt_time": 0.049391412,
+    "completion_time": 0.14974556,
+    "total_time": 0.199136972
+   },
+   "latency_s": 1.69,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:28:13Z"
+  },
+  "P05-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"entry_ids\":[\"A-W1\"],\"text\":\"Coordinated daily delivery trips and liaised with drivers and customers about delays, providing direct customer-facing support.\"},{\"requirement\":\"R4\",\"entry_ids\":[\"A-LG1\"],\"text\":\"Fluent in English and conversational in Mandarin.\"}],\"gaps\":[\"R2\",\"R3\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 239,
+    "prompt_tokens": 871,
+    "total_tokens": 1110,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 145,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.292391633,
+    "prompt_time": 0.106472453,
+    "completion_time": 0.252208457,
+    "total_time": 0.35868091
+   },
+   "latency_s": 0.77,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:33:13Z"
+  },
+  "P05-B": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"entry_ids\":[\"B-W2\"],\"text\":\"Served customers and operated the POS till at Orchard Row Stationers from Dec 2020 to Jul 2022.\"},{\"requirement\":\"R4\",\"entry_ids\":[\"B-LG1\"],\"text\":\"Fluent in English and Tamil, basic Mandarin.\"},{\"requirement\":\"R5\",\"entry_ids\":[\"B-W2\"],\"text\":\"Balanced the till at the end of each shift and handled cash transactions.\"}],\"gaps\":[\"R2\",\"R3\"]}",
+   "usage": {
+    "completion_tokens": 286,
+    "prompt_tokens": 843,
+    "total_tokens": 1129,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 161,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.365694519,
+    "prompt_time": 0.055534277,
+    "completion_time": 0.338981181,
+    "total_time": 0.394515458
+   },
+   "latency_s": 0.85,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:32:13Z"
+  },
+  "P06-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R2\",\"entry_ids\":[\"A-W1\"],\"text\":\"Schedule and track daily delivery trips for 8 vans using a shared Excel sheet and a WhatsApp group; liaise with drivers and customers about delays.\"}],\"gaps\":[\"R1\",\"R3\",\"R4\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 296,
+    "prompt_tokens": 888,
+    "total_tokens": 1184,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 218,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.161113518,
+    "prompt_time": 0.051525075,
+    "completion_time": 0.40451865,
+    "total_time": 0.456043725
+   },
+   "latency_s": 0.73,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:35:13Z"
+  },
+  "P06-B": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"entry_ids\":[\"B-ED1\"],\"text\":\"Diploma in Business Administration, Eastside Polytechnic (2017-2020).\"}],\"gaps\":[\"R2\",\"R3\",\"R4\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 173,
+    "prompt_tokens": 860,
+    "total_tokens": 1033,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 108,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.365827073,
+    "prompt_time": 0.042893264,
+    "completion_time": 0.229805823,
+    "total_time": 0.272699087
+   },
+   "latency_s": 0.73,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:41:14Z"
+  },
+  "P07-A": {
+   "content": "{\"suggestions\":[],\"gaps\":[\"R1\",\"R2\",\"R3\",\"R4\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 851,
+    "total_tokens": 926,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 42,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.315822931,
+    "prompt_time": 0.065628667,
+    "completion_time": 0.080738988,
+    "total_time": 0.146367655
+   },
+   "latency_s": 0.55,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:42:14Z"
+  },
+  "P07-B": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R4\",\"entry_ids\":[\"B-W1\"],\"text\":\"Managed appointment diary and filed patient records.\"},{\"requirement\":\"R5\",\"entry_ids\":[\"B-ED1\"],\"text\":\"Diploma in Business Administration from Eastside Polytechnic.\"}],\"gaps\":[\"R1\",\"R2\",\"R3\"]}",
+   "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 823,
+    "total_tokens": 985,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 81,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.68960866,
+    "prompt_time": 0.053614743,
+    "completion_time": 0.192384354,
+    "total_time": 0.245999097
+   },
+   "latency_s": 1.05,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:45:15Z"
+  },
+  "P08-A": {
+   "content": "{\"suggestions\":[],\"gaps\":[\"R1\",\"R2\",\"R3\",\"R4\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 124,
+    "prompt_tokens": 854,
+    "total_tokens": 978,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 91,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.368473226,
+    "prompt_time": 0.050694704,
+    "completion_time": 0.176721129,
+    "total_time": 0.227415833
+   },
+   "latency_s": 0.69,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:52:16Z"
+  },
+  "P08-B": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R3\",\"entry_ids\":[\"B-W2\"],\"text\":\"POS and end-of-day cash handling\"}],\"gaps\":[\"R1\",\"R2\",\"R4\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 826,
+    "total_tokens": 1005,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 124,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.16335284,
+    "prompt_time": 0.06483261,
+    "completion_time": 0.223627222,
+    "total_time": 0.288459832
+   },
+   "latency_s": 0.56,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:51:15Z"
+  },
+  "P09-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R3\",\"entry_ids\":[\"A-W1\"],\"text\":\"Coordinated daily delivery trips and maintained a shared Excel dispatch log for the team.\"},{\"requirement\":\"R4\",\"entry_ids\":[\"A-LG1\"],\"text\":\"Fluent in spoken English.\"}],\"gaps\":[\"R1\",\"R2\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 196,
+    "prompt_tokens": 880,
+    "total_tokens": 1076,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 110,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.365031871,
+    "prompt_time": 0.054672635,
+    "completion_time": 0.211042742,
+    "total_time": 0.265715377
+   },
+   "latency_s": 0.72,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:56:16Z"
+  },
+  "P09-B": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"entry_ids\":[\"B-PR1\"],\"text\":\"Built an Excel sheet to plan the budget of a pop-up stall within a $2,000 budget.\"},{\"requirement\":\"R3\",\"entry_ids\":[\"B-PR1\"],\"text\":\"Built an Excel sheet to plan the budget of a pop-up stall within a $2,000 budget.\"},{\"requirement\":\"R4\",\"entry_ids\":[\"B-LG1\"],\"text\":\"English (fluent)\"}],\"gaps\":[\"R2\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 288,
+    "prompt_tokens": 852,
+    "total_tokens": 1140,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 162,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 1.614107164,
+    "prompt_time": 0.042469061,
+    "completion_time": 0.313519764,
+    "total_time": 0.355988825
+   },
+   "latency_s": 2.1,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:54:17Z"
+  },
+  "P10-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"entry_ids\":[\"A-W2\"],\"text\":\"Received and put away chilled and frozen goods, picked orders with a handheld scanner, and followed the cold room safety rules.\"},{\"requirement\":\"R2\",\"entry_ids\":[\"A-W2\"],\"text\":\"Did weekly stock counts for a cold room of about 400 pallets.\"},{\"requirement\":\"R4\",\"entry_ids\":[\"A-W2\"],\"text\":\"Picked orders with a handheld scanner.\"},{\"requirement\":\"R5\",\"entry_ids\":[\"A-W2\"],\"text\":\"Followed the cold room safety rules.\"}],\"gaps\":[\"R3\"]}",
+   "usage": {
+    "completion_tokens": 282,
+    "prompt_tokens": 843,
+    "total_tokens": 1125,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 139,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.290384617,
+    "prompt_time": 0.067647353,
+    "completion_time": 0.316461829,
+    "total_time": 0.384109182
+   },
+   "latency_s": 0.77,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:57:16Z"
+  }
+ }
+}

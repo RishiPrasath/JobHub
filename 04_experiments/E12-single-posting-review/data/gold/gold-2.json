@@ -1,0 +1,129 @@
+{
+  "_note": "Gold labels P19-P24. Written by Claude (an AI) on 2026-11-10 BEFORE any model call. Matching rule for kw: literal strings, case-insensitive, must start at a word start. See gold-0.json for field meanings.",
+  "postings": {
+    "E12-P19": {
+      "type": "parttime-kitchen-helper", "board": "FastJobs", "synthetic": true,
+      "absent": ["employer_context", "compensation_rules"], "either": ["work_conditions"],
+      "key_claims": [
+        {"what": "S$9 - S$13 per hour", "lines": ["L02"]},
+        {"what": "company name shared at interview", "lines": ["L06"]},
+        {"what": "duties: dishes, prep, clean", "lines": ["L07"]},
+        {"what": "stand for long hours, flexible shifts", "lines": ["L08"]},
+        {"what": "walk in with NRIC and photo", "lines": ["L09"]}
+      ],
+      "platform_lines": ["L04", "L10"],
+      "contradictions": [],
+      "gaps": [
+        {"id": "G1", "what": "employer name and address are withheld until interview", "kw": ["company", "restaurant", "name", "employer", "address", "location", "where"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G2", "what": "where in S$9-13 the pay falls and what decides it", "kw": ["rate", "range", "pay", "9", "13", "determin", "experience"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G3", "what": "part-time or full-time hours and shift pattern", "kw": ["hour", "shift", "part-time", "full-time", "schedule", "days"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G4", "what": "why NRIC and a photo are required at walk-in", "kw": ["nric", "photo", "personal data", "collect", "id "], "critical": true, "lookup": "none", "route": "PDPC guidance on NRIC"},
+        {"id": "G5", "what": "meals and breaks", "kw": ["meal", "break", "rest"], "critical": false, "lookup": "none", "route": null},
+        {"id": "G6", "what": "CPF and payslip", "kw": ["cpf", "payslip", "payroll"], "critical": false, "lookup": "none", "route": "CPF Board"}
+      ]
+    },
+    "E12-P20": {
+      "type": "professional-contract-analyst", "board": "MyCareersFuture", "synthetic": true,
+      "absent": ["employer_context"], "either": ["compensation_rules"],
+      "key_claims": [
+        {"what": "$4,500 to $5,800 monthly, contract", "lines": ["L04", "L05"]},
+        {"what": "12-month contract, may convert to permanent subject to performance", "lines": ["L09"]},
+        {"what": "contract staff engaged through a staffing partner", "lines": ["L11"]},
+        {"what": "duties: Power BI, SQL, actuarial team", "lines": ["L07"]},
+        {"what": "Mon-Fri hybrid, 2 days WFH", "lines": ["L10"]}
+      ],
+      "platform_lines": ["L12", "L13"],
+      "contradictions": [],
+      "gaps": [
+        {"id": "G1", "what": "who the staffing partner is and who the legal employer is", "kw": ["staffing partner", "partner", "agency", "employer", "engaged", "who"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G2", "what": "criteria for conversion to permanent", "kw": ["convert", "conversion", "permanent", "criteria", "performance", "renew"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G3", "what": "benefits for contract staff", "kw": ["benefit", "leave", "medical", "insurance", "aws", "bonus"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G4", "what": "working hours not stated, only days", "kw": ["hours", "time", "schedule", "9"], "critical": false, "lookup": "none", "route": null},
+        {"id": "G5", "what": "whether the staffing partner holds an EA licence", "kw": ["licen", "ea ", "registered"], "critical": false, "lookup": "MOM-EA", "route": "MOM Employment Agency directory"}
+      ]
+    },
+    "E12-P21": {
+      "type": "clerical-admin-executive", "board": "Company careers page", "synthetic": true,
+      "absent": [], "either": [],
+      "key_claims": [
+        {"what": "$2,700 to $3,300 per month; Saturday overtime at 1.5 times", "lines": ["L08"]},
+        {"what": "Mon-Fri 9am to 6pm including a one-hour lunch (8 working hours)", "lines": ["L07"]},
+        {"what": "duties: quotations, delivery orders, payments, filing", "lines": ["L05"]},
+        {"what": "benefits: 14 days leave, $300 medical, one month AWS", "lines": ["L09"]},
+        {"what": "probation 3 months", "lines": ["L10"]},
+        {"what": "UEN 201900000X stated", "lines": ["L01"]}
+      ],
+      "platform_lines": [],
+      "contradictions": [],
+      "decoy": "9am-6pm with a one-hour lunch and 8 working hours is consistent; overtime 1.5x and the salary range are consistent. A reported conflict here is false.",
+      "gaps": [
+        {"id": "G1", "what": "how often Saturday overtime is required", "kw": ["saturday", "overtime", "how often", "frequency"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G2", "what": "whether AWS is guaranteed or discretionary", "kw": ["aws", "bonus", "guarantee"], "critical": false, "lookup": "none", "route": null},
+        {"id": "G3", "name": "", "what": "leave and benefits during probation", "kw": ["probation", "leave", "benefit"], "critical": false, "lookup": "none", "route": null},
+        {"id": "G4", "what": "the UEN stated could be checked in ACRA", "kw": ["uen", "acra", "registered", "verify"], "critical": false, "lookup": "ACRA", "route": null}
+      ]
+    },
+    "E12-P22": {
+      "type": "parttime-tuition-assistant", "board": "JobStreet", "synthetic": true,
+      "absent": [], "either": ["employer_context"],
+      "key_claims": [
+        {"what": "S$13 - S$16 per hour, part time", "lines": ["L04", "L05"]},
+        {"what": "starting S$13, rising to S$16 after 6 months", "lines": ["L10"]},
+        {"what": "Tue-Fri 2pm-8pm, Sat 9am-1pm, min 3 days", "lines": ["L09"]},
+        {"what": "peak weeks may need extra hours", "lines": ["L12"]},
+        {"what": "duties: reception, payments, worksheets", "lines": ["L08"]}
+      ],
+      "platform_lines": ["L07", "L13"],
+      "contradictions": [],
+      "decoy": "The S$13 - S$16 header range is explained by the S$13 start rising to S$16 after 6 months; a reported conflict between 13 and 16 is false.",
+      "gaps": [
+        {"id": "G1", "what": "whether the rise to S$16 after 6 months is guaranteed or conditional", "kw": ["16", "six months", "6 months", "increase", "rise", "raise", "guarantee", "criteria"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G2", "what": "pay and notice for extra hours in peak weeks", "kw": ["peak", "extra hours", "exam", "overtime", "extra"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G3", "what": "contract length", "kw": ["contract", "duration", "term", "permanent", "end"], "critical": false, "lookup": "none", "route": null},
+        {"id": "G4", "what": "cash handling responsibility and any deductions for shortfalls", "kw": ["cash", "payment", "handl", "liabil", "shortfall", "deduct"], "critical": false, "lookup": "none", "route": null},
+        {"id": "G5", "what": "employer registration number not shown", "kw": ["uen", "registered", "acra"], "critical": false, "lookup": "ACRA", "route": null}
+      ]
+    },
+    "E12-P23": {
+      "type": "contract-van-driver", "board": "FastJobs", "synthetic": true,
+      "absent": [], "either": ["employer_context", "compensation_rules"],
+      "key_claims": [
+        {"what": "S$130 - S$160 per day", "lines": ["L02"]},
+        {"what": "6 days a week, start 4am", "lines": ["L09"]},
+        {"what": "3-month contract, extension subject to performance", "lines": ["L10"]},
+        {"what": "daily rate paid fortnightly; overtime not applicable", "lines": ["L11"]},
+        {"what": "traffic summons are the driver's responsibility", "lines": ["L12"]},
+        {"what": "Class 3 licence, 2 years", "lines": ["L08"]}
+      ],
+      "platform_lines": ["L04", "L13", "L14"],
+      "contradictions": [],
+      "gaps": [
+        {"id": "G1", "what": "where in the daily rate range pay falls and what decides it", "kw": ["rate", "range", "130", "160", "determin", "daily", "per day"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G2", "what": "finish time and how long days run; why overtime is not applicable", "kw": ["overtime", "ot ", "hours", "finish", "end time", "long", "not applicable"], "critical": true, "lookup": "none", "route": "MOM Employment Act overtime and working hours"},
+        {"id": "G3", "what": "responsibility for traffic summons and any deductions", "kw": ["summons", "fine", "deduct", "liab", "penalt", "responsib"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G4", "what": "whether the driver is an employee with CPF and payslip or a contractor", "kw": ["employee", "contractor", "cpf", "self-employed", "status", "contract for service", "payslip"], "critical": true, "lookup": "none", "route": "MOM key employment terms / CPF Board"},
+        {"id": "G5", "what": "extension criteria", "kw": ["extension", "extend", "renew", "performance", "criteria"], "critical": false, "lookup": "none", "route": null}
+      ]
+    },
+    "E12-P24": {
+      "type": "parttime-customer-service", "board": "MyCareersFuture", "synthetic": true,
+      "absent": [], "either": ["compensation_rules", "employer_context"],
+      "key_claims": [
+        {"what": "$1,400 to $1,900 monthly, part time", "lines": ["L04", "L05"]},
+        {"what": "20 to 24 hours per week, shifts by roster", "lines": ["L08"]},
+        {"what": "pay pro-rated by hours; KPI incentive", "lines": ["L09"]},
+        {"what": "shifts include public holidays", "lines": ["L07"]},
+        {"what": "paid 2-week training", "lines": ["L10"]}
+      ],
+      "platform_lines": ["L11", "L12"],
+      "contradictions": [],
+      "gaps": [
+        {"id": "G1", "what": "whether the monthly range is already pro-rated for 20-24 hours or is a full-time equivalent; hourly rate", "kw": ["pro-rat", "prorat", "monthly", "hourly", "per hour", "20", "24", "range", "how much"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G2", "what": "roster notice period and public holiday work", "kw": ["roster", "notice", "public holiday", "shift", "schedule", "flexib"], "critical": true, "lookup": "none", "route": null},
+        {"id": "G3", "what": "KPI incentive criteria and amount", "kw": ["kpi", "incentive", "bonus", "amount"], "critical": false, "lookup": "none", "route": null},
+        {"id": "G4", "what": "contract length", "kw": ["contract", "duration", "term", "permanent", "end"], "critical": false, "lookup": "none", "route": null},
+        {"id": "G5", "what": "employer registration number not shown", "kw": ["uen", "registered", "acra"], "critical": false, "lookup": "ACRA", "route": null}
+      ]
+    }
+  }
+}

@@ -1,0 +1,1216 @@
+[
+ {
+  "id": "X3-01",
+  "primary": "24113",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "12111"
+  ],
+  "too_junior": [
+   "33131",
+   "43112"
+  ],
+  "reason": "Senior tax accountant: tax accountant entry exists"
+ },
+ {
+  "id": "X3-02",
+  "primary": "24111",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "12111"
+  ],
+  "too_junior": [
+   "33131",
+   "43112"
+  ],
+  "reason": "Title Accountant; seniority tag Manager noted but title governs"
+ },
+ {
+  "id": "X3-03",
+  "primary": "24111",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "12111"
+  ],
+  "too_junior": [
+   "33131",
+   "43112"
+  ],
+  "reason": "Accountant"
+ },
+ {
+  "id": "X3-04",
+  "primary": "24111",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "12111"
+  ],
+  "too_junior": [
+   "33131",
+   "43112"
+  ],
+  "reason": "Accountant, manufacturing ERP"
+ },
+ {
+  "id": "X3-05",
+  "primary": "24111",
+  "alt": [
+   "33131"
+  ],
+  "ambiguous": false,
+  "too_senior": [
+   "12111"
+  ],
+  "too_junior": [
+   "43112"
+  ],
+  "reason": "Accountant, executive level; assistant accountant defensible"
+ },
+ {
+  "id": "X3-06",
+  "primary": "25121",
+  "alt": [
+   "25122"
+  ],
+  "ambiguous": false,
+  "too_senior": [
+   "13302",
+   "25113"
+  ],
+  "too_junior": [
+   "35123"
+  ],
+  "reason": "Software engineer = software developer"
+ },
+ {
+  "id": "X3-07",
+  "primary": "25121",
+  "alt": [
+   "25122"
+  ],
+  "ambiguous": false,
+  "too_senior": [
+   "13302",
+   "25113"
+  ],
+  "too_junior": [
+   "35123"
+  ],
+  "reason": "Java backend developer"
+ },
+ {
+  "id": "X3-08",
+  "primary": "25121",
+  "alt": [
+   "25122"
+  ],
+  "ambiguous": false,
+  "too_senior": [
+   "13302",
+   "25113"
+  ],
+  "too_junior": [
+   "35123"
+  ],
+  "reason": "Senior software engineer"
+ },
+ {
+  "id": "X3-09",
+  "primary": "25121",
+  "alt": [
+   "25122"
+  ],
+  "ambiguous": false,
+  "too_senior": [
+   "13302",
+   "25113"
+  ],
+  "too_junior": [
+   "35123"
+  ],
+  "reason": "Software engineer, Power Platform"
+ },
+ {
+  "id": "X3-10",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Promotional hashtag title, no duties"
+ },
+ {
+  "id": "X3-11",
+  "primary": "22200",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "13420"
+  ],
+  "too_junior": [
+   "32200",
+   "53202"
+  ],
+  "reason": "Staff nurse = registered nurse"
+ },
+ {
+  "id": "X3-12",
+  "primary": "22200",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "13420"
+  ],
+  "too_junior": [
+   "32200",
+   "53202"
+  ],
+  "reason": "Staff nurse = registered nurse"
+ },
+ {
+  "id": "X3-13",
+  "primary": "22200",
+  "alt": [
+   "32200"
+  ],
+  "ambiguous": true,
+  "too_senior": [
+   "13420"
+  ],
+  "too_junior": [
+   "53202"
+  ],
+  "reason": "Staff nurse; non-executive tag could mean enrolled nurse"
+ },
+ {
+  "id": "X3-14",
+  "primary": "22200",
+  "alt": [
+   "32200"
+  ],
+  "ambiguous": true,
+  "too_senior": [
+   "13420"
+  ],
+  "too_junior": [
+   "53202"
+  ],
+  "reason": "Staff nurse renal; non-executive tag could mean enrolled nurse"
+ },
+ {
+  "id": "X3-15",
+  "primary": "22200",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "13420"
+  ],
+  "too_junior": [
+   "32200",
+   "53202"
+  ],
+  "reason": "Senior/staff nurse"
+ },
+ {
+  "id": "X3-16",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "13241"
+  ],
+  "too_junior": [
+   "93334",
+   "43212"
+  ],
+  "reason": "Warehouse supervisor: only warehousing manager (too senior) or warehouse worker/storekeeper (too junior)"
+ },
+ {
+  "id": "X3-17",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "13241"
+  ],
+  "too_junior": [
+   "93334",
+   "43212"
+  ],
+  "reason": "Warehouse supervisor: no supervisor entry at the right level"
+ },
+ {
+  "id": "X3-18",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "13241"
+  ],
+  "too_junior": [
+   "93334",
+   "43212"
+  ],
+  "reason": "Warehouse supervisor: no supervisor entry at the right level"
+ },
+ {
+  "id": "X3-19",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "13241"
+  ],
+  "too_junior": [
+   "93334",
+   "43212"
+  ],
+  "reason": "Warehouse supervisor: no supervisor entry at the right level"
+ },
+ {
+  "id": "X3-20",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "13241"
+  ],
+  "too_junior": [
+   "93334",
+   "43212"
+  ],
+  "reason": "Warehouse supervisor (picker packer): no entry at the right level"
+ },
+ {
+  "id": "X3-21",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Promotional roadshow title, no duties"
+ },
+ {
+  "id": "X3-22",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Promotional 'training provided' associate title, no duties"
+ },
+ {
+  "id": "X3-23",
+  "primary": "24313",
+  "alt": [],
+  "ambiguous": true,
+  "too_senior": [
+   "12222"
+  ],
+  "too_junior": [
+   "33223"
+  ],
+  "reason": "Senior marketing executive: marketing strategy/planning professional is nearest professional entry"
+ },
+ {
+  "id": "X3-24",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Promotional events and marketing associate, no duties"
+ },
+ {
+  "id": "X3-25",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Promotional brand marketing assistant, no duties; no assistant-level marketing entry"
+ },
+ {
+  "id": "X3-26",
+  "primary": "42245",
+  "alt": [
+   "42246"
+  ],
+  "ambiguous": false,
+  "too_senior": [
+   "12241"
+  ],
+  "too_junior": [],
+  "reason": "Customer service officer"
+ },
+ {
+  "id": "X3-27",
+  "primary": "42245",
+  "alt": [
+   "42246"
+  ],
+  "ambiguous": false,
+  "too_senior": [
+   "12241"
+  ],
+  "too_junior": [],
+  "reason": "Customer service"
+ },
+ {
+  "id": "X3-28",
+  "primary": "42245",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "12241"
+  ],
+  "too_junior": [],
+  "reason": "Customer service officer, shipping ops"
+ },
+ {
+  "id": "X3-29",
+  "primary": "42245",
+  "alt": [
+   "42246"
+  ],
+  "ambiguous": false,
+  "too_senior": [
+   "12241"
+  ],
+  "too_junior": [],
+  "reason": "Customer support officer"
+ },
+ {
+  "id": "X3-30",
+  "primary": "42245",
+  "alt": [
+   "42246"
+  ],
+  "ambiguous": false,
+  "too_senior": [
+   "12241"
+  ],
+  "too_junior": [],
+  "reason": "Customer service officer"
+ },
+ {
+  "id": "X3-31",
+  "primary": "21441",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "13291"
+  ],
+  "too_junior": [
+   "31004",
+   "31151"
+  ],
+  "reason": "Mechanical engineer"
+ },
+ {
+  "id": "X3-32",
+  "primary": "31004",
+  "alt": [
+   "31151"
+  ],
+  "ambiguous": false,
+  "too_senior": [
+   "21441"
+  ],
+  "too_junior": [],
+  "reason": "Engineering assistant (mechanical/electrical, class 3)"
+ },
+ {
+  "id": "X3-33",
+  "primary": "21441",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "13291"
+  ],
+  "too_junior": [
+   "31004",
+   "31181"
+  ],
+  "reason": "Mechanical design engineer"
+ },
+ {
+  "id": "X3-34",
+  "primary": "21441",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "13291"
+  ],
+  "too_junior": [
+   "31004",
+   "31151"
+  ],
+  "reason": "Mechanical engineer"
+ },
+ {
+  "id": "X3-35",
+  "primary": "21441",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "13291"
+  ],
+  "too_junior": [
+   "31004",
+   "31151"
+  ],
+  "reason": "Mechanical engineer"
+ },
+ {
+  "id": "X3-36",
+  "primary": "34341",
+  "alt": [
+   "51201"
+  ],
+  "ambiguous": true,
+  "too_senior": [
+   "34342"
+  ],
+  "too_junior": [
+   "94101"
+  ],
+  "reason": "Demi chef, junior chef"
+ },
+ {
+  "id": "X3-37",
+  "primary": "34342",
+  "alt": [
+   "34341"
+  ],
+  "ambiguous": false,
+  "too_senior": [
+   "14123",
+   "14121"
+  ],
+  "too_junior": [
+   "51201",
+   "94101"
+  ],
+  "reason": "Head chef = kitchen head"
+ },
+ {
+  "id": "X3-38",
+  "primary": "94101",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Kitchen assistant"
+ },
+ {
+  "id": "X3-39",
+  "primary": "34341",
+  "alt": [
+   "51201"
+  ],
+  "ambiguous": true,
+  "too_senior": [
+   "34342"
+  ],
+  "too_junior": [
+   "94101"
+  ],
+  "reason": "Chef, entry level"
+ },
+ {
+  "id": "X3-40",
+  "primary": "34342",
+  "alt": [
+   "34341"
+  ],
+  "ambiguous": false,
+  "too_senior": [
+   "14123",
+   "14121"
+  ],
+  "too_junior": [
+   "51201",
+   "94101"
+  ],
+  "reason": "Head chef"
+ },
+ {
+  "id": "X3-41",
+  "primary": "24233",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "12121"
+  ],
+  "too_junior": [
+   "41102"
+  ],
+  "reason": "HR executive = personnel/HR officer"
+ },
+ {
+  "id": "X3-42",
+  "primary": "43112",
+  "alt": [
+   "33131"
+  ],
+  "ambiguous": true,
+  "too_senior": [
+   "24111"
+  ],
+  "too_junior": [],
+  "reason": "Account executive, AR/ERP: ledger/accounts clerk or assistant accountant"
+ },
+ {
+  "id": "X3-43",
+  "primary": "24231",
+  "alt": [
+   "24233"
+  ],
+  "ambiguous": true,
+  "too_senior": [
+   "12121"
+  ],
+  "too_junior": [
+   "41102"
+  ],
+  "reason": "HR business partner: HR consultant or officer"
+ },
+ {
+  "id": "X3-44",
+  "primary": "24233",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "12121"
+  ],
+  "too_junior": [
+   "41102"
+  ],
+  "reason": "HR executive full spectrum"
+ },
+ {
+  "id": "X3-45",
+  "primary": "33221",
+  "alt": [],
+  "ambiguous": true,
+  "too_senior": [
+   "12212"
+  ],
+  "too_junior": [],
+  "reason": "Business development executive (tech recruitment)"
+ },
+ {
+  "id": "X3-46",
+  "primary": "43112",
+  "alt": [
+   "33131",
+   "43111"
+  ],
+  "ambiguous": true,
+  "too_senior": [
+   "24111"
+  ],
+  "too_junior": [],
+  "reason": "Administrative accounts: ledger/accounts clerk or bookkeeper"
+ },
+ {
+  "id": "X3-47",
+  "primary": "41101",
+  "alt": [
+   "33492"
+  ],
+  "ambiguous": false,
+  "too_senior": [
+   "12112"
+  ],
+  "too_junior": [
+   "41310"
+  ],
+  "reason": "Administrative assistant = office clerk"
+ },
+ {
+  "id": "X3-48",
+  "primary": "41101",
+  "alt": [
+   "33492"
+  ],
+  "ambiguous": false,
+  "too_senior": [
+   "12112"
+  ],
+  "too_junior": [
+   "41310"
+  ],
+  "reason": "Administrative assistant"
+ },
+ {
+  "id": "X3-49",
+  "primary": "33494",
+  "alt": [
+   "41201"
+  ],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Executive assistant = executive secretary"
+ },
+ {
+  "id": "X3-50",
+  "primary": "41101",
+  "alt": [
+   "33492"
+  ],
+  "ambiguous": false,
+  "too_senior": [
+   "12112"
+  ],
+  "too_junior": [
+   "41310"
+  ],
+  "reason": "Admin assistant"
+ },
+ {
+  "id": "X3-51",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Promotional 'marketing and sales lead (entry level)', no duties"
+ },
+ {
+  "id": "X3-52",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Promotional sales and engagement, no duties"
+ },
+ {
+  "id": "X3-53",
+  "primary": "NONE",
+  "alt": [
+   "33221"
+  ],
+  "ambiguous": true,
+  "too_senior": [
+   "12211"
+  ],
+  "too_junior": [],
+  "reason": "Generic 'sales executive': no general sales executive entry; business development executive is the nearest"
+ },
+ {
+  "id": "X3-54",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Promotional 'fun' sales and marketing executive"
+ },
+ {
+  "id": "X3-55",
+  "primary": "NONE",
+  "alt": [
+   "33221"
+  ],
+  "ambiguous": true,
+  "too_senior": [
+   "12211"
+  ],
+  "too_junior": [],
+  "reason": "Generic 'sales executive / manager', mixed level"
+ },
+ {
+  "id": "X3-56",
+  "primary": "21231",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Data analyst"
+ },
+ {
+  "id": "X3-57",
+  "primary": "21231",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Data analyst"
+ },
+ {
+  "id": "X3-58",
+  "primary": "25112",
+  "alt": [
+   "21231"
+  ],
+  "ambiguous": true,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Data business analyst"
+ },
+ {
+  "id": "X3-59",
+  "primary": "21231",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Data analyst"
+ },
+ {
+  "id": "X3-60",
+  "primary": "21222",
+  "alt": [
+   "21231"
+  ],
+  "ambiguous": true,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Data scientist / data analyst"
+ },
+ {
+  "id": "SYN-01",
+  "primary": "74110",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "74002"
+  ],
+  "too_junior": [],
+  "reason": "Electrician"
+ },
+ {
+  "id": "SYN-02",
+  "primary": "71261",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "71000"
+  ],
+  "too_junior": [],
+  "reason": "Plumber"
+ },
+ {
+  "id": "SYN-03",
+  "primary": "72120",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "72000"
+  ],
+  "too_junior": [],
+  "reason": "Welder"
+ },
+ {
+  "id": "SYN-04",
+  "primary": "71271",
+  "alt": [
+   "31152"
+  ],
+  "ambiguous": true,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Aircon technician: equipment mechanic; technician defensible"
+ },
+ {
+  "id": "SYN-05",
+  "primary": "83321",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "83000"
+  ],
+  "too_junior": [],
+  "reason": "Lorry driver"
+ },
+ {
+  "id": "SYN-06",
+  "primary": "83211",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Motorcycle delivery rider"
+ },
+ {
+  "id": "SYN-07",
+  "primary": "83441",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "83000"
+  ],
+  "too_junior": [],
+  "reason": "Forklift operator"
+ },
+ {
+  "id": "SYN-08",
+  "primary": "52202",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "52201",
+   "14201"
+  ],
+  "too_junior": [],
+  "reason": "Retail sales assistant"
+ },
+ {
+  "id": "SYN-09",
+  "primary": "14201",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [
+   "52201"
+  ],
+  "reason": "Retail (store) manager"
+ },
+ {
+  "id": "SYN-10",
+  "primary": "52201",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "14201"
+  ],
+  "too_junior": [
+   "52202"
+  ],
+  "reason": "Retail store supervisor = sales supervisor"
+ },
+ {
+  "id": "SYN-11",
+  "primary": "36991",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Relief teacher"
+ },
+ {
+  "id": "SYN-12",
+  "primary": "36100",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "13410"
+  ],
+  "too_junior": [
+   "53120",
+   "53113"
+  ],
+  "reason": "Preschool teacher"
+ },
+ {
+  "id": "SYN-13",
+  "primary": "36910",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Private tutor (academic)"
+ },
+ {
+  "id": "SYN-14",
+  "primary": "51322",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Barista"
+ },
+ {
+  "id": "SYN-15",
+  "primary": "42242",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "42247",
+   "14110"
+  ],
+  "too_junior": [],
+  "reason": "Hotel receptionist"
+ },
+ {
+  "id": "SYN-16",
+  "primary": "91121",
+  "alt": [
+   "91122",
+   "51501"
+  ],
+  "ambiguous": true,
+  "too_senior": [
+   "51503"
+  ],
+  "too_junior": [],
+  "reason": "Hotel housekeeping attendant"
+ },
+ {
+  "id": "SYN-17",
+  "primary": "34343",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "14122"
+  ],
+  "too_junior": [],
+  "reason": "Pastry chef"
+ },
+ {
+  "id": "SYN-18",
+  "primary": "53201",
+  "alt": [
+   "53202"
+  ],
+  "ambiguous": true,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Healthcare assistant"
+ },
+ {
+  "id": "SYN-19",
+  "primary": "32130",
+  "alt": [],
+  "ambiguous": true,
+  "too_senior": [
+   "22621"
+  ],
+  "too_junior": [],
+  "reason": "Pharmacy assistant = pharmacy technician (nearest)"
+ },
+ {
+  "id": "SYN-20",
+  "primary": "22640",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Physiotherapist"
+ },
+ {
+  "id": "SYN-21",
+  "primary": "43112",
+  "alt": [
+   "33131"
+  ],
+  "ambiguous": true,
+  "too_senior": [
+   "24111"
+  ],
+  "too_junior": [],
+  "reason": "Accounts payable executive: ledger/accounts clerk"
+ },
+ {
+  "id": "SYN-22",
+  "primary": "43114",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Payroll executive = payroll/wages clerk"
+ },
+ {
+  "id": "SYN-23",
+  "primary": "33120",
+  "alt": [
+   "42141"
+  ],
+  "ambiguous": true,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Credit control officer: credit officer or bill collector; ambiguous"
+ },
+ {
+  "id": "SYN-24",
+  "primary": "21661",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Graphic designer"
+ },
+ {
+  "id": "SYN-25",
+  "primary": "21662",
+  "alt": [
+   "26544"
+  ],
+  "ambiguous": true,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Video editor: multimedia designer/animator or video editor"
+ },
+ {
+  "id": "SYN-26",
+  "primary": "24314",
+  "alt": [
+   "26413"
+  ],
+  "ambiguous": true,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Social media content creator: digital marketing or content writer"
+ },
+ {
+  "id": "SYN-27",
+  "primary": "54144",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "54143",
+   "54142"
+  ],
+  "too_junior": [],
+  "reason": "Private security officer"
+ },
+ {
+  "id": "SYN-28",
+  "primary": "91131",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "91000"
+  ],
+  "too_junior": [],
+  "reason": "Indoor office cleaner"
+ },
+ {
+  "id": "SYN-29",
+  "primary": "34223",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Physical fitness instructor"
+ },
+ {
+  "id": "SYN-30",
+  "primary": "26621",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "13441"
+  ],
+  "too_junior": [
+   "34122"
+  ],
+  "reason": "Social worker (general)"
+ },
+ {
+  "id": "SYN-31",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Promotional 'no experience needed, earn big', no duties"
+ },
+ {
+  "id": "SYN-32",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": true,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Promotional brand ambassador with travel and bonus hooks; sales demonstrator 52421 is a possible reading"
+ },
+ {
+  "id": "SYN-33",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Work-from-home 'earn daily' admin: suspicious style, no duties"
+ },
+ {
+  "id": "SYN-34",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": true,
+  "too_senior": [
+   "12211",
+   "12222"
+  ],
+  "too_junior": [],
+  "reason": "Generic sales and marketing executive; only F&B-specific marketing and sales executive 33223"
+ },
+ {
+  "id": "SYN-35",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [],
+  "too_junior": [],
+  "reason": "Generic marketing and sales associate on commission"
+ },
+ {
+  "id": "SYN-36",
+  "primary": "33221",
+  "alt": [],
+  "ambiguous": true,
+  "too_senior": [
+   "12212"
+  ],
+  "too_junior": [],
+  "reason": "Business development associate = business development executive (nearest)"
+ },
+ {
+  "id": "SYN-37",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "13241"
+  ],
+  "too_junior": [
+   "43212",
+   "93334"
+  ],
+  "reason": "Stores supervisor: no supervisor entry at the right level"
+ },
+ {
+  "id": "SYN-38",
+  "primary": "82000",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "13210"
+  ],
+  "too_junior": [],
+  "reason": "Production supervisor of electronics assemblers"
+ },
+ {
+  "id": "SYN-39",
+  "primary": "NONE",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "13241"
+  ],
+  "too_junior": [
+   "33461"
+  ],
+  "reason": "Logistics supervisor: only logistics manager (too senior)"
+ },
+ {
+  "id": "SYN-40",
+  "primary": "91000",
+  "alt": [],
+  "ambiguous": false,
+  "too_senior": [
+   "12193"
+  ],
+  "too_junior": [],
+  "reason": "Cleaning supervisor"
+ }
+]

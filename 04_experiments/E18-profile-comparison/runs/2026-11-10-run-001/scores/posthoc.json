@@ -1,0 +1,387 @@
+{
+ "A_free_outputs_with_string_requirement_items": 7,
+ "A_strict": {
+  "n": 29,
+  "parse_fail": 0,
+  "unsupported_pct": 14.6,
+  "unsupported_n": 14,
+  "items": 96,
+  "lenient_unsupported_pct": 13.5,
+  "hard_error_pct": 10.3,
+  "hard_errors": 15,
+  "hard_cells": 145,
+  "omit_comp_pct": 55.2,
+  "omit_comparisons": 16,
+  "unk_hard_pct": 59.5,
+  "unk_hard": "22/37",
+  "unk_req_pct": 84.6,
+  "unk_req": "22/26",
+  "rtw_correct_pct": 89.7,
+  "rtw_false_eligible": 0,
+  "rtw_false_flag": 0,
+  "req_omitted": 22,
+  "req_matched_pct": 95.9,
+  "req_soft": 0,
+  "type_err": "0/50",
+  "extras": 23,
+  "extras_mx": 9,
+  "contam_comparisons": 0,
+  "forbidden_hits": 0,
+  "not_elig_hits": 0
+ },
+ "A_lenient": {
+  "n": 29,
+  "parse_fail": 0,
+  "unsupported_pct": 15.6,
+  "unsupported_n": 15,
+  "items": 96,
+  "lenient_unsupported_pct": 14.6,
+  "hard_error_pct": 10.3,
+  "hard_errors": 15,
+  "hard_cells": 145,
+  "omit_comp_pct": 51.7,
+  "omit_comparisons": 15,
+  "unk_hard_pct": 59.5,
+  "unk_hard": "22/37",
+  "unk_req_pct": 84.6,
+  "unk_req": "22/26",
+  "rtw_correct_pct": 89.7,
+  "rtw_false_eligible": 0,
+  "rtw_false_flag": 0,
+  "req_omitted": 20,
+  "req_matched_pct": 98.6,
+  "req_soft": 0,
+  "type_err": "0/52",
+  "extras": 23,
+  "extras_mx": 9,
+  "contam_comparisons": 0,
+  "forbidden_hits": 0,
+  "not_elig_hits": 0
+ },
+ "B_free_pay_errors": {
+  "straddle": 5,
+  "other": 8,
+  "detail": [
+   [
+    "P1",
+    "J03",
+    "u",
+    "m",
+    "other"
+   ],
+   [
+    "P2",
+    "J03",
+    "u",
+    "m",
+    "other"
+   ],
+   [
+    "P1",
+    "J06",
+    "u",
+    "x",
+    "other"
+   ],
+   [
+    "P2",
+    "J06",
+    "u",
+    "m",
+    "other"
+   ],
+   [
+    "P1",
+    "J11",
+    "u",
+    "x",
+    "other"
+   ],
+   [
+    "P2",
+    "J11",
+    "u",
+    "x",
+    "other"
+   ],
+   [
+    "P1",
+    "S02",
+    "u",
+    "m",
+    "straddle"
+   ],
+   [
+    "P1",
+    "S08",
+    "u",
+    "m",
+    "straddle"
+   ],
+   [
+    "P1",
+    "S09",
+    "u",
+    "m",
+    "straddle"
+   ],
+   [
+    "P2",
+    "S10",
+    "u",
+    "m",
+    "straddle"
+   ],
+   [
+    "P1",
+    "S11",
+    "u",
+    "m",
+    "straddle"
+   ],
+   [
+    "P1",
+    "S12",
+    "u",
+    "x",
+    "other"
+   ],
+   [
+    "P2",
+    "S12",
+    "u",
+    "x",
+    "other"
+   ]
+  ]
+ },
+ "B_struct_pay_errors": {
+  "straddle": 0,
+  "other": 1,
+  "detail": [
+   [
+    "P1",
+    "J06",
+    "u",
+    "x",
+    "other"
+   ]
+  ]
+ },
+ "C_free": {
+  "comparisons": 29,
+  "only_credential_x_answered_u_or_missing": 8,
+  "other_omission": 7,
+  "other_omission_pct": 24.1
+ },
+ "C_struct": {
+  "comparisons": 45,
+  "only_credential_x_answered_u_or_missing": 2,
+  "other_omission": 11,
+  "other_omission_pct": 24.4
+ },
+ "D_free_lenient_parse_m_accepted_for_c": {
+  "items": 95,
+  "unsupported": 3,
+  "pct": 3.2
+ },
+ "D_struct_m_accepted_for_c": {
+  "items": 105,
+  "unsupported": 5,
+  "pct": 4.8
+ },
+ "E_struct_errors": [
+  [
+   "hard",
+   "P1",
+   "J06",
+   "pay",
+   "u",
+   "x"
+  ],
+  [
+   "req",
+   "P1",
+   "J06",
+   "J06-R2",
+   "u",
+   "m"
+  ],
+  [
+   "req",
+   "P3",
+   "S01",
+   "S01-R2",
+   "u",
+   "c"
+  ],
+  [
+   "req",
+   "P1",
+   "S04",
+   "S04-R3",
+   "u",
+   "c"
+  ],
+  [
+   "hard",
+   "P2",
+   "S04",
+   "loc",
+   "u",
+   "x"
+  ],
+  [
+   "req",
+   "P2",
+   "S04",
+   "S04-R3",
+   "u",
+   "c"
+  ],
+  [
+   "req",
+   "P3",
+   "S04",
+   "S04-R3",
+   "u",
+   "c"
+  ],
+  [
+   "rtw_false_flag",
+   "P1",
+   "S07",
+   "rtw",
+   "n",
+   "d"
+  ],
+  [
+   "rtw_false_flag",
+   "P3",
+   "S07",
+   "rtw",
+   "n",
+   "d"
+  ],
+  [
+   "hard",
+   "P1",
+   "S08",
+   "loc",
+   "x",
+   "m"
+  ],
+  [
+   "hard",
+   "P2",
+   "S08",
+   "loc",
+   "m",
+   "x"
+  ],
+  [
+   "rtw_false_flag",
+   "P1",
+   "S12",
+   "rtw",
+   "k",
+   "d"
+  ]
+ ],
+ "E_extraction_requirement_excerpt_audit": {
+  "J03": {
+   "reqs_extracted": 8,
+   "reqs_kept": 2,
+   "dropped": 6,
+   "gold_reqs": 5
+  },
+  "J06": {
+   "reqs_extracted": 2,
+   "reqs_kept": 2,
+   "dropped": 0,
+   "gold_reqs": 2
+  },
+  "J11": {
+   "reqs_extracted": 0,
+   "reqs_kept": 0,
+   "dropped": 0,
+   "gold_reqs": 0
+  },
+  "S01": {
+   "reqs_extracted": 5,
+   "reqs_kept": 3,
+   "dropped": 0,
+   "gold_reqs": 3
+  },
+  "S02": {
+   "reqs_extracted": 4,
+   "reqs_kept": 4,
+   "dropped": 0,
+   "gold_reqs": 4
+  },
+  "S03": {
+   "reqs_extracted": 2,
+   "reqs_kept": 2,
+   "dropped": 0,
+   "gold_reqs": 2
+  },
+  "S04": {
+   "reqs_extracted": 3,
+   "reqs_kept": 3,
+   "dropped": 0,
+   "gold_reqs": 3
+  },
+  "S05": {
+   "reqs_extracted": 5,
+   "reqs_kept": 3,
+   "dropped": 0,
+   "gold_reqs": 3
+  },
+  "S06": {
+   "reqs_extracted": 1,
+   "reqs_kept": 1,
+   "dropped": 0,
+   "gold_reqs": 1
+  },
+  "S07": {
+   "reqs_extracted": 3,
+   "reqs_kept": 3,
+   "dropped": 0,
+   "gold_reqs": 3
+  },
+  "S08": {
+   "reqs_extracted": 3,
+   "reqs_kept": 3,
+   "dropped": 0,
+   "gold_reqs": 3
+  },
+  "S09": {
+   "reqs_extracted": 2,
+   "reqs_kept": 2,
+   "dropped": 0,
+   "gold_reqs": 2
+  },
+  "S10": {
+   "reqs_extracted": 2,
+   "reqs_kept": 2,
+   "dropped": 0,
+   "gold_reqs": 2
+  },
+  "S11": {
+   "reqs_extracted": 3,
+   "reqs_kept": 3,
+   "dropped": 0,
+   "gold_reqs": 3
+  },
+  "S12": {
+   "reqs_extracted": 2,
+   "reqs_kept": 2,
+   "dropped": 0,
+   "gold_reqs": 2
+  }
+ },
+ "E_dropped_total": [
+  6,
+  45
+ ]
+}

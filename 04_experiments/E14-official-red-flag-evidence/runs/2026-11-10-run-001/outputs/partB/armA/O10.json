@@ -1,0 +1,35 @@
+{
+  "organisation": "Robert Walters Singapore",
+  "queries_run": [
+    "\"Robert Walters Singapore\" Singapore regulator penalty fine",
+    "\"Robert Walters Singapore\" enforcement action Singapore",
+    "\"Robert Walters Singapore\" court judgment Singapore",
+    "\"Robert Walters Singapore\" complaints Singapore",
+    "\"Robert Walters Singapore\" retrenchment layoffs Singapore",
+    "\"Robert Walters Singapore\" scam fraud warning Singapore"
+  ],
+  "items": [
+    {
+      "claim": "Robert Walters' Japan website warns of scam messages, mainly on WhatsApp, from people posing as Robert Walters recruiters.",
+      "entity_the_claim_is_about": "Robert Walters group brand (Japan site); not the Singapore entity",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://www.robertwalters.co.jp/en/about-us/fraud-alert.html",
+      "quoted_evidence": "people posing as Robert Walters recruiters"
+    },
+    {
+      "claim": "Robert Walters' Malaysia website describes a voice phishing hoax using the Robert Walters name and says it did not result from a breach of Robert Walters systems.",
+      "entity_the_claim_is_about": "Robert Walters group brand (Malaysia site); not the Singapore entity",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://www.robertwalters.com.my/fraud-alert.html",
+      "quoted_evidence": "voice phishing hoax"
+    },
+    {
+      "claim": "An anonymous employee review titled 'Hell Machine - MICRO-MANAGEMENT STYLE (Singapore Office)' describes micro-management at the Singapore office.",
+      "entity_the_claim_is_about": "Robert Walters Singapore office, as described by one anonymous reviewer",
+      "category": "other",
+      "source_url": "https://www.glassdoor.co.nz/Reviews/Employee-Review-Robert-Walters-E12235-RVW1692283.htm",
+      "quoted_evidence": "MICRO-MANAGEMENT STYLE (Singapore Office)"
+    }
+  ],
+  "notes": "Searches 1 to 3 (regulator penalty, enforcement, court judgment) returned no regulator, enforcement or court record naming Robert Walters Singapore. Search 5 (retrenchment) found no report of layoffs at the firm; its only Robert Walters item is a recruiter's market commentary, which is not a red flag, and national MOM retrenchment statistics, which do not concern this organisation. Search 6 found no Singapore-specific Robert Walters fraud alert; the Singapore police warnings in the results do not name Robert Walters. Items 1 and 2 are scam warnings from non-Singapore Robert Walters sites, so they show brand impersonation, not misconduct by the Singapore entity. Excluded: an anonymous 2016 Glassdoor Singapore review claiming that a local employment regulator found over S$14,000 in unpaid wages. The result set does not show which review URL this claim comes from, the regulator is not named, and it is unverified, so it is not listed as an item. Also excluded: a Robert Half Singapore fraud alert (a different firm), and enforcement results about Coutts, Standard Chartered, Wirecard, 1MDB and other banks or firms (other organisations). The quoted_evidence values are taken from the search results' summary text, not verbatim from the pages, because the results were not opened. Search 4 also returned overall Glassdoor and Indeed ratings and mixed employee reviews, which were not listed as red flags."
+}

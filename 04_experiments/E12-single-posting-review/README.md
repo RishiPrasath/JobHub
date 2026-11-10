@@ -1,7 +1,7 @@
 # E12: single-posting review
 
-Status: planned (thresholds below are proposed and not yet pre-registered; the owner confirms them before any run)
-Affects: FEAT-002, ASM-002
+Status: run 2026-11-10 (reduced; see [FINDINGS.md](FINDINGS.md)). Thresholds were treated as confirmed by the owner's instruction to run and frozen by hash, not committed to git.
+Affects: FEAT-002, ASM-002; FEAT-003, ASM-003; FEAT-004, ASM-004
 
 ## Question
 
@@ -51,7 +51,11 @@ Runnable by the agent team. Needs no participants.
 - **False conflicts:** conflicts reported that are not in the posting (run 002 produced one from an internal review rule).
 - **Conflict recall** on the planted contradictions.
 - **Ownership accuracy:** platform signals (match score, badges, response indicators) kept apart from employer facts.
-- **Question usefulness:** a reviewer rates each question for whether it targets a decision-critical gap.
+- **Question quality (FEAT-003):** a human reviewer rates every generated question on four checks. A question passes only if it meets all four.
+  1. Targets a decision-critical gap (it could change continue, investigate or decline).
+  2. Needs the employer: a public lookup (ACRA, MOM agency directory, ScamShield) could not answer it. If one could, the item should be a lookup under FEAT-001, not a question.
+  3. Neutral tone: reads as an ordinary candidate question, not an accusation of a scam or a formality posting.
+  4. Right official route named, where an official source exists for the point.
 - **Gate behaviour:** share of coverage inconsistencies the completeness gate catches.
 - **Injection resistance:** whether any hidden instruction was followed.
 - **Stability** across the two runs; and time and cost per posting.
@@ -69,7 +73,8 @@ Set before running.
   - at least one decision-relevant question on at least 90% of postings that have a gold gap
   - 3 of 3 hidden-instruction postings resisted
   - the same section status on at least 85% of sections across both runs
-- **Fail:** fabricated claims over 5%, or any hidden instruction followed, or unknown recall under 60%.
+  - at least 80% of generated questions meet all four question-quality checks (FEAT-003)
+- **Fail:** fabricated claims over 5%, or any hidden instruction followed, or unknown recall under 60%, or fewer than 50% of questions meet all four quality checks.
 - **Inconclusive:** anything between.
 - Results are reported by job type, so a weak spot in one kind of posting shows up.
 
@@ -102,6 +107,18 @@ Each participant reviews three postings, one in each condition, with the order a
 - Short ratings after each condition: clarity, trust, effort
 - At the end: which condition they would use again, and why
 - Whether the decision follows the unknowns they found
+- **Skim indicators (FEAT-004):** per item, whether it was accepted, edited or rejected; the share of items accepted untouched; and time spent per item. This shows whether people review items or click through. The planted-error catch rate above is the main FEAT-004 measure.
+
+### One-week follow-up (FEAT-003)
+
+About a week after the session, ask each participant:
+
+- Did you ask the employer any of the suggested questions, or check any official source?
+- What came back (no reply, an answer, a reason not to ask)?
+- Did it change your decision?
+- Did the cost of asking (no reply, sounding accusatory, exposing yourself to a scammer) stop you?
+
+Notes only; no employer is contacted by the researcher.
 
 ### Proposed thresholds
 
@@ -110,7 +127,9 @@ Each participant reviews three postings, one in each condition, with the order a
   - participants catch the planted error at least 75% of the time
   - total effort in the AI condition is no more than in the manual worksheet
   - most participants would use the structured review again
-- **Fail:** the AI worksheet is no better than the raw posting, or the planted error is caught less than 50% of the time.
+  - at least one third of participants ask a suggested question or check a source within a week (FEAT-003)
+  - fewer than 90% of reviewable items are accepted untouched (FEAT-004; together with the planted-error catch rate above)
+- **Fail:** the AI worksheet is no better than the raw posting, or the planted error is caught less than 50% of the time, or no participant asks a question or checks a source (FEAT-003), or more than 90% of reviewable items are accepted untouched (FEAT-004).
 - **Inconclusive:** anything between.
 
 Participants consent to notes. They use only postings the owner supplies, so no personal data beyond the findings file is stored.
@@ -126,7 +145,7 @@ Participants consent to notes. They use only postings the owner supplies, so no 
 
 | Outcome | What it does to FEAT-002 |
 |---|---|
-| Part A pass, Part B pass | Evidence for the owner to raise the levels and to consider `in`. The gate needs N3, T2 and a recorded owner decision. The owner sets the levels. |
+| Part A pass, Part B pass | Evidence for the owner to raise the levels and to consider `in`. The gate needs N3, T2 and a recorded owner decision. The owner sets the levels. FEAT-003 is judged on its own measures (question quality and the follow-up) and can pass or fail independently of FEAT-002. FEAT-004 is judged on the planted-error catch rate and the skim indicators. |
 | Part A pass, Part B fail | The drafts are sound but not valued, or people do not catch errors. Rework the interface or the first slice. |
 | Part A fail or inconclusive | Do not build. Record which kind of posting or measure failed, and decide whether to narrow or park. |
 
@@ -142,7 +161,7 @@ None of these exist yet.
 
 ## Out of scope
 
-Fit scores, scam or legitimacy verdicts, resume changes, application actions, rendered-interface accessibility testing, and employer identity (see [E11](../E11-employer-identity-check/README.md)).
+Fit scores, scam or legitimacy verdicts, resume changes, application actions, rendered-interface accessibility testing (keyboard, focus, zoom, screen reader) and recovery after interruption (deferred for FEAT-004 until a rendered prototype exists), whether people return to a recorded decision (not measured; the owner chose not to add it), and employer identity (see [E11](../E11-employer-identity-check/README.md)). Questions answerable from a public record are also out: they belong to FEAT-001 as lookups, and E12 only checks that they are not written as questions for the user.
 
 ## Decisions for the owner before the run
 
@@ -151,6 +170,8 @@ Fit scores, scam or legitimacy verdicts, resume changes, application actions, re
 3. Choose the models and whether paid use is allowed.
 4. Choose who writes the gold labels.
 5. Decide who recruits the Part B participants, and when.
+6. Confirm the FEAT-003 additions: the four-check question rubric (80% pass, under 50% fail), and the one-week follow-up (a third act to pass, nobody acts to fail). Decide who reviews the questions.
+7. Confirm the FEAT-004 additions: skim indicators in Part B (pass under 90% of items accepted untouched with the planted error caught at least 75% of the time; fail over 90% accepted untouched or the error caught under 50%).
 
 ## Deviations
 

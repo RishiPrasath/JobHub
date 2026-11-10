@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E20-offer-completeness-check\harness\persona_pilot.py", line 85, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E20-offer-completeness-check\harness\persona_pilot.py", line 68, in main
+    agents += pc.spawn_on_demand(brief, kind=kind, n=n, task_context=task_ctx)
+              ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\persona_creator.py", line 203, in spawn_on_demand
+    return [self.spawn(p) for p in self.create(brief, kind, n, **kw)]
+                                   ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\persona_creator.py", line 160, in create
+    r = chat(self.creator_model, [{"role": "system", "content": CREATOR_SYSTEM},
+                                  {"role": "user", "content": user}], json_mode=True,
+             max_tokens=2200 if k > 2 else 1400, temperature=0.9, cache_dir=self.cache,
+             tag=f"create-{kind}-{idx}", run=seed, reasoning_effort="low")
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 213, in chat
+    raise RuntimeError(f"chat failed after {retries} attempts: {last_err}")
+RuntimeError: chat failed after 8 attempts: Error code: 429 - {'error': {'message': "Request too large for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1400. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing", 'type': 'tokens', 'code': 'rate_limit_exceeded'}}

@@ -1,0 +1,46 @@
+{
+ "model": "openai/gpt-oss-20b",
+ "tag": "B-job_seeker-03-quick‑glance",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:50:15Z",
+ "latency_s": 0.43,
+ "params": {
+  "model": "openai/gpt-oss-20b",
+  "max_tokens": 800,
+  "temperature": 0.7,
+  "response_format": {
+   "type": "json_object"
+  },
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are simulating a fictional person for a research test. Stay in character and answer as they would.\nPersona:\nkind: job_seeker\nlabel: Skimmer, phone, medium digital comfort\nfirst_name: Ravi\nbackground: A 26‑year‑old Singaporean citizen working part‑time as a barista while looking for entry‑level retail positions. He is comfortable with apps but prefers short interactions.\nsituation_now: Uses his phone during downtimes to scan job posts and bookmark promising ones.\ngoals: [\"Find a full‑time retail job\", \"Earn enough to afford a car\"]\nconstraints: [\"Short attention span\", \"Dislikes multi‑step processes\", \"Limited budget for data\"]\ndigital_comfort: medium\nreading_style: Skims headlines and salary; reads details only if the role looks appealing\nattitude_to_ai: Indifferent, sees it as another app\nknown_gaps: [\"How to select specific sections of a posting on mobile\", \"How to paste into a non‑native app\"]\nbiases_or_habits: [\"Clicks on listings with eye‑catching emojis\", \"Leaves a post if it requires scrolling\"]\nvoice: \"Just the quick stuff, no extra hassle,\"\nsimulation_notes: Will copy only the title and salary; likely to quit after 1 minute if the tool asks for more than a simple paste.\nsimulated: True\n\nRules:\n- Use only what this person would plausibly know. If they would not know something, say so or guess the way they would.\n- Do not be more helpful, careful or articulate than the persona. Skim, skip, misread or get impatient where they would.\n- You are a simulation. Never claim to be a real person or to have real experiences you can cite.\n- If the task asks for JSON, return JSON only."
+  },
+  {
+   "role": "user",
+   "content": "Nine days ago you pasted a posting into JobHub (Administrative Assistant, Marina Dental Group). Today you open it and see this message above the saved posting.\nMessage 1: \"This copy of the posting may be out of date. Paste the posting again to refresh it.\"\nMessage 2: \"The closing date on this posting (20 Nov 2026) has passed, so it may no longer be open. Paste the posting again to refresh it.\"\nAnswer as yourself, in JSON only:\n{{\"message_1_means\": \"...\", \"message_1_why_it_appeared\": \"your guess\", \"what_you_would_do\": \"...\",\n \"would_you_rely_on_the_old_copy_meanwhile\": \"yes|no|unsure\",\n \"message_2_means\": \"...\", \"which_message_is_clearer\": \"1|2|same\", \"wording_problem_if_any\": \"...\"}}"
+  }
+ ],
+ "content": "{\"message_1_means\":\"The job details you saved might not be the latest version\",\"message_1_why_it_appeared\":\"JobHub checks for updates and warns you if the copy is older\",\"what_you_would_do\":\"Paste the posting again from the source\",\"would_you_rely_on_the_old_copy_meanwhile\":\"no\",\"message_2_means\":\"The job’s deadline has already passed, so it might be closed\",\"which_message_is_clearer\":\"2\",\"wording_problem_if_any\":\"None\"}",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 124,
+  "prompt_tokens": 663,
+  "total_tokens": 787,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 9,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.157173297,
+  "prompt_time": 0.038250216,
+  "completion_time": 0.132727116,
+  "total_time": 0.170977332
+ },
+ "cached": false
+}

@@ -1,0 +1,39 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "H01",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:01:52Z",
+ "latency_s": 2.89,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1100,
+  "temperature": 0.8,
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "user",
+   "content": "Write the raw text that a person would get by pressing Select All then Copy on a JobStreet-style (left list of search result cards plus the selected job detail on the right) job page in Singapore, for a fictional employer and a made-up job. Output the pasted text ONLY: no commentary, no markdown, no code fences. Include realistic page furniture (menu text, buttons, banners, footer links). Target 250 to 400 words. Requirements for this paste:\n- the job description is plain prose paragraphs with NO headings and NO bullet points\n- the employer is named\n- NO salary or pay information anywhere in the selected job (other cards in the left list may show salaries)\n- NO closing date anywhere, only 'Posted Nd ago'\nToday is 2026-11-10; any dates you write must be in November or December 2026."
+  }
+ ],
+ "content": "JobStreet Singapore\n\nHome   Jobs   Companies   Salary Insights   Career Advice   My Jobs   Sign In   Register\n\nBanner: “Top Employers Hiring Now – Apply Today!”\n\nSearch results\n\n1. Marketing Executive – ABC Retail (SGD 3,800 – 4,200 per month)   Posted 2 days ago\n2. Data Analyst – FinTech Solutions (SGD 4,500 – 5,000 per month)   Posted 4 days ago\n3. Customer Service Representative – BrightCall (SGD 2,800 – 3,200 per month)   Posted 1 day ago\n4. Software Engineer – NovaTech (SGD 5,500 – 6,500 per month)   Posted 3 days ago\n5. HR Coordinator – GreenFields Ltd (SGD 3,200 – 3,800 per month)   Posted 5 days ago\n6. Operations Manager – Apex Logistics (SGD 6,200 – 7,000 per month)   Posted 6 days ago\n7. Business Development Associate – Skyline Ventures (SGD 4,000 – 4,600 per month)   Posted 2 days ago\n8. Graphic Designer – Creative Pulse (SGD 3,500 – 4,000 per month)   Posted 3 days ago\n9. Procurement Officer – Orion Supplies (SGD 4,200 – 4,800 per month)   Posted 4 days ago\n10. Junior Accountant – Prime Audits (SGD 3,600 – 4,100 per month)   Posted 5 days ago\n\nSelected Job\n\nCompany: Pacific Horizon Technologies Pte Ltd\nLocation: Singapore – Central Business District\nJob Title: Senior Product Manager\nPosted 7 days ago   Apply Now   Save Job   Share\n\nJob Description\nPacific Horizon Technologies is seeking an experienced Senior Product Manager to lead the development and launch of innovative digital solutions for the financial services sector. In this role you will collaborate closely with cross‑functional teams including engineering, design, marketing and sales to define product vision, prioritize features and ensure timely delivery. You will be responsible for conducting market research, gathering customer insights and translating them into clear product requirements. The ideal candidate will have a strong track record of managing complex product lifecycles, driving user adoption and delivering measurable business outcomes. You will also mentor junior product staff, facilitate stakeholder workshops and represent the product at executive briefings. A passion for fintech, data‑driven decision making and an ability to thrive in a fast‑paced environment are essential.\n\nQualifications\nA bachelor’s degree in Business, Engineering or a related field is required, with at least eight years of product management experience, preferably in technology or financial services. Proven expertise in agile methodologies, roadmap planning and performance analytics is expected. Excellent communication and leadership skills are a must.\n\nBenefits\nMedical and dental coverage, annual leave, flexible working arrangements, professional development allowance, employee stock options, wellness programs and commuter subsidies.\n\nButtons: Apply Now   Save Job   Report this job   Contact Recruiter\n\nFooter\nAbout JobStreet   Contact Us   Privacy Policy   Terms of Use   Cookie Settings   Help Center   Careers at JobStreet   Advertise with Us   Follow us: LinkedIn   Facebook   Twitter   Instagram   © 2026 JobStreet Singapore. All rights reserved.",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 767,
+  "prompt_tokens": 246,
+  "total_tokens": 1013,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 75,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.369568851,
+  "prompt_time": 0.010648657,
+  "completion_time": 1.6165828819999999,
+  "total_time": 1.6272315389999998
+ },
+ "cached": false
+}

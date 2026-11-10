@@ -1,0 +1,33 @@
+Nium Pte. Ltd.  (role: Software Engineer)
+HEADLINE: exists_and_consistent
+  Registered in Singapore, and public sources agree it is the company named.
+  because: registry: confirmed; model: consistent across 6 pages
+REGISTRY: confirmed. NIUM PTE. LTD. is registered in Singapore (status: Live Company, registered 2014-08-01).
+  flag: other entities start with this name: NIUM (S) PTE. LTD.
+WEB: 5 queries (bing), 6 of 8 pages read, exact name seen in 6 pages and 24 search results
+BRIEF (model rating: appears_real_and_consistent, confidence high; 6 claims verified, 3 unverified)
+  Facts:
+    [UNVERIFIED] Legal name and registration details
+    [UNVERIFIED] Founded in 2014 and headquartered in Singapore
+    [verified] Industry: cross‑border payments / financial services
+    [verified] Employee count exceeds 750
+    [verified] Global reach: services in 190+ countries, 100+ currencies
+    [verified] Software Engineer role focuses on building global payments infrastructure
+  Positive signals:
+    [verified] Highly rated workplace (Great Place to Work)
+    [UNVERIFIED] Strong growth and market position (unicorn status)
+    [verified] Robust product portfolio (stablecoin, real‑time payouts, API)
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 5):
+  - Working at Nium | Glassdoor  https://www.glassdoor.sg/Overview/Working-at-Nium-
+    EI_IE3203064.11,15.htm
+  - Working at NIUM company profile and information |
+    https://sg.jobstreet.com/companies/nium-172665347683829
+  - NIUM PTE. LTD. Careers and Employment | Indeed.com  https://sg.indeed.com/cmp/Nium-Pte.-Ltd.
+  - Nium - LinkedIn  https://sg.linkedin.com/company/nium-global
+  - Nium Interview Experience & Questions (2026) | Gla  https://www.glassdoor.com/Interview/Nium-
+    Interview-Questions-E3203064.htm
+COULD NOT READ (2):
+  - https://dataford.io/interview-guides/nium  (thin: fewer than 400 characters of real content)
+  - https://internship.sg/guide/nium-internship-guide  (thin: fewer than 400 characters of real
+    content)
+(128.5s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

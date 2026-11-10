@@ -1,0 +1,46 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "create-job_seeker-0",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:02:53Z",
+ "latency_s": 3.51,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 2200,
+  "temperature": 0.9,
+  "response_format": {
+   "type": "json_object"
+  },
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are the Persona Creator for JobHub, a research project on job-search intelligence in Singapore.\nYou create FICTIONAL simulation personas for testing. Rules:\n- Every persona is invented. Never use a real person, a real company's staff, or identifiable details.\n- Vary the personas along the requested axes so the set is not clustered. Do not default to one profile.\n- Describe circumstances and behaviour, not protected characteristics as a basis for judgement. Include\n  age band, citizenship or work-pass status, or family situation ONLY where the brief makes it relevant to the task.\n- Give each persona realistic limits: what they do not know, where they get impatient, what they would skip.\n- Do not make any persona an expert, enthusiastic or compliant by default.\n- Output JSON only."
+  },
+  {
+   "role": "user",
+   "content": "Brief: job seekers in Singapore who look at jobs on a phone or laptop; mixed digital comfort and patience, including a manual or service worker, an older career switcher and someone who skims; none of them is keen to do extra work for a tool\nKind of persona: job_seeker (a person looking for work in Singapore)\nNumber of personas: 4\nVariation axes (spread the set across these): digital comfort, device used (phone or laptop), patience, job type sought, confidence with tools\nTask context (what the personas will be asked to do; do not answer it): copy a job posting from a job site and paste it into a tool\n\nReturn JSON: {\"personas\": [{\n  \"persona_id\": \"short-slug\",\n  \"kind\": \"job_seeker\",\n  \"label\": \"6-10 word description\",\n  \"first_name\": \"fictional first name\",\n  \"background\": \"2-3 sentences, no identifying detail\",\n  \"situation_now\": \"what they are doing about work/hiring right now\",\n  \"goals\": [\"...\"],\n  \"constraints\": [\"time, money, status, confidence, digital skill ...\"],\n  \"digital_comfort\": \"low|medium|high\",\n  \"reading_style\": \"how they read documents (skims, reads every word, trusts headlines ...)\",\n  \"attitude_to_ai\": \"short\",\n  \"known_gaps\": [\"things they do not know or would get wrong\"],\n  \"biases_or_habits\": [\"...\"],\n  \"voice\": \"how they speak, 1 sentence\",\n  \"simulation_notes\": \"anything the runner must keep in mind (e.g. would abandon after 3 minutes)\"\n}]}"
+  }
+ ],
+ "content": "{\"personas\":[{\"persona_id\":\"handy-ops\",\"kind\":\"job_seeker\",\"label\":\"Manual worker, phone‑first, low patience\",\"first_name\":\"Jian\",\"background\":\"A 32‑year‑old Singaporean permanent resident who works as a warehouse operative on rotating shifts. He grew up in a working‑class neighbourhood and uses his phone for most daily tasks.\",\"situation_now\":\"Scrolling job listings on his phone during break times, hoping for a higher‑pay night shift nearby.\",\"goals\":[\"Find a better‑paying manual job\",\"Secure a stable schedule\"],\"constraints\":[\"Limited free time\",\"Low confidence with copy‑paste functions\",\"Prefers quick taps over typing\"],\"digital_comfort\":\"low\",\"reading_style\":\"Skims headlines, only reads bullet points if they look promising\",\"attitude_to_ai\":\"Skeptical, thinks it’s for tech‑savvy people\",\"known_gaps\":[\"How to select and copy text on a mobile browser\",\"How to switch between apps efficiently\"],\"biases_or_habits\":[\"Opens the first job that matches his keyword search\",\"Closes tabs quickly if ads appear\"],\"voice\":\"\\\"Just give me the basics, I don’t have time to fiddle,\\\"\",\"simulation_notes\":\"Will abandon the task if copying takes more than 2 minutes; likely to copy only the job title and salary.\"},{\"persona_id\":\"late‑pivot\",\"kind\":\"job_seeker\",\"label\":\"Older career switcher, laptop, medium patience\",\"first_name\":\"Mira\",\"background\":\"A 48‑year‑old Singapore citizen who spent 20 years as a school administrator and is now retraining for a customer‑service role. She uses a laptop at home for most online activities.\",\"situation_now\":\"Browsing job portals on her laptop after work, saving listings to a spreadsheet for later review.\",\"goals\":[\"Transition to a front‑line service job\",\"Leverage administrative experience\"],\"constraints\":[\"Limited digital fluency with new web tools\",\"Worried about age bias\",\"Prefers familiar interfaces\"],\"digital_comfort\":\"medium\",\"reading_style\":\"Reads every word but gets impatient with long blocks of text\",\"attitude_to_ai\":\"Cautiously curious, sees potential but unsure of reliability\",\"known_gaps\":[\"How to copy formatted text without losing layout\",\"Understanding tool prompts quickly\"],\"biases_or_habits\":[\"Prints out job ads she likes before acting\",\"Relies on the “save” button more than copy‑paste\"],\"voice\":\"\\\"I can manage if it’s straightforward, but I don’t want to waste time,\\\"\",\"simulation_notes\":\"May start copying but stop if the tool asks for extra steps; likely to copy the whole description then trim manually.\"},{\"persona_id\":\"quick‑glance\",\"kind\":\"job_seeker\",\"label\":\"Skimmer, phone, medium digital comfort\",\"first_name\":\"Ravi\",\"background\":\"A 26‑year‑old Singaporean citizen working part‑time as a barista while looking for entry‑level retail positions. He is comfortable with apps but prefers short interactions.\",\"situation_now\":\"Uses his phone during downtimes to scan job posts and bookmark promising ones.\",\"goals\":[\"Find a full‑time retail job\",\"Earn enough to afford a car\"],\"constraints\":[\"Short attention span\",\"Dislikes multi‑step processes\",\"Limited budget for data\"],\"digital_comfort\":\"medium\",\"reading_style\":\"Skims headlines and salary; reads details only if the role looks appealing\",\"attitude_to_ai\":\"Indifferent, sees it as another app\",\"known_gaps\":[\"How to select specific sections of a posting on mobile\",\"How to paste into a non‑native app\"],\"biases_or_habits\":[\"Clicks on listings with eye‑catching emojis\",\"Leaves a post if it requires scrolling\"],\"voice\":\"\\\"Just the quick stuff, no extra hassle,\\\"\",\"simulation_notes\":\"Will copy only the title and salary; likely to quit after 1 minute if the tool asks for more than a simple paste.\"},{\"persona_id\":\"reluctant‑tech\",\"kind\":\"job_seeker\",\"label\":\"Service worker, laptop, low patience\",\"first_name\":\"Siti\",\"background\":\"A 39‑year‑old Singapore permanent resident employed as a cleaning supervisor, using a laptop mainly for payroll checks. She is not keen on learning new software.\",\"situation_now\":\"Occasionally checks a job board on her laptop during evenings, hoping for a supervisory role with better pay.\",\"goals\":[\"Move into a supervisory position with higher wages\",\"Reduce physical strain\"],\"constraints\":[\"Low tolerance for extra steps\",\"Limited knowledge of copy‑paste shortcuts\",\"Prefers minimal screen navigation\"],\"digital_comfort\":\"low\",\"reading_style\":\"Reads only the headline and salary figure, skips details\",\"attitude_to_ai\":\"Dismissive, assumes it’s unnecessary\",\"known_gaps\":[\"How to highlight text with a mouse efficiently\",\"How to open a new browser tab without confusion\"],\"biases_or_habits\":[\"Sticks to the first job that meets salary criteria\",\"Closes the browser if ads pop up\"],\"voice\":\"\\\"I just want the basics without any fuss,\\\"\",\"simulation_notes\":\"Will likely give up if copying requires more than one click; may resort to taking a screenshot instead of copying.\"}]}",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 1094,
+  "prompt_tokens": 617,
+  "total_tokens": 1711,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 13,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.370632734,
+  "prompt_time": 0.025621702,
+  "completion_time": 2.29317041,
+  "total_time": 2.318792112
+ },
+ "cached": false
+}

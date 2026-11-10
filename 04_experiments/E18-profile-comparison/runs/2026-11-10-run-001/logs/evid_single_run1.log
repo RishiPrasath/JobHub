@@ -1,0 +1,356 @@
+[     0s]   1 evid P1 J03 tokens=None cached=None
+[     0s]   2 evid P1 J06 tokens=None cached=None
+[     0s]   3 evid P1 J11 tokens=None cached=None
+[     0s]   1 evid P1 J03 tokens=None cached=None
+[     0s]   2 evid P1 J06 tokens=None cached=None
+[     0s]   3 evid P1 J11 tokens=None cached=None
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199532, Requested 691. Please try again in 1m36.336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 91, in <module>
+    r_ = safe(C.hybrid_results, [p["id"]], prof["id"], ex1, 1, label=f"evid {prof['id']} {p['id']}")
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 25, in safe
+    return fn(*a)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 435, in hybrid_results
+    rec = run_evid(profile_id, posting_ids, items, run)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 427, in run_evid
+    return llm(M_EVID, evid_messages(profile_id, items), sub="evid", tag=tag, run=run, max_tokens=1600)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 41, in llm
+    return llm_client.chat(model, messages, json_mode=json_mode, max_tokens=max_tokens, temperature=0.2,
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           reasoning_effort=effort, cache_dir=str(RAW / sub), tag=tag, run=run)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 205, in chat
+    raise RuntimeError(f"DAILY LIMIT: {text[:300]}") from e
+RuntimeError: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199532, Requested 691. Please try again in 1m36.336s. Need more tokens? Upgrade to Dev Tier t
+[     0s]   1 evid P1 J03 tokens=None cached=None
+[     0s]   2 evid P1 J06 tokens=None cached=None
+[     0s]   3 evid P1 J11 tokens=None cached=None
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199968, Requested 855. Please try again in 5m55.536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 91, in <module>
+    r_ = safe(C.hybrid_results, [p["id"]], prof["id"], ex1, 1, label=f"evid {prof['id']} {p['id']}")
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 25, in safe
+    return fn(*a)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 435, in hybrid_results
+    rec = run_evid(profile_id, posting_ids, items, run)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 427, in run_evid
+    return llm(M_EVID, evid_messages(profile_id, items), sub="evid", tag=tag, run=run, max_tokens=1600)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 41, in llm
+    return llm_client.chat(model, messages, json_mode=json_mode, max_tokens=max_tokens, temperature=0.2,
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           reasoning_effort=effort, cache_dir=str(RAW / sub), tag=tag, run=run)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 205, in chat
+    raise RuntimeError(f"DAILY LIMIT: {text[:300]}") from e
+RuntimeError: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199968, Requested 855. Please try again in 5m55.536s. Need more tokens? Upgrade to Dev Tier t
+[     0s]   1 evid P1 J03 tokens=None cached=None
+[     0s]   2 evid P1 J06 tokens=None cached=None
+[     0s]   3 evid P1 J11 tokens=None cached=None
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199829, Requested 691. Please try again in 3m44.64s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 91, in <module>
+    r_ = safe(C.hybrid_results, [p["id"]], prof["id"], ex1, 1, label=f"evid {prof['id']} {p['id']}")
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 25, in safe
+    return fn(*a)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 435, in hybrid_results
+    rec = run_evid(profile_id, posting_ids, items, run)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 427, in run_evid
+    return llm(M_EVID, evid_messages(profile_id, items), sub="evid", tag=tag, run=run, max_tokens=1600)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 41, in llm
+    return llm_client.chat(model, messages, json_mode=json_mode, max_tokens=max_tokens, temperature=0.2,
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           reasoning_effort=effort, cache_dir=str(RAW / sub), tag=tag, run=run)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 205, in chat
+    raise RuntimeError(f"DAILY LIMIT: {text[:300]}") from e
+RuntimeError: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199829, Requested 691. Please try again in 3m44.64s. Need more tokens? Upgrade to Dev Tier to
+[     0s]   1 evid P1 J03 tokens=None cached=None
+[     0s]   2 evid P1 J06 tokens=None cached=None
+[     0s]   3 evid P1 J11 tokens=None cached=None
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199839, Requested 750. Please try again in 4m14.448s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 91, in <module>
+    r_ = safe(C.hybrid_results, [p["id"]], prof["id"], ex1, 1, label=f"evid {prof['id']} {p['id']}")
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 25, in safe
+    return fn(*a)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 435, in hybrid_results
+    rec = run_evid(profile_id, posting_ids, items, run)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 427, in run_evid
+    return llm(M_EVID, evid_messages(profile_id, items), sub="evid", tag=tag, run=run, max_tokens=1600)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 41, in llm
+    return llm_client.chat(model, messages, json_mode=json_mode, max_tokens=max_tokens, temperature=0.2,
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           reasoning_effort=effort, cache_dir=str(RAW / sub), tag=tag, run=run)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 205, in chat
+    raise RuntimeError(f"DAILY LIMIT: {text[:300]}") from e
+RuntimeError: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199839, Requested 750. Please try again in 4m14.448s. Need more tokens? Upgrade to Dev Tier t
+[     0s]   1 evid P1 J03 tokens=None cached=None
+[     0s]   2 evid P1 J06 tokens=None cached=None
+[     0s]   3 evid P1 J11 tokens=None cached=None
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199716, Requested 614. Please try again in 2m22.56s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 91, in <module>
+    r_ = safe(C.hybrid_results, [p["id"]], prof["id"], ex1, 1, label=f"evid {prof['id']} {p['id']}")
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 25, in safe
+    return fn(*a)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 435, in hybrid_results
+    rec = run_evid(profile_id, posting_ids, items, run)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 427, in run_evid
+    return llm(M_EVID, evid_messages(profile_id, items), sub="evid", tag=tag, run=run, max_tokens=1600)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 41, in llm
+    return llm_client.chat(model, messages, json_mode=json_mode, max_tokens=max_tokens, temperature=0.2,
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           reasoning_effort=effort, cache_dir=str(RAW / sub), tag=tag, run=run)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 205, in chat
+    raise RuntimeError(f"DAILY LIMIT: {text[:300]}") from e
+RuntimeError: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199716, Requested 614. Please try again in 2m22.56s. Need more tokens? Upgrade to Dev Tier to
+[     0s]   1 evid P1 J03 tokens=None cached=None
+[     0s]   2 evid P1 J06 tokens=None cached=None
+[     0s]   3 evid P1 J11 tokens=None cached=None
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199699, Requested 614. Please try again in 2m15.216s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 91, in <module>
+    r_ = safe(C.hybrid_results, [p["id"]], prof["id"], ex1, 1, label=f"evid {prof['id']} {p['id']}")
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 25, in safe
+    return fn(*a)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 435, in hybrid_results
+    rec = run_evid(profile_id, posting_ids, items, run)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 427, in run_evid
+    return llm(M_EVID, evid_messages(profile_id, items), sub="evid", tag=tag, run=run, max_tokens=1600)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 41, in llm
+    return llm_client.chat(model, messages, json_mode=json_mode, max_tokens=max_tokens, temperature=0.2,
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           reasoning_effort=effort, cache_dir=str(RAW / sub), tag=tag, run=run)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 205, in chat
+    raise RuntimeError(f"DAILY LIMIT: {text[:300]}") from e
+RuntimeError: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199699, Requested 614. Please try again in 2m15.216s. Need more tokens? Upgrade to Dev Tier t
+[     0s]   1 evid P1 J03 tokens=None cached=None
+[     0s]   2 evid P1 J06 tokens=None cached=None
+[     0s]   3 evid P1 J11 tokens=None cached=None
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199577, Requested 691. Please try again in 1m55.776s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 91, in <module>
+    r_ = safe(C.hybrid_results, [p["id"]], prof["id"], ex1, 1, label=f"evid {prof['id']} {p['id']}")
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 25, in safe
+    return fn(*a)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 435, in hybrid_results
+    rec = run_evid(profile_id, posting_ids, items, run)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 427, in run_evid
+    return llm(M_EVID, evid_messages(profile_id, items), sub="evid", tag=tag, run=run, max_tokens=1600)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 41, in llm
+    return llm_client.chat(model, messages, json_mode=json_mode, max_tokens=max_tokens, temperature=0.2,
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           reasoning_effort=effort, cache_dir=str(RAW / sub), tag=tag, run=run)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 205, in chat
+    raise RuntimeError(f"DAILY LIMIT: {text[:300]}") from e
+RuntimeError: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199577, Requested 691. Please try again in 1m55.776s. Need more tokens? Upgrade to Dev Tier t
+[     0s]   1 evid P1 J03 tokens=None cached=None
+[     0s]   2 evid P1 J06 tokens=None cached=None
+[     0s]   3 evid P1 J11 tokens=None cached=None
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199559, Requested 699. Please try again in 1m51.455999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 91, in <module>
+    r_ = safe(C.hybrid_results, [p["id"]], prof["id"], ex1, 1, label=f"evid {prof['id']} {p['id']}")
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 25, in safe
+    return fn(*a)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 435, in hybrid_results
+    rec = run_evid(profile_id, posting_ids, items, run)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 427, in run_evid
+    return llm(M_EVID, evid_messages(profile_id, items), sub="evid", tag=tag, run=run, max_tokens=1600)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 41, in llm
+    return llm_client.chat(model, messages, json_mode=json_mode, max_tokens=max_tokens, temperature=0.2,
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           reasoning_effort=effort, cache_dir=str(RAW / sub), tag=tag, run=run)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 205, in chat
+    raise RuntimeError(f"DAILY LIMIT: {text[:300]}") from e
+RuntimeError: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199559, Requested 699. Please try again in 1m51.455999999s. Need more tokens? Upgrade to Dev 
+EVID-DONE

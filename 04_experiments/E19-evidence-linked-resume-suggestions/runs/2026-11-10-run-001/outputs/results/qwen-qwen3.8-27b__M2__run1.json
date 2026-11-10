@@ -1,0 +1,358 @@
+{
+ "meta": {
+  "model": "qwen/qwen3.8-27b",
+  "method": "M2",
+  "run": 1,
+  "prompt_version": "e19-prompts-v1",
+  "sets_completed": 20,
+  "params": {
+   "temperature": 0.2,
+   "reasoning_effort": "low (gpt-oss only)",
+   "max_tokens": 1000,
+   "json_mode": true
+  }
+ },
+ "method": "M2",
+ "sets": {
+  "P01-A": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R2\",\n      \"entry_ids\": [\n        \"A-W1\"\n      ],\n      \"text\": \"Logistics operations experience as Dispatch Coordinator at Harbourline Freight Pte Ltd, coordinating 12 to 15 delivery trips daily.\"\n    }\n  ],\n  \"gaps\": [\n    \"R1\",\n    \"R3\",\n    \"R4\",\n    \"R5\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 865,
+    "total_tokens": 979,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.052989848,
+    "prompt_time": 0.065722743,
+    "completion_time": 0.218422706,
+    "total_time": 0.284145449
+   },
+   "latency_s": 1.18,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:08:05Z"
+  },
+  "P01-B": {
+   "content": "{\"suggestions\": [], \"gaps\": [\"R1\", \"R2\", \"R3\", \"R4\", \"R5\"]}",
+   "usage": {
+    "completion_tokens": 30,
+    "prompt_tokens": 842,
+    "total_tokens": 872,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.048992245,
+    "prompt_time": 0.059835044,
+    "completion_time": 0.057190134,
+    "total_time": 0.117025178
+   },
+   "latency_s": 0.29,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:12:15Z"
+  },
+  "P02-A": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R2\",\n      \"entry_ids\": [\n        \"A-CE1\"\n      ],\n      \"text\": \"Holds a Class 3 driving licence issued by Traffic Police in 2020.\"\n    },\n    {\n      \"requirement\": \"R5\",\n      \"entry_ids\": [\n        \"A-W2\",\n        \"A-CE2\"\n      ],\n      \"text\": \"Attended monthly workplace safety briefings and completed the Basic Workplace Safety Orientation Course at Kallang Cold Stores Pte Ltd.\"\n    }\n  ],\n  \"gaps\": [\n    \"R1\",\n    \"R3\",\n    \"R4\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 173,
+    "prompt_tokens": 829,
+    "total_tokens": 1002,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.052946048,
+    "prompt_time": 0.056742651,
+    "completion_time": 0.334025162,
+    "total_time": 0.390767813
+   },
+   "latency_s": 1.1,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:15:32Z"
+  },
+  "P02-B": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R1\",\n      \"entry_ids\": [\"B-ED1\"],\n      \"text\": \"Diploma in Business Administration, Eastside Polytechnic (2017 to 2020).\"\n    },\n    {\n      \"requirement\": \"R4\",\n      \"entry_ids\": [\"B-W1\"],\n      \"text\": \"Work 3 days a week.\"\n    }\n  ],\n  \"gaps\": [\n    \"R2\",\n    \"R3\",\n    \"R5\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 145,
+    "prompt_tokens": 806,
+    "total_tokens": 951,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.053441506,
+    "prompt_time": 0.072108584,
+    "completion_time": 0.284305656,
+    "total_time": 0.35641424
+   },
+   "latency_s": 0.51,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:16:34Z"
+  },
+  "P03-A": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R1\",\n      \"entry_ids\": [\n        \"A-W1\"\n      ],\n      \"text\": \"Kept the shared Excel dispatch log up to date for the team.\"\n    },\n    {\n      \"requirement\": \"R2\",\n      \"entry_ids\": [\n        \"A-W1\"\n      ],\n      \"text\": \"Liaised with drivers and customers about delays.\"\n    },\n    {\n      \"requirement\": \"R3\",\n      \"entry_ids\": [\n        \"A-SK1\"\n      ],\n      \"text\": \"Excel, level basic. sorting, filtering and simple sums.\"\n    },\n    {\n      \"requirement\": \"R4\",\n      \"entry_ids\": [\n        \"A-W1\"\n      ],\n      \"text\": \"Full-time role at Harbourline Freight Pte Ltd.\"\n    },\n    {\n      \"requirement\": \"R5\",\n      \"entry_ids\": [\n        \"A-W1\"\n      ],\n      \"text\": \"Liaised with drivers and customers about delays.\"\n    }\n  ],\n  \"gaps\": []\n}",
+   "usage": {
+    "completion_tokens": 274,
+    "prompt_tokens": 833,
+    "total_tokens": 1107,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.154886671,
+    "prompt_time": 0.060268052,
+    "completion_time": 0.542153086,
+    "total_time": 0.602421138
+   },
+   "latency_s": 0.89,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:16:48Z"
+  },
+  "P03-B": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R1\",\n      \"entry_ids\": [\n        \"B-W1\"\n      ],\n      \"text\": \"Filed and retrieved paper patient records.\"\n    },\n    {\n      \"requirement\": \"R2\",\n      \"entry_ids\": [\n        \"B-W1\"\n      ],\n      \"text\": \"Answered the front-desk phone and greeted patients.\"\n    },\n    {\n      \"requirement\": \"R3\",\n      \"entry_ids\": [\n        \"B-SK1\",\n        \"B-SK2\"\n      ],\n      \"text\": \"MS Word (working level) and Excel (basic level, data entry and simple tables).\"\n    },\n    {\n      \"requirement\": \"R4\",\n      \"entry_ids\": [\n        \"B-W1\"\n      ],\n      \"text\": \"Worked 3 days a week.\"\n    },\n    {\n      \"requirement\": \"R5\",\n      \"entry_ids\": [\n        \"B-LG1\"\n      ],\n      \"text\": \"Fluent in English.\"\n    }\n  ],\n  \"gaps\": []\n}",
+   "usage": {
+    "completion_tokens": 275,
+    "prompt_tokens": 810,
+    "total_tokens": 1085,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.013691458,
+    "prompt_time": 0.067353073,
+    "completion_time": 0.468350595,
+    "total_time": 0.535703668
+   },
+   "latency_s": 0.69,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:26:51Z"
+  },
+  "P04-A": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R1\",\n      \"entry_ids\": [\n        \"A-W1\",\n        \"A-W2\"\n      ],\n      \"text\": \"Over 2 years of experience in warehouse and inventory operations, including 1.5 years as a Warehouse Assistant and 2 years as a Dispatch Coordinator.\"\n    },\n    {\n      \"requirement\": \"R2\",\n      \"entry_ids\": [\n        \"A-SK1\",\n        \"A-W1\"\n      ],\n      \"text\": \"Basic Excel skills including sorting, filtering, and simple sums, used to keep the shared Excel dispatch log up to date.\"\n    },\n    {\n      \"requirement\": \"R6\",\n      \"entry_ids\": [\n        \"A-W1\"\n      ],\n      \"text\": \"Liaised with drivers and customers about delays and coordinated daily delivery trips.\"\n    }\n  ],\n  \"gaps\": [\n    \"R3\",\n    \"R4\",\n    \"R5\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 244,
+    "prompt_tokens": 829,
+    "total_tokens": 1073,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.327643388,
+    "prompt_time": 0.06609085,
+    "completion_time": 0.532816631,
+    "total_time": 0.598907481
+   },
+   "latency_s": 1.05,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:22:31Z"
+  },
+  "P04-B": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R2\",\n      \"entry_ids\": [\n        \"B-SK2\",\n        \"B-PR1\"\n      ],\n      \"text\": \"Excel (basic level) with experience in data entry, simple tables, and building a budget sheet for a pop-up stall.\"\n    }\n  ],\n  \"gaps\": [\n    \"R1\",\n    \"R3\",\n    \"R4\",\n    \"R5\",\n    \"R6\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 127,
+    "prompt_tokens": 806,
+    "total_tokens": 933,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.049273589,
+    "prompt_time": 0.05908385,
+    "completion_time": 0.242557021,
+    "total_time": 0.301640871
+   },
+   "latency_s": 0.46,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:24:05Z"
+  },
+  "P05-A": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R1\",\n      \"entry_ids\": [\n        \"A-W1\"\n      ],\n      \"text\": \"Liaised with drivers and customers about delays in a customer-facing role at Harbourline Freight Pte Ltd from Jan 2023 to present.\"\n    },\n    {\n      \"requirement\": \"R2\",\n      \"entry_ids\": [\n        \"A-W1\"\n      ],\n      \"text\": \"Coordinated with drivers and customers via WhatsApp group to manage daily delivery trips and delays.\"\n    },\n    {\n      \"requirement\": \"R4\",\n      \"entry_ids\": [\n        \"A-LG1\"\n      ],\n      \"text\": \"Fluent in spoken English and conversational in Mandarin.\"\n    }\n  ],\n  \"gaps\": [\n    \"R3\",\n    \"R5\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 213,
+    "prompt_tokens": 832,
+    "total_tokens": 1045,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.049164206,
+    "prompt_time": 0.057290441,
+    "completion_time": 0.445739576,
+    "total_time": 0.503030017
+   },
+   "latency_s": 0.64,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:24:24Z"
+  },
+  "P05-B": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R1\",\n      \"entry_ids\": [\n        \"B-W1\",\n        \"B-W2\"\n      ],\n      \"text\": \"Customer-facing experience includes serving customers at Orchard Row Stationers (Dec 2020 to Jul 2022) and greeting patients at Bukit Lane Dental Clinic (Aug 2022 to present).\"\n    },\n    {\n      \"requirement\": \"R2\",\n      \"entry_ids\": [\n        \"B-W1\"\n      ],\n      \"text\": \"Handled approximately 30 phone calls and appointment bookings daily at Bukit Lane Dental Clinic.\"\n    },\n    {\n      \"requirement\": \"R4\",\n      \"entry_ids\": [\n        \"B-LG1\"\n      ],\n      \"text\": \"Fluent in English and Mandarin (basic).\"\n    },\n    {\n      \"requirement\": \"R5\",\n      \"entry_ids\": [\n        \"B-W2\"\n      ],\n      \"text\": \"Operated the POS till and handled cash at close at Orchard Row Stationers.\"\n    }\n  ],\n  \"gaps\": [\n    \"R3\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 280,
+    "prompt_tokens": 809,
+    "total_tokens": 1089,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.048097079,
+    "prompt_time": 0.057101939,
+    "completion_time": 0.573720765,
+    "total_time": 0.630822704
+   },
+   "latency_s": 0.77,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:26:25Z"
+  },
+  "P06-A": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R2\",\n      \"entry_ids\": [\n        \"A-W1\"\n      ],\n      \"text\": \"Scheduled and tracked daily delivery trips for 8 vans using a shared Excel sheet and a WhatsApp group.\"\n    },\n    {\n      \"requirement\": \"R4\",\n      \"entry_ids\": [\n        \"A-W1\",\n        \"A-SK1\"\n      ],\n      \"text\": \"Maintained the shared Excel dispatch log using basic Excel skills including sorting, filtering, and simple sums.\"\n    },\n    {\n      \"requirement\": \"R5\",\n      \"entry_ids\": [\n        \"A-W1\"\n      ],\n      \"text\": \"Liaised with drivers and customers regarding delays in delivery trips.\"\n    }\n  ],\n  \"gaps\": [\n    \"R1\",\n    \"R3\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 214,
+    "prompt_tokens": 849,
+    "total_tokens": 1063,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.05453472,
+    "prompt_time": 0.0583786,
+    "completion_time": 0.426575176,
+    "total_time": 0.484953776
+   },
+   "latency_s": 0.64,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:27:35Z"
+  },
+  "P06-B": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R1\",\n      \"entry_ids\": [\n        \"B-ED1\"\n      ],\n      \"text\": \"Diploma in Business Administration from Eastside Polytechnic (2017 to 2020).\"\n    },\n    {\n      \"requirement\": \"R4\",\n      \"entry_ids\": [\n        \"B-SK2\",\n        \"B-PR1\"\n      ],\n      \"text\": \"Basic Excel skills including data entry and simple tables, applied in building an Excel sheet to plan a budget for a pop-up stall.\"\n    }\n  ],\n  \"gaps\": [\n    \"R2\",\n    \"R3\",\n    \"R5\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 180,
+    "prompt_tokens": 826,
+    "total_tokens": 1006,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.052271366,
+    "prompt_time": 0.056533795,
+    "completion_time": 0.342412852,
+    "total_time": 0.398946647
+   },
+   "latency_s": 0.55,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:27:15Z"
+  },
+  "P07-A": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R4\",\n      \"entry_ids\": [\n        \"A-W1\"\n      ],\n      \"text\": \"Scheduled and tracked daily delivery trips for 8 vans, liaising with drivers and customers regarding delays.\"\n    }\n  ],\n  \"gaps\": [\n    \"R1\",\n    \"R2\",\n    \"R3\",\n    \"R5\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 107,
+    "prompt_tokens": 813,
+    "total_tokens": 920,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.052118135,
+    "prompt_time": 0.060253902,
+    "completion_time": 0.205296762,
+    "total_time": 0.265550664
+   },
+   "latency_s": 0.43,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:39:32Z"
+  },
+  "P07-B": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R4\",\n      \"entry_ids\": [\n        \"B-W1\"\n      ],\n      \"text\": \"Managed the appointment diary and filed patient records at Bukit Lane Dental Clinic.\"\n    },\n    {\n      \"requirement\": \"R5\",\n      \"entry_ids\": [\n        \"B-ED1\"\n      ],\n      \"text\": \"Diploma in Business Administration from Eastside Polytechnic.\"\n    }\n  ],\n  \"gaps\": [\n    \"R1\",\n    \"R2\",\n    \"R3\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 790,
+    "total_tokens": 938,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.04941917,
+    "prompt_time": 0.05776533,
+    "completion_time": 0.290008622,
+    "total_time": 0.347773952
+   },
+   "latency_s": 0.51,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:34:11Z"
+  },
+  "P08-A": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R2\",\n      \"entry_ids\": [\n        \"A-W1\"\n      ],\n      \"text\": \"Scheduled and tracked daily delivery trips for 8 vans, liaising with drivers and customers.\"\n    },\n    {\n      \"requirement\": \"R5\",\n      \"entry_ids\": [\n        \"A-W1\"\n      ],\n      \"text\": \"Liaised with drivers and customers regarding delays.\"\n    }\n  ],\n  \"gaps\": [\n    \"R1\",\n    \"R3\",\n    \"R4\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 815,
+    "total_tokens": 963,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.056680308,
+    "prompt_time": 0.069240531,
+    "completion_time": 0.290052182,
+    "total_time": 0.359292713
+   },
+   "latency_s": 0.52,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:44:47Z"
+  },
+  "P08-B": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R1\",\n      \"entry_ids\": [\n        \"B-W2\"\n      ],\n      \"text\": \"Retail Sales Assistant at Orchard Row Stationers (full-time, Dec 2020 to Jul 2022).\"\n    },\n    {\n      \"requirement\": \"R2\",\n      \"entry_ids\": [\n        \"B-W2\"\n      ],\n      \"text\": \"Showed 2 new part-time staff how to use the POS system.\"\n    },\n    {\n      \"requirement\": \"R3\",\n      \"entry_ids\": [\n        \"B-W2\"\n      ],\n      \"text\": \"Operated the POS till and counted the cash at close.\"\n    },\n    {\n      \"requirement\": \"R5\",\n      \"entry_ids\": [\n        \"B-W2\"\n      ],\n      \"text\": \"Served customers.\"\n    }\n  ],\n  \"gaps\": [\n    \"R4\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 243,
+    "prompt_tokens": 792,
+    "total_tokens": 1035,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.927491889,
+    "prompt_time": 0.067796781,
+    "completion_time": 0.574549139,
+    "total_time": 0.64234592
+   },
+   "latency_s": 1.65,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:44:15Z"
+  },
+  "P09-A": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R3\",\n      \"entry_ids\": [\n        \"A-W1\",\n        \"A-SK1\"\n      ],\n      \"text\": \"Maintained a shared Excel dispatch log and used Excel for sorting, filtering, and simple sums.\"\n    },\n    {\n      \"requirement\": \"R4\",\n      \"entry_ids\": [\n        \"A-LG1\"\n      ],\n      \"text\": \"Fluent in English.\"\n    }\n  ],\n  \"gaps\": [\n    \"R1\",\n    \"R2\",\n    \"R5\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 844,
+    "total_tokens": 997,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.240760261,
+    "prompt_time": 0.06199171,
+    "completion_time": 0.312638495,
+    "total_time": 0.374630205
+   },
+   "latency_s": 0.72,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:45:30Z"
+  },
+  "P09-B": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R1\",\n      \"entry_ids\": [\n        \"B-PR1\"\n      ],\n      \"text\": \"Built an Excel sheet to plan the budget of a pop-up stall within a $2,000 budget for a polytechnic class assignment.\"\n    },\n    {\n      \"requirement\": \"R4\",\n      \"entry_ids\": [\n        \"B-LG1\"\n      ],\n      \"text\": \"English (fluent).\"\n    }\n  ],\n  \"gaps\": [\n    \"R2\",\n    \"R3\",\n    \"R5\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 821,
+    "total_tokens": 978,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.176883489,
+    "prompt_time": 0.064486944,
+    "completion_time": 0.314914444,
+    "total_time": 0.379401388
+   },
+   "latency_s": 0.7,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:46:33Z"
+  },
+  "P10-A": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R1\",\n      \"entry_ids\": [\n        \"A-W2\"\n      ],\n      \"text\": \"Received and put away chilled and frozen goods in a cold store.\"\n    },\n    {\n      \"requirement\": \"R2\",\n      \"entry_ids\": [\n        \"A-W2\"\n      ],\n      \"text\": \"Conducted weekly stock counts for a cold room of about 400 pallets.\"\n    },\n    {\n      \"requirement\": \"R4\",\n      \"entry_ids\": [\n        \"A-W2\"\n      ],\n      \"text\": \"Picked orders using a handheld scanner.\"\n    },\n    {\n      \"requirement\": \"R5\",\n      \"entry_ids\": [\n        \"A-W2\"\n      ],\n      \"text\": \"Followed cold room safety rules.\"\n    }\n  ],\n  \"gaps\": [\n    \"R3\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 232,
+    "prompt_tokens": 803,
+    "total_tokens": 1035,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.048072838,
+    "prompt_time": 0.054951412,
+    "completion_time": 0.446553339,
+    "total_time": 0.501504751
+   },
+   "latency_s": 0.65,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:55:36Z"
+  },
+  "P10-B": {
+   "content": "{\n  \"suggestions\": [\n    {\n      \"requirement\": \"R2\",\n      \"entry_ids\": [\n        \"B-W2\"\n      ],\n      \"text\": \"Counted the cash at close and balanced the till at the end of each shift.\"\n    },\n    {\n      \"requirement\": \"R5\",\n      \"entry_ids\": [\n        \"B-CE1\"\n      ],\n      \"text\": \"Holds Standard First Aid (CPR and AED) certification issued by Lionsgate Training Centre in 2021.\"\n    }\n  ],\n  \"gaps\": [\n    \"R1\",\n    \"R3\",\n    \"R4\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 780,
+    "total_tokens": 944,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.050491023,
+    "prompt_time": 0.056975154,
+    "completion_time": 0.312107693,
+    "total_time": 0.369082847
+   },
+   "latency_s": 0.53,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:58:24Z"
+  }
+ }
+}

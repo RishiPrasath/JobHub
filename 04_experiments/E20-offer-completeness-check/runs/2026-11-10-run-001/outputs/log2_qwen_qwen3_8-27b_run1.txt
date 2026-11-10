@@ -1,0 +1,11 @@
+L01 ok stop 2644
+L03 ok stop 2665
+L05 ok stop 2600
+L08 ok stop 2756
+L11 ok stop 2839
+L12 ok stop 2744
+L13 ok stop 2676
+L15 ok stop 2937
+L18 ok stop 2508
+L20 ok stop 2750
+tokens {'prompt': 17939, 'completion': 3871, 'total': 21810}

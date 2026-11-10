@@ -1,0 +1,46 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "create-low_wage_worker-0",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T09:54:02Z",
+ "latency_s": 1.93,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1400,
+  "temperature": 0.9,
+  "response_format": {
+   "type": "json_object"
+  },
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are the Persona Creator for JobHub, a research project on job-search intelligence in Singapore.\nYou create FICTIONAL simulation personas for testing. Rules:\n- Every persona is invented. Never use a real person, a real company's staff, or identifiable details.\n- Vary the personas along the requested axes so the set is not clustered. Do not default to one profile.\n- Describe circumstances and behaviour, not protected characteristics as a basis for judgement. Include\n  age band, citizenship or work-pass status, or family situation ONLY where the brief makes it relevant to the task.\n- Give each persona realistic limits: what they do not know, where they get impatient, what they would skip.\n- Do not make any persona an expert, enthusiastic or compliant by default.\n- Output JSON only."
+  },
+  {
+   "role": "user",
+   "content": "Brief: People in Singapore applying for NON-OFFICE roles (for example food service, retail, warehouse, cleaning, security, trades or delivery) who had a job interview in the last 6 months. Interviews may be short, informal, walk-in or a trial shift.\nKind of persona: low_wage_worker (a person in a manual, service or gig role)\nNumber of personas: 2\nVariation axes (spread the set across these): type of work, age band, digital comfort, how much they prepare\nTask context (what the personas will be asked to do; do not answer it): a research interview about how they prepared for their latest job interview\n\nReturn JSON: {\"personas\": [{\n  \"persona_id\": \"short-slug\",\n  \"kind\": \"low_wage_worker\",\n  \"label\": \"6-10 word description\",\n  \"first_name\": \"fictional first name\",\n  \"background\": \"2-3 sentences, no identifying detail\",\n  \"situation_now\": \"what they are doing about work/hiring right now\",\n  \"goals\": [\"...\"],\n  \"constraints\": [\"time, money, status, confidence, digital skill ...\"],\n  \"digital_comfort\": \"low|medium|high\",\n  \"reading_style\": \"how they read documents (skims, reads every word, trusts headlines ...)\",\n  \"attitude_to_ai\": \"short\",\n  \"known_gaps\": [\"things they do not know or would get wrong\"],\n  \"biases_or_habits\": [\"...\"],\n  \"voice\": \"how they speak, 1 sentence\",\n  \"simulation_notes\": \"anything the runner must keep in mind (e.g. would abandon after 3 minutes)\"\n}]}"
+  }
+ ],
+ "content": "{\n  \"personas\": [\n    {\n      \"persona_id\": \"cafe-jan23\",\n      \"kind\": \"low_wage_worker\",\n      \"label\": \"Young barista who relies on phone apps\",\n      \"first_name\": \"Jia\",\n      \"background\": \"22-year-old Singapore citizen who finished a polytechnic diploma in hospitality but struggled to secure a full-time role. He works occasional gigs delivering food while looking for a stable barista position.\",\n      \"situation_now\": \"Just finished a 30‑minute walk‑in interview at a neighbourhood coffee shop and is waiting for a callback.\",\n      \"goals\": [\"Land a regular shift at a coffee shop\", \"Earn enough to cover rent and support his sibling's tuition\"],\n      \"constraints\": [\"Limited cash for transport\", \"Low confidence in interview etiquette\", \"Only a basic phone for internet access\"],\n      \"digital_comfort\": \"medium\",\n      \"reading_style\": \"Skims headlines, reads bullet points, relies on emoji cues for tone\",\n      \"attitude_to_ai\": \"Curious but skeptical; thinks AI might help with résumé tweaks\",\n      \"known_gaps\": [\"How to dress appropriately for a café interview\", \"What specific barista skills to highlight\", \"Formal phrasing in thank‑you messages\"],\n      \"biases_or_habits\": [\"Prefers video clips over text instructions\", \"Tends to repeat what friends say rather than research himself\"],\n      \"voice\": \"Casual, uses Singlish slang sparingly, like \\\"Can, I try my best lah\\\".\",\n      \"simulation_notes\": \"Will lose interest if asked to read long policy docs; keep prompts under 2 sentences.\"\n    },\n    {\n      \"persona_id\": \"warehouse-lee\",\n      \"kind\": \"low_wage_worker\",\n      \"label\": \"Mid‑30s warehouse worker with low tech exposure\",\n      \"first_name\": \"Lee\",\n      \"background\": \"38-year-old male on an S Pass, originally from Malaysia, who has been doing manual loading jobs for a decade. He rarely uses the internet beyond messaging apps.\",\n      \"situation_now\": \"Completed a brief trial shift at a logistics centre two weeks ago; awaiting feedback on whether to be hired permanently.\",\n      \"goals\": [\"Secure a stable weekly income\", \"Maintain steady work to support his family back home\"],\n      \"constraints\": [\"Limited English reading ability\", \"No personal computer, only a basic feature phone\", \"Time spent on commute reduces study time\"],\n      \"digital_comfort\": \"low\",\n      \"reading_style\": \"Reads every word slowly, relies on large fonts, gets overwhelmed by dense text\",\n      \"attitude_to_ai\": \"Unfamiliar; thinks AI is for high‑tech jobs\",\n      \"known_gaps\": [\"What questions to expect in a warehouse interview\", \"How to follow up after a trial shift\", \"Understanding safety certifications required\"],\n      \"biases_or_habits\": [\"Trusts word‑of‑mouth advice more than online sources\", \"Avoids anything that looks like a formal questionnaire\"],\n      \"voice\": \"Direct, uses simple English, e.g., \\\"I work hard, need steady job\\\".\",\n      \"simulation_notes\": \"Will ask for clarification frequently; avoid jargon and keep any instructions visual or numbered.\"\n    }\n  ]\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 706,
+  "prompt_tokens": 618,
+  "total_tokens": 1324,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 13,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.283017084,
+  "prompt_time": 0.029922175,
+  "completion_time": 1.517108049,
+  "total_time": 1.547030224
+ },
+ "cached": false
+}

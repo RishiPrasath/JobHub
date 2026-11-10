@@ -1,0 +1,37 @@
+ComfortDelGro Corporation Limited  (role: Bus Captain)
+HEADLINE: exists_and_consistent
+  Registered in Singapore, and public sources agree it is the company named.
+  because: registry: confirmed; model: consistent across 6 pages
+REGISTRY: confirmed. COMFORTDELGRO CORPORATION LIMITED is registered in Singapore (status: Live Company, registered 2003-01-01).
+WEB: 5 queries (bing), 8 of 8 pages read, exact name seen in 6 pages and 9 search results
+BRIEF (model rating: appears_real_and_consistent, confidence medium; 10 claims verified, 0 unverified)
+  Facts:
+    [verified] Legal name is COMFORTDELGRO CORPORATION LIMITED
+    [verified] Company is a live public company incorporated on 1 January 2003
+    [verified] Registered business activity is INVESTMENT HOLDING COMPANY (SSIC 64202)
+    [verified] ComfortDelGro operates a large land‑transport business with buses, rail and taxis
+    [verified] Bus Captain role is a full‑time, 44‑hour/week position reporting to Operations
+    Supervisor
+    [verified] Bus Captain must hold a valid Class 4 vehicle licence and at least 1 year driving
+    experience
+    [verified] Benefits for bus captains include sign‑on bonus up to S$3,000 and monthly reliability
+    incentive up to S$300
+    [verified] ComfortDelGro has over 24,500 employees in 13 countries and a fleet of about 54,000
+    vehicles
+  Positive signals:
+    [verified] Company is listed on SGX (ticker C52) and regularly publishes announcements
+    [verified] Recent senior‑leadership succession plan announced for 2026
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 13):
+  - Working at ComfortDelGro | Glassdoor  https://www.glassdoor.com/Overview/Working-at-
+    ComfortDelGro-EI_IE16161.11,24.htm
+  - Working at ComfortDelGro: 50 Reviews | Indeed.com
+    https://sg.indeed.com/cmp/Comfortdelgro/reviews
+  - Reviews ComfortDelGro employee ratings and reviews
+    https://sg.jobstreet.com/companies/comfortdelgro-168554962952764/reviews
+  - ComfortDelGro Reviews in Singapore | Glassdoor  https://www.glassdoor.sg/Reviews/ComfortDelGro-
+    Singapore-Reviews-EI_IE16161.0,13
+  - Working at ComfortDelGro company profile and infor
+    https://sg.jobstreet.com/companies/comfortdelgro-168554962952764
+  - ComfortDelGro Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/ComfortDelGro-
+    Reviews-E16161.htm
+(137.7s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

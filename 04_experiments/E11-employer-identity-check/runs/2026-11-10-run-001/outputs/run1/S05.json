@@ -1,0 +1,496 @@
+{
+ "employer": "Ohmyhome Pte. Ltd.",
+ "role": "Sales Coordinator",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "OHMYHOME PTE. LTD. is registered in Singapore (status: Live Company, registered 2015-06-12).",
+  "basis": "name only",
+  "entity": {
+   "uen": "201525768E",
+   "name": "OHMYHOME PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2015-06-12",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Ohmyhome Pte. Ltd.\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Ohmyhome Pte. Ltd.\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Ohmyhome Pte. Ltd.\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Ohmyhome Pte. Ltd.\" Sales Coordinator interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Ohmyhome Pte. Ltd.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://ohmyhome.com/en-sg/reviews",
+    "status": "ok",
+    "chars": 1258,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.straitstimes.com/business/ohmyhome-restructuring-business-as-usual-but-owners-owe-shareholders-an-explanation",
+    "status": "ok",
+    "chars": 6979,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.marketscreener.com/news/ohmyhome-announces-strategic-restructuring-to-privatise-core-real-estate-business-ce7f5fd9d08afe2c",
+    "status": "blocked",
+    "chars": 305,
+    "note": "challenge or login-wall text",
+    "tier": "plain"
+   },
+   {
+    "url": "https://ohmyhome.com/en-sg/careers",
+    "status": "ok",
+    "chars": 1155,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://boards.briohr.com/ohmyhomemy-uym45zdgk6",
+    "status": "ok",
+    "chars": 1008,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Ohmyhome-Pte-Ltd",
+    "status": "ok",
+    "chars": 11149,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://recordowl.com/company/ohmyhome-pte-ltd",
+    "status": "ok",
+    "chars": 7367,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.companies.sg/business/201525768E/OHMYHOME-PTE-LTD-",
+    "status": "error",
+    "chars": 0,
+    "note": "",
+    "tier": null
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.indeed.com/cmp/Ohmyhome-Pte.-Ltd.-1",
+    "title": "Ohmyhome Pte. Ltd. Careers and Employment | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Ohmyhome-Reviews-E2252823.htm",
+    "title": "Ohmyhome Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/Ohmyhome-Reviews-E2252823.htm",
+    "title": "Ohmyhome Reviews (80): Pros & Cons of Working At Ohmyhome",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Overview/Working-at-Ohmyhome-EI_IE2252823.11,19.htm",
+    "title": "Working at Ohmyhome | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/ohmyhome-168555794019876",
+    "title": "Working at Ohmyhome company profile and information | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.linkedin.com/company/ohmyhome",
+    "title": "Ohmyhome | Sell. Buy. Rent. Renovate. Manage. | LinkedIn",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/ohmyhome-168555794019876/salaries",
+    "title": "Ohmyhome salaries in Singapore: What is the pay at Ohmyhome?",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Interview/Ohmyhome-Interview-Questions-E2252823.htm",
+    "title": "Ohmyhome Interview Experience & Questions (2026) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Interview/Ohmyhome-Interview-Questions-E2252823.htm",
+    "title": "Ohmyhome Interview Questions (2026) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/Ohmyhome-jobs",
+    "title": "Ohmyhome Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.co.in/Interview/Ohmyhome-Interview-Questions-E2252823.htm",
+    "title": "7 Ohmyhome Interview Questions & Answers (2025) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.ca/Interview/Ohmyhome-Singapore-Interview-Questions-EI_IE2252823.0,8_IL.9,18_IN217.htm",
+    "title": "Ohmyhome Interview Questions in Singapore | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "ohmyhome"
+   ],
+   "pages_with_exact_name": 6,
+   "snippets_with_exact_name": 26,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 14,
+  "registry_mirror_pages": 2
+ },
+ "headline": "exists_and_consistent",
+ "headline_meaning": "Registered in Singapore, and public sources agree it is the company named.",
+ "reasons": [
+  "registry: confirmed",
+  "model: consistent across 4 pages"
+ ],
+ "brief": {
+  "validity_reasoning": "Multiple independent sources (official registry, business directory, news article, company website) confirm the existence, registration details, industry, and operations of Ohmyhome Pte. Ltd., with consistent information across them.",
+  "confidence": "high",
+  "could_not_verify": [
+   "Specific details about the Sales Coordinator role responsibilities and compensation",
+   "Exact number of employees or revenue figures for the private Singapore entity"
+  ],
+  "key_facts": [
+   {
+    "claim": "Legal name and registration details",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Legal name: OHMYHOME PTE. LTD. ... Company ID: 201525768E ... Status: Live Company",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 6,
+      "url": "https://www.sgpbusiness.com/company/Ohmyhome-Pte-Ltd",
+      "quote": "UEN 201525768E ... incorporated on 12 June 2015 ... Live Company",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Principal activity is real estate agencies and valuation services",
+    "evidence": [
+     {
+      "source": 6,
+      "url": "https://www.sgpbusiness.com/company/Ohmyhome-Pte-Ltd",
+      "quote": "principal activity is real estate agencies and valuation services",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 7,
+      "url": "https://recordowl.com/company/ohmyhome-pte-ltd",
+      "quote": "principal activity is REAL ESTATE AGENCIES AND VALUATION SERVICES",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Secondary activity is development of e‑commerce / software applications",
+    "evidence": [
+     {
+      "source": 6,
+      "url": "https://www.sgpbusiness.com/company/Ohmyhome-Pte-Ltd",
+      "quote": "secondary activity ... development of e‑commerce applications",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 7,
+      "url": "https://recordowl.com/company/ohmyhome-pte-ltd",
+      "quote": "secondary activity is DEVELOPMENT OF SOFTWARE AND APPLICATIONS",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Registered address is 211 Henderson Road, #02-04, Singapore 159552",
+    "evidence": [
+     {
+      "source": 6,
+      "url": "https://www.sgpbusiness.com/company/Ohmyhome-Pte-Ltd",
+      "quote": "registered address is at the 211 HENDERSON building",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 7,
+      "url": "https://recordowl.com/company/ohmyhome-pte-ltd",
+      "quote": "registered address ... 211 HENDERSON ROAD #02-04",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Founded by sisters Rhonda Wong and Race Wong",
+    "evidence": [
+     {
+      "source": 7,
+      "url": "https://recordowl.com/company/ohmyhome-pte-ltd",
+      "quote": "Founded in 2016 by sisters Rhonda Wong (CEO) and Race Wong (CPO)",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Company has a strong customer review presence",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://ohmyhome.com/en-sg/reviews",
+      "quote": "Ohmyhome is the most trusted property solution, with 8,000+ property agent reviews ... 5‑star average",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Company culture emphasizes innovation, collaboration and inclusivity",
+    "evidence": [
+     {
+      "source": 4,
+      "url": "https://ohmyhome.com/en-sg/careers",
+      "quote": "We pride ourselves in embracing different perceptions regardless of age, gender, nationality or sexual identity",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Ohmyhome underwent a restructuring in 2026, privatising its core property business",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://www.straitstimes.com/business/ohmyhome-restructuring-business-as-usual-but-owners-owe-shareholders-an-explanation",
+      "quote": "Ohmyhome restructuring: ‘Business as usual’, but owners owe shareholders an explanation ... sold its core property business for US$1",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 3,
+      "url": "https://www.marketscreener.com/news/ohmyhome-announces-strategic-restructuring-to-privatise-core-real-estate-business-ce7f5fd9d08afe2c",
+      "quote": "Ohmyhome today announced a strategic corporate restructuring aimed at privatising its …",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "High customer satisfaction and large review volume",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://ohmyhome.com/en-sg/reviews",
+      "quote": "21,000+ 5‑star reviews ... Highest‑rated in Singapore since 2016",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Active recruitment and career page indicating growth mindset",
+    "evidence": [
+     {
+      "source": 4,
+      "url": "https://ohmyhome.com/en-sg/careers",
+      "quote": "Be part of our growing family! ... Join our core, close‑knit team",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Regional presence in Singapore, Malaysia and Philippines",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://boards.briohr.com/ohmyhomemy-uym45zdgk6",
+      "quote": "We are located in Singapore, Malaysia, Philippines",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "red_flags": [
+   {
+    "claim": "Recent restructuring may affect financial stability",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://www.straitstimes.com/business/ohmyhome-restructuring-business-as-usual-but-owners-owe-shareholders-an-explanation",
+      "quote": "The listed company faced widening losses in 2025 ... losses more than doubling to $9.53 million",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Core property business now private, leaving only a digital‑marketing arm publicly listed",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://www.straitstimes.com/business/ohmyhome-restructuring-business-as-usual-but-owners-owe-shareholders-an-explanation",
+      "quote": "retaining a business focused on digital marketing",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "claims_verified": 10,
+  "claims_unverified": 3,
+  "model_validity_status": "appears_real_and_consistent"
+ },
+ "could_not_read": [
+  {
+   "url": "https://www.marketscreener.com/news/ohmyhome-announces-strategic-restructuring-to-privatise-core-real-estate-business-ce7f5fd9d08afe2c",
+   "why": "blocked: challenge or login-wall text"
+  },
+  {
+   "url": "https://www.companies.sg/business/201525768E/OHMYHOME-PTE-LTD-",
+   "why": "error: "
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://sg.indeed.com/cmp/Ohmyhome-Pte.-Ltd.-1",
+   "title": "Ohmyhome Pte. Ltd. Careers and Employment | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Ohmyhome-Reviews-E2252823.htm",
+   "title": "Ohmyhome Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Ohmyhome-Reviews-E2252823.htm",
+   "title": "Ohmyhome Reviews (80): Pros & Cons of Working At Ohmyhome",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Overview/Working-at-Ohmyhome-EI_IE2252823.11,19.htm",
+   "title": "Working at Ohmyhome | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/ohmyhome-168555794019876",
+   "title": "Working at Ohmyhome company profile and information | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.linkedin.com/company/ohmyhome",
+   "title": "Ohmyhome | Sell. Buy. Rent. Renovate. Manage. | LinkedIn",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/ohmyhome-168555794019876/salaries",
+   "title": "Ohmyhome salaries in Singapore: What is the pay at Ohmyhome?",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Interview/Ohmyhome-Interview-Questions-E2252823.htm",
+   "title": "Ohmyhome Interview Experience & Questions (2026) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Interview/Ohmyhome-Interview-Questions-E2252823.htm",
+   "title": "Ohmyhome Interview Questions (2026) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/Ohmyhome-jobs",
+   "title": "Ohmyhome Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.co.in/Interview/Ohmyhome-Interview-Questions-E2252823.htm",
+   "title": "7 Ohmyhome Interview Questions & Answers (2025) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.ca/Interview/Ohmyhome-Singapore-Interview-Questions-EI_IE2252823.0,8_IL.9,18_IN217.htm",
+   "title": "Ohmyhome Interview Questions in Singapore | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Specific details about the Sales Coordinator role responsibilities and compensation",
+  "Exact number of employees or revenue figures for the private Singapore entity"
+ ],
+ "seconds": 129.5,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

@@ -1,0 +1,46 @@
+{
+ "model": "openai/gpt-oss-20b",
+ "tag": "A-job_seeker-03-quick‑glance",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:49:15Z",
+ "latency_s": 0.88,
+ "params": {
+  "model": "openai/gpt-oss-20b",
+  "max_tokens": 900,
+  "temperature": 0.7,
+  "response_format": {
+   "type": "json_object"
+  },
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are simulating a fictional person for a research test. Stay in character and answer as they would.\nPersona:\nkind: job_seeker\nlabel: Skimmer, phone, medium digital comfort\nfirst_name: Ravi\nbackground: A 26‑year‑old Singaporean citizen working part‑time as a barista while looking for entry‑level retail positions. He is comfortable with apps but prefers short interactions.\nsituation_now: Uses his phone during downtimes to scan job posts and bookmark promising ones.\ngoals: [\"Find a full‑time retail job\", \"Earn enough to afford a car\"]\nconstraints: [\"Short attention span\", \"Dislikes multi‑step processes\", \"Limited budget for data\"]\ndigital_comfort: medium\nreading_style: Skims headlines and salary; reads details only if the role looks appealing\nattitude_to_ai: Indifferent, sees it as another app\nknown_gaps: [\"How to select specific sections of a posting on mobile\", \"How to paste into a non‑native app\"]\nbiases_or_habits: [\"Clicks on listings with eye‑catching emojis\", \"Leaves a post if it requires scrolling\"]\nvoice: \"Just the quick stuff, no extra hassle,\"\nsimulation_notes: Will copy only the title and salary; likely to quit after 1 minute if the tool asks for more than a simple paste.\nsimulated: True\n\nRules:\n- Use only what this person would plausibly know. If they would not know something, say so or guess the way they would.\n- Do not be more helpful, careful or articulate than the persona. Skim, skip, misread or get impatient where they would.\n- You are a simulation. Never claim to be a real person or to have real experiences you can cite.\n- If the task asks for JSON, return JSON only."
+  },
+  {
+   "role": "user",
+   "content": "You are job hunting on the device you normally use. You found a job you like and want to keep it in JobHub, a tool that checks postings.\nJobHub shows a box that says \"Paste the job posting here\". You did Select All and Copy on the job page, and this is exactly what landed in the box:\n\n<<<\nWe use cookies to give you the best experience. Read our Cookie Policy.\nAccept all\nDecline\nSkip to content\nJobStreet\nFind jobs\nCareer advice\nCompanies\nProfile\nApplied jobs\nSaved jobs\nSign in\nEmployer site\nWhat\nadministrative assistant\nWhere\nSingapore\nSearch\nClassification\nAny classification\nWork type\nAny work type\nPay\nAny\nDate listed\nAny time\nClear filters\n42 administrative assistant jobs in Singapore\nSort by Relevance\nAdmin Assistant\nGreyfriars Property Management\nToa Payoh, Singapore\n$2,200 - $2,600 per month\nPosted 1d ago\nQuick apply\nAdministrative Assistant\nMarina Dental Group\nBukit Timah, Singapore\nPosted 3d ago\nAdministrative Assistant (Contract)\nCornerstone Training Academy\nJurong East, Singapore\n$2,500 - $3,000 per month\nPosted 5d ago\nAdmin / Front Desk Officer\nElmwood Clinics\nNovena, Singapore\nPosted 2d ago\nAdmin Assistant\nNorthbridge Engineering\nWoodlands, Singapore\n$2,300 - $2,700 per month\nPosted 8d ago\nShowing 1 - 5 of 42\nNext page\nAdministrative Assistant\nMarina Dental Group\nBukit Timah, Singapore\nFull time\nBe an early applicant\nQuick apply\nSave\nPosted 3d ago\nJob description\nWe are looking for a reliable Administrative Assistant to join our busy clinic team.\nResponsibilities:\n- Greet patients and manage appointments in our system\n- Prepare invoices and process insurance paperwork\n- Keep files, stationery and the reception area in order\n- Support the practice manager with simple reports\nRequirements:\n- Diploma or above in any discipline\n- 1 year of administrative experience preferred\n- Able to work some Saturdays on a rotation\nReport this job\nBe careful: never pay money to get a job. Learn how to stay safe.\nAdditional information\nCareer level: Entry level\nQualification: Diploma\nYears of experience: 1 year\nJob type: Full time\nJob specializations: Administration & Office Support\nCompany overview\nMarina Dental Group\nPrivately owned dental clinic group with 4 clinics across Singapore.\nCompany size: 51-200 employees\nAverage processing time: 7 days\nSalary insights\nAdmin assistants in Singapore typically earn $2,100 - $2,900 per month.\nSee more salary insights\nJobs you might like\nReceptionist\nWillowbrook Dental Group\nBukit Timah, Singapore\nPosted 7d ago\nClinic Administrator\nPearl Smiles Clinic\nBukit Merah, Singapore\n$2,600 - $3,100 per month\nPosted 4d ago\nSubscribe to job alerts\nEnter your email address\nSubscribe\nAbout JobStreet\nHelp centre\nPrivacy\nTerms and conditions\nDownload the app\n© 2026 JobStreet\n\n>>>\n\nAnswer as yourself, in JSON only:\n{\"would_paste_as_is\": true|false,\n \"what_you_would_select_and_copy_instead\": \"plain words: which part, from which line to which line, or 'everything'\",\n \"how_you_would_do_it_on_your_device\": \"taps/drags/keys, in a sentence\",\n \"effort_1_to_5\": 1 means very easy and 5 means not worth it,\n \"seconds_you_expect_it_to_take\": number,\n \"problems_you_notice_in_the_pasted_text\": \"...\",\n \"would_you_do_this_for_every_job_you_consider\": \"yes|sometimes|no\",\n \"why\": \"...\"}"
+  }
+ ],
+ "content": "{\"would_paste_as_is\":false,\"what_you_would_select_and_copy_instead\":\"everything\",\"how_you_would_do_it_on_your_device\":\"tap and hold on text, select All, tap Copy\",\"effort_1_to_5\":1,\"seconds_you_expect_it_to_take\":5,\"problems_you_notice_in_the_pasted_text\":\"looks messy, many extra site info, hard to read\",\"would_you_do_this_for_every_job_you_consider\":\"sometimes\",\"why\":\"if the paste looks clean and has salary, I’ll copy, otherwise I skip\"}",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 130,
+  "prompt_tokens": 1284,
+  "total_tokens": 1414,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 4,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.528296512,
+  "prompt_time": 0.083888419,
+  "completion_time": 0.140896232,
+  "total_time": 0.224784651
+ },
+ "cached": false
+}

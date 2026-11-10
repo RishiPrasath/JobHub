@@ -1,0 +1,21 @@
+{
+  "organisation": "Imtidad Employment Solutions Pte. Ltd.",
+  "queries_run": [
+    "\"Imtidad Employment Solutions Pte. Ltd.\" Singapore regulator penalty fine",
+    "\"Imtidad Employment Solutions Pte. Ltd.\" enforcement action Singapore",
+    "\"Imtidad Employment Solutions Pte. Ltd.\" court judgment Singapore",
+    "\"Imtidad Employment Solutions Pte. Ltd.\" complaints Singapore",
+    "\"Imtidad Employment Solutions Pte. Ltd.\" retrenchment layoffs Singapore",
+    "\"Imtidad Employment Solutions Pte. Ltd.\" scam fraud warning Singapore"
+  ],
+  "items": [
+    {
+      "claim": "A similarly named company, Imtidad Employment Agency Pte. Ltd. (UEN 202302734R), is listed on scam.sg as established on 23 Jan 2023 with status 'Gazetted To Be Struck Off'. This concerns a different entity and is not evidence about Imtidad Employment Solutions Pte. Ltd.",
+      "entity_the_claim_is_about": "Imtidad Employment Agency Pte. Ltd. (UEN 202302734R), a namesake",
+      "category": "other_entity",
+      "source_url": "https://www.scam.sg/companies/202302734R/imtidad-employment-agency-pte-ltd",
+      "quoted_evidence": "Gazetted To Be Struck Off"
+    }
+  ],
+  "notes": "No search result named 'Imtidad Employment Solutions Pte. Ltd.' itself, so no red flag about this organisation is supported by the six result sets. Results returned only two namesakes: Imtidad Employment Agency Pte. Ltd. (UEN 202302734R), listed as struck off on scam.sg, and Imtidad Recruitment Pte. Ltd. (UEN 201703963W), listed as live on scam.sg with a TrustScore of 84 and no reviews. The Imtidad Recruitment entry is not a red flag and is not listed. The quoted evidence for the struck-off item comes from the search-result summary text, not from a direct quote of the scam.sg page. The MOM press releases and court and enforcement results returned for the six queries concern other employment agencies and do not name this organisation or either namesake. Retrenchment results are general Singapore trend and rule coverage, not about this organisation. Scam-warning results are general job-scam advisories. Items are limited to what the six searches returned. The organisation's UEN and status were not verified against ACRA."
+}

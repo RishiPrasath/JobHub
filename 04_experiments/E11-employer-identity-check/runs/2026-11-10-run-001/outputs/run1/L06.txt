@@ -1,0 +1,41 @@
+Raffles Medical Group Ltd  (role: Staff Nurse)
+HEADLINE: exists_and_consistent
+  Registered in Singapore, and public sources agree it is the company named.
+  because: registry: confirmed; model: consistent across 6 pages
+REGISTRY: confirmed. RAFFLES MEDICAL GROUP LTD is registered in Singapore (status: Live Company, registered 1989-05-16).
+  flag: other entities start with this name: RAFFLES MEDICAL SUPPLIES GROUP
+WEB: 5 queries (bing), 7 of 8 pages read, exact name seen in 5 pages and 21 search results
+BRIEF (model rating: appears_real_and_consistent, confidence high; 8 claims verified, 2 unverified)
+  Facts:
+    [UNVERIFIED] Legal name and registration details
+    [verified] Company is a publicly listed healthcare provider
+    [verified] Founded in 1976 and operates a network of clinics and a flagship hospital
+    [verified] Employee count between 1,001 and 2,000
+    [verified] Typical employee benefits include medical and dental coverage
+    [verified] Company emphasizes flexible workforce arrangements (shift work, part‑time, contract)
+  Positive signals:
+    [verified] Strong employer brand with a focus on staff development
+    [UNVERIFIED] Clear recruitment communication and official career portal
+    [verified] Large, integrated network offering diverse clinical exposure
+  Red flags:
+    [verified] Reports of scam emails impersonating RMG personnel
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 11):
+  - Raffles Medical Group Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/Raffles-Medical-
+    Group-Reviews-E139031.htm
+  - Working at Raffles Medical Group company profile a  https://sg.jobstreet.com/companies/raffles-
+    medical-group-168555834064846
+  - Working at Raffles Medical Group | Glassdoor  https://www.glassdoor.sg/Overview/Working-at-
+    Raffles-Medical-Group-EI_IE139031.1
+  - Raffles Medical Group Careers and Employment | Ind  https://sg.indeed.com/cmp/Raffles-Medical-
+    Group
+  - Raffles Medical Group salaries in Singapore: What   https://sg.jobstreet.com/companies/raffles-
+    medical-group-168555834064846/salarie
+  - Raffles Medical Group - LinkedIn  https://sg.linkedin.com/company/raffles-medical-group
+COULD NOT READ (1):
+  - https://www.reveliolabs.com/companies/raffles-medical-group/employees  (thin: fewer than 400
+    characters of real content)
+COULD NOT VERIFY:
+  - Exact salary range for the Staff Nurse role
+  - Specific shift patterns or contract length for this position
+  - Detailed performance metrics or KPIs for the role
+(71.1s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

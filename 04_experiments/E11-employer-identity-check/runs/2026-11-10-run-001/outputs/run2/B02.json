@@ -1,0 +1,57 @@
+{
+ "employer": "Singtel",
+ "role": "Network Engineer",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "multiple_entities",
+  "summary": "More than one live entity matches 'Singtel' (SINGTEL GBS PTE. LTD., SINGTEL ICT PTE. LTD., SINGTEL NEX PTE. LTD.). A company ID or an address is needed to say which one the posting means.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "200006907D",
+   "name": "SINGTEL GBS PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2000-08-05",
+   "activity": "INFORMATION TECHNOLOGY CYBERSECURITY CONSULTANCY",
+   "alternatives": [
+    "SINGTEL ICT PTE. LTD.",
+    "SINGTEL NEX PTE. LTD."
+   ]
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": "the registry settled it (multiple_entities); web research would not change the headline",
+  "available": false,
+  "queries": [],
+  "pages": [],
+  "skipped_by_policy": [],
+  "gate": {
+   "phrases": [
+    "singtel"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 0,
+   "none": true,
+   "strong": false
+  },
+  "engines_used": [],
+  "registry_mirror_pages": 0
+ },
+ "headline": "ambiguous_entity",
+ "headline_meaning": "More than one live company is registered with this exact name. A company ID or address is needed to say which one.",
+ "reasons": [
+  "registry: multiple_entities"
+ ],
+ "brief": null,
+ "could_not_read": [],
+ "link_out": [],
+ "could_not_verify": [],
+ "seconds": 0.0,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

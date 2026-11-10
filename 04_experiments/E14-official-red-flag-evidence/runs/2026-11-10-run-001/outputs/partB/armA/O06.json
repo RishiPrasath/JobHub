@@ -1,0 +1,77 @@
+{
+  "organisation": "Randstad Singapore",
+  "queries_run": [
+    "\"Randstad Singapore\" Singapore regulator penalty fine",
+    "\"Randstad Singapore\" enforcement action Singapore",
+    "\"Randstad Singapore\" court judgment Singapore",
+    "\"Randstad Singapore\" complaints Singapore",
+    "\"Randstad Singapore\" retrenchment layoffs Singapore",
+    "\"Randstad Singapore\" scam fraud warning Singapore"
+  ],
+  "items": [
+    {
+      "claim": "Randstad Singapore has warned that scammers are impersonating its employees on Telegram to post fraudulent job advertisements.",
+      "entity_the_claim_is_about": "Randstad Singapore (impersonated brand)",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://www.randstad.com.sg/about-us/press-releases/scammers-impersonating-randstad-employees-on-telegram/",
+      "quoted_evidence": "scammers impersonating randstad employees on telegram"
+    },
+    {
+      "claim": "A StaffingIndustry article reports that Randstad in Singapore said it is aware of job scammers impersonating its employees.",
+      "entity_the_claim_is_about": "Randstad Singapore (impersonated brand)",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://www.staffingindustry.com/news/global-daily-news/singapore-randstad-says-it-aware-job-scammers-impersonating-its-employees",
+      "quoted_evidence": "singapore randstad says it aware job scammers impersonating its employees"
+    },
+    {
+      "claim": "Randstad Singapore has warned that scammers are using a fake Randstad business card.",
+      "entity_the_claim_is_about": "Randstad Singapore (impersonated brand)",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://www.randstad.com.sg/about-us/press-releases/scammers-using-fake-randstad-business-card/",
+      "quoted_evidence": "scammers using fake randstad business card"
+    },
+    {
+      "claim": "Randstad Singapore published a press statement on job scams.",
+      "entity_the_claim_is_about": "Randstad Singapore (impersonated brand)",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://www.randstad.com.sg/about-us/press-releases/press-statement-job-scams",
+      "quoted_evidence": "press statement job scams"
+    },
+    {
+      "claim": "An employee review on Glassdoor Singapore is titled as describing a company with a very bad working culture. The result shows a 5.0 rating alongside the negative title, and the reviewer's location is not shown in the snippet.",
+      "entity_the_claim_is_about": "Randstad (employer; the review is listed under Randstad on Glassdoor Singapore, office not confirmed)",
+      "category": "other",
+      "source_url": "https://www.glassdoor.sg/Reviews/Employee-Review-Randstad-E302306-RVW103198474.htm",
+      "quoted_evidence": "Bad Company with very bad working culture - Recruitement Coordinator-Onboarding Randstad Employee Review"
+    },
+    {
+      "claim": "A Portal da Queixa complaints page asks whether the Randstad brand is trustworthy. The result concerns Randstad in Portugal, not Singapore.",
+      "entity_the_claim_is_about": "Randstad Portugal (different country operation)",
+      "category": "other_entity",
+      "source_url": "https://portaldaqueixa.com/brands/randstad/complaints/randstad-mas-conduta-36505220",
+      "quoted_evidence": "A marca Randstad é confiável?"
+    },
+    {
+      "claim": "UK employment tribunal decisions list cases against Randstad Solutions Ltd and others. These are UK proceedings, not Singapore.",
+      "entity_the_claim_is_about": "Randstad Solutions Ltd (UK)",
+      "category": "other_entity",
+      "source_url": "https://www.gov.uk/employment-tribunal-decisions/mr-c-yoong-v-randstad-solutions-ltd-and-others-3201269-slash-2023-and-3201270-slash-2023",
+      "quoted_evidence": "Mr C Yoong v Randstad Solutions Ltd and others"
+    },
+    {
+      "claim": "A headline reports that a French competition body fined a recruiter for settlement violations. The headline does not name Randstad. A search summary links this to Randstad France, which is a different entity from Randstad Singapore.",
+      "entity_the_claim_is_about": "Randstad France (recruiter named in summary only; not confirmed by the headline)",
+      "category": "other_entity",
+      "source_url": "https://globalcompetitionreview.com/article/france-fines-recruiter-settlement-violations",
+      "quoted_evidence": "France fines recruiter for settlement violations"
+    },
+    {
+      "claim": "A Randstad press release says Randstad lodged an appeal against a fine imposed by the Dutch regulator AFM. This concerns the Netherlands, not Singapore.",
+      "entity_the_claim_is_about": "Randstad / Vedior (Netherlands)",
+      "category": "other_entity",
+      "source_url": "https://www.randstad.com/press/2009/randstad-lodges-appeal-against-fine-imposed-afm",
+      "quoted_evidence": "randstad lodges appeal against fine imposed afm"
+    }
+  ],
+  "notes": "No result showed a Singapore regulator penalty, enforcement action, court judgment or formal complaint record against Randstad Singapore. The Singapore-related items are scam and impersonation warnings published by Randstad itself, dated mostly 2022. The retrenchment search returned only general Singapore labour-market reporting that does not mention Randstad, so it produced no item. Several Singapore enforcement results (MOM arrests over phantom workers, a suspended employment agency licence over fee violations, and a staffing kickback arrest story) do not name Randstad in the result text, so they were excluded. The French and Dutch items and the UK tribunal cases are about other jurisdictions; the Glassdoor review's office location is not confirmed. Some figures in the search summaries, such as a US $50,000 penalty and the EUR 4.5 million French fine amount, were not visible in the result titles or links and were not used as claims."
+}

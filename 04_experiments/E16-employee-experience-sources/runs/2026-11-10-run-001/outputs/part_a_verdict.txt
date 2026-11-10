@@ -1,0 +1,16 @@
+ 1  Glassdoor                            B (provisional: primary text not read)
+ 2  Indeed company pages                 B
+ 3  JobStreet (SEEK)                     B
+ 4  Reddit                               C (provisional: primary text not read)
+ 5  Blind                                B
+ 6  Google Maps reviews (Places API)     C for intended use (live display of up to 5 reviews only)
+ 7  HardwareZone forums                  B
+ 8  TAFEP and MOM official material      not a lived-experience source
+ 9  Licensed or partner data             D unresolved
+10  Job-seeker contributions             A in principle (not an existing source)
+11  Link-out only                        B permitted
+
+class counts: {'B': 6, 'C': 2, 'not': 1, 'D': 1, 'A': 1}
+existing external sources classed A: none
+Part A verdict (strict, external sources): FAIL
+Note: job-seeker contributions are class A in principle but are not an existing source (0 coverage).

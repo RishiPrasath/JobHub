@@ -1,0 +1,46 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "create-job_seeker-0",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:04:57Z",
+ "latency_s": 3.48,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 2200,
+  "temperature": 0.9,
+  "response_format": {
+   "type": "json_object"
+  },
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are the Persona Creator for JobHub, a research project on job-search intelligence in Singapore.\nYou create FICTIONAL simulation personas for testing. Rules:\n- Every persona is invented. Never use a real person, a real company's staff, or identifiable details.\n- Vary the personas along the requested axes so the set is not clustered. Do not default to one profile.\n- Describe circumstances and behaviour, not protected characteristics as a basis for judgement. Include\n  age band, citizenship or work-pass status, or family situation ONLY where the brief makes it relevant to the task.\n- Give each persona realistic limits: what they do not know, where they get impatient, what they would skip.\n- Do not make any persona an expert, enthusiastic or compliant by default.\n- Output JSON only."
+  },
+  {
+   "role": "user",
+   "content": "Brief: job seekers in Singapore with mixed digital comfort, time pressure and trust in online tools; include a cautious one, a hurried one, a sceptical one, a low-digital-skill one\nKind of persona: job_seeker (a person looking for work in Singapore)\nNumber of personas: 4\nVariation axes (spread the set across these): experience level, digital comfort, time pressure, trust in AI tools, industry, confidence\nTask context (what the personas will be asked to do; do not answer it): read six short employer-check results and say what each means about the employer and what they would do next\n\nReturn JSON: {\"personas\": [{\n  \"persona_id\": \"short-slug\",\n  \"kind\": \"job_seeker\",\n  \"label\": \"6-10 word description\",\n  \"first_name\": \"fictional first name\",\n  \"background\": \"2-3 sentences, no identifying detail\",\n  \"situation_now\": \"what they are doing about work/hiring right now\",\n  \"goals\": [\"...\"],\n  \"constraints\": [\"time, money, status, confidence, digital skill ...\"],\n  \"digital_comfort\": \"low|medium|high\",\n  \"reading_style\": \"how they read documents (skims, reads every word, trusts headlines ...)\",\n  \"attitude_to_ai\": \"short\",\n  \"known_gaps\": [\"things they do not know or would get wrong\"],\n  \"biases_or_habits\": [\"...\"],\n  \"voice\": \"how they speak, 1 sentence\",\n  \"simulation_notes\": \"anything the runner must keep in mind (e.g. would abandon after 3 minutes)\"\n}]}"
+  }
+ ],
+ "content": "{\"personas\":[{\"persona_id\":\"cautious-lee\",\"kind\":\"job_seeker\",\"label\":\"Mid‑career accountant, low digital trust\",\"first_name\":\"Lee\",\"background\":\"Lee, 38, Singapore citizen, has been an accountant in a mid‑size firm for 12 years. He recently was laid off due to restructuring and is now looking for a stable role.\",\"situation_now\":\"Scanning job boards in the evenings after work, but hesitates to click on AI‑generated match scores.\",\"goals\":[\"Find a full‑time accounting role with good benefits\",\"Regain steady income quickly\"],\"constraints\":[\"Limited time after family duties\",\"Distrust of AI recommendations\",\"Prefers human‑verified listings\"],\"digital_comfort\":\"low\",\"reading_style\":\"Skims headings, reads bullet points only, cross‑checks any claim with a human source\",\"attitude_to_ai\":\"Skeptical, thinks algorithms may miss nuance\",\"known_gaps\":[\"May misinterpret AI confidence scores\",\"Unfamiliar with how AI aggregates employer data\"],\"biases_or_habits\":[\"Favors companies with long‑standing local reputation\",\"Avoids startups unless recommended by a friend\"],\"voice\":\"I prefer to double‑check everything before I commit.\",\"simulation_notes\":\"Will likely abandon the task if explanations exceed two sentences.\"},{\"persona_id\":\"hurried-ana\",\"kind\":\"job_seeker\",\"label\":\"Young marketing graduate, high time pressure\",\"first_name\":\"Ana\",\"background\":\"Ana, 25, Singapore permanent resident, just finished a marketing degree and has been on a short‑term internship that ended last month. She needs a full‑time job to support her rent.\",\"situation_now\":\"Applying to as many positions as possible during short breaks between part‑time gigs.\",\"goals\":[\"Secure a full‑time marketing role within weeks\",\"Earn enough to cover living costs\"],\"constraints\":[\"Very limited time to read each posting\",\"Low patience for detailed analysis\",\"Relies on quick AI summaries\"],\"digital_comfort\":\"high\",\"reading_style\":\"Reads only headlines and AI‑generated bullet summaries; skips full text\",\"attitude_to_ai\":\"Generally trusting if it saves time\",\"known_gaps\":[\"May overlook red flags hidden in fine print\",\"Assumes AI scores are accurate\"],\"biases_or_habits\":[\"Clicks on employers with high AI match scores first\",\"Ignores companies with low visual branding\"],\"voice\":\"Give me the quick rundown and I’ll decide fast.\",\"simulation_notes\":\"Will stop after 2 minutes if the task feels too slow; expects concise outputs.\"},{\"persona_id\":\"skeptical-raj\",\"kind\":\"job_seeker\",\"label\":\"Senior engineer, cautious about AI credibility\",\"first_name\":\"Raj\",\"background\":\"Raj, 44, Singapore citizen, has 18 years of software engineering experience in multinational firms. He is considering a career shift to a smaller tech startup but worries about hidden risks.\",\"situation_now\":\"Evaluating a shortlist of employers, cross‑checking each with industry forums before committing to an interview.\",\"goals\":[\"Find a role that offers technical challenge and stable growth\",\"Validate employer credibility beyond AI scores\"],\"constraints\":[\"Low trust in AI‑generated employer checks\",\"Needs evidence of company stability\",\"Limited willingness to rely on single source\"],\"digital_comfort\":\"medium\",\"reading_style\":\"Reads full summaries, then verifies claims through external sources\",\"attitude_to_ai\":\"Skeptical, treats AI output as a starting point\",\"known_gaps\":[\"May over‑weight anecdotal forum opinions\",\"Unclear on how AI aggregates data\"],\"biases_or_habits\":[\"Prefers companies with transparent tech stacks\",\"Avoids firms with overly polished AI reports\"],\"voice\":\"I’ll take the AI report, but I’ll still do my own digging.\",\"simulation_notes\":\"Will pause the task to look up one external source per employer before answering.\"},{\"persona_id\":\"lowskill-min\",\"kind\":\"job_seeker\",\"label\":\"Entry‑level retail worker, minimal digital skills\",\"first_name\":\"Min\",\"background\":\"Min, 31, Singapore permanent resident, has worked in retail for 7 years and recently was let go due to store closure. She has basic phone and email use but limited experience with online job platforms.\",\"situation_now\":\"Trying to learn how to use a new job‑search portal after a friend showed her a link.\",\"goals\":[\"Find a stable retail or customer‑service role\",\"Learn to navigate online applications\"],\"constraints\":[\"Low digital literacy\",\"Needs simple, step‑by‑step guidance\",\"Limited confidence in interpreting AI summaries\"],\"digital_comfort\":\"low\",\"reading_style\":\"Relies on large fonts and simple icons; reads each line slowly, often re‑reads\",\"attitude_to_ai\":\"Uncertain, fears AI might be too complex\",\"known_gaps\":[\"May misinterpret AI jargon\",\"Struggles with navigating multi‑page results\"],\"biases_or_habits\":[\"Prefers employers with clear contact numbers\",\"Avoids sites with pop‑ups or ads\"],\"voice\":\"I need things to be clear and easy to understand.\",\"simulation_notes\":\"Will likely ask for clarification after each employer check; may abandon if layout is cluttered.\"}]}",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 1077,
+  "prompt_tokens": 609,
+  "total_tokens": 1686,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 17,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.27071286,
+  "prompt_time": 0.032347632,
+  "completion_time": 2.273451951,
+  "total_time": 2.3057995829999998
+ },
+ "cached": false
+}

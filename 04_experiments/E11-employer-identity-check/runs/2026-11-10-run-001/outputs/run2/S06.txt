@@ -1,0 +1,14 @@
+Seedly Pte. Ltd.  (role: Content Marketing Executive)
+HEADLINE: exists_limited_evidence
+  Registered in Singapore, but there is little public evidence beyond the registry.
+  because: registry: confirmed; web evidence thin (4 pages read, model: None)
+REGISTRY: confirmed. SEEDLY PTE. LTD. is registered in Singapore (status: Live Company, registered 2016-02-02).
+WEB: 5 queries (bing, duckduckgo), 8 of 8 pages read, exact name seen in 8 pages and 18 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 4):
+  - Working at Seedly | Glassdoor  https://www.glassdoor.sg/Overview/Working-at-Seedly-
+    EI_IE2002835.11,17.htm
+  - Seedly Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/Seedly-Reviews-E2002835.htm
+  - Seedly - LinkedIn  https://www.linkedin.com/company/seedly
+  - Seedly | Singapore Singapore - Facebook  https://www.facebook.com/seedlysg
+DEGRADED: summary_unavailable: model rate limit reached (retry in 1965 s)
+(90.7s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

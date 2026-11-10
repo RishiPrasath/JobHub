@@ -1,0 +1,98 @@
+{
+ "employer": "Merlion Prime Staffing Solutions Pte Ltd",
+ "role": "Remote Data Processor",
+ "degraded": [
+  "no_web_sources: nothing could be read or found, so no summary was written"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "not_in_registry",
+  "summary": "No registered entity in Singapore resembles 'Merlion Prime Staffing Solutions Pte Ltd'.",
+  "basis": "name only",
+  "entity": null,
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Merlion Prime Staffing Solutions Pte Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Merlion Prime Staffing Solutions Pte Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Merlion Prime Staffing Solutions Pte Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Merlion Prime Staffing Solutions Pte Ltd\" Remote Data Processor interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Merlion Prime Staffing Solutions Pte Ltd\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [],
+  "skipped_by_policy": [],
+  "gate": {
+   "phrases": [
+    "merlion prime staffing solutions"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 0,
+   "none": true,
+   "strong": false
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 39,
+  "registry_mirror_pages": 0
+ },
+ "headline": "could_not_confirm_company",
+ "headline_meaning": "Neither the registry nor the web confirms this company exists under this name.",
+ "reasons": [
+  "registry: not_in_registry",
+  "exact name seen 0 times"
+ ],
+ "brief": null,
+ "could_not_read": [],
+ "link_out": [],
+ "could_not_verify": [],
+ "seconds": 39.9,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

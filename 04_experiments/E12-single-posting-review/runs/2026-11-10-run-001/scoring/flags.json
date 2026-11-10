@@ -1,0 +1,91 @@
+{
+ "grounding": [],
+ "conflicts": [],
+ "injection": [],
+ "oracle": {
+  "E12-P01__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P01__gpt120__r2": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P01__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P02__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P04__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P06__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P06__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P07__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P07__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P08__gpt120__r1": {
+   "oracle": [
+    "contradictions covered/conflicting with no conflicting claim"
+   ],
+   "gate_raises": false
+  },
+  "E12-P09__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P09__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P15__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P15__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P16__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P17__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P19__gpt120__r2": {
+   "oracle": [
+    "unknowns: covered with no claim ids"
+   ],
+   "gate_raises": true
+  },
+  "E12-P22__gpt120__r2": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P23__gpt120__r2": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P24__gpt120__r2": {
+   "oracle": [],
+   "gate_raises": false
+  }
+ }
+}

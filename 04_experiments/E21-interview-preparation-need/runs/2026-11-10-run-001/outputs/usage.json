@@ -1,0 +1,11 @@
+{
+ "creator_model": "openai/gpt-oss-120b",
+ "agent_model": "openai/gpt-oss-20b",
+ "uncached_usage": {
+  "prompt": 3952,
+  "completion": 742,
+  "total": 4694,
+  "calls": 24
+ },
+ "note": "cached calls are counted as 0 tokens; creator-call tokens are in outputs/personas/raw"
+}

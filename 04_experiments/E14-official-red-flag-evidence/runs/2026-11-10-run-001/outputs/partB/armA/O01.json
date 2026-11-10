@@ -1,0 +1,63 @@
+{
+  "organisation": "Hays Specialist Recruitment (Singapore)",
+  "queries_run": [
+    "\"Hays Specialist Recruitment (Singapore)\" Singapore regulator penalty fine",
+    "\"Hays Specialist Recruitment (Singapore)\" enforcement action Singapore",
+    "\"Hays Specialist Recruitment (Singapore)\" court judgment Singapore",
+    "\"Hays Specialist Recruitment (Singapore)\" complaints Singapore",
+    "\"Hays Specialist Recruitment (Singapore)\" retrenchment layoffs Singapore",
+    "\"Hays Specialist Recruitment (Singapore)\" scam fraud warning Singapore"
+  ],
+  "items": [
+    {
+      "claim": "The UK Office of Fair Trading fined Hays Specialist Recruitment GBP 30.4m as one of six recruitment firms penalised for price-fixing in the construction candidate-supply market. The firm was considering an appeal. This is a UK matter, not a Singapore one.",
+      "entity_the_claim_is_about": "Hays Specialist Recruitment (UK entity, not the Singapore entity)",
+      "category": "other_entity",
+      "source_url": "https://www.personneltoday.com/hr/recruitment-agency-hays-may-appeal-ofts-30m-price-fixing-fine",
+      "quoted_evidence": "fined £30.4m for its part in a price-fixing cartel"
+    },
+    {
+      "claim": "A UK Violation Tracker entry lists Hays Specialist Recruitment Limited (New Malden) with an action by the UK Department for Business, Energy & Industrial Strategy relating to temporary employment agency activities. This is a UK matter.",
+      "entity_the_claim_is_about": "Hays Specialist Recruitment Limited (UK entity)",
+      "category": "other_entity",
+      "source_url": "https://violationtrackeruk.goodjobsfirst.org/violation-tracker/Hays-Specialist-Recruitment-Limited-0",
+      "quoted_evidence": "Basic Search (page title only; the raw result did not show the entry text)"
+    },
+    {
+      "claim": "Multiple UK Employment Tribunal decisions name Hays Specialist Recruitment Ltd as respondent in individual employment claims (for example Mr McKie v Hays Specialist Recruitment Ltd, 2302505/2022). These are UK tribunal decisions, not Singapore court judgments.",
+      "entity_the_claim_is_about": "Hays Specialist Recruitment Ltd (UK entity)",
+      "category": "other_entity",
+      "source_url": "https://www.gov.uk/employment-tribunal-decisions/mr-mckie-v-hays-specialist-recruitment-ltd-2302505-slash-2022",
+      "quoted_evidence": "Mr McKie v Hays Specialist Recruitment Ltd: 2302505/2022"
+    },
+    {
+      "claim": "In 2012, two recruitment consultants made racism allegations against Hays to the UK Employment Tribunal Service. Hays disputed the claims. This is a UK matter from over a decade ago.",
+      "entity_the_claim_is_about": "Hays (UK business)",
+      "category": "other_entity",
+      "source_url": "https://www.recruiter.co.uk/news/2012/09/hays-racism-claim-disputed",
+      "quoted_evidence": "Hays racism claim disputed"
+    },
+    {
+      "claim": "Glassdoor employee reviews tagged to Singapore include very negative comments about staff treatment and workplace culture. These are anonymous, unverified self-reports from employees, not consumer complaints.",
+      "entity_the_claim_is_about": "Hays (employer, Glassdoor entity E10166; not verified as this Singapore entity)",
+      "category": "other",
+      "source_url": "https://www.glassdoor.sg/Reviews/Employee-Review-Hays-E10166-RVW83560991.htm",
+      "quoted_evidence": "Disgusting treatment of staff - steer clear of this place."
+    },
+    {
+      "claim": "Hays publishes a global scam alert warning that scammers use recruitment scams to target jobseekers. The warning says Hays never asks candidates to pay for jobs, training or equipment. This describes impersonation of the brand, not misconduct by the organisation. It applies to the Hays brand globally, not confirmed for this Singapore entity.",
+      "entity_the_claim_is_about": "Hays brand (global, Hays plc)",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://www.hays.com/legal/scam-alert",
+      "quoted_evidence": "Beware of recruitment scams known to be targeting jobseekers"
+    },
+    {
+      "claim": "A third-party security blog describes fake Hays Recruitment job offers that ask victims to pay an upfront processing or equipment fee. This describes impersonation of the brand, not misconduct by the organisation. The source is a third-party blog and was not verified.",
+      "entity_the_claim_is_about": "Hays Recruitment brand (impersonated; not confirmed for this Singapore entity)",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://malwaretips.com/blogs/hays-recruitment-job/",
+      "quoted_evidence": "Warning! Don't Fall for the Fake Hays Recruitment Job Offer Scam"
+    }
+  ],
+  "notes": "No result showed a Singapore regulator penalty, enforcement action, court judgment, or complaint against an entity named exactly 'Hays Specialist Recruitment (Singapore)'. Employer_action found none. The Singapore-related hit is a British Chamber of Commerce Singapore member listing (https://britcham.org.sg/news/new-member-hays) which, per the search summary, names the company 'Hays Specialist Recruitment Pte Ltd' in Singapore; this is an identity clue, not a red flag, and was not used as an item. Retrenchment search returned no Hays-specific result; only general Singapore labour-market coverage was shown, so no item was added. Several quoted_evidence strings come from result titles or search-tool summaries rather than verbatim snippet text, and are marked as such where relevant. Glassdoor and tribunal items are included for completeness but are not Singapore-specific. The Hays German warning page (https://www.hays.de/en/recruitment/about-hays/warning-against-fraud) also says scammers impersonate Hays staff on LinkedIn; it was not added as a separate item because it repeats the impersonation category."
+}

@@ -1,0 +1,27 @@
+Job Description
+Roles & Responsibilities
+Design and build REST services in Java and Spring Boot
+Write unit and integration tests and review pull requests
+Support the production on-call rotation one week in six
+Work with product managers to refine requirements
+
+Requirements
+Degree in Computer Science or equivalent experience
+3 or more years of backend development
+Familiar with Docker, PostgreSQL and a cloud provider
+
+Skills
+Communication · Teamwork · Problem solving
+
+Additional Information
+Job Post ID: MCF-2026-1001096
+Employment type: Permanent
+
+About the company
+We are an established company hiring in Singapore. Learn more on our company page.
+
+About MyCareersFuture
+Terms of Use
+Privacy Statement
+Report this job
+© 2026 Government of Singapore

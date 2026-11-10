@@ -1,0 +1,310 @@
+{
+ "version": "snapshot-step 0.1.0 (E13, deterministic)",
+ "items": {
+  "H01": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "values": {
+    "title": "Senior Product Manager",
+    "employer": "Pacific Horizon Technologies Pte Ltd",
+    "pay": "SGD 3,800",
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "H02": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "values": {
+    "title": "1. Marketing Executive – BrightWave Media",
+    "employer": "BrightWave Media",
+    "pay": "$3,000",
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": true,
+   "partial_reasons": [
+    "cards_nav"
+   ],
+   "missing_fields": [
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "H03": {
+   "fields": {
+    "title": "missing",
+    "employer": "missing",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": null,
+    "employer": null,
+    "pay": "SGD 8,500",
+    "closing": "Closing on 14 Dec 2026"
+   },
+   "closing_date_iso": "2026-12-14",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [
+    "title",
+    "employer"
+   ],
+   "minimum_fields_present": false
+  },
+  "H04": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Senior Data Analyst – Singapore (Hybrid)",
+    "employer": "XYZ Corp",
+    "pay": "SGD 8,500",
+    "closing": "Deadline: 13 November 2026"
+   },
+   "closing_date_iso": "2026-11-13",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "H05": {
+   "fields": {
+    "title": "missing",
+    "employer": "missing",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "values": {
+    "title": null,
+    "employer": null,
+    "pay": "$85",
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [
+    "title",
+    "employer",
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "H06": {
+   "fields": {
+    "title": "missing",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "values": {
+    "title": null,
+    "employer": "BrightFuture Media Pte Ltd",
+    "pay": "$2,800",
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [
+    "title",
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "H07": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "missing",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Senior Data Analytics Engineer – Singapore",
+    "employer": "Careers at AuroraTech Solutions",
+    "pay": "SGD 9,500",
+    "closing": "apply by 30 November 2026"
+   },
+   "closing_date_iso": "2026-11-30",
+   "partial_flag": true,
+   "partial_reasons": [
+    "no_body"
+   ],
+   "missing_fields": [
+    "duties"
+   ],
+   "minimum_fields_present": false
+  },
+  "H08": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "explicit_absence",
+    "duties": "present",
+    "closing": "explicit_absence"
+   },
+   "values": {
+    "title": "Senior Data Analytics Engineer",
+    "employer": "Careers at NovaWave Solutions",
+    "pay": "Salary will be discussed at interview",
+    "closing": "until the position is filled"
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "H09": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "values": {
+    "title": "Customer Service Representative",
+    "employer": "Private Advertiser",
+    "pay": "$12",
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "H10": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "missing",
+    "duties": "missing",
+    "closing": "missing"
+   },
+   "values": {
+    "title": "Join Our Team – Business Development Manager (Singapore)",
+    "employer": "InnovateTech Solutions",
+    "pay": null,
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": true,
+   "partial_reasons": [
+    "no_body"
+   ],
+   "missing_fields": [
+    "pay",
+    "duties",
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "HP1": {
+   "fields": {
+    "title": "missing",
+    "employer": "missing",
+    "pay": "missing",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "values": {
+    "title": null,
+    "employer": null,
+    "pay": null,
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": true,
+   "partial_reasons": [
+    "cut_off"
+   ],
+   "missing_fields": [
+    "title",
+    "employer",
+    "pay",
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "HP2": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "missing",
+    "duties": "missing",
+    "closing": "missing"
+   },
+   "values": {
+    "title": "Senior Data Analytics Engineer – Singapore",
+    "employer": "Careers at AuroraTech Solutions",
+    "pay": null,
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": true,
+   "partial_reasons": [
+    "no_body"
+   ],
+   "missing_fields": [
+    "pay",
+    "duties",
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "HP3": {
+   "fields": {
+    "title": "missing",
+    "employer": "missing",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "values": {
+    "title": null,
+    "employer": null,
+    "pay": "SGD 3,800",
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [
+    "title",
+    "employer",
+    "closing"
+   ],
+   "minimum_fields_present": false
+  }
+ }
+}

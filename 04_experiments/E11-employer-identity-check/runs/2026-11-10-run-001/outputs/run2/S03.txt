@@ -1,0 +1,20 @@
+Nium Pte. Ltd.  (role: Software Engineer)
+HEADLINE: exists_limited_evidence
+  Registered in Singapore, but there is little public evidence beyond the registry.
+  because: registry: confirmed; web evidence thin (3 pages read, model: None)
+REGISTRY: confirmed. NIUM PTE. LTD. is registered in Singapore (status: Live Company, registered 2014-08-01).
+  flag: other entities start with this name: NIUM (S) PTE. LTD.
+WEB: 5 queries (bing, duckduckgo), 6 of 8 pages read, exact name seen in 6 pages and 14 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 3):
+  - NIUM PTE. LTD. Careers and Employment | Indeed.com  https://sg.indeed.com/cmp/Nium-Pte.-Ltd.
+  - NIUM PTE. LTD. Salaries in Singapore | Indeed.com  https://sg.indeed.com/cmp/Nium-
+    Pte.-Ltd./salaries
+  - Solutions Engineer Salaries in Singapore for NIUM   https://sg.indeed.com/cmp/Nium-
+    Pte.-Ltd./salaries/Solutions%20Engineer
+COULD NOT READ (2):
+  - https://straitsdata.com/companies/sg/nium-pte-ltd/201422465R  (thin: fewer than 400 characters
+    of real content)
+  - https://tracxn.com/d/legal-entities/singapore/nium-pte.ltd./__fP0czTrb  (blocked_by_robots: the
+    site's robots.txt does not allow this page)
+DEGRADED: summary_unavailable: model rate limit reached (retry in 1883 s)
+(83.0s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

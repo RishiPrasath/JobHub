@@ -1,0 +1,214 @@
+{
+ "employer": "CapitaLand Group Pte. Ltd.",
+ "role": "Asset Manager",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 2369 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "CAPITALAND GROUP PTE. LTD. is registered in Singapore (status: Live Company, registered 1989-01-05).",
+  "basis": "name only",
+  "entity": {
+   "uen": "198900036N",
+   "name": "CAPITALAND GROUP PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1989-01-05",
+   "activity": "INVESTMENT HOLDING AND CORPORATE HEADQUARTERS"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"CapitaLand Group Pte. Ltd.\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"CapitaLand Group Pte. Ltd.\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"CapitaLand Group Pte. Ltd.\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"CapitaLand Group Pte. Ltd.\" Asset Manager interview process salary",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 1,
+    "error": null
+   },
+   {
+    "query": "\"CapitaLand Group Pte. Ltd.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.reveliolabs.com/companies/capitaland-group/employees",
+    "status": "thin",
+    "chars": 120,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.capitaland.com/en.html",
+    "status": "ok",
+    "chars": 1109,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.zoominfo.com/c/capitaland-group-pte-ltd/6701116",
+    "status": "thin",
+    "chars": 106,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.straitstimes.com/business/capitaland-investment-retrenches-90-singapore-staff-in-2026-as-part-of-restructuring",
+    "status": "ok",
+    "chars": 2831,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.businesstimes.com.sg/companies-markets/capitaland-investment-retrenches-90-singapore-staff-2026-part-restructuring",
+    "status": "ok",
+    "chars": 2627,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.asiaone.com/singapore/capitaland-retrenchment-restructuring",
+    "status": "ok",
+    "chars": 3090,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.channelnewsasia.com/singapore/capitaland-lays-90-workers-singapore-6359906",
+    "status": "ok",
+    "chars": 2014,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://vulcanpost.com/913035/capitaland-investment-singapore-2026-retrenchments",
+    "status": "ok",
+    "chars": 2376,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Reviews/CapitaLand-Reviews-E9451.htm",
+    "title": "CapitaLand Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.co.uk/Overview/Working-at-CapitaLand-EI_IE9451.11,21.htm",
+    "title": "CapitaLand Career: Working at CapitaLand | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.linkedin.com/company/capitaland-limited",
+    "title": "CapitaLand - LinkedIn",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.linkedin.com/in/pei-pei-chua-b8011ab",
+    "title": "Pei Pei Chua - CapitaLand | LinkedIn",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "capitaland group"
+   ],
+   "pages_with_exact_name": 1,
+   "snippets_with_exact_name": 11,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 9,
+  "registry_mirror_pages": 0
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (6 pages read, model: None)"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://www.reveliolabs.com/companies/capitaland-group/employees",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://www.zoominfo.com/c/capitaland-group-pte-ltd/6701116",
+   "why": "thin: fewer than 400 characters of real content"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Reviews/CapitaLand-Reviews-E9451.htm",
+   "title": "CapitaLand Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.co.uk/Overview/Working-at-CapitaLand-EI_IE9451.11,21.htm",
+   "title": "CapitaLand Career: Working at CapitaLand | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.linkedin.com/company/capitaland-limited",
+   "title": "CapitaLand - LinkedIn",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.linkedin.com/in/pei-pei-chua-b8011ab",
+   "title": "Pei Pei Chua - CapitaLand | LinkedIn",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 37.6,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

@@ -1,0 +1,38 @@
+Kestrel Payments
+About us
+Our culture
+Careers
+News
+Contact
+
+Back to all jobs
+
+Senior Data Engineer
+Location: Singapore
+Employment: Full-time
+Salary: Salary: not published on this page, discussed at interview
+We review applications on a rolling basis.
+
+Apply for this job
+
+Overview
+Join Kestrel Payments and help us grow.
+
+What you'll do
+Build batch and streaming pipelines on our data platform
+Own data quality checks and alerting
+Partner with risk and fraud analysts on feature tables
+
+What you'll bring
+5 years of data engineering, Python and SQL
+Experience with Kafka or similar
+Knowledge of payments data is helpful
+
+Benefits
+Annual leave, medical insurance, training budget
+
+Equal opportunity employer.
+
+Share this job: LinkedIn · Facebook · Email
+Privacy policy
+© 2026 Kestrel Payments

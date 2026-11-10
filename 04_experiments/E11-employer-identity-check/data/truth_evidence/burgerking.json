@@ -1,0 +1,49 @@
+{
+ "key": "burgerking",
+ "domain": "www.burgerking.com.sg",
+ "pages": [
+  {
+   "url": "https://www.burgerking.com.sg/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Opportunities BK Cares Privacy Policy TM & (C) 2026 BURGER KING COMPANY LLC"
+   ],
+   "copyright": []
+  },
+  {
+   "url": "https://www.burgerking.com.sg/privacy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Burger King Logo Privacy Policy Privacy Policy Burger King Singapore Pte. Ltd.",
+    "Opportunities BK Cares Privacy Policy TM & (C) 2026 BURGER KING COMPANY LLC"
+   ],
+   "copyright": []
+  },
+  {
+   "url": "https://www.burgerking.com.sg/about",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Opportunities BK Cares Privacy Policy TM & (C) 2026 BURGER KING COMPANY LLC",
+    "Peninsula Plaza. Today, Burger King Singapore Pte. Ltd."
+   ],
+   "copyright": []
+  },
+  {
+   "url": "https://www.burgerking.com.sg/legal",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Burger King Singapore Pte. Ltd.",
+    "Opportunities BK Cares Privacy Policy TM & (C) 2026 BURGER KING COMPANY LLC",
+    "WICH, WHOPPER, and WHOPPER JR., are owned by Burger King Company, LLC"
+   ],
+   "copyright": [
+    "on, and only so long as you comply with these Terms. &nbsp; Copyright and Other Intellectual Property Rights . BKS Content is protected under applicable intellectual property laws. You ackn",
+    "d an email to us at atyourservice@burgerking.com.sg. &nbsp; © 2025 Burger King Singapore Pte. Ltd. All rights reserved. BK Info About BK News & Press Legal Contact Us My BK Events B"
+   ]
+  }
+ ]
+}

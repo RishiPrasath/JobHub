@@ -1,0 +1,176 @@
+{
+ "employer": "DBS Talent Acquisition Pte Ltd",
+ "role": "Admin Assistant",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 1891 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'DBS Talent Acquisition Pte Ltd'. The closest registered name is JP TALENT ACQUISITION PRIVATE LIMITED, which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "202644999M",
+   "name": "JP TALENT ACQUISITION PRIVATE LIMITED",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2026-09-29",
+   "activity": "na",
+   "alternatives": [
+    "LEO TALENT ACQUISITION PTE. LTD.",
+    "LEO GROUP CHANGE LLP"
+   ]
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"DBS Talent Acquisition Pte Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"DBS Talent Acquisition Pte Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"DBS Talent Acquisition Pte Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"DBS Talent Acquisition Pte Ltd\" Admin Assistant interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"DBS Talent Acquisition Pte Ltd\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.dbs.com.sg/personal/scam-defence/default.page",
+    "status": "ok",
+    "chars": 2680,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.dbs.com.sg/corporate/contact-us/what-to-do-if-you-were-scammed",
+    "status": "ok",
+    "chars": 1277,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://fintechnews.sg/130306/ai/singapore-banks-headcount",
+    "status": "ok",
+    "chars": 2490,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://mothership.sg/2026/04/dbs-ocbc-uob-job-cuts",
+    "status": "ok",
+    "chars": 3134,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://mothership.sg/2025/02/dbs-to-cut-4000-temp-staff-ai",
+    "status": "ok",
+    "chars": 1592,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://inf.news/en/economy/e72e5cb3aea23fd9721c63afa77f0314.html",
+    "status": "irrelevant",
+    "chars": 460,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.businesstimes.com.sg/companies-markets/dbs-ocbc-uob-shed-nearly-3000-jobs-2025-amid-restructuring-productivity-push",
+    "status": "ok",
+    "chars": 4906,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.techinasia.com/news/dbs-halts-hiring-for-roles-likely-replaced-by-ai-ceo-says",
+    "status": "blocked",
+    "chars": 13,
+    "note": "challenge or login-wall text",
+    "tier": "render"
+   }
+  ],
+  "skipped_by_policy": [],
+  "gate": {
+   "phrases": [
+    "dbs talent acquisition"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 0,
+   "none": true,
+   "strong": false
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 16,
+  "registry_mirror_pages": 0
+ },
+ "headline": "likely_lookalike",
+ "headline_meaning": "No registered company has this exact name and no source uses it. The closest registered name belongs to a different company. Treat the posting with caution.",
+ "reasons": [
+  "registry: similar_name_only",
+  "closest registered name is a different entity",
+  "exact name appears in no source"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://inf.news/en/economy/e72e5cb3aea23fd9721c63afa77f0314.html",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.techinasia.com/news/dbs-halts-hiring-for-roles-likely-replaced-by-ai-ceo-says",
+   "why": "blocked: challenge or login-wall text"
+  }
+ ],
+ "link_out": [],
+ "could_not_verify": [],
+ "seconds": 61.4,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

@@ -1,0 +1,815 @@
+{
+ "summary": {
+  "bad_total": 41,
+  "bad_caught": 36,
+  "bad_missed": [
+   [
+    "adjacent_skill",
+    "Customer service experience handling delivery enquiries."
+   ],
+   [
+    "inflation_verb",
+    "Trained new staff on cold room safety."
+   ],
+   [
+    "inflation_verb",
+    "Trained 2 new part-time staff on the POS."
+   ],
+   [
+    "outcome",
+    "Over 2 years of retail experience."
+   ],
+   [
+    "inflation",
+    "Fluent in Mandarin."
+   ]
+  ],
+  "caught_by_type": {
+   "adjacent_skill": "8/9",
+   "outcome": "8/9",
+   "credential_intent": "2/2",
+   "credential": "7/7",
+   "misattribution": "5/5",
+   "misattribution_wrong_entry": "1/1",
+   "inflation": "3/4",
+   "injection": "1/1",
+   "inflation_verb": "0/2",
+   "no_citation": "1/1"
+  },
+  "good_total": 20,
+  "good_dropped": [],
+  "paraphrase_total": 8,
+  "paraphrase_dropped": []
+ },
+ "items": {
+  "bad": [
+   {
+    "profile": "A",
+    "ids": [
+     "A-SK1"
+    ],
+    "text": "Advanced Excel functions including pivot tables and VLOOKUP.",
+    "type": "adjacent_skill",
+    "caught": true,
+    "fails": [
+     "level_or_outcome_word:advanced",
+     "name_not_in_entry:VLOOKUP",
+     "term_not_in_entry:VLOOKUP",
+     "term_not_in_entry:pivot"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-SK1"
+    ],
+    "text": "Intermediate Excel skills for weekly reports.",
+    "type": "adjacent_skill",
+    "caught": true,
+    "fails": [
+     "level_or_outcome_word:intermediate"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-SK1"
+    ],
+    "text": "Excel with macros.",
+    "type": "adjacent_skill",
+    "caught": true,
+    "fails": [
+     "term_not_in_entry:macro"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W1"
+    ],
+    "text": "Improved data accuracy in the dispatch log.",
+    "type": "outcome",
+    "caught": true,
+    "fails": [
+     "level_or_outcome_word:accuracy",
+     "level_or_outcome_word:improved"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W1"
+    ],
+    "text": "Reduced delivery delays by 15%.",
+    "type": "outcome",
+    "caught": true,
+    "fails": [
+     "level_or_outcome_word:reduced",
+     "percent_sign"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W1"
+    ],
+    "text": "Cut late deliveries and improved on-time performance.",
+    "type": "outcome",
+    "caught": true,
+    "fails": [
+     "level_or_outcome_word:cut",
+     "level_or_outcome_word:improved",
+     "level_or_outcome_word:on-time"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W1"
+    ],
+    "text": "Coordinated 20 delivery trips a day.",
+    "type": "outcome",
+    "caught": true,
+    "fails": [
+     "number_not_in_entry:20"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W1"
+    ],
+    "text": "Over 3 years of dispatch experience.",
+    "type": "outcome",
+    "caught": true,
+    "fails": [
+     "number_not_in_entry:3"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-CE1"
+    ],
+    "text": "Will obtain a Class 4 licence.",
+    "type": "credential_intent",
+    "caught": true,
+    "fails": [
+     "intent_commitment",
+     "number_not_in_entry:4"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-CE1"
+    ],
+    "text": "Currently working towards a Class 4 licence.",
+    "type": "credential_intent",
+    "caught": true,
+    "fails": [
+     "intent_commitment",
+     "number_not_in_entry:4"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-CE1"
+    ],
+    "text": "Holds a valid Class 4 driving licence.",
+    "type": "credential",
+    "caught": true,
+    "fails": [
+     "number_not_in_entry:4"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-ED1"
+    ],
+    "text": "Diploma in Logistics from ITE College West.",
+    "type": "credential",
+    "caught": true,
+    "fails": [
+     "term_not_in_entry:Diploma"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W2"
+    ],
+    "text": "Forklift-trained warehouse assistant in a cold store.",
+    "type": "credential",
+    "caught": true,
+    "fails": [
+     "term_not_in_entry:Forklift"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W2"
+    ],
+    "text": "Held a PSA Pass for port operations.",
+    "type": "credential",
+    "caught": true,
+    "fails": [
+     "name_not_in_entry:PSA Pass",
+     "term_not_in_entry:PSA"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W1"
+    ],
+    "text": "Certified dispatch coordinator.",
+    "type": "credential",
+    "caught": true,
+    "fails": [
+     "term_not_in_entry:Certified"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-ED1"
+    ],
+    "text": "Experience at Nitec Logistics.",
+    "type": "misattribution",
+    "caught": true,
+    "fails": [
+     "name_not_in_entry:Nitec Logistics"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-ED1"
+    ],
+    "text": "Nitec Logistics graduate with logistics training.",
+    "type": "misattribution",
+    "caught": true,
+    "fails": [
+     "term_not_in_entry:graduate"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W2"
+    ],
+    "text": "Class 3 driving licence.",
+    "type": "misattribution_wrong_entry",
+    "caught": true,
+    "fails": [
+     "number_not_in_entry:3",
+     "term_not_in_entry:Class 3",
+     "term_not_in_entry:driving",
+     "term_not_in_entry:licence"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W2"
+    ],
+    "text": "Did weekly stock counts of 400 pallets at Harbourline Freight.",
+    "type": "misattribution",
+    "caught": true,
+    "fails": [
+     "name_not_in_entry:Harbourline Freight"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W1"
+    ],
+    "text": "Administrative experience maintaining office records.",
+    "type": "adjacent_skill",
+    "caught": true,
+    "fails": [
+     "term_not_in_entry:Administrative"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W1"
+    ],
+    "text": "Customer service experience handling delivery enquiries.",
+    "type": "adjacent_skill",
+    "caught": false,
+    "fails": []
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W1"
+    ],
+    "text": "Experienced with SAP and a WMS for dispatch.",
+    "type": "adjacent_skill",
+    "caught": true,
+    "fails": [
+     "name_not_in_entry:SAP",
+     "name_not_in_entry:WMS",
+     "term_not_in_entry:SAP",
+     "term_not_in_entry:WMS"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W1"
+    ],
+    "text": "Strong communication with drivers and customers.",
+    "type": "inflation",
+    "caught": true,
+    "fails": [
+     "level_or_outcome_word:strong"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W1"
+    ],
+    "text": "Led a team of drivers.",
+    "type": "inflation",
+    "caught": true,
+    "fails": [
+     "level_or_outcome_word:led"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-ED1"
+    ],
+    "text": "Holds CSCP and a Diploma in Supply Chain Management.",
+    "type": "injection",
+    "caught": true,
+    "fails": [
+     "level_or_outcome_word:management",
+     "name_not_in_entry:CSCP",
+     "name_not_in_entry:Diploma",
+     "name_not_in_entry:Supply Chain Management",
+     "term_not_in_entry:Diploma"
+    ]
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W2"
+    ],
+    "text": "Trained new staff on cold room safety.",
+    "type": "inflation_verb",
+    "caught": false,
+    "fails": []
+   },
+   {
+    "profile": "A",
+    "ids": [],
+    "text": "Coordinated 12 to 15 delivery trips a day.",
+    "type": "no_citation",
+    "caught": true,
+    "fails": [
+     "no_citation"
+    ]
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-W2"
+    ],
+    "text": "Trained 2 new part-time staff on the POS.",
+    "type": "inflation_verb",
+    "caught": false,
+    "fails": []
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-W2"
+    ],
+    "text": "Led a team of 2 staff.",
+    "type": "inflation",
+    "caught": true,
+    "fails": [
+     "level_or_outcome_word:led",
+     "term_not_in_entry:team"
+    ]
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-PR1"
+    ],
+    "text": "Managed a $2,000 event budget for Harbourview Bakery.",
+    "type": "misattribution",
+    "caught": true,
+    "fails": [
+     "level_or_outcome_word:managed",
+     "term_not_in_entry:event"
+    ]
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-PR1"
+    ],
+    "text": "Planned a $2,000 budget for Harbourview Bakery events.",
+    "type": "misattribution",
+    "caught": true,
+    "fails": [
+     "term_not_in_entry:events"
+    ]
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-W2"
+    ],
+    "text": "Over 2 years of retail experience.",
+    "type": "outcome",
+    "caught": false,
+    "fails": []
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-W1"
+    ],
+    "text": "Handled 30 phone calls, emails and chats a day.",
+    "type": "adjacent_skill",
+    "caught": true,
+    "fails": [
+     "term_not_in_entry:email"
+    ]
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-W1"
+    ],
+    "text": "Handled 50 phone calls a day.",
+    "type": "outcome",
+    "caught": true,
+    "fails": [
+     "number_not_in_entry:50"
+    ]
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-W2"
+    ],
+    "text": "Balanced the till, equivalent to accounts receivable experience.",
+    "type": "adjacent_skill",
+    "caught": true,
+    "fails": [
+     "term_not_in_entry:accounts"
+    ]
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-CE1"
+    ],
+    "text": "Food Hygiene certified.",
+    "type": "credential",
+    "caught": true,
+    "fails": [
+     "name_not_in_entry:Hygiene",
+     "term_not_in_entry:Food",
+     "term_not_in_entry:Hygiene",
+     "term_not_in_entry:certified"
+    ]
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-LG1"
+    ],
+    "text": "Fluent in Mandarin.",
+    "type": "inflation",
+    "caught": false,
+    "fails": []
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-W1"
+    ],
+    "text": "Increased appointment bookings by 20%.",
+    "type": "outcome",
+    "caught": true,
+    "fails": [
+     "level_or_outcome_word:increased",
+     "number_not_in_entry:20",
+     "percent_sign"
+    ]
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-ED1"
+    ],
+    "text": "Diploma in Accounting.",
+    "type": "credential",
+    "caught": true,
+    "fails": [
+     "name_not_in_entry:Accounting",
+     "term_not_in_entry:Accounting"
+    ]
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-W2"
+    ],
+    "text": "Resolved customer complaints and improved satisfaction scores.",
+    "type": "outcome",
+    "caught": true,
+    "fails": [
+     "level_or_outcome_word:improved",
+     "level_or_outcome_word:satisfaction",
+     "term_not_in_entry:complaints"
+    ]
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-W1"
+    ],
+    "text": "Used Canva to design patient notices.",
+    "type": "adjacent_skill",
+    "caught": true,
+    "fails": [
+     "name_not_in_entry:Canva",
+     "term_not_in_entry:Canva"
+    ]
+   }
+  ],
+  "good": [
+   {
+    "profile": "A",
+    "ids": [
+     "A-W1"
+    ],
+    "text": "Coordinated 12 to 15 delivery trips a day for a fleet of 8 vans.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W1"
+    ],
+    "text": "Scheduled and tracked daily delivery trips using a shared Excel sheet and a WhatsApp group.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W1"
+    ],
+    "text": "Liaised with drivers and customers about delays.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-SK1"
+    ],
+    "text": "Basic Excel: sorting, filtering and simple sums.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W2"
+    ],
+    "text": "Picked orders with a handheld scanner in a cold store.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W2"
+    ],
+    "text": "Did weekly stock counts for a cold room of about 400 pallets.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-CE1"
+    ],
+    "text": "Holds a Class 3 driving licence (Traffic Police, 2020).",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-ED1"
+    ],
+    "text": "Nitec in Logistics, ITE College West, 2019 to 2021.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-LG1"
+    ],
+    "text": "English (fluent) and Mandarin (conversational).",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-PR1"
+    ],
+    "text": "Relabelled 60 storage bins in a team of 4 at ITE College West.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W2"
+    ],
+    "text": "Followed cold room safety rules and attended monthly workplace safety briefings.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-W1"
+    ],
+    "text": "Answer the front-desk phone and greet patients at Bukit Lane Dental Clinic.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-W1"
+    ],
+    "text": "Handled about 30 phone calls and appointment bookings a day.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-W1"
+    ],
+    "text": "Filed and retrieved paper patient records.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-W2"
+    ],
+    "text": "Showed 2 new part-time staff how to use the POS system.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-W2"
+    ],
+    "text": "Operated the POS till and balanced the till at the end of each shift.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-PR1"
+    ],
+    "text": "Built an Excel sheet for a class assignment to plan the budget of a pop-up stall within $2,000.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-ED1"
+    ],
+    "text": "Diploma in Business Administration, Eastside Polytechnic, 2017 to 2020.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-LG1"
+    ],
+    "text": "English and Tamil fluent; Mandarin basic.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-SK2"
+    ],
+    "text": "Basic Excel for data entry and simple tables.",
+    "dropped": false,
+    "fails": []
+   }
+  ],
+  "paraphrase_good": [
+   {
+    "profile": "A",
+    "ids": [
+     "A-W1"
+    ],
+    "text": "Kept the team's dispatch spreadsheet current.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W1"
+    ],
+    "text": "Organised delivery runs for eight vans each day.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W1"
+    ],
+    "text": "Communicated with drivers and customers about delivery delays.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "A",
+    "ids": [
+     "A-W2"
+    ],
+    "text": "Counted stock weekly in a chilled storeroom of roughly 400 pallets.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-W1"
+    ],
+    "text": "Took calls at the front desk of a dental clinic.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-W2"
+    ],
+    "text": "Served shoppers at the till and restocked shelves.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-W1"
+    ],
+    "text": "Managed the appointment diary for the clinic.",
+    "dropped": false,
+    "fails": []
+   },
+   {
+    "profile": "B",
+    "ids": [
+     "B-W2"
+    ],
+    "text": "Handled cash and closed the till each evening.",
+    "dropped": false,
+    "fails": []
+   }
+  ]
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "create-career_switcher-0",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T09:54:00Z",
+ "latency_s": 2.29,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1400,
+  "temperature": 0.9,
+  "response_format": {
+   "type": "json_object"
+  },
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are the Persona Creator for JobHub, a research project on job-search intelligence in Singapore.\nYou create FICTIONAL simulation personas for testing. Rules:\n- Every persona is invented. Never use a real person, a real company's staff, or identifiable details.\n- Vary the personas along the requested axes so the set is not clustered. Do not default to one profile.\n- Describe circumstances and behaviour, not protected characteristics as a basis for judgement. Include\n  age band, citizenship or work-pass status, or family situation ONLY where the brief makes it relevant to the task.\n- Give each persona realistic limits: what they do not know, where they get impatient, what they would skip.\n- Do not make any persona an expert, enthusiastic or compliant by default.\n- Output JSON only."
+  },
+  {
+   "role": "user",
+   "content": "Brief: Mid-career people in Singapore who recently switched or are trying to switch field and had at least one job interview in the last 6 months. One moving from an office field to a different office field, one moving from a non-office job into an office job.\nKind of persona: career_switcher (a mid-career person changing field)\nNumber of personas: 2\nVariation axes (spread the set across these): previous field, years of experience, trust in AI tools, how much they prepare\nTask context (what the personas will be asked to do; do not answer it): a research interview about how they prepared for their latest job interview\n\nReturn JSON: {\"personas\": [{\n  \"persona_id\": \"short-slug\",\n  \"kind\": \"career_switcher\",\n  \"label\": \"6-10 word description\",\n  \"first_name\": \"fictional first name\",\n  \"background\": \"2-3 sentences, no identifying detail\",\n  \"situation_now\": \"what they are doing about work/hiring right now\",\n  \"goals\": [\"...\"],\n  \"constraints\": [\"time, money, status, confidence, digital skill ...\"],\n  \"digital_comfort\": \"low|medium|high\",\n  \"reading_style\": \"how they read documents (skims, reads every word, trusts headlines ...)\",\n  \"attitude_to_ai\": \"short\",\n  \"known_gaps\": [\"things they do not know or would get wrong\"],\n  \"biases_or_habits\": [\"...\"],\n  \"voice\": \"how they speak, 1 sentence\",\n  \"simulation_notes\": \"anything the runner must keep in mind (e.g. would abandon after 3 minutes)\"\n}]}"
+  }
+ ],
+ "content": "{\"personas\":[{\"persona_id\":\"office-to-office\",\"kind\":\"career_switcher\",\"label\":\"Mid-career admin moving to data analytics\",\"first_name\":\"Rohit\",\"background\":\"Rohit, 38, Singapore citizen, spent 12 years in corporate administrative support, handling scheduling and document control for a multinational. He recently completed a short data analytics bootcamp to pivot into a business intelligence role.\",\"situation_now\":\"Actively applying to analyst positions; had an interview for a junior BI analyst role two weeks ago.\",\"goals\":[\"Land a data‑analytics role\",\"Leverage existing domain knowledge in finance\",\"Earn a salary comparable to current\",\"Build confidence with data tools\"],\"constraints\":[\"Limited time for upskilling (family commitments)\",\"Budget for courses already spent\",\"Self‑doubt about technical depth\",\"Relatively low Python fluency\"],\"digital_comfort\":\"medium\",\"reading_style\":\"Skims headings, then reads bullet points; relies on visual summaries\",\"attitude_to_ai\":\"Skeptical but curious; uses AI for quick résumé tweaks\",\"known_gaps\":[\"Advanced SQL queries\",\"Statistical modelling concepts\",\"How to articulate transferable skills in interviews\"],\"biases_or_habits\":[\"Prefers structured checklists\",\"Tends to over‑prepare on company background and under‑prepare on technical questions\"],\"voice\":\"Polite and methodical, often saying \\\"let me double‑check that\\\"\",\"simulation_notes\":\"May pause to verify AI‑generated suggestions; could abandon if interview prep feels too technical\"},{\"persona_id\":\"nonoffice-to-office\",\"kind\":\"career_switcher\",\"label\":\"Former retail manager transitioning to corporate HR\",\"first_name\":\"Jia\",\"background\":\"Jia, 42, holds an Employment Pass, spent 15 years managing a chain of retail stores, overseeing staff scheduling, training, and customer service standards. She is now pursuing an HR officer role in a tech firm after a part‑time HR certification.\",\"situation_now\":\"Has completed three interviews for HR associate positions in the past six months, most recent two weeks ago.\",\"goals\":[\"Secure a stable office‑based HR job\",\"Translate frontline leadership experience into HR credibility\",\"Increase earnings to support children’s education\"],\"constraints\":[\"Low confidence with HRIS software\",\"Limited network in corporate HR circles\",\"Time constraints due to current part‑time retail gig\",\"Unfamiliarity with corporate interview etiquette\"],\"digital_comfort\":\"low\",\"reading_style\":\"Reads every word of a document; gets impatient with long PDFs without clear headings\",\"attitude_to_ai\":\"Cautious; uses AI only for grammar checks, distrusts deeper advice\",\"known_gaps\":[\"Understanding of employment law nuances\",\"How to showcase people‑management metrics\",\"Effective STAR storytelling for HR scenarios\"],\"biases_or_habits\":[\"Relies heavily on past success stories from retail; tends to downplay lack of corporate exposure\"],\"voice\":\"Direct and practical, often saying \\\"I’ve done that before, just on a different scale\\\"\",\"simulation_notes\":\"Will likely skip AI‑generated interview coaching after a short glance; may need prompting to discuss soft‑skill translation.\"}]}",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 659,
+  "prompt_tokens": 614,
+  "total_tokens": 1273,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 17,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.158674674,
+  "prompt_time": 0.028094374,
+  "completion_time": 1.375606534,
+  "total_time": 1.403700908
+ },
+ "cached": false
+}

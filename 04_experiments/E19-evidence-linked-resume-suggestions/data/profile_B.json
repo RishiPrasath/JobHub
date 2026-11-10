@@ -1,0 +1,27 @@
+{
+  "profile_id": "B",
+  "synthetic": true,
+  "note": "Synthetic profile written for E19 in the FEAT-016 field format. No real person. Today is taken as 2026-11-10 for date arithmetic.",
+  "personal": {"name": "Priya Nair", "city": "Singapore", "right_to_work": "Singapore permanent resident"},
+  "summary": "Part-time clinic administrator with earlier retail experience and a business diploma.",
+  "entries": [
+    {"id": "B-W1", "type": "work", "title": "Administrative Assistant", "employer": "Bukit Lane Dental Clinic", "employment_type": "part-time", "start": "Aug 2022", "end": "present",
+     "description": "Manage the appointment diary, answer the front-desk phone, greet patients and file patient records. Work 3 days a week.",
+     "achievements": ["Handled about 30 phone calls and appointment bookings a day", "Filed and retrieved paper patient records"],
+     "skills_used": ["appointment scheduling", "phone handling", "filing", "MS Word"]},
+    {"id": "B-W2", "type": "work", "title": "Retail Sales Assistant", "employer": "Orchard Row Stationers", "employment_type": "full-time", "start": "Dec 2020", "end": "Jul 2022",
+     "description": "Served customers, operated the POS till, restocked shelves and counted the cash at close.",
+     "achievements": ["Showed 2 new part-time staff how to use the POS system", "Balanced the till at the end of each shift"],
+     "skills_used": ["POS", "customer service", "cash handling"]},
+    {"id": "B-ED1", "type": "education", "qualification": "Diploma in Business Administration", "institution": "Eastside Polytechnic", "field": "Business Administration", "start": "2017", "end": "2020"},
+    {"id": "B-CE1", "type": "certification", "name": "Standard First Aid (CPR and AED)", "issuing_body": "Lionsgate Training Centre", "issued": "2021"},
+    {"id": "B-SK1", "type": "skill", "name": "MS Word", "level": "working"},
+    {"id": "B-SK2", "type": "skill", "name": "Excel", "level": "basic", "detail": "data entry and simple tables"},
+    {"id": "B-SK3", "type": "skill", "name": "Customer service", "level": "working"},
+    {"id": "B-SK4", "type": "skill", "name": "Appointment scheduling", "level": "working"},
+    {"id": "B-LG1", "type": "language", "name": "Languages", "detail": "English (fluent), Tamil (fluent), Mandarin (basic)"},
+    {"id": "B-PR1", "type": "project", "title": "Harbourview Bakery pop-up stall budget", "role": "team member", "dates": "2019", "description": "Polytechnic class assignment on a bakery case study: built an Excel sheet to plan the budget of a pop-up stall within a $2,000 budget.", "skills_used": ["Excel", "budgeting", "teamwork"]}
+  ],
+  "employer_names": ["Bukit Lane Dental Clinic", "Orchard Row Stationers"],
+  "non_employer_names": ["Eastside Polytechnic", "Harbourview Bakery", "Lionsgate Training Centre"]
+}

@@ -1,0 +1,206 @@
+{
+ "employer": "Nium Pte. Ltd.",
+ "role": "Software Engineer",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 1883 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "NIUM PTE. LTD. is registered in Singapore (status: Live Company, registered 2014-08-01).",
+  "basis": "name only",
+  "entity": {
+   "uen": "201422465R",
+   "name": "NIUM PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2014-08-01",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [
+   "other entities start with this name: NIUM (S) PTE. LTD."
+  ],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Nium Pte. Ltd.\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 3,
+    "error": null
+   },
+   {
+    "query": "\"Nium Pte. Ltd.\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Nium Pte. Ltd.\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Nium Pte. Ltd.\" Software Engineer interview process salary",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 3,
+    "error": null
+   },
+   {
+    "query": "\"Nium Pte. Ltd.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.emis.com/php/company-profile/SG/Nium_Pte_Ltd_en_7035812.html",
+    "status": "ok",
+    "chars": 1289,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Nium-Pte-Ltd",
+    "status": "ok",
+    "chars": 9352,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/business/201422465R/NIUM-PTE-LTD",
+    "status": "ok",
+    "chars": 11727,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://recordowl.com/company/instarem-pte-limited",
+    "status": "ok",
+    "chars": 8798,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://straitsdata.com/companies/sg/nium-pte-ltd/201422465R",
+    "status": "thin",
+    "chars": 263,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://opengovsg.com/corporate/201422465R",
+    "status": "ok",
+    "chars": 3799,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://membership.singaporefintech.org/company/201422465R",
+    "status": "ok",
+    "chars": 975,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://tracxn.com/d/legal-entities/singapore/nium-pte.ltd./__fP0czTrbP3qx24K02j7wWuuO61M9WHo5T0GvdFKZG6U",
+    "status": "blocked_by_robots",
+    "chars": 0,
+    "note": "the site's robots.txt does not allow this page",
+    "tier": null
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.indeed.com/cmp/Nium-Pte.-Ltd.",
+    "title": "NIUM PTE. LTD. Careers and Employment | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Nium-Pte.-Ltd./salaries",
+    "title": "NIUM PTE. LTD. Salaries in Singapore | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Nium-Pte.-Ltd./salaries/Solutions%20Engineer",
+    "title": "Solutions Engineer Salaries in Singapore for NIUM PTE. LTD ... - Indeed",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "nium"
+   ],
+   "pages_with_exact_name": 6,
+   "snippets_with_exact_name": 14,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 16,
+  "registry_mirror_pages": 3
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (3 pages read, model: None)"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://straitsdata.com/companies/sg/nium-pte-ltd/201422465R",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://tracxn.com/d/legal-entities/singapore/nium-pte.ltd./__fP0czTrbP3qx24K02j7wWuuO61M9WHo5T0GvdFKZG6U",
+   "why": "blocked_by_robots: the site's robots.txt does not allow this page"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://sg.indeed.com/cmp/Nium-Pte.-Ltd.",
+   "title": "NIUM PTE. LTD. Careers and Employment | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Nium-Pte.-Ltd./salaries",
+   "title": "NIUM PTE. LTD. Salaries in Singapore | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Nium-Pte.-Ltd./salaries/Solutions%20Engineer",
+   "title": "Solutions Engineer Salaries in Singapore for NIUM PTE. LTD ... - Indeed",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 83.0,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

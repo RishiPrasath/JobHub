@@ -1,0 +1,26 @@
+{
+ "_note": "Manual scoring by the experiment specialist (an AI) AFTER all Part B arm outputs were written. Raw arm outputs in armA/ and armB/ are not edited. Mapping from neutral codes to ground-truth ids is in the mapping field and was NOT shown to executors.",
+ "mapping": {"O01":"C2 Hays","O02":"K3 Imtidad","O03":"K5 Perrett Laver","O04":"C4 Recruit Express","O05":"K1 Maids R Us","O06":"C1 Randstad","O07":"K4 Hwei Long","O08":"C5 Kelly Services","O09":"K2 Wonderful Agency","O10":"C3 Robert Walters"},
+ "recall_web": {
+  "armA": {"K1":false,"K2":true,"K3":false,"K4":false,"K5":false, "note": "K2 found as a MOM prosecution (14 charges, 28 May 2026) named in a MOM press release; it is an action by MOM on the entity, not the licence revocation shown in the directory. K1 and K5 and K4: nothing found. K3: only a namesake (Imtidad Employment Agency Pte Ltd) was returned and correctly labelled other_entity."},
+  "armB": {"K1":false,"K2":true,"K3":false,"K4":false,"K5":false, "note": "K2 found from the same MOM press release, read directly. Others not found; K3 namesakes labelled other, not misattributed; K1 'SRC Recruitment' and unnamed licence-revoked agency correctly kept as other entities."}
+ },
+ "recall_list_check": {"K1":true,"K2":true,"K3":true,"K4":true,"K5":true, "note": "BY CONSTRUCTION: ground truth was taken from the same MOM EA directory list that the list check reads. Not independent evidence of recall."},
+ "controls_wrong_flags_strict_frozen_rubric": {
+  "armA": {"count":0, "of":5, "note": "No item asserted a licence/regulator/court/complaint-alert issue about the Singapore control entity that its source did not support. UK/other-entity items were labelled other_entity."},
+  "armB": {"count":0, "of":5, "note": "Same reading. One consumer_complaint item (Randstad, a Glassdoor employee review) is a category mislabel, see sensitivity."}
+ },
+ "controls_sensitivity_any_flag_like_item_about_control": {
+  "armA": {"controls_with_such_item":["C4 Recruit Express (3 ComplaintsBoard user complaints about staff attitude)","C1 Randstad (Glassdoor review, category other)","C2 Hays (Glassdoor review, category other)","C3 Robert Walters (Glassdoor review, category other)"], "count_C4_only_if_complaint_sites_count":1, "count_if_employee_reviews_also_count":4, "of":5},
+  "armB": {"controls_with_such_item":["C4 Recruit Express (3 ComplaintsBoard complaints, one naming a branch consultant)","C1 Randstad (Glassdoor review labelled consumer_complaint)","C2 Hays (3 Glassdoor reviews)","C3 Robert Walters (Glassdoor review)"], "count_C4_only_if_complaint_sites_count":1, "count_if_employee_reviews_also_count":4, "of":5}
+ },
+ "impersonation_handling": {
+  "armA": {"impersonation_warnings_surfaced":9, "labelled_impersonation":9, "shown_as_misconduct":0},
+  "armB": {"impersonation_warnings_surfaced":11, "labelled_impersonation":10, "shown_as_misconduct":0, "note": "One Robert Walters trust-centre notice (lookalike email domains used by scammers) was labelled 'other', not impersonation. It was not shown as misconduct."},
+  "caveat": "Labels come from the same LLM that was given the category names in its prompt; the product would need its own rule for this."
+ },
+ "unsupported_claims": {
+  "armA": {"items":29, "without_source_url":0, "contradicted_by_source":0, "note": "Evidence for most Arm A items is a search title or snippet only (agent told not to open pages). Spot check of cited pages: Randstad statement (opened, supports), Kelly letterhead article (opened, supports), MOM press release for Wonderful (opened, supports, 14 charges); two pages (Robert Walters Malaysia, ComplaintsBoard) returned HTTP 403 and could not be checked. 0 unsupported found; the rest unverified."},
+  "armB": {"items":46, "without_source_url":1, "contradicted_by_source":0, "note": "One Glassdoor claim (Robert Walters, 2016 review) was given without a page URL ('taken from search-result summary'): 1 of 46 = 2.2%, a claim shown without a source. 7 page reads failed (HTTP 403 or error) across the 10 organisations."}
+ }
+}

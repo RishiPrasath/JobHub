@@ -1,0 +1,525 @@
+{
+ "frozen_note": "Written by the specialist before any model call. AI-written; not reviewed by an HR or employment-law professional.",
+ "modes_key": "stated | missing | unclear | not_applicable",
+ "letters": {
+  "L01": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "stated",
+    "C05": "not_applicable",
+    "C06": "stated",
+    "C07": "stated",
+    "C08": "stated",
+    "C09": "stated",
+    "C10": "stated",
+    "C11": "not_applicable",
+    "C12": "not_applicable",
+    "C13": "stated",
+    "C14": "stated",
+    "C15": "stated",
+    "C16": "stated",
+    "C17": "stated",
+    "C18": "stated",
+    "C19": "stated"
+   },
+   "inconsistencies": []
+  },
+  "L02": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "stated",
+    "C05": "stated",
+    "C06": "stated",
+    "C07": "stated",
+    "C08": "stated",
+    "C09": "stated",
+    "C10": "stated",
+    "C11": "stated",
+    "C12": "stated",
+    "C13": "stated",
+    "C14": "stated",
+    "C15": "stated",
+    "C16": "stated",
+    "C17": "stated",
+    "C18": "stated",
+    "C19": "stated"
+   },
+   "inconsistencies": []
+  },
+  "L03": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "stated",
+    "C05": "not_applicable",
+    "C06": "stated",
+    "C07": "stated",
+    "C08": "stated",
+    "C09": "stated",
+    "C10": "stated",
+    "C11": "stated",
+    "C12": "stated",
+    "C13": "stated",
+    "C14": "stated",
+    "C15": "stated",
+    "C16": "stated",
+    "C17": "stated",
+    "C18": "stated",
+    "C19": "stated"
+   },
+   "inconsistencies": []
+  },
+  "L04": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "stated",
+    "C05": "not_applicable",
+    "C06": "stated",
+    "C07": "stated",
+    "C08": "stated",
+    "C09": "stated",
+    "C10": "stated",
+    "C11": "not_applicable",
+    "C12": "not_applicable",
+    "C13": "stated",
+    "C14": "stated",
+    "C15": "stated",
+    "C16": "stated",
+    "C17": "stated",
+    "C18": "stated",
+    "C19": "stated"
+   },
+   "inconsistencies": []
+  },
+  "L05": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "stated",
+    "C05": "not_applicable",
+    "C06": "stated",
+    "C07": "stated",
+    "C08": "stated",
+    "C09": "stated",
+    "C10": "stated",
+    "C11": "not_applicable",
+    "C12": "not_applicable",
+    "C13": "stated",
+    "C14": "stated",
+    "C15": "stated",
+    "C16": "missing",
+    "C17": "missing",
+    "C18": "stated",
+    "C19": "stated"
+   },
+   "inconsistencies": []
+  },
+  "L06": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "missing",
+    "C05": "stated",
+    "C06": "stated",
+    "C07": "missing",
+    "C08": "stated",
+    "C09": "stated",
+    "C10": "stated",
+    "C11": "stated",
+    "C12": "stated",
+    "C13": "stated",
+    "C14": "stated",
+    "C15": "stated",
+    "C16": "stated",
+    "C17": "stated",
+    "C18": "stated",
+    "C19": "stated"
+   },
+   "inconsistencies": []
+  },
+  "L07": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "stated",
+    "C05": "stated",
+    "C06": "stated",
+    "C07": "stated",
+    "C08": "stated",
+    "C09": "stated",
+    "C10": "stated",
+    "C11": "stated",
+    "C12": "stated",
+    "C13": "stated",
+    "C14": "missing",
+    "C15": "stated",
+    "C16": "stated",
+    "C17": "stated",
+    "C18": "stated",
+    "C19": "missing"
+   },
+   "inconsistencies": []
+  },
+  "L08": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "stated",
+    "C05": "not_applicable",
+    "C06": "stated",
+    "C07": "stated",
+    "C08": "unclear",
+    "C09": "stated",
+    "C10": "stated",
+    "C11": "not_applicable",
+    "C12": "not_applicable",
+    "C13": "stated",
+    "C14": "stated",
+    "C15": "missing",
+    "C16": "stated",
+    "C17": "stated",
+    "C18": "stated",
+    "C19": "stated"
+   },
+   "inconsistencies": []
+  },
+  "L09": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "stated",
+    "C05": "not_applicable",
+    "C06": "missing",
+    "C07": "stated",
+    "C08": "stated",
+    "C09": "stated",
+    "C10": "stated",
+    "C11": "stated",
+    "C12": "stated",
+    "C13": "stated",
+    "C14": "stated",
+    "C15": "stated",
+    "C16": "stated",
+    "C17": "stated",
+    "C18": "missing",
+    "C19": "stated"
+   },
+   "inconsistencies": []
+  },
+  "L10": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "unclear",
+    "C04": "stated",
+    "C05": "not_applicable",
+    "C06": "stated",
+    "C07": "stated",
+    "C08": "stated",
+    "C09": "stated",
+    "C10": "stated",
+    "C11": "not_applicable",
+    "C12": "not_applicable",
+    "C13": "missing",
+    "C14": "stated",
+    "C15": "stated",
+    "C16": "stated",
+    "C17": "stated",
+    "C18": "stated",
+    "C19": "stated"
+   },
+   "inconsistencies": []
+  },
+  "L11": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "stated",
+    "C05": "not_applicable",
+    "C06": "stated",
+    "C07": "stated",
+    "C08": "stated",
+    "C09": "missing",
+    "C10": "missing",
+    "C11": "missing",
+    "C12": "missing",
+    "C13": "stated",
+    "C14": "stated",
+    "C15": "stated",
+    "C16": "stated",
+    "C17": "stated",
+    "C18": "stated",
+    "C19": "stated"
+   },
+   "inconsistencies": []
+  },
+  "L12": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "stated",
+    "C05": "not_applicable",
+    "C06": "stated",
+    "C07": "stated",
+    "C08": "stated",
+    "C09": "stated",
+    "C10": "stated",
+    "C11": "not_applicable",
+    "C12": "not_applicable",
+    "C13": "stated",
+    "C14": "stated",
+    "C15": "stated",
+    "C16": "unclear",
+    "C17": "unclear",
+    "C18": "stated",
+    "C19": "stated"
+   },
+   "inconsistencies": []
+  },
+  "L13": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "stated",
+    "C05": "not_applicable",
+    "C06": "stated",
+    "C07": "stated",
+    "C08": "stated",
+    "C09": "stated",
+    "C10": "stated",
+    "C11": "not_applicable",
+    "C12": "not_applicable",
+    "C13": "stated",
+    "C14": "stated",
+    "C15": "stated",
+    "C16": "stated",
+    "C17": "stated",
+    "C18": "stated",
+    "C19": "stated"
+   },
+   "inconsistencies": [
+    {
+     "id": "INC-L13-1",
+     "items": [
+      "C08"
+     ],
+     "description": "Body states basic salary $5,200 per month; summary table states $5,800"
+    }
+   ]
+  },
+  "L14": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "stated",
+    "C05": "not_applicable",
+    "C06": "stated",
+    "C07": "stated",
+    "C08": "stated",
+    "C09": "stated",
+    "C10": "stated",
+    "C11": "not_applicable",
+    "C12": "not_applicable",
+    "C13": "stated",
+    "C14": "stated",
+    "C15": "stated",
+    "C16": "stated",
+    "C17": "stated",
+    "C18": "stated",
+    "C19": "stated"
+   },
+   "inconsistencies": [
+    {
+     "id": "INC-L14-1",
+     "items": [
+      "C04"
+     ],
+     "description": "Body states start 15 February 2027; summary states 1 March 2027"
+    }
+   ]
+  },
+  "L15": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "stated",
+    "C05": "stated",
+    "C06": "stated",
+    "C07": "stated",
+    "C08": "stated",
+    "C09": "stated",
+    "C10": "stated",
+    "C11": "stated",
+    "C12": "stated",
+    "C13": "stated",
+    "C14": "stated",
+    "C15": "stated",
+    "C16": "stated",
+    "C17": "stated",
+    "C18": "stated",
+    "C19": "stated"
+   },
+   "inconsistencies": [
+    {
+     "id": "INC-L15-1",
+     "items": [
+      "C16"
+     ],
+     "description": "Letter states probation 3 months; handbook extract states 6 months"
+    },
+    {
+     "id": "INC-L15-2",
+     "items": [
+      "C17"
+     ],
+     "description": "Letter states 2 weeks' notice; handbook extract states 1 month"
+    }
+   ]
+  },
+  "L16": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "stated",
+    "C05": "not_applicable",
+    "C06": "stated",
+    "C07": "stated",
+    "C08": "stated",
+    "C09": "stated",
+    "C10": "stated",
+    "C11": "stated",
+    "C12": "stated",
+    "C13": "stated",
+    "C14": "stated",
+    "C15": "stated",
+    "C16": "stated",
+    "C17": "stated",
+    "C18": "stated",
+    "C19": "stated"
+   },
+   "inconsistencies": [
+    {
+     "id": "INC-L16-1",
+     "items": [
+      "C06"
+     ],
+     "description": "Letter states 5.5 working days a week with alternate Saturdays; working-days line states Monday to Saturday, 6 days a week"
+    }
+   ]
+  },
+  "L17": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "stated",
+    "C05": "not_applicable",
+    "C06": "stated",
+    "C07": "stated",
+    "C08": "stated",
+    "C09": "stated",
+    "C10": "missing",
+    "C11": "not_applicable",
+    "C12": "not_applicable",
+    "C13": "stated",
+    "C14": "unclear",
+    "C15": "unclear",
+    "C16": "stated",
+    "C17": "stated",
+    "C18": "stated",
+    "C19": "stated"
+   },
+   "inconsistencies": []
+  },
+  "L18": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "stated",
+    "C05": "not_applicable",
+    "C06": "missing",
+    "C07": "stated",
+    "C08": "stated",
+    "C09": "stated",
+    "C10": "missing",
+    "C11": "not_applicable",
+    "C12": "not_applicable",
+    "C13": "missing",
+    "C14": "missing",
+    "C15": "missing",
+    "C16": "stated",
+    "C17": "stated",
+    "C18": "missing",
+    "C19": "missing"
+   },
+   "inconsistencies": []
+  },
+  "L19": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "stated",
+    "C05": "stated",
+    "C06": "stated",
+    "C07": "stated",
+    "C08": "stated",
+    "C09": "stated",
+    "C10": "missing",
+    "C11": "stated",
+    "C12": "stated",
+    "C13": "missing",
+    "C14": "unclear",
+    "C15": "missing",
+    "C16": "missing",
+    "C17": "stated",
+    "C18": "stated",
+    "C19": "missing"
+   },
+   "inconsistencies": []
+  },
+  "L20": {
+   "modes": {
+    "C01": "stated",
+    "C02": "stated",
+    "C03": "stated",
+    "C04": "stated",
+    "C05": "not_applicable",
+    "C06": "stated",
+    "C07": "stated",
+    "C08": "stated",
+    "C09": "stated",
+    "C10": "stated",
+    "C11": "stated",
+    "C12": "stated",
+    "C13": "stated",
+    "C14": "stated",
+    "C15": "missing",
+    "C16": "stated",
+    "C17": "stated",
+    "C18": "stated",
+    "C19": "missing"
+   },
+   "inconsistencies": []
+  }
+ }
+}

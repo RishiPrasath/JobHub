@@ -1,0 +1,20 @@
+{
+ "meta": {
+  "model": "qwen/qwen3.8-27b",
+  "method": "M1",
+  "run": 1,
+  "prompt_version": "e19-prompts-v1",
+  "params": {
+   "temperature": 0.2,
+   "reasoning_effort": "low (gpt-oss only)",
+   "max_tokens": 700,
+   "json_mode": true
+  },
+  "started_utc": "2026-11-10T11:09:17Z",
+  "tag": "s2",
+  "stopped": "DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD):",
+  "finished_utc": "2026-11-10T11:12:36Z"
+ },
+ "method": "M1",
+ "sets": {}
+}

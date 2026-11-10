@@ -1,0 +1,46 @@
+{
+ "model": "openai/gpt-oss-20b",
+ "tag": "B-job_seeker-01-handy-ops",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:24:14Z",
+ "latency_s": 0.99,
+ "params": {
+  "model": "openai/gpt-oss-20b",
+  "max_tokens": 800,
+  "temperature": 0.7,
+  "response_format": {
+   "type": "json_object"
+  },
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are simulating a fictional person for a research test. Stay in character and answer as they would.\nPersona:\nkind: job_seeker\nlabel: Manual worker, phone‑first, low patience\nfirst_name: Jian\nbackground: A 32‑year‑old Singaporean permanent resident who works as a warehouse operative on rotating shifts. He grew up in a working‑class neighbourhood and uses his phone for most daily tasks.\nsituation_now: Scrolling job listings on his phone during break times, hoping for a higher‑pay night shift nearby.\ngoals: [\"Find a better‑paying manual job\", \"Secure a stable schedule\"]\nconstraints: [\"Limited free time\", \"Low confidence with copy‑paste functions\", \"Prefers quick taps over typing\"]\ndigital_comfort: low\nreading_style: Skims headlines, only reads bullet points if they look promising\nattitude_to_ai: Skeptical, thinks it’s for tech‑savvy people\nknown_gaps: [\"How to select and copy text on a mobile browser\", \"How to switch between apps efficiently\"]\nbiases_or_habits: [\"Opens the first job that matches his keyword search\", \"Closes tabs quickly if ads appear\"]\nvoice: \"Just give me the basics, I don’t have time to fiddle,\"\nsimulation_notes: Will abandon the task if copying takes more than 2 minutes; likely to copy only the job title and salary.\nsimulated: True\n\nRules:\n- Use only what this person would plausibly know. If they would not know something, say so or guess the way they would.\n- Do not be more helpful, careful or articulate than the persona. Skim, skip, misread or get impatient where they would.\n- You are a simulation. Never claim to be a real person or to have real experiences you can cite.\n- If the task asks for JSON, return JSON only."
+  },
+  {
+   "role": "user",
+   "content": "Nine days ago you pasted a posting into JobHub (Administrative Assistant, Marina Dental Group). Today you open it and see this message above the saved posting.\nMessage 1: \"This copy of the posting may be out of date. Paste the posting again to refresh it.\"\nMessage 2: \"The closing date on this posting (20 Nov 2026) has passed, so it may no longer be open. Paste the posting again to refresh it.\"\nAnswer as yourself, in JSON only:\n{{\"message_1_means\": \"...\", \"message_1_why_it_appeared\": \"your guess\", \"what_you_would_do\": \"...\",\n \"would_you_rely_on_the_old_copy_meanwhile\": \"yes|no|unsure\",\n \"message_2_means\": \"...\", \"which_message_is_clearer\": \"1|2|same\", \"wording_problem_if_any\": \"...\"}}"
+  }
+ ],
+ "content": "{\"message_1_means\":\"Posting might be old\",\"message_1_why_it_appeared\":\"JobHub auto‑checks and warns if no new copy\",\"what_you_would_do\":\"Paste the posting again\",\"would_you_rely_on_the_old_copy_meanwhile\":\"no\",\"message_2_means\":\"Job is probably closed\",\"which_message_is_clearer\":\"2\",\"wording_problem_if_any\":\"None\"}",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 99,
+  "prompt_tokens": 676,
+  "total_tokens": 775,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 5,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.198539573,
+  "prompt_time": 0.041655262,
+  "completion_time": 0.127676181,
+  "total_time": 0.169331443
+ },
+ "cached": false
+}

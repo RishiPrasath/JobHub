@@ -1,0 +1,149 @@
+[
+ {
+  "id": "X3-31",
+  "title": "Mechanical Engineer (Manufacturing / Industrial) / West",
+  "note": "B alt rejected by A",
+  "B_alt_rejected": [
+   "21411"
+  ],
+  "A": "21441",
+  "B": "21441"
+ },
+ {
+  "id": "X3-34",
+  "title": "Mechanical Engineer (Tuas, Manufacturing / Precision Engineering)",
+  "note": "B alt rejected by A",
+  "B_alt_rejected": [
+   "21411"
+  ],
+  "A": "21441",
+  "B": "21441"
+ },
+ {
+  "id": "X3-36",
+  "title": "DEMI CHEF",
+  "A": "34341",
+  "B": "51201",
+  "B_alt": [
+   "34341"
+  ],
+  "A_alt": [
+   "51201"
+  ],
+  "resolution": "Demi chef is a chef rank; cook also defensible. Both accepted.",
+  "accept": [
+   "34341",
+   "51201"
+  ]
+ },
+ {
+  "id": "X3-42",
+  "title": "Account Executive (AR / Construction / ERP / Saga 300 / Ubi)",
+  "A": "43112",
+  "B": "33131",
+  "B_alt": [
+   "43112"
+  ],
+  "A_alt": [
+   "33131"
+  ],
+  "resolution": "Both accounts-clerk and assistant-accountant levels defensible. Both accepted.",
+  "accept": [
+   "43112",
+   "33131"
+  ]
+ },
+ {
+  "id": "X3-46",
+  "title": "ADMINSTRATIVE ACCOUNTS",
+  "A": "43112",
+  "B": "NONE",
+  "B_alt": [],
+  "A_alt": [
+   "33131",
+   "43111"
+  ],
+  "resolution": "A coded ledger clerk, B said title gives no clear duties. Genuinely ambiguous; clerk codes and NONE all accepted; excluded from the true no-match set.",
+  "accept": [
+   "43112",
+   "43111",
+   "NONE"
+  ]
+ },
+ {
+  "id": "X3-58",
+  "title": "Data Business Analyst",
+  "A": "25112",
+  "B": "21231",
+  "B_alt": [
+   "25112"
+  ],
+  "A_alt": [
+   "21231"
+  ],
+  "resolution": "Data business analyst: business analyst or data analyst. Both accepted.",
+  "accept": [
+   "25112",
+   "21231"
+  ]
+ },
+ {
+  "id": "SYN-21",
+  "title": "Accounts Payable Executive",
+  "A": "43112",
+  "B": "33131",
+  "B_alt": [
+   "43112"
+  ],
+  "A_alt": [
+   "33131"
+  ],
+  "resolution": "Accounts payable executive: clerk or assistant accountant. Both accepted.",
+  "accept": [
+   "43112",
+   "33131"
+  ]
+ },
+ {
+  "id": "SYN-22",
+  "title": "Payroll Executive",
+  "note": "B alt rejected by A",
+  "B_alt_rejected": [
+   "24233"
+  ],
+  "A": "43114",
+  "B": "43114"
+ },
+ {
+  "id": "SYN-25",
+  "title": "Video Editor",
+  "A": "21662",
+  "B": "26544",
+  "B_alt": [],
+  "A_alt": [
+   "26544"
+  ],
+  "resolution": "Video editor: multimedia/animator or video editor. Both accepted.",
+  "accept": [
+   "21662",
+   "26544"
+  ]
+ },
+ {
+  "id": "SYN-26",
+  "title": "Social Media Content Creator",
+  "A": "24314",
+  "B": "26413",
+  "B_alt": [
+   "24314"
+  ],
+  "A_alt": [
+   "26413"
+  ],
+  "resolution": "Social content creator: digital marketing or content writer. Both accepted.",
+  "accept": [
+   "24314",
+   "26413"
+  ]
+ }
+]

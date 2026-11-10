@@ -1,0 +1,180 @@
+{
+ "employer": "Burger King Singapore Pte. Ltd.",
+ "role": "Crew Member",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 1795 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "BURGER KING SINGAPORE PTE. LTD. is registered in Singapore (status: Live Company, registered 2009-01-13).",
+  "basis": "name only",
+  "entity": {
+   "uen": "200900741N",
+   "name": "BURGER KING SINGAPORE PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2009-01-13",
+   "activity": "OPERATION OF COMPANY-OPERATED BURGER KING RESTAURANTS, TRAINING OF FRANCHISES"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Burger King Singapore Pte. Ltd.\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Burger King Singapore Pte. Ltd.\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Burger King Singapore Pte. Ltd.\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Burger King Singapore Pte. Ltd.\" Crew Member interview process salary",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 5,
+    "error": null
+   },
+   {
+    "query": "\"Burger King Singapore Pte. Ltd.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.sgpbusiness.com/company/Burger-King-Singapore-Pte-Ltd",
+    "status": "ok",
+    "chars": 11346,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://recordowl.com/company/burger-king-singapore-pte-ltd",
+    "status": "ok",
+    "chars": 8668,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.emis.com/php/company-profile/SG/Burger_King_Singapore_Pte_Ltd_en_16582417.html",
+    "status": "ok",
+    "chars": 1325,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.bizapore.com/en-SG/burger-king-singapore-pte-ltd_1d-6754-7028",
+    "status": "irrelevant",
+    "chars": 460,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.burgerking.com.sg/About",
+    "status": "ok",
+    "chars": 1351,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://sg.globaldatabase.com/company/burger-king-singapore-pte-ltd",
+    "status": "ok",
+    "chars": 4962,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.bloomberg.com/profile/company/3510274Z:SP",
+    "status": "ok",
+    "chars": 692,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.goodjobs.com.sg/employers/burger-king-singapore-pte-ltd",
+    "status": "ok",
+    "chars": 5531,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.linkedin.com/in/burger-king-singapore",
+    "title": "Burger King Singapore - -- | LinkedIn",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "burger king singapore"
+   ],
+   "pages_with_exact_name": 7,
+   "snippets_with_exact_name": 21,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 16,
+  "registry_mirror_pages": 2
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (5 pages read, model: None)"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://www.bizapore.com/en-SG/burger-king-singapore-pte-ltd_1d-6754-7028",
+   "why": "irrelevant: the page never mentions the company name"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://sg.linkedin.com/in/burger-king-singapore",
+   "title": "Burger King Singapore - -- | LinkedIn",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 50.5,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

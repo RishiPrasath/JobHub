@@ -1,0 +1,53 @@
+{
+ "key": "lazada",
+ "domain": "www.lazada.sg",
+ "pages": [
+  {
+   "url": "https://www.lazada.sg/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "EALTH & BEAUTY Shiseido , Estee Lauder , The Body Shop , Watsons , Skin Inc"
+   ],
+   "copyright": [
+    "Sri Lanka , Myanmar , Nepal Lazada Southeast Asia Follow Us © Lazada 2026 "
+   ]
+  },
+  {
+   "url": "https://www.lazada.sg/privacy-policy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "livery Services Verified by Lazada Southeast Asia Follow Us © Lazada 2026 "
+   ]
+  },
+  {
+   "url": "https://www.lazada.sg/privacy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "livery Services Verified by Lazada Southeast Asia Follow Us © Lazada 2026 "
+   ]
+  },
+  {
+   "url": "https://www.lazada.sg/terms",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "livery Services Verified by Lazada Southeast Asia Follow Us © Lazada 2026 "
+   ]
+  },
+  {
+   "url": "https://www.lazada.sg/terms-and-conditions",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "livery Services Verified by Lazada Southeast Asia Follow Us © Lazada 2026 "
+   ]
+  }
+ ]
+}

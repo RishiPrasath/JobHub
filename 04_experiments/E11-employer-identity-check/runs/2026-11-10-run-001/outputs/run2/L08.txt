@@ -1,0 +1,12 @@
+Singapore Airlines Limited  (role: Cabin Crew)
+HEADLINE: exists_limited_evidence
+  Registered in Singapore, but there is little public evidence beyond the registry.
+  because: registry: confirmed; web evidence thin (5 pages read, model: None)
+REGISTRY: confirmed. SINGAPORE AIRLINES LIMITED is registered in Singapore (status: Live Company, registered 1972-01-28).
+  flag: other entities start with this name: SINGAPORE AIRLINES CARGO PTE LTD
+WEB: 5 queries (bing, duckduckgo), 8 of 8 pages read, exact name seen in 8 pages and 13 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 2):
+  - Singapore Airlines Careers and Employment | Indeed  https://sg.indeed.com/cmp/Singapore-Airlines
+  - Singapore Airlines Careers and Employment | Indeed  https://hk.indeed.com/cmp/Singapore-Airlines
+DEGRADED: summary_unavailable: model rate limit reached (retry in 2520 s)
+(59.3s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

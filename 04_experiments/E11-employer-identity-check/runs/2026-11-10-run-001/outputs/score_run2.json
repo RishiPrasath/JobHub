@@ -1,0 +1,539 @@
+{
+ "run": "run2",
+ "n": 39,
+ "classes": {
+  "correct": 13,
+  "unknown_accepted": 4,
+  "unknown_refused": 2,
+  "brand_unresolved": 5,
+  "wrong_refusal": 3,
+  "no_company_named": 3,
+  "named_company": 3,
+  "lookalike_caught": 6
+ },
+ "by_stratum": {
+  "large": {
+   "correct": 7,
+   "unknown_accepted": 1,
+   "unknown_refused": 1
+  },
+  "sme": {
+   "correct": 6,
+   "unknown_accepted": 2
+  },
+  "brand": {
+   "brand_unresolved": 5,
+   "wrong_refusal": 3,
+   "unknown_refused": 1,
+   "unknown_accepted": 1
+  },
+  "hidden": {
+   "no_company_named": 3,
+   "named_company": 3
+  },
+  "lookalike": {
+   "lookalike_caught": 6
+  }
+ },
+ "seconds_total_sum": 2207.5,
+ "seconds_mean": 56.6,
+ "rows": {
+  "L01": {
+   "stratum": "large",
+   "employer": "DBS Bank Ltd",
+   "truth": "entity",
+   "truth_uen": "196800306E",
+   "headline": "exists_limited_evidence",
+   "got_uen": "196800306E",
+   "class": "correct",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 2407 s)"
+   ],
+   "seconds": 38.8
+  },
+  "L02": {
+   "stratum": "large",
+   "employer": "Keppel Ltd",
+   "truth": "entity",
+   "truth_uen": "196800351N",
+   "headline": "exists_limited_evidence",
+   "got_uen": "196800351N",
+   "class": "correct",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 2925 s)"
+   ],
+   "seconds": 43.7
+  },
+  "L03": {
+   "stratum": "large",
+   "employer": "ComfortDelGro Corporation Limited",
+   "truth": "entity",
+   "truth_uen": "200300002K",
+   "headline": "exists_limited_evidence",
+   "got_uen": "200300002K",
+   "class": "correct",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 3117 s)"
+   ],
+   "seconds": 56.0
+  },
+  "L04": {
+   "stratum": "large",
+   "employer": "Changi Airport Group (Singapore) Pte. Ltd.",
+   "truth": "entity",
+   "truth_uen": "200910817N",
+   "headline": "exists_limited_evidence",
+   "got_uen": "200910817N",
+   "class": "correct",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 2120 s)"
+   ],
+   "seconds": 59.4
+  },
+  "L05": {
+   "stratum": "large",
+   "employer": "CapitaLand Group Pte. Ltd.",
+   "truth": "entity",
+   "truth_uen": "198900036N",
+   "headline": "exists_limited_evidence",
+   "got_uen": "198900036N",
+   "class": "correct",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 2369 s)"
+   ],
+   "seconds": 37.6
+  },
+  "L06": {
+   "stratum": "large",
+   "employer": "Raffles Medical Group Ltd",
+   "truth": "entity",
+   "truth_uen": "198901967K",
+   "headline": "exists_limited_evidence",
+   "got_uen": "198901967K",
+   "class": "correct",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 1794 s)"
+   ],
+   "seconds": 73.6
+  },
+  "L07": {
+   "stratum": "large",
+   "employer": "Starbucks Coffee Singapore Pte. Ltd.",
+   "truth": "entity",
+   "truth_uen": "198800670D",
+   "headline": "exists_limited_evidence",
+   "got_uen": "198800670D",
+   "class": "correct",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 2813 s)"
+   ],
+   "seconds": 90.9
+  },
+  "L08": {
+   "stratum": "large",
+   "employer": "Singapore Airlines Limited",
+   "truth": "unknown",
+   "truth_uen": null,
+   "headline": "exists_limited_evidence",
+   "got_uen": "197200078R",
+   "class": "unknown_accepted",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 2520 s)"
+   ],
+   "seconds": 59.3
+  },
+  "L09": {
+   "stratum": "large",
+   "employer": "NTUC FairPrice Co-operative Ltd",
+   "truth": "unknown",
+   "truth_uen": null,
+   "headline": "likely_lookalike",
+   "got_uen": null,
+   "class": "unknown_refused",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 1462 s)"
+   ],
+   "seconds": 13.9
+  },
+  "S01": {
+   "stratum": "sme",
+   "employer": "Ya Kun International Private Limited",
+   "truth": "entity",
+   "truth_uen": "200104668W",
+   "headline": "exists_limited_evidence",
+   "got_uen": "200104668W",
+   "class": "correct",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 1126 s)"
+   ],
+   "seconds": 59.8
+  },
+  "S02": {
+   "stratum": "sme",
+   "employer": "Burger King Singapore Pte. Ltd.",
+   "truth": "entity",
+   "truth_uen": "200900741N",
+   "headline": "exists_limited_evidence",
+   "got_uen": "200900741N",
+   "class": "correct",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 1795 s)"
+   ],
+   "seconds": 50.5
+  },
+  "S03": {
+   "stratum": "sme",
+   "employer": "Nium Pte. Ltd.",
+   "truth": "entity",
+   "truth_uen": "201422465R",
+   "headline": "exists_limited_evidence",
+   "got_uen": "201422465R",
+   "class": "correct",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 1883 s)"
+   ],
+   "seconds": 83.0
+  },
+  "S04": {
+   "stratum": "sme",
+   "employer": "Funding Societies Pte. Ltd.",
+   "truth": "entity",
+   "truth_uen": "201505169M",
+   "headline": "exists_limited_evidence",
+   "got_uen": "201505169M",
+   "class": "correct",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 2147 s)"
+   ],
+   "seconds": 89.0
+  },
+  "S05": {
+   "stratum": "sme",
+   "employer": "Ohmyhome Pte. Ltd.",
+   "truth": "entity",
+   "truth_uen": "201525768E",
+   "headline": "exists_limited_evidence",
+   "got_uen": "201525768E",
+   "class": "correct",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 1044 s)"
+   ],
+   "seconds": 100.9
+  },
+  "S06": {
+   "stratum": "sme",
+   "employer": "Seedly Pte. Ltd.",
+   "truth": "entity",
+   "truth_uen": "201602731H",
+   "headline": "exists_limited_evidence",
+   "got_uen": "201602731H",
+   "class": "correct",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 1965 s)"
+   ],
+   "seconds": 90.7
+  },
+  "S07": {
+   "stratum": "sme",
+   "employer": "Koufu Group Limited",
+   "truth": "unknown",
+   "truth_uen": null,
+   "headline": "exists_limited_evidence",
+   "got_uen": "201732833D",
+   "class": "unknown_accepted",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 1337 s)"
+   ],
+   "seconds": 43.7
+  },
+  "S08": {
+   "stratum": "sme",
+   "employer": "Carousell",
+   "truth": "unknown",
+   "truth_uen": null,
+   "headline": "exists_limited_evidence",
+   "got_uen": "201300296D",
+   "class": "unknown_accepted",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 2106 s)"
+   ],
+   "seconds": 59.7
+  },
+  "B01": {
+   "stratum": "brand",
+   "employer": "OCBC Bank",
+   "truth": "entity",
+   "truth_uen": "193200032W",
+   "headline": "brand_legal_entity_unconfirmed",
+   "got_uen": null,
+   "class": "brand_unresolved",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 1720 s)"
+   ],
+   "seconds": 60.5
+  },
+  "B02": {
+   "stratum": "brand",
+   "employer": "Singtel",
+   "truth": "entity",
+   "truth_uen": "199201624D",
+   "headline": "ambiguous_entity",
+   "got_uen": null,
+   "class": "wrong_refusal",
+   "degraded": [],
+   "seconds": 0.0
+  },
+  "B03": {
+   "stratum": "brand",
+   "employer": "SingPost",
+   "truth": "entity",
+   "truth_uen": "199201623M",
+   "headline": "not_active",
+   "got_uen": "202439966W",
+   "class": "wrong_refusal",
+   "degraded": [],
+   "seconds": 0.0
+  },
+  "B04": {
+   "stratum": "brand",
+   "employer": "Grab",
+   "truth": "unknown",
+   "truth_uen": null,
+   "headline": "not_active",
+   "got_uen": "53355133A",
+   "class": "unknown_refused",
+   "degraded": [],
+   "seconds": 0.0
+  },
+  "B05": {
+   "stratum": "brand",
+   "employer": "NTUC Income",
+   "truth": "entity",
+   "truth_uen": "202135698W",
+   "headline": "brand_legal_entity_unconfirmed",
+   "got_uen": null,
+   "class": "brand_unresolved",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 1418 s)"
+   ],
+   "seconds": 56.7
+  },
+  "B06": {
+   "stratum": "brand",
+   "employer": "McDonald's Singapore",
+   "truth": "entity",
+   "truth_uen": "197600722D",
+   "headline": "brand_legal_entity_unconfirmed",
+   "got_uen": null,
+   "class": "brand_unresolved",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 2256 s)"
+   ],
+   "seconds": 65.3
+  },
+  "B07": {
+   "stratum": "brand",
+   "employer": "Mr Bean",
+   "truth": "entity",
+   "truth_uen": "199901613E",
+   "headline": "brand_legal_entity_unconfirmed",
+   "got_uen": null,
+   "class": "brand_unresolved",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 2340 s)"
+   ],
+   "seconds": 60.0
+  },
+  "B08": {
+   "stratum": "brand",
+   "employer": "Swensen's",
+   "truth": "entity",
+   "truth_uen": "197803023H",
+   "headline": "brand_legal_entity_unconfirmed",
+   "got_uen": null,
+   "class": "brand_unresolved",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 1673 s)"
+   ],
+   "seconds": 47.3
+  },
+  "B09": {
+   "stratum": "brand",
+   "employer": "Aspire",
+   "truth": "entity",
+   "truth_uen": "201903520D",
+   "headline": "not_active",
+   "got_uen": "200407197M",
+   "class": "wrong_refusal",
+   "degraded": [],
+   "seconds": 0.0
+  },
+  "B10": {
+   "stratum": "brand",
+   "employer": "Toast Box",
+   "truth": "unknown",
+   "truth_uen": null,
+   "headline": "brand_legal_entity_unconfirmed",
+   "got_uen": null,
+   "class": "unknown_accepted",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 1313 s)"
+   ],
+   "seconds": 68.4
+  },
+  "H01": {
+   "stratum": "hidden",
+   "employer": "Confidential Employer",
+   "truth": "not_disclosed",
+   "truth_uen": null,
+   "headline": "could_not_confirm_company",
+   "got_uen": null,
+   "class": "no_company_named",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 360 s)"
+   ],
+   "seconds": 45.5
+  },
+  "H02": {
+   "stratum": "hidden",
+   "employer": "Our Client - A Global Bank",
+   "truth": "not_disclosed",
+   "truth_uen": null,
+   "headline": "could_not_confirm_company",
+   "got_uen": null,
+   "class": "no_company_named",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 1861 s)"
+   ],
+   "seconds": 76.3
+  },
+  "H03": {
+   "stratum": "hidden",
+   "employer": "A Leading MNC",
+   "truth": "not_disclosed",
+   "truth_uen": null,
+   "headline": "could_not_confirm_company",
+   "got_uen": null,
+   "class": "no_company_named",
+   "degraded": [
+    "no_web_sources: nothing could be read or found, so no summary was written"
+   ],
+   "seconds": 63.1
+  },
+  "H04": {
+   "stratum": "hidden",
+   "employer": "Adecco Personnel Pte Ltd",
+   "truth": "not_disclosed",
+   "truth_uen": null,
+   "headline": "exists_limited_evidence",
+   "got_uen": "198500164K",
+   "class": "named_company",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 1247 s)"
+   ],
+   "seconds": 63.1
+  },
+  "H05": {
+   "stratum": "hidden",
+   "employer": "Hays Specialist Recruitment Pte. Ltd.",
+   "truth": "not_disclosed",
+   "truth_uen": null,
+   "headline": "exists_limited_evidence",
+   "got_uen": "200609504D",
+   "class": "named_company",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 1484 s)"
+   ],
+   "seconds": 67.6
+  },
+  "H06": {
+   "stratum": "hidden",
+   "employer": "Robert Walters (Singapore) Pte Ltd",
+   "truth": "not_disclosed",
+   "truth_uen": null,
+   "headline": "exists_limited_evidence",
+   "got_uen": "199706961E",
+   "class": "named_company",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 1310 s)"
+   ],
+   "seconds": 44.4
+  },
+  "F01": {
+   "stratum": "lookalike",
+   "employer": "Singtel Careers Hub Pte Ltd",
+   "truth": "not_real",
+   "truth_uen": null,
+   "headline": "could_not_confirm_company",
+   "got_uen": null,
+   "class": "lookalike_caught",
+   "degraded": [],
+   "seconds": 97.6
+  },
+  "F02": {
+   "stratum": "lookalike",
+   "employer": "Shopee Talent Solutions Pte Ltd",
+   "truth": "not_real",
+   "truth_uen": null,
+   "headline": "likely_lookalike",
+   "got_uen": null,
+   "class": "lookalike_caught",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 2495 s)"
+   ],
+   "seconds": 119.6
+  },
+  "F03": {
+   "stratum": "lookalike",
+   "employer": "DBS Talent Acquisition Pte Ltd",
+   "truth": "not_real",
+   "truth_uen": null,
+   "headline": "likely_lookalike",
+   "got_uen": null,
+   "class": "lookalike_caught",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 1891 s)"
+   ],
+   "seconds": 61.4
+  },
+  "F04": {
+   "stratum": "lookalike",
+   "employer": "CapitaLand Recruitment Services Pte Ltd",
+   "truth": "not_real",
+   "truth_uen": null,
+   "headline": "likely_lookalike",
+   "got_uen": null,
+   "class": "lookalike_caught",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 1988 s)"
+   ],
+   "seconds": 54.9
+  },
+  "F05": {
+   "stratum": "lookalike",
+   "employer": "Changi Airport Recruitment Centre Pte Ltd",
+   "truth": "not_real",
+   "truth_uen": null,
+   "headline": "likely_lookalike",
+   "got_uen": null,
+   "class": "lookalike_caught",
+   "degraded": [
+    "summary_unavailable: model rate limit reached (retry in 2320 s)"
+   ],
+   "seconds": 65.4
+  },
+  "F06": {
+   "stratum": "lookalike",
+   "employer": "Merlion Prime Staffing Solutions Pte Ltd",
+   "truth": "not_real",
+   "truth_uen": null,
+   "headline": "could_not_confirm_company",
+   "got_uen": null,
+   "class": "lookalike_caught",
+   "degraded": [
+    "no_web_sources: nothing could be read or found, so no summary was written"
+   ],
+   "seconds": 39.9
+  }
+ }
+}

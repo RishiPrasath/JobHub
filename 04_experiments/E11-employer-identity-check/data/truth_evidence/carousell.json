@@ -1,0 +1,15 @@
+{
+ "key": "carousell",
+ "domain": "support.carousell.com",
+ "pages": [
+  {
+   "url": "https://support.carousell.com/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Carousell Ltd."
+   ],
+   "copyright": []
+  }
+ ]
+}

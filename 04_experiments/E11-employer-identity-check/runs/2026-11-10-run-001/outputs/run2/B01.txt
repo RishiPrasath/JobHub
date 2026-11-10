@@ -1,0 +1,26 @@
+OCBC Bank  (role: Relationship Manager)
+HEADLINE: brand_legal_entity_unconfirmed
+  Public sources describe a company by this name, but the registry has no entity with this exact
+  name. It may trade under a brand name; the legal employer is not confirmed.
+  because: registry: similar_name_only; exact name seen 16 times in sources
+REGISTRY: similar_name_only. No registered entity is named 'OCBC Bank'. The closest registered name is OCBC PEARL LIMITED, which may be a different company.
+WEB: 5 queries (bing), 6 of 8 pages read, exact name seen in 2 pages and 14 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 10):
+  - Reviews OCBC Bank employee ratings and reviews | J  https://sg.jobstreet.com/companies/ocbc-
+    bank-168556574020149/reviews
+  - OCBC Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/OCBC-Reviews-E9773.htm
+  - OCBC Reviews in Singapore | Glassdoor  https://www.glassdoor.sg/Reviews/OCBC-Singapore-Reviews-
+    EI_IE9773.0,4_IL.5,14_IM
+  - Working at OCBC: 254 Reviews | Indeed.com  https://sg.indeed.com/cmp/Ocbc-3/reviews
+  - OCBC Reviews (3,661): Pros & Cons of Working At OC  https://www.glassdoor.com/Reviews/OCBC-
+    Reviews-E9773.htm
+  - Working at OCBC Bank company profile and informati  https://sg.jobstreet.com/companies/ocbc-
+    bank-168556574020149
+COULD NOT READ (2):
+  - https://www.ambitionbox.com/reviews/ocbc-bank-reviews/singapore-locati  (blocked: challenge or
+    login-wall text)
+  - https://www.ambitionbox.com/reviews/ocbc-bank-reviews  (blocked: challenge or login-wall text)
+COULD NOT VERIFY:
+  - Which registered company is the legal employer behind this brand.
+DEGRADED: summary_unavailable: model rate limit reached (retry in 1720 s)
+(60.5s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

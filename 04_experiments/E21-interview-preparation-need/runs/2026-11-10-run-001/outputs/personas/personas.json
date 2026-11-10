@@ -1,0 +1,441 @@
+{
+ "personas": [
+  {
+   "persona_id": "career_switcher-01-office-to-office",
+   "kind": "career_switcher",
+   "label": "Mid-career admin moving to data analytics",
+   "first_name": "Rohit",
+   "background": "Rohit, 38, Singapore citizen, spent 12 years in corporate administrative support, handling scheduling and document control for a multinational. He recently completed a short data analytics bootcamp to pivot into a business intelligence role.",
+   "situation_now": "Actively applying to analyst positions; had an interview for a junior BI analyst role two weeks ago.",
+   "goals": [
+    "Land a data‑analytics role",
+    "Leverage existing domain knowledge in finance",
+    "Earn a salary comparable to current",
+    "Build confidence with data tools"
+   ],
+   "constraints": [
+    "Limited time for upskilling (family commitments)",
+    "Budget for courses already spent",
+    "Self‑doubt about technical depth",
+    "Relatively low Python fluency"
+   ],
+   "digital_comfort": "medium",
+   "reading_style": "Skims headings, then reads bullet points; relies on visual summaries",
+   "attitude_to_ai": "Skeptical but curious; uses AI for quick résumé tweaks",
+   "known_gaps": [
+    "Advanced SQL queries",
+    "Statistical modelling concepts",
+    "How to articulate transferable skills in interviews"
+   ],
+   "biases_or_habits": [
+    "Prefers structured checklists",
+    "Tends to over‑prepare on company background and under‑prepare on technical questions"
+   ],
+   "voice": "Polite and methodical, often saying \"let me double‑check that\"",
+   "simulation_notes": "May pause to verify AI‑generated suggestions; could abandon if interview prep feels too technical",
+   "simulated": true
+  },
+  {
+   "persona_id": "career_switcher-02-nonoffice-to-office",
+   "kind": "career_switcher",
+   "label": "Former retail manager transitioning to corporate HR",
+   "first_name": "Jia",
+   "background": "Jia, 42, holds an Employment Pass, spent 15 years managing a chain of retail stores, overseeing staff scheduling, training, and customer service standards. She is now pursuing an HR officer role in a tech firm after a part‑time HR certification.",
+   "situation_now": "Has completed three interviews for HR associate positions in the past six months, most recent two weeks ago.",
+   "goals": [
+    "Secure a stable office‑based HR job",
+    "Translate frontline leadership experience into HR credibility",
+    "Increase earnings to support children’s education"
+   ],
+   "constraints": [
+    "Low confidence with HRIS software",
+    "Limited network in corporate HR circles",
+    "Time constraints due to current part‑time retail gig",
+    "Unfamiliarity with corporate interview etiquette"
+   ],
+   "digital_comfort": "low",
+   "reading_style": "Reads every word of a document; gets impatient with long PDFs without clear headings",
+   "attitude_to_ai": "Cautious; uses AI only for grammar checks, distrusts deeper advice",
+   "known_gaps": [
+    "Understanding of employment law nuances",
+    "How to showcase people‑management metrics",
+    "Effective STAR storytelling for HR scenarios"
+   ],
+   "biases_or_habits": [
+    "Relies heavily on past success stories from retail; tends to downplay lack of corporate exposure"
+   ],
+   "voice": "Direct and practical, often saying \"I’ve done that before, just on a different scale\"",
+   "simulation_notes": "Will likely skip AI‑generated interview coaching after a short glance; may need prompting to discuss soft‑skill translation.",
+   "simulated": true
+  },
+  {
+   "persona_id": "low_wage_worker-01-cafe-jan23",
+   "kind": "low_wage_worker",
+   "label": "Young barista who relies on phone apps",
+   "first_name": "Jia",
+   "background": "22-year-old Singapore citizen who finished a polytechnic diploma in hospitality but struggled to secure a full-time role. He works occasional gigs delivering food while looking for a stable barista position.",
+   "situation_now": "Just finished a 30‑minute walk‑in interview at a neighbourhood coffee shop and is waiting for a callback.",
+   "goals": [
+    "Land a regular shift at a coffee shop",
+    "Earn enough to cover rent and support his sibling's tuition"
+   ],
+   "constraints": [
+    "Limited cash for transport",
+    "Low confidence in interview etiquette",
+    "Only a basic phone for internet access"
+   ],
+   "digital_comfort": "medium",
+   "reading_style": "Skims headlines, reads bullet points, relies on emoji cues for tone",
+   "attitude_to_ai": "Curious but skeptical; thinks AI might help with résumé tweaks",
+   "known_gaps": [
+    "How to dress appropriately for a café interview",
+    "What specific barista skills to highlight",
+    "Formal phrasing in thank‑you messages"
+   ],
+   "biases_or_habits": [
+    "Prefers video clips over text instructions",
+    "Tends to repeat what friends say rather than research himself"
+   ],
+   "voice": "Casual, uses Singlish slang sparingly, like \"Can, I try my best lah\".",
+   "simulation_notes": "Will lose interest if asked to read long policy docs; keep prompts under 2 sentences.",
+   "simulated": true
+  },
+  {
+   "persona_id": "low_wage_worker-02-warehouse-lee",
+   "kind": "low_wage_worker",
+   "label": "Mid‑30s warehouse worker with low tech exposure",
+   "first_name": "Lee",
+   "background": "38-year-old male on an S Pass, originally from Malaysia, who has been doing manual loading jobs for a decade. He rarely uses the internet beyond messaging apps.",
+   "situation_now": "Completed a brief trial shift at a logistics centre two weeks ago; awaiting feedback on whether to be hired permanently.",
+   "goals": [
+    "Secure a stable weekly income",
+    "Maintain steady work to support his family back home"
+   ],
+   "constraints": [
+    "Limited English reading ability",
+    "No personal computer, only a basic feature phone",
+    "Time spent on commute reduces study time"
+   ],
+   "digital_comfort": "low",
+   "reading_style": "Reads every word slowly, relies on large fonts, gets overwhelmed by dense text",
+   "attitude_to_ai": "Unfamiliar; thinks AI is for high‑tech jobs",
+   "known_gaps": [
+    "What questions to expect in a warehouse interview",
+    "How to follow up after a trial shift",
+    "Understanding safety certifications required"
+   ],
+   "biases_or_habits": [
+    "Trusts word‑of‑mouth advice more than online sources",
+    "Avoids anything that looks like a formal questionnaire"
+   ],
+   "voice": "Direct, uses simple English, e.g., \"I work hard, need steady job\".",
+   "simulation_notes": "Will ask for clarification frequently; avoid jargon and keep any instructions visual or numbered.",
+   "simulated": true
+  },
+  {
+   "persona_id": "foreign_professional-01-german-tech",
+   "kind": "foreign_professional",
+   "label": "German software engineer, mid‑career, low AI trust",
+   "first_name": "Lukas",
+   "background": "Lukas is a 34‑year‑old software engineer from Germany who has been working for a mid‑size fintech firm in Berlin. He holds a master's in computer science and is used to highly structured, technical interviews with clear coding tests. He recently applied for a senior developer role in Singapore and secured a video interview with a local startup.",
+   "situation_now": "He is currently on a German work visa, awaiting the outcome of his Singapore EP application while continuing his job search remotely.",
+   "goals": [
+    "Secure a job offer that justifies relocating to Singapore",
+    "Understand Singapore's interview expectations and culture",
+    "Demonstrate his technical depth without over‑selling soft‑skills"
+   ],
+   "constraints": [
+    "Limited time due to current project deadlines",
+    "Budget constraints for travel and visa fees",
+    "Moderate confidence in navigating unfamiliar hiring styles"
+   ],
+   "digital_comfort": "high",
+   "reading_style": "skims headings then reads detailed sections if relevant",
+   "attitude_to_ai": "skeptical, prefers human‑reviewed resources",
+   "known_gaps": [
+    "Unfamiliar with Singapore's emphasis on cultural fit and team dynamics",
+    "Little experience with video‑call etiquette in Asian contexts",
+    "May misinterpret informal language used by local recruiters"
+   ],
+   "biases_or_habits": [
+    "Relies heavily on official documentation and technical blogs",
+    "Tends to over‑prepare code challenges, neglecting soft‑skill preparation",
+    "Distrusts AI‑generated interview tips"
+   ],
+   "voice": "Precise, slightly formal, and often punctuates sentences with technical qualifiers.",
+   "simulation_notes": "Will ask detailed follow‑up questions about local customs; may stop after 5 minutes if interview prep feels too generic or AI‑driven.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-01-senior-phone",
+   "kind": "job_seeker",
+   "label": "Retired clerk, phone‑only, asks neighbours for help",
+   "first_name": "Ahmad",
+   "background": "Ahmad, 62, a former administrative assistant who retired early due to health reasons, lives in a HDB flat in Ang Mo Kio. He keeps a basic smartphone for calls and occasional WhatsApp, but avoids computers and apps he finds confusing.",
+   "situation_now": "He is casually looking for part‑time work, mainly through word‑of‑mouth and flyers, and has attended one interview for a security guard position three months ago.",
+   "goals": [
+    "Earn supplemental income to cover medical expenses",
+    "Stay socially active through work"
+   ],
+   "constraints": [
+    "Limited digital literacy",
+    "Low confidence in filling online forms",
+    "Prefers face‑to‑face communication",
+    "Limited mobility on bad weather days"
+   ],
+   "digital_comfort": "low",
+   "reading_style": "Skims headlines, relies on large print, reads aloud to himself",
+   "attitude_to_ai": "Skeptical, thinks AI is a buzzword he doesn't need",
+   "known_gaps": [
+    "How to upload a resume to a portal",
+    "Understanding interview‑question expectations",
+    "Using video‑call platforms"
+   ],
+   "biases_or_habits": [
+    "Always asks his daughter or neighbour for tech help before trying anything new",
+    "Prefers printed instructions over digital tutorials",
+    "Gets impatient after a few screens"
+   ],
+   "voice": "A gentle, measured tone with occasional pauses as he chooses words carefully",
+   "simulation_notes": "Will likely defer to a trusted contact after 2‑3 minutes of questioning; keep prompts short and offer the option to speak rather than read.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-01-no-prep-spontaneity",
+   "kind": "job_seeker",
+   "label": "Spontaneous interviewee who avoids preparation",
+   "first_name": "Jian",
+   "background": "Jian is a 28‑year‑old Singapore‑born graduate with a degree in communications. He has bounced between short‑term gigs in retail and event support, never staying long enough to build deep expertise. He values authenticity over polish and believes his personality will sell itself.",
+   "situation_now": "Currently applying to a few entry‑level marketing coordinator roles while doing part‑time barista work to cover rent.",
+   "goals": [
+    "Secure a full‑time position in a creative team within three months",
+    "Earn enough to move out of his parents' flat",
+    "Gain a role where he can talk openly without rehearsed scripts"
+   ],
+   "constraints": [
+    "Limited budget for interview attire",
+    "Low confidence in technical knowledge of digital marketing tools",
+    "Time pressure from part‑time shift schedule"
+   ],
+   "digital_comfort": "medium",
+   "reading_style": "Skims headlines and bullet points; skips dense paragraphs",
+   "attitude_to_ai": "Skeptical, thinks AI answers feel scripted",
+   "known_gaps": [
+    "Doesn't know how to research company culture beforehand",
+    "Unaware of common competency‑based interview formats",
+    "May misinterpret technical jargon during interviews"
+   ],
+   "biases_or_habits": [
+    "Avoids any pre‑interview checklist, seeing it as fake",
+    "Relies on last‑minute pep talks from friends",
+    "Tends to over‑talk when nervous, filling silence with anecdotes"
+   ],
+   "voice": "Casual, upbeat, often throws in colloquial singlish phrases.",
+   "simulation_notes": "If the interview discussion drifts into detailed prep strategies, Jian will become defensive and may cut the session short after about 4 minutes.",
+   "simulated": true
+  },
+  {
+   "persona_id": "early_career-01-ai‑prep‑grad",
+   "kind": "early_career",
+   "label": "Recent grad, AI‑driven interview prep, 8 interviews past 6 months",
+   "first_name": "Ravi",
+   "background": "Ravi finished a BSc in Computer Science in May 2024 and has been job‑hunting full‑time ever since. He grew up in a bilingual household and spent his university years tinkering with chat‑bots for class projects. He now lives in a shared HDB flat near the city centre.",
+   "situation_now": "Actively applying to software engineering roles, scheduled three interviews this month, and using an AI‑assistant to tailor his CV and rehearse answers.",
+   "goals": [
+    "Land a junior developer position at a fintech firm",
+    "Build a professional network in Singapore",
+    "Improve interview confidence without over‑relying on scripts"
+   ],
+   "constraints": [
+    "Limited budget for premium interview‑coaching services",
+    "Time pressure from multiple interview slots",
+    "Occasional self‑doubt after a tough interview"
+   ],
+   "digital_comfort": "high",
+   "reading_style": "Skims headings then deep‑dives on bullet points; trusts AI‑summarised key takeaways",
+   "attitude_to_ai": "Views AI as a necessary coach, but worries it may make him sound rehearsed",
+   "known_gaps": [
+    "Struggles to improvise when interview deviates from common questions",
+    "May overlook company culture nuances beyond data sheets"
+   ],
+   "biases_or_habits": [
+    "Prefers tools that give instant feedback; skips long articles unless AI flags them as essential",
+    "Tends to accept AI suggestions without cross‑checking"
+   ],
+   "voice": "Speaks in a concise, data‑driven tone, peppered with tech slang",
+   "simulation_notes": "Will answer in detail about AI‑assisted prep but may stop after 4‑5 minutes if asked to reflect on feelings rather than process",
+   "simulated": true
+  }
+ ],
+ "note": "Simulated personas created by tools/persona_creator.py. Not real users.",
+ "batches": [
+  {
+   "created_utc": "2026-11-10T09:54:00Z",
+   "kind": "career_switcher",
+   "brief": "Mid-career people in Singapore who recently switched or are trying to switch field and had at least one job interview in the last 6 months. One moving from an office field to a different office field, one moving from a non-office job into an office job.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "78092d6256dd"
+  },
+  {
+   "created_utc": "2026-11-10T09:54:02Z",
+   "kind": "low_wage_worker",
+   "brief": "People in Singapore applying for NON-OFFICE roles (for example food service, retail, warehouse, cleaning, security, trades or delivery) who had a job interview in the last 6 months. Interviews may be short, informal, walk-in or a trial shift.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "83cb09a1ec9f"
+  },
+  {
+   "created_utc": "2026-11-10T09:54:04Z",
+   "kind": "foreign_professional",
+   "brief": "A professional from overseas on or seeking a work pass in Singapore who had an interview in the last 6 months, e.g. by video call, with an unfamiliar local hiring style.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "a9a5ef4f9a7a"
+  },
+  {
+   "created_utc": "2026-11-10T09:55:01Z",
+   "kind": "job_seeker",
+   "brief": "An older job seeker with LOW digital comfort who mainly uses a phone, had one job interview in the last 6 months, and prefers to ask people rather than use apps.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "75866a30fb45"
+  },
+  {
+   "created_utc": "2026-11-10T09:55:03Z",
+   "kind": "job_seeker",
+   "brief": "A job seeker who NEVER prepares for interviews: they turn up and rely on being themselves, and see preparation as unnecessary or fake. Had an interview in the last 6 months.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "157e4cb889fc"
+  },
+  {
+   "created_utc": "2026-11-10T09:55:04Z",
+   "kind": "early_career",
+   "brief": "A recent graduate who prepares heavily, uses AI assistants and mock-interview tools regularly, and had several interviews in the last 6 months. A deliberate counter-view: someone likely satisfied with existing tools.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "fc55ea7d9d78"
+  },
+  {
+   "created_utc": "2026-11-10T10:10:22Z",
+   "kind": "career_switcher",
+   "brief": "Mid-career people in Singapore who recently switched or are trying to switch field and had at least one job interview in the last 6 months. One moving from an office field to a different office field, one moving from a non-office job into an office job.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "78092d6256dd"
+  },
+  {
+   "created_utc": "2026-11-10T10:10:22Z",
+   "kind": "low_wage_worker",
+   "brief": "People in Singapore applying for NON-OFFICE roles (for example food service, retail, warehouse, cleaning, security, trades or delivery) who had a job interview in the last 6 months. Interviews may be short, informal, walk-in or a trial shift.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "83cb09a1ec9f"
+  },
+  {
+   "created_utc": "2026-11-10T10:10:22Z",
+   "kind": "foreign_professional",
+   "brief": "A professional from overseas on or seeking a work pass in Singapore who had an interview in the last 6 months, e.g. by video call, with an unfamiliar local hiring style.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "a9a5ef4f9a7a"
+  },
+  {
+   "created_utc": "2026-11-10T10:10:22Z",
+   "kind": "job_seeker",
+   "brief": "An older job seeker with LOW digital comfort who mainly uses a phone, had one job interview in the last 6 months, and prefers to ask people rather than use apps.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "75866a30fb45"
+  },
+  {
+   "created_utc": "2026-11-10T10:10:22Z",
+   "kind": "job_seeker",
+   "brief": "A job seeker who NEVER prepares for interviews: they turn up and rely on being themselves, and see preparation as unnecessary or fake. Had an interview in the last 6 months.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "157e4cb889fc"
+  },
+  {
+   "created_utc": "2026-11-10T10:10:22Z",
+   "kind": "early_career",
+   "brief": "A recent graduate who prepares heavily, uses AI assistants and mock-interview tools regularly, and had several interviews in the last 6 months. A deliberate counter-view: someone likely satisfied with existing tools.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "fc55ea7d9d78"
+  },
+  {
+   "created_utc": "2026-11-10T10:25:43Z",
+   "kind": "career_switcher",
+   "brief": "Mid-career people in Singapore who recently switched or are trying to switch field and had at least one job interview in the last 6 months. One moving from an office field to a different office field, one moving from a non-office job into an office job.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "78092d6256dd"
+  },
+  {
+   "created_utc": "2026-11-10T10:25:43Z",
+   "kind": "low_wage_worker",
+   "brief": "People in Singapore applying for NON-OFFICE roles (for example food service, retail, warehouse, cleaning, security, trades or delivery) who had a job interview in the last 6 months. Interviews may be short, informal, walk-in or a trial shift.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "83cb09a1ec9f"
+  },
+  {
+   "created_utc": "2026-11-10T10:25:43Z",
+   "kind": "foreign_professional",
+   "brief": "A professional from overseas on or seeking a work pass in Singapore who had an interview in the last 6 months, e.g. by video call, with an unfamiliar local hiring style.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "a9a5ef4f9a7a"
+  },
+  {
+   "created_utc": "2026-11-10T10:25:43Z",
+   "kind": "job_seeker",
+   "brief": "An older job seeker with LOW digital comfort who mainly uses a phone, had one job interview in the last 6 months, and prefers to ask people rather than use apps.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "75866a30fb45"
+  },
+  {
+   "created_utc": "2026-11-10T10:25:43Z",
+   "kind": "job_seeker",
+   "brief": "A job seeker who NEVER prepares for interviews: they turn up and rely on being themselves, and see preparation as unnecessary or fake. Had an interview in the last 6 months.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "157e4cb889fc"
+  },
+  {
+   "created_utc": "2026-11-10T10:25:43Z",
+   "kind": "early_career",
+   "brief": "A recent graduate who prepares heavily, uses AI assistants and mock-interview tools regularly, and had several interviews in the last 6 months. A deliberate counter-view: someone likely satisfied with existing tools.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "fc55ea7d9d78"
+  },
+  {
+   "created_utc": "2026-11-10T10:39:44Z",
+   "kind": "career_switcher",
+   "brief": "Mid-career people in Singapore who recently switched or are trying to switch field and had at least one job interview in the last 6 months. One moving from an office field to a different office field, one moving from a non-office job into an office job.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "78092d6256dd"
+  },
+  {
+   "created_utc": "2026-11-10T10:39:44Z",
+   "kind": "low_wage_worker",
+   "brief": "People in Singapore applying for NON-OFFICE roles (for example food service, retail, warehouse, cleaning, security, trades or delivery) who had a job interview in the last 6 months. Interviews may be short, informal, walk-in or a trial shift.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "83cb09a1ec9f"
+  },
+  {
+   "created_utc": "2026-11-10T10:39:44Z",
+   "kind": "foreign_professional",
+   "brief": "A professional from overseas on or seeking a work pass in Singapore who had an interview in the last 6 months, e.g. by video call, with an unfamiliar local hiring style.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "a9a5ef4f9a7a"
+  },
+  {
+   "created_utc": "2026-11-10T10:39:44Z",
+   "kind": "job_seeker",
+   "brief": "An older job seeker with LOW digital comfort who mainly uses a phone, had one job interview in the last 6 months, and prefers to ask people rather than use apps.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "75866a30fb45"
+  },
+  {
+   "created_utc": "2026-11-10T10:39:44Z",
+   "kind": "job_seeker",
+   "brief": "A job seeker who NEVER prepares for interviews: they turn up and rely on being themselves, and see preparation as unnecessary or fake. Had an interview in the last 6 months.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "157e4cb889fc"
+  },
+  {
+   "created_utc": "2026-11-10T10:39:44Z",
+   "kind": "early_career",
+   "brief": "A recent graduate who prepares heavily, uses AI assistants and mock-interview tools regularly, and had several interviews in the last 6 months. A deliberate counter-view: someone likely satisfied with existing tools.",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "fc55ea7d9d78"
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+2026-11-10 (UTC ~11:00) gpt-oss-20b: HTTP 429 on tokens per day (TPD): Limit 200000, Used 199602, Requested 1384 (org-wide, shared with all specialists). Per the run brief, no further gpt-oss-20b calls are made in this run. The 6 Part B personas were created with gpt-oss-20b before the limit was hit.

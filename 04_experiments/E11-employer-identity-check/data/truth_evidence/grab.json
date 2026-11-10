@@ -1,0 +1,68 @@
+{
+ "key": "grab",
+ "domain": "www.grab.com",
+ "pages": [
+  {
+   "url": "https://www.grab.com/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "eloper Portal Tech Blog Terms and Policies • Privacy Notice © Grab 2010 - 2026 Komsan Chiyadis GrabFood delivery-partner, Thailand Komsan Chiyadis GrabFood delivery-partner, Thailan"
+   ]
+  },
+  {
+   "url": "https://www.grab.com/privacy-policy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Grab Company Limited",
+    "Grab Holdings Limited",
+    "Grabtaxi (Thailand) Co., Ltd.",
+    "MyTaxi PH Inc"
+   ],
+   "copyright": [
+    "eloper Portal Tech Blog Terms and Policies • Privacy Notice © Grab 2010 - 2026 Komsan Chiyadis GrabFood delivery-partner, Thailand Komsan Chiyadis GrabFood delivery-partner, Thailan"
+   ]
+  },
+  {
+   "url": "https://www.grab.com/privacy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Grab Company Limited",
+    "Grab Holdings Limited",
+    "Grabtaxi (Thailand) Co., Ltd.",
+    "MyTaxi PH Inc"
+   ],
+   "copyright": [
+    "eloper Portal Tech Blog Terms and Policies • Privacy Notice © Grab 2010 - 2026 Komsan Chiyadis GrabFood delivery-partner, Thailand Komsan Chiyadis GrabFood delivery-partner, Thailan"
+   ]
+  },
+  {
+   "url": "https://www.grab.com/terms",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "GrabServices Pte Ltd.",
+    "Grabcar Pte Ltd",
+    "Grabtaxi Holdings Pte Ltd.",
+    "Grabtaxi Pte Ltd"
+   ],
+   "copyright": [
+    "Code of Conduct: Merchant , as may be applicable; 2.5.3 the Copyright Notice ; 2.5.4 the Family Account: Terms of Service ; 2.5.5 the GrabChat Guidelines ; 2.5.6 all policies, guidelines an",
+    "places attributed to the following sources: 9.22.1 Map Data © OpenStreetMap contributors (www.openstreetmap.org/copyright); 9.22.2 Map Schema © OpenMapTiles (https://openmaptiles.or",
+    "butors (www.openstreetmap.org/copyright); 9.22.2 Map Schema © OpenMapTiles (https://openmaptiles.org/); 9.22.3 Google Building Footprint Data ( https://sites.research.google/open-bu"
+   ]
+  },
+  {
+   "url": "https://www.grab.com/about",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "eloper Portal Tech Blog Terms and Policies • Privacy Notice © Grab 2010 - 2026 Komsan Chiyadis GrabFood delivery-partner, Thailand Komsan Chiyadis GrabFood delivery-partner, Thailan"
+   ]
+  }
+ ]
+}

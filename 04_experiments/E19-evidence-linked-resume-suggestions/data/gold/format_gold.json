@@ -1,0 +1,105 @@
+{
+ "version": "format-gold-v1",
+ "author": "AI specialist (Claude Sonnet 5.5), written 2026-11-10 with the fixture generator, before any check was run",
+ "problem_codes": [
+  "image_text",
+  "table_core",
+  "header_contact",
+  "footer_contact",
+  "text_box",
+  "multi_column",
+  "non_selectable",
+  "missing_headings"
+ ],
+ "format_proxy": "None. Real DOCX (python-docx) and real PDF (PyMuPDF) files.",
+ "files": {
+  "C01_docx_clean.docx": {
+   "planted": [],
+   "clean": true
+  },
+  "C02_docx_clean_header_footer.docx": {
+   "planted": [],
+   "clean": true
+  },
+  "C03_pdf_clean.pdf": {
+   "planted": [],
+   "clean": true
+  },
+  "C04_pdf_clean_two_pages_link.pdf": {
+   "planted": [],
+   "clean": true
+  },
+  "F01_docx_experience_as_image.docx": {
+   "planted": [
+    "image_text"
+   ],
+   "clean": false
+  },
+  "F02_docx_experience_in_table.docx": {
+   "planted": [
+    "table_core"
+   ],
+   "clean": false
+  },
+  "F03_docx_contact_in_header.docx": {
+   "planted": [
+    "header_contact"
+   ],
+   "clean": false
+  },
+  "F04_docx_contact_in_footer.docx": {
+   "planted": [
+    "footer_contact"
+   ],
+   "clean": false
+  },
+  "F05_docx_text_box.docx": {
+   "planted": [
+    "text_box"
+   ],
+   "clean": false
+  },
+  "F06_docx_two_columns.docx": {
+   "planted": [
+    "multi_column"
+   ],
+   "clean": false
+  },
+  "F07_docx_no_headings.docx": {
+   "planted": [
+    "missing_headings"
+   ],
+   "clean": false
+  },
+  "F08_pdf_scanned_no_text_layer.pdf": {
+   "planted": [
+    "non_selectable"
+   ],
+   "clean": false
+  },
+  "F09_pdf_contact_as_image.pdf": {
+   "planted": [
+    "image_text"
+   ],
+   "clean": false
+  },
+  "F10_pdf_two_columns.pdf": {
+   "planted": [
+    "multi_column"
+   ],
+   "clean": false
+  },
+  "F11_pdf_contact_in_header.pdf": {
+   "planted": [
+    "header_contact"
+   ],
+   "clean": false
+  },
+  "F12_pdf_experience_in_table.pdf": {
+   "planted": [
+    "table_core"
+   ],
+   "clean": false
+  }
+ }
+}

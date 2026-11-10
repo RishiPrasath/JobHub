@@ -1,0 +1,223 @@
+{
+ "personas": [
+  {
+   "persona_id": "job_seeker-01-cautious-lee",
+   "kind": "job_seeker",
+   "label": "Mid‑career accountant, low digital trust",
+   "first_name": "Lee",
+   "background": "Lee, 38, Singapore citizen, has been an accountant in a mid‑size firm for 12 years. He recently was laid off due to restructuring and is now looking for a stable role.",
+   "situation_now": "Scanning job boards in the evenings after work, but hesitates to click on AI‑generated match scores.",
+   "goals": [
+    "Find a full‑time accounting role with good benefits",
+    "Regain steady income quickly"
+   ],
+   "constraints": [
+    "Limited time after family duties",
+    "Distrust of AI recommendations",
+    "Prefers human‑verified listings"
+   ],
+   "digital_comfort": "low",
+   "reading_style": "Skims headings, reads bullet points only, cross‑checks any claim with a human source",
+   "attitude_to_ai": "Skeptical, thinks algorithms may miss nuance",
+   "known_gaps": [
+    "May misinterpret AI confidence scores",
+    "Unfamiliar with how AI aggregates employer data"
+   ],
+   "biases_or_habits": [
+    "Favors companies with long‑standing local reputation",
+    "Avoids startups unless recommended by a friend"
+   ],
+   "voice": "I prefer to double‑check everything before I commit.",
+   "simulation_notes": "Will likely abandon the task if explanations exceed two sentences.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-02-hurried-ana",
+   "kind": "job_seeker",
+   "label": "Young marketing graduate, high time pressure",
+   "first_name": "Ana",
+   "background": "Ana, 25, Singapore permanent resident, just finished a marketing degree and has been on a short‑term internship that ended last month. She needs a full‑time job to support her rent.",
+   "situation_now": "Applying to as many positions as possible during short breaks between part‑time gigs.",
+   "goals": [
+    "Secure a full‑time marketing role within weeks",
+    "Earn enough to cover living costs"
+   ],
+   "constraints": [
+    "Very limited time to read each posting",
+    "Low patience for detailed analysis",
+    "Relies on quick AI summaries"
+   ],
+   "digital_comfort": "high",
+   "reading_style": "Reads only headlines and AI‑generated bullet summaries; skips full text",
+   "attitude_to_ai": "Generally trusting if it saves time",
+   "known_gaps": [
+    "May overlook red flags hidden in fine print",
+    "Assumes AI scores are accurate"
+   ],
+   "biases_or_habits": [
+    "Clicks on employers with high AI match scores first",
+    "Ignores companies with low visual branding"
+   ],
+   "voice": "Give me the quick rundown and I’ll decide fast.",
+   "simulation_notes": "Will stop after 2 minutes if the task feels too slow; expects concise outputs.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-03-skeptical-raj",
+   "kind": "job_seeker",
+   "label": "Senior engineer, cautious about AI credibility",
+   "first_name": "Raj",
+   "background": "Raj, 44, Singapore citizen, has 18 years of software engineering experience in multinational firms. He is considering a career shift to a smaller tech startup but worries about hidden risks.",
+   "situation_now": "Evaluating a shortlist of employers, cross‑checking each with industry forums before committing to an interview.",
+   "goals": [
+    "Find a role that offers technical challenge and stable growth",
+    "Validate employer credibility beyond AI scores"
+   ],
+   "constraints": [
+    "Low trust in AI‑generated employer checks",
+    "Needs evidence of company stability",
+    "Limited willingness to rely on single source"
+   ],
+   "digital_comfort": "medium",
+   "reading_style": "Reads full summaries, then verifies claims through external sources",
+   "attitude_to_ai": "Skeptical, treats AI output as a starting point",
+   "known_gaps": [
+    "May over‑weight anecdotal forum opinions",
+    "Unclear on how AI aggregates data"
+   ],
+   "biases_or_habits": [
+    "Prefers companies with transparent tech stacks",
+    "Avoids firms with overly polished AI reports"
+   ],
+   "voice": "I’ll take the AI report, but I’ll still do my own digging.",
+   "simulation_notes": "Will pause the task to look up one external source per employer before answering.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-04-lowskill-min",
+   "kind": "job_seeker",
+   "label": "Entry‑level retail worker, minimal digital skills",
+   "first_name": "Min",
+   "background": "Min, 31, Singapore permanent resident, has worked in retail for 7 years and recently was let go due to store closure. She has basic phone and email use but limited experience with online job platforms.",
+   "situation_now": "Trying to learn how to use a new job‑search portal after a friend showed her a link.",
+   "goals": [
+    "Find a stable retail or customer‑service role",
+    "Learn to navigate online applications"
+   ],
+   "constraints": [
+    "Low digital literacy",
+    "Needs simple, step‑by‑step guidance",
+    "Limited confidence in interpreting AI summaries"
+   ],
+   "digital_comfort": "low",
+   "reading_style": "Relies on large fonts and simple icons; reads each line slowly, often re‑reads",
+   "attitude_to_ai": "Uncertain, fears AI might be too complex",
+   "known_gaps": [
+    "May misinterpret AI jargon",
+    "Struggles with navigating multi‑page results"
+   ],
+   "biases_or_habits": [
+    "Prefers employers with clear contact numbers",
+    "Avoids sites with pop‑ups or ads"
+   ],
+   "voice": "I need things to be clear and easy to understand.",
+   "simulation_notes": "Will likely ask for clarification after each employer check; may abandon if layout is cluttered.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-05-cautious-analyst",
+   "kind": "job_seeker",
+   "label": "Mid‑career analyst, low AI trust, moderate time pressure",
+   "first_name": "Rohit",
+   "background": "Rohit, 38, holds a Singapore PR and has ten years of experience in financial analysis at multinational firms. He recently relocated to Singapore after his spouse got a new role, and his current contract ended three months ago.",
+   "situation_now": "Scanning job portals daily, he has applied to five analyst positions and is waiting for interview callbacks.",
+   "goals": [
+    "Secure a stable full‑time analyst role in finance",
+    "Maintain a work‑life balance for family commitments",
+    "Earn a salary that supports his children's education"
+   ],
+   "constraints": [
+    "Limited time – needs to review applications before evenings with kids",
+    "Low trust in AI‑generated employer insights",
+    "Prefers clear, factual information over flashy UI"
+   ],
+   "digital_comfort": "medium",
+   "reading_style": "Reads headlines first, then skims bullet points; pauses on any metric he cannot verify.",
+   "attitude_to_ai": "Skeptical – worries AI may exaggerate or omit key risks.",
+   "known_gaps": [
+    "May misinterpret statistical confidence scores",
+    "Unfamiliar with AI‑driven sentiment tags"
+   ],
+   "biases_or_habits": [
+    "Favors companies with transparent financial reporting",
+    "Avoids startups lacking clear governance"
+   ],
+   "voice": "I prefer a straightforward, no‑fluff summary before I decide to dig deeper.",
+   "simulation_notes": "If the employer‑check results contain jargon or AI‑generated ratings, he will pause, look for a source link, and may abandon the task after 4 minutes if not convinced.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-06-hurried-graduate",
+   "kind": "job_seeker",
+   "label": "Young marketing graduate, high time pressure, low digital skill",
+   "first_name": "Jia",
+   "background": "Jia, 24, Singapore citizen, just finished a marketing degree and has been interning part‑time at a boutique agency. Her tuition loan repayment starts next month, and she needs a full‑time role quickly.",
+   "situation_now": "She is juggling part‑time gigs while scrolling job listings on her phone between shifts.",
+   "goals": [
+    "Land a marketing associate job within two weeks",
+    "Start earning enough to cover loan repayments",
+    "Gain a foothold in a reputable firm"
+   ],
+   "constraints": [
+    "Very limited time – can only spare 5‑10 minutes per session",
+    "Low digital literacy – uncomfortable with complex dashboards",
+    "Relies heavily on visual cues and simple language"
+   ],
+   "digital_comfort": "low",
+   "reading_style": "Skims rapidly, relies on icons and colour‑coded scores; reads full text only if something looks promising.",
+   "attitude_to_ai": "Cautiously optimistic – sees AI as a shortcut but worries about errors.",
+   "known_gaps": [
+    "May overlook nuanced warnings in fine print",
+    "Confuses confidence percentages with guarantee of job fit"
+   ],
+   "biases_or_habits": [
+    "Prefers employers that highlight employee benefits visually",
+    "Tends to click on the first result that looks 'modern'"
+   ],
+   "voice": "Give me the quick take‑aways so I can decide in a minute.",
+   "simulation_notes": "If the six employer‑check results are not summarized with clear icons or brief bullet points, she will scroll past them after about 2 minutes.",
+   "simulated": true
+  }
+ ],
+ "note": "Simulated personas created by tools/persona_creator.py. Not real users.",
+ "batches": [
+  {
+   "created_utc": "2026-11-10T10:05:53Z",
+   "kind": "job_seeker",
+   "brief": "job seekers in Singapore with mixed digital comfort, time pressure and trust in online tools; include a cautious one, a hurried one, a sceptical one, a low-digital-skill one",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "5d67d81b8e15"
+  },
+  {
+   "created_utc": "2026-11-10T10:09:40Z",
+   "kind": "job_seeker",
+   "brief": "job seekers in Singapore with mixed digital comfort, time pressure and trust in online tools; include a cautious one, a hurried one, a sceptical one, a low-digital-skill one",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "5d67d81b8e15"
+  },
+  {
+   "created_utc": "2026-11-10T10:11:04Z",
+   "kind": "job_seeker",
+   "brief": "job seekers in Singapore with mixed digital comfort, time pressure and trust in online tools; include a cautious one, a hurried one, a sceptical one, a low-digital-skill one",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "5d67d81b8e15"
+  },
+  {
+   "created_utc": "2026-11-10T10:18:42Z",
+   "kind": "job_seeker",
+   "brief": "job seekers in Singapore with mixed digital comfort, time pressure and trust in online tools; include a cautious one, a hurried one, a sceptical one, a low-digital-skill one",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "5d67d81b8e15"
+  }
+ ]
+}

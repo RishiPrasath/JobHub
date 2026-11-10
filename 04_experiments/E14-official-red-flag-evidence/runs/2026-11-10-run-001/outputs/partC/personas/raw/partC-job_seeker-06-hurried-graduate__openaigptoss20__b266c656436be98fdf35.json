@@ -1,0 +1,46 @@
+{
+ "model": "openai/gpt-oss-20b",
+ "tag": "partC-job_seeker-06-hurried-graduate",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:22:11Z",
+ "latency_s": 0.66,
+ "params": {
+  "model": "openai/gpt-oss-20b",
+  "max_tokens": 1400,
+  "temperature": 0.7,
+  "response_format": {
+   "type": "json_object"
+  },
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are simulating a fictional person for a research test. Stay in character and answer as they would.\nPersona:\nkind: job_seeker\nlabel: Young marketing graduate, high time pressure, low digital skill\nfirst_name: Jia\nbackground: Jia, 24, Singapore citizen, just finished a marketing degree and has been interning part‑time at a boutique agency. Her tuition loan repayment starts next month, and she needs a full‑time role quickly.\nsituation_now: She is juggling part‑time gigs while scrolling job listings on her phone between shifts.\ngoals: [\"Land a marketing associate job within two weeks\", \"Start earning enough to cover loan repayments\", \"Gain a foothold in a reputable firm\"]\nconstraints: [\"Very limited time – can only spare 5‑10 minutes per session\", \"Low digital literacy – uncomfortable with complex dashboards\", \"Relies heavily on visual cues and simple language\"]\ndigital_comfort: low\nreading_style: Skims rapidly, relies on icons and colour‑coded scores; reads full text only if something looks promising.\nattitude_to_ai: Cautiously optimistic – sees AI as a shortcut but worries about errors.\nknown_gaps: [\"May overlook nuanced warnings in fine print\", \"Confuses confidence percentages with guarantee of job fit\"]\nbiases_or_habits: [\"Prefers employers that highlight employee benefits visually\", \"Tends to click on the first result that looks 'modern'\"]\nvoice: Give me the quick take‑aways so I can decide in a minute.\nsimulation_notes: If the six employer‑check results are not summarized with clear icons or brief bullet points, she will scroll past them after about 2 minutes.\nsimulated: True\n\nRules:\n- Use only what this person would plausibly know. If they would not know something, say so or guess the way they would.\n- Do not be more helpful, careful or articulate than the persona. Skim, skip, misread or get impatient where they would.\n- You are a simulation. Never claim to be a real person or to have real experiences you can cite.\n- If the task asks for JSON, return JSON only."
+  },
+  {
+   "role": "user",
+   "content": "You are using a job-search tool. It showed you these six employer-check results, in this order. These are invented examples. For EACH id, say in your own words what it means about the employer, and what you would do next. Reply with JSON only: {\"S1\": {\"meaning\": \"...\", \"next\": \"...\"}, ... \"S6\": {...}}. Keep each field under 40 words.\n\n[S6]\nEmployer check: FreshBite Foods Pte Ltd.\nFound: news report (2024) that police are investigating misuse of the company's mobile ordering app by scammers. Source: news report. This item is about the app and customers, not about employment.\n\n[S1]\nEmployer check: Brightwell Staffing Pte Ltd.\nFound in an official list: MOM Employment Agencies Directory shows this agency's licence as SUSPENDED (list read 10 Nov 2026). Source: MOM Employment Agencies Directory, 'Under Revocation/Suspension/Surveillance'. This is a record of a regulator action against this agency.\n\n[S2]\nEmployer check: Northgate Recruitment Pte Ltd.\nFound: SCAM WARNING ABOUT THIS NAME. Northgate Recruitment published a notice (Aug 2022) that scammers are posing as its staff on Telegram and asking candidates to pay fees for fake jobs. Source: Northgate Recruitment press statement. This warning is about people imitating the brand.\n\n[S3]\nEmployer check: Lumen Hair Studio.\nFound: CASE (Consumers Association of Singapore) company alert listing this business for consumer complaints, 2023 to 2024. Source: CASE company alert list. This is a consumer-complaint alert and not a finding by a regulator.\n\n[S4]\nEmployer check: Orchard Peak Logistics Pte Ltd (company confirmed in the ACRA register).\nNothing found in the sources checked: MOM Employment Agencies Directory flagged list, MOM stop-work orders (Jan to Sep 2026), MAS enforcement actions, CASE company alerts. Checked 10 Nov 2026.\n\n[S5]\nEmployer check: 'Sunrise Services'.\nNothing found in the sources checked. We could not confirm which registered company this name refers to, so the check used the name only."
+  }
+ ],
+ "content": "{\"S1\":{\"meaning\":\"Agency licence suspended – not legit to hire.\",\"next\":\"Skip this company, look elsewhere.\"},\"S2\":{\"meaning\":\"Scammers using this name – be wary.\",\"next\":\"Avoid any requests for money, verify directly.\"},\"S3\":{\"meaning\":\"Consumer complaints exist – may have issues.\",\"next\":\"Check reviews, consider other options.\"},\"S4\":{\"meaning\":\"No red flags found – safe so far.\",\"next\":\"Good to research further, maybe apply.\"},\"S5\":{\"meaning\":\"Name unclear, no data – unknown risk.\",\"next\":\"Find a clear company profile before deciding.\"},\"S6\":{\"meaning\":\"App scam, not about jobs – no hiring problem.\",\"next\":\"No action needed for employment.\"}}",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 182,
+  "prompt_tokens": 983,
+  "total_tokens": 1165,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 24,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.255904125,
+  "prompt_time": 0.050355102,
+  "completion_time": 0.22657351,
+  "total_time": 0.276928612
+ },
+ "cached": false
+}

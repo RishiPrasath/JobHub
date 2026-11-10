@@ -1,0 +1,48 @@
+{
+ "key": "seedly",
+ "domain": "seedly.sg",
+ "pages": [
+  {
+   "url": "https://seedly.sg/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "StarHub, Singtel, M1 Limited",
+    "Trip Inc"
+   ],
+   "copyright": []
+  },
+  {
+   "url": "https://seedly.sg/privacy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Apr 2024 Privacy Statement Introduction Seedly Pte. Ltd.",
+    "CompareAsia Group Limited",
+    "Salt Edge Inc.",
+    "We use Amazon Web Services, Inc"
+   ],
+   "copyright": []
+  },
+  {
+   "url": "https://seedly.sg/terms",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Contain politically sensitive comments. Inc",
+    "For the avoidance of doubt, Seedly Pte. Ltd.",
+    "Seedly Pte. Ltd.",
+    "Service offered by Seedly Pte Ltd.",
+    "Subscriber, user, or customer) and us (Seedly Pte. Ltd."
+   ],
+   "copyright": []
+  },
+  {
+   "url": "https://seedly.sg/about",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  }
+ ]
+}

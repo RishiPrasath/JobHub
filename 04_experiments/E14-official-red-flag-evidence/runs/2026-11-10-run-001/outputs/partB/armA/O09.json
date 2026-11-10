@@ -1,0 +1,21 @@
+{
+  "organisation": "Wonderful Agency Pte. Ltd.",
+  "queries_run": [
+    "\"Wonderful Agency Pte. Ltd.\" Singapore regulator penalty fine",
+    "\"Wonderful Agency Pte. Ltd.\" enforcement action Singapore",
+    "\"Wonderful Agency Pte. Ltd.\" court judgment Singapore",
+    "\"Wonderful Agency Pte. Ltd.\" complaints Singapore",
+    "\"Wonderful Agency Pte. Ltd.\" retrenchment layoffs Singapore",
+    "\"Wonderful Agency Pte. Ltd.\" scam fraud warning Singapore"
+  ],
+  "items": [
+    {
+      "claim": "MOM charged 'Wonderful Agency Pte Ltd' on 28 May 2026 under the Employment of Foreign Manpower Act, with 12 counts of false employment declarations and 2 counts of false salary declarations, as summarised in the search result. These are charges only; the results show no verdict or outcome.",
+      "entity_the_claim_is_about": "Wonderful Agency Pte Ltd (name as printed in the result, without the period after 'Pte'; identity match to 'Wonderful Agency Pte. Ltd.' not independently confirmed)",
+      "category": "employer_action",
+      "source_url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0528-2-singaporeans-and-an-employment-agency-charged-for-efma-offences",
+      "quoted_evidence": "MOM charged Wonderful Agency Pte Ltd, along with two individuals, on 28 May 2026 under the Employment of Foreign Manpower Act (EFMA)"
+    }
+  ],
+  "notes": "Only one item found. The MOM result is taken from the search engine's summary text, not from the page itself, so the quote is the summary wording and was not checked against the press release. The entity name differs slightly (no period after 'Pte'), and the match to this organisation is not independently confirmed. Searches 2-6 showed no relevant results for this organisation. Searches 1, 3, 4, 5 and 6 showed no results naming it. Several namesake companies appeared in searches 4 and 6 (Wonderful Management, Wonderful Sourcing Singapore, Wonderful Shipping, Fetar Wonderful, and others, from scam.sg and ACRA-type listings). They are different entities, so I excluded them rather than listing them as other_entity items. Scam.sg TrustScores are third-party ratings and are not included as red flags. Search 3 surfaced an unrelated Goh Lay Khim v Isabel Redrup Agency case, also excluded."
+}

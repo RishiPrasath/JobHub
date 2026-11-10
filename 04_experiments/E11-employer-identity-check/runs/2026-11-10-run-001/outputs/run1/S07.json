@@ -1,0 +1,360 @@
+{
+ "employer": "Koufu Group Limited",
+ "role": "Food Court Assistant",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "KOUFU GROUP PTE. LTD. is registered in Singapore (status: Live Company, registered 2017-11-15).",
+  "basis": "name only",
+  "entity": {
+   "uen": "201732833D",
+   "name": "KOUFU GROUP PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2017-11-15",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Koufu Group Limited\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 4,
+    "error": null
+   },
+   {
+    "query": "\"Koufu Group Limited\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Koufu Group Limited\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Koufu Group Limited\" Food Court Assistant interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"KOUFU GROUP PTE. LTD.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.emis.com/php/company-profile/SG/Koufu_Group_Limited_en_6695113.html",
+    "status": "ok",
+    "chars": 967,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://links.sgx.com/1.0.0/corporate-information/2849",
+    "status": "blocked",
+    "chars": 225,
+    "note": "challenge or login-wall text",
+    "tier": "plain"
+   },
+   {
+    "url": "https://grokipedia.com/page/koufu_company",
+    "status": "ok",
+    "chars": 20108,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://sg.jooble.org/jdp/823173527950381332",
+    "status": "thin",
+    "chars": 261,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.koufu.com.sg/join-us/career-opportunities",
+    "status": "ok",
+    "chars": 5879,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.mycareersfuture.gov.sg/job/assistant-food-court-manager-koufu-1c8716e583facf62b6de77a3e03c3370",
+    "status": "irrelevant",
+    "chars": 3795,
+    "note": "the page never mentions the company name",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Koufu-Group-Pte-Ltd",
+    "status": "ok",
+    "chars": 9101,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/business/201732833D/KOUFU-GROUP-PTE-LTD",
+    "status": "error",
+    "chars": 0,
+    "note": "",
+    "tier": null
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.jobstreet.com/koufu-group-limited-jobs",
+    "title": "Koufu Group Limited Jobs in Singapore (with Salaries) - Dec 2025 ...",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/job/92026473",
+    "title": "Food Court Assistant | Central Region | Koufu - Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Salary/Koufu-Salaries-E1124063.htm",
+    "title": "169 Salaries at Koufu Shared by Employees | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.linkedin.com/jobs/view/assistant-food-court-manager-up-to-%242000-sign-on-bonus-at-koufu-group-4441026063",
+    "title": "Assistant / Food Court Manager (Up to $2000 Sign on Bonus)",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Overview/Working-at-Koufu-EI_IE1124063.11,16.htm",
+    "title": "Working at Koufu | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "koufu group"
+   ],
+   "pages_with_exact_name": 3,
+   "snippets_with_exact_name": 12,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 17,
+  "registry_mirror_pages": 1
+ },
+ "headline": "exists_and_consistent",
+ "headline_meaning": "Registered in Singapore, and public sources agree it is the company named.",
+ "reasons": [
+  "registry: confirmed",
+  "model: consistent across 3 pages"
+ ],
+ "brief": {
+  "validity_reasoning": "Multiple independent sources (official registry, business directories, and company profile) confirm the existence, legal name, incorporation date, and status of Koufu Group Limited in Singapore, with consistent details across records.",
+  "confidence": "high",
+  "could_not_verify": [
+   "Specific job role responsibilities and salary details for the Food Court Assistant position"
+  ],
+  "key_facts": [
+   {
+    "claim": "Legal name is KOUFU GROUP PTE. LTD.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Legal name: KOUFU GROUP PTE. LTD.",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 7,
+      "url": "https://www.sgpbusiness.com/company/Koufu-Group-Pte-Ltd",
+      "quote": "Company Legal Name KOUFU GROUP PTE. LTD.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Company is a live private company incorporated on 15 November 2017",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Registered: 2017-11-15 ... Status: Live Company",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 7,
+      "url": "https://www.sgpbusiness.com/company/Koufu-Group-Pte-Ltd",
+      "quote": "Incorporated 15 Nov 2017 (9 years) ... Status Live Company",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Entity type is Private Company Limited by Shares",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Entity type: Local Company",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 7,
+      "url": "https://www.sgpbusiness.com/company/Koufu-Group-Pte-Ltd",
+      "quote": "Private Company Limited By Shares",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Principal activity is holding companies and management consultancy services",
+    "evidence": [
+     {
+      "source": 7,
+      "url": "https://www.sgpbusiness.com/company/Koufu-Group-Pte-Ltd",
+      "quote": "principal activity is holding companies of firms engaged in non‑financial and insurance activities with management consultancy services",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Company operates in the Management of Companies and Enterprises sector",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://www.emis.com/php/company-profile/SG/Koufu_Group_Limited_en_6695113.html",
+      "quote": "operates in the Management of Companies and Enterprises sector",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Registered address is 1 Woodlands Height #07-01, Koufu Group HQ, Singapore 737859",
+    "evidence": [
+     {
+      "source": 7,
+      "url": "https://www.sgpbusiness.com/company/Koufu-Group-Pte-Ltd",
+      "quote": "Registered Address 1 WOODLANDS HEIGHT #07-01 KOUFU GROUP HQ SINGAPORE (737859)",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "Company is actively hiring for food‑court related roles",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.koufu.com.sg/join-us/career-opportunities",
+      "quote": "If you have a passion for the F&B industry... we are looking for you!",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Company has an official website (koufu.com.sg) indicating a public presence",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://www.emis.com/php/company-profile/SG/Koufu_Group_Limited_en_6695113.html",
+      "quote": "Website: http://www.koufu.com.sg",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "red_flags": [],
+  "claims_verified": 7,
+  "claims_unverified": 1,
+  "model_validity_status": "appears_real_and_consistent"
+ },
+ "could_not_read": [
+  {
+   "url": "https://links.sgx.com/1.0.0/corporate-information/2849",
+   "why": "blocked: challenge or login-wall text"
+  },
+  {
+   "url": "https://sg.jooble.org/jdp/823173527950381332",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://www.mycareersfuture.gov.sg/job/assistant-food-court-manager-koufu-1c8716e583facf62b6de77a3e03c3370",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.companies.sg/business/201732833D/KOUFU-GROUP-PTE-LTD",
+   "why": "error: "
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://sg.jobstreet.com/koufu-group-limited-jobs",
+   "title": "Koufu Group Limited Jobs in Singapore (with Salaries) - Dec 2025 ...",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/job/92026473",
+   "title": "Food Court Assistant | Central Region | Koufu - Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Salary/Koufu-Salaries-E1124063.htm",
+   "title": "169 Salaries at Koufu Shared by Employees | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.linkedin.com/jobs/view/assistant-food-court-manager-up-to-%242000-sign-on-bonus-at-koufu-group-4441026063",
+   "title": "Assistant / Food Court Manager (Up to $2000 Sign on Bonus)",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Overview/Working-at-Koufu-EI_IE1124063.11,16.htm",
+   "title": "Working at Koufu | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Specific job role responsibilities and salary details for the Food Court Assistant position"
+ ],
+ "seconds": 128.8,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

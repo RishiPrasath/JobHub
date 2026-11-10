@@ -1,0 +1,41 @@
+NTUC Income  (role: Financial Services Associate)
+HEADLINE: brand_legal_entity_unconfirmed
+  Public sources describe a company by this name, but the registry has no entity with this exact
+  name. It may trade under a brand name; the legal employer is not confirmed.
+  because: registry: similar_name_only; exact name seen 17 times in sources
+REGISTRY: similar_name_only. No registered entity is named 'NTUC Income'. The closest registered name is NTUC INCOME HOLDINGS PTE. LTD., which may be a different company.
+WEB: 5 queries (bing), 6 of 8 pages read, exact name seen in 1 pages and 16 search results
+BRIEF (model rating: appears_real_and_consistent, confidence high; 3 claims verified, 3 unverified)
+  about: the brand named in the posting; the registered legal employer is not confirmed
+  Facts:
+    [UNVERIFIED] NTUC Income Insurance Co‑Op Ltd is a Singapore‑based insurance operator founded in
+    1970.
+    [verified] The company employs over 10,000 people.
+    [UNVERIFIED] NTUC Income maintains a public careers portal that promotes employee development
+    and community impact.
+  Positive signals:
+    [verified] Employee reviews of NTUC Income exist on public job‑site platforms.
+    [verified] The company is listed on a business‑information site with financial figures.
+  Red flags:
+    [UNVERIFIED] Scammers sometimes impersonate NTUC or its insurance arm in phishing attempts.
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 6):
+  - Reviews NTUC Income Insurance Co-operative employe  https://sg.jobstreet.com/companies/ntuc-
+    income-insurance-co-operative-1685500304
+  - Working at Income Insurance Limited: 68 Reviews |   https://sg.indeed.com/cmp/Income-Insurance-
+    Limited-1/reviews
+  - Working at NTUC Income Insurance Co-operative comp  https://sg.jobstreet.com/companies/ntuc-
+    income-insurance-co-operative-1685500304
+  - Income Insurance Limited Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/Income-Insurance-
+    Limited-Reviews-E377696.htm
+  - Working at Income Insurance Limited | Glassdoor  https://www.glassdoor.sg/Overview/Working-at-
+    Income-Insurance-Limited-EI_IE37769
+  - NTUC Income Jobs in Singapore (with Salaries) - Oc  https://sg.jobstreet.com/NTUC-Income-jobs
+COULD NOT READ (2):
+  - https://www.ambitionbox.com/reviews/ntuc-income-reviews/singapore-loca  (blocked: challenge or
+    login-wall text)
+  - https://www.ambitionbox.com/reviews/ntuc-income-reviews  (blocked: challenge or login-wall text)
+COULD NOT VERIFY:
+  - Exact details of the "Financial Services Associate" role such as responsibilities, salary, or
+    hiring process
+  - Which registered company is the legal employer behind this brand.
+(64.9s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

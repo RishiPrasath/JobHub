@@ -1,0 +1,308 @@
+{
+ "legal_hits": [
+  {
+   "context": " that prefers non-Singaporeans. The MOM page says discriminatory advertisements breach the Guidelines (this tool d",
+   "term": "discriminatory",
+   "methods": [
+    "deterministic"
+   ],
+   "example_case": "C03"
+  },
+  {
+   "context": ". The MOM page says discriminatory advertisements breach the Guidelines (this tool does not apply that to ",
+   "term": "breach",
+   "methods": [
+    "deterministic"
+   ],
+   "example_case": "C03"
+  },
+  {
+   "context": " a preference for a specific race, which could be discriminatory.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss20b-run1"
+   ],
+   "example_case": "C02"
+  },
+  {
+   "context": "reference for a specific religion, which could be discriminatory.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss20b-run1"
+   ],
+   "example_case": "C04"
+  },
+  {
+   "context": "Requiring a photograph may lead to discriminatory practices",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss20b-run1"
+   ],
+   "example_case": "C05"
+  },
+  {
+   "context": "Asking about family plans can be discriminatory",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss20b-run1"
+   ],
+   "example_case": "C05"
+  },
+  {
+   "context": "uires unpaid work before employment, which may be unlawful or exploitative.",
+   "term": "unlawful",
+   "methods": [
+    "gptoss20b-run1"
+   ],
+   "example_case": "C08"
+  },
+  {
+   "context": "is clause could be a salary deduction that may be unlawful.",
+   "term": "unlawful",
+   "methods": [
+    "gptoss20b-run1"
+   ],
+   "example_case": "C09"
+  },
+  {
+   "context": "Preference for fresh graduates may indirectly discriminate based on age",
+   "term": "discriminate",
+   "methods": [
+    "gptoss20b-run1"
+   ],
+   "example_case": "A03"
+  },
+  {
+   "context": "The requirement may discriminate against non-native speakers",
+   "term": "discriminate",
+   "methods": [
+    "gptoss20b-run1"
+   ],
+   "example_case": "A04"
+  },
+  {
+   "context": "ent specifies a gender for the role, which may be discriminatory.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss20b-run1"
+   ],
+   "example_case": "J02"
+  },
+  {
+   "context": "It specifies an age range, which could be discriminatory.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss20b-run1"
+   ],
+   "example_case": "E2"
+  },
+  {
+   "context": "The requirement may indirectly discriminate against non‑English/ Mandarin speakers",
+   "term": "discriminate",
+   "methods": [
+    "gptoss20b-run1"
+   ],
+   "example_case": "E5"
+  },
+  {
+   "context": "amily commitments are undesirable, which could be discriminatory.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss20b-run2"
+   ],
+   "example_case": "A05"
+  },
+  {
+   "context": "ly requires a specific religion, which could be a discriminatory practice.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss20b-run2"
+   ],
+   "example_case": "J04"
+  },
+  {
+   "context": "he posting specifies an age range, which could be discriminatory.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss20b-run2"
+   ],
+   "example_case": "E2"
+  },
+  {
+   "context": "s the position to a specific gender, which may be discriminatory.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss20b-run2"
+   ],
+   "example_case": "E2"
+  }
+ ],
+ "protected_hits": [],
+ "questions": {
+  "could you tell me how the age or experience wording in the posting relates to the duties of the role?": [
+   "deterministic"
+  ],
+  "could you tell me whether the gender wording is tied to a requirement of the role, and what that requirement is?": [
+   "deterministic"
+  ],
+  "could you tell me why this language is needed for the role, for example which customers or duties it serves?": [
+   "deterministic"
+  ],
+  "could you tell me whether the wording about race or the working environment is a requirement of the role, and why?": [
+   "deterministic"
+  ],
+  "could you tell me how the nationality or work-pass wording relates to the role, and whether all applicants are considered?": [
+   "deterministic"
+  ],
+  "could you tell me whether the religion wording relates to a religious function or certification the role requires?": [
+   "deterministic"
+  ],
+  "could you tell me why marital status or family plans are asked for at the application stage, and whether they affect selection?": [
+   "deterministic"
+  ],
+  "could you tell me why a photograph is needed at the application stage, and whether it can be provided later?": [
+   "deterministic"
+  ],
+  "could you tell me what the fee or deposit is for, whether it is refundable, and when it is returned?": [
+   "deterministic"
+  ],
+  "could you tell me why the original documents are needed, how long they are kept, and when they are returned?": [
+   "deterministic"
+  ],
+  "could you tell me whether the trial period is paid, how long it lasts, and what work is done during it?": [
+   "deterministic"
+  ],
+  "could you tell me what the deduction covers, when it applies, and which terms of the contract state it?": [
+   "deterministic"
+  ],
+  "could you tell me what the main duties are, what the expected working hours are, and how after-hours work is compensated?": [
+   "deterministic"
+  ],
+  "could you tell me how progression works in this role, what the typical timeline has been, and what it depends on?": [
+   "deterministic"
+  ],
+  "could you tell me how the appearance wording relates to the duties, and what the dress or grooming expectations are?": [
+   "deterministic"
+  ],
+  "could you tell me the guaranteed basic pay, how commission is calculated, and how overtime is paid?": [
+   "deterministic"
+  ],
+  "is the preference for chinese applicants based on a legitimate business requirement?": [
+   "gptoss20b-run1"
+  ],
+  "could you clarify whether the religious preference is a strict requirement or a preference?": [
+   "gptoss20b-run1"
+  ],
+  "is a photograph required for the application process?": [
+   "gptoss20b-run1"
+  ],
+  "is information about marital status or family plans relevant to this role?": [
+   "gptoss20b-run1"
+  ],
+  "could you clarify if the course fee is mandatory and whether it is refundable if the position does not materialise?": [
+   "gptoss20b-run1"
+  ],
+  "what is the policy on returning personal documents after employment ends?": [
+   "gptoss20b-run1"
+  ],
+  "is the unpaid trial period a mandatory part of the hiring process, and how long does it last?": [
+   "gptoss20b-run1"
+  ],
+  "could you explain the circumstances under which liquidated damages would be applied?": [
+   "gptoss20b-run1"
+  ],
+  "could you clarify the age requirements for this position?": [
+   "gptoss20b-run1"
+  ],
+  "is singaporean citizenship a mandatory requirement for this role?": [
+   "gptoss20b-run1"
+  ],
+  "is the preference for fresh graduates based on specific skill requirements?": [
+   "gptoss20b-run1"
+  ],
+  "is native english proficiency essential for this position?": [
+   "gptoss20b-run1"
+  ],
+  "could you explain how personal commitments might affect performance in this role?": [
+   "gptoss20b-run1"
+  ],
+  "could you describe the essential appearance-related requirements for this role?": [
+   "gptoss20b-run1"
+  ],
+  "could you clarify the base salary and the conditions under which the $6,000 commission is earned?": [
+   "gptoss20b-run1"
+  ],
+  "is the gender requirement for the therapist role a genuine occupational necessity?": [
+   "gptoss20b-run1"
+  ],
+  "could you clarify why a hindu priest is specifically required for this role?": [
+   "gptoss20b-run1"
+  ],
+  "could you explain why this age range is essential for the role?": [
+   "gptoss20b-run1"
+  ],
+  "is there a particular reason why only female candidates are considered?": [
+   "gptoss20b-run1"
+  ],
+  "could you clarify why younger applicants are preferred for this position?": [
+   "gptoss20b-run1"
+  ],
+  "is proficiency in english and mandarin a mandatory requirement for this position?": [
+   "gptoss20b-run1"
+  ],
+  "could you clarify whether the course fee is refundable and if it applies to all applicants?": [
+   "gptoss20b-run2"
+  ],
+  "could you explain the policy on retaining original documents and how they will be safeguarded?": [
+   "gptoss20b-run2"
+  ],
+  "could you explain how personal commitments might impact the responsibilities of this role?": [
+   "gptoss20b-run2"
+  ],
+  "could you clarify if the role is open to candidates of other religions?": [
+   "gptoss20b-run2"
+  ],
+  "could you explain why the age range is necessary for this role?": [
+   "gptoss20b-run2"
+  ],
+  "is gender a genuine requirement for this position, or could it be open to all applicants?": [
+   "gptoss20b-run2"
+  ],
+  "could you clarify if age is a relevant factor for this role?": [
+   "gptoss20b-run2"
+  ],
+  "could you clarify why a course fee is required before the first shift and what specific training this covers?": [
+   "qwen27b-run1"
+  ],
+  "what does the security deposit secure, and what are the specific conditions for its refund?": [
+   "qwen27b-run1"
+  ],
+  "could you clarify the specific operational reason for retaining the original passport and certificates, and whether copies would be acceptable instead?": [
+   "qwen27b-run1"
+  ],
+  "could you clarify the conditions under which the liquidated damages clause applies and how the deduction would be processed?": [
+   "qwen27b-run1"
+  ],
+  "could you clarify if there are specific legal or operational reasons for requiring singaporean citizenship for this role?": [
+   "qwen27b-run1"
+  ],
+  "could you clarify what types of personal commitments are considered to interfere with work for this role?": [
+   "qwen27b-run1"
+  ],
+  "could you provide more specific details on the grooming standards expected for this front-of-house role?": [
+   "qwen27b-run1"
+  ],
+  "is the requirement to be a graduate of a local university strictly necessary for the role, or are graduates from overseas universities also considered?": [
+   "qwen27b-run1"
+  ],
+  "could you clarify if there are specific operational requirements that necessitate a female candidate for this receptionist role?": [
+   "qwen27b-run1"
+  ],
+  "what specific job-related reasons require candidates to be between the ages of 25 and 30?": [
+   "qwen27b-run1"
+  ],
+  "is there a specific age requirement for this role, or is 'young' used to describe the desired energy and work ethic?": [
+   "qwen27b-run1"
+  ]
+ }
+}

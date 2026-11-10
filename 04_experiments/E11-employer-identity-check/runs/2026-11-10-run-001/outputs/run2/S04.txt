@@ -1,0 +1,11 @@
+Funding Societies Pte. Ltd.  (role: Credit Analyst)
+HEADLINE: exists_limited_evidence
+  Registered in Singapore, but there is little public evidence beyond the registry.
+  because: registry: confirmed; web evidence thin (3 pages read, model: None)
+REGISTRY: confirmed. FUNDING SOCIETIES PTE. LTD. is registered in Singapore (status: Live Company, registered 2015-02-26).
+WEB: 5 queries (bing, duckduckgo), 7 of 8 pages read, exact name seen in 7 pages and 14 search results
+COULD NOT READ (1):
+  - https://straitsdata.com/companies/sg/funding-societies-pte-ltd/2015051  (thin: fewer than 400
+    characters of real content)
+DEGRADED: summary_unavailable: model rate limit reached (retry in 2147 s)
+(89.0s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

@@ -1,0 +1,39 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "H09",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:04:54Z",
+ "latency_s": 1.84,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1100,
+  "temperature": 0.8,
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "user",
+   "content": "Write the raw text that a person would get by pressing Select All then Copy on a JobStreet-style (left list of search result cards plus the selected job detail on the right) job page in Singapore, for a fictional employer and a made-up job. Output the pasted text ONLY: no commentary, no markdown, no code fences. Include realistic page furniture (menu text, buttons, banners, footer links). Target 250 to 400 words. Requirements for this paste:\n- a few words of Chinese appear in the menu or banner (for example 招聘 or 立即申请)\n- employer shown as 'Private Advertiser'\n- pay $12 - $14 per hour is shown\n- NO closing date\n- duties as short bullets\nToday is 2026-11-10; any dates you write must be in November or December 2026."
+  }
+ ],
+ "content": "Home Jobs Companies Salary Guide Career Advice Login Register 招聘 立即申请  \n\nBanner: “Join our growing team – Apply now! 招聘 – Limited spots available”  \n\nFilters: Location All Singapore | Job Type All Full‑time Part‑time Contract | Salary All | Date Posted All | Sort by Relevance  \n\nLeft column – Search results  \n\n1. Customer Service Representative – Private Advertiser – $12 - $14 per hour – Central Business District  \n2. Retail Sales Associate – Private Advertiser – $12 - $14 per hour – Orchard Road  \n3. Data Entry Clerk – Private Advertiser – $12 - $14 per hour – Jurong East  \n4. Warehouse Operative – Private Advertiser – $12 - $14 per hour – Woodlands  \n\n[Show more results]  \n\nRight column – Job detail (selected: Customer Service Representative)  \n\nJob Title: Customer Service Representative  \nCompany: Private Advertiser  \nLocation: Central Business District, Singapore  \nEmployment Type: Part‑time  \nSalary: $12 - $14 per hour  \n\nJob Description  \nWe are looking for enthusiastic individuals to join our front‑line team. You will be the first point of contact for our customers, providing friendly and efficient service.  \n\nKey Responsibilities  \n- Answer inbound calls and respond to emails promptly  \n- Resolve customer inquiries and complaints with empathy  \n- Process orders and handle returns accurately  \n- Update customer records in the CRM system  \n- Meet daily performance targets  \n\nRequirements  \n- Minimum GCE ‘N’ level or equivalent  \n- Good command of English; Mandarin a plus  \n- Strong communication and problem‑solving skills  \n- Ability to work flexible shifts, including weekends  \n- Basic computer literacy (MS Office, internet browsing)  \n\nBenefits  \n- Competitive hourly rate $12 - $14  \n- Flexible scheduling to fit study or other commitments  \n- On‑the‑job training and career development opportunities  \n- Employee discounts on company products  \n\nHow to Apply  \nClick the “Apply Now” button, upload your resume, and fill in the short application form.  \n\n[Apply Now]   [Save Job]   [Share]  \n\n---  \n\nFooter  \n\nAbout JobStreet | Contact Us | Privacy Policy | Terms of Use | Cookie Policy | Help Center | Sitemap  \n\n© 2026 JobStreet Singapore. All rights reserved.   Follow us: Facebook | LinkedIn | Twitter   © Private Advertiser.   招聘 | 立即申请.   Page last updated: 15 November 2026.",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 654,
+  "prompt_tokens": 244,
+  "total_tokens": 898,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 102,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.264178834,
+  "prompt_time": 0.010537048,
+  "completion_time": 1.391580737,
+  "total_time": 1.402117785
+ },
+ "cached": false
+}

@@ -1,0 +1,395 @@
+{
+ "E12-P04": [
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L01",
+   "text": "Job title is Warehouse Assistant.",
+   "id": "W1"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L02",
+   "text": "Employer is Bluefin Cold Storage Pte Ltd.",
+   "id": "W2"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L03",
+   "text": "Work location is Tuas South Avenue 9, Singapore.",
+   "id": "W3"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L04",
+   "text": "Monthly salary range is $2,200 to $2,700.",
+   "id": "W4"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L05",
+   "text": "Employment type is Permanent, Full Time, Non-executive.",
+   "id": "W5"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L06",
+   "text": "Position is entry level and no experience is required.",
+   "id": "W6"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L07",
+   "text": "Job duties include receiving, checking and putting away incoming chilled and frozen stock.",
+   "id": "W7"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L08",
+   "text": "Job duties include picking and packing orders according to pick lists; loading and unloading delivery vehicles with forklift support.",
+   "id": "W8"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L09",
+   "text": "Work is performed in a cold room environment ranging from -18°C to 4°C, with jackets provided.",
+   "id": "W9"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L10",
+   "text": "Requirements: able to lift up to 25 kg repeatedly; forklift licence is a plus; basic English.",
+   "id": "W10"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L11",
+   "text": "Working hours are rotating shifts, six days a week.",
+   "id": "W11"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L11",
+   "text": "Shift allowance is provided.",
+   "id": "W12"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L12",
+   "text": "Benefits include AWS, medical coverage, and annual leave as per MOM requirements.",
+   "id": "W13"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L12",
+   "text": "The medical benefit covers the employee's dependants.",
+   "planted": true,
+   "id": "W14"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "platform",
+   "loc": "L16",
+   "text": "Application method: apply via MyCareersFuture.",
+   "id": "W15"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L15",
+   "text": "Job post number is MCF-2026-0711432.",
+   "id": "W16"
+  }
+ ],
+ "E12-P07": [
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L01",
+   "text": "Job title is \"Customer Service Executive\".",
+   "id": "W1"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L09",
+   "text": "Handle inbound calls and chat enquiries from broadband customers.",
+   "id": "W2"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L10",
+   "text": "Resolve billing and service issues and log cases in the CRM.",
+   "id": "W3"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L12",
+   "text": "Minimum qualification: GCE O-Level.",
+   "id": "W4"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L12",
+   "text": "Preferred: 1 year of customer service experience.",
+   "id": "W5"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L12",
+   "text": "Good spoken English; Mandarin or Malay is a plus.",
+   "id": "W6"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L05",
+   "text": "The job is permanent.",
+   "planted": true,
+   "id": "W7"
+  },
+  {
+   "kind": "claim",
+   "state": "conflicting",
+   "owner": "employer",
+   "loc": "L11",
+   "text": "Shift work: 9 am to 6 pm, Monday to Friday, with rotating weekend duty once a month.",
+   "id": "W8"
+  },
+  {
+   "kind": "claim",
+   "state": "conflicting",
+   "owner": "employer",
+   "loc": "L14",
+   "text": "Working hours: 11 am to 8 pm (shift), 5 days a week.",
+   "id": "W9"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L05",
+   "text": "Salary range: S$2,600 – S$3,200 per month.",
+   "id": "W10"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L13",
+   "text": "Benefits include a shift allowance.",
+   "id": "W11"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L13",
+   "text": "Benefits include a performance incentive.",
+   "id": "W12"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L13",
+   "text": "Benefits include medical and dental coverage.",
+   "id": "W13"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L02",
+   "text": "Employer: Sunridge Connect Pte. Ltd.",
+   "id": "W14"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L03",
+   "text": "Location: Tampines, East Region.",
+   "id": "W15"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L15",
+   "text": "Company rating: 3.4 stars out of 5 reviews.",
+   "id": "W16"
+  },
+  {
+   "kind": "claim",
+   "state": "platform_signal",
+   "owner": "platform",
+   "loc": "L07",
+   "text": "Platform warning: never pay money to secure a job.",
+   "id": "W17"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "platform",
+   "loc": "L17",
+   "text": "Quick apply button is available for application.",
+   "id": "W18"
+  },
+  {
+   "kind": "question",
+   "state": "suggested question",
+   "owner": "-",
+   "loc": "-",
+   "text": "What are the exact daily shift hours and how is the rotating weekend duty scheduled?",
+   "id": "W19"
+  },
+  {
+   "kind": "question",
+   "state": "suggested question",
+   "owner": "-",
+   "loc": "-",
+   "text": "Is the salary range S$2,600 – S$3,200 inclusive of shift allowance and other benefits, or is it base pay only?",
+   "id": "W20"
+  }
+ ],
+ "E12-P08": [
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L01",
+   "text": "Job title: Part-time Retail Assistant (Weekends)",
+   "id": "W1"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L06",
+   "text": "Employer: Corner Basket Mart",
+   "id": "W2"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L07",
+   "text": "Responsibilities: Operate the cashier counter, replenish shelves, keep the store clean.",
+   "id": "W3"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L09",
+   "text": "The employer makes CPF contributions on the hourly pay.",
+   "planted": true,
+   "id": "W4"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L08",
+   "text": "Requirements: Must be able to work every Saturday and Sunday. Minimum age 18. Students welcome.",
+   "id": "W5"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L10",
+   "text": "Work hours: Saturday and Sunday, 10am to 7pm.",
+   "id": "W6"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L02",
+   "text": "Salary: S$14 per hour.",
+   "id": "W7"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L09",
+   "text": "Salary: S$11.50 per hour, paid weekly.",
+   "id": "W8"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L03",
+   "text": "Immediate start.",
+   "id": "W9"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "platform",
+   "loc": "L04",
+   "text": "Employer normally responds within 24 hours.",
+   "id": "W10"
+  },
+  {
+   "kind": "claim",
+   "state": "present",
+   "owner": "employer",
+   "loc": "L13",
+   "text": "Apply via WhatsApp +65 5555 0142.",
+   "id": "W11"
+  },
+  {
+   "kind": "question",
+   "state": "suggested question",
+   "owner": "-",
+   "loc": "-",
+   "text": "What is the correct hourly wage for this position – S$14 or S$11.50 per hour?",
+   "id": "W12"
+  }
+ ]
+}

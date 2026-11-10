@@ -1,0 +1,120 @@
+{
+ "employer": "A Leading MNC",
+ "role": "Supply Chain Manager",
+ "degraded": [
+  "no_web_sources: nothing could be read or found, so no summary was written"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "not_in_registry",
+  "summary": "No registered entity in Singapore resembles 'A Leading MNC'.",
+  "basis": "name only",
+  "entity": null,
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"A Leading MNC\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"A Leading MNC\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"A Leading MNC\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"A Leading MNC\" Supply Chain Manager interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"A Leading MNC\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.jobstreet.com/list-of-mnc-companies-in-singapore-jobs",
+    "title": "36 List Of Mnc Companies In Singapore jobs in Singapore",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/mnc-supply-chain-jobs",
+    "title": "Mnc Supply Chain Jobs in Singapore (with Salaries) - Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "a leading mnc"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 1,
+   "none": false,
+   "strong": false
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 38,
+  "registry_mirror_pages": 0
+ },
+ "headline": "could_not_confirm_company",
+ "headline_meaning": "Neither the registry nor the web confirms this company exists under this name.",
+ "reasons": [
+  "registry: not_in_registry",
+  "exact name seen 1 times"
+ ],
+ "brief": null,
+ "could_not_read": [],
+ "link_out": [
+  {
+   "url": "https://sg.jobstreet.com/list-of-mnc-companies-in-singapore-jobs",
+   "title": "36 List Of Mnc Companies In Singapore jobs in Singapore",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/mnc-supply-chain-jobs",
+   "title": "Mnc Supply Chain Jobs in Singapore (with Salaries) - Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 63.1,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

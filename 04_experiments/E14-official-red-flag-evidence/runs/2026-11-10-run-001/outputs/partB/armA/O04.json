@@ -1,0 +1,42 @@
+{
+  "organisation": "Recruit Express Pte Ltd",
+  "queries_run": [
+    "\"Recruit Express Pte Ltd\" Singapore regulator penalty fine",
+    "\"Recruit Express Pte Ltd\" enforcement action Singapore",
+    "\"Recruit Express Pte Ltd\" court judgment Singapore",
+    "\"Recruit Express Pte Ltd\" complaints Singapore",
+    "\"Recruit Express Pte Ltd\" retrenchment layoffs Singapore",
+    "\"Recruit Express Pte Ltd\" scam fraud warning Singapore"
+  ],
+  "items": [
+    {
+      "claim": "A consumer review on ComplaintsBoard describes a staff member's attitude as rude after the reviewer declined a job; the reviewer reports a follow-up call. This is one unverified customer review, not a regulatory finding.",
+      "entity_the_claim_is_about": "Recruit Express Pte Ltd",
+      "category": "consumer_complaint",
+      "source_url": "https://www.complaintsboard.com/reviews/recruit-express-pte-ltd-a472804",
+      "quoted_evidence": "One reviewer describes a staff member's attitude as rude and says the person scolded them after they declined a job"
+    },
+    {
+      "claim": "A ComplaintsBoard review page titled as a bad experience with the company, where the reviewer says they were looked down upon. Only the page title was visible in the search results; the body was not shown.",
+      "entity_the_claim_is_about": "Recruit Express Pte Ltd",
+      "category": "consumer_complaint",
+      "source_url": "https://www.complaintsboard.com/singapore-recruit-express-bad-experience-being-look-down-at-c588714",
+      "quoted_evidence": "singapore recruit express bad experience being look down at c588714"
+    },
+    {
+      "claim": "A ComplaintsBoard review page titled as a complaint about a staff member's attitude at the company. Only the page title was visible in the search results; the body was not shown.",
+      "entity_the_claim_is_about": "Recruit Express Pte Ltd",
+      "category": "consumer_complaint",
+      "source_url": "https://www.complaintsboard.com/recruit-express-pte-ltd-attitude-about-a-staff-from-recruit-express-singapore-c660552",
+      "quoted_evidence": "recruit express pte ltd attitude about a staff from recruit express singapore c660552"
+    },
+    {
+      "claim": "A malware-scanner page flagged a different domain, recruitsingapore.com, as high scam risk. The page says several unrelated Singapore recruitment agencies have similar names with different domains and verified registrations. This concerns a different domain, not this company's domain, and it is an automated scan rather than an official warning.",
+      "entity_the_claim_is_about": "Domain recruitsingapore.com (not Recruit Express Pte Ltd)",
+      "category": "other_entity",
+      "source_url": "https://tools.malwaretips.com/url-scan/recruitsingapore.com",
+      "quoted_evidence": "flagged a different domain, recruitsingapore.com, as high scam risk"
+    }
+  ],
+  "notes": "The six searches returned no regulator penalty, enforcement action, court judgment, retrenchment report, or official scam or impersonation warning naming Recruit Express Pte Ltd. The quoted_evidence values are taken from the search-result summaries and titles, not from full page text; the full review bodies were not opened, as instructed. The ComplaintsBoard items are unverified customer reviews, and some review pages list a non-Singapore country, so their reliability is uncertain. Some results mention an older 2012 complaint thread, but its URL was not clearly shown, so it is not included as an item. Company identifiers seen in results (UEN 199601303W, EA licence 99C4599) were not verified against official registries. Results that concern other companies (Wonderful Agency, Asia Recruit, Circles Life/SearchAsia, Swift Maids, International Placements, Recruit Expert) were excluded. The job-board listings that name the company were not counted as red flags because the results did not show that they asked applicants to send resumes by email or that they were fraudulent."
+}

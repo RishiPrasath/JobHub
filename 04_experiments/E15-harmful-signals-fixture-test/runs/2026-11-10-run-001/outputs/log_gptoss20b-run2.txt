@@ -1,0 +1,5 @@
+batch 0 ['E2', 'E4', 'A05', 'J01'] -> [2, 1, 1, 0] 1524 tok 
+batch 1 ['B01', 'B08', 'J04', 'C07'] -> [0, 0, 1, 1] 1491 tok 
+batch 2 ['A08', 'B09', 'J06', 'C06'] -> [0, 0, 0, 1] 1435 tok 
+STOP: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD
+total tokens 4450

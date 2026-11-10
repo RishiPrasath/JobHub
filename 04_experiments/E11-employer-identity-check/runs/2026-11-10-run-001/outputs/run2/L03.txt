@@ -1,0 +1,23 @@
+ComfortDelGro Corporation Limited  (role: Bus Captain)
+HEADLINE: exists_limited_evidence
+  Registered in Singapore, but there is little public evidence beyond the registry.
+  because: registry: confirmed; web evidence thin (6 pages read, model: None)
+REGISTRY: confirmed. COMFORTDELGRO CORPORATION LIMITED is registered in Singapore (status: Live Company, registered 2003-01-01).
+WEB: 5 queries (bing), 7 of 8 pages read, exact name seen in 5 pages and 8 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 11):
+  - Working at ComfortDelGro | Glassdoor  https://www.glassdoor.com/Overview/Working-at-
+    ComfortDelGro-EI_IE16161.11,24.htm
+  - Working at ComfortDelGro: 50 Reviews | Indeed.com
+    https://sg.indeed.com/cmp/Comfortdelgro/reviews
+  - Reviews ComfortDelGro employee ratings and reviews
+    https://sg.jobstreet.com/companies/comfortdelgro-168554962952764/reviews
+  - Working at ComfortDelGro company profile and infor
+    https://sg.jobstreet.com/companies/comfortdelgro-168554962952764
+  - ComfortDelGro Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/ComfortDelGro-
+    Reviews-E16161.htm
+  - ComfortDelGro Reviews (271): Pros & Cons of Workin
+    https://www.glassdoor.com/Reviews/ComfortDelGro-Reviews-E16161.htm
+COULD NOT READ (1):
+  - https://www.cdgtaxi.com.sg/contact  (thin: fewer than 400 characters of real content)
+DEGRADED: summary_unavailable: model rate limit reached (retry in 3117 s)
+(56.0s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

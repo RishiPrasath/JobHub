@@ -1,6 +1,6 @@
 # E11: employer identity check on real postings
 
-Status: planned (thresholds below are proposed and not yet pre-registered; the owner confirms them before any run)
+Status: run 2026-11-10 (reduced; see [FINDINGS.md](FINDINGS.md)). Thresholds were treated as confirmed by the owner's instruction to run and frozen by hash, not committed to git.
 Affects: FEAT-001, ASM-001
 
 ## Question

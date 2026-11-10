@@ -1,0 +1,185 @@
+{
+ "employer": "Singapore Airlines Limited",
+ "role": "Cabin Crew",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 2520 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "SINGAPORE AIRLINES LIMITED is registered in Singapore (status: Live Company, registered 1972-01-28).",
+  "basis": "name only",
+  "entity": {
+   "uen": "197200078R",
+   "name": "SINGAPORE AIRLINES LIMITED",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1972-01-28",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [
+   "other entities start with this name: SINGAPORE AIRLINES CARGO PTE LTD"
+  ],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Singapore Airlines Limited\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 3,
+    "error": null
+   },
+   {
+    "query": "\"Singapore Airlines Limited\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": null,
+    "results": 0,
+    "error": null
+   },
+   {
+    "query": "\"Singapore Airlines Limited\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Singapore Airlines Limited\" Cabin Crew interview process salary",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 2,
+    "error": null
+   },
+   {
+    "query": "\"Singapore Airlines Limited\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.maukerja.my/en/company/singapore-airlines-limited",
+    "status": "ok",
+    "chars": 1113,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://sg.trabajo.org/job-979-e6c023a72d82dde058a925992dc91032",
+    "status": "ok",
+    "chars": 3634,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.lemon8-app.com/experience/sqe-interview-questions?region=sg",
+    "status": "ok",
+    "chars": 60000,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Singapore-Airlines-Limited",
+    "status": "ok",
+    "chars": 22271,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/business/197200078R/SINGAPORE-AIRLINES-LIMITED",
+    "status": "ok",
+    "chars": 55361,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://companieshouse.sg/singapore-airlines-197200078r",
+    "status": "ok",
+    "chars": 1397,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://recordowl.com/company/singapore-airlines-limited",
+    "status": "ok",
+    "chars": 17181,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://opengovsg.com/corporate/197200078R",
+    "status": "ok",
+    "chars": 4567,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.indeed.com/cmp/Singapore-Airlines",
+    "title": "Singapore Airlines Careers and Employment | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://hk.indeed.com/cmp/Singapore-Airlines",
+    "title": "Singapore Airlines Careers and Employment | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "singapore airlines"
+   ],
+   "pages_with_exact_name": 8,
+   "snippets_with_exact_name": 13,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 8,
+  "registry_mirror_pages": 3
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (5 pages read, model: None)"
+ ],
+ "brief": null,
+ "could_not_read": [],
+ "link_out": [
+  {
+   "url": "https://sg.indeed.com/cmp/Singapore-Airlines",
+   "title": "Singapore Airlines Careers and Employment | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://hk.indeed.com/cmp/Singapore-Airlines",
+   "title": "Singapore Airlines Careers and Employment | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 59.3,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

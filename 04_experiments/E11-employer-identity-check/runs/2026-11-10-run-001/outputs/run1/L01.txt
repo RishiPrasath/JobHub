@@ -1,0 +1,30 @@
+DBS Bank Ltd  (role: Customer Service Officer)
+HEADLINE: exists_and_consistent
+  Registered in Singapore, and public sources agree it is the company named.
+  because: registry: confirmed; model: consistent across 7 pages
+REGISTRY: confirmed. DBS BANK LTD. is registered in Singapore (status: Live Company, registered 1968-07-16).
+  flag: an earlier entity with the same name is now Terminated
+WEB: 5 queries (bing, duckduckgo), 7 of 8 pages read, exact name seen in 4 pages and 15 search results
+BRIEF (model rating: appears_real_and_consistent, confidence medium; 6 claims verified, 1 unverified)
+  Facts:
+    [UNVERIFIED] DBS BANK LTD is a live local company registered in Singapore since 1968.
+    [verified] DBS Bank Ltd is the legal entity behind the Development Bank of Singapore, a major
+    financial services group in Asia.
+    [verified] The bank provides 24/7 fraud‑reporting and scam‑prevention services to customers.
+    [verified] DBS collaborates with Singapore authorities to educate the public about phishing and
+    scam threats.
+  Positive signals:
+    [verified] DBS Bank Ltd maintains a strong reputation and high credit ratings in the
+    Asia‑Pacific region.
+    [verified] The bank is recognized for leadership, having been named “Asia’s Best Bank” by The
+    Banker.
+  Red flags:
+    [verified] There are frequent phishing and scam attempts impersonating DBS, which could affect
+    candidate perception.
+COULD NOT READ (1):
+  - https://inf.news/en/economy/e72e5cb3aea23fd9721c63afa77f0314.html  (irrelevant: the page never
+    mentions the company name)
+COULD NOT VERIFY:
+  - specific details about the Customer Service Officer role
+  - exact employee count or revenue figures for DBS Bank Ltd (Singapore)
+(181.4s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

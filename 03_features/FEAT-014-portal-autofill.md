@@ -2,7 +2,7 @@
 id: FEAT-014
 title: Autofill without retyping
 type: feature
-scope: candidate
+scope: later
 need_level: N1
 feasibility_level: T0
 result: none
@@ -11,7 +11,7 @@ needs: [S-16]
 findings: [FND-R09-04]
 riskiest_assumption: ASM-014
 decision: null
-updated: 2026-11-09
+updated: 2026-11-10
 ---
 
 # Autofill without retyping
@@ -36,4 +36,10 @@ Not yet considered as a feature.
 
 ## Next test
 
-Technical spike on common portals. Riskiest assumption: autofill is feasible on real portals.
+No experiment is planned yet (owner decision 2026-11-10; see the reason below).
+
+When this is picked up again, the riskiest assumption is still ASM-014: autofill is feasible on real portals. A first step that needs no platform decision is a saved-forms mapping test: the owner saves about 30 real application forms by hand from at least 6 portal types, the system maps each field to a profile field or marks it not covered, and gold labels are written beforehand. It would also check that sensitive fields (eligibility, salary expectation without confirmation, disability, criminal history, demographics) are never proposed for auto-fill, and that hidden instructions in a form are not followed. A live-portal spike needs a platform decision and a terms-of-service review first. The data an autofill would use comes from [FEAT-016](FEAT-016-candidate-profile.md) and the saved answers in [FEAT-017](FEAT-017-initial-setup-job-preferences.md).
+
+## Reason for `later`
+
+Owner decision, 2026-11-10: postpone. No feature has been proposed yet, and a spike on real portals depends on a platform choice (browser extension, web app or helper) that has not been made and is the owner's to make. Job-board logins and crawling are still awaiting owner confirmation, the friction figures are US snippets, R04 sets strict controls on automated form filling, and application actions are outside the first slice in report 13.

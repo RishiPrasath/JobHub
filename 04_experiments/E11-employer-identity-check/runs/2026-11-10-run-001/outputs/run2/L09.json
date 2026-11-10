@@ -1,0 +1,186 @@
+{
+ "employer": "NTUC FairPrice Co-operative Ltd",
+ "role": "Store Assistant",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 1462 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'NTUC FairPrice Co-operative Ltd'. The closest registered name is NTUC FAIRPRICE FOUNDATION LTD., which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "200611163W",
+   "name": "NTUC FAIRPRICE FOUNDATION LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2006-08-01",
+   "activity": "FINANCIAL ASSISTANCE TO THE NEEDY, AGED AND DISABLED",
+   "alternatives": []
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"NTUC FairPrice Co-operative Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 6,
+    "error": null
+   },
+   {
+    "query": "\"NTUC FairPrice Co-operative Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"NTUC FairPrice Co-operative Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"NTUC FairPrice Co-operative Ltd\" Store Assistant interview process salary",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 3,
+    "error": null
+   },
+   {
+    "query": "\"NTUC FairPrice Co-operative Ltd\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 7,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.ntuc.org.sg/uportal/about-us/enterprises/ntuc-fairprice",
+    "status": "ok",
+    "chars": 672,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.fairprice.com.sg/our-retail-formats",
+    "status": "ok",
+    "chars": 2762,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://sg.globaldatabase.com/company/ntuc-fairprice-co-operative-ltd-82799196",
+    "status": "ok",
+    "chars": 5133,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.ampliz.com/company/ntuc-fairprice-co-operative-ltd/82070224",
+    "status": "irrelevant",
+    "chars": 747,
+    "note": "the page never mentions the company name",
+    "tier": "render"
+   },
+   {
+    "url": "https://contactout.com/company/NTUC-FairPrice-5021",
+    "status": "thin",
+    "chars": 262,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://reviews.birdeye.com/ntuc-fairprice-co-operative-ltd-177676742096243",
+    "status": "ok",
+    "chars": 855,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.mycareersfuture.gov.sg/job/full-time-retail-assistant-cashier-ntuc-fairprice-co-operative-fcf86d19cb1f6e2ec5df7653f939e59c",
+    "status": "ok",
+    "chars": 1706,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.researchandmarkets.com/reports/5655732/ntuc-fairprice-co-operative-ltd-strategic-swot",
+    "status": "ok",
+    "chars": 3073,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.facebook.com/TheStraitsTimes/posts/some-of-the-over-3900-retrenchment-and-termination-cases-that-ntuc-handled-in-20/1297301862556971",
+    "title": "Some of the over 3,900 retrenchment... - The Straits Times | Facebook",
+    "why": "link out only (facebook.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "ntuc fairprice operative"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 0,
+   "none": true,
+   "strong": false
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 15,
+  "registry_mirror_pages": 0
+ },
+ "headline": "likely_lookalike",
+ "headline_meaning": "No registered company has this exact name and no source uses it. The closest registered name belongs to a different company. Treat the posting with caution.",
+ "reasons": [
+  "registry: similar_name_only",
+  "closest registered name is a different entity",
+  "exact name appears in no source"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://www.ampliz.com/company/ntuc-fairprice-co-operative-ltd/82070224",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://contactout.com/company/NTUC-FairPrice-5021",
+   "why": "thin: fewer than 400 characters of real content"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.facebook.com/TheStraitsTimes/posts/some-of-the-over-3900-retrenchment-and-termination-cases-that-ntuc-handled-in-20/1297301862556971",
+   "title": "Some of the over 3,900 retrenchment... - The Straits Times | Facebook",
+   "why": "link out only (facebook.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 13.9,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

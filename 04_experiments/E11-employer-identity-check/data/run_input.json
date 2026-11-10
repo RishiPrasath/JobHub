@@ -1,0 +1,277 @@
+{
+ "cases": [
+  {
+   "id": "L01",
+   "seen": false,
+   "employer": "DBS Bank Ltd",
+   "role": "Customer Service Officer",
+   "expect": []
+  },
+  {
+   "id": "L02",
+   "seen": false,
+   "employer": "Keppel Ltd",
+   "role": "Project Engineer",
+   "expect": []
+  },
+  {
+   "id": "L03",
+   "seen": false,
+   "employer": "ComfortDelGro Corporation Limited",
+   "role": "Bus Captain",
+   "expect": []
+  },
+  {
+   "id": "L04",
+   "seen": false,
+   "employer": "Changi Airport Group (Singapore) Pte. Ltd.",
+   "role": "Airport Operations Executive",
+   "expect": []
+  },
+  {
+   "id": "L05",
+   "seen": false,
+   "employer": "CapitaLand Group Pte. Ltd.",
+   "role": "Asset Manager",
+   "expect": []
+  },
+  {
+   "id": "L06",
+   "seen": false,
+   "employer": "Raffles Medical Group Ltd",
+   "role": "Staff Nurse",
+   "expect": []
+  },
+  {
+   "id": "L07",
+   "seen": false,
+   "employer": "Starbucks Coffee Singapore Pte. Ltd.",
+   "role": "Barista",
+   "expect": []
+  },
+  {
+   "id": "L08",
+   "seen": false,
+   "employer": "Singapore Airlines Limited",
+   "role": "Cabin Crew",
+   "expect": []
+  },
+  {
+   "id": "L09",
+   "seen": false,
+   "employer": "NTUC FairPrice Co-operative Ltd",
+   "role": "Store Assistant",
+   "expect": []
+  },
+  {
+   "id": "S01",
+   "seen": false,
+   "employer": "Ya Kun International Private Limited",
+   "role": "Kitchen Assistant",
+   "expect": []
+  },
+  {
+   "id": "S02",
+   "seen": false,
+   "employer": "Burger King Singapore Pte. Ltd.",
+   "role": "Crew Member",
+   "expect": []
+  },
+  {
+   "id": "S03",
+   "seen": false,
+   "employer": "Nium Pte. Ltd.",
+   "role": "Software Engineer",
+   "expect": []
+  },
+  {
+   "id": "S04",
+   "seen": false,
+   "employer": "Funding Societies Pte. Ltd.",
+   "role": "Credit Analyst",
+   "expect": []
+  },
+  {
+   "id": "S05",
+   "seen": false,
+   "employer": "Ohmyhome Pte. Ltd.",
+   "role": "Sales Coordinator",
+   "expect": []
+  },
+  {
+   "id": "S06",
+   "seen": false,
+   "employer": "Seedly Pte. Ltd.",
+   "role": "Content Marketing Executive",
+   "expect": []
+  },
+  {
+   "id": "S07",
+   "seen": false,
+   "employer": "Koufu Group Limited",
+   "role": "Food Court Assistant",
+   "expect": []
+  },
+  {
+   "id": "S08",
+   "seen": false,
+   "employer": "Carousell",
+   "role": "Community Specialist",
+   "expect": []
+  },
+  {
+   "id": "B01",
+   "seen": false,
+   "employer": "OCBC Bank",
+   "role": "Relationship Manager",
+   "expect": []
+  },
+  {
+   "id": "B02",
+   "seen": false,
+   "employer": "Singtel",
+   "role": "Network Engineer",
+   "expect": []
+  },
+  {
+   "id": "B03",
+   "seen": false,
+   "employer": "SingPost",
+   "role": "Postal Officer",
+   "expect": []
+  },
+  {
+   "id": "B04",
+   "seen": false,
+   "employer": "Grab",
+   "role": "Customer Support Specialist",
+   "expect": []
+  },
+  {
+   "id": "B05",
+   "seen": false,
+   "employer": "NTUC Income",
+   "role": "Financial Services Associate",
+   "expect": []
+  },
+  {
+   "id": "B06",
+   "seen": false,
+   "employer": "McDonald's Singapore",
+   "role": "Crew",
+   "expect": []
+  },
+  {
+   "id": "B07",
+   "seen": false,
+   "employer": "Mr Bean",
+   "role": "Store Assistant",
+   "expect": []
+  },
+  {
+   "id": "B08",
+   "seen": false,
+   "employer": "Swensen's",
+   "role": "Service Crew",
+   "expect": []
+  },
+  {
+   "id": "B09",
+   "seen": false,
+   "employer": "Aspire",
+   "role": "Customer Success Executive",
+   "expect": []
+  },
+  {
+   "id": "B10",
+   "seen": false,
+   "employer": "Toast Box",
+   "role": "Service Crew",
+   "expect": []
+  },
+  {
+   "id": "H01",
+   "seen": false,
+   "employer": "Confidential Employer",
+   "role": "Marketing Manager",
+   "expect": []
+  },
+  {
+   "id": "H02",
+   "seen": false,
+   "employer": "Our Client - A Global Bank",
+   "role": "Credit Risk Analyst",
+   "expect": []
+  },
+  {
+   "id": "H03",
+   "seen": false,
+   "employer": "A Leading MNC",
+   "role": "Supply Chain Manager",
+   "expect": []
+  },
+  {
+   "id": "H04",
+   "seen": false,
+   "employer": "Adecco Personnel Pte Ltd",
+   "role": "IT Project Manager",
+   "expect": []
+  },
+  {
+   "id": "H05",
+   "seen": false,
+   "employer": "Hays Specialist Recruitment Pte. Ltd.",
+   "role": "Finance Manager",
+   "expect": []
+  },
+  {
+   "id": "H06",
+   "seen": false,
+   "employer": "Robert Walters (Singapore) Pte Ltd",
+   "role": "Sales Director",
+   "expect": []
+  },
+  {
+   "id": "F01",
+   "seen": false,
+   "employer": "Singtel Careers Hub Pte Ltd",
+   "role": "Sales Associate",
+   "expect": []
+  },
+  {
+   "id": "F02",
+   "seen": false,
+   "employer": "Shopee Talent Solutions Pte Ltd",
+   "role": "Data Entry Clerk",
+   "expect": []
+  },
+  {
+   "id": "F03",
+   "seen": false,
+   "employer": "DBS Talent Acquisition Pte Ltd",
+   "role": "Admin Assistant",
+   "expect": []
+  },
+  {
+   "id": "F04",
+   "seen": false,
+   "employer": "CapitaLand Recruitment Services Pte Ltd",
+   "role": "Customer Service Officer",
+   "expect": []
+  },
+  {
+   "id": "F05",
+   "seen": false,
+   "employer": "Changi Airport Recruitment Centre Pte Ltd",
+   "role": "Ground Staff",
+   "expect": []
+  },
+  {
+   "id": "F06",
+   "seen": false,
+   "employer": "Merlion Prime Staffing Solutions Pte Ltd",
+   "role": "Remote Data Processor",
+   "expect": []
+  }
+ ]
+}

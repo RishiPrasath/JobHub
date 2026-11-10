@@ -1,0 +1,79 @@
+{
+  "organisation": "Recruit Express Pte Ltd",
+  "queries_run": [
+    "\"Recruit Express Pte Ltd\" Singapore",
+    "\"Recruit Express\" Singapore MOM licence scam warning complaint",
+    "\"Recruit Express\" Singapore court case OR lawsuit OR tribunal OR retrenchment",
+    "\"Recruit Express\" Singapore reviews complaints employment agency fees",
+    "\"Recruit Express\" scam impersonation fake recruiter Singapore",
+    "HRnetGroup Recruit Express SGX announcement penalty OR investigation OR litigation",
+    "\"Recruit Express\" Singapore complaintsboard",
+    "\"Recruit Express\" EA licence 99C4599 MOM employment agency directory"
+  ],
+  "pages_read": [
+    "https://acrawatch.sg/company/recruit-express-pte-ltd"
+  ],
+  "failed_reads": [
+    "https://www.complaintsboard.com/reviews/recruit-express-pte-ltd-a472804",
+    "https://www.complaintsboard.com/singapore-recruit-express-bad-experience-being-look-down-at-c588714"
+  ],
+  "items": [
+    {
+      "claim": "ComplaintsBoard has a jobseeker complaint saying a consultant pressed for an instant decision on a receptionist role and then scolded the applicant by phone after they declined. This is a conduct complaint, not a fee or licence matter.",
+      "entity_the_claim_is_about": "Recruit Express Pte Ltd (Singapore branch staff, as described by the complainant)",
+      "category": "consumer_complaint",
+      "source_url": "https://www.complaintsboard.com/reviews/recruit-express-pte-ltd-a472804",
+      "quoted_evidence": "scolded me in the phone claiming I was irresponsible"
+    },
+    {
+      "claim": "ComplaintsBoard has posts describing a named branch consultant at the Bishan branch as rude and unprofessional, with one post saying 'Never go to this man'. The consultant is not named here.",
+      "entity_the_claim_is_about": "Recruit Express Pte Ltd, Bishan branch consultant",
+      "category": "consumer_complaint",
+      "source_url": "https://www.complaintsboard.com/recruit-express-pte-ltd-attitude-about-a-staff-from-recruit-express-singapore-c660552",
+      "quoted_evidence": "Never go to this man"
+    },
+    {
+      "claim": "An older ComplaintsBoard thread (about 2012, 19 comments) describes poor staff attitudes and a wasted trip to the office, and the original poster says they would not use the agency again.",
+      "entity_the_claim_is_about": "Recruit Express Pte Ltd",
+      "category": "consumer_complaint",
+      "source_url": "https://www.complaintsboard.com/singapore-recruit-express-bad-experience-being-look-down-at-c588714",
+      "quoted_evidence": "singapore recruit express bad experience being look down at"
+    },
+    {
+      "claim": "ACRA Watch lists Recruit Express Pte Ltd as active, UEN 199601303W, registered 22 February 1996, primary activity employment agencies. It lists no enforcement, court or licence information. The page warns its data is an open-data import that may be out of date.",
+      "entity_the_claim_is_about": "Recruit Express Pte Ltd",
+      "category": "other",
+      "source_url": "https://acrawatch.sg/company/recruit-express-pte-ltd",
+      "quoted_evidence": "current registration status is Live Company"
+    },
+    {
+      "claim": "Job advertisements for Recruit Express cite EA licence number 99C4599. The MOM Employment Agency Directory entry was not retrieved, so the licence's current status, demerit points and watchlist status are unverified.",
+      "entity_the_claim_is_about": "Recruit Express Pte Ltd",
+      "category": "other",
+      "source_url": "https://sg.jobstreet.com/job/94029623",
+      "quoted_evidence": "EA LICENCE Number: 99C4599"
+    },
+    {
+      "claim": "Recruit Express is a flexible-staffing brand of the SGX-listed HRnetGroup (SGX: CHZ). Search results showed no SGX announcement of a penalty, investigation or litigation against HRnetGroup or Recruit Express, but the SGX announcements were not read in full.",
+      "entity_the_claim_is_about": "Recruit Express Pte Ltd and its parent HRnetGroup Limited",
+      "category": "other",
+      "source_url": "https://ntu.edu.sg/hass/careerfair/companies/recruit-express",
+      "quoted_evidence": "part of HRnetGroup (SGX:CHZ)"
+    },
+    {
+      "claim": "Two separate namesake companies exist: Recruit Express Services Pte Ltd (established 2004, about 250 employees per EMIS) and Recruit Express (Taiwan) Pte Ltd (established 2001). Both are different companies from Recruit Express Pte Ltd, so any record about them is not evidence about this organisation.",
+      "entity_the_claim_is_about": "Recruit Express Services Pte Ltd and Recruit Express (Taiwan) Pte Ltd",
+      "category": "other_entity",
+      "source_url": "https://www.emis.cn/php/company-profile/SG/Recruit_Express_Services_Pte_Ltd_en_9346925.html",
+      "quoted_evidence": "Recruit Express Services Pte Ltd"
+    },
+    {
+      "claim": "Employee reviews on Indeed give the company 3.8 out of 5 from 48 reviews. JobStreet lists 25 reviews, with an AI summary saying benefits, particularly early in employment, could be improved. These are workplace reviews, not jobseeker complaints.",
+      "entity_the_claim_is_about": "Recruit Express Pte Ltd (as an employer)",
+      "category": "other",
+      "source_url": "https://sg.indeed.com/cmp/Recruit-Express",
+      "quoted_evidence": "3.8"
+    }
+  ],
+  "notes": "No employer_action item was found: no regulator, licence, court or enforcement action naming Recruit Express Pte Ltd appeared in any search. No impersonation or scam warning naming this firm was found. No retrenchment or tribunal matter was found. The MOM fee-violation suspensions in the results (Global Recruiters, SDI Global) concern other agencies and were excluded. The Singapore Police/GovTech joint advisory of 15 May 2026 on recruiter impersonation was seen only as a title and summary and does not name this firm, so it was excluded. Reading budget: 3 WebFetch attempts, of which 1 succeeded (ACRA Watch) and 2 returned HTTP 403 (both ComplaintsBoard pages); 1 read remains unused. The ComplaintsBoard items were taken from WebSearch result summaries because the two pages could not be fetched, so their wording and quotes are unverified against the source pages. The 2012 thread attribution to the c588714 URL is inferred from the page title. The EA licence claim cites a JobStreet job ad from the search results, which was not fetched. Quotes marked as summaries came from tool-generated paraphrase and may not be verbatim. Individual staff names in the complaints were deliberately omitted. The MOM EA Directory was not checked, so the licence status is open."
+}

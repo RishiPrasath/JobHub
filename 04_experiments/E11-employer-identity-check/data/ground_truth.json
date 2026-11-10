@@ -1,0 +1,576 @@
+{
+ "created": "2026-11-10",
+ "author": "AI experiment specialist (not a human or HR/legal reviewer)",
+ "items": [
+  {
+   "id": "L01",
+   "stratum": "large",
+   "employer": "DBS Bank Ltd",
+   "role": "Customer Service Officer",
+   "truth_type": "entity",
+   "truth_uen": "196800306E",
+   "truth_registered_name": "DBS BANK LTD.",
+   "evidence": {
+    "url": "https://www.dbs.com.sg/terms",
+    "quote": "©2026 DBS Bank Ltd Co. Reg. No. 196800306E"
+   },
+   "note": "",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "L02",
+   "stratum": "large",
+   "employer": "Keppel Ltd",
+   "role": "Project Engineer",
+   "truth_type": "entity",
+   "truth_uen": "196800351N",
+   "truth_registered_name": "KEPPEL LTD.",
+   "evidence": {
+    "url": "https://www.keppel.com/",
+    "quote": "Copyright © Keppel Ltd"
+   },
+   "note": "own site gives name only; UEN from registry exact name",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "L03",
+   "stratum": "large",
+   "employer": "ComfortDelGro Corporation Limited",
+   "role": "Bus Captain",
+   "truth_type": "entity",
+   "truth_uen": "200300002K",
+   "truth_registered_name": "COMFORTDELGRO CORPORATION LIMITED",
+   "evidence": {
+    "url": "https://www.comfortdelgro.com/",
+    "quote": "Copyright © 2026 ComfortDelGro Corporation Limited"
+   },
+   "note": "",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "L04",
+   "stratum": "large",
+   "employer": "Changi Airport Group (Singapore) Pte. Ltd.",
+   "role": "Airport Operations Executive",
+   "truth_type": "entity",
+   "truth_uen": "200910817N",
+   "truth_registered_name": "CHANGI AIRPORT GROUP (SINGAPORE) PTE. LTD.",
+   "evidence": {
+    "url": "https://www.changiairport.com/en/privacy-policy.html",
+    "quote": "Logout --> PRIVACY POLICY Understand how we use information and how you can protect your privacy. Privacy Policy General information We are Changi Airport Group (Singapore) Pte. Ltd., the company that manages and operates Singapore Changi Airport (hereinafter “ CAG ” or “ we ”, “ us ” or “ our ”). The protection of your "
+   },
+   "note": "",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "L05",
+   "stratum": "large",
+   "employer": "CapitaLand Group Pte. Ltd.",
+   "role": "Asset Manager",
+   "truth_type": "entity",
+   "truth_uen": "198900036N",
+   "truth_registered_name": "CAPITALAND GROUP PTE. LTD.",
+   "evidence": {
+    "url": "https://www.capitaland.com/privacy-policy",
+    "quote": "Data Protection Policy (“ Policy ”) outlines how we manage the Personal Data we hold in One CapitaLand Ecosystem. The Policy applies to: a) CapitaLand Group Pte. Ltd. (Registration Number 198900036N) that carries out real estate development through its development arm CapitaLand Development; b) CapitaLand"
+   },
+   "note": "",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "L06",
+   "stratum": "large",
+   "employer": "Raffles Medical Group Ltd",
+   "role": "Staff Nurse",
+   "truth_type": "entity",
+   "truth_uen": "198901967K",
+   "truth_registered_name": "RAFFLES MEDICAL GROUP LTD",
+   "evidence": {
+    "url": "https://www.rafflesmedicalgroup.com/terms",
+    "quote": "website of Raffles Medical Group Ltd (RMG)"
+   },
+   "note": "",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "L07",
+   "stratum": "large",
+   "employer": "Starbucks Coffee Singapore Pte. Ltd.",
+   "role": "Barista",
+   "truth_type": "entity",
+   "truth_uen": "198800670D",
+   "truth_registered_name": "STARBUCKS COFFEE SINGAPORE PTE. LTD.",
+   "evidence": {
+    "url": "https://www.starbucks.com.sg/privacy-policy",
+    "quote": "Store Return Policy Privacy Policy Last Revised: 29 August 2025 Privacy Policy 1. General 1.1. This privacy policy (\"Policy\") describes how Starbucks Coffee Singapore Pte. Ltd. and its parent and other affiliated companies (\"Starbucks\") collect, use and disclose personal information of customers through our website"
+   },
+   "note": "",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "L08",
+   "stratum": "large",
+   "employer": "Singapore Airlines Limited",
+   "role": "Cabin Crew",
+   "truth_type": "unknown",
+   "truth_uen": null,
+   "truth_registered_name": null,
+   "evidence": null,
+   "note": "own-site legal-name page not retrieved; registry has SINGAPORE AIRLINES LIMITED 197200078R but truth not set per rule",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "L09",
+   "stratum": "large",
+   "employer": "NTUC FairPrice Co-operative Ltd",
+   "role": "Store Assistant",
+   "truth_type": "unknown",
+   "truth_uen": null,
+   "truth_registered_name": null,
+   "evidence": null,
+   "note": "own site names it; ACRA dataset has no entity of that name (co-operative); truth unknown",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "S01",
+   "stratum": "sme",
+   "employer": "Ya Kun International Private Limited",
+   "role": "Kitchen Assistant",
+   "truth_type": "entity",
+   "truth_uen": "200104668W",
+   "truth_registered_name": "YA KUN INTERNATIONAL PTE LTD",
+   "evidence": {
+    "url": "https://www.yakun.com/privacy-policy",
+    "quote": " --> Privacy Policy --> Nutritional Information FAQ Shipping & Returns --> Career --> Contact Us Join Our Community Submit Copyright © 2024 Ya Kun International Private Limited. All rights reserved. "
+   },
+   "note": "legal-form wording differs from registry",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "S02",
+   "stratum": "sme",
+   "employer": "Burger King Singapore Pte. Ltd.",
+   "role": "Crew Member",
+   "truth_type": "entity",
+   "truth_uen": "200900741N",
+   "truth_registered_name": "BURGER KING SINGAPORE PTE. LTD.",
+   "evidence": {
+    "url": "https://www.burgerking.com.sg/about",
+    "quote": "n the world. BURGER KING&reg; commenced operations in Singapore in 1982 with the opening of its first restaurant at Peninsula Plaza. Today, Burger King Singapore Pte. Ltd. operates 70 BURGER KING&reg; restaurants in Singapore where customers across the island city can enjoy the great and healthy flame-grilled "
+   },
+   "note": "",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "S03",
+   "stratum": "sme",
+   "employer": "Nium Pte. Ltd.",
+   "role": "Software Engineer",
+   "truth_type": "entity",
+   "truth_uen": "201422465R",
+   "truth_registered_name": "NIUM PTE. LTD.",
+   "evidence": {
+    "url": "https://www.nium.com/privacy",
+    "quote": "ended to help you understand how we collect, use, and share your personal information when you use our products or services. Nium refers to Nium Pte. Ltd. and its affiliates and subsidiaries worldwide, including entities operating under the Nium Travel, Instarem brands identified here (collect"
+   },
+   "note": "",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "S04",
+   "stratum": "sme",
+   "employer": "Funding Societies Pte. Ltd.",
+   "role": "Credit Analyst",
+   "truth_type": "entity",
+   "truth_uen": "201505169M",
+   "truth_registered_name": "FUNDING SOCIETIES PTE. LTD.",
+   "evidence": {
+    "url": "https://fundingsocieties.com/terms-of-use",
+    "quote": "re about Business Loans Terms Of Use The Terms of Use stated herein constitute a legal agreement between you and Funding Societies Pte Ltd (201505169M) and/or FS Capital Pte Ltd (201631787R) as the case may be (collectively “ Funding Societies ”, “ we ”, “ our ”, or “ us ”) companies incor"
+   },
+   "note": "sister entity FS Capital 201631787R also on site",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "S05",
+   "stratum": "sme",
+   "employer": "Ohmyhome Pte. Ltd.",
+   "role": "Sales Coordinator",
+   "truth_type": "entity",
+   "truth_uen": "201525768E",
+   "truth_registered_name": "OHMYHOME PTE. LTD.",
+   "evidence": {
+    "url": "https://ohmyhome.com/terms",
+    "quote": "ROVIDED FROM THE APP OR WEBSITE. Updated 2022 This document sets out the terms and Conditions (“Terms”) on which Ohmyhome Pte Ltd (UEN No.: 201525768E) of 11 Lorong 3 Toa Payoh, #04-17 Jackson Square, Singapore 319579 (“Ohmyhome”, “we” or “us”) operates and provides customers with access a"
+   },
+   "note": "",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "S06",
+   "stratum": "sme",
+   "employer": "Seedly Pte. Ltd.",
+   "role": "Content Marketing Executive",
+   "truth_type": "entity",
+   "truth_uen": "201602731H",
+   "truth_registered_name": "SEEDLY PTE. LTD.",
+   "evidence": {
+    "url": "https://seedly.sg/privacy",
+    "quote": "nsurance More Sign Up Bonus View All More 👀 OTHERS Login Sign Up Privacy Statement Last Updated: 16 Apr 2024 Privacy Statement Introduction Seedly Pte. Ltd. (“ Seedly ”, &quot; we &quot;, “ us ” or “ our ”), is part of MoneyHero Group, a group of companies that provide price comparison services "
+   },
+   "note": "",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "S07",
+   "stratum": "sme",
+   "employer": "Koufu Group Limited",
+   "role": "Food Court Assistant",
+   "truth_type": "unknown",
+   "truth_uen": null,
+   "truth_registered_name": null,
+   "evidence": null,
+   "note": "own site says Koufu Group Limited; registry has KOUFU GROUP PTE. LTD. 201732833D; conflict, truth unknown",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "S08",
+   "stratum": "sme",
+   "employer": "Carousell",
+   "role": "Community Specialist",
+   "truth_type": "unknown",
+   "truth_uen": null,
+   "truth_registered_name": null,
+   "evidence": null,
+   "note": "own site says Carousell Ltd.; registry has CAROUSELL PTE. LTD. 201300296D; employing entity unknown",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "B01",
+   "stratum": "brand",
+   "employer": "OCBC Bank",
+   "role": "Relationship Manager",
+   "truth_type": "entity",
+   "truth_uen": "193200032W",
+   "truth_registered_name": "OVERSEA-CHINESE BANKING CORPORATION LIMITED",
+   "evidence": {
+    "url": "https://www.ocbc.com/",
+    "quote": " &nbsp &nbsp Conditions of Access Policies Notices Fair Dealing Security © Copyright 2004 – – OCBC Bank. All Rights Reserved. Co. Reg. No.: 193200032W You are leaving the OCBC Bank's website to access a third party website. By clicking on \"Proceed\", you acknowledge the following: You are l"
+   },
+   "note": "",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "B02",
+   "stratum": "brand",
+   "employer": "Singtel",
+   "role": "Network Engineer",
+   "truth_type": "entity",
+   "truth_uen": "199201624D",
+   "truth_registered_name": "SINGAPORE TELECOMMUNICATIONS LIMITED",
+   "evidence": {
+    "url": "https://www.singtel.com/terms",
+    "quote": "© Singtel (CRN: 199201624D) All Rights Reserved."
+   },
+   "note": "",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "B03",
+   "stratum": "brand",
+   "employer": "SingPost",
+   "role": "Postal Officer",
+   "truth_type": "entity",
+   "truth_uen": "199201623M",
+   "truth_registered_name": "SINGAPORE POST LIMITED",
+   "evidence": {
+    "url": "https://www.singpost.com/privacy-policy",
+    "quote": "le apps may be collectively or individually referred to as the \" Website \"). SingPost is a public company registered in Singapore (Co. Reg. 199201623M) at Singapore Post Ltd, 10 Eunos Road 8, Singapore Post Centre, Singapore 408600. 2. Definitions \" Applicable Data Protection Law \" means a"
+   },
+   "note": "",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "B04",
+   "stratum": "brand",
+   "employer": "Grab",
+   "role": "Customer Support Specialist",
+   "truth_type": "unknown",
+   "truth_uen": null,
+   "truth_registered_name": null,
+   "evidence": null,
+   "note": "own terms name Grabtaxi Holdings Pte Ltd for fees only, not the employer; truth unknown",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "B05",
+   "stratum": "brand",
+   "employer": "NTUC Income",
+   "role": "Financial Services Associate",
+   "truth_type": "entity",
+   "truth_uen": "202135698W",
+   "truth_registered_name": "INCOME INSURANCE LIMITED",
+   "evidence": {
+    "url": "https://www.income.com.sg/terms-of-use",
+    "quote": " Sitemap Terms of Use Vulnerability Disclosure Policy We use cookies to make your experience on our website even better. © 2026 Income (UEN 202135698W). All rights reserved. "
+   },
+   "note": "own site: Income (UEN 202135698W)",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "B06",
+   "stratum": "brand",
+   "employer": "McDonald's Singapore",
+   "role": "Crew",
+   "truth_type": "entity",
+   "truth_uen": "197600722D",
+   "truth_registered_name": "HANBAOBAO PTE. LTD.",
+   "evidence": {
+    "url": "https://www.mcdonalds.com.sg/privacy",
+    "quote": "r and supervise their children’s online activities. If you have any questions about our children’s privacy practices, please contact us at: Hanbaobao Pte. Ltd. (Licensee of McDonald’s) 10 Kallang Avenue #04-10 Tower 2 Aperia Singapore 339510 Attention: Data Protection Officer Or email us at mcd.pdp"
+   },
+   "note": "licensee operates the restaurants",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "B07",
+   "stratum": "brand",
+   "employer": "Mr Bean",
+   "role": "Store Assistant",
+   "truth_type": "entity",
+   "truth_uen": "199901613E",
+   "truth_registered_name": "SUPER BEAN INTERNATIONAL PTE LTD",
+   "evidence": {
+    "url": "https://www.mrbean.com.sg/privacy-policy",
+    "quote": " North East Central South West Overseas Franchise Franchise System Franchise Form Contact Us Ship To Home Privacy Policy Privacy Policy We, Super Bean International Pte Ltd (hereafter referred to as &ldquo; Super Bean &rdquo;, &ldquo; us , &ldquo; we &rdquo; or &ldquo; our &rdquo;) take your Personal Data (defi"
+   },
+   "note": "",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "B08",
+   "stratum": "brand",
+   "employer": "Swensen's",
+   "role": "Service Crew",
+   "truth_type": "entity",
+   "truth_uen": "197803023H",
+   "truth_registered_name": "ABR HOLDINGS LIMITED",
+   "evidence": {
+    "url": "https://www.swensens.com.sg/privacy-policy",
+    "quote": " bookings Shop How can we help? Contact us → Cake ordering help → Member login Home Privacy Policy Terms & policies Privacy Policy Read how ABR Holdings Limited collects, uses and manages personal data. Use the page shortcuts to find a topic. Contact us Ordering help Page shortcuts + On this page Yo"
+   },
+   "note": "",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "B09",
+   "stratum": "brand",
+   "employer": "Aspire",
+   "role": "Customer Success Executive",
+   "truth_type": "entity",
+   "truth_uen": "201903520D",
+   "truth_registered_name": "ASPIRE FT PTE. LTD.",
+   "evidence": {
+    "url": "https://aspireapp.com/terms-and-conditions",
+    "quote": "alia Netherlands Hong Kong Master Service Agreement Effective from December 11, 2024 Terms and policies Aspire Business Account Provided by Aspire FT Pte. Ltd. General Master Service Agreement Employer of Record Acceptable Use Policy Payment and FX Payments & FX Product Schedule Cards issuing Card "
+   },
+   "note": "ASPIRE FT HOLDING PTE. LTD. also exists",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "B10",
+   "stratum": "brand",
+   "employer": "Toast Box",
+   "role": "Service Crew",
+   "truth_type": "unknown",
+   "truth_uen": null,
+   "truth_registered_name": null,
+   "evidence": null,
+   "note": "no registry entity named Toast Box; operating entity not established",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "H01",
+   "stratum": "hidden",
+   "employer": "Confidential Employer",
+   "role": "Marketing Manager",
+   "truth_type": "not_disclosed",
+   "truth_uen": null,
+   "truth_registered_name": null,
+   "evidence": null,
+   "note": "anonymous string",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "H02",
+   "stratum": "hidden",
+   "employer": "Our Client - A Global Bank",
+   "role": "Credit Risk Analyst",
+   "truth_type": "not_disclosed",
+   "truth_uen": null,
+   "truth_registered_name": null,
+   "evidence": null,
+   "note": "anonymous string",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "H03",
+   "stratum": "hidden",
+   "employer": "A Leading MNC",
+   "role": "Supply Chain Manager",
+   "truth_type": "not_disclosed",
+   "truth_uen": null,
+   "truth_registered_name": null,
+   "evidence": null,
+   "note": "anonymous string",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "H04",
+   "stratum": "hidden",
+   "employer": "Adecco Personnel Pte Ltd",
+   "role": "IT Project Manager",
+   "truth_type": "not_disclosed",
+   "truth_uen": null,
+   "truth_registered_name": null,
+   "evidence": null,
+   "note": "agency named, hiring employer hidden; agency itself registered 198500164K",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "H05",
+   "stratum": "hidden",
+   "employer": "Hays Specialist Recruitment Pte. Ltd.",
+   "role": "Finance Manager",
+   "truth_type": "not_disclosed",
+   "truth_uen": null,
+   "truth_registered_name": null,
+   "evidence": null,
+   "note": "agency named; registered 200609504D",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "H06",
+   "stratum": "hidden",
+   "employer": "Robert Walters (Singapore) Pte Ltd",
+   "role": "Sales Director",
+   "truth_type": "not_disclosed",
+   "truth_uen": null,
+   "truth_registered_name": null,
+   "evidence": null,
+   "note": "agency named; registered 199706961E",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "F01",
+   "stratum": "lookalike",
+   "employer": "Singtel Careers Hub Pte Ltd",
+   "role": "Sales Associate",
+   "truth_type": "not_real",
+   "truth_uen": null,
+   "truth_registered_name": null,
+   "evidence": null,
+   "note": "constructed; no registry entity of that name (checked 2026-11-10)",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "F02",
+   "stratum": "lookalike",
+   "employer": "Shopee Talent Solutions Pte Ltd",
+   "role": "Data Entry Clerk",
+   "truth_type": "not_real",
+   "truth_uen": null,
+   "truth_registered_name": null,
+   "evidence": null,
+   "note": "constructed; absent from registry",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "F03",
+   "stratum": "lookalike",
+   "employer": "DBS Talent Acquisition Pte Ltd",
+   "role": "Admin Assistant",
+   "truth_type": "not_real",
+   "truth_uen": null,
+   "truth_registered_name": null,
+   "evidence": null,
+   "note": "constructed; absent from registry",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "F04",
+   "stratum": "lookalike",
+   "employer": "CapitaLand Recruitment Services Pte Ltd",
+   "role": "Customer Service Officer",
+   "truth_type": "not_real",
+   "truth_uen": null,
+   "truth_registered_name": null,
+   "evidence": null,
+   "note": "constructed; absent from registry",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "F05",
+   "stratum": "lookalike",
+   "employer": "Changi Airport Recruitment Centre Pte Ltd",
+   "role": "Ground Staff",
+   "truth_type": "not_real",
+   "truth_uen": null,
+   "truth_registered_name": null,
+   "evidence": null,
+   "note": "constructed; absent from registry",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  },
+  {
+   "id": "F06",
+   "stratum": "lookalike",
+   "employer": "Merlion Prime Staffing Solutions Pte Ltd",
+   "role": "Remote Data Processor",
+   "truth_type": "not_real",
+   "truth_uen": null,
+   "truth_registered_name": null,
+   "evidence": null,
+   "note": "invented; absent from registry",
+   "synthetic": true,
+   "provenance": "synthetic posting stub (employer string + role) written by the experiment author (AI) 2026-11-10; names a real employer only to test identity; not a real advertisement"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+Koufu Group Limited  (role: Food Court Assistant)
+HEADLINE: exists_and_consistent
+  Registered in Singapore, and public sources agree it is the company named.
+  because: registry: confirmed; model: consistent across 3 pages
+REGISTRY: confirmed. KOUFU GROUP PTE. LTD. is registered in Singapore (status: Live Company, registered 2017-11-15).
+WEB: 5 queries (bing, duckduckgo), 4 of 8 pages read, exact name seen in 3 pages and 12 search results
+BRIEF (model rating: appears_real_and_consistent, confidence high; 7 claims verified, 1 unverified)
+  Facts:
+    [verified] Legal name is KOUFU GROUP PTE. LTD.
+    [verified] Company is a live private company incorporated on 15 November 2017
+    [verified] Entity type is Private Company Limited by Shares
+    [verified] Principal activity is holding companies and management consultancy services
+    [verified] Company operates in the Management of Companies and Enterprises sector
+    [verified] Registered address is 1 Woodlands Height #07-01, Koufu Group HQ, Singapore 737859
+  Positive signals:
+    [UNVERIFIED] Company is actively hiring for food‑court related roles
+    [verified] Company has an official website (koufu.com.sg) indicating a public presence
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 5):
+  - Koufu Group Limited Jobs in Singapore (with Salari  https://sg.jobstreet.com/koufu-group-
+    limited-jobs
+  - Food Court Assistant | Central Region | Koufu - Jo  https://sg.jobstreet.com/job/92026473
+  - 169 Salaries at Koufu Shared by Employees | Glassd  https://www.glassdoor.sg/Salary/Koufu-
+    Salaries-E1124063.htm
+  - Assistant / Food Court Manager (Up to $2000 Sign o  https://sg.linkedin.com/jobs/view/assistant-
+    food-court-manager-up-to-%242000-sig
+  - Working at Koufu | Glassdoor  https://www.glassdoor.sg/Overview/Working-at-Koufu-
+    EI_IE1124063.11,16.htm
+COULD NOT READ (4):
+  - https://links.sgx.com/1.0.0/corporate-information/2849  (blocked: challenge or login-wall text)
+  - https://sg.jooble.org/jdp/823173527950381332  (thin: fewer than 400 characters of real content)
+  - https://www.mycareersfuture.gov.sg/job/assistant-food-court-manager-ko  (irrelevant: the page
+    never mentions the company name)
+  - https://www.companies.sg/business/201732833D/KOUFU-GROUP-PTE-LTD  (error: )
+COULD NOT VERIFY:
+  - Specific job role responsibilities and salary details for the Food Court Assistant position
+(128.8s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

@@ -1,0 +1,184 @@
+{
+ "employer": "Robert Walters (Singapore) Pte Ltd",
+ "role": "Sales Director",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 1310 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "ROBERT WALTERS (SINGAPORE) PTE LTD is registered in Singapore (status: Live Company, registered 1997-10-06).",
+  "basis": "name only",
+  "entity": {
+   "uen": "199706961E",
+   "name": "ROBERT WALTERS (SINGAPORE) PTE LTD",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1997-10-06",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Robert Walters (Singapore) Pte Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Robert Walters (Singapore) Pte Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Robert Walters (Singapore) Pte Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Robert Walters (Singapore) Pte Ltd\" Sales Director interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Robert Walters (Singapore) Pte Ltd\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.robertwalters.com.sg/",
+    "status": "irrelevant",
+    "chars": 2713,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.companies.sg/business/199706961E/ROBERT-WALTERS-SINGAPORE-PTE-LTD",
+    "status": "ok",
+    "chars": 9058,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Robert-Walters-Singapore-Pte-Ltd",
+    "status": "ok",
+    "chars": 13731,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://recordowl.com/company/robert-walters-singapore-pte-ltd",
+    "status": "ok",
+    "chars": 13596,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.robertwalters.com.sg/contact-us/singapore/singapore.html",
+    "status": "ok",
+    "chars": 4104,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.dnb.com/business-directory/company-profiles.robert_walters_(singapore)_pte_ltd.de50969466fd4ae4f7a458d1b9bd2132.html",
+    "status": "thin",
+    "chars": 259,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.employmentagency.com.sg/employment-agency-829-robert-walters-singapore-pte-ltd.html",
+    "status": "ok",
+    "chars": 1087,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.robertwalters.ch/en/insights/news/blog/fraud-alert.html",
+    "status": "ok",
+    "chars": 3103,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Robert-Walters-Singapore-Reviews-EI_IE12235.0,14_IL.15,24_IM1123.htm",
+    "title": "Robert Walters Reviews in Singapore | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "robert walters singapore"
+   ],
+   "pages_with_exact_name": 5,
+   "snippets_with_exact_name": 15,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 6,
+  "registry_mirror_pages": 3
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (3 pages read, model: None)"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://www.robertwalters.com.sg/",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://www.dnb.com/business-directory/company-profiles.robert_walters_(singapore)_pte_ltd.de50969466fd4ae4f7a458d1b9bd2132.html",
+   "why": "thin: fewer than 400 characters of real content"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Robert-Walters-Singapore-Reviews-EI_IE12235.0,14_IL.15,24_IM1123.htm",
+   "title": "Robert Walters Reviews in Singapore | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 44.4,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

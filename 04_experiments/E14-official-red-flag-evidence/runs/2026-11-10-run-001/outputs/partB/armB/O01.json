@@ -1,0 +1,83 @@
+{
+  "organisation": "Hays Specialist Recruitment (Singapore)",
+  "queries_run": [
+    "Hays Specialist Recruitment Singapore complaints",
+    "Hays Singapore scam job warning",
+    "\"Hays Specialist Recruitment Pte Ltd\" court OR lawsuit OR tribunal",
+    "Hays Singapore retrenchment layoffs 2024 2025",
+    "Hays Specialist Recruitment Singapore Employment Agencies Act licence MOM",
+    "fake Hays recruiter Singapore WhatsApp job offer impersonating Hays"
+  ],
+  "pages_read": [
+    "https://www.hays.com/legal/scam-alert"
+  ],
+  "failed_reads": [
+    "https://www.glassdoor.sg/Reviews/Employee-Review-Hays-E10166-RVW83560991.htm"
+  ],
+  "items": [
+    {
+      "claim": "Anonymous Glassdoor reviewer (Singapore) describes 'disgusting treatment of staff' and advises others to steer clear. Employee-review sentiment only, not verified misconduct.",
+      "entity_the_claim_is_about": "Hays (Glassdoor employer profile E10166; may reflect the Hays group rather than the Singapore entity specifically)",
+      "category": "other",
+      "source_url": "https://www.glassdoor.sg/Reviews/Employee-Review-Hays-E10166-RVW83560991.htm",
+      "quoted_evidence": "Disgusting treatment of staff - steer clear of this place. (review title, from search result; page itself failed to load)"
+    },
+    {
+      "claim": "A 2024 Glassdoor review for a Senior Recruitment Specialist says executive management focused on cost cutting and that many consultants were made redundant without much prior notice. Reviewer claim only; page not read.",
+      "entity_the_claim_is_about": "Hays (Glassdoor employer profile E10166; Singapore reviewer per search summary)",
+      "category": "other",
+      "source_url": "https://www.glassdoor.sg/Reviews/Employee-Review-Hays-E10166-RVW84510530.htm",
+      "quoted_evidence": "HAYS Review 2024 - Senior Recruitment Specialist (review title, from search result; redundancy claim is from a search-summary paraphrase, not verified on the page)"
+    },
+    {
+      "claim": "A Glassdoor review titled 'Disappointed. A facade. Lies.' from a recruitment consultant. Reviewer opinion only; content not read.",
+      "entity_the_claim_is_about": "Hays (Glassdoor employer profile E10166; location not confirmed)",
+      "category": "other",
+      "source_url": "https://www.glassdoor.sg/Reviews/Employee-Review-Hays-E10166-RVW65630043.htm",
+      "quoted_evidence": "Disappointed. A facade. Lies. (review title, from search result)"
+    },
+    {
+      "claim": "UK Employment Tribunal decisions list Hays Specialist Recruitment Ltd (the UK company, not the Singapore Pte Ltd) as a respondent in multiple cases from 2017 to 2024, including Ms S Nisa v Eden Brown Ltd and Hays Specialist Recruitment Ltd (1306172/2024). Outcomes not read.",
+      "entity_the_claim_is_about": "Hays Specialist Recruitment Ltd (UK)",
+      "category": "other_entity",
+      "source_url": "https://www.gov.uk/employment-tribunal-decisions/ms-s-nisa-v-eden-brown-ltd-and-hays-specialist-recruitment-ltd-1306172-slash-2024",
+      "quoted_evidence": "Ms S Nisa v Eden Brown Ltd and Hays Specialist Recruitment Ltd: 1306172/2024 (case title, from search result)"
+    },
+    {
+      "claim": "A 2012 UK news item reports a racism claim against Hays brought by recruitment consultants, which Hays disputed. UK matter; no Singapore link shown.",
+      "entity_the_claim_is_about": "Hays (UK business)",
+      "category": "other_entity",
+      "source_url": "https://www.recruiter.co.uk/news/2012/09/hays-racism-claim-disputed",
+      "quoted_evidence": "Hays racism claim disputed (headline, from search result; article not read)"
+    },
+    {
+      "claim": "A 2015 news item reports the exit of Hays' regional director for Singapore and Malaysia. The snippet gives no reason and does not describe misconduct.",
+      "entity_the_claim_is_about": "Hays regional leadership (Singapore and Malaysia)",
+      "category": "other",
+      "source_url": "https://www.recruiter.co.uk/news/2015/01/hays%E2%80%99-regional-director-singapore-and-malaysia-exits",
+      "quoted_evidence": "Hays' regional director for Singapore and Malaysia exits (headline, from search result; article not read)"
+    },
+    {
+      "claim": "Official Hays scam-alert page warns that scammers may pose as Hays recruiters via email, social media or SMS, and asks for personal details or money. Hays states it will never ask candidates for direct payment. This is a group-wide warning; no Singapore-specific notice appears on the page.",
+      "entity_the_claim_is_about": "Hays group (impersonated by scammers; not misconduct by Hays)",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://www.hays.com/legal/scam-alert",
+      "quoted_evidence": "Hays \"will never ask a candidate for any form of direct payment\""
+    },
+    {
+      "claim": "Hays Germany published a fraud warning stating that genuine Hays emails come from specific Hays domains and that Hays does not generally use private channels such as Telegram. Group-wide, not Singapore-specific; page not read.",
+      "entity_the_claim_is_about": "Hays group (Germany site; impersonation risk)",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://www.hays.de/en/recruitment/about-hays/warning-against-fraud",
+      "quoted_evidence": "Warning against fraud (page title, from search result; quoted domain list is from a search-summary, not verified on the page)"
+    },
+    {
+      "claim": "A third-party malware-focused blog warns of a fake 'Hays Recruitment' job offer scam in which a fake hiring manager moves victims to WhatsApp or Telegram and may ask for a processing or equipment fee. Secondary, non-authoritative source; not read.",
+      "entity_the_claim_is_about": "Hays Recruitment (name used by scammers; not misconduct by Hays)",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://malwaretips.com/blogs/hays-recruitment-job/",
+      "quoted_evidence": "Warning! Don't Fall for the Fake Hays Recruitment Job Offer Scam (headline, from search result)"
+    }
+  ],
+  "notes": "No regulator, licence, court or enforcement action against Hays Specialist Recruitment Pte Ltd (Singapore) was found. Searches for the Pte Ltd name returned only UK matters, and the Pte Ltd name was not matched to any case. Licence status with MOM was not confirmed; the search did not return the MOM licence record, and the licence-bond figures seen were from secondary guides only. No Singapore-specific retrenchment news about Hays was found. Singapore-wide retrenchment statistics for 2024 and 2025 were seen but are not about Hays and were omitted from items. A 2021 Singapore Police advisory on recruiters on job portals using foreign WhatsApp numbers was seen but does not name Hays, so it was omitted. Glassdoor overall rating (3.7 from about 8,147 reviews) was seen in a search summary and is not a red flag, so it was omitted. Only one page read succeeded (hays.com scam-alert); the Glassdoor review page returned HTTP 403, so Glassdoor items rely on search-result titles and summaries. Items drawn from search summaries rather than page reads are noted in quoted_evidence. Searches used: 6 of 8. Page reads used: 2 of 4 (1 succeeded, 1 failed). Suggested checks not performed: MOM licensed employment agency list, ACRA register for the Pte Ltd, Singapore eLitigation and Employment Claims Tribunal records."
+}

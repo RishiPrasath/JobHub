@@ -1,0 +1,31 @@
+{
+ "key": "singpost",
+ "domain": "www.singpost.com",
+ "pages": [
+  {
+   "url": "https://www.singpost.com/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Singapore Post Limited"
+   ],
+   "copyright": [
+    "ms of Use Privacy Policy Online Security & You Publications © 2026 Singapore Post Limited. All Rights Reserved. "
+   ]
+  },
+  {
+   "url": "https://www.singpost.com/privacy-policy",
+   "status": 200,
+   "reg_hits": [
+    "Co. Reg. 199201623M"
+   ],
+   "legal_names": [
+    "Singapore (Co. Reg. 199201623M) at Singapore Post Ltd",
+    "Singapore Post Limited"
+   ],
+   "copyright": [
+    "ms of Use Privacy Policy Online Security & You Publications © 2026 Singapore Post Limited. All Rights Reserved. "
+   ]
+  }
+ ]
+}

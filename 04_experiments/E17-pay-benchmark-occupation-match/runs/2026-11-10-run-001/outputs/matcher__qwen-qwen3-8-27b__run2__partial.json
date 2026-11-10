@@ -1,0 +1,632 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "run": 2,
+ "n": 48,
+ "partial": true,
+ "results": [
+  {
+   "id": "X3-01",
+   "top3": [
+    "24113",
+    "33133",
+    "24111"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly identifies role as Senior Tax Accountant.",
+   "parse_ok": true,
+   "tokens": 573
+  },
+  {
+   "id": "X3-02",
+   "top3": [
+    "12111",
+    "24111",
+    "33131"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title and Manager seniority align with Budgeting/Financial accounting manager.",
+   "parse_ok": true,
+   "tokens": 570
+  },
+  {
+   "id": "X3-03",
+   "top3": [
+    "24111",
+    "33131",
+    "12111"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Senior Executive Accountant matches Accountant (excluding tax accountant) level.",
+   "parse_ok": true,
+   "tokens": 570
+  },
+  {
+   "id": "X3-04",
+   "top3": [
+    "24111",
+    "33131",
+    "12111"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "Senior Executive level matches professional accountant, not assistant or supervisor.",
+   "parse_ok": true,
+   "tokens": 588
+  },
+  {
+   "id": "X3-05",
+   "top3": [
+    "24111",
+    "33131",
+    "12111"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title and function directly match Accountant professional level.",
+   "parse_ok": true,
+   "tokens": 566
+  },
+  {
+   "id": "X3-06",
+   "top3": [
+    "25121",
+    "25291",
+    "25141"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Software Engineer role in Data Centres matches developer and DC engineer.",
+   "parse_ok": true,
+   "tokens": 554
+  },
+  {
+   "id": "X3-07",
+   "top3": [
+    "25121",
+    "25122",
+    "25123"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Java Backend Developer is a software developer role.",
+   "parse_ok": true,
+   "tokens": 606
+  },
+  {
+   "id": "X3-08",
+   "top3": [
+    "25121",
+    "25113",
+    "21522"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Senior Software Engineer matches Software Developer role.",
+   "parse_ok": true,
+   "tokens": 536
+  },
+  {
+   "id": "X3-09",
+   "top3": [
+    "25121",
+    "25113",
+    "25125"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Software Engineer role aligns directly with Software Developer code.",
+   "parse_ok": true,
+   "tokens": 531
+  },
+  {
+   "id": "X3-10",
+   "top3": [
+    "24311",
+    "12221",
+    "33392"
+   ],
+   "verdict": "none",
+   "confidence": "high",
+   "why": "Vague fresh grad title lacks specific duties to match professional level.",
+   "parse_ok": true,
+   "tokens": 658
+  },
+  {
+   "id": "X3-11",
+   "top3": [
+    "22200",
+    "32200",
+    "53202"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Staff Nurse is a registered nursing professional.",
+   "parse_ok": true,
+   "tokens": 615
+  },
+  {
+   "id": "X3-12",
+   "top3": [
+    "22200",
+    "32200",
+    "53202"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Staff Nurse is a registered nursing professional.",
+   "parse_ok": true,
+   "tokens": 580
+  },
+  {
+   "id": "X3-13",
+   "top3": [
+    "22200",
+    "32200",
+    "53202"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title Staff Nurse matches Registered nurse code exactly.",
+   "parse_ok": true,
+   "tokens": 634
+  },
+  {
+   "id": "X3-14",
+   "top3": [
+    "22200",
+    "32200",
+    "53202"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Staff Nurse is a registered nursing professional.",
+   "parse_ok": true,
+   "tokens": 591
+  },
+  {
+   "id": "X3-15",
+   "top3": [
+    "22200",
+    "32200",
+    "53202"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Senior Nurse in Emergency Care is a Registered Nurse.",
+   "parse_ok": true,
+   "tokens": 598
+  },
+  {
+   "id": "X3-16",
+   "top3": [
+    "93334",
+    "13241",
+    "81000"
+   ],
+   "verdict": "none",
+   "confidence": "high",
+   "why": "No specific warehouse supervisor code in list; 93334 is worker level.",
+   "parse_ok": true,
+   "tokens": 630
+  },
+  {
+   "id": "X3-17",
+   "top3": [
+    "13241",
+    "93334",
+    "96000"
+   ],
+   "verdict": "none",
+   "confidence": "high",
+   "why": "No specific warehouse supervisor code exists in the candidate list.",
+   "parse_ok": true,
+   "tokens": 612
+  },
+  {
+   "id": "X3-18",
+   "top3": [
+    "13241",
+    "93334",
+    "81000"
+   ],
+   "verdict": "none",
+   "confidence": "high",
+   "why": "No specific warehouse supervisor code exists in the candidate list.",
+   "parse_ok": true,
+   "tokens": 642
+  },
+  {
+   "id": "X3-19",
+   "top3": [
+    "13241",
+    "93334",
+    "81000"
+   ],
+   "verdict": "none",
+   "confidence": "high",
+   "why": "No specific warehouse supervisor code in list; 13241 is manager level.",
+   "parse_ok": true,
+   "tokens": 586
+  },
+  {
+   "id": "X3-20",
+   "top3": [
+    "93334",
+    "93201",
+    "75000"
+   ],
+   "verdict": "none",
+   "confidence": "high",
+   "why": "No specific warehouse supervisor code; candidates are workers or wrong trade.",
+   "parse_ok": true,
+   "tokens": 613
+  },
+  {
+   "id": "X3-21",
+   "top3": [
+    "24314",
+    "24320",
+    "24313"
+   ],
+   "verdict": "none",
+   "confidence": "low",
+   "why": "Vague title 'Roadshow' lacks specific duties; candidates are managers or specialists.",
+   "parse_ok": true,
+   "tokens": 608
+  },
+  {
+   "id": "X3-22",
+   "top3": [
+    "24314",
+    "24313",
+    "24312"
+   ],
+   "verdict": "none",
+   "confidence": "medium",
+   "why": "Junior Associate level does not match Professional or Manager candidates.",
+   "parse_ok": true,
+   "tokens": 571
+  },
+  {
+   "id": "X3-23",
+   "top3": [
+    "24314",
+    "24313",
+    "24320"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "Senior Marketing Executive aligns with marketing strategy or digital marketing professionals.",
+   "parse_ok": true,
+   "tokens": 573
+  },
+  {
+   "id": "X3-24",
+   "top3": [
+    "14391",
+    "24313",
+    "24314"
+   ],
+   "verdict": "none",
+   "confidence": "high",
+   "why": "Entry-level associate role does not match manager or professional levels.",
+   "parse_ok": true,
+   "tokens": 635
+  },
+  {
+   "id": "X3-25",
+   "top3": [
+    "24314",
+    "24313",
+    "24312"
+   ],
+   "verdict": "none",
+   "confidence": "medium",
+   "why": "Assistant level does not match professional or manager codes.",
+   "parse_ok": true,
+   "tokens": 587
+  },
+  {
+   "id": "X3-26",
+   "top3": [
+    "42245",
+    "33492",
+    "12241"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title and function directly match Customer Service Officer role.",
+   "parse_ok": true,
+   "tokens": 565
+  },
+  {
+   "id": "X3-27",
+   "top3": [
+    "42245",
+    "33222",
+    "41101"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Customer Service Executive matches Customer service officer/clerk level.",
+   "parse_ok": true,
+   "tokens": 565
+  },
+  {
+   "id": "X3-28",
+   "top3": [
+    "42245",
+    "43231",
+    "33312"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Customer Service Officer, matching code 42245.",
+   "parse_ok": true,
+   "tokens": 571
+  },
+  {
+   "id": "X3-29",
+   "top3": [
+    "42245",
+    "12241",
+    "33492"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title and function directly match Customer Service Officer role.",
+   "parse_ok": true,
+   "tokens": 586
+  },
+  {
+   "id": "X3-30",
+   "top3": [
+    "42245",
+    "33222",
+    "33492"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title and function directly match Customer Service Officer.",
+   "parse_ok": true,
+   "tokens": 563
+  },
+  {
+   "id": "X3-31",
+   "top3": [
+    "21441",
+    "21411",
+    "31004"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Mechanical Engineer, matching code 21441.",
+   "parse_ok": true,
+   "tokens": 564
+  },
+  {
+   "id": "X3-32",
+   "top3": [
+    "31004",
+    "31002",
+    "31151"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Assistant Mechanical/Electrical Engineer.",
+   "parse_ok": true,
+   "tokens": 566
+  },
+  {
+   "id": "X3-33",
+   "top3": [
+    "21441",
+    "31004",
+    "31151"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Mechanical Design Engineer, matching Mechanical Engineer.",
+   "parse_ok": true,
+   "tokens": 537
+  },
+  {
+   "id": "X3-34",
+   "top3": [
+    "21441",
+    "21411",
+    "21412"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Mechanical Engineer, matching code 21441.",
+   "parse_ok": true,
+   "tokens": 559
+  },
+  {
+   "id": "X3-35",
+   "top3": [
+    "21441",
+    "31004",
+    "31151"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Mechanical Engineer, matching code 21441.",
+   "parse_ok": true,
+   "tokens": 541
+  },
+  {
+   "id": "X3-36",
+   "top3": [
+    "34341",
+    "34343",
+    "51111"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title Demi Chef directly matches Chef occupation code.",
+   "parse_ok": true,
+   "tokens": 618
+  },
+  {
+   "id": "X3-37",
+   "top3": [
+    "34342",
+    "34341",
+    "34343"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Head Chef is a senior kitchen role, matching Kitchen Operations Head.",
+   "parse_ok": true,
+   "tokens": 630
+  },
+  {
+   "id": "X3-38",
+   "top3": [
+    "94101",
+    "34342",
+    "94104"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Kitchen Assistant, matching code 94101 exactly.",
+   "parse_ok": true,
+   "tokens": 588
+  },
+  {
+   "id": "X3-39",
+   "top3": [
+    "34341",
+    "94101",
+    "34343"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title Chef directly matches occupation Chef (excluding pastry chef).",
+   "parse_ok": true,
+   "tokens": 615
+  },
+  {
+   "id": "X3-40",
+   "top3": [
+    "34342",
+    "34341",
+    "34343"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Head Chef is a kitchen operations head/supervisor role.",
+   "parse_ok": true,
+   "tokens": 629
+  },
+  {
+   "id": "X3-42",
+   "top3": [
+    "33131",
+    "43112",
+    "24111"
+   ],
+   "verdict": "none",
+   "confidence": "medium",
+   "why": "Title is Account Executive, not in list; duties vague.",
+   "parse_ok": true,
+   "tokens": 597
+  },
+  {
+   "id": "X3-43",
+   "top3": [
+    "12121",
+    "24233",
+    "24231"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "HRBP is a senior HR professional role, matching HR Manager.",
+   "parse_ok": true,
+   "tokens": 573
+  },
+  {
+   "id": "X3-44",
+   "top3": [
+    "24233",
+    "12121",
+    "41102"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "HR Executive title matches Personnel/Human resource officer level.",
+   "parse_ok": true,
+   "tokens": 579
+  },
+  {
+   "id": "X3-45",
+   "top3": [
+    "33221",
+    "12212",
+    "33491"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly matches Business Development Executive.",
+   "parse_ok": true,
+   "tokens": 589
+  },
+  {
+   "id": "X3-47",
+   "top3": [
+    "33492",
+    "12112",
+    "33160"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Administrative Assistant aligns with Operations Officer (administrative) level.",
+   "parse_ok": true,
+   "tokens": 587
+  },
+  {
+   "id": "X3-48",
+   "top3": [
+    "33492",
+    "12112",
+    "71000"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "Administrative Assistant aligns with Operations Officer (administrative) level.",
+   "parse_ok": true,
+   "tokens": 591
+  },
+  {
+   "id": "X3-49",
+   "top3": [
+    "33494",
+    "33491",
+    "33493"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title and function directly match Executive Secretary role.",
+   "parse_ok": true,
+   "tokens": 572
+  },
+  {
+   "id": "X3-54",
+   "top3": [
+    "33221",
+    "33223",
+    "33224"
+   ],
+   "verdict": "none",
+   "confidence": "low",
+   "why": "Vague title and function; no specific industry or duties provided.",
+   "parse_ok": true,
+   "tokens": 574
+  }
+ ]
+}

@@ -1,0 +1,292 @@
+{
+ "employer": "Toast Box",
+ "role": "Service Crew",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 1132 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'Toast Box'. The closest registered name is PATRONS' BOX PTE. LTD., which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "202130326C",
+   "name": "PATRONS' BOX PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2021-08-31",
+   "activity": "FAST FOOD RESTAURANT",
+   "alternatives": [
+    "ULTIMA BOX",
+    "EN NA SPA PTE. LTD."
+   ]
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Toast Box\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Toast Box\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Toast Box\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Toast Box\" Service Crew interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Toast Box\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.mycareersfuture.gov.sg/job/service-crew-breadtalk-6e52c634912215dfa6cce5ee5ea5f7c9",
+    "status": "ok",
+    "chars": 4610,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.mycareersfuture.gov.sg/job/service-crew-breadtalk-dbc2cfd272408ca22a8565c0f5244ba8",
+    "status": "ok",
+    "chars": 1033,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.fastjobs.sg/singapore-job-ad/2646763/toast-box-is-hiring-service/toastbox",
+    "status": "ok",
+    "chars": 2729,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/trademark/T1104492J",
+    "status": "error",
+    "chars": 0,
+    "note": "",
+    "tier": null
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Fun-Toast-Pte-Ltd",
+    "status": "ok",
+    "chars": 2770,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://tracxn.com/d/companies/toast-box/__yWnB_zcDDg5K5RzkvelFnwywkPUPkRDurJdlYZr64uI",
+    "status": "blocked_by_robots",
+    "chars": 0,
+    "note": "the site's robots.txt does not allow this page",
+    "tier": null
+   },
+   {
+    "url": "https://toastboxsingapore.com/",
+    "status": "ok",
+    "chars": 1548,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Toast-Box-Reviews-E2923734.htm",
+    "title": "Toast Box Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Overview/Working-at-Toast-Box-EI_IE2923734.11,20.htm",
+    "title": "Working at Toast Box | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/toast-box-168554580394717",
+    "title": "Working at Toast Box company profile and information | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/Toast-Box-Reviews-E2923734.htm",
+    "title": "Toast Box Reviews: What Is It Like to Work At Toast Box?",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.co.in/Reviews/Toast-Box-Singapore-Reviews-EI_IE2923734.0,9_IL.10,19_IC3235921.htm",
+    "title": "Toast Box Reviews in Singapore - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Toast-Box",
+    "title": "Toast Box Careers and Employment | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/Employee-Review-Toast-Box-E2923734-RVW46763091.htm",
+    "title": "Toast Box - Ok | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/toast-box-&-staff-jobs",
+    "title": "Toast Box & Staff Jobs in Singapore (with Salaries) - Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Salary/Toast-Box-Service-Crew-Salaries-E2923734_D_KO10,22.htm",
+    "title": "Toast Box Service Crew Salaries | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/Toast-Box-jobs",
+    "title": "Toast Box Jobs in Singapore (with Salaries) - Oct 2026 | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Salary/Toast-Box-Salaries-E2923734.htm",
+    "title": "20 Salaries at Toast Box Shared by Employees | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/viewjob?jk=9fdaf817dd3f62ef",
+    "title": "Toast Box – Service Crew – Full Time - Singapore - Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "toast box"
+   ],
+   "pages_with_exact_name": 4,
+   "snippets_with_exact_name": 18,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 19,
+  "registry_mirror_pages": 1
+ },
+ "headline": "brand_legal_entity_unconfirmed",
+ "headline_meaning": "Public sources describe a company by this name, but the registry has no entity with this exact name. It may trade under a brand name; the legal employer is not confirmed.",
+ "reasons": [
+  "registry: similar_name_only",
+  "exact name seen 22 times in sources"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://www.companies.sg/trademark/T1104492J",
+   "why": "error: "
+  },
+  {
+   "url": "https://tracxn.com/d/companies/toast-box/__yWnB_zcDDg5K5RzkvelFnwywkPUPkRDurJdlYZr64uI",
+   "why": "blocked_by_robots: the site's robots.txt does not allow this page"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Toast-Box-Reviews-E2923734.htm",
+   "title": "Toast Box Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Overview/Working-at-Toast-Box-EI_IE2923734.11,20.htm",
+   "title": "Working at Toast Box | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/toast-box-168554580394717",
+   "title": "Working at Toast Box company profile and information | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Toast-Box-Reviews-E2923734.htm",
+   "title": "Toast Box Reviews: What Is It Like to Work At Toast Box?",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.co.in/Reviews/Toast-Box-Singapore-Reviews-EI_IE2923734.0,9_IL.10,19_IC3235921.htm",
+   "title": "Toast Box Reviews in Singapore - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Toast-Box",
+   "title": "Toast Box Careers and Employment | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Employee-Review-Toast-Box-E2923734-RVW46763091.htm",
+   "title": "Toast Box - Ok | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/toast-box-&-staff-jobs",
+   "title": "Toast Box & Staff Jobs in Singapore (with Salaries) - Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Salary/Toast-Box-Service-Crew-Salaries-E2923734_D_KO10,22.htm",
+   "title": "Toast Box Service Crew Salaries | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/Toast-Box-jobs",
+   "title": "Toast Box Jobs in Singapore (with Salaries) - Oct 2026 | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Salary/Toast-Box-Salaries-E2923734.htm",
+   "title": "20 Salaries at Toast Box Shared by Employees | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/viewjob?jk=9fdaf817dd3f62ef",
+   "title": "Toast Box – Service Crew – Full Time - Singapore - Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Which registered company is the legal employer behind this brand."
+ ],
+ "seconds": 115.3,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

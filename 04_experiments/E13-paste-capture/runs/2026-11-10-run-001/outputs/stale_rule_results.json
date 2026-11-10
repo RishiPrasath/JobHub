@@ -1,0 +1,369 @@
+[
+ {
+  "id": "R01",
+  "expected": false,
+  "got": false,
+  "expected_reasons": [],
+  "got_reasons": [],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R02",
+  "expected": true,
+  "got": true,
+  "expected_reasons": [
+   "snapshot_old"
+  ],
+  "got_reasons": [
+   "snapshot_old"
+  ],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R03",
+  "expected": false,
+  "got": false,
+  "expected_reasons": [],
+  "got_reasons": [],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R04",
+  "expected": true,
+  "got": true,
+  "expected_reasons": [
+   "snapshot_old"
+  ],
+  "got_reasons": [
+   "snapshot_old"
+  ],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R05",
+  "expected": false,
+  "got": false,
+  "expected_reasons": [],
+  "got_reasons": [],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R06",
+  "expected": true,
+  "got": true,
+  "expected_reasons": [
+   "snapshot_old"
+  ],
+  "got_reasons": [
+   "snapshot_old"
+  ],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R07",
+  "expected": true,
+  "got": true,
+  "expected_reasons": [
+   "closing_passed"
+  ],
+  "got_reasons": [
+   "closing_passed"
+  ],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R08",
+  "expected": false,
+  "got": false,
+  "expected_reasons": [],
+  "got_reasons": [],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R09",
+  "expected": true,
+  "got": true,
+  "expected_reasons": [
+   "closing_passed"
+  ],
+  "got_reasons": [
+   "closing_passed"
+  ],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R10",
+  "expected": false,
+  "got": false,
+  "expected_reasons": [],
+  "got_reasons": [],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R11",
+  "expected": false,
+  "got": false,
+  "expected_reasons": [],
+  "got_reasons": [],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R12",
+  "expected": true,
+  "got": true,
+  "expected_reasons": [
+   "closing_passed",
+   "snapshot_old"
+  ],
+  "got_reasons": [
+   "closing_passed",
+   "snapshot_old"
+  ],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R13",
+  "expected": true,
+  "got": true,
+  "expected_reasons": [
+   "snapshot_old"
+  ],
+  "got_reasons": [
+   "snapshot_old"
+  ],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R14",
+  "expected": true,
+  "got": true,
+  "expected_reasons": [
+   "closing_passed"
+  ],
+  "got_reasons": [
+   "closing_passed"
+  ],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R15",
+  "expected": false,
+  "got": false,
+  "expected_reasons": [],
+  "got_reasons": [],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R16",
+  "expected": true,
+  "got": true,
+  "expected_reasons": [
+   "closing_passed"
+  ],
+  "got_reasons": [
+   "closing_passed"
+  ],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R17",
+  "expected": false,
+  "got": false,
+  "expected_reasons": [],
+  "got_reasons": [],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R18",
+  "expected": false,
+  "got": false,
+  "expected_reasons": [],
+  "got_reasons": [],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R19",
+  "expected": true,
+  "got": true,
+  "expected_reasons": [
+   "snapshot_old"
+  ],
+  "got_reasons": [
+   "snapshot_old"
+  ],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R20",
+  "expected": false,
+  "got": false,
+  "expected_reasons": [],
+  "got_reasons": [],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R21",
+  "expected": false,
+  "got": false,
+  "expected_reasons": [],
+  "got_reasons": [],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R22",
+  "expected": true,
+  "got": true,
+  "expected_reasons": [
+   "snapshot_old"
+  ],
+  "got_reasons": [
+   "snapshot_old"
+  ],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R23",
+  "expected": true,
+  "got": true,
+  "expected_reasons": [
+   "snapshot_old"
+  ],
+  "got_reasons": [
+   "snapshot_old"
+  ],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R24",
+  "expected": true,
+  "got": true,
+  "expected_reasons": [
+   "snapshot_old"
+  ],
+  "got_reasons": [
+   "snapshot_old"
+  ],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R25",
+  "expected": true,
+  "got": true,
+  "expected_reasons": [
+   "closing_passed"
+  ],
+  "got_reasons": [
+   "closing_passed"
+  ],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R26",
+  "expected": false,
+  "got": false,
+  "expected_reasons": [],
+  "got_reasons": [],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R27",
+  "expected": true,
+  "got": true,
+  "expected_reasons": [
+   "closing_passed"
+  ],
+  "got_reasons": [
+   "closing_passed"
+  ],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R28",
+  "expected": false,
+  "got": false,
+  "expected_reasons": [],
+  "got_reasons": [],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R29",
+  "expected": false,
+  "got": false,
+  "expected_reasons": [],
+  "got_reasons": [],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R30",
+  "expected": false,
+  "got": false,
+  "expected_reasons": [],
+  "got_reasons": [],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R31",
+  "expected": true,
+  "got": true,
+  "expected_reasons": [
+   "closing_passed"
+  ],
+  "got_reasons": [
+   "closing_passed"
+  ],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R32",
+  "expected": false,
+  "got": false,
+  "expected_reasons": [],
+  "got_reasons": [],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ },
+ {
+  "id": "R33",
+  "expected": true,
+  "got": true,
+  "expected_reasons": [
+   "snapshot_old"
+  ],
+  "got_reasons": [
+   "snapshot_old"
+  ],
+  "ok": true,
+  "message_has_repaste_prompt": true
+ }
+]

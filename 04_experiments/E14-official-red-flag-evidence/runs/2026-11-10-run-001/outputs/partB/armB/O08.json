@@ -1,0 +1,46 @@
+{
+  "organisation": "Kelly Services Singapore",
+  "queries_run": [
+    "Kelly Services Singapore scam job warning",
+    "Kelly Services Singapore complaint employment agency MOM",
+    "Kelly Services Pte Ltd Singapore court case lawsuit",
+    "Kelly Services Singapore retrenchment layoffs",
+    "PERSOLKELLY Singapore Pte Ltd news",
+    "Kelly Services fake job offer Singapore WhatsApp fee impersonation",
+    "Kelly Services Singapore employment agency licence demerit points MOM",
+    "Kelly Services Singapore Ministry of Manpower enforcement penalty"
+  ],
+  "pages_read": [
+    "https://expatsblog.com/news/3101135469/kiwi-job-and-visa-scam-revealed",
+    "https://malwaretips.com/blogs/kelly-services/",
+    "https://www.scam.sg/companies/202438781D/kelly-services-2012-pte-ltd",
+    "https://acrawatch.sg/company/persolkelly-pte-ltd"
+  ],
+  "failed_reads": [
+    "https://malwaretips.com/blogs/kelly-services/"
+  ],
+  "items": [
+    {
+      "claim": "Fake job offers used the Kelly Services recruitment agency letterhead in a scam that targeted Singaporean and Indian students in Singapore for upfront fees (a New Zealand job and visa scam).",
+      "entity_the_claim_is_about": "Kelly Services (recruitment brand, impersonated by scammers; not alleged to have committed the scam)",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://expatsblog.com/news/3101135469/kiwi-job-and-visa-scam-revealed",
+      "quoted_evidence": "The job offers were printed with the letterhead of the Kelly Services recruitment agency"
+    },
+    {
+      "claim": "Kelly Services' general manager said the scam job offer had not come from her company or any of its representatives.",
+      "entity_the_claim_is_about": "Kelly Services (recruitment brand, impersonated by scammers; not alleged to have committed the scam)",
+      "category": "impersonation_warning_about_brand",
+      "source_url": "https://expatsblog.com/news/3101135469/kiwi-job-and-visa-scam-revealed",
+      "quoted_evidence": "the offer had not come from her company or any of its representatives."
+    },
+    {
+      "claim": "A company registry aggregator lists PERSOLKELLY Singapore Pte Ltd with status 'Ceased Or Transformed' and registration status 'Amalgamated'. The page does not mention Kelly Services, and the aggregator says the data is about 145 days old and not live ACRA data.",
+      "entity_the_claim_is_about": "PERSOLKELLY Singapore Pte Ltd (a job listing describes it as formerly Kelly Services Singapore Pte Ltd; this link was taken from a search snippet, not confirmed on a primary source)",
+      "category": "other",
+      "source_url": "https://acrawatch.sg/company/persolkelly-pte-ltd",
+      "quoted_evidence": "The page lists the status as \"Ceased Or Transformed\" and \"Amalgamated.\""
+    }
+  ],
+  "notes": "No Singapore regulator, MOM, licence, court, enforcement or retrenchment item about Kelly Services Singapore was found in 8 searches. MOM directory and demerit records were not reachable through these tools; the MOM EA Directory (search by name or licence number) should be checked directly. The NZ scam article (expatsblog) is the only page read that ties Kelly letterhead to Singapore victims; its scam concerns New Zealand job offers. The malwaretips page returned HTTP 403 and was not read; its title and search snippets describe Kelly Services impersonation scams, but these are not quoted here. A BBB Scam Tracker entry naming Kelly Services with a WhatsApp contact (dated 6 Aug 2025) appeared only in search results, was not read, and is likely US-based; it was excluded from items. The Scam.SG profile for Kelly Services (2012) Pte Ltd returned only its title on fetch; a search snippet describes it as a registry page with no active listings, and it contains no warning, so it was not counted as an item. Search snippets also said PERSOLKELLY rebranded as PERSOL on 31 July 2025; this is unverified from a read page and was excluded from items. Several items from a search snippet on a PERSOLKELLY job listing linking the former name were not verified on a primary source. General MOM enforcement and retrenchment results were background only and do not concern this organisation."
+}

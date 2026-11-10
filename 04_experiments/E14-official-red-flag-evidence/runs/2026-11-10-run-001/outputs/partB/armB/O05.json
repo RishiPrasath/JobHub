@@ -1,0 +1,43 @@
+{
+  "organisation": "Maids R Us Pte. Ltd.",
+  "queries_run": [
+    "\"Maids R Us Pte Ltd\" Singapore",
+    "\"Maids R Us\" Singapore complaint OR scam OR warning",
+    "\"Maids R Us\" MOM licensed employment agency Singapore",
+    "\"Maids R Us\" court OR lawsuit OR suspended OR licence Singapore",
+    "\"maidsrus\" OR \"maids-rus.com\" Singapore review",
+    "\"Maids R Us\" impersonation OR fake OR scam alert Singapore police",
+    "\"Maids R Us\" Singapore retrenchment OR closure OR Tanglin",
+    "\"Maids R Us\" CASE consumer complaint maid agency Singapore"
+  ],
+  "pages_read": [
+    "https://acrawatch.sg/company/maids-r-us-pte-ltd"
+  ],
+  "failed_reads": [
+    "https://straitsdata.com/companies/sg/maids-r-us/53163649J"
+  ],
+  "items": [
+    {
+      "claim": "Business registry (open-data aggregator) lists MAIDS R US PTE. LTD., UEN 201022653R, as a Local Company with status Active. The page shows no enforcement, court, licence or complaint information, but states its data is an open-data import last updated 171 days ago and not live ACRA data.",
+      "entity_the_claim_is_about": "MAIDS R US PTE. LTD. (UEN 201022653R)",
+      "category": "other",
+      "source_url": "https://acrawatch.sg/company/maids-r-us-pte-ltd",
+      "quoted_evidence": "\"Status\": \"Active\""
+    },
+    {
+      "claim": "A separate business registry aggregator lists MAIDS R US, UEN 53163649J, as a terminated sole proprietorship/partnership, incorporated 18 March 2010, at 131 Tanglin Road. The sources do not say why it was terminated, and it may or may not be a predecessor of the Pte Ltd. Not verified on the page itself (the read failed); this comes from search-result summaries only.",
+      "entity_the_claim_is_about": "MAIDS R US (UEN 53163649J), sole proprietorship/partnership, possibly a predecessor of the Pte Ltd",
+      "category": "other",
+      "source_url": "https://straitsdata.com/companies/sg/maids-r-us/53163649J",
+      "quoted_evidence": "terminated sole proprietorship/ partnership (from search-result summary; page read returned HTTP 403)"
+    },
+    {
+      "claim": "In 2018 Singapore's Ministry of Manpower suspended the licence of a different agency, SRC Recruitment LLP, after 'maids for sale' ads. This concerns a different organisation, not Maids R Us.",
+      "entity_the_claim_is_about": "SRC Recruitment LLP",
+      "category": "other_entity",
+      "source_url": "https://www.thestar.com.my/news/regional/2018/09/21/maids-for-sale-firm-in-hot-water-singapore-suspends-agencys-licence-amid-probe-into-undignified-adve",
+      "quoted_evidence": "maids for sale firm in hot water singapore suspends agencys licence amid probe into undignified adve (headline, not read in full)"
+    }
+  ],
+  "notes": "No employer_action, impersonation warning, or consumer complaint about Maids R Us was found in 8 searches and 1 successful page read. Registry details conflict between sources: the AcraWatch page gives incorporation 22 October 2010 and registered address 400 Orchard Road, Orchard Towers, while search summaries gave a Tanglin Road address for the Pte Ltd and 18 March 2010 for the sole proprietorship, so the registry records should be checked on BizFile+. Several search summaries reported that promotional pages on the agency's own site claim MOM registration and a licence number; these are unverified and no MOM licence register entry was found, so licence status is unconfirmed rather than confirmed or refuted. An insurer's preferred-agency panel lists Maids R Us at 19 Tanglin Road #01-20 Tanglin Shopping Centre, which may be out of date. A 2026 tribunal case about a maid agency's false Mandarin claim was found but the agency is not named in the excerpt, so it is not attributed to this organisation. The SRC Recruitment item is included only to show a different organisation was found, and was taken from a headline. The 2018 and 2026 items are not evidence against Maids R Us. The straitsdata.com read failed with HTTP 403, so its details are unverified. Two reads of four budget were used; eight of eight searches were used."
+}

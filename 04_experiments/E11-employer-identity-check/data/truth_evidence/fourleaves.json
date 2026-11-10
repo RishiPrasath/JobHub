@@ -1,0 +1,40 @@
+{
+ "key": "fourleaves",
+ "domain": "www.fourleaves.com.sg",
+ "pages": [
+  {
+   "url": "https://www.fourleaves.com.sg/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "r Mailing List Leave this field empty if you&#039;re human: Copyright © 2026 FOUR LEAVES PTE LTD. All Rights Reserved. &nbsp;&nbsp; +65 6268 6516 Terms & Conditions ",
+    "List Leave this field empty if you&#039;re human: Copyright © 2026 FOUR LEAVES PTE LTD. All Rights Reserved. &nbsp;&nbsp; +65 6268 6516 Terms & Conditions "
+   ]
+  },
+  {
+   "url": "https://www.fourleaves.com.sg/terms",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Four Leaves will be collected, disclosed by Four Leaves Pte Ltd"
+   ],
+   "copyright": [
+    "r Mailing List Leave this field empty if you&#039;re human: Copyright © 2026 FOUR LEAVES PTE LTD. All Rights Reserved. &nbsp;&nbsp; +65 6268 6516 Terms & Conditions ",
+    "List Leave this field empty if you&#039;re human: Copyright © 2026 FOUR LEAVES PTE LTD. All Rights Reserved. &nbsp;&nbsp; +65 6268 6516 Terms & Conditions "
+   ]
+  },
+  {
+   "url": "https://www.fourleaves.com.sg/about",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Us Shop Online Location About us Established since 1981, Four Leaves Pte Ltd"
+   ],
+   "copyright": [
+    "Leaves Logo Change 2016 New factory at 37 Chin Bee Crescent Copyright © 2026 FOUR LEAVES PTE LTD. All Rights Reserved. &nbsp;&nbsp; +65 6268 6516 Terms & Conditions ",
+    "o Change 2016 New factory at 37 Chin Bee Crescent Copyright © 2026 FOUR LEAVES PTE LTD. All Rights Reserved. &nbsp;&nbsp; +65 6268 6516 Terms & Conditions "
+   ]
+  }
+ ]
+}

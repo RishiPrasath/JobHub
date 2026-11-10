@@ -1,0 +1,172 @@
+{
+ "employer": "Shopee Talent Solutions Pte Ltd",
+ "role": "Data Entry Clerk",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 2142 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'Shopee Talent Solutions Pte Ltd'. The closest registered name is ASPIRE TALENT SOLUTIONS PTE. LTD., which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "202541718W",
+   "name": "ASPIRE TALENT SOLUTIONS PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2025-09-18",
+   "activity": "na",
+   "alternatives": [
+    "ASPIRE TALENT SOLUTIONS PTE. LTD.",
+    "APEX TALENT SOLUTIONS PTE. LTD."
+   ]
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Shopee Talent Solutions Pte Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Shopee Talent Solutions Pte Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Shopee Talent Solutions Pte Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Shopee Talent Solutions Pte Ltd\" Data Entry Clerk interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Shopee Talent Solutions Pte Ltd\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.complaintsboard.com/shopee-b127739",
+    "status": "thin",
+    "chars": 271,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.channelnewsasia.com/singapore/shopee-job-cuts-layoff-employees-software-engineers-6173816",
+    "status": "ok",
+    "chars": 5228,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://theindependent.sg/shopee-cuts-singapore-jobs-as-ai-takes-over-their-work-even-local-software-engineers-among-hundreds-of-global-developer-roles-are-also-affected",
+    "status": "ok",
+    "chars": 5230,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://vulcanpost.com/911697/shopee-layoffs-singapore-2026",
+    "status": "ok",
+    "chars": 3445,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai",
+    "status": "ok",
+    "chars": 3872,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.interviewpal.com/layoffs/shopee",
+    "status": "ok",
+    "chars": 16434,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://theonlinecitizen.com/2026/06/11/shopee-cuts-singapore-jobs-as-sea-accelerates-artificial-intelligence-expansion-strategy",
+    "status": "ok",
+    "chars": 7292,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://mothership.sg/2026/06/shopee-developer-job-cuts",
+    "status": "ok",
+    "chars": 2982,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [],
+  "gate": {
+   "phrases": [
+    "shopee talent solutions"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 0,
+   "none": true,
+   "strong": false
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 15,
+  "registry_mirror_pages": 0
+ },
+ "headline": "likely_lookalike",
+ "headline_meaning": "No registered company has this exact name and no source uses it. The closest registered name belongs to a different company. Treat the posting with caution.",
+ "reasons": [
+  "registry: similar_name_only",
+  "closest registered name is a different entity",
+  "exact name appears in no source"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://www.complaintsboard.com/shopee-b127739",
+   "why": "thin: fewer than 400 characters of real content"
+  }
+ ],
+ "link_out": [],
+ "could_not_verify": [],
+ "seconds": 97.4,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

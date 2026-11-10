@@ -1,0 +1,60 @@
+career_switcher-01-office-to-office parse_ok= True
+career_switcher-02-nonoffice-to-office parse_ok= True
+low_wage_worker-01-cafe-jan23 parse_ok= True
+low_wage_worker-02-warehouse-lee parse_ok= True
+foreign_professional-01-german-tech parse_ok= True
+job_seeker-01-senior-phone parse_ok= True
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E21-interview-preparation-need\harness\run_pilot.py", line 104, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E21-interview-preparation-need\harness\run_pilot.py", line 85, in main
+    r1 = a.ask(Q_MAIN.format(ctx=CONTEXT), json_mode=True, max_tokens=1300, tag=f"{pid}-main")
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\persona_creator.py", line 125, in ask
+    r = chat(self.model, msgs, json_mode=json_mode, max_tokens=max_tokens, temperature=temperature,
+             cache_dir=self.cache_dir, tag=tag or f"{self.persona.pid}", run=run,
+             reasoning_effort="low")
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 176, in chat
+    _reserve(model, _est_tokens(messages, max_tokens))
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 104, in _reserve
+    with _Lock(model):
+         ~~~~~^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 80, in __enter__
+    fd = os.open(str(self.p), os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\prasa\\AppData\\Local\\Temp\\jobhub_ratelimit\\openai_gpt-oss-20b.lock'
+career_switcher-01-office-to-office parse_ok= True
+career_switcher-02-nonoffice-to-office parse_ok= True
+low_wage_worker-01-cafe-jan23 parse_ok= True
+low_wage_worker-02-warehouse-lee parse_ok= True
+foreign_professional-01-german-tech parse_ok= True
+job_seeker-01-senior-phone parse_ok= True
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E21-interview-preparation-need\harness\run_pilot.py", line 104, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E21-interview-preparation-need\harness\run_pilot.py", line 91, in main
+    r3 = a.ask(Q_NEUT.format(prev=prev), json_mode=True, max_tokens=350, tag=f"{pid}-q8neutral")
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\persona_creator.py", line 125, in ask
+    r = chat(self.model, msgs, json_mode=json_mode, max_tokens=max_tokens, temperature=temperature,
+             cache_dir=self.cache_dir, tag=tag or f"{self.persona.pid}", run=run,
+             reasoning_effort="low")
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 176, in chat
+    _reserve(model, _est_tokens(messages, max_tokens))
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 104, in _reserve
+    with _Lock(model):
+         ~~~~~^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 80, in __enter__
+    fd = os.open(str(self.p), os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\prasa\\AppData\\Local\\Temp\\jobhub_ratelimit\\openai_gpt-oss-20b.lock'
+RETRY after crash 1
+career_switcher-01-office-to-office parse_ok= True
+career_switcher-02-nonoffice-to-office parse_ok= True
+low_wage_worker-01-cafe-jan23 parse_ok= True
+low_wage_worker-02-warehouse-lee parse_ok= True
+foreign_professional-01-german-tech parse_ok= True
+job_seeker-01-senior-phone parse_ok= True
+job_seeker-01-no-prep-spontaneity parse_ok= True
+early_career-01-ai‑prep‑grad parse_ok= True
+usage (agent calls, uncached): {'prompt': 3952, 'completion': 742, 'total': 4694, 'calls': 24}

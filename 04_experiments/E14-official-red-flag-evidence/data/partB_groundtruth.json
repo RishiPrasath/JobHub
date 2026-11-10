@@ -1,0 +1,18 @@
+{
+ "_note": "Gold labels written 2026-11-10 by the experiment specialist (an AI, not a human reviewer) BEFORE any arm ran. Known problems come from the MOM Employment Agencies Directory tab 'Under Revocation/Suspension/Surveillance' read on 2026-11-10 (see data/mom_ea_directory_flagged_2026-11-10.json). The directory shows current status and licence number but NOT the date of the action; 'older' is therefore proxied by long experience on the licence record (6 to 16 years) and cannot be verified as 'before 2022'. These are agency licensing actions (employer-side conduct of recruitment agencies), not general employer misconduct. Controls are NOT proven clean: they are absent from the MOM EA flagged list (26 entries), absent from the MOM stop-work-order list of 2026-01-01 to 2026-09-30 (143 rows), and a one-query hand news check on 2026-11-10 found no action against them. 'Found' = the arm's report names the entity and says its MOM licence is revoked/suspended/under action (status only; dates are not scored because the official record has none) and gives a source URL that supports it.",
+ "known": [
+  {"id":"K1","name":"Maids R Us Pte. Ltd.","licence":"10C5196","official_status":"Licence Revoked","source":"https://service2.mom.gov.sg/eadirectory","experience":"16yr","size_note":"small agency"},
+  {"id":"K2","name":"Wonderful Agency Pte. Ltd.","licence":"16C7932","official_status":"Licence Revoked","source":"https://service2.mom.gov.sg/eadirectory","experience":"10yr","size_note":"small agency"},
+  {"id":"K3","name":"Imtidad Employment Solutions Pte. Ltd.","licence":"13C6386","official_status":"Licence Revoked","source":"https://service2.mom.gov.sg/eadirectory","experience":"13yr","size_note":"small agency"},
+  {"id":"K4","name":"Hwei Long Manpower Pte. Ltd.","licence":"17C8883","official_status":"Licence Suspended","source":"https://service2.mom.gov.sg/eadirectory","experience":"9yr","size_note":"small agency"},
+  {"id":"K5","name":"Perrett Laver Pte. Ltd.","licence":"20S0258","official_status":"Licence Revoked","source":"https://service2.mom.gov.sg/eadirectory","experience":"6yr","size_note":"Singapore entity of a UK executive search firm; brand is better known abroad"}
+ ],
+ "controls": [
+  {"id":"C1","name":"Randstad Singapore","expected":"no employer-level flag; known brand-impersonation warnings exist (Randstad's own press statements about scammers impersonating its staff). Those must be labelled impersonation, not misconduct."},
+  {"id":"C2","name":"Hays Specialist Recruitment (Singapore)","expected":"no employer-level flag"},
+  {"id":"C3","name":"Robert Walters Singapore","expected":"no employer-level flag"},
+  {"id":"C4","name":"Recruit Express Pte Ltd","expected":"no employer-level flag; name is similar to flagged RECRUITU PTE. LTD. (25C2839, revoked) and must not be matched to it"},
+  {"id":"C5","name":"Kelly Services Singapore","expected":"no employer-level flag (US-parent matters are another entity)"}
+ ],
+ "wrong_flag_rubric": "A wrong employer-level flag on a control is any claim that the Singapore entity has a licence action, regulator action, court judgment against it, consumer-complaint alert, retrenchment or fraud issue that the cited source does not support, or that concerns a different entity (parent, namesake, individual). A brand-impersonation warning correctly labelled as being about scammers imitating the brand is NOT a wrong flag; the same item shown as misconduct is wrong and also fails the impersonation measure."
+}

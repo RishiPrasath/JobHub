@@ -1,0 +1,397 @@
+[
+ {
+  "id": "P1",
+  "label": "logistics background",
+  "synthetic": true,
+  "personal": {
+   "full_name": "Candidate One (synthetic)",
+   "city": "Singapore",
+   "right_to_work": "Singapore permanent resident"
+  },
+  "about": {
+   "headline": "Warehouse and logistics operations",
+   "summary": "Five years in warehouse operations and delivery support. Looking for a full-time on-site role in logistics."
+  },
+  "work": [
+   {
+    "title": "Warehouse Operations Assistant",
+    "employer": "Harbour Freight Pte Ltd",
+    "emp_type": "full-time",
+    "location": "Tuas",
+    "start": "Mar 2021",
+    "end": "currently works here",
+    "description": "Receiving, put-away and picking of cartons. Cycle counts. Data entry into the warehouse management system. Prepared delivery orders.",
+    "achievements": [
+     "Cycle count accuracy kept above 99 percent"
+    ],
+    "skills": [
+     "inventory counting",
+     "WMS data entry",
+     "MS Excel (basic)",
+     "shipping documents"
+    ]
+   },
+   {
+    "title": "Delivery Assistant",
+    "employer": "QuickDrop Express",
+    "emp_type": "full-time",
+    "location": "Singapore",
+    "start": "Jan 2020",
+    "end": "Feb 2021",
+    "description": "Loaded and unloaded the delivery van and kept the route sheets. Did not drive.",
+    "achievements": [],
+    "skills": [
+     "loading",
+     "route sheets"
+    ]
+   }
+  ],
+  "education": [
+   {
+    "institution": "ITE College West",
+    "qualification": "Higher Nitec in Logistics",
+    "field": "Logistics",
+    "dates": "2018-2020",
+    "grade": ""
+   }
+  ],
+  "certs": [
+   {
+    "name": "WSQ Forklift Operator Certificate",
+    "issuer": "Approved training provider",
+    "date": "2021"
+   },
+   {
+    "name": "Class 3 driving licence",
+    "issuer": "Traffic Police",
+    "date": "2019"
+   }
+  ],
+  "skills": [
+   {
+    "name": "Inventory counting",
+    "level": "advanced"
+   },
+   {
+    "name": "Warehouse management system data entry",
+    "level": "working"
+   },
+   {
+    "name": "Microsoft Excel",
+    "level": "basic"
+   },
+   {
+    "name": "Shipping documents",
+    "level": "working"
+   }
+  ],
+  "languages": [
+   {
+    "name": "English",
+    "level": "working"
+   },
+   {
+    "name": "Mandarin",
+    "level": "basic"
+   }
+  ],
+  "projects": [],
+  "prefs": {
+   "target_roles": [
+    "Warehouse Executive",
+    "Logistics Coordinator"
+   ],
+   "seniority": "junior",
+   "employment_types": [
+    "full-time"
+   ],
+   "arrangements": [
+    "on-site"
+   ],
+   "locations": [
+    "Jurong",
+    "Tuas",
+    "Pandan",
+    "Singapore West"
+   ],
+   "relocate": "no",
+   "travel": "occasionally",
+   "min_pay": {
+    "amount": 3200,
+    "currency": "SGD",
+    "period": "month"
+   },
+   "notice": "1 month"
+  },
+  "code": {
+   "rtw": "pr",
+   "notice_months": 1,
+   "min_pay_month": 3200,
+   "anywhere": false
+  },
+  "rendered": "## 1. Personal particulars\nCurrent city and country: Singapore\nRight to work: Singapore permanent resident\n## 2. About me\nHeadline: Warehouse and logistics operations\nSummary: Five years in warehouse operations and delivery support. Looking for a full-time on-site role in logistics.\n## 3. Work experience\n- Warehouse Operations Assistant, Harbour Freight Pte Ltd (full-time, Tuas), Mar 2021 to present. Receiving, put-away and picking of cartons. Cycle counts. Data entry into the warehouse management system. Prepared delivery orders. Skills used: inventory counting, WMS data entry, MS Excel (basic), shipping documents. Achievements: Cycle count accuracy kept above 99 percent.\n- Delivery Assistant, QuickDrop Express (full-time, Singapore), Jan 2020 to Feb 2021. Loaded and unloaded the delivery van and kept the route sheets. Did not drive. Skills used: loading, route sheets.\n## 4. Education and qualifications\n- Higher Nitec in Logistics, ITE College West (2018-2020)\n## 5. Certifications and licences\n- WSQ Forklift Operator Certificate (Approved training provider, 2021)\n- Class 3 driving licence (Traffic Police, 2019)\n## 6. Skills and languages\nSkills: Inventory counting (advanced); Warehouse management system data entry (working); Microsoft Excel (basic); Shipping documents (working)\nLanguages: English (working); Mandarin (basic)\n## 7. Projects\n- none listed\n## Job preferences\nTarget roles: Warehouse Executive, Logistics Coordinator\nSeniority: junior\nEmployment type: full-time\nWork arrangement: on-site\nPreferred locations: Jurong, Tuas, Pandan, Singapore West\nWilling to relocate: no\nWilling to travel: occasionally\nMinimum acceptable pay: 3200 SGD per month\nNotice period or earliest start: 1 month"
+ },
+ {
+  "id": "P2",
+  "label": "administrative",
+  "synthetic": true,
+  "personal": {
+   "full_name": "Candidate Two (synthetic)",
+   "city": "Singapore",
+   "right_to_work": "Singapore citizen"
+  },
+  "about": {
+   "headline": "Administrative executive",
+   "summary": "Seven years of office administration in small companies. Looking for a full-time hybrid or office role in the city."
+  },
+  "work": [
+   {
+    "title": "Administrative Executive",
+    "employer": "Kallang Trading Pte Ltd",
+    "emp_type": "full-time",
+    "location": "Raffles Place",
+    "start": "Apr 2019",
+    "end": "currently works here",
+    "description": "Scheduling, filing, purchase orders and invoicing. Front desk and phone enquiries. Used SAP Business One for invoice entry and Excel for monthly reports.",
+    "achievements": [
+     "Cut invoice processing time by one day"
+    ],
+    "skills": [
+     "scheduling",
+     "filing",
+     "invoicing",
+     "customer service",
+     "SAP Business One",
+     "MS Excel"
+    ]
+   },
+   {
+    "title": "Admin Assistant",
+    "employer": "Orchard Dental Clinic",
+    "emp_type": "full-time",
+    "location": "Orchard",
+    "start": "Jun 2017",
+    "end": "Mar 2019",
+    "description": "Appointment booking, patient records and filing.",
+    "achievements": [],
+    "skills": [
+     "appointment booking",
+     "records"
+    ]
+   }
+  ],
+  "education": [
+   {
+    "institution": "Singapore polytechnic",
+    "qualification": "Diploma in Business Administration",
+    "field": "Business Administration",
+    "dates": "2014-2017",
+    "grade": ""
+   }
+  ],
+  "certs": [],
+  "skills": [
+   {
+    "name": "Scheduling",
+    "level": "advanced"
+   },
+   {
+    "name": "Invoicing",
+    "level": "advanced"
+   },
+   {
+    "name": "Microsoft Excel (pivot tables)",
+    "level": "advanced"
+   },
+   {
+    "name": "SAP Business One",
+    "level": "working"
+   },
+   {
+    "name": "Customer service",
+    "level": "working"
+   }
+  ],
+  "languages": [
+   {
+    "name": "English",
+    "level": "fluent"
+   },
+   {
+    "name": "Mandarin",
+    "level": "conversational"
+   }
+  ],
+  "projects": [],
+  "prefs": {
+   "target_roles": [
+    "Administrative Executive",
+    "Office Coordinator"
+   ],
+   "seniority": "mid",
+   "employment_types": [
+    "full-time",
+    "contract"
+   ],
+   "arrangements": [
+    "hybrid",
+    "on-site"
+   ],
+   "locations": [
+    "Raffles Place",
+    "Alexandra",
+    "Orchard",
+    "Central"
+   ],
+   "relocate": "no",
+   "travel": "none",
+   "min_pay": {
+    "amount": 2800,
+    "currency": "SGD",
+    "period": "month"
+   },
+   "notice": "2 months"
+  },
+  "code": {
+   "rtw": "citizen",
+   "notice_months": 2,
+   "min_pay_month": 2800,
+   "anywhere": false
+  },
+  "rendered": "## 1. Personal particulars\nCurrent city and country: Singapore\nRight to work: Singapore citizen\n## 2. About me\nHeadline: Administrative executive\nSummary: Seven years of office administration in small companies. Looking for a full-time hybrid or office role in the city.\n## 3. Work experience\n- Administrative Executive, Kallang Trading Pte Ltd (full-time, Raffles Place), Apr 2019 to present. Scheduling, filing, purchase orders and invoicing. Front desk and phone enquiries. Used SAP Business One for invoice entry and Excel for monthly reports. Skills used: scheduling, filing, invoicing, customer service, SAP Business One, MS Excel. Achievements: Cut invoice processing time by one day.\n- Admin Assistant, Orchard Dental Clinic (full-time, Orchard), Jun 2017 to Mar 2019. Appointment booking, patient records and filing. Skills used: appointment booking, records.\n## 4. Education and qualifications\n- Diploma in Business Administration, Singapore polytechnic (2014-2017)\n## 5. Certifications and licences\n- none listed\n## 6. Skills and languages\nSkills: Scheduling (advanced); Invoicing (advanced); Microsoft Excel (pivot tables) (advanced); SAP Business One (working); Customer service (working)\nLanguages: English (fluent); Mandarin (conversational)\n## 7. Projects\n- none listed\n## Job preferences\nTarget roles: Administrative Executive, Office Coordinator\nSeniority: mid\nEmployment type: full-time, contract\nWork arrangement: hybrid, on-site\nPreferred locations: Raffles Place, Alexandra, Orchard, Central\nWilling to relocate: no\nWilling to travel: none\nMinimum acceptable pay: 2800 SGD per month\nNotice period or earliest start: 2 months"
+ },
+ {
+  "id": "P3",
+  "label": "early-career with adjacent skills",
+  "synthetic": true,
+  "personal": {
+   "full_name": "Candidate Three (synthetic)",
+   "city": "Singapore",
+   "right_to_work": "S Pass holder"
+  },
+  "about": {
+   "headline": "Supply chain graduate",
+   "summary": "Recent diploma graduate with retail and logistics internship experience. Open to entry-level roles and flexible about location."
+  },
+  "work": [
+   {
+    "title": "Sales Assistant",
+    "employer": "Brightline Retail",
+    "emp_type": "part-time",
+    "location": "Tampines",
+    "start": "Jun 2024",
+    "end": "Dec 2025",
+    "description": "Served customers, replenished stock and used the point-of-sale system. Kept weekly stock counts in an Excel sheet.",
+    "achievements": [],
+    "skills": [
+     "customer service",
+     "stock replenishment",
+     "MS Excel"
+    ]
+   },
+   {
+    "title": "Logistics Operations Intern",
+    "employer": "Pacific Cargo Pte Ltd",
+    "emp_type": "internship",
+    "location": "Singapore",
+    "start": "Jan 2025",
+    "end": "Jun 2025",
+    "description": "Kept shipment tracking spreadsheets in Excel and entered delivery orders. Shadowed the warehouse supervisor.",
+    "achievements": [],
+    "skills": [
+     "data entry",
+     "MS Excel",
+     "shipment tracking"
+    ]
+   }
+  ],
+  "education": [
+   {
+    "institution": "Singapore polytechnic",
+    "qualification": "Diploma in Supply Chain Management",
+    "field": "Supply Chain Management",
+    "dates": "2022-2025",
+    "grade": "GPA 3.4"
+   }
+  ],
+  "certs": [],
+  "skills": [
+   {
+    "name": "Microsoft Excel",
+    "level": "working"
+   },
+   {
+    "name": "Data entry",
+    "level": "working"
+   },
+   {
+    "name": "Customer service",
+    "level": "working"
+   },
+   {
+    "name": "Inventory counting",
+    "level": "basic"
+   },
+   {
+    "name": "Google Sheets",
+    "level": "working"
+   }
+  ],
+  "languages": [
+   {
+    "name": "English",
+    "level": "advanced"
+   },
+   {
+    "name": "Mandarin",
+    "level": "working"
+   }
+  ],
+  "projects": [
+   {
+    "title": "Warehouse layout redesign",
+    "role": "Team member",
+    "description": "Final-year project redesigning the layout of a mock SME warehouse.",
+    "skills": [
+     "layout planning",
+     "Excel"
+    ]
+   }
+  ],
+  "prefs": {
+   "target_roles": [
+    "Logistics Executive",
+    "Operations Assistant"
+   ],
+   "seniority": "entry level",
+   "employment_types": [
+    "full-time",
+    "internship",
+    "part-time"
+   ],
+   "arrangements": [
+    "remote",
+    "hybrid",
+    "on-site"
+   ],
+   "locations": [
+    "Anywhere in Singapore"
+   ],
+   "relocate": "yes",
+   "travel": "occasionally",
+   "min_pay": {
+    "amount": 3000,
+    "currency": "SGD",
+    "period": "month"
+   },
+   "notice": "immediately"
+  },
+  "code": {
+   "rtw": "pass",
+   "notice_months": 0,
+   "min_pay_month": 3000,
+   "anywhere": true
+  },
+  "rendered": "## 1. Personal particulars\nCurrent city and country: Singapore\nRight to work: S Pass holder\n## 2. About me\nHeadline: Supply chain graduate\nSummary: Recent diploma graduate with retail and logistics internship experience. Open to entry-level roles and flexible about location.\n## 3. Work experience\n- Sales Assistant, Brightline Retail (part-time, Tampines), Jun 2024 to Dec 2025. Served customers, replenished stock and used the point-of-sale system. Kept weekly stock counts in an Excel sheet. Skills used: customer service, stock replenishment, MS Excel.\n- Logistics Operations Intern, Pacific Cargo Pte Ltd (internship, Singapore), Jan 2025 to Jun 2025. Kept shipment tracking spreadsheets in Excel and entered delivery orders. Shadowed the warehouse supervisor. Skills used: data entry, MS Excel, shipment tracking.\n## 4. Education and qualifications\n- Diploma in Supply Chain Management, Singapore polytechnic (2022-2025), GPA 3.4\n## 5. Certifications and licences\n- none listed\n## 6. Skills and languages\nSkills: Microsoft Excel (working); Data entry (working); Customer service (working); Inventory counting (basic); Google Sheets (working)\nLanguages: English (advanced); Mandarin (working)\n## 7. Projects\n- Warehouse layout redesign (Team member): Final-year project redesigning the layout of a mock SME warehouse.\n## Job preferences\nTarget roles: Logistics Executive, Operations Assistant\nSeniority: entry level\nEmployment type: full-time, internship, part-time\nWork arrangement: remote, hybrid, on-site\nPreferred locations: Anywhere in Singapore\nWilling to relocate: yes\nWilling to travel: occasionally\nMinimum acceptable pay: 3000 SGD per month\nNotice period or earliest start: immediately"
+ }
+]

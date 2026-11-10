@@ -1,0 +1,13 @@
+{
+ "key": "homage",
+ "domain": "www.homage.com",
+ "pages": [
+  {
+   "url": "https://www.homage.com/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  }
+ ]
+}

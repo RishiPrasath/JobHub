@@ -1,0 +1,37 @@
+{
+ "key": "singtel",
+ "domain": "www.singtel.com",
+ "pages": [
+  {
+   "url": "https://www.singtel.com/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://www.singtel.com/terms",
+   "status": 200,
+   "reg_hits": [
+    "199201624D"
+   ],
+   "legal_names": [],
+   "copyright": [
+    "bility disclosure Careers Terms of use Terms and conditions Copyright notices Contact us Singtel global offices Store locator © Singtel (CRN: 199201624D) All Rights Reserved. ",
+    "ght notices Contact us Singtel global offices Store locator © Singtel (CRN: 199201624D) All Rights Reserved. "
+   ]
+  },
+  {
+   "url": "https://www.singtel.com/pdpa",
+   "status": 200,
+   "reg_hits": [
+    "199201624D"
+   ],
+   "legal_names": [],
+   "copyright": [
+    "bility disclosure Careers Terms of use Terms and conditions Copyright notices Contact us Singtel global offices Store locator © Singtel (CRN: 199201624D) All Rights Reserved. ",
+    "ght notices Contact us Singtel global offices Store locator © Singtel (CRN: 199201624D) All Rights Reserved. "
+   ]
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "meta": {
+  "model": "qwen/qwen3.8-27b",
+  "method": "M1",
+  "run": 1,
+  "prompt_version": "e19-prompts-v1",
+  "sets_completed": 1,
+  "params": {
+   "temperature": 0.2,
+   "reasoning_effort": "low (gpt-oss only)",
+   "max_tokens": 1000,
+   "json_mode": true
+  }
+ },
+ "sets": {
+  "P01-A": {
+   "set": "P01-A",
+   "method": "M1",
+   "parse_ok": true,
+   "case_types": [
+    "credential",
+    "gap",
+    "misattribution"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R3",
+    "R4"
+   ],
+   "raw_items": [
+    {
+     "requirement": "R2",
+     "entry_ids": [],
+     "text": "Logistics coordinator with four years of experience in dispatch and cold-store warehouse operations in Singapore, including scheduling daily delivery trips and managing inventory.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "displayed": true
+    },
+    {
+     "requirement": "R5",
+     "entry_ids": [],
+     "text": "Demonstrated reliability and teamwork through coordinating daily logistics operations and participating in team-based projects.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "displayed": true
+    }
+   ],
+   "displayed": [
+    {
+     "requirement": "R2",
+     "entry_ids": [],
+     "text": "Logistics coordinator with four years of experience in dispatch and cold-store warehouse operations in Singapore, including scheduling daily delivery trips and managing inventory.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "displayed": true
+    },
+    {
+     "requirement": "R5",
+     "entry_ids": [],
+     "text": "Demonstrated reliability and teamwork through coordinating daily logistics operations and participating in team-based projects.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "displayed": true
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 131,
+    "prompt_tokens": 748,
+    "total_tokens": 879,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.178484894,
+    "prompt_time": 0.056550899,
+    "completion_time": 0.25206417,
+    "total_time": 0.308615069
+   },
+   "latency_s": 1.01
+  }
+ }
+}

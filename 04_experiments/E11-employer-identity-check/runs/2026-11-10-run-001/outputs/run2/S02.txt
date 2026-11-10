@@ -1,0 +1,13 @@
+Burger King Singapore Pte. Ltd.  (role: Crew Member)
+HEADLINE: exists_limited_evidence
+  Registered in Singapore, but there is little public evidence beyond the registry.
+  because: registry: confirmed; web evidence thin (5 pages read, model: None)
+REGISTRY: confirmed. BURGER KING SINGAPORE PTE. LTD. is registered in Singapore (status: Live Company, registered 2009-01-13).
+WEB: 5 queries (bing, duckduckgo), 7 of 8 pages read, exact name seen in 7 pages and 21 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 1):
+  - Burger King Singapore - -- | LinkedIn  https://sg.linkedin.com/in/burger-king-singapore
+COULD NOT READ (1):
+  - https://www.bizapore.com/en-SG/burger-king-singapore-pte-ltd_1d-6754-7  (irrelevant: the page
+    never mentions the company name)
+DEGRADED: summary_unavailable: model rate limit reached (retry in 1795 s)
+(50.5s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

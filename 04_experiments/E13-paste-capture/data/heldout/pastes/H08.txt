@@ -1,0 +1,52 @@
+Home | About Us | Careers | Contact  
+
+[Banner: Join Our Innovative Team – Shape the Future of FinTech]  
+
+Careers at NovaWave Solutions  
+
+Location: Singapore  
+
+Job Title: Senior Data Analytics Engineer  
+
+Posted: 12 November 2026  
+
+Application Deadline: Open until the position is filled  
+
+Salary will be discussed at interview  
+
+Job Summary  
+We are seeking a highly skilled Senior Data Analytics Engineer to lead the design, development, and optimization of our data pipelines and analytics platforms. You will collaborate with cross‑functional teams to turn complex data sets into actionable insights that drive business decisions across our fintech products.
+
+Key Responsibilities  
+- Design, build, and maintain scalable data pipelines using Spark, Kafka, and Airflow.  
+- Develop advanced analytics models and dashboards in Python, R, and Tableau.  
+- Lead data quality initiatives, implementing automated testing and monitoring frameworks.  
+- Partner with product managers and engineers to define data requirements and deliver analytical solutions.  
+- Mentor junior data engineers and promote best practices in data engineering and analytics.  
+- Conduct performance tuning and cost optimization for cloud‑based data services on AWS and Azure.  
+- Present findings and recommendations to senior leadership and stakeholders.  
+
+Qualifications  
+- Bachelor’s or Master’s degree in Computer Science, Statistics, or related field.  
+- Minimum 5 years of experience in data engineering or analytics roles.  
+- Proficiency in SQL, Python, Scala, and big‑data technologies (Spark, Hadoop, Kafka).  
+- Strong knowledge of cloud platforms (AWS, Azure) and containerization (Docker, Kubernetes).  
+- Excellent problem‑solving skills and ability to communicate complex concepts clearly.  
+
+Benefits  
+- Competitive compensation package (salary discussed at interview)  
+- Flexible working hours and hybrid office model  
+- Comprehensive health and wellness benefits  
+- Professional development budget and tuition assistance  
+- Generous annual leave and paid public holidays  
+
+How to Apply  
+Click “Apply Now” to submit your resume, cover letter, and portfolio. Ensure your application highlights relevant projects and achievements.  
+
+[Apply Now]   [Save Job]  
+
+---  
+
+© 2026 NovaWave Solutions. All rights reserved.  
+
+Privacy Policy | Terms of Use | Cookie Settings | Careers | Contact Us | Sitemap

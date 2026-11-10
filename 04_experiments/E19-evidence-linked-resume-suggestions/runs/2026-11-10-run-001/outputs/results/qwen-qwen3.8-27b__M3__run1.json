@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "model": "qwen/qwen3.8-27b",
+  "method": "M3",
+  "run": 1,
+  "prompt_version": "e19-prompts-v1",
+  "sets_completed": 4,
+  "params": {
+   "temperature": 0.2,
+   "reasoning_effort": "low (gpt-oss only)",
+   "max_tokens": 900,
+   "json_mode": true
+  }
+ },
+ "method": "M3",
+ "sets": {
+  "P01-A": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"A-W1\",\n      \"requirement\": \"R2\"\n    },\n    {\n      \"entry_id\": \"A-W2\",\n      \"requirement\": \"R2\"\n    },\n    {\n      \"entry_id\": \"A-CE1\",\n      \"requirement\": \"R1\"\n    },\n    {\n      \"entry_id\": \"A-PR1\",\n      \"requirement\": \"R5\"\n    }\n  ],\n  \"gaps\": [\n    \"R3\",\n    \"R4\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 145,
+    "prompt_tokens": 766,
+    "total_tokens": 911,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.055004498,
+    "prompt_time": 0.056864908,
+    "completion_time": 0.309729179,
+    "total_time": 0.366594087
+   },
+   "latency_s": 0.54,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T10:59:31Z"
+  },
+  "P01-B": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"B-W2\",\n      \"requirement\": \"R5\"\n    }\n  ],\n  \"gaps\": [\n    \"R1\",\n    \"R2\",\n    \"R3\",\n    \"R4\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 79,
+    "prompt_tokens": 743,
+    "total_tokens": 822,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.055194031,
+    "prompt_time": 0.051168266,
+    "completion_time": 0.162477883,
+    "total_time": 0.213646149
+   },
+   "latency_s": 0.39,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T11:05:12Z"
+  },
+  "P02-A": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"A-CE1\",\n      \"requirement\": \"R2\"\n    },\n    {\n      \"entry_id\": \"A-CE2\",\n      \"requirement\": \"R5\"\n    },\n    {\n      \"entry_id\": \"A-W2\",\n      \"requirement\": \"R5\"\n    }\n  ],\n  \"gaps\": [\n    \"R1\",\n    \"R3\",\n    \"R4\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 124,
+    "prompt_tokens": 730,
+    "total_tokens": 854,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.048775899,
+    "prompt_time": 0.058626001,
+    "completion_time": 0.266883966,
+    "total_time": 0.325509967
+   },
+   "latency_s": 0.49,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T11:00:50Z"
+  },
+  "P03-A": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"A-W1\",\n      \"requirement\": \"R1\"\n    },\n    {\n      \"entry_id\": \"A-SK1\",\n      \"requirement\": \"R3\"\n    },\n    {\n      \"entry_id\": \"A-W1\",\n      \"requirement\": \"R5\"\n    },\n    {\n      \"entry_id\": \"A-W2\",\n      \"requirement\": \"R1\"\n    },\n    {\n      \"entry_id\": \"A-SK3\",\n      \"requirement\": \"R1\"\n    },\n    {\n      \"entry_id\": \"A-LG1\",\n      \"requirement\": \"R5\"\n    }\n  ],\n  \"gaps\": [\n    \"R2\",\n    \"R4\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 200,
+    "prompt_tokens": 734,
+    "total_tokens": 934,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.049811223,
+    "prompt_time": 0.055837146,
+    "completion_time": 0.385477687,
+    "total_time": 0.441314833
+   },
+   "latency_s": 0.61,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-10T11:07:55Z"
+  }
+ }
+}

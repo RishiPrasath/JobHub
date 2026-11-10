@@ -1,0 +1,38 @@
+{
+  "organisation": "Imtidad Employment Solutions Pte. Ltd.",
+  "queries_run": [
+    "Imtidad Employment Solutions Pte Ltd Singapore",
+    "Imtidad Employment Solutions scam warning OR complaint OR MOM",
+    "Imtidad employment agency Singapore MOM licence revoked OR court OR complaint OR retrenchment",
+    "\"Imtidad\" Singapore employment agency reviews"
+  ],
+  "pages_read": [
+    "https://www.scam.sg/companies/202302734R/imtidad-employment-agency-pte-ltd",
+    "https://scam.sg/companies/201703963W/imtidad-recruitment-pte-ltd"
+  ],
+  "failed_reads": [],
+  "items": [
+    {
+      "claim": "Imtidad Employment Agency Pte Ltd (UEN 202302734R), established January 2023, is listed as gazetted to be struck off. This is a registry status, not an enforcement action, and the page read did not state it.",
+      "entity_the_claim_is_about": "Imtidad Employment Agency Pte Ltd (UEN 202302734R)",
+      "category": "other",
+      "source_url": "https://www.scam.sg/companies/202302734R/imtidad-employment-agency-pte-ltd",
+      "quoted_evidence": "Gazetted To Be Struck Off (as stated in search result summary; the fetched page returned only its title)"
+    },
+    {
+      "claim": "A registry-style listing ties UEN 201703963W, which scam.sg lists as Imtidad Recruitment Pte Ltd, to the name Flourish Employment Services and states it is gazetted to be struck off. The scam.sg page read returned the name Flourish Employment Services Pte. Ltd. on the same UEN, so the legal name for this UEN is unclear.",
+      "entity_the_claim_is_about": "Imtidad Recruitment Pte Ltd / Flourish Employment Services Pte. Ltd. (UEN 201703963W)",
+      "category": "other",
+      "source_url": "https://scam.sg/companies/201703963W/imtidad-recruitment-pte-ltd",
+      "quoted_evidence": "\"Flourish Employment Services Pte. Ltd.\" (from the page title and content returned by the fetch)"
+    },
+    {
+      "claim": "Scam.sg is reported (via search summary) to rate Imtidad Recruitment Pte Ltd (UEN 201703963W) as generally trustworthy, with minor verification advised. Its page showed no reviews in the read. This is a site rating, not a finding of misconduct.",
+      "entity_the_claim_is_about": "Imtidad Recruitment Pte Ltd (UEN 201703963W)",
+      "category": "other",
+      "source_url": "https://scam.sg/companies/201703963W/imtidad-recruitment-pte-ltd",
+      "quoted_evidence": "\"generally trustworthy\" (as stated in search result summary; not verified in the fetched page text)"
+    }
+  ],
+  "notes": "No employer_action, impersonation warning, or consumer complaint about Imtidad was found in 4 searches and 2 page reads. The exact name Imtidad Employment Solutions Pte. Ltd. was not found in any registry result; the brand appears to operate through entities that were not confirmed. The brand's own claims (a 2016 award and MOM service ratings) are self-promotion, not independent verification. The MOM enforcement results (licence suspensions and revocations of other agencies) concern other entities and are excluded from items. The fetched scam.sg pages returned only titles, so the rating and struck-off statuses come from search summaries and should be checked at ACRA BizFile. Imtidad Recruitment Pte Ltd was described as a live company, formerly Agile Recruitment, in the search summary. Verify the UEN and status on ACRA BizFile and the MOM EA Directory (services.mom.gov.sg/eadirectory) before relying on any of this."
+}

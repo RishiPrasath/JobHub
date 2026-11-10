@@ -1,0 +1,55 @@
+{
+ "key": "gojek",
+ "domain": "www.gojek.com",
+ "pages": [
+  {
+   "url": "https://www.gojek.com/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "nditions Data Attribution Cookie Settings Indonesia English © 2023 Gojek | Gojek is a trademark of PT GoTo Gojek Tokopedia Tbk. Registered in the Directorate General of Intellectual"
+   ]
+  },
+  {
+   "url": "https://www.gojek.com/privacy-policy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Singapore is carried out by Velox Digital Singapore Pte Ltd."
+   ],
+   "copyright": [
+    "nditions Data Attribution Cookie Settings Indonesia English © 2023 Gojek | Gojek is a trademark of PT GoTo Gojek Tokopedia Tbk. Registered in the Directorate General of Intellectual"
+   ]
+  },
+  {
+   "url": "https://www.gojek.com/privacy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Singapore is carried out by Velox Digital Singapore Pte Ltd."
+   ],
+   "copyright": [
+    "nditions Data Attribution Cookie Settings Indonesia English © 2023 Gojek | Gojek is a trademark of PT GoTo Gojek Tokopedia Tbk. Registered in the Directorate General of Intellectual"
+   ]
+  },
+  {
+   "url": "https://www.gojek.com/terms",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "an Atribusi Data Cookie Settings Indonesia Bahasa Indonesia © 2023 Gojek | Gojek adalah merek milik PT GoTo Gojek Tokopedia Tbk. Terdaftar pada Direktorat Jendral Kekayaan Intelektu"
+   ]
+  },
+  {
+   "url": "https://www.gojek.com/terms-and-conditions",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "nditions Data Attribution Cookie Settings Indonesia English © 2023 Gojek | Gojek is a trademark of PT GoTo Gojek Tokopedia Tbk. Registered in the Directorate General of Intellectual"
+   ]
+  }
+ ]
+}

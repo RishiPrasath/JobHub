@@ -1,0 +1,617 @@
+[
+ {
+  "id": "L01",
+  "seen": false,
+  "employer": "DBS Bank Ltd",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (7 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 2407 s)"
+  ],
+  "seconds": 38.8
+ },
+ {
+  "id": "L02",
+  "seen": false,
+  "employer": "Keppel Ltd",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (3 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 2925 s)"
+  ],
+  "seconds": 43.7
+ },
+ {
+  "id": "L03",
+  "seen": false,
+  "employer": "ComfortDelGro Corporation Limited",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (6 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 3117 s)"
+  ],
+  "seconds": 56.0
+ },
+ {
+  "id": "L04",
+  "seen": false,
+  "employer": "Changi Airport Group (Singapore) Pte. Ltd.",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (6 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 2120 s)"
+  ],
+  "seconds": 59.4
+ },
+ {
+  "id": "L05",
+  "seen": false,
+  "employer": "CapitaLand Group Pte. Ltd.",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (6 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 2369 s)"
+  ],
+  "seconds": 37.6
+ },
+ {
+  "id": "L06",
+  "seen": false,
+  "employer": "Raffles Medical Group Ltd",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (4 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 1794 s)"
+  ],
+  "seconds": 73.6
+ },
+ {
+  "id": "L07",
+  "seen": false,
+  "employer": "Starbucks Coffee Singapore Pte. Ltd.",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (3 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 2813 s)"
+  ],
+  "seconds": 90.9
+ },
+ {
+  "id": "L08",
+  "seen": false,
+  "employer": "Singapore Airlines Limited",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (5 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 2520 s)"
+  ],
+  "seconds": 59.3
+ },
+ {
+  "id": "L09",
+  "seen": false,
+  "employer": "NTUC FairPrice Co-operative Ltd",
+  "expected": [],
+  "got": "likely_lookalike",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: similar_name_only",
+   "closest registered name is a different entity",
+   "exact name appears in no source"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 1462 s)"
+  ],
+  "seconds": 13.9
+ },
+ {
+  "id": "S01",
+  "seen": false,
+  "employer": "Ya Kun International Private Limited",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (1 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 1126 s)"
+  ],
+  "seconds": 59.8
+ },
+ {
+  "id": "S02",
+  "seen": false,
+  "employer": "Burger King Singapore Pte. Ltd.",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (5 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 1795 s)"
+  ],
+  "seconds": 50.5
+ },
+ {
+  "id": "S03",
+  "seen": false,
+  "employer": "Nium Pte. Ltd.",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (3 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 1883 s)"
+  ],
+  "seconds": 83.0
+ },
+ {
+  "id": "S04",
+  "seen": false,
+  "employer": "Funding Societies Pte. Ltd.",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (3 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 2147 s)"
+  ],
+  "seconds": 89.0
+ },
+ {
+  "id": "S05",
+  "seen": false,
+  "employer": "Ohmyhome Pte. Ltd.",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (4 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 1044 s)"
+  ],
+  "seconds": 100.9
+ },
+ {
+  "id": "S06",
+  "seen": false,
+  "employer": "Seedly Pte. Ltd.",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (4 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 1965 s)"
+  ],
+  "seconds": 90.7
+ },
+ {
+  "id": "S07",
+  "seen": false,
+  "employer": "Koufu Group Limited",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (3 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 1337 s)"
+  ],
+  "seconds": 43.7
+ },
+ {
+  "id": "S08",
+  "seen": false,
+  "employer": "Carousell",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (7 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 2106 s)"
+  ],
+  "seconds": 59.7
+ },
+ {
+  "id": "B01",
+  "seen": false,
+  "employer": "OCBC Bank",
+  "expected": [],
+  "got": "brand_legal_entity_unconfirmed",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: similar_name_only",
+   "exact name seen 16 times in sources"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 1720 s)"
+  ],
+  "seconds": 60.5
+ },
+ {
+  "id": "B02",
+  "seen": false,
+  "employer": "Singtel",
+  "expected": [],
+  "got": "ambiguous_entity",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: multiple_entities"
+  ],
+  "degraded": [],
+  "seconds": 0.0
+ },
+ {
+  "id": "B03",
+  "seen": false,
+  "employer": "SingPost",
+  "expected": [],
+  "got": "not_active",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: registered_not_active"
+  ],
+  "degraded": [],
+  "seconds": 0.0
+ },
+ {
+  "id": "B04",
+  "seen": false,
+  "employer": "Grab",
+  "expected": [],
+  "got": "not_active",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: registered_not_active"
+  ],
+  "degraded": [],
+  "seconds": 0.0
+ },
+ {
+  "id": "B05",
+  "seen": false,
+  "employer": "NTUC Income",
+  "expected": [],
+  "got": "brand_legal_entity_unconfirmed",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: similar_name_only",
+   "exact name seen 16 times in sources"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 1418 s)"
+  ],
+  "seconds": 56.7
+ },
+ {
+  "id": "B06",
+  "seen": false,
+  "employer": "McDonald's Singapore",
+  "expected": [],
+  "got": "brand_legal_entity_unconfirmed",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: similar_name_only",
+   "exact name seen 4 times in sources"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 2256 s)"
+  ],
+  "seconds": 65.3
+ },
+ {
+  "id": "B07",
+  "seen": false,
+  "employer": "Mr Bean",
+  "expected": [],
+  "got": "brand_legal_entity_unconfirmed",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: similar_name_only",
+   "exact name seen 32 times in sources"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 2340 s)"
+  ],
+  "seconds": 60.0
+ },
+ {
+  "id": "B08",
+  "seen": false,
+  "employer": "Swensen's",
+  "expected": [],
+  "got": "brand_legal_entity_unconfirmed",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: similar_name_only",
+   "exact name seen 31 times in sources"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 1673 s)"
+  ],
+  "seconds": 47.3
+ },
+ {
+  "id": "B09",
+  "seen": false,
+  "employer": "Aspire",
+  "expected": [],
+  "got": "not_active",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: registered_not_active"
+  ],
+  "degraded": [],
+  "seconds": 0.0
+ },
+ {
+  "id": "B10",
+  "seen": false,
+  "employer": "Toast Box",
+  "expected": [],
+  "got": "brand_legal_entity_unconfirmed",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: similar_name_only",
+   "exact name seen 22 times in sources"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 1313 s)"
+  ],
+  "seconds": 68.4
+ },
+ {
+  "id": "H01",
+  "seen": false,
+  "employer": "Confidential Employer",
+  "expected": [],
+  "got": "could_not_confirm_company",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: similar_name_only",
+   "exact name seen 1 times"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 360 s)"
+  ],
+  "seconds": 45.5
+ },
+ {
+  "id": "H02",
+  "seen": false,
+  "employer": "Our Client - A Global Bank",
+  "expected": [],
+  "got": "could_not_confirm_company",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: not_in_registry",
+   "exact name seen 0 times"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 1861 s)"
+  ],
+  "seconds": 76.3
+ },
+ {
+  "id": "H03",
+  "seen": false,
+  "employer": "A Leading MNC",
+  "expected": [],
+  "got": "could_not_confirm_company",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: not_in_registry",
+   "exact name seen 1 times"
+  ],
+  "degraded": [
+   "no_web_sources: nothing could be read or found, so no summary was written"
+  ],
+  "seconds": 63.1
+ },
+ {
+  "id": "H04",
+  "seen": false,
+  "employer": "Adecco Personnel Pte Ltd",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (3 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 1247 s)"
+  ],
+  "seconds": 63.1
+ },
+ {
+  "id": "H05",
+  "seen": false,
+  "employer": "Hays Specialist Recruitment Pte. Ltd.",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (4 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 1484 s)"
+  ],
+  "seconds": 67.6
+ },
+ {
+  "id": "H06",
+  "seen": false,
+  "employer": "Robert Walters (Singapore) Pte Ltd",
+  "expected": [],
+  "got": "exists_limited_evidence",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: confirmed",
+   "web evidence thin (3 pages read, model: None)"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 1310 s)"
+  ],
+  "seconds": 44.4
+ },
+ {
+  "id": "F01",
+  "seen": false,
+  "employer": "Singtel Careers Hub Pte Ltd",
+  "expected": [],
+  "got": "could_not_confirm_company",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: not_in_registry",
+   "exact name seen 0 times"
+  ],
+  "degraded": [],
+  "seconds": 97.6
+ },
+ {
+  "id": "F02",
+  "seen": false,
+  "employer": "Shopee Talent Solutions Pte Ltd",
+  "expected": [],
+  "got": "likely_lookalike",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: similar_name_only",
+   "closest registered name is a different entity",
+   "exact name appears in no source"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 2495 s)"
+  ],
+  "seconds": 119.6
+ },
+ {
+  "id": "F03",
+  "seen": false,
+  "employer": "DBS Talent Acquisition Pte Ltd",
+  "expected": [],
+  "got": "likely_lookalike",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: similar_name_only",
+   "closest registered name is a different entity",
+   "exact name appears in no source"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 1891 s)"
+  ],
+  "seconds": 61.4
+ },
+ {
+  "id": "F04",
+  "seen": false,
+  "employer": "CapitaLand Recruitment Services Pte Ltd",
+  "expected": [],
+  "got": "likely_lookalike",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: similar_name_only",
+   "closest registered name is a different entity",
+   "exact name appears in no source"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 1988 s)"
+  ],
+  "seconds": 54.9
+ },
+ {
+  "id": "F05",
+  "seen": false,
+  "employer": "Changi Airport Recruitment Centre Pte Ltd",
+  "expected": [],
+  "got": "likely_lookalike",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: similar_name_only",
+   "closest registered name is a different entity",
+   "exact name appears in no source"
+  ],
+  "degraded": [
+   "summary_unavailable: model rate limit reached (retry in 2320 s)"
+  ],
+  "seconds": 65.4
+ },
+ {
+  "id": "F06",
+  "seen": false,
+  "employer": "Merlion Prime Staffing Solutions Pte Ltd",
+  "expected": [],
+  "got": "could_not_confirm_company",
+  "verdict": "OFF",
+  "reasons": [
+   "registry: not_in_registry",
+   "exact name seen 0 times"
+  ],
+  "degraded": [
+   "no_web_sources: nothing could be read or found, so no summary was written"
+  ],
+  "seconds": 39.9
+ }
+]

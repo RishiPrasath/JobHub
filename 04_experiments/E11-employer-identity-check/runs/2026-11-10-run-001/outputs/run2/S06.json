@@ -1,0 +1,205 @@
+{
+ "employer": "Seedly Pte. Ltd.",
+ "role": "Content Marketing Executive",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 1965 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "SEEDLY PTE. LTD. is registered in Singapore (status: Live Company, registered 2016-02-02).",
+  "basis": "name only",
+  "entity": {
+   "uen": "201602731H",
+   "name": "SEEDLY PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2016-02-02",
+   "activity": "IDM SOFTWARE DEVELOPMENT/SOFTWARE PROGRAMMING ACTIVITIES"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Seedly Pte. Ltd.\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 2,
+    "error": null
+   },
+   {
+    "query": "\"Seedly Pte. Ltd.\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Seedly Pte. Ltd.\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Seedly Pte. Ltd.\" Content Marketing Executive interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Seedly Pte. Ltd.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.emis.com/php/company-profile/SG/Seedly_Pte_Ltd_en_22251388.html",
+    "status": "ok",
+    "chars": 1261,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://recordowl.com/company/seedly-pte-ltd",
+    "status": "ok",
+    "chars": 6794,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://seedly.sg/",
+    "status": "ok",
+    "chars": 746,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/seo-associate-seedly-f2ae96a3fb98c1c853d6ac35f30c35bc",
+    "status": "ok",
+    "chars": 3168,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.internsg.com/job/seedly-pte-ltd-talent-acquisition-intern",
+    "status": "ok",
+    "chars": 1688,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Seedly-Pte-Ltd",
+    "status": "ok",
+    "chars": 9410,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/business/201602731H/SEEDLY-PTE-LTD",
+    "status": "ok",
+    "chars": 8962,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.companies.sg/business/201602731H/SEEDLY-PTE-LTD-",
+    "status": "ok",
+    "chars": 8962,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Overview/Working-at-Seedly-EI_IE2002835.11,17.htm",
+    "title": "Working at Seedly | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Seedly-Reviews-E2002835.htm",
+    "title": "Seedly Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.linkedin.com/company/seedly",
+    "title": "Seedly - LinkedIn",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.facebook.com/seedlysg",
+    "title": "Seedly | Singapore Singapore - Facebook",
+    "why": "link out only (facebook.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "seedly"
+   ],
+   "pages_with_exact_name": 8,
+   "snippets_with_exact_name": 18,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 15,
+  "registry_mirror_pages": 4
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (4 pages read, model: None)"
+ ],
+ "brief": null,
+ "could_not_read": [],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Overview/Working-at-Seedly-EI_IE2002835.11,17.htm",
+   "title": "Working at Seedly | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Seedly-Reviews-E2002835.htm",
+   "title": "Seedly Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.linkedin.com/company/seedly",
+   "title": "Seedly - LinkedIn",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.facebook.com/seedlysg",
+   "title": "Seedly | Singapore Singapore - Facebook",
+   "why": "link out only (facebook.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 90.7,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

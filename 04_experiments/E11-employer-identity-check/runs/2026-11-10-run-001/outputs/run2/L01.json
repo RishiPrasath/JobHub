@@ -1,0 +1,170 @@
+{
+ "employer": "DBS Bank Ltd",
+ "role": "Customer Service Officer",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 2407 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "DBS BANK LTD. is registered in Singapore (status: Live Company, registered 1968-07-16).",
+  "basis": "name only",
+  "entity": {
+   "uen": "196800306E",
+   "name": "DBS BANK LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1968-07-16",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [
+   "an earlier entity with the same name is now Terminated"
+  ],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"DBS Bank Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 1,
+    "error": null
+   },
+   {
+    "query": "\"DBS Bank Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"DBS Bank Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"DBS Bank Ltd\" Customer Service Officer interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"DBS BANK LTD.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.mycareersfuture.gov.sg/companies/dbs-bank-196800306E",
+    "status": "ok",
+    "chars": 6534,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.dbs.com.sg/corporate/contact-us/what-to-do-if-you-were-scammed",
+    "status": "ok",
+    "chars": 1277,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.dbs.com.sg/personal/support/guide-security-on-scams-and-fraud.html",
+    "status": "ok",
+    "chars": 2180,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.posb.com.sg/personal/scam-defence/protecting-yourself-online",
+    "status": "ok",
+    "chars": 6625,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.police.gov.sg/Media-Hub/News/2026/03/20260327_advisory_on_phishing_scams_involving_emails_that_impersonate_dbs_posb",
+    "status": "ok",
+    "chars": 2986,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://theindependent.sg/beware-of-dbs-scam-netizen-shares-screenshots-of-authentic-looking-phishing-website",
+    "status": "ok",
+    "chars": 3356,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://inf.news/en/economy/e72e5cb3aea23fd9721c63afa77f0314.html",
+    "status": "irrelevant",
+    "chars": 460,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://sginvestors.io/sgx/stock/d05-dbs/company-announcement",
+    "status": "ok",
+    "chars": 2823,
+    "note": null,
+    "tier": "render"
+   }
+  ],
+  "skipped_by_policy": [],
+  "gate": {
+   "phrases": [
+    "dbs bank"
+   ],
+   "pages_with_exact_name": 4,
+   "snippets_with_exact_name": 18,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 4,
+  "registry_mirror_pages": 0
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (7 pages read, model: None)"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://inf.news/en/economy/e72e5cb3aea23fd9721c63afa77f0314.html",
+   "why": "irrelevant: the page never mentions the company name"
+  }
+ ],
+ "link_out": [],
+ "could_not_verify": [],
+ "seconds": 38.8,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

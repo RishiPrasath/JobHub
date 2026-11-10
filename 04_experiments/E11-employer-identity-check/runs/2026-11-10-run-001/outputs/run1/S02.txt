@@ -1,0 +1,31 @@
+Burger King Singapore Pte. Ltd.  (role: Crew Member)
+HEADLINE: exists_and_consistent
+  Registered in Singapore, and public sources agree it is the company named.
+  because: registry: confirmed; model: consistent across 5 pages
+REGISTRY: confirmed. BURGER KING SINGAPORE PTE. LTD. is registered in Singapore (status: Live Company, registered 2009-01-13).
+WEB: 5 queries (bing, duckduckgo), 7 of 8 pages read, exact name seen in 7 pages and 22 search results
+BRIEF (model rating: appears_real_and_consistent, confidence high; 13 claims verified, 0 unverified)
+  Facts:
+    [verified] Legal name is BURGER KING SINGAPORE PTE. LTD.
+    [verified] Company ID (UEN) is 200900741N and status is Live
+    [verified] Incorporated on 13 January 2009
+    [verified] Entity type is Private Company Limited by Shares (Local Company)
+    [verified] Registered address is 600 North Bridge Road, #08-01/02, Parkview Square, Singapore
+    188778
+    [verified] Primary business activity: Operation of company‑operated Burger King restaurants and
+    training of franchises (SSIC 56121)
+    [verified] Formerly known as Cosmo Restaurants Singapore (or Cosmo Restaurants Singapore Pte.
+    Ltd.)
+    [verified] Operates approximately 70 Burger King restaurants across Singapore
+    [verified] Burger King brand entered Singapore in 1982 with first outlet at Peninsula Plaza
+    [verified] Website is https://www.burgerking.com.sg/
+  Positive signals:
+    [verified] Company is a live, actively trading entity with a long operating history
+    [verified] Large restaurant footprint (≈70 outlets) indicates strong market presence
+    [verified] Company maintains active social media and online ordering channels
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 1):
+  - Burger King Singapore - -- | LinkedIn  https://sg.linkedin.com/in/burger-king-singapore
+COULD NOT READ (1):
+  - https://www.bizapore.com/en-SG/burger-king-singapore-pte-ltd_1d-6754-7  (irrelevant: the page
+    never mentions the company name)
+(102.1s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

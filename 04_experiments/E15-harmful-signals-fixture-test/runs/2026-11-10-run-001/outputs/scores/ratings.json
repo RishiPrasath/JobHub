@@ -1,0 +1,301 @@
+{
+ "rated_by": "AI (E15 specialist language model), not a human or HR/legal reviewer",
+ "questions": {
+  "could you tell me how the age or experience wording in the posting relates to the duties of the role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you tell me whether the gender wording is tied to a requirement of the role, and what that requirement is?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you tell me why this language is needed for the role, for example which customers or duties it serves?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you tell me whether the wording about race or the working environment is a requirement of the role, and why?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you tell me how the nationality or work-pass wording relates to the role, and whether all applicants are considered?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you tell me whether the religion wording relates to a religious function or certification the role requires?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you tell me why marital status or family plans are asked for at the application stage, and whether they affect selection?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you tell me why a photograph is needed at the application stage, and whether it can be provided later?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you tell me what the fee or deposit is for, whether it is refundable, and when it is returned?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you tell me why the original documents are needed, how long they are kept, and when they are returned?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you tell me whether the trial period is paid, how long it lasts, and what work is done during it?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you tell me what the deduction covers, when it applies, and which terms of the contract state it?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you tell me what the main duties are, what the expected working hours are, and how after-hours work is compensated?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you tell me how progression works in this role, what the typical timeline has been, and what it depends on?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you tell me how the appearance wording relates to the duties, and what the dress or grooming expectations are?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you tell me the guaranteed basic pay, how commission is calculated, and how overtime is paid?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is the preference for chinese applicants based on a legitimate business requirement?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify whether the religious preference is a strict requirement or a preference?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is a photograph required for the application process?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is information about marital status or family plans relevant to this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify if the course fee is mandatory and whether it is refundable if the position does not materialise?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "what is the policy on returning personal documents after employment ends?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is the unpaid trial period a mandatory part of the hiring process, and how long does it last?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you explain the circumstances under which liquidated damages would be applied?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify the age requirements for this position?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is singaporean citizenship a mandatory requirement for this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is the preference for fresh graduates based on specific skill requirements?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is native english proficiency essential for this position?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you explain how personal commitments might affect performance in this role?": {
+   "tone": false,
+   "relevance": true,
+   "reason": "presumes a preference or that commitments harm performance"
+  },
+  "could you describe the essential appearance-related requirements for this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify the base salary and the conditions under which the $6,000 commission is earned?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is the gender requirement for the therapist role a genuine occupational necessity?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify why a hindu priest is specifically required for this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you explain why this age range is essential for the role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is there a particular reason why only female candidates are considered?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify why younger applicants are preferred for this position?": {
+   "tone": false,
+   "relevance": true,
+   "reason": "presumes a preference or that commitments harm performance"
+  },
+  "is proficiency in english and mandarin a mandatory requirement for this position?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify whether the course fee is refundable and if it applies to all applicants?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you explain the policy on retaining original documents and how they will be safeguarded?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you explain how personal commitments might impact the responsibilities of this role?": {
+   "tone": false,
+   "relevance": true,
+   "reason": "presumes a preference or that commitments harm performance"
+  },
+  "could you clarify if the role is open to candidates of other religions?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you explain why the age range is necessary for this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is gender a genuine requirement for this position, or could it be open to all applicants?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify if age is a relevant factor for this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify why a course fee is required before the first shift and what specific training this covers?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "what does the security deposit secure, and what are the specific conditions for its refund?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify the specific operational reason for retaining the original passport and certificates, and whether copies would be acceptable instead?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify the conditions under which the liquidated damages clause applies and how the deduction would be processed?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify if there are specific legal or operational reasons for requiring singaporean citizenship for this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify what types of personal commitments are considered to interfere with work for this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you provide more specific details on the grooming standards expected for this front-of-house role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is the requirement to be a graduate of a local university strictly necessary for the role, or are graduates from overseas universities also considered?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify if there are specific operational requirements that necessitate a female candidate for this receptionist role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "what specific job-related reasons require candidates to be between the ages of 25 and 30?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is there a specific age requirement for this role, or is 'young' used to describe the desired energy and work ethic?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  }
+ },
+ "legal_implied": [
+  " that prefers non-Singaporeans. The MOM page says discriminatory advertisements breach the Guidelines (this tool d",
+  ". The MOM page says discriminatory advertisements breach the Guidelines (this tool does not apply that to ",
+  " a preference for a specific race, which could be discriminatory.",
+  "reference for a specific religion, which could be discriminatory.",
+  "Requiring a photograph may lead to discriminatory practices",
+  "Asking about family plans can be discriminatory",
+  "uires unpaid work before employment, which may be unlawful or exploitative.",
+  "is clause could be a salary deduction that may be unlawful.",
+  "Preference for fresh graduates may indirectly discriminate based on age",
+  "The requirement may discriminate against non-native speakers",
+  "ent specifies a gender for the role, which may be discriminatory.",
+  "It specifies an age range, which could be discriminatory.",
+  "The requirement may indirectly discriminate against non‑English/ Mandarin speakers",
+  "amily commitments are undesirable, which could be discriminatory.",
+  "ly requires a specific religion, which could be a discriminatory practice.",
+  "he posting specifies an age range, which could be discriminatory.",
+  "s the position to a specific gender, which may be discriminatory."
+ ],
+ "legal_note": "All hits are hedged ('could be/may be discriminatory', 'may be unlawful', 'breach the Guidelines' shown beside a flag). None states unlawful discrimination as fact. Classified implied because the rubric bars legal-conclusion words about the employer.",
+ "protected_false_hits": []
+}

@@ -1,0 +1,886 @@
+{
+ "version": "snapshot-step 0.1.0 (E13, deterministic)",
+ "items": {
+  "P01": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Senior Accountant",
+    "employer": "Harbourline Advisory Pte Ltd",
+    "pay": "$6,500",
+    "closing": "Closing on 5 Dec 2026"
+   },
+   "closing_date_iso": "2026-12-05",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P02": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Administrative Assistant",
+    "employer": "Greenfold Logistics Pte Ltd",
+    "pay": "$2,400",
+    "closing": "Closing on 20 Nov 2026"
+   },
+   "closing_date_iso": "2026-11-20",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P03": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Warehouse Assistant (Shift)",
+    "employer": "Eastgate Cold Chain Pte Ltd",
+    "pay": "$2,200",
+    "closing": "Closing on 30 Nov 2026"
+   },
+   "closing_date_iso": "2026-11-30",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P04": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Project Coordinator (12-month contract)",
+    "employer": "Meridian Civil Works Pte Ltd",
+    "pay": "$3,800",
+    "closing": "Closing on 6 Nov 2026"
+   },
+   "closing_date_iso": "2026-11-06",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P05": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Part-Time Library Assistant",
+    "employer": "Parkview Community Services",
+    "pay": "$13",
+    "closing": "Closing on 25 Nov 2026"
+   },
+   "closing_date_iso": "2026-11-25",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P06": {
+   "fields": {
+    "title": "present",
+    "employer": "hidden_labelled",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Data Analyst",
+    "employer": "Hiring company: Confidential (advertised by Brightway Talent Pte Ltd)",
+    "pay": "$4,500",
+    "closing": "Closing on 12 Dec 2026"
+   },
+   "closing_date_iso": "2026-12-12",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P07": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Customer Service Officer",
+    "employer": "Sunrise Telecom Services Pte Ltd",
+    "pay": "$2,600",
+    "closing": "Closing on 18 Nov 2026"
+   },
+   "closing_date_iso": "2026-11-18",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P08": {
+   "fields": {
+    "title": "missing",
+    "employer": "missing",
+    "pay": "missing",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "values": {
+    "title": null,
+    "employer": null,
+    "pay": null,
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [
+    "title",
+    "employer",
+    "pay",
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "P09": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Freelance Event Crew",
+    "employer": "Spotlight Event Services",
+    "pay": "$120",
+    "closing": "Closing on 18 Nov 2026"
+   },
+   "closing_date_iso": "2026-11-18",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P10": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "missing",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "values": {
+    "title": "Marketing Executive",
+    "employer": "Lumen & Pine Pte Ltd",
+    "pay": null,
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [
+    "pay",
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "P11": {
+   "fields": {
+    "title": "present",
+    "employer": "hidden_labelled",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Cleaner (Shopping Mall)",
+    "employer": "Private Advertiser",
+    "pay": "$1,900",
+    "closing": "close on 28 Nov 2026"
+   },
+   "closing_date_iso": "2026-11-28",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P12": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "values": {
+    "title": "HR Admin Assistant",
+    "employer": "Oakridge Facilities Management",
+    "pay": "S$ 2,800",
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "P13": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "explicit_absence",
+    "duties": "present",
+    "closing": "explicit_absence"
+   },
+   "values": {
+    "title": "Business Development Manager (Contract)",
+    "employer": "Atlas Freight Solutions",
+    "pay": "Salary negotiable",
+    "closing": "open until filled"
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P14": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "values": {
+    "title": "Part-time Barista",
+    "employer": "Cedar Bean Coffee Co",
+    "pay": "$11",
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "P15": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "explicit_absence"
+   },
+   "values": {
+    "title": "Weekend Delivery Rider (Self-employed)",
+    "employer": "Swiftdrop Pte Ltd",
+    "pay": "$18",
+    "closing": "Ongoing recruitment"
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P16": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "missing",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Operations Analyst",
+    "employer": "Riverbend Insurance (Singapore)",
+    "pay": null,
+    "closing": "Apply before 30 Nov 2026"
+   },
+   "closing_date_iso": "2026-11-30",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [
+    "pay"
+   ],
+   "minimum_fields_present": false
+  },
+  "P17": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "missing",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "values": {
+    "title": "Receptionist",
+    "employer": "Willowbrook Dental Group",
+    "pay": null,
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [
+    "pay",
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "P18": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "values": {
+    "title": "Warehouse Packer",
+    "employer": "Orbitrade Fulfilment",
+    "pay": "$11",
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "P19": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "explicit_absence"
+   },
+   "values": {
+    "title": "F&B Service Crew",
+    "employer": "Kopi Corner (3 outlets)",
+    "pay": "$10",
+    "closing": "Hiring until"
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P20": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Event Usher (1-day)",
+    "employer": "Sparkline Events",
+    "pay": "$90",
+    "closing": "Apply by 18 Nov 2026"
+   },
+   "closing_date_iso": "2026-11-18",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P21": {
+   "fields": {
+    "title": "present",
+    "employer": "hidden_labelled",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "values": {
+    "title": "Retail Assistant (Weekends)",
+    "employer": "Company: Retail Brand (name shown after you apply)",
+    "pay": "$10.50",
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "P22": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Security Officer",
+    "employer": "Bastion Guard Services",
+    "pay": "$2,300",
+    "closing": "Closing date: 30 Nov 2026"
+   },
+   "closing_date_iso": "2026-11-30",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P23": {
+   "fields": {
+    "title": "present",
+    "employer": "missing",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "values": {
+    "title": "Data Entry Clerk (Temp)",
+    "employer": null,
+    "pay": "$12.50",
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [
+    "employer",
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "P24": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "missing",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Product Designer",
+    "employer": "Tidewater Labs",
+    "pay": null,
+    "closing": "close 4 December 2026"
+   },
+   "closing_date_iso": "2026-12-04",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [
+    "pay"
+   ],
+   "minimum_fields_present": false
+  },
+  "P25": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "explicit_absence",
+    "duties": "present",
+    "closing": "explicit_absence"
+   },
+   "values": {
+    "title": "Senior Data Engineer",
+    "employer": "Kestrel Payments",
+    "pay": "Salary: Salary: not published",
+    "closing": "rolling basis"
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P26": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Kitchen Assistant",
+    "employer": "Marlowe Hotels",
+    "pay": "$2,000",
+    "closing": "Closing date: 27 Nov 2026"
+   },
+   "closing_date_iso": "2026-11-27",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P27": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "missing",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "values": {
+    "title": "Finance Admin Executive (6-month contract)",
+    "employer": "Ironwood Holdings",
+    "pay": null,
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [
+    "pay",
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "P28": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Site Safety Officer (Contract)",
+    "employer": "Delta Marine Engineering",
+    "pay": "$3,600",
+    "closing": "Closing date: 15/12/2026"
+   },
+   "closing_date_iso": "2026-12-15",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P29": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Customer Success Manager",
+    "employer": "Nimbus Cloud Software",
+    "pay": "SGD 5,500",
+    "closing": "Closing in 9 days"
+   },
+   "closing_date_iso": "2026-11-19",
+   "partial_flag": true,
+   "partial_reasons": [
+    "cut_off"
+   ],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P30": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Tuition Centre Administrator (Part-time)",
+    "employer": "Brightpath Learning Centre",
+    "pay": "$14",
+    "closing": "close 20 Nov 2026"
+   },
+   "closing_date_iso": "2026-11-20",
+   "partial_flag": false,
+   "partial_reasons": [],
+   "missing_fields": [],
+   "minimum_fields_present": true
+  },
+  "P31": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "missing",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Senior Accountant",
+    "employer": "Harbourline Advisory Pte Ltd",
+    "pay": "$6,500",
+    "closing": "Closing on 5 Dec 2026"
+   },
+   "closing_date_iso": "2026-12-05",
+   "partial_flag": true,
+   "partial_reasons": [
+    "cut_off",
+    "no_body"
+   ],
+   "missing_fields": [
+    "duties"
+   ],
+   "minimum_fields_present": false
+  },
+  "P32": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "values": {
+    "title": "HR Admin Assistant",
+    "employer": "Oakridge Facilities Management",
+    "pay": "S$ 2,800",
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": true,
+   "partial_reasons": [
+    "cut_off"
+   ],
+   "missing_fields": [
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "P33": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "values": {
+    "title": "Event Usher (1-day)",
+    "employer": "Sparkline Events",
+    "pay": "$90",
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": true,
+   "partial_reasons": [
+    "cut_off"
+   ],
+   "missing_fields": [
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "P34": {
+   "fields": {
+    "title": "present",
+    "employer": "missing",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Site Safety Officer (Contract)",
+    "employer": null,
+    "pay": "$3,600",
+    "closing": "Closing date: 15/12/2026"
+   },
+   "closing_date_iso": "2026-12-15",
+   "partial_flag": true,
+   "partial_reasons": [
+    "cut_off"
+   ],
+   "missing_fields": [
+    "employer"
+   ],
+   "minimum_fields_present": false
+  },
+  "P35": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "missing",
+    "closing": "present"
+   },
+   "values": {
+    "title": "Administrative Assistant",
+    "employer": "Greenfold Logistics Pte Ltd",
+    "pay": "$2,400",
+    "closing": "Closing on 20 Nov 2026"
+   },
+   "closing_date_iso": "2026-11-20",
+   "partial_flag": true,
+   "partial_reasons": [
+    "no_body"
+   ],
+   "missing_fields": [
+    "duties"
+   ],
+   "minimum_fields_present": false
+  },
+  "P36": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "missing",
+    "closing": "missing"
+   },
+   "values": {
+    "title": "Weekend Delivery Rider (Self-employed)",
+    "employer": "Swiftdrop Pte Ltd",
+    "pay": "$18",
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": true,
+   "partial_reasons": [
+    "no_body"
+   ],
+   "missing_fields": [
+    "duties",
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "P37": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "explicit_absence",
+    "duties": "missing",
+    "closing": "explicit_absence"
+   },
+   "values": {
+    "title": "Senior Data Engineer",
+    "employer": "Kestrel Payments",
+    "pay": "Salary: Salary: not published",
+    "closing": "rolling basis"
+   },
+   "closing_date_iso": null,
+   "partial_flag": true,
+   "partial_reasons": [
+    "no_body"
+   ],
+   "missing_fields": [
+    "duties"
+   ],
+   "minimum_fields_present": false
+  },
+  "P38": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "missing",
+    "closing": "missing"
+   },
+   "values": {
+    "title": "Administrative Assistant",
+    "employer": "Greenfold Logistics Pte Ltd",
+    "pay": "$2,400",
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": true,
+   "partial_reasons": [
+    "no_body",
+    "cards_nav"
+   ],
+   "missing_fields": [
+    "duties",
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "P39": {
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "missing",
+    "closing": "missing"
+   },
+   "values": {
+    "title": "Receptionist",
+    "employer": "Willowbrook Dental Group",
+    "pay": "$2,300",
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": true,
+   "partial_reasons": [
+    "no_body",
+    "cards_nav"
+   ],
+   "missing_fields": [
+    "duties",
+    "closing"
+   ],
+   "minimum_fields_present": false
+  },
+  "P40": {
+   "fields": {
+    "title": "missing",
+    "employer": "present",
+    "pay": "missing",
+    "duties": "missing",
+    "closing": "missing"
+   },
+   "values": {
+    "title": null,
+    "employer": "Tidewater Labs",
+    "pay": null,
+    "closing": null
+   },
+   "closing_date_iso": null,
+   "partial_flag": true,
+   "partial_reasons": [
+    "no_body",
+    "cards_nav"
+   ],
+   "missing_fields": [
+    "title",
+    "pay",
+    "duties",
+    "closing"
+   ],
+   "minimum_fields_present": false
+  }
+ }
+}

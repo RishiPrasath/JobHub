@@ -1,0 +1,23 @@
+A Leading MNC  (role: Supply Chain Manager)
+HEADLINE: brand_legal_entity_unconfirmed
+  Public sources describe a company by this name, but the registry has no entity with this exact
+  name. It may trade under a brand name; the legal employer is not confirmed.
+  because: registry: not_in_registry; exact name seen 3 times in sources
+REGISTRY: not_in_registry. No registered entity in Singapore resembles 'A Leading MNC'.
+WEB: 5 queries (bing), 0 of 0 pages read, exact name seen in 0 pages and 3 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 6):
+  - Mnc In Singapore Jobs in Singapore (with Salaries)  https://sg.jobstreet.com/mnc-in-singapore-
+    jobs
+  - 114 mnc marketing jobs in Singapore, October 2026   https://www.glassdoor.sg/Job/singapore-mnc-
+    marketing-jobs-SRCH_IL.0,9_IC3235921_
+  - A Leading Mnc Jobs in Singapore - Sep 2024 | Jobst  https://sg.jobstreet.com/a-leading-mnc-jobs
+  - 681 A Leading Mnc Jobs, Employment February 17, 20  https://sg.indeed.com/q-a-leading-mnc-
+    jobs.html
+  - 200+ Singapore Mnc Jobs, Employment in Singapore 5  https://sg.indeed.com/q-singapore-mnc-l-
+    singapore-530940-jobs.html
+  - Mnc Supply Chain Jobs in Singapore (with Salaries)  https://sg.jobstreet.com/mnc-supply-chain-
+    jobs
+COULD NOT VERIFY:
+  - Which registered company is the legal employer behind this brand.
+DEGRADED: no_web_sources: nothing could be read or found, so no summary was written
+(57.3s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

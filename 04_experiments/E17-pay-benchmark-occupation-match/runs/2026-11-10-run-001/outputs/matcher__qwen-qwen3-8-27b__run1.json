@@ -1,0 +1,1879 @@
+{
+ "model": "qwen/qwen3.8-27b",
+ "run": 1,
+ "n": 100,
+ "results": [
+  {
+   "id": "X3-01",
+   "top3": [
+    "24113",
+    "33133",
+    "24112"
+   ],
+   "raw_top3": [
+    "24113",
+    "33133",
+    "24112"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Senior Tax Accountant.",
+   "parse_ok": true,
+   "tokens": 571,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-02",
+   "top3": [
+    "24111",
+    "12111",
+    "33131"
+   ],
+   "raw_top3": [
+    "24111",
+    "12111",
+    "33131"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title and function align with professional Accountant role.",
+   "parse_ok": true,
+   "tokens": 566,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-03",
+   "top3": [
+    "24111",
+    "33131",
+    "12111"
+   ],
+   "raw_top3": [
+    "24111",
+    "33131",
+    "12111"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title and function directly match Accountant role.",
+   "parse_ok": true,
+   "tokens": 565,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-04",
+   "top3": [
+    "24111",
+    "33131",
+    "12111"
+   ],
+   "raw_top3": [
+    "24111",
+    "33131",
+    "12111"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Senior Executive Accountant matches Accountant (excluding tax accountant) level.",
+   "parse_ok": true,
+   "tokens": 590,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-05",
+   "top3": [
+    "24111",
+    "33131",
+    "12111"
+   ],
+   "raw_top3": [
+    "24111",
+    "33131",
+    "12111"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title and function align with professional Accountant role.",
+   "parse_ok": true,
+   "tokens": 566,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-06",
+   "top3": [
+    "25121",
+    "25141",
+    "25291"
+   ],
+   "raw_top3": [
+    "25121",
+    "25141",
+    "25291"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Software Engineer role matches Software Developer and Applications Programmer.",
+   "parse_ok": true,
+   "tokens": 557,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-07",
+   "top3": [
+    "25121",
+    "25122",
+    "25123"
+   ],
+   "raw_top3": [
+    "25121",
+    "25122",
+    "25123"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Java Backend Developer is a software development role.",
+   "parse_ok": true,
+   "tokens": 606,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-08",
+   "top3": [
+    "25121",
+    "25113",
+    "25125"
+   ],
+   "raw_top3": [
+    "25121",
+    "25113",
+    "25125"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Senior Software Engineer matches Software Developer role.",
+   "parse_ok": true,
+   "tokens": 536,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-09",
+   "top3": [
+    "25121",
+    "25113",
+    "25125"
+   ],
+   "raw_top3": [
+    "25121",
+    "25113",
+    "25125"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Software Engineer role aligns directly with Software Developer.",
+   "parse_ok": true,
+   "tokens": 524,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-10",
+   "top3": [
+    "24311",
+    "12221",
+    "33392"
+   ],
+   "raw_top3": [
+    "24311",
+    "12221",
+    "33392"
+   ],
+   "verdict": "none",
+   "confidence": "high",
+   "why": "Vague title and function; no specific duties to match level.",
+   "parse_ok": true,
+   "tokens": 658,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-11",
+   "top3": [
+    "22200",
+    "32200",
+    "53201"
+   ],
+   "raw_top3": [
+    "22200",
+    "32200",
+    "53201"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Staff Nurse is a registered nursing professional.",
+   "parse_ok": true,
+   "tokens": 615,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-12",
+   "top3": [
+    "22200",
+    "32200",
+    "53202"
+   ],
+   "raw_top3": [
+    "22200",
+    "32200",
+    "53202"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Staff Nurse is a registered nursing professional.",
+   "parse_ok": true,
+   "tokens": 580,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-13",
+   "top3": [
+    "22200",
+    "32200",
+    "53202"
+   ],
+   "raw_top3": [
+    "22200",
+    "32200",
+    "53202"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Staff Nurse is a registered nursing professional.",
+   "parse_ok": true,
+   "tokens": 633,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-14",
+   "top3": [
+    "22200",
+    "32200",
+    "53202"
+   ],
+   "raw_top3": [
+    "22200",
+    "32200",
+    "53202"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Staff Nurse is a registered nursing professional.",
+   "parse_ok": true,
+   "tokens": 591,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-15",
+   "top3": [
+    "22200",
+    "32200",
+    "53202"
+   ],
+   "raw_top3": [
+    "22200",
+    "32200",
+    "53202"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Senior Nurse in Emergency is a Registered Nurse.",
+   "parse_ok": true,
+   "tokens": 591,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-16",
+   "top3": [
+    "13241",
+    "93334",
+    "40000"
+   ],
+   "raw_top3": [
+    "13241",
+    "93334",
+    "40000"
+   ],
+   "verdict": "none",
+   "confidence": "medium",
+   "why": "No specific warehouse supervisor code exists in candidate list.",
+   "parse_ok": true,
+   "tokens": 622,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-17",
+   "top3": [
+    "13241",
+    "93334",
+    "96000"
+   ],
+   "raw_top3": [
+    "13241",
+    "93334",
+    "96000"
+   ],
+   "verdict": "none",
+   "confidence": "high",
+   "why": "No specific warehouse supervisor code; 13241 is manager level, 93334 is worker level.",
+   "parse_ok": true,
+   "tokens": 627,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-18",
+   "top3": [
+    "13241",
+    "93334",
+    "81000"
+   ],
+   "raw_top3": [
+    "13241",
+    "93334",
+    "81000"
+   ],
+   "verdict": "none",
+   "confidence": "high",
+   "why": "No specific warehouse supervisor code; manager and worker are wrong levels.",
+   "parse_ok": true,
+   "tokens": 644,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-19",
+   "top3": [
+    "13241",
+    "93334",
+    "81000"
+   ],
+   "raw_top3": [
+    "13241",
+    "93334",
+    "81000"
+   ],
+   "verdict": "none",
+   "confidence": "high",
+   "why": "No specific warehouse supervisor code in list; manager is wrong level.",
+   "parse_ok": true,
+   "tokens": 581,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-20",
+   "top3": [
+    "93334",
+    "93201",
+    "13241"
+   ],
+   "raw_top3": [
+    "93334",
+    "93201",
+    "13241"
+   ],
+   "verdict": "none",
+   "confidence": "high",
+   "why": "No warehouse supervisor code; candidates are workers or managers.",
+   "parse_ok": true,
+   "tokens": 611,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-21",
+   "top3": [
+    "42210",
+    "24320",
+    "24314"
+   ],
+   "raw_top3": [
+    "42210",
+    "24320",
+    "24314"
+   ],
+   "verdict": "none",
+   "confidence": "medium",
+   "why": "Vague title 'Roadshow' lacks specific duties; candidates are mismatched levels or functions.",
+   "parse_ok": true,
+   "tokens": 610,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-22",
+   "top3": [
+    "24314",
+    "24313",
+    "24312"
+   ],
+   "raw_top3": [
+    "24314",
+    "24313",
+    "24312"
+   ],
+   "verdict": "none",
+   "confidence": "medium",
+   "why": "Junior associate level does not match professional or manager codes.",
+   "parse_ok": true,
+   "tokens": 571,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-23",
+   "top3": [
+    "24314",
+    "24313",
+    "24320"
+   ],
+   "raw_top3": [
+    "24314",
+    "24313",
+    "24320"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "Senior Marketing Executive aligns with marketing strategy or digital marketing professionals.",
+   "parse_ok": true,
+   "tokens": 573,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-24",
+   "top3": [
+    "14391",
+    "24313",
+    "24314"
+   ],
+   "raw_top3": [
+    "14391",
+    "24313",
+    "24314"
+   ],
+   "verdict": "none",
+   "confidence": "medium",
+   "why": "Entry-level associate role does not match manager or professional levels.",
+   "parse_ok": true,
+   "tokens": 635,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-25",
+   "top3": [
+    "24314",
+    "24313",
+    "24312"
+   ],
+   "raw_top3": [
+    "24314",
+    "24313",
+    "24312"
+   ],
+   "verdict": "none",
+   "confidence": "high",
+   "why": "Assistant level does not match professional or manager codes.",
+   "parse_ok": true,
+   "tokens": 587,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-26",
+   "top3": [
+    "42245",
+    "33492",
+    "12241"
+   ],
+   "raw_top3": [
+    "42245",
+    "33492",
+    "12241"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title and function directly match Customer Service Officer.",
+   "parse_ok": true,
+   "tokens": 564,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-27",
+   "top3": [
+    "42245",
+    "33222",
+    "41101"
+   ],
+   "raw_top3": [
+    "42245",
+    "33222",
+    "41101"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Executive level Customer Service aligns with Customer Service Officer/Clerk.",
+   "parse_ok": true,
+   "tokens": 568,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-28",
+   "top3": [
+    "42245",
+    "43231",
+    "33312"
+   ],
+   "raw_top3": [
+    "42245",
+    "43231",
+    "33312"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Customer Service Officer, matching code 42245.",
+   "parse_ok": true,
+   "tokens": 571,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-29",
+   "top3": [
+    "42245",
+    "12241",
+    "33492"
+   ],
+   "raw_top3": [
+    "42245",
+    "12241",
+    "33492"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title and function directly match Customer Service Officer role.",
+   "parse_ok": true,
+   "tokens": 586,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-30",
+   "top3": [
+    "42245",
+    "33222",
+    "33492"
+   ],
+   "raw_top3": [
+    "42245",
+    "33222",
+    "33492"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title matches Customer Service Officer/Clerk code 42245.",
+   "parse_ok": true,
+   "tokens": 570,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-31",
+   "top3": [
+    "21441",
+    "21411",
+    "31004"
+   ],
+   "raw_top3": [
+    "21441",
+    "21411",
+    "31004"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Mechanical Engineer, matching code 21441.",
+   "parse_ok": true,
+   "tokens": 564,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-32",
+   "top3": [
+    "31004",
+    "31002",
+    "31151"
+   ],
+   "raw_top3": [
+    "31004",
+    "31002",
+    "31151"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Engineering Assistant in Mechanical and Electrical fields.",
+   "parse_ok": true,
+   "tokens": 567,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-33",
+   "top3": [
+    "21441",
+    "31004",
+    "31151"
+   ],
+   "raw_top3": [
+    "21441",
+    "31004",
+    "31151"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Mechanical Design Engineer is a Mechanical Engineer role.",
+   "parse_ok": true,
+   "tokens": 536,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-34",
+   "top3": [
+    "21441",
+    "21411",
+    "21412"
+   ],
+   "raw_top3": [
+    "21441",
+    "21411",
+    "21412"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Mechanical Engineer at Executive level.",
+   "parse_ok": true,
+   "tokens": 553,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-35",
+   "top3": [
+    "21441",
+    "31004",
+    "31151"
+   ],
+   "raw_top3": [
+    "21441",
+    "31004",
+    "31151"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Engineer Mechanical, matching professional level.",
+   "parse_ok": true,
+   "tokens": 536,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-36",
+   "top3": [
+    "34341",
+    "34343",
+    "51111"
+   ],
+   "raw_top3": [
+    "34341",
+    "34343",
+    "51111"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Demi Chef is a kitchen role, best matched by Chef.",
+   "parse_ok": true,
+   "tokens": 622,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-37",
+   "top3": [
+    "34342",
+    "34341",
+    "34343"
+   ],
+   "raw_top3": [
+    "34342",
+    "34341",
+    "34343"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Head Chef is a kitchen operations head/supervisor role.",
+   "parse_ok": true,
+   "tokens": 629,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-38",
+   "top3": [
+    "94101",
+    "34342",
+    "94104"
+   ],
+   "raw_top3": [
+    "94101",
+    "34342",
+    "94104"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Kitchen Assistant, matching code 94101.",
+   "parse_ok": true,
+   "tokens": 587,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-39",
+   "top3": [
+    "34341",
+    "94101",
+    "34343"
+   ],
+   "raw_top3": [
+    "34341",
+    "94101",
+    "34343"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title Chef matches code 34341 exactly.",
+   "parse_ok": true,
+   "tokens": 616,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-40",
+   "top3": [
+    "34342",
+    "34341",
+    "34343"
+   ],
+   "raw_top3": [
+    "34342",
+    "34341",
+    "34343"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Head Chef is a kitchen operations head/supervisor role.",
+   "parse_ok": true,
+   "tokens": 629,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-41",
+   "top3": [
+    "24233",
+    "12121",
+    "41102"
+   ],
+   "raw_top3": [
+    "24233",
+    "12121",
+    "41102"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Human Resource Executive maps to Personnel/Human resource officer.",
+   "parse_ok": true,
+   "tokens": 587,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-42",
+   "top3": [
+    "24111",
+    "33131",
+    "43112"
+   ],
+   "raw_top3": [
+    "24111",
+    "33131",
+    "43112"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "Accounting function and Junior Executive level match Accountant or Assistant Accountant.",
+   "parse_ok": true,
+   "tokens": 600,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-43",
+   "top3": [
+    "12121",
+    "24233",
+    "24231"
+   ],
+   "raw_top3": [
+    "12121",
+    "24233",
+    "24231"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "HRBP is a senior HR role, best matched by Personnel/Human resource manager.",
+   "parse_ok": true,
+   "tokens": 577,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-44",
+   "top3": [
+    "24233",
+    "12121",
+    "41102"
+   ],
+   "raw_top3": [
+    "24233",
+    "12121",
+    "41102"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "HR Executive is a Personnel/Human resource officer.",
+   "parse_ok": true,
+   "tokens": 578,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-45",
+   "top3": [
+    "33221",
+    "12212",
+    "24212"
+   ],
+   "raw_top3": [
+    "33221",
+    "12212",
+    "24212"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly matches Business Development Executive.",
+   "parse_ok": true,
+   "tokens": 589,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-46",
+   "top3": [
+    "24111",
+    "33131",
+    "43112"
+   ],
+   "raw_top3": [
+    "24111",
+    "33131",
+    "43112"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "Title indicates administrative accounts role, matching accountant or clerk level.",
+   "parse_ok": true,
+   "tokens": 568,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-47",
+   "top3": [
+    "33492",
+    "12112",
+    "33160"
+   ],
+   "raw_top3": [
+    "33492",
+    "12112",
+    "33160"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Administrative Assistant maps directly to Operations officer (administrative).",
+   "parse_ok": true,
+   "tokens": 585,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-48",
+   "top3": [
+    "33492",
+    "12112",
+    "71000"
+   ],
+   "raw_top3": [
+    "33492",
+    "12112",
+    "71000"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "Administrative Assistant aligns with Operations Officer (administrative) level.",
+   "parse_ok": true,
+   "tokens": 591,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-49",
+   "top3": [
+    "33494",
+    "33491",
+    "33221"
+   ],
+   "raw_top3": [
+    "33494",
+    "33491",
+    "33221"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title and function explicitly identify role as Executive Assistant/Secretary.",
+   "parse_ok": true,
+   "tokens": 575,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-50",
+   "top3": [
+    "33492",
+    "12112",
+    "33160"
+   ],
+   "raw_top3": [
+    "33492",
+    "12112",
+    "33160"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Admin assistant aligns with administrative operations officer.",
+   "parse_ok": true,
+   "tokens": 581,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-51",
+   "top3": [
+    "33222",
+    "52201",
+    "24313"
+   ],
+   "raw_top3": [
+    "33222",
+    "52201",
+    "24313"
+   ],
+   "verdict": "none",
+   "confidence": "medium",
+   "why": "Entry-level lead is not a manager; no specific industry for exec.",
+   "parse_ok": true,
+   "tokens": 585,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-52",
+   "top3": [
+    "42210",
+    "33224",
+    "33222"
+   ],
+   "raw_top3": [
+    "42210",
+    "33224",
+    "33222"
+   ],
+   "verdict": "none",
+   "confidence": "low",
+   "why": "Vague title; travel mention suggests consultant, but 'Sales/Engagement' is generic.",
+   "parse_ok": true,
+   "tokens": 601,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-53",
+   "top3": [
+    "33221",
+    "33225",
+    "33224"
+   ],
+   "raw_top3": [
+    "33221",
+    "33225",
+    "33224"
+   ],
+   "verdict": "none",
+   "confidence": "low",
+   "why": "Generic title lacks specific duties to distinguish from specialized sales roles.",
+   "parse_ok": true,
+   "tokens": 577,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-54",
+   "top3": [
+    "33221",
+    "33223",
+    "33224"
+   ],
+   "raw_top3": [
+    "33221",
+    "33223",
+    "33224"
+   ],
+   "verdict": "none",
+   "confidence": "low",
+   "why": "Title is generic; no specific industry or duties provided to distinguish.",
+   "parse_ok": true,
+   "tokens": 574,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-55",
+   "top3": [
+    "12211",
+    "33221",
+    "12213"
+   ],
+   "raw_top3": [
+    "12211",
+    "33221",
+    "12213"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "Title indicates Sales Manager or Executive level in general sales.",
+   "parse_ok": true,
+   "tokens": 568,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-56",
+   "top3": [
+    "21231",
+    "21222",
+    "25112"
+   ],
+   "raw_top3": [
+    "21231",
+    "21222",
+    "25112"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Data Analyst, matching code 21231.",
+   "parse_ok": true,
+   "tokens": 593,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-57",
+   "top3": [
+    "21231",
+    "21222",
+    "24131"
+   ],
+   "raw_top3": [
+    "21231",
+    "21222",
+    "24131"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Data Analyst, matching code 21231 directly.",
+   "parse_ok": true,
+   "tokens": 595,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-58",
+   "top3": [
+    "25112",
+    "21231",
+    "21222"
+   ],
+   "raw_top3": [
+    "25112",
+    "21231",
+    "21222"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly identifies role as Data Business Analyst.",
+   "parse_ok": true,
+   "tokens": 556,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-59",
+   "top3": [
+    "21231",
+    "21222",
+    "24131"
+   ],
+   "raw_top3": [
+    "21231",
+    "21222",
+    "24131"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Data Analyst, matching code 21231 directly.",
+   "parse_ok": true,
+   "tokens": 576,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-60",
+   "top3": [
+    "21222",
+    "21231",
+    "25213"
+   ],
+   "raw_top3": [
+    "21222",
+    "21231",
+    "25213"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly lists Data Scientist and Data Analyst.",
+   "parse_ok": true,
+   "tokens": 562,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-01",
+   "top3": [
+    "74110",
+    "74002",
+    "74121"
+   ],
+   "raw_top3": [
+    "74110",
+    "74002",
+    "74121"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Electrician with Class 2 licence.",
+   "parse_ok": true,
+   "tokens": 610,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-02",
+   "top3": [
+    "71261",
+    "71331",
+    "71000"
+   ],
+   "raw_top3": [
+    "71261",
+    "71331",
+    "71000"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly identifies the role as a Plumber.",
+   "parse_ok": true,
+   "tokens": 593,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-03",
+   "top3": [
+    "72120",
+    "72240",
+    "31171"
+   ],
+   "raw_top3": [
+    "72120",
+    "72240",
+    "31171"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title explicitly identifies role as Welder.",
+   "parse_ok": true,
+   "tokens": 594,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-04",
+   "top3": [
+    "31151",
+    "31131",
+    "31122"
+   ],
+   "raw_top3": [
+    "31151",
+    "31131",
+    "31122"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Aircon systems are mechanical; technician level matches 31151.",
+   "parse_ok": true,
+   "tokens": 552,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-05",
+   "top3": [
+    "83321",
+    "83322",
+    "83223"
+   ],
+   "raw_top3": [
+    "83321",
+    "83322",
+    "83223"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Class 3 Lorry Driver.",
+   "parse_ok": true,
+   "tokens": 591,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-06",
+   "top3": [
+    "83211",
+    "83311",
+    "83491"
+   ],
+   "raw_top3": [
+    "83211",
+    "83311",
+    "83491"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Food Delivery Rider (Motorcycle).",
+   "parse_ok": true,
+   "tokens": 638,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-07",
+   "top3": [
+    "83441",
+    "83431",
+    "83432"
+   ],
+   "raw_top3": [
+    "83441",
+    "83431",
+    "83432"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly identifies role as Forklift Operator.",
+   "parse_ok": true,
+   "tokens": 599,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-08",
+   "top3": [
+    "52202",
+    "52201",
+    "52421"
+   ],
+   "raw_top3": [
+    "52202",
+    "52201",
+    "52421"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title and function explicitly identify role as retail sales assistant.",
+   "parse_ok": true,
+   "tokens": 554,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-09",
+   "top3": [
+    "14201",
+    "12211",
+    "12241"
+   ],
+   "raw_top3": [
+    "14201",
+    "12211",
+    "12241"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Store Manager in fashion retail is a Retail Manager.",
+   "parse_ok": true,
+   "tokens": 524,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-10",
+   "top3": [
+    "52201",
+    "14201",
+    "40000"
+   ],
+   "raw_top3": [
+    "52201",
+    "14201",
+    "40000"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Retail Store Supervisor aligns directly with Sales Supervisor.",
+   "parse_ok": true,
+   "tokens": 632,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-11",
+   "top3": [
+    "36991",
+    "36100",
+    "23622"
+   ],
+   "raw_top3": [
+    "36991",
+    "36100",
+    "23622"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Relief Teacher, matching code 36991 exactly.",
+   "parse_ok": true,
+   "tokens": 635,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-12",
+   "top3": [
+    "36100",
+    "53120",
+    "36991"
+   ],
+   "raw_top3": [
+    "36100",
+    "53120",
+    "36991"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly identifies role as Preschool Teacher.",
+   "parse_ok": true,
+   "tokens": 640,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-13",
+   "top3": [],
+   "raw_top3": null,
+   "verdict": null,
+   "confidence": null,
+   "why": null,
+   "parse_ok": false,
+   "tokens": null,
+   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "cached": false
+  },
+  {
+   "id": "SYN-14",
+   "top3": [
+    "51322",
+    "51321",
+    "94104"
+   ],
+   "raw_top3": [
+    "51322",
+    "51321",
+    "94104"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly identifies the role as a Barista.",
+   "parse_ok": true,
+   "tokens": 565,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-15",
+   "top3": [
+    "42242",
+    "42247",
+    "42241"
+   ],
+   "raw_top3": [
+    "42242",
+    "42247",
+    "42241"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly identifies Hotel Front Desk Receptionist.",
+   "parse_ok": true,
+   "tokens": 590,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-16",
+   "top3": [
+    "91121",
+    "51501",
+    "91122"
+   ],
+   "raw_top3": [
+    "91121",
+    "51501",
+    "91122"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly identifies role as Housekeeping Attendant in hotel.",
+   "parse_ok": true,
+   "tokens": 563,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-17",
+   "top3": [
+    "34343",
+    "75122",
+    "34341"
+   ],
+   "raw_top3": [
+    "34343",
+    "75122",
+    "34341"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly identifies role as Pastry Chef.",
+   "parse_ok": true,
+   "tokens": 621,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-18",
+   "top3": [],
+   "raw_top3": null,
+   "verdict": null,
+   "confidence": null,
+   "why": null,
+   "parse_ok": false,
+   "tokens": null,
+   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "cached": false
+  },
+  {
+   "id": "SYN-19",
+   "top3": [
+    "32130",
+    "53201",
+    "22621"
+   ],
+   "raw_top3": [
+    "32130",
+    "53201",
+    "22621"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Pharmacy Assistant aligns with Pharmacy Technician level.",
+   "parse_ok": true,
+   "tokens": 583,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-20",
+   "top3": [
+    "22640",
+    "22680",
+    "22662"
+   ],
+   "raw_top3": [
+    "22640",
+    "22680",
+    "22662"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title matches Physiotherapist exactly.",
+   "parse_ok": true,
+   "tokens": 567,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-21",
+   "top3": [],
+   "raw_top3": null,
+   "verdict": null,
+   "confidence": null,
+   "why": null,
+   "parse_ok": false,
+   "tokens": null,
+   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "cached": false
+  },
+  {
+   "id": "SYN-22",
+   "top3": [],
+   "raw_top3": null,
+   "verdict": null,
+   "confidence": null,
+   "why": null,
+   "parse_ok": false,
+   "tokens": null,
+   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "cached": false
+  },
+  {
+   "id": "SYN-23",
+   "top3": [],
+   "raw_top3": null,
+   "verdict": null,
+   "confidence": null,
+   "why": null,
+   "parse_ok": false,
+   "tokens": null,
+   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "cached": false
+  },
+  {
+   "id": "SYN-24",
+   "top3": [],
+   "raw_top3": null,
+   "verdict": null,
+   "confidence": null,
+   "why": null,
+   "parse_ok": false,
+   "tokens": null,
+   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "cached": false
+  },
+  {
+   "id": "SYN-25",
+   "top3": [],
+   "raw_top3": null,
+   "verdict": null,
+   "confidence": null,
+   "why": null,
+   "parse_ok": false,
+   "tokens": null,
+   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "cached": false
+  },
+  {
+   "id": "SYN-26",
+   "top3": [],
+   "raw_top3": null,
+   "verdict": null,
+   "confidence": null,
+   "why": null,
+   "parse_ok": false,
+   "tokens": null,
+   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "cached": false
+  },
+  {
+   "id": "SYN-27",
+   "top3": [],
+   "raw_top3": null,
+   "verdict": null,
+   "confidence": null,
+   "why": null,
+   "parse_ok": false,
+   "tokens": null,
+   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "cached": false
+  },
+  {
+   "id": "SYN-28",
+   "top3": [
+    "91131",
+    "91133",
+    "91000"
+   ],
+   "raw_top3": [
+    "91131",
+    "91133",
+    "91000"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Office cleaner role matches indoor cleaner code exactly.",
+   "parse_ok": true,
+   "tokens": 571,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-29",
+   "top3": [],
+   "raw_top3": null,
+   "verdict": null,
+   "confidence": null,
+   "why": null,
+   "parse_ok": false,
+   "tokens": null,
+   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "cached": false
+  },
+  {
+   "id": "SYN-30",
+   "top3": [],
+   "raw_top3": null,
+   "verdict": null,
+   "confidence": null,
+   "why": null,
+   "parse_ok": false,
+   "tokens": null,
+   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "cached": false
+  },
+  {
+   "id": "SYN-31",
+   "top3": [],
+   "raw_top3": null,
+   "verdict": null,
+   "confidence": null,
+   "why": null,
+   "parse_ok": false,
+   "tokens": null,
+   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "cached": false
+  },
+  {
+   "id": "SYN-32",
+   "top3": [
+    "42210",
+    "14391",
+    "33223"
+   ],
+   "raw_top3": [
+    "42210",
+    "14391",
+    "33223"
+   ],
+   "verdict": "none",
+   "confidence": "high",
+   "why": "Brand ambassador role is not in candidate list; closest are travel/event roles.",
+   "parse_ok": true,
+   "tokens": 638,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-33",
+   "top3": [
+    "33492",
+    "12112",
+    "33160"
+   ],
+   "raw_top3": [
+    "33492",
+    "12112",
+    "33160"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "Entry-level admin role matches Operations officer (administrative).",
+   "parse_ok": true,
+   "tokens": 591,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-34",
+   "top3": [],
+   "raw_top3": null,
+   "verdict": null,
+   "confidence": null,
+   "why": null,
+   "parse_ok": false,
+   "tokens": null,
+   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "cached": false
+  },
+  {
+   "id": "SYN-35",
+   "top3": [],
+   "raw_top3": null,
+   "verdict": null,
+   "confidence": null,
+   "why": null,
+   "parse_ok": false,
+   "tokens": null,
+   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "cached": false
+  },
+  {
+   "id": "SYN-36",
+   "top3": [
+    "33221",
+    "12212",
+    "52201"
+   ],
+   "raw_top3": [
+    "33221",
+    "12212",
+    "52201"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Business Development Associate maps directly to Business Development Executive.",
+   "parse_ok": true,
+   "tokens": 552,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-37",
+   "top3": [],
+   "raw_top3": null,
+   "verdict": null,
+   "confidence": null,
+   "why": null,
+   "parse_ok": false,
+   "tokens": null,
+   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "cached": false
+  },
+  {
+   "id": "SYN-38",
+   "top3": [
+    "82000",
+    "74002",
+    "33461"
+   ],
+   "raw_top3": [
+    "82000",
+    "74002",
+    "33461"
+   ],
+   "verdict": "matched",
+   "confidence": "medium",
+   "why": "Supervisor of electronics assemblers matches 82000; 74002 is close but trades-specific.",
+   "parse_ok": true,
+   "tokens": 598,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-39",
+   "top3": [
+    "13241",
+    "31573",
+    "33461"
+   ],
+   "raw_top3": [
+    "13241",
+    "31573",
+    "33461"
+   ],
+   "verdict": "none",
+   "confidence": "high",
+   "why": "Supervisor level does not match Manager or Planner codes.",
+   "parse_ok": true,
+   "tokens": 645,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-40",
+   "top3": [],
+   "raw_top3": null,
+   "verdict": null,
+   "confidence": null,
+   "why": null,
+   "parse_ok": false,
+   "tokens": null,
+   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "cached": false
+  }
+ ]
+}

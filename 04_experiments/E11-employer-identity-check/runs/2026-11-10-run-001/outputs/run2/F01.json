@@ -1,0 +1,239 @@
+{
+ "employer": "Singtel Careers Hub Pte Ltd",
+ "role": "Sales Associate",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "not_in_registry",
+  "summary": "No registered entity in Singapore resembles 'Singtel Careers Hub Pte Ltd'.",
+  "basis": "name only",
+  "entity": null,
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Singtel Careers Hub Pte Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Singtel Careers Hub Pte Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Singtel Careers Hub Pte Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Singtel Careers Hub Pte Ltd\" Sales Associate interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Singtel Careers Hub Pte Ltd\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.singtel.com/personal/support/scam-advisory",
+    "status": "thin",
+    "chars": 386,
+    "note": "fewer than 400 characters of real content",
+    "tier": "plain"
+   },
+   {
+    "url": "https://jobbridge.io/blog/salary-guide/SingTel/singapore",
+    "status": "ok",
+    "chars": 6951,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://groupcareers.singtel.com/",
+    "status": "ok",
+    "chars": 1810,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Interview/Singtel-Interview-Questions-E3971.htm",
+    "title": "Singtel Interview Questions (2026) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Singtel/salaries/Sales-Executive",
+    "title": "Sales Executive Salaries in Singapore for Singtel | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Interview/Singtel-Singapore-Interview-Questions-EI_IE3971.0,7_IL.8,17_IC3235921.htm",
+    "title": "Singtel Interview Questions in Singapore - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Salary/Singtel-Salaries-E3971.htm",
+    "title": "4,328 Salaries at Singtel Shared by Employees | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/singtel-jobs",
+    "title": "Singtel Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/careers-singtel-jobs",
+    "title": "Careers Singtel Jobs in Singapore (with Salaries) - Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "singtel careers hub"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 0,
+   "none": true,
+   "strong": false
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 31,
+  "registry_mirror_pages": 0
+ },
+ "headline": "could_not_confirm_company",
+ "headline_meaning": "Neither the registry nor the web confirms this company exists under this name.",
+ "reasons": [
+  "registry: not_in_registry",
+  "exact name seen 0 times"
+ ],
+ "brief": {
+  "confidence": "low",
+  "could_not_verify": [
+   "No official registry record confirming existence of Singtel Careers Hub Pte Ltd",
+   "No source specifically describing the company’s operations, size, or legitimacy"
+  ],
+  "key_facts": [],
+  "positive_signals": [],
+  "red_flags": [
+   {
+    "claim": "Company name not found in official Singapore company registry",
+    "evidence": [
+     {
+      "source": 0,
+      "url": null,
+      "quote": "The company registry did NOT confirm a company with this exact name.",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Only generic Singtel group pages are available, not specific to Singtel Careers Hub Pte Ltd",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://groupcareers.singtel.com/",
+      "quote": "When you join the Singtel Group you join a global family of 27,000 talented people...",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Job posting may be a phishing or impersonation scam",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://www.singtel.com/personal/support/scam-advisory",
+      "quote": "What do phishing, robocalls, and impersonation scams look like? Recognise the signs...",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "validity_reasoning": "No official registry entry confirms Singtel Careers Hub Pte Ltd, and the only available sources refer to the broader Singtel Group, not this specific entity. The presence of a scam advisory page suggests potential impersonation risk. With conflicting or absent evidence, the company appears suspicious.",
+  "claims_verified": 2,
+  "claims_unverified": 1,
+  "model_validity_status": "inconsistent_or_suspicious",
+  "suppressed": "facts and positive signals hidden: the company was not confirmed under this exact name"
+ },
+ "could_not_read": [
+  {
+   "url": "https://www.singtel.com/personal/support/scam-advisory",
+   "why": "thin: fewer than 400 characters of real content"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Interview/Singtel-Interview-Questions-E3971.htm",
+   "title": "Singtel Interview Questions (2026) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Singtel/salaries/Sales-Executive",
+   "title": "Sales Executive Salaries in Singapore for Singtel | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Interview/Singtel-Singapore-Interview-Questions-EI_IE3971.0,7_IL.8,17_IC3235921.htm",
+   "title": "Singtel Interview Questions in Singapore - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Salary/Singtel-Salaries-E3971.htm",
+   "title": "4,328 Salaries at Singtel Shared by Employees | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/singtel-jobs",
+   "title": "Singtel Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/careers-singtel-jobs",
+   "title": "Careers Singtel Jobs in Singapore (with Salaries) - Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "No official registry record confirming existence of Singtel Careers Hub Pte Ltd",
+  "No source specifically describing the company’s operations, size, or legitimacy"
+ ],
+ "seconds": 97.6,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

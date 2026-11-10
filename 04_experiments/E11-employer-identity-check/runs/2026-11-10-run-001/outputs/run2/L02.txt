@@ -1,0 +1,21 @@
+Keppel Ltd  (role: Project Engineer)
+HEADLINE: exists_limited_evidence
+  Registered in Singapore, but there is little public evidence beyond the registry.
+  because: registry: confirmed; web evidence thin (3 pages read, model: None)
+REGISTRY: confirmed. KEPPEL LTD. is registered in Singapore (status: Live Company, registered 1968-08-03).
+WEB: 5 queries (bing), 8 of 8 pages read, exact name seen in 8 pages and 17 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 7):
+  - Project Engineer salary at Keppel - Jobstreet
+    https://sg.jobstreet.com/companies/keppel-168558913195354/salaries/project-engin
+  - Keppel Corporation Interview Questions (2026) | Gl  https://www.glassdoor.sg/Interview/Keppel-
+    Corporation-Interview-Questions-E8078.
+  - Engineer Salary Estimate at Keppel Corporation (Si  https://sg.jobstreet.com/companies/keppel-
+    corporation-168558913195354/salaries/e
+  - Keppel Corporation Interview Questions in Singapor  https://www.glassdoor.com/Interview/Keppel-
+    Singapore-Interview-Questions-EI_IE80
+  - Keppel Corporation Salaries in Singapore | Glassdo  https://www.glassdoor.sg/Salary/Keppel-
+    Corporation-Singapore-Salaries-EI_IE8078.
+  - 84 Keppel Corporation Interview Questions & Answer
+    https://www.glassdoor.com.hk/Interview/Keppel-Corporation-Interview-Questions-E8
+DEGRADED: summary_unavailable: model rate limit reached (retry in 2925 s)
+(43.7s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

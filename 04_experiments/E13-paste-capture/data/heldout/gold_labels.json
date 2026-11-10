@@ -1,0 +1,244 @@
+{
+ "note": "POST HOC run-002 held-out set. Texts written by openai/gpt-oss-120b to specified field states; labels by the author after reading each text, written before the snapshot step was run on them. synthetic: true.",
+ "items": [
+  {
+   "id": "H01",
+   "synthetic": true,
+   "set": "heldout10",
+   "board": "jobstreet",
+   "job_type": "clerical",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "missing",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "closing_date_iso": null,
+   "note": "cards for other jobs show pay; selected job has none"
+  },
+  {
+   "id": "H02",
+   "synthetic": true,
+   "set": "heldout10",
+   "board": "jobstreet",
+   "job_type": "professional",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-28",
+   "note": "deadline written inside a sentence"
+  },
+  {
+   "id": "H03",
+   "synthetic": true,
+   "set": "heldout10",
+   "board": "mcf",
+   "job_type": "professional",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "hidden_labelled",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-12-14",
+   "note": "title only in prose (ambiguous label)"
+  },
+  {
+   "id": "H04",
+   "synthetic": true,
+   "set": "heldout10",
+   "board": "mcf",
+   "job_type": "clerical",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-13",
+   "note": "header after description; several dates on one line"
+  },
+  {
+   "id": "H05",
+   "synthetic": true,
+   "set": "heldout10",
+   "board": "fastjobs",
+   "job_type": "manual",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "missing",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "closing_date_iso": null,
+   "note": "'Posted by a verified employer' counted as no employer name (ambiguous label)"
+  },
+  {
+   "id": "H06",
+   "synthetic": true,
+   "set": "heldout10",
+   "board": "fastjobs",
+   "job_type": "gig",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "explicit_absence"
+   },
+   "closing_date_iso": null,
+   "note": "'Apply anytime, no deadline'"
+  },
+  {
+   "id": "H07",
+   "synthetic": true,
+   "set": "heldout10",
+   "board": "company",
+   "job_type": "professional",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-30",
+   "note": "prose sections, pay and deadline inside sentences"
+  },
+  {
+   "id": "H08",
+   "synthetic": true,
+   "set": "heldout10",
+   "board": "company",
+   "job_type": "clerical",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "explicit_absence",
+    "duties": "present",
+    "closing": "explicit_absence"
+   },
+   "closing_date_iso": null,
+   "note": ""
+  },
+  {
+   "id": "H09",
+   "synthetic": true,
+   "set": "heldout10",
+   "board": "jobstreet",
+   "job_type": "manual",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "hidden_labelled",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "closing_date_iso": null,
+   "note": "Chinese words; 'Page last updated' is not a closing date"
+  },
+  {
+   "id": "H10",
+   "synthetic": true,
+   "set": "heldout10",
+   "board": "company",
+   "job_type": "part-time",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "missing",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "closing_date_iso": null,
+   "note": "duties and requirements in one paragraph, no headings"
+  },
+  {
+   "id": "HP1",
+   "synthetic": true,
+   "set": "heldout_partial3",
+   "board": "mcf",
+   "job_type": "n/a",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "partial_truth": true,
+   "partial_type": "cut_off",
+   "source_id": "H03",
+   "fields": null,
+   "closing_date_iso": null
+  },
+  {
+   "id": "HP2",
+   "synthetic": true,
+   "set": "heldout_partial3",
+   "board": "company",
+   "job_type": "n/a",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "partial_truth": true,
+   "partial_type": "no_body",
+   "source_id": "H07",
+   "fields": null,
+   "closing_date_iso": null
+  },
+  {
+   "id": "HP3",
+   "synthetic": true,
+   "set": "heldout_partial3",
+   "board": "jobstreet",
+   "job_type": "n/a",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "partial_truth": true,
+   "partial_type": "cards_nav",
+   "source_id": "H01",
+   "fields": null,
+   "closing_date_iso": null
+  }
+ ]
+}

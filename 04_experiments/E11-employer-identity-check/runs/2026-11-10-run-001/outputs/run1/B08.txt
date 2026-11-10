@@ -1,0 +1,41 @@
+Swensen's  (role: Service Crew)
+HEADLINE: brand_legal_entity_unconfirmed
+  Public sources describe a company by this name, but the registry has no entity with this exact
+  name. It may trade under a brand name; the legal employer is not confirmed.
+  because: registry: similar_name_only; exact name seen 29 times in sources
+REGISTRY: similar_name_only. No registered entity is named 'Swensen's'. The closest registered name is ABR SWENSEN'S PTE. LTD., which may be a different company.
+WEB: 5 queries (bing, duckduckgo), 5 of 8 pages read, exact name seen in 5 pages and 24 search results
+BRIEF (model rating: appears_real_and_consistent, confidence high; 3 claims verified, 4 unverified)
+  about: the brand named in the posting; the registered legal employer is not confirmed
+  Facts:
+    [UNVERIFIED] Swensen's (Singapore) is operated by ABR Holdings Limited.
+    [UNVERIFIED] Swensen's Singapore is a registered private company (Swensen's Of Singapore (1996)
+    Pte Ltd) incorporated on 20 March 1996.
+    [verified] The company’s registered address is 41 Tampines Street 92, Singapore (ABR Building).
+    [UNVERIFIED] Swensen's Singapore offers a range of casual‑dining and ice‑cream‑cake services and
+    operates multiple outlets in Singapore.
+    [verified] ABR’s careers page lists Swensen's job openings (e.g., Service Crew, Production
+    Assistant, Outlet Manager).
+  Positive signals:
+    [verified] Swensen's Singapore has been operating for over 30 years, indicating an established
+    brand.
+    [UNVERIFIED] ABR Holdings is a publicly listed, long‑standing food‑and‑beverage group.
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 10):
+  - Working at Swensen's: Employee Reviews | Indeed.co  https://sg.indeed.com/cmp/Swensen's/reviews
+  - Reviews Swensen's employee ratings and reviews | J
+    https://sg.jobstreet.com/companies/swensens-168559249031197/reviews
+  - Swensen's Reviews in Singapore | Glassdoor  https://www.glassdoor.com/Reviews/Swensen-s-
+    Singapore-Reviews-EI_IE1851420.0,9_I
+  - Swensen's Reviews in Singapore | Glassdoor  https://www.glassdoor.sg/Reviews/Swensen-s-
+    Singapore-Reviews-EI_IE1851420.0,9_IL
+  - Swensen's Reviews in Singapore, Singapore | Glassd  https://www.glassdoor.com/Reviews/Swensen-s-
+    Singapore-Reviews-EI_IE1851420.0,9_I
+  - Swensen's Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/Swensen-s-Reviews-E1851420.htm
+COULD NOT READ (3):
+  - https://www.ambitionbox.com/overview/swensens-overview  (blocked: challenge or login-wall text)
+  - https://www.companies.sg/business/199601931C/SWENSEN-S-OF-SINGAPORE-19  (error: )
+  - https://companieshouse.sg/swensen-s-of-singapore-199601931c  (thin: fewer than 400 characters of
+    real content)
+COULD NOT VERIFY:
+  - Which registered company is the legal employer behind this brand.
+(117.6s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

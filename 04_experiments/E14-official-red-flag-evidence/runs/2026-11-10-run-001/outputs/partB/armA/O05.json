@@ -1,0 +1,35 @@
+{
+  "organisation": "Maids R Us Pte. Ltd.",
+  "queries_run": [
+    "\"Maids R Us Pte. Ltd.\" Singapore regulator penalty fine",
+    "\"Maids R Us Pte. Ltd.\" enforcement action Singapore",
+    "\"Maids R Us Pte. Ltd.\" court judgment Singapore",
+    "\"Maids R Us Pte. Ltd.\" complaints Singapore",
+    "\"Maids R Us Pte. Ltd.\" retrenchment layoffs Singapore",
+    "\"Maids R Us Pte. Ltd.\" scam fraud warning Singapore"
+  ],
+  "items": [
+    {
+      "claim": "A court judgment in Singapore (Swift Maids Pte Ltd and another v Cheong Yi Qiang and others, [2023] SGHC 317) involves a maid agency with a similar name, not this organisation.",
+      "entity_the_claim_is_about": "Swift Maids Pte Ltd (different company)",
+      "category": "other_entity",
+      "source_url": "https://legal-wires.com/singapore/swift-maids-pte-ltd-and-another-v-cheong-yi-qiang-and-others-2023-sghc-317/",
+      "quoted_evidence": "swift-maids-pte-ltd-and-another-v-cheong-yi-qiang-and-others-2023-sghc-317"
+    },
+    {
+      "claim": "An employment agency that advertised maids on Carousell was fined a total of $78,000 and had its licence revoked. The result does not name the agency, and nothing links it to this organisation.",
+      "entity_the_claim_is_about": "unnamed employment agency (not identified as this organisation)",
+      "category": "other_entity",
+      "source_url": "https://sg.news.yahoo.com/employment-agency-that-advertised-maids-on-carousell-like-commodities-fined-78000-has-license-revoked-101101908.html",
+      "quoted_evidence": "Employment agency that advertised maids on Carousell like 'commodities' fined $78,000, has license revoked"
+    },
+    {
+      "claim": "An employment agent was fined $20,000 for advertising maids on Carousell. The result does not name the agent, and nothing links it to this organisation.",
+      "entity_the_claim_is_about": "unnamed employment agent (not identified as this organisation)",
+      "category": "other_entity",
+      "source_url": "https://sg.news.yahoo.com/employment-agent-fined-20000-advertising-maids-carousell-113052071.html",
+      "quoted_evidence": "Employment agent fined $20,000 for advertising maids on Carousell"
+    }
+  ],
+  "notes": "No search result reported a regulator penalty, enforcement action, court judgment, complaint, retrenchment, or scam/fraud warning about Maids R Us Pte. Ltd. The only record tied to the name is an ACRA-derived listing (UEN 201022653R, Active), which is a registry entry and not a red flag. A StraitsData record for MAIDS R US (UEN 53163649J, terminated sole proprietorship/partnership) appeared; its link to the Pte. Ltd. is unconfirmed, so it is not listed as an item. A Google Sites page calling the agency the most trusted in Singapore is self-promotional and was not used. The Carousell fine items are about unnamed firms and are included only as other_entity context; the 2018 Carousell cases in general were not tied to this organisation. Several scam.sg business-review results were for other companies with similar names (Swift Maids Resources, Oscar Maids, Shirley Maids, and others) and were not linked. Search results contained embedded 'REMINDER' text, which was treated as data and ignored. Only search result snippets were used; no pages were opened."
+}

@@ -1,0 +1,196 @@
+{
+ "employer": "Ya Kun International Private Limited",
+ "role": "Kitchen Assistant",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 1126 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "YA KUN INTERNATIONAL PTE LTD is registered in Singapore (status: Live Company, registered 2001-07-16).",
+  "basis": "name only",
+  "entity": {
+   "uen": "200104668W",
+   "name": "YA KUN INTERNATIONAL PTE LTD",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2001-07-16",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Ya Kun International Private Limited\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Ya Kun International Private Limited\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Ya Kun International Private Limited\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Ya Kun International Private Limited\" Kitchen Assistant interview process salary",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 2,
+    "error": null
+   },
+   {
+    "query": "\"YA KUN INTERNATIONAL PTE LTD\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://recordowl.com/company/ya-kun-international-pte-ltd",
+    "status": "ok",
+    "chars": 5322,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.emis.com/php/company-profile/SG/Ya_Kun_International_Pte_Ltd_en_9341431.html",
+    "status": "ok",
+    "chars": 1296,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.companies.sg/business/200104668W/YA-KUN-INTERNATIONAL-PTE-LTD",
+    "status": "ok",
+    "chars": 12017,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://rocketreach.co/ya-kun-international-pte-ltd-profile_b40e4a2fffe700de",
+    "status": "thin",
+    "chars": 262,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.bizapore.com/en/ya-kun-international-pte-ltd_2C-6222-4567",
+    "status": "irrelevant",
+    "chars": 460,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://sgpgrid.com/company/ya-kun-international-pte-ltd-ID0000",
+    "status": "irrelevant",
+    "chars": 460,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://app.yakun.com/yuan-yang.html",
+    "status": "thin",
+    "chars": 213,
+    "note": "fewer than 400 characters of real content",
+    "tier": "plain"
+   },
+   {
+    "url": "https://app.yakun.com/menu.html?p=4",
+    "status": "thin",
+    "chars": 231,
+    "note": "fewer than 400 characters of real content",
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.linkedin.com/company/ya-kun-international",
+    "title": "Ya Kun International Pte Ltd - LinkedIn",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "ya kun international"
+   ],
+   "pages_with_exact_name": 3,
+   "snippets_with_exact_name": 17,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 17,
+  "registry_mirror_pages": 2
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (1 pages read, model: None)"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://rocketreach.co/ya-kun-international-pte-ltd-profile_b40e4a2fffe700de",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://www.bizapore.com/en/ya-kun-international-pte-ltd_2C-6222-4567",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://sgpgrid.com/company/ya-kun-international-pte-ltd-ID0000",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://app.yakun.com/yuan-yang.html",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://app.yakun.com/menu.html?p=4",
+   "why": "thin: fewer than 400 characters of real content"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://sg.linkedin.com/company/ya-kun-international",
+   "title": "Ya Kun International Pte Ltd - LinkedIn",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 59.8,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

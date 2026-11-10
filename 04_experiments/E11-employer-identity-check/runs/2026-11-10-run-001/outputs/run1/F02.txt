@@ -1,0 +1,13 @@
+Shopee Talent Solutions Pte Ltd  (role: Data Entry Clerk)
+HEADLINE: likely_lookalike
+  No registered company has this exact name and no source uses it. The closest registered name
+  belongs to a different company. Treat the posting with caution.
+  because: registry: similar_name_only; closest registered name is a different entity; exact name
+  appears in no source
+REGISTRY: similar_name_only. No registered entity is named 'Shopee Talent Solutions Pte Ltd'. The closest registered name is ASPIRE TALENT SOLUTIONS PTE. LTD., which may be a different company.
+WEB: 5 queries (bing), 7 of 8 pages read, exact name seen in 0 pages and 0 search results
+COULD NOT READ (1):
+  - https://www.complaintsboard.com/shopee-b127739  (thin: fewer than 400 characters of real
+    content)
+DEGRADED: summary_unavailable: model rate limit reached (retry in 2142 s)
+(97.4s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

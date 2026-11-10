@@ -1,0 +1,300 @@
+{
+ "employer": "Mr Bean",
+ "role": "Store Assistant",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 2340 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'Mr Bean'. The closest registered name is MR BEAN GROUP PTE. LTD., which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "202024062H",
+   "name": "MR BEAN GROUP PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2020-08-13",
+   "activity": "INVESTMENT HOLDING COMPANY",
+   "alternatives": [
+    "MR BEAN ENTERPRISE",
+    "MR BEAN'S (JUNIOR) CAFE PTE. LTD."
+   ]
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Mr Bean\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Mr Bean\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Mr Bean\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Mr Bean\" Store Assistant interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Mr Bean\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.mrbean.com.sg/careers",
+    "status": "ok",
+    "chars": 1548,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.fastjobs.sg/mrbean",
+    "status": "ok",
+    "chars": 2678,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Mr-Bean-International-Pte-Ltd",
+    "status": "ok",
+    "chars": 3068,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Mr-Bean-Group-Pte-Ltd",
+    "status": "ok",
+    "chars": 1939,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/business/200412554D/MR-BEAN-INTERNATIONAL-PTE-LTD-",
+    "status": "ok",
+    "chars": 10587,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://opengovsg.com/corporate/200412554D",
+    "status": "ok",
+    "chars": 4668,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.companies.sg/business/202024062H/MR-BEAN-GROUP-PTE-LTD-",
+    "status": "ok",
+    "chars": 4979,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://recordowl.com/company/mr-bean-international-pte-ltd",
+    "status": "ok",
+    "chars": 8670,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.indeed.com/cmp/Mr-Bean",
+    "title": "mr bean Careers and Employment | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Mr-Bean-Reviews-E2032362.htm",
+    "title": "Mr Bean Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/Mr-Bean-Singapore-Reviews-EI_IE2032362.0,7_IL.8,17_IN217.htm",
+    "title": "Mr Bean Reviews in Singapore | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Mr-Bean/reviews",
+    "title": "Working at mr bean: Employee Reviews | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/mr-bean-168552122415686",
+    "title": "Working at Mr Bean company profile and information | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/Mr-Bean-Reviews-E2032362.htm",
+    "title": "Mr Bean Reviews (90): Pros & Cons of Working At Mr Bean",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Overview/Working-at-Mr-Bean-EI_IE2032362.11,18.htm",
+    "title": "Working at Mr Bean | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/mr-bean-168552122415686/culture",
+    "title": "Mr Bean work culture, perks & benefits | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/mr-bean-jobs",
+    "title": "Mr Bean Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/mr-bean-168552122415686/salaries",
+    "title": "Mr Bean salaries in Singapore: What is the pay at Mr Bean? | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/q-mr-bean-jobs.html?vjk=f42ac728caad389f",
+    "title": "4 Mr Bean Jobs, Employment November 10, 2026 | Indeed",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Salary/Mr-Bean-Salaries-E2032362.htm",
+    "title": "92 Salaries at Mr Bean Shared by Employees | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Interview/Mr-Bean-Food-and-Beverage-Interview-Questions-EI_IE2032362.0,7_KO8,25.htm",
+    "title": "Mr Bean Food and Beverage Interview Experience & Questions",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "mr bean"
+   ],
+   "pages_with_exact_name": 8,
+   "snippets_with_exact_name": 24,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 16,
+  "registry_mirror_pages": 5
+ },
+ "headline": "brand_legal_entity_unconfirmed",
+ "headline_meaning": "Public sources describe a company by this name, but the registry has no entity with this exact name. It may trade under a brand name; the legal employer is not confirmed.",
+ "reasons": [
+  "registry: similar_name_only",
+  "exact name seen 32 times in sources"
+ ],
+ "brief": null,
+ "could_not_read": [],
+ "link_out": [
+  {
+   "url": "https://sg.indeed.com/cmp/Mr-Bean",
+   "title": "mr bean Careers and Employment | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Mr-Bean-Reviews-E2032362.htm",
+   "title": "Mr Bean Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Mr-Bean-Singapore-Reviews-EI_IE2032362.0,7_IL.8,17_IN217.htm",
+   "title": "Mr Bean Reviews in Singapore | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Mr-Bean/reviews",
+   "title": "Working at mr bean: Employee Reviews | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/mr-bean-168552122415686",
+   "title": "Working at Mr Bean company profile and information | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Mr-Bean-Reviews-E2032362.htm",
+   "title": "Mr Bean Reviews (90): Pros & Cons of Working At Mr Bean",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Overview/Working-at-Mr-Bean-EI_IE2032362.11,18.htm",
+   "title": "Working at Mr Bean | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/mr-bean-168552122415686/culture",
+   "title": "Mr Bean work culture, perks & benefits | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/mr-bean-jobs",
+   "title": "Mr Bean Jobs in Singapore (with Salaries) - Nov 2026 | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/mr-bean-168552122415686/salaries",
+   "title": "Mr Bean salaries in Singapore: What is the pay at Mr Bean? | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/q-mr-bean-jobs.html?vjk=f42ac728caad389f",
+   "title": "4 Mr Bean Jobs, Employment November 10, 2026 | Indeed",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Salary/Mr-Bean-Salaries-E2032362.htm",
+   "title": "92 Salaries at Mr Bean Shared by Employees | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Interview/Mr-Bean-Food-and-Beverage-Interview-Questions-EI_IE2032362.0,7_KO8,25.htm",
+   "title": "Mr Bean Food and Beverage Interview Experience & Questions",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Which registered company is the legal employer behind this brand."
+ ],
+ "seconds": 60.0,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

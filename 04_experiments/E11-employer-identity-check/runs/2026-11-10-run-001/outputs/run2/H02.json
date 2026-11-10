@@ -1,0 +1,155 @@
+{
+ "employer": "Our Client - A Global Bank",
+ "role": "Credit Risk Analyst",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 1861 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "not_in_registry",
+  "summary": "No registered entity in Singapore resembles 'Our Client - A Global Bank'.",
+  "basis": "name only",
+  "entity": null,
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Our Client - A Global Bank\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Our Client - A Global Bank\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Our Client - A Global Bank\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Our Client - A Global Bank\" Credit Risk Analyst interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Our Client - A Global Bank\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.bestinsingapore.co/best-recruitment-agencies-singapore",
+    "status": "ok",
+    "chars": 42087,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://theonlinecitizen.com/2026/01/30/staff-reviews-on-glassdoor-highlight-alleged-favouritism-and-promotion-issues-at-property-lim-brothers-1",
+    "status": "ok",
+    "chars": 5991,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/ocbc-tops-forbes-worlds-top-performing-banks-list-dbs-second",
+    "status": "ok",
+    "chars": 1922,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.scamshield.gov.sg/i-have-been-scammed",
+    "status": "ok",
+    "chars": 4379,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.police.gov.sg/Advisories/Scams",
+    "status": "ok",
+    "chars": 4463,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.moneysense.gov.sg/i-suspect-i-ve-been-scammed-what-should-i-do",
+    "status": "ok",
+    "chars": 4745,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.posb.com.sg/personal/scam-defence/protecting-yourself-online",
+    "status": "ok",
+    "chars": 6625,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.dbs.com.sg/personal/scam-defence/protecting-yourself-online",
+    "status": "ok",
+    "chars": 6625,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [],
+  "gate": {
+   "phrases": [
+    "our client a global bank"
+   ],
+   "pages_with_exact_name": 0,
+   "snippets_with_exact_name": 0,
+   "none": true,
+   "strong": false
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 7,
+  "registry_mirror_pages": 0
+ },
+ "headline": "could_not_confirm_company",
+ "headline_meaning": "Neither the registry nor the web confirms this company exists under this name.",
+ "reasons": [
+  "registry: not_in_registry",
+  "exact name seen 0 times"
+ ],
+ "brief": null,
+ "could_not_read": [],
+ "link_out": [],
+ "could_not_verify": [],
+ "seconds": 76.3,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

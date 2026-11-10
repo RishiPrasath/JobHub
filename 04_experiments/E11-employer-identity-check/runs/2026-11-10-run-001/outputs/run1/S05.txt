@@ -1,0 +1,43 @@
+Ohmyhome Pte. Ltd.  (role: Sales Coordinator)
+HEADLINE: exists_and_consistent
+  Registered in Singapore, and public sources agree it is the company named.
+  because: registry: confirmed; model: consistent across 4 pages
+REGISTRY: confirmed. OHMYHOME PTE. LTD. is registered in Singapore (status: Live Company, registered 2015-06-12).
+WEB: 5 queries (bing), 6 of 8 pages read, exact name seen in 6 pages and 26 search results
+BRIEF (model rating: appears_real_and_consistent, confidence high; 10 claims verified, 3 unverified)
+  Facts:
+    [verified] Legal name and registration details
+    [verified] Principal activity is real estate agencies and valuation services
+    [verified] Secondary activity is development of e‑commerce / software applications
+    [verified] Registered address is 211 Henderson Road, #02-04, Singapore 159552
+    [verified] Founded by sisters Rhonda Wong and Race Wong
+    [UNVERIFIED] Company has a strong customer review presence
+    [verified] Company culture emphasizes innovation, collaboration and inclusivity
+    [verified] Ohmyhome underwent a restructuring in 2026, privatising its core property business
+  Positive signals:
+    [verified] High customer satisfaction and large review volume
+    [UNVERIFIED] Active recruitment and career page indicating growth mindset
+    [verified] Regional presence in Singapore, Malaysia and Philippines
+  Red flags:
+    [UNVERIFIED] Recent restructuring may affect financial stability
+    [verified] Core property business now private, leaving only a digital‑marketing arm publicly
+    listed
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 12):
+  - Ohmyhome Pte. Ltd. Careers and Employment | Indeed  https://sg.indeed.com/cmp/Ohmyhome-
+    Pte.-Ltd.-1
+  - Ohmyhome Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/Ohmyhome-Reviews-E2252823.htm
+  - Ohmyhome Reviews (80): Pros & Cons of Working At O  https://www.glassdoor.com/Reviews/Ohmyhome-
+    Reviews-E2252823.htm
+  - Working at Ohmyhome | Glassdoor  https://www.glassdoor.sg/Overview/Working-at-Ohmyhome-
+    EI_IE2252823.11,19.htm
+  - Working at Ohmyhome company profile and informatio
+    https://sg.jobstreet.com/companies/ohmyhome-168555794019876
+  - Ohmyhome | Sell. Buy. Rent. Renovate. Manage. | Li  https://sg.linkedin.com/company/ohmyhome
+COULD NOT READ (2):
+  - https://www.marketscreener.com/news/ohmyhome-announces-strategic-restr  (blocked: challenge or
+    login-wall text)
+  - https://www.companies.sg/business/201525768E/OHMYHOME-PTE-LTD-  (error: )
+COULD NOT VERIFY:
+  - Specific details about the Sales Coordinator role responsibilities and compensation
+  - Exact number of employees or revenue figures for the private Singapore entity
+(129.5s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

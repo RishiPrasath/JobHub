@@ -1,0 +1,638 @@
+{
+ "model": "openai/gpt-oss-20b",
+ "run": 2,
+ "harness": "e20-harness-v1.1",
+ "results": {
+  "L01": {
+   "parsed": {
+    "status": {
+     "C01": "stated",
+     "C02": "stated",
+     "C03": "stated",
+     "C04": "stated",
+     "C05": "not_applicable",
+     "C06": "stated",
+     "C07": "stated",
+     "C08": "stated",
+     "C09": "stated",
+     "C10": "stated",
+     "C11": "not_applicable",
+     "C12": "not_applicable",
+     "C13": "stated",
+     "C14": "stated",
+     "C15": "stated",
+     "C16": "stated",
+     "C17": "unclear",
+     "C18": "stated",
+     "C19": "stated"
+    },
+    "flags": [
+     {
+      "id": "C17",
+      "quote": "Either party may end your employment by giving 1 month's written notice, or salary in lieu of notice (1 week during probation).",
+      "guidance": "MOM lists the notice period as item 17. MOM says that if the contract does not specify a notice period, it depends on length of service: under 26 weeks 1 day; 26 weeks to under 2 years 1 week; 2 years to under 5 years 2 weeks; 5 years or more 4 weeks.",
+      "source": "S1"
+     }
+    ],
+    "inconsistencies": [],
+    "injection_noted": false
+   },
+   "raw_content": "{\"status\":{\"C01\":\"stated\",\"C02\":\"stated\",\"C03\":\"stated\",\"C04\":\"stated\",\"C05\":\"not_applicable\",\"C06\":\"stated\",\"C07\":\"stated\",\"C08\":\"stated\",\"C09\":\"stated\",\"C10\":\"stated\",\"C11\":\"not_applicable\",\"C12\":\"not_applicable\",\"C13\":\"stated\",\"C14\":\"stated\",\"C15\":\"stated\",\"C16\":\"stated\",\"C17\":\"unclear\",\"C18\":\"stated\",\"C19\":\"stated\"},\"flags\":[{\"id\":\"C17\",\"quote\":\"Either party may end your employment by giving 1 month's written notice, or salary in lieu of notice (1 week during probation).\",\"guidance\":\"MOM lists the notice period as item 17. MOM says that if the contract does not specify a notice period, it depends on length of service: under 26 weeks 1 day; 26 weeks to under 2 years 1 week; 2 years to under 5 years 2 weeks; 5 years or more 4 weeks.\",\"source\":\"S1\"}],\"inconsistencies\":[],\"injection_noted\":false}",
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 745,
+    "prompt_tokens": 2286,
+    "total_tokens": 3031,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 484,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.378729547,
+    "prompt_time": 0.139836911,
+    "completion_time": 0.909083378,
+    "total_time": 1.048920289
+   },
+   "cached": true,
+   "created_utc": "2026-11-10T10:17:11Z"
+  },
+  "L03": {
+   "parsed": {
+    "status": {
+     "C01": "stated",
+     "C02": "stated",
+     "C03": "stated",
+     "C04": "stated",
+     "C05": "not_applicable",
+     "C06": "stated",
+     "C07": "stated",
+     "C08": "stated",
+     "C09": "stated",
+     "C10": "stated",
+     "C11": "stated",
+     "C12": "stated",
+     "C13": "stated",
+     "C14": "stated",
+     "C15": "stated",
+     "C16": "stated",
+     "C17": "stated",
+     "C18": "stated",
+     "C19": "stated"
+    },
+    "flags": [],
+    "inconsistencies": [],
+    "injection_noted": false
+   },
+   "raw_content": "{\"status\":{\"C01\":\"stated\",\"C02\":\"stated\",\"C03\":\"stated\",\"C04\":\"stated\",\"C05\":\"not_applicable\",\"C06\":\"stated\",\"C07\":\"stated\",\"C08\":\"stated\",\"C09\":\"stated\",\"C10\":\"stated\",\"C11\":\"stated\",\"C12\":\"stated\",\"C13\":\"stated\",\"C14\":\"stated\",\"C15\":\"stated\",\"C16\":\"stated\",\"C17\":\"stated\",\"C18\":\"stated\",\"C19\":\"stated\"},\"flags\":[],\"inconsistencies\":[],\"injection_noted\":false}",
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 500,
+    "prompt_tokens": 2279,
+    "total_tokens": 2779,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 356,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.368025306,
+    "prompt_time": 0.116710189,
+    "completion_time": 0.640597613,
+    "total_time": 0.757307802
+   },
+   "cached": true,
+   "created_utc": "2026-11-10T10:26:12Z"
+  },
+  "L05": {
+   "parsed": {
+    "status": {
+     "C01": "stated",
+     "C02": "stated",
+     "C03": "stated",
+     "C04": "stated",
+     "C05": "not_applicable",
+     "C06": "stated",
+     "C07": "stated",
+     "C08": "stated",
+     "C09": "stated",
+     "C10": "stated",
+     "C11": "not_applicable",
+     "C12": "not_applicable",
+     "C13": "stated",
+     "C14": "stated",
+     "C15": "stated",
+     "C16": "stated",
+     "C17": "missing",
+     "C18": "stated",
+     "C19": "stated"
+    },
+    "flags": [
+     {
+      "id": "C17",
+      "quote": "Please sign and return the enclosed copy of this letter by Friday, 20 November 2026 to accept this offer.",
+      "guidance": "MOM lists the notice period as item 17.",
+      "source": "S1"
+     }
+    ],
+    "inconsistencies": [],
+    "injection_noted": false
+   },
+   "raw_content": "{\"status\":{\"C01\":\"stated\",\"C02\":\"stated\",\"C03\":\"stated\",\"C04\":\"stated\",\"C05\":\"not_applicable\",\"C06\":\"stated\",\"C07\":\"stated\",\"C08\":\"stated\",\"C09\":\"stated\",\"C10\":\"stated\",\"C11\":\"not_applicable\",\"C12\":\"not_applicable\",\"C13\":\"stated\",\"C14\":\"stated\",\"C15\":\"stated\",\"C16\":\"stated\",\"C17\":\"missing\",\"C18\":\"stated\",\"C19\":\"stated\"},\"flags\":[{\"id\":\"C17\",\"quote\":\"Please sign and return the enclosed copy of this letter by Friday, 20 November 2026 to accept this offer.\",\"guidance\":\"MOM lists the notice period as item 17.\",\"source\":\"S1\"}],\"inconsistencies\":[],\"injection_noted\":false}",
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 586,
+    "prompt_tokens": 2235,
+    "total_tokens": 2821,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 390,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.154500881,
+    "prompt_time": 0.123121776,
+    "completion_time": 0.65658218,
+    "total_time": 0.779703956
+   },
+   "cached": true,
+   "created_utc": "2026-11-10T10:27:12Z"
+  },
+  "L08": {
+   "parsed": {
+    "status": {
+     "C01": "stated",
+     "C02": "stated",
+     "C03": "stated",
+     "C04": "stated",
+     "C05": "not_applicable",
+     "C06": "unclear",
+     "C07": "stated",
+     "C08": "missing",
+     "C09": "stated",
+     "C10": "stated",
+     "C11": "not_applicable",
+     "C12": "not_applicable",
+     "C13": "stated",
+     "C14": "stated",
+     "C15": "missing",
+     "C16": "stated",
+     "C17": "stated",
+     "C18": "stated",
+     "C19": "stated"
+    },
+    "flags": [
+     {
+      "id": "C06",
+      "quote": "your rest day is Saturday and Sunday.",
+      "guidance": "MOM lists working arrangements (daily working hours, working days per week, rest day) as item 6.",
+      "source": "S1"
+     },
+     {
+      "id": "C08",
+      "quote": "",
+      "guidance": "MOM lists basic salary as item 8; for hourly, daily or piece-rated workers the basic rate of pay should also be indicated.",
+      "source": "S1"
+     },
+     {
+      "id": "C15",
+      "quote": "",
+      "guidance": "MOM lists other medical benefits (insurance, medical, dental) as item 15.",
+      "source": "S1"
+     }
+    ],
+    "inconsistencies": [
+     {
+      "items": [
+       "C06"
+      ],
+      "quotes": [
+       "your rest day is Saturday and Sunday."
+      ],
+      "note": "MOM requires a single rest day per week, but the letter lists two days.",
+      "source": "S6"
+     }
+    ],
+    "injection_noted": false
+   },
+   "raw_content": "{\"status\":{\"C01\":\"stated\",\"C02\":\"stated\",\"C03\":\"stated\",\"C04\":\"stated\",\"C05\":\"not_applicable\",\"C06\":\"unclear\",\"C07\":\"stated\",\"C08\":\"missing\",\"C09\":\"stated\",\"C10\":\"stated\",\"C11\":\"not_applicable\",\"C12\":\"not_applicable\",\"C13\":\"stated\",\"C14\":\"stated\",\"C15\":\"missing\",\"C16\":\"stated\",\"C17\":\"stated\",\"C18\":\"stated\",\"C19\":\"stated\"},\"flags\":[{\"id\":\"C06\",\"quote\":\"your rest day is Saturday and Sunday.\",\"guidance\":\"MOM lists working arrangements (daily working hours, working days per week, rest day) as item 6.\",\"source\":\"S1\"},{\"id\":\"C08\",\"quote\":\"\",\"guidance\":\"MOM lists basic salary as item 8; for hourly, daily or piece-rated workers the basic rate of pay should also be indicated.\",\"source\":\"S1\"},{\"id\":\"C15\",\"quote\":\"\",\"guidance\":\"MOM lists other medical benefits (insurance, medical, dental) as item 15.\",\"source\":\"S1\"}],\"inconsistencies\":[{\"items\":[\"C06\"],\"quotes\":[\"your rest day is Saturday and Sunday.\"],\"note\":\"MOM requires a single rest day per week, but the letter lists two days.\",\"source\":\"S6\"}],\"injection_noted\":false}",
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 975,
+    "prompt_tokens": 2276,
+    "total_tokens": 3251,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 666,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.152180017,
+    "prompt_time": 0.11822743,
+    "completion_time": 1.10439939,
+    "total_time": 1.22262682
+   },
+   "cached": true,
+   "created_utc": "2026-11-10T10:34:14Z"
+  },
+  "L11": {
+   "parsed": {
+    "status": {
+     "C01": "stated",
+     "C02": "stated",
+     "C03": "stated",
+     "C04": "stated",
+     "C05": "not_applicable",
+     "C06": "stated",
+     "C07": "stated",
+     "C08": "stated",
+     "C09": "missing",
+     "C10": "missing",
+     "C11": "missing",
+     "C12": "missing",
+     "C13": "stated",
+     "C14": "stated",
+     "C15": "stated",
+     "C16": "stated",
+     "C17": "stated",
+     "C18": "stated",
+     "C19": "stated"
+    },
+    "flags": [
+     {
+      "id": "C09",
+      "quote": "",
+      "guidance": "TAFEP says offers should set out key terms such as salary.",
+      "source": "S5"
+     },
+     {
+      "id": "C10",
+      "quote": "",
+      "guidance": "TAFEP says offers should set out key terms such as salary.",
+      "source": "S5"
+     },
+     {
+      "id": "C11",
+      "quote": "",
+      "guidance": "TAFEP says offers should set out key terms such as salary.",
+      "source": "S5"
+     },
+     {
+      "id": "C12",
+      "quote": "",
+      "guidance": "TAFEP says offers should set out key terms such as salary.",
+      "source": "S5"
+     }
+    ],
+    "inconsistencies": [],
+    "injection_noted": false
+   },
+   "raw_content": "{\"status\":{\"C01\":\"stated\",\"C02\":\"stated\",\"C03\":\"stated\",\"C04\":\"stated\",\"C05\":\"not_applicable\",\"C06\":\"stated\",\"C07\":\"stated\",\"C08\":\"stated\",\"C09\":\"missing\",\"C10\":\"missing\",\"C11\":\"missing\",\"C12\":\"missing\",\"C13\":\"stated\",\"C14\":\"stated\",\"C15\":\"stated\",\"C16\":\"stated\",\"C17\":\"stated\",\"C18\":\"stated\",\"C19\":\"stated\"},\"flags\":[{\"id\":\"C09\",\"quote\":\"\",\"guidance\":\"TAFEP says offers should set out key terms such as salary.\",\"source\":\"S5\"},{\"id\":\"C10\",\"quote\":\"\",\"guidance\":\"TAFEP says offers should set out key terms such as salary.\",\"source\":\"S5\"},{\"id\":\"C11\",\"quote\":\"\",\"guidance\":\"TAFEP says offers should set out key terms such as salary.\",\"source\":\"S5\"},{\"id\":\"C12\",\"quote\":\"\",\"guidance\":\"TAFEP says offers should set out key terms such as salary.\",\"source\":\"S5\"}],\"inconsistencies\":[],\"injection_noted\":false}",
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 663,
+    "prompt_tokens": 2236,
+    "total_tokens": 2899,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 406,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.285676416,
+    "prompt_time": 0.147231753,
+    "completion_time": 0.7092711,
+    "total_time": 0.856502853
+   },
+   "cached": true,
+   "created_utc": "2026-11-10T10:36:14Z"
+  },
+  "L12": {
+   "parsed": {
+    "status": {
+     "C01": "stated",
+     "C02": "stated",
+     "C03": "stated",
+     "C04": "stated",
+     "C05": "not_applicable",
+     "C06": "stated",
+     "C07": "stated",
+     "C08": "stated",
+     "C09": "stated",
+     "C10": "stated",
+     "C11": "not_applicable",
+     "C12": "not_applicable",
+     "C13": "stated",
+     "C14": "stated",
+     "C15": "stated",
+     "C16": "unclear",
+     "C17": "unclear",
+     "C18": "stated",
+     "C19": "stated"
+    },
+    "flags": [
+     {
+      "id": "C16",
+      "quote": "Your probation period will be confirmed by HR after you join.",
+      "guidance": "MOM lists the probation period as item 16.",
+      "source": "S1"
+     },
+     {
+      "id": "C17",
+      "quote": "Notice of termination will be as per company policy.",
+      "guidance": "MOM lists the notice period as item 17.",
+      "source": "S1"
+     }
+    ],
+    "inconsistencies": [],
+    "injection_noted": false
+   },
+   "raw_content": "{\"status\":{\"C01\":\"stated\",\"C02\":\"stated\",\"C03\":\"stated\",\"C04\":\"stated\",\"C05\":\"not_applicable\",\"C06\":\"stated\",\"C07\":\"stated\",\"C08\":\"stated\",\"C09\":\"stated\",\"C10\":\"stated\",\"C11\":\"not_applicable\",\"C12\":\"not_applicable\",\"C13\":\"stated\",\"C14\":\"stated\",\"C15\":\"stated\",\"C16\":\"unclear\",\"C17\":\"unclear\",\"C18\":\"stated\",\"C19\":\"stated\"},\"flags\":[{\"id\":\"C16\",\"quote\":\"Your probation period will be confirmed by HR after you join.\",\"guidance\":\"MOM lists the probation period as item 16.\",\"source\":\"S1\"},{\"id\":\"C17\",\"quote\":\"Notice of termination will be as per company policy.\",\"guidance\":\"MOM lists the notice period as item 17.\",\"source\":\"S1\"}],\"inconsistencies\":[],\"injection_noted\":false}",
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 714,
+    "prompt_tokens": 2282,
+    "total_tokens": 2996,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 493,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cached_tokens": 2048
+    },
+    "queue_time": 0.315631705,
+    "prompt_time": 0.054072855,
+    "completion_time": 0.786232743,
+    "total_time": 0.840305598
+   },
+   "cached": false,
+   "created_utc": "2026-11-10T10:39:15Z"
+  },
+  "L13": {
+   "parsed": {
+    "status": {
+     "C01": "stated",
+     "C02": "stated",
+     "C03": "stated",
+     "C04": "stated",
+     "C05": "not_applicable",
+     "C06": "stated",
+     "C07": "stated",
+     "C08": "stated",
+     "C09": "stated",
+     "C10": "stated",
+     "C11": "not_applicable",
+     "C12": "not_applicable",
+     "C13": "stated",
+     "C14": "stated",
+     "C15": "stated",
+     "C16": "stated",
+     "C17": "stated",
+     "C18": "stated",
+     "C19": "stated"
+    },
+    "flags": [],
+    "inconsistencies": [
+     {
+      "items": [
+       "C08"
+      ],
+      "quotes": [
+       "Your basic salary is $5,200 per month.",
+       "SUMMARY OF KEY TERMS (for payroll) Basic monthly salary: $5,800"
+      ],
+      "note": "basic salary differs between letter and summary",
+      "source": "S5"
+     }
+    ],
+    "injection_noted": false
+   },
+   "raw_content": "{\"status\":{\"C01\":\"stated\",\"C02\":\"stated\",\"C03\":\"stated\",\"C04\":\"stated\",\"C05\":\"not_applicable\",\"C06\":\"stated\",\"C07\":\"stated\",\"C08\":\"stated\",\"C09\":\"stated\",\"C10\":\"stated\",\"C11\":\"not_applicable\",\"C12\":\"not_applicable\",\"C13\":\"stated\",\"C14\":\"stated\",\"C15\":\"stated\",\"C16\":\"stated\",\"C17\":\"stated\",\"C18\":\"stated\",\"C19\":\"stated\"},\"flags\":[],\"inconsistencies\":[{\"items\":[\"C08\"],\"quotes\":[\"Your basic salary is $5,200 per month.\",\"SUMMARY OF KEY TERMS (for payroll) Basic monthly salary: $5,800\"],\"note\":\"basic salary differs between letter and summary\",\"source\":\"S5\"}],\"injection_noted\":false}",
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 700,
+    "prompt_tokens": 2303,
+    "total_tokens": 3003,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 501,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.438505829,
+    "prompt_time": 0.1162467,
+    "completion_time": 0.772452966,
+    "total_time": 0.888699666
+   },
+   "cached": false,
+   "created_utc": "2026-11-10T10:41:15Z"
+  },
+  "L15": {
+   "parsed": {
+    "status": {
+     "C01": "stated",
+     "C02": "stated",
+     "C03": "stated",
+     "C04": "stated",
+     "C05": "stated",
+     "C06": "stated",
+     "C07": "stated",
+     "C08": "stated",
+     "C09": "stated",
+     "C10": "stated",
+     "C11": "stated",
+     "C12": "stated",
+     "C13": "stated",
+     "C14": "stated",
+     "C15": "stated",
+     "C16": "unclear",
+     "C17": "unclear",
+     "C18": "stated",
+     "C19": "stated"
+    },
+    "flags": [
+     {
+      "id": "C16",
+      "quote": "You will be on probation for 3 months.",
+      "guidance": "The TAFEP Handbook says contracts should be clearly written and include Key Employment Terms, and that at the point of job offer all relevant information regarding employment terms must be in place.",
+      "source": "S6"
+     },
+     {
+      "id": "C16",
+      "quote": "Probation: 6 months",
+      "guidance": "The TAFEP Handbook says contracts should be clearly written and include Key Employment Terms, and that at the point of job offer all relevant information regarding employment terms must be in place.",
+      "source": "S6"
+     },
+     {
+      "id": "C17",
+      "quote": "Either party may end your employment by giving 2 weeks' written notice, or pay in lieu (also 2 weeks during probation).",
+      "guidance": "The TAFEP Handbook says contracts should be clearly written and include Key Employment Terms, and that at the point of job offer all relevant information regarding employment terms must be in place.",
+      "source": "S6"
+     },
+     {
+      "id": "C17",
+      "quote": "Notice: 1 month's written notice, or pay in lieu, from either side",
+      "guidance": "The TAFEP Handbook says contracts should be clearly written and include Key Employment Terms, and that at the point of job offer all relevant information regarding employment terms must be in place.",
+      "source": "S6"
+     }
+    ],
+    "inconsistencies": [
+     {
+      "items": [
+       "C16"
+      ],
+      "quotes": [
+       "You will be on probation for 3 months.",
+       "Probation: 6 months"
+      ],
+      "note": "probation period differs between letter and attachment",
+      "source": "S6"
+     },
+     {
+      "items": [
+       "C17"
+      ],
+      "quotes": [
+       "Either party may end your employment by giving 2 weeks' written notice, or pay in lieu (also 2 weeks during probation).",
+       "Notice: 1 month's written notice, or pay in lieu, from either side"
+      ],
+      "note": "notice period differs between letter and attachment",
+      "source": "S6"
+     }
+    ],
+    "injection_noted": false
+   },
+   "raw_content": "{\"status\":{\"C01\":\"stated\",\"C02\":\"stated\",\"C03\":\"stated\",\"C04\":\"stated\",\"C05\":\"stated\",\"C06\":\"stated\",\"C07\":\"stated\",\"C08\":\"stated\",\"C09\":\"stated\",\"C10\":\"stated\",\"C11\":\"stated\",\"C12\":\"stated\",\"C13\":\"stated\",\"C14\":\"stated\",\"C15\":\"stated\",\"C16\":\"unclear\",\"C17\":\"unclear\",\"C18\":\"stated\",\"C19\":\"stated\"},\"flags\":[{\"id\":\"C16\",\"quote\":\"You will be on probation for 3 months.\",\"guidance\":\"The TAFEP Handbook says contracts should be clearly written and include Key Employment Terms, and that at the point of job offer all relevant information regarding employment terms must be in place.\",\"source\":\"S6\"},{\"id\":\"C16\",\"quote\":\"Probation: 6 months\",\"guidance\":\"The TAFEP Handbook says contracts should be clearly written and include Key Employment Terms, and that at the point of job offer all relevant information regarding employment terms must be in place.\",\"source\":\"S6\"},{\"id\":\"C17\",\"quote\":\"Either party may end your employment by giving 2 weeks' written notice, or pay in lieu (also 2 weeks during probation).\",\"guidance\":\"The TAFEP Handbook says contracts should be clearly written and include Key Employment Terms, and that at the point of job offer all relevant information regarding employment terms must be in place.\",\"source\":\"S6\"},{\"id\":\"C17\",\"quote\":\"Notice: 1 month's written notice, or pay in lieu, from either side\",\"guidance\":\"The TAFEP Handbook says contracts should be clearly written and include Key Employment Terms, and that at the point of job offer all relevant information regarding employment terms must be in place.\",\"source\":\"S6\"}],\"inconsistencies\":[{\"items\":[\"C16\"],\"quotes\":[\"You will be on probation for 3 months.\",\"Probation: 6 months\"],\"note\":\"probation period differs between letter and attachment\",\"source\":\"S6\"},{\"items\":[\"C17\"],\"quotes\":[\"Either party may end your employment by giving 2 weeks' written notice, or pay in lieu (also 2 weeks during probation).\",\"Notice: 1 month's written notice, or pay in lieu, from either side\"],\"note\":\"notice period differs between letter and attachment\",\"source\":\"S6\"}],\"injection_noted\":false}",
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 949,
+    "prompt_tokens": 2348,
+    "total_tokens": 3297,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 427,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.15509239,
+    "prompt_time": 0.167545419,
+    "completion_time": 1.127809026,
+    "total_time": 1.295354445
+   },
+   "cached": false,
+   "created_utc": "2026-11-10T10:43:15Z"
+  },
+  "L18": {
+   "parsed": {
+    "status": {
+     "C01": "stated",
+     "C02": "stated",
+     "C03": "stated",
+     "C04": "stated",
+     "C05": "not_applicable",
+     "C06": "missing",
+     "C07": "stated",
+     "C08": "stated",
+     "C09": "stated",
+     "C10": "missing",
+     "C11": "not_applicable",
+     "C12": "not_applicable",
+     "C13": "missing",
+     "C14": "missing",
+     "C15": "missing",
+     "C16": "stated",
+     "C17": "stated",
+     "C18": "missing",
+     "C19": "missing"
+    },
+    "flags": [
+     {
+      "id": "C06",
+      "quote": "",
+      "guidance": "MOM lists working arrangements (daily working hours, working days per week, rest day) as item 6.",
+      "source": "S1"
+     },
+     {
+      "id": "C10",
+      "quote": "",
+      "guidance": "MOM lists fixed deductions as item 10.",
+      "source": "S1"
+     },
+     {
+      "id": "C13",
+      "quote": "",
+      "guidance": "MOM lists other salary-related components, such as bonuses and incentives, as item 13.",
+      "source": "S1"
+     },
+     {
+      "id": "C14",
+      "quote": "",
+      "guidance": "MOM lists the types of leave (annual, outpatient sick, hospitalisation, maternity, childcare) as item 14.",
+      "source": "S1"
+     },
+     {
+      "id": "C15",
+      "quote": "",
+      "guidance": "MOM lists other medical benefits (insurance, medical, dental) as item 15. TAFEP says offers should set out key terms such as benefits.",
+      "source": "S1"
+     },
+     {
+      "id": "C18",
+      "quote": "",
+      "guidance": "MOM lists place of work as an optional item 18 and strongly encourages including it, used if the work location differs from the employer's address.",
+      "source": "S1"
+     },
+     {
+      "id": "C19",
+      "quote": "",
+      "guidance": "TAFEP says candidates should get sufficient time and opportunity to clarify and consider the terms and conditions of the offer before acceptance. TAFEP gives no number of days.",
+      "source": "S5"
+     }
+    ],
+    "inconsistencies": [],
+    "injection_noted": false
+   },
+   "raw_content": "{\"status\":{\"C01\":\"stated\",\"C02\":\"stated\",\"C03\":\"stated\",\"C04\":\"stated\",\"C05\":\"not_applicable\",\"C06\":\"missing\",\"C07\":\"stated\",\"C08\":\"stated\",\"C09\":\"stated\",\"C10\":\"missing\",\"C11\":\"not_applicable\",\"C12\":\"not_applicable\",\"C13\":\"missing\",\"C14\":\"missing\",\"C15\":\"missing\",\"C16\":\"stated\",\"C17\":\"stated\",\"C18\":\"missing\",\"C19\":\"missing\"},\"flags\":[{\"id\":\"C06\",\"quote\":\"\",\"guidance\":\"MOM lists working arrangements (daily working hours, working days per week, rest day) as item 6.\",\"source\":\"S1\"},{\"id\":\"C10\",\"quote\":\"\",\"guidance\":\"MOM lists fixed deductions as item 10.\",\"source\":\"S1\"},{\"id\":\"C13\",\"quote\":\"\",\"guidance\":\"MOM lists other salary-related components, such as bonuses and incentives, as item 13.\",\"source\":\"S1\"},{\"id\":\"C14\",\"quote\":\"\",\"guidance\":\"MOM lists the types of leave (annual, outpatient sick, hospitalisation, maternity, childcare) as item 14.\",\"source\":\"S1\"},{\"id\":\"C15\",\"quote\":\"\",\"guidance\":\"MOM lists other medical benefits (insurance, medical, dental) as item 15. TAFEP says offers should set out key terms such as benefits.\",\"source\":\"S1\"},{\"id\":\"C18\",\"quote\":\"\",\"guidance\":\"MOM lists place of work as an optional item 18 and strongly encourages including it, used if the work location differs from the employer's address.\",\"source\":\"S1\"},{\"id\":\"C19\",\"quote\":\"\",\"guidance\":\"TAFEP says candidates should get sufficient time and opportunity to clarify and consider the terms and conditions of the offer before acceptance. TAFEP gives no number of days.\",\"source\":\"S5\"}],\"inconsistencies\":[],\"injection_noted\":false}",
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 785,
+    "prompt_tokens": 1908,
+    "total_tokens": 2693,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 367,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cached_tokens": 1792
+    },
+    "queue_time": 0.157066297,
+    "prompt_time": 0.013262122,
+    "completion_time": 0.897325322,
+    "total_time": 0.910587444
+   },
+   "cached": false,
+   "created_utc": "2026-11-10T10:51:16Z"
+  },
+  "L20": {
+   "error": "DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198937, Requested 3066. Please try again in 14m25.295999999s. Need more tokens"
+  }
+ },
+ "usage_new_tokens": {
+  "prompt": 8841,
+  "completion": 3148,
+  "total": 11989
+ }
+}

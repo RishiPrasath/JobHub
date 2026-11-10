@@ -1,0 +1,7 @@
+batch 0 ['E2', 'E4', 'A05', 'J01'] -> [2, 1, 1, 0] 1608 tok 
+batch 1 ['B01', 'B08', 'J04', 'C07'] -> [0, 0, 0, 1] 1303 tok 
+batch 2 ['A08', 'B09', 'J06', 'C06'] -> [1, 0, 0, 2] 1564 tok 
+batch 3 ['A02', 'E5', 'J03', 'A01'] -> [0, 0, 0, 1] 1254 tok 
+batch 4 ['B10', 'B04', 'C09', 'A06'] -> [0, 0, 1, 1] 1426 tok 
+STOP: chat failed after 8 attempts: Error code: 429 - {'error': {'message': "Request too large for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on outpu
+total tokens 7155

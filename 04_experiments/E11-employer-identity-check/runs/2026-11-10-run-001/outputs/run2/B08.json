@@ -1,0 +1,276 @@
+{
+ "employer": "Swensen's",
+ "role": "Service Crew",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 1673 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "similar_name_only",
+  "summary": "No registered entity is named 'Swensen's'. The closest registered name is ABR SWENSEN'S PTE. LTD., which may be a different company.",
+  "basis": "name only",
+  "entity": null,
+  "closest": {
+   "uen": "199408968D",
+   "name": "ABR SWENSEN'S PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1994-12-07",
+   "activity": "na",
+   "alternatives": [
+    "EARLE SWENSEN'S",
+    "KIRRIBILLI HOLDINGS PTE LTD"
+   ]
+  },
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Swensen's\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Swensen's\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Swensen's\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Swensen's\" Service Crew interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Swensen's\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://abr.com.sg/careers",
+    "status": "ok",
+    "chars": 33239,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://abr.com.sg/job-Company/swensens-earle-swensens",
+    "status": "ok",
+    "chars": 1822,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Swensens-Of-Singapore-1996-Pte-Ltd",
+    "status": "ok",
+    "chars": 2153,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/business/199601931C/SWENSEN-S-OF-SINGAPORE-1996-PTE-LTD",
+    "status": "ok",
+    "chars": 6188,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Abr-Holdings-Limited",
+    "status": "ok",
+    "chars": 13036,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://recordowl.com/company/swensen-s-of-singapore-1996-pte-ltd",
+    "status": "ok",
+    "chars": 4432,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://companieshouse.sg/swensen-s-of-singapore-199601931c",
+    "status": "ok",
+    "chars": 1235,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://sgpgrid.com/company-details/swensens-of-singapore-1996-pte-ltd",
+    "status": "irrelevant",
+    "chars": 460,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.indeed.com/cmp/Swensen's/reviews",
+    "title": "Working at Swensen's: Employee Reviews | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/swensens-168559249031197/reviews",
+    "title": "Reviews Swensen's employee ratings and reviews | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/swensens-168559249031197",
+    "title": "Working at Swensen's company profile and information | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/Swensen-s-Singapore-Reviews-EI_IE1851420.0,9_IL.10,19_IN217.htm",
+    "title": "Swensen's Reviews in Singapore | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Swensen-s-Singapore-Reviews-EI_IE1851420.0,9_IL.10,19_IC3235921.htm",
+    "title": "Swensen's Reviews in Singapore | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/Swensen-s-Singapore-Reviews-EI_IE1851420.0,9_IL.10,19_IM1123.htm",
+    "title": "Swensen's Reviews in Singapore, Singapore | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Swensen-s-Reviews-E1851420.htm",
+    "title": "Swensen's Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Swensen's",
+    "title": "Swensen's Careers and Employment | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Overview/Working-at-Swensen-s-EI_IE1851420.11,20.htm",
+    "title": "Working at Swensen's | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Overview/Working-at-Swensen-s-EI_IE1851420.11,20.htm",
+    "title": "Working at Swensen's | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "swensen s"
+   ],
+   "pages_with_exact_name": 7,
+   "snippets_with_exact_name": 24,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 16,
+  "registry_mirror_pages": 4
+ },
+ "headline": "brand_legal_entity_unconfirmed",
+ "headline_meaning": "Public sources describe a company by this name, but the registry has no entity with this exact name. It may trade under a brand name; the legal employer is not confirmed.",
+ "reasons": [
+  "registry: similar_name_only",
+  "exact name seen 31 times in sources"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://sgpgrid.com/company-details/swensens-of-singapore-1996-pte-ltd",
+   "why": "irrelevant: the page never mentions the company name"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://sg.indeed.com/cmp/Swensen's/reviews",
+   "title": "Working at Swensen's: Employee Reviews | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/swensens-168559249031197/reviews",
+   "title": "Reviews Swensen's employee ratings and reviews | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/swensens-168559249031197",
+   "title": "Working at Swensen's company profile and information | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Swensen-s-Singapore-Reviews-EI_IE1851420.0,9_IL.10,19_IN217.htm",
+   "title": "Swensen's Reviews in Singapore | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Swensen-s-Singapore-Reviews-EI_IE1851420.0,9_IL.10,19_IC3235921.htm",
+   "title": "Swensen's Reviews in Singapore | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/Swensen-s-Singapore-Reviews-EI_IE1851420.0,9_IL.10,19_IM1123.htm",
+   "title": "Swensen's Reviews in Singapore, Singapore | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Swensen-s-Reviews-E1851420.htm",
+   "title": "Swensen's Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Swensen's",
+   "title": "Swensen's Careers and Employment | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Overview/Working-at-Swensen-s-EI_IE1851420.11,20.htm",
+   "title": "Working at Swensen's | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Overview/Working-at-Swensen-s-EI_IE1851420.11,20.htm",
+   "title": "Working at Swensen's | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Which registered company is the legal employer behind this brand."
+ ],
+ "seconds": 47.3,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

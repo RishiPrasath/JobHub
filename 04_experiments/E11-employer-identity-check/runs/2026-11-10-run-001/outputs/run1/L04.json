@@ -1,0 +1,204 @@
+{
+ "employer": "Changi Airport Group (Singapore) Pte. Ltd.",
+ "role": "Airport Operations Executive",
+ "degraded": [
+  "summary_unavailable: model service busy: waited 90 s"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "CHANGI AIRPORT GROUP (SINGAPORE) PTE. LTD. is registered in Singapore (status: Live Company, registered 2009-06-16).",
+  "basis": "name only",
+  "entity": {
+   "uen": "200910817N",
+   "name": "CHANGI AIRPORT GROUP (SINGAPORE) PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2009-06-16",
+   "activity": "AIRPORT MANAGEMENT AND OPERATION, AIRPORT DEVELOPMENT AND CONSTRUCTION"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Changi Airport Group (Singapore) Pte. Ltd.\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Changi Airport Group (Singapore) Pte. Ltd.\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Changi Airport Group (Singapore) Pte. Ltd.\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Changi Airport Group (Singapore) Pte. Ltd.\" Airport Operations Executive interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Changi Airport Group (Singapore) Pte. Ltd.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.changiairport.com/en/corporate.html",
+    "status": "ok",
+    "chars": 499,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Changi-Airport-Group-Singapore-Pte-Ltd",
+    "status": "ok",
+    "chars": 4623,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/business/200910817N/CHANGI-AIRPORT-GROUP-SINGAPORE-PTE-LTD",
+    "status": "ok",
+    "chars": 23020,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.changiairport.com/en/corporate/about-us.html",
+    "status": "ok",
+    "chars": 4551,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/1102-mom-investigating-companies-involved-in-airport-operations-for-suspected-work-pass-offences",
+    "status": "ok",
+    "chars": 2189,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://forums.hardwarezone.com.sg/threads/mothership-changi-travel-services-retrenches-30-staff-amidst-restructuring-efforts.7152087",
+    "status": "ok",
+    "chars": 3987,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.straitstimes.com/business/changi-travel-services-cuts-30-staff-amid-market-shifts",
+    "status": "ok",
+    "chars": 2548,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.businesstimes.com.sg/companies-markets/transport-logistics/changi-travel-services-cuts-30-staff-amid-market-shifts",
+    "status": "ok",
+    "chars": 2784,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Reviews/Changi-Airport-Group-Reviews-E1466539.htm",
+    "title": "Changi Airport Group Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/changi-airport-group-168556552956397/reviews",
+    "title": "Reviews Changi Airport Group employee ratings and reviews",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Changi-Airport-Group/reviews",
+    "title": "Working at Changi Airport Group: 91 Reviews | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/changi-airport-group-168556552956397",
+    "title": "Working at Changi Airport Group company profile and information ...",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "changi airport group singapore"
+   ],
+   "pages_with_exact_name": 2,
+   "snippets_with_exact_name": 11,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 9,
+  "registry_mirror_pages": 2
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (6 pages read, model: None)"
+ ],
+ "brief": null,
+ "could_not_read": [],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Reviews/Changi-Airport-Group-Reviews-E1466539.htm",
+   "title": "Changi Airport Group Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/changi-airport-group-168556552956397/reviews",
+   "title": "Reviews Changi Airport Group employee ratings and reviews",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Changi-Airport-Group/reviews",
+   "title": "Working at Changi Airport Group: 91 Reviews | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/changi-airport-group-168556552956397",
+   "title": "Working at Changi Airport Group company profile and information ...",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 135.4,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

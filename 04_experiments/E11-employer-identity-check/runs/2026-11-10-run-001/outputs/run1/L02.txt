@@ -1,0 +1,42 @@
+Keppel Ltd  (role: Project Engineer)
+HEADLINE: exists_and_consistent
+  Registered in Singapore, and public sources agree it is the company named.
+  because: registry: confirmed; model: consistent across 4 pages
+REGISTRY: confirmed. KEPPEL LTD. is registered in Singapore (status: Live Company, registered 1968-08-03).
+WEB: 5 queries (bing, duckduckgo), 8 of 8 pages read, exact name seen in 8 pages and 19 search results
+BRIEF (model rating: appears_real_and_consistent, confidence medium; 10 claims verified, 1 unverified)
+  Facts:
+    [verified] Legal name and registration details
+    [verified] Incorporated on 3 August 1968
+    [verified] Principal business activity is investment holding and management
+    [verified] Registered address is Keppel Bay Tower, 1 Harbourfront Avenue, Singapore 098632
+    [UNVERIFIED] Formerly known as Keppel Corporation and renamed to Keppel Ltd in January 2024
+    [verified] Listed on the Singapore Exchange (SGX) under code BN4.SI
+  Positive signals:
+    [verified] Long operating history (over 58 years)
+    [verified] Public company with substantial paid‑up capital
+    [verified] Operates as a holding company for a diversified group
+  Red flags:
+    [verified] Employee count of more than 30,000 may refer to the broader Keppel group rather than
+    Keppel Ltd alone
+    [verified] Some sources describe Keppel Ltd as a holding company while others emphasize
+    operating platforms, indicating possible scope ambiguity
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 7):
+  - Keppel Corporation Interview Questions (2026) | Gl  https://www.glassdoor.sg/Interview/Keppel-
+    Corporation-Interview-Questions-E8078.
+  - 83 Keppel Corporation Interview Questions & Answer
+    https://www.glassdoor.co.in/Interview/Keppel-Corporation-Interview-Questions-E80
+  - Keppel Corporation Interview Questions in Singapor  https://www.glassdoor.com/Interview/Keppel-
+    Singapore-Interview-Questions-EI_IE80
+  - 497 Salaries at Keppel Corporation Shared by Emplo  https://www.glassdoor.sg/Salary/Keppel-
+    Corporation-Salaries-E8078.htm
+  - Keppel Corporation Jobs in Singapore (with Salarie  https://sg.jobstreet.com/Keppel-Corporation-
+    jobs
+  - Keppel Engineer Jobs in Singapore (with Salaries)   https://sg.jobstreet.com/keppel-engineer-
+    jobs
+COULD NOT VERIFY:
+  - Specific details about the Project Engineer role (responsibilities, salary, team structure)
+  - Exact number of employees for Keppel Ltd (the 30,000 figure appears in a Wikipedia entry that
+    may refer to the broader group)
+  - Current financial performance metrics
+(118.0s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

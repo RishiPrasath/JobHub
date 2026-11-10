@@ -1,0 +1,38 @@
+McDonald's Singapore  (role: Crew)
+HEADLINE: brand_legal_entity_unconfirmed
+  Public sources describe a company by this name, but the registry has no entity with this exact
+  name. It may trade under a brand name; the legal employer is not confirmed.
+  because: registry: similar_name_only; exact name seen 4 times in sources
+REGISTRY: similar_name_only. No registered entity is named 'McDonald's Singapore'. The closest registered name is HANBAOBAO PTE. LTD., which may be a different company.
+WEB: 5 queries (bing), 6 of 8 pages read, exact name seen in 2 pages and 2 search results
+BRIEF (model rating: appears_real_and_consistent, confidence high; 5 claims verified, 1 unverified)
+  about: the brand named in the posting; the registered legal employer is not confirmed
+  Facts:
+    [verified] McDonald's restaurants in Singapore are operated by Hanbaobao Pte. Ltd., formerly
+    known as McDonald's Restaurants (Singapore).
+    [verified] The recruitment process for crew roles includes a face‑to‑face interview and a
+    selection assessment.
+    [verified] Service crew positions are paid on an hourly rate that varies by restaurant.
+    [verified] McDonald's Singapore employs roughly 9,000 people and serves over 6 million customers
+    monthly.
+  Positive signals:
+    [UNVERIFIED] McDonald’s Singapore has a long‑standing corporate presence, incorporated in 1976.
+    [verified] The company is listed as a fast‑food outlet (SSIC 56121).
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 12):
+  - McDonald's Reviews in Singapore | Glassdoor  https://www.glassdoor.sg/Reviews/McDonald-s-
+    Singapore-Reviews-EI_IE432.0,10_IL.1
+  - McDonald's Reviews in Singapore | Glassdoor  https://www.glassdoor.com/Reviews/McDonald-s-
+    Singapore-Reviews-EI_IE432.0,10_IL.
+  - Reviews McDonald's employee ratings and reviews |
+    https://sg.jobstreet.com/companies/mcdonalds-168555623111574/reviews
+  - Working at McDonald's: 275 Reviews | Indeed.com  https://sg.indeed.com/cmp/McDonald's/reviews
+  - McDonald's Reviews | Glassdoor  https://www.glassdoor.sg/Reviews/McDonald-s-Reviews-E432.htm
+  - Working at McDonald's company profile and informat
+    https://sg.jobstreet.com/companies/mcdonalds-168555623111574
+COULD NOT READ (2):
+  - https://careers.mcdonalds.com.sg/join-us-faq  (blocked: challenge or login-wall text)
+  - https://careers.mcdonalds.com.sg/roles/crew  (blocked: challenge or login-wall text)
+COULD NOT VERIFY:
+  - Exact legal entity named "McDonald's Singapore" was not found in the official registry
+  - Which registered company is the legal employer behind this brand.
+(131.8s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

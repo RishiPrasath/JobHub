@@ -1,0 +1,373 @@
+{
+ "employer": "Nium Pte. Ltd.",
+ "role": "Software Engineer",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "NIUM PTE. LTD. is registered in Singapore (status: Live Company, registered 2014-08-01).",
+  "basis": "name only",
+  "entity": {
+   "uen": "201422465R",
+   "name": "NIUM PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2014-08-01",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [
+   "other entities start with this name: NIUM (S) PTE. LTD."
+  ],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Nium Pte. Ltd.\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Nium Pte. Ltd.\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Nium Pte. Ltd.\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Nium Pte. Ltd.\" Software Engineer interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Nium Pte. Ltd.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.greatplacetowork.com/en/certified-company/7039708",
+    "status": "ok",
+    "chars": 5341,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.nium.com/careers",
+    "status": "ok",
+    "chars": 3468,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://hyring.com/company/nium",
+    "status": "ok",
+    "chars": 2636,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://fintechnews.sg/79414/remittance/rise-of-nium-to-become-a-rare-singaporean-fintech-unicorn",
+    "status": "ok",
+    "chars": 6808,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Nium",
+    "status": "ok",
+    "chars": 15784,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://dataford.io/interview-guides/nium",
+    "status": "thin",
+    "chars": 120,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://internship.sg/guide/nium-internship-guide",
+    "status": "thin",
+    "chars": 120,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://prachub.com/interview-guide/nium-software-engineer-interview-questions-guide-2026",
+    "status": "ok",
+    "chars": 26875,
+    "note": null,
+    "tier": "render"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Overview/Working-at-Nium-EI_IE3203064.11,15.htm",
+    "title": "Working at Nium | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/nium-172665347683829",
+    "title": "Working at NIUM company profile and information | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Nium-Pte.-Ltd.",
+    "title": "NIUM PTE. LTD. Careers and Employment | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.linkedin.com/company/nium-global",
+    "title": "Nium - LinkedIn",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Interview/Nium-Interview-Questions-E3203064.htm",
+    "title": "Nium Interview Experience & Questions (2026) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "nium"
+   ],
+   "pages_with_exact_name": 6,
+   "snippets_with_exact_name": 24,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 15,
+  "registry_mirror_pages": 0
+ },
+ "headline": "exists_and_consistent",
+ "headline_meaning": "Registered in Singapore, and public sources agree it is the company named.",
+ "reasons": [
+  "registry: confirmed",
+  "model: consistent across 6 pages"
+ ],
+ "brief": {
+  "validity_reasoning": "Multiple independent sources (registry record, company website, third‑party profiles) consistently describe Nium Pte. Ltd. as a Singapore‑registered fintech company founded in 2014, with a global payments platform, >750 employees, and operations in 190+ countries. No conflicting information was found.",
+  "confidence": "high",
+  "could_not_verify": [],
+  "key_facts": [
+   {
+    "claim": "Legal name and registration details",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Legal name: NIUM PTE. LTD. ... Status: Live Company ... Registered: 2014-08-01",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Founded in 2014 and headquartered in Singapore",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://hyring.com/company/nium",
+      "quote": "Founded 2014 ... Headquarters Singapore",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 5,
+      "url": "https://en.wikipedia.org/wiki/Nium",
+      "quote": "Founded 2014 ... Headquarters Singapore",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Industry: cross‑border payments / financial services",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://hyring.com/company/nium",
+      "quote": "Industry Cross-border payments infrastructure",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 5,
+      "url": "https://en.wikipedia.org/wiki/Nium",
+      "quote": "Industry Financial services",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Employee count exceeds 750",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://hyring.com/company/nium",
+      "quote": "Team More than 750 people",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 5,
+      "url": "https://en.wikipedia.org/wiki/Nium",
+      "quote": "Employees >750 (2021)",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Global reach: services in 190+ countries, 100+ currencies",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://www.nium.com/careers",
+      "quote": "Nium connects 190+ countries, over 100 currencies",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 3,
+      "url": "https://hyring.com/company/nium",
+      "quote": "Payout reach More than 190 countries",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Software Engineer role focuses on building global payments infrastructure",
+    "evidence": [
+     {
+      "source": 8,
+      "url": "https://prachub.com/interview-guide/nium-software-engineer-interview-questions-guide-2026",
+      "quote": "As a Software Engineer at NIUM, you are at the heart of building the infrastructure that powers global financial movement.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "Highly rated workplace (Great Place to Work)",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://www.greatplacetowork.com/en/certified-company/7039708",
+      "quote": "73% of employees at Nium Pte Ltd say it is a great place to work",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Strong growth and market position (unicorn status)",
+    "evidence": [
+     {
+      "source": 4,
+      "url": "https://fintechnews.sg/79414/remittance/rise-of-nium-to-become-a-rare-singaporean-fintech-unicorn",
+      "quote": "Nium ... attained the status of unicorn, a valuation of over US$1 billion",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Robust product portfolio (stablecoin, real‑time payouts, API)",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://www.nium.com/careers",
+      "quote": "From stablecoin rails to real-time payouts, what you make at Nium moves money for 1,000+ businesses",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 3,
+      "url": "https://hyring.com/company/nium",
+      "quote": "Nium launches dual-network stablecoin card issuance",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "red_flags": [],
+  "claims_verified": 6,
+  "claims_unverified": 3,
+  "model_validity_status": "appears_real_and_consistent"
+ },
+ "could_not_read": [
+  {
+   "url": "https://dataford.io/interview-guides/nium",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://internship.sg/guide/nium-internship-guide",
+   "why": "thin: fewer than 400 characters of real content"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Overview/Working-at-Nium-EI_IE3203064.11,15.htm",
+   "title": "Working at Nium | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/nium-172665347683829",
+   "title": "Working at NIUM company profile and information | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Nium-Pte.-Ltd.",
+   "title": "NIUM PTE. LTD. Careers and Employment | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.linkedin.com/company/nium-global",
+   "title": "Nium - LinkedIn",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Interview/Nium-Interview-Questions-E3203064.htm",
+   "title": "Nium Interview Experience & Questions (2026) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 128.5,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

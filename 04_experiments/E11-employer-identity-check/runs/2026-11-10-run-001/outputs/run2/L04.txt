@@ -1,0 +1,17 @@
+Changi Airport Group (Singapore) Pte. Ltd.  (role: Airport Operations Executive)
+HEADLINE: exists_limited_evidence
+  Registered in Singapore, but there is little public evidence beyond the registry.
+  because: registry: confirmed; web evidence thin (6 pages read, model: None)
+REGISTRY: confirmed. CHANGI AIRPORT GROUP (SINGAPORE) PTE. LTD. is registered in Singapore (status: Live Company, registered 2009-06-16).
+WEB: 5 queries (bing), 8 of 8 pages read, exact name seen in 2 pages and 11 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 4):
+  - Changi Airport Group Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/Changi-Airport-Group-
+    Reviews-E1466539.htm
+  - Reviews Changi Airport Group employee ratings and   https://sg.jobstreet.com/companies/changi-
+    airport-group-168556552956397/reviews
+  - Working at Changi Airport Group: 91 Reviews | Inde  https://sg.indeed.com/cmp/Changi-Airport-
+    Group/reviews
+  - Working at Changi Airport Group company profile an  https://sg.jobstreet.com/companies/changi-
+    airport-group-168556552956397
+DEGRADED: summary_unavailable: model rate limit reached (retry in 2120 s)
+(59.4s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

@@ -1,0 +1,46 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "create-job_seeker-1",
+ "run": 2,
+ "attempt": 1,
+ "created_utc": "2026-11-10T11:35:45Z",
+ "latency_s": 2.0,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1400,
+  "temperature": 0.9,
+  "response_format": {
+   "type": "json_object"
+  },
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are the Persona Creator for JobHub, a research project on job-search intelligence in Singapore.\nYou create FICTIONAL simulation personas for testing. Rules:\n- Every persona is invented. Never use a real person, a real company's staff, or identifiable details.\n- Vary the personas along the requested axes so the set is not clustered. Do not default to one profile.\n- Describe circumstances and behaviour, not protected characteristics as a basis for judgement. Include\n  age band, citizenship or work-pass status, or family situation ONLY where the brief makes it relevant to the task.\n- Give each persona realistic limits: what they do not know, where they get impatient, what they would skip.\n- Do not make any persona an expert, enthusiastic or compliant by default.\n- Output JSON only."
+  },
+  {
+   "role": "user",
+   "content": "Brief: six job seekers in Singapore with mixed digital comfort, who skim: include an early-career graduate, a mid-career switcher, a worker in a manual or service job, a professional with a decade of experience, one sceptical of AI tools, and one who reads very literally\nKind of persona: job_seeker (a person looking for work in Singapore)\nNumber of personas: 2\nVariation axes (spread the set across these): experience level, digital comfort, time pressure, trust in AI tools, industry, confidence\nTask context (what the personas will be asked to do; do not answer it): choose the occupation that matches a posting from a short list, then read a pay range\n\nReturn JSON: {\"personas\": [{\n  \"persona_id\": \"short-slug\",\n  \"kind\": \"job_seeker\",\n  \"label\": \"6-10 word description\",\n  \"first_name\": \"fictional first name\",\n  \"background\": \"2-3 sentences, no identifying detail\",\n  \"situation_now\": \"what they are doing about work/hiring right now\",\n  \"goals\": [\"...\"],\n  \"constraints\": [\"time, money, status, confidence, digital skill ...\"],\n  \"digital_comfort\": \"low|medium|high\",\n  \"reading_style\": \"how they read documents (skims, reads every word, trusts headlines ...)\",\n  \"attitude_to_ai\": \"short\",\n  \"known_gaps\": [\"things they do not know or would get wrong\"],\n  \"biases_or_habits\": [\"...\"],\n  \"voice\": \"how they speak, 1 sentence\",\n  \"simulation_notes\": \"anything the runner must keep in mind (e.g. would abandon after 3 minutes)\"\n}]}\nAlready created (make these clearly different): ['Recent graduate, low digital confidence, skims fast', 'Mid‑career switcher, medium digital skill, AI‑skeptical', 'Service staff, high digital comfort, reads literally', '10‑year professional, medium digital skill, confident']"
+  }
+ ],
+ "content": "{\n  \"personas\": [\n    {\n      \"persona_id\": \"grad-skim-lowai\",\n      \"kind\": \"job_seeker\",\n      \"label\": \"Recent graduate, low digital confidence, skims fast\",\n      \"first_name\": \"Wei\",\n      \"background\": \"Wei, 23, recently finished a Bachelor of Business Administration at a local university. He has limited experience with online job platforms and prefers mobile apps over desktop tools.\",\n      \"situation_now\": \"Scrolling through job boards on his phone during evenings, hoping to land an entry‑level analyst role.\",\n      \"goals\": [\n        \"Secure a full‑time position within 2 months\",\n        \"Earn enough to cover rent and student loan repayments\"\n      ],\n      \"constraints\": [\n        \"Low digital confidence makes him avoid complex filters\",\n        \"Limited time – only 1‑2 hours per day to job search\",\n        \"Budget constraints for premium job‑site subscriptions\"\n      ],\n      \"digital_comfort\": \"low\",\n      \"reading_style\": \"Skims headlines and bullet points, stops if anything looks unfamiliar\",\n      \"attitude_to_ai\": \"Uncertain, thinks AI suggestions might be generic\",\n      \"known_gaps\": [\n        \"May misinterpret salary ranges presented in yearly vs monthly terms\",\n        \"Unfamiliar with industry‑specific jargon\"\n      ],\n      \"biases_or_habits\": [\n        \"Prefers roles that mention \\\"training provided\\\"\",\n        \"Avoids postings with long paragraphs\"\n      ],\n      \"voice\": \"I just want something clear and quick to read, so I can decide fast.\",\n      \"simulation_notes\": \"If the pay range isn’t highlighted in bold or a separate line, Wei will skip the posting after 30 seconds.\"\n    },\n    {\n      \"persona_id\": \"service-lit-highai\",\n      \"kind\": \"job_seeker\",\n      \"label\": \"Service staff, high digital comfort, reads literally\",\n      \"first_name\": \"Aisha\",\n      \"background\": \"Aisha, 38, has worked 12 years as a front‑desk officer at a hotel chain. She is comfortable with smartphones, uses multiple apps daily, and follows tech news.\",\n      \"situation_now\": \"Actively looking for a supervisory role in hospitality or retail, browsing curated job lists on a laptop.\",\n      \"goals\": [\n        \"Find a position with clear promotion path\",\n        \"Maintain a stable income to support her family\"\n      ],\n      \"constraints\": [\n        \"Needs a role with predictable hours for childcare\",\n        \"Wants transparent salary information before applying\"\n      ],\n      \"digital_comfort\": \"high\",\n      \"reading_style\": \"Reads every word, takes notes line by line, flags any ambiguous phrasing\",\n      \"attitude_to_ai\": \"Open, trusts AI‑generated match scores if they explain the reasoning\",\n      \"known_gaps\": [\n        \"May overlook benefits that are implied rather than explicitly listed\",\n        \"Could get stuck on minor wording differences\"\n      ],\n      \"biases_or_habits\": [\n        \"Prefers postings that list exact pay range rather than “competitive”\",\n        \"Avoids roles that require heavy travel\"\n      ],\n      \"voice\": \"I need all the details spelled out so I can compare options accurately.\",\n      \"simulation_notes\": \"Aisha will spend up to 5 minutes per posting, but will abandon if the pay range is not presented in a separate, clearly labeled field.\"\n    }\n  ]\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 741,
+  "prompt_tokens": 685,
+  "total_tokens": 1426,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 12,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.159551337,
+  "prompt_time": 0.142104993,
+  "completion_time": 1.5722800399999999,
+  "total_time": 1.7143850330000001
+ },
+ "cached": false
+}

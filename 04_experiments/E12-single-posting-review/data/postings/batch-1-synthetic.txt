@@ -1,0 +1,106 @@
+# Batch 1: synthetic postings P04 to P09, written by Claude (an AI) on 2026-11-10 in the layout of the named board. synthetic=true.
+# All employer names, phone numbers, e-mail addresses (example domains) and licence/UEN numbers are invented. Any resemblance to a real organisation is coincidental.
+# Not copied from any site. Layouts imitate the general structure of MyCareersFuture, JobStreet, FastJobs and a company careers page. They do not represent the market.
+
+=== E12-P04 | board=MyCareersFuture | ownership=mixed | type=manual-warehouse | synthetic=true ===
+L01: Warehouse Assistant
+L02: Bluefin Cold Storage Pte Ltd
+L03: Location: Tuas South Avenue 9, Singapore
+L04: $2,200 to $2,700 Monthly
+L05: Permanent | Full Time | Non-executive
+L06: Entry level, no experience required
+L07: Job description: Receive, check and put away incoming chilled and frozen stock.
+L08: Pick and pack orders according to pick lists; load and unload delivery vehicles with forklift support.
+L09: Work in cold room environment (-18C to 4C). Jackets provided.
+L10: Requirements: Able to lift up to 25kg repeatedly. Forklift licence is a plus. Basic English.
+L11: Working hours: Rotating shifts, 6 days a week. Shift allowance provided.
+L12: Benefits: AWS, medical, annual leave per MOM requirements.
+L13: Skills match: 45% matched (based on your profile)
+L14: 31 applications so far. Posted 2 days ago.
+L15: Job post number: MCF-2026-0711432
+L16: How to apply: Apply via MyCareersFuture.
+
+=== E12-P05 | board=MyCareersFuture | ownership=mixed | type=clerical-data-entry | synthetic=true ===
+L01: Admin Assistant (Data Entry)
+L02: Harbourline Trading Pte Ltd
+L03: Location: Kallang Way, Singapore
+L04: $2,400 to $3,000 Monthly
+L05: Permanent | Full Time | Entry level
+L06: Key responsibilities: Key in purchase orders, delivery orders and invoices into our system.
+L07: Respond to supplier and customer emails and calls.
+L08: Assist the finance team on ad-hoc tasks.
+L09: Requirements: Diploma or Higher Nitec in Business Administration or a related field.
+L10: Proficient in Microsoft Excel and Word. Experience with SAP is an advantage.
+L11: Able to commence work at short notice.
+L12: Working hours: Monday to Friday, 8.30am to 5.30pm. Alternate Saturdays as required.
+L13: Skills match: 78% matched
+L14: 12 applications so far. Posted 5 days ago. Closing 12 Dec 2026.
+L15: Job post number: MCF-2026-0713090
+L16: Apply through MyCareersFuture. Shortlisted candidates will be notified.
+
+=== E12-P06 | board=MyCareersFuture | ownership=mixed | type=professional-accountant | synthetic=true | planted_contradiction=pay ===
+L01: Senior Accountant
+L02: Greenfold Engineering Pte Ltd
+L03: Location: Jurong Gateway Road, Singapore
+L04: $5,500 to $7,000 Monthly
+L05: Permanent | Full Time | Senior Executive
+L06: Minimum 6 years of experience
+L07: Responsibilities: Lead the month-end close and prepare consolidated financial statements under SFRS.
+L08: Manage GST and corporate tax filing together with our external tax agent.
+L09: Supervise two accounts executives.
+L10: Requirements: Degree in Accountancy; ISCA or ACCA qualified, or in progress.
+L11: Experience in manufacturing or engineering groups is preferred.
+L12: Working hours: Monday to Friday, 9am to 6pm. Hybrid arrangement after probation.
+L13: Package: The salary offered for this role is $4,800 to $6,000 per month depending on experience, plus 13th month AWS and a variable bonus.
+L14: Skills match: 31% matched
+L15: 8 applications so far
+L16: Job post number: MCF-2026-0714257
+L17: Apply via MyCareersFuture.
+
+=== E12-P07 | board=JobStreet | ownership=mixed | type=clerical-customer-service | synthetic=true | planted_contradiction=shift_time ===
+L01: Customer Service Executive
+L02: Sunridge Connect Pte. Ltd.
+L03: Tampines, East Region
+L04: Full time
+L05: S$2,600 - S$3,200 per month
+L06: Posted 3d ago
+L07: Be careful: never pay money to secure a job. Report this job.
+L08: Job details
+L09: Handle inbound calls and chat enquiries from broadband customers.
+L10: Resolve billing and service issues and log cases in the CRM.
+L11: Shift work: you will work 9am to 6pm, Monday to Friday, with rotating weekend duty once a month.
+L12: Requirements: Minimum GCE O-Level. 1 year of customer service experience preferred. Good spoken English; Mandarin or Malay is a plus.
+L13: Benefits: Shift allowance, performance incentive, medical and dental coverage.
+L14: Working hours: 11am to 8pm (shift), 5 days a week.
+L15: Company insights: 3.4 stars from 5 reviews
+L16: Jobs you might like: Customer Support Specialist S$3,000 - S$3,800
+L17: Quick apply
+
+=== E12-P08 | board=FastJobs | ownership=mixed | type=parttime-retail | synthetic=true | planted_contradiction=pay ===
+L01: Part-time Retail Assistant (Weekends)
+L02: S$14 /hour
+L03: Part-time | Immediate start | Near Jurong East MRT
+L04: Employer normally responds within 24 hours
+L05: Updated: 2026-11-08 | Expires: 2026-11-15
+L06: Company: Corner Basket Mart
+L07: Responsibilities: Operate the cashier counter, replenish shelves, keep the store clean.
+L08: Requirements: Must be able to work every Saturday and Sunday. Minimum age 18. Students welcome.
+L09: Salary: S$11.50 per hour, paid weekly.
+L10: Hours: Saturday and Sunday, 10am to 7pm.
+L11: 14 candidates applied
+L12: Verified employer
+L13: Apply now, or WhatsApp +65 5555 0142
+
+=== E12-P09 | board=Company careers page | ownership=employer | type=manual-security | synthetic=true | planted_contradiction=shift_time ===
+L01: Careers | Northgate Protective Services Pte Ltd
+L02: Security Officer (Shopping Mall, Orchard area)
+L03: Join our team. We are a licensed security agency serving commercial and residential clients.
+L04: What you will do: Patrol the mall, control access, respond to incidents and write incident reports.
+L05: Shift: 12-hour night shift, 7pm to 7am, 6 days per week.
+L06: Salary: from $2,350 per month including allowances. Overtime is paid separately.
+L07: Requirements: Hold or be willing to attain the Basic Security Officer certification. Training is provided.
+L08: Reporting: You will report to the site supervisor at the mall.
+L09: Shift timing: Night duty reports at 8pm and ends at 6am, with a 1-hour meal break.
+L10: Benefits: Uniform provided, medical, annual leave, performance bonus.
+L11: To apply, email hr@northgate-protective.example with your resume.
+L12: (c) Northgate Protective Services Pte Ltd. All rights reserved.

@@ -1,0 +1,46 @@
+{
+ "model": "openai/gpt-oss-20b",
+ "tag": "create-job_seeker-1",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:30:13Z",
+ "latency_s": 1.17,
+ "params": {
+  "model": "openai/gpt-oss-20b",
+  "max_tokens": 1400,
+  "temperature": 0.9,
+  "response_format": {
+   "type": "json_object"
+  },
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are the Persona Creator for JobHub, a research project on job-search intelligence in Singapore.\nYou create FICTIONAL simulation personas for testing. Rules:\n- Every persona is invented. Never use a real person, a real company's staff, or identifiable details.\n- Vary the personas along the requested axes so the set is not clustered. Do not default to one profile.\n- Describe circumstances and behaviour, not protected characteristics as a basis for judgement. Include\n  age band, citizenship or work-pass status, or family situation ONLY where the brief makes it relevant to the task.\n- Give each persona realistic limits: what they do not know, where they get impatient, what they would skip.\n- Do not make any persona an expert, enthusiastic or compliant by default.\n- Output JSON only."
+  },
+  {
+   "role": "user",
+   "content": "Brief: Job seekers in Singapore of different kinds: at least two who skim and click through quickly, at least two with low digital comfort (phone-only, little time to read), one careful reader who checks every line, and one older worker returning to work. Spread across manual, service, clerical and gig work. None is an expert on employment law.\nKind of persona: job_seeker (a person looking for work in Singapore)\nNumber of personas: 2\nVariation axes (spread the set across these): reading style (skims vs reads every word), digital comfort, time pressure, trust in AI tools, industry, confidence\nTask context (what the personas will be asked to do; do not answer it): read a job posting, then review an AI-prepared worksheet about it and accept, edit or reject each item\n\nReturn JSON: {\"personas\": [{\n  \"persona_id\": \"short-slug\",\n  \"kind\": \"job_seeker\",\n  \"label\": \"6-10 word description\",\n  \"first_name\": \"fictional first name\",\n  \"background\": \"2-3 sentences, no identifying detail\",\n  \"situation_now\": \"what they are doing about work/hiring right now\",\n  \"goals\": [\"...\"],\n  \"constraints\": [\"time, money, status, confidence, digital skill ...\"],\n  \"digital_comfort\": \"low|medium|high\",\n  \"reading_style\": \"how they read documents (skims, reads every word, trusts headlines ...)\",\n  \"attitude_to_ai\": \"short\",\n  \"known_gaps\": [\"things they do not know or would get wrong\"],\n  \"biases_or_habits\": [\"...\"],\n  \"voice\": \"how they speak, 1 sentence\",\n  \"simulation_notes\": \"anything the runner must keep in mind (e.g. would abandon after 3 minutes)\"\n}]}\nAlready created (make these clearly different): ['Quick‑scan manual worker', 'Older worker careful reader', 'Phone‑only gig worker', 'Service‑sector quick reviewer']"
+  }
+ ],
+ "content": "{\"personas\":[{\"persona_id\":\"skim-manual-joe\",\"kind\":\"job_seeker\",\"label\":\"Skimming manual laborer\",\"first_name\":\"Joe\",\"background\":\"Joe is a 32‑year‑old part‑time warehouse assistant who moved to Singapore two years ago on a work permit. He has a casual job in logistics but wants a steadier, better‑paying role in the same industry.\",\"situation_now\":\"He spends most evenings scrolling job sites on his phone, often while eating dinner, and rarely takes a break to read full descriptions.\",\"goals\":[\"Find a full‑time logistics job with a clear promotion path\",\"Earn a steady income to support his partner\",\"Stay within budget for housing and transportation\"],\"constraints\":[\"Limited free time after work, low digital confidence, wary of complex paperwork\",\"No strong network in the industry\",\"Needs quick decisions\"],\"digital_comfort\":\"low\",\"reading_style\":\"skims headlines and bullet points, ignores detailed terms\",\"attitude_to_ai\":\"Skeptical about AI, but open if it saves time\",\"known_gaps\":[\"Does not know how to interpret employment contract clauses\",\"Misunderstands benefits terminology\",\"Assumes all job ads are legitimate\"],\"biases_or_habits\":[\"Prefers roles that mention 'no experience required'\",\"Ignores salary details if not prominently displayed\",\"Tends to click on the first job that matches his skills\"],\"voice\":\"“Just give me the gist, I don’t have time to read everything.”\",\"simulation_notes\":\"Will abandon the AI worksheet if it takes more than 45 seconds to review; likely to accept or reject based on headline relevance.\"},{\"persona_id\":\"careful-gig-anna\",\"kind\":\"job_seeker\",\"label\":\"Careful gig‑worker with high digital skill\",\"first_name\":\"Anna\",\"background\":\"Anna, 28, is a freelance graphic designer who runs her own small studio in Singapore. She has a strong online presence and frequently uses design tools and AI to streamline her workflow.\",\"situation_now\":\"She is looking to secure a part‑time contract with a tech startup to stabilize her income while still managing her own clients.\",\"goals\":[\"Secure a reliable part‑time contract\",\"Maintain flexibility for her own projects\",\"Build a portfolio that showcases AI‑assisted design work\"],\"constraints\":[\"Time‑constrained by existing clients, high expectations for quality, careful about contract terms\",\"Values transparency and detail in agreements\",\"Has high confidence in reading digital content\"],\"digital_comfort\":\"high\",\"reading_style\":\"reads every word, cross‑checks details, values clarity\",\"attitude_to_ai\":\"Trusts AI but wants human oversight\",\"known_gaps\":[\"Overestimates her negotiation power with large clients\",\"May misinterpret legal jargon in contracts\",\"Assumes AI-generated summaries are error‑free\"],\"biases_or_habits\":[\"Prefers jobs that list clear deliverables and timelines\",\"Ignores vague terms like 'flexible hours' without specifics\",\"Checks reviews or references before committing\"],\"voice\":\"“I’ll only sign if I understand every clause.”\",\"simulation_notes\":\"Will spend up to 2 minutes reviewing each AI‑prepared worksheet item; will reject or edit items that lack detail or seem ambiguous.\"}]}",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 677,
+  "prompt_tokens": 684,
+  "total_tokens": 1361,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 10,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.254014862,
+  "prompt_time": 0.064776938,
+  "completion_time": 0.76276582,
+  "total_time": 0.827542758
+ },
+ "cached": false
+}

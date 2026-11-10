@@ -1,0 +1,343 @@
+{
+ "employer": "Starbucks Coffee Singapore Pte. Ltd.",
+ "role": "Barista",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "STARBUCKS COFFEE SINGAPORE PTE. LTD. is registered in Singapore (status: Live Company, registered 1988-03-03).",
+  "basis": "name only",
+  "entity": {
+   "uen": "198800670D",
+   "name": "STARBUCKS COFFEE SINGAPORE PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1988-03-03",
+   "activity": "na"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Starbucks Coffee Singapore Pte. Ltd.\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Starbucks Coffee Singapore Pte. Ltd.\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Starbucks Coffee Singapore Pte. Ltd.\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Starbucks Coffee Singapore Pte. Ltd.\" Barista interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 4,
+    "error": null
+   },
+   {
+    "query": "\"Starbucks Coffee Singapore Pte. Ltd.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.sgpbusiness.com/company/Starbucks-Coffee-Singapore-Pte-Ltd",
+    "status": "ok",
+    "chars": 10105,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://sgpgrid.com/company-details/starbucks-coffee-singapore-pte-ltd",
+    "status": "irrelevant",
+    "chars": 460,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.starbucks.com.sg/",
+    "status": "ok",
+    "chars": 1181,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.starbucks.com.sg/about-us/starbucks-singapore",
+    "status": "ok",
+    "chars": 1139,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://sbr.com.sg/company/starbucks-coffee-singapore-pte-ltd",
+    "status": "ok",
+    "chars": 1314,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://rocketreach.co/starbucks-coffee-singapore-profile_b5df652af42e4859",
+    "status": "thin",
+    "chars": 262,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://nodeflair.com/companies/starbucks-coffee-singapore",
+    "status": "ok",
+    "chars": 2037,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.metaintro.com/blog/starbucks-layoffs-2026-300-corporate-jobs-cut",
+    "status": "thin",
+    "chars": 120,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.jobstreet.com/companies/starbucks-168549961433772",
+    "title": "Working at Starbucks company profile and information | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "starbucks coffee singapore"
+   ],
+   "pages_with_exact_name": 3,
+   "snippets_with_exact_name": 12,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 11,
+  "registry_mirror_pages": 1
+ },
+ "headline": "exists_and_consistent",
+ "headline_meaning": "Registered in Singapore, and public sources agree it is the company named.",
+ "reasons": [
+  "registry: confirmed",
+  "model: consistent across 4 pages"
+ ],
+ "brief": {
+  "confidence": "medium",
+  "could_not_verify": [
+   "specific barista job duties at this location",
+   "employee compensation or benefits details",
+   "exact number of Starbucks stores in Singapore"
+  ],
+  "key_facts": [
+   {
+    "claim": "Legal name is STARBUCKS COFFEE SINGAPORE PTE. LTD.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Legal name: STARBUCKS COFFEE SINGAPORE PTE. LTD.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Company ID (UEN) is 198800670D and status is Live.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Company ID: 198800670D\nStatus: Live Company",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Incorporated on 3 March 1988 as a Private Company Limited by Shares.",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://www.sgpbusiness.com/company/Starbucks-Coffee-Singapore-Pte-Ltd",
+      "quote": "Incorporated on 3 March 1988 (Thursday) in Singapore",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 1,
+      "url": "https://www.sgpbusiness.com/company/Starbucks-Coffee-Singapore-Pte-Ltd",
+      "quote": "Private Company Limited By Shares",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Registered office address is 300 Beach Road #04-01/02, THE CONCOURSE, Singapore 199555.",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://www.sgpbusiness.com/company/Starbucks-Coffee-Singapore-Pte-Ltd",
+      "quote": "REGISTERED ADDRESS\n300 BEACH ROAD\n#04-01/02\nTHE CONCOURSE\nSINGAPORE (199555)",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Principal activity is cafés (code 56112) with secondary activity wholesale trade of a variety of goods (code 46900).",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://www.sgpbusiness.com/company/Starbucks-Coffee-Singapore-Pte-Ltd",
+      "quote": "PRINCIPAL ACTIVITY 56112 — Cafes\nSECONDARY ACTIVITY 46900 — Wholesale Trade Of A Variety Of Goods",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Starbucks operations in Singapore are licensed to Maxim's Caterers Limited (Hong Kong).",
+    "evidence": [
+     {
+      "source": 4,
+      "url": "https://www.starbucks.com.sg/about-us/starbucks-singapore",
+      "quote": "Starbucks operations in Singapore is fully licensed to Maxim's Caterers Limited, a company incorporated in Hong Kong",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 5,
+      "url": "https://sbr.com.sg/company/starbucks-coffee-singapore-pte-ltd",
+      "quote": "Starbucks operations in Singapore is fully licensed to Maxim's Caterers Limited, a company incorporated in Hong Kong",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "First Singapore store opened on 14 December 1996 at Liat Towers, Orchard Road.",
+    "evidence": [
+     {
+      "source": 4,
+      "url": "https://www.starbucks.com.sg/about-us/starbucks-singapore",
+      "quote": "The first Starbucks store opened on 14 December 1996 at Liat Towers",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 7,
+      "url": "https://nodeflair.com/companies/starbucks-coffee-singapore",
+      "quote": "The first Starbucks store opened on 14 December 1996 at Liat Towers",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "Company has been operating for over 39 years.",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://www.sgpbusiness.com/company/Starbucks-Coffee-Singapore-Pte-Ltd",
+      "quote": "operating for 39 years",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Awarded SBR Technology Excellence Awards 2023 (Digital – Food & Beverage).",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://sbr.com.sg/company/starbucks-coffee-singapore-pte-ltd",
+      "quote": "SBR Technology Excellence Awards 2023 Winner: Starbucks Singapore",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Auditor is PricewaterhouseCoopers LLP.",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://www.sgpbusiness.com/company/Starbucks-Coffee-Singapore-Pte-Ltd",
+      "quote": "AUDITOR\nPRICEWATERHOUSECOOPERS LLP",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "red_flags": [],
+  "validity_reasoning": "Multiple independent sources (official registry, business directory, company website, and news/award listings) consistently confirm the company's legal name, registration details, address, activity codes, licensing arrangement, and historical facts. No conflicting information was found.",
+  "claims_verified": 10,
+  "claims_unverified": 0,
+  "model_validity_status": "appears_real_and_consistent"
+ },
+ "could_not_read": [
+  {
+   "url": "https://sgpgrid.com/company-details/starbucks-coffee-singapore-pte-ltd",
+   "why": "irrelevant: the page never mentions the company name"
+  },
+  {
+   "url": "https://rocketreach.co/starbucks-coffee-singapore-profile_b5df652af42e4859",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://www.metaintro.com/blog/starbucks-layoffs-2026-300-corporate-jobs-cut",
+   "why": "thin: fewer than 400 characters of real content"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://sg.jobstreet.com/companies/starbucks-168549961433772",
+   "title": "Working at Starbucks company profile and information | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "specific barista job duties at this location",
+  "employee compensation or benefits details",
+  "exact number of Starbucks stores in Singapore"
+ ],
+ "seconds": 127.8,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

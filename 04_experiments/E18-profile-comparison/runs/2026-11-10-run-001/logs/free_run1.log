@@ -1,0 +1,137 @@
+[     5s]   1 free run1 P1 J03 tokens=1919 cached=False ok=True
+[    50s]   2 free run1 P1 J06 tokens=1452 cached=False ok=True
+[    65s]   3 free run1 P1 J11 tokens=1720 cached=False ok=True
+[   111s]   4 free run1 P1 S01 tokens=1476 cached=False ok=True
+[   124s]   5 free run1 P1 S02 tokens=1512 cached=False ok=True
+[   171s]   6 free run1 P1 S03 tokens=1330 cached=False ok=True
+[   185s]   7 free run1 P1 S04 tokens=1378 cached=False ok=True
+[   231s]   8 free run1 P1 S05 tokens=1545 cached=False ok=True
+[   244s]   9 free run1 P1 S06 tokens=1256 cached=False ok=True
+[     0s]   1 free run1 P1 J03 tokens=1919 cached=True ok=True
+[     0s]   2 free run1 P1 J06 tokens=1452 cached=True ok=True
+[     0s]   3 free run1 P1 J11 tokens=1720 cached=True ok=True
+[     0s]   4 free run1 P1 S01 tokens=1476 cached=True ok=True
+[     0s]   5 free run1 P1 S02 tokens=1512 cached=True ok=True
+[     0s]   6 free run1 P1 S03 tokens=1330 cached=True ok=True
+[     0s]   7 free run1 P1 S04 tokens=1378 cached=True ok=True
+[     0s]   8 free run1 P1 S05 tokens=1545 cached=True ok=True
+[     0s]   9 free run1 P1 S06 tokens=1256 cached=True ok=True
+[    39s]  10 free run1 P1 S07 tokens=1419 cached=False ok=True
+[    52s]  11 free run1 P1 S08 tokens=1488 cached=False ok=True
+[    99s]  12 free run1 P1 S09 tokens=1365 cached=False ok=True
+[   112s]  13 free run1 P1 S10 tokens=1380 cached=False ok=True
+[   159s]  14 free run1 P1 S11 tokens=1484 cached=False ok=True
+[   173s]  15 free run1 P1 S12 tokens=1341 cached=False ok=True
+[   234s]  16 free BATCH run1 P1 tokens=2554 cached=False ok=['J03', 'J06', 'J11']
+[   480s]  17 free run1 P2 J03 tokens=1808 cached=False ok=True
+[   482s]  18 free run1 P2 J06 tokens=1414 cached=False ok=True
+[   541s]  19 free run1 P2 J11 tokens=1512 cached=False ok=True
+[   543s]  20 free run1 P2 S01 tokens=1445 cached=False ok=True
+[   600s]  21 free run1 P2 S02 tokens=1475 cached=False ok=True
+[   603s]  22 free run1 P2 S03 tokens=1333 cached=False ok=True
+[   660s]  23 free run1 P2 S04 tokens=1372 cached=False ok=True
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 32, in <module>
+    res, rec = C.free_results(prof, [p["id"]], run)
+               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 140, in free_results
+    rec = run_free(profile_id, posting_ids, run)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 89, in run_free
+    return llm(M_FREE, free_messages(profile_id, posting_ids), sub="free", tag=tag, run=run, max_tokens=mt)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 41, in llm
+    return llm_client.chat(model, messages, json_mode=json_mode, max_tokens=max_tokens, temperature=0.2,
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           reasoning_effort=effort, cache_dir=str(RAW / sub), tag=tag, run=run)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{"employment_type":{"status":"match","note":"Both full-time"},"work_arrangement":{"status":"match","note":"On-site acceptable"},"location":{"status":"mismatch","note":"Posting Jurong vs preferred Raffles/Orchard"},"pay_vs_minimum":{"status":"match","note":"Offered salary exceeds minimum"},"notice_period":{"status":"match","note":"2\u202fmonths ≤ 3\u202fmonths acceptable"},"right_to_work":{"flag":"no_requirement_stated","note":"Posting does not state right‑to‑work requirement"},"requirements":[{"requirement":"Degree in Supply Chain, Logistics or related field","type":"required","status":"mismatch","posting_excerpt":"Degree in Supply Chain, Logistics or a related field.","profile_evidence":"Diploma in Business Administration"},"{"requirement":"At least 8 years of logistics experience, including 3 years in a managerial role","type":"required","status":"mismatch","posting_excerpt":"At least 8 years of logistics experience, including 3 years in a managerial role.","profile_evidence":"7 years office administration, no logistics experience"},"{"requirement":"PMP or equivalent certification","type":"preferred","status":"mismatch","posting_excerpt":"PMP or equivalent certification is preferred.","profile_evidence":"none listed"}]],"summary":"Profile matches employment type, arrangement, pay and notice; location, degree, logistics experience, and PMP do not align."}'}}
+[     0s]   1 free run1 P1 J03 tokens=1919 cached=True ok=True
+[     0s]   2 free run1 P1 J06 tokens=1452 cached=True ok=True
+[     0s]   3 free run1 P1 J11 tokens=1720 cached=True ok=True
+[     0s]   4 free run1 P1 S01 tokens=1476 cached=True ok=True
+[     0s]   5 free run1 P1 S02 tokens=1512 cached=True ok=True
+[     0s]   6 free run1 P1 S03 tokens=1330 cached=True ok=True
+[     0s]   7 free run1 P1 S04 tokens=1378 cached=True ok=True
+[     0s]   8 free run1 P1 S05 tokens=1545 cached=True ok=True
+[     0s]   9 free run1 P1 S06 tokens=1256 cached=True ok=True
+[     0s]  10 free run1 P1 S07 tokens=1419 cached=True ok=True
+[     0s]  11 free run1 P1 S08 tokens=1488 cached=True ok=True
+[     0s]  12 free run1 P1 S09 tokens=1365 cached=True ok=True
+[     0s]  13 free run1 P1 S10 tokens=1380 cached=True ok=True
+[     0s]  14 free run1 P1 S11 tokens=1484 cached=True ok=True
+[     0s]  15 free run1 P1 S12 tokens=1341 cached=True ok=True
+[     0s]  16 free BATCH run1 P1 tokens=2554 cached=True ok=['J03', 'J06', 'J11']
+[     0s]  17 free run1 P2 J03 tokens=1808 cached=True ok=True
+[     0s]  18 free run1 P2 J06 tokens=1414 cached=True ok=True
+[     0s]  19 free run1 P2 J11 tokens=1512 cached=True ok=True
+[     0s]  20 free run1 P2 S01 tokens=1445 cached=True ok=True
+[     0s]  21 free run1 P2 S02 tokens=1475 cached=True ok=True
+[     0s]  22 free run1 P2 S03 tokens=1333 cached=True ok=True
+[     0s]  23 free run1 P2 S04 tokens=1372 cached=True ok=True
+[    86s]  24 free run1 P2 S05 tokens=1458 cached=False ok=True
+[    94s]  25 free run1 P2 S06 tokens=1419 cached=False ok=True
+[    96s]  26 free run1 P2 S07 tokens=1309 cached=False ok=True
+[   155s]  27 free run1 P2 S08 tokens=1532 cached=False ok=True
+[   159s]  28 free run1 P2 S09 tokens=1464 cached=False ok=True
+[   161s]  29 free run1 P2 S10 tokens=1306 cached=False ok=True
+FAILED free P2 S11 run1: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_reques
+[   224s]  30 free run1 P2 S12 tokens=1329 cached=False ok=True
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198942, Requested 2788. Please try again in 12m27.36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 54, in <module>
+    r_ = safe(C.free_results, prof, C.BATCH_IDS, run, label=f"free BATCH {prof} run{run}")
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\run_methods.py", line 25, in safe
+    return fn(*a)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 140, in free_results
+    rec = run_free(profile_id, posting_ids, run)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 89, in run_free
+    return llm(M_FREE, free_messages(profile_id, posting_ids), sub="free", tag=tag, run=run, max_tokens=mt)
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E18-profile-comparison\harness\common.py", line 41, in llm
+    return llm_client.chat(model, messages, json_mode=json_mode, max_tokens=max_tokens, temperature=0.2,
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           reasoning_effort=effort, cache_dir=str(RAW / sub), tag=tag, run=run)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 205, in chat
+    raise RuntimeError(f"DAILY LIMIT: {text[:300]}") from e
+RuntimeError: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198942, Requested 2788. Please try again in 12m27.36s. Need more tokens? Upgrade to Dev Ti

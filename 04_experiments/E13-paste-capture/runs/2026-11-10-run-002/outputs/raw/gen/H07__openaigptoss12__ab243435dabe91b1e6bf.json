@@ -1,0 +1,39 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "H07",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:03:55Z",
+ "latency_s": 1.49,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1100,
+  "temperature": 0.8,
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "user",
+   "content": "Write the raw text that a person would get by pressing Select All then Copy on a company careers page job page in Singapore, for a fictional employer and a made-up job. Output the pasted text ONLY: no commentary, no markdown, no code fences. Include realistic page furniture (menu text, buttons, banners, footer links). Target 250 to 400 words. Requirements for this paste:\n- sections written as prose under 'About the role' and 'About you'\n- employer named\n- the pay range is written inside a sentence in the prose\n- a deadline is written in a sentence as 'Please apply by 30 November 2026'\nToday is 2026-11-10; any dates you write must be in November or December 2026."
+  }
+ ],
+ "content": "Home   About Us   Careers   Contact  \n[Banner: Join Our Team – Innovate, Grow, Succeed]  \n\nCareers at AuroraTech Solutions  \n\nCurrent Openings  \n\nSenior Data Analytics Engineer – Singapore  \n\nLocation: Singapore (Hybrid)  \nEmployment Type: Full‑Time  \n\n[Apply Now]   [Save Job]  \n\nAbout the role  \nAs a Senior Data Analytics Engineer at AuroraTech Solutions, you will lead the design, development, and deployment of advanced analytics pipelines that power our next‑generation fintech products. Working closely with product managers, data scientists, and software engineers, you will translate business requirements into scalable data models, implement ETL processes using Spark and Airflow, and ensure data quality through rigorous testing and monitoring. You will also mentor junior engineers, contribute to architectural decisions, and champion best practices in data governance. The role offers a competitive salary ranging from SGD 9,500 to SGD 12,000 per month, plus performance bonuses and equity options. You will be part of a dynamic, cross‑functional team that values innovation, continuous learning, and impact‑driven outcomes. Please apply by 30 November 2026.  \n\nAbout you  \nYou hold a bachelor’s degree in Computer Science, Statistics, or a related field, and have at least five years of hands‑on experience building large‑scale data platforms in the financial services sector. Proficiency in Python, SQL, and cloud services such as AWS or Azure is essential, as is a deep understanding of data warehousing concepts and machine‑learning pipelines. You are a strong communicator who can convey complex technical ideas to non‑technical stakeholders, and you thrive in a fast‑paced environment where collaboration and agility are key. A track record of mentoring team members, publishing technical documentation, and driving process improvements will set you apart.  \n\nBenefits  \n• Flexible working hours and hybrid office model  \n• Health and dental insurance for you and dependents  \n• Annual learning & development allowance  \n• Generous paid time off and parental leave  \n• Employee stock purchase plan  \n\n[Back to Careers]   [Contact HR]  \n\n© 2026 AuroraTech Solutions. All rights reserved.  \nPrivacy Policy   Terms of Use   Careers   Sitemap   LinkedIn   Twitter   Facebook   Instagram",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 512,
+  "prompt_tokens": 227,
+  "total_tokens": 739,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 49,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.317141501,
+  "prompt_time": 0.010308048,
+  "completion_time": 1.071740956,
+  "total_time": 1.082049004
+ },
+ "cached": false
+}

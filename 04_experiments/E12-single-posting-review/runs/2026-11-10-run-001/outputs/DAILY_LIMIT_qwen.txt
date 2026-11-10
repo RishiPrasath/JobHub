@@ -1,0 +1,1 @@
+﻿2026-11-10 (UTC ~11:15) qwen/qwen3.8-27b: HTTP 429 on tokens per day (TPD): Limit 200000, Used 199277, Requested 1472 (org-wide, shared with all specialists). Per the run brief, no further qwen calls are made in this run. Seen by the Part B persona process (agent calls) after the Part A qwen loop had been stopped by the experimenter to give Part B the shared queue.

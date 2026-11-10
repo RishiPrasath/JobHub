@@ -1,0 +1,166 @@
+{
+ "employer": "Funding Societies Pte. Ltd.",
+ "role": "Credit Analyst",
+ "degraded": [
+  "summary_unavailable: model rate limit reached (retry in 2147 s)"
+ ],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "FUNDING SOCIETIES PTE. LTD. is registered in Singapore (status: Live Company, registered 2015-02-26).",
+  "basis": "name only",
+  "entity": {
+   "uen": "201505169M",
+   "name": "FUNDING SOCIETIES PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2015-02-26",
+   "activity": "MARKETPLACE LENDING FOR SMALL & MEDIUM BUSINESSES"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Funding Societies Pte. Ltd.\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 5,
+    "error": null
+   },
+   {
+    "query": "\"Funding Societies Pte. Ltd.\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 1,
+    "error": null
+   },
+   {
+    "query": "\"Funding Societies Pte. Ltd.\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Funding Societies Pte. Ltd.\" Credit Analyst interview process salary",
+    "ok": true,
+    "engine": null,
+    "results": 0,
+    "error": null
+   },
+   {
+    "query": "\"Funding Societies Pte. Ltd.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://eservices.mas.gov.sg/fid/institution/detail/200984-FUNDING-SOCIETIES-PTE-LTD",
+    "status": "ok",
+    "chars": 508,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Funding-Societies-Pte-Ltd",
+    "status": "ok",
+    "chars": 10468,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://fundingsocieties.com/growyourwealth",
+    "status": "ok",
+    "chars": 8431,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://fundingsocieties.com/about-us/fspl",
+    "status": "ok",
+    "chars": 6931,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://recordowl.com/company/funding-societies-pte-ltd",
+    "status": "ok",
+    "chars": 8074,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.companies.sg/business/201505169M/FUNDING-SOCIETIES-PTE-LTD",
+    "status": "ok",
+    "chars": 10162,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.companies.sg/business/201505169M/FUNDING-SOCIETIES-PTE-LTD-",
+    "status": "ok",
+    "chars": 10162,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://straitsdata.com/companies/sg/funding-societies-pte-ltd/201505169M",
+    "status": "thin",
+    "chars": 263,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   }
+  ],
+  "skipped_by_policy": [],
+  "gate": {
+   "phrases": [
+    "funding societies"
+   ],
+   "pages_with_exact_name": 7,
+   "snippets_with_exact_name": 14,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 8,
+  "registry_mirror_pages": 4
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (3 pages read, model: None)"
+ ],
+ "brief": null,
+ "could_not_read": [
+  {
+   "url": "https://straitsdata.com/companies/sg/funding-societies-pte-ltd/201505169M",
+   "why": "thin: fewer than 400 characters of real content"
+  }
+ ],
+ "link_out": [],
+ "could_not_verify": [],
+ "seconds": 89.0,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

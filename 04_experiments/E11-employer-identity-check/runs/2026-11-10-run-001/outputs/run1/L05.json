@@ -1,0 +1,312 @@
+{
+ "employer": "CapitaLand Group Pte. Ltd.",
+ "role": "Asset Manager",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "CAPITALAND GROUP PTE. LTD. is registered in Singapore (status: Live Company, registered 1989-01-05).",
+  "basis": "name only",
+  "entity": {
+   "uen": "198900036N",
+   "name": "CAPITALAND GROUP PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1989-01-05",
+   "activity": "INVESTMENT HOLDING AND CORPORATE HEADQUARTERS"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"CapitaLand Group Pte. Ltd.\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"CapitaLand Group Pte. Ltd.\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"CapitaLand Group Pte. Ltd.\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"CapitaLand Group Pte. Ltd.\" Asset Manager interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"CapitaLand Group Pte. Ltd.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://www.scam.sg/companies/198900036N/capitaland-group-pte-ltd",
+    "status": "ok",
+    "chars": 8532,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.straitstimes.com/business/capitaland-investment-retrenches-90-singapore-staff-in-2026-as-part-of-restructuring",
+    "status": "ok",
+    "chars": 2831,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.asiaone.com/singapore/capitaland-retrenchment-restructuring",
+    "status": "ok",
+    "chars": 3090,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.channelnewsasia.com/singapore/capitaland-lays-90-workers-singapore-6359906",
+    "status": "ok",
+    "chars": 2014,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://mothership.sg/2026/09/capitaland-investment-lays-off-90-employees-singapore",
+    "status": "ok",
+    "chars": 1998,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://vulcanpost.com/913035/capitaland-investment-singapore-2026-retrenchments",
+    "status": "ok",
+    "chars": 2376,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.zaobao.com.sg/finance/singapore/story20260903-9619935",
+    "status": "ok",
+    "chars": 960,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://thekopinotes.com/articles/news/capitaland-retrenchment-2026-reit-impact",
+    "status": "ok",
+    "chars": 12088,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Reviews/CapitaLand-Reviews-E9451.htm",
+    "title": "CapitaLand Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.co.uk/Overview/Working-at-CapitaLand-EI_IE9451.11,21.htm",
+    "title": "CapitaLand Career: Working at CapitaLand | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Jobs/CapitaLand-Jobs-E9451.htm",
+    "title": "CapitaLand Jobs & Careers - 144 Open Positions | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.linkedin.com/company/capitaland-limited",
+    "title": "CapitaLand - LinkedIn",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/capitaland-168557653428036/jobs",
+    "title": "CapitaLand job openings and vacancies | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/CapitaLand-Group-Pte.-Ltd.-jobs",
+    "title": "43 CapitaLand Group Pte. Ltd. jobs in Singapore",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "capitaland group"
+   ],
+   "pages_with_exact_name": 1,
+   "snippets_with_exact_name": 10,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 10,
+  "registry_mirror_pages": 1
+ },
+ "headline": "exists_limited_evidence",
+ "headline_meaning": "Registered in Singapore, but there is little public evidence beyond the registry.",
+ "reasons": [
+  "registry: confirmed",
+  "web evidence thin (7 pages read, model: appears_real_limited_evidence)"
+ ],
+ "brief": {
+  "confidence": "medium",
+  "could_not_verify": [
+   "Specific details about the Asset Manager role being offered",
+   "Compensation, reporting lines, or team structure for the role"
+  ],
+  "key_facts": [
+   {
+    "claim": "Legal name is CAPITALAND GROUP PTE. LTD.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Legal name: CAPITALAND GROUP PTE. LTD.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Company ID is 198900036N and status is Live.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Company ID: 198900036N\nStatus: Live Company",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Entity type is Local Company registered on 5 Jan 1989.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Entity type: Local Company\nRegistered: 1989-01-05",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Registered business activity is Investment Holding and Corporate Headquarters.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Registered business activity: INVESTMENT HOLDING AND CORPORATE HEADQUARTERS",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "The company has been operational for several decades.",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://www.scam.sg/companies/198900036N/capitaland-group-pte-ltd",
+      "quote": "With a legacy spanning 37 years since incorporation on 5 January 1989",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "It is described as a mature, systemically important entity.",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://www.scam.sg/companies/198900036N/capitaland-group-pte-ltd",
+      "quote": "Scale & Systemic Importance: CAPITALAND GROUP PTE. LTD. operates at a national or potentially global level",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "red_flags": [],
+  "validity_reasoning": "The official registry record (source 0) confirms the existence, legal name, registration number, status, and business activity of CAPITALAND GROUP PTE. LTD. Additional commentary (source 1) reinforces its long‑standing presence. No contradictory information is found, but only a single authoritative source and a summary page are available; there is no independent third‑party verification beyond the registry, so evidence is limited.",
+  "claims_verified": 6,
+  "claims_unverified": 0,
+  "model_validity_status": "appears_real_limited_evidence"
+ },
+ "could_not_read": [],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Reviews/CapitaLand-Reviews-E9451.htm",
+   "title": "CapitaLand Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.co.uk/Overview/Working-at-CapitaLand-EI_IE9451.11,21.htm",
+   "title": "CapitaLand Career: Working at CapitaLand | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Jobs/CapitaLand-Jobs-E9451.htm",
+   "title": "CapitaLand Jobs & Careers - 144 Open Positions | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.linkedin.com/company/capitaland-limited",
+   "title": "CapitaLand - LinkedIn",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/capitaland-168557653428036/jobs",
+   "title": "CapitaLand job openings and vacancies | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/CapitaLand-Group-Pte.-Ltd.-jobs",
+   "title": "43 CapitaLand Group Pte. Ltd. jobs in Singapore",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Specific details about the Asset Manager role being offered",
+  "Compensation, reporting lines, or team structure for the role"
+ ],
+ "seconds": 68.3,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

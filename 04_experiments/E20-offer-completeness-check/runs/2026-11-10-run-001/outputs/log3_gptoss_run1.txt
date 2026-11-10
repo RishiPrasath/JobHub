@@ -1,0 +1,9 @@
+L01 ok stop 2878
+L03 ok stop 2834
+L05 ok stop 2809
+L08 ok stop 3106
+L11 ok stop 2894
+L12 ok stop 2592
+L13 ok stop 2925
+STOP: API error: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens p
+tokens {'prompt': 4585, 'completion': 932, 'total': 5517}

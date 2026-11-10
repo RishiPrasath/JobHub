@@ -1,0 +1,46 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "create-foreign_professional-0",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T09:54:04Z",
+ "latency_s": 1.5,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1400,
+  "temperature": 0.9,
+  "response_format": {
+   "type": "json_object"
+  },
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are the Persona Creator for JobHub, a research project on job-search intelligence in Singapore.\nYou create FICTIONAL simulation personas for testing. Rules:\n- Every persona is invented. Never use a real person, a real company's staff, or identifiable details.\n- Vary the personas along the requested axes so the set is not clustered. Do not default to one profile.\n- Describe circumstances and behaviour, not protected characteristics as a basis for judgement. Include\n  age band, citizenship or work-pass status, or family situation ONLY where the brief makes it relevant to the task.\n- Give each persona realistic limits: what they do not know, where they get impatient, what they would skip.\n- Do not make any persona an expert, enthusiastic or compliant by default.\n- Output JSON only."
+  },
+  {
+   "role": "user",
+   "content": "Brief: A professional from overseas on or seeking a work pass in Singapore who had an interview in the last 6 months, e.g. by video call, with an unfamiliar local hiring style.\nKind of persona: foreign_professional (a non-resident professional seeking work in Singapore)\nNumber of personas: 1\nVariation axes (spread the set across these): home country style of interviewing, English fluency, trust in AI tools\nTask context (what the personas will be asked to do; do not answer it): a research interview about how they prepared for their latest job interview\n\nReturn JSON: {\"personas\": [{\n  \"persona_id\": \"short-slug\",\n  \"kind\": \"foreign_professional\",\n  \"label\": \"6-10 word description\",\n  \"first_name\": \"fictional first name\",\n  \"background\": \"2-3 sentences, no identifying detail\",\n  \"situation_now\": \"what they are doing about work/hiring right now\",\n  \"goals\": [\"...\"],\n  \"constraints\": [\"time, money, status, confidence, digital skill ...\"],\n  \"digital_comfort\": \"low|medium|high\",\n  \"reading_style\": \"how they read documents (skims, reads every word, trusts headlines ...)\",\n  \"attitude_to_ai\": \"short\",\n  \"known_gaps\": [\"things they do not know or would get wrong\"],\n  \"biases_or_habits\": [\"...\"],\n  \"voice\": \"how they speak, 1 sentence\",\n  \"simulation_notes\": \"anything the runner must keep in mind (e.g. would abandon after 3 minutes)\"\n}]}"
+  }
+ ],
+ "content": "{\n  \"personas\": [\n    {\n      \"persona_id\": \"german-tech\",\n      \"kind\": \"foreign_professional\",\n      \"label\": \"German software engineer, mid‑career, low AI trust\",\n      \"first_name\": \"Lukas\",\n      \"background\": \"Lukas is a 34‑year‑old software engineer from Germany who has been working for a mid‑size fintech firm in Berlin. He holds a master's in computer science and is used to highly structured, technical interviews with clear coding tests. He recently applied for a senior developer role in Singapore and secured a video interview with a local startup.\",\n      \"situation_now\": \"He is currently on a German work visa, awaiting the outcome of his Singapore EP application while continuing his job search remotely.\",\n      \"goals\": [\n        \"Secure a job offer that justifies relocating to Singapore\",\n        \"Understand Singapore's interview expectations and culture\",\n        \"Demonstrate his technical depth without over‑selling soft‑skills\"\n      ],\n      \"constraints\": [\n        \"Limited time due to current project deadlines\",\n        \"Budget constraints for travel and visa fees\",\n        \"Moderate confidence in navigating unfamiliar hiring styles\"\n      ],\n      \"digital_comfort\": \"high\",\n      \"reading_style\": \"skims headings then reads detailed sections if relevant\",\n      \"attitude_to_ai\": \"skeptical, prefers human‑reviewed resources\",\n      \"known_gaps\": [\n        \"Unfamiliar with Singapore's emphasis on cultural fit and team dynamics\",\n        \"Little experience with video‑call etiquette in Asian contexts\",\n        \"May misinterpret informal language used by local recruiters\"\n      ],\n      \"biases_or_habits\": [\n        \"Relies heavily on official documentation and technical blogs\",\n        \"Tends to over‑prepare code challenges, neglecting soft‑skill preparation\",\n        \"Distrusts AI‑generated interview tips\"\n      ],\n      \"voice\": \"Precise, slightly formal, and often punctuates sentences with technical qualifiers.\",\n      \"simulation_notes\": \"Will ask detailed follow‑up questions about local customs; may stop after 5 minutes if interview prep feels too generic or AI‑driven.\"\n    }\n  ]\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 467,
+  "prompt_tokens": 598,
+  "total_tokens": 1065,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 6,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.375214654,
+  "prompt_time": 0.027954176,
+  "completion_time": 0.979472389,
+  "total_time": 1.007426565
+ },
+ "cached": false
+}

@@ -1,0 +1,962 @@
+{
+ "label": "deterministic",
+ "model": null,
+ "run": 1,
+ "finished_utc": "2026-11-10T10:01:03Z",
+ "results": [
+  {
+   "case_id": "C01",
+   "method": "deterministic",
+   "flags": [
+    {
+     "entry_id": "P1-AGE",
+     "category": 1,
+     "excerpt": "age 22 to 28",
+     "span": [
+      69,
+      81
+     ],
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "TAFEP guidance says age should generally not be a selection criterion and that a physical task should be described instead of an age group.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me how the age or experience wording in the posting relates to the duties of the role?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    },
+    {
+     "entry_id": "P1-GENDER",
+     "category": 1,
+     "excerpt": "Female preferred",
+     "span": [
+      51,
+      67
+     ],
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "TAFEP guidance says gender should not be a criterion unless there is a practical requirement, and that the reason should be stated.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me whether the gender wording is tied to a requirement of the role, and what that requirement is?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    }
+   ],
+   "no_reliable_signal": false
+  },
+  {
+   "case_id": "C02",
+   "method": "deterministic",
+   "flags": [
+    {
+     "entry_id": "P1-LANGUAGE",
+     "category": 1,
+     "excerpt": "Mandarin-speaking",
+     "span": [
+      36,
+      53
+     ],
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "TAFEP guidance says to state the reason for any language requirement and to keep the advertisement in the language of the medium.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me why this language is needed for the role, for example which customers or duties it serves?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    },
+    {
+     "entry_id": "P1-RACE",
+     "category": 1,
+     "excerpt": "Chinese preferred",
+     "span": [
+      17,
+      34
+     ],
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "TAFEP guidance says race should not be a selection criterion. 'All races are welcome' is given as acceptable wording.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me whether the wording about race or the working environment is a requirement of the role, and why?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    },
+    {
+     "entry_id": "P1-RACE",
+     "category": 1,
+     "excerpt": "Mandarin-speaking environment",
+     "span": [
+      36,
+      65
+     ],
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "TAFEP guidance says race should not be a selection criterion. 'All races are welcome' is given as acceptable wording.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me whether the wording about race or the working environment is a requirement of the role, and why?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    }
+   ],
+   "no_reliable_signal": false
+  },
+  {
+   "case_id": "C03",
+   "method": "deterministic",
+   "flags": [
+    {
+     "entry_id": "P1-NATIONALITY",
+     "category": 1,
+     "excerpt": "Non-Singaporeans",
+     "span": [
+      31,
+      47
+     ],
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S3",
+       "name": "MOM, Fair Consideration Framework (web page, last updated 8 Aug 2025)",
+       "url": "https://www.mom.gov.sg/employment-practices/fair-consideration-framework",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "TAFEP guidance says nationality should not be a criterion, especially wording that prefers non-Singaporeans. The MOM page says discriminatory advertisements breach the Guidelines (this tool does not apply that to any case).",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me how the nationality or work-pass wording relates to the role, and whether all applicants are considered?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    },
+    {
+     "entry_id": "P1-NATIONALITY",
+     "category": 1,
+     "excerpt": "S Pass quota",
+     "span": [
+      59,
+      71
+     ],
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S3",
+       "name": "MOM, Fair Consideration Framework (web page, last updated 8 Aug 2025)",
+       "url": "https://www.mom.gov.sg/employment-practices/fair-consideration-framework",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "TAFEP guidance says nationality should not be a criterion, especially wording that prefers non-Singaporeans. The MOM page says discriminatory advertisements breach the Guidelines (this tool does not apply that to any case).",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me how the nationality or work-pass wording relates to the role, and whether all applicants are considered?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    },
+    {
+     "entry_id": "P1-NATIONALITY",
+     "category": 1,
+     "excerpt": "Work passes will be applied",
+     "span": [
+      83,
+      110
+     ],
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S3",
+       "name": "MOM, Fair Consideration Framework (web page, last updated 8 Aug 2025)",
+       "url": "https://www.mom.gov.sg/employment-practices/fair-consideration-framework",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "TAFEP guidance says nationality should not be a criterion, especially wording that prefers non-Singaporeans. The MOM page says discriminatory advertisements breach the Guidelines (this tool does not apply that to any case).",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me how the nationality or work-pass wording relates to the role, and whether all applicants are considered?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    }
+   ],
+   "no_reliable_signal": false
+  },
+  {
+   "case_id": "C04",
+   "method": "deterministic",
+   "flags": [
+    {
+     "entry_id": "P1-RELIGION",
+     "category": 1,
+     "excerpt": "Muslim only",
+     "span": [
+      24,
+      35
+     ],
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "TAFEP guidance says religion should not be a criterion unless the job involves religious functions or certification standards.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me whether the religion wording relates to a religious function or certification the role requires?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    }
+   ],
+   "no_reliable_signal": false
+  },
+  {
+   "case_id": "C05",
+   "method": "deterministic",
+   "flags": [
+    {
+     "entry_id": "P2-FAMILY",
+     "category": 2,
+     "excerpt": "marital status",
+     "span": [
+      86,
+      100
+     ],
+     "sources": [
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "TAFEP guidance says marital status and family responsibilities should not be selection criteria, and lists 'Are you planning to have children soon?' as a question not to ask.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me why marital status or family plans are asked for at the application stage, and whether they affect selection?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    },
+    {
+     "entry_id": "P2-FAMILY",
+     "category": 2,
+     "excerpt": "plan to have children",
+     "span": [
+      117,
+      138
+     ],
+     "sources": [
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "TAFEP guidance says marital status and family responsibilities should not be selection criteria, and lists 'Are you planning to have children soon?' as a question not to ask.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me why marital status or family plans are asked for at the application stage, and whether they affect selection?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    },
+    {
+     "entry_id": "P2-PHOTO",
+     "category": 2,
+     "excerpt": "attach a recent full-body photograph",
+     "span": [
+      24,
+      60
+     ],
+     "sources": [
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "TAFEP guidance says to remove photograph fields from application forms, or to request photographs at the job offer stage with the reason stated.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me why a photograph is needed at the application stage, and whether it can be provided later?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    }
+   ],
+   "no_reliable_signal": false
+  },
+  {
+   "case_id": "C06",
+   "method": "deterministic",
+   "flags": [
+    {
+     "entry_id": "P3-FEE",
+     "category": 3,
+     "excerpt": "course fee",
+     "span": [
+      53,
+      63
+     ],
+     "sources": [
+      {
+       "source_id": "S5",
+       "name": "MOM FAQ, employment agency fees for workers (web page)",
+       "url": "https://www.mom.gov.sg/faq/employment-agencies/how-will-foreign-workers-know-the-amount-that-they-are-expected-to-pay-the-singapore-ea",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S4",
+       "name": "MOM, Allowable salary deductions (web page)",
+       "url": "https://www.mom.gov.sg/employment-practices/salary/salary-deductions",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "partial",
+     "why_it_may_matter": "MOM caps agency fees collected from foreign workers (no more than one month of fixed monthly salary per year of service, capped at two months) and says some salary deductions cannot be a condition of employment for migrant workers. Neither page speaks to employer-charged fees for all applicants, so support is partial.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me what the fee or deposit is for, whether it is refundable, and when it is returned?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    },
+    {
+     "entry_id": "P3-FEE",
+     "category": 3,
+     "excerpt": "refundable security deposit of $5",
+     "span": [
+      90,
+      123
+     ],
+     "sources": [
+      {
+       "source_id": "S5",
+       "name": "MOM FAQ, employment agency fees for workers (web page)",
+       "url": "https://www.mom.gov.sg/faq/employment-agencies/how-will-foreign-workers-know-the-amount-that-they-are-expected-to-pay-the-singapore-ea",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S4",
+       "name": "MOM, Allowable salary deductions (web page)",
+       "url": "https://www.mom.gov.sg/employment-practices/salary/salary-deductions",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "partial",
+     "why_it_may_matter": "MOM caps agency fees collected from foreign workers (no more than one month of fixed monthly salary per year of service, capped at two months) and says some salary deductions cannot be a condition of employment for migrant workers. Neither page speaks to employer-charged fees for all applicants, so support is partial.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me what the fee or deposit is for, whether it is refundable, and when it is returned?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    }
+   ],
+   "no_reliable_signal": false
+  },
+  {
+   "case_id": "C07",
+   "method": "deterministic",
+   "flags": [
+    {
+     "entry_id": "P3-DOCS",
+     "category": 3,
+     "excerpt": "keep your original passport",
+     "span": [
+      54,
+      81
+     ],
+     "sources": [],
+     "source_support": "none",
+     "why_it_may_matter": "Asking an applicant to hand over original identity documents or bank credentials is a common warning sign. No TAFEP or MOM page in the pack was read for this, so there is no named source.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me why the original documents are needed, how long they are kept, and when they are returned?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    }
+   ],
+   "no_reliable_signal": false
+  },
+  {
+   "case_id": "C08",
+   "method": "deterministic",
+   "flags": [
+    {
+     "entry_id": "P4-UNPAID",
+     "category": 4,
+     "excerpt": "Trial days are unpaid",
+     "span": [
+      79,
+      100
+     ],
+     "sources": [],
+     "source_support": "none",
+     "why_it_may_matter": "Unpaid work offered as a condition of being considered is a common warning sign. No TAFEP or MOM page in the pack was read for this, so there is no named source.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me whether the trial period is paid, how long it lasts, and what work is done during it?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    }
+   ],
+   "no_reliable_signal": false
+  },
+  {
+   "case_id": "C09",
+   "method": "deterministic",
+   "flags": [
+    {
+     "entry_id": "P4-DEDUCT",
+     "category": 4,
+     "excerpt": "liquidated damages",
+     "span": [
+      66,
+      84
+     ],
+     "sources": [
+      {
+       "source_id": "S4",
+       "name": "MOM, Allowable salary deductions (web page)",
+       "url": "https://www.mom.gov.sg/employment-practices/salary/salary-deductions",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "The MOM page lists the salary deductions that are allowed and gives liquidated damages as an example of a deduction that is not authorised under the Employment Act for covered employees.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me what the deduction covers, when it applies, and which terms of the contract state it?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    },
+    {
+     "entry_id": "P4-DEDUCT",
+     "category": 4,
+     "excerpt": "deducted from your salary",
+     "span": [
+      103,
+      128
+     ],
+     "sources": [
+      {
+       "source_id": "S4",
+       "name": "MOM, Allowable salary deductions (web page)",
+       "url": "https://www.mom.gov.sg/employment-practices/salary/salary-deductions",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "The MOM page lists the salary deductions that are allowed and gives liquidated damages as an example of a deduction that is not authorised under the Employment Act for covered employees.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me what the deduction covers, when it applies, and which terms of the contract state it?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    }
+   ],
+   "no_reliable_signal": false
+  },
+  {
+   "case_id": "C10",
+   "method": "deterministic",
+   "flags": [
+    {
+     "entry_id": "P5-DEMANDS",
+     "category": 5,
+     "excerpt": "willing to do anything",
+     "span": [
+      84,
+      106
+     ],
+     "sources": [],
+     "source_support": "none",
+     "why_it_may_matter": "Vague duties paired with high personal demands, or wording that treats workers as interchangeable, are common warning signs. No TAFEP or MOM page in the pack was read for this, so there is no named source.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me what the main duties are, what the expected working hours are, and how after-hours work is compensated?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    },
+    {
+     "entry_id": "P5-DEMANDS",
+     "category": 5,
+     "excerpt": "available 24/7",
+     "span": [
+      125,
+      139
+     ],
+     "sources": [],
+     "source_support": "none",
+     "why_it_may_matter": "Vague duties paired with high personal demands, or wording that treats workers as interchangeable, are common warning signs. No TAFEP or MOM page in the pack was read for this, so there is no named source.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me what the main duties are, what the expected working hours are, and how after-hours work is compensated?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    },
+    {
+     "entry_id": "P5-DEMANDS",
+     "category": 5,
+     "excerpt": "no questions asked",
+     "span": [
+      141,
+      159
+     ],
+     "sources": [],
+     "source_support": "none",
+     "why_it_may_matter": "Vague duties paired with high personal demands, or wording that treats workers as interchangeable, are common warning signs. No TAFEP or MOM page in the pack was read for this, so there is no named source.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me what the main duties are, what the expected working hours are, and how after-hours work is compensated?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    },
+    {
+     "entry_id": "P5-RAPID",
+     "category": 5,
+     "excerpt": "become a director in just 6 months",
+     "span": [
+      40,
+      74
+     ],
+     "sources": [],
+     "source_support": "none",
+     "why_it_may_matter": "Promises of rapid progression that the role does not support are a common warning sign. No TAFEP or MOM page in the pack was read for this, so there is no named source.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me how progression works in this role, what the typical timeline has been, and what it depends on?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    }
+   ],
+   "no_reliable_signal": false
+  },
+  {
+   "case_id": "B01",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "B02",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "B03",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "B04",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "B05",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "B06",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "B07",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "B08",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "B09",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "B10",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "A01",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "A02",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "A03",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "A04",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "A05",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "A06",
+   "method": "deterministic",
+   "flags": [
+    {
+     "entry_id": "P2-APPEARANCE",
+     "category": 2,
+     "excerpt": "Good-looking",
+     "span": [
+      21,
+      33
+     ],
+     "sources": [
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "partial",
+     "why_it_may_matter": "TAFEP's merit principle says selection should rest on skills, experience or ability to perform the job. The page does not name appearance wording, so the support is indirect.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me how the appearance wording relates to the duties, and what the dress or grooming expectations are?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    }
+   ],
+   "no_reliable_signal": false
+  },
+  {
+   "case_id": "A07",
+   "method": "deterministic",
+   "flags": [
+    {
+     "entry_id": "P4-PAYUNCLEAR",
+     "category": 4,
+     "excerpt": "Earn up to $6",
+     "span": [
+      22,
+      35
+     ],
+     "sources": [
+      {
+       "source_id": "S6",
+       "name": "MOM, Key employment terms (web page)",
+       "url": "https://www.mom.gov.sg/employment-practices/contract-of-service/key-employment-terms",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "partial",
+     "why_it_may_matter": "MOM's key employment terms page lists the salary items an employer states in writing (basic salary, allowances, deductions, overtime rate, bonuses). It does not rule on advertising wording, so support is partial.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me the guaranteed basic pay, how commission is calculated, and how overtime is paid?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    }
+   ],
+   "no_reliable_signal": false
+  },
+  {
+   "case_id": "A08",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "J01",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "J02",
+   "method": "deterministic",
+   "flags": [
+    {
+     "entry_id": "P1-GENDER",
+     "category": 1,
+     "excerpt": "women only",
+     "span": [
+      115,
+      125
+     ],
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "TAFEP guidance says gender should not be a criterion unless there is a practical requirement, and that the reason should be stated.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me whether the gender wording is tied to a requirement of the role, and what that requirement is?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    }
+   ],
+   "no_reliable_signal": false
+  },
+  {
+   "case_id": "J03",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "J04",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "J05",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "J06",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "E1",
+   "method": "deterministic",
+   "flags": [
+    {
+     "entry_id": "P1-AGE",
+     "category": 1,
+     "excerpt": "Below 30 only",
+     "span": [
+      151,
+      164
+     ],
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "TAFEP guidance says age should generally not be a selection criterion and that a physical task should be described instead of an age group.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me how the age or experience wording in the posting relates to the duties of the role?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    }
+   ],
+   "no_reliable_signal": false
+  },
+  {
+   "case_id": "E2",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "E3",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  },
+  {
+   "case_id": "E4",
+   "method": "deterministic",
+   "flags": [
+    {
+     "entry_id": "P1-AGE",
+     "category": 1,
+     "excerpt": "young",
+     "span": [
+      12,
+      17
+     ],
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "TAFEP guidance says age should generally not be a selection criterion and that a physical task should be described instead of an age group.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me how the age or experience wording in the posting relates to the duties of the role?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    }
+   ],
+   "no_reliable_signal": false
+  },
+  {
+   "case_id": "E5",
+   "method": "deterministic",
+   "flags": [
+    {
+     "entry_id": "P3-FEE",
+     "category": 3,
+     "excerpt": "Pay $2000",
+     "span": [
+      119,
+      128
+     ],
+     "sources": [
+      {
+       "source_id": "S5",
+       "name": "MOM FAQ, employment agency fees for workers (web page)",
+       "url": "https://www.mom.gov.sg/faq/employment-agencies/how-will-foreign-workers-know-the-amount-that-they-are-expected-to-pay-the-singapore-ea",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S4",
+       "name": "MOM, Allowable salary deductions (web page)",
+       "url": "https://www.mom.gov.sg/employment-practices/salary/salary-deductions",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "partial",
+     "why_it_may_matter": "MOM caps agency fees collected from foreign workers (no more than one month of fixed monthly salary per year of service, capped at two months) and says some salary deductions cannot be a condition of employment for migrant workers. Neither page speaks to employer-charged fees for all applicants, so support is partial.",
+     "what_is_not_established": "The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.",
+     "suggested_question": "Could you tell me what the fee or deposit is for, whether it is refundable, and when it is returned?",
+     "valid_entry": true,
+     "excerpt_verbatim": true
+    }
+   ],
+   "no_reliable_signal": false
+  },
+  {
+   "case_id": "E6",
+   "method": "deterministic",
+   "flags": [],
+   "no_reliable_signal": true
+  }
+ ]
+}

@@ -1,0 +1,469 @@
+{
+ "run": "2026-11-10-run-001",
+ "breakdown_gold": {
+  "by_board": {
+   "mcf": {
+    "n": 9,
+    "complete": 8,
+    "pct_complete": 88.9,
+    "missing": {
+     "title": 1,
+     "employer": 1,
+     "pay": 1,
+     "closing": 1
+    }
+   },
+   "jobstreet": {
+    "n": 8,
+    "complete": 3,
+    "pct_complete": 37.5,
+    "missing": {
+     "pay": 3,
+     "closing": 4
+    }
+   },
+   "fastjobs": {
+    "n": 6,
+    "complete": 3,
+    "pct_complete": 50.0,
+    "missing": {
+     "closing": 3,
+     "employer": 1
+    }
+   },
+   "company": {
+    "n": 7,
+    "complete": 5,
+    "pct_complete": 71.4,
+    "missing": {
+     "pay": 2,
+     "closing": 1
+    }
+   }
+  },
+  "by_job_type": {
+   "professional": {
+    "n": 8,
+    "complete": 4,
+    "pct_complete": 50.0,
+    "missing": {
+     "title": 1,
+     "employer": 1,
+     "pay": 4,
+     "closing": 2
+    }
+   },
+   "clerical": {
+    "n": 6,
+    "complete": 2,
+    "pct_complete": 33.3,
+    "missing": {
+     "closing": 4,
+     "pay": 2,
+     "employer": 1
+    }
+   },
+   "manual": {
+    "n": 6,
+    "complete": 5,
+    "pct_complete": 83.3,
+    "missing": {
+     "closing": 1
+    }
+   },
+   "contract": {
+    "n": 3,
+    "complete": 3,
+    "pct_complete": 100.0,
+    "missing": {}
+   },
+   "part-time": {
+    "n": 4,
+    "complete": 2,
+    "pct_complete": 50.0,
+    "missing": {
+     "closing": 2
+    }
+   },
+   "gig": {
+    "n": 3,
+    "complete": 3,
+    "pct_complete": 100.0,
+    "missing": {}
+   }
+  },
+  "gold_missing_by_field": {
+   "title": 1,
+   "employer": 2,
+   "pay": 6,
+   "duties": 0,
+   "closing": 9
+  }
+ },
+ "version": "snapshot-step 0.1.0 (E13, deterministic)",
+ "deterministic": {
+  "system": "deterministic snapshot step",
+  "ids_scored": {
+   "complete": 30,
+   "partial": 10
+  },
+  "gold_complete": {
+   "n": 19,
+   "of": 30,
+   "pct": 63.3
+  },
+  "predicted_complete": {
+   "n": 19,
+   "of": 30,
+   "pct": 63.3
+  },
+  "complete_agreement": {
+   "n": 30,
+   "of": 30
+  },
+  "field_accuracy": {
+   "title": {
+    "correct": 30,
+    "of": 30,
+    "pct": 100.0
+   },
+   "employer": {
+    "correct": 30,
+    "of": 30,
+    "pct": 100.0
+   },
+   "pay": {
+    "correct": 30,
+    "of": 30,
+    "pct": 100.0
+   },
+   "duties": {
+    "correct": 30,
+    "of": 30,
+    "pct": 100.0
+   },
+   "closing": {
+    "correct": 30,
+    "of": 30,
+    "pct": 100.0
+   }
+  },
+  "field_errors": [],
+  "partial_detection": {
+   "flagged": 10,
+   "of": 10,
+   "pct": 100.0,
+   "missed": [],
+   "by_type": {
+    "cut_off": {
+     "flagged": 4,
+     "of": 4
+    },
+    "no_body": {
+     "flagged": 3,
+     "of": 3
+    },
+    "cards_nav": {
+     "flagged": 3,
+     "of": 3
+    }
+   }
+  },
+  "false_flags": {
+   "n": 1,
+   "of": 30,
+   "ids": [
+    "P29"
+   ],
+   "reasons": {
+    "P29": [
+     "cut_off"
+    ]
+   }
+  },
+  "by_board": {
+   "company": {
+    "n30": 7,
+    "n10": 3,
+    "field_correct": {
+     "title": "7/7",
+     "employer": "7/7",
+     "pay": "7/7",
+     "duties": "7/7",
+     "closing": "7/7"
+    },
+    "false_flags": 1,
+    "partials_flagged": "3/3"
+   },
+   "fastjobs": {
+    "n30": 6,
+    "n10": 1,
+    "field_correct": {
+     "title": "6/6",
+     "employer": "6/6",
+     "pay": "6/6",
+     "duties": "6/6",
+     "closing": "6/6"
+    },
+    "false_flags": 0,
+    "partials_flagged": "1/1"
+   },
+   "jobstreet": {
+    "n30": 8,
+    "n10": 3,
+    "field_correct": {
+     "title": "8/8",
+     "employer": "8/8",
+     "pay": "8/8",
+     "duties": "8/8",
+     "closing": "8/8"
+    },
+    "false_flags": 0,
+    "partials_flagged": "3/3"
+   },
+   "mcf": {
+    "n30": 9,
+    "n10": 3,
+    "field_correct": {
+     "title": "9/9",
+     "employer": "9/9",
+     "pay": "9/9",
+     "duties": "9/9",
+     "closing": "9/9"
+    },
+    "false_flags": 0,
+    "partials_flagged": "3/3"
+   }
+  }
+ },
+ "llm_model": "qwen/qwen3.8-27b",
+ "llm": {
+  "system": "LLM check (qwen/qwen3.8-27b)",
+  "ids_scored": {
+   "complete": 13,
+   "partial": 5
+  },
+  "gold_complete": {
+   "n": 10,
+   "of": 13,
+   "pct": 76.9
+  },
+  "predicted_complete": {
+   "n": 10,
+   "of": 13,
+   "pct": 76.9
+  },
+  "complete_agreement": {
+   "n": 13,
+   "of": 13
+  },
+  "field_accuracy": {
+   "title": {
+    "correct": 13,
+    "of": 13,
+    "pct": 100.0
+   },
+   "employer": {
+    "correct": 13,
+    "of": 13,
+    "pct": 100.0
+   },
+   "pay": {
+    "correct": 13,
+    "of": 13,
+    "pct": 100.0
+   },
+   "duties": {
+    "correct": 13,
+    "of": 13,
+    "pct": 100.0
+   },
+   "closing": {
+    "correct": 13,
+    "of": 13,
+    "pct": 100.0
+   }
+  },
+  "field_errors": [],
+  "partial_detection": {
+   "flagged": 5,
+   "of": 5,
+   "pct": 100.0,
+   "missed": [],
+   "by_type": {
+    "cut_off": {
+     "flagged": 4,
+     "of": 4
+    },
+    "no_body": {
+     "flagged": 1,
+     "of": 1
+    },
+    "cards_nav": {
+     "flagged": 0,
+     "of": 0
+    }
+   }
+  },
+  "false_flags": {
+   "n": 0,
+   "of": 13,
+   "ids": [],
+   "reasons": {}
+  },
+  "by_board": {
+   "company": {
+    "n30": 0,
+    "n10": 1,
+    "field_correct": {
+     "title": "0/0",
+     "employer": "0/0",
+     "pay": "0/0",
+     "duties": "0/0",
+     "closing": "0/0"
+    },
+    "false_flags": 0,
+    "partials_flagged": "1/1"
+   },
+   "fastjobs": {
+    "n30": 0,
+    "n10": 1,
+    "field_correct": {
+     "title": "0/0",
+     "employer": "0/0",
+     "pay": "0/0",
+     "duties": "0/0",
+     "closing": "0/0"
+    },
+    "false_flags": 0,
+    "partials_flagged": "1/1"
+   },
+   "jobstreet": {
+    "n30": 4,
+    "n10": 1,
+    "field_correct": {
+     "title": "4/4",
+     "employer": "4/4",
+     "pay": "4/4",
+     "duties": "4/4",
+     "closing": "4/4"
+    },
+    "false_flags": 0,
+    "partials_flagged": "1/1"
+   },
+   "mcf": {
+    "n30": 9,
+    "n10": 2,
+    "field_correct": {
+     "title": "9/9",
+     "employer": "9/9",
+     "pay": "9/9",
+     "duties": "9/9",
+     "closing": "9/9"
+    },
+    "false_flags": 0,
+    "partials_flagged": "2/2"
+   }
+  }
+ },
+ "union_partial_flag": {
+  "system": "union of partial flags (deterministic OR LLM)",
+  "ids_scored": {
+   "complete": 13,
+   "partial": 5
+  },
+  "gold_complete": {
+   "n": 10,
+   "of": 13,
+   "pct": 76.9
+  },
+  "predicted_complete": {
+   "n": 10,
+   "of": 13,
+   "pct": 76.9
+  },
+  "complete_agreement": {
+   "n": 13,
+   "of": 13
+  },
+  "partial_detection": {
+   "flagged": 5,
+   "of": 5,
+   "pct": 100.0,
+   "missed": [],
+   "by_type": {
+    "cut_off": {
+     "flagged": 4,
+     "of": 4
+    },
+    "no_body": {
+     "flagged": 1,
+     "of": 1
+    },
+    "cards_nav": {
+     "flagged": 0,
+     "of": 0
+    }
+   }
+  },
+  "false_flags": {
+   "n": 0,
+   "of": 13,
+   "ids": [],
+   "reasons": {}
+  }
+ },
+ "stale": {
+  "rule_table": {
+   "ok": 33,
+   "of": 33,
+   "failures": []
+  },
+  "end_to_end": {
+   "ok": 120,
+   "of": 120,
+   "failures": [],
+   "failing_snapshots": []
+  },
+  "combined": {
+   "ok": 153,
+   "of": 153
+  },
+  "notice_includes_repaste_prompt": true,
+  "closing_date_extraction": {
+   "correct": 30,
+   "of": 30
+  }
+ },
+ "integrity": {
+  "restore_equals_original": 40,
+  "stored_equals_original": 40,
+  "of": 40,
+  "with_crlf": 3,
+  "with_nbsp": 3,
+  "with_zero_width": 2
+ },
+ "verdicts": {
+  "T1 >=80% of 30 pastes contain all minimum fields": [
+   "inconclusive",
+   "19/30 = 63.3% (gold labels)"
+  ],
+  "T2 >=90% of 10 partial pastes flagged": [
+   "pass",
+   "10/10 = 100.0%"
+  ],
+  "T3 <=2 false flags on 30 complete pastes": [
+   "pass",
+   "1/30"
+  ],
+  "T4 stale rule correct on 100% of test snapshots": [
+   "pass",
+   "rule table 33/33; end to end 120/120; combined 153/153"
+  ],
+  "T5 100% of snapshots restore to original": [
+   "pass",
+   "40/40"
+  ]
+ },
+ "overall_part_a": "inconclusive"
+}

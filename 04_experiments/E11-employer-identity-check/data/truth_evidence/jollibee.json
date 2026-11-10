@@ -1,0 +1,29 @@
+{
+ "key": "jollibee",
+ "domain": "www.jollibee.com.sg",
+ "pages": [
+  {
+   "url": "https://www.jollibee.com.sg/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": [
+    "s PRIVACY POLICY Terms and Conditions Delivery available on © 2025 Jollibee. All rights reserved. Choose your prefered delivery "
+   ]
+  },
+  {
+   "url": "https://www.jollibee.com.sg/privacy-policy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://www.jollibee.com.sg/terms-and-conditions",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  }
+ ]
+}

@@ -1,0 +1,730 @@
+{
+ "note": "Gold labels for E13, written by the experiment author (an AI) before the snapshot step existed. synthetic: true. Frozen; see protocol/FROZEN.md.",
+ "field_states": {
+  "employer": [
+   "present",
+   "hidden_labelled",
+   "missing"
+  ],
+  "pay": [
+   "present",
+   "explicit_absence",
+   "missing"
+  ],
+  "closing": [
+   "present",
+   "explicit_absence",
+   "missing"
+  ],
+  "title": [
+   "present",
+   "missing"
+  ],
+  "duties": [
+   "present",
+   "missing"
+  ]
+ },
+ "items": [
+  {
+   "id": "P01",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "mcf",
+   "job_type": "professional",
+   "captured_at": "2026-11-10T09:12:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-12-05"
+  },
+  {
+   "id": "P02",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "mcf",
+   "job_type": "clerical",
+   "captured_at": "2026-11-09T18:40:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-20"
+  },
+  {
+   "id": "P03",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "mcf",
+   "job_type": "manual",
+   "captured_at": "2026-11-10T07:55:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-30"
+  },
+  {
+   "id": "P04",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "mcf",
+   "job_type": "contract",
+   "captured_at": "2026-11-02T13:05:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-06"
+  },
+  {
+   "id": "P05",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "mcf",
+   "job_type": "part-time",
+   "captured_at": "2026-11-10T10:30:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-25"
+  },
+  {
+   "id": "P06",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "mcf",
+   "job_type": "professional",
+   "captured_at": "2026-11-10T11:20:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "hidden_labelled",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-12-12"
+  },
+  {
+   "id": "P07",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "mcf",
+   "job_type": "clerical",
+   "captured_at": "2026-11-08T21:15:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-18"
+  },
+  {
+   "id": "P08",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "mcf",
+   "job_type": "professional",
+   "captured_at": "2026-11-09T09:00:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "missing",
+    "employer": "missing",
+    "pay": "missing",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "closing_date_iso": null
+  },
+  {
+   "id": "P09",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "mcf",
+   "job_type": "gig",
+   "captured_at": "2026-11-10T16:45:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-18"
+  },
+  {
+   "id": "P10",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "jobstreet",
+   "job_type": "professional",
+   "captured_at": "2026-11-08T12:10:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "missing",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "closing_date_iso": null
+  },
+  {
+   "id": "P11",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "jobstreet",
+   "job_type": "manual",
+   "captured_at": "2026-11-10T08:05:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "hidden_labelled",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-28"
+  },
+  {
+   "id": "P12",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "jobstreet",
+   "job_type": "clerical",
+   "captured_at": "2026-11-09T14:20:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "closing_date_iso": null
+  },
+  {
+   "id": "P13",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "jobstreet",
+   "job_type": "contract",
+   "captured_at": "2026-11-07T10:00:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "explicit_absence",
+    "duties": "present",
+    "closing": "explicit_absence"
+   },
+   "closing_date_iso": null
+  },
+  {
+   "id": "P14",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "jobstreet",
+   "job_type": "part-time",
+   "captured_at": "2026-11-10T09:40:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "closing_date_iso": null
+  },
+  {
+   "id": "P15",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "jobstreet",
+   "job_type": "gig",
+   "captured_at": "2026-11-02T11:30:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "explicit_absence"
+   },
+   "closing_date_iso": null
+  },
+  {
+   "id": "P16",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "jobstreet",
+   "job_type": "professional",
+   "captured_at": "2026-11-10T13:25:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "missing",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-30"
+  },
+  {
+   "id": "P17",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "jobstreet",
+   "job_type": "clerical",
+   "captured_at": "2026-11-03T15:50:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "missing",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "closing_date_iso": null
+  },
+  {
+   "id": "P18",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "fastjobs",
+   "job_type": "manual",
+   "captured_at": "2026-11-10T07:30:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "closing_date_iso": null
+  },
+  {
+   "id": "P19",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "fastjobs",
+   "job_type": "manual",
+   "captured_at": "2026-11-08T17:00:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "explicit_absence"
+   },
+   "closing_date_iso": null
+  },
+  {
+   "id": "P20",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "fastjobs",
+   "job_type": "gig",
+   "captured_at": "2026-11-09T12:00:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-18"
+  },
+  {
+   "id": "P21",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "fastjobs",
+   "job_type": "part-time",
+   "captured_at": "2026-11-06T19:10:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "hidden_labelled",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "closing_date_iso": null
+  },
+  {
+   "id": "P22",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "fastjobs",
+   "job_type": "manual",
+   "captured_at": "2026-11-10T10:10:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-30"
+  },
+  {
+   "id": "P23",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "fastjobs",
+   "job_type": "clerical",
+   "captured_at": "2026-11-09T09:25:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "missing",
+    "pay": "present",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "closing_date_iso": null
+  },
+  {
+   "id": "P24",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "company",
+   "job_type": "professional",
+   "captured_at": "2026-11-07T20:00:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "missing",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-12-04"
+  },
+  {
+   "id": "P25",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "company",
+   "job_type": "professional",
+   "captured_at": "2026-11-05T15:15:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "explicit_absence",
+    "duties": "present",
+    "closing": "explicit_absence"
+   },
+   "closing_date_iso": null
+  },
+  {
+   "id": "P26",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "company",
+   "job_type": "manual",
+   "captured_at": "2026-11-10T08:40:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-27"
+  },
+  {
+   "id": "P27",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "company",
+   "job_type": "clerical",
+   "captured_at": "2026-11-06T09:55:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "missing",
+    "duties": "present",
+    "closing": "missing"
+   },
+   "closing_date_iso": null
+  },
+  {
+   "id": "P28",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "company",
+   "job_type": "contract",
+   "captured_at": "2026-11-10T14:00:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-12-15"
+  },
+  {
+   "id": "P29",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "company",
+   "job_type": "professional",
+   "captured_at": "2026-11-10T09:30:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-19"
+  },
+  {
+   "id": "P30",
+   "synthetic": true,
+   "set": "complete30",
+   "board": "company",
+   "job_type": "part-time",
+   "captured_at": "2026-11-04T16:20:00+08:00",
+   "partial_truth": false,
+   "partial_type": null,
+   "source_id": null,
+   "fields": {
+    "title": "present",
+    "employer": "present",
+    "pay": "present",
+    "duties": "present",
+    "closing": "present"
+   },
+   "closing_date_iso": "2026-11-20"
+  },
+  {
+   "id": "P31",
+   "synthetic": true,
+   "set": "partial10",
+   "board": "mcf",
+   "job_type": "professional",
+   "captured_at": "2026-11-10T09:12:00+08:00",
+   "partial_truth": true,
+   "partial_type": "cut_off",
+   "source_id": "P01",
+   "closing_date_iso": null,
+   "fields": null
+  },
+  {
+   "id": "P32",
+   "synthetic": true,
+   "set": "partial10",
+   "board": "jobstreet",
+   "job_type": "clerical",
+   "captured_at": "2026-11-09T14:20:00+08:00",
+   "partial_truth": true,
+   "partial_type": "cut_off",
+   "source_id": "P12",
+   "closing_date_iso": null,
+   "fields": null
+  },
+  {
+   "id": "P33",
+   "synthetic": true,
+   "set": "partial10",
+   "board": "fastjobs",
+   "job_type": "gig",
+   "captured_at": "2026-11-09T12:00:00+08:00",
+   "partial_truth": true,
+   "partial_type": "cut_off",
+   "source_id": "P20",
+   "closing_date_iso": null,
+   "fields": null
+  },
+  {
+   "id": "P34",
+   "synthetic": true,
+   "set": "partial10",
+   "board": "company",
+   "job_type": "contract",
+   "captured_at": "2026-11-10T14:00:00+08:00",
+   "partial_truth": true,
+   "partial_type": "cut_off",
+   "source_id": "P28",
+   "closing_date_iso": null,
+   "fields": null
+  },
+  {
+   "id": "P35",
+   "synthetic": true,
+   "set": "partial10",
+   "board": "mcf",
+   "job_type": "clerical",
+   "captured_at": "2026-11-09T18:40:00+08:00",
+   "partial_truth": true,
+   "partial_type": "no_body",
+   "source_id": "P02",
+   "closing_date_iso": null,
+   "fields": null
+  },
+  {
+   "id": "P36",
+   "synthetic": true,
+   "set": "partial10",
+   "board": "jobstreet",
+   "job_type": "gig",
+   "captured_at": "2026-11-02T11:30:00+08:00",
+   "partial_truth": true,
+   "partial_type": "no_body",
+   "source_id": "P15",
+   "closing_date_iso": null,
+   "fields": null
+  },
+  {
+   "id": "P37",
+   "synthetic": true,
+   "set": "partial10",
+   "board": "company",
+   "job_type": "professional",
+   "captured_at": "2026-11-05T15:15:00+08:00",
+   "partial_truth": true,
+   "partial_type": "no_body",
+   "source_id": "P25",
+   "closing_date_iso": null,
+   "fields": null
+  },
+  {
+   "id": "P38",
+   "synthetic": true,
+   "set": "partial10",
+   "board": "mcf",
+   "job_type": "n/a",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "partial_truth": true,
+   "partial_type": "cards_nav",
+   "source_id": null,
+   "closing_date_iso": null,
+   "fields": null
+  },
+  {
+   "id": "P39",
+   "synthetic": true,
+   "set": "partial10",
+   "board": "jobstreet",
+   "job_type": "n/a",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "partial_truth": true,
+   "partial_type": "cards_nav",
+   "source_id": null,
+   "closing_date_iso": null,
+   "fields": null
+  },
+  {
+   "id": "P40",
+   "synthetic": true,
+   "set": "partial10",
+   "board": "company",
+   "job_type": "n/a",
+   "captured_at": "2026-11-10T09:00:00+08:00",
+   "partial_truth": true,
+   "partial_type": "cards_nav",
+   "source_id": null,
+   "closing_date_iso": null,
+   "fields": null
+  }
+ ]
+}

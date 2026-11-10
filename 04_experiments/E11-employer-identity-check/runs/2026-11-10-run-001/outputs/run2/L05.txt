@@ -1,0 +1,19 @@
+CapitaLand Group Pte. Ltd.  (role: Asset Manager)
+HEADLINE: exists_limited_evidence
+  Registered in Singapore, but there is little public evidence beyond the registry.
+  because: registry: confirmed; web evidence thin (6 pages read, model: None)
+REGISTRY: confirmed. CAPITALAND GROUP PTE. LTD. is registered in Singapore (status: Live Company, registered 1989-01-05).
+WEB: 5 queries (bing, duckduckgo), 6 of 8 pages read, exact name seen in 1 pages and 11 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 4):
+  - CapitaLand Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/CapitaLand-Reviews-E9451.htm
+  - CapitaLand Career: Working at CapitaLand | Glassdo
+    https://www.glassdoor.co.uk/Overview/Working-at-CapitaLand-EI_IE9451.11,21.htm
+  - CapitaLand - LinkedIn  https://sg.linkedin.com/company/capitaland-limited
+  - Pei Pei Chua - CapitaLand | LinkedIn  https://sg.linkedin.com/in/pei-pei-chua-b8011ab
+COULD NOT READ (2):
+  - https://www.reveliolabs.com/companies/capitaland-group/employees  (thin: fewer than 400
+    characters of real content)
+  - https://www.zoominfo.com/c/capitaland-group-pte-ltd/6701116  (thin: fewer than 400 characters of
+    real content)
+DEGRADED: summary_unavailable: model rate limit reached (retry in 2369 s)
+(37.6s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

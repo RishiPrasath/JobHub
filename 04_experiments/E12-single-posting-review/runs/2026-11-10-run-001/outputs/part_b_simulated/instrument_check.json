@@ -1,0 +1,35 @@
+{
+ "E12-P04": {
+  "source_output": "E12-P04__gpt120__r1",
+  "n_items": 16,
+  "n_questions": 0,
+  "planted_id": "W14",
+  "planted_position": "14/16",
+  "planted_text": "The medical benefit covers the employee's dependants.",
+  "planted_passes_mechanical_grounding_check": false,
+  "planted_flag_reason": "content-word overlap 0.40 < 0.5",
+  "other_source_bound_items_flagged_by_check": "1/15"
+ },
+ "E12-P07": {
+  "source_output": "E12-P07__gpt120__r1",
+  "n_items": 20,
+  "n_questions": 2,
+  "planted_id": "W7",
+  "planted_position": "7/20",
+  "planted_text": "The job is permanent.",
+  "planted_passes_mechanical_grounding_check": false,
+  "planted_flag_reason": "content-word overlap 0.00 < 0.5",
+  "other_source_bound_items_flagged_by_check": "2/17"
+ },
+ "E12-P08": {
+  "source_output": "E12-P08__gpt120__r1",
+  "n_items": 12,
+  "n_questions": 1,
+  "planted_id": "W4",
+  "planted_position": "4/12",
+  "planted_text": "The employer makes CPF contributions on the hourly pay.",
+  "planted_passes_mechanical_grounding_check": false,
+  "planted_flag_reason": "content-word overlap 0.00 < 0.5",
+  "other_source_bound_items_flagged_by_check": "0/10"
+ }
+}

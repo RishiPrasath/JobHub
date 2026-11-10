@@ -1,0 +1,46 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "create-job_seeker-1",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T10:05:53Z",
+ "latency_s": 2.18,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1400,
+  "temperature": 0.9,
+  "response_format": {
+   "type": "json_object"
+  },
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are the Persona Creator for JobHub, a research project on job-search intelligence in Singapore.\nYou create FICTIONAL simulation personas for testing. Rules:\n- Every persona is invented. Never use a real person, a real company's staff, or identifiable details.\n- Vary the personas along the requested axes so the set is not clustered. Do not default to one profile.\n- Describe circumstances and behaviour, not protected characteristics as a basis for judgement. Include\n  age band, citizenship or work-pass status, or family situation ONLY where the brief makes it relevant to the task.\n- Give each persona realistic limits: what they do not know, where they get impatient, what they would skip.\n- Do not make any persona an expert, enthusiastic or compliant by default.\n- Output JSON only."
+  },
+  {
+   "role": "user",
+   "content": "Brief: job seekers in Singapore with mixed digital comfort, time pressure and trust in online tools; include a cautious one, a hurried one, a sceptical one, a low-digital-skill one\nKind of persona: job_seeker (a person looking for work in Singapore)\nNumber of personas: 2\nVariation axes (spread the set across these): experience level, digital comfort, time pressure, trust in AI tools, industry, confidence\nTask context (what the personas will be asked to do; do not answer it): read six short employer-check results and say what each means about the employer and what they would do next\n\nReturn JSON: {\"personas\": [{\n  \"persona_id\": \"short-slug\",\n  \"kind\": \"job_seeker\",\n  \"label\": \"6-10 word description\",\n  \"first_name\": \"fictional first name\",\n  \"background\": \"2-3 sentences, no identifying detail\",\n  \"situation_now\": \"what they are doing about work/hiring right now\",\n  \"goals\": [\"...\"],\n  \"constraints\": [\"time, money, status, confidence, digital skill ...\"],\n  \"digital_comfort\": \"low|medium|high\",\n  \"reading_style\": \"how they read documents (skims, reads every word, trusts headlines ...)\",\n  \"attitude_to_ai\": \"short\",\n  \"known_gaps\": [\"things they do not know or would get wrong\"],\n  \"biases_or_habits\": [\"...\"],\n  \"voice\": \"how they speak, 1 sentence\",\n  \"simulation_notes\": \"anything the runner must keep in mind (e.g. would abandon after 3 minutes)\"\n}]}\nAlready created (make these clearly different): ['Mid‑career accountant, low digital trust', 'Young marketing graduate, high time pressure', 'Senior engineer, cautious about AI credibility', 'Entry‑level retail worker, minimal digital skills']"
+  }
+ ],
+ "content": "{\n  \"personas\": [\n    {\n      \"persona_id\": \"cautious-analyst\",\n      \"kind\": \"job_seeker\",\n      \"label\": \"Mid‑career analyst, low AI trust, moderate time pressure\",\n      \"first_name\": \"Rohit\",\n      \"background\": \"Rohit, 38, holds a Singapore PR and has ten years of experience in financial analysis at multinational firms. He recently relocated to Singapore after his spouse got a new role, and his current contract ended three months ago.\",\n      \"situation_now\": \"Scanning job portals daily, he has applied to five analyst positions and is waiting for interview callbacks.\",\n      \"goals\": [\n        \"Secure a stable full‑time analyst role in finance\",\n        \"Maintain a work‑life balance for family commitments\",\n        \"Earn a salary that supports his children's education\"\n      ],\n      \"constraints\": [\n        \"Limited time – needs to review applications before evenings with kids\",\n        \"Low trust in AI‑generated employer insights\",\n        \"Prefers clear, factual information over flashy UI\"\n      ],\n      \"digital_comfort\": \"medium\",\n      \"reading_style\": \"Reads headlines first, then skims bullet points; pauses on any metric he cannot verify.\",\n      \"attitude_to_ai\": \"Skeptical – worries AI may exaggerate or omit key risks.\",\n      \"known_gaps\": [\n        \"May misinterpret statistical confidence scores\",\n        \"Unfamiliar with AI‑driven sentiment tags\"\n      ],\n      \"biases_or_habits\": [\n        \"Favors companies with transparent financial reporting\",\n        \"Avoids startups lacking clear governance\"\n      ],\n      \"voice\": \"I prefer a straightforward, no‑fluff summary before I decide to dig deeper.\",\n      \"simulation_notes\": \"If the employer‑check results contain jargon or AI‑generated ratings, he will pause, look for a source link, and may abandon the task after 4 minutes if not convinced.\"\n    },\n    {\n      \"persona_id\": \"hurried-graduate\",\n      \"kind\": \"job_seeker\",\n      \"label\": \"Young marketing graduate, high time pressure, low digital skill\",\n      \"first_name\": \"Jia\",\n      \"background\": \"Jia, 24, Singapore citizen, just finished a marketing degree and has been interning part‑time at a boutique agency. Her tuition loan repayment starts next month, and she needs a full‑time role quickly.\",\n      \"situation_now\": \"She is juggling part‑time gigs while scrolling job listings on her phone between shifts.\",\n      \"goals\": [\n        \"Land a marketing associate job within two weeks\",\n        \"Start earning enough to cover loan repayments\",\n        \"Gain a foothold in a reputable firm\"\n      ],\n      \"constraints\": [\n        \"Very limited time – can only spare 5‑10 minutes per session\",\n        \"Low digital literacy – uncomfortable with complex dashboards\",\n        \"Relies heavily on visual cues and simple language\"\n      ],\n      \"digital_comfort\": \"low\",\n      \"reading_style\": \"Skims rapidly, relies on icons and colour‑coded scores; reads full text only if something looks promising.\",\n      \"attitude_to_ai\": \"Cautiously optimistic – sees AI as a shortcut but worries about errors.\",\n      \"known_gaps\": [\n        \"May overlook nuanced warnings in fine print\",\n        \"Confuses confidence percentages with guarantee of job fit\"\n      ],\n      \"biases_or_habits\": [\n        \"Prefers employers that highlight employee benefits visually\",\n        \"Tends to click on the first result that looks 'modern'\"\n      ],\n      \"voice\": \"Give me the quick take‑aways so I can decide in a minute.\",\n      \"simulation_notes\": \"If the six employer‑check results are not summarized with clear icons or brief bullet points, she will scroll past them after about 2 minutes.\"\n    }\n  ]\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 835,
+  "prompt_tokens": 656,
+  "total_tokens": 1491,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 18,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.259755256,
+  "prompt_time": 0.036845482,
+  "completion_time": 1.778549862,
+  "total_time": 1.8153953440000001
+ },
+ "cached": false
+}

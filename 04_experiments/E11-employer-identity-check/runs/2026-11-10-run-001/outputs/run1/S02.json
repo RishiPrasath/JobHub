@@ -1,0 +1,400 @@
+{
+ "employer": "Burger King Singapore Pte. Ltd.",
+ "role": "Crew Member",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "BURGER KING SINGAPORE PTE. LTD. is registered in Singapore (status: Live Company, registered 2009-01-13).",
+  "basis": "name only",
+  "entity": {
+   "uen": "200900741N",
+   "name": "BURGER KING SINGAPORE PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2009-01-13",
+   "activity": "OPERATION OF COMPANY-OPERATED BURGER KING RESTAURANTS, TRAINING OF FRANCHISES"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Burger King Singapore Pte. Ltd.\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Burger King Singapore Pte. Ltd.\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Burger King Singapore Pte. Ltd.\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Burger King Singapore Pte. Ltd.\" Crew Member interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Burger King Singapore Pte. Ltd.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://recordowl.com/company/burger-king-singapore-pte-ltd",
+    "status": "ok",
+    "chars": 8668,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Burger-King-Singapore-Pte-Ltd",
+    "status": "ok",
+    "chars": 11346,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.emis.com/php/company-profile/SG/Burger_King_Singapore_Pte_Ltd_en_16582417.html",
+    "status": "ok",
+    "chars": 1325,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.bizapore.com/en-SG/burger-king-singapore-pte-ltd_1d-6754-7028",
+    "status": "irrelevant",
+    "chars": 460,
+    "note": "the page never mentions the company name",
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.burgerking.com.sg/About",
+    "status": "ok",
+    "chars": 1351,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://sg.globaldatabase.com/company/burger-king-singapore-pte-ltd",
+    "status": "ok",
+    "chars": 4962,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.bloomberg.com/profile/company/3510274Z:SP",
+    "status": "ok",
+    "chars": 692,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.mycareersfuture.gov.sg/job/casual-labor-burger-king-singapore-c489044ee1af241b2c729d25e90aa464",
+    "status": "ok",
+    "chars": 1693,
+    "note": null,
+    "tier": "render"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.linkedin.com/in/burger-king-singapore",
+    "title": "Burger King Singapore - -- | LinkedIn",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "burger king singapore"
+   ],
+   "pages_with_exact_name": 7,
+   "snippets_with_exact_name": 22,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 16,
+  "registry_mirror_pages": 2
+ },
+ "headline": "exists_and_consistent",
+ "headline_meaning": "Registered in Singapore, and public sources agree it is the company named.",
+ "reasons": [
+  "registry: confirmed",
+  "model: consistent across 5 pages"
+ ],
+ "brief": {
+  "validity_reasoning": "Multiple independent sources (official registry, company overview pages, and the company's own website) consistently confirm the existence, registration details, business activities, and operational scale of Burger King Singapore Pte. Ltd.",
+  "confidence": "high",
+  "could_not_verify": [],
+  "key_facts": [
+   {
+    "claim": "Legal name is BURGER KING SINGAPORE PTE. LTD.",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Legal name: BURGER KING SINGAPORE PTE. LTD.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Company ID (UEN) is 200900741N and status is Live",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Company ID: 200900741N\nStatus: Live Company",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Incorporated on 13 January 2009",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Registered: 2009-01-13",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/burger-king-singapore-pte-ltd",
+      "quote": "Incorporated on 13 January 2009",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Entity type is Private Company Limited by Shares (Local Company)",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Entity type: Local Company",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/burger-king-singapore-pte-ltd",
+      "quote": "Entity type - Private Company Limited By Shares",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Registered address is 600 North Bridge Road, #08-01/02, Parkview Square, Singapore 188778",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/burger-king-singapore-pte-ltd",
+      "quote": "Registered address - 600 NORTH BRIDGE ROAD #08-01/02 PARKVIEW SQUARE SINGAPORE 188778",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 2,
+      "url": "https://www.sgpbusiness.com/company/Burger-King-Singapore-Pte-Ltd",
+      "quote": "REGISTERED ADDRESS 600 NORTH BRIDGE ROAD #08-01/02 PARKVIEW SQUARE SINGAPORE (188778)",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Primary business activity: Operation of company‑operated Burger King restaurants and training of franchises (SSIC 56121)",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Registered business activity: OPERATION OF COMPANY-OPERATED BURGER KING RESTAURANTS, TRAINING OF FRANCHISES",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/burger-king-singapore-pte-ltd",
+      "quote": "principal activity is OPERATION OF COMPANY-OPERATED BURGER KING RESTAURANTS, TRAINING OF FRANCHISES",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Formerly known as Cosmo Restaurants Singapore (or Cosmo Restaurants Singapore Pte. Ltd.)",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/burger-king-singapore-pte-ltd",
+      "quote": "Formerly known as - Cosmo Restaurants Singapore",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 2,
+      "url": "https://www.sgpbusiness.com/company/Burger-King-Singapore-Pte-Ltd",
+      "quote": "ALSO FORMERLY KNOWN AS COSMO RESTAURANTS SINGAPORE PTE. LTD.",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Operates approximately 70 Burger King restaurants across Singapore",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/burger-king-singapore-pte-ltd",
+      "quote": "operates approximately 70 BURGER KING® restaurants across Singapore",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 5,
+      "url": "https://www.burgerking.com.sg/About",
+      "quote": "operates 70 BURGER KING® restaurants in Singapore",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Burger King brand entered Singapore in 1982 with first outlet at Peninsula Plaza",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/burger-king-singapore-pte-ltd",
+      "quote": "BURGER KING® commenced operations in Singapore in 1982 with the opening of its first restaurant at Peninsula Plaza",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 5,
+      "url": "https://www.burgerking.com.sg/About",
+      "quote": "BURGER KING® commenced operations in Singapore in 1982 with the opening of its first restaurant at Peninsula Plaza",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Website is https://www.burgerking.com.sg/",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/burger-king-singapore-pte-ltd",
+      "quote": "Website - burgerking.com.sg",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 5,
+      "url": "https://www.burgerking.com.sg/About",
+      "quote": "official website is https://www.burgerking.com.sg/",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "Company is a live, actively trading entity with a long operating history",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Status: Live Company",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 2,
+      "url": "https://www.sgpbusiness.com/company/Burger-King-Singapore-Pte-Ltd",
+      "quote": "operating status is live and has been operating for 18 years",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Large restaurant footprint (≈70 outlets) indicates strong market presence",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/burger-king-singapore-pte-ltd",
+      "quote": "operates approximately 70 BURGER KING® restaurants across Singapore",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Company maintains active social media and online ordering channels",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://recordowl.com/company/burger-king-singapore-pte-ltd",
+      "quote": "maintains active social media presences on Facebook and Instagram",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "red_flags": [],
+  "claims_verified": 13,
+  "claims_unverified": 0,
+  "model_validity_status": "appears_real_and_consistent"
+ },
+ "could_not_read": [
+  {
+   "url": "https://www.bizapore.com/en-SG/burger-king-singapore-pte-ltd_1d-6754-7028",
+   "why": "irrelevant: the page never mentions the company name"
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://sg.linkedin.com/in/burger-king-singapore",
+   "title": "Burger King Singapore - -- | LinkedIn",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 102.1,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

@@ -1,0 +1,23 @@
+{
+ "key": "psc",
+ "domain": "www.pscafe.com",
+ "pages": [
+  {
+   "url": "https://www.pscafe.com/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [],
+   "copyright": []
+  },
+  {
+   "url": "https://www.pscafe.com/privacy-policy",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "If you were previously employed by PSGourmet Pte Ltd",
+    "Private Event Venue Important Notice to Former Employees PSGourmet Pte Ltd"
+   ],
+   "copyright": []
+  }
+ ]
+}

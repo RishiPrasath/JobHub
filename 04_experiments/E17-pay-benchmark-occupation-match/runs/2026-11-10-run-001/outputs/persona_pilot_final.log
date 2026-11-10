@@ -1,0 +1,45 @@
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 179, in chat
+    resp = client.chat.completions.create(**kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\resources\chat\completions\completions.py", line 1211, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<47 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1314, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\AppData\Roaming\Python\Python314\site-packages\openai\_base_client.py", line 1087, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199543, Requested 826. Please try again in 2m39.408s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E17-pay-benchmark-occupation-match\harness\persona_pilot.py", line 112, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\prasa\Documents\Github\JobHub\04_experiments\E17-pay-benchmark-occupation-match\harness\persona_pilot.py", line 43, in main
+    agents = pc.spawn_on_demand(
+        "six job seekers in Singapore with mixed digital comfort, who skim: include an early-career graduate, a mid-career "
+        "switcher, a worker in a manual or service job, a professional with a decade of experience, one sceptical of "
+        "AI tools, and one who reads very literally",
+        kind="job_seeker", n=6, seed=2, task_context="choose the occupation that matches a posting from a short list, then read a pay range")
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\persona_creator.py", line 203, in spawn_on_demand
+    return [self.spawn(p) for p in self.create(brief, kind, n, **kw)]
+                                   ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\persona_creator.py", line 160, in create
+    r = chat(self.creator_model, [{"role": "system", "content": CREATOR_SYSTEM},
+                                  {"role": "user", "content": user}], json_mode=True,
+             max_tokens=2200 if k > 2 else 1400, temperature=0.9, cache_dir=self.cache,
+             tag=f"create-{kind}-{idx}", run=seed, reasoning_effort="low")
+  File "C:\Users\prasa\Documents\Github\JobHub\tools\llm_client.py", line 205, in chat
+    raise RuntimeError(f"DAILY LIMIT: {text[:300]}") from e
+RuntimeError: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199543, Requested 826. Please try again in 2m39.408s. Need more tokens? Upgrade to Dev Tier

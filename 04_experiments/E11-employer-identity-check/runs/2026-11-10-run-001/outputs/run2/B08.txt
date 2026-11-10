@@ -1,0 +1,26 @@
+Swensen's  (role: Service Crew)
+HEADLINE: brand_legal_entity_unconfirmed
+  Public sources describe a company by this name, but the registry has no entity with this exact
+  name. It may trade under a brand name; the legal employer is not confirmed.
+  because: registry: similar_name_only; exact name seen 31 times in sources
+REGISTRY: similar_name_only. No registered entity is named 'Swensen's'. The closest registered name is ABR SWENSEN'S PTE. LTD., which may be a different company.
+WEB: 5 queries (bing, duckduckgo), 7 of 8 pages read, exact name seen in 7 pages and 24 search results
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 10):
+  - Working at Swensen's: Employee Reviews | Indeed.co  https://sg.indeed.com/cmp/Swensen's/reviews
+  - Reviews Swensen's employee ratings and reviews | J
+    https://sg.jobstreet.com/companies/swensens-168559249031197/reviews
+  - Working at Swensen's company profile and informati
+    https://sg.jobstreet.com/companies/swensens-168559249031197
+  - Swensen's Reviews in Singapore | Glassdoor  https://www.glassdoor.com/Reviews/Swensen-s-
+    Singapore-Reviews-EI_IE1851420.0,9_I
+  - Swensen's Reviews in Singapore | Glassdoor  https://www.glassdoor.sg/Reviews/Swensen-s-
+    Singapore-Reviews-EI_IE1851420.0,9_IL
+  - Swensen's Reviews in Singapore, Singapore | Glassd  https://www.glassdoor.com/Reviews/Swensen-s-
+    Singapore-Reviews-EI_IE1851420.0,9_I
+COULD NOT READ (1):
+  - https://sgpgrid.com/company-details/swensens-of-singapore-1996-pte-ltd  (irrelevant: the page
+    never mentions the company name)
+COULD NOT VERIFY:
+  - Which registered company is the legal employer behind this brand.
+DEGRADED: summary_unavailable: model rate limit reached (retry in 1673 s)
+(47.3s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

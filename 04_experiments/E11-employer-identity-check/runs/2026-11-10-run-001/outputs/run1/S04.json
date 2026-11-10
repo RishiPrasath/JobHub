@@ -1,0 +1,431 @@
+{
+ "employer": "Funding Societies Pte. Ltd.",
+ "role": "Credit Analyst",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "FUNDING SOCIETIES PTE. LTD. is registered in Singapore (status: Live Company, registered 2015-02-26).",
+  "basis": "name only",
+  "entity": {
+   "uen": "201505169M",
+   "name": "FUNDING SOCIETIES PTE. LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2015-02-26",
+   "activity": "MARKETPLACE LENDING FOR SMALL & MEDIUM BUSINESSES"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Funding Societies Pte. Ltd.\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Funding Societies Pte. Ltd.\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Funding Societies Pte. Ltd.\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Funding Societies Pte. Ltd.\" Credit Analyst interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Funding Societies Pte. Ltd.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://fundingsocieties.com/career",
+    "status": "ok",
+    "chars": 4000,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.reveliolabs.com/companies/funding-societies/employees",
+    "status": "thin",
+    "chars": 120,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://www.zoominfo.com/pic/funding-societies-pte-ltd/369231695",
+    "status": "thin",
+    "chars": 106,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://contactout.com/company/Funding-Societies-Singapore-8815",
+    "status": "thin",
+    "chars": 262,
+    "note": "fewer than 400 characters of real content",
+    "tier": "render"
+   },
+   {
+    "url": "https://eservices.mas.gov.sg/fid/institution/detail/200984-FUNDING-SOCIETIES-PTE-LTD",
+    "status": "ok",
+    "chars": 508,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://fundingsocieties.com/",
+    "status": "ok",
+    "chars": 9559,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Funding-Societies-Pte-Ltd",
+    "status": "ok",
+    "chars": 10478,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/business/201505169M/FUNDING-SOCIETIES-PTE-LTD-",
+    "status": "error",
+    "chars": 0,
+    "note": "",
+    "tier": null
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://sg.jobstreet.com/companies/funding-societies-168554983954787/reviews",
+    "title": "Reviews Funding Societies employee ratings and reviews | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Funding-Societies-Pte-Ltd",
+    "title": "Funding Societies Pte Ltd Careers and Employment - Indeed",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Overview/Working-at-Funding-Societies-EI_IE1325206.11,28.htm",
+    "title": "Working at Funding Societies | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/funding-societies-168554983954787/salaries",
+    "title": "Funding Societies salaries in Singapore: What is the pay at Funding ...",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Salary/Funding-Societies-Salaries-E1325206.htm",
+    "title": "125 Salaries at Funding Societies Shared by Employees",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Funding-Societies-Pte-Ltd/salaries",
+    "title": "Funding Societies Pte Ltd Salaries in Singapore - Indeed",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "funding societies"
+   ],
+   "pages_with_exact_name": 4,
+   "snippets_with_exact_name": 26,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 14,
+  "registry_mirror_pages": 1
+ },
+ "headline": "exists_and_consistent",
+ "headline_meaning": "Registered in Singapore, and public sources agree it is the company named.",
+ "reasons": [
+  "registry: confirmed",
+  "model: consistent across 3 pages"
+ ],
+ "brief": {
+  "validity_reasoning": "Multiple independent sources (official registry, MAS licence page, company website, and business directory) consistently describe Funding Societies Pte. Ltd. as a live Singapore company founded in 2015, engaged in marketplace lending for SMEs, holding a Capital Markets Services licence and operating across Southeast Asia.",
+  "confidence": "high",
+  "could_not_verify": [
+   "Specific details about the Credit Analyst role responsibilities or compensation",
+   "Exact number of employees beyond the approximate figure in a search snippet"
+  ],
+  "key_facts": [
+   {
+    "claim": "Legal name and registration details",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Legal name: FUNDING SOCIETIES PTE. LTD. ... Company ID: 201505169M ... Registered: 2015-02-26",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 7,
+      "url": "https://www.sgpbusiness.com/company/Funding-Societies-Pte-Ltd",
+      "quote": "FUNDING SOCIETIES PTE. LTD. ... incorporated on 26 February 2015 ... UEN 201505169M",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Company status is live",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Status: Live Company",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 7,
+      "url": "https://www.sgpbusiness.com/company/Funding-Societies-Pte-Ltd",
+      "quote": "STATUS Live Company",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Primary business activity is marketplace lending for SMEs",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Registered business activity: MARKETPLACE LENDING FOR SMALL & MEDIUM BUSINESSES",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 7,
+      "url": "https://www.sgpbusiness.com/company/Funding-Societies-Pte-Ltd",
+      "quote": "principal activity is other financial service activities ... with money-lending as the secondary activity",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Holds a Capital Markets Services licence from MAS",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://eservices.mas.gov.sg/fid/institution/detail/200984-FUNDING-SOCIETIES-PTE-LTD",
+      "quote": "Licence Type/Status Capital Markets Services Licensee",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Headquarters address is 108 Robinson Road, #06-01, Singapore 068900",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://eservices.mas.gov.sg/fid/institution/detail/200984-FUNDING-SOCIETIES-PTE-LTD",
+      "quote": "108 ROBINSON ROAD #06-01 068900",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 7,
+      "url": "https://www.sgpbusiness.com/company/Funding-Societies-Pte-Ltd",
+      "quote": "registered office is 108 ROBINSON ROAD, #06-01, SINGAPORE (068900)",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Founded in 2015 with mission to uplift societies in Southeast Asia",
+    "evidence": [
+     {
+      "source": 6,
+      "url": "https://fundingsocieties.com/",
+      "quote": "Launched in 2015, our mission is to uplift societies in Southeast Asia",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Backed by SoftBank Ventures Asia and Sequoia India",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://fundingsocieties.com/career",
+      "quote": "Backed by SoftBank Ventures Asia Corp and Sequoia India, amongst many others",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Operates in Singapore, Indonesia, Malaysia, Thailand, Vietnam",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://fundingsocieties.com/career",
+      "quote": "Singapore ... Indonesia ... Malaysia ... Thailand ... Vietnam",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Core values include Grow Relentlessly, Enable Teamwork, Test‑Measure‑Act, Focus on Impact, Serve with Obsession",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://fundingsocieties.com/career",
+      "quote": "Our Core Values ... Grow Relentlessly ... Enable Teamwork, Disable Politics ... Test | Measure | Act ... Focus on Impact ... Serve with Obsession",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "Recognised as the largest SME digital financing platform in Southeast Asia",
+    "evidence": [
+     {
+      "source": 6,
+      "url": "https://fundingsocieties.com/",
+      "quote": "We are Southeast Asia’s largest SME digital financing and debt investment platform",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 7,
+      "url": "https://www.sgpbusiness.com/company/Funding-Societies-Pte-Ltd",
+      "quote": "Funding Societies | Modalku is the largest SME digital financing platform in Southeast Asia",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Awarded multiple industry recognitions (MAS FinTech Award 2016, UN ITU award 2017, KPMG Fintech100 2018)",
+    "evidence": [
+     {
+      "source": 7,
+      "url": "https://www.sgpbusiness.com/company/Funding-Societies-Pte-Ltd",
+      "quote": "It was given the MAS FinTech Award in 2016, the Global SME Excellence Award at the United Nations’ ITU Telecom World in 2017, KPMG Fintech100 in 2018",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Approximately 699 employees worldwide as of March 2026",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://www.reveliolabs.com/companies/funding-societies/employees",
+      "quote": "Funding Societies Pte Ltd. ... employs 699 people worldwide as of March 2026",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   }
+  ],
+  "red_flags": [],
+  "claims_verified": 9,
+  "claims_unverified": 3,
+  "model_validity_status": "appears_real_and_consistent"
+ },
+ "could_not_read": [
+  {
+   "url": "https://www.reveliolabs.com/companies/funding-societies/employees",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://www.zoominfo.com/pic/funding-societies-pte-ltd/369231695",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://contactout.com/company/Funding-Societies-Singapore-8815",
+   "why": "thin: fewer than 400 characters of real content"
+  },
+  {
+   "url": "https://www.companies.sg/business/201505169M/FUNDING-SOCIETIES-PTE-LTD-",
+   "why": "error: "
+  }
+ ],
+ "link_out": [
+  {
+   "url": "https://sg.jobstreet.com/companies/funding-societies-168554983954787/reviews",
+   "title": "Reviews Funding Societies employee ratings and reviews | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Funding-Societies-Pte-Ltd",
+   "title": "Funding Societies Pte Ltd Careers and Employment - Indeed",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Overview/Working-at-Funding-Societies-EI_IE1325206.11,28.htm",
+   "title": "Working at Funding Societies | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/funding-societies-168554983954787/salaries",
+   "title": "Funding Societies salaries in Singapore: What is the pay at Funding ...",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Salary/Funding-Societies-Salaries-E1325206.htm",
+   "title": "125 Salaries at Funding Societies Shared by Employees",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Funding-Societies-Pte-Ltd/salaries",
+   "title": "Funding Societies Pte Ltd Salaries in Singapore - Indeed",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Specific details about the Credit Analyst role responsibilities or compensation",
+  "Exact number of employees beyond the approximate figure in a search snippet"
+ ],
+ "seconds": 128.9,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

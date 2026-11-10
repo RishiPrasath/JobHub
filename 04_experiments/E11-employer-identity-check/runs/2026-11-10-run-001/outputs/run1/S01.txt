@@ -1,0 +1,46 @@
+Ya Kun International Private Limited  (role: Kitchen Assistant)
+HEADLINE: exists_and_consistent
+  Registered in Singapore, and public sources agree it is the company named.
+  because: registry: confirmed; model: consistent across 2 pages
+REGISTRY: confirmed. YA KUN INTERNATIONAL PTE LTD is registered in Singapore (status: Live Company, registered 2001-07-16).
+WEB: 5 queries (bing), 4 of 8 pages read, exact name seen in 4 pages and 16 search results
+BRIEF (model rating: appears_real_and_consistent, confidence high; 14 claims verified, 0 unverified)
+  Facts:
+    [verified] Legal name is YA KUN INTERNATIONAL PTE LTD
+    [verified] Company ID (UEN) is 200104668W
+    [verified] Status is Live Company
+    [verified] Incorporated on 16 July 2001
+    [verified] Registered address is 237 Alexandra Road #03-09/10 The Alexcier, Singapore 159929
+    [verified] Principal activity is Other Holding Companies (SSIC 64202)
+    [verified] Secondary activity is Management Consultancy Services N.E.C. (SSIC 70209)
+    [verified] The company operates the Ya Kun Kaya Toast food‑and‑beverage brand
+    [verified] Paid‑up capital is S$300,000
+    [verified] Company has 7 officers/directors
+  Positive signals:
+    [verified] Company is live and has been operating for over 25 years
+    [verified] Well‑known local F&B brand with multiple outlets in Singapore
+    [verified] Contact number publicly listed as +65‑6222‑4567
+    [verified] Company maintains an official website (yakun.com)
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 9):
+  - Ya Kun International Pte Ltd - LinkedIn  https://sg.linkedin.com/company/ya-kun-international
+  - Ya Kun Cafe Jobs in Singapore (with Salaries) - Oc  https://sg.jobstreet.com/Ya-Kun-Cafe-jobs
+  - Ya Kun International Pte Ltd Salaries in Singapore  https://sg.indeed.com/cmp/Ya-Kun-
+    International-Pte-Ltd/salaries
+  - Ya Kun Jobs in Singapore (with Salaries) - Nov 202  https://sg.jobstreet.com/ya-kun-jobs
+  - Ya Kun (S) Pte Ltd Salaries in Singapore | Indeed.  https://sg.indeed.com/cmp/Ya-Kun-(s)-Pte-
+    Ltd/salaries
+  - Working at Ya Kun | Glassdoor  https://www.glassdoor.sg/Overview/Working-at-Ya-Kun-
+    EI_IE1460468.11,17.htm
+COULD NOT READ (4):
+  - https://www.companies.sg/business/200104668W/YA-KUN-INTERNATIONAL-PTE-  (error: )
+  - https://rocketreach.co/ya-kun-international-pte-ltd-profile_b40e4a2fff  (thin: fewer than 400
+    characters of real content)
+  - https://www.bizapore.com/en/ya-kun-international-pte-ltd_2C-6222-4567  (irrelevant: the page
+    never mentions the company name)
+  - https://sgpgrid.com/company/ya-kun-international-pte-ltd-ID0000  (irrelevant: the page never
+    mentions the company name)
+COULD NOT VERIFY:
+  - Exact number of employees working as kitchen staff
+  - Specific salary or benefits for the Kitchen Assistant role
+  - Detailed job description for Kitchen Assistant
+(168.7s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

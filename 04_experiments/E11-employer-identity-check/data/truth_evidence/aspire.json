@@ -1,0 +1,39 @@
+{
+ "key": "aspire",
+ "domain": "aspireapp.com",
+ "pages": [
+  {
+   "url": "https://aspireapp.com/",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Aspire FT Pte Ltd.",
+    "Singapore Privacy Policy Terms of Service Complaints Policy Aspire FT Pte. Ltd.",
+    "Startups SMEs Mid-Sized By Partner Accountants eCommerce CorpSec VC & Inc",
+    "Yield is being provided by AFT SG 2 Pte Ltd"
+   ],
+   "copyright": [
+    " our Data Protection Officer at singapore-dpo@aspireapp.com © 2026 Aspire FT Pte Ltd. All rights reserved. "
+   ]
+  },
+  {
+   "url": "https://aspireapp.com/terms-and-conditions",
+   "status": 200,
+   "reg_hits": [],
+   "legal_names": [
+    "Aspire FT Pte Ltd.",
+    "Aspire FT Pte. Ltd.",
+    "Data and privacy Privacy Policy Aspire Advance Provided by A.F.T SG Pte. Ltd",
+    "Services by establishing a legal agreement between Aspire FT Pte. Ltd.",
+    "Singapore Privacy Policy Terms of Service Complaints Policy Aspire FT Pte. Ltd.",
+    "Startups SMEs Mid-Sized By Partner Accountants eCommerce CorpSec VC & Inc",
+    "Terms and Conditions AspireBooks Aspire Yield Provided by AFT SG 2 Pte. Ltd.",
+    "Terms and policies Aspire Business Account Provided by Aspire FT Pte. Ltd.",
+    "Yield is being provided by AFT SG 2 Pte Ltd"
+   ],
+   "copyright": [
+    " our Data Protection Officer at singapore-dpo@aspireapp.com © 2026 Aspire FT Pte Ltd. All rights reserved. "
+   ]
+  }
+ ]
+}

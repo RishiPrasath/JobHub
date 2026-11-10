@@ -1,0 +1,49 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "create-job_seeker-0",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-10T09:55:01Z",
+ "latency_s": 2.74,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 1400,
+  "temperature": 0.9,
+  "response_format": {
+   "type": "json_object"
+  },
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are the Persona Creator for JobHub, a research project on job-search intelligence in Singapore.\nYou create FICTIONAL simulation personas for testing. Rules:\n- Every persona is invented. Never use a real person, a real company's staff, or identifiable details.\n- Vary the personas along the requested axes so the set is not clustered. Do not default to one profile.\n- Describe circumstances and behaviour, not protected characteristics as a basis for judgement. Include\n  age band, citizenship or work-pass status, or family situation ONLY where the brief makes it relevant to the task.\n- Give each persona realistic limits: what they do not know, where they get impatient, what they would skip.\n- Do not make any persona an expert, enthusiastic or compliant by default.\n- Output JSON only."
+  },
+  {
+   "role": "user",
+   "content": "Brief: An older job seeker with LOW digital comfort who mainly uses a phone, had one job interview in the last 6 months, and prefers to ask people rather than use apps.\nKind of persona: job_seeker (a person looking for work in Singapore)\nNumber of personas: 1\nVariation axes (spread the set across these): digital comfort low, confidence, who they ask for help\nTask context (what the personas will be asked to do; do not answer it): a research interview about how they prepared for their latest job interview\n\nReturn JSON: {\"personas\": [{\n  \"persona_id\": \"short-slug\",\n  \"kind\": \"job_seeker\",\n  \"label\": \"6-10 word description\",\n  \"first_name\": \"fictional first name\",\n  \"background\": \"2-3 sentences, no identifying detail\",\n  \"situation_now\": \"what they are doing about work/hiring right now\",\n  \"goals\": [\"...\"],\n  \"constraints\": [\"time, money, status, confidence, digital skill ...\"],\n  \"digital_comfort\": \"low|medium|high\",\n  \"reading_style\": \"how they read documents (skims, reads every word, trusts headlines ...)\",\n  \"attitude_to_ai\": \"short\",\n  \"known_gaps\": [\"things they do not know or would get wrong\"],\n  \"biases_or_habits\": [\"...\"],\n  \"voice\": \"how they speak, 1 sentence\",\n  \"simulation_notes\": \"anything the runner must keep in mind (e.g. would abandon after 3 minutes)\"\n}]}"
+  }
+ ],
+ "content": "{\"personas\":[{\"persona_id\":\"senior-phone\",\"kind\":\"job_seeker\",\"label\":\"Retired clerk, phone‑only, asks neighbours for help\",\"first_name\":\"Ahmad\",\"background\":\"Ahmad, 62, a former administrative assistant who retired early due to health reasons, lives in a HDB flat in Ang Mo Kio. He keeps a basic smartphone for calls and occasional WhatsApp, but avoids computers and apps he finds confusing.\",\"situation_now\":\"He is casually looking for part‑time work, mainly through word‑of‑mouth and flyers, and has attended one interview for a security guard position three months ago.\",\"goals\":[\"Earn supplemental income to cover medical expenses\",\"Stay socially active through work\"],\"constraints\":[\"Limited digital literacy\",\"Low confidence in filling online forms\",\"Prefers face‑to‑face communication\",\"Limited mobility on bad weather days\"],\"digital_comfort\":\"low\",\"reading_style\":\"Skims headlines, relies on large print, reads aloud to himself\",\"attitude_to_ai\":\"Skeptical, thinks AI is a buzzword he doesn't need\",\"known_gaps\":[\"How to upload a resume to a portal\",\"Understanding interview‑question expectations\",\"Using video‑call platforms\"],\"biases_or_habits\":[\"Always asks his daughter or neighbour for tech help before trying anything new\",\"Prefers printed instructions over digital tutorials\",\"Gets impatient after a few screens\"],\"voice\":\"A gentle, measured tone with occasional pauses as he chooses words carefully\",\"simulation_notes\":\"Will likely defer to a trusted contact after 2‑3 minutes of questioning; keep prompts short and offer the option to speak rather than read.\"}]}",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 355,
+  "prompt_tokens": 591,
+  "total_tokens": 946,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 12,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cached_tokens": 256
+  },
+  "queue_time": 0.158684992,
+  "prompt_time": 0.015308849,
+  "completion_time": 2.464480059,
+  "total_time": 2.479788908
+ },
+ "cached": false
+}

@@ -1,0 +1,466 @@
+{
+ "employer": "ComfortDelGro Corporation Limited",
+ "role": "Bus Captain",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "COMFORTDELGRO CORPORATION LIMITED is registered in Singapore (status: Live Company, registered 2003-01-01).",
+  "basis": "name only",
+  "entity": {
+   "uen": "200300002K",
+   "name": "COMFORTDELGRO CORPORATION LIMITED",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "2003-01-01",
+   "activity": "INVESTMENT HOLDING COMPANY"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"ComfortDelGro Corporation Limited\" Singapore employee reviews",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"ComfortDelGro Corporation Limited\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"ComfortDelGro Corporation Limited\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"ComfortDelGro Corporation Limited\" Bus Captain interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"ComfortDelGro Corporation Limited\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://sginvestors.io/sgx/stock/c52-comfortdelgro/company-announcement",
+    "status": "ok",
+    "chars": 5064,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.comfortdelgro.com/press-releases/comfortdelgro-announces-upcoming-senior-leadership-changes-to-strengthen-global-mobility-growth",
+    "status": "ok",
+    "chars": 5052,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://hyring.com/company/comfortdelgro",
+    "status": "ok",
+    "chars": 4341,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.comfortdelgro.com/your-career-our-future/career-opportunities",
+    "status": "ok",
+    "chars": 6695,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.mycareersfuture.gov.sg/job/bus-captain-comfortdelgro-bus-1a6ce05df15b49a35a30d37a3a3a43f6",
+    "status": "ok",
+    "chars": 1510,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Comfortdelgro-Corporation-Limited",
+    "status": "ok",
+    "chars": 17909,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/business/200300002K/COMFORTDELGRO-CORPORATION-LIMITED",
+    "status": "ok",
+    "chars": 60000,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://opengovsg.com/corporate/200300002K",
+    "status": "ok",
+    "chars": 4571,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.com/Overview/Working-at-ComfortDelGro-EI_IE16161.11,24.htm",
+    "title": "Working at ComfortDelGro | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Comfortdelgro/reviews",
+    "title": "Working at ComfortDelGro: 50 Reviews | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/comfortdelgro-168554962952764/reviews",
+    "title": "Reviews ComfortDelGro employee ratings and reviews | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/ComfortDelGro-Singapore-Reviews-EI_IE16161.0,13_IL.14,23.htm",
+    "title": "ComfortDelGro Reviews in Singapore | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/comfortdelgro-168554962952764",
+    "title": "Working at ComfortDelGro company profile and information | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Reviews/ComfortDelGro-Reviews-E16161.htm",
+    "title": "ComfortDelGro Reviews - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Reviews/ComfortDelGro-Reviews-E16161.htm",
+    "title": "ComfortDelGro Reviews (271): Pros & Cons of Working At ... - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.linkedin.com/company/comfortdelgro",
+    "title": "ComfortDelGro - LinkedIn",
+    "why": "link out only (linkedin.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.facebook.com/groups/complaintsingapore/posts/1929113637535521",
+    "title": "COMPLAINT SINGAPORE | ComfortDELGRO taxi driver scam: super …",
+    "why": "link out only (facebook.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/companies/comfortdelgro-168554962952764/salaries/bus-captain",
+    "title": "Bus Captain Salary Estimate at ComfortDelGro (Singapore) | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Salary/ComfortDelGro-Salaries-E16161.htm",
+    "title": "341 Salaries at ComfortDelGro Shared by Employees | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.indeed.com/cmp/Comfortdelgro/salaries",
+    "title": "ComfortDelGro Salaries in Singapore | Indeed.com",
+    "why": "link out only (indeed.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/comfortdelgro-jobs",
+    "title": "Comfortdelgro Jobs in Singapore (with Salaries) - Oct 2026 | Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "comfortdelgro corporation"
+   ],
+   "pages_with_exact_name": 6,
+   "snippets_with_exact_name": 9,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing"
+  ],
+  "not_read_off_topic": 13,
+  "registry_mirror_pages": 2
+ },
+ "headline": "exists_and_consistent",
+ "headline_meaning": "Registered in Singapore, and public sources agree it is the company named.",
+ "reasons": [
+  "registry: confirmed",
+  "model: consistent across 6 pages"
+ ],
+ "brief": {
+  "validity_reasoning": "Multiple independent sources (registry record, corporate website, career page, job posting) consistently describe ComfortDelGro Corporation Limited as a live Singapore public company and provide details about its operations and the Bus Captain role.",
+  "confidence": "medium",
+  "could_not_verify": [],
+  "key_facts": [
+   {
+    "claim": "Legal name is COMFORTDELGRO CORPORATION LIMITED",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Legal name: COMFORTDELGRO CORPORATION LIMITED",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Company is a live public company incorporated on 1 January 2003",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Status: Live Company",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://opengovsg.com/corporate/200300002K",
+      "quote": "incorporation date is January 1, 2003",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Registered business activity is INVESTMENT HOLDING COMPANY (SSIC 64202)",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Registered business activity: INVESTMENT HOLDING COMPANY",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://opengovsg.com/corporate/200300002K",
+      "quote": "Primary User Described Activity: INVESTMENT HOLDING COMPANY",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "ComfortDelGro operates a large land‑transport business with buses, rail and taxis",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://hyring.com/company/comfortdelgro",
+      "quote": "multinational land transport operator ... runs public buses, rail lines, taxis and point‑to‑point mobility services",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 4,
+      "url": "https://www.comfortdelgro.com/your-career-our-future/career-opportunities",
+      "quote": "Comfortdelgro is a leading bus and rail operator in Singapore, managing over 200 bus services",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Bus Captain role is a full‑time, 44‑hour/week position reporting to Operations Supervisor",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.mycareersfuture.gov.sg/job/bus-captain-comfortdelgro-bus-1a6ce05df15b49a35a30d37a3a3a43f6",
+      "quote": "Full Time: 44 hours/ week, 6‑day work week",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 5,
+      "url": "https://www.mycareersfuture.gov.sg/job/bus-captain-comfortdelgro-bus-1a6ce05df15b49a35a30d37a3a3a43f6",
+      "quote": "Report to the Operations Supervisor directly",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Bus Captain must hold a valid Class 4 vehicle licence and at least 1 year driving experience",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.mycareersfuture.gov.sg/job/bus-captain-comfortdelgro-bus-1a6ce05df15b49a35a30d37a3a3a43f6",
+      "quote": "Must possess valid Class 4 vehicle license",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 5,
+      "url": "https://www.mycareersfuture.gov.sg/job/bus-captain-comfortdelgro-bus-1a6ce05df15b49a35a30d37a3a3a43f6",
+      "quote": "At least 1 year driving experience",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Benefits for bus captains include sign‑on bonus up to S$3,000 and monthly reliability incentive up to S$300",
+    "evidence": [
+     {
+      "source": 3,
+      "url": "https://hyring.com/company/comfortdelgro",
+      "quote": "Sign‑on bonus (up to S$3,000 for new bus captains)",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 3,
+      "url": "https://hyring.com/company/comfortdelgro",
+      "quote": "Monthly reliability incentive up to S$300",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "ComfortDelGro has over 24,500 employees in 13 countries and a fleet of about 54,000 vehicles",
+    "evidence": [
+     {
+      "source": 4,
+      "url": "https://www.comfortdelgro.com/your-career-our-future/career-opportunities",
+      "quote": "With over 24,500 employees in 13 countries, we’re moving the world safely",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 4,
+      "url": "https://www.comfortdelgro.com/your-career-our-future/career-opportunities",
+      "quote": "global fleet of 54,000, from taxis to bus and rail services",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "Company is listed on SGX (ticker C52) and regularly publishes announcements",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://sginvestors.io/sgx/stock/c52-comfortdelgro/company-announcement",
+      "quote": "COMFORTDELGRO CORPORATION LTD (SGX:C52)",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Recent senior‑leadership succession plan announced for 2026",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://www.comfortdelgro.com/press-releases/comfortdelgro-announces-upcoming-senior-leadership-changes-to-strengthen-global-mobility-growth",
+      "quote": "Group Deputy CFO, Mr. Christopher David White, will assume the appointment of Group CFO from 1 January 2026",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "red_flags": [],
+  "claims_verified": 10,
+  "claims_unverified": 0,
+  "model_validity_status": "appears_real_and_consistent"
+ },
+ "could_not_read": [],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.com/Overview/Working-at-ComfortDelGro-EI_IE16161.11,24.htm",
+   "title": "Working at ComfortDelGro | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Comfortdelgro/reviews",
+   "title": "Working at ComfortDelGro: 50 Reviews | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/comfortdelgro-168554962952764/reviews",
+   "title": "Reviews ComfortDelGro employee ratings and reviews | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/ComfortDelGro-Singapore-Reviews-EI_IE16161.0,13_IL.14,23.htm",
+   "title": "ComfortDelGro Reviews in Singapore | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/comfortdelgro-168554962952764",
+   "title": "Working at ComfortDelGro company profile and information | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Reviews/ComfortDelGro-Reviews-E16161.htm",
+   "title": "ComfortDelGro Reviews - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Reviews/ComfortDelGro-Reviews-E16161.htm",
+   "title": "ComfortDelGro Reviews (271): Pros & Cons of Working At ... - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.linkedin.com/company/comfortdelgro",
+   "title": "ComfortDelGro - LinkedIn",
+   "why": "link out only (linkedin.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.facebook.com/groups/complaintsingapore/posts/1929113637535521",
+   "title": "COMPLAINT SINGAPORE | ComfortDELGRO taxi driver scam: super …",
+   "why": "link out only (facebook.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/companies/comfortdelgro-168554962952764/salaries/bus-captain",
+   "title": "Bus Captain Salary Estimate at ComfortDelGro (Singapore) | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Salary/ComfortDelGro-Salaries-E16161.htm",
+   "title": "341 Salaries at ComfortDelGro Shared by Employees | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.indeed.com/cmp/Comfortdelgro/salaries",
+   "title": "ComfortDelGro Salaries in Singapore | Indeed.com",
+   "why": "link out only (indeed.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/comfortdelgro-jobs",
+   "title": "Comfortdelgro Jobs in Singapore (with Salaries) - Oct 2026 | Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [],
+ "seconds": 137.7,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}

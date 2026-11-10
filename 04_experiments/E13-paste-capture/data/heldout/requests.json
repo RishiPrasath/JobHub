@@ -1,0 +1,62 @@
+[
+ {
+  "id": "H01",
+  "board": "jobstreet",
+  "job_type": "clerical",
+  "requested": "- the job description is plain prose paragraphs with NO headings and NO bullet points\n- the employer is named\n- NO salary or pay information anywhere in the selected job (other cards in the left list may show salaries)\n- NO closing date anywhere, only 'Posted Nd ago'"
+ },
+ {
+  "id": "H02",
+  "board": "jobstreet",
+  "job_type": "professional",
+  "requested": "- the description uses bullets under 'Your day to day' and 'About you'\n- the employer is named\n- pay is shown as 'Up to $3,000 + commission'\n- the closing date is written inside a sentence of the description as 'applications will be reviewed until 28 November 2026'"
+ },
+ {
+  "id": "H03",
+  "board": "mcf",
+  "job_type": "professional",
+  "requested": "- the employer is NOT named: the page says 'Our client, a leading multinational (name withheld by the agency)'\n- description is prose paragraphs with no headings\n- salary range shown\n- shows 'Closing on 14 Dec 2026'"
+ },
+ {
+  "id": "H04",
+  "board": "mcf",
+  "job_type": "clerical",
+  "requested": "- the header lines appear AFTER the description in the copied text (order mixed up)\n- employer named, salary range shown\n- closing shown only as 'Closing in 3 days'\n- includes badges such as 'Job Match: 64%' and 'Be an early applicant'"
+ },
+ {
+  "id": "H05",
+  "board": "fastjobs",
+  "job_type": "manual",
+  "requested": "- uses emoji bullets for duties\n- the page says the pay per day\n- NO employer name anywhere (only 'Posted by a verified employer')\n- NO closing date, only 'Posted 5 hours ago'"
+ },
+ {
+  "id": "H06",
+  "board": "fastjobs",
+  "job_type": "gig",
+  "requested": "- a short phone-style copy with no menu text, starting with one line like an emoji, the job title and the pay\n- the employer is named in a line near the top\n- duties given in 2 or 3 short lines\n- the text says 'Apply anytime, no deadline'"
+ },
+ {
+  "id": "H07",
+  "board": "company",
+  "job_type": "professional",
+  "requested": "- sections written as prose under 'About the role' and 'About you'\n- employer named\n- the pay range is written inside a sentence in the prose\n- a deadline is written in a sentence as 'Please apply by 30 November 2026'"
+ },
+ {
+  "id": "H08",
+  "board": "company",
+  "job_type": "clerical",
+  "requested": "- employer named, job title shown\n- duties as bullets\n- the page says 'Salary will be discussed at interview'\n- the page says applications are 'open until the position is filled'"
+ },
+ {
+  "id": "H09",
+  "board": "jobstreet",
+  "job_type": "manual",
+  "requested": "- a few words of Chinese appear in the menu or banner (for example 招聘 or 立即申请)\n- employer shown as 'Private Advertiser'\n- pay $12 - $14 per hour is shown\n- NO closing date\n- duties as short bullets"
+ },
+ {
+  "id": "H10",
+  "board": "company",
+  "job_type": "part-time",
+  "requested": "- duties and requirements are in one prose paragraph, no headings\n- employer named\n- NO pay mentioned\n- NO closing date mentioned\n- includes a cookie banner and a newsletter signup block in the middle of the text"
+ }
+]

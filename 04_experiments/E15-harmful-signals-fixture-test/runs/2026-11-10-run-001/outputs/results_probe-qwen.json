@@ -1,0 +1,36 @@
+{
+ "label": "probe-qwen",
+ "model": "qwen/qwen3.8-27b",
+ "run": 1,
+ "params": {
+  "temperature": 0.2,
+  "reasoning_effort": "low",
+  "max_tokens": 900,
+  "json_mode": true
+ },
+ "finished_utc": "2026-11-10T10:00:43Z",
+ "total_tokens": 869,
+ "results": [
+  {
+   "case_id": "B03",
+   "method": "probe-qwen",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 12,
+    "prompt_tokens": 857,
+    "total_tokens": 869,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.049263889,
+    "prompt_time": 0.060604366,
+    "completion_time": 0.026472057,
+    "total_time": 0.087076423
+   },
+   "cached": false,
+   "flags": [],
+   "no_reliable_signal": true,
+   "raw_content": "{\"flags\":[],\"no_reliable_signal\":true}"
+  }
+ ]
+}

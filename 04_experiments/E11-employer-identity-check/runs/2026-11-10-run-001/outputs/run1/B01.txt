@@ -1,0 +1,33 @@
+OCBC Bank  (role: Relationship Manager)
+HEADLINE: brand_legal_entity_unconfirmed
+  Public sources describe a company by this name, but the registry has no entity with this exact
+  name. It may trade under a brand name; the legal employer is not confirmed.
+  because: registry: similar_name_only; exact name seen 19 times in sources
+REGISTRY: similar_name_only. No registered entity is named 'OCBC Bank'. The closest registered name is OCBC PEARL LIMITED, which may be a different company.
+WEB: 5 queries (bing), 6 of 8 pages read, exact name seen in 4 pages and 15 search results
+BRIEF (model rating: cannot_verify, confidence low; 3 claims verified, 0 unverified)
+  about: the brand named in the posting; the registered legal employer is not confirmed
+  Red flags:
+    [verified] OCBC Bank has been targeted by multiple phishing and impersonation scams in Singapore
+    [verified] Scammers impersonate OCBC staff to obtain personal and banking details from victims
+    [verified] OCBC has issued public warnings and goodwill payouts due to scam losses
+OPEN THESE YOURSELF (review and job sites we do not read automatically, 6):
+  - Reviews OCBC Bank employee ratings and reviews | J  https://sg.jobstreet.com/companies/ocbc-
+    bank-168556574020149/reviews
+  - OCBC Reviews - Glassdoor  https://www.glassdoor.sg/Reviews/OCBC-Reviews-E9773.htm
+  - OCBC Reviews in Singapore | Glassdoor  https://www.glassdoor.sg/Reviews/OCBC-Singapore-Reviews-
+    EI_IE9773.0,4_IL.5,14_IM
+  - Working at OCBC: 254 Reviews | Indeed.com  https://sg.indeed.com/cmp/Ocbc-3/reviews
+  - OCBC Reviews (3,661): Pros & Cons of Working At OC  https://www.glassdoor.com/Reviews/OCBC-
+    Reviews-E9773.htm
+  - Working at OCBC Bank company profile and informati  https://sg.jobstreet.com/companies/ocbc-
+    bank-168556574020149
+COULD NOT READ (2):
+  - https://www.ambitionbox.com/reviews/ocbc-bank-reviews/singapore-locati  (blocked: challenge or
+    login-wall text)
+  - https://www.ambitionbox.com/reviews/ocbc-bank-reviews  (blocked: challenge or login-wall text)
+COULD NOT VERIFY:
+  - Existence of a specific OCBC Bank entity matching the job posting (registry record not found)
+  - Details of the Relationship Manager role, responsibilities, salary, or hiring process
+  - Which registered company is the legal employer behind this brand.
+(63.1s) This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed.

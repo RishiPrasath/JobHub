@@ -1,0 +1,444 @@
+{
+ "employer": "Keppel Ltd",
+ "role": "Project Engineer",
+ "degraded": [],
+ "partial": false,
+ "registry": {
+  "available": true,
+  "verdict": "confirmed",
+  "summary": "KEPPEL LTD. is registered in Singapore (status: Live Company, registered 1968-08-03).",
+  "basis": "name only",
+  "entity": {
+   "uen": "196800351N",
+   "name": "KEPPEL LTD.",
+   "type": "Local Company",
+   "status": "Live Company",
+   "incorporated": "1968-08-03",
+   "activity": "INVESTMENT HOLDING AND MANAGEMENT COMPANY"
+  },
+  "closest": null,
+  "flags": [],
+  "registry_as_of": "2026-10-14T17:21:16+08:00",
+  "registry_stale": false
+ },
+ "web": {
+  "skipped_reason": null,
+  "available": true,
+  "queries": [
+   {
+    "query": "\"Keppel Ltd\" Singapore employee reviews",
+    "ok": true,
+    "engine": null,
+    "results": 0,
+    "error": null
+   },
+   {
+    "query": "\"Keppel Ltd\" scam OR fraud OR complaints",
+    "ok": true,
+    "engine": [
+     "duckduckgo"
+    ],
+    "results": 1,
+    "error": null
+   },
+   {
+    "query": "\"Keppel Ltd\" layoffs OR retrenchment OR restructuring",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"Keppel Ltd\" Project Engineer interview process salary",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   },
+   {
+    "query": "\"KEPPEL LTD.\" company profile UEN",
+    "ok": true,
+    "engine": [
+     "bing"
+    ],
+    "results": 8,
+    "error": null
+   }
+  ],
+  "pages": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Keppel_Ltd.",
+    "status": "ok",
+    "chars": 8781,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://sginvestors.io/sgx/stock/bn4-keppel-corp/company-announcement",
+    "status": "ok",
+    "chars": 1243,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.keppel.com/investor-relations",
+    "status": "ok",
+    "chars": 669,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://jobbridge.io/blog/salary-guide/Keppel/singapore",
+    "status": "ok",
+    "chars": 7211,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.sgpbusiness.com/company/Keppel-Ltd",
+    "status": "ok",
+    "chars": 13578,
+    "note": null,
+    "tier": "render"
+   },
+   {
+    "url": "https://www.companies.sg/business/196800351N/KEPPEL-LTD-",
+    "status": "ok",
+    "chars": 60000,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://www.companies.sg/business/196800351N/KEPPEL-LTD",
+    "status": "ok",
+    "chars": 60000,
+    "note": null,
+    "tier": "plain"
+   },
+   {
+    "url": "https://recordowl.com/company/keppel-corporation-limited",
+    "status": "ok",
+    "chars": 10228,
+    "note": null,
+    "tier": "plain"
+   }
+  ],
+  "skipped_by_policy": [
+   {
+    "url": "https://www.glassdoor.sg/Interview/Keppel-Corporation-Interview-Questions-E8078.htm",
+    "title": "Keppel Corporation Interview Questions (2026) | Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.co.in/Interview/Keppel-Corporation-Interview-Questions-E8078.htm",
+    "title": "83 Keppel Corporation Interview Questions & Answers (2026)",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Interview/Keppel-Singapore-Interview-Questions-EI_IE8078.0,6_IL.7,16_IM1123.htm",
+    "title": "Keppel Corporation Interview Questions in Singapore - Glassdoor",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.sg/Salary/Keppel-Corporation-Salaries-E8078.htm",
+    "title": "497 Salaries at Keppel Corporation Shared by Employees",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/Keppel-Corporation-jobs",
+    "title": "Keppel Corporation Jobs in Singapore (with Salaries) - Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://sg.jobstreet.com/keppel-engineer-jobs",
+    "title": "Keppel Engineer Jobs in Singapore (with Salaries) - Jobstreet",
+    "why": "link out only (jobstreet.com): restricted or login-walled site"
+   },
+   {
+    "url": "https://www.glassdoor.com/Salary/Keppel-Corporation-Project-Engineer-Singapore-Salaries-EJI_IE8078.0,18_KO19,35_IL.36,45_IC3235921.htm",
+    "title": "Keppel Corporation Project Engineer Salaries in Singapore",
+    "why": "link out only (glassdoor): restricted or login-walled site"
+   }
+  ],
+  "gate": {
+   "phrases": [
+    "keppel"
+   ],
+   "pages_with_exact_name": 8,
+   "snippets_with_exact_name": 19,
+   "none": false,
+   "strong": true
+  },
+  "engines_used": [
+   "bing",
+   "duckduckgo"
+  ],
+  "not_read_off_topic": 6,
+  "registry_mirror_pages": 4
+ },
+ "headline": "exists_and_consistent",
+ "headline_meaning": "Registered in Singapore, and public sources agree it is the company named.",
+ "reasons": [
+  "registry: confirmed",
+  "model: consistent across 4 pages"
+ ],
+ "brief": {
+  "validity_reasoning": "Multiple independent official registry records and reputable sources confirm the existence, registration details, name change, and business activity of Keppel Ltd in Singapore, indicating a consistent corporate identity.",
+  "confidence": "medium",
+  "could_not_verify": [
+   "Specific details about the Project Engineer role (responsibilities, salary, team structure)",
+   "Exact number of employees for Keppel Ltd (the 30,000 figure appears in a Wikipedia entry that may refer to the broader group)",
+   "Current financial performance metrics"
+  ],
+  "key_facts": [
+   {
+    "claim": "Legal name and registration details",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Legal name: KEPPEL LTD. ... Company ID: 196800351N ... Status: Live Company",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 5,
+      "url": "https://www.sgpbusiness.com/company/Keppel-Ltd",
+      "quote": "KEPPEL LTD. ... Registration No. / Unique Entity Number: 196800351N ... Live Company",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Incorporated on 3 August 1968",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Registered: 1968-08-03",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 5,
+      "url": "https://www.sgpbusiness.com/company/Keppel-Ltd",
+      "quote": "Incorporated on 3 August 1968 (Saturday)",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Principal business activity is investment holding and management",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Registered business activity: INVESTMENT HOLDING AND MANAGEMENT COMPANY",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://recordowl.com/company/keppel-corporation-limited",
+      "quote": "Its principal activity is INVESTMENT HOLDING AND MANAGEMENT COMPANY",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Registered address is Keppel Bay Tower, 1 Harbourfront Avenue, Singapore 098632",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.sgpbusiness.com/company/Keppel-Ltd",
+      "quote": "REGISTERED ADDRESS 1 HARBOURFRONT AVENUE #18-01 KEPPEL BAY TOWER SINGAPORE (098632)",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://recordowl.com/company/keppel-corporation-limited",
+      "quote": "Registered address ... 1 HARBOURFRONT AVENUE #18-01 KEPPEL BAY TOWER SINGAPORE 098632",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Formerly known as Keppel Corporation and renamed to Keppel Ltd in January 2024",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://sginvestors.io/sgx/stock/bn4-keppel-corp/company-announcement",
+      "quote": "KEPPEL CORPORATION LIMITED ... has changed the issuer name / code to KEPPEL LTD. ... effect from 2024-01-04",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 8,
+      "url": "https://recordowl.com/company/keppel-corporation-limited",
+      "quote": "Formerly known as KEPPEL CORPORATION. ... renamed to Keppel Ltd. in January 2024",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "unverified"
+   },
+   {
+    "claim": "Listed on the Singapore Exchange (SGX) under code BN4.SI",
+    "evidence": [
+     {
+      "source": 2,
+      "url": "https://sginvestors.io/sgx/stock/bn4-keppel-corp/company-announcement",
+      "quote": "KEPPEL CORPORATION LIMITED (SGX:BN4) has changed the issuer name ... to KEPPEL LTD.",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 6,
+      "url": "https://www.companies.sg/business/196800351N/KEPPEL-LTD-",
+      "quote": "Listing date / history: Listed on 24 October 1980 on SGX Mainboard",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "positive_signals": [
+   {
+    "claim": "Long operating history (over 58 years)",
+    "evidence": [
+     {
+      "source": 0,
+      "url": "company registry (as of 2026-10-14)",
+      "quote": "Registered: 1968-08-03",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 5,
+      "url": "https://www.sgpbusiness.com/company/Keppel-Ltd",
+      "quote": "Company age 58 years",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Public company with substantial paid‑up capital",
+    "evidence": [
+     {
+      "source": 6,
+      "url": "https://www.companies.sg/business/196800351N/KEPPEL-LTD-",
+      "quote": "Paid Up Capital SGD 1,305,667,320.62",
+      "quote_found_in_source": false
+     },
+     {
+      "source": 8,
+      "url": "https://recordowl.com/company/keppel-corporation-limited",
+      "quote": "paid up capital of S$1,291,720,898",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Operates as a holding company for a diversified group",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.sgpbusiness.com/company/Keppel-Ltd",
+      "quote": "principal activity is holding companies of firms engaged in non‑financial and insurance activities",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://recordowl.com/company/keppel-corporation-limited",
+      "quote": "global asset manager and operator ... creating solutions for a sustainable future across Infrastructure, Real Estate, and Connectivity",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "red_flags": [
+   {
+    "claim": "Employee count of more than 30,000 may refer to the broader Keppel group rather than Keppel Ltd alone",
+    "evidence": [
+     {
+      "source": 1,
+      "url": "https://en.wikipedia.org/wiki/Keppel_Ltd.",
+      "quote": "Number of employees More than 30,000",
+      "quote_found_in_source": true
+     }
+    ],
+    "status": "verified"
+   },
+   {
+    "claim": "Some sources describe Keppel Ltd as a holding company while others emphasize operating platforms, indicating possible scope ambiguity",
+    "evidence": [
+     {
+      "source": 5,
+      "url": "https://www.sgpbusiness.com/company/Keppel-Ltd",
+      "quote": "principal activity is holding companies of firms engaged in non‑financial and insurance activities",
+      "quote_found_in_source": true
+     },
+     {
+      "source": 8,
+      "url": "https://recordowl.com/company/keppel-corporation-limited",
+      "quote": "global asset manager and operator ... creates solutions for a sustainable future",
+      "quote_found_in_source": false
+     }
+    ],
+    "status": "verified"
+   }
+  ],
+  "claims_verified": 10,
+  "claims_unverified": 1,
+  "model_validity_status": "appears_real_and_consistent"
+ },
+ "could_not_read": [],
+ "link_out": [
+  {
+   "url": "https://www.glassdoor.sg/Interview/Keppel-Corporation-Interview-Questions-E8078.htm",
+   "title": "Keppel Corporation Interview Questions (2026) | Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.co.in/Interview/Keppel-Corporation-Interview-Questions-E8078.htm",
+   "title": "83 Keppel Corporation Interview Questions & Answers (2026)",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Interview/Keppel-Singapore-Interview-Questions-EI_IE8078.0,6_IL.7,16_IM1123.htm",
+   "title": "Keppel Corporation Interview Questions in Singapore - Glassdoor",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.sg/Salary/Keppel-Corporation-Salaries-E8078.htm",
+   "title": "497 Salaries at Keppel Corporation Shared by Employees",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/Keppel-Corporation-jobs",
+   "title": "Keppel Corporation Jobs in Singapore (with Salaries) - Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://sg.jobstreet.com/keppel-engineer-jobs",
+   "title": "Keppel Engineer Jobs in Singapore (with Salaries) - Jobstreet",
+   "why": "link out only (jobstreet.com): restricted or login-walled site"
+  },
+  {
+   "url": "https://www.glassdoor.com/Salary/Keppel-Corporation-Project-Engineer-Singapore-Salaries-EJI_IE8078.0,18_KO19,35_IL.36,45_IC3235921.htm",
+   "title": "Keppel Corporation Project Engineer Salaries in Singapore",
+   "why": "link out only (glassdoor): restricted or login-walled site"
+  }
+ ],
+ "could_not_verify": [
+  "Specific details about the Project Engineer role (responsibilities, salary, team structure)",
+  "Exact number of employees for Keppel Ltd (the 30,000 figure appears in a Wikipedia entry that may refer to the broader group)",
+  "Current financial performance metrics"
+ ],
+ "seconds": 118.0,
+ "disclaimer": "This shows whether the company exists and matches the name in the posting, and what public sources say about it. It is not a judgement of the employer. Anything marked unverified or not read could not be confirmed."
+}
