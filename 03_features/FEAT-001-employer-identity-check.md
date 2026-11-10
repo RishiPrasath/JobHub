@@ -11,7 +11,7 @@ needs: [S-05, S-35]
 findings: [FND-E10X2-01, FND-P05-01, FND-E09-02, FND-R09-01]
 riskiest_assumption: ASM-001
 decision: null
-updated: 2026-11-09
+updated: 2026-11-10
 ---
 
 # Employer identity check
@@ -36,4 +36,9 @@ In the deck plan first slice but absent from `reports/13`.
 
 ## Next test
 
-Concierge test with real postings. Riskiest assumption: knowing the legal entity changes what a job seeker does next.
+Planned in [E11](../04_experiments/E11-employer-identity-check/README.md), in two parts:
+
+- **Part A (technical):** run the P05 flow on 60 real postings, including small employers, hidden-employer agency postings and lookalikes. Ground truth is set before the run, without registry-mirror sites. Thresholds are proposed in E11 and await owner confirmation.
+- **Part B (usefulness):** a concierge test with 6 to 8 job seekers, to test the riskiest assumption: knowing the legal entity changes what a job seeker does next.
+
+E11 is a plan only. Nothing has been run.

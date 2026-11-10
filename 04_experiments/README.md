@@ -10,6 +10,8 @@ Each experiment should preserve the full chain: question, fixture, prompt, code,
 | E08 | [E08-user-interface-and-human-review](E08-user-interface-and-human-review/) | Two model runs; no interface or participant test | `runs/*/findings.md` |
 | E09 | [E09-openserp-company-research](E09-openserp-company-research/README.md) | Complete | `REPORT.md`, `AGENT-TEST.md` |
 | E10 | [E10-market-value-and-red-flag-experiments](E10-market-value-and-red-flag-experiments/README.md) | X0-X3 complete, pre-registered; P1-P3 not run | `FINDINGS.md` |
+| E11 | [E11-employer-identity-check](E11-employer-identity-check/README.md) | Planned; thresholds await owner confirmation | none yet |
+| E12 | [E12-single-posting-review](E12-single-posting-review/README.md) | Planned; thresholds await owner confirmation | none yet |
 
 New experiments start from [_template](_template/README.md). Add results to [findings](../02_analysis/findings.md) and update the affected feature. SDK instructions are in [tools/openai-sdk](../tools/openai-sdk/briefing.md).
 
