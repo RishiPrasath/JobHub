@@ -19,3 +19,5 @@ Status: first draft. Owner review pending.
 | ASM-013 | FEAT-013 | People would use a check at offer stage | Interview recent offer recipients |
 | ASM-014 | FEAT-014 | Autofill is feasible on real portals | Technical spike on common portals |
 | ASM-015 | FEAT-015 | Practice here beats existing tools | Decide whether to pursue at all |
+| ASM-016 | FEAT-016 | People will fill in a full candidate profile at sign-up and keep it current | Concierge test: time participants completing the profile and note fields skipped or refused |
+| ASM-017 | FEAT-017 | People will pick their job preferences during setup and the choices are specific enough to explain why a finding matters to them | Concierge test: time participants completing the setup, note skipped options, and check whether the answers change what they do with a review |

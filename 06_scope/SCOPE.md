@@ -30,6 +30,8 @@ Generated from `03_features/` by `tools/validate.py`. Do not edit between the ma
 | [FEAT-012 Application tracker and reminders](../03_features/FEAT-012-application-tracker.md) | candidate | N1 | T0 | none | ASM-012 |
 | [FEAT-014 Autofill without retyping](../03_features/FEAT-014-portal-autofill.md) | candidate | N1 | T0 | none | ASM-014 |
 | [FEAT-015 Interview practice](../03_features/FEAT-015-interview-practice.md) | candidate | N0 | T0 | none | ASM-015 |
+| [FEAT-016 Candidate profile](../03_features/FEAT-016-candidate-profile.md) | candidate | N0 | T0 | none | ASM-016 |
+| [FEAT-017 Initial setup of job preferences](../03_features/FEAT-017-initial-setup-job-preferences.md) | candidate | N0 | T0 | none | ASM-017 |
 <!-- BOARD:END -->
 
 ## Decisions needed
