@@ -44,6 +44,16 @@ Every field is optional, so the setup can be skipped and finished later. "Choice
 | Notice period or earliest start | choice or date | Immediately, 1 month, 2 months, 3 months or more, or a date |
 | Deal-breakers | list of text | Free text, for example "no weekend work" |
 
+## Saved answers for applications
+
+Common application questions are answered from fields the user has already given: work authorisation and sponsorship ([FEAT-016](FEAT-016-candidate-profile.md) right to work), and notice period, relocation and travel (table above). One more field is captured here, owner decision 2026-11-10:
+
+| Field | Input | Notes |
+|---|---|---|
+| Expected pay | amount, currency and period | Optional. What to give when an application asks for salary expectation. Separate from minimum acceptable pay. |
+
+Not stored, and asked each time: consent to background checks, demographic or equal-opportunity surveys, "worked here before" and "relatives employed here". Whether saved answers are inserted automatically is decided in [FEAT-014](FEAT-014-portal-autofill.md).
+
 ## Not included yet
 
 Left out of the first version by owner decision (2026-11-10):
@@ -70,6 +80,7 @@ No open questions remain from the first pass. Decided 2026-11-10:
 
 - The setup is shown right after sign-up and can be skipped and finished later.
 - Minimum pay is captured as amount, currency and period.
+- Answers to recurring application questions are captured here, with expected pay as the one new field.
 - Maximum commute, working-style preferences and importance levels are left for later (see "Not included yet").
 - The option lists in the table are still proposals and can be changed when the screen is designed.
 

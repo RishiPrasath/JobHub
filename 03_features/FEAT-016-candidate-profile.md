@@ -41,7 +41,7 @@ Origin: [source idea](source-ideas/03_candidate-profile-and-preferences.md).
 | Email | text | Required |
 | Phone (with country code) | text | Optional |
 | Current city and country | text | Required |
-| Right to work (citizen, permanent resident, pass type, or needs sponsorship). Captured now; how it is used is to be decided. | choice | Optional |
+| Right to work (citizen, permanent resident, pass type, or needs sponsorship). Used to answer work-authorisation questions and to flag postings that need a different status. | choice | Optional |
 | LinkedIn URL | url | Optional |
 | Portfolio or website URL | url | Optional |
 | Other links (GitHub, publications) | list of url | Optional |
@@ -130,10 +130,10 @@ Date of birth or age, NRIC / FIN / passport number, gender, race, religion, mari
 
 ## Open questions for the owner
 
-1. How will right to work be used? It is captured now, but nationality questions are a grey area in TAFEP guidance, so the use needs deciding before it affects any review.
-2. Where is the profile stored, and for how long? Decided to settle this together with the architecture choice. Until then it is a dependency, and it blocks any build.
+1. How long is the profile kept, and what are the deletion and access rules? It is stored in the user's JobHub account, but retention and deletion are privacy decisions still to make before any build.
+2. Right to work is also used to flag postings that need a different status. TAFEP guidance treats nationality questions as a grey area, so check that flag is informational only, never filters jobs out and never changes a ranking.
 
-Decided 2026-11-10: required fields (minimal details, work experience, education); a "No work experience yet" option satisfies the work experience requirement; resume pre-fill with full user review; capture right to work; defer job preferences to FEAT-017; the raw research notes are not saved, and the summaries here are the record.
+Decided 2026-11-10: required fields (minimal details, work experience, education); a "No work experience yet" option satisfies the work experience requirement; resume pre-fill with full user review; right to work is captured, used to answer work-authorisation questions and to flag postings that need a different status (the user decides); the profile is stored in the user's JobHub account in the application database; job preferences are in FEAT-017; the raw research notes are not saved, and the summaries here are the record.
 
 ## Research basis
 

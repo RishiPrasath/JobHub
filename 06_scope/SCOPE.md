@@ -37,7 +37,7 @@ Generated from `03_features/` by `tools/validate.py`. Do not edit between the ma
 ## Decisions needed
 
 1. **First slice:** posting review only (`reports/13`), or with an employer identity check (deck plan)?
-2. **Profile comparison:** first (`reports/15`), or later?
+2. **Profile comparison:** decided 2026-11-10, later, after the profile is built ([0001](decisions/0001-profile-comparison-after-profile.md)).
 3. **Company research sources:** official first, or lived-experience reviews first?
 4. **First user and target outcome:** not chosen.
 5. **Earlier approvals:** `reports/10` calls the hypothesis "approved", but no decision is logged. What actually happened?
