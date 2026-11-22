@@ -1,0 +1,22 @@
+source,employer,uen,metric,value,as_of,status
+nodeflair,Grab,,review_count,556,2026-11-21,verified
+nodeflair,Grab,,rating,4.0,2026-11-21,verified
+nodeflair,Grab,,newest_review_age,over 2 years,2026-11-21,verified
+nodeflair,DBS Bank,,review_count,396,2026-11-21,verified
+nodeflair,DBS Bank,,rating,3.8,2026-11-21,verified
+nodeflair,DBS Bank,,newest_review_age,over 2 years,2026-11-21,verified
+nodeflair,Singtel,,review_count,196,2026-11-21,verified
+nodeflair,Singtel,,rating,3.7,2026-11-21,verified
+nodeflair,Carousell,,review_count,39,2026-11-21,verified
+nodeflair,Carousell,,rating,4.3,2026-11-21,verified
+nodeflair,Sea,,review_count,34,2026-11-21,verified
+nodeflair,Sea,,rating,3.6,2026-11-21,verified
+nodeflair,Sheng Siong,,review_count,0,2026-11-21,verified
+tafep_ts,DBS BANK LTD.,196800306E,standards_adopted,TCE;FWA;GH;RP;AFW;UCL;WLH;LWW,2026-11-21,verified
+tafep_ts,GRABTAXI PTE. LTD.,201324745D,standards_adopted,TCE;FWA;GH;RP;SEP;WLH,2026-11-21,verified
+tafep_ts,SINGAPORE TELECOMMUNICATIONS LIMITED,199201624D,standards_adopted,TCE;FWA;GH;RP;MFL;AFW;UCL;SEP;WLH;LWW,2026-11-21,verified
+tafep_ts,CAROUSELL PTE. LTD.,201300296D,standards_adopted,RP,2026-11-21,verified
+tafep_ts,SHENG SIONG SUPERMARKET PTE LTD,198304925E,standards_adopted,RP;AFW;GH,2026-11-21,verified
+tafep_ts,SHOPEE SINGAPORE PRIVATE LIMITED,201503526N,standards_adopted,RP;GH,2026-11-21,verified
+tafep_ts,NINJA LOGISTICS PTE. LTD.,201412014E,standards_adopted,FWA;LWW;TCE,2026-11-21,verified
+tafep_ts,RANDSTAD PTE. LIMITED,199304055W,standards_adopted,RP,2026-11-21,verified

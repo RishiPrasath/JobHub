@@ -1,0 +1,33 @@
+{
+ "note": "Brands chosen by the agent 2026-11-21 for spread (multi-entity groups, chains, startups). Domains are the brands' public Singapore sites as known to the agent; checked in Part E.",
+ "brands": [
+  {"id": "B01", "brand": "Grab", "token": "GRAB", "domain": "grab.com", "home": "https://www.grab.com/sg/", "kind": "multi-entity"},
+  {"id": "B02", "brand": "Shopee", "token": "SHOPEE", "domain": "shopee.sg", "home": "https://shopee.sg/", "kind": "multi-entity"},
+  {"id": "B03", "brand": "DBS", "token": "DBS", "domain": "dbs.com.sg", "home": "https://www.dbs.com.sg/", "kind": "multi-entity"},
+  {"id": "B04", "brand": "Singtel", "token": "SINGTEL", "domain": "singtel.com", "home": "https://www.singtel.com/", "kind": "multi-entity"},
+  {"id": "B05", "brand": "FairPrice", "token": "FAIRPRICE", "domain": "fairprice.com.sg", "home": "https://www.fairprice.com.sg/", "kind": "multi-entity"},
+  {"id": "B06", "brand": "Sheng Siong", "token": "SHENG SIONG", "domain": "shengsiong.com.sg", "home": "https://shengsiong.com.sg/", "kind": "chain"},
+  {"id": "B07", "brand": "Razer", "token": "RAZER", "domain": "razer.com", "home": "https://www.razer.com/sg-en", "kind": "multi-entity"},
+  {"id": "B08", "brand": "Lazada", "token": "LAZADA", "domain": "lazada.sg", "home": "https://www.lazada.sg/", "kind": "multi-entity"},
+  {"id": "B09", "brand": "foodpanda", "token": "FOODPANDA", "domain": "foodpanda.sg", "home": "https://www.foodpanda.sg/", "kind": "multi-entity"},
+  {"id": "B10", "brand": "ST Engineering", "token": "ST ENGINEERING", "domain": "stengg.com", "home": "https://www.stengg.com/", "kind": "multi-entity"},
+  {"id": "B11", "brand": "CapitaLand", "token": "CAPITALAND", "domain": "capitaland.com", "home": "https://www.capitaland.com/sg/en.html", "kind": "multi-entity"},
+  {"id": "B12", "brand": "SATS", "token": "SATS", "domain": "sats.com.sg", "home": "https://www.sats.com.sg/", "kind": "multi-entity"},
+  {"id": "B13", "brand": "ComfortDelGro", "token": "COMFORTDELGRO", "domain": "comfortdelgro.com", "home": "https://www.comfortdelgro.com/", "kind": "multi-entity"},
+  {"id": "B14", "brand": "Ninja Van", "token": "NINJA VAN", "domain": "ninjavan.co", "home": "https://www.ninjavan.co/en-sg", "kind": "startup"},
+  {"id": "B15", "brand": "Carousell", "token": "CAROUSELL", "domain": "carousell.sg", "home": "https://www.carousell.sg/", "kind": "startup"},
+  {"id": "B16", "brand": "PropertyGuru", "token": "PROPERTYGURU", "domain": "propertyguru.com.sg", "home": "https://www.propertyguru.com.sg/", "kind": "startup"},
+  {"id": "B17", "brand": "Golden Village", "token": "GOLDEN VILLAGE", "domain": "gv.com.sg", "home": "https://www.gv.com.sg/", "kind": "chain"},
+  {"id": "B18", "brand": "Ya Kun", "token": "YA KUN", "domain": "yakun.com", "home": "https://yakun.com/", "kind": "chain"},
+  {"id": "B19", "brand": "Koufu", "token": "KOUFU", "domain": "koufu.com.sg", "home": "https://www.koufu.com.sg/", "kind": "chain"},
+  {"id": "B20", "brand": "Toast Box", "token": "TOAST BOX", "domain": "toastbox.com.sg", "home": "https://www.toastbox.com.sg/", "kind": "chain"}
+ ],
+ "lookalikes": [
+  {"id": "L01", "name": "Grab Recruitment Pte Ltd", "of": "B01"},
+  {"id": "L02", "name": "Shopee Careers Pte Ltd", "of": "B02"},
+  {"id": "L03", "name": "DBS Bank Pte Ltd", "of": "B03"},
+  {"id": "L04", "name": "Singtel Hiring Pte Ltd", "of": "B04"},
+  {"id": "L05", "name": "Lazada Singapore Jobs Pte Ltd", "of": "B08"},
+  {"id": "L06", "name": "Razer Gaming Pte Ltd", "of": "B07"}
+ ]
+}

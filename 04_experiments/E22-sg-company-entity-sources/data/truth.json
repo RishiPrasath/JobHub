@@ -1,0 +1,23 @@
+{
+ "note": "Set 2026-11-21 by the agent from each brand's own site (Part E raw text in runs/2026-11-21-run-001/outputs/site_truth/raw). site_names is what the site states; sg_truth_name is the Singapore entity the site names, or null when the site names only a foreign or group entity, or nothing. Confirmed against ACRA in Part A.",
+ "B01": {"site_names": ["Grab Holdings Limited (c/o, 3 Media Close Singapore 138498)"], "sg_truth_name": null, "postal": "138498", "why": "Site names a Cayman parent care of a Singapore address; no SG operating entity named"},
+ "B02": {"site_names": ["Shopee Singapore Private Limited"], "sg_truth_name": "SHOPEE SINGAPORE PRIVATE LIMITED"},
+ "B03": {"site_names": [], "sg_truth_name": null, "why": "Home page rendered empty (235 chars); no policy page reached"},
+ "B04": {"site_names": ["Singtel (CRN: 199201624D)"], "sg_truth_uen": "199201624D", "sg_truth_name": "SINGAPORE TELECOMMUNICATIONS LIMITED"},
+ "B05": {"site_names": ["NTUC Fairprice Co-operative Limited"], "sg_truth_name": "NTUC FAIRPRICE CO-OPERATIVE LIMITED"},
+ "B06": {"site_names": ["Sheng Siong Group Ltd"], "sg_truth_name": "SHENG SIONG GROUP LTD."},
+ "B07": {"site_names": ["Razer Inc."], "sg_truth_name": null, "why": "Site names only Razer Inc. (foreign)"},
+ "B08": {"site_names": ["Lazada South East Asia Pte. Ltd", "Lazada Singapore Pte. Ltd"], "sg_truth_name": "LAZADA SINGAPORE PTE. LTD.", "alt": ["LAZADA SOUTH EAST ASIA PTE. LTD."]},
+ "B09": {"site_names": ["Delivery Hero (Singapore) Pte. Ltd"], "sg_truth_name": "DELIVERY HERO (SINGAPORE) PTE. LTD."},
+ "B10": {"site_names": ["Singapore Technologies Engineering Ltd"], "sg_truth_name": "SINGAPORE TECHNOLOGIES ENGINEERING LTD"},
+ "B11": {"site_names": ["CapitaLand Limited (Reg. No. 198900036N)"], "sg_truth_uen": "198900036N", "sg_truth_name": "CAPITALAND LIMITED"},
+ "B12": {"site_names": [], "sg_truth_name": null, "why": "robots.txt disallows the home page for generic agents"},
+ "B13": {"site_names": ["ComfortDelGro Corporation Limited"], "sg_truth_name": "COMFORTDELGRO CORPORATION LIMITED"},
+ "B14": {"site_names": ["Ninja Van Group"], "sg_truth_name": null, "why": "Only 'Ninja Van Group' stated"},
+ "B15": {"site_names": [], "sg_truth_name": null, "why": "Policy page names no entity"},
+ "B16": {"site_names": [], "sg_truth_name": null, "why": "robots.txt disallows the home page for generic agents"},
+ "B17": {"site_names": ["Golden Village Multiplex Pte Ltd"], "sg_truth_name": "GOLDEN VILLAGE MULTIPLEX PTE LTD"},
+ "B18": {"site_names": ["Ya Kun International Private Limited"], "sg_truth_name": "YA KUN INTERNATIONAL PRIVATE LIMITED"},
+ "B19": {"site_names": ["Koufu Pte Ltd", "Koufu Group Limited"], "sg_truth_name": "KOUFU PTE LTD", "alt": ["KOUFU GROUP LIMITED"]},
+ "B20": {"site_names": [], "sg_truth_name": null, "why": "No privacy or terms link found on home page"}
+}

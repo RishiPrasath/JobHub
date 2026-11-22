@@ -1,0 +1,33 @@
+{
+ "_note": "Names and statuses read on 2026-11-10 from the MOM Employment Agencies Directory tab 'Under Revocation/Suspension/Surveillance' (https://service2.mom.gov.sg/eadirectory) through a rendering browser, 4 pages, 26 agencies. Retained for internal research only; MOM's terms bar reproduction for commercial purposes. The page shows status and licence number, not the date of the action. The page footer says 'Last Updated 25 Aug 2023', which is probably a static template string and not the data date.",
+ "source_url": "https://service2.mom.gov.sg/eadirectory",
+ "read_utc": "2026-11-10",
+ "agencies": [
+  {"name":"TRINITY WORKFORCE SOLUTIONS PTE. LTD.","licence":"25S3125","status":"Licence Revoked","experience":"1yr"},
+  {"name":"NET2SOURCE GLOBAL WORKFORCE SOLUTIONS PTE. LTD.","licence":"25S3054","status":"Licence Revoked","experience":"<1yr"},
+  {"name":"IMTIDAD EMPLOYMENT SOLUTIONS PTE. LTD.","licence":"13C6386","status":"Licence Revoked","experience":"13yr"},
+  {"name":"FRONDOSA CITY EMPLOYMENT AGENCY","licence":"13C6312","status":"Licence Suspended","experience":"13yr"},
+  {"name":"MAIDS R US PTE. LTD.","licence":"10C5196","status":"Licence Revoked","experience":"16yr"},
+  {"name":"TIAN TIAN MANPOWER (PTE.) LTD.","licence":"18C9520","status":"Under Surveillance (12 demerit points)","experience":"7yr"},
+  {"name":"MAVEN","licence":"16C8404","status":"Under Surveillance (22 demerit points)","experience":"9yr"},
+  {"name":"BEYOND HORIZON CONSULTANTS PTE. LTD.","licence":"25C2799","status":"Licence Revoked","experience":"1yr"},
+  {"name":"ARISING SWIFTLY AGENCY PTE. LTD.","licence":"21C0429","status":"Licence Revoked","experience":"5yr"},
+  {"name":"PERRETT LAVER PTE. LTD.","licence":"20S0258","status":"Licence Revoked","experience":"6yr"},
+  {"name":"MAVEN SEARCH PTE. LTD.","licence":"21S0613","status":"Licence Revoked","experience":"5yr"},
+  {"name":"HWEI LONG MANPOWER PTE. LTD.","licence":"17C8883","status":"Licence Suspended","experience":"9yr"},
+  {"name":"JY CONNECTION & TRADING(JYCT) PTE. LTD.","licence":"18C9255","status":"Licence Suspended","experience":"8yr"},
+  {"name":"WONDERFUL AGENCY PTE. LTD.","licence":"16C7932","status":"Licence Revoked","experience":"10yr"},
+  {"name":"NARPAVI SG PTE. LTD.","licence":"24C2340","status":"Licence Revoked","experience":"2yr"},
+  {"name":"SI HUI CONSULTANCY PTE. LTD.","licence":"25C2878","status":"Licence Revoked","experience":"1yr"},
+  {"name":"IDIGITALSKY PTE. LTD.","licence":"25S2752","status":"Licence Revoked","experience":"1yr"},
+  {"name":"FUKU AI PTE. LTD.","licence":"25S2920","status":"Licence Revoked","experience":"1yr"},
+  {"name":"H&M EMPLOYMENT (PRIVATE LIMITED)","licence":"25S2811","status":"Licence Revoked","experience":"1yr"},
+  {"name":"RECRUITU PTE. LTD.","licence":"25C2839","status":"Licence Revoked","experience":"1yr"},
+  {"name":"MILLENIA SEARCH CONSULTANTS PTE. LTD.","licence":"25C2833","status":"Licence Revoked","experience":"1yr"},
+  {"name":"LANTU EMPLOYMENT AGENCY PTE. LTD.","licence":"24C2351","status":"Licence Suspended","experience":"2yr"},
+  {"name":"CONCEPT SHARED SERVICES PTE. LTD.","licence":"21C0700","status":"Licence Suspended","experience":"5yr"},
+  {"name":"LINK TREE CORPORATE SERVICES PTE. LTD.","licence":"25S2837","status":"Licence Revoked","experience":"1yr"},
+  {"name":"EMPLOYNEST PTE. LTD.","licence":"23C2036","status":"Licence Suspended","experience":"2yr"},
+  {"name":"MAS SEARCH AND RECRUITMENT PTE. LTD.","licence":"25S2745","status":"Licence Revoked","experience":"1yr"}
+ ]
+}

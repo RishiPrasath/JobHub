@@ -1,0 +1,241 @@
+[
+ {
+  "id": "B01",
+  "brand": "Grab",
+  "home": "https://www.grab.com/sg/",
+  "home_outcome": "read",
+  "policy_url": "https://www.grab.com/sg/terms-policies/privacy-notice/",
+  "policy_outcome": "read",
+  "stated_names": [
+   "Grab Company Limited",
+   "Grab Holdings Limited"
+  ],
+  "stated_uens": []
+ },
+ {
+  "id": "B02",
+  "brand": "Shopee",
+  "home": "https://shopee.sg/",
+  "home_outcome": "read",
+  "policy_url": "https://help.shopee.sg/portal/article/77149",
+  "policy_outcome": "read",
+  "stated_names": [
+   "Welcome to the Shopee platform run by Shopee Singapore Private Limited"
+  ],
+  "stated_uens": []
+ },
+ {
+  "id": "B03",
+  "brand": "DBS",
+  "home": "https://www.dbs.com.sg/",
+  "home_outcome": "rendered_empty",
+  "policy_url": null,
+  "stated_names": [],
+  "stated_uens": []
+ },
+ {
+  "id": "B04",
+  "brand": "Singtel",
+  "home": "https://www.singtel.com/",
+  "home_outcome": "read",
+  "policy_url": "https://www.singtel.com/standard-agreement",
+  "policy_outcome": "read",
+  "stated_names": [
+   "SingNet Pte Ltd",
+   "Singapore Telecom Mobile Pte Ltd",
+   "Singapore Telecom Paging Pte Ltd",
+   "Singapore Telecommunications Ltd, Singtel Mobile Singapore Pte Ltd"
+  ],
+  "stated_uens": [
+   "199201624D"
+  ]
+ },
+ {
+  "id": "B05",
+  "brand": "FairPrice",
+  "home": "https://www.fairprice.com.sg/",
+  "home_outcome": "read",
+  "policy_url": "https://help.fairprice.com.sg/hc/en-us/articles/4464676591129-Privacy-Notice-with-effect-from-2-April-2022-",
+  "policy_outcome": "read",
+  "stated_names": [
+   "Grocery Logistics of Singapore Pte Ltd",
+   "Kopitiam Investment Pte Ltd",
+   "NTUC Fairprice Co-operative Limited",
+   "NTUC Foodfare Co-operative Limited",
+   "NTUC Link Private Limited",
+   "Origins Healthcare Pte Ltd",
+   "Such Affiliates include Cheers Holdings (2004) Pte. Ltd"
+  ],
+  "stated_uens": []
+ },
+ {
+  "id": "B06",
+  "brand": "Sheng Siong",
+  "home": "https://shengsiong.com.sg/",
+  "home_outcome": "read",
+  "policy_url": "https://shengsiong.com.sg/privacy-policy",
+  "policy_outcome": "read",
+  "stated_names": [],
+  "stated_uens": []
+ },
+ {
+  "id": "B07",
+  "brand": "Razer",
+  "home": "https://www.razer.com/sg-en",
+  "home_outcome": "read",
+  "policy_url": "https://www.razer.com/sg-en/legal/customer-privacy-policy",
+  "policy_outcome": "read",
+  "stated_names": [],
+  "stated_uens": []
+ },
+ {
+  "id": "B08",
+  "brand": "Lazada",
+  "home": "https://www.lazada.sg/",
+  "home_outcome": "read",
+  "policy_url": "https://pages.lazada.sg/wow/gcp/route/lazada/sg/upr_1000345_lazada/channel/sg/upr-router/sg?hybrid=1&data_prefetch=true&prefetch_replace=1&at_iframe=1&wh_pid=/lazada/channel/sg/legal/privacy_policy",
+  "policy_outcome": "read",
+  "stated_names": [
+   "Lazada Singapore Pte. Ltd",
+   "Lazada entity controlling your personal data will be Lazada South East Asia Pte. Ltd",
+   "Recess Company Limited"
+  ],
+  "stated_uens": []
+ },
+ {
+  "id": "B09",
+  "brand": "foodpanda",
+  "home": "https://www.foodpanda.sg/",
+  "home_outcome": "read",
+  "policy_url": "https://www.foodpanda.sg/contents/privacy.htm",
+  "policy_outcome": "read",
+  "stated_names": [
+   "We are Delivery Hero (Singapore) Pte. Ltd"
+  ],
+  "stated_uens": []
+ },
+ {
+  "id": "B10",
+  "brand": "ST Engineering",
+  "home": "https://www.stengg.com/",
+  "home_outcome": "read",
+  "policy_url": "https://www.stengg.com/en/terms-conditions-of-use/",
+  "policy_outcome": "read",
+  "stated_names": [],
+  "stated_uens": []
+ },
+ {
+  "id": "B11",
+  "brand": "CapitaLand",
+  "home": "https://www.capitaland.com/sg/en.html",
+  "home_outcome": "read",
+  "policy_url": "https://www.capitaland.com/en/footer-links/privacy-centre.html",
+  "policy_outcome": "read",
+  "stated_names": [
+   "As a wholly owned lodging business unit, The Ascott Limited",
+   "Information. Neither CapitaLand Limited",
+   "Singapore Exchange Securities Trading Limited",
+   "Terms shall mean CapitaLand Limited"
+  ],
+  "stated_uens": [
+   "198900036N"
+  ]
+ },
+ {
+  "id": "B12",
+  "brand": "SATS",
+  "home": "https://www.sats.com.sg/",
+  "home_outcome": "skipped_robots",
+  "policy_url": null,
+  "stated_names": [],
+  "stated_uens": []
+ },
+ {
+  "id": "B13",
+  "brand": "ComfortDelGro",
+  "home": "https://www.comfortdelgro.com/",
+  "home_outcome": "read",
+  "policy_url": "https://www.comfortdelgro.com/privacy-policy/",
+  "policy_outcome": "read",
+  "stated_names": [
+   "ComfortDelGro Corporation Limited"
+  ],
+  "stated_uens": []
+ },
+ {
+  "id": "B14",
+  "brand": "Ninja Van",
+  "home": "https://www.ninjavan.co/en-sg",
+  "home_outcome": "read",
+  "policy_url": "https://www.ninjavan.co/en-sg/legal-privacy-and-whistleblowing",
+  "policy_outcome": "read",
+  "stated_names": [],
+  "stated_uens": []
+ },
+ {
+  "id": "B15",
+  "brand": "Carousell",
+  "home": "https://www.carousell.sg/",
+  "home_outcome": "read",
+  "policy_url": "https://support.carousell.com/hc/en-us/articles/115006700307",
+  "policy_outcome": "read",
+  "stated_names": [],
+  "stated_uens": []
+ },
+ {
+  "id": "B16",
+  "brand": "PropertyGuru",
+  "home": "https://www.propertyguru.com.sg/",
+  "home_outcome": "skipped_robots",
+  "policy_url": null,
+  "stated_names": [],
+  "stated_uens": []
+ },
+ {
+  "id": "B17",
+  "brand": "Golden Village",
+  "home": "https://www.gv.com.sg/",
+  "home_outcome": "read",
+  "policy_url": "https://www.gv.com.sg/PrivacyPolicy#/",
+  "policy_outcome": "read",
+  "stated_names": [
+   "Golden Village Multiplex Pte Ltd"
+  ],
+  "stated_uens": []
+ },
+ {
+  "id": "B18",
+  "brand": "Ya Kun",
+  "home": "https://yakun.com/",
+  "home_outcome": "read",
+  "policy_url": null,
+  "stated_names": [
+   "Ya Kun International Private Limited"
+  ],
+  "stated_uens": []
+ },
+ {
+  "id": "B19",
+  "brand": "Koufu",
+  "home": "https://www.koufu.com.sg/",
+  "home_outcome": "read",
+  "policy_url": "https://www.koufu.com.sg/privacy-policy/",
+  "policy_outcome": "read",
+  "stated_names": [
+   "ALL RIGHTS RESERVED BY KOUFU PTE LTD",
+   "However Koufu Group Limited",
+   "Koufu Group Limited",
+   "Your information is stored in Koufu Group Limited"
+  ],
+  "stated_uens": []
+ },
+ {
+  "id": "B20",
+  "brand": "Toast Box",
+  "home": "https://www.toastbox.com.sg/",
+  "home_outcome": "read",
+  "policy_url": null,
+  "stated_names": [],
+  "stated_uens": []
+ }
+]

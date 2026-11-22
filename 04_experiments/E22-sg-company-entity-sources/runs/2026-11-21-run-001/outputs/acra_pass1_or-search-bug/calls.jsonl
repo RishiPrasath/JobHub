@@ -1,0 +1,51 @@
+{"t": "2026-11-21T13:15:30", "params": {"q": "GRAB", "limit": 500, "offset": 0}, "status": 200, "n": 159}
+{"t": "2026-11-21T13:15:33", "params": {"filters": "{\"reg_postal_code\": \"138498\"}", "limit": 500}, "status": 200, "n": 31}
+{"t": "2026-11-21T13:15:46", "params": {"q": "SHOPEE", "limit": 500, "offset": 0}, "status": 200, "n": 25}
+{"t": "2026-11-21T13:16:00", "params": {"q": "SHOPEE SINGAPORE PRIVATE LIMITED", "limit": 100}, "status": 200, "n": 100}
+{"t": "2026-11-21T13:16:10", "params": {"q": "DBS", "limit": 500, "offset": 0}, "status": 200, "n": 30}
+{"t": "2026-11-21T13:16:19", "params": {"q": "SINGTEL", "limit": 500, "offset": 0}, "status": 200, "n": 44}
+{"t": "2026-11-21T13:16:23", "params": {"filters": "{\"uen\": \"199201624D\"}"}, "status": 200, "n": 1}
+{"t": "2026-11-21T13:16:31", "params": {"q": "FAIRPRICE", "limit": 500, "offset": 0}, "status": 200, "n": 54}
+{"t": "2026-11-21T13:16:35", "params": {"q": "NTUC FAIRPRICE CO-OPERATIVE LIMITED", "limit": 100}, "status": 409, "n": null}
+{"t": "2026-11-21T13:16:44", "params": {"q": "SHENG SIONG", "limit": 500, "offset": 0}, "status": 200, "n": 500}
+{"t": "2026-11-21T13:16:53", "params": {"q": "SHENG SIONG", "limit": 500, "offset": 500}, "status": 200, "n": 500}
+{"t": "2026-11-21T13:17:03", "params": {"q": "SHENG SIONG", "limit": 500, "offset": 1000}, "status": 200, "n": 500}
+{"t": "2026-11-21T13:17:06", "params": {"q": "SHENG SIONG GROUP LTD.", "limit": 100}, "status": 409, "n": null}
+{"t": "2026-11-21T13:17:14", "params": {"q": "RAZER", "limit": 500, "offset": 0}, "status": 200, "n": 25}
+{"t": "2026-11-21T13:17:22", "params": {"q": "LAZADA", "limit": 500, "offset": 0}, "status": 200, "n": 6}
+{"t": "2026-11-21T13:17:25", "params": {"q": "LAZADA SINGAPORE PTE. LTD.", "limit": 100}, "status": 409, "n": null}
+{"t": "2026-11-21T13:17:28", "params": {"q": "LAZADA SOUTH EAST ASIA PTE. LTD.", "limit": 100}, "status": 409, "n": null}
+{"t": "2026-11-21T13:17:35", "params": {"q": "FOODPANDA", "limit": 500, "offset": 0}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:17:38", "params": {"q": "DELIVERY HERO (SINGAPORE) PTE. LTD.", "limit": 100}, "status": 409, "n": null}
+{"t": "2026-11-21T13:17:48", "params": {"q": "ST ENGINEERING", "limit": 500, "offset": 0}, "status": 200, "n": 500}
+{"t": "2026-11-21T13:17:57", "params": {"q": "ST ENGINEERING", "limit": 500, "offset": 500}, "status": 200, "n": 500}
+{"t": "2026-11-21T13:18:07", "params": {"q": "ST ENGINEERING", "limit": 500, "offset": 1000}, "status": 200, "n": 500}
+{"t": "2026-11-21T13:18:19", "params": {"q": "SINGAPORE TECHNOLOGIES ENGINEERING LTD", "limit": 100}, "status": 200, "n": 100}
+{"t": "2026-11-21T13:18:29", "params": {"q": "CAPITALAND", "limit": 500, "offset": 0}, "status": 200, "n": 160}
+{"t": "2026-11-21T13:18:32", "params": {"filters": "{\"uen\": \"198900036N\"}"}, "status": 200, "n": 1}
+{"t": "2026-11-21T13:18:40", "params": {"q": "SATS", "limit": 500, "offset": 0}, "status": 200, "n": 29}
+{"t": "2026-11-21T13:18:48", "params": {"q": "COMFORTDELGRO", "limit": 500, "offset": 0}, "status": 200, "n": 13}
+{"t": "2026-11-21T13:18:58", "params": {"q": "COMFORTDELGRO CORPORATION LIMITED", "limit": 100}, "status": 200, "n": 100}
+{"t": "2026-11-21T13:19:07", "params": {"q": "NINJA VAN", "limit": 500, "offset": 0}, "status": 200, "n": 481}
+{"t": "2026-11-21T13:19:15", "params": {"q": "CAROUSELL", "limit": 500, "offset": 0}, "status": 200, "n": 8}
+{"t": "2026-11-21T13:19:22", "params": {"q": "PROPERTYGURU", "limit": 500, "offset": 0}, "status": 200, "n": 1}
+{"t": "2026-11-21T13:19:31", "params": {"q": "GOLDEN VILLAGE", "limit": 500, "offset": 0}, "status": 200, "n": 500}
+{"t": "2026-11-21T13:19:42", "params": {"q": "GOLDEN VILLAGE", "limit": 500, "offset": 500}, "status": 200, "n": 500}
+{"t": "2026-11-21T13:19:52", "params": {"q": "GOLDEN VILLAGE", "limit": 500, "offset": 1000}, "status": 200, "n": 500}
+{"t": "2026-11-21T13:20:05", "params": {"q": "GOLDEN VILLAGE MULTIPLEX PTE LTD", "limit": 100}, "status": 200, "n": 100}
+{"t": "2026-11-21T13:20:14", "params": {"q": "YA KUN", "limit": 500, "offset": 0}, "status": 200, "n": 500}
+{"t": "2026-11-21T13:20:23", "params": {"q": "YA KUN", "limit": 500, "offset": 500}, "status": 200, "n": 500}
+{"t": "2026-11-21T13:20:32", "params": {"q": "YA KUN", "limit": 500, "offset": 1000}, "status": 200, "n": 64}
+{"t": "2026-11-21T13:20:41", "params": {"q": "YA KUN INTERNATIONAL PRIVATE LIMITED", "limit": 100}, "status": 200, "n": 100}
+{"t": "2026-11-21T13:20:49", "params": {"q": "KOUFU", "limit": 500, "offset": 0}, "status": 200, "n": 21}
+{"t": "2026-11-21T13:21:01", "params": {"q": "KOUFU PTE LTD", "limit": 100}, "status": 200, "n": 100}
+{"t": "2026-11-21T13:21:10", "params": {"q": "KOUFU GROUP LIMITED", "limit": 100}, "status": 200, "n": 100}
+{"t": "2026-11-21T13:21:19", "params": {"q": "TOAST BOX", "limit": 500, "offset": 0}, "status": 200, "n": 500}
+{"t": "2026-11-21T13:21:28", "params": {"q": "TOAST BOX", "limit": 500, "offset": 500}, "status": 200, "n": 500}
+{"t": "2026-11-21T13:21:37", "params": {"q": "TOAST BOX", "limit": 500, "offset": 1000}, "status": 200, "n": 500}
+{"t": "2026-11-21T13:21:51", "params": {"q": "Grab Recruitment Pte Ltd", "limit": 100}, "status": 200, "n": 100}
+{"t": "2026-11-21T13:22:09", "params": {"q": "Shopee Careers Pte Ltd", "limit": 100}, "status": 200, "n": 100}
+{"t": "2026-11-21T13:22:22", "params": {"q": "DBS Bank Pte Ltd", "limit": 100}, "status": 200, "n": 100}
+{"t": "2026-11-21T13:22:48", "params": {"q": "Singtel Hiring Pte Ltd", "limit": 100}, "status": 200, "n": 100}
+{"t": "2026-11-21T13:23:03", "params": {"q": "Lazada Singapore Jobs Pte Ltd", "limit": 100}, "status": 200, "n": 100}
+{"t": "2026-11-21T13:23:18", "params": {"q": "Razer Gaming Pte Ltd", "limit": 100}, "status": 200, "n": 100}

@@ -1,0 +1,50 @@
+{"t": "2026-11-21T13:23:56", "params": {"q": "{\"entity_name\": \"GRAB\"}", "limit": 500, "offset": 0}, "status": 200, "n": 159}
+{"t": "2026-11-21T13:23:59", "params": {"filters": "{\"reg_postal_code\": \"138498\"}", "limit": 500}, "status": 200, "n": 31}
+{"t": "2026-11-21T13:24:05", "params": {"q": "{\"entity_name\": \"SHOPEE\"}", "limit": 500, "offset": 0}, "status": 200, "n": 25}
+{"t": "2026-11-21T13:24:09", "params": {"filters": "{\"entity_name\": \"SHOPEE SINGAPORE PRIVATE LIMITED\"}"}, "status": 200, "n": 1}
+{"t": "2026-11-21T13:24:16", "params": {"q": "{\"entity_name\": \"DBS\"}", "limit": 500, "offset": 0}, "status": 200, "n": 30}
+{"t": "2026-11-21T13:24:21", "params": {"q": "{\"entity_name\": \"SINGTEL\"}", "limit": 500, "offset": 0}, "status": 200, "n": 44}
+{"t": "2026-11-21T13:24:24", "params": {"filters": "{\"uen\": \"199201624D\"}"}, "status": 200, "n": 1}
+{"t": "2026-11-21T13:24:30", "params": {"q": "{\"entity_name\": \"FAIRPRICE\"}", "limit": 500, "offset": 0}, "status": 200, "n": 54}
+{"t": "2026-11-21T13:24:34", "params": {"filters": "{\"entity_name\": \"NTUC FAIRPRICE CO-OPERATIVE LIMITED\"}"}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:24:40", "params": {"q": "{\"entity_name\": \"NTUC FAIRPRICE CO-OPERATIVE LIMITED\"}", "limit": 500}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:24:47", "params": {"q": "{\"entity_name\": \"SHENG SIONG\"}", "limit": 500, "offset": 0}, "status": 200, "n": 19}
+{"t": "2026-11-21T13:24:50", "params": {"filters": "{\"entity_name\": \"SHENG SIONG GROUP LTD.\"}"}, "status": 200, "n": 1}
+{"t": "2026-11-21T13:24:56", "params": {"q": "{\"entity_name\": \"RAZER\"}", "limit": 500, "offset": 0}, "status": 200, "n": 25}
+{"t": "2026-11-21T13:25:02", "params": {"q": "{\"entity_name\": \"LAZADA\"}", "limit": 500, "offset": 0}, "status": 200, "n": 6}
+{"t": "2026-11-21T13:25:05", "params": {"filters": "{\"entity_name\": \"LAZADA SINGAPORE PTE. LTD.\"}"}, "status": 200, "n": 1}
+{"t": "2026-11-21T13:25:09", "params": {"filters": "{\"entity_name\": \"LAZADA SOUTH EAST ASIA PTE. LTD.\"}"}, "status": 200, "n": 1}
+{"t": "2026-11-21T13:25:15", "params": {"q": "{\"entity_name\": \"FOODPANDA\"}", "limit": 500, "offset": 0}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:25:18", "params": {"filters": "{\"entity_name\": \"DELIVERY HERO (SINGAPORE) PTE. LTD.\"}"}, "status": 200, "n": 1}
+{"t": "2026-11-21T13:25:24", "params": {"q": "{\"entity_name\": \"ST ENGINEERING\"}", "limit": 500, "offset": 0}, "status": 200, "n": 68}
+{"t": "2026-11-21T13:25:28", "params": {"filters": "{\"entity_name\": \"SINGAPORE TECHNOLOGIES ENGINEERING LTD\"}"}, "status": 200, "n": 1}
+{"t": "2026-11-21T13:25:34", "params": {"q": "{\"entity_name\": \"CAPITALAND\"}", "limit": 500, "offset": 0}, "status": 200, "n": 160}
+{"t": "2026-11-21T13:25:37", "params": {"filters": "{\"uen\": \"198900036N\"}"}, "status": 200, "n": 1}
+{"t": "2026-11-21T13:25:43", "params": {"q": "{\"entity_name\": \"SATS\"}", "limit": 500, "offset": 0}, "status": 200, "n": 29}
+{"t": "2026-11-21T13:25:49", "params": {"q": "{\"entity_name\": \"COMFORTDELGRO\"}", "limit": 500, "offset": 0}, "status": 200, "n": 13}
+{"t": "2026-11-21T13:25:52", "params": {"filters": "{\"entity_name\": \"COMFORTDELGRO CORPORATION LIMITED\"}"}, "status": 200, "n": 1}
+{"t": "2026-11-21T13:25:58", "params": {"q": "{\"entity_name\": \"NINJA VAN\"}", "limit": 500, "offset": 0}, "status": 200, "n": 1}
+{"t": "2026-11-21T13:26:04", "params": {"q": "{\"entity_name\": \"CAROUSELL\"}", "limit": 500, "offset": 0}, "status": 200, "n": 8}
+{"t": "2026-11-21T13:26:10", "params": {"q": "{\"entity_name\": \"PROPERTYGURU\"}", "limit": 500, "offset": 0}, "status": 200, "n": 1}
+{"t": "2026-11-21T13:26:16", "params": {"q": "{\"entity_name\": \"GOLDEN VILLAGE\"}", "limit": 500, "offset": 0}, "status": 200, "n": 28}
+{"t": "2026-11-21T13:26:19", "params": {"filters": "{\"entity_name\": \"GOLDEN VILLAGE MULTIPLEX PTE LTD\"}"}, "status": 200, "n": 1}
+{"t": "2026-11-21T13:26:25", "params": {"q": "{\"entity_name\": \"YA KUN\"}", "limit": 500, "offset": 0}, "status": 200, "n": 15}
+{"t": "2026-11-21T13:26:29", "params": {"filters": "{\"entity_name\": \"YA KUN INTERNATIONAL PRIVATE LIMITED\"}"}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:26:35", "params": {"q": "{\"entity_name\": \"YA KUN INTERNATIONAL PRIVATE LIMITED\"}", "limit": 500}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:26:40", "params": {"q": "{\"entity_name\": \"KOUFU\"}", "limit": 500, "offset": 0}, "status": 200, "n": 21}
+{"t": "2026-11-21T13:26:44", "params": {"filters": "{\"entity_name\": \"KOUFU PTE LTD\"}"}, "status": 200, "n": 1}
+{"t": "2026-11-21T13:26:47", "params": {"filters": "{\"entity_name\": \"KOUFU GROUP LIMITED\"}"}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:26:53", "params": {"q": "{\"entity_name\": \"KOUFU GROUP LIMITED\"}", "limit": 500}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:26:59", "params": {"q": "{\"entity_name\": \"TOAST BOX\"}", "limit": 500, "offset": 0}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:27:03", "params": {"filters": "{\"entity_name\": \"GRAB RECRUITMENT PTE LTD\"}"}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:27:09", "params": {"q": "{\"entity_name\": \"Grab Recruitment Pte Ltd\"}", "limit": 500}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:27:12", "params": {"filters": "{\"entity_name\": \"SHOPEE CAREERS PTE LTD\"}"}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:27:18", "params": {"q": "{\"entity_name\": \"Shopee Careers Pte Ltd\"}", "limit": 500}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:27:21", "params": {"filters": "{\"entity_name\": \"DBS BANK PTE LTD\"}"}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:27:27", "params": {"q": "{\"entity_name\": \"DBS Bank Pte Ltd\"}", "limit": 500}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:27:31", "params": {"filters": "{\"entity_name\": \"SINGTEL HIRING PTE LTD\"}"}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:27:37", "params": {"q": "{\"entity_name\": \"Singtel Hiring Pte Ltd\"}", "limit": 500}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:27:40", "params": {"filters": "{\"entity_name\": \"LAZADA SINGAPORE JOBS PTE LTD\"}"}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:27:46", "params": {"q": "{\"entity_name\": \"Lazada Singapore Jobs Pte Ltd\"}", "limit": 500}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:27:49", "params": {"filters": "{\"entity_name\": \"RAZER GAMING PTE LTD\"}"}, "status": 200, "n": 0}
+{"t": "2026-11-21T13:27:55", "params": {"q": "{\"entity_name\": \"Razer Gaming Pte Ltd\"}", "limit": 500}, "status": 200, "n": 0}

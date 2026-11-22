@@ -86,3 +86,7 @@ Proposed feasibility level: T2 at most, for the narrowed lookup only. ASM-006 ("
 1. Ask MOM for written permission to use the two lists, or limit the feature to user-run lookups with links.
 2. Confirm narrowing FEAT-006 and dropping the web sweep.
 3. Keep or remove `data/mom_ea_directory_flagged_2026-11-10.json`, which holds the 26 agency names. The stop-work-order PDF is not stored in the repo.
+
+## Run-002 (2026-11-21): retry with the Clearcote browser
+
+See `runs/2026-11-21-run-002/RUN-NOTES.md`. The SGX Terms of Use now render and were read: they bar automated scraping or extraction for data analysis software without SGX's written consent, so SGX moves from "not readable" to "readable, not permitted", and its announcements were deliberately not fetched. The Part B citations that returned HTTP 403 were not retried: ComplaintsBoard's robots.txt refuses all agents, and getting past Robert Walters' 403 would mean masking an automated reader. Verdicts unchanged: Part A narrow pass, Part B fail.

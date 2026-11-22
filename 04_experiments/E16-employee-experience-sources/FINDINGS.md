@@ -69,3 +69,11 @@ Proposed feasibility level: T2 (a survey result, not a working pipeline). `resul
 2. Decide whether job-seeker contributions count toward Part A.
 3. Decide who, if anyone, contacts Glassdoor or SEEK about a licence, and on what budget.
 4. Have a human confirm the provisional classifications.
+
+## Run-002 (2026-11-21): primary terms re-read with the Clearcote browser
+
+See `runs/2026-11-21-run-002/RUN-NOTES.md`. Reddit's User Agreement and Data API Terms and the Google Maps Platform terms were read in full from the rendered pages. Reddit is now "not permitted" on primary text (scraping needs prior written consent; commercial API use needs a separate agreement). Google Maps stays "not permitted for the intended use" (no storing or rehosting outside the Services). Glassdoor was not read: its robots.txt disallows its terms and developer pages for all agents, so a human has to read them. Part A stays **fail**; no level change.
+
+## Run-003 (2026-11-21): new sources and small extraction
+
+See `runs/2026-11-21-run-003/RUN-NOTES.md`. New sources read live: Glints (barred, clause h), Great Place to Work (barred, no robots or automated access), AmbitionBox (robots.txt returns 403), NodeFlair (automated reading not barred, but commercial use needs a licence), TAFEP Tripartite Standards adopters (no automation clause; robots.txt 404). NodeFlair aggregates for 6 employers: newest Grab and DBS reviews are over 2 years old, cards are labelled "From Other Platform", and non-tech coverage is empty (Sheng Siong 0). TAFEP list: 21,116 organisations with UEN, maintained to 20 Nov 2026, but it is an employer pledge, not employee experience. Part A stays **fail** for review text; a UEN-keyed Tripartite Standards badge is buildable now.

@@ -1,0 +1,806 @@
+[
+ {
+  "id": "B01",
+  "brand": "Grab",
+  "domain": "grab.com",
+  "rdap": {
+   "outcome": "not_sg_domain"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": null,
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "Amazon",
+   "type": "DV"
+  },
+  "crtsh": {
+   "outcome": "http_502"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "19970414164306"
+  },
+  "acra_links": []
+ },
+ {
+  "id": "B02",
+  "brand": "Shopee",
+  "domain": "shopee.sg",
+  "rdap": {
+   "outcome": "ok",
+   "registrant": "SHOPEE SINGAPORE PRIVATE LIMITED",
+   "registered": "2014-11-28T04:23:21Z"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": null,
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "GlobalSign nv-sa",
+   "type": "DV"
+  },
+  "crtsh": {
+   "outcome": "http_502"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "20150530204303"
+  },
+  "acra_links": [
+   {
+    "source": "rdap",
+    "name": "SHOPEE SINGAPORE PRIVATE LIMITED",
+    "acra": [
+     {
+      "uen": "201503526N",
+      "entity_name": "SHOPEE SINGAPORE PRIVATE LIMITED",
+      "uen_status_desc": "Registered",
+      "entity_type_desc": "Local Company",
+      "uen_issue_date": "2015-02-05",
+      "reg_postal_code": "138522"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "B03",
+  "brand": "DBS",
+  "domain": "dbs.com.sg",
+  "rdap": {
+   "outcome": "ok",
+   "registrant": "DBS BANK LTD.",
+   "registered": "1996-09-30T16:00:00Z"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": "DBS Bank Ltd",
+   "subject_serialNumber": "196800306E",
+   "jurisdiction": "SG",
+   "businessCategory": "Private Organization",
+   "issuer_O": "DigiCert Inc",
+   "type": "EV"
+  },
+  "crtsh": {
+   "outcome": "ok",
+   "unexpired_certs": 6,
+   "issuers": [
+    "C=BE, O=GlobalSign nv-sa, CN=GlobalSign GCC R3 EV TLS CA 2025",
+    "C=BE, O=GlobalSign nv-sa, CN=GlobalSign GCC R46 EV TLS CA 2025",
+    "C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2"
+   ],
+   "note": "crt.sh JSON gives issuer and names, not the subject O field"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "19970329125252"
+  },
+  "acra_links": [
+   {
+    "source": "rdap",
+    "name": "DBS BANK LTD.",
+    "acra": [
+     {
+      "uen": "196800306E",
+      "entity_name": "DBS BANK LTD.",
+      "uen_status_desc": "Registered",
+      "entity_type_desc": "Local Company",
+      "uen_issue_date": "1968-07-16",
+      "reg_postal_code": "018982"
+     }
+    ]
+   },
+   {
+    "source": "cert",
+    "name": "DBS Bank Ltd",
+    "acra": [
+     {
+      "uen": "196800306E",
+      "entity_name": "DBS BANK LTD.",
+      "uen_status_desc": "Registered",
+      "entity_type_desc": "Local Company",
+      "uen_issue_date": "1968-07-16",
+      "reg_postal_code": "018982"
+     }
+    ]
+   },
+   {
+    "source": "cert_serial",
+    "name": "196800306E",
+    "acra": [
+     {
+      "uen": "196800306E",
+      "entity_name": "DBS BANK LTD.",
+      "uen_status_desc": "Registered",
+      "entity_type_desc": "Local Company",
+      "uen_issue_date": "1968-07-16",
+      "reg_postal_code": "018982"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "B04",
+  "brand": "Singtel",
+  "domain": "singtel.com",
+  "rdap": {
+   "outcome": "not_sg_domain"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": null,
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "GlobalSign nv-sa",
+   "type": "DV"
+  },
+  "crtsh": {
+   "outcome": "ok",
+   "unexpired_certs": 6,
+   "issuers": [
+    "C=BE, O=GlobalSign nv-sa, CN=GlobalSign Atlas R46 DV TLS CA 2026 Q3",
+    "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+    "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+   ],
+   "note": "crt.sh JSON gives issuer and names, not the subject O field"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "19961226190808"
+  },
+  "acra_links": []
+ },
+ {
+  "id": "B05",
+  "brand": "FairPrice",
+  "domain": "fairprice.com.sg",
+  "rdap": {
+   "outcome": "ok",
+   "registrant": "[individual name redacted]",
+   "registered": "1998-10-29T16:00:00Z",
+   "redacted": true
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": "NTUC FairPrice Co-Operative Ltd",
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "DigiCert Inc",
+   "type": "OV"
+  },
+  "crtsh": {
+   "outcome": "ok",
+   "unexpired_certs": 13,
+   "issuers": [
+    "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+    "C=US, O=DigiCert Inc, CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1"
+   ],
+   "note": "crt.sh JSON gives issuer and names, not the subject O field"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "19990508222403"
+  },
+  "acra_links": [
+   {
+    "source": "rdap",
+    "name": "[individual name redacted]",
+    "acra": []
+   },
+   {
+    "source": "cert",
+    "name": "NTUC FairPrice Co-Operative Ltd",
+    "acra": []
+   }
+  ]
+ },
+ {
+  "id": "B06",
+  "brand": "Sheng Siong",
+  "domain": "shengsiong.com.sg",
+  "rdap": {
+   "outcome": "ok",
+   "registrant": "SHENG SIONG SUPERMARKET PTE LTD",
+   "registered": "2005-05-24T02:53:16Z"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": null,
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "Sectigo Limited",
+   "type": "DV"
+  },
+  "crtsh": {
+   "outcome": "http_502"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "20070128230347"
+  },
+  "acra_links": [
+   {
+    "source": "rdap",
+    "name": "SHENG SIONG SUPERMARKET PTE LTD",
+    "acra": [
+     {
+      "uen": "198304925E",
+      "entity_name": "SHENG SIONG SUPERMARKET PTE LTD",
+      "uen_status_desc": "Registered",
+      "entity_type_desc": "Local Company",
+      "uen_issue_date": "1983-10-14",
+      "reg_postal_code": "728652"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "B07",
+  "brand": "Razer",
+  "domain": "razer.com",
+  "rdap": {
+   "outcome": "not_sg_domain"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": null,
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "Google Trust Services",
+   "type": "DV"
+  },
+  "crtsh": {
+   "outcome": "http_502"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "19981202190010"
+  },
+  "acra_links": []
+ },
+ {
+  "id": "B08",
+  "brand": "Lazada",
+  "domain": "lazada.sg",
+  "rdap": {
+   "outcome": "ok",
+   "registrant": "LAZADA SOUTH EAST ASIA PTE. LTD.",
+   "registered": "2012-02-22T12:48:48Z"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": "Alibaba (China) Technology Co., Ltd.",
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "GlobalSign nv-sa",
+   "type": "OV"
+  },
+  "crtsh": {
+   "outcome": "ok",
+   "unexpired_certs": 0,
+   "issuers": [],
+   "note": "crt.sh JSON gives issuer and names, not the subject O field"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "20120525132645"
+  },
+  "acra_links": [
+   {
+    "source": "rdap",
+    "name": "LAZADA SOUTH EAST ASIA PTE. LTD.",
+    "acra": [
+     {
+      "uen": "201201679C",
+      "entity_name": "LAZADA SOUTH EAST ASIA PTE. LTD.",
+      "uen_status_desc": "Registered",
+      "entity_type_desc": "Local Company",
+      "uen_issue_date": "2012-01-19",
+      "reg_postal_code": "189554"
+     }
+    ]
+   },
+   {
+    "source": "cert",
+    "name": "Alibaba (China) Technology Co., Ltd.",
+    "acra": []
+   }
+  ]
+ },
+ {
+  "id": "B09",
+  "brand": "foodpanda",
+  "domain": "foodpanda.sg",
+  "rdap": {
+   "outcome": "ok",
+   "registrant": "FOODPANDA GMBH",
+   "registered": "2012-01-30T10:05:36Z"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": null,
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "Let's Encrypt",
+   "type": "DV"
+  },
+  "crtsh": {
+   "outcome": "ok",
+   "unexpired_certs": 0,
+   "issuers": [],
+   "note": "crt.sh JSON gives issuer and names, not the subject O field"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "20120223180114"
+  },
+  "acra_links": [
+   {
+    "source": "rdap",
+    "name": "FOODPANDA GMBH",
+    "acra": []
+   }
+  ]
+ },
+ {
+  "id": "B10",
+  "brand": "ST Engineering",
+  "domain": "stengg.com",
+  "rdap": {
+   "outcome": "not_sg_domain"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": "ST Engineering Management Services Pte. Ltd.",
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "GlobalSign nv-sa",
+   "type": "OV"
+  },
+  "crtsh": {
+   "outcome": "ok",
+   "unexpired_certs": 1,
+   "issuers": [
+    "C=BE, O=GlobalSign nv-sa, CN=GlobalSign RSA OV SSL CA 2018"
+   ],
+   "note": "crt.sh JSON gives issuer and names, not the subject O field"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "20000622015318"
+  },
+  "acra_links": [
+   {
+    "source": "cert",
+    "name": "ST Engineering Management Services Pte. Ltd.",
+    "acra": [
+     {
+      "uen": "201632394N",
+      "entity_name": "ST ENGINEERING MANAGEMENT SERVICES PTE. LTD.",
+      "uen_status_desc": "Registered",
+      "entity_type_desc": "Local Company",
+      "uen_issue_date": "2016-11-28",
+      "reg_postal_code": "567710"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "B11",
+  "brand": "CapitaLand",
+  "domain": "capitaland.com",
+  "rdap": {
+   "outcome": "not_sg_domain"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": "CapitaLand Business Services Pte Ltd",
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "DigiCert Inc",
+   "type": "OV"
+  },
+  "crtsh": {
+   "outcome": "ok",
+   "unexpired_certs": 2,
+   "issuers": [
+    "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1"
+   ],
+   "note": "crt.sh JSON gives issuer and names, not the subject O field"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "20010218152424"
+  },
+  "acra_links": [
+   {
+    "source": "cert",
+    "name": "CapitaLand Business Services Pte Ltd",
+    "acra": [
+     {
+      "uen": "201410701H",
+      "entity_name": "CAPITALAND BUSINESS SERVICES PTE. LTD.",
+      "uen_status_desc": "Registered",
+      "entity_type_desc": "Local Company",
+      "uen_issue_date": "2014-04-11",
+      "reg_postal_code": "068912"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "B12",
+  "brand": "SATS",
+  "domain": "sats.com.sg",
+  "rdap": {
+   "outcome": "ok",
+   "registrant": "SATS LTD.",
+   "registered": "1999-01-09T02:39:18Z"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": null,
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "Let's Encrypt",
+   "type": "DV"
+  },
+  "crtsh": {
+   "outcome": "ok",
+   "unexpired_certs": 0,
+   "issuers": [],
+   "note": "crt.sh JSON gives issuer and names, not the subject O field"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "19991006010811"
+  },
+  "acra_links": [
+   {
+    "source": "rdap",
+    "name": "SATS LTD.",
+    "acra": [
+     {
+      "uen": "197201770G",
+      "entity_name": "SATS LTD.",
+      "uen_status_desc": "Registered",
+      "entity_type_desc": "Local Company",
+      "uen_issue_date": "1972-12-15",
+      "reg_postal_code": "819659"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "B13",
+  "brand": "ComfortDelGro",
+  "domain": "comfortdelgro.com",
+  "rdap": {
+   "outcome": "not_sg_domain"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": null,
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "Google Trust Services",
+   "type": "DV"
+  },
+  "crtsh": {
+   "outcome": "ok",
+   "unexpired_certs": 0,
+   "issuers": [],
+   "note": "crt.sh JSON gives issuer and names, not the subject O field"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "20030415091605"
+  },
+  "acra_links": []
+ },
+ {
+  "id": "B14",
+  "brand": "Ninja Van",
+  "domain": "ninjavan.co",
+  "rdap": {
+   "outcome": "not_sg_domain"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": null,
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "Let's Encrypt",
+   "type": "DV"
+  },
+  "crtsh": {
+   "outcome": "ok",
+   "unexpired_certs": 0,
+   "issuers": [],
+   "note": "crt.sh JSON gives issuer and names, not the subject O field"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "20161117212022"
+  },
+  "acra_links": []
+ },
+ {
+  "id": "B15",
+  "brand": "Carousell",
+  "domain": "carousell.sg",
+  "rdap": {
+   "outcome": "ok",
+   "registrant": "CAROUSELL PTE. LTD.",
+   "registered": "2013-11-02T11:17:14Z"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": null,
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "DigiCert Inc",
+   "type": "DV"
+  },
+  "crtsh": {
+   "outcome": "ok",
+   "unexpired_certs": 0,
+   "issuers": [],
+   "note": "crt.sh JSON gives issuer and names, not the subject O field"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "20140304083113"
+  },
+  "acra_links": [
+   {
+    "source": "rdap",
+    "name": "CAROUSELL PTE. LTD.",
+    "acra": [
+     {
+      "uen": "201300296D",
+      "entity_name": "CAROUSELL PTE. LTD.",
+      "uen_status_desc": "Registered",
+      "entity_type_desc": "Local Company",
+      "uen_issue_date": "2013-01-02",
+      "reg_postal_code": "139955"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "B16",
+  "brand": "PropertyGuru",
+  "domain": "propertyguru.com.sg",
+  "rdap": {
+   "outcome": "ok",
+   "registrant": "PropertyGuru Pte. Ltd.",
+   "registered": "2007-09-24T09:19:55Z"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": null,
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "Google Trust Services",
+   "type": "DV"
+  },
+  "crtsh": {
+   "outcome": "ok",
+   "unexpired_certs": 0,
+   "issuers": [],
+   "note": "crt.sh JSON gives issuer and names, not the subject O field"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "20080303093954"
+  },
+  "acra_links": [
+   {
+    "source": "rdap",
+    "name": "PropertyGuru Pte. Ltd.",
+    "acra": [
+     {
+      "uen": "200615063H",
+      "entity_name": "PROPERTYGURU PTE. LTD.",
+      "uen_status_desc": "Registered",
+      "entity_type_desc": "Local Company",
+      "uen_issue_date": "2006-10-10",
+      "reg_postal_code": "079912"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "B17",
+  "brand": "Golden Village",
+  "domain": "gv.com.sg",
+  "rdap": {
+   "outcome": "ok",
+   "registrant": "GV IT",
+   "registered": "2001-01-19T10:31:54Z"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": null,
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "Google Trust Services",
+   "type": "DV"
+  },
+  "crtsh": {
+   "outcome": "ok",
+   "unexpired_certs": 2,
+   "issuers": [
+    "C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA DV R36"
+   ],
+   "note": "crt.sh JSON gives issuer and names, not the subject O field"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "20020813213352"
+  },
+  "acra_links": [
+   {
+    "source": "rdap",
+    "name": "GV IT",
+    "acra": []
+   }
+  ]
+ },
+ {
+  "id": "B18",
+  "brand": "Ya Kun",
+  "domain": "yakun.com",
+  "rdap": {
+   "outcome": "not_sg_domain"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": null,
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "Let's Encrypt",
+   "type": "DV"
+  },
+  "crtsh": {
+   "outcome": "ok",
+   "unexpired_certs": 2,
+   "issuers": [
+    "C=US, O=Let's Encrypt, CN=YR1"
+   ],
+   "note": "crt.sh JSON gives issuer and names, not the subject O field"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "20011113200835"
+  },
+  "acra_links": []
+ },
+ {
+  "id": "B19",
+  "brand": "Koufu",
+  "domain": "koufu.com.sg",
+  "rdap": {
+   "outcome": "ok",
+   "registrant": "KOUFU PTE LTD",
+   "registered": "2001-07-31T03:54:24Z"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": null,
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "Let's Encrypt",
+   "type": "DV"
+  },
+  "crtsh": {
+   "outcome": "ok",
+   "unexpired_certs": 0,
+   "issuers": [],
+   "note": "crt.sh JSON gives issuer and names, not the subject O field"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "20020807201546"
+  },
+  "acra_links": [
+   {
+    "source": "rdap",
+    "name": "KOUFU PTE LTD",
+    "acra": [
+     {
+      "uen": "199602661M",
+      "entity_name": "KOUFU PTE LTD",
+      "uen_status_desc": "Registered",
+      "entity_type_desc": "Local Company",
+      "uen_issue_date": "1996-04-16",
+      "reg_postal_code": "737859"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "B20",
+  "brand": "Toast Box",
+  "domain": "toastbox.com.sg",
+  "rdap": {
+   "outcome": "ok",
+   "registrant": "BREADTALK GROUP LIMITED",
+   "registered": "2008-10-13T07:03:21Z"
+  },
+  "cert": {
+   "outcome": "ok",
+   "subject_O": null,
+   "subject_serialNumber": null,
+   "jurisdiction": null,
+   "businessCategory": null,
+   "issuer_O": "Google Trust Services",
+   "type": "DV"
+  },
+  "crtsh": {
+   "outcome": "ok",
+   "unexpired_certs": 0,
+   "issuers": [],
+   "note": "crt.sh JSON gives issuer and names, not the subject O field"
+  },
+  "wayback": {
+   "outcome": "ok",
+   "first_capture": "20090415154848"
+  },
+  "acra_links": [
+   {
+    "source": "rdap",
+    "name": "BREADTALK GROUP LIMITED",
+    "acra": []
+   }
+  ]
+ }
+]

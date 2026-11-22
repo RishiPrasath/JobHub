@@ -1,0 +1,2362 @@
+{
+ "attribution": "Contains information from \"Entities Registered with ACRA\" accessed on 2026-11-21 from data.gov.sg, which is made available under the terms of the Singapore Open Data Licence version 1.0 (https://data.gov.sg/open-data-licence).",
+ "brands": [
+  {
+   "id": "B01",
+   "brand": "Grab",
+   "kind": "multi-entity",
+   "q_full_count": 159,
+   "q_records_fetched": 159,
+   "token_hits": 159,
+   "token_hits_live": 29,
+   "naive_top1": {
+    "uen": "53398768K",
+    "entity_name": "GRAB A PC",
+    "uen_status_desc": "Registered",
+    "entity_type_desc": "Sole Proprietorship/ Partnership",
+    "uen_issue_date": "2019-06-04",
+    "reg_postal_code": "680106"
+   },
+   "truth_name": null,
+   "truth_found_in_acra": false,
+   "truth": null,
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": null,
+   "postal_brand_entities": [
+    {
+     "uen": "202611719W",
+     "entity_name": "GRAB ACADEMY PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2026-03-17",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "201324745D",
+     "entity_name": "GRABTAXI PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2013-09-12",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "201908240G",
+     "entity_name": "GRABSERVICES PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2019-03-14",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "202641839M",
+     "entity_name": "GRAB AUTONOMOUS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2026-09-10",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "201903766H",
+     "entity_name": "GRABWHEEL (SINGAPORE) PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2019-01-31",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "201802309G",
+     "entity_name": "GRAB LA PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2018-01-18",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "201916210N",
+     "entity_name": "GRABLINK PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2019-05-21",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "201728309W",
+     "entity_name": "GRABINVEST ASIA PTE. LTD.",
+     "uen_status_desc": "Deregistered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2017-10-03",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "201427085E",
+     "entity_name": "GRABCAR PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2014-09-11",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "201731650K",
+     "entity_name": "GRAB GEO HOLDINGS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2017-11-03",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "201816089H",
+     "entity_name": "GRABINSURE (S) PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2018-05-11",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "201318872K",
+     "entity_name": "GRABINVEST (S) PTE. LTD.",
+     "uen_status_desc": "Deregistered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2013-07-11",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "201617200G",
+     "entity_name": "GRAB RENTALS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2016-06-23",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "201943956W",
+     "entity_name": "GRABCAB PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2019-12-31",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "201316157E",
+     "entity_name": "GRABTAXI HOLDINGS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2013-06-14",
+     "reg_postal_code": "138498"
+    }
+   ],
+   "live_hits_sample": [
+    {
+     "uen": "53398768K",
+     "entity_name": "GRAB A PC",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Sole Proprietorship/ Partnership",
+     "uen_issue_date": "2019-06-04",
+     "reg_postal_code": "680106"
+    },
+    {
+     "uen": "53413311L",
+     "entity_name": "GRAB FRESH",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Sole Proprietorship/ Partnership",
+     "uen_issue_date": "2020-05-15",
+     "reg_postal_code": "730123"
+    },
+    {
+     "uen": "53508897C",
+     "entity_name": "GRAB BITEZ",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Sole Proprietorship/ Partnership",
+     "uen_issue_date": "2025-08-17",
+     "reg_postal_code": "730321"
+    },
+    {
+     "uen": "53422253J",
+     "entity_name": "GRAB FOR YOU",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Sole Proprietorship/ Partnership",
+     "uen_issue_date": "2020-10-12",
+     "reg_postal_code": "310206"
+    },
+    {
+     "uen": "53507669W",
+     "entity_name": "442 GRAB N GO",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Sole Proprietorship/ Partnership",
+     "uen_issue_date": "2025-07-25",
+     "reg_postal_code": "510442"
+    },
+    {
+     "uen": "53516349E",
+     "entity_name": "THE GREEN GRAB",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Sole Proprietorship/ Partnership",
+     "uen_issue_date": "2026-01-04",
+     "reg_postal_code": "732886"
+    },
+    {
+     "uen": "53487941A",
+     "entity_name": "GRAB & GO STORE",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Sole Proprietorship/ Partnership",
+     "uen_issue_date": "2024-07-02",
+     "reg_postal_code": "465897"
+    },
+    {
+     "uen": "53526015J",
+     "entity_name": "NEPSTAR GRAB & GO",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Sole Proprietorship/ Partnership",
+     "uen_issue_date": "2026-06-12",
+     "reg_postal_code": "760107"
+    },
+    {
+     "uen": "53321417C",
+     "entity_name": "GRAB CAR DAVE LIM",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Sole Proprietorship/ Partnership",
+     "uen_issue_date": "2015-11-03",
+     "reg_postal_code": "528559"
+    },
+    {
+     "uen": "201802309G",
+     "entity_name": "GRAB LA PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2018-01-18",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "53446398C",
+     "entity_name": "GRAB N GO VENDING",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Sole Proprietorship/ Partnership",
+     "uen_issue_date": "2022-02-12",
+     "reg_postal_code": "328496"
+    },
+    {
+     "uen": "53493289D",
+     "entity_name": "KOH'S GROCERY GRAB",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Sole Proprietorship/ Partnership",
+     "uen_issue_date": "2024-10-16",
+     "reg_postal_code": "640505"
+    },
+    {
+     "uen": "202510412W",
+     "entity_name": "GRAB FMCG PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2025-03-10",
+     "reg_postal_code": "544685"
+    },
+    {
+     "uen": "202515698R",
+     "entity_name": "GRAB RENO PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2025-04-11",
+     "reg_postal_code": "550219"
+    },
+    {
+     "uen": "202127491G",
+     "entity_name": "GRAB FRUIT PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2021-08-06",
+     "reg_postal_code": "570135"
+    },
+    {
+     "uen": "202209027E",
+     "entity_name": "GRAB AIRCON PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2022-03-15",
+     "reg_postal_code": "389729"
+    },
+    {
+     "uen": "202111302M",
+     "entity_name": "GRAB TRUCKS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2021-03-30",
+     "reg_postal_code": "228095"
+    },
+    {
+     "uen": "202611719W",
+     "entity_name": "GRAB ACADEMY PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2026-03-17",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "201617200G",
+     "entity_name": "GRAB RENTALS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2016-06-23",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "202505479N",
+     "entity_name": "GRG GRAB & GO PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2025-02-07",
+     "reg_postal_code": "730779"
+    },
+    {
+     "uen": "202128864R",
+     "entity_name": "SURGE SR GRAB PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2021-08-18",
+     "reg_postal_code": "088541"
+    },
+    {
+     "uen": "202641839M",
+     "entity_name": "GRAB AUTONOMOUS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2026-09-10",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "202534975C",
+     "entity_name": "MY GRAB N GO SHOP PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2025-08-10",
+     "reg_postal_code": "829858"
+    },
+    {
+     "uen": "201731650K",
+     "entity_name": "GRAB GEO HOLDINGS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2017-11-03",
+     "reg_postal_code": "138498"
+    },
+    {
+     "uen": "202505931H",
+     "entity_name": "GRAB HEALTH SOLUTIONS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2025-02-11",
+     "reg_postal_code": "409839"
+    },
+    {
+     "uen": "202028562G",
+     "entity_name": "WONDERFUL GRAB N GO HOLDINGS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2020-09-17",
+     "reg_postal_code": "640504"
+    },
+    {
+     "uen": "202035615Z",
+     "entity_name": "WONDERFUL GRAB N GO DELIGHTS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2020-11-05",
+     "reg_postal_code": "640504"
+    },
+    {
+     "uen": "202028564H",
+     "entity_name": "WONDERFUL GRAB N GO INVESTMENT PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2020-09-17",
+     "reg_postal_code": "640504"
+    },
+    {
+     "uen": "202028561R",
+     "entity_name": "WONDERFUL GRAB N GO FOOD & BEVERAGES PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2020-09-17",
+     "reg_postal_code": "640504"
+    }
+   ]
+  },
+  {
+   "id": "B02",
+   "brand": "Shopee",
+   "kind": "multi-entity",
+   "q_full_count": 25,
+   "q_records_fetched": 25,
+   "token_hits": 25,
+   "token_hits_live": 24,
+   "naive_top1": {
+    "uen": "201902998C",
+    "entity_name": "SHOPEE KOREA PRIVATE LIMITED",
+    "uen_status_desc": "Registered",
+    "entity_type_desc": "Local Company",
+    "uen_issue_date": "2019-01-24",
+    "reg_postal_code": "138522"
+   },
+   "truth_name": "SHOPEE SINGAPORE PRIVATE LIMITED",
+   "truth_found_in_acra": false,
+   "truth": null,
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": null,
+   "postal_brand_entities": [],
+   "live_hits_sample": [
+    {
+     "uen": "201902998C",
+     "entity_name": "SHOPEE KOREA PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2019-01-24",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "202501848W",
+     "entity_name": "SHOPEE CHOICE PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2025-01-14",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "201419598W",
+     "entity_name": "SHOPEE TAIWAN PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2014-07-04",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "202130749W",
+     "entity_name": "SHOPEE TRAVEL SG PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2021-09-03",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "202602050G",
+     "entity_name": "SHOPEE CHOICE II PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2026-01-14",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "201503526N",
+     "entity_name": "SHOPEE SINGAPORE PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2015-02-05",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "202602051W",
+     "entity_name": "SHOPEE HOLDING I PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2026-01-14",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "202301925G",
+     "entity_name": "SHOPEE EXPRESS TW PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2023-01-16",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "202517714W",
+     "entity_name": "SHOPEE MOBILE (MY) PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2025-04-24",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "201835313W",
+     "entity_name": "SHOPEE DEVELOPMENT PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2018-10-16",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "202130598C",
+     "entity_name": "SHOPEE IP SINGAPORE PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2021-09-02",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "201129406N",
+     "entity_name": "SHOPEE INTERNATIONAL PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2011-09-28",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "201929058K",
+     "entity_name": "SHOPEE INTERNATIONAL V PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2019-09-03",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "202108009C",
+     "entity_name": "SHOPEE INTERNATIONAL X PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2021-03-08",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "201929065K",
+     "entity_name": "SHOPEE INTERNATIONAL VI PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2019-09-03",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "201903122G",
+     "entity_name": "SHOPEE INTERNATIONAL IV PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2019-01-25",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "202128297Z",
+     "entity_name": "SHOPEE INTERNATIONAL IX PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2021-08-13",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "202538094K",
+     "entity_name": "SHOPEE INTERNATIONAL XI PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2025-08-28",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "201903134C",
+     "entity_name": "SHOPEE INTERNATIONAL III PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2019-01-25",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "202128296H",
+     "entity_name": "SHOPEE INTERNATIONAL VIII PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2021-08-13",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "201706401R",
+     "entity_name": "SHOPEE LOGISTICS SERVICES PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2017-03-07",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "202616577E",
+     "entity_name": "SHOPEE TECHNOLOGY HOLDINGS PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2026-04-15",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "202145091M",
+     "entity_name": "SHOPEE EXPRESS INTERNATIONAL IV PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2021-12-31",
+     "reg_postal_code": "138522"
+    },
+    {
+     "uen": "202145090C",
+     "entity_name": "SHOPEE EXPRESS INTERNATIONAL III PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2021-12-31",
+     "reg_postal_code": "138522"
+    }
+   ]
+  },
+  {
+   "id": "B03",
+   "brand": "DBS",
+   "kind": "multi-entity",
+   "q_full_count": 30,
+   "q_records_fetched": 30,
+   "token_hits": 30,
+   "token_hits_live": 12,
+   "naive_top1": {
+    "uen": "196800306E",
+    "entity_name": "DBS BANK LTD.",
+    "uen_status_desc": "Registered",
+    "entity_type_desc": "Local Company",
+    "uen_issue_date": "1968-07-16",
+    "reg_postal_code": "018982"
+   },
+   "truth_name": null,
+   "truth_found_in_acra": false,
+   "truth": null,
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": null,
+   "postal_brand_entities": [],
+   "live_hits_sample": [
+    {
+     "uen": "196800306E",
+     "entity_name": "DBS BANK LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1968-07-16",
+     "reg_postal_code": "018982"
+    },
+    {
+     "uen": "201334803D",
+     "entity_name": "DBS FOUNDATION LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2013-12-30",
+     "reg_postal_code": "018982"
+    },
+    {
+     "uen": "197502043G",
+     "entity_name": "DBS TRUSTEE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1975-11-24",
+     "reg_postal_code": "018982"
+    },
+    {
+     "uen": "199901152M",
+     "entity_name": "DBS GROUP HOLDINGS LTD",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1999-03-09",
+     "reg_postal_code": "018982"
+    },
+    {
+     "uen": "202022539G",
+     "entity_name": "DBS FINNOVATION PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2020-08-03",
+     "reg_postal_code": "018982"
+    },
+    {
+     "uen": "198601712M",
+     "entity_name": "DBS CAPITAL INVESTMENTS LTD",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1986-08-18",
+     "reg_postal_code": "018982"
+    },
+    {
+     "uen": "196900222R",
+     "entity_name": "DBS NOMINEES (PRIVATE) LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1969-04-17",
+     "reg_postal_code": "018982"
+    },
+    {
+     "uen": "202024146C",
+     "entity_name": "DBS DIGITAL EXCHANGE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2020-08-14",
+     "reg_postal_code": "018982"
+    },
+    {
+     "uen": "200908160M",
+     "entity_name": "DBS INTERNATIONAL (PTE.) LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2009-05-08",
+     "reg_postal_code": "179094"
+    },
+    {
+     "uen": "198802124D",
+     "entity_name": "DBS VICKERS SECURITIES HOLDINGS PTE LTD",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1988-06-29",
+     "reg_postal_code": "018982"
+    },
+    {
+     "uen": "198600294G",
+     "entity_name": "DBS VICKERS SECURITIES (SINGAPORE) PTE LTD",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1986-02-07",
+     "reg_postal_code": "018982"
+    },
+    {
+     "uen": "198600292E",
+     "entity_name": "DBS VICKERS SECURITIES NOMINEES (SINGAPORE) PTE LTD",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1986-02-07",
+     "reg_postal_code": "018982"
+    }
+   ]
+  },
+  {
+   "id": "B04",
+   "brand": "Singtel",
+   "kind": "multi-entity",
+   "q_full_count": 44,
+   "q_records_fetched": 44,
+   "token_hits": 44,
+   "token_hits_live": 36,
+   "naive_top1": {
+    "uen": "202025261D",
+    "entity_name": "SINGTEL ATN PTE. LTD.",
+    "uen_status_desc": "Registered",
+    "entity_type_desc": "Local Company",
+    "uen_issue_date": "2020-08-21",
+    "reg_postal_code": "408600"
+   },
+   "truth_name": "SINGAPORE TELECOMMUNICATIONS LIMITED",
+   "truth_found_in_acra": true,
+   "truth": {
+    "uen": "199201624D",
+    "entity_name": "SINGAPORE TELECOMMUNICATIONS LIMITED",
+    "uen_status_desc": "Registered",
+    "entity_type_desc": "Local Company",
+    "uen_issue_date": "1992-03-28",
+    "reg_postal_code": "408600"
+   },
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": false,
+   "postal_brand_entities": [],
+   "live_hits_sample": [
+    {
+     "uen": "202025261D",
+     "entity_name": "SINGTEL ATN PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2020-08-21",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "201218301N",
+     "entity_name": "SINGTEL ICT PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2012-07-24",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "200006907D",
+     "entity_name": "SINGTEL GBS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2000-08-05",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "202025149K",
+     "entity_name": "SINGTEL NEX PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2020-08-20",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "202216422W",
+     "entity_name": "SINGTEL LAND PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2022-05-12",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "201015885R",
+     "entity_name": "SINGTEL INNOV8 PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2010-07-28",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "202405926G",
+     "entity_name": "SINGTEL PARAGON PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2024-02-14",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "202216569Z",
+     "entity_name": "SINGTEL SOMERSET PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2022-05-13",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "201208501E",
+     "entity_name": "SINGTEL STRATEGY PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2012-04-05",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "201808303Z",
+     "entity_name": "SINGTEL CORPORATE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2018-03-09",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "201011892K",
+     "entity_name": "SINGTEL SINGAPORE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2010-06-04",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "199605345R",
+     "entity_name": "SINGTEL EINVESTMENTS PTE LTD",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1996-07-20",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "202423896E",
+     "entity_name": "SINGTEL AI ALLIANCE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2024-06-13",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "199508315D",
+     "entity_name": "SINGTEL CONSULTANCY PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1995-11-23",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "197501215D",
+     "entity_name": "SINGTEL INTERACTIVE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1975-07-11",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "199601563D",
+     "entity_name": "SINGTEL IDEA FACTORY PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1996-03-06",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "201208485R",
+     "entity_name": "SINGTEL DIGITAL LIFE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2012-04-05",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "200002910N",
+     "entity_name": "SINGTEL DIGITAL MEDIA PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2000-04-06",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "200101508W",
+     "entity_name": "SINGTEL GROUP TREASURY PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2001-03-07",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "202412951Z",
+     "entity_name": "SINGTEL AU INVESTMENTS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2024-04-02",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "201111616G",
+     "entity_name": "SINGTEL INNOV8 HOLDINGS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2011-05-16",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "T08FC7168K",
+     "entity_name": "SINGTEL AUSTRALIA INVESTMENT LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Foreign Company Branch",
+     "uen_issue_date": "2008-03-04",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "199705906G",
+     "entity_name": "SINGTEL ASIAN INVESTMENTS PTE LTD",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1997-08-25",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "201111628C",
+     "entity_name": "SINGTEL INNOV8 VENTURES PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2011-05-16",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "201012456C",
+     "entity_name": "SINGTEL MOBILE SINGAPORE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2010-06-10",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "201332199H",
+     "entity_name": "SINGTEL GLOBAL INVESTMENT PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2013-11-29",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "202414710C",
+     "entity_name": "SINGTEL AI INFRASTRUCTURE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2024-04-15",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "200711405K",
+     "entity_name": "SINGTEL ALPHA INVESTMENTS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2007-06-26",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "201509080K",
+     "entity_name": "SINGTEL ENTERPRISE SECURITY PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2015-04-06",
+     "reg_postal_code": "408600"
+    },
+    {
+     "uen": "201939272W",
+     "entity_name": "SINGTEL FINGROUP INVESTMENT PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2019-11-20",
+     "reg_postal_code": "408600"
+    }
+   ]
+  },
+  {
+   "id": "B05",
+   "brand": "FairPrice",
+   "kind": "multi-entity",
+   "q_full_count": 54,
+   "q_records_fetched": 54,
+   "token_hits": 54,
+   "token_hits_live": 14,
+   "naive_top1": {
+    "uen": "53082676C",
+    "entity_name": "FAIRPRICE AUTOWORLD",
+    "uen_status_desc": "Registered",
+    "entity_type_desc": "Sole Proprietorship/ Partnership",
+    "uen_issue_date": "2006-12-14",
+    "reg_postal_code": "415978"
+   },
+   "truth_name": "NTUC FAIRPRICE CO-OPERATIVE LIMITED",
+   "truth_found_in_acra": false,
+   "truth": null,
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": null,
+   "postal_brand_entities": [],
+   "live_hits_sample": [
+    {
+     "uen": "53082676C",
+     "entity_name": "FAIRPRICE AUTOWORLD",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Sole Proprietorship/ Partnership",
+     "uen_issue_date": "2006-12-14",
+     "reg_postal_code": "415978"
+    },
+    {
+     "uen": "201334477W",
+     "entity_name": "E FAIRPRICE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2013-12-25",
+     "reg_postal_code": "200025"
+    },
+    {
+     "uen": "201415069M",
+     "entity_name": "CASKET FAIRPRICE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2014-05-26",
+     "reg_postal_code": "575711"
+    },
+    {
+     "uen": "200514435K",
+     "entity_name": "FAIRPRICE TRAVEL PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2005-10-14",
+     "reg_postal_code": "059108"
+    },
+    {
+     "uen": "200611163W",
+     "entity_name": "NTUC FAIRPRICE FOUNDATION LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2006-08-01",
+     "reg_postal_code": "629117"
+    },
+    {
+     "uen": "201229533W",
+     "entity_name": "FAIRPRICE GENERAL STORE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2012-12-03",
+     "reg_postal_code": "431007"
+    },
+    {
+     "uen": "202040166W",
+     "entity_name": "FAIRPRICE GROUP HOLDINGS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2020-12-10",
+     "reg_postal_code": "629117"
+    },
+    {
+     "uen": "53151860D",
+     "entity_name": "FAIRPRICE CASKET AND FUNERAL SERVICE",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Sole Proprietorship/ Partnership",
+     "uen_issue_date": "2009-09-17",
+     "reg_postal_code": "573960"
+    },
+    {
+     "uen": "202040217Z",
+     "entity_name": "FAIRPRICE GROUP SUPPLY CHAIN PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2020-12-10",
+     "reg_postal_code": "629117"
+    },
+    {
+     "uen": "202404475K",
+     "entity_name": "AIRCON FAIRPRICE ENGINEERING PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2024-01-31",
+     "reg_postal_code": "429165"
+    },
+    {
+     "uen": "201616163E",
+     "entity_name": "FAIRPRICE GROUP HAWKER CENTRE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2016-06-14",
+     "reg_postal_code": "629117"
+    },
+    {
+     "uen": "202040205E",
+     "entity_name": "FAIRPRICE GROUP FOOD SERVICES PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2020-12-10",
+     "reg_postal_code": "629117"
+    },
+    {
+     "uen": "201018764N",
+     "entity_name": "FAIRPRICE INTERNATIONAL (2010) PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2010-09-03",
+     "reg_postal_code": "629117"
+    },
+    {
+     "uen": "202040227M",
+     "entity_name": "FAIRPRICE GROUP FOOD SOLUTIONS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2020-12-10",
+     "reg_postal_code": "629117"
+    }
+   ]
+  },
+  {
+   "id": "B06",
+   "brand": "Sheng Siong",
+   "kind": "chain",
+   "q_full_count": 6497,
+   "q_records_fetched": 1500,
+   "token_hits": 0,
+   "token_hits_live": 0,
+   "naive_top1": null,
+   "truth_name": "SHENG SIONG GROUP LTD.",
+   "truth_found_in_acra": false,
+   "truth": null,
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": null,
+   "postal_brand_entities": [],
+   "live_hits_sample": []
+  },
+  {
+   "id": "B07",
+   "brand": "Razer",
+   "kind": "multi-entity",
+   "q_full_count": 25,
+   "q_records_fetched": 25,
+   "token_hits": 25,
+   "token_hits_live": 13,
+   "naive_top1": {
+    "uen": "53520239C",
+    "entity_name": "RAZER CLEAN",
+    "uen_status_desc": "Registered",
+    "entity_type_desc": "Sole Proprietorship/ Partnership",
+    "uen_issue_date": "2026-03-14",
+    "reg_postal_code": "460090"
+   },
+   "truth_name": null,
+   "truth_found_in_acra": false,
+   "truth": null,
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": null,
+   "postal_brand_entities": [],
+   "live_hits_sample": [
+    {
+     "uen": "53520239C",
+     "entity_name": "RAZER CLEAN",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Sole Proprietorship/ Partnership",
+     "uen_issue_date": "2026-03-14",
+     "reg_postal_code": "460090"
+    },
+    {
+     "uen": "53517801L",
+     "entity_name": "RAZER LOGISTICS",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Sole Proprietorship/ Partnership",
+     "uen_issue_date": "2026-01-27",
+     "reg_postal_code": "380101"
+    },
+    {
+     "uen": "202033461W",
+     "entity_name": "RAZER CAFE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2020-10-21",
+     "reg_postal_code": "138538"
+    },
+    {
+     "uen": "201806432H",
+     "entity_name": "RAZER MIDAS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2018-02-23",
+     "reg_postal_code": "138538"
+    },
+    {
+     "uen": "201531137C",
+     "entity_name": "RAZER ONLINE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2015-08-06",
+     "reg_postal_code": "138538"
+    },
+    {
+     "uen": "202035677W",
+     "entity_name": "RAZER GOLD (SG) PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2020-11-05",
+     "reg_postal_code": "138538"
+    },
+    {
+     "uen": "53188568B",
+     "entity_name": "RAZER INDUSTRIAL SERVICES",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Sole Proprietorship/ Partnership",
+     "uen_issue_date": "2011-03-31",
+     "reg_postal_code": "768159"
+    },
+    {
+     "uen": "200402379R",
+     "entity_name": "RAZER EVERGLIDE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2004-03-02",
+     "reg_postal_code": "138538"
+    },
+    {
+     "uen": "201813819G",
+     "entity_name": "RAZER FINTECH (SG) PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2018-04-23",
+     "reg_postal_code": "138538"
+    },
+    {
+     "uen": "200312968N",
+     "entity_name": "RAZER (ASIA-PACIFIC) PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2003-12-19",
+     "reg_postal_code": "138538"
+    },
+    {
+     "uen": "202423134E",
+     "entity_name": "RAZER SERVICES VIETNAM PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2024-06-08",
+     "reg_postal_code": "138538"
+    },
+    {
+     "uen": "201811801N",
+     "entity_name": "RAZER FINTECH HOLDINGS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2018-04-06",
+     "reg_postal_code": "138538"
+    },
+    {
+     "uen": "201333815C",
+     "entity_name": "RAZER MERCHANT SERVICES (SG) PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2013-12-17",
+     "reg_postal_code": "138538"
+    }
+   ]
+  },
+  {
+   "id": "B08",
+   "brand": "Lazada",
+   "kind": "multi-entity",
+   "q_full_count": 6,
+   "q_records_fetched": 6,
+   "token_hits": 6,
+   "token_hits_live": 5,
+   "naive_top1": {
+    "uen": "201403859E",
+    "entity_name": "LAZADA SINGAPORE PTE. LTD.",
+    "uen_status_desc": "Registered",
+    "entity_type_desc": "Local Company",
+    "uen_issue_date": "2014-02-12",
+    "reg_postal_code": "189554"
+   },
+   "truth_name": "LAZADA SINGAPORE PTE. LTD.",
+   "truth_found_in_acra": false,
+   "truth": null,
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": null,
+   "postal_brand_entities": [],
+   "live_hits_sample": [
+    {
+     "uen": "201403859E",
+     "entity_name": "LAZADA SINGAPORE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2014-02-12",
+     "reg_postal_code": "189554"
+    },
+    {
+     "uen": "201201679C",
+     "entity_name": "LAZADA SOUTH EAST ASIA PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2012-01-19",
+     "reg_postal_code": "189554"
+    },
+    {
+     "uen": "201537356D",
+     "entity_name": "LAZADA SERVICES HOLDING PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2015-10-12",
+     "reg_postal_code": "189554"
+    },
+    {
+     "uen": "201540804N",
+     "entity_name": "LAZADA EXPRESS (SINGAPORE) PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2015-11-17",
+     "reg_postal_code": "189554"
+    },
+    {
+     "uen": "201437184G",
+     "entity_name": "LAZADA SERVICES SOUTH EAST ASIA PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2014-12-15",
+     "reg_postal_code": "189554"
+    }
+   ]
+  },
+  {
+   "id": "B09",
+   "brand": "foodpanda",
+   "kind": "multi-entity",
+   "q_full_count": 0,
+   "q_records_fetched": 0,
+   "token_hits": 0,
+   "token_hits_live": 0,
+   "naive_top1": null,
+   "truth_name": "DELIVERY HERO (SINGAPORE) PTE. LTD.",
+   "truth_found_in_acra": false,
+   "truth": null,
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": null,
+   "postal_brand_entities": [],
+   "live_hits_sample": []
+  },
+  {
+   "id": "B10",
+   "brand": "ST Engineering",
+   "kind": "multi-entity",
+   "q_full_count": 64572,
+   "q_records_fetched": 1500,
+   "token_hits": 0,
+   "token_hits_live": 0,
+   "naive_top1": null,
+   "truth_name": "SINGAPORE TECHNOLOGIES ENGINEERING LTD",
+   "truth_found_in_acra": false,
+   "truth": null,
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": null,
+   "postal_brand_entities": [],
+   "live_hits_sample": []
+  },
+  {
+   "id": "B11",
+   "brand": "CapitaLand",
+   "kind": "multi-entity",
+   "q_full_count": 160,
+   "q_records_fetched": 160,
+   "token_hits": 160,
+   "token_hits_live": 108,
+   "naive_top1": {
+    "uen": "200803504M",
+    "entity_name": "CAPITALAND VN LIMITED",
+    "uen_status_desc": "Registered",
+    "entity_type_desc": "Local Company",
+    "uen_issue_date": "2008-02-20",
+    "reg_postal_code": "068912"
+   },
+   "truth_name": "CAPITALAND LIMITED",
+   "truth_found_in_acra": true,
+   "truth": {
+    "uen": "198900036N",
+    "entity_name": "CAPITALAND GROUP PTE. LTD.",
+    "uen_status_desc": "Registered",
+    "entity_type_desc": "Local Company",
+    "uen_issue_date": "1989-01-05",
+    "reg_postal_code": "068912"
+   },
+   "alt_uens": [],
+   "truth_in_token_hits": true,
+   "naive_correct": false,
+   "postal_brand_entities": [],
+   "live_hits_sample": [
+    {
+     "uen": "200803504M",
+     "entity_name": "CAPITALAND VN LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2008-02-20",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "202534895M",
+     "entity_name": "CAPITALAND 3CS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2025-08-08",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "202534894C",
+     "entity_name": "CAPITALAND 2 AMK PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2025-08-08",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "198900036N",
+     "entity_name": "CAPITALAND GROUP PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1989-01-05",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "200515736C",
+     "entity_name": "CAPITALAND HOPE FOUNDATION",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2005-11-11",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "199606698M",
+     "entity_name": "CAPITALAND TREASURY LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1996-09-14",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "T23LP0140C",
+     "entity_name": "CAPITALAND WELLNESS FUND LP",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Limited Partnership",
+     "uen_issue_date": "2023-10-30",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "202534893K",
+     "entity_name": "CAPITALAND 12 AMK PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2025-08-08",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "201626349M",
+     "entity_name": "CAPITALAND TRUSTEE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2016-09-27",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "200207733M",
+     "entity_name": "CAPITALAND (KOREA) PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2002-09-07",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "201539069W",
+     "entity_name": "CAPITALAND VOUCHER PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2015-10-28",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "200716063H",
+     "entity_name": "CAPITALAND VIETNAM PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2007-08-30",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "197801869H",
+     "entity_name": "CAPITALAND SINGAPORE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1978-07-31",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "200413169H",
+     "entity_name": "CAPITALAND MALL ASIA LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2004-10-12",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "200615532M",
+     "entity_name": "CAPITALAND TOWNSHIP PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2006-10-18",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "200517038N",
+     "entity_name": "CAPITALAND MALAYSIA PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2005-12-08",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "200308451M",
+     "entity_name": "CAPITALAND INVESTMENT LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2003-08-29",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "T25LP0062B",
+     "entity_name": "CAPITALAND HUNDRED VENTURES LP",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Limited Partnership",
+     "uen_issue_date": "2025-04-03",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "T26LP0059G",
+     "entity_name": "CAPITALAND VANTARA VENTURES LP",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Limited Partnership",
+     "uen_issue_date": "2026-04-30",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "T18LP0097J",
+     "entity_name": "CAPITALAND ASIA PARTNERS I, LP",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Limited Partnership",
+     "uen_issue_date": "2018-09-07",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "202619267W",
+     "entity_name": "CAPITALAND VANTARA GP PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2026-04-30",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "201109018N",
+     "entity_name": "CAPITALAND DEVELOPMENT PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2011-04-14",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "T23LP0011D",
+     "entity_name": "CAPITALAND SEA LOGISTICS FUND LP",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Limited Partnership",
+     "uen_issue_date": "2023-01-19",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "200712610N",
+     "entity_name": "CAPITALAND RETAIL (MY) PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2007-07-11",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "200605317N",
+     "entity_name": "CAPITALAND RETAIL INDIA PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2006-04-13",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "198904978D",
+     "entity_name": "CAPITALAND RETAIL CHINA PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1989-11-14",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "200706686R",
+     "entity_name": "CAPITALAND GCC HOLDINGS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2007-04-19",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "202534896D",
+     "entity_name": "CAPITALAND (BP&C) 11 SPR PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2025-08-08",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "199302460C",
+     "entity_name": "CAPITALAND CHINA HOLDINGS  PTE LTD",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1993-04-22",
+     "reg_postal_code": "068912"
+    },
+    {
+     "uen": "T25LP0165C",
+     "entity_name": "CAPITALAND ASIA LODGING VENTURES LP",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Limited Partnership",
+     "uen_issue_date": "2025-10-16",
+     "reg_postal_code": "068912"
+    }
+   ]
+  },
+  {
+   "id": "B12",
+   "brand": "SATS",
+   "kind": "multi-entity",
+   "q_full_count": 29,
+   "q_records_fetched": 29,
+   "token_hits": 29,
+   "token_hits_live": 18,
+   "naive_top1": {
+    "uen": "197201770G",
+    "entity_name": "SATS LTD.",
+    "uen_status_desc": "Registered",
+    "entity_type_desc": "Local Company",
+    "uen_issue_date": "1972-12-15",
+    "reg_postal_code": "819659"
+   },
+   "truth_name": null,
+   "truth_found_in_acra": false,
+   "truth": null,
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": null,
+   "postal_brand_entities": [],
+   "live_hits_sample": [
+    {
+     "uen": "197201770G",
+     "entity_name": "SATS LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1972-12-15",
+     "reg_postal_code": "819659"
+    },
+    {
+     "uen": "198500562G",
+     "entity_name": "SATS CATERING PTE LTD",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1985-03-09",
+     "reg_postal_code": "819659"
+    },
+    {
+     "uen": "202309453C",
+     "entity_name": "SATS TREASURY PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2023-03-13",
+     "reg_postal_code": "819659"
+    },
+    {
+     "uen": "200908257K",
+     "entity_name": "SATS INVESTMENTS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2009-05-11",
+     "reg_postal_code": "819659"
+    },
+    {
+     "uen": "198900760H",
+     "entity_name": "SATS AERO LAUNDRY PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1989-02-25",
+     "reg_postal_code": "819659"
+    },
+    {
+     "uen": "201711640C",
+     "entity_name": "SATS PPG SINGAPORE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2017-04-27",
+     "reg_postal_code": "819659"
+    },
+    {
+     "uen": "197300678G",
+     "entity_name": "SATS FOOD SERVICES PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1973-04-16",
+     "reg_postal_code": "819659"
+    },
+    {
+     "uen": "198500561R",
+     "entity_name": "SATS AIRPORT SERVICES PTE LTD",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1985-03-09",
+     "reg_postal_code": "819659"
+    },
+    {
+     "uen": "200106625G",
+     "entity_name": "SATS AEROLOG EXPRESS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2001-10-09",
+     "reg_postal_code": "819659"
+    },
+    {
+     "uen": "201331407Z",
+     "entity_name": "SATS INVESTMENTS (II) PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2013-11-21",
+     "reg_postal_code": "819659"
+    },
+    {
+     "uen": "199705514Z",
+     "entity_name": "SATS ASIA-PACIFIC STAR PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1997-08-07",
+     "reg_postal_code": "819659"
+    },
+    {
+     "uen": "202233449G",
+     "entity_name": "SATS INVESTMENTS (III) PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2022-09-20",
+     "reg_postal_code": "819659"
+    },
+    {
+     "uen": "201710934Z",
+     "entity_name": "SATS CONSUMER SERVICES PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2017-04-19",
+     "reg_postal_code": "819659"
+    },
+    {
+     "uen": "202425614E",
+     "entity_name": "SATS-MIT FOOD SOLUTIONS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2024-06-26",
+     "reg_postal_code": "819659"
+    },
+    {
+     "uen": "198903088H",
+     "entity_name": "SATS INSTITUTIONAL CATERING PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1989-07-28",
+     "reg_postal_code": "819659"
+    },
+    {
+     "uen": "198905026D",
+     "entity_name": "SATS SECURITY SERVICES PRIVATE LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1989-11-17",
+     "reg_postal_code": "819659"
+    },
+    {
+     "uen": "201136140E",
+     "entity_name": "SATS-CREUERS CRUISE SERVICES PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2011-12-22",
+     "reg_postal_code": "819659"
+    },
+    {
+     "uen": "201820449R",
+     "entity_name": "SATS SELETAR AVIATION SERVICES PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2018-06-14",
+     "reg_postal_code": "819659"
+    }
+   ]
+  },
+  {
+   "id": "B13",
+   "brand": "ComfortDelGro",
+   "kind": "multi-entity",
+   "q_full_count": 13,
+   "q_records_fetched": 13,
+   "token_hits": 13,
+   "token_hits_live": 13,
+   "naive_top1": {
+    "uen": "199607256W",
+    "entity_name": "COMFORTDELGRO BUS PTE. LTD.",
+    "uen_status_desc": "Registered",
+    "entity_type_desc": "Local Company",
+    "uen_issue_date": "1996-10-08",
+    "reg_postal_code": "575733"
+   },
+   "truth_name": "COMFORTDELGRO CORPORATION LIMITED",
+   "truth_found_in_acra": false,
+   "truth": null,
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": null,
+   "postal_brand_entities": [],
+   "live_hits_sample": [
+    {
+     "uen": "199607256W",
+     "entity_name": "COMFORTDELGRO BUS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1996-10-08",
+     "reg_postal_code": "575733"
+    },
+    {
+     "uen": "202134785K",
+     "entity_name": "COMFORTDELGRO ENERGY PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2021-10-06",
+     "reg_postal_code": "118479"
+    },
+    {
+     "uen": "201917388C",
+     "entity_name": "COMFORTDELGRO TRANSIT PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2019-05-30",
+     "reg_postal_code": "118479"
+    },
+    {
+     "uen": "199403649D",
+     "entity_name": "COMFORTDELGRO (CHINA) PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1994-05-24",
+     "reg_postal_code": "118479"
+    },
+    {
+     "uen": "202040313K",
+     "entity_name": "COMFORTDELGRO MEDCARE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2020-12-15",
+     "reg_postal_code": "118479"
+    },
+    {
+     "uen": "201840510K",
+     "entity_name": "COMFORTDELGRO VENTURES PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2018-11-30",
+     "reg_postal_code": "118479"
+    },
+    {
+     "uen": "200300002K",
+     "entity_name": "COMFORTDELGRO CORPORATION LIMITED",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2003-01-01",
+     "reg_postal_code": "118479"
+    },
+    {
+     "uen": "198105775H",
+     "entity_name": "COMFORTDELGRO RENT-A-CAR PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1981-12-16",
+     "reg_postal_code": "118479"
+    },
+    {
+     "uen": "197200526D",
+     "entity_name": "COMFORTDELGRO (S.E. ASIA) PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1972-05-03",
+     "reg_postal_code": "118479"
+    },
+    {
+     "uen": "199506048W",
+     "entity_name": "COMFORTDELGRO ENGINEERING PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1995-08-24",
+     "reg_postal_code": "118479"
+    },
+    {
+     "uen": "202207647E",
+     "entity_name": "COMFORTDELGRO ENGIE SOLAR PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2022-03-04",
+     "reg_postal_code": "118535"
+    },
+    {
+     "uen": "199601882C",
+     "entity_name": "COMFORTDELGRO DRIVING CENTRE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1996-03-19",
+     "reg_postal_code": "118479"
+    },
+    {
+     "uen": "200308690C",
+     "entity_name": "COMFORTDELGRO INSURANCE BROKERS PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2003-09-05",
+     "reg_postal_code": "118479"
+    }
+   ]
+  },
+  {
+   "id": "B14",
+   "brand": "Ninja Van",
+   "kind": "startup",
+   "q_full_count": 481,
+   "q_records_fetched": 481,
+   "token_hits": 1,
+   "token_hits_live": 0,
+   "naive_top1": null,
+   "truth_name": null,
+   "truth_found_in_acra": false,
+   "truth": null,
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": null,
+   "postal_brand_entities": [],
+   "live_hits_sample": []
+  },
+  {
+   "id": "B15",
+   "brand": "Carousell",
+   "kind": "startup",
+   "q_full_count": 8,
+   "q_records_fetched": 8,
+   "token_hits": 8,
+   "token_hits_live": 4,
+   "naive_top1": {
+    "uen": "201300296D",
+    "entity_name": "CAROUSELL PTE. LTD.",
+    "uen_status_desc": "Registered",
+    "entity_type_desc": "Local Company",
+    "uen_issue_date": "2013-01-02",
+    "reg_postal_code": "139955"
+   },
+   "truth_name": null,
+   "truth_found_in_acra": false,
+   "truth": null,
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": null,
+   "postal_brand_entities": [],
+   "live_hits_sample": [
+    {
+     "uen": "53521651C",
+     "entity_name": "PRINCESS CAROUSELL",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Sole Proprietorship/ Partnership",
+     "uen_issue_date": "2026-04-06",
+     "reg_postal_code": "521897"
+    },
+    {
+     "uen": "201300296D",
+     "entity_name": "CAROUSELL PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2013-01-02",
+     "reg_postal_code": "139955"
+    },
+    {
+     "uen": "201815878E",
+     "entity_name": "CAROUSELL TRUST PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2018-05-09",
+     "reg_postal_code": "139955"
+    },
+    {
+     "uen": "53494517A",
+     "entity_name": "MLBB.SHER DIAMOND CAROUSELL STORE WHATSAPP 92966530",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Sole Proprietorship/ Partnership",
+     "uen_issue_date": "2024-11-12",
+     "reg_postal_code": "751590"
+    }
+   ]
+  },
+  {
+   "id": "B16",
+   "brand": "PropertyGuru",
+   "kind": "startup",
+   "q_full_count": 1,
+   "q_records_fetched": 1,
+   "token_hits": 1,
+   "token_hits_live": 1,
+   "naive_top1": {
+    "uen": "200615063H",
+    "entity_name": "PROPERTYGURU PTE. LTD.",
+    "uen_status_desc": "Registered",
+    "entity_type_desc": "Local Company",
+    "uen_issue_date": "2006-10-10",
+    "reg_postal_code": "079912"
+   },
+   "truth_name": null,
+   "truth_found_in_acra": false,
+   "truth": null,
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": null,
+   "postal_brand_entities": [],
+   "live_hits_sample": [
+    {
+     "uen": "200615063H",
+     "entity_name": "PROPERTYGURU PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2006-10-10",
+     "reg_postal_code": "079912"
+    }
+   ]
+  },
+  {
+   "id": "B17",
+   "brand": "Golden Village",
+   "kind": "chain",
+   "q_full_count": 7487,
+   "q_records_fetched": 1500,
+   "token_hits": 1,
+   "token_hits_live": 0,
+   "naive_top1": null,
+   "truth_name": "GOLDEN VILLAGE MULTIPLEX PTE LTD",
+   "truth_found_in_acra": false,
+   "truth": null,
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": null,
+   "postal_brand_entities": [],
+   "live_hits_sample": []
+  },
+  {
+   "id": "B18",
+   "brand": "Ya Kun",
+   "kind": "chain",
+   "q_full_count": 1064,
+   "q_records_fetched": 1064,
+   "token_hits": 15,
+   "token_hits_live": 9,
+   "naive_top1": {
+    "uen": "200004535H",
+    "entity_name": "YA KUN (S) PTE LTD",
+    "uen_status_desc": "Registered",
+    "entity_type_desc": "Local Company",
+    "uen_issue_date": "2000-05-25",
+    "reg_postal_code": "159929"
+   },
+   "truth_name": "YA KUN INTERNATIONAL PRIVATE LIMITED",
+   "truth_found_in_acra": false,
+   "truth": null,
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": null,
+   "postal_brand_entities": [],
+   "live_hits_sample": [
+    {
+     "uen": "200004535H",
+     "entity_name": "YA KUN (S) PTE LTD",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2000-05-25",
+     "reg_postal_code": "159929"
+    },
+    {
+     "uen": "200208213K",
+     "entity_name": "YA KUN CAFE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2002-09-21",
+     "reg_postal_code": "159929"
+    },
+    {
+     "uen": "200309883G",
+     "entity_name": "YA KUN MANNA PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2003-10-03",
+     "reg_postal_code": "159929"
+    },
+    {
+     "uen": "201229265N",
+     "entity_name": "YA KUN VINES PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2012-11-29",
+     "reg_postal_code": "159929"
+    },
+    {
+     "uen": "202405516R",
+     "entity_name": "YA KUN MARUAMAMI PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2024-02-08",
+     "reg_postal_code": "159929"
+    },
+    {
+     "uen": "200104668W",
+     "entity_name": "YA KUN INTERNATIONAL PTE LTD",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2001-07-16",
+     "reg_postal_code": "159929"
+    },
+    {
+     "uen": "200414639Z",
+     "entity_name": "YA KUN SUPPLY SERVICES PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2004-11-10",
+     "reg_postal_code": "159929"
+    },
+    {
+     "uen": "201942236N",
+     "entity_name": "JRE YA KUN FOOD SERVICE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2019-12-13",
+     "reg_postal_code": "079912"
+    },
+    {
+     "uen": "200701478N",
+     "entity_name": "YA KUN KAYA TOAST COFFEESTALL SINCE 1944 PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2007-01-26",
+     "reg_postal_code": "159929"
+    }
+   ]
+  },
+  {
+   "id": "B19",
+   "brand": "Koufu",
+   "kind": "chain",
+   "q_full_count": 21,
+   "q_records_fetched": 21,
+   "token_hits": 21,
+   "token_hits_live": 12,
+   "naive_top1": {
+    "uen": "199602661M",
+    "entity_name": "KOUFU PTE LTD",
+    "uen_status_desc": "Registered",
+    "entity_type_desc": "Local Company",
+    "uen_issue_date": "1996-04-16",
+    "reg_postal_code": "737859"
+   },
+   "truth_name": "KOUFU PTE LTD",
+   "truth_found_in_acra": false,
+   "truth": null,
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": null,
+   "postal_brand_entities": [],
+   "live_hits_sample": [
+    {
+     "uen": "199602661M",
+     "entity_name": "KOUFU PTE LTD",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "1996-04-16",
+     "reg_postal_code": "737859"
+    },
+    {
+     "uen": "202440925G",
+     "entity_name": "OK KOUFU PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2024-10-04",
+     "reg_postal_code": "408564"
+    },
+    {
+     "uen": "202601815K",
+     "entity_name": "LELE KOUFU PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2026-01-12",
+     "reg_postal_code": "408564"
+    },
+    {
+     "uen": "202602227N",
+     "entity_name": "MADAS KOUFU PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2026-01-15",
+     "reg_postal_code": "408564"
+    },
+    {
+     "uen": "201732833D",
+     "entity_name": "KOUFU GROUP PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2017-11-15",
+     "reg_postal_code": "737859"
+    },
+    {
+     "uen": "200209727R",
+     "entity_name": "KOUFU GOURMET PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2002-11-08",
+     "reg_postal_code": "737859"
+    },
+    {
+     "uen": "202521693N",
+     "entity_name": "AH HUAT KOUFU PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2025-05-20",
+     "reg_postal_code": "408564"
+    },
+    {
+     "uen": "202523315D",
+     "entity_name": "KOUFU MEE FIRST PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2025-05-28",
+     "reg_postal_code": "169876"
+    },
+    {
+     "uen": "202639443N",
+     "entity_name": "KOUFU DONG CHENG PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2026-08-27",
+     "reg_postal_code": "757437"
+    },
+    {
+     "uen": "202644451C",
+     "entity_name": "DONG CHENG KOUFU PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2026-09-25",
+     "reg_postal_code": "757437"
+    },
+    {
+     "uen": "202134951W",
+     "entity_name": "JUN YUAN (KOUFU) PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2021-10-07",
+     "reg_postal_code": "737859"
+    },
+    {
+     "uen": "201708221E",
+     "entity_name": "KOUFU F&B VENTURE PTE. LTD.",
+     "uen_status_desc": "Registered",
+     "entity_type_desc": "Local Company",
+     "uen_issue_date": "2017-03-24",
+     "reg_postal_code": "737859"
+    }
+   ]
+  },
+  {
+   "id": "B20",
+   "brand": "Toast Box",
+   "kind": "chain",
+   "q_full_count": 1526,
+   "q_records_fetched": 1500,
+   "token_hits": 0,
+   "token_hits_live": 0,
+   "naive_top1": null,
+   "truth_name": null,
+   "truth_found_in_acra": false,
+   "truth": null,
+   "alt_uens": [],
+   "truth_in_token_hits": false,
+   "naive_correct": null,
+   "postal_brand_entities": [],
+   "live_hits_sample": []
+  }
+ ],
+ "lookalikes": [
+  {
+   "id": "L01",
+   "name": "Grab Recruitment Pte Ltd",
+   "exact_matches": [],
+   "accepted_by_exact_match": false
+  },
+  {
+   "id": "L02",
+   "name": "Shopee Careers Pte Ltd",
+   "exact_matches": [],
+   "accepted_by_exact_match": false
+  },
+  {
+   "id": "L03",
+   "name": "DBS Bank Pte Ltd",
+   "exact_matches": [],
+   "accepted_by_exact_match": false
+  },
+  {
+   "id": "L04",
+   "name": "Singtel Hiring Pte Ltd",
+   "exact_matches": [],
+   "accepted_by_exact_match": false
+  },
+  {
+   "id": "L05",
+   "name": "Lazada Singapore Jobs Pte Ltd",
+   "exact_matches": [],
+   "accepted_by_exact_match": false
+  },
+  {
+   "id": "L06",
+   "name": "Razer Gaming Pte Ltd",
+   "exact_matches": [],
+   "accepted_by_exact_match": false
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "assessed_utc": "2026-11-21T05:45:00+00:00",
+ "assessed_by": "agent, from raw/*.txt read with Patchright (real Chrome, headed); not legal advice",
+ "sources": [
+  {"source": "MyCareersFuture (www.mycareersfuture.gov.sg, api.mycareersfuture.gov.sg)",
+   "robots": "User-agent: * Disallow: (empty, i.e. allow); only meta-externalagent is blocked",
+   "terms_clauses": [
+    "No part of any works on the Website may be reproduced, stored in a retrieval system, or transmitted in any form or by any means ... without written permission from SWDA. (raw/mcf-terms.txt line 159)",
+    "Except as otherwise provided, the Website Content shall not be reproduced, republished, uploaded, posted, transmitted, adapted, modified or otherwise displayed or distributed in any way, without the prior written permission of SWDA. (line 163)",
+    "You will not reproduce, distribute ... or otherwise use and exploit any Website Content or the Services except as permitted by these Terms (line 89)"
+   ],
+   "automation_clause_found": false,
+   "public_api_documented": false,
+   "decision": "Not called. The terms do not permit use of the job API, and they bar storing content in a retrieval system without SWDA's written permission. robots.txt allowing crawling does not override the terms. Result recorded as blocked by terms; ask SWDA for written permission."},
+  {"source": "Bizfile (www.bizfile.gov.sg)",
+   "robots": "User-agent: * Disallow: (allow)",
+   "terms_clauses": [
+    "You may download one copy of any information provided in this Website onto a single electronic device for your own personal non-commercial use ... To use any part of the Contents of this Website, you must seek permission in writing (raw/bizfile-terms.txt line 63)"
+   ],
+   "decision": "Bizfile search and listing pages not automated: personal non-commercial use only without written permission. Terms page itself was read once."},
+  {"source": "data.gov.sg ACRA datasets",
+   "terms_clauses": [
+    "You can use, access, call, command, query or request the API, whether commercially or non-commercially (raw/datagov-terms.txt line 86)",
+    "Attribution statement required under the Singapore Open Data Licence v1.0 (raw/datagov-licence.txt line 34-38)"
+   ],
+   "decision": "Automated, under 3 s spacing, attribution carried in harness and results."},
+  {"source": "eGazette (www.egazette.gov.sg, assets.egazette.gov.sg)",
+   "robots": "www: Allow / but Disallow /search. assets: robots.txt returns HTTP 403 (S3 AccessDenied), i.e. no robots file",
+   "terms_clauses": [
+    "Clause 11 (headed 'Reproduction of legislation-Gazettes'): permission to reproduce any e-Gazettes with credit; automated extraction allowed if not abusive, intrusive or deceptive and not disruptive (raw/egazette-terms.txt lines 49-73)",
+    "Except as set out in clause (11), the Contents shall not be reproduced ... without the prior written permission of MDDI (line 31)",
+    "Caching and links to, and the framing of, the Website ... are prohibited except as set out (hyperlinks allowed with conditions)"
+   ],
+   "open_point": "The clause 11 heading says 'legislation-Gazettes' but the body says 'any e-Gazettes'. Whether company striking-off notices count needs a legal read before JobHub stores them.",
+   "decision": "Browse pages and 3 notice PDFs read once each, 5 s apart; /search not used."}
+ ]
+}
