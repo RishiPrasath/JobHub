@@ -7,3 +7,13 @@
 node_modules/
 __pycache__/
 *.pyc
+
+# P06 downloaded source data (TAFEP list copy)
+05_prototypes/P06-employee-reviews/data/cache/
+
+
+# Full-text copies of third-party pages (terms, robots.txt, company sites, Gazette).
+# Kept locally as evidence; only the reads.jsonl logs and derived extracts are committed.
+04_experiments/E14-official-red-flag-evidence/runs/2026-11-21-run-002/outputs/raw/
+04_experiments/E16-employee-experience-sources/runs/2026-11-21-run-002/outputs/raw/
+04_experiments/E22-sg-company-entity-sources/runs/*/outputs/*/raw/
