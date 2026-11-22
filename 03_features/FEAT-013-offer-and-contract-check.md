@@ -2,7 +2,7 @@
 id: FEAT-013
 title: Offer and contract checks
 type: feature
-scope: candidate
+scope: testing
 need_level: N2
 feasibility_level: T1
 result: inconclusive
@@ -10,11 +10,13 @@ opportunity: [OPP-009]
 needs: [S-30, S-31, S-40]
 findings: [FND-R09-03, FND-E20-01]
 riskiest_assumption: ASM-013
-decision: null
-updated: 2026-11-10
+decision: 0002
+updated: 2026-11-22
 ---
 
 # Offer and contract checks
+
+In build scope ([decision 0002](../06_scope/decisions/0002-first-build-scope.md)), as entity verification plus a checklist, with no legal judgement on clauses. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 
@@ -51,3 +53,7 @@ Riskiest assumption (ASM-013): people would use a check at offer stage. Threshol
 E20 Part B on 10 synthetic letters: planted items found 91 to 95%, no legal conclusions, but false alarms exceeded the budget in every run and one run mixed up sources. **Inconclusive**; recall and legal wording look workable, reliability does not yet. Parts A and C not run. See [E20 findings](../04_experiments/E20-offer-completeness-check/FINDINGS.md).
 
 Thresholds were treated as confirmed by the owner's instruction to run. Samples were reduced and mostly synthetic, labels were written by an AI, and the Groq daily token limit cut several runs short. Levels are provisional and await owner review. Nothing here sets `in` or `out`.
+
+## Completion attempt (E20, 2026-11-11)
+
+The daily Groq limit stopped the missing letters again; only one more letter ran. A 7B model could not produce the required JSON on the first 7 letters. Scores are unchanged, so the result stays inconclusive. See the addendum in [E20 FINDINGS](../04_experiments/E20-offer-completeness-check/FINDINGS.md).

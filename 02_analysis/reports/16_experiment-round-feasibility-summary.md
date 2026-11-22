@@ -1,6 +1,6 @@
 # Experiment round 2026-11-10: feasibility summary
 
-Status: coordinator summary for owner review. Levels are provisional and the owner sets scope. Nothing here sets `in` or `out`. Nothing is committed to git.
+Status: coordinator summary for owner review. Updated 2026-11-11 after completion runs (E12, E15, E17, E18, E19 extended; E11, E13, E20 not extended; see the 2026-11-11 section below). Levels are provisional and the owner sets scope. Nothing here sets `in` or `out`. Nothing is committed to git.
 
 ## How to read this
 
@@ -55,3 +55,15 @@ The owner asked for the planned experiments (E11 to E21) to be run and feasibili
 - Parallel writers: a side fork of this session and some specialists wrote into the same experiment folders, causing some collisions (E11 gold, E19 and E21 files). Findings files were checked against the specialists' reports afterwards.
 - Docker: E11's specialist renamed stale Docker socket folders under `%LOCALAPPDATA%` to start Docker Desktop. Delete them after a reboot (paths are in the E11 findings).
 - Tool fix: `tools/llm_client.py` now catches the Windows `PermissionError` on its lock file.
+
+## Update 2026-11-11: completion runs
+
+The Groq quota recovered and the missing cells were run. What changed:
+
+- **E12 (FEAT-002/003/004):** all 24 postings now run on two models. Grounding holds (100% and 99.2%). Gap-finding still fails (unknown recall 8% and 54% against 80%). Only 34.8% of 230 questions met all four checks. A simulated pilot caught the planted wrong item in 6 of 6. FEAT-003 stays `fail`.
+- **E15 (FEAT-007):** all 40 cases on three models. Recall on clearly concerning cases 10 of 10 everywhere. qwen had no false alarms; the gpt-oss models had 10% on benign postings and more legal-sounding wording. Every method misses "named source on every flag" because of pack entries with no source. Simulated pilot: 54% read the notes as "worth asking".
+- **E17 (FEAT-009):** qwen 97.8% hit, gpt-oss-20b 80% hit with 14 of 20 confident wrong matches on no-match postings, a 7B model 49% and never says "none". Needs a capable model.
+- **E18 (FEAT-010):** free text fails on all three profiles (14.9% unsupported, 8.9% hard-fact errors). Structured is best but inconclusive (1.8% hard-fact errors). Hybrid incomplete (29 of 45).
+- **E19 (FEAT-011):** completion run recorded in its findings; `result: mixed`, level T2.
+- **E11, E13, E20:** not extended. The daily limit on all three main models stopped further runs; E20 added one letter and found that a 7B model cannot produce the required JSON.
+- **Still true:** no real participants, AI-written labels, synthetic data. No feature is promoted; no scope value changed.

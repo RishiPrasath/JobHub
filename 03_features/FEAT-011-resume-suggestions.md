@@ -2,19 +2,21 @@
 id: FEAT-011
 title: Evidence-linked resume suggestions
 type: feature
-scope: candidate
+scope: testing
 need_level: N1
-feasibility_level: T1
-result: inconclusive
+feasibility_level: T2
+result: mixed
 opportunity: [OPP-006]
 needs: []
 findings: [FND-E04-01, FND-R02-03, FND-E19-01]
 riskiest_assumption: ASM-011
-decision: null
-updated: 2026-11-10
+decision: 0003
+updated: 2026-11-22
 ---
 
 # Evidence-linked resume suggestions
+
+In build scope ([decision 0003](../06_scope/decisions/0003-second-build-scope.md)), using the user's own text only: suggestions cite the user's profile entries, a code check blocks new facts, gaps stay gaps, and the user confirms each entry. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 
@@ -50,3 +52,14 @@ Riskiest assumption (ASM-011): suggestions can be kept factual with a sentence-l
 E19 (reduced, daily limit): the ledger-constrained method put no fabricated credential, employer or metric on 20 sets, but the baseline and selection-only methods barely ran, so the check cannot be credited. A read-through found one unsupported role relabelling per model and true facts attached to requirements they do not answer. The format check found 12 of 12 planted problems with no ATS promise. **Narrow to selecting and ordering the user's own entries with citations**; free rewording not supported by this run. Part B not run. See [E19 findings](../04_experiments/E19-evidence-linked-resume-suggestions/FINDINGS.md).
 
 Thresholds were treated as confirmed by the owner's instruction to run. Samples were reduced and mostly synthetic, labels were written by an AI, and the Groq daily token limit cut several runs short. Levels are provisional and await owner review. Nothing here sets `in` or `out`.
+
+## Completion run (E19, 2026-11-11)
+
+The cells cut off by the token limit were filled in. See the addendum in [E19 FINDINGS](../04_experiments/E19-evidence-linked-resume-suggestions/FINDINGS.md).
+
+- The "be truthful" instruction (M1) put 8 to 14 fabricated credentials, employers or metrics in front of the user on each model, with 29 to 45% unsupported claims.
+- The ledger with a code check (M2) produced none, on three models and two runs: 0 fabricated, 0% unsupported (displayed), 100% citations, no intent commitments, no injection followed. Gaps shown as gaps: 100% for gpt-oss-20b and gpt-oss-120b, but 88.5% and 86.5% for qwen (bar 90%).
+- Selection only (M3) was clean for gpt-oss-20b and 13% unsupported for qwen.
+- The relevance blind spot (true but unrelated facts for requirements the profile cannot meet) was not re-checked and still needs a human confirming each entry.
+
+**Feasibility call (for the owner to confirm):** supported at fixture level for ledger-cited rewording with a code check and a human confirming that each entry answers its requirement. Instruction-only ("be truthful") is not supported. Level T2. Still needs real participants (Part B).

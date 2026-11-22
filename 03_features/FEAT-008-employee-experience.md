@@ -2,7 +2,7 @@
 id: FEAT-008
 title: Employee experience and reviews
 type: feature
-scope: candidate
+scope: testing
 need_level: N1
 feasibility_level: T2
 result: fail
@@ -10,11 +10,13 @@ opportunity: [OPP-001]
 needs: []
 findings: [FND-E09-01, FND-E09-02, FND-P05-01, FND-E16-01]
 riskiest_assumption: ASM-008
-decision: null
-updated: 2026-11-10
+decision: 0003
+updated: 2026-11-22
 ---
 
 # Employee experience and reviews
+
+In build scope ([decision 0003](../06_scope/decisions/0003-second-build-scope.md)) as link-outs to Glassdoor, Indeed, JobStreet and Google Maps, plus the TAFEP Tripartite Standards list by UEN. NodeFlair is attempted but not shown (licence needed). No review text is fetched from sites that bar automation. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 
@@ -49,3 +51,7 @@ Riskiest assumption (ASM-008): review content can be obtained reliably and lawfu
 E16 Part A failed: no external review source permits reading and summarising reviews. **Narrow to link-out cards** or park. Parts B and C not run. See [E16 findings](../04_experiments/E16-employee-experience-sources/FINDINGS.md).
 
 Thresholds were treated as confirmed by the owner's instruction to run. Samples were reduced and mostly synthetic, labels were written by an AI, and the Groq daily token limit cut several runs short. Levels are provisional and await owner review. Nothing here sets `in` or `out`.
+
+## Build (P06, 2026-11-22)
+
+[P06](../05_prototypes/P06-employee-reviews/README.md) builds the card from decision 0003: four link-outs, the TAFEP Tripartite Standards lookup by UEN (21,116 employers on the live list, updated to 20 Nov 2026), and a NodeFlair probe that keeps aggregates only and is never shown. 14 offline tests pass. Not yet checked: the Glassdoor, Indeed and JobStreet link patterns (a person should click them once) and the live TAFEP download from Python. The riskiest assumption (ASM-008) stays failed for review text; the card holds no reviews.

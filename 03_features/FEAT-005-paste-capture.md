@@ -2,7 +2,7 @@
 id: FEAT-005
 title: Paste capture with snapshot and stale notice
 type: feature
-scope: candidate
+scope: testing
 need_level: N1
 feasibility_level: T2
 result: mixed
@@ -10,11 +10,13 @@ opportunity: [OPP-002]
 needs: []
 findings: [FND-P01-01, FND-R01-01, FND-E13-01]
 riskiest_assumption: ASM-005
-decision: null
-updated: 2026-11-10
+decision: 0003
+updated: 2026-11-22
 ---
 
 # Paste capture with snapshot and stale notice
+
+In build scope ([decision 0003](../06_scope/decisions/0003-second-build-scope.md)), as narrowed by E13: snapshot, partial-paste check, field-gap notice and the stale rule. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 

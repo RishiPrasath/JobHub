@@ -2,7 +2,7 @@
 id: FEAT-003
 title: Verification questions
 type: feature
-scope: candidate
+scope: testing
 need_level: N2
 feasibility_level: T2
 result: fail
@@ -10,11 +10,13 @@ opportunity: [OPP-003]
 needs: []
 findings: [FND-R02-01, FND-R09-02, FND-E12-02]
 riskiest_assumption: ASM-003
-decision: null
-updated: 2026-11-10
+decision: 0002
+updated: 2026-11-22
 ---
 
 # Verification questions
+
+In build scope ([decision 0002](../06_scope/decisions/0002-first-build-scope.md)), with a reworked approach, since the last result was fail. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 
@@ -52,3 +54,15 @@ Riskiest assumption (ASM-003): people ask or act on the suggested questions. Thr
 E12 question rubric: 38% of 92 generated questions met all four checks (bar 80%, fail under 50%), and none of the 11 where an official route applied named it. **Not supported as generated**; narrow to fixed per-gap question templates with the official route attached. The one-week follow-up was not run. See [E12 findings](../04_experiments/E12-single-posting-review/FINDINGS.md).
 
 Thresholds were treated as confirmed by the owner's instruction to run. Samples were reduced and mostly synthetic, labels were written by an AI, and the Groq daily token limit cut several runs short. Levels are provisional and await owner review. Nothing here sets `in` or `out`.
+
+## Completion run (E12, 2026-11-11)
+
+With all 24 postings run on both models, 230 questions were rated: 34.8% met all four checks (bar 80%, fail under 50%); 45.7% targeted a decision-critical gap; neutral tone 96.5%; the official route was named in 0 of 25 cases where one exists. See the addendum in [E12 FINDINGS](../04_experiments/E12-single-posting-review/FINDINGS.md). qwen asked 206 questions (32% usable) and gpt-oss-120b only 16. The one-week follow-up was not run.
+
+**Feasibility call (for the owner to confirm):** not supported as generated. Test fixed per-gap question templates with the official route attached.
+
+## Completion run (E12, 2026-11-11)
+
+With all 24 postings run on both models, 230 questions were rated: 34.8% met all four checks (bar 80%, fail under 50%); 45.7% targeted a decision-critical gap; neutral tone 96.5%; the official route was named in 0 of 25 cases where one exists. See the addendum in [E12 FINDINGS](../04_experiments/E12-single-posting-review/FINDINGS.md). qwen asked 206 questions (32% usable) and gpt-oss-120b only 16. The one-week follow-up was not run.
+
+**Feasibility call (for the owner to confirm):** not supported as generated. Test fixed per-gap question templates with the official route attached.

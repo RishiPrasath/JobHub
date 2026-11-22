@@ -50,3 +50,9 @@ Riskiest assumption (ASM-010): comparison can avoid unsupported inferences. Thre
 E18 Part A (partial): free-text comparison fails (14% unsupported, 10% hard-fact errors). Structured comparison by code had 0 errors on employment type, arrangement and notice in 135 cells and 1.8% hard-fact errors overall (inconclusive). The hybrid method did not run. **Narrow to structured hard-fact and right-to-work comparison**; experience matching inconclusive. Part B not run. See [E18 findings](../04_experiments/E18-profile-comparison/FINDINGS.md).
 
 Thresholds were treated as confirmed by the owner's instruction to run. Samples were reduced and mostly synthetic, labels were written by an AI, and the Groq daily token limit cut several runs short. Levels are provisional and await owner review. Nothing here sets `in` or `out`.
+
+## Completion run (E18, 2026-11-11)
+
+Free text fails on all 3 profiles (14.9% unsupported claims, 8.9% hard-fact errors). Structured: 4.4% unsupported, 1.8% hard-fact errors, 96% unknowns kept as unknown, stable at 97%; inconclusive because hard-fact errors stay above 1%. Hybrid ran on 29 of 45 comparisons before the daily limit and is incomplete. See the addendum in [E18 FINDINGS](../04_experiments/E18-profile-comparison/FINDINGS.md).
+
+**Feasibility call (for the owner to confirm):** not supported as free-text comparison; narrow to a structured hard-fact check with excerpts. Level stays T1.

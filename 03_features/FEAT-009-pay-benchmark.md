@@ -2,7 +2,7 @@
 id: FEAT-009
 title: Pay benchmark with stated basis
 type: feature
-scope: candidate
+scope: testing
 need_level: N2
 feasibility_level: T2
 result: inconclusive
@@ -10,11 +10,13 @@ opportunity: [OPP-004]
 needs: []
 findings: [FND-E10X3-01, FND-R08-01, FND-R08-02, FND-R02-02, FND-E17-01]
 riskiest_assumption: ASM-009
-decision: null
-updated: 2026-11-10
+decision: 0002
+updated: 2026-11-22
 ---
 
 # Pay benchmark with stated basis
+
+In build scope ([decision 0002](../06_scope/decisions/0002-first-build-scope.md)), at occupation level from MOM wage tables plus pasted pay text; MyCareersFuture data only with SWDA written permission. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 
@@ -49,3 +51,9 @@ Riskiest assumption (ASM-009): users can confirm their occupation accurately. Th
 E17: with a lexical shortlist and qwen, the gold occupation was in the top three for 81 of 83 scored postings (97.6%) and 15 of 16 true no-match postings were handled; stability was 83% on 47 (bar 85%); a second model did much worse on no-match. Supported at fixture level for the shortlist step; **narrow to a user-confirmed shortlist**. Parts B and C not run. See [E17 findings](../04_experiments/E17-pay-benchmark-occupation-match/FINDINGS.md).
 
 Thresholds were treated as confirmed by the owner's instruction to run. Samples were reduced and mostly synthetic, labels were written by an AI, and the Groq daily token limit cut several runs short. Levels are provisional and await owner review. Nothing here sets `in` or `out`.
+
+## Completion run (E17, 2026-11-11)
+
+Occupation matching depends on the model: qwen3.8-27b put the gold occupation in the top three for 97.8% of 89 scored postings and flagged 16 of 17 true no-match postings; gpt-oss-20b reached 94.8% recall on coded postings but made a confident wrong match on 14 of 20 no-match postings; a 7B model (allam-2-7b) reached 63.6% and never said "none". Stability for qwen was 83.3% on 48 (bar 85%). Parts B and C were not run with participants. See the addendum in [E17 findings](../04_experiments/E17-pay-benchmark-occupation-match/FINDINGS.md).
+
+**Feasibility call (for the owner to confirm):** supported at fixture level only with a capable model and a user-confirmed shortlist that includes "none of these"; do not use small models for the no-match decision. Level T2.

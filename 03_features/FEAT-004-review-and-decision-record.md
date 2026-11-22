@@ -52,3 +52,11 @@ Not tested in E12, by owner decision on 2026-11-10:
 The planted-error catch rate and skim indicators need real participants; the simulated pilot did not run. Inconclusive. See [E12 findings](../04_experiments/E12-single-posting-review/FINDINGS.md).
 
 Thresholds were treated as confirmed by the owner's instruction to run. Samples were reduced and mostly synthetic, labels were written by an AI, and the Groq daily token limit cut several runs short. Levels are provisional and await owner review. Nothing here sets `in` or `out`.
+
+## Completion run (E12, 2026-11-11)
+
+A simulated pilot (6 persona-posting pairs, not participants) ran on 2026-11-11: the planted wrong item was caught in 6 of 6, and 74% of 96 worksheet items were accepted untouched. These figures are from a language model and cannot satisfy or fail a threshold. Real participants are still needed. See the addendum in [E12 FINDINGS](../04_experiments/E12-single-posting-review/FINDINGS.md).
+
+## Completion run (E12, 2026-11-11)
+
+A simulated pilot (6 persona-posting pairs, not participants) ran on 2026-11-11: the planted wrong item was caught in 6 of 6, and 74% of 96 worksheet items were accepted untouched. These figures are from a language model and cannot satisfy or fail a threshold. Real participants are still needed. See the addendum in [E12 FINDINGS](../04_experiments/E12-single-posting-review/FINDINGS.md).

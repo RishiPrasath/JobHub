@@ -2,7 +2,7 @@
 id: FEAT-006
 title: Red-flag evidence from official sources
 type: feature
-scope: candidate
+scope: testing
 need_level: N2
 feasibility_level: T2
 result: mixed
@@ -10,11 +10,13 @@ opportunity: [OPP-003]
 needs: [S-05]
 findings: [FND-E10X0-01, FND-E10X1-01, FND-R02-01, FND-R09-02, FND-E14-01]
 riskiest_assumption: ASM-006
-decision: null
-updated: 2026-11-10
+decision: 0002
+updated: 2026-11-22
 ---
 
 # Red-flag evidence from official sources
+
+In build scope ([decision 0002](../06_scope/decisions/0002-first-build-scope.md)), using Gazette notices and ACRA status, with link-outs for restricted sources. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 
