@@ -2,19 +2,21 @@
 id: FEAT-017
 title: Initial setup of job preferences
 type: feature
-scope: candidate
+scope: testing
 need_level: N0
 feasibility_level: T0
 result: none
 opportunity: [OPP-005]
 needs: []
-findings: []
+findings: [FND-E18-01]
 riskiest_assumption: ASM-017
-decision: null
-updated: 2026-11-10
+decision: 0006
+updated: 2026-11-22
 ---
 
 # Initial setup of job preferences
+
+In build scope ([decision 0006](../06_scope/decisions/0006-third-build-scope.md)), as written below. Deal-breakers are free text in this file; checking them against a posting by meaning is untested, so the built-in list plus custom items from [0002](../06_scope/decisions/0002-round-10-must-have-review.md) M6 applies. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review. **The field list is a proposal for the owner to confirm.**
 

@@ -1,0 +1,21 @@
+# Run A sources
+
+All accessed 2026-11-22. Tool: WebSearch (leads, treated as 2nd) and WebFetch (V-site or V-3p); PDFs read with pdftotext.
+
+| URL | Title | Publisher | Published | Label | Note |
+|---|---|---|---|---|---|
+| https://huntr.co/research/job-search-trends-q3-2026 | Q3 2026 Job Search Trends Report | Huntr (vendor) | Not stated (data 1 Oct 2026; survey 13 to 26 Oct 2026) | V-3p | 329 survey respondents (233 US); tracker data self-logged by users; self-selected; vendor interest |
+| https://huntr.co/research/2025-annual-job-search-trends-report | 2025 Annual Job Search Trends Report | Huntr (vendor) | Not stated (2026) | V-3p | 1.78M job entries, 57,000 job seekers, 1,049 survey respondents (Dec 2025). Only the first 100,000 of 184,150 characters read; 62% US, tech-skewed |
+| https://www.ischool.berkeley.edu/sites/default/files/sproject_attachments/final_report_0.pdf | Jobs To Be Done (MIMS final project) | UC Berkeley School of Information, student team | 2023 | V-3p | 13 interviews, 20 survey responses, convenience sample of tech job seekers; team was building a tracker |
+| https://www.levels.fyi/community/thread/RI8ea4/how-are-you-keeping-track-of-your-job-applications | How are you keeping track of your job applications? | Levels.fyi community | Not stated | V-3p | 3 replies; one from a seller of a packaged tracker |
+| https://dev.to/charles_p_2803da53bc5d54c/i-applied-to-47-internships-across-6-spreadsheets-and-still-blew-it-a-postmortem-304c | I applied to 47 internships across 6 spreadsheets... | DEV Community, individual author | 27 April (year not stated) | V-3p | One anecdote; author promotes his own tracker |
+| https://careers.tufts.edu/blog/2023/02/13/staying-organized-during-a-job-or-internship-search/ | Staying Organized During a Job or Internship Search | Tufts University Career Center | 2 Feb 2024 per page (URL shows 2023/02/13) | V-3p | Career-centre guidance, not data; date discrepancy |
+| https://static.mycareersfuture.gov.sg/docs/mycareersfuture_sg_user_faqs.pdf | MyCareersFuture user FAQs | MyCareersFuture (Singapore government) | Not stated | V-site (partial) | Quoted lines read; status table did not extract; four-status list from a search summary |
+| https://www.swda.gov.sg/home/individuals/jobseeker-support | SkillsFuture Jobseeker Support | SWDA (government) | Updated 1 Sep 2026 | V-3p | No point values or evidence rules on the page |
+| https://sg.jobstreet.com/career-advice/article/the-right-way-to-follow-up-on-a-job-application | The right way to follow up on a job application | Jobstreet Singapore | Updated 30 Oct 2026 | V-3p | Job board, commercial interest; advice, not behaviour data |
+| https://www.ntu.edu.sg/hey/search-stories/detail/7-truths-to-land-the-job-you-want | 7 truths to land the job you want | NTU HEY! Magazine | 21 Jan 2026 | V-3p | Student magazine; unattributed figures; one coach quote |
+| https://theindependent.sg/singaporean-jobseeker-says-she-applied-for-over-30-retail-roles-only-to-be-ghosted-or-rejected | Singaporean jobseeker applied for over 30 retail roles | The Independent SG | Not seen | 2nd | Fetch 403; search summary only; Reddit-sourced anecdote |
+| https://theindependent.sg/ive-been-job-searching-since-may-but-still-havent-received-any-offers-singaporean-applies-3-5-jobs-day-and-yet-no-responses-at-all/ | Singaporean applies 3 to 5 jobs a day, no responses | The Independent SG | Not seen | 2nd | Fetch 403; search summary only; one anecdote |
+| https://www.pewresearch.org/internet/2015/11/19/2-job-seeking-in-the-era-of-smartphones-and-social-media/ | Job seeking in the era of smartphones and social media | Pew Research Center | 19 Nov 2015 | 2nd | US, old; fetch 403; figures from a search summary |
+| https://help.tealhq.com/en/articles/14435727-how-to-track-your-job-applications | How to track your job applications | Teal (vendor) | Not seen | 2nd | Fetch 403; vendor framing from a summary, not verified |
+| https://sg.jobstreet.com/community/groups/job-search-advice/threads/job-application-follow-up-tips-for-singapore-3xvtdkq3ph8oi | JobStreet community thread on follow-up | Jobstreet Singapore | Not seen | I | Fetched twice; thread text did not render; not used |

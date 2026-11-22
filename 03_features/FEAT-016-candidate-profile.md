@@ -2,19 +2,21 @@
 id: FEAT-016
 title: Candidate profile
 type: feature
-scope: candidate
+scope: testing
 need_level: N0
 feasibility_level: T0
 result: none
 opportunity: [OPP-005, OPP-006, OPP-008]
 needs: [S-16]
-findings: []
+findings: [FND-R09-04, FND-R11-04]
 riskiest_assumption: ASM-016
-decision: null
-updated: 2026-11-10
+decision: 0006
+updated: 2026-11-22
 ---
 
 # Candidate profile
+
+In build scope ([decision 0006](../06_scope/decisions/0006-third-build-scope.md)), as written below. The retention rule is tiered by data type with a yearly prompt to keep, export or delete; the original resume file is deleted after parsing and only confirmed fields are kept; archived text is not reused for model improvement without a new notified purpose. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review. **The field list is a proposal for the owner to confirm.**
 

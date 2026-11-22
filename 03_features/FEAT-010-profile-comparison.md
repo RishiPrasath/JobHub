@@ -2,7 +2,7 @@
 id: FEAT-010
 title: Profile and preference comparison
 type: feature
-scope: candidate
+scope: testing
 need_level: N1
 feasibility_level: T1
 result: mixed
@@ -10,11 +10,13 @@ opportunity: [OPP-005]
 needs: []
 findings: [FND-E03-01, FND-R03-02, FND-E18-01]
 riskiest_assumption: ASM-010
-decision: null
-updated: 2026-11-10
+decision: 0006
+updated: 2026-11-22
 ---
 
 # Profile and preference comparison
+
+In build scope ([decision 0006](../06_scope/decisions/0006-third-build-scope.md)): compare a posting with the candidate's preferences and profile or resume, find the issues and notify the user. Each issue is checked in code and quotes the posting line and the profile entry it clashes with; free-text model comparison is not used, because it failed (FND-E18-01). Experience and skills matching is shown as items for the user to confirm, not as a pass or fail. It follows FEAT-016 and FEAT-017 ([decision 0001](../06_scope/decisions/0001-profile-comparison-after-profile.md)). Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 

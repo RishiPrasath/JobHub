@@ -23,6 +23,7 @@ Research produces evidence and findings. [Strategy](../strategy/README.md) inter
 | [R07](rounds/R07-competitive-landscape/README.md) | How do competing products work, and what do they charge? | First pass complete on public sources; owner decisions pending |
 | [R08](rounds/R08-market-value-and-salary-benchmarking/README.md) | How are market value and salary benchmarks determined, and how reliable are they? | First pass complete; draft synthesis, owner review pending |
 | [R09](rounds/R09-job-seeker-processes-as-is/README.md) | What processes do job seekers actually follow from search to first day? | First pass and gap-fill complete; draft synthesis, owner review pending |
+| [R11](rounds/R11-application-follow-up-and-silence/README.md) | How do job seekers track applications and check back, and what fits when employers never reply? | First pass complete; draft synthesis, owner review pending |
 
 The [rounds index](rounds/README.md) has links to each synthesis and gate.
 

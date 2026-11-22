@@ -1,6 +1,6 @@
 # JobHub scope
 
-Status: **v1 direction agreed by the owner on 2026-11-20** ([0003](decisions/0003-v1-scope-answers.md), [0002](decisions/0002-round-10-must-have-review.md)). Feature `scope` values on the board below are unchanged: they stay `candidate` or `later` until the gates in [03_features/README.md](../03_features/README.md) are met. Levels are provisional. Ten features were then put in build scope on 2026-11-22 ([0004](decisions/0004-first-build-scope.md), [0005](decisions/0005-second-build-scope.md)); they show as `testing` because none meets the N3 need level that the `in` gate requires yet.
+Status: **v1 direction agreed by the owner on 2026-11-20** ([0003](decisions/0003-v1-scope-answers.md), [0002](decisions/0002-round-10-must-have-review.md)). Feature `scope` values on the board below are unchanged: they stay `candidate` or `later` until the gates in [03_features/README.md](../03_features/README.md) are met. Levels are provisional. Fifteen features were then put in build scope on 2026-11-22 ([0004](decisions/0004-first-build-scope.md), [0005](decisions/0005-second-build-scope.md), [0006](decisions/0006-third-build-scope.md)); they show as `testing` because none meets the N3 need level that the `in` gate requires yet.
 
 ## Accepted so far
 
@@ -32,7 +32,7 @@ v1 is a single-posting review for Singapore job seekers, built now and tested wi
 | Search-link builder | Links per board with supported filters and saved searches prefilled from preferences; fetches nothing | Decided | 0003, 0002 M12 |
 | Company research | Experimental; quoted, dated, sourced cards, never scores; best sources and what to watch for undecided | In scope (experimental); needs discussion | 0003, 0002 S9 |
 | Decide before apply | Never applies, bulk-applies or fills forms; "ready to apply?" checklist; copy-ready data panel for the user to paste into employer forms | Decided | 0002 S12 |
-| Saved-jobs list and decision record per job | Options presented, not chosen | Pending; discuss together | 0002 M11, S7 |
+| Saved-jobs list and decision record per job | Simple list with user-set status and a reopenable "No reply" archive (0006); richer views and reminders not settled | Decided in reduced form; the rest pending | 0002 M11, S7; 0006 |
 | Pricing and privacy | Free in v1; pricing principles kept for later; privacy notice before any real resume upload | Decided | 0002 M13, M14 |
 
 ## To explore
@@ -47,7 +47,7 @@ v1 is a single-posting review for Singapore job seekers, built now and tested wi
 
 ## Build scope
 
-Decided 2026-11-22 in [0004](decisions/0004-first-build-scope.md) and [0005](decisions/0005-second-build-scope.md).
+Decided 2026-11-22 in [0004](decisions/0004-first-build-scope.md), [0005](decisions/0005-second-build-scope.md) and [0006](decisions/0006-third-build-scope.md).
 
 | Feature | Condition |
 |---|---|
@@ -61,8 +61,13 @@ Decided 2026-11-22 in [0004](decisions/0004-first-build-scope.md) and [0005](dec
 | FEAT-009 Pay benchmark | Occupation level: MOM wage tables on data.gov.sg (Singapore Open Data Licence) plus pay text the user pastes. MyCareersFuture data only with SWDA written permission. |
 | FEAT-011 Resume suggestions | The user's own text only: cites the user's profile entries, code check blocks new facts, gaps stay gaps, user confirms each entry (0005). |
 | FEAT-013 Offer and contract checks | Entity verification plus a checklist. No legal judgement on clauses. |
+| FEAT-004 Accept, edit, reject and decision record | Concept accepted; presentation left to design (idea: the user types a proposed edit and gets suggestions). Decision record stays minimal (0006). |
+| FEAT-010 Profile and preference comparison | Posting against preferences and profile or resume; issues quoted and notified; code-checked, no free-text comparison, no score. Follows FEAT-016 and FEAT-017 (0006). |
+| FEAT-016 Candidate profile | As written. Tiered retention with a yearly prompt; original resume deleted after parsing; no reuse of archived text for model improvement (0006). |
+| FEAT-017 Job preferences | As written; deal-breakers per 0002 M6 (0006). |
+| FEAT-012 Application tracker (reduced) | Saved-jobs list with user-set status and a reopenable "No reply" archive; default about 4 weeks, user-changeable; JobHub only suggests archiving. Reminders, templates and wait signals stay later (0006). |
 
-Not yet decided, in review order: FEAT-004, FEAT-010, FEAT-015, FEAT-016, FEAT-017, FEAT-012, FEAT-014.
+Not in build scope by owner decision: FEAT-015 (interview practice) stays a candidate. Not yet decided: FEAT-014.
 
 ## Board
 
@@ -81,12 +86,12 @@ Generated from `03_features/` by `tools/validate.py`. Do not edit between the ma
 | [FEAT-005 Paste capture with snapshot and stale notice](../03_features/FEAT-005-paste-capture.md) | testing | N1 | T2 | mixed | ASM-005 |
 | [FEAT-008 Employee experience and reviews](../03_features/FEAT-008-employee-experience.md) | testing | N1 | T2 | fail | ASM-008 |
 | [FEAT-011 Evidence-linked resume suggestions](../03_features/FEAT-011-resume-suggestions.md) | testing | N1 | T2 | mixed | ASM-011 |
-| [FEAT-004 Accept, edit, reject and decision record](../03_features/FEAT-004-review-and-decision-record.md) | candidate | N1 | T1 | inconclusive | ASM-004 |
-| [FEAT-010 Profile and preference comparison](../03_features/FEAT-010-profile-comparison.md) | candidate | N1 | T1 | mixed | ASM-010 |
+| [FEAT-004 Accept, edit, reject and decision record](../03_features/FEAT-004-review-and-decision-record.md) | testing | N1 | T1 | inconclusive | ASM-004 |
+| [FEAT-010 Profile and preference comparison](../03_features/FEAT-010-profile-comparison.md) | testing | N1 | T1 | mixed | ASM-010 |
+| [FEAT-012 Application tracker and reminders](../03_features/FEAT-012-application-tracker.md) | testing | N1 | T0 | none | ASM-012 |
+| [FEAT-016 Candidate profile](../03_features/FEAT-016-candidate-profile.md) | testing | N0 | T0 | none | ASM-016 |
+| [FEAT-017 Initial setup of job preferences](../03_features/FEAT-017-initial-setup-job-preferences.md) | testing | N0 | T0 | none | ASM-017 |
 | [FEAT-015 Interview practice](../03_features/FEAT-015-interview-practice.md) | candidate | N0 | T0 | none | ASM-015 |
-| [FEAT-016 Candidate profile](../03_features/FEAT-016-candidate-profile.md) | candidate | N0 | T0 | none | ASM-016 |
-| [FEAT-017 Initial setup of job preferences](../03_features/FEAT-017-initial-setup-job-preferences.md) | candidate | N0 | T0 | none | ASM-017 |
-| [FEAT-012 Application tracker and reminders](../03_features/FEAT-012-application-tracker.md) | later | N1 | T0 | none | ASM-012 |
 | [FEAT-014 Autofill without retyping](../03_features/FEAT-014-portal-autofill.md) | later | N1 | T0 | none | ASM-014 |
 <!-- BOARD:END -->
 
@@ -98,7 +103,8 @@ Generated from `03_features/` by `tools/validate.py`. Do not edit between the ma
 4. **First user and target outcome:** decided 2026-11-20: three user groups; proposed success measure in 0003.
 5. **Earlier approvals:** `reports/10` calls the hypothesis "approved", but no decision is logged. What actually happened?
 6. **Third-party text in git:** ignored in E09, tracked in E10. Which policy applies?
-7. **Open from 0002:** saved-jobs list and decision record (M11, S7); identity-card logic (S3); rules pack design (S4); employer questions (S5); claim-linking details (S6).
+7. **Open from 0002:** saved-jobs list and decision record beyond the simple list and archive settled in 0006 (M11, S7); identity-card logic (S3); rules pack design (S4); employer questions (S5); claim-linking details (S6).
+8. **From 0006:** a written retention policy and a data-protection review before real resume upload; whether to pool users' reply times for an expected wait (not in scope; needs a data-protection review first); FEAT-014 autofill.
 
 ## Deferred, judged later on practicality
 

@@ -2,7 +2,7 @@
 id: FEAT-004
 title: Accept, edit, reject and decision record
 type: feature
-scope: candidate
+scope: testing
 need_level: N1
 feasibility_level: T1
 result: inconclusive
@@ -10,11 +10,13 @@ opportunity: [OPP-002]
 needs: []
 findings: [FND-R04-01, FND-E08-01, FND-E12-01]
 riskiest_assumption: ASM-004
-decision: null
-updated: 2026-11-10
+decision: 0006
+updated: 2026-11-22
 ---
 
 # Accept, edit, reject and decision record
+
+In build scope ([decision 0006](../06_scope/decisions/0006-third-build-scope.md)): the concept is accepted, and how it is presented is left to design. The owner's first idea is that the user types a proposed edit and gets suggested edits back. The decision record stays minimal until people are shown to return to it. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 
