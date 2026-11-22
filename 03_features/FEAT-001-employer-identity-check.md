@@ -16,6 +16,8 @@ updated: 2026-11-22
 
 # Employer identity check
 
+Decision 0008 (S3): when checks disagree the identity card shows each check with a "doesn't prove" line and no verdict or score.
+
 In build scope ([decision 0004](../06_scope/decisions/0004-first-build-scope.md)), starting from a UEN or company domain; a bare brand is treated as a group of entities. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.

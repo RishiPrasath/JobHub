@@ -16,6 +16,8 @@ updated: 2026-11-22
 
 # Application tracker and reminders
 
+Decision 0008 (M11, S7): full job record without reminders; reminders and templates stay later.
+
 Reduced version in build scope ([decision 0006](../06_scope/decisions/0006-third-build-scope.md)): a saved-jobs list with a status the user sets, and a reopenable "No reply" archive that keeps the posting snapshot, source link, review, documents and notes. JobHub never changes a status by itself. The archive default is about 4 weeks, which the user can change (1 to 12 weeks), and JobHub only suggests "Archive?". Reminders, follow-up templates and expected-wait signals stay later. See [R11](../01_research/rounds/R11-application-follow-up-and-silence/round-synthesis.md). Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.

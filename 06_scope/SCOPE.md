@@ -1,6 +1,6 @@
 # JobHub scope
 
-Status: **v1 direction agreed by the owner on 2026-11-20** ([0003](decisions/0003-v1-scope-answers.md), [0002](decisions/0002-round-10-must-have-review.md)). Feature `scope` values on the board below are unchanged: they stay `candidate` or `later` until the gates in [03_features/README.md](../03_features/README.md) are met. Levels are provisional. Fifteen features were then put in build scope on 2026-11-22 ([0004](decisions/0004-first-build-scope.md), [0005](decisions/0005-second-build-scope.md), [0006](decisions/0006-third-build-scope.md)); they show as `testing` because none meets the N3 need level that the `in` gate requires yet.
+Status: **v1 direction agreed by the owner on 2026-11-20** ([0003](decisions/0003-v1-scope-answers.md), [0002](decisions/0002-round-10-must-have-review.md)). Feature `scope` values on the board below are unchanged: they stay `candidate` or `later` until the gates in [03_features/README.md](../03_features/README.md) are met. Levels are provisional. Sixteen features were then put in build scope on 2026-11-22 ([0004](decisions/0004-first-build-scope.md), [0005](decisions/0005-second-build-scope.md), [0006](decisions/0006-third-build-scope.md), [0007](decisions/0007-fourth-build-scope.md), [0008](decisions/0008-open-items-resolved.md)); they show as `testing` because none meets the N3 need level that the `in` gate requires yet.
 
 ## Accepted so far
 
@@ -47,7 +47,7 @@ v1 is a single-posting review for Singapore job seekers, built now and tested wi
 
 ## Build scope
 
-Decided 2026-11-22 in [0004](decisions/0004-first-build-scope.md), [0005](decisions/0005-second-build-scope.md) and [0006](decisions/0006-third-build-scope.md).
+Decided 2026-11-22 in [0004](decisions/0004-first-build-scope.md), [0005](decisions/0005-second-build-scope.md), [0006](decisions/0006-third-build-scope.md) and [0007](decisions/0007-fourth-build-scope.md).
 
 | Feature | Condition |
 |---|---|
@@ -65,9 +65,10 @@ Decided 2026-11-22 in [0004](decisions/0004-first-build-scope.md), [0005](decisi
 | FEAT-010 Profile and preference comparison | Posting against preferences and profile or resume; issues quoted and notified; code-checked, no free-text comparison, no score. Follows FEAT-016 and FEAT-017 (0006). |
 | FEAT-016 Candidate profile | As written. Tiered retention with a yearly prompt; original resume deleted after parsing; no reuse of archived text for model improvement (0006). |
 | FEAT-017 Job preferences | As written; deal-breakers per 0002 M6 (0006). |
+| FEAT-014 Copy-ready application data | Store, filter (section, field name, per job, recently used) and copy; no autofill, no extension; sensitive items not stored; per-job answers deleted with the job (0007). |
 | FEAT-012 Application tracker (reduced) | Saved-jobs list with user-set status and a reopenable "No reply" archive; default about 4 weeks, user-changeable; JobHub only suggests archiving. Reminders, templates and wait signals stay later (0006). |
 
-Not in build scope by owner decision: FEAT-015 (interview practice) stays a candidate. Not yet decided: FEAT-014.
+Not in build scope by owner decision: FEAT-015 (interview practice) stays a candidate. 
 
 ## Board
 
@@ -89,10 +90,10 @@ Generated from `03_features/` by `tools/validate.py`. Do not edit between the ma
 | [FEAT-004 Accept, edit, reject and decision record](../03_features/FEAT-004-review-and-decision-record.md) | testing | N1 | T1 | inconclusive | ASM-004 |
 | [FEAT-010 Profile and preference comparison](../03_features/FEAT-010-profile-comparison.md) | testing | N1 | T1 | mixed | ASM-010 |
 | [FEAT-012 Application tracker and reminders](../03_features/FEAT-012-application-tracker.md) | testing | N1 | T0 | none | ASM-012 |
+| [FEAT-014 Copy-ready application data](../03_features/FEAT-014-portal-autofill.md) | testing | N1 | T0 | none | ASM-014 |
 | [FEAT-016 Candidate profile](../03_features/FEAT-016-candidate-profile.md) | testing | N0 | T0 | none | ASM-016 |
 | [FEAT-017 Initial setup of job preferences](../03_features/FEAT-017-initial-setup-job-preferences.md) | testing | N0 | T0 | none | ASM-017 |
 | [FEAT-015 Interview practice](../03_features/FEAT-015-interview-practice.md) | candidate | N0 | T0 | none | ASM-015 |
-| [FEAT-014 Autofill without retyping](../03_features/FEAT-014-portal-autofill.md) | later | N1 | T0 | none | ASM-014 |
 <!-- BOARD:END -->
 
 ## Decisions needed
@@ -101,10 +102,10 @@ Generated from `03_features/` by `tools/validate.py`. Do not edit between the ma
 2. **Profile comparison:** decided 2026-11-10, later, after the profile is built ([0001](decisions/0001-profile-comparison-after-profile.md)).
 3. **Company research sources:** partly decided 2026-11-22. Official sources are in build scope (FEAT-006, FEAT-007). Lived-experience reviews (FEAT-008) are link-outs plus the TAFEP Tripartite Standards list; no review text from sites that bar automation ([0005](decisions/0005-second-build-scope.md)). What to watch for is still open (0002 S9).
 4. **First user and target outcome:** decided 2026-11-20: three user groups; proposed success measure in 0003.
-5. **Earlier approvals:** `reports/10` calls the hypothesis "approved", but no decision is logged. What actually happened?
-6. **Third-party text in git:** ignored in E09, tracked in E10. Which policy applies?
-7. **Open from 0002:** saved-jobs list and decision record beyond the simple list and archive settled in 0006 (M11, S7); identity-card logic (S3); rules pack design (S4); employer questions (S5); claim-linking details (S6).
-8. **From 0006:** a written retention policy and a data-protection review before real resume upload; whether to pool users' reply times for an expected wait (not in scope; needs a data-protection review first); FEAT-014 autofill.
+5. **Earlier approvals:** closed in [0008](decisions/0008-open-items-resolved.md): no approval was recorded.
+6. **Third-party text in git:** closed in 0008: not tracked in git.
+7. **From 0002:** closed in 0008 (M11, S7, S3, S4, S5, S6, S9). Still open: the content of the retests and a first user test plan.
+8. **From 0006 and 0007:** closed in 0008 except: edit and adopt the [privacy notice draft](privacy-notice-draft.md) before real users, a professional data-protection check before public launch, and keep pooled reply times out of scope.
 
 ## Deferred, judged later on practicality
 

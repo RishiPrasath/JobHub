@@ -16,6 +16,8 @@ updated: 2026-11-22
 
 # Red-flag evidence from official sources
 
+Decision 0008 (S4): owner signs off rule changes; monthly check of SPF, TAFEP, MOM, ScamShield; visible change log.
+
 In build scope ([decision 0004](../06_scope/decisions/0004-first-build-scope.md)), using Gazette notices and ACRA status, with link-outs for restricted sources. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.

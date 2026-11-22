@@ -16,6 +16,8 @@ updated: 2026-11-22
 
 # Discriminatory and harmful signals pack (Singapore)
 
+Decision 0008 (S4): owner signs off rule changes; monthly check; visible change log. Inconclusive test: one retest with a pass bar before build.
+
 In build scope ([decision 0004](../06_scope/decisions/0004-first-build-scope.md)), using allowed free sources only. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.

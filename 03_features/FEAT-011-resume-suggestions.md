@@ -16,6 +16,8 @@ updated: 2026-11-22
 
 # Evidence-linked resume suggestions
 
+Decision 0008 (S6): numbers, dates, titles and employers must link to a profile fact or export is blocked; reworded framing only warns; optional "can you explain this?" check.
+
 In build scope ([decision 0005](../06_scope/decisions/0005-second-build-scope.md)), using the user's own text only: suggestions cite the user's profile entries, a code check blocks new facts, gaps stay gaps, and the user confirms each entry. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.

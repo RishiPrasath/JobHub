@@ -16,6 +16,8 @@ updated: 2026-11-22
 
 # Candidate profile
 
+Decision 0008: optional extras added for application forms: earliest start date, language sub-ratings with a native flag, full postal address. A one-page privacy notice, consent and a delete button are required before any real upload; a professional check only before public launch.
+
 In build scope ([decision 0006](../06_scope/decisions/0006-third-build-scope.md)), as written below. The retention rule is tiered by data type with a yearly prompt to keep, export or delete; the original resume file is deleted after parsing and only confirmed fields are kept; archived text is not reused for model improvement without a new notified purpose. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review. **The field list is a proposal for the owner to confirm.**
@@ -112,6 +114,14 @@ Origin: [source idea](source-ideas/03_candidate-profile-and-preferences.md).
 | Field | Type | Required |
 |---|---|---|
 | Resume file (PDF or DOC); pre-fills sections 2 to 6 after user review | file | Optional |
+
+### 9. Application extras (decision 0008)
+
+| Field | Type | Required |
+|---|---|---|
+| Earliest start date (or notice period text) | text | Optional |
+| Language sub-ratings (listening, reading, speaking, writing) and native flag | choice | Optional |
+| Full postal address | text | Optional |
 
 ## Not collected
 

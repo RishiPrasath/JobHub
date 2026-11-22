@@ -1,20 +1,24 @@
 ---
 id: FEAT-014
-title: Autofill without retyping
+title: Copy-ready application data
 type: feature
-scope: later
+scope: testing
 need_level: N1
 feasibility_level: T0
 result: none
 opportunity: [OPP-008]
 needs: [S-16]
-findings: [FND-R09-04]
+findings: [FND-R09-04, FND-R12-01, FND-R12-03, FND-R12-04, FND-R12-05]
 riskiest_assumption: ASM-014
-decision: null
-updated: 2026-11-10
+decision: 0007
+updated: 2026-11-22
 ---
 
-# Autofill without retyping
+# Copy-ready application data
+
+Decision 0008: renamed from "Autofill without retyping". One-time clipboard note on first copy of a personal item (hideable). Extra fields (start date, language ratings, address) live in FEAT-016; referees, awards and nationality detail are not added.
+
+In build scope as a copy-ready store with filters (section, field name, per job, recently used), no autofill ([decision 0007](../06_scope/decisions/0007-fourth-build-scope.md)). Evidence: [R12 synthesis](../01_research/rounds/R12-application-forms-and-field-inventory/round-synthesis.md). Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 

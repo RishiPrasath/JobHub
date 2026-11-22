@@ -16,6 +16,8 @@ updated: 2026-11-22
 
 # Employee experience and reviews
 
+Decision 0008 (S9): official facts plus link-outs; attempt scraping of public pages with no login, stopping at bot checks, with a terms note per source; no review-theme summaries. Redesign and retest before build.
+
 In build scope ([decision 0005](../06_scope/decisions/0005-second-build-scope.md)) as link-outs to Glassdoor, Indeed, JobStreet and Google Maps, plus the TAFEP Tripartite Standards list by UEN. NodeFlair is attempted but not shown (licence needed). No review text is fetched from sites that bar automation. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.

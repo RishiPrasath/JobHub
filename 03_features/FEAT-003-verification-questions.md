@@ -16,6 +16,8 @@ updated: 2026-11-22
 
 # Verification questions
 
+Decision 0008 (S5): fixed templates per gap type only, quoting the posting line; no AI-written questions until a retest passes the E12 bar.
+
 In build scope ([decision 0004](../06_scope/decisions/0004-first-build-scope.md)), with a reworked approach, since the last result was fail. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.

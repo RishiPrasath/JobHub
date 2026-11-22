@@ -16,6 +16,8 @@ updated: 2026-11-22
 
 # Accept, edit, reject and decision record
 
+Decision 0008 (M11, S7): full job record without reminders (snapshot, review, decision and reason, documents, files sent, notes, key dates).
+
 In build scope ([decision 0006](../06_scope/decisions/0006-third-build-scope.md)): the concept is accepted, and how it is presented is left to design. The owner's first idea is that the user types a proposed edit and gets suggested edits back. The decision record stays minimal until people are shown to return to it. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
