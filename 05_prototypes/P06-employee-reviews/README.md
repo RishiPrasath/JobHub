@@ -1,6 +1,6 @@
 # P06: Employee reviews card (FEAT-008)
 
-Builds what [decision 0003](../../06_scope/decisions/0003-second-build-scope.md) put in scope for [FEAT-008](../../03_features/FEAT-008-employee-experience.md). Python 3.10+, standard library only.
+Builds what [decision 0005](../../06_scope/decisions/0005-second-build-scope.md) put in scope for [FEAT-008](../../03_features/FEAT-008-employee-experience.md). Python 3.10+, standard library only.
 
 | Part | What it does | Status |
 |---|---|---|

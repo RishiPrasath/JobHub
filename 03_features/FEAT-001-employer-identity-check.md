@@ -10,13 +10,13 @@ opportunity: [OPP-001]
 needs: [S-05, S-35]
 findings: [FND-E10X2-01, FND-P05-01, FND-E09-02, FND-R09-01, FND-E11-01]
 riskiest_assumption: ASM-001
-decision: 0002
+decision: 0004
 updated: 2026-11-22
 ---
 
 # Employer identity check
 
-In build scope ([decision 0002](../06_scope/decisions/0002-first-build-scope.md)), starting from a UEN or company domain; a bare brand is treated as a group of entities. Scope is `testing` until the `in` gate is met.
+In build scope ([decision 0004](../06_scope/decisions/0004-first-build-scope.md)), starting from a UEN or company domain; a bare brand is treated as a group of entities. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 

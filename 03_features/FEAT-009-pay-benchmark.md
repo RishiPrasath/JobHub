@@ -10,13 +10,13 @@ opportunity: [OPP-004]
 needs: []
 findings: [FND-E10X3-01, FND-R08-01, FND-R08-02, FND-R02-02, FND-E17-01]
 riskiest_assumption: ASM-009
-decision: 0002
+decision: 0004
 updated: 2026-11-22
 ---
 
 # Pay benchmark with stated basis
 
-In build scope ([decision 0002](../06_scope/decisions/0002-first-build-scope.md)), at occupation level from MOM wage tables plus pasted pay text; MyCareersFuture data only with SWDA written permission. Scope is `testing` until the `in` gate is met.
+In build scope ([decision 0004](../06_scope/decisions/0004-first-build-scope.md)), at occupation level from MOM wage tables plus pasted pay text; MyCareersFuture data only with SWDA written permission. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 

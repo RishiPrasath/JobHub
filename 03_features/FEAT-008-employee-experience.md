@@ -10,13 +10,13 @@ opportunity: [OPP-001]
 needs: []
 findings: [FND-E09-01, FND-E09-02, FND-P05-01, FND-E16-01]
 riskiest_assumption: ASM-008
-decision: 0003
+decision: 0005
 updated: 2026-11-22
 ---
 
 # Employee experience and reviews
 
-In build scope ([decision 0003](../06_scope/decisions/0003-second-build-scope.md)) as link-outs to Glassdoor, Indeed, JobStreet and Google Maps, plus the TAFEP Tripartite Standards list by UEN. NodeFlair is attempted but not shown (licence needed). No review text is fetched from sites that bar automation. Scope is `testing` until the `in` gate is met.
+In build scope ([decision 0005](../06_scope/decisions/0005-second-build-scope.md)) as link-outs to Glassdoor, Indeed, JobStreet and Google Maps, plus the TAFEP Tripartite Standards list by UEN. NodeFlair is attempted but not shown (licence needed). No review text is fetched from sites that bar automation. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 
@@ -54,4 +54,4 @@ Thresholds were treated as confirmed by the owner's instruction to run. Samples 
 
 ## Build (P06, 2026-11-22)
 
-[P06](../05_prototypes/P06-employee-reviews/README.md) builds the card from decision 0003: four link-outs, the TAFEP Tripartite Standards lookup by UEN (21,116 employers on the live list, updated to 20 Nov 2026), and a NodeFlair probe that keeps aggregates only and is never shown. 14 offline tests pass. Not yet checked: the Glassdoor, Indeed and JobStreet link patterns (a person should click them once) and the live TAFEP download from Python. The riskiest assumption (ASM-008) stays failed for review text; the card holds no reviews.
+[P06](../05_prototypes/P06-employee-reviews/README.md) builds the card from decision 0005: four link-outs, the TAFEP Tripartite Standards lookup by UEN (21,116 employers on the live list, updated to 20 Nov 2026), and a NodeFlair probe that keeps aggregates only and is never shown. 14 offline tests pass. Not yet checked: the Glassdoor, Indeed and JobStreet link patterns (a person should click them once) and the live TAFEP download from Python. The riskiest assumption (ASM-008) stays failed for review text; the card holds no reviews.

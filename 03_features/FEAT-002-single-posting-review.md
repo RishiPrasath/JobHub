@@ -10,13 +10,13 @@ opportunity: [OPP-002]
 needs: []
 findings: [FND-E01-01, FND-E08-01, FND-R04-02, FND-E02-01, FND-E12-01]
 riskiest_assumption: ASM-002
-decision: 0002
+decision: 0004
 updated: 2026-11-22
 ---
 
 # Single-posting review with source-linked claims
 
-In build scope ([decision 0002](../06_scope/decisions/0002-first-build-scope.md)), as a thin version that reuses the employer identity check. Scope is `testing` until the `in` gate is met.
+In build scope ([decision 0004](../06_scope/decisions/0004-first-build-scope.md)), as a thin version that reuses the employer identity check. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 

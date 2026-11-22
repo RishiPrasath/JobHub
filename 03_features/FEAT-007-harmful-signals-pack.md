@@ -10,13 +10,13 @@ opportunity: [OPP-003]
 needs: []
 findings: [FND-R09-02, FND-E15-01]
 riskiest_assumption: ASM-007
-decision: 0002
+decision: 0004
 updated: 2026-11-22
 ---
 
 # Discriminatory and harmful signals pack (Singapore)
 
-In build scope ([decision 0002](../06_scope/decisions/0002-first-build-scope.md)), using allowed free sources only. Scope is `testing` until the `in` gate is met.
+In build scope ([decision 0004](../06_scope/decisions/0004-first-build-scope.md)), using allowed free sources only. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 

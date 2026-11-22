@@ -10,13 +10,13 @@ opportunity: [OPP-009]
 needs: [S-30, S-31, S-40]
 findings: [FND-R09-03, FND-E20-01]
 riskiest_assumption: ASM-013
-decision: 0002
+decision: 0004
 updated: 2026-11-22
 ---
 
 # Offer and contract checks
 
-In build scope ([decision 0002](../06_scope/decisions/0002-first-build-scope.md)), as entity verification plus a checklist, with no legal judgement on clauses. Scope is `testing` until the `in` gate is met.
+In build scope ([decision 0004](../06_scope/decisions/0004-first-build-scope.md)), as entity verification plus a checklist, with no legal judgement on clauses. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 

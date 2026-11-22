@@ -12,7 +12,7 @@ commercial purposes without a licence (E16 run-003). So this module:
 - marks every result display_allowed=False.
 
 Showing anything from NodeFlair needs a licence and a new owner decision
-(decision 0003). Do not feed the output to a model (ai-train=no).
+(decision 0005). Do not feed the output to a model (ai-train=no).
 """
 import json
 import re

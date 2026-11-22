@@ -10,13 +10,13 @@ opportunity: [OPP-003]
 needs: []
 findings: [FND-R02-01, FND-R09-02, FND-E12-02]
 riskiest_assumption: ASM-003
-decision: 0002
+decision: 0004
 updated: 2026-11-22
 ---
 
 # Verification questions
 
-In build scope ([decision 0002](../06_scope/decisions/0002-first-build-scope.md)), with a reworked approach, since the last result was fail. Scope is `testing` until the `in` gate is met.
+In build scope ([decision 0004](../06_scope/decisions/0004-first-build-scope.md)), with a reworked approach, since the last result was fail. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 

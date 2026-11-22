@@ -20,7 +20,9 @@ Levels are provisional and await owner review.
 
 ## What it does
 
-Reuses information across application portals. No feature has been proposed yet.
+Reuses information across application portals.
+
+Owner direction, 2026-11-20 ([decision 0002](../06_scope/decisions/0002-round-10-must-have-review.md), S12): this is **not autofill**. JobHub does not fill forms itself. It keeps the user's data ready in one copy-ready panel for each job (for example notice period, right to work, contact details, work-history snippets and saved answers), and the user copies and pastes into the employer's form and clicks submit. No automation, no browser extension, no logging in anywhere. Sensitive fields (eligibility, salary expectation, disability, criminal history, demographics) are shown only when the user chooses to reveal them.
 
 ## Evidence for
 

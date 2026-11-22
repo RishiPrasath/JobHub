@@ -1,8 +1,10 @@
-# 0002: First build scope
+# 0004: First build scope
 
 Status: accepted
 Date: 2026-11-22
 Decided by: owner
+
+Drafted as 0002 and renumbered on 2026-11-22 before it reached main, because 0002 (round-10 must-have review) and 0003 (v1 scope answers) were already recorded there.
 
 ## Context
 
@@ -38,7 +40,7 @@ FEAT-001: FND-E10X2-01, FND-P05-01, FND-E11-01. FEAT-002: FND-E01-01, FND-E12-01
 
 ## Consequences
 
-- The seven features move from `candidate` to `testing`, with `decision: 0002`.
+- The seven features move from `candidate` to `testing`, with `decision: 0004`.
 - FEAT-003 needs a new approach and a new test before it is built.
 - FEAT-009 uses no MyCareersFuture data unless SWDA gives written permission.
 - Lived-experience reviews (FEAT-008) are not chosen yet, so official sources come first for company research.

@@ -10,13 +10,13 @@ opportunity: [OPP-006]
 needs: []
 findings: [FND-E04-01, FND-R02-03, FND-E19-01]
 riskiest_assumption: ASM-011
-decision: 0003
+decision: 0005
 updated: 2026-11-22
 ---
 
 # Evidence-linked resume suggestions
 
-In build scope ([decision 0003](../06_scope/decisions/0003-second-build-scope.md)), using the user's own text only: suggestions cite the user's profile entries, a code check blocks new facts, gaps stay gaps, and the user confirms each entry. Scope is `testing` until the `in` gate is met.
+In build scope ([decision 0005](../06_scope/decisions/0005-second-build-scope.md)), using the user's own text only: suggestions cite the user's profile entries, a code check blocks new facts, gaps stay gaps, and the user confirms each entry. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 

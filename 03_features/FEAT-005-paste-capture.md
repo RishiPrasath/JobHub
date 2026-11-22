@@ -10,13 +10,13 @@ opportunity: [OPP-002]
 needs: []
 findings: [FND-P01-01, FND-R01-01, FND-E13-01]
 riskiest_assumption: ASM-005
-decision: 0003
+decision: 0005
 updated: 2026-11-22
 ---
 
 # Paste capture with snapshot and stale notice
 
-In build scope ([decision 0003](../06_scope/decisions/0003-second-build-scope.md)), as narrowed by E13: snapshot, partial-paste check, field-gap notice and the stale rule. Scope is `testing` until the `in` gate is met.
+In build scope ([decision 0005](../06_scope/decisions/0005-second-build-scope.md)), as narrowed by E13: snapshot, partial-paste check, field-gap notice and the stale rule. Scope is `testing` until the `in` gate is met.
 
 Levels are provisional and await owner review.
 

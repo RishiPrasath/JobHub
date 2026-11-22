@@ -1,4 +1,4 @@
-"""The employee-experience card for one employer (FEAT-008, decision 0003).
+"""The employee-experience card for one employer (FEAT-008, decision 0005).
 
 Input comes from the employer identity check (FEAT-001): a UEN, the registered
 name and, when known, the brand people use. The card holds:

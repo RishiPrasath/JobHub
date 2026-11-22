@@ -1,16 +1,18 @@
-# 0003: Second build scope (paste capture, employee reviews, resume suggestions)
+# 0005: Second build scope (paste capture, employee reviews, resume suggestions)
 
 Status: accepted
 Date: 2026-11-22
 Decided by: owner
 
+Drafted as 0003 and renumbered on 2026-11-22 before it reached main, because 0002 (round-10 must-have review) and 0003 (v1 scope answers) were already recorded there.
+
 ## Context
 
-[0002](0002-first-build-scope.md) left FEAT-005, FEAT-008 and FEAT-011 first in the review order. On 2026-11-22 the owner added all three to build scope (for FEAT-011, owner's words: "build scope please").
+[0004](0004-first-build-scope.md) left FEAT-005, FEAT-008 and FEAT-011 first in the review order. On 2026-11-22 the owner added all three to build scope (for FEAT-011, owner's words: "build scope please").
 
 For FEAT-008, E16 found no source that both allows automated reading and holds recent first-hand reviews of Singapore employers ([run-003 notes](../../04_experiments/E16-employee-experience-sources/runs/2026-11-21-run-003/RUN-NOTES.md)). The owner chose from the options listed there. Owner's words: "Link-outs: show the user a one-click link to the company's page on Glassdoor, Indeed, JobStreet and Google Maps. No scraping, no terms risk, and the user reads the reviews themselves. and also attempt scraping that is my final decision."
 
-As in 0002, none of the three has N3 evidence, so they are `testing`, not `in`.
+As in 0004, none of the three has N3 evidence, so they are `testing`, not `in`.
 
 ## Options considered
 
@@ -36,7 +38,7 @@ FEAT-005: FND-P01-01, FND-R01-01, FND-E13-01. FEAT-011: FND-E04-01, FND-R02-03, 
 
 ## Consequences
 
-- FEAT-005, FEAT-008 and FEAT-011 move from `candidate` to `testing`, with `decision: 0003`.
+- FEAT-005, FEAT-008 and FEAT-011 move from `candidate` to `testing`, with `decision: 0005`.
 - FEAT-011 reads the user's evidence from the candidate profile (FEAT-016), which is not in build scope yet. Until it is, the build needs another way for the user to give their entries, or FEAT-016 needs a decision.
 - FEAT-008 is no longer a review summary. Its riskiest assumption (ASM-008, lawful review content) stays failed for review text; the build is link-outs plus an official pledge signal.
 - FEAT-008's Tripartite Standards lookup depends on a UEN, so it follows FEAT-001.
