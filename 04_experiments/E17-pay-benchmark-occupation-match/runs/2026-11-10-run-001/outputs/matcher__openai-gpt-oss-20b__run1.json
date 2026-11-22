@@ -1,0 +1,2007 @@
+{
+ "model": "openai/gpt-oss-20b",
+ "run": 1,
+ "n": 100,
+ "results": [
+  {
+   "id": "X3-01",
+   "top3": [
+    "24113",
+    "24111",
+    "33133"
+   ],
+   "raw_top3": [
+    "24113",
+    "24111",
+    "33133"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Senior tax accountant matches tax accountant, then manager, then associate",
+   "parse_ok": true,
+   "tokens": 629,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-02",
+   "top3": [
+    "12111",
+    "24111",
+    "24113"
+   ],
+   "raw_top3": [
+    "12111",
+    "24111",
+    "24113"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Manager level accounting roles",
+   "parse_ok": true,
+   "tokens": 602,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-03",
+   "top3": [
+    "12111",
+    "24111",
+    "24113"
+   ],
+   "raw_top3": [
+    "12111",
+    "24111",
+    "24113"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Senior accounting manager",
+   "parse_ok": true,
+   "tokens": 614,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-04",
+   "top3": [
+    "24111",
+    "24112",
+    "24113"
+   ],
+   "raw_top3": [
+    "24111",
+    "24112",
+    "24113"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "SAP manufacturing accountant role",
+   "parse_ok": true,
+   "tokens": 678,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-05",
+   "top3": [
+    "24111",
+    "24113",
+    "24112"
+   ],
+   "raw_top3": [
+    "24111",
+    "24113",
+    "24112"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Executive accountant role",
+   "parse_ok": true,
+   "tokens": 602,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-06",
+   "top3": [
+    "25121",
+    "25291",
+    "25213"
+   ],
+   "raw_top3": [
+    "25121",
+    "25291",
+    "25213"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Software dev, data centre, data engineer fit role",
+   "parse_ok": true,
+   "tokens": 585,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-07",
+   "top3": [
+    "25121",
+    "25122",
+    "25123"
+   ],
+   "raw_top3": [
+    "25121",
+    "25122",
+    "25123"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Java backend developer matches software developer role",
+   "parse_ok": true,
+   "tokens": 654,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-08",
+   "top3": [
+    "25121",
+    "25113",
+    "25125"
+   ],
+   "raw_top3": [
+    "25121",
+    "25113",
+    "25125"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Senior software engineer fits software developer, architect, DevOps",
+   "parse_ok": true,
+   "tokens": 585,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-09",
+   "top3": [
+    "25121",
+    "25113",
+    "25125"
+   ],
+   "raw_top3": [
+    "25121",
+    "25113",
+    "25125"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Software development, architecture, and DevOps fit Power Platform role",
+   "parse_ok": true,
+   "tokens": 568,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-10",
+   "top3": [
+    "33392",
+    "24311",
+    "12221"
+   ],
+   "raw_top3": [
+    "33392",
+    "24311",
+    "12221"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "Part-time advertising roles fit salesperson, creative, and manager levels",
+   "parse_ok": true,
+   "tokens": 749,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-11",
+   "top3": [
+    "22200",
+    "32200",
+    "53202"
+   ],
+   "raw_top3": [
+    "22200",
+    "32200",
+    "53202"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Registered nurse primary role, assistant nurse and nursing aide are related",
+   "parse_ok": true,
+   "tokens": 671,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-12",
+   "top3": [
+    "22200",
+    "53201",
+    "53202"
+   ],
+   "raw_top3": [
+    "22200",
+    "53201",
+    "53202"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Registered nurse primary, then healthcare assistant and nursing aide.",
+   "parse_ok": true,
+   "tokens": 639,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-13",
+   "top3": [
+    "22200",
+    "53201",
+    "53202"
+   ],
+   "raw_top3": [
+    "22200",
+    "53201",
+    "53202"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Registered nurse is primary role; healthcare assistant and nursing aide are related support roles",
+   "parse_ok": true,
+   "tokens": 680,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-14",
+   "top3": [
+    "22200",
+    "53201",
+    "53202"
+   ],
+   "raw_top3": [
+    "22200",
+    "53201",
+    "53202"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Registered nurse primary, healthcare assistants secondary",
+   "parse_ok": true,
+   "tokens": 664,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-15",
+   "top3": [
+    "22200",
+    "53202",
+    "53201"
+   ],
+   "raw_top3": [
+    "22200",
+    "53202",
+    "53201"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Senior Staff Nurse matches Registered nurse and related nursing professional",
+   "parse_ok": true,
+   "tokens": 634,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-16",
+   "top3": [
+    "96000",
+    "93334",
+    "12241"
+   ],
+   "raw_top3": [
+    "96000",
+    "93334",
+    "12241"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Warehouse supervisor matches waste collection supervisor, then warehouse worker, then customer service manager",
+   "parse_ok": true,
+   "tokens": 695,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-17",
+   "top3": [
+    "93334",
+    "13241",
+    "96000"
+   ],
+   "raw_top3": [
+    "93334",
+    "13241",
+    "96000"
+   ],
+   "verdict": "none",
+   "confidence": "medium",
+   "why": "No exact supervisor code; nearest are worker, manager, waste supervisor",
+   "parse_ok": true,
+   "tokens": 658,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-18",
+   "top3": [
+    "71000",
+    "81000",
+    "93334"
+   ],
+   "raw_top3": [
+    "71000",
+    "81000",
+    "93334"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Supervisor roles in logistics and warehousing",
+   "parse_ok": true,
+   "tokens": 687,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-19",
+   "top3": [
+    "81000",
+    "83000",
+    "71000"
+   ],
+   "raw_top3": [
+    "81000",
+    "83000",
+    "71000"
+   ],
+   "verdict": "none",
+   "confidence": "low",
+   "why": "No exact supervisor code for warehouse",
+   "parse_ok": true,
+   "tokens": 816,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-20",
+   "top3": [
+    "93201",
+    "93334",
+    "93201"
+   ],
+   "raw_top3": [
+    "93201",
+    "93334",
+    "93201"
+   ],
+   "verdict": "none",
+   "confidence": "low",
+   "why": "No supervisor-level match in list",
+   "parse_ok": true,
+   "tokens": 805,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-21",
+   "top3": [
+    "12221",
+    "12222",
+    "24320"
+   ],
+   "raw_top3": [
+    "12221",
+    "12222",
+    "24320"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Senior marketing/public relations role",
+   "parse_ok": true,
+   "tokens": 659,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-22",
+   "top3": [
+    "24313",
+    "24314",
+    "12222"
+   ],
+   "raw_top3": [
+    "24313",
+    "24314",
+    "12222"
+   ],
+   "verdict": "none",
+   "confidence": "medium",
+   "why": "Junior marketing role, closest to marketing strategy/planning, digital marketing, and marketing manager",
+   "parse_ok": true,
+   "tokens": 645,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-23",
+   "top3": [
+    "12222",
+    "24313",
+    "24314"
+   ],
+   "raw_top3": [
+    "12222",
+    "24313",
+    "24314"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Senior Marketing Executive aligns with marketing manager and related professionals",
+   "parse_ok": true,
+   "tokens": 608,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-24",
+   "top3": [
+    "24314",
+    "33223",
+    "24313"
+   ],
+   "raw_top3": [
+    "24314",
+    "33223",
+    "24313"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Entry-level marketing/ events role fits digital marketing and sales exec",
+   "parse_ok": true,
+   "tokens": 719,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-25",
+   "top3": [
+    "12222",
+    "24313",
+    "24312"
+   ],
+   "raw_top3": [
+    "12222",
+    "24313",
+    "24312"
+   ],
+   "verdict": "none",
+   "confidence": "low",
+   "why": "No assistant marketing role listed",
+   "parse_ok": true,
+   "tokens": 631,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-26",
+   "top3": [
+    "42245",
+    "33492",
+    "24233"
+   ],
+   "raw_top3": [
+    "42245",
+    "33492",
+    "24233"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title matches customer service officer; administrative role fits operations officer.",
+   "parse_ok": true,
+   "tokens": 634,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-27",
+   "top3": [
+    "42245",
+    "33222",
+    "41101"
+   ],
+   "raw_top3": [
+    "42245",
+    "33222",
+    "41101"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Customer service officer, after sales adviser, office clerk fit executive level",
+   "parse_ok": true,
+   "tokens": 628,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-28",
+   "top3": [
+    "42245",
+    "43231",
+    "33312"
+   ],
+   "raw_top3": [
+    "42245",
+    "43231",
+    "33312"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Customer service in shipping operations",
+   "parse_ok": true,
+   "tokens": 616,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-29",
+   "top3": [
+    "42245",
+    "24132",
+    "24233"
+   ],
+   "raw_top3": [
+    "42245",
+    "24132",
+    "24233"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Entry-level customer service role",
+   "parse_ok": true,
+   "tokens": 747,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-30",
+   "top3": [
+    "42245",
+    "33120",
+    "33222"
+   ],
+   "raw_top3": [
+    "42245",
+    "33120",
+    "33222"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Direct match to customer service officer",
+   "parse_ok": true,
+   "tokens": 641,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-31",
+   "top3": [
+    "21441",
+    "21442",
+    "21473"
+   ],
+   "raw_top3": [
+    "21441",
+    "21442",
+    "21473"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Mechanical engineering role with manufacturing focus",
+   "parse_ok": true,
+   "tokens": 640,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-32",
+   "top3": [
+    "31004",
+    "31002",
+    "31006"
+   ],
+   "raw_top3": [
+    "31004",
+    "31002",
+    "31006"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Assistant mechanical, electrical, and manufacturing engineer roles match job level and description",
+   "parse_ok": true,
+   "tokens": 624,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-33",
+   "top3": [
+    "21441",
+    "21413",
+    "21415"
+   ],
+   "raw_top3": [
+    "21441",
+    "21413",
+    "21415"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Mechanical Design Engineer aligns with Mechanical engineer, Automation, Process",
+   "parse_ok": true,
+   "tokens": 588,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-34",
+   "top3": [
+    "21441",
+    "21411",
+    "21412"
+   ],
+   "raw_top3": [
+    "21441",
+    "21411",
+    "21412"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Mechanical engineer role fits description.",
+   "parse_ok": true,
+   "tokens": 615,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-35",
+   "top3": [
+    "21441",
+    "21415",
+    "21411"
+   ],
+   "raw_top3": [
+    "21441",
+    "21415",
+    "21411"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Senior mechanical engineering role",
+   "parse_ok": true,
+   "tokens": 546,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-36",
+   "top3": [
+    "34341",
+    "34343",
+    "51111"
+   ],
+   "raw_top3": [
+    "34341",
+    "34343",
+    "51111"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Chef role matches 34341; pastry chef close; chief steward next",
+   "parse_ok": true,
+   "tokens": 674,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-37",
+   "top3": [
+    "34341",
+    "34342",
+    "51111"
+   ],
+   "raw_top3": [
+    "34341",
+    "34342",
+    "51111"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Head Chef role aligns with chef and kitchen supervisor positions",
+   "parse_ok": true,
+   "tokens": 660,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-38",
+   "top3": [
+    "94101",
+    "94102",
+    "53201"
+   ],
+   "raw_top3": [
+    "94101",
+    "94102",
+    "53201"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Direct kitchen assistant role",
+   "parse_ok": true,
+   "tokens": 636,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-39",
+   "top3": [
+    "34341",
+    "94101",
+    "51111"
+   ],
+   "raw_top3": [
+    "34341",
+    "94101",
+    "51111"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Chef position matches Chef occupation",
+   "parse_ok": true,
+   "tokens": 650,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-40",
+   "top3": [
+    "34341",
+    "34342",
+    "51111"
+   ],
+   "raw_top3": [
+    "34341",
+    "34342",
+    "51111"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Head Chef matches Chef and Kitchen operations head",
+   "parse_ok": true,
+   "tokens": 657,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-41",
+   "top3": [
+    "12121",
+    "24231",
+    "24232"
+   ],
+   "raw_top3": [
+    "12121",
+    "24231",
+    "24232"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "HR executive fits manager level",
+   "parse_ok": true,
+   "tokens": 609,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-42",
+   "top3": [
+    "24111",
+    "24112",
+    "24113"
+   ],
+   "raw_top3": [
+    "24111",
+    "24112",
+    "24113"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Junior executive in accounting functions",
+   "parse_ok": true,
+   "tokens": 654,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-43",
+   "top3": [
+    "12121",
+    "24231",
+    "24233"
+   ],
+   "raw_top3": [
+    "12121",
+    "24231",
+    "24233"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "HRBP aligns with HR manager, consultant, officer",
+   "parse_ok": true,
+   "tokens": 637,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-44",
+   "top3": [
+    "12121",
+    "24231",
+    "24232"
+   ],
+   "raw_top3": [
+    "12121",
+    "24231",
+    "24232"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "HR executive fits manager level",
+   "parse_ok": true,
+   "tokens": 644,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-45",
+   "top3": [
+    "33221",
+    "24212",
+    "24213"
+   ],
+   "raw_top3": [
+    "33221",
+    "24212",
+    "24213"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Business Development Executive matches code 33221",
+   "parse_ok": true,
+   "tokens": 662,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-46",
+   "top3": [
+    "24111",
+    "24112",
+    "24113"
+   ],
+   "raw_top3": [
+    "24111",
+    "24112",
+    "24113"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Executive accounting role fits accountant, auditor, tax accountant",
+   "parse_ok": true,
+   "tokens": 609,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-47",
+   "top3": [
+    "33492",
+    "33160",
+    "33131"
+   ],
+   "raw_top3": [
+    "33492",
+    "33160",
+    "33131"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Administrative duties match operations officer and back office admin",
+   "parse_ok": true,
+   "tokens": 625,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-48",
+   "top3": [
+    "33492",
+    "33160",
+    "12112"
+   ],
+   "raw_top3": [
+    "33492",
+    "33160",
+    "12112"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Administrative support in construction sector",
+   "parse_ok": true,
+   "tokens": 696,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-49",
+   "top3": [
+    "33494",
+    "33221",
+    "33491"
+   ],
+   "raw_top3": [
+    "33494",
+    "33221",
+    "33491"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Executive assistant role fits executive secretary, then business exec, management exec",
+   "parse_ok": true,
+   "tokens": 631,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-50",
+   "top3": [
+    "33492",
+    "33160",
+    "53201"
+   ],
+   "raw_top3": [
+    "33492",
+    "33160",
+    "53201"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Administrative duties, back‑office admin, assistant role",
+   "parse_ok": true,
+   "tokens": 743,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-51",
+   "top3": [
+    "33223",
+    "33224",
+    "33222"
+   ],
+   "raw_top3": [
+    "33223",
+    "33224",
+    "33222"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Entry-level marketing/sales lead fits executive roles",
+   "parse_ok": true,
+   "tokens": 633,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-52",
+   "top3": [
+    "12211",
+    "12221",
+    "14392"
+   ],
+   "raw_top3": [
+    "12211",
+    "12221",
+    "14392"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "Sales and engagement in travel, marketing/public relations",
+   "parse_ok": true,
+   "tokens": 662,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-53",
+   "top3": [
+    "33223",
+    "33224",
+    "33225"
+   ],
+   "raw_top3": [
+    "33223",
+    "33224",
+    "33225"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Junior sales executive fits marketing/sales roles",
+   "parse_ok": true,
+   "tokens": 692,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-54",
+   "top3": [
+    "33223",
+    "33221",
+    "33224"
+   ],
+   "raw_top3": [
+    "33223",
+    "33221",
+    "33224"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Sales & Marketing Executive fits marketing/sales executive roles",
+   "parse_ok": true,
+   "tokens": 644,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-55",
+   "top3": [
+    "12211",
+    "14201",
+    "33221"
+   ],
+   "raw_top3": [
+    "12211",
+    "14201",
+    "33221"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Senior sales manager role in retail",
+   "parse_ok": true,
+   "tokens": 632,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-56",
+   "top3": [
+    "21231",
+    "21222",
+    "25112"
+   ],
+   "raw_top3": [
+    "21231",
+    "21222",
+    "25112"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Data Analyst role aligns with statistical officer, data scientist, and business analyst",
+   "parse_ok": true,
+   "tokens": 638,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "X3-57",
+   "top3": [
+    "21231",
+    "24131",
+    "21222"
+   ],
+   "raw_top3": [
+    "21231",
+    "24131",
+    "21222"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Banking data analysis role",
+   "parse_ok": true,
+   "tokens": 639,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-58",
+   "top3": [
+    "21231",
+    "25112",
+    "21222"
+   ],
+   "raw_top3": [
+    "21231",
+    "25112",
+    "21222"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Data analysis, business analysis, and data science align with posting",
+   "parse_ok": true,
+   "tokens": 608,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-59",
+   "top3": [
+    "21231",
+    "21222",
+    "25112"
+   ],
+   "raw_top3": [
+    "21231",
+    "21222",
+    "25112"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Data Analyst role aligns with statistical officer, data scientist, and business analyst",
+   "parse_ok": true,
+   "tokens": 640,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-60",
+   "top3": [
+    "21222",
+    "21231",
+    "25213"
+   ],
+   "raw_top3": [
+    "21222",
+    "21231",
+    "25213"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Data scientist/analyst role matches listed occupations",
+   "parse_ok": true,
+   "tokens": 586,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-01",
+   "top3": [
+    "74110",
+    "74121",
+    "74122"
+   ],
+   "raw_top3": [
+    "74110",
+    "74121",
+    "74122"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Electrician role, supervisory level, primary trade",
+   "parse_ok": true,
+   "tokens": 634,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-02",
+   "top3": [
+    "71261",
+    "71000",
+    "71331"
+   ],
+   "raw_top3": [
+    "71261",
+    "71000",
+    "71331"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Direct plumber role, supervisor, maintenance worker",
+   "parse_ok": true,
+   "tokens": 635,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-03",
+   "top3": [
+    "72120",
+    "72240",
+    "31171"
+   ],
+   "raw_top3": [
+    "72120",
+    "72240",
+    "31171"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Welder is primary role, metal polisher and technician are related",
+   "parse_ok": true,
+   "tokens": 681,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-04",
+   "top3": [
+    "31151",
+    "31144",
+    "31131"
+   ],
+   "raw_top3": [
+    "31151",
+    "31144",
+    "31131"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "HVAC duties align with mechanical, instrumentation, and electrical tech roles",
+   "parse_ok": true,
+   "tokens": 600,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-05",
+   "top3": [
+    "83321",
+    "83223",
+    "83224"
+   ],
+   "raw_top3": [
+    "83321",
+    "83223",
+    "83224"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Directly matches lorry driving duties",
+   "parse_ok": true,
+   "tokens": 636,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-06",
+   "top3": [
+    "83211",
+    "94102",
+    "94103"
+   ],
+   "raw_top3": [
+    "83211",
+    "94102",
+    "94103"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Motorcycle delivery worker is exact role",
+   "parse_ok": true,
+   "tokens": 709,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-07",
+   "top3": [
+    "83441",
+    "74001",
+    "21513"
+   ],
+   "raw_top3": [
+    "83441",
+    "74001",
+    "21513"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Direct forklift operator role, supervisor and engineer as nearest levels",
+   "parse_ok": true,
+   "tokens": 636,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-08",
+   "top3": [
+    "52202",
+    "52421",
+    "52201"
+   ],
+   "raw_top3": [
+    "52202",
+    "52421",
+    "52201"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Shop sales assistant, sales demonstrator, sales supervisor",
+   "parse_ok": true,
+   "tokens": 624,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-09",
+   "top3": [
+    "14201",
+    "12211",
+    "21631"
+   ],
+   "raw_top3": [
+    "14201",
+    "12211",
+    "21631"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Retail manager best fit, sales manager close, fashion designer related",
+   "parse_ok": true,
+   "tokens": 557,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-10",
+   "top3": [
+    "52201",
+    "14201",
+    "40000"
+   ],
+   "raw_top3": [
+    "52201",
+    "14201",
+    "40000"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Retail Store Supervisor aligns with Sales supervisor",
+   "parse_ok": true,
+   "tokens": 721,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-11",
+   "top3": [
+    "36991",
+    "23300",
+    "53113"
+   ],
+   "raw_top3": [
+    "36991",
+    "23300",
+    "53113"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Relief teacher primary school matches code 36991",
+   "parse_ok": true,
+   "tokens": 656,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-12",
+   "top3": [
+    "36100",
+    "53113",
+    "53120"
+   ],
+   "raw_top3": [
+    "36100",
+    "53113",
+    "53120"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Preschool teacher matches primary role, followed by child care worker and teacher aide",
+   "parse_ok": true,
+   "tokens": 684,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-13",
+   "top3": [
+    "36910",
+    "23300",
+    "24240"
+   ],
+   "raw_top3": [
+    "36910",
+    "23300",
+    "24240"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Private tutor, teacher/trainer, staff development professional",
+   "parse_ok": true,
+   "tokens": 654,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-14",
+   "top3": [
+    "51322",
+    "94102",
+    "94101"
+   ],
+   "raw_top3": [
+    "51322",
+    "94102",
+    "94101"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Barista is exact match; others are related food service roles",
+   "parse_ok": true,
+   "tokens": 582,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-15",
+   "top3": [
+    "42242",
+    "42241",
+    "96212"
+   ],
+   "raw_top3": [
+    "42242",
+    "42241",
+    "96212"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Front desk receptionist duties match hotel receptionist roles",
+   "parse_ok": true,
+   "tokens": 630,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-16",
+   "top3": [
+    "51501",
+    "91121",
+    "91122"
+   ],
+   "raw_top3": [
+    "51501",
+    "91121",
+    "91122"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Housekeeping duties in hotel",
+   "parse_ok": true,
+   "tokens": 610,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-17",
+   "top3": [
+    "34343",
+    "75122",
+    "34341"
+   ],
+   "raw_top3": [
+    "34343",
+    "75122",
+    "34341"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Direct pastry chef role",
+   "parse_ok": true,
+   "tokens": 639,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-18",
+   "top3": [
+    "53201",
+    "53202",
+    "32200"
+   ],
+   "raw_top3": [
+    "53201",
+    "53202",
+    "32200"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Healthcare assistant role in nursing home",
+   "parse_ok": true,
+   "tokens": 655,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-19",
+   "top3": [
+    "32130",
+    "53201",
+    "53202"
+   ],
+   "raw_top3": [
+    "32130",
+    "53201",
+    "53202"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Pharmacy assistant aligns with pharmacy technician and healthcare assistant duties",
+   "parse_ok": true,
+   "tokens": 722,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-20",
+   "top3": [
+    "22640",
+    "22662",
+    "22680"
+   ],
+   "raw_top3": [
+    "22640",
+    "22662",
+    "22680"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Physiotherapist role matches code 22640, related therapy codes nearby",
+   "parse_ok": true,
+   "tokens": 603,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-21",
+   "top3": [
+    "24111",
+    "33131",
+    "43112"
+   ],
+   "raw_top3": [
+    "24111",
+    "33131",
+    "43112"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Handles accounts payable, executive level accountant duties",
+   "parse_ok": true,
+   "tokens": 622,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-22",
+   "top3": [
+    "43114",
+    "24233",
+    "41102"
+   ],
+   "raw_top3": [
+    "43114",
+    "24233",
+    "41102"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Payroll executive aligns with payroll clerk and HR officer roles",
+   "parse_ok": true,
+   "tokens": 638,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-23",
+   "top3": [
+    "33120",
+    "24233",
+    "24234"
+   ],
+   "raw_top3": [
+    "33120",
+    "24233",
+    "24234"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Credit Control Officer aligns with Credit/Loans officer",
+   "parse_ok": true,
+   "tokens": 666,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-24",
+   "top3": [
+    "21661",
+    "21662",
+    "24311"
+   ],
+   "raw_top3": [
+    "21661",
+    "21662",
+    "24311"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Primary role is graphic design, secondary multimedia and creative advertising",
+   "parse_ok": true,
+   "tokens": 631,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-25",
+   "top3": [
+    "26422",
+    "21662",
+    "35212"
+   ],
+   "raw_top3": [
+    "26422",
+    "21662",
+    "35212"
+   ],
+   "verdict": "none",
+   "confidence": "low",
+   "why": "No exact editor code available",
+   "parse_ok": true,
+   "tokens": 908,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-26",
+   "top3": [
+    "21662",
+    "26413",
+    "24311"
+   ],
+   "raw_top3": [
+    "21662",
+    "26413",
+    "24311"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Creates and designs social media content",
+   "parse_ok": true,
+   "tokens": 601,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-27",
+   "top3": [
+    "54142",
+    "54144",
+    "54143"
+   ],
+   "raw_top3": [
+    "54142",
+    "54144",
+    "54143"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Security officer role aligns with supervisor-level security duties",
+   "parse_ok": true,
+   "tokens": 625,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-28",
+   "top3": [
+    "91131",
+    "91132",
+    "91133"
+   ],
+   "raw_top3": [
+    "91131",
+    "91132",
+    "91133"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Office cleaning duties match indoor/outdoor/ multi‑skilled cleaners",
+   "parse_ok": true,
+   "tokens": 614,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-29",
+   "top3": [
+    "34223",
+    "34221",
+    "23300"
+   ],
+   "raw_top3": [
+    "34223",
+    "34221",
+    "23300"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Physical fitness instructor best fit, sports coach next, trainer role fits education trainer",
+   "parse_ok": true,
+   "tokens": 674,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-30",
+   "top3": [
+    "26621",
+    "26633",
+    "34122"
+   ],
+   "raw_top3": [
+    "26621",
+    "26633",
+    "34122"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Family service centre social worker role",
+   "parse_ok": true,
+   "tokens": 628,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-31",
+   "top3": [
+    "52202",
+    "52421",
+    "52201"
+   ],
+   "raw_top3": [
+    "52202",
+    "52421",
+    "52201"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Entry-level retail sales role",
+   "parse_ok": true,
+   "tokens": 693,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-32",
+   "top3": [
+    "14391",
+    "33223",
+    "42210"
+   ],
+   "raw_top3": [
+    "14391",
+    "33223",
+    "42210"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Event management and marketing roles fit brand ambassador duties",
+   "parse_ok": true,
+   "tokens": 704,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-33",
+   "top3": [
+    "33160",
+    "33492",
+    "24221"
+   ],
+   "raw_top3": [
+    "33160",
+    "33492",
+    "24221"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Part‑time admin duties match back office and operations roles",
+   "parse_ok": true,
+   "tokens": 683,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-34",
+   "top3": [
+    "33224",
+    "33222",
+    "33221"
+   ],
+   "raw_top3": [
+    "33224",
+    "33222",
+    "33221"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Sales and marketing executive fits online sales, after-sales, and business development roles",
+   "parse_ok": true,
+   "tokens": 685,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-35",
+   "top3": [
+    "24331",
+    "33223",
+    "33224"
+   ],
+   "raw_top3": [
+    "24331",
+    "33223",
+    "33224"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Junior sales/marketing associate fits sales professional, executive, channel roles",
+   "parse_ok": true,
+   "tokens": 629,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-36",
+   "top3": [
+    "33221",
+    "12212",
+    "52201"
+   ],
+   "raw_top3": [
+    "33221",
+    "12212",
+    "52201"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Business development associate aligns with executive role",
+   "parse_ok": true,
+   "tokens": 643,
+   "finish": "stop",
+   "cached": true
+  },
+  {
+   "id": "SYN-37",
+   "top3": [
+    "43212",
+    "31571",
+    "31573"
+   ],
+   "raw_top3": [
+    "43212",
+    "31571",
+    "31573"
+   ],
+   "verdict": "none",
+   "confidence": "low",
+   "why": "No exact supervisor role in cold chain distribution",
+   "parse_ok": true,
+   "tokens": 789,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-38",
+   "top3": [
+    "82000",
+    "74002",
+    "31172"
+   ],
+   "raw_top3": [
+    "82000",
+    "74002",
+    "31172"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Supervisor electronics assembly, foreman roles, technician proximity",
+   "parse_ok": true,
+   "tokens": 718,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-39",
+   "top3": [
+    "31573",
+    "31574",
+    "31571"
+   ],
+   "raw_top3": [
+    "31573",
+    "31574",
+    "31571"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Supervisor roles in transport logistics",
+   "parse_ok": true,
+   "tokens": 691,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-40",
+   "top3": [
+    "91000",
+    "71000",
+    "12193"
+   ],
+   "raw_top3": [
+    "91000",
+    "71000",
+    "12193"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Cleaning supervisor is exact match; building supervisor next; manager level close.",
+   "parse_ok": true,
+   "tokens": 665,
+   "finish": "stop",
+   "cached": false
+  }
+ ]
+}

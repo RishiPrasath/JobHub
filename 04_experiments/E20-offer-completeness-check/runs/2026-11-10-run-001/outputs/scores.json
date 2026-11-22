@@ -370,6 +370,7 @@
    "recall_inconsistency": 1.0,
    "letters_scored": [
     "L01",
+    "L02",
     "L03",
     "L05",
     "L08",
@@ -381,7 +382,7 @@
     "L20"
    ],
    "false_alarms_total": 8,
-   "false_alarms_per_letter": 0.8,
+   "false_alarms_per_letter": 0.7272727272727273,
    "sourcing": 1.0,
    "controls_flagged": [
     "L01",
@@ -406,6 +407,15 @@
        "C17"
       ]
      ],
+     "bad_sources": []
+    },
+    "L02": {
+     "pred_positive": [],
+     "false_alarm_items": [],
+     "missed": [],
+     "inc_found": [],
+     "inc_missed": [],
+     "inc_false": [],
      "bad_sources": []
     },
     "L03": {

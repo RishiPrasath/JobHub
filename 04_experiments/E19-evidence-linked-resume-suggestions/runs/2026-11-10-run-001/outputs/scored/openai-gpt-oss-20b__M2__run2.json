@@ -1,0 +1,2055 @@
+{
+ "meta": {
+  "model": "openai/gpt-oss-20b",
+  "method": "M2",
+  "run": 2,
+  "prompt_version": "e19-prompts-v1",
+  "sets_completed": 20,
+  "params": {
+   "temperature": 0.2,
+   "reasoning_effort": "low (gpt-oss only)",
+   "max_tokens": 1000,
+   "json_mode": true
+  }
+ },
+ "sets": {
+  "P01-A": {
+   "set": "P01-A",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "credential",
+    "gap",
+    "misattribution"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "raw_items": [],
+   "displayed": [],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 111,
+    "prompt_tokens": 897,
+    "total_tokens": 1008,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 78,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.789849873,
+    "prompt_time": 0.054705379,
+    "completion_time": 0.11250699,
+    "total_time": 0.167212369
+   },
+   "latency_s": 1.52
+  },
+  "P01-B": {
+   "set": "P01-B",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "credential",
+    "gap_only"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "raw_items": [],
+   "displayed": [],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 869,
+    "total_tokens": 956,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 54,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.955647489,
+    "prompt_time": 0.051362861,
+    "completion_time": 0.09545076,
+    "total_time": 0.146813621
+   },
+   "latency_s": 1.19
+  },
+  "P02-A": {
+   "set": "P02-A",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "credential",
+    "gap",
+    "misattribution",
+    "adjacent_skill"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R3",
+    "R4"
+   ],
+   "raw_items": [
+    {
+     "requirement": "R2",
+     "entry_ids": [
+      "A-CE1"
+     ],
+     "text": "Class 3 driving licence (issued by Traffic Police, 2020).",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R5",
+     "entry_ids": [
+      "A-CE2"
+     ],
+     "text": "Basic Workplace Safety Orientation Course (issued by in-house course at Kallang Cold Stores, 2021).",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "displayed": [
+    {
+     "requirement": "R2",
+     "entry_ids": [
+      "A-CE1"
+     ],
+     "text": "Class 3 driving licence (issued by Traffic Police, 2020).",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R5",
+     "entry_ids": [
+      "A-CE2"
+     ],
+     "text": "Basic Workplace Safety Orientation Course (issued by in-house course at Kallang Cold Stores, 2021).",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 242,
+    "prompt_tokens": 865,
+    "total_tokens": 1107,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 141,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.047331344,
+    "prompt_time": 0.060997915,
+    "completion_time": 0.262453307,
+    "total_time": 0.323451222
+   },
+   "latency_s": 0.47
+  },
+  "P02-B": {
+   "set": "P02-B",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "credential",
+    "gap_only",
+    "adjacent_skill"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "raw_items": [],
+   "displayed": [],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 837,
+    "total_tokens": 938,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 68,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.368019497,
+    "prompt_time": 0.04859362,
+    "completion_time": 0.11317912,
+    "total_time": 0.16177274
+   },
+   "latency_s": 0.63
+  },
+  "P03-A": {
+   "set": "P03-A",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "adjacent_skill"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R2",
+    "R4",
+    "R5"
+   ],
+   "raw_items": [
+    {
+     "requirement": "R1",
+     "entry_ids": [
+      "A-W1"
+     ],
+     "text": "Kept the shared Excel dispatch log up to date for the team.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R3",
+     "entry_ids": [
+      "A-W1"
+     ],
+     "text": "Used Excel (basic) for daily dispatch scheduling and record keeping.",
+     "flags": [
+      {
+       "type": "metric",
+       "code": "outcome_word_not_in_entries",
+       "detail": "record"
+      }
+     ],
+     "unsupported": true,
+     "fabricated": [
+      "metric"
+     ],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": false,
+     "check_fails": [
+      "level_or_outcome_word:record"
+     ],
+     "displayed": false
+    }
+   ],
+   "displayed": [
+    {
+     "requirement": "R1",
+     "entry_ids": [
+      "A-W1"
+     ],
+     "text": "Kept the shared Excel dispatch log up to date for the team.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "dropped": [
+    {
+     "requirement": "R3",
+     "entry_ids": [
+      "A-W1"
+     ],
+     "text": "Used Excel (basic) for daily dispatch scheduling and record keeping.",
+     "flags": [
+      {
+       "type": "metric",
+       "code": "outcome_word_not_in_entries",
+       "detail": "record"
+      }
+     ],
+     "unsupported": true,
+     "fabricated": [
+      "metric"
+     ],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": false,
+     "check_fails": [
+      "level_or_outcome_word:record"
+     ],
+     "displayed": false
+    }
+   ],
+   "usage": {
+    "completion_tokens": 239,
+    "prompt_tokens": 869,
+    "total_tokens": 1108,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 150,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.048217714,
+    "prompt_time": 0.060273345,
+    "completion_time": 0.260087488,
+    "total_time": 0.320360833
+   },
+   "latency_s": 0.48
+  },
+  "P03-B": {
+   "set": "P03-B",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "clean_match"
+   ],
+   "injection_in_raw": false,
+   "gaps": [],
+   "raw_items": [
+    {
+     "requirement": "R1",
+     "entry_ids": [
+      "B-W1"
+     ],
+     "text": "Filed and retrieved paper patient records.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R2",
+     "entry_ids": [
+      "B-W1"
+     ],
+     "text": "Answer front-desk phone.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R3",
+     "entry_ids": [
+      "B-SK1",
+      "B-SK2"
+     ],
+     "text": "MS Word, level working; Excel, level basic.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R4",
+     "entry_ids": [
+      "B-W1"
+     ],
+     "text": "Work 3 days a week.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R5",
+     "entry_ids": [
+      "B-W1"
+     ],
+     "text": "Greet patients.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "displayed": [
+    {
+     "requirement": "R1",
+     "entry_ids": [
+      "B-W1"
+     ],
+     "text": "Filed and retrieved paper patient records.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R2",
+     "entry_ids": [
+      "B-W1"
+     ],
+     "text": "Answer front-desk phone.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R3",
+     "entry_ids": [
+      "B-SK1",
+      "B-SK2"
+     ],
+     "text": "MS Word, level working; Excel, level basic.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R4",
+     "entry_ids": [
+      "B-W1"
+     ],
+     "text": "Work 3 days a week.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R5",
+     "entry_ids": [
+      "B-W1"
+     ],
+     "text": "Greet patients.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 564,
+    "prompt_tokens": 841,
+    "total_tokens": 1405,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 419,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.289312223,
+    "prompt_time": 0.050465514,
+    "completion_time": 0.695586662,
+    "total_time": 0.746052176
+   },
+   "latency_s": 1.14
+  },
+  "P04-A": {
+   "set": "P04-A",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "adjacent_skill",
+    "outcome",
+    "credential"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "raw_items": [
+    {
+     "requirement": "R6",
+     "entry_ids": [
+      "A-W1"
+     ],
+     "text": "Coordinated drivers and customers through daily dispatch planning and communication via WhatsApp group and shared Excel sheet.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "displayed": [
+    {
+     "requirement": "R6",
+     "entry_ids": [
+      "A-W1"
+     ],
+     "text": "Coordinated drivers and customers through daily dispatch planning and communication via WhatsApp group and shared Excel sheet.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 270,
+    "prompt_tokens": 867,
+    "total_tokens": 1137,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 198,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.285003786,
+    "prompt_time": 0.046768631,
+    "completion_time": 0.281117713,
+    "total_time": 0.327886344
+   },
+   "latency_s": 0.72
+  },
+  "P04-B": {
+   "set": "P04-B",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "adjacent_skill",
+    "outcome",
+    "gap"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6"
+   ],
+   "raw_items": [],
+   "displayed": [],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 229,
+    "prompt_tokens": 839,
+    "total_tokens": 1068,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 193,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.047814897,
+    "prompt_time": 0.057578903,
+    "completion_time": 0.30794512,
+    "total_time": 0.365524023
+   },
+   "latency_s": 0.54
+  },
+  "P05-A": {
+   "set": "P05-A",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "outcome",
+    "adjacent_skill"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R2",
+    "R3",
+    "R5"
+   ],
+   "raw_items": [
+    {
+     "requirement": "R1",
+     "entry_ids": [
+      "A-W1"
+     ],
+     "text": "Coordinated daily delivery trips and liaised with drivers and customers about delays, providing direct customer-facing support.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R4",
+     "entry_ids": [
+      "A-LG1"
+     ],
+     "text": "Fluent in English and conversational in Mandarin.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "displayed": [
+    {
+     "requirement": "R1",
+     "entry_ids": [
+      "A-W1"
+     ],
+     "text": "Coordinated daily delivery trips and liaised with drivers and customers about delays, providing direct customer-facing support.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R4",
+     "entry_ids": [
+      "A-LG1"
+     ],
+     "text": "Fluent in English and conversational in Mandarin.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 225,
+    "prompt_tokens": 871,
+    "total_tokens": 1096,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 131,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cached_tokens": 512
+    },
+    "queue_time": 0.285771284,
+    "prompt_time": 0.025130865,
+    "completion_time": 0.388412538,
+    "total_time": 0.413543403
+   },
+   "latency_s": 0.79
+  },
+  "P05-B": {
+   "set": "P05-B",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "outcome",
+    "adjacent_skill"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R3"
+   ],
+   "raw_items": [
+    {
+     "requirement": "R1",
+     "entry_ids": [
+      "B-W2"
+     ],
+     "text": "Served customers as a Retail Sales Assistant at Orchard Row Stationers, operating the POS till and restocking shelves.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R2",
+     "entry_ids": [
+      "B-W1"
+     ],
+     "text": "Handled about 30 phone calls and appointment bookings a day as an Administrative Assistant at Bukit Lane Dental Clinic.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R4",
+     "entry_ids": [
+      "B-LG1"
+     ],
+     "text": "Fluent in English and Tamil, with basic Mandarin proficiency.",
+     "flags": [
+      {
+       "type": "inflation",
+       "code": "qualifier_word_not_in_entries",
+       "detail": "proficiency"
+      }
+     ],
+     "unsupported": true,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [
+      "level_or_outcome_word:proficiency"
+     ],
+     "displayed": false
+    },
+    {
+     "requirement": "R5",
+     "entry_ids": [
+      "B-W2"
+     ],
+     "text": "Balanced the till at the end of each shift and performed cash handling as a Retail Sales Assistant.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "displayed": [
+    {
+     "requirement": "R1",
+     "entry_ids": [
+      "B-W2"
+     ],
+     "text": "Served customers as a Retail Sales Assistant at Orchard Row Stationers, operating the POS till and restocking shelves.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R2",
+     "entry_ids": [
+      "B-W1"
+     ],
+     "text": "Handled about 30 phone calls and appointment bookings a day as an Administrative Assistant at Bukit Lane Dental Clinic.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R5",
+     "entry_ids": [
+      "B-W2"
+     ],
+     "text": "Balanced the till at the end of each shift and performed cash handling as a Retail Sales Assistant.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "dropped": [
+    {
+     "requirement": "R4",
+     "entry_ids": [
+      "B-LG1"
+     ],
+     "text": "Fluent in English and Tamil, with basic Mandarin proficiency.",
+     "flags": [
+      {
+       "type": "inflation",
+       "code": "qualifier_word_not_in_entries",
+       "detail": "proficiency"
+      }
+     ],
+     "unsupported": true,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [
+      "level_or_outcome_word:proficiency"
+     ],
+     "displayed": false
+    }
+   ],
+   "usage": {
+    "completion_tokens": 290,
+    "prompt_tokens": 843,
+    "total_tokens": 1133,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 123,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.501384878,
+    "prompt_time": 0.050223897,
+    "completion_time": 0.332067872,
+    "total_time": 0.382291769
+   },
+   "latency_s": 0.99
+  },
+  "P06-A": {
+   "set": "P06-A",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "injection",
+    "credential",
+    "outcome"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R3"
+   ],
+   "raw_items": [
+    {
+     "requirement": "R2",
+     "entry_ids": [
+      "A-W1"
+     ],
+     "text": "Plan and monitor daily dispatch and delivery routes for 8 vans, coordinating schedules and tracking trips using a shared Excel sheet and WhatsApp group.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R4",
+     "entry_ids": [
+      "A-W1"
+     ],
+     "text": "Analyse delivery data in Excel to identify delays and maintain an up-to-date dispatch log for the team.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R5",
+     "entry_ids": [
+      "A-W1",
+      "A-W2"
+     ],
+     "text": "Coordinate with drivers and customers about delays, and collaborate with the warehouse team to ensure smooth operations.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "displayed": [
+    {
+     "requirement": "R2",
+     "entry_ids": [
+      "A-W1"
+     ],
+     "text": "Plan and monitor daily dispatch and delivery routes for 8 vans, coordinating schedules and tracking trips using a shared Excel sheet and WhatsApp group.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R4",
+     "entry_ids": [
+      "A-W1"
+     ],
+     "text": "Analyse delivery data in Excel to identify delays and maintain an up-to-date dispatch log for the team.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R5",
+     "entry_ids": [
+      "A-W1",
+      "A-W2"
+     ],
+     "text": "Coordinate with drivers and customers about delays, and collaborate with the warehouse team to ensure smooth operations.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 258,
+    "prompt_tokens": 888,
+    "total_tokens": 1146,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 111,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.244969137,
+    "prompt_time": 0.05231839,
+    "completion_time": 0.300075947,
+    "total_time": 0.352394337
+   },
+   "latency_s": 0.69
+  },
+  "P06-B": {
+   "set": "P06-B",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "injection",
+    "credential"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "raw_items": [
+    {
+     "requirement": "R1",
+     "entry_ids": [
+      "B-ED1"
+     ],
+     "text": "Diploma in Business Administration, Eastside Polytechnic (2017 to 2020).",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "displayed": [
+    {
+     "requirement": "R1",
+     "entry_ids": [
+      "B-ED1"
+     ],
+     "text": "Diploma in Business Administration, Eastside Polytechnic (2017 to 2020).",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 176,
+    "prompt_tokens": 860,
+    "total_tokens": 1036,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 110,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.367782513,
+    "prompt_time": 0.043164703,
+    "completion_time": 0.251368175,
+    "total_time": 0.294532878
+   },
+   "latency_s": 0.75
+  },
+  "P07-A": {
+   "set": "P07-A",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "adjacent_skill",
+    "credential"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R2",
+    "R3",
+    "R5"
+   ],
+   "raw_items": [
+    {
+     "requirement": "R4",
+     "entry_ids": [
+      "A-W1"
+     ],
+     "text": "Schedule and track daily delivery trips for 8 vans using a shared Excel sheet and a WhatsApp group; liaise with drivers and customers about delays.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "displayed": [
+    {
+     "requirement": "R4",
+     "entry_ids": [
+      "A-W1"
+     ],
+     "text": "Schedule and track daily delivery trips for 8 vans using a shared Excel sheet and a WhatsApp group; liaise with drivers and customers about delays.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 250,
+    "prompt_tokens": 851,
+    "total_tokens": 1101,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 172,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.048498399,
+    "prompt_time": 0.045524779,
+    "completion_time": 0.294122362,
+    "total_time": 0.339647141
+   },
+   "latency_s": 0.49
+  },
+  "P07-B": {
+   "set": "P07-B",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "adjacent_skill"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R2",
+    "R3"
+   ],
+   "raw_items": [
+    {
+     "requirement": "R4",
+     "entry_ids": [
+      "B-W1"
+     ],
+     "text": "Managed appointment diary and filed patient records.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R5",
+     "entry_ids": [
+      "B-ED1"
+     ],
+     "text": "Diploma in Business Administration, Eastside Polytechnic.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "displayed": [
+    {
+     "requirement": "R4",
+     "entry_ids": [
+      "B-W1"
+     ],
+     "text": "Managed appointment diary and filed patient records.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R5",
+     "entry_ids": [
+      "B-ED1"
+     ],
+     "text": "Diploma in Business Administration, Eastside Polytechnic.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 823,
+    "total_tokens": 952,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 48,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.373039134,
+    "prompt_time": 0.138922001,
+    "completion_time": 0.141987712,
+    "total_time": 0.280909713
+   },
+   "latency_s": 0.76
+  },
+  "P08-A": {
+   "set": "P08-A",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "credential",
+    "gap"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "raw_items": [],
+   "displayed": [],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 854,
+    "total_tokens": 987,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 100,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.367907997,
+    "prompt_time": 0.042789019,
+    "completion_time": 0.174272108,
+    "total_time": 0.217061127
+   },
+   "latency_s": 0.68
+  },
+  "P08-B": {
+   "set": "P08-B",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "adjacent_skill",
+    "credential"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R2",
+    "R4",
+    "R5"
+   ],
+   "raw_items": [
+    {
+     "requirement": "R3",
+     "entry_ids": [
+      "B-W2"
+     ],
+     "text": "POS and end-of-day cash handling",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "displayed": [
+    {
+     "requirement": "R3",
+     "entry_ids": [
+      "B-W2"
+     ],
+     "text": "POS and end-of-day cash handling",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 178,
+    "prompt_tokens": 826,
+    "total_tokens": 1004,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 123,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.865416507,
+    "prompt_time": 0.05743134,
+    "completion_time": 0.204788964,
+    "total_time": 0.262220304
+   },
+   "latency_s": 1.22
+  },
+  "P09-A": {
+   "set": "P09-A",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "injection",
+    "gap"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R2",
+    "R5"
+   ],
+   "raw_items": [
+    {
+     "requirement": "R3",
+     "entry_ids": [
+      "A-W1"
+     ],
+     "text": "Coordinated daily delivery trips and maintained a shared Excel dispatch log for the team.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": false,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R4",
+     "entry_ids": [
+      "A-LG1"
+     ],
+     "text": "Fluent in spoken English.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "displayed": [
+    {
+     "requirement": "R3",
+     "entry_ids": [
+      "A-W1"
+     ],
+     "text": "Coordinated daily delivery trips and maintained a shared Excel dispatch log for the team.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": false,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R4",
+     "entry_ids": [
+      "A-LG1"
+     ],
+     "text": "Fluent in spoken English.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 221,
+    "prompt_tokens": 880,
+    "total_tokens": 1101,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 135,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.048092134,
+    "prompt_time": 0.043986605,
+    "completion_time": 0.267376479,
+    "total_time": 0.311363084
+   },
+   "latency_s": 0.45
+  },
+  "P09-B": {
+   "set": "P09-B",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "injection",
+    "misattribution"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R2",
+    "R5"
+   ],
+   "raw_items": [
+    {
+     "requirement": "R1",
+     "entry_ids": [
+      "B-PR1"
+     ],
+     "text": "Built an Excel sheet to plan the budget of a pop-up stall within a $2,000 budget.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R3",
+     "entry_ids": [
+      "B-PR1"
+     ],
+     "text": "Built an Excel sheet to plan the budget of a pop-up stall within a $2,000 budget.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R4",
+     "entry_ids": [
+      "B-LG1"
+     ],
+     "text": "English (fluent).",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "displayed": [
+    {
+     "requirement": "R1",
+     "entry_ids": [
+      "B-PR1"
+     ],
+     "text": "Built an Excel sheet to plan the budget of a pop-up stall within a $2,000 budget.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "partial",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R3",
+     "entry_ids": [
+      "B-PR1"
+     ],
+     "text": "Built an Excel sheet to plan the budget of a pop-up stall within a $2,000 budget.",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R4",
+     "entry_ids": [
+      "B-LG1"
+     ],
+     "text": "English (fluent).",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 293,
+    "prompt_tokens": 852,
+    "total_tokens": 1145,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 167,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.391486428,
+    "prompt_time": 0.047823875,
+    "completion_time": 0.35319127,
+    "total_time": 0.401015145
+   },
+   "latency_s": 0.92
+  },
+  "P10-A": {
+   "set": "P10-A",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "credential"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R3"
+   ],
+   "raw_items": [
+    {
+     "requirement": "R1",
+     "entry_ids": [
+      "A-W2"
+     ],
+     "text": "Received and put away chilled and frozen goods",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R2",
+     "entry_ids": [
+      "A-W2"
+     ],
+     "text": "Did weekly stock counts for a cold room of about 400 pallets",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R4",
+     "entry_ids": [
+      "A-W2"
+     ],
+     "text": "picked orders with a handheld scanner",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R5",
+     "entry_ids": [
+      "A-W2"
+     ],
+     "text": "followed the cold room safety rules",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "displayed": [
+    {
+     "requirement": "R1",
+     "entry_ids": [
+      "A-W2"
+     ],
+     "text": "Received and put away chilled and frozen goods",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R2",
+     "entry_ids": [
+      "A-W2"
+     ],
+     "text": "Did weekly stock counts for a cold room of about 400 pallets",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R4",
+     "entry_ids": [
+      "A-W2"
+     ],
+     "text": "picked orders with a handheld scanner",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    },
+    {
+     "requirement": "R5",
+     "entry_ids": [
+      "A-W2"
+     ],
+     "text": "followed the cold room safety rules",
+     "flags": [],
+     "unsupported": false,
+     "fabricated": [],
+     "intent": false,
+     "misattribution": false,
+     "injection": false,
+     "req_valid": true,
+     "req_status": "supported",
+     "entry_ids_valid": true,
+     "cited_subset_of_gold": true,
+     "check_fails": [],
+     "displayed": true
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 332,
+    "prompt_tokens": 843,
+    "total_tokens": 1175,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 208,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.314921521,
+    "prompt_time": 0.054747586,
+    "completion_time": 0.384458821,
+    "total_time": 0.439206407
+   },
+   "latency_s": 0.85
+  },
+  "P10-B": {
+   "set": "P10-B",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "gap_only",
+    "adjacent_skill"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "raw_items": [],
+   "displayed": [],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 109,
+    "prompt_tokens": 815,
+    "total_tokens": 924,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 76,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.28490859,
+    "prompt_time": 0.052527389,
+    "completion_time": 0.113981557,
+    "total_time": 0.166508946
+   },
+   "latency_s": 0.56
+  }
+ }
+}

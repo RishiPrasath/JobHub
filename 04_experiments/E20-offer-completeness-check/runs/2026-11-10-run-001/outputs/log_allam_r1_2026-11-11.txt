@@ -1,0 +1,15 @@
+L01 API error, attempt 1 Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_reques
+L01 API error, attempt 2 Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_reques
+L01 API error, attempt 3 Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_reques
+STOP: no response after retries (limiter lock or API error)
+L02 API error, attempt 4 Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_reques
+STOP: no response after retries (limiter lock or API error)
+L03 API error, attempt 5 Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_reques
+STOP: no response after retries (limiter lock or API error)
+L04 API error, attempt 6 Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_reques
+STOP: no response after retries (limiter lock or API error)
+L05 API error, attempt 7 Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_reques
+STOP: no response after retries (limiter lock or API error)
+L06 API error, attempt 8 Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_reques
+STOP: no response after retries (limiter lock or API error)
+L07 API error, attempt 9 Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_reques

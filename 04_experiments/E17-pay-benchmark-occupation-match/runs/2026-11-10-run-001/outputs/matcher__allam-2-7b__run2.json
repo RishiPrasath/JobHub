@@ -1,0 +1,1998 @@
+{
+ "model": "allam-2-7b",
+ "run": 2,
+ "n": 100,
+ "results": [
+  {
+   "id": "X3-01",
+   "top3": [
+    "24113",
+    "33222",
+    "54141"
+   ],
+   "raw_top3": [
+    "24113",
+    "33222",
+    "54141"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job description mentions 'Tax accountant', 'Senior security supervisor', and 'Senior private security officer', all of which align with the provided codes",
+   "parse_ok": true,
+   "tokens": 654,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-02",
+   "top3": [
+    "24111",
+    "24112",
+    "24231"
+   ],
+   "raw_top3": [
+    "24111",
+    "24112",
+    "24231"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "The job posting matches best with Budgeting/Financial accounting manager, Assistant accountant, and After sales adviser/Client account service executive.",
+   "parse_ok": true,
+   "tokens": 634,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-03",
+   "top3": [
+    "24111",
+    "24112",
+    "24231"
+   ],
+   "raw_top3": [
+    "24111",
+    "24112",
+    "24231"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "All three candidates are listed under Accounting/Auditing/Taxation occupations.",
+   "parse_ok": true,
+   "tokens": 625,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-04",
+   "top3": [
+    "24111",
+    "24231",
+    "33222"
+   ],
+   "raw_top3": [
+    "24111",
+    "24231",
+    "33222"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and skills match with the roles provided",
+   "parse_ok": true,
+   "tokens": 638,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-05",
+   "top3": [
+    "24111",
+    "24112",
+    "24231"
+   ],
+   "raw_top3": [
+    "24111",
+    "24112",
+    "24231"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "The job posting matches best with Budgeting/Financial accounting manager, Assistant accountant, and After sales adviser/Client account service executive.",
+   "parse_ok": true,
+   "tokens": 634,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-06",
+   "top3": [
+    "25220",
+    "25291",
+    "31173"
+   ],
+   "raw_top3": [
+    "25220",
+    "25291",
+    "31173"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "The posting matches with the roles of Telecommunications engineering technician, Data centre engineer, and Process engineering technician.",
+   "parse_ok": true,
+   "tokens": 619,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-07",
+   "top3": [
+    "25121",
+    "25122",
+    "25123"
+   ],
+   "raw_top3": [
+    "25121",
+    "25122",
+    "25123"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job description mentions 'software developer', 'marketing and sales executive (food and beverage services)' and 'attractions guide' which align with the candidates provided.",
+   "parse_ok": true,
+   "tokens": 686,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-08",
+   "top3": [
+    "25113",
+    "25121",
+    "25213"
+   ],
+   "raw_top3": [
+    "25113",
+    "25121",
+    "25213"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "The job posting mentions 'Software and applications manager', 'Software developer', and 'Data engineer', all of which align with the provided codes.",
+   "parse_ok": true,
+   "tokens": 606,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-09",
+   "top3": [
+    "25113",
+    "25121",
+    "25213"
+   ],
+   "raw_top3": [
+    "25113",
+    "25121",
+    "25213"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "The job title and seniority suggest a focus on software development and architecture, aligning with the roles of Enterprise/Solution/Software architect, Software developer, and Data engineer.",
+   "parse_ok": true,
+   "tokens": 598,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-10",
+   "top3": [
+    "33311",
+    "72000",
+    "83441"
+   ],
+   "raw_top3": [
+    "33311",
+    "72000",
+    "83441"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "These codes align with the job title and seniority level, although the duties are vague.",
+   "parse_ok": true,
+   "tokens": 732,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-11",
+   "top3": [
+    "22200",
+    "22621",
+    "24332"
+   ],
+   "raw_top3": [
+    "22200",
+    "22621",
+    "24332"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and duties align with the roles of Enrolled/Assistant nurse, Landscape/Plant nursery supervisor, and Senior private security officer",
+   "parse_ok": true,
+   "tokens": 707,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-12",
+   "top3": [
+    "22200",
+    "33132"
+   ],
+   "raw_top3": [
+    "22200",
+    "22611",
+    "33132"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "All listed codes are relevant to the healthcare field and have appropriate seniority levels for the given job description.",
+   "parse_ok": true,
+   "tokens": 656,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-13",
+   "top3": [
+    "22200",
+    "25245",
+    "53202"
+   ],
+   "raw_top3": [
+    "22200",
+    "25245",
+    "53202"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "Job title and duties align with the roles of Enrolled/Assistant nurse, Petrol station attendant, and Healthcare assistant/Nursing aide/assistant",
+   "parse_ok": true,
+   "tokens": 735,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-14",
+   "top3": [
+    "22200",
+    "22621",
+    "24332"
+   ],
+   "raw_top3": [
+    "22200",
+    "22621",
+    "24332"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "All listed candidates are related to healthcare field with 'Enrolled/Assistant nurse (excluding registered nurse)' being the closest match.",
+   "parse_ok": true,
+   "tokens": 663,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-15",
+   "top3": [
+    "22621",
+    "24332",
+    "33232"
+   ],
+   "raw_top3": [
+    "22621",
+    "24332",
+    "33232"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title mentions 'Senior/Staff Nurse', 'Emergency', and 'Urgent Care', which align with the roles of Registered Nurse (22621), Insurance sales agent/broker (24332), and Healthcare assistant (33232).",
+   "parse_ok": true,
+   "tokens": 704,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-16",
+   "top3": [
+    "54141",
+    "54142"
+   ],
+   "raw_top3": [
+    "54141",
+    "54142",
+    "54143"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title matches with supervisory roles",
+   "parse_ok": true,
+   "tokens": 688,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-17",
+   "top3": [
+    "51701",
+    "54142"
+   ],
+   "raw_top3": [
+    "51131",
+    "51701",
+    "54142"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "These codes match the job title and employment type, indicating a supervisor role in logistics and supply chain sector.",
+   "parse_ok": true,
+   "tokens": 692,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-18",
+   "top3": [
+    "51701"
+   ],
+   "raw_top3": [
+    "51131",
+    "51701",
+    "54000"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "These codes match the job description as they involve overseeing and supervising operations in a warehouse or manufacturing environment.",
+   "parse_ok": true,
+   "tokens": 725,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-19",
+   "top3": [
+    "31574",
+    "54142",
+    "96000"
+   ],
+   "raw_top3": [
+    "31574",
+    "54142",
+    "96000"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "The job title 'Warehouse Supervisor' aligns with the code 31574 (Port/Shipping operations supervisor), 54142 (Stationary plant/machine supervisor/general foreman) and 96000 (Waste collection/recycling/material recovery supervisor).",
+   "parse_ok": true,
+   "tokens": 701,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-20",
+   "top3": [
+    "13241",
+    "14123",
+    "54142"
+   ],
+   "raw_top3": [
+    "13241",
+    "14123",
+    "54142"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "These codes represent Supply and distribution/Logistics/Warehousing manager, Food and beverage operations manager, and Mobile machinery supervisor/general foreman respectively, all fitting the supervisor role in a warehouse context.",
+   "parse_ok": true,
+   "tokens": 704,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-21",
+   "top3": [
+    "24313",
+    "24314",
+    "24320"
+   ],
+   "raw_top3": [
+    "24313",
+    "24314",
+    "24320"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job description involves media, digital marketing, and corporate communications",
+   "parse_ok": true,
+   "tokens": 678,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-22",
+   "top3": [
+    "33223",
+    "34122",
+    "34121"
+   ],
+   "raw_top3": [
+    "33223",
+    "34122",
+    "34121"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and duties align with the listed roles",
+   "parse_ok": true,
+   "tokens": 630,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-23",
+   "top3": [
+    "33221",
+    "33223",
+    "33224"
+   ],
+   "raw_top3": [
+    "33221",
+    "33223",
+    "33224"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and seniority align with the provided codes",
+   "parse_ok": true,
+   "tokens": 624,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-24",
+   "top3": [
+    "33132",
+    "33133",
+    "33223"
+   ],
+   "raw_top3": [
+    "33132",
+    "33133",
+    "33223"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "The job description mentions 'Events and Marketing Associates', which aligns with the roles of Marketing and sales executive (33132), Tax associate professional (33133), and Art and craft instructor (33223).",
+   "parse_ok": true,
+   "tokens": 741,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-25",
+   "top3": [
+    "24312",
+    "24313",
+    "24314"
+   ],
+   "raw_top3": [
+    "24312",
+    "24313",
+    "24314"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "The job title 'Brand Marketing Assistant' aligns with the roles of Marketing strategy/planning professional (24312), Nursing aide/assistant (53202), and Telemarketer (52202).",
+   "parse_ok": true,
+   "tokens": 692,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-26",
+   "top3": [
+    "51121",
+    "52492",
+    "42245"
+   ],
+   "raw_top3": [
+    "51121",
+    "52492",
+    "42245"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job titles and descriptions align with the provided codes",
+   "parse_ok": true,
+   "tokens": 613,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-27",
+   "top3": [
+    "13244",
+    "13430",
+    "42244"
+   ],
+   "raw_top3": [
+    "13244",
+    "13430",
+    "42244"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "The job title matches Customer Service Executive, and the duties align with Customer Service roles.",
+   "parse_ok": true,
+   "tokens": 613,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-28",
+   "top3": [
+    "33312",
+    "33492",
+    "43121"
+   ],
+   "raw_top3": [
+    "33312",
+    "33492",
+    "43121"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "These codes match the job title and employment type, although the duties are vague.",
+   "parse_ok": true,
+   "tokens": 622,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-29",
+   "top3": [
+    "31594",
+    "31597",
+    "31596"
+   ],
+   "raw_top3": [
+    "31594",
+    "31597",
+    "31596"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job description refers to Flight operations officer, Air cargo officer, and Train operations officer",
+   "parse_ok": true,
+   "tokens": 645,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-30",
+   "top3": [
+    "31593",
+    "31596",
+    "31602"
+   ],
+   "raw_top3": [
+    "31593",
+    "31596",
+    "31602"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "The job title 'Customer Service Officer' aligns with these roles as they involve overseeing customer service operations.",
+   "parse_ok": true,
+   "tokens": 619,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-31",
+   "top3": [
+    "21421",
+    "21441",
+    "21492"
+   ],
+   "raw_top3": [
+    "21421",
+    "21441",
+    "21492"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "The job title 'Mechanical Engineer (Manufacturing / Industrial)' matches with codes 21421 (Electrical engineer), 21441 (Mechanical engineer), and 21492 (Mechanical engineering technician).",
+   "parse_ok": true,
+   "tokens": 673,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-32",
+   "top3": [
+    "31004",
+    "31173",
+    "31182"
+   ],
+   "raw_top3": [
+    "31004",
+    "31173",
+    "31182"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "The job title 'Engineering Assistant' matches with the roles of Assistant Electronics Engineer (31004), Electrical/Electronics Draughtsperson (31173), and Assistant Electrical/Electronics Engineer (31182).",
+   "parse_ok": true,
+   "tokens": 670,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-33",
+   "top3": [
+    "21415",
+    "21441",
+    "21473"
+   ],
+   "raw_top3": [
+    "21415",
+    "21441",
+    "21473"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and responsibilities match with these codes.",
+   "parse_ok": true,
+   "tokens": 580,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-34",
+   "top3": [
+    "21412",
+    "21441",
+    "21473"
+   ],
+   "raw_top3": [
+    "21412",
+    "21441",
+    "21473"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and location match, relevant engineering roles",
+   "parse_ok": true,
+   "tokens": 610,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-35",
+   "top3": [
+    "21441",
+    "21498",
+    "31151"
+   ],
+   "raw_top3": [
+    "21441",
+    "21498",
+    "31151"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "The job posting matches best with a Mechanical Engineer (21441), DevOps Engineer (21498), and Mechanical Engineering Technician (31151) based on the provided codes.",
+   "parse_ok": true,
+   "tokens": 618,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-36",
+   "top3": [
+    "34343",
+    "34341",
+    "31163"
+   ],
+   "raw_top3": [
+    "34343",
+    "34341",
+    "31163"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and job description mention 'DEMI CHEF', which is a chef with less experience. The candidates 34343 (Pastry chef), 34341 (Chef), and 31163 (Cook) are the closest matches.",
+   "parse_ok": true,
+   "tokens": 738,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-37",
+   "top3": [
+    "34341",
+    "34342",
+    "34343"
+   ],
+   "raw_top3": [
+    "34341",
+    "34342",
+    "34343"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "These codes represent chef and kitchen operations head/supervisor/pastry chef roles, which align with the job of HEAD CHEF",
+   "parse_ok": true,
+   "tokens": 715,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-38",
+   "top3": [
+    "94101",
+    "94102",
+    "94104"
+   ],
+   "raw_top3": [
+    "94101",
+    "94102",
+    "94104"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and job description mention 'Kitchen assistant', 'Food/Drink stall assistant', and 'Tea server/steward', which align with the selected candidates.",
+   "parse_ok": true,
+   "tokens": 671,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-39",
+   "top3": [
+    "31163",
+    "34343",
+    "34341"
+   ],
+   "raw_top3": [
+    "31163",
+    "34343",
+    "34341"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "The job posting matches with the roles of Pastry Chef (34343), Chef (34341), and Chef (excluding pastry chef) (31163).",
+   "parse_ok": true,
+   "tokens": 712,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-40",
+   "top3": [
+    "34341",
+    "34342",
+    "34343"
+   ],
+   "raw_top3": [
+    "34341",
+    "34342",
+    "34343"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "All three candidates are chef roles, aligning with the job title 'Head Chef'.",
+   "parse_ok": true,
+   "tokens": 700,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-41",
+   "top3": [
+    "24232",
+    "24233",
+    "24231"
+   ],
+   "raw_top3": [
+    "24232",
+    "24233",
+    "24231"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "All three candidates are in the Human Resource field with various specializations.",
+   "parse_ok": true,
+   "tokens": 643,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-42",
+   "top3": [
+    "33223",
+    "33224",
+    "33225"
+   ],
+   "raw_top3": [
+    "33223",
+    "33224",
+    "33225"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "Job description mentions 'Business development executive', 'Marketing and sales executive (food and beverage services)' and 'Merchandising/Category executive' roles, indicating a focus on sales and marketing.",
+   "parse_ok": true,
+   "tokens": 682,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-43",
+   "top3": [
+    "12121",
+    "13420",
+    "24231"
+   ],
+   "raw_top3": [
+    "12121",
+    "13420",
+    "24231"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "These codes represent Personnel/Human resource manager, ICT business process consultant/Business analyst, and Human resource consultant (excluding executive search consultant), all with high-level responsibilities in human resources.",
+   "parse_ok": true,
+   "tokens": 653,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-44",
+   "top3": [
+    "24232",
+    "24233",
+    "24231"
+   ],
+   "raw_top3": [
+    "24232",
+    "24233",
+    "24231"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "These candidates match the job description as they involve human resources roles and have a higher level of responsibility compared to other options.",
+   "parse_ok": true,
+   "tokens": 639,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-45",
+   "top3": [
+    "33221",
+    "33223",
+    "33225"
+   ],
+   "raw_top3": [
+    "33221",
+    "33223",
+    "33225"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and responsibilities align with the roles of Business development executive, Marketing and sales executive (food and beverage services), and Merchandising/Category executive.",
+   "parse_ok": true,
+   "tokens": 669,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-46",
+   "top3": [
+    "24111",
+    "24112"
+   ],
+   "raw_top3": [
+    "24111",
+    "24112",
+    "24222"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "These positions are closest to the job description, involving accounting, administration, and client services roles.",
+   "parse_ok": true,
+   "tokens": 642,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-47",
+   "top3": [
+    "24221",
+    "25220",
+    "33131"
+   ],
+   "raw_top3": [
+    "24221",
+    "25220",
+    "33131"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "These codes represent management, administrative, and accounting roles respectively, aligning with the administrative assistant role.",
+   "parse_ok": true,
+   "tokens": 653,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-48",
+   "top3": [
+    "33131",
+    "33160",
+    "94104"
+   ],
+   "raw_top3": [
+    "33131",
+    "33160",
+    "94104"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and duties align with the roles provided",
+   "parse_ok": true,
+   "tokens": 642,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-49",
+   "top3": [
+    "33494",
+    "33225",
+    "33221"
+   ],
+   "raw_top3": [
+    "33494",
+    "33225",
+    "33221"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "All three positions match the job description as they involve administrative roles in various industries.",
+   "parse_ok": true,
+   "tokens": 627,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-50",
+   "top3": [
+    "33131",
+    "33492",
+    "51121"
+   ],
+   "raw_top3": [
+    "33131",
+    "33492",
+    "51121"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "The job title 'ADMINISTRATION OFFICER' aligns with the code 33131 (Assistant accountant), 33492 (Operations officer - administrative), and 51121 (Rail station service assistant). These codes indicate administrative roles, aligning with the job's focus on administration.",
+   "parse_ok": true,
+   "tokens": 705,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-51",
+   "top3": [
+    "24332",
+    "24333",
+    "24334"
+   ],
+   "raw_top3": [
+    "24332",
+    "24333",
+    "24334"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job description involves sales and marketing in the food and beverage services sector.",
+   "parse_ok": true,
+   "tokens": 627,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-52",
+   "top3": [
+    "52421",
+    "52202",
+    "52201"
+   ],
+   "raw_top3": [
+    "52421",
+    "52202",
+    "52201"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "Job title and responsibilities align with Sales supervisor, shop sales assistant, and sales demonstrator",
+   "parse_ok": true,
+   "tokens": 663,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-53",
+   "top3": [
+    "33221",
+    "33223",
+    "33224"
+   ],
+   "raw_top3": [
+    "33221",
+    "33223",
+    "33224"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job description involves sales and executive roles",
+   "parse_ok": true,
+   "tokens": 622,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-54",
+   "top3": [
+    "33221",
+    "33223",
+    "33224"
+   ],
+   "raw_top3": [
+    "33221",
+    "33223",
+    "33224"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job description refers to sales and customer service roles, aligning with Business development executive, Online sales channel executive, and Executive secretary",
+   "parse_ok": true,
+   "tokens": 636,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-55",
+   "top3": [
+    "52201",
+    "52202",
+    "52421"
+   ],
+   "raw_top3": [
+    "52201",
+    "52202",
+    "52421"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "Job title and seniority suggest a sales-related role, these codes align with sales supervisor, shop sales assistant, and sales demonstrator",
+   "parse_ok": true,
+   "tokens": 635,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-56",
+   "top3": [
+    "25111",
+    "25112",
+    "25213"
+   ],
+   "raw_top3": [
+    "25111",
+    "25112",
+    "25213"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "These codes match the job description as they are related to data administration and analysis.",
+   "parse_ok": true,
+   "tokens": 634,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-57",
+   "top3": [
+    "25212",
+    "25291",
+    "33223"
+   ],
+   "raw_top3": [
+    "25212",
+    "25291",
+    "33223"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and duties match with the mentioned roles",
+   "parse_ok": true,
+   "tokens": 634,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-58",
+   "top3": [
+    "21222",
+    "21231",
+    "25111"
+   ],
+   "raw_top3": [
+    "21222",
+    "21231",
+    "25111"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "These codes represent Data Scientist, Financial Analyst, and Systems Designer/Analyst, all with high-level responsibilities and relevant to the job posting.",
+   "parse_ok": true,
+   "tokens": 620,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-59",
+   "top3": [
+    "21222",
+    "25212",
+    "25291"
+   ],
+   "raw_top3": [
+    "21222",
+    "25212",
+    "25291"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and skills match with these codes.",
+   "parse_ok": true,
+   "tokens": 605,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-60",
+   "top3": [
+    "21222",
+    "21231",
+    "21212"
+   ],
+   "raw_top3": [
+    "21222",
+    "21231",
+    "21212"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "All listed occupations have roles related to data analysis and technology, matching the job's focus on data scientist and IT.",
+   "parse_ok": true,
+   "tokens": 615,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-01",
+   "top3": [
+    "74121",
+    "74122"
+   ],
+   "raw_top3": [
+    "74121",
+    "74122",
+    "74131"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job description matches with Electrical fitter, Electrical lift/escalator and related equipment fitter, and Office/Commercial/Industrial establishment indoor cleaner roles.",
+   "parse_ok": true,
+   "tokens": 715,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-02",
+   "top3": [
+    "71000",
+    "71311",
+    "71331"
+   ],
+   "raw_top3": [
+    "71000",
+    "71311",
+    "71331"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and duties align with the selected candidates' roles",
+   "parse_ok": true,
+   "tokens": 646,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-03",
+   "top3": [
+    "31213",
+    "72120",
+    "72240"
+   ],
+   "raw_top3": [
+    "31213",
+    "72120",
+    "72240"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and job description mention 'Welder' and 'Flame cutter', aligning with codes 31213, 72120, and 72240.",
+   "parse_ok": true,
+   "tokens": 694,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-04",
+   "top3": [
+    "31122",
+    "31142",
+    "35123"
+   ],
+   "raw_top3": [
+    "31122",
+    "31142",
+    "35123"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "These codes have the closest titles to the job posting, covering maintenance, automation, and IT support roles.",
+   "parse_ok": true,
+   "tokens": 626,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-05",
+   "top3": [
+    "83323",
+    "83324",
+    "83322"
+   ],
+   "raw_top3": [
+    "83323",
+    "83324",
+    "83322"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "All listed codes (83323, 83324, and 83322) are the closest matches for the job of Lorry driver as they are all related to driving heavy vehicles.",
+   "parse_ok": true,
+   "tokens": 683,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-06",
+   "top3": [
+    "83491",
+    "94104",
+    "96102"
+   ],
+   "raw_top3": [
+    "83491",
+    "94104",
+    "96102"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "These codes match the job description as they involve food delivery, waste recycling, and car park attendant roles.",
+   "parse_ok": true,
+   "tokens": 727,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-07",
+   "top3": [
+    "83441",
+    "83432",
+    "91133"
+   ],
+   "raw_top3": [
+    "83441",
+    "83432",
+    "91133"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "The job posting matches with Forklift Operator, Crane/Hoist operator (excluding port), and Office/Commercial/Industrial establishment multi-skilled cleaner cum machine operator roles.",
+   "parse_ok": true,
+   "tokens": 692,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-08",
+   "top3": [
+    "52201",
+    "52202",
+    "52421"
+   ],
+   "raw_top3": [
+    "52201",
+    "52202",
+    "52421"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "These codes represent sales supervisor, shop sales assistant, and sales demonstrator, which align with the job of Retail Sales Assistant (Weekend)",
+   "parse_ok": true,
+   "tokens": 634,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-09",
+   "top3": [
+    "12215",
+    "12222",
+    "12241"
+   ],
+   "raw_top3": [
+    "12215",
+    "12222",
+    "12241"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "The job title 'Store Manager' aligns with the roles of Online sales channel manager (12215), Customer service manager (12222), and Retail manager (12241).",
+   "parse_ok": true,
+   "tokens": 596,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-10",
+   "top3": [
+    "54141",
+    "54142",
+    "74001"
+   ],
+   "raw_top3": [
+    "54141",
+    "54142",
+    "74001"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "All three candidates match the job description as supervisors in specific industries.",
+   "parse_ok": true,
+   "tokens": 695,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-11",
+   "top3": [
+    "36991",
+    "36100",
+    "53120"
+   ],
+   "raw_top3": [
+    "36991",
+    "36100",
+    "53120"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "All listed occupations are related to teaching or childcare, aligning with the relief teacher role.",
+   "parse_ok": true,
+   "tokens": 693,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-12",
+   "top3": [
+    "36100",
+    "36991",
+    "72221"
+   ],
+   "raw_top3": [
+    "36100",
+    "36991",
+    "72221"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "All three candidates are listed as supervisors or supervisors/general foreman in specific trades, aligning with the job title 'Preschool Teacher (Nursery)'",
+   "parse_ok": true,
+   "tokens": 733,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-13",
+   "top3": [
+    "33394",
+    "33494",
+    "36910"
+   ],
+   "raw_top3": [
+    "33394",
+    "33494",
+    "36910"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title, duties, and employment type match with these codes",
+   "parse_ok": true,
+   "tokens": 637,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-14",
+   "top3": [
+    "51322",
+    "51422",
+    "53201"
+   ],
+   "raw_top3": [
+    "51322",
+    "51422",
+    "53201"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "All listed jobs have similar job descriptions to the provided job postings.",
+   "parse_ok": true,
+   "tokens": 614,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-15",
+   "top3": [
+    "42241",
+    "42242",
+    "96272"
+   ],
+   "raw_top3": [
+    "42241",
+    "42242",
+    "96272"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "The job posting matches with Hotel Receptionist, Hotel Cleaner, and Concierge (hotel) roles based on the given codes.",
+   "parse_ok": true,
+   "tokens": 674,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-16",
+   "top3": [
+    "51501",
+    "51502",
+    "96251"
+   ],
+   "raw_top3": [
+    "51501",
+    "51502",
+    "96251"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "These codes match the job title and responsibilities, indicating a high level of confidence in the matches.",
+   "parse_ok": true,
+   "tokens": 645,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-17",
+   "top3": [
+    "34343",
+    "31163",
+    "75122"
+   ],
+   "raw_top3": [
+    "34343",
+    "31163",
+    "75122"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and duties match with Pastry Chef, Pastry/Confectionery maker, and Pastry/Confectionery maker",
+   "parse_ok": true,
+   "tokens": 700,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-18",
+   "top3": [
+    "53201",
+    "53202",
+    "53203"
+   ],
+   "raw_top3": [
+    "53201",
+    "53202",
+    "53203"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "All listed codes match the job of Healthcare Assistant in the posting.",
+   "parse_ok": true,
+   "tokens": 670,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-19",
+   "top3": [
+    "22621",
+    "53201"
+   ],
+   "raw_top3": [
+    "22621",
+    "24230",
+    "53201"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Pharmacy Assistant, Pharmacy Technician, and Healthcare Assistant are the closest matches to the job description.",
+   "parse_ok": true,
+   "tokens": 654,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-20",
+   "top3": [
+    "22621",
+    "22640",
+    "22680"
+   ],
+   "raw_top3": [
+    "22621",
+    "22640",
+    "22680"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and seniority align with the provided codes",
+   "parse_ok": true,
+   "tokens": 611,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-21",
+   "top3": [
+    "33223",
+    "33224",
+    "33225"
+   ],
+   "raw_top3": [
+    "33223",
+    "33224",
+    "33225"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job description mentions 'Accounting/Auditing/Taxation', which aligns with the roles of Accountant (excluding tax accountant), Executive secretary, and Merchandising/Category executive",
+   "parse_ok": true,
+   "tokens": 670,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-22",
+   "top3": [
+    "33221",
+    "33223",
+    "33224"
+   ],
+   "raw_top3": [
+    "33221",
+    "33223",
+    "33224"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "All three listed occupations involve administrative roles within a company, aligning with the job's focus on human resources.",
+   "parse_ok": true,
+   "tokens": 641,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-23",
+   "top3": [
+    "31593",
+    "31596",
+    "31597"
+   ],
+   "raw_top3": [
+    "31593",
+    "31596",
+    "31597"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "These codes (Credit/Loans officer, Flight operations officer, Air cargo officer) are most relevant as they involve credit and operations roles, aligning with the job of Credit Control Officer.",
+   "parse_ok": true,
+   "tokens": 659,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-24",
+   "top3": [
+    "25124",
+    "25123",
+    "25111"
+   ],
+   "raw_top3": [
+    "25124",
+    "25123",
+    "25111"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title 'Graphic Designer' matches with codes 25124 (Interaction designer), 25123 (Multimedia-games developer/designer), and 25111 (Photographer).",
+   "parse_ok": true,
+   "tokens": 677,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-25",
+   "top3": [
+    "26541",
+    "26542",
+    "26543"
+   ],
+   "raw_top3": [
+    "26541",
+    "26542",
+    "26543"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Video Editor roles",
+   "parse_ok": true,
+   "tokens": 652,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-26",
+   "top3": [
+    "26622",
+    "26621",
+    "26413"
+   ],
+   "raw_top3": [
+    "26622",
+    "26621",
+    "26413"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "These codes represent social work associate, medical/dental receptionist, and legal associate professional, which align with the job's focus on content creation and administrative tasks",
+   "parse_ok": true,
+   "tokens": 642,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-27",
+   "top3": [
+    "54143",
+    "54144",
+    "54142"
+   ],
+   "raw_top3": [
+    "54143",
+    "54144",
+    "54142"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "All listed codes (54143, 54144, and 54142) are closest to the job description as they involve security officer roles.",
+   "parse_ok": true,
+   "tokens": 649,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-28",
+   "top3": [
+    "91133",
+    "91152",
+    "91162"
+   ],
+   "raw_top3": [
+    "91133",
+    "91152",
+    "91162"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "The job posting matches with the Office/Commercial/Industrial establishment multi-skilled cleaner cum machine operator, Table-top cleaner, and Residential/Open areas multi-skilled cleaner cum machine operator roles.",
+   "parse_ok": true,
+   "tokens": 687,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-29",
+   "top3": [
+    "34221",
+    "34223",
+    "52422"
+   ],
+   "raw_top3": [
+    "34221",
+    "34223",
+    "52422"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and responsibilities align with the roles of Sports coach, Physical fitness instructor, and Salesperson (door-to-door)",
+   "parse_ok": true,
+   "tokens": 677,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-30",
+   "top3": [
+    "26621",
+    "26622",
+    "26633"
+   ],
+   "raw_top3": [
+    "26621",
+    "26622",
+    "26633"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "All listed job titles match the Social Worker job description.",
+   "parse_ok": true,
+   "tokens": 591,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-31",
+   "top3": [
+    "52201",
+    "52202",
+    "52421"
+   ],
+   "raw_top3": [
+    "52201",
+    "52202",
+    "52421"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job description mentions 'sales' and the provided codes have sales-related roles",
+   "parse_ok": true,
+   "tokens": 660,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-32",
+   "top3": [
+    "31571",
+    "31597",
+    "35123"
+   ],
+   "raw_top3": [
+    "31571",
+    "31597",
+    "35123"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and job duties align with the roles of Marketing and sales executive (food and beverage services), Fumigator and related pest/weed controller, and IT support technician",
+   "parse_ok": true,
+   "tokens": 738,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-33",
+   "top3": [
+    "25220",
+    "33160"
+   ],
+   "raw_top3": [
+    "25220",
+    "33160",
+    "35142"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job description mentions 'Administration' and 'Webmaster/Web administrator', aligning with the selected codes.",
+   "parse_ok": true,
+   "tokens": 654,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-34",
+   "top3": [
+    "33221",
+    "33223",
+    "33224"
+   ],
+   "raw_top3": [
+    "33221",
+    "33223",
+    "33224"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job description mentions Sales and Marketing Executive role, aligning with the selected codes",
+   "parse_ok": true,
+   "tokens": 621,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-35",
+   "top3": [
+    "52201",
+    "52202",
+    "52421"
+   ],
+   "raw_top3": [
+    "52201",
+    "52202",
+    "52421"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "Job title and job description align with the roles of Sales supervisor, Shop sales assistant, and Sales demonstrator",
+   "parse_ok": true,
+   "tokens": 634,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-36",
+   "top3": [
+    "33132",
+    "33221",
+    "52202"
+   ],
+   "raw_top3": [
+    "33132",
+    "33221",
+    "52202"
+   ],
+   "verdict": "match",
+   "confidence": "medium",
+   "why": "The job title 'Business Development Associate' aligns with 'Audit associate professional' (33132) and 'Business development executive' (33221). The employment type is full-time, which matches 'Shop sales assistant' (52202).",
+   "parse_ok": true,
+   "tokens": 652,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-37",
+   "top3": [
+    "51311",
+    "71000",
+    "91000"
+   ],
+   "raw_top3": [
+    "51311",
+    "71000",
+    "91000"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and responsibilities align with the selected codes",
+   "parse_ok": true,
+   "tokens": 716,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-38",
+   "top3": [
+    "82000",
+    "82122",
+    "82131"
+   ],
+   "raw_top3": [
+    "82000",
+    "82122",
+    "82131"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job description mentions 'Production Supervisor', 'Electronic equipment/component assembler', and 'Electrical/Electronic products quality checker/tester' which align with the selected codes.",
+   "parse_ok": true,
+   "tokens": 674,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-39",
+   "top3": [
+    "31571",
+    "31572",
+    "31573"
+   ],
+   "raw_top3": [
+    "31571",
+    "31572",
+    "31573"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and responsibilities align with the selected codes",
+   "parse_ok": true,
+   "tokens": 713,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-40",
+   "top3": [
+    "31573",
+    "31597",
+    "31593"
+   ],
+   "raw_top3": [
+    "31573",
+    "31597",
+    "31593"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and duties align with these roles as they involve overseeing operations and coordinating staff.",
+   "parse_ok": true,
+   "tokens": 623,
+   "finish": "stop",
+   "cached": false
+  }
+ ]
+}

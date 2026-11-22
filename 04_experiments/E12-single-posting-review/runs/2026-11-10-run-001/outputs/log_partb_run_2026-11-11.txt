@@ -1,0 +1,6 @@
+job_seeker-01-skimmer-manual E12-P04 2903
+job_seeker-02-careful-older E12-P07 3296
+job_seeker-03-phone-gig E12-P08 2355
+job_seeker-04-skimmer-service E12-P04 2840
+job_seeker-05-skim-manual-joe E12-P07 3212
+job_seeker-06-careful-gig-anna E12-P08 2852

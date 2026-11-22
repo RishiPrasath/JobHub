@@ -4,7 +4,7 @@
   "method": "M3",
   "run": 1,
   "prompt_version": "e19-prompts-v1",
-  "sets_completed": 4,
+  "sets_completed": 20,
   "params": {
    "temperature": 0.2,
    "reasoning_effort": "low (gpt-oss only)",
@@ -272,6 +272,39 @@
    },
    "latency_s": 0.49
   },
+  "P02-B": {
+   "set": "P02-B",
+   "method": "M3",
+   "parse_ok": true,
+   "case_types": [
+    "credential",
+    "gap_only",
+    "adjacent_skill"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "raw_items": [],
+   "displayed": [],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 707,
+    "total_tokens": 762,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.052755031,
+    "prompt_time": 0.056641838,
+    "completion_time": 0.108416254,
+    "total_time": 0.165058092
+   },
+   "latency_s": 0.33
+  },
   "P03-A": {
    "set": "P03-A",
    "method": "M3",
@@ -421,6 +454,1570 @@
     "total_time": 0.441314833
    },
    "latency_s": 0.61
+  },
+  "P03-B": {
+   "set": "P03-B",
+   "method": "M3",
+   "parse_ok": true,
+   "case_types": [
+    "clean_match"
+   ],
+   "injection_in_raw": false,
+   "gaps": [],
+   "raw_items": [
+    {
+     "entry_id": "B-W1",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W1",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-SK1",
+     "requirement": "R3",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-SK2",
+     "requirement": "R3",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W1",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W1",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-LG1",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "displayed": [
+    {
+     "entry_id": "B-W1",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W1",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-SK1",
+     "requirement": "R3",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-SK2",
+     "requirement": "R3",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W1",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W1",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-LG1",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 212,
+    "prompt_tokens": 711,
+    "total_tokens": 923,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.0537331,
+    "prompt_time": 0.05215102,
+    "completion_time": 0.402387296,
+    "total_time": 0.454538316
+   },
+   "latency_s": 0.61
+  },
+  "P04-A": {
+   "set": "P04-A",
+   "method": "M3",
+   "parse_ok": true,
+   "case_types": [
+    "adjacent_skill",
+    "outcome",
+    "credential"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "raw_items": [
+    {
+     "entry_id": "A-W2",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W1",
+     "requirement": "R6",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-SK1",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "displayed": [
+    {
+     "entry_id": "A-W2",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W1",
+     "requirement": "R6",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-SK1",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 123,
+    "prompt_tokens": 730,
+    "total_tokens": 853,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.050259228,
+    "prompt_time": 0.050144891,
+    "completion_time": 0.235152446,
+    "total_time": 0.285297337
+   },
+   "latency_s": 0.45
+  },
+  "P04-B": {
+   "set": "P04-B",
+   "method": "M3",
+   "parse_ok": true,
+   "case_types": [
+    "adjacent_skill",
+    "outcome",
+    "gap"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "raw_items": [
+    {
+     "entry_id": "B-SK2",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W1",
+     "requirement": "R6",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "gap",
+     "in_gold": false,
+     "fills_gap": true,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W2",
+     "requirement": "R6",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "gap",
+     "in_gold": false,
+     "fills_gap": true,
+     "extra_keys": []
+    }
+   ],
+   "displayed": [
+    {
+     "entry_id": "B-SK2",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W1",
+     "requirement": "R6",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "gap",
+     "in_gold": false,
+     "fills_gap": true,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W2",
+     "requirement": "R6",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "gap",
+     "in_gold": false,
+     "fills_gap": true,
+     "extra_keys": []
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 707,
+    "total_tokens": 836,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.049095657,
+    "prompt_time": 0.050015093,
+    "completion_time": 0.257639175,
+    "total_time": 0.307654268
+   },
+   "latency_s": 0.44
+  },
+  "P05-A": {
+   "set": "P05-A",
+   "method": "M3",
+   "parse_ok": true,
+   "case_types": [
+    "outcome",
+    "adjacent_skill"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R2",
+    "R3",
+    "R5"
+   ],
+   "raw_items": [
+    {
+     "entry_id": "A-W1",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-LG1",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W2",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": false,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "displayed": [
+    {
+     "entry_id": "A-W1",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-LG1",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W2",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": false,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 123,
+    "prompt_tokens": 733,
+    "total_tokens": 856,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.052335809,
+    "prompt_time": 0.06351145,
+    "completion_time": 0.242163288,
+    "total_time": 0.305674738
+   },
+   "latency_s": 0.44
+  },
+  "P05-B": {
+   "set": "P05-B",
+   "method": "M3",
+   "parse_ok": true,
+   "case_types": [
+    "outcome",
+    "adjacent_skill"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R3"
+   ],
+   "raw_items": [
+    {
+     "entry_id": "B-W2",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W1",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W1",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-LG1",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W2",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "displayed": [
+    {
+     "entry_id": "B-W2",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W1",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W1",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-LG1",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W2",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 710,
+    "total_tokens": 875,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.047307557,
+    "prompt_time": 0.061020969,
+    "completion_time": 0.339960004,
+    "total_time": 0.400980973
+   },
+   "latency_s": 0.54
+  },
+  "P06-A": {
+   "set": "P06-A",
+   "method": "M3",
+   "parse_ok": true,
+   "case_types": [
+    "injection",
+    "credential",
+    "outcome"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R3"
+   ],
+   "raw_items": [
+    {
+     "entry_id": "A-W1",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W1",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W2",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-SK1",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-ED1",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "displayed": [
+    {
+     "entry_id": "A-W1",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W1",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W2",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-SK1",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-ED1",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 171,
+    "prompt_tokens": 750,
+    "total_tokens": 921,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.049947645,
+    "prompt_time": 0.052904884,
+    "completion_time": 0.324379547,
+    "total_time": 0.377284431
+   },
+   "latency_s": 0.56
+  },
+  "P06-B": {
+   "set": "P06-B",
+   "method": "M3",
+   "parse_ok": true,
+   "case_types": [
+    "injection",
+    "credential"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R3"
+   ],
+   "raw_items": [
+    {
+     "entry_id": "B-ED1",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-SK2",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W1",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "gap",
+     "in_gold": false,
+     "fills_gap": true,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W2",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "gap",
+     "in_gold": false,
+     "fills_gap": true,
+     "extra_keys": []
+    }
+   ],
+   "displayed": [
+    {
+     "entry_id": "B-ED1",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-SK2",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W1",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "gap",
+     "in_gold": false,
+     "fills_gap": true,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W2",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "gap",
+     "in_gold": false,
+     "fills_gap": true,
+     "extra_keys": []
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 139,
+    "prompt_tokens": 727,
+    "total_tokens": 866,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.053028524,
+    "prompt_time": 0.060412725,
+    "completion_time": 0.272681989,
+    "total_time": 0.333094714
+   },
+   "latency_s": 0.48
+  },
+  "P07-A": {
+   "set": "P07-A",
+   "method": "M3",
+   "parse_ok": true,
+   "case_types": [
+    "adjacent_skill",
+    "credential"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R2",
+    "R5"
+   ],
+   "raw_items": [
+    {
+     "entry_id": "A-SK1",
+     "requirement": "R3",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W1",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "displayed": [
+    {
+     "entry_id": "A-SK1",
+     "requirement": "R3",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W1",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 714,
+    "total_tokens": 815,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.04968504,
+    "prompt_time": 0.050453187,
+    "completion_time": 0.191283389,
+    "total_time": 0.241736576
+   },
+   "latency_s": 0.38
+  },
+  "P07-B": {
+   "set": "P07-B",
+   "method": "M3",
+   "parse_ok": true,
+   "case_types": [
+    "adjacent_skill"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R2"
+   ],
+   "raw_items": [
+    {
+     "entry_id": "B-ED1",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W1",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-SK2",
+     "requirement": "R3",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "displayed": [
+    {
+     "entry_id": "B-ED1",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W1",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-SK2",
+     "requirement": "R3",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 118,
+    "prompt_tokens": 691,
+    "total_tokens": 809,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.049542195,
+    "prompt_time": 0.062116714,
+    "completion_time": 0.231753092,
+    "total_time": 0.293869806
+   },
+   "latency_s": 0.43
+  },
+  "P08-A": {
+   "set": "P08-A",
+   "method": "M3",
+   "parse_ok": true,
+   "case_types": [
+    "credential",
+    "gap"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R3"
+   ],
+   "raw_items": [
+    {
+     "entry_id": "A-W1",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "gap",
+     "in_gold": false,
+     "fills_gap": true,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W1",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W2",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "gap",
+     "in_gold": false,
+     "fills_gap": true,
+     "extra_keys": []
+    }
+   ],
+   "displayed": [
+    {
+     "entry_id": "A-W1",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "gap",
+     "in_gold": false,
+     "fills_gap": true,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W1",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W2",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "gap",
+     "in_gold": false,
+     "fills_gap": true,
+     "extra_keys": []
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 116,
+    "prompt_tokens": 716,
+    "total_tokens": 832,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.601299181,
+    "prompt_time": 0.050783172,
+    "completion_time": 0.222024694,
+    "total_time": 0.272807866
+   },
+   "latency_s": 0.98
+  },
+  "P08-B": {
+   "set": "P08-B",
+   "method": "M3",
+   "parse_ok": true,
+   "case_types": [
+    "adjacent_skill",
+    "credential"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R4"
+   ],
+   "raw_items": [
+    {
+     "entry_id": "B-W2",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W2",
+     "requirement": "R3",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W2",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W1",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": false,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "displayed": [
+    {
+     "entry_id": "B-W2",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W2",
+     "requirement": "R3",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W2",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-W1",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": false,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 137,
+    "prompt_tokens": 693,
+    "total_tokens": 830,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.099074328,
+    "prompt_time": 0.054398697,
+    "completion_time": 0.285443991,
+    "total_time": 0.339842688
+   },
+   "latency_s": 0.53
+  },
+  "P09-A": {
+   "set": "P09-A",
+   "method": "M3",
+   "parse_ok": true,
+   "case_types": [
+    "injection",
+    "gap"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R2",
+    "R5"
+   ],
+   "raw_items": [
+    {
+     "entry_id": "A-LG1",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-SK1",
+     "requirement": "R3",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W1",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "gap",
+     "in_gold": false,
+     "fills_gap": true,
+     "extra_keys": []
+    }
+   ],
+   "displayed": [
+    {
+     "entry_id": "A-LG1",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-SK1",
+     "requirement": "R3",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W1",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "gap",
+     "in_gold": false,
+     "fills_gap": true,
+     "extra_keys": []
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 118,
+    "prompt_tokens": 745,
+    "total_tokens": 863,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.311884326,
+    "prompt_time": 0.057113973,
+    "completion_time": 0.24621366,
+    "total_time": 0.303327633
+   },
+   "latency_s": 0.72
+  },
+  "P09-B": {
+   "set": "P09-B",
+   "method": "M3",
+   "parse_ok": true,
+   "case_types": [
+    "injection",
+    "misattribution"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R2",
+    "R5"
+   ],
+   "raw_items": [
+    {
+     "entry_id": "B-PR1",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-PR1",
+     "requirement": "R3",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-SK2",
+     "requirement": "R3",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-LG1",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "displayed": [
+    {
+     "entry_id": "B-PR1",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "partial",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-PR1",
+     "requirement": "R3",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-SK2",
+     "requirement": "R3",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "B-LG1",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 147,
+    "prompt_tokens": 722,
+    "total_tokens": 869,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.05032266,
+    "prompt_time": 0.049536319,
+    "completion_time": 0.279130271,
+    "total_time": 0.32866659
+   },
+   "latency_s": 0.49
+  },
+  "P10-A": {
+   "set": "P10-A",
+   "method": "M3",
+   "parse_ok": true,
+   "case_types": [
+    "credential"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R3"
+   ],
+   "raw_items": [
+    {
+     "entry_id": "A-W2",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W2",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W2",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W2",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-CE2",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "displayed": [
+    {
+     "entry_id": "A-W2",
+     "requirement": "R1",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W2",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W2",
+     "requirement": "R4",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-W2",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    },
+    {
+     "entry_id": "A-CE2",
+     "requirement": "R5",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "supported",
+     "in_gold": true,
+     "fills_gap": false,
+     "extra_keys": []
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 170,
+    "prompt_tokens": 704,
+    "total_tokens": 874,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.04751647,
+    "prompt_time": 0.052308339,
+    "completion_time": 0.325752142,
+    "total_time": 0.378060481
+   },
+   "latency_s": 0.52
+  },
+  "P10-B": {
+   "set": "P10-B",
+   "method": "M3",
+   "parse_ok": true,
+   "case_types": [
+    "gap_only",
+    "adjacent_skill"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "raw_items": [
+    {
+     "entry_id": "B-W2",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "gap",
+     "in_gold": false,
+     "fills_gap": true,
+     "extra_keys": []
+    }
+   ],
+   "displayed": [
+    {
+     "entry_id": "B-W2",
+     "requirement": "R2",
+     "entry_valid": true,
+     "req_valid": true,
+     "req_status": "gap",
+     "in_gold": false,
+     "fills_gap": true,
+     "extra_keys": []
+    }
+   ],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 79,
+    "prompt_tokens": 681,
+    "total_tokens": 760,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.049788844,
+    "prompt_time": 0.049719776,
+    "completion_time": 0.151121434,
+    "total_time": 0.20084121
+   },
+   "latency_s": 0.34
   }
  }
 }

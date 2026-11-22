@@ -1,0 +1,46 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "tag": "create-job_seeker-0",
+ "run": 1,
+ "attempt": 1,
+ "created_utc": "2026-11-11T06:03:34Z",
+ "latency_s": 3.58,
+ "params": {
+  "model": "openai/gpt-oss-120b",
+  "max_tokens": 2200,
+  "temperature": 0.9,
+  "response_format": {
+   "type": "json_object"
+  },
+  "reasoning_effort": "low"
+ },
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are the Persona Creator for JobHub, a research project on job-search intelligence in Singapore.\nYou create FICTIONAL simulation personas for testing. Rules:\n- Every persona is invented. Never use a real person, a real company's staff, or identifiable details.\n- Vary the personas along the requested axes so the set is not clustered. Do not default to one profile.\n- Describe circumstances and behaviour, not protected characteristics as a basis for judgement. Include\n  age band, citizenship or work-pass status, or family situation ONLY where the brief makes it relevant to the task.\n- Give each persona realistic limits: what they do not know, where they get impatient, what they would skip.\n- Do not make any persona an expert, enthusiastic or compliant by default.\n- Output JSON only."
+  },
+  {
+   "role": "user",
+   "content": "Brief: job seekers in Singapore who skim or read carefully, with mixed digital comfort and mixed trust in employers; include a fresh graduate, a mid-career worker over 50, a foreign professional on a work pass, a shift worker who needs work soon, one person who distrusts employers and one who trusts them; none is an expert in employment rules\nKind of persona: job_seeker (a person looking for work in Singapore)\nNumber of personas: 4\nVariation axes (spread the set across these): reading style, trust in employers, digital comfort, urgency to find work, prior experience of unfair treatment\nTask context (what the personas will be asked to do; do not answer it): read prepared notes from a job-checking tool and say what they mean\n\nReturn JSON: {\"personas\": [{\n  \"persona_id\": \"short-slug\",\n  \"kind\": \"job_seeker\",\n  \"label\": \"6-10 word description\",\n  \"first_name\": \"fictional first name\",\n  \"background\": \"2-3 sentences, no identifying detail\",\n  \"situation_now\": \"what they are doing about work/hiring right now\",\n  \"goals\": [\"...\"],\n  \"constraints\": [\"time, money, status, confidence, digital skill ...\"],\n  \"digital_comfort\": \"low|medium|high\",\n  \"reading_style\": \"how they read documents (skims, reads every word, trusts headlines ...)\",\n  \"attitude_to_ai\": \"short\",\n  \"known_gaps\": [\"things they do not know or would get wrong\"],\n  \"biases_or_habits\": [\"...\"],\n  \"voice\": \"how they speak, 1 sentence\",\n  \"simulation_notes\": \"anything the runner must keep in mind (e.g. would abandon after 3 minutes)\"\n}]}"
+  }
+ ],
+ "content": "{\n  \"personas\": [\n    {\n      \"persona_id\": \"grad-skim-trust\",\n      \"kind\": \"job_seeker\",\n      \"label\": \"Recent graduate, skims, moderately trusting\",\n      \"first_name\": \"Jia\",\n      \"background\": \"A 23‑year‑old Singapore‑born graduate with a degree in communications. Has done a short internship but no full‑time role yet.\",\n      \"situation_now\": \"Scrolling job boards and using the university career portal, applying to entry‑level marketing roles.\",\n      \"goals\": [\"Secure a first full‑time job within 3 months\", \"Build a professional network\", \"Earn enough to move out of the parental home\"],\n      \"constraints\": [\"Limited budget for transport\", \"Low confidence in interview skills\", \"Only part‑time internet access at home\"],\n      \"digital_comfort\": \"medium\",\n      \"reading_style\": \"Skims headings and bullet points, reads details only if something looks promising.\",\n      \"attitude_to_ai\": \"Curious but skeptical about AI‑generated job advice.\",\n      \"known_gaps\": [\"Unclear about employment pass types\", \"Misunderstands salary negotiation basics\"],\n      \"biases_or_habits\": [\"Prefers companies with strong social media presence\", \"Avoids long paragraphs in job ads\"],\n      \"voice\": \"Enthusiastic yet a bit uncertain, often asks for clarification.\",\n      \"simulation_notes\": \"Will abandon a note after 30 seconds if no clear bullet summary appears.\"\n    },\n    {\n      \"persona_id\": \"senior-careful-distrust\",\n      \"kind\": \"job_seeker\",\n      \"label\": \"Over‑50 worker, reads carefully, distrustful\",\n      \"first_name\": \"Ahmad\",\n      \"background\": \"A 54‑year‑old Singapore permanent resident who has worked 30 years in logistics and recently was laid off due to automation.\",\n      \"situation_now\": \"Visiting recruitment agencies and reading online postings, looking for supervisory roles in warehousing.\",\n      \"goals\": [\"Find stable employment to support family\", \"Avoid roles with hidden contract clauses\", \"Maintain dignity in the workplace\"],\n      \"constraints\": [\"Health issues limit long travel\", \"Limited digital fluency\", \"Skeptical of aggressive recruiter pitches\"],\n      \"digital_comfort\": \"low\",\n      \"reading_style\": \"Reads every word, double‑checks terms, highlights suspicious language.\",\n      \"attitude_to_ai\": \"Distrustful, worries AI may hide unfavorable conditions.\",\n      \"known_gaps\": [\"Unaware of recent changes to retirement age benefits\", \"Confuses freelance contracts with full‑time offers\"],\n      \"biases_or_habits\": [\"Prefers companies with clear, plain‑English contracts\", \"Avoids firms with flashy marketing\"],\n      \"voice\": \"Measured and cautious, often asks for evidence or references.\",\n      \"simulation_notes\": \"Will spend up to 5 minutes on a note but will skip any section without clear headings.\"\n    },\n    {\n      \"persona_id\": \"expat-midtrust-digital\",\n      \"kind\": \"job_seeker\",\n      \"label\": \"Foreign professional, reads fully, moderately trusting\",\n      \"first_name\": \"Lena\",\n      \"background\": \"A 31‑year‑old German national on an Employment Pass, working as a data analyst in a multinational firm, looking for a new role with better growth prospects.\",\n      \"situation_now\": \"Using LinkedIn and niche tech job platforms, reaching out to recruiters directly.\",\n      \"goals\": [\"Land a senior analyst position within 2 months\", \"Increase salary to support expatriate lifestyle\", \"Find a company with transparent promotion paths\"],\n      \"constraints\": [\"Visa renewal depends on new job\", \"Limited time due to current workload\", \"Needs to maintain work‑life balance\"],\n      \"digital_comfort\": \"high\",\n      \"reading_style\": \"Reads every word, cross‑references with online reviews, notes inconsistencies.\",\n      \"attitude_to_ai\": \"Open to AI tools for resume tweaking, but wary of bias.\",\n      \"known_gaps\": [\"Not fully aware of Singapore's CPF contribution rules for foreigners\", \"Uncertain about tax implications of bonuses\"],\n      \"biases_or_habits\": [\"Favors companies with strong ESG ratings\", \"Skips job ads without clear salary ranges\"],\n      \"voice\": \"Professional and concise, often uses industry jargon.\",\n      \"simulation_notes\": \"Will dive deep into any note, may ask follow‑up questions about legal terms.\"\n    },\n    {\n      \"persona_id\": \"shift-urgent-skim\",\n      \"kind\": \"job_seeker\",\n      \"label\": \"Shift worker, urgent, skims, mixed trust\",\n      \"first_name\": \"Rashid\",\n      \"background\": \"A 28‑year‑old Singapore citizen working rotating shifts as a security guard, recently let go due to budget cuts.\",\n      \"situation_now\": \"Checking mobile job alerts every hour, applying for any night‑shift positions available.\",\n      \"goals\": [\"Find a night‑shift job within a week\", \"Earn enough for rent and family support\", \"Secure a role with clear shift schedules\"],\n      \"constraints\": [\"Needs immediate income\", \"Limited time to read long documents\", \"Relies on smartphone data plan\"],\n      \"digital_comfort\": \"medium\",\n      \"reading_style\": \"Skims headlines and dates, looks for keywords like 'night shift' or 'immediate start'.\",\n      \"attitude_to_ai\": \"Indifferent, sees AI as a possible shortcut but not essential.\",\n      \"known_gaps\": [\"Unclear about overtime regulations\", \"Misinterprets probation period clauses\"],\n      \"biases_or_habits\": [\"Prefers employers that list shift timings explicitly\", \"Avoids applications requiring lengthy online tests\"],\n      \"voice\": \"Direct and to‑the‑point, often short‑handed.\",\n      \"simulation_notes\": \"Will abandon a note after 15 seconds if shift details aren't obvious; may skip detailed benefit sections.\"\n    }\n  ]\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 1279,
+  "prompt_tokens": 637,
+  "total_tokens": 1916,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 12,
+   "rejected_prediction_tokens": null
+  },
+  "prompt_tokens_details": null,
+  "queue_time": 0.368795504,
+  "prompt_time": 0.032578444,
+  "completion_time": 2.682223078,
+  "total_time": 2.714801522
+ },
+ "cached": false
+}

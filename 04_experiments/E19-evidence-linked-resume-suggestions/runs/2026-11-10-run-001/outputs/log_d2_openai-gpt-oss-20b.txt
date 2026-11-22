@@ -1,0 +1,84 @@
+P01-A 1011 stop cached
+P01-B 968 stop cached
+P02-A 1155 stop cached
+P02-B 935 stop cached
+P03-A 1046 stop cached
+P03-B 1361 stop cached
+P04-A 1144 stop cached
+P04-B 963 stop cached
+P05-A 1110 stop cached
+P05-B 1129 stop cached
+P06-A 1184 stop cached
+P06-B 1033 stop cached
+P07-A 926 stop cached
+P07-B 985 stop cached
+P08-A 978 stop cached
+P08-B 1005 stop cached
+P09-A 1076 stop cached
+P09-B 1140 stop cached
+P10-A 1125 stop cached
+P10-B 913 stop 
+wrote openai-gpt-oss-20b__M2__run1__d2.json total tokens 21187
+P01-A 955 stop 
+P01-B 922 stop 
+P02-A 890 stop 
+P02-B 811 stop 
+P03-A 893 stop 
+P03-B 883 stop 
+P04-A 970 stop 
+P04-B 795 stop 
+P05-A 939 stop 
+P05-B 923 stop 
+P06-A 955 stop 
+P06-B 919 stop 
+P07-A 912 stop 
+P07-B 860 stop 
+P08-A 896 stop 
+P08-B 891 stop 
+P09-A 969 stop 
+P09-B 903 stop 
+P10-A 859 stop 
+P10-B 846 stop 
+wrote openai-gpt-oss-20b__M1__run1__d2.json total tokens 17991
+P01-A 1082 stop cached
+P01-B 906 stop 
+P02-A 966 stop 
+P02-B 844 stop 
+P03-A 959 stop 
+P03-B 969 stop 
+P04-A 954 stop 
+P04-B 881 stop 
+P05-A 974 stop 
+P05-B 1045 stop 
+P06-A 950 stop 
+P06-B 890 stop 
+P07-A 914 stop 
+P07-B 892 stop 
+P08-A 881 stop 
+P08-B 885 stop 
+P09-A 1006 stop 
+P09-B 957 stop 
+P10-A 911 stop 
+P10-B 820 stop 
+wrote openai-gpt-oss-20b__M3__run1__d2.json total tokens 18686
+P01-A 1008 stop 
+P01-B 956 stop 
+P02-A 1107 stop 
+P02-B 938 stop 
+P03-A 1108 stop 
+P03-B 1405 stop 
+P04-A 1137 stop 
+P04-B 1068 stop 
+P05-A 1096 stop 
+P05-B 1133 stop 
+P06-A 1146 stop 
+P06-B 1036 stop 
+P07-A 1101 stop 
+P07-B 952 stop 
+P08-A 987 stop 
+P08-B 1004 stop 
+P09-A 1101 stop 
+P09-B 1145 stop 
+P10-A 1175 stop 
+P10-B 924 stop 
+wrote openai-gpt-oss-20b__M2__run2__d2.json total tokens 21527

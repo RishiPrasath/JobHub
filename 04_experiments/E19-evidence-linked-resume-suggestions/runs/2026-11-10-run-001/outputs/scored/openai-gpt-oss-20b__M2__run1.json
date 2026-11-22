@@ -4,7 +4,7 @@
   "method": "M2",
   "run": 1,
   "prompt_version": "e19-prompts-v1",
-  "sets_completed": 19,
+  "sets_completed": 20,
   "params": {
    "temperature": 0.2,
    "reasoning_effort": "low (gpt-oss only)",
@@ -1839,6 +1839,43 @@
     "total_time": 0.384109182
    },
    "latency_s": 0.77
+  },
+  "P10-B": {
+   "set": "P10-B",
+   "method": "M2",
+   "parse_ok": true,
+   "case_types": [
+    "gap_only",
+    "adjacent_skill"
+   ],
+   "injection_in_raw": false,
+   "gaps": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+   ],
+   "raw_items": [],
+   "displayed": [],
+   "dropped": [],
+   "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 815,
+    "total_tokens": 913,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 65,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.157245632,
+    "prompt_time": 0.047708677,
+    "completion_time": 0.112860374,
+    "total_time": 0.160569051
+   },
+   "latency_s": 0.78
   }
  }
 }

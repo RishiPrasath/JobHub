@@ -6,6 +6,7 @@ Cards come from the Part A deterministic results (pack text, unedited): 5 suppor
 Usage: python pilot.py
 """
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -63,7 +64,8 @@ BRIEF = ("job seekers in Singapore who skim or read carefully, with mixed digita
 def main():
     cards = build_cards()
     (OUT / "pilot_cards.json").write_text(json.dumps(cards, ensure_ascii=False, indent=1), encoding="utf-8")
-    pc = PersonaCreator(out_dir=str(PDIR), creator_model="qwen/qwen3.8-27b", agent_model="qwen/qwen3.8-27b")
+    PM = os.environ.get("PILOT_MODEL", "qwen/qwen3.8-27b")
+    pc = PersonaCreator(out_dir=str(PDIR), creator_model=PM, agent_model=PM)
     agents = pc.spawn_on_demand(BRIEF, kind="job_seeker", n=6,
                                 axes=["reading style", "trust in employers", "digital comfort", "urgency to find work", "prior experience of unfair treatment"],
                                 task_context="read prepared notes from a job-checking tool and say what they mean")
@@ -78,7 +80,7 @@ def main():
         print(a.persona.pid, len((data or {}).get("answers", [])), "answers")
     (OUT / "pilot_answers.json").write_text(json.dumps({
         "label": "SIMULATED comprehension pilot (AI personas). Not a participant test.",
-        "agent_model": "qwen/qwen3.8-27b", "creator_model": "qwen/qwen3.8-27b",
+        "agent_model": PM, "creator_model": PM,
         "finished_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "answers": answers}, ensure_ascii=False, indent=1), encoding="utf-8")
 
 

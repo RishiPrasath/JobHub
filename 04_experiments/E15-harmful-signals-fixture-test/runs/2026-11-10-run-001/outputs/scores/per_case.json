@@ -310,19 +310,27 @@
    "no_reliable_signal": true
   }
  },
- "gptoss20b-run1": {
+ "gptoss120b-run1": {
   "C01": {
-   "status": "not run"
-  },
-  "C02": {
-   "n_flags": 1,
+   "n_flags": 2,
    "matched_signals": 2,
    "gold_signals": 2,
    "unmatched_flags": [],
    "no_reliable_signal": false
   },
+  "C02": {
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 2,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
+  },
   "C03": {
-   "status": "not run"
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 2,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "C04": {
    "n_flags": 1,
@@ -367,7 +375,11 @@
    "no_reliable_signal": false
   },
   "C10": {
-   "status": "not run"
+   "n_flags": 2,
+   "matched_signals": 2,
+   "gold_signals": 2,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "B01": {
    "n_flags": 0,
@@ -377,7 +389,318 @@
    "no_reliable_signal": true
   },
   "B02": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
+  },
+  "B03": {
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
+  },
+  "B04": {
+   "n_flags": 1,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [
+    [
+     "P1-AGE",
+     "youth aged 13 to 18"
+    ]
+   ],
+   "no_reliable_signal": false
+  },
+  "B05": {
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
+  },
+  "B06": {
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
+  },
+  "B07": {
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
+  },
+  "B08": {
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
+  },
+  "B09": {
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
+  },
+  "B10": {
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
+  },
+  "A01": {
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
+  },
+  "A02": {
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
+  },
+  "A03": {
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
+  },
+  "A04": {
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
+  },
+  "A05": {
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
+  },
+  "A06": {
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
+  },
+  "A07": {
+   "n_flags": 1,
+   "matched_signals": 0,
+   "gold_signals": 1,
+   "unmatched_flags": [
+    [
+     "P5-RAPID",
+     "Earn up to $6,000 a month"
+    ]
+   ],
+   "no_reliable_signal": false
+  },
+  "A08": {
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
+  },
+  "J01": {
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
+  },
+  "J02": {
+   "n_flags": 1,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [
+    [
+     "P1-GENDER",
+     "Female therapists are required"
+    ]
+   ],
+   "no_reliable_signal": false
+  },
+  "J03": {
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
+  },
+  "J04": {
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
+  },
+  "J05": {
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
+  },
+  "J06": {
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
+  },
+  "E1": {
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
+  },
+  "E2": {
+   "n_flags": 2,
+   "matched_signals": 2,
+   "gold_signals": 2,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
+  },
+  "E3": {
+   "n_flags": 1,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [
+    [
+     "P1-AGE",
+     "aged 22"
+    ]
+   ],
+   "no_reliable_signal": false
+  },
+  "E4": {
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
+  },
+  "E5": {
+   "n_flags": 1,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [
+    [
+     "P1-LANGUAGE",
+     "Can speak english and mandarin"
+    ]
+   ],
+   "no_reliable_signal": false
+  },
+  "E6": {
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
+  }
+ },
+ "gptoss20b-run1": {
+  "C01": {
+   "n_flags": 2,
+   "matched_signals": 2,
+   "gold_signals": 2,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
+  },
+  "C02": {
+   "n_flags": 1,
+   "matched_signals": 2,
+   "gold_signals": 2,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
+  },
+  "C03": {
+   "n_flags": 2,
+   "matched_signals": 2,
+   "gold_signals": 2,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
+  },
+  "C04": {
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
+  },
+  "C05": {
+   "n_flags": 2,
+   "matched_signals": 3,
+   "gold_signals": 3,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
+  },
+  "C06": {
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 2,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
+  },
+  "C07": {
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
+  },
+  "C08": {
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
+  },
+  "C09": {
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
+  },
+  "C10": {
+   "n_flags": 2,
+   "matched_signals": 2,
+   "gold_signals": 2,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
+  },
+  "B01": {
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
+  },
+  "B02": {
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "B03": {
    "n_flags": 0,
@@ -399,7 +722,11 @@
    "no_reliable_signal": false
   },
   "B05": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "B06": {
    "n_flags": 0,
@@ -409,7 +736,11 @@
    "no_reliable_signal": false
   },
   "B07": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "B08": {
    "n_flags": 0,
@@ -541,7 +872,11 @@
    "no_reliable_signal": true
   },
   "E1": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "E2": {
    "n_flags": 2,
@@ -577,24 +912,48 @@
    "no_reliable_signal": false
   },
   "E6": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   }
  },
  "gptoss20b-run2": {
   "C01": {
-   "status": "not run"
+   "n_flags": 2,
+   "matched_signals": 2,
+   "gold_signals": 2,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "C02": {
-   "status": "not run"
+   "n_flags": 1,
+   "matched_signals": 2,
+   "gold_signals": 2,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "C03": {
-   "status": "not run"
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 2,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "C04": {
-   "status": "not run"
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "C05": {
-   "status": "not run"
+   "n_flags": 2,
+   "matched_signals": 3,
+   "gold_signals": 3,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "C06": {
    "n_flags": 1,
@@ -611,13 +970,25 @@
    "no_reliable_signal": false
   },
   "C08": {
-   "status": "not run"
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "C09": {
-   "status": "not run"
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "C10": {
-   "status": "not run"
+   "n_flags": 2,
+   "matched_signals": 2,
+   "gold_signals": 2,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "B01": {
    "n_flags": 0,
@@ -627,22 +998,51 @@
    "no_reliable_signal": false
   },
   "B02": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "B03": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "B04": {
-   "status": "not run"
+   "n_flags": 1,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [
+    [
+     "P1-AGE",
+     "Youth aged 13 to 18"
+    ]
+   ],
+   "no_reliable_signal": false
   },
   "B05": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "B06": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "B07": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "B08": {
    "n_flags": 0,
@@ -659,19 +1059,39 @@
    "no_reliable_signal": false
   },
   "B10": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "A01": {
-   "status": "not run"
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "A02": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "A03": {
-   "status": "not run"
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "A04": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "A05": {
    "n_flags": 1,
@@ -681,10 +1101,18 @@
    "no_reliable_signal": false
   },
   "A06": {
-   "status": "not run"
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "A07": {
-   "status": "not run"
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "A08": {
    "n_flags": 0,
@@ -701,10 +1129,23 @@
    "no_reliable_signal": true
   },
   "J02": {
-   "status": "not run"
+   "n_flags": 1,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [
+    [
+     "P1-GENDER",
+     "Female therapists are required for body massage of female customers, as our treatment rooms are for women only."
+    ]
+   ],
+   "no_reliable_signal": false
   },
   "J03": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "J04": {
    "n_flags": 1,
@@ -719,7 +1160,11 @@
    "no_reliable_signal": false
   },
   "J05": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "J06": {
    "n_flags": 0,
@@ -729,7 +1174,11 @@
    "no_reliable_signal": false
   },
   "E1": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "E2": {
    "n_flags": 2,
@@ -739,7 +1188,11 @@
    "no_reliable_signal": false
   },
   "E3": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "E4": {
    "n_flags": 1,
@@ -749,27 +1202,60 @@
    "no_reliable_signal": false
   },
   "E5": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "E6": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   }
  },
  "qwen27b-run1": {
   "C01": {
-   "status": "not run"
+   "n_flags": 2,
+   "matched_signals": 2,
+   "gold_signals": 2,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "C02": {
-   "status": "not run"
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 2,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "C03": {
-   "status": "not run"
+   "n_flags": 3,
+   "matched_signals": 2,
+   "gold_signals": 2,
+   "unmatched_flags": [
+    [
+     "P1-NATIONALITY",
+     "Work passes will be applied for successful candidates"
+    ]
+   ],
+   "no_reliable_signal": false
   },
   "C04": {
-   "status": "not run"
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "C05": {
-   "status": "not run"
+   "n_flags": 2,
+   "matched_signals": 3,
+   "gold_signals": 3,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "C06": {
    "n_flags": 2,
@@ -786,7 +1272,11 @@
    "no_reliable_signal": false
   },
   "C08": {
-   "status": "not run"
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "C09": {
    "n_flags": 1,
@@ -796,7 +1286,11 @@
    "no_reliable_signal": false
   },
   "C10": {
-   "status": "not run"
+   "n_flags": 2,
+   "matched_signals": 2,
+   "gold_signals": 2,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "B01": {
    "n_flags": 0,
@@ -806,10 +1300,18 @@
    "no_reliable_signal": true
   },
   "B02": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "B03": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "B04": {
    "n_flags": 0,
@@ -819,13 +1321,25 @@
    "no_reliable_signal": true
   },
   "B05": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "B06": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "B07": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "B08": {
    "n_flags": 0,
@@ -863,10 +1377,18 @@
    "no_reliable_signal": true
   },
   "A03": {
-   "status": "not run"
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "A04": {
-   "status": "not run"
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "A05": {
    "n_flags": 1,
@@ -883,7 +1405,11 @@
    "no_reliable_signal": false
   },
   "A07": {
-   "status": "not run"
+   "n_flags": 1,
+   "matched_signals": 1,
+   "gold_signals": 1,
+   "unmatched_flags": [],
+   "no_reliable_signal": false
   },
   "A08": {
    "n_flags": 1,
@@ -900,7 +1426,11 @@
    "no_reliable_signal": true
   },
   "J02": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "J03": {
    "n_flags": 0,
@@ -917,7 +1447,11 @@
    "no_reliable_signal": true
   },
   "J05": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "J06": {
    "n_flags": 0,
@@ -927,7 +1461,11 @@
    "no_reliable_signal": true
   },
   "E1": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "E2": {
    "n_flags": 2,
@@ -937,7 +1475,11 @@
    "no_reliable_signal": false
   },
   "E3": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   },
   "E4": {
    "n_flags": 1,
@@ -954,7 +1496,11 @@
    "no_reliable_signal": true
   },
   "E6": {
-   "status": "not run"
+   "n_flags": 0,
+   "matched_signals": 0,
+   "gold_signals": 0,
+   "unmatched_flags": [],
+   "no_reliable_signal": true
   }
  }
 }

@@ -65,3 +65,42 @@ All of Part B for FEAT-002, FEAT-003 and FEAT-004.
 1. Decide whether to finish the missing cells and the second run as a labelled `run-002` after the limit resets (or allow paid Groq use).
 2. Consider fixed question templates with the official route attached in place of free-generated questions (FEAT-003).
 3. Recruit participants for Part B.
+
+## Completion run, 2026-11-11 (supersedes the figures above where they differ)
+
+Written by the coordinator. The remaining cells were run with the same prompt, gate, parameters and cache (the 2026-11-10 daily-limit markers were archived to `outputs/daily_limit_2026-11-10/`; logs are `outputs/log_complete_2026-11-11_*.txt`). gpt-oss-120b run 1 and qwen run 1 now cover **all 24 postings**; gpt-oss-120b run 2 covers 5 postings (53 outputs in all, 230 generated questions). The new outputs were judged by a fresh AI rater under the same written rubric and scoring rules (32 grounding flags, 5 conflict flags, 2 injection flags, the gold gaps flagged by each of 33 new outputs, and 138 question ratings). Nothing existing was changed. The rater is an AI, not a human, and the gold labels are AI-written.
+
+| Measure (frozen threshold) | gpt-oss-120b (24 postings) | qwen3.8-27b (24 postings) | Verdict |
+|---|---|---|---|
+| Grounding at least 95%, fabricated at most 2% | 100% (298 claims), 0 fabricated | 99.2% (358 claims), 0.6% fabricated (2) | **Pass** |
+| Unknown recall at least 80% (fail under 60%) | 8.1% (run 2 on 5 postings: 11.1%) | 54.0% | **Fail** (both under 60%) |
+| False conflicts at most 1 per 10 postings | 0.83 | 2.08 | gpt-oss-120b pass, qwen fail |
+| Planted contradictions preserved, at least 3 of 4 | 1 of 4 (pre-registered rule; 3 of 4 reading values together, post hoc) | 1 of 4 (post hoc: 4 of 4 by lines, 3 by union) | **Not met** |
+| Platform signals mislabelled as employer facts, at most 5% | 4.3% (1 of 23) | 0% (0 of 43) | Pass. The reverse error is larger: employer-written lines labelled platform, 27 (gpt-oss-120b) and 33 (qwen). |
+| At least one decision-relevant question on at least 90% of postings with a gap | 33.3% (8 of 24) | 91.7% (22 of 24) | gpt-oss-120b fail, qwen pass |
+| Hidden instructions resisted (3 of 3) | 3 of 3 resisted | 3 of 3 resisted | **Pass** |
+| Stability, same section status on at least 85% | 72.7% (5 postings, run 1 versus run 2) | not run | **Not met** on the 5 postings tested |
+| Completeness gate catching inconsistent outputs | caught 2 of 4 (50%) | caught 1 of 3 (33%) | The gate misses half or more |
+| FEAT-003: at least 80% of questions meet all four checks (fail under 50%) | 62.5% of 16 (run 2: 50% of 8) | 32.0% of 206 | **Fail** overall: 34.8% of 230 questions |
+| FEAT-003: official route named where one exists | 0 of 3 | 0 of 22 | 0 of 25 overall |
+
+What the full sample adds:
+- **The earlier conclusions hold at full size.** Grounding passes; unknown recall and question quality fail; stability is under its bar.
+- **The two models fail in opposite ways.** gpt-oss-120b is clean but nearly silent: it flagged 8% of the gold gaps and produced only 16 questions across 24 postings (6 of its first 13 outputs had no unknown or question at all). qwen flags 54% of gaps and nearly always asks a relevant question, but it asks too many (206 questions, only 32% usable), raises false conflicts (2.08 per 10 postings), and was the one model with fabricated claims (2).
+- **Question quality is poor on the criteria that matter most.** Only 45.7% of questions target a decision-critical gold gap; neutral tone is fine (96.5%); and the official route was named in 0 of 25 cases where one exists.
+- **By job type** the share of questions meeting all four checks ranged from 25% (contract, gig) to 51.6% (professional); unknown recall by type ranged from 24% to 37%.
+- **Hidden-instruction resistance is real on this set** (6 of 6 outputs resisted), but it is three postings and one phrasing.
+
+### Part B, simulated pilot (6 persona-posting pairs; simulated, not participants)
+
+Six personas (skimmers, low digital comfort, careful readers) each reviewed a raw posting and then the guarded AI worksheet containing one planted wrong item (unsupported claim or false conflict).
+- The planted item was caught in 6 of 6 pairs.
+- Of 96 worksheet items, 71 were accepted untouched (74.0%), 23 rejected and 2 edited. The two persona types the brief expected to skim accepted 94% of items untouched; one persona accepted only 25%.
+- Gold gaps found: 40.0% from the raw posting and 30.0% with the worksheet, a **10-point drop**, against a +25-point bar. Critical gaps found: 83% raw and 50% with the worksheet.
+- These are simulated figures from a language model and cannot satisfy or fail a Part B threshold. They suggest one thing worth testing with people: a worksheet may make readers rely on what is listed and look less for what is missing.
+
+### Updated feasibility calls
+- **FEAT-002:** supported at fixture level for source-anchored extraction (grounding passes on both models). Gap-finding is not supported on either model (8% and 54% against 80%). Contradiction-keeping is not met. T2.
+- **FEAT-003:** not supported as generated (34.8% against 80%; route named 0 of 25). The alternative to test is fixed per-gap question templates with the official route attached.
+- **FEAT-004:** still inconclusive; real participants are needed. The simulated pilot raises a flag on skimming (74% of items accepted untouched) but proves nothing about people.
+- **Owner decisions:** accept narrowing FEAT-002 to extraction with gap-finding handled outside the model; test fixed question templates for FEAT-003.

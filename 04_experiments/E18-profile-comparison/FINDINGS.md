@@ -80,3 +80,22 @@ All of Part B: agreement with the facts, catching planted wrong items, reading t
 2. Fix pay-period and location handling as a labelled post hoc `run-002`, keeping this run.
 3. Have a human review the contested gold labels before any level is raised.
 4. Decide whether to spend the next day's quota on finishing hybrid and batch, or to narrow FEAT-010 to hard facts now.
+
+## Completion run, 2026-11-11
+
+Quota returned, so the missing cells were run with the same prompts and frozen thresholds. Free-text now covers all 3 profiles and the batch condition and a second run (stability); the structured method has batch and a second run. The hybrid method (model proposes evidence, code checks it) ran on 29 of 45 single comparisons and 3 of 9 batch comparisons, then qwen hit its daily token limit (199,234 of 200,000). Hybrid is therefore still incomplete.
+
+| Method | Unsupported claims | Hard-fact errors | Unknown kept as unknown | Verdict |
+|---|---|---|---|---|
+| Free text, single (45) | 14.9% | 8.9% (20 of 225) | 57% (31 of 54) | Fail |
+| Free text, batch (9) | 3.7% | 20.0% (9 of 45) | 62% (15 of 24) | Fail (small N) |
+| Structured, single (45) | 4.4% | 1.8% (4 of 225) | 96% (52 of 54) | Inconclusive |
+| Structured, batch (9) | 2.8% | 6.7% (3 of 45) | 88% (21 of 24) | Inconclusive (small N) |
+| Hybrid, single (29 of 45, partial) | 1.4% | 2.8% (4 of 145) | 95% (41 of 43) | Inconclusive (partial) |
+
+- No batch contamination, no fit score, no false "not eligible", no instruction followed in any method.
+- Stability between run 1 and run 2: free text 91.4% agreement (15 comparisons), structured 97.1% (45 comparisons).
+- Right-to-work flag correct: free 89%, structured 84%, hybrid 83%. One false "eligible" in free text, none in the others.
+- Note: 86 failure files from an earlier mistaken launch (a Python flag hid the `openai` package) remain in `outputs/raw/_failures/`; see `outputs/NOTE_2026-11-11_failure_records.md`. A person should remove them. Scoring ignores them where a real result exists.
+
+**Conclusion (unchanged in direction, firmer on free text):** free-text comparison fails again on a larger sample. Structured and hybrid keep unsupported claims low, but hard-fact errors stay above the 1% bar, so neither passes. FEAT-010 stays at T1, narrowed to a structured hard-fact check with excerpts. The remaining 16 hybrid single cells and 6 batch cells need the next day's qwen quota.

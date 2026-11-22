@@ -4,7 +4,7 @@
   "method": "M3",
   "run": 1,
   "prompt_version": "e19-prompts-v1",
-  "sets_completed": 4,
+  "sets_completed": 20,
   "params": {
    "temperature": 0.2,
    "reasoning_effort": "low (gpt-oss only)",
@@ -65,6 +65,23 @@
    "finish_reason": "stop",
    "created_utc": "2026-11-10T11:00:50Z"
   },
+  "P02-B": {
+   "content": "{\n  \"selected\": [],\n  \"gaps\": [\n    \"R1\",\n    \"R2\",\n    \"R3\",\n    \"R4\",\n    \"R5\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 707,
+    "total_tokens": 762,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.052755031,
+    "prompt_time": 0.056641838,
+    "completion_time": 0.108416254,
+    "total_time": 0.165058092
+   },
+   "latency_s": 0.33,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:08:40Z"
+  },
   "P03-A": {
    "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"A-W1\",\n      \"requirement\": \"R1\"\n    },\n    {\n      \"entry_id\": \"A-SK1\",\n      \"requirement\": \"R3\"\n    },\n    {\n      \"entry_id\": \"A-W1\",\n      \"requirement\": \"R5\"\n    },\n    {\n      \"entry_id\": \"A-W2\",\n      \"requirement\": \"R1\"\n    },\n    {\n      \"entry_id\": \"A-SK3\",\n      \"requirement\": \"R1\"\n    },\n    {\n      \"entry_id\": \"A-LG1\",\n      \"requirement\": \"R5\"\n    }\n  ],\n  \"gaps\": [\n    \"R2\",\n    \"R4\"\n  ]\n}",
    "usage": {
@@ -81,6 +98,261 @@
    "latency_s": 0.61,
    "finish_reason": "stop",
    "created_utc": "2026-11-10T11:07:55Z"
+  },
+  "P03-B": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"B-W1\",\n      \"requirement\": \"R1\"\n    },\n    {\n      \"entry_id\": \"B-W1\",\n      \"requirement\": \"R2\"\n    },\n    {\n      \"entry_id\": \"B-SK1\",\n      \"requirement\": \"R3\"\n    },\n    {\n      \"entry_id\": \"B-SK2\",\n      \"requirement\": \"R3\"\n    },\n    {\n      \"entry_id\": \"B-W1\",\n      \"requirement\": \"R4\"\n    },\n    {\n      \"entry_id\": \"B-W1\",\n      \"requirement\": \"R5\"\n    },\n    {\n      \"entry_id\": \"B-LG1\",\n      \"requirement\": \"R5\"\n    }\n  ],\n  \"gaps\": []\n}",
+   "usage": {
+    "completion_tokens": 212,
+    "prompt_tokens": 711,
+    "total_tokens": 923,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.0537331,
+    "prompt_time": 0.05215102,
+    "completion_time": 0.402387296,
+    "total_time": 0.454538316
+   },
+   "latency_s": 0.61,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:09:17Z"
+  },
+  "P04-A": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"A-W2\",\n      \"requirement\": \"R1\"\n    },\n    {\n      \"entry_id\": \"A-W1\",\n      \"requirement\": \"R6\"\n    },\n    {\n      \"entry_id\": \"A-SK1\",\n      \"requirement\": \"R2\"\n    }\n  ],\n  \"gaps\": [\n    \"R3\",\n    \"R4\",\n    \"R5\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 123,
+    "prompt_tokens": 730,
+    "total_tokens": 853,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.050259228,
+    "prompt_time": 0.050144891,
+    "completion_time": 0.235152446,
+    "total_time": 0.285297337
+   },
+   "latency_s": 0.45,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:09:17Z"
+  },
+  "P04-B": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"B-SK2\",\n      \"requirement\": \"R2\"\n    },\n    {\n      \"entry_id\": \"B-W1\",\n      \"requirement\": \"R6\"\n    },\n    {\n      \"entry_id\": \"B-W2\",\n      \"requirement\": \"R6\"\n    }\n  ],\n  \"gaps\": [\n    \"R1\",\n    \"R3\",\n    \"R4\",\n    \"R5\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 707,
+    "total_tokens": 836,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.049095657,
+    "prompt_time": 0.050015093,
+    "completion_time": 0.257639175,
+    "total_time": 0.307654268
+   },
+   "latency_s": 0.44,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:09:39Z"
+  },
+  "P05-A": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"A-W1\",\n      \"requirement\": \"R1\"\n    },\n    {\n      \"entry_id\": \"A-LG1\",\n      \"requirement\": \"R4\"\n    },\n    {\n      \"entry_id\": \"A-W2\",\n      \"requirement\": \"R1\"\n    }\n  ],\n  \"gaps\": [\n    \"R2\",\n    \"R3\",\n    \"R5\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 123,
+    "prompt_tokens": 733,
+    "total_tokens": 856,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.052335809,
+    "prompt_time": 0.06351145,
+    "completion_time": 0.242163288,
+    "total_time": 0.305674738
+   },
+   "latency_s": 0.44,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:09:40Z"
+  },
+  "P05-B": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"B-W2\",\n      \"requirement\": \"R1\"\n    },\n    {\n      \"entry_id\": \"B-W1\",\n      \"requirement\": \"R1\"\n    },\n    {\n      \"entry_id\": \"B-W1\",\n      \"requirement\": \"R2\"\n    },\n    {\n      \"entry_id\": \"B-LG1\",\n      \"requirement\": \"R4\"\n    },\n    {\n      \"entry_id\": \"B-W2\",\n      \"requirement\": \"R5\"\n    }\n  ],\n  \"gaps\": [\n    \"R3\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 710,
+    "total_tokens": 875,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.047307557,
+    "prompt_time": 0.061020969,
+    "completion_time": 0.339960004,
+    "total_time": 0.400980973
+   },
+   "latency_s": 0.54,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:10:17Z"
+  },
+  "P06-A": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"A-W1\",\n      \"requirement\": \"R2\"\n    },\n    {\n      \"entry_id\": \"A-W1\",\n      \"requirement\": \"R5\"\n    },\n    {\n      \"entry_id\": \"A-W2\",\n      \"requirement\": \"R5\"\n    },\n    {\n      \"entry_id\": \"A-SK1\",\n      \"requirement\": \"R4\"\n    },\n    {\n      \"entry_id\": \"A-ED1\",\n      \"requirement\": \"R1\"\n    }\n  ],\n  \"gaps\": [\n    \"R3\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 171,
+    "prompt_tokens": 750,
+    "total_tokens": 921,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.049947645,
+    "prompt_time": 0.052904884,
+    "completion_time": 0.324379547,
+    "total_time": 0.377284431
+   },
+   "latency_s": 0.56,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:10:17Z"
+  },
+  "P06-B": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"B-ED1\",\n      \"requirement\": \"R1\"\n    },\n    {\n      \"entry_id\": \"B-SK2\",\n      \"requirement\": \"R4\"\n    },\n    {\n      \"entry_id\": \"B-W1\",\n      \"requirement\": \"R2\"\n    },\n    {\n      \"entry_id\": \"B-W2\",\n      \"requirement\": \"R5\"\n    }\n  ],\n  \"gaps\": [\n    \"R3\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 139,
+    "prompt_tokens": 727,
+    "total_tokens": 866,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.053028524,
+    "prompt_time": 0.060412725,
+    "completion_time": 0.272681989,
+    "total_time": 0.333094714
+   },
+   "latency_s": 0.48,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:10:40Z"
+  },
+  "P07-A": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"A-SK1\",\n      \"requirement\": \"R3\"\n    },\n    {\n      \"entry_id\": \"A-W1\",\n      \"requirement\": \"R4\"\n    }\n  ],\n  \"gaps\": [\n    \"R1\",\n    \"R2\",\n    \"R5\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 714,
+    "total_tokens": 815,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.04968504,
+    "prompt_time": 0.050453187,
+    "completion_time": 0.191283389,
+    "total_time": 0.241736576
+   },
+   "latency_s": 0.38,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:10:41Z"
+  },
+  "P07-B": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"B-ED1\",\n      \"requirement\": \"R5\"\n    },\n    {\n      \"entry_id\": \"B-W1\",\n      \"requirement\": \"R4\"\n    },\n    {\n      \"entry_id\": \"B-SK2\",\n      \"requirement\": \"R3\"\n    }\n  ],\n  \"gaps\": [\n    \"R1\",\n    \"R2\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 118,
+    "prompt_tokens": 691,
+    "total_tokens": 809,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.049542195,
+    "prompt_time": 0.062116714,
+    "completion_time": 0.231753092,
+    "total_time": 0.293869806
+   },
+   "latency_s": 0.43,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:11:17Z"
+  },
+  "P08-A": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"A-W1\",\n      \"requirement\": \"R2\"\n    },\n    {\n      \"entry_id\": \"A-W1\",\n      \"requirement\": \"R5\"\n    },\n    {\n      \"entry_id\": \"A-W2\",\n      \"requirement\": \"R4\"\n    }\n  ],\n  \"gaps\": [\n    \"R1\",\n    \"R3\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 116,
+    "prompt_tokens": 716,
+    "total_tokens": 832,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.601299181,
+    "prompt_time": 0.050783172,
+    "completion_time": 0.222024694,
+    "total_time": 0.272807866
+   },
+   "latency_s": 0.98,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:11:18Z"
+  },
+  "P08-B": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"B-W2\",\n      \"requirement\": \"R1\"\n    },\n    {\n      \"entry_id\": \"B-W2\",\n      \"requirement\": \"R3\"\n    },\n    {\n      \"entry_id\": \"B-W2\",\n      \"requirement\": \"R5\"\n    },\n    {\n      \"entry_id\": \"B-W1\",\n      \"requirement\": \"R2\"\n    }\n  ],\n  \"gaps\": [\n    \"R4\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 137,
+    "prompt_tokens": 693,
+    "total_tokens": 830,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.099074328,
+    "prompt_time": 0.054398697,
+    "completion_time": 0.285443991,
+    "total_time": 0.339842688
+   },
+   "latency_s": 0.53,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:11:40Z"
+  },
+  "P09-A": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"A-LG1\",\n      \"requirement\": \"R4\"\n    },\n    {\n      \"entry_id\": \"A-SK1\",\n      \"requirement\": \"R3\"\n    },\n    {\n      \"entry_id\": \"A-W1\",\n      \"requirement\": \"R1\"\n    }\n  ],\n  \"gaps\": [\n    \"R2\",\n    \"R5\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 118,
+    "prompt_tokens": 745,
+    "total_tokens": 863,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.311884326,
+    "prompt_time": 0.057113973,
+    "completion_time": 0.24621366,
+    "total_time": 0.303327633
+   },
+   "latency_s": 0.72,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:11:41Z"
+  },
+  "P09-B": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"B-PR1\",\n      \"requirement\": \"R1\"\n    },\n    {\n      \"entry_id\": \"B-PR1\",\n      \"requirement\": \"R3\"\n    },\n    {\n      \"entry_id\": \"B-SK2\",\n      \"requirement\": \"R3\"\n    },\n    {\n      \"entry_id\": \"B-LG1\",\n      \"requirement\": \"R4\"\n    }\n  ],\n  \"gaps\": [\n    \"R2\",\n    \"R5\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 147,
+    "prompt_tokens": 722,
+    "total_tokens": 869,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.05032266,
+    "prompt_time": 0.049536319,
+    "completion_time": 0.279130271,
+    "total_time": 0.32866659
+   },
+   "latency_s": 0.49,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:12:17Z"
+  },
+  "P10-A": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"A-W2\",\n      \"requirement\": \"R1\"\n    },\n    {\n      \"entry_id\": \"A-W2\",\n      \"requirement\": \"R2\"\n    },\n    {\n      \"entry_id\": \"A-W2\",\n      \"requirement\": \"R4\"\n    },\n    {\n      \"entry_id\": \"A-W2\",\n      \"requirement\": \"R5\"\n    },\n    {\n      \"entry_id\": \"A-CE2\",\n      \"requirement\": \"R5\"\n    }\n  ],\n  \"gaps\": [\n    \"R3\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 170,
+    "prompt_tokens": 704,
+    "total_tokens": 874,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.04751647,
+    "prompt_time": 0.052308339,
+    "completion_time": 0.325752142,
+    "total_time": 0.378060481
+   },
+   "latency_s": 0.52,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:12:18Z"
+  },
+  "P10-B": {
+   "content": "{\n  \"selected\": [\n    {\n      \"entry_id\": \"B-W2\",\n      \"requirement\": \"R2\"\n    }\n  ],\n  \"gaps\": [\n    \"R1\",\n    \"R3\",\n    \"R4\",\n    \"R5\"\n  ]\n}",
+   "usage": {
+    "completion_tokens": 79,
+    "prompt_tokens": 681,
+    "total_tokens": 760,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.049788844,
+    "prompt_time": 0.049719776,
+    "completion_time": 0.151121434,
+    "total_time": 0.20084121
+   },
+   "latency_s": 0.34,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:12:40Z"
   }
  }
 }

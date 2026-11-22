@@ -113,3 +113,18 @@ Further points from the later report:
 **Feasibility call for FEAT-009 (for the owner to confirm):** narrow to a shortlist-and-confirm design where the user confirms the occupation and no benchmark is shown on "none". Supported at fixture level for a model as careful as `qwen3.8-27b`, and **not supported** for `gpt-oss-20b`. ASM-009 (users can confirm their occupation) and the reading of the basis have no evidence. Proposed level T2 for the matching step only.
 
 Owner decisions: confirm the narrowed direction and a minimum model capability; decide how the choice screen describes occupations, since the table has no duties; allow the remaining 17 qwen run 1 postings, the 52 qwen run 2 postings and the persona pilot to run when quota returns (identical settings and cache, so only the missing postings cost tokens).
+
+## Completion run, 2026-11-11
+
+Added runs, same prompt and shortlist (`harness/score_completion.py` reuses the frozen scoring functions and adds the new runs; the older scorer is unchanged). qwen3.8-27b hit its daily limit again, so its run 1 stands at 89 of 100 scored (10 failed on the limit) and run 2 at 48. gpt-oss-20b run 1 now covers all 100. gpt-oss-120b and gpt-oss-20b run 2 could not run (daily limit; stopped without results). A simpler model, `allam-2-7b` (7B), was added as a floor check, with two runs on all 100.
+
+| Run | Postings scored | Gold occupation (or correct "none") in top three | Gold-code postings: top-three recall | True no-match handled | Confident wrong match on no-match |
+|---|---|---|---|---|---|
+| qwen3.8-27b run 1 | 89 | 97.8% | 68 of 69 (98.6%) | 16 of 17 flagged "none" | 1 of 17 |
+| gpt-oss-20b run 1 | 100 | 80.0% | 73 of 77 (94.8%) | 6 of 20 flagged "none" | 14 of 20 |
+| allam-2-7b run 1 / run 2 | 100 / 100 | 49% / 50% | 49 of 77 (63.6%) both | 0 of 20 both | 20 of 20 both |
+
+- Stability: qwen run 1 vs run 2, same top-three set on 40 of 48 (83.3%, bar 85%), same verdict 47 of 48. allam run 1 vs run 2: same top-three set only 35%, though it gave the same verdict on 99%.
+- Models disagree with each other: qwen and gpt-oss-20b gave the same top-three on 34% of postings; qwen and allam 7%.
+- Reading: occupation shortlisting depends heavily on the model. qwen clears the recall and no-match lines; gpt-oss-20b has good recall but fails the no-match line (14 of 20 confident wrong matches, against a limit that was met by qwen); the 7B model fails both and never says "none".
+- Verdict unchanged for the supported route: Part A **inconclusive** overall (qwen near the stability bar, coverage 89 of 100), and clearly **not supported** for gpt-oss-20b and allam-2-7b on no-match handling. Parts B and C are still not run with participants. The persona pilot was not run (no model with quota that is able to make personas).

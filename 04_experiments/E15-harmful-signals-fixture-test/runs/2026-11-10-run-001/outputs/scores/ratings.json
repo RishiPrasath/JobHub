@@ -275,6 +275,316 @@
    "tone": true,
    "relevance": true,
    "reason": ""
+  },
+  "can you clarify if gender is a genuine occupational requirement for this position?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is there a legitimate reason for limiting applicants to a specific age range?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is there a specific reason for the race preference in this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "can you clarify if singaporean candidates are also considered for this position?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is there a legitimate reason for requiring a particular religious affiliation for this position?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "what is the purpose of requiring a full‑body photograph in the application?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "can you clarify why marital status and family plans are relevant to this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify the purpose of the $300 course fee and whether it is refundable?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify why the original passport and certificates need to be retained and how they will be stored?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "can you explain the compensation structure for the trial period?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you explain the rationale and legality of the liquidated damages clause?": {
+   "tone": false,
+   "relevance": true,
+   "reason": "asks about the \"legality\" of the employer clause, a legal-conclusion framing that could read as hostile"
+  },
+  "can you clarify the typical career progression timeline for this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "what are the expected working hours and boundaries for this position?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "can you clarify if the age range is essential for the role's duties?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is there a specific reason the role is limited to singaporean candidates only?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is there a specific reason why only fresh graduates are being considered for this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you explain why native english proficiency is required for this position?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is there a specific job requirement that necessitates candidates having no personal commitments?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is the emphasis on appearance essential for job performance?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "can you clarify the typical earnings range and factors influencing commission?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you explain the necessity of specifying gender for this position?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "can you clarify whether gender is an essential requirement for this position?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is there a legitimate business need for the 25‑30 age requirement?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "can you clarify if age is a necessary qualification for this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you explain why the role specifically seeks younger candidates?": {
+   "tone": false,
+   "relevance": true,
+   "reason": "presumes a preference for younger candidates that the posting does not state"
+  },
+  "could you explain why fluency in both english and mandarin is required for this position?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify if the role requires any gender-specific qualifications?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is there a particular skill set or experience level that the age range is intended to reflect?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify if this role is open to all nationalities or if there are specific requirements?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is the s pass quota a mandatory requirement for this position?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify the typical career progression timeline for this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "what are the expected working hours and how is work-life balance supported?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you explain the business reason for preferring female candidates?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is there a specific business need that requires candidates to be within this age range?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you explain the business rationale for specifying a preference for chinese candidates?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify the nationality requirements for this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you explain the business reason for specifying a religious preference in this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify why a full-body photograph is necessary for this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is the marital status or family planning information required for any specific job-related reason?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify if there is any compensation or benefits during the unpaid trial period?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you explain the conditions that would trigger the liquidated damages deduction?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify why the age range is specified for this position?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify if this role is open to all qualified candidates regardless of nationality?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you explain the rationale behind the preference for fresh graduates?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify how appearance relates to the responsibilities of this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify the base salary and the conditions under which the $6,000 monthly earnings are achievable?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is there a legitimate business reason for requiring female therapists for this position?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify what specific job requirements make a female candidate preferred for this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you explain why the age range of 22 to 28 is required for this position?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify if the preference for 'chinese' is based on a specific language skill or other job-related requirement?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify the specific operational reasons for preferring non-singaporean candidates for this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is the s pass quota a strict requirement for this position, or are other work pass types also considered?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "does the company apply for work passes for all successful candidates, or only for those who are not singaporean citizens or prs?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify why the delivery driver role specifically requires the candidate to be muslim?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify why a full-body photograph is required for this position?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "how does marital status and family planning relate to the requirements of this admin assistant role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you provide more details about the 3-day trial period and why it is unpaid?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you provide more details on the criteria and timeline for reaching the director level?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify the specific duties and expected working hours for this role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "are candidates with some post-graduation experience also considered for this graduate trainee role?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "is the 'native english speaker' requirement strictly necessary, or are non-native speakers with equivalent proficiency also considered?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
+  },
+  "could you clarify if there is a guaranteed base salary in addition to the commission, or if the compensation is entirely commission-based?": {
+   "tone": true,
+   "relevance": true,
+   "reason": ""
   }
  },
  "legal_implied": [
@@ -294,8 +604,30 @@
   "amily commitments are undesirable, which could be discriminatory.",
   "ly requires a specific religion, which could be a discriminatory practice.",
   "he posting specifies an age range, which could be discriminatory.",
-  "s the position to a specific gender, which may be discriminatory."
+  "s the position to a specific gender, which may be discriminatory.",
+  " preference for a specific gender, which could be discriminatory.",
+  "rding sets an age range, which may constitute age discrimination.",
+  "a preference based on nationality, which could be discriminatory.",
+  "se specifies a religious preference, which may be discriminatory.",
+  "cts applicants based on nationality, which may be discriminatory unless a genuine occupational requirement exists.",
+  "ons, which may relate to marital or family status discrimination.",
+  "ncludes appearance-based requirements that may be discriminatory.",
+  "ars to limit applicants by gender, which could be discriminatory.",
+  "Specifying an age range may constitute age discrimination.",
+  "a clear job-related justification, which could be discriminatory.",
+  "ts who are not Singapore citizens, which could be discriminatory.",
+  "The wording specifies an age range, which may be discriminatory.",
+  "for applicants based on nationality, which may be discriminatory.",
+  "ence for a specific nationality, which could be a discriminatory practice.",
+  " preference for a specific age group, potentially discriminating against older applicants.",
+  "ement specifies gender for the role, which may be discriminatory."
  ],
  "legal_note": "All hits are hedged ('could be/may be discriminatory', 'may be unlawful', 'breach the Guidelines' shown beside a flag). None states unlawful discrimination as fact. Classified implied because the rubric bars legal-conclusion words about the employer.",
- "protected_false_hits": []
+ "protected_false_hits": [],
+ "legal_false_hits": [
+  "It is not clear whether the preference is legally required or merely a hiring preference."
+ ],
+ "legal_stated": [
+  "Requiring marital status or family plans can discriminate based on family status, a protected characteristi"
+ ]
 }

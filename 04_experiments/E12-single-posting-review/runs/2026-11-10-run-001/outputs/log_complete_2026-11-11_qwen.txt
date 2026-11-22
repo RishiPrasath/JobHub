@@ -1,0 +1,24 @@
+E12-P01__qwen__r1 3082 stop 0.0 s cached
+E12-P02__qwen__r1 2751 stop 5.6 s 
+E12-P03__qwen__r1 3530 stop 61.4 s 
+E12-P04__qwen__r1 3393 stop 79.8 s 
+E12-P05__qwen__r1 3315 stop 99.9 s 
+E12-P06__qwen__r1 3882 stop 0.0 s cached
+E12-P07__qwen__r1 3657 stop 0.0 s cached
+E12-P08__qwen__r1 3287 stop 141.0 s 
+E12-P09__qwen__r1 3099 stop 0.0 s cached
+E12-P10__qwen__r1 3012 stop 59.7 s 
+E12-P11__qwen__r1 3399 stop 101.3 s 
+E12-P12__qwen__r1 3327 stop 201.0 s 
+E12-P13__qwen__r1 3059 stop 59.9 s 
+E12-P14__qwen__r1 3290 stop 201.3 s 
+E12-P15__qwen__r1 2993 stop 0.0 s cached
+E12-P16__qwen__r1 2494 stop 0.0 s cached
+E12-P17__qwen__r1 3178 stop 0.0 s cached
+E12-P18__qwen__r1 2934 stop 79.7 s 
+E12-P19__qwen__r1 3025 stop 80.5 s 
+E12-P20__qwen__r1 3215 stop 181.0 s 
+E12-P21__qwen__r1 3376 stop 161.1 s 
+E12-P22__qwen__r1 3380 stop 81.0 s 
+E12-P23__qwen__r1 3087 stop 159.6 s 
+E12-P24__qwen__r1 2749 stop 100.3 s 

@@ -1,0 +1,6 @@
+job_seeker-01-grad-skim-trust 8 answers
+job_seeker-02-senior-careful-distrust 8 answers
+job_seeker-03-expat-midtrust-digital 8 answers
+job_seeker-04-shift-urgent-skim 8 answers
+job_seeker-05-grad-skim-trust 8 answers
+job_seeker-06-shift-urg-skim-mixed 8 answers

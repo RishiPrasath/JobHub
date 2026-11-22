@@ -1,0 +1,560 @@
+{
+ "label": "SIMULATED comprehension pilot (AI personas). Not a participant test.",
+ "agent_model": "openai/gpt-oss-120b",
+ "creator_model": "openai/gpt-oss-120b",
+ "finished_utc": "2026-11-11T06:09:36Z",
+ "answers": [
+  {
+   "persona_id": "job_seeker-01-grad-skim-trust",
+   "simulated": true,
+   "order": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "parsed": {
+    "answers": [
+     {
+      "card": "1",
+      "reads_as": "discriminating_or_illegal",
+      "not_established": "don't know if gender is truly needed for the job",
+      "would_drop_posting": "ask_first",
+      "next_step": "Ask them why female is preferred and decide later"
+     },
+     {
+      "card": "2",
+      "reads_as": "discriminating_or_illegal",
+      "not_established": "don't know if the role really needs non‑Singaporeans",
+      "would_drop_posting": "ask_first",
+      "next_step": "Query the reason for preferring non‑Singaporeans"
+     },
+     {
+      "card": "3",
+      "reads_as": "worth_asking",
+      "not_established": "nothing about whether the fee is legal or refundable",
+      "would_drop_posting": "ask_first",
+      "next_step": "Ask what the $300 fee and $500 deposit cover"
+     },
+     {
+      "card": "4",
+      "reads_as": "worth_asking",
+      "not_established": "nothing about whether unpaid trial is allowed",
+      "would_drop_posting": "ask_first",
+      "next_step": "Clarify if the 3‑day trial is paid and what work is done"
+     },
+     {
+      "card": "5",
+      "reads_as": "worth_asking",
+      "not_established": "nothing about legality of the liquidated damages clause",
+      "would_drop_posting": "ask_first",
+      "next_step": "Request details on the $3,000 deduction clause"
+     },
+     {
+      "card": "6",
+      "reads_as": "worth_asking",
+      "not_established": "don't know if appearance is a genuine job requirement",
+      "would_drop_posting": "ask_first",
+      "next_step": "Ask how looks affect the job duties"
+     },
+     {
+      "card": "7",
+      "reads_as": "worth_asking",
+      "not_established": "nothing confirming that gender is essential for the service",
+      "would_drop_posting": "ask_first",
+      "next_step": "Inquire about the need for female therapists for female clients"
+     },
+     {
+      "card": "8",
+      "reads_as": "unsure",
+      "not_established": "nothing shows actual discrimination in their own ads",
+      "would_drop_posting": "no",
+      "next_step": "Keep the posting; it seems compliant"
+     }
+    ]
+   },
+   "raw": "{\"answers\":[{\"card\":\"1\",\"reads_as\":\"discriminating_or_illegal\",\"not_established\":\"don't know if gender is truly needed for the job\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Ask them why female is preferred and decide later\"},{\"card\":\"2\",\"reads_as\":\"discriminating_or_illegal\",\"not_established\":\"don't know if the role really needs non‑Singaporeans\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Query the reason for preferring non‑Singaporeans\"},{\"card\":\"3\",\"reads_as\":\"worth_asking\",\"not_established\":\"nothing about whether the fee is legal or refundable\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Ask what the $300 fee and $500 deposit cover\"},{\"card\":\"4\",\"reads_as\":\"worth_asking\",\"not_established\":\"nothing about whether unpaid trial is allowed\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Clarify if the 3‑day trial is paid and what work is done\"},{\"card\":\"5\",\"reads_as\":\"worth_asking\",\"not_established\":\"nothing about legality of the liquidated damages clause\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Request details on the $3,000 deduction clause\"},{\"card\":\"6\",\"reads_as\":\"worth_asking\",\"not_established\":\"don't know if appearance is a genuine job requirement\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Ask how looks affect the job duties\"},{\"card\":\"7\",\"reads_as\":\"worth_asking\",\"not_established\":\"nothing confirming that gender is essential for the service\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Inquire about the need for female therapists for female clients\"},{\"card\":\"8\",\"reads_as\":\"unsure\",\"not_established\":\"nothing shows actual discrimination in their own ads\",\"would_drop_posting\":\"no\",\"next_step\":\"Keep the posting; it seems compliant\"}]}",
+   "usage": {
+    "completion_tokens": 421,
+    "prompt_tokens": 2153,
+    "total_tokens": 2574,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 26,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.159456098,
+    "prompt_time": 0.104823543,
+    "completion_time": 0.874040897,
+    "total_time": 0.97886444
+   },
+   "finish_reason": "stop"
+  },
+  {
+   "persona_id": "job_seeker-02-senior-careful-distrust",
+   "simulated": true,
+   "order": [
+    "8",
+    "7",
+    "6",
+    "5",
+    "4",
+    "3",
+    "2",
+    "1"
+   ],
+   "parsed": {
+    "answers": [
+     {
+      "card": "1",
+      "reads_as": "discriminating_or_illegal",
+      "not_established": "no justification for gender or age limit",
+      "would_drop_posting": "ask_first",
+      "next_step": "ask whether gender/age is a genuine job requirement"
+     },
+     {
+      "card": "2",
+      "reads_as": "discriminating_or_illegal",
+      "not_established": "why non‑Singaporeans are preferred",
+      "would_drop_posting": "ask_first",
+      "next_step": "ask if the role is open to all nationalities and why the wording is used"
+     },
+     {
+      "card": "3",
+      "reads_as": "worth_asking",
+      "not_established": "whether the fee or deposit is lawful or refundable",
+      "would_drop_posting": "ask_first",
+      "next_step": "ask what the $300 fee and $500 deposit cover and when they are returned"
+     },
+     {
+      "card": "4",
+      "reads_as": "worth_asking",
+      "not_established": "if the trial period is truly unpaid and lawful",
+      "would_drop_posting": "ask_first",
+      "next_step": "ask whether the 3‑day trial is paid and what work is expected"
+     },
+     {
+      "card": "5",
+      "reads_as": "worth_asking",
+      "not_established": "legal basis for liquidated damages deduction",
+      "would_drop_posting": "ask_first",
+      "next_step": "ask for details of the deduction clause and its contract reference"
+     },
+     {
+      "card": "6",
+      "reads_as": "discriminating_or_illegal",
+      "not_established": "whether appearance is a genuine job requirement",
+      "would_drop_posting": "ask_first",
+      "next_step": "ask how appearance relates to duties and what grooming standards are required"
+     },
+     {
+      "card": "7",
+      "reads_as": "worth_asking",
+      "not_established": "whether gender requirement is a legitimate privacy need",
+      "would_drop_posting": "ask_first",
+      "next_step": "ask if female therapists are required for a bona‑fide reason and what that reason is"
+     },
+     {
+      "card": "8",
+      "reads_as": "discriminating_or_illegal",
+      "not_established": "why an age limit of below 30 is stated",
+      "would_drop_posting": "ask_first",
+      "next_step": "ask how the age wording relates to the actual duties of the role"
+     }
+    ]
+   },
+   "raw": "{\"answers\":[{\"card\":\"1\",\"reads_as\":\"discriminating_or_illegal\",\"not_established\":\"no justification for gender or age limit\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"ask whether gender/age is a genuine job requirement\"},{\"card\":\"2\",\"reads_as\":\"discriminating_or_illegal\",\"not_established\":\"why non‑Singaporeans are preferred\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"ask if the role is open to all nationalities and why the wording is used\"},{\"card\":\"3\",\"reads_as\":\"worth_asking\",\"not_established\":\"whether the fee or deposit is lawful or refundable\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"ask what the $300 fee and $500 deposit cover and when they are returned\"},{\"card\":\"4\",\"reads_as\":\"worth_asking\",\"not_established\":\"if the trial period is truly unpaid and lawful\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"ask whether the 3‑day trial is paid and what work is expected\"},{\"card\":\"5\",\"reads_as\":\"worth_asking\",\"not_established\":\"legal basis for liquidated damages deduction\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"ask for details of the deduction clause and its contract reference\"},{\"card\":\"6\",\"reads_as\":\"discriminating_or_illegal\",\"not_established\":\"whether appearance is a genuine job requirement\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"ask how appearance relates to duties and what grooming standards are required\"},{\"card\":\"7\",\"reads_as\":\"worth_asking\",\"not_established\":\"whether gender requirement is a legitimate privacy need\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"ask if female therapists are required for a bona‑fide reason and what that reason is\"},{\"card\":\"8\",\"reads_as\":\"discriminating_or_illegal\",\"not_established\":\"why an age limit of below 30 is stated\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"ask how the age wording relates to the actual duties of the role\"}]}",
+   "usage": {
+    "completion_tokens": 712,
+    "prompt_tokens": 2151,
+    "total_tokens": 2863,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 287,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.375902951,
+    "prompt_time": 0.149552894,
+    "completion_time": 1.487519658,
+    "total_time": 1.637072552
+   },
+   "finish_reason": "stop"
+  },
+  {
+   "persona_id": "job_seeker-03-expat-midtrust-digital",
+   "simulated": true,
+   "order": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "parsed": {
+    "answers": [
+     {
+      "card": "1",
+      "reads_as": "discriminating_or_illegal",
+      "not_established": "whether there is a genuine job‑related reason for preferring females",
+      "would_drop_posting": "ask_first",
+      "next_step": "Ask the recruiter to explain the gender preference and its necessity"
+     },
+     {
+      "card": "2",
+      "reads_as": "discriminating_or_illegal",
+      "not_established": "whether the role truly requires non‑Singaporeans or a work‑pass quota",
+      "would_drop_posting": "ask_first",
+      "next_step": "Request clarification on the nationality wording and if all candidates are considered"
+     },
+     {
+      "card": "3",
+      "reads_as": "discriminating_or_illegal",
+      "not_established": "whether the fee/deposit is a legitimate, refundable training cost",
+      "would_drop_posting": "ask_first",
+      "next_step": "Ask what the $300 fee and $500 deposit cover and when they are returned"
+     },
+     {
+      "card": "4",
+      "reads_as": "discriminating_or_illegal",
+      "not_established": "if the unpaid trial is legally permissible or truly a training period",
+      "would_drop_posting": "ask_first",
+      "next_step": "Inquire whether the 3‑day trial is paid and what work is expected"
+     },
+     {
+      "card": "5",
+      "reads_as": "discriminating_or_illegal",
+      "not_established": "if the liquidated‑damage clause is allowed under the Employment Act for this role",
+      "would_drop_posting": "ask_first",
+      "next_step": "Ask for the contract clause detailing the $3,000 deduction"
+     },
+     {
+      "card": "6",
+      "reads_as": "discriminating_or_illegal",
+      "not_established": "whether appearance is a genuine job requirement for front‑of‑house duties",
+      "would_drop_posting": "ask_first",
+      "next_step": "Request explanation of how the ‘good‑looking’ criterion relates to the job"
+     },
+     {
+      "card": "7",
+      "reads_as": "worth_asking",
+      "not_established": "if the female‑only requirement is a legitimate privacy/health reason",
+      "would_drop_posting": "ask_first",
+      "next_step": "Ask the employer to confirm why female therapists are required for female customers"
+     },
+     {
+      "card": "8",
+      "reads_as": "unsure",
+      "not_established": "the actual job posting content; this is just a internal guide example",
+      "would_drop_posting": "no",
+      "next_step": "No follow‑up needed"
+     }
+    ]
+   },
+   "raw": "{\"answers\":[{\"card\":\"1\",\"reads_as\":\"discriminating_or_illegal\",\"not_established\":\"whether there is a genuine job‑related reason for preferring females\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Ask the recruiter to explain the gender preference and its necessity\"},{\"card\":\"2\",\"reads_as\":\"discriminating_or_illegal\",\"not_established\":\"whether the role truly requires non‑Singaporeans or a work‑pass quota\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Request clarification on the nationality wording and if all candidates are considered\"},{\"card\":\"3\",\"reads_as\":\"discriminating_or_illegal\",\"not_established\":\"whether the fee/deposit is a legitimate, refundable training cost\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Ask what the $300 fee and $500 deposit cover and when they are returned\"},{\"card\":\"4\",\"reads_as\":\"discriminating_or_illegal\",\"not_established\":\"if the unpaid trial is legally permissible or truly a training period\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Inquire whether the 3‑day trial is paid and what work is expected\"},{\"card\":\"5\",\"reads_as\":\"discriminating_or_illegal\",\"not_established\":\"if the liquidated‑damage clause is allowed under the Employment Act for this role\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Ask for the contract clause detailing the $3,000 deduction\"},{\"card\":\"6\",\"reads_as\":\"discriminating_or_illegal\",\"not_established\":\"whether appearance is a genuine job requirement for front‑of‑house duties\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Request explanation of how the ‘good‑looking’ criterion relates to the job\"},{\"card\":\"7\",\"reads_as\":\"worth_asking\",\"not_established\":\"if the female‑only requirement is a legitimate privacy/health reason\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Ask the employer to confirm why female therapists are required for female customers\"},{\"card\":\"8\",\"reads_as\":\"unsure\",\"not_established\":\"the actual job posting content; this is just a internal guide example\",\"would_drop_posting\":\"no\",\"next_step\":\"No follow‑up needed\"}]}",
+   "usage": {
+    "completion_tokens": 886,
+    "prompt_tokens": 2161,
+    "total_tokens": 3047,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 424,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.371107975,
+    "prompt_time": 0.11782762,
+    "completion_time": 1.8443195399999999,
+    "total_time": 1.96214716
+   },
+   "finish_reason": "stop"
+  },
+  {
+   "persona_id": "job_seeker-04-shift-urgent-skim",
+   "simulated": true,
+   "order": [
+    "8",
+    "7",
+    "6",
+    "5",
+    "4",
+    "3",
+    "2",
+    "1"
+   ],
+   "parsed": {
+    "answers": [
+     {
+      "card": "1",
+      "reads_as": "discriminating_or_illegal",
+      "not_established": "don't know if gender needed for role",
+      "would_drop_posting": "ask_first",
+      "next_step": "Message employer asking why female/age requirement"
+     },
+     {
+      "card": "2",
+      "reads_as": "discriminating_or_illegal",
+      "not_established": "don't know if non‑Singaporean preference is job‑related",
+      "would_drop_posting": "ask_first",
+      "next_step": "Ask why nationality is specified and if all are considered"
+     },
+     {
+      "card": "3",
+      "reads_as": "worth_asking",
+      "not_established": "nothing about legality of fee for locals",
+      "would_drop_posting": "ask_first",
+      "next_step": "Query purpose and refund policy of course fee and deposit"
+     },
+     {
+      "card": "4",
+      "reads_as": "worth_asking",
+      "not_established": "nothing about trial legality",
+      "would_drop_posting": "ask_first",
+      "next_step": "Ask if trial is paid and exact duties"
+     },
+     {
+      "card": "5",
+      "reads_as": "worth_asking",
+      "not_established": "nothing about contract clause allowing deduction",
+      "would_drop_posting": "ask_first",
+      "next_step": "Request clarification on liquidated damages clause"
+     },
+     {
+      "card": "6",
+      "reads_as": "worth_asking",
+      "not_established": "nothing about appearance requirement relevance",
+      "would_drop_posting": "ask_first",
+      "next_step": "Ask how looks affect job duties"
+     },
+     {
+      "card": "7",
+      "reads_as": "discriminating_or_illegal",
+      "not_established": "don't know if gender is truly required for treatment rooms",
+      "would_drop_posting": "ask_first",
+      "next_step": "Inquire if female therapist is a legal necessity"
+     },
+     {
+      "card": "8",
+      "reads_as": "unsure",
+      "not_established": "nothing about actual age restriction in practice",
+      "would_drop_posting": "ask_first",
+      "next_step": "Ask how age wording ties to job duties"
+     }
+    ]
+   },
+   "raw": "{\"answers\":[{\"card\":\"1\",\"reads_as\":\"discriminating_or_illegal\",\"not_established\":\"don't know if gender needed for role\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Message employer asking why female/age requirement\"},{\"card\":\"2\",\"reads_as\":\"discriminating_or_illegal\",\"not_established\":\"don't know if non‑Singaporean preference is job‑related\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Ask why nationality is specified and if all are considered\"},{\"card\":\"3\",\"reads_as\":\"worth_asking\",\"not_established\":\"nothing about legality of fee for locals\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Query purpose and refund policy of course fee and deposit\"},{\"card\":\"4\",\"reads_as\":\"worth_asking\",\"not_established\":\"nothing about trial legality\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Ask if trial is paid and exact duties\"},{\"card\":\"5\",\"reads_as\":\"worth_asking\",\"not_established\":\"nothing about contract clause allowing deduction\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Request clarification on liquidated damages clause\"},{\"card\":\"6\",\"reads_as\":\"worth_asking\",\"not_established\":\"nothing about appearance requirement relevance\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Ask how looks affect job duties\"},{\"card\":\"7\",\"reads_as\":\"discriminating_or_illegal\",\"not_established\":\"don't know if gender is truly required for treatment rooms\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Inquire if female therapist is a legal necessity\"},{\"card\":\"8\",\"reads_as\":\"unsure\",\"not_established\":\"nothing about actual age restriction in practice\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Ask how age wording ties to job duties\"}]}",
+   "usage": {
+    "completion_tokens": 405,
+    "prompt_tokens": 2158,
+    "total_tokens": 2563,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 35,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.15948879,
+    "prompt_time": 0.100897512,
+    "completion_time": 0.844856989,
+    "total_time": 0.945754501
+   },
+   "finish_reason": "stop"
+  },
+  {
+   "persona_id": "job_seeker-05-grad-skim-trust",
+   "simulated": true,
+   "order": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "parsed": {
+    "answers": [
+     {
+      "card": "1",
+      "reads_as": "discriminating_or_illegal",
+      "not_established": "don't know if gender is truly needed",
+      "would_drop_posting": "ask_first",
+      "next_step": "Ask them why they prefer females and if it's a real requirement"
+     },
+     {
+      "card": "2",
+      "reads_as": "discriminating_or_illegal",
+      "not_established": "don't know if nationality is truly needed",
+      "would_drop_posting": "ask_first",
+      "next_step": "Ask how the non‑Singaporean preference ties to the job"
+     },
+     {
+      "card": "3",
+      "reads_as": "worth_asking",
+      "not_established": "nothing about legality of fee for locals",
+      "would_drop_posting": "ask_first",
+      "next_step": "Ask what the $300 fee and $500 deposit cover and refund policy"
+     },
+     {
+      "card": "4",
+      "reads_as": "worth_asking",
+      "not_established": "nothing about whether unpaid trial is allowed",
+      "would_drop_posting": "ask_first",
+      "next_step": "Ask if the trial can be paid or if there's a paid onboarding"
+     },
+     {
+      "card": "5",
+      "reads_as": "worth_asking",
+      "not_established": "nothing about if liquidated damages are legal here",
+      "would_drop_posting": "ask_first",
+      "next_step": "Ask what the $3,000 deduction is for and if it's allowed"
+     },
+     {
+      "card": "6",
+      "reads_as": "worth_asking",
+      "not_established": "nothing about why looks matter for the role",
+      "would_drop_posting": "ask_first",
+      "next_step": "Ask how appearance relates to job duties and any dress code"
+     },
+     {
+      "card": "7",
+      "reads_as": "discriminating_or_illegal",
+      "not_established": "don't know if gender rule is truly needed",
+      "would_drop_posting": "ask_first",
+      "next_step": "Ask if female therapists are required by law or just policy"
+     },
+     {
+      "card": "8",
+      "reads_as": "unsure",
+      "not_established": "nothing, they claim they follow fair guidelines",
+      "would_drop_posting": "no",
+      "next_step": "Proceed, but still skim the actual posting for any hidden bias"
+     }
+    ]
+   },
+   "raw": "{\n  \"answers\": [\n    {\"card\":\"1\",\"reads_as\":\"discriminating_or_illegal\",\"not_established\":\"don't know if gender is truly needed\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Ask them why they prefer females and if it's a real requirement\"},\n    {\"card\":\"2\",\"reads_as\":\"discriminating_or_illegal\",\"not_established\":\"don't know if nationality is truly needed\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Ask how the non‑Singaporean preference ties to the job\"},\n    {\"card\":\"3\",\"reads_as\":\"worth_asking\",\"not_established\":\"nothing about legality of fee for locals\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Ask what the $300 fee and $500 deposit cover and refund policy\"},\n    {\"card\":\"4\",\"reads_as\":\"worth_asking\",\"not_established\":\"nothing about whether unpaid trial is allowed\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Ask if the trial can be paid or if there's a paid onboarding\"},\n    {\"card\":\"5\",\"reads_as\":\"worth_asking\",\"not_established\":\"nothing about if liquidated damages are legal here\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Ask what the $3,000 deduction is for and if it's allowed\"},\n    {\"card\":\"6\",\"reads_as\":\"worth_asking\",\"not_established\":\"nothing about why looks matter for the role\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Ask how appearance relates to job duties and any dress code\"},\n    {\"card\":\"7\",\"reads_as\":\"discriminating_or_illegal\",\"not_established\":\"don't know if gender rule is truly needed\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"Ask if female therapists are required by law or just policy\"},\n    {\"card\":\"8\",\"reads_as\":\"unsure\",\"not_established\":\"nothing, they claim they follow fair guidelines\",\"would_drop_posting\":\"no\",\"next_step\":\"Proceed, but still skim the actual posting for any hidden bias\"}\n  ]\n}",
+   "usage": {
+    "completion_tokens": 460,
+    "prompt_tokens": 2175,
+    "total_tokens": 2635,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 35,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.377692458,
+    "prompt_time": 0.15342929,
+    "completion_time": 0.961061754,
+    "total_time": 1.114491044
+   },
+   "finish_reason": "stop"
+  },
+  {
+   "persona_id": "job_seeker-06-shift-urg-skim-mixed",
+   "simulated": true,
+   "order": [
+    "8",
+    "7",
+    "6",
+    "5",
+    "4",
+    "3",
+    "2",
+    "1"
+   ],
+   "parsed": {
+    "answers": [
+     {
+      "card": "1",
+      "reads_as": "worth_asking",
+      "not_established": "doesn't prove illegal or that gender is needed",
+      "would_drop_posting": "ask_first",
+      "next_step": "send a quick email asking why female is required"
+     },
+     {
+      "card": "2",
+      "reads_as": "worth_asking",
+      "not_established": "doesn't prove discrimination or legal breach",
+      "would_drop_posting": "ask_first",
+      "next_step": "text the recruiter to ask about the non‑Singaporean preference"
+     },
+     {
+      "card": "3",
+      "reads_as": "worth_asking",
+      "not_established": "doesn't show fee is legal or refundable",
+      "would_drop_posting": "ask_first",
+      "next_step": "call and ask what the $300 fee covers"
+     },
+     {
+      "card": "4",
+      "reads_as": "worth_asking",
+      "not_established": "doesn't prove unpaid trial is illegal",
+      "would_drop_posting": "ask_first",
+      "next_step": "message to confirm if trial is paid"
+     },
+     {
+      "card": "5",
+      "reads_as": "worth_asking",
+      "not_established": "doesn't prove liquidated damages are illegal",
+      "would_drop_posting": "ask_first",
+      "next_step": "ask for contract clause on the deduction"
+     },
+     {
+      "card": "6",
+      "reads_as": "worth_asking",
+      "not_established": "doesn't prove appearance requirement is legal",
+      "would_drop_posting": "ask_first",
+      "next_step": "ask how looks affect the job duties"
+     },
+     {
+      "card": "7",
+      "reads_as": "worth_asking",
+      "not_established": "doesn't prove gender rule is illegal",
+      "would_drop_posting": "ask_first",
+      "next_step": "ask why only female therapists are needed"
+     },
+     {
+      "card": "8",
+      "reads_as": "worth_asking",
+      "not_established": "doesn't prove age limit is illegal",
+      "would_drop_posting": "ask_first",
+      "next_step": "ask how the age wording ties to the role duties"
+     }
+    ]
+   },
+   "raw": "{\"answers\":[{\"card\":\"1\",\"reads_as\":\"worth_asking\",\"not_established\":\"doesn't prove illegal or that gender is needed\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"send a quick email asking why female is required\"},{\"card\":\"2\",\"reads_as\":\"worth_asking\",\"not_established\":\"doesn't prove discrimination or legal breach\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"text the recruiter to ask about the non‑Singaporean preference\"},{\"card\":\"3\",\"reads_as\":\"worth_asking\",\"not_established\":\"doesn't show fee is legal or refundable\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"call and ask what the $300 fee covers\"},{\"card\":\"4\",\"reads_as\":\"worth_asking\",\"not_established\":\"doesn't prove unpaid trial is illegal\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"message to confirm if trial is paid\"},{\"card\":\"5\",\"reads_as\":\"worth_asking\",\"not_established\":\"doesn't prove liquidated damages are illegal\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"ask for contract clause on the deduction\"},{\"card\":\"6\",\"reads_as\":\"worth_asking\",\"not_established\":\"doesn't prove appearance requirement is legal\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"ask how looks affect the job duties\"},{\"card\":\"7\",\"reads_as\":\"worth_asking\",\"not_established\":\"doesn't prove gender rule is illegal\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"ask why only female therapists are needed\"},{\"card\":\"8\",\"reads_as\":\"worth_asking\",\"not_established\":\"doesn't prove age limit is illegal\",\"would_drop_posting\":\"ask_first\",\"next_step\":\"ask how the age wording ties to the role duties\"}]}",
+   "usage": {
+    "completion_tokens": 390,
+    "prompt_tokens": 2171,
+    "total_tokens": 2561,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 24,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.158606519,
+    "prompt_time": 0.101369478,
+    "completion_time": 0.819167799,
+    "total_time": 0.920537277
+   },
+   "finish_reason": "stop"
+  }
+ ]
+}

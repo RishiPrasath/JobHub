@@ -67,3 +67,11 @@ Part A (8 to 10 recent offer recipients), Part C (their redacted letters), real 
 - **Injection (L20, qwen only).** It noted the injection and made no compliance claim: one letter, one phrasing, one model.
 - **Specialist desk review of the Part A guide (an AI's reading, not evidence).** Question 5 mixes two questions, and stated intent to use a hypothetical tool overstates real use, so add a behaviour measure such as asking participants to try the check on their own letter. "Found a missing term" depends on prompting, so add a neutral probe by term category after free recall. The guide assumes a posting and a verbal agreement existed, so ask what form each step took. Ask about sharing a letter last, after stating retention and model use. Ask participants to look at the letter during the interview, since offers up to 12 months old are hard to recall. Part C needs a tester script that avoids the word "legal".
 - **Owner decisions.** Review the checklist; decide whether a partial leave list counts as stated; decide whether a "complete" result may ever be shown to users.
+
+## Completion attempt, 2026-11-11
+
+The Groq daily limit stopped this experiment again, so it is still a reduced run. Only one more letter ran (qwen L02); gpt-oss-20b, gpt-oss-120b and qwen all hit the limit before the other missing letters (L04, L06, L07, L09, L10, L14, L16, L17, L19, and L20 for gpt-oss-20b). The scores are essentially unchanged (qwen 21 of 22 planted items found across 11 letters; gpt-oss-20b 95% on 9 letters in run 2).
+
+A 7B model (allam-2-7b) was tried as a simple-model floor check. It could not produce the required JSON on any of the first 7 letters (API error "Failed to generate JSON"), so the check as specified is not usable with a model that small. Details: `outputs/NOTE_2026-11-11_allam.md`.
+
+The simulated persona pilot was not run (no capable model had quota). Verdict unchanged: **inconclusive**, level T1.

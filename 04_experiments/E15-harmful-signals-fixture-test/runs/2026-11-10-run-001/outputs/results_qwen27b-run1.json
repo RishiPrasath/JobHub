@@ -6,12 +6,12 @@
  "params": {
   "temperature": 0.2,
   "reasoning_effort": "low",
-  "max_tokens": 1000,
+  "max_tokens": 1200,
   "json_mode": true,
   "batch_size": 4
  },
- "finished_utc": "2026-11-10T11:14:38Z",
- "total_tokens": 7155,
+ "finished_utc": "2026-11-11T05:52:21Z",
+ "total_tokens": 16461,
  "calls": [
   {
    "batch": 0,
@@ -21,6 +21,7 @@
     "A05",
     "J01"
    ],
+   "max_tokens": 1200,
    "usage": {
     "completion_tokens": 621,
     "prompt_tokens": 987,
@@ -33,7 +34,7 @@
     "total_time": 1.9961026720000001
    },
    "finish_reason": "stop",
-   "cached": false
+   "cached": true
   },
   {
    "batch": 1,
@@ -43,6 +44,7 @@
     "J04",
     "C07"
    ],
+   "max_tokens": 1200,
    "usage": {
     "completion_tokens": 279,
     "prompt_tokens": 1024,
@@ -55,7 +57,7 @@
     "total_time": 0.597801935
    },
    "finish_reason": "stop",
-   "cached": false
+   "cached": true
   },
   {
    "batch": 2,
@@ -65,6 +67,7 @@
     "J06",
     "C06"
    ],
+   "max_tokens": 1200,
    "usage": {
     "completion_tokens": 527,
     "prompt_tokens": 1037,
@@ -77,7 +80,7 @@
     "total_time": 1.120279182
    },
    "finish_reason": "stop",
-   "cached": false
+   "cached": true
   },
   {
    "batch": 3,
@@ -87,6 +90,7 @@
     "J03",
     "A01"
    ],
+   "max_tokens": 1200,
    "usage": {
     "completion_tokens": 250,
     "prompt_tokens": 1004,
@@ -99,7 +103,7 @@
     "total_time": 0.562299868
    },
    "finish_reason": "stop",
-   "cached": false
+   "cached": true
   },
   {
    "batch": 4,
@@ -109,6 +113,7 @@
     "C09",
     "A06"
    ],
+   "max_tokens": 1200,
    "usage": {
     "completion_tokens": 412,
     "prompt_tokens": 1014,
@@ -121,25 +126,178 @@
     "total_time": 0.905375653
    },
    "finish_reason": "stop",
+   "cached": true
+  },
+  {
+   "batch": 5,
+   "case_ids": [
+    "B06",
+    "E3",
+    "C04",
+    "C08"
+   ],
+   "max_tokens": 1200,
+   "usage": {
+    "completion_tokens": 362,
+    "prompt_tokens": 1048,
+    "total_tokens": 1410,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.049758338,
+    "prompt_time": 0.073118889,
+    "completion_time": 0.714716529,
+    "total_time": 0.787835418
+   },
+   "finish_reason": "stop",
+   "cached": false
+  },
+  {
+   "batch": 6,
+   "case_ids": [
+    "B03",
+    "A04",
+    "C05",
+    "A03"
+   ],
+   "max_tokens": 1200,
+   "usage": {
+    "completion_tokens": 596,
+    "prompt_tokens": 998,
+    "total_tokens": 1594,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.052942318,
+    "prompt_time": 0.070524662,
+    "completion_time": 1.177812834,
+    "total_time": 1.248337496
+   },
+   "finish_reason": "stop",
+   "cached": false
+  },
+  {
+   "batch": 7,
+   "case_ids": [
+    "A07",
+    "J02",
+    "J05",
+    "C02"
+   ],
+   "max_tokens": 1200,
+   "usage": {
+    "completion_tokens": 409,
+    "prompt_tokens": 995,
+    "total_tokens": 1404,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.052829477,
+    "prompt_time": 0.073347222,
+    "completion_time": 0.812041413,
+    "total_time": 0.885388635
+   },
+   "finish_reason": "stop",
+   "cached": false
+  },
+  {
+   "batch": 8,
+   "case_ids": [
+    "B07",
+    "B02",
+    "C03",
+    "E1"
+   ],
+   "max_tokens": 1200,
+   "usage": {
+    "completion_tokens": 500,
+    "prompt_tokens": 1024,
+    "total_tokens": 1524,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.053810907,
+    "prompt_time": 0.075058572,
+    "completion_time": 1.013502718,
+    "total_time": 1.08856129
+   },
+   "finish_reason": "stop",
+   "cached": false
+  },
+  {
+   "batch": 9,
+   "case_ids": [
+    "C01",
+    "B05"
+   ],
+   "max_tokens": 1200,
+   "usage": {
+    "completion_tokens": 296,
+    "prompt_tokens": 948,
+    "total_tokens": 1244,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.049361009,
+    "prompt_time": 0.07212567,
+    "completion_time": 0.602985994,
+    "total_time": 0.675111664
+   },
+   "finish_reason": "stop",
+   "cached": false
+  },
+  {
+   "batch": 10,
+   "case_ids": [
+    "C10"
+   ],
+   "max_tokens": 1200,
+   "usage": {
+    "completion_tokens": 275,
+    "prompt_tokens": 917,
+    "total_tokens": 1192,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.053998569,
+    "prompt_time": 0.06508428,
+    "completion_time": 0.551859891,
+    "total_time": 0.616944171
+   },
+   "finish_reason": "stop",
+   "cached": false
+  },
+  {
+   "batch": 11,
+   "case_ids": [
+    "E6"
+   ],
+   "max_tokens": 1200,
+   "usage": {
+    "completion_tokens": 21,
+    "prompt_tokens": 917,
+    "total_tokens": 938,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.047707925,
+    "prompt_time": 0.064884754,
+    "completion_time": 0.040056955,
+    "total_time": 0.104941709
+   },
+   "finish_reason": "stop",
    "cached": false
   }
  ],
  "results": [
   {
-   "case_id": "A01",
+   "case_id": "E2",
    "method": "qwen27b-run1",
-   "batch": 3,
-   "posting_id_in_batch": "P4",
+   "batch": 0,
+   "posting_id_in_batch": "P1",
    "parse_ok": true,
    "finish_reason": "stop",
    "flags": [
     {
-     "entry_id": "P1-NATIONALITY",
+     "entry_id": "P1-GENDER",
      "category": 1,
-     "excerpt": "Singaporeans only",
+     "excerpt": "限女性",
      "span": [
-      28,
-      45
+      6,
+      9
      ],
      "valid_entry": true,
      "excerpt_verbatim": true,
@@ -151,31 +309,90 @@
        "accessed": "2026-11-10"
       },
       {
-       "source_id": "S3",
-       "name": "MOM, Fair Consideration Framework (web page, last updated 8 Aug 2025)",
-       "url": "https://www.mom.gov.sg/employment-practices/fair-consideration-framework",
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
        "accessed": "2026-11-10"
       }
      ],
      "source_support": "direct",
      "why_it_may_matter": "",
-     "what_is_not_established": "It is not established whether this restriction is due to a specific legal requirement or a company preference.",
-     "suggested_question": "Could you clarify if there are specific legal or operational reasons for requiring Singaporean citizenship for this role?"
+     "what_is_not_established": "It is not established whether the nature of the receptionist role strictly requires a female candidate for operational or safety reasons.",
+     "suggested_question": "Could you clarify if there are specific operational requirements that necessitate a female candidate for this receptionist role?"
+    },
+    {
+     "entry_id": "P1-AGE",
+     "category": 1,
+     "excerpt": "年龄25至30岁",
+     "span": [
+      10,
+      18
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "",
+     "what_is_not_established": "It is not established why this specific age range is required for the position.",
+     "suggested_question": "What specific job-related reasons require candidates to be between the ages of 25 and 30?"
     }
    ],
    "no_reliable_signal": false,
-   "raw_content": "{\"id\": \"P4\", \"flags\": [{\"entry_id\": \"P1-NATIONALITY\", \"excerpt\": \"Singaporeans only\", \"why_it_matter\": \"This wording restricts the applicant pool based on citizenship status.\", \"what_is_not_established\": \"It is not established whether this restriction is due to a specific legal requirement or a company preference.\", \"suggested_question\": \"Could you clarify if there are specific legal or operational reasons for requiring Singaporean citizenship for this role?\"}], \"no_reliable_signal\": false}"
+   "raw_content": "{\"id\": \"P1\", \"flags\": [{\"entry_id\": \"P1-GENDER\", \"excerpt\": \"限女性\", \"why_it_matter\": \"The posting explicitly restricts the role to females, which may limit the applicant pool based on gender.\", \"what_is_not_established\": \"It is not established whether the nature of the receptionist role strictly requires a female candidate for operational or safety reasons.\", \"suggested_question\": \"Could you clarify if there are specific operational requirements that necessitate a female candidate for this receptionist role?\"}, {\"entry_id\": \"P1-AGE\", \"excerpt\": \"年龄25至30岁\", \"why_it_matter\": \"The posting specifies a narrow age range of 25 to 30, which may exclude qualified candidates outside this bracket.\", \"what_is_not_established\": \"It is not established why this specific age range is required for the position.\", \"suggested_question\": \"What specific job-related reasons require candidates to be between the ages of 25 and 30?\"}], \"no_reliable_signal\": false}"
   },
   {
-   "case_id": "A02",
+   "case_id": "E4",
    "method": "qwen27b-run1",
-   "batch": 3,
-   "posting_id_in_batch": "P1",
+   "batch": 0,
+   "posting_id_in_batch": "P2",
    "parse_ok": true,
    "finish_reason": "stop",
-   "flags": [],
-   "no_reliable_signal": true,
-   "raw_content": "{\"id\": \"P1\", \"flags\": [], \"no_reliable_signal\": true}"
+   "flags": [
+    {
+     "entry_id": "P1-AGE",
+     "category": 1,
+     "excerpt": "young peoples",
+     "span": [
+      12,
+      25
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "",
+     "what_is_not_established": "It is not established whether 'young' is a strict requirement or merely a descriptive term for the desired energy level.",
+     "suggested_question": "Is there a specific age requirement for this role, or is 'young' used to describe the desired energy and work ethic?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P2\", \"flags\": [{\"entry_id\": \"P1-AGE\", \"excerpt\": \"young peoples\", \"why_it_matter\": \"The use of 'young peoples' may imply a preference for younger candidates, potentially excluding older applicants.\", \"what_is_not_established\": \"It is not established whether 'young' is a strict requirement or merely a descriptive term for the desired energy level.\", \"suggested_question\": \"Is there a specific age requirement for this role, or is 'young' used to describe the desired energy and work ethic?\"}], \"no_reliable_signal\": false}"
   },
   {
    "case_id": "A05",
@@ -219,39 +436,76 @@
    "raw_content": "{\"id\": \"P3\", \"flags\": [{\"entry_id\": \"P2-FAMILY\", \"excerpt\": \"no personal commitments\", \"why_it_matter\": \"The phrase 'no personal commitments' may be interpreted as excluding candidates with family responsibilities or other significant life obligations.\", \"what_is_not_established\": \"It is not established what specific personal commitments are considered interfering with work.\", \"suggested_question\": \"Could you clarify what types of personal commitments are considered to interfere with work for this role?\"}], \"no_reliable_signal\": false}"
   },
   {
-   "case_id": "A06",
+   "case_id": "J01",
    "method": "qwen27b-run1",
-   "batch": 4,
+   "batch": 0,
+   "posting_id_in_batch": "P4",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": true,
+   "raw_content": "{\"id\": \"P4\", \"flags\": [], \"no_reliable_signal\": true}"
+  },
+  {
+   "case_id": "B01",
+   "method": "qwen27b-run1",
+   "batch": 1,
+   "posting_id_in_batch": "P1",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": true,
+   "raw_content": "{\"id\": \"P1\", \"flags\": [], \"no_reliable_signal\": true}"
+  },
+  {
+   "case_id": "B08",
+   "method": "qwen27b-run1",
+   "batch": 1,
+   "posting_id_in_batch": "P2",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": true,
+   "raw_content": "{\"id\": \"P2\", \"flags\": [], \"no_reliable_signal\": true}"
+  },
+  {
+   "case_id": "J04",
+   "method": "qwen27b-run1",
+   "batch": 1,
+   "posting_id_in_batch": "P3",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": true,
+   "raw_content": "{\"id\": \"P3\", \"flags\": [], \"no_reliable_signal\": true}"
+  },
+  {
+   "case_id": "C07",
+   "method": "qwen27b-run1",
+   "batch": 1,
    "posting_id_in_batch": "P4",
    "parse_ok": true,
    "finish_reason": "stop",
    "flags": [
     {
-     "entry_id": "P2-APPEARANCE",
-     "category": 2,
-     "excerpt": "Good-looking, well-groomed",
+     "entry_id": "P3-DOCS",
+     "category": 3,
+     "excerpt": "keep your original passport and academic certificates",
      "span": [
-      21,
-      47
+      54,
+      107
      ],
      "valid_entry": true,
      "excerpt_verbatim": true,
-     "sources": [
-      {
-       "source_id": "S1",
-       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
-       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
-       "accessed": "2026-11-10"
-      }
-     ],
-     "source_support": "partial",
-     "why_it_may_matter": "The use of subjective appearance-based terms like 'good-looking' may indicate a preference that is not strictly job-related.",
-     "what_is_not_established": "It is not established what specific grooming standards are required or how 'good-looking' is defined in the context of this role.",
-     "suggested_question": "Could you provide more specific details on the grooming standards expected for this front-of-house role?"
+     "sources": [],
+     "source_support": "none",
+     "why_it_may_matter": "",
+     "what_is_not_established": "It is not established whether the employer has a specific legal or operational requirement that necessitates holding the physical originals rather than copies.",
+     "suggested_question": "Could you clarify the specific operational reason for retaining the original passport and certificates, and whether copies would be acceptable instead?"
     }
    ],
    "no_reliable_signal": false,
-   "raw_content": "{\"id\": \"P4\", \"flags\": [{\"entry_id\": \"P2-APPEARANCE\", \"excerpt\": \"Good-looking, well-groomed\", \"why_it_may_matter\": \"The use of subjective appearance-based terms like 'good-looking' may indicate a preference that is not strictly job-related.\", \"what_is_not_established\": \"It is not established what specific grooming standards are required or how 'good-looking' is defined in the context of this role.\", \"suggested_question\": \"Could you provide more specific details on the grooming standards expected for this front-of-house role?\"}], \"no_reliable_signal\": false}"
+   "raw_content": "{\"id\": \"P4\", \"flags\": [{\"entry_id\": \"P3-DOCS\", \"excerpt\": \"keep your original passport and academic certificates\", \"why_it_matter\": \"The posting mentions retaining original identity and academic documents, which is a practice that may limit an applicant's mobility or access to their own records.\", \"what_is_not_established\": \"It is not established whether the employer has a specific legal or operational requirement that necessitates holding the physical originals rather than copies.\", \"suggested_question\": \"Could you clarify the specific operational reason for retaining the original passport and certificates, and whether copies would be acceptable instead?\"}], \"no_reliable_signal\": false}"
   },
   {
    "case_id": "A08",
@@ -295,53 +549,6 @@
    "raw_content": "{\"id\": \"P1\", \"flags\": [{\"entry_id\": \"P1-NATIONALITY\", \"excerpt\": \"Must be a graduate of a local university\", \"why_it_may_matter\": \"This requirement may indirectly restrict applicants based on nationality or work pass status, as it excludes those who studied abroad.\", \"what_is_not_established\": \"It is not established whether the role specifically requires local university knowledge or if this is a proxy for citizenship.\", \"suggested_question\": \"Is the requirement to be a graduate of a local university strictly necessary for the role, or are graduates from overseas universities also considered?\"}], \"no_reliable_signal\": false}"
   },
   {
-   "case_id": "B01",
-   "method": "qwen27b-run1",
-   "batch": 1,
-   "posting_id_in_batch": "P1",
-   "parse_ok": true,
-   "finish_reason": "stop",
-   "flags": [],
-   "no_reliable_signal": true,
-   "raw_content": "{\"id\": \"P1\", \"flags\": [], \"no_reliable_signal\": true}"
-  },
-  {
-   "case_id": "B04",
-   "method": "qwen27b-run1",
-   "batch": 4,
-   "posting_id_in_batch": "P2",
-   "parse_ok": true,
-   "finish_reason": "stop",
-   "flags": [],
-   "no_reliable_signal": true,
-   "raw_content": "{\"id\": \"P2\", \"flags\": [], \"no_reliable_signal\": true}"
-  },
-  {
-   "case_id": "B06",
-   "method": "qwen27b-run1",
-   "error": "chat failed after 8 attempts: Error code: 429 - {'error': {'message': \"Request too large for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1200. The request's expected output tokens exceed ",
-   "flags": [],
-   "no_reliable_signal": null
-  },
-  {
-   "case_id": "B06",
-   "method": "qwen27b-run1",
-   "error": "DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199783, Requested 1261. Please try again in 7m31.008s. Need more tokens? Upgrade",
-   "flags": [],
-   "no_reliable_signal": null
-  },
-  {
-   "case_id": "B08",
-   "method": "qwen27b-run1",
-   "batch": 1,
-   "posting_id_in_batch": "P2",
-   "parse_ok": true,
-   "finish_reason": "stop",
-   "flags": [],
-   "no_reliable_signal": true,
-   "raw_content": "{\"id\": \"P2\", \"flags\": [], \"no_reliable_signal\": true}"
-  },
-  {
    "case_id": "B09",
    "method": "qwen27b-run1",
    "batch": 2,
@@ -353,29 +560,15 @@
    "raw_content": "{\"id\": \"P2\", \"flags\": [], \"no_reliable_signal\": true}"
   },
   {
-   "case_id": "B10",
+   "case_id": "J06",
    "method": "qwen27b-run1",
-   "batch": 4,
-   "posting_id_in_batch": "P1",
+   "batch": 2,
+   "posting_id_in_batch": "P3",
    "parse_ok": true,
    "finish_reason": "stop",
    "flags": [],
    "no_reliable_signal": true,
-   "raw_content": "{\"id\": \"P1\", \"flags\": [], \"no_reliable_signal\": true}"
-  },
-  {
-   "case_id": "C04",
-   "method": "qwen27b-run1",
-   "error": "chat failed after 8 attempts: Error code: 429 - {'error': {'message': \"Request too large for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1200. The request's expected output tokens exceed ",
-   "flags": [],
-   "no_reliable_signal": null
-  },
-  {
-   "case_id": "C04",
-   "method": "qwen27b-run1",
-   "error": "DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199783, Requested 1261. Please try again in 7m31.008s. Need more tokens? Upgrade",
-   "flags": [],
-   "no_reliable_signal": null
+   "raw_content": "{\"id\": \"P3\", \"flags\": [], \"no_reliable_signal\": true}"
   },
   {
    "case_id": "C06",
@@ -448,46 +641,100 @@
    "raw_content": "{\"id\": \"P4\", \"flags\": [{\"entry_id\": \"P3-FEE\", \"excerpt\": \"remit a $300 course fee\", \"why_it_may_matter\": \"Charging a fee for training or courses before starting work can be a sign of a recruitment scam or unfair cost-shifting to the applicant.\", \"what_is_not_established\": \"It is not established whether this fee is a standard industry practice or an attempt to profit from applicants.\", \"suggested_question\": \"Could you clarify why a course fee is required before the first shift and what specific training this covers?\"}, {\"entry_id\": \"P3-FEE\", \"excerpt\": \"refundable security deposit of $500\", \"why_it_may_matter\": \"Requesting a security deposit from an employee is unusual and may indicate financial risk to the applicant.\", \"what_is_not_established\": \"It is not established what the deposit secures or the specific conditions for its refund.\", \"suggested_question\": \"What does the security deposit secure, and what are the specific conditions for its refund?\"}], \"no_reliable_signal\": false}"
   },
   {
-   "case_id": "C07",
+   "case_id": "A02",
    "method": "qwen27b-run1",
-   "batch": 1,
+   "batch": 3,
+   "posting_id_in_batch": "P1",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": true,
+   "raw_content": "{\"id\": \"P1\", \"flags\": [], \"no_reliable_signal\": true}"
+  },
+  {
+   "case_id": "E5",
+   "method": "qwen27b-run1",
+   "batch": 3,
+   "posting_id_in_batch": "P2",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": true,
+   "raw_content": "{\"id\": \"P2\", \"flags\": [], \"no_reliable_signal\": true}"
+  },
+  {
+   "case_id": "J03",
+   "method": "qwen27b-run1",
+   "batch": 3,
+   "posting_id_in_batch": "P3",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": true,
+   "raw_content": "{\"id\": \"P3\", \"flags\": [], \"no_reliable_signal\": true}"
+  },
+  {
+   "case_id": "A01",
+   "method": "qwen27b-run1",
+   "batch": 3,
    "posting_id_in_batch": "P4",
    "parse_ok": true,
    "finish_reason": "stop",
    "flags": [
     {
-     "entry_id": "P3-DOCS",
-     "category": 3,
-     "excerpt": "keep your original passport and academic certificates",
+     "entry_id": "P1-NATIONALITY",
+     "category": 1,
+     "excerpt": "Singaporeans only",
      "span": [
-      54,
-      107
+      28,
+      45
      ],
      "valid_entry": true,
      "excerpt_verbatim": true,
-     "sources": [],
-     "source_support": "none",
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S3",
+       "name": "MOM, Fair Consideration Framework (web page, last updated 8 Aug 2025)",
+       "url": "https://www.mom.gov.sg/employment-practices/fair-consideration-framework",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
      "why_it_may_matter": "",
-     "what_is_not_established": "It is not established whether the employer has a specific legal or operational requirement that necessitates holding the physical originals rather than copies.",
-     "suggested_question": "Could you clarify the specific operational reason for retaining the original passport and certificates, and whether copies would be acceptable instead?"
+     "what_is_not_established": "It is not established whether this restriction is due to a specific legal requirement or a company preference.",
+     "suggested_question": "Could you clarify if there are specific legal or operational reasons for requiring Singaporean citizenship for this role?"
     }
    ],
    "no_reliable_signal": false,
-   "raw_content": "{\"id\": \"P4\", \"flags\": [{\"entry_id\": \"P3-DOCS\", \"excerpt\": \"keep your original passport and academic certificates\", \"why_it_matter\": \"The posting mentions retaining original identity and academic documents, which is a practice that may limit an applicant's mobility or access to their own records.\", \"what_is_not_established\": \"It is not established whether the employer has a specific legal or operational requirement that necessitates holding the physical originals rather than copies.\", \"suggested_question\": \"Could you clarify the specific operational reason for retaining the original passport and certificates, and whether copies would be acceptable instead?\"}], \"no_reliable_signal\": false}"
+   "raw_content": "{\"id\": \"P4\", \"flags\": [{\"entry_id\": \"P1-NATIONALITY\", \"excerpt\": \"Singaporeans only\", \"why_it_matter\": \"This wording restricts the applicant pool based on citizenship status.\", \"what_is_not_established\": \"It is not established whether this restriction is due to a specific legal requirement or a company preference.\", \"suggested_question\": \"Could you clarify if there are specific legal or operational reasons for requiring Singaporean citizenship for this role?\"}], \"no_reliable_signal\": false}"
   },
   {
-   "case_id": "C08",
+   "case_id": "B10",
    "method": "qwen27b-run1",
-   "error": "chat failed after 8 attempts: Error code: 429 - {'error': {'message': \"Request too large for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1200. The request's expected output tokens exceed ",
+   "batch": 4,
+   "posting_id_in_batch": "P1",
+   "parse_ok": true,
+   "finish_reason": "stop",
    "flags": [],
-   "no_reliable_signal": null
+   "no_reliable_signal": true,
+   "raw_content": "{\"id\": \"P1\", \"flags\": [], \"no_reliable_signal\": true}"
   },
   {
-   "case_id": "C08",
+   "case_id": "B04",
    "method": "qwen27b-run1",
-   "error": "DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199783, Requested 1261. Please try again in 7m31.008s. Need more tokens? Upgrade",
+   "batch": 4,
+   "posting_id_in_batch": "P2",
+   "parse_ok": true,
+   "finish_reason": "stop",
    "flags": [],
-   "no_reliable_signal": null
+   "no_reliable_signal": true,
+   "raw_content": "{\"id\": \"P2\", \"flags\": [], \"no_reliable_signal\": true}"
   },
   {
    "case_id": "C09",
@@ -525,134 +772,55 @@
    "raw_content": "{\"id\": \"P3\", \"flags\": [{\"entry_id\": \"P4-DEDUCT\", \"excerpt\": \"liquidated damages of $3,000 will be deducted from your salary\", \"why_it_may_matter\": \"This wording suggests a financial penalty and direct salary deduction tied to early resignation, which may be worth clarifying.\", \"what_is_not_established\": \"It is not established whether this clause is standard practice or if the specific amount and deduction method are negotiable.\", \"suggested_question\": \"Could you clarify the conditions under which the liquidated damages clause applies and how the deduction would be processed?\"}], \"no_reliable_signal\": false}"
   },
   {
-   "case_id": "E2",
+   "case_id": "A06",
    "method": "qwen27b-run1",
-   "batch": 0,
+   "batch": 4,
+   "posting_id_in_batch": "P4",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P2-APPEARANCE",
+     "category": 2,
+     "excerpt": "Good-looking, well-groomed",
+     "span": [
+      21,
+      47
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "partial",
+     "why_it_may_matter": "The use of subjective appearance-based terms like 'good-looking' may indicate a preference that is not strictly job-related.",
+     "what_is_not_established": "It is not established what specific grooming standards are required or how 'good-looking' is defined in the context of this role.",
+     "suggested_question": "Could you provide more specific details on the grooming standards expected for this front-of-house role?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P4\", \"flags\": [{\"entry_id\": \"P2-APPEARANCE\", \"excerpt\": \"Good-looking, well-groomed\", \"why_it_may_matter\": \"The use of subjective appearance-based terms like 'good-looking' may indicate a preference that is not strictly job-related.\", \"what_is_not_established\": \"It is not established what specific grooming standards are required or how 'good-looking' is defined in the context of this role.\", \"suggested_question\": \"Could you provide more specific details on the grooming standards expected for this front-of-house role?\"}], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "B06",
+   "method": "qwen27b-run1",
+   "batch": 5,
    "posting_id_in_batch": "P1",
    "parse_ok": true,
    "finish_reason": "stop",
-   "flags": [
-    {
-     "entry_id": "P1-GENDER",
-     "category": 1,
-     "excerpt": "限女性",
-     "span": [
-      6,
-      9
-     ],
-     "valid_entry": true,
-     "excerpt_verbatim": true,
-     "sources": [
-      {
-       "source_id": "S2",
-       "name": "TAFEP, Writing job advertisements (web page)",
-       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
-       "accessed": "2026-11-10"
-      },
-      {
-       "source_id": "S1",
-       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
-       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
-       "accessed": "2026-11-10"
-      }
-     ],
-     "source_support": "direct",
-     "why_it_may_matter": "",
-     "what_is_not_established": "It is not established whether the nature of the receptionist role strictly requires a female candidate for operational or safety reasons.",
-     "suggested_question": "Could you clarify if there are specific operational requirements that necessitate a female candidate for this receptionist role?"
-    },
-    {
-     "entry_id": "P1-AGE",
-     "category": 1,
-     "excerpt": "年龄25至30岁",
-     "span": [
-      10,
-      18
-     ],
-     "valid_entry": true,
-     "excerpt_verbatim": true,
-     "sources": [
-      {
-       "source_id": "S2",
-       "name": "TAFEP, Writing job advertisements (web page)",
-       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
-       "accessed": "2026-11-10"
-      },
-      {
-       "source_id": "S1",
-       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
-       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
-       "accessed": "2026-11-10"
-      }
-     ],
-     "source_support": "direct",
-     "why_it_may_matter": "",
-     "what_is_not_established": "It is not established why this specific age range is required for the position.",
-     "suggested_question": "What specific job-related reasons require candidates to be between the ages of 25 and 30?"
-    }
-   ],
-   "no_reliable_signal": false,
-   "raw_content": "{\"id\": \"P1\", \"flags\": [{\"entry_id\": \"P1-GENDER\", \"excerpt\": \"限女性\", \"why_it_matter\": \"The posting explicitly restricts the role to females, which may limit the applicant pool based on gender.\", \"what_is_not_established\": \"It is not established whether the nature of the receptionist role strictly requires a female candidate for operational or safety reasons.\", \"suggested_question\": \"Could you clarify if there are specific operational requirements that necessitate a female candidate for this receptionist role?\"}, {\"entry_id\": \"P1-AGE\", \"excerpt\": \"年龄25至30岁\", \"why_it_matter\": \"The posting specifies a narrow age range of 25 to 30, which may exclude qualified candidates outside this bracket.\", \"what_is_not_established\": \"It is not established why this specific age range is required for the position.\", \"suggested_question\": \"What specific job-related reasons require candidates to be between the ages of 25 and 30?\"}], \"no_reliable_signal\": false}"
+   "flags": [],
+   "no_reliable_signal": true,
+   "raw_content": "{\"id\": \"P1\", \"flags\": [], \"no_reliable_signal\": true}"
   },
   {
    "case_id": "E3",
    "method": "qwen27b-run1",
-   "error": "chat failed after 8 attempts: Error code: 429 - {'error': {'message': \"Request too large for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1200. The request's expected output tokens exceed ",
-   "flags": [],
-   "no_reliable_signal": null
-  },
-  {
-   "case_id": "E3",
-   "method": "qwen27b-run1",
-   "error": "DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199783, Requested 1261. Please try again in 7m31.008s. Need more tokens? Upgrade",
-   "flags": [],
-   "no_reliable_signal": null
-  },
-  {
-   "case_id": "E4",
-   "method": "qwen27b-run1",
-   "batch": 0,
-   "posting_id_in_batch": "P2",
-   "parse_ok": true,
-   "finish_reason": "stop",
-   "flags": [
-    {
-     "entry_id": "P1-AGE",
-     "category": 1,
-     "excerpt": "young peoples",
-     "span": [
-      12,
-      25
-     ],
-     "valid_entry": true,
-     "excerpt_verbatim": true,
-     "sources": [
-      {
-       "source_id": "S2",
-       "name": "TAFEP, Writing job advertisements (web page)",
-       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
-       "accessed": "2026-11-10"
-      },
-      {
-       "source_id": "S1",
-       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
-       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
-       "accessed": "2026-11-10"
-      }
-     ],
-     "source_support": "direct",
-     "why_it_may_matter": "",
-     "what_is_not_established": "It is not established whether 'young' is a strict requirement or merely a descriptive term for the desired energy level.",
-     "suggested_question": "Is there a specific age requirement for this role, or is 'young' used to describe the desired energy and work ethic?"
-    }
-   ],
-   "no_reliable_signal": false,
-   "raw_content": "{\"id\": \"P2\", \"flags\": [{\"entry_id\": \"P1-AGE\", \"excerpt\": \"young peoples\", \"why_it_matter\": \"The use of 'young peoples' may imply a preference for younger candidates, potentially excluding older applicants.\", \"what_is_not_established\": \"It is not established whether 'young' is a strict requirement or merely a descriptive term for the desired energy level.\", \"suggested_question\": \"Is there a specific age requirement for this role, or is 'young' used to describe the desired energy and work ethic?\"}], \"no_reliable_signal\": false}"
-  },
-  {
-   "case_id": "E5",
-   "method": "qwen27b-run1",
-   "batch": 3,
+   "batch": 5,
    "posting_id_in_batch": "P2",
    "parse_ok": true,
    "finish_reason": "stop",
@@ -661,9 +829,448 @@
    "raw_content": "{\"id\": \"P2\", \"flags\": [], \"no_reliable_signal\": true}"
   },
   {
-   "case_id": "J01",
+   "case_id": "C04",
    "method": "qwen27b-run1",
-   "batch": 0,
+   "batch": 5,
+   "posting_id_in_batch": "P3",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P1-RELIGION",
+     "category": 1,
+     "excerpt": "Muslim only",
+     "span": [
+      24,
+      35
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "",
+     "what_is_not_established": "It is not established whether this requirement is strictly necessary for the delivery role.",
+     "suggested_question": "Could you clarify why the delivery driver role specifically requires the candidate to be Muslim?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P3\", \"flags\": [{\"entry_id\": \"P1-RELIGION\", \"excerpt\": \"Muslim only\", \"why_it_matter\": \"This wording may indicate a preference based on religion rather than a specific job requirement.\", \"what_is_not_established\": \"It is not established whether this requirement is strictly necessary for the delivery role.\", \"suggested_question\": \"Could you clarify why the delivery driver role specifically requires the candidate to be Muslim?\"}], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "C08",
+   "method": "qwen27b-run1",
+   "batch": 5,
+   "posting_id_in_batch": "P4",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P4-UNPAID",
+     "category": 4,
+     "excerpt": "Trial days are unpaid",
+     "span": [
+      79,
+      100
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [],
+     "source_support": "none",
+     "why_it_may_matter": "",
+     "what_is_not_established": "It is not established whether the trial period is a standard practice or if there are specific reasons for it being unpaid.",
+     "suggested_question": "Could you provide more details about the 3-day trial period and why it is unpaid?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P4\", \"flags\": [{\"entry_id\": \"P4-UNPAID\", \"excerpt\": \"Trial days are unpaid\", \"why_it_matter\": \"This wording indicates that the initial trial period does not include compensation.\", \"what_is_not_established\": \"It is not established whether the trial period is a standard practice or if there are specific reasons for it being unpaid.\", \"suggested_question\": \"Could you provide more details about the 3-day trial period and why it is unpaid?\"}], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "B03",
+   "method": "qwen27b-run1",
+   "batch": 6,
+   "posting_id_in_batch": "P1",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": true,
+   "raw_content": "{\"id\": \"P1\", \"flags\": [], \"no_reliable_signal\": true}"
+  },
+  {
+   "case_id": "A04",
+   "method": "qwen27b-run1",
+   "batch": 6,
+   "posting_id_in_batch": "P2",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P1-LANGUAGE",
+     "category": 1,
+     "excerpt": "Native English speaker required",
+     "span": [
+      35,
+      66
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "The requirement for a 'native' speaker may be broader than what is strictly necessary for the role.",
+     "what_is_not_established": "It is not established whether non-native speakers with equivalent proficiency are considered.",
+     "suggested_question": "Is the 'native English speaker' requirement strictly necessary, or are non-native speakers with equivalent proficiency also considered?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P2\", \"flags\": [{\"entry_id\": \"P1-LANGUAGE\", \"excerpt\": \"Native English speaker required\", \"why_it_may_matter\": \"The requirement for a 'native' speaker may be broader than what is strictly necessary for the role.\", \"what_is_not_established\": \"It is not established whether non-native speakers with equivalent proficiency are considered.\", \"suggested_question\": \"Is the 'native English speaker' requirement strictly necessary, or are non-native speakers with equivalent proficiency also considered?\"}], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "C05",
+   "method": "qwen27b-run1",
+   "batch": 6,
+   "posting_id_in_batch": "P3",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P2-PHOTO",
+     "category": 2,
+     "excerpt": "full-body photograph",
+     "span": [
+      40,
+      60
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "Requesting a full-body photograph may be used to assess appearance rather than job-related skills.",
+     "what_is_not_established": "It is not established why a full-body photograph is required for an Admin Assistant role.",
+     "suggested_question": "Could you clarify why a full-body photograph is required for this position?"
+    },
+    {
+     "entry_id": "P2-FAMILY",
+     "category": 2,
+     "excerpt": "marital status and whether you plan to have children soon",
+     "span": [
+      86,
+      143
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "Asking about marital status and family plans may be used to make decisions based on personal circumstances rather than job performance.",
+     "what_is_not_established": "It is not established how this information relates to the job requirements.",
+     "suggested_question": "How does marital status and family planning relate to the requirements of this Admin Assistant role?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P3\", \"flags\": [{\"entry_id\": \"P2-PHOTO\", \"excerpt\": \"full-body photograph\", \"why_it_may_matter\": \"Requesting a full-body photograph may be used to assess appearance rather than job-related skills.\", \"what_is_not_established\": \"It is not established why a full-body photograph is required for an Admin Assistant role.\", \"suggested_question\": \"Could you clarify why a full-body photograph is required for this position?\"}, {\"entry_id\": \"P2-FAMILY\", \"excerpt\": \"marital status and whether you plan to have children soon\", \"why_it_may_matter\": \"Asking about marital status and family plans may be used to make decisions based on personal circumstances rather than job performance.\", \"what_is_not_established\": \"It is not established how this information relates to the job requirements.\", \"suggested_question\": \"How does marital status and family planning relate to the requirements of this Admin Assistant role?\"}], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "A03",
+   "method": "qwen27b-run1",
+   "batch": 6,
+   "posting_id_in_batch": "P4",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P1-AGE",
+     "category": 1,
+     "excerpt": "Fresh graduates preferred",
+     "span": [
+      18,
+      43
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "",
+     "what_is_not_established": "It is not established why experience beyond graduation is not considered.",
+     "suggested_question": "Are candidates with some post-graduation experience also considered for this Graduate Trainee role?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P4\", \"flags\": [{\"entry_id\": \"P1-AGE\", \"excerpt\": \"Fresh graduates preferred\", \"why_it_matter\": \"Preferring 'fresh graduates' may limit the pool of candidates to a specific age or experience level.\", \"what_is_not_established\": \"It is not established why experience beyond graduation is not considered.\", \"suggested_question\": \"Are candidates with some post-graduation experience also considered for this Graduate Trainee role?\"}], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "A07",
+   "method": "qwen27b-run1",
+   "batch": 7,
+   "posting_id_in_batch": "P1",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P4-PAYUNCLEAR",
+     "category": 4,
+     "excerpt": "Earn up to $6,000 a month!",
+     "span": [
+      22,
+      48
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S6",
+       "name": "MOM, Key employment terms (web page)",
+       "url": "https://www.mom.gov.sg/employment-practices/contract-of-service/key-employment-terms",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "partial",
+     "why_it_may_matter": "",
+     "what_is_not_established": "It is not established whether there is a guaranteed base salary or if the compensation is entirely commission-based.",
+     "suggested_question": "Could you clarify if there is a guaranteed base salary in addition to the commission, or if the compensation is entirely commission-based?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P1\", \"flags\": [{\"entry_id\": \"P4-PAYUNCLEAR\", \"excerpt\": \"Earn up to $6,000 a month!\", \"why_it_matter\": \"The phrase 'earn up to' suggests that the stated amount is a maximum rather than a guaranteed base salary, which may lead to uncertainty about actual earnings.\", \"what_is_not_established\": \"It is not established whether there is a guaranteed base salary or if the compensation is entirely commission-based.\", \"suggested_question\": \"Could you clarify if there is a guaranteed base salary in addition to the commission, or if the compensation is entirely commission-based?\"}], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "J02",
+   "method": "qwen27b-run1",
+   "batch": 7,
+   "posting_id_in_batch": "P2",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": true,
+   "raw_content": "{\"id\": \"P2\", \"flags\": [], \"no_reliable_signal\": true}"
+  },
+  {
+   "case_id": "J05",
+   "method": "qwen27b-run1",
+   "batch": 7,
+   "posting_id_in_batch": "P3",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": true,
+   "raw_content": "{\"id\": \"P3\", \"flags\": [], \"no_reliable_signal\": true}"
+  },
+  {
+   "case_id": "C02",
+   "method": "qwen27b-run1",
+   "batch": 7,
+   "posting_id_in_batch": "P4",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P1-RACE",
+     "category": 1,
+     "excerpt": "Chinese preferred",
+     "span": [
+      17,
+      34
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "The phrase 'Chinese preferred' may indicate a preference based on race or ethnicity rather than specific job-related skills.",
+     "what_is_not_established": "It is not established whether the preference is based on a specific language skill or other job-related requirement.",
+     "suggested_question": "Could you clarify if the preference for 'Chinese' is based on a specific language skill or other job-related requirement?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P4\", \"flags\": [{\"entry_id\": \"P1-RACE\", \"excerpt\": \"Chinese preferred\", \"why_it_may_matter\": \"The phrase 'Chinese preferred' may indicate a preference based on race or ethnicity rather than specific job-related skills.\", \"what_is_not_established\": \"It is not established whether the preference is based on a specific language skill or other job-related requirement.\", \"suggested_question\": \"Could you clarify if the preference for 'Chinese' is based on a specific language skill or other job-related requirement?\"}], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "B07",
+   "method": "qwen27b-run1",
+   "batch": 8,
+   "posting_id_in_batch": "P1",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": true,
+   "raw_content": "{\"id\": \"P1\", \"flags\": [], \"no_reliable_signal\": true}"
+  },
+  {
+   "case_id": "B02",
+   "method": "qwen27b-run1",
+   "batch": 8,
+   "posting_id_in_batch": "P2",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": true,
+   "raw_content": "{\"id\": \"P2\", \"flags\": [], \"no_reliable_signal\": true}"
+  },
+  {
+   "case_id": "C03",
+   "method": "qwen27b-run1",
+   "batch": 8,
+   "posting_id_in_batch": "P3",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P1-NATIONALITY",
+     "category": 1,
+     "excerpt": "Non-Singaporeans preferred",
+     "span": [
+      31,
+      57
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S3",
+       "name": "MOM, Fair Consideration Framework (web page, last updated 8 Aug 2025)",
+       "url": "https://www.mom.gov.sg/employment-practices/fair-consideration-framework",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "",
+     "what_is_not_established": "It is not established whether this preference is due to specific operational needs or a general bias.",
+     "suggested_question": "Could you clarify the specific operational reasons for preferring non-Singaporean candidates for this role?"
+    },
+    {
+     "entry_id": "P1-NATIONALITY",
+     "category": 1,
+     "excerpt": "S Pass quota available",
+     "span": [
+      59,
+      81
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S3",
+       "name": "MOM, Fair Consideration Framework (web page, last updated 8 Aug 2025)",
+       "url": "https://www.mom.gov.sg/employment-practices/fair-consideration-framework",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "This wording indicates that the role is tied to a specific work pass quota, which may affect eligibility.",
+     "what_is_not_established": "It is not established whether this quota is a strict requirement or just an available option.",
+     "suggested_question": "Is the S Pass quota a strict requirement for this position, or are other work pass types also considered?"
+    },
+    {
+     "entry_id": "P1-NATIONALITY",
+     "category": 1,
+     "excerpt": "Work passes will be applied for successful candidates",
+     "span": [
+      83,
+      136
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S3",
+       "name": "MOM, Fair Consideration Framework (web page, last updated 8 Aug 2025)",
+       "url": "https://www.mom.gov.sg/employment-practices/fair-consideration-framework",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "This wording suggests that the employer will handle work pass applications, which may have implications for the hiring process.",
+     "what_is_not_established": "It is not established whether this applies to all candidates or only those requiring a work pass.",
+     "suggested_question": "Does the company apply for work passes for all successful candidates, or only for those who are not Singaporean citizens or PRs?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P3\", \"flags\": [{\"entry_id\": \"P1-NATIONALITY\", \"excerpt\": \"Non-Singaporeans preferred\", \"why_it_matter\": \"This wording may indicate a preference based on nationality or work pass status.\", \"what_is_not_established\": \"It is not established whether this preference is due to specific operational needs or a general bias.\", \"suggested_question\": \"Could you clarify the specific operational reasons for preferring non-Singaporean candidates for this role?\"}, {\"entry_id\": \"P1-NATIONALITY\", \"excerpt\": \"S Pass quota available\", \"why_it_may_matter\": \"This wording indicates that the role is tied to a specific work pass quota, which may affect eligibility.\", \"what_is_not_established\": \"It is not established whether this quota is a strict requirement or just an available option.\", \"suggested_question\": \"Is the S Pass quota a strict requirement for this position, or are other work pass types also considered?\"}, {\"entry_id\": \"P1-NATIONALITY\", \"excerpt\": \"Work passes will be applied for successful candidates\", \"why_it_may_matter\": \"This wording suggests that the employer will handle work pass applications, which may have implications for the hiring process.\", \"what_is_not_established\": \"It is not established whether this applies to all candidates or only those requiring a work pass.\", \"suggested_question\": \"Does the company apply for work passes for all successful candidates, or only for those who are not Singaporean citizens or PRs?\"}], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "E1",
+   "method": "qwen27b-run1",
+   "batch": 8,
    "posting_id_in_batch": "P4",
    "parse_ok": true,
    "finish_reason": "stop",
@@ -672,37 +1279,140 @@
    "raw_content": "{\"id\": \"P4\", \"flags\": [], \"no_reliable_signal\": true}"
   },
   {
-   "case_id": "J03",
+   "case_id": "C01",
    "method": "qwen27b-run1",
-   "batch": 3,
-   "posting_id_in_batch": "P3",
+   "batch": 9,
+   "posting_id_in_batch": "P1",
    "parse_ok": true,
    "finish_reason": "stop",
-   "flags": [],
-   "no_reliable_signal": true,
-   "raw_content": "{\"id\": \"P3\", \"flags\": [], \"no_reliable_signal\": true}"
+   "flags": [
+    {
+     "entry_id": "P1-GENDER",
+     "category": 1,
+     "excerpt": "Female preferred",
+     "span": [
+      51,
+      67
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "",
+     "what_is_not_established": "It is not established whether the role has specific duties that necessitate a female candidate.",
+     "suggested_question": "Could you clarify what specific job requirements make a female candidate preferred for this role?"
+    },
+    {
+     "entry_id": "P1-AGE",
+     "category": 1,
+     "excerpt": "age 22 to 28 only",
+     "span": [
+      69,
+      86
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "This wording restricts applicants based on a specific age range.",
+     "what_is_not_established": "It is not established why this specific age range is necessary for the job.",
+     "suggested_question": "Could you explain why the age range of 22 to 28 is required for this position?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P1\", \"flags\": [{\"entry_id\": \"P1-GENDER\", \"excerpt\": \"Female preferred\", \"why_it_matter\": \"This wording may suggest a preference based on gender rather than job requirements.\", \"what_is_not_established\": \"It is not established whether the role has specific duties that necessitate a female candidate.\", \"suggested_question\": \"Could you clarify what specific job requirements make a female candidate preferred for this role?\"}, {\"entry_id\": \"P1-AGE\", \"excerpt\": \"age 22 to 28 only\", \"why_it_may_matter\": \"This wording restricts applicants based on a specific age range.\", \"what_is_not_established\": \"It is not established why this specific age range is necessary for the job.\", \"suggested_question\": \"Could you explain why the age range of 22 to 28 is required for this position?\"}], \"no_reliable_signal\": false}"
   },
   {
-   "case_id": "J04",
+   "case_id": "B05",
    "method": "qwen27b-run1",
-   "batch": 1,
-   "posting_id_in_batch": "P3",
+   "batch": 9,
+   "posting_id_in_batch": "P2",
    "parse_ok": true,
    "finish_reason": "stop",
    "flags": [],
    "no_reliable_signal": true,
-   "raw_content": "{\"id\": \"P3\", \"flags\": [], \"no_reliable_signal\": true}"
+   "raw_content": "{\"id\": \"P2\", \"flags\": [], \"no_reliable_signal\": true}"
   },
   {
-   "case_id": "J06",
+   "case_id": "C10",
    "method": "qwen27b-run1",
-   "batch": 2,
-   "posting_id_in_batch": "P3",
+   "batch": 10,
+   "posting_id_in_batch": "P1",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P5-RAPID",
+     "category": 5,
+     "excerpt": "director in just 6 months",
+     "span": [
+      49,
+      74
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [],
+     "source_support": "none",
+     "why_it_may_matter": "",
+     "what_is_not_established": "It is not established whether this promotion timeline is realistic or based on actual company policy.",
+     "suggested_question": "Could you provide more details on the criteria and timeline for reaching the director level?"
+    },
+    {
+     "entry_id": "P5-DEMANDS",
+     "category": 5,
+     "excerpt": "willing to do anything the company asks, available 24/7, no questions asked",
+     "span": [
+      84,
+      159
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [],
+     "source_support": "none",
+     "why_it_may_matter": "",
+     "what_is_not_established": "It is not established what specific duties are included or if there are limits to availability.",
+     "suggested_question": "Could you clarify the specific duties and expected working hours for this role?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P1\", \"flags\": [{\"entry_id\": \"P5-RAPID\", \"excerpt\": \"director in just 6 months\", \"why_it_matter\": \"This phrase suggests a very rapid and potentially unsupported career progression.\", \"what_is_not_established\": \"It is not established whether this promotion timeline is realistic or based on actual company policy.\", \"suggested_question\": \"Could you provide more details on the criteria and timeline for reaching the director level?\"}, {\"entry_id\": \"P5-DEMANDS\", \"excerpt\": \"willing to do anything the company asks, available 24/7, no questions asked\", \"why_it_matter\": \"This wording implies extremely high and vague personal demands without clear boundaries.\", \"what_is_not_established\": \"It is not established what specific duties are included or if there are limits to availability.\", \"suggested_question\": \"Could you clarify the specific duties and expected working hours for this role?\"}], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "E6",
+   "method": "qwen27b-run1",
+   "batch": 11,
+   "posting_id_in_batch": "P1",
    "parse_ok": true,
    "finish_reason": "stop",
    "flags": [],
    "no_reliable_signal": true,
-   "raw_content": "{\"id\": \"P3\", \"flags\": [], \"no_reliable_signal\": true}"
+   "raw_content": "{\"id\": \"P1\", \"flags\": [], \"no_reliable_signal\": true}"
   }
  ]
 }

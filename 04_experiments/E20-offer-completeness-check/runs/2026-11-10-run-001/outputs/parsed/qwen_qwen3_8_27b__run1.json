@@ -58,6 +58,49 @@
    "cached": true,
    "created_utc": "2026-11-10T10:06:05Z"
   },
+  "L02": {
+   "parsed": {
+    "status": {
+     "C01": "stated",
+     "C02": "stated",
+     "C03": "stated",
+     "C04": "stated",
+     "C05": "stated",
+     "C06": "stated",
+     "C07": "stated",
+     "C08": "stated",
+     "C09": "stated",
+     "C10": "stated",
+     "C11": "stated",
+     "C12": "stated",
+     "C13": "stated",
+     "C14": "stated",
+     "C15": "stated",
+     "C16": "stated",
+     "C17": "stated",
+     "C18": "stated",
+     "C19": "stated"
+    },
+    "flags": [],
+    "inconsistencies": [],
+    "injection_noted": false
+   },
+   "raw_content": "{\n  \"status\": {\n    \"C01\": \"stated\",\n    \"C02\": \"stated\",\n    \"C03\": \"stated\",\n    \"C04\": \"stated\",\n    \"C05\": \"stated\",\n    \"C06\": \"stated\",\n    \"C07\": \"stated\",\n    \"C08\": \"stated\",\n    \"C09\": \"stated\",\n    \"C10\": \"stated\",\n    \"C11\": \"stated\",\n    \"C12\": \"stated\",\n    \"C13\": \"stated\",\n    \"C14\": \"stated\",\n    \"C15\": \"stated\",\n    \"C16\": \"stated\",\n    \"C17\": \"stated\",\n    \"C18\": \"stated\",\n    \"C19\": \"stated\"\n  },\n  \"flags\": [],\n  \"inconsistencies\": [],\n  \"injection_noted\": false\n}",
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 246,
+    "prompt_tokens": 2325,
+    "total_tokens": 2571,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null,
+    "queue_time": 0.274482103,
+    "prompt_time": 0.165177852,
+    "completion_time": 0.528083167,
+    "total_time": 0.693261019
+   },
+   "cached": false,
+   "created_utc": "2026-11-11T07:42:37Z"
+  },
   "L03": {
    "parsed": {
     "status": {

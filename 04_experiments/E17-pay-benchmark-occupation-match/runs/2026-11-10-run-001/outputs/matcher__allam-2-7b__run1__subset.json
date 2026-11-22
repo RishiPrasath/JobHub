@@ -1,0 +1,87 @@
+{
+ "model": "allam-2-7b",
+ "run": 1,
+ "n": 4,
+ "results": [
+  {
+   "id": "X3-54",
+   "top3": [
+    "33221",
+    "33223",
+    "33224"
+   ],
+   "raw_top3": [
+    "33221",
+    "33223",
+    "33224"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and responsibilities align with Business development executive, Marketing and sales executive (food and beverage services), and Executive secretary",
+   "parse_ok": true,
+   "tokens": 636,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "X3-55",
+   "top3": [
+    "52201",
+    "52202",
+    "52421"
+   ],
+   "raw_top3": [
+    "52201",
+    "52202",
+    "52421"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "The job title 'Sales Executive/Manager' matches with the roles of Sales supervisor (52201), Shop sales assistant (52202), and Sales demonstrator (52421).",
+   "parse_ok": true,
+   "tokens": 648,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-01",
+   "top3": [
+    "74122",
+    "74110",
+    "74002"
+   ],
+   "raw_top3": [
+    "74122",
+    "74110",
+    "74002"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "All three candidates mentioned are electricians with different specializations relevant to the job posting.",
+   "parse_ok": true,
+   "tokens": 694,
+   "finish": "stop",
+   "cached": false
+  },
+  {
+   "id": "SYN-02",
+   "top3": [
+    "71000",
+    "71311",
+    "71331"
+   ],
+   "raw_top3": [
+    "71000",
+    "71311",
+    "71331"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Job title and responsibilities match with the mentioned job roles",
+   "parse_ok": true,
+   "tokens": 646,
+   "finish": "stop",
+   "cached": false
+  }
+ ]
+}

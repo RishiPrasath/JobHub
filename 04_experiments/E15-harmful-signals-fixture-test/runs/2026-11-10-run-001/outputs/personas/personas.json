@@ -1,0 +1,413 @@
+{
+ "personas": [
+  {
+   "persona_id": "job_seeker-01-skimming-grad-skeptic",
+   "kind": "job_seeker",
+   "label": "Fresh grad skimmer distrusting corporate claims",
+   "first_name": "Priya",
+   "background": "Priya recently completed a degree in humanities and is trying to find her first entry-level role in administrative support. She has heard many stories from peers about confusing contract terms and prefers to rely on intuition over detailed policy reading.",
+   "situation_now": "She is applying to multiple roles on mobile simultaneously while waiting for interview calls, feeling anxious about not knowing what to look for in a contract.",
+   "goals": [
+    "Get a stable job quickly to pay rent",
+    "Avoid getting trapped in a bad contract",
+    "Understand if a job offer is legitimate without deep research"
+   ],
+   "constraints": [
+    "Only has 15 minutes a day to search for jobs",
+    "Low confidence in understanding legal terminology",
+    "Relies entirely on smartphone for information"
+   ],
+   "digital_comfort": "high",
+   "reading_style": "Skims headlines and bullet points; ignores dense paragraphs; trusts bold text over full sentences.",
+   "attitude_to_ai": "Skeptical; thinks AI notes are just 'marketing fluff' generated to look professional.",
+   "known_gaps": [
+    "Does not know the difference between a contract of service and employment",
+    "Unaware of statutory rest day entitlements for full-time roles",
+    "Assumes a company's reputation page is the same as its legal entity"
+   ],
+   "biases_or_habits": [
+    "Jumps to conclusions if a company name sounds 'foreign'",
+    "Ignores fine print regardless of how it is highlighted"
+   ],
+   "voice": "Casual and hurried; uses short sentences and slang like 'vibes are off' to describe trust levels.",
+   "simulation_notes": "Will likely abandon the tool if the first note doesn't explicitly say 'safe' or 'avoid' in the first sentence. Needs clear, binary verdicts.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-02-mid-career-50-slow-reader",
+   "kind": "job_seeker",
+   "label": "Over 50 mid-career careful reader",
+   "first_name": "Marcus",
+   "background": "Marcus is a logistics coordinator who has been made redundant due to automation. He is cautious about trusting new employers after being laid off without proper notice in his previous role.",
+   "situation_now": "He updates his CV every few days but applies sparingly, only to roles that seem stable. He uses a desktop computer to read job descriptions thoroughly.",
+   "goals": [
+    "Find a role with clear promotion paths",
+    "Ensure working hours are strictly adhered to",
+    "Validate that the employer has a good track record with older workers"
+   ],
+   "constraints": [
+    "Has dependents and cannot take a large pay cut",
+    "Prefers desktop over mobile for long reads",
+    "Gets frustrated by poorly formatted PDFs or cluttered UIs"
+   ],
+   "digital_comfort": "medium",
+   "reading_style": "Reads every word; cross-references terms mentally; pauses frequently to look up unknown acronyms in a browser tab.",
+   "attitude_to_ai": "Cautiously optimistic; assumes AI notes are summaries of his own reading, which he sees as a time-saver.",
+   "known_gaps": [
+    "Unaware of recent changes to retrenchment benefits calculation",
+    "Confuses 'probation period' rules for permanent vs. contract staff",
+    "Does not know how to verify a company's financial health quickly"
+   ],
+   "biases_or_habits": [
+    "Distrusts companies that use buzzwords like 'agile' or 'family' without concrete examples",
+    "Will re-read the same section three times if the font size is too small"
+   ],
+   "voice": "Measured and precise; asks for clarification on any ambiguous term; dislikes jargon.",
+   "simulation_notes": "Will spend significant time on one note if it is detailed. May get stuck if the interface requires multiple clicks to see the full explanation. Needs a 'print-friendly' or 'full text' option.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-03-shift-worker-urgent-skimmer",
+   "kind": "job_seeker",
+   "label": "Urgent shift worker low digital comfort",
+   "first_name": "Chen",
+   "background": "Chen is a hospitality worker on a short-term contract that expired. He is unfamiliar with the formal job market and relies on word-of-mouth, making his first attempt at using digital job tools.",
+   "situation_now": "He is desperately looking for immediate work to cover weekly expenses. He checks his phone during breaks at a café where he previously worked.",
+   "goals": [
+    "Get any paying job within 48 hours",
+    "Understand if the job requires immediate start",
+    "Avoid scams that ask for money upfront"
+   ],
+   "constraints": [
+    "Extremely high urgency; cannot afford to wait for response times",
+    "Very limited patience for long explanations",
+    "Uses a basic smartphone with small screen"
+   ],
+   "digital_comfort": "low",
+   "reading_style": "Glances at keywords only; looks for 'immediate', 'cash', 'no experience'; ignores anything that looks like a list of benefits.",
+   "attitude_to_ai": "Confused; doesn't fully grasp what 'AI notes' are, assumes it is a chatbot he can argue with.",
+   "known_gaps": [
+    "Does not know what a 'work pass' is or if he needs one",
+    "Unaware of minimum wage concepts (as they don't strictly apply to all sectors in the same way)",
+    "Thinks silence from a recruiter means rejection, not processing"
+   ],
+   "biases_or_habits": [
+    "Trusts small local businesses over large corporations",
+    "Will close the app if it asks for too many personal details"
+   ],
+   "voice": "Direct and fragmented; speaks in short bursts; gets impatient if questions are not answered in one line.",
+   "simulation_notes": "Will abandon the task immediately if it requires scrolling more than one screen without seeing a 'Start Now' button. Needs high-contrast text and zero navigation layers.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-04-foreign-pro-trusting-reader",
+   "kind": "job_seeker",
+   "label": "Foreign professional trusting careful reader",
+   "first_name": "Sarah",
+   "background": "Sarah is a financial analyst on an Employment Pass, relocating to Singapore for a two-year contract. She is accustomed to regulated labor markets and generally trusts established institutions.",
+   "situation_now": "She is shortlisting three multinational corporations. She relies heavily on formal documentation and assumes that if a company is listed on a major index, it is safe.",
+   "goals": [
+    "Ensure her work pass conditions align with the job offer",
+    "Understand tax implications clearly",
+    "Find a role that facilitates future permanent residency"
+   ],
+   "constraints": [
+    "Has a family, so stability is prioritized over pay",
+    "Relies on English as her primary language; struggles with localized idiom",
+    "Holds a high-stakes visa with strict reporting requirements"
+   ],
+   "digital_comfort": "high",
+   "reading_style": "Reads carefully but efficiently; looks for key legal clauses; trusts structured data and bullet points.",
+   "attitude_to_ai": "Pragmatic; uses AI notes as a quick check but will verify any major claim with a second source.",
+   "known_gaps": [
+    "Unaware of specific Singaporean nuances in 'end-of-service' benefits",
+    "Confuses 'centralised' labor laws with local case-by-case enforcement",
+    "Does not know who to contact if her pass is rejected mid-process"
+   ],
+   "biases_or_habits": [
+    "Assumes large companies have better HR departments",
+    "Ignores informal sector risks because they are outside her comfort zone"
+   ],
+   "voice": "Professional and structured; uses formal phrasing; asks for 'source' or 'reference' for any claim.",
+   "simulation_notes": "Will engage deeply with the notes but may miss subtle red flags if they are not explicitly flagged as 'legal risks'. Needs clear citations or sources for her confidence.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-05-skeptical-skimmer",
+   "kind": "job_seeker",
+   "label": "Suspicious old-timer skimming for red flags",
+   "first_name": "Marcus",
+   "background": "A long-time warehouse supervisor in Singapore who has faced opaque layoff terms before. He relies on word-of-mouth over digital platforms and views corporate communications with inherent suspicion.",
+   "situation_now": "Actively looking for a stable supervisory role but is only applying to jobs posted on community Facebook groups or recommended by former colleagues, avoiding major job portals.",
+   "goals": [
+    "Secure a role with a guaranteed minimum wage",
+    "Verify that the employer actually pays bonuses as promised",
+    "Avoid companies with a history of sudden staff turnover"
+   ],
+   "constraints": [
+    "Limited patience for long-form text",
+    "Distrusts any information that looks 'too good to be true'",
+    "Smartphone usage is basic (calls and messaging only)",
+    "Does not understand EP/SP work pass nuances if cross-border roles are mentioned"
+   ],
+   "digital_comfort": "low",
+   "reading_style": "Skims headlines and bullet points immediately; if he doesn't see a problem in the first 5 seconds, he assumes there is one hidden in the details he will ignore.",
+   "attitude_to_ai": "Suspicious; assumes the tool is just another way for companies to filter out experienced workers.",
+   "known_gaps": [
+    "Does not know what 'net salary' vs 'gross salary' implies for CPF deductions",
+    "Unfamiliar with statutory cooling-off periods for resignation",
+    "Assumes 'urgent hiring' means the job is unstable"
+   ],
+   "biases_or_habits": [
+    "Defaults to assuming the worst-case scenario",
+    "Ignores positive testimonials in favor of negative reviews",
+    "Will stop reading if the font is small or the layout is complex"
+   ],
+   "voice": "Blunt, short sentences, frequent use of rhetorical questions like 'Why would they do that?', and a tone of weary skepticism.",
+   "simulation_notes": "Will likely dismiss the tool's neutral language as evasive. If the notes are dense, he will abandon the task after the first paragraph. Needs the 'red flag' or 'warning' section to be visually distinct to engage.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-06-anxious-truster",
+   "kind": "job_seeker",
+   "label": "Compliant foreign professional trusting all claims",
+   "first_name": "Elena",
+   "background": "A mid-career marketing assistant on an Employment Pass who recently moved to Singapore. She is eager to please and believes her current employer is benevolent, despite rising workload.",
+   "situation_now": "Quietly browsing job boards on her lunch breaks, but feels guilty about looking for other roles while employed, leading to fragmented and rushed research sessions.",
+   "goals": [
+    "Find a role with better work-life balance",
+    "Ensure the new company offers visa sponsorship renewal",
+    "Avoid any friction or upset with her current manager"
+   ],
+   "constraints": [
+    "High anxiety about being discovered by current employer",
+    "Relies on the employer's word for legal standing",
+    "Limited understanding of Singapore's specific labor laws",
+    "Time-pressed by strict shift changes"
+   ],
+   "digital_comfort": "medium",
+   "reading_style": "Reads carefully and actively seeks reassurance; tends to accept positive framing at face value without cross-referencing, but gets stuck on jargon.",
+   "attitude_to_ai": "Hopeful; views the tool as an authoritative 'helper' that knows what she does not.",
+   "known_gaps": [
+    "Does not know the rights regarding notice period negotiation",
+    "Assumes 'training provided' means paid training, not unpaid",
+    "Unaware of the difference between fixed-term and permanent contracts in terms of severance"
+   ],
+   "biases_or_habits": [
+    "Ignores small print or footnotes",
+    "Over-values brand reputation over specific job conditions",
+    "Prone to confirmation bias: looks for words that support her desire to leave"
+   ],
+   "voice": "Polite, hesitant, uses qualifiers like 'I think' or 'maybe', and frequently asks for clarification on what is 'normal'.",
+   "simulation_notes": "Very compliant with instructions but may misinterpret technical legal terms due to lack of context. Likely to accept the tool's output verbatim without critical analysis. Watch for frustration if the tool asks for personal details she is wary of sharing.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-01-grad-skim-trust",
+   "kind": "job_seeker",
+   "label": "Recent graduate, skims, moderately trusting",
+   "first_name": "Jia",
+   "background": "A 23‑year‑old Singapore‑born graduate with a degree in communications. Has done a short internship but no full‑time role yet.",
+   "situation_now": "Scrolling job boards and using the university career portal, applying to entry‑level marketing roles.",
+   "goals": [
+    "Secure a first full‑time job within 3 months",
+    "Build a professional network",
+    "Earn enough to move out of the parental home"
+   ],
+   "constraints": [
+    "Limited budget for transport",
+    "Low confidence in interview skills",
+    "Only part‑time internet access at home"
+   ],
+   "digital_comfort": "medium",
+   "reading_style": "Skims headings and bullet points, reads details only if something looks promising.",
+   "attitude_to_ai": "Curious but skeptical about AI‑generated job advice.",
+   "known_gaps": [
+    "Unclear about employment pass types",
+    "Misunderstands salary negotiation basics"
+   ],
+   "biases_or_habits": [
+    "Prefers companies with strong social media presence",
+    "Avoids long paragraphs in job ads"
+   ],
+   "voice": "Enthusiastic yet a bit uncertain, often asks for clarification.",
+   "simulation_notes": "Will abandon a note after 30 seconds if no clear bullet summary appears.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-02-senior-careful-distrust",
+   "kind": "job_seeker",
+   "label": "Over‑50 worker, reads carefully, distrustful",
+   "first_name": "Ahmad",
+   "background": "A 54‑year‑old Singapore permanent resident who has worked 30 years in logistics and recently was laid off due to automation.",
+   "situation_now": "Visiting recruitment agencies and reading online postings, looking for supervisory roles in warehousing.",
+   "goals": [
+    "Find stable employment to support family",
+    "Avoid roles with hidden contract clauses",
+    "Maintain dignity in the workplace"
+   ],
+   "constraints": [
+    "Health issues limit long travel",
+    "Limited digital fluency",
+    "Skeptical of aggressive recruiter pitches"
+   ],
+   "digital_comfort": "low",
+   "reading_style": "Reads every word, double‑checks terms, highlights suspicious language.",
+   "attitude_to_ai": "Distrustful, worries AI may hide unfavorable conditions.",
+   "known_gaps": [
+    "Unaware of recent changes to retirement age benefits",
+    "Confuses freelance contracts with full‑time offers"
+   ],
+   "biases_or_habits": [
+    "Prefers companies with clear, plain‑English contracts",
+    "Avoids firms with flashy marketing"
+   ],
+   "voice": "Measured and cautious, often asks for evidence or references.",
+   "simulation_notes": "Will spend up to 5 minutes on a note but will skip any section without clear headings.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-03-expat-midtrust-digital",
+   "kind": "job_seeker",
+   "label": "Foreign professional, reads fully, moderately trusting",
+   "first_name": "Lena",
+   "background": "A 31‑year‑old German national on an Employment Pass, working as a data analyst in a multinational firm, looking for a new role with better growth prospects.",
+   "situation_now": "Using LinkedIn and niche tech job platforms, reaching out to recruiters directly.",
+   "goals": [
+    "Land a senior analyst position within 2 months",
+    "Increase salary to support expatriate lifestyle",
+    "Find a company with transparent promotion paths"
+   ],
+   "constraints": [
+    "Visa renewal depends on new job",
+    "Limited time due to current workload",
+    "Needs to maintain work‑life balance"
+   ],
+   "digital_comfort": "high",
+   "reading_style": "Reads every word, cross‑references with online reviews, notes inconsistencies.",
+   "attitude_to_ai": "Open to AI tools for resume tweaking, but wary of bias.",
+   "known_gaps": [
+    "Not fully aware of Singapore's CPF contribution rules for foreigners",
+    "Uncertain about tax implications of bonuses"
+   ],
+   "biases_or_habits": [
+    "Favors companies with strong ESG ratings",
+    "Skips job ads without clear salary ranges"
+   ],
+   "voice": "Professional and concise, often uses industry jargon.",
+   "simulation_notes": "Will dive deep into any note, may ask follow‑up questions about legal terms.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-04-shift-urgent-skim",
+   "kind": "job_seeker",
+   "label": "Shift worker, urgent, skims, mixed trust",
+   "first_name": "Rashid",
+   "background": "A 28‑year‑old Singapore citizen working rotating shifts as a security guard, recently let go due to budget cuts.",
+   "situation_now": "Checking mobile job alerts every hour, applying for any night‑shift positions available.",
+   "goals": [
+    "Find a night‑shift job within a week",
+    "Earn enough for rent and family support",
+    "Secure a role with clear shift schedules"
+   ],
+   "constraints": [
+    "Needs immediate income",
+    "Limited time to read long documents",
+    "Relies on smartphone data plan"
+   ],
+   "digital_comfort": "medium",
+   "reading_style": "Skims headlines and dates, looks for keywords like 'night shift' or 'immediate start'.",
+   "attitude_to_ai": "Indifferent, sees AI as a possible shortcut but not essential.",
+   "known_gaps": [
+    "Unclear about overtime regulations",
+    "Misinterprets probation period clauses"
+   ],
+   "biases_or_habits": [
+    "Prefers employers that list shift timings explicitly",
+    "Avoids applications requiring lengthy online tests"
+   ],
+   "voice": "Direct and to‑the‑point, often short‑handed.",
+   "simulation_notes": "Will abandon a note after 15 seconds if shift details aren't obvious; may skip detailed benefit sections.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-05-grad-skim-trust",
+   "kind": "job_seeker",
+   "label": "Recent graduate, skim‑reader, moderately trusting",
+   "first_name": "Ravi",
+   "background": "A 23‑year‑old Singapore‑born graduate with a degree in communications. He has done a few internships but no full‑time role yet. He is comfortable using social media but not deep‑dive research tools.",
+   "situation_now": "Browsing job portals and a new AI‑driven job‑check tool after his university career service sent a link.",
+   "goals": [
+    "Find an entry‑level marketing associate role within 2 months",
+    "Understand basic contract terms quickly"
+   ],
+   "constraints": [
+    "Limited budget for premium job sites",
+    "Low confidence in negotiating salaries",
+    "Medium digital skill"
+   ],
+   "digital_comfort": "medium",
+   "reading_style": "Skims headings and bullet points, relies on highlighted keywords, may miss fine print.",
+   "attitude_to_ai": "Curious but not fully convinced AI can replace human advice.",
+   "known_gaps": [
+    "Legal nuances of probation periods",
+    "Differences between full‑time and contract benefits"
+   ],
+   "biases_or_habits": [
+    "Prefers visual cues over dense text",
+    "Tends to trust employer‑provided summaries"
+   ],
+   "voice": "Casual, uses simple language and occasional slang.",
+   "simulation_notes": "Will stop after 3 minutes if the tool doesn't surface clear bullet‑point summaries; may ask for a quick TL;DR.",
+   "simulated": true
+  },
+  {
+   "persona_id": "job_seeker-06-shift-urg-skim-mixed",
+   "kind": "job_seeker",
+   "label": "Shift worker, urgent job need, skim‑reader, mixed trust",
+   "first_name": "Lian",
+   "background": "A 38‑year‑old part‑time warehouse operative on a work‑pass, juggling rotating night shifts. Limited formal education and uses a basic smartphone for job searches.",
+   "situation_now": "Scanning a job‑check tool after being told by a friend that it flags risky offers.",
+   "goals": [
+    "Secure a stable daytime role within weeks",
+    "Avoid positions with hidden fees or excessive probation"
+   ],
+   "constraints": [
+    "Very limited free time (needs quick reads)",
+    "Low confidence with complex online forms",
+    "Urgent income need"
+   ],
+   "digital_comfort": "low",
+   "reading_style": "Skims for numbers and warning icons, ignores long paragraphs.",
+   "attitude_to_ai": "Skeptical; thinks AI might miss scams.",
+   "known_gaps": [
+    "Understanding of work‑pass transfer rules",
+    "How to evaluate employer credibility beyond surface claims"
+   ],
+   "biases_or_habits": [
+    "Relies on word‑of‑mouth recommendations",
+    "Quickly discards info that isn’t in bold or highlighted"
+   ],
+   "voice": "Direct, no‑frills, often uses short sentences.",
+   "simulation_notes": "Will abandon the task if no clear visual risk flags appear within 2 minutes; may jump to phone call with a friend for clarification.",
+   "simulated": true
+  }
+ ],
+ "note": "Simulated personas created by tools/persona_creator.py. Not real users.",
+ "batches": [
+  {
+   "created_utc": "2026-11-11T05:58:01Z",
+   "kind": "job_seeker",
+   "brief": "job seekers in Singapore who skim or read carefully, with mixed digital comfort and mixed trust in employers; include a fresh graduate, a mid-career worker over 50, a foreign professional on a work pass, a shift worker who needs work soon, one person who distrusts employers and one who trusts them; none is an expert in employment rules",
+   "creator_model": "qwen/qwen3.8-27b",
+   "brief_sha256": "10d25be32e00"
+  },
+  {
+   "created_utc": "2026-11-11T06:03:36Z",
+   "kind": "job_seeker",
+   "brief": "job seekers in Singapore who skim or read carefully, with mixed digital comfort and mixed trust in employers; include a fresh graduate, a mid-career worker over 50, a foreign professional on a work pass, a shift worker who needs work soon, one person who distrusts employers and one who trusts them; none is an expert in employment rules",
+   "creator_model": "openai/gpt-oss-120b",
+   "brief_sha256": "10d25be32e00"
+  }
+ ]
+}

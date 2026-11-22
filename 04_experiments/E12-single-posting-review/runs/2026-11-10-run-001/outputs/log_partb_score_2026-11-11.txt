@@ -1,0 +1,89 @@
+{
+ "simulated": true,
+ "n_persona_posting_pairs": 6,
+ "all_parsed": true,
+ "gaps_raw_pct": 40.0,
+ "gaps_ws_pct": 30.0,
+ "gaps_ws_own_only_pct": 30.0,
+ "crit_raw_pct": 83.33333333333333,
+ "crit_ws_pct": 50.0,
+ "planted_caught": 6,
+ "planted_total": 6,
+ "items_total": 96,
+ "accept": 71,
+ "edit": 2,
+ "reject": 23,
+ "missing": 0,
+ "accepted_untouched_pct": 73.95833333333333,
+ "by_persona": {
+  "job_seeker-01-skimmer-manual": {
+   "caught": 1,
+   "n": 1,
+   "acc": 15,
+   "items": 16,
+   "accept_pct": 93.75,
+   "digital_comfort": "low",
+   "reading_style": "skims headlines and bullet points, quickly clicks through"
+  },
+  "job_seeker-02-careful-older": {
+   "caught": 1,
+   "n": 1,
+   "acc": 18,
+   "items": 20,
+   "accept_pct": 90.0,
+   "digital_comfort": "medium",
+   "reading_style": "reads every line, checks for detail"
+  },
+  "job_seeker-03-phone-gig": {
+   "caught": 1,
+   "n": 1,
+   "acc": 9,
+   "items": 12,
+   "accept_pct": 75.0,
+   "digital_comfort": "low",
+   "reading_style": "skims, trusts headlines, clicks fast"
+  },
+  "job_seeker-04-skimmer-service": {
+   "caught": 1,
+   "n": 1,
+   "acc": 15,
+   "items": 16,
+   "accept_pct": 93.75,
+   "digital_comfort": "medium",
+   "reading_style": "skims but reads key sections"
+  },
+  "job_seeker-05-skim-manual-joe": {
+   "caught": 1,
+   "n": 1,
+   "acc": 5,
+   "items": 20,
+   "accept_pct": 25.0,
+   "digital_comfort": "low",
+   "reading_style": "skims headlines and bullet points, ignores detailed terms"
+  },
+  "job_seeker-06-careful-gig-anna": {
+   "caught": 1,
+   "n": 1,
+   "acc": 9,
+   "items": 12,
+   "accept_pct": 75.0,
+   "digital_comfort": "high",
+   "reading_style": "reads every word, cross\u2011checks details, values clarity"
+  }
+ },
+ "by_posting": {
+  "E12-P04": {
+   "caught": 2,
+   "n": 2
+  },
+  "E12-P07": {
+   "caught": 2,
+   "n": 2
+  },
+  "E12-P08": {
+   "caught": 2,
+   "n": 2
+  }
+ }
+}
+FINISHED

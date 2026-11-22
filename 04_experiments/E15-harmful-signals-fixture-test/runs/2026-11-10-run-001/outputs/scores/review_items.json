@@ -17,6 +17,88 @@
    "example_case": "C03"
   },
   {
+   "context": " preference for a specific gender, which could be discriminatory.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss120b-run1",
+    "gptoss20b-run1",
+    "gptoss20b-run2"
+   ],
+   "example_case": "C01"
+  },
+  {
+   "context": "rding sets an age range, which may constitute age discrimination.",
+   "term": "discrimination",
+   "methods": [
+    "gptoss120b-run1"
+   ],
+   "example_case": "C01"
+  },
+  {
+   "context": "a preference based on nationality, which could be discriminatory.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss120b-run1"
+   ],
+   "example_case": "C03"
+  },
+  {
+   "context": "se specifies a religious preference, which may be discriminatory.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss120b-run1"
+   ],
+   "example_case": "C04"
+  },
+  {
+   "context": "cts applicants based on nationality, which may be discriminatory unless a genuine occupational requirement exists.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss120b-run1"
+   ],
+   "example_case": "A01"
+  },
+  {
+   "context": "ons, which may relate to marital or family status discrimination.",
+   "term": "discrimination",
+   "methods": [
+    "gptoss120b-run1"
+   ],
+   "example_case": "A05"
+  },
+  {
+   "context": "ncludes appearance-based requirements that may be discriminatory.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss120b-run1"
+   ],
+   "example_case": "A06"
+  },
+  {
+   "context": "ars to limit applicants by gender, which could be discriminatory.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss120b-run1"
+   ],
+   "example_case": "E2"
+  },
+  {
+   "context": "Specifying an age range may constitute age discrimination.",
+   "term": "discrimination",
+   "methods": [
+    "gptoss120b-run1"
+   ],
+   "example_case": "E2"
+  },
+  {
+   "context": "a clear job-related justification, which could be discriminatory.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss120b-run1"
+   ],
+   "example_case": "E5"
+  },
+  {
    "context": " a preference for a specific race, which could be discriminatory.",
    "term": "discriminatory",
    "methods": [
@@ -25,10 +107,19 @@
    "example_case": "C02"
   },
   {
-   "context": "reference for a specific religion, which could be discriminatory.",
+   "context": "ts who are not Singapore citizens, which could be discriminatory.",
    "term": "discriminatory",
    "methods": [
     "gptoss20b-run1"
+   ],
+   "example_case": "C03"
+  },
+  {
+   "context": "reference for a specific religion, which could be discriminatory.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss20b-run1",
+    "gptoss20b-run2"
    ],
    "example_case": "C04"
   },
@@ -105,12 +196,68 @@
    "example_case": "E5"
   },
   {
+   "context": "The wording specifies an age range, which may be discriminatory.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss20b-run2"
+   ],
+   "example_case": "C01"
+  },
+  {
+   "context": "for applicants based on nationality, which may be discriminatory.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss20b-run2"
+   ],
+   "example_case": "C03"
+  },
+  {
+   "context": "It is not clear whether the preference is legally required or merely a hiring preference.",
+   "term": "legally",
+   "methods": [
+    "gptoss20b-run2"
+   ],
+   "example_case": "C03"
+  },
+  {
+   "context": "Requiring marital status or family plans can discriminate based on family status, a protected characteristi",
+   "term": "discriminate",
+   "methods": [
+    "gptoss20b-run2"
+   ],
+   "example_case": "C05"
+  },
+  {
+   "context": "ence for a specific nationality, which could be a discriminatory practice.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss20b-run2"
+   ],
+   "example_case": "A01"
+  },
+  {
+   "context": " preference for a specific age group, potentially discriminating against older applicants.",
+   "term": "discriminating",
+   "methods": [
+    "gptoss20b-run2"
+   ],
+   "example_case": "A03"
+  },
+  {
    "context": "amily commitments are undesirable, which could be discriminatory.",
    "term": "discriminatory",
    "methods": [
     "gptoss20b-run2"
    ],
    "example_case": "A05"
+  },
+  {
+   "context": "ement specifies gender for the role, which may be discriminatory.",
+   "term": "discriminatory",
+   "methods": [
+    "gptoss20b-run2"
+   ],
+   "example_case": "J02"
   },
   {
    "context": "ly requires a specific religion, which could be a discriminatory practice.",
@@ -187,7 +334,97 @@
   "could you tell me the guaranteed basic pay, how commission is calculated, and how overtime is paid?": [
    "deterministic"
   ],
+  "can you clarify if gender is a genuine occupational requirement for this position?": [
+   "gptoss120b-run1"
+  ],
+  "is there a legitimate reason for limiting applicants to a specific age range?": [
+   "gptoss120b-run1"
+  ],
+  "is there a specific reason for the race preference in this role?": [
+   "gptoss120b-run1"
+  ],
+  "can you clarify if singaporean candidates are also considered for this position?": [
+   "gptoss120b-run1"
+  ],
+  "is there a legitimate reason for requiring a particular religious affiliation for this position?": [
+   "gptoss120b-run1"
+  ],
+  "what is the purpose of requiring a full‑body photograph in the application?": [
+   "gptoss120b-run1"
+  ],
+  "can you clarify why marital status and family plans are relevant to this role?": [
+   "gptoss120b-run1"
+  ],
+  "could you clarify the purpose of the $300 course fee and whether it is refundable?": [
+   "gptoss120b-run1"
+  ],
+  "could you clarify why the original passport and certificates need to be retained and how they will be stored?": [
+   "gptoss120b-run1"
+  ],
+  "can you explain the compensation structure for the trial period?": [
+   "gptoss120b-run1"
+  ],
+  "could you explain the rationale and legality of the liquidated damages clause?": [
+   "gptoss120b-run1"
+  ],
+  "can you clarify the typical career progression timeline for this role?": [
+   "gptoss120b-run1"
+  ],
+  "what are the expected working hours and boundaries for this position?": [
+   "gptoss120b-run1"
+  ],
+  "can you clarify if the age range is essential for the role's duties?": [
+   "gptoss120b-run1"
+  ],
+  "is there a specific reason the role is limited to singaporean candidates only?": [
+   "gptoss120b-run1"
+  ],
+  "is there a specific reason why only fresh graduates are being considered for this role?": [
+   "gptoss120b-run1"
+  ],
+  "could you explain why native english proficiency is required for this position?": [
+   "gptoss120b-run1"
+  ],
+  "is there a specific job requirement that necessitates candidates having no personal commitments?": [
+   "gptoss120b-run1"
+  ],
+  "is the emphasis on appearance essential for job performance?": [
+   "gptoss120b-run1"
+  ],
+  "can you clarify the typical earnings range and factors influencing commission?": [
+   "gptoss120b-run1"
+  ],
+  "could you explain the necessity of specifying gender for this position?": [
+   "gptoss120b-run1"
+  ],
+  "can you clarify whether gender is an essential requirement for this position?": [
+   "gptoss120b-run1"
+  ],
+  "is there a legitimate business need for the 25‑30 age requirement?": [
+   "gptoss120b-run1"
+  ],
+  "can you clarify if age is a necessary qualification for this role?": [
+   "gptoss120b-run1"
+  ],
+  "could you explain why the role specifically seeks younger candidates?": [
+   "gptoss120b-run1"
+  ],
+  "could you explain why fluency in both english and mandarin is required for this position?": [
+   "gptoss120b-run1"
+  ],
+  "could you clarify if the role requires any gender-specific qualifications?": [
+   "gptoss20b-run1"
+  ],
+  "is there a particular skill set or experience level that the age range is intended to reflect?": [
+   "gptoss20b-run1"
+  ],
   "is the preference for chinese applicants based on a legitimate business requirement?": [
+   "gptoss20b-run1"
+  ],
+  "could you clarify if this role is open to all nationalities or if there are specific requirements?": [
+   "gptoss20b-run1"
+  ],
+  "is the s pass quota a mandatory requirement for this position?": [
    "gptoss20b-run1"
   ],
   "could you clarify whether the religious preference is a strict requirement or a preference?": [
@@ -210,6 +447,14 @@
   ],
   "could you explain the circumstances under which liquidated damages would be applied?": [
    "gptoss20b-run1"
+  ],
+  "could you clarify the typical career progression timeline for this role?": [
+   "gptoss20b-run1",
+   "gptoss20b-run2"
+  ],
+  "what are the expected working hours and how is work-life balance supported?": [
+   "gptoss20b-run1",
+   "gptoss20b-run2"
   ],
   "could you clarify the age requirements for this position?": [
    "gptoss20b-run1"
@@ -250,13 +495,58 @@
   "is proficiency in english and mandarin a mandatory requirement for this position?": [
    "gptoss20b-run1"
   ],
+  "could you explain the business reason for preferring female candidates?": [
+   "gptoss20b-run2"
+  ],
+  "is there a specific business need that requires candidates to be within this age range?": [
+   "gptoss20b-run2"
+  ],
+  "could you explain the business rationale for specifying a preference for chinese candidates?": [
+   "gptoss20b-run2"
+  ],
+  "could you clarify the nationality requirements for this role?": [
+   "gptoss20b-run2"
+  ],
+  "could you explain the business reason for specifying a religious preference in this role?": [
+   "gptoss20b-run2"
+  ],
+  "could you clarify why a full-body photograph is necessary for this role?": [
+   "gptoss20b-run2"
+  ],
+  "is the marital status or family planning information required for any specific job-related reason?": [
+   "gptoss20b-run2"
+  ],
   "could you clarify whether the course fee is refundable and if it applies to all applicants?": [
    "gptoss20b-run2"
   ],
   "could you explain the policy on retaining original documents and how they will be safeguarded?": [
    "gptoss20b-run2"
   ],
+  "could you clarify if there is any compensation or benefits during the unpaid trial period?": [
+   "gptoss20b-run2"
+  ],
+  "could you explain the conditions that would trigger the liquidated damages deduction?": [
+   "gptoss20b-run2"
+  ],
+  "could you clarify why the age range is specified for this position?": [
+   "gptoss20b-run2"
+  ],
+  "could you clarify if this role is open to all qualified candidates regardless of nationality?": [
+   "gptoss20b-run2"
+  ],
+  "could you explain the rationale behind the preference for fresh graduates?": [
+   "gptoss20b-run2"
+  ],
   "could you explain how personal commitments might impact the responsibilities of this role?": [
+   "gptoss20b-run2"
+  ],
+  "could you clarify how appearance relates to the responsibilities of this role?": [
+   "gptoss20b-run2"
+  ],
+  "could you clarify the base salary and the conditions under which the $6,000 monthly earnings are achievable?": [
+   "gptoss20b-run2"
+  ],
+  "is there a legitimate business reason for requiring female therapists for this position?": [
    "gptoss20b-run2"
   ],
   "could you clarify if the role is open to candidates of other religions?": [
@@ -302,6 +592,51 @@
    "qwen27b-run1"
   ],
   "is there a specific age requirement for this role, or is 'young' used to describe the desired energy and work ethic?": [
+   "qwen27b-run1"
+  ],
+  "could you clarify what specific job requirements make a female candidate preferred for this role?": [
+   "qwen27b-run1"
+  ],
+  "could you explain why the age range of 22 to 28 is required for this position?": [
+   "qwen27b-run1"
+  ],
+  "could you clarify if the preference for 'chinese' is based on a specific language skill or other job-related requirement?": [
+   "qwen27b-run1"
+  ],
+  "could you clarify the specific operational reasons for preferring non-singaporean candidates for this role?": [
+   "qwen27b-run1"
+  ],
+  "is the s pass quota a strict requirement for this position, or are other work pass types also considered?": [
+   "qwen27b-run1"
+  ],
+  "does the company apply for work passes for all successful candidates, or only for those who are not singaporean citizens or prs?": [
+   "qwen27b-run1"
+  ],
+  "could you clarify why the delivery driver role specifically requires the candidate to be muslim?": [
+   "qwen27b-run1"
+  ],
+  "could you clarify why a full-body photograph is required for this position?": [
+   "qwen27b-run1"
+  ],
+  "how does marital status and family planning relate to the requirements of this admin assistant role?": [
+   "qwen27b-run1"
+  ],
+  "could you provide more details about the 3-day trial period and why it is unpaid?": [
+   "qwen27b-run1"
+  ],
+  "could you provide more details on the criteria and timeline for reaching the director level?": [
+   "qwen27b-run1"
+  ],
+  "could you clarify the specific duties and expected working hours for this role?": [
+   "qwen27b-run1"
+  ],
+  "are candidates with some post-graduation experience also considered for this graduate trainee role?": [
+   "qwen27b-run1"
+  ],
+  "is the 'native english speaker' requirement strictly necessary, or are non-native speakers with equivalent proficiency also considered?": [
+   "qwen27b-run1"
+  ],
+  "could you clarify if there is a guaranteed base salary in addition to the commission, or if the compensation is entirely commission-based?": [
    "qwen27b-run1"
   ]
  }

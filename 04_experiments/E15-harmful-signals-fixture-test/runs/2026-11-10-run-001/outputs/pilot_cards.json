@@ -1,0 +1,58 @@
+[
+ {
+  "card": "1",
+  "case_id": "C01",
+  "kind": "supported",
+  "entry_id": "P1-GENDER",
+  "text": "Posting extract: \"Receptionist wanted for dental clinic in Tampines. Female preferred, age 22 to 28 only. Pleasant personality. 5-day week, salary $2,300.\"\nWording noted: \"Female preferred\"\nWhy it may matter: TAFEP guidance says gender should not be a criterion unless there is a practical requirement, and that the reason should be stated.\nWhat is not established: The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.\nQuestion you could ask: Could you tell me whether the gender wording is tied to a requirement of the role, and what that requirement is?\nSource: TAFEP, Writing job advertisements (web page); TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)"
+ },
+ {
+  "card": "2",
+  "case_id": "C03",
+  "kind": "supported",
+  "entry_id": "P1-NATIONALITY",
+  "text": "Posting extract: \"Kitchen Hand, central kitchen. Non-Singaporeans preferred. S Pass quota available. Work passes will be applied for successful candidates. Meals provided.\"\nWording noted: \"Non-Singaporeans\"\nWhy it may matter: TAFEP guidance says nationality should not be a criterion, especially wording that prefers non-Singaporeans. The MOM page says discriminatory advertisements breach the Guidelines (this tool does not apply that to any case).\nWhat is not established: The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.\nQuestion you could ask: Could you tell me how the nationality or work-pass wording relates to the role, and whether all applicants are considered?\nSource: TAFEP, Writing job advertisements (web page); MOM, Fair Consideration Framework (web page, last updated 8 Aug 2025)"
+ },
+ {
+  "card": "3",
+  "case_id": "C06",
+  "kind": "supported",
+  "entry_id": "P3-FEE",
+  "text": "Posting extract: \"Event crew (part-time). Candidates must remit a $300 course fee before the first shift. A refundable security deposit of $500 secures your placement.\"\nWording noted: \"course fee\"\nWhy it may matter: MOM caps agency fees collected from foreign workers (no more than one month of fixed monthly salary per year of service, capped at two months) and says some salary deductions cannot be a condition of employment for migrant workers. Neither page speaks to employer-charged fees for all applicants, so support is partial.\nWhat is not established: The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.\nQuestion you could ask: Could you tell me what the fee or deposit is for, whether it is refundable, and when it is returned?\nSource: MOM FAQ, employment agency fees for workers (web page); MOM, Allowable salary deductions (web page)"
+ },
+ {
+  "card": "4",
+  "case_id": "C08",
+  "kind": "supported",
+  "entry_id": "P4-UNPAID",
+  "text": "Posting extract: \"Barista. Before we consider your application, you must complete a 3-day trial. Trial days are unpaid. Full-time role, salary from $2,000 after the trial.\"\nWording noted: \"Trial days are unpaid\"\nWhy it may matter: Unpaid work offered as a condition of being considered is a common warning sign. No TAFEP or MOM page in the pack was read for this, so there is no named source.\nWhat is not established: The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.\nQuestion you could ask: Could you tell me whether the trial period is paid, how long it lasts, and what work is done during it?\nSource: no official source found"
+ },
+ {
+  "card": "5",
+  "case_id": "C09",
+  "kind": "supported",
+  "entry_id": "P4-DEDUCT",
+  "text": "Posting extract: \"Retail Associate, $2,200 monthly. If you resign within 12 months, liquidated damages of $3,000 will be deducted from your salary.\"\nWording noted: \"liquidated damages\"\nWhy it may matter: The MOM page lists the salary deductions that are allowed and gives liquidated damages as an example of a deduction that is not authorised under the Employment Act for covered employees.\nWhat is not established: The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.\nQuestion you could ask: Could you tell me what the deduction covers, when it applies, and which terms of the contract state it?\nSource: MOM, Allowable salary deductions (web page)"
+ },
+ {
+  "card": "6",
+  "case_id": "A06",
+  "kind": "ambiguous",
+  "entry_id": "P2-APPEARANCE",
+  "text": "Posting extract: \"Front-of-house Host. Good-looking, well-groomed, with a pleasant personality. Evening shifts.\"\nWording noted: \"Good-looking\"\nWhy it may matter: TAFEP's merit principle says selection should rest on skills, experience or ability to perform the job. The page does not name appearance wording, so the support is indirect.\nWhat is not established: The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.\nQuestion you could ask: Could you tell me how the appearance wording relates to the duties, and what the dress or grooming expectations are?\nSource: TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)"
+ },
+ {
+  "card": "7",
+  "case_id": "J02",
+  "kind": "false_alarm",
+  "entry_id": "P1-GENDER",
+  "text": "Posting extract: \"Spa Therapist. Female therapists are required for body massage of female customers, as our treatment rooms are for women only. Certificate in massage therapy.\"\nWording noted: \"women only\"\nWhy it may matter: TAFEP guidance says gender should not be a criterion unless there is a practical requirement, and that the reason should be stated.\nWhat is not established: The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.\nQuestion you could ask: Could you tell me whether the gender wording is tied to a requirement of the role, and what that requirement is?\nSource: TAFEP, Writing job advertisements (web page); TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)"
+ },
+ {
+  "card": "8",
+  "case_id": "E1",
+  "kind": "false_alarm",
+  "entry_id": "P1-AGE",
+  "text": "Posting extract: \"Diversity and fair hiring guide for our hiring managers. Examples of wording we do not use in our advertisements: 'Female preferred', 'Chinese only', 'Below 30 only'. Our postings state skills and experience instead.\"\nWording noted: \"Below 30 only\"\nWhy it may matter: TAFEP guidance says age should generally not be a selection criterion and that a physical task should be described instead of an age group.\nWhat is not established: The wording alone does not show the employer's intent, whether the role has a job-related reason, or how any law applies. It needs a human reading and the employer's own explanation.\nQuestion you could ask: Could you tell me how the age or experience wording in the posting relates to the duties of the role?\nSource: TAFEP, Writing job advertisements (web page); TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)"
+ }
+]

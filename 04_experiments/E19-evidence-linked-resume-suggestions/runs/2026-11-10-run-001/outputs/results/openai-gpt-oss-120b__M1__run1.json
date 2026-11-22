@@ -4,7 +4,7 @@
   "method": "M1",
   "run": 1,
   "prompt_version": "e19-prompts-v1",
-  "sets_completed": 1,
+  "sets_completed": 10,
   "params": {
    "temperature": 0.2,
    "reasoning_effort": "low (gpt-oss only)",
@@ -15,26 +15,230 @@
  "method": "M1",
  "sets": {
   "P01-A": {
-   "content": "{\"suggestions\":[{\"requirement\":\"R2\",\"text\":\"Over four years of logistics experience, including dispatch coordination for daily delivery trips and warehouse operations handling chilled and frozen goods, demonstrating strong delivery and logistics operational knowledge.\"},{\"requirement\":\"R5\",\"text\":\"Proven team player, regularly liaising with drivers, customers, and warehouse staff via Excel and WhatsApp, and contributing to a bin relabelling project as part of a four‑person team.\"}],\"gaps\":[\"R1\",\"R3\",\"R4\"]}",
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Hold a valid Class 3 driving licence (eligible to upgrade to Class 4) as listed under Certifications.\"},{\"requirement\":\"R2\",\"text\":\"Four years of logistics experience including dispatch coordination and warehouse operations, involving daily delivery scheduling for 8 vans and route planning.\"},{\"requirement\":\"R5\",\"text\":\"Demonstrated responsibility and teamwork through coordinating delivery trips, maintaining accurate dispatch logs, and participating in safety briefings and a bin relabelling project.\"}],\"gaps\":[\"R3\",\"R4\"]}",
    "usage": {
-    "completion_tokens": 213,
+    "completion_tokens": 173,
     "prompt_tokens": 786,
-    "total_tokens": 999,
+    "total_tokens": 959,
     "completion_tokens_details": {
      "accepted_prediction_tokens": null,
      "audio_tokens": null,
-     "reasoning_tokens": 96,
+     "reasoning_tokens": 45,
      "rejected_prediction_tokens": null
     },
     "prompt_tokens_details": null,
-    "queue_time": 0.316525382,
-    "prompt_time": 0.056685287,
-    "completion_time": 0.443352787,
-    "total_time": 0.500038074
+    "queue_time": 0.158809789,
+    "prompt_time": 0.03264655,
+    "completion_time": 0.360246517,
+    "total_time": 0.392893067
    },
-   "latency_s": 1.29,
+   "latency_s": 1.02,
    "finish_reason": "stop",
-   "created_utc": "2026-11-10T11:06:41Z"
+   "created_utc": "2026-11-11T03:06:43Z"
+  },
+  "P02-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R2\",\"text\":\"Hold a valid Class 3 driving licence (issued by Traffic Police, 2020), meeting the licence requirement for vehicle operation.\"},{\"requirement\":\"R5\",\"text\":\"Completed a Basic Workplace Safety Orientation Course (2021) and regularly attended monthly safety briefings, demonstrating awareness of safety protocols applicable to workshop environments.\"}],\"gaps\":[\"R1\",\"R3\",\"R4\"]}",
+   "usage": {
+    "completion_tokens": 220,
+    "prompt_tokens": 754,
+    "total_tokens": 974,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 119,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.370540282,
+    "prompt_time": 0.031796316,
+    "completion_time": 0.455749265,
+    "total_time": 0.487545581
+   },
+   "latency_s": 0.98,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:07:15Z"
+  },
+  "P03-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Managed and updated a shared Excel dispatch log daily for a team of drivers, ensuring accurate record‑keeping of delivery trips.\"},{\"requirement\":\"R2\",\"text\":\"Coordinated with drivers and customers via WhatsApp and phone to communicate delays and schedule changes, demonstrating ability to handle inbound inquiries.\"},{\"requirement\":\"R5\",\"text\":\"Provided clear, timely communication with drivers, customers, and warehouse staff, facilitating smooth operations and issue resolution.\"}],\"gaps\":[\"R3\",\"R4\"]}",
+   "usage": {
+    "completion_tokens": 195,
+    "prompt_tokens": 758,
+    "total_tokens": 953,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 72,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.369835265,
+    "prompt_time": 0.035445081,
+    "completion_time": 0.403366573,
+    "total_time": 0.438811654
+   },
+   "latency_s": 0.93,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:07:40Z"
+  },
+  "P04-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Over 1.5 years of hands‑on experience in warehouse operations, including inventory counting, order picking with handheld scanners, and weekly stock counts for a cold‑room facility handling ~400 pallets.\"},{\"requirement\":\"R6\",\"text\":\"Coordinated daily delivery trips for 8 vans, liaising with drivers and customers via WhatsApp to manage schedules, address delays, and ensure smooth supply‑chain communication.\"}],\"gaps\":[\"R2\",\"R3\",\"R4\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 261,
+    "prompt_tokens": 756,
+    "total_tokens": 1017,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 137,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.31702122,
+    "prompt_time": 0.036762679,
+    "completion_time": 0.541098929,
+    "total_time": 0.577861608
+   },
+   "latency_s": 1.0,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:07:41Z"
+  },
+  "P05-B": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Over 1.5 years of customer‑facing experience, including part‑time administrative work at a dental clinic handling ~30 daily phone calls and full‑time retail sales assisting customers and operating the POS system.\"},{\"requirement\":\"R4\",\"text\":\"Fluent in English and conversational Mandarin (basic), meeting the language requirements.\"},{\"requirement\":\"R5\",\"text\":\"Experienced with cash handling and POS transactions, having balanced the till daily and trained new staff on POS use during retail employment.\"}],\"gaps\":[\"R2\",\"R3\"]}",
+   "usage": {
+    "completion_tokens": 284,
+    "prompt_tokens": 731,
+    "total_tokens": 1015,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 150,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.316977241,
+    "prompt_time": 0.030692889,
+    "completion_time": 0.585969353,
+    "total_time": 0.616662242
+   },
+   "latency_s": 1.03,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:07:43Z"
+  },
+  "P06-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R2\",\"text\":\"Plan and track daily dispatch and delivery routes for a fleet of 8 vans, using Excel schedules and real‑time communication via WhatsApp to ensure timely deliveries.\"},{\"requirement\":\"R4\",\"text\":\"Utilise basic Excel skills (sorting, filtering, simple formulas) to maintain and analyse dispatch logs, identifying and communicating any delivery delays.\"},{\"requirement\":\"R5\",\"text\":\"Coordinate daily operations between drivers, customers, and warehouse staff, handling schedule changes and providing updates through WhatsApp and shared Excel sheets.\"}],\"gaps\":[\"R1\",\"R3\"]}",
+   "usage": {
+    "completion_tokens": 211,
+    "prompt_tokens": 777,
+    "total_tokens": 988,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 74,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cached_tokens": 512
+    },
+    "queue_time": 0.316690865,
+    "prompt_time": 0.014208014,
+    "completion_time": 0.439196286,
+    "total_time": 0.4534043
+   },
+   "latency_s": 0.86,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:08:15Z"
+  },
+  "P07-B": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R4\",\"text\":\"Managed appointment scheduling, maintained patient records filing system, and handled front‑desk correspondence for a busy dental clinic, supporting a small team efficiently.\"},{\"requirement\":\"R5\",\"text\":\"Diploma in Business Administration from Eastside Polytechnic, providing a solid foundation in business processes and office administration.\"}],\"gaps\":[\"R1\",\"R2\",\"R3\"]}",
+   "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 711,
+    "total_tokens": 890,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 84,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.317898693,
+    "prompt_time": 0.037444774,
+    "completion_time": 0.371334568,
+    "total_time": 0.408779342
+   },
+   "latency_s": 0.83,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:08:40Z"
+  },
+  "P08-B": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Over 1.5 years of full-time retail experience as a Sales Assistant at Orchard Row Stationers, handling POS operations, customer service, and cash reconciliation.\"},{\"requirement\":\"R3\",\"text\":\"Managed POS till operations and performed end-of-day cash counting and balancing during each shift at Orchard Row Stationers.\"}],\"gaps\":[\"R2\",\"R4\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 714,
+    "total_tokens": 899,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 85,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.162737762,
+    "prompt_time": 0.037115372,
+    "completion_time": 0.388540011,
+    "total_time": 0.425655383
+   },
+   "latency_s": 0.7,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:08:41Z"
+  },
+  "P09-B": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Assisted in budgeting for a Polytechnic bakery pop‑up project, creating an Excel budget plan for a $2,000 stall, demonstrating ability to support event budgeting within a $5,000 range.\"},{\"requirement\":\"R3\",\"text\":\"Tracked and managed the pop‑up stall budget using Excel, handling data entry, simple tables, and budget monitoring.\"},{\"requirement\":\"R4\",\"text\":\"Fluent in English with strong verbal communication skills demonstrated through front‑desk patient interaction and customer service roles.\"}],\"gaps\":[\"R2\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 227,
+    "prompt_tokens": 740,
+    "total_tokens": 967,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 91,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cached_tokens": 512
+    },
+    "queue_time": 0.319930583,
+    "prompt_time": 0.013920507,
+    "completion_time": 0.480821085,
+    "total_time": 0.494741592
+   },
+   "latency_s": 0.92,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:08:43Z"
+  },
+  "P10-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Experienced in receiving and storing chilled and frozen goods as a Warehouse Assistant at Kallang Cold Stores, ensuring proper handling in a temperature‑controlled environment.\"},{\"requirement\":\"R2\",\"text\":\"Conducted weekly stock counts for a cold room containing approximately 400 pallets, maintaining accurate inventory records.\"},{\"requirement\":\"R4\",\"text\":\"Performed order picking using a handheld scanner, efficiently fulfilling orders while adhering to cold‑store protocols.\"},{\"requirement\":\"R5\",\"text\":\"Regularly attended monthly workplace safety briefings and followed cold‑room safety rules, demonstrating commitment to a safe working environment.\"}],\"gaps\":[\"R3\"]}",
+   "usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 732,
+    "total_tokens": 907,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 24,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.15871858,
+    "prompt_time": 0.031360134,
+    "completion_time": 0.364734509,
+    "total_time": 0.396094643
+   },
+   "latency_s": 0.65,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:09:15Z"
   }
  }
 }

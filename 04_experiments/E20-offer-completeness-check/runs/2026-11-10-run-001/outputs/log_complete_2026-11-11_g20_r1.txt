@@ -1,0 +1,3 @@
+L01 ok stop 3100
+STOP: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD
+tokens {'prompt': 2286, 'completion': 814, 'total': 3100}

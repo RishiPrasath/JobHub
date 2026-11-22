@@ -1,0 +1,5 @@
+L01 ok stop 2647
+L02 ok stop 2571
+L03 ok stop 2558
+STOP: DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD):
+tokens {'prompt': 6932, 'completion': 844, 'total': 7776}

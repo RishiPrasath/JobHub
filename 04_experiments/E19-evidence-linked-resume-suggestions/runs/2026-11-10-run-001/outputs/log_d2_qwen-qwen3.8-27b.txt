@@ -1,0 +1,63 @@
+P01-A 887 stop 
+P01-B 854 stop 
+P02-A 813 stop 
+P02-B 787 stop 
+P03-A 996 stop 
+P03-B 913 stop 
+P04-A 859 stop 
+P04-B 844 stop 
+P05-A 842 stop 
+P05-B 933 stop 
+P06-A 931 stop 
+P06-B 927 stop 
+P07-A 789 stop 
+P07-B 777 stop 
+P08-A 835 stop 
+P08-B 900 stop 
+P09-A 862 stop 
+P09-B 867 stop 
+P10-A 847 stop 
+P10-B 825 stop 
+wrote qwen-qwen3.8-27b__M1__run1__d2.json total tokens 17288
+P01-A 911 stop cached
+P01-B 850 stop 
+P02-A 854 stop cached
+P02-B 762 stop 
+P03-A 934 stop cached
+P03-B 923 stop 
+P04-A 853 stop 
+P04-B 836 stop 
+P05-A 856 stop 
+P05-B 875 stop 
+P06-A 921 stop 
+P06-B 866 stop 
+P07-A 815 stop 
+P07-B 809 stop 
+P08-A 832 stop 
+P08-B 830 stop 
+P09-A 863 stop 
+P09-B 869 stop 
+P10-A 874 stop 
+P10-B 760 stop 
+wrote qwen-qwen3.8-27b__M3__run1__d2.json total tokens 17093
+P01-A 981 stop 
+P01-B 872 stop 
+P02-A 984 stop 
+P02-B 958 stop 
+P03-A 1107 stop 
+P03-B 1085 stop 
+P04-A 1097 stop 
+P04-B 983 stop 
+P05-A 1048 stop 
+P05-B 1091 stop 
+P06-A 1069 stop 
+P06-B 1006 stop 
+P07-A 920 stop 
+P07-B 953 stop 
+P08-A 968 stop 
+P08-B 1039 stop 
+P09-A 1004 stop 
+P09-B 982 stop 
+P10-A 1035 stop 
+P10-B 944 stop 
+wrote qwen-qwen3.8-27b__M2__run2__d2.json total tokens 20126

@@ -1,0 +1,13 @@
+batch 0 ['E2', 'E4', 'A05', 'J01'] -> [2, 1, 1, 0] 1484 tok cached
+batch 1 ['B01', 'B08', 'J04', 'C07'] -> [0, 0, 1, 1] 1381 tok cached
+batch 2 ['A08', 'B09', 'J06', 'C06'] -> [0, 0, 0, 1] 1470 tok cached
+batch 3 ['A02', 'E5', 'J03', 'A01'] -> [0, 1, 0, 1] 1379 tok cached
+batch 4 ['B10', 'B04', 'C09', 'A06'] -> [0, 1, 1, 1] 1432 tok cached
+batch 5 ['B06', 'E3', 'C04', 'C08'] -> [0, 0, 1, 1] 1401 tok cached
+batch 6 ['B03', 'A04', 'C05', 'A03'] -> [0, 1, 2, 1] 1545 tok cached
+batch 7 ['A07', 'J02', 'J05', 'C02'] -> [1, 1, 0, 1] 1481 tok cached
+batch 8 ['B07', 'B02', 'C03', 'E1'] -> [0, 0, 2, 0] 1601 tok 
+batch 9 ['C01', 'B05'] -> [2, 0] 1250 tok 
+batch 10 ['C10'] -> [2] 1280 tok 
+batch 11 ['E6'] -> [0] 1070 tok 
+total tokens 16774

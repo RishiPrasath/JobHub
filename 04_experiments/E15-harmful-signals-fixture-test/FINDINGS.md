@@ -85,3 +85,33 @@ Part B (6 to 8 job seekers reading prepared flags); an HR or employment-law revi
 4. Find sources for unpaid trials, document retention and progression claims, or drop those categories.
 5. Add Chinese, Malay and Tamil patterns if translated postings are in scope.
 6. Decide whether to rewrite the pack wording to remove legal-sounding language, whether entries with no named source may display at all, and whether to spend the next day's Groq budget on completing the AI runs or on the pilot first.
+
+## Completion run, 2026-11-11
+
+The missing cells were run with the same prompts (cached cells reused). All AI runs now cover all 40 cases: gpt-oss-20b runs 1 and 2, qwen3.8-27b run 1, and a new gpt-oss-120b run 1. Earlier results files are kept in `outputs/pre_2026-11-11/`. A second AI rater rated the 62 questions and 18 legal-term hits left unrated, using the frozen rubric (the rater is an AI; its judgement calls are in its report, e.g. it counted "legality" as a legal-conclusion word).
+
+| Threshold | Deterministic | gpt-oss-20b run 1 | gpt-oss-20b run 2 | qwen3.8-27b | gpt-oss-120b |
+|---|---|---|---|---|---|
+| Recall on clearly concerning (80%) | 10/10 | 10/10 | 10/10 | 10/10 | 10/10 |
+| False alarms on benign-similar (10% or less) | 0% | 10% | 10% | 0% | 10% |
+| False alarms, job-related / edge / no-signal | 17% / 50% / 15% | 33% / 25% / 20% | 33% / 0% / 15% | 0% / 0% / 0% | 17% / 50% / 20% |
+| Excerpt and named source on every flag | 78.6% | 85.2% | 83.3% | 84.6% | 80.8% |
+| Correct "no reliable signal" (90%) | 85% | 80% | 85% | 100% | 80% |
+| Questions passing rubric (80%) | 100% | 92.6% | 95.8% | 100% | 92.3% |
+| Legal wording: stated / implied | 0 / 6 | 0 / 13 | 1 / 11 | 0 / 0 | 0 / 10 |
+| Hidden instruction followed | no | no | no | no | no |
+
+- Stability of gpt-oss-20b across two runs: 38 of 40 cases gave the same decision; mean overlap of flagged entries 0.95.
+- The source gap is a pack problem, not a model problem: the flags missing a named source all come from pack entries that have no TAFEP or MOM source.
+- One "stated" legal hit appeared (gpt-oss-20b run 2: a sentence saying marital-status requirements "can discriminate"). Under the written rule, stating unlawful discrimination as fact is a fail condition for that output; it was one hit in one of five runs.
+- Verdicts: no method meets every pass line (citation fails for all; legal wording fails for all but qwen). By the written rule, deterministic, gpt-oss-120b and gpt-oss-20b run 1 are **inconclusive**; gpt-oss-20b run 2 hits a fail condition (one stated legal conclusion); qwen3.8-27b is **inconclusive and closest to passing** (only the source criterion misses, which comes from the pack).
+
+### Simulated Part B pilot (not participants)
+
+Six AI personas read eight cards (5 supported flags, 1 ambiguous, 2 real false alarms). Model: gpt-oss-120b, because qwen had hit its daily limit (the pilot script now reads `PILOT_MODEL`).
+
+- 26 of 48 answers (54%) read a card as "worth asking, not proven"; 18 (38%) read it as discriminating or illegal; 4 unsure. Between the 50% and 75% lines, so inconclusive, and it is a language model's behaviour, not evidence.
+- The nationality and gender cards were read as discriminating by 5 of 6 personas each; the two false-alarm cards by 2 of 6 each. Nobody said they would drop a posting outright (45 "ask first", 3 "still follow up").
+- Takeaway for the pack wording: the clearest-looking cards invite a verdict reading. Test softer wording with real people.
+
+**Feasibility call (for the owner to confirm):** plausible at fixture level as a pack-lookup with a model finding the wording, qwen being strongest. Requires fixing the pack so every entry has a named source and removing legal-sounding sentences. Level T2. Needs real participants for Part B.

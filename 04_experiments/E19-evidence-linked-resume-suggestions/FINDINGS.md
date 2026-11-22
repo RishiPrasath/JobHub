@@ -131,3 +131,28 @@ All of Part B: whether users catch a planted unsupported or gap-tied suggestion,
 3. Extend the check for verb and level changes, and test it on real resume text.
 4. Replace the AI gold with human-written gold on a larger sample.
 5. Add text boxes inside headers and footers to the format check.
+
+## Completion run, 2026-11-11 (same prompts and parameters; fills the cells the 2026-11-10 token limit cut off)
+
+Written by the coordinator. The harness is `harness/run_complete_2026-11-11.sh`; only missing cells cost tokens (shared cache). Raw outputs for both days are in `runs/2026-11-10-run-001/outputs/raw/`, and the logs are `log_d2_*.txt`. Scoring used the frozen scorer, unchanged. Coverage is now complete for `qwen/qwen3.8-27b` and `openai/gpt-oss-20b` (all 20 sets for M1, M2 run 1 and run 2, and M3), and for `openai/gpt-oss-120b` M1 and M2 on 10 sets. The 120b was not run on M3 or on a second run.
+
+| Method and model | Sets | Displayed items | Fabricated credential, employer or metric | Unsupported (displayed) | Gaps shown as gaps |
+|---|---|---|---|---|---|
+| M1 "be truthful" gpt-oss-120b | 10 | 27 | 10 | 44.4% (12/27) | 94.4% |
+| M1 gpt-oss-20b | 20 | 60 | 14 | 45.0% (27/60) | 59.6% (31/52) |
+| M1 qwen | 20 | 55 | 8 | 29.1% (16/55) | 80.8% (42/52) |
+| M2 ledger + code check, gpt-oss-120b | 10 | 22 | 0 | 0.0% (0/22); raw 7.7% before the filter | 100% |
+| M2 gpt-oss-20b run 1 / run 2 | 20 / 20 | 28 / 31 | 0 / 0 | 0.0% / 0.0% | 100% / 100% |
+| M2 qwen run 1 / run 2 | 20 / 20 | 47 / 50 | 0 / 0 | 0.0% / 0.0% | 88.5% / 86.5% |
+| M3 selection only, gpt-oss-20b | 20 | 36 | 0 | 0.0% | 100% |
+| M3 selection only, qwen | 20 | 69 | 0 | 13.0% (9/69) | 84.6% |
+
+What this adds:
+- **The baseline comparison is now answered.** The "be truthful" instruction (M1) put fabricated credentials, employers or metrics in front of the user on every model (8 to 14 items each) and produced 29 to 45% unsupported claims. The ledger with a code check (M2) produced none, on every model and on both runs. That reproduces the E04 finding at a larger size.
+- **M2 meets the frozen automated thresholds on two of three models:** zero fabrications, unsupported 0% against 1%, 100% citations, no intent commitments, no injection followed, and gaps at or above 90% for gpt-oss-20b and gpt-oss-120b. qwen misses the gap bar (88.5% and 86.5% against 90%).
+- **M2 is stable across two runs:** displayed unsupported was 0% in both runs for both models, and gap handling for gpt-oss-20b was 100% in both.
+- **The filter earned its keep on the 120b:** 2 of 26 raw items were unsupported before the filter and 0 of 22 after, at the cost of dropping 2 of 23 clean items (8.7%).
+- **M3 (selection only) is not safe by itself for qwen:** 13.0% of its selections (9 of 69) were not supported, mostly entries picked for a requirement they do not answer. gpt-oss-20b had none.
+- The relevance blind spot found on 2026-11-10 (true but unrelated facts shown for a requirement the profile cannot meet) was not re-adjudicated for the new sets. It remains a risk for qwen M2, so a human confirming that each entry answers its requirement is still part of the recommendation.
+
+Verdict update: M2 **passes** the frozen automated thresholds on gpt-oss-20b and gpt-oss-120b and **misses the gap threshold** on qwen; M1 is clearly worse; M3 is mixed. Overall **mixed**. Proposed level T2 (all planned cells for two models, a second run, saved outputs, still AI-written gold and synthetic resumes). Part B still needs participants.

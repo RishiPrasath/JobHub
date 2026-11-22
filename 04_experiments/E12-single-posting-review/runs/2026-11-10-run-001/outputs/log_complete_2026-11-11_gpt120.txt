@@ -1,0 +1,24 @@
+E12-P01__gpt120__r1 2575 stop 0.0 s cached
+E12-P02__gpt120__r1 2272 stop 0.0 s cached
+E12-P03__gpt120__r1 2131 stop 4.6 s 
+E12-P04__gpt120__r1 2846 stop 0.0 s cached
+E12-P05__gpt120__r1 2692 stop 61.3 s 
+E12-P06__gpt120__r1 3017 stop 0.0 s cached
+E12-P07__gpt120__r1 3425 stop 0.0 s cached
+E12-P08__gpt120__r1 2285 stop 0.0 s cached
+E12-P09__gpt120__r1 2691 stop 0.0 s cached
+E12-P10__gpt120__r1 2273 stop 58.9 s 
+E12-P11__gpt120__r1 2352 stop 60.7 s 
+E12-P12__gpt120__r1 2656 stop 60.8 s 
+E12-P13__gpt120__r1 2541 stop 60.1 s 
+E12-P14__gpt120__r1 2885 stop 60.5 s 
+E12-P15__gpt120__r1 2573 stop 0.0 s cached
+E12-P16__gpt120__r1 2543 stop 59.5 s 
+E12-P17__gpt120__r1 3031 stop 61.5 s 
+E12-P18__gpt120__r1 2618 stop 58.9 s 
+E12-P19__gpt120__r1 2503 stop 60.2 s 
+E12-P20__gpt120__r1 2698 stop 60.3 s 
+E12-P21__gpt120__r1 2697 stop 60.5 s 
+E12-P22__gpt120__r1 2937 stop 60.5 s 
+E12-P23__gpt120__r1 2486 stop 59.2 s 
+E12-P24__gpt120__r1 2331 stop 59.8 s 

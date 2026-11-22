@@ -19,7 +19,31 @@
    "oracle": [],
    "gate_raises": false
   },
+  "E12-P02__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P03__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P03__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
   "E12-P04__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P04__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P05__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P05__qwen__r1": {
    "oracle": [],
    "gate_raises": false
   },
@@ -45,11 +69,62 @@
    ],
    "gate_raises": false
   },
+  "E12-P08__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
   "E12-P09__gpt120__r1": {
    "oracle": [],
    "gate_raises": false
   },
   "E12-P09__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P10__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P10__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P11__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P11__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P12__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P12__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P13__gpt120__r1": {
+   "oracle": [
+    "contradictions: covered with no claim ids",
+    "contradictions covered/conflicting with no conflicting claim",
+    "unknowns: covered with no claim ids",
+    "verification_questions covered but no questions"
+   ],
+   "gate_raises": true
+  },
+  "E12-P13__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P14__gpt120__r1": {
+   "oracle": [
+    "questions present but verification_questions not covered"
+   ],
+   "gate_raises": true
+  },
+  "E12-P14__qwen__r1": {
    "oracle": [],
    "gate_raises": false
   },
@@ -61,11 +136,33 @@
    "oracle": [],
    "gate_raises": false
   },
+  "E12-P16__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
   "E12-P16__qwen__r1": {
    "oracle": [],
    "gate_raises": false
   },
+  "E12-P17__gpt120__r1": {
+   "oracle": [
+    "contradictions covered/conflicting with no conflicting claim"
+   ],
+   "gate_raises": false
+  },
   "E12-P17__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P18__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P18__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P19__gpt120__r1": {
    "oracle": [],
    "gate_raises": false
   },
@@ -75,7 +172,41 @@
    ],
    "gate_raises": true
   },
+  "E12-P19__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P20__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P20__qwen__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P21__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P21__qwen__r1": {
+   "oracle": [
+    "verification_questions covered but no questions"
+   ],
+   "gate_raises": true
+  },
+  "E12-P22__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
   "E12-P22__gpt120__r2": {
+   "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P22__qwen__r1": {
+   "oracle": [],
+   "gate_raises": true
+  },
+  "E12-P23__gpt120__r1": {
    "oracle": [],
    "gate_raises": false
   },
@@ -83,8 +214,27 @@
    "oracle": [],
    "gate_raises": false
   },
+  "E12-P23__qwen__r1": {
+   "oracle": [
+    "contradictions: covered with no claim ids",
+    "contradictions covered/conflicting with no conflicting claim",
+    "unknowns: covered with no claim ids"
+   ],
+   "gate_raises": false
+  },
+  "E12-P24__gpt120__r1": {
+   "oracle": [],
+   "gate_raises": false
+  },
   "E12-P24__gpt120__r2": {
    "oracle": [],
+   "gate_raises": false
+  },
+  "E12-P24__qwen__r1": {
+   "oracle": [
+    "duties: covered with no claim ids",
+    "unknowns: covered with no claim ids"
+   ],
    "gate_raises": false
   }
  }

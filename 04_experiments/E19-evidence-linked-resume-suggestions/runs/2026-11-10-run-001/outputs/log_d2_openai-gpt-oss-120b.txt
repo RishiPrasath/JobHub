@@ -1,0 +1,22 @@
+P01-A 1196 stop 
+P02-A 1132 stop 
+P03-A 1212 stop 
+P04-A 1108 stop 
+P05-B 1271 stop 
+P06-A 1137 stop 
+P07-B 1178 stop 
+P08-B 1115 stop 
+P09-B 1174 stop 
+P10-A 1117 stop 
+wrote openai-gpt-oss-120b__M2__run1__d2.json total tokens 11640
+P01-A 959 stop 
+P02-A 974 stop 
+P03-A 953 stop 
+P04-A 1017 stop 
+P05-B 1015 stop 
+P06-A 988 stop 
+P07-B 890 stop 
+P08-B 899 stop 
+P09-B 967 stop 
+P10-A 907 stop 
+wrote openai-gpt-oss-120b__M1__run1__d2.json total tokens 9569

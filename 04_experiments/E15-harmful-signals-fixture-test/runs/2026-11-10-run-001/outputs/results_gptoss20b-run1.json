@@ -10,8 +10,8 @@
   "json_mode": true,
   "batch_size": 4
  },
- "finished_utc": "2026-11-10T11:00:16Z",
- "total_tokens": 11573,
+ "finished_utc": "2026-11-11T05:50:23Z",
+ "total_tokens": 16774,
  "calls": [
   {
    "batch": 0,
@@ -21,6 +21,7 @@
     "A05",
     "J01"
    ],
+   "max_tokens": 1800,
    "usage": {
     "completion_tokens": 440,
     "prompt_tokens": 1044,
@@ -48,6 +49,7 @@
     "J04",
     "C07"
    ],
+   "max_tokens": 1800,
    "usage": {
     "completion_tokens": 304,
     "prompt_tokens": 1077,
@@ -75,6 +77,7 @@
     "J06",
     "C06"
    ],
+   "max_tokens": 1800,
    "usage": {
     "completion_tokens": 383,
     "prompt_tokens": 1087,
@@ -102,6 +105,7 @@
     "J03",
     "A01"
    ],
+   "max_tokens": 1800,
    "usage": {
     "completion_tokens": 322,
     "prompt_tokens": 1057,
@@ -132,6 +136,7 @@
     "C09",
     "A06"
    ],
+   "max_tokens": 1800,
    "usage": {
     "completion_tokens": 368,
     "prompt_tokens": 1064,
@@ -159,6 +164,7 @@
     "C04",
     "C08"
    ],
+   "max_tokens": 1800,
    "usage": {
     "completion_tokens": 299,
     "prompt_tokens": 1102,
@@ -186,6 +192,7 @@
     "C05",
     "A03"
    ],
+   "max_tokens": 1800,
    "usage": {
     "completion_tokens": 496,
     "prompt_tokens": 1049,
@@ -213,6 +220,7 @@
     "J05",
     "C02"
    ],
+   "max_tokens": 1800,
    "usage": {
     "completion_tokens": 434,
     "prompt_tokens": 1047,
@@ -228,6 +236,110 @@
     "prompt_time": 0.058101385,
     "completion_time": 0.585114011,
     "total_time": 0.643215396
+   },
+   "finish_reason": "stop",
+   "cached": true
+  },
+  {
+   "batch": 8,
+   "case_ids": [
+    "B07",
+    "B02",
+    "C03",
+    "E1"
+   ],
+   "max_tokens": 1800,
+   "usage": {
+    "completion_tokens": 522,
+    "prompt_tokens": 1079,
+    "total_tokens": 1601,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 277,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.413400611,
+    "prompt_time": 0.085259316,
+    "completion_time": 0.577895539,
+    "total_time": 0.663154855
+   },
+   "finish_reason": "stop",
+   "cached": false
+  },
+  {
+   "batch": 9,
+   "case_ids": [
+    "C01",
+    "B05"
+   ],
+   "max_tokens": 1800,
+   "usage": {
+    "completion_tokens": 247,
+    "prompt_tokens": 1003,
+    "total_tokens": 1250,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 47,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.367804091,
+    "prompt_time": 0.067357068,
+    "completion_time": 0.273615784,
+    "total_time": 0.340972852
+   },
+   "finish_reason": "stop",
+   "cached": false
+  },
+  {
+   "batch": 10,
+   "case_ids": [
+    "C10"
+   ],
+   "max_tokens": 1800,
+   "usage": {
+    "completion_tokens": 297,
+    "prompt_tokens": 983,
+    "total_tokens": 1280,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 90,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.052191002,
+    "prompt_time": 0.087127726,
+    "completion_time": 0.35271997,
+    "total_time": 0.439847696
+   },
+   "finish_reason": "stop",
+   "cached": false
+  },
+  {
+   "batch": 11,
+   "case_ids": [
+    "E6"
+   ],
+   "max_tokens": 1800,
+   "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 982,
+    "total_tokens": 1070,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 58,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.367764716,
+    "prompt_time": 0.049666969,
+    "completion_time": 0.091664211,
+    "total_time": 0.14133118
    },
    "finish_reason": "stop",
    "cached": false
@@ -1155,30 +1267,241 @@
   {
    "case_id": "B07",
    "method": "gptoss20b-run1",
-   "error": "DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199077, Requested 1864. Please try again in 6m46.512s. Need more tokens? Upgra",
+   "batch": 8,
+   "posting_id_in_batch": "P1",
+   "parse_ok": true,
+   "finish_reason": "stop",
    "flags": [],
-   "no_reliable_signal": null
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P1\", \"flags\": [], \"no_reliable_signal\": false}"
   },
   {
    "case_id": "B02",
    "method": "gptoss20b-run1",
-   "error": "DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199077, Requested 1864. Please try again in 6m46.512s. Need more tokens? Upgra",
+   "batch": 8,
+   "posting_id_in_batch": "P2",
+   "parse_ok": true,
+   "finish_reason": "stop",
    "flags": [],
-   "no_reliable_signal": null
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P2\", \"flags\": [], \"no_reliable_signal\": false}"
   },
   {
    "case_id": "C03",
    "method": "gptoss20b-run1",
-   "error": "DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199077, Requested 1864. Please try again in 6m46.512s. Need more tokens? Upgra",
-   "flags": [],
-   "no_reliable_signal": null
+   "batch": 8,
+   "posting_id_in_batch": "P3",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P1-NATIONALITY",
+     "category": 1,
+     "excerpt": "Non-Singaporeans preferred",
+     "span": [
+      31,
+      57
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S3",
+       "name": "MOM, Fair Consideration Framework (web page, last updated 8 Aug 2025)",
+       "url": "https://www.mom.gov.sg/employment-practices/fair-consideration-framework",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "The phrase may indicate a preference for applicants who are not Singapore citizens, which could be discriminatory.",
+     "what_is_not_established": "It is not clear whether the preference is based on a legitimate business need.",
+     "suggested_question": "Could you clarify if this role is open to all nationalities or if there are specific requirements?"
+    },
+    {
+     "entry_id": "P1-NATIONALITY",
+     "category": 1,
+     "excerpt": "S Pass quota available",
+     "span": [
+      59,
+      81
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S3",
+       "name": "MOM, Fair Consideration Framework (web page, last updated 8 Aug 2025)",
+       "url": "https://www.mom.gov.sg/employment-practices/fair-consideration-framework",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "Mentioning a specific work-pass quota may signal a preference for certain nationalities or work-pass holders.",
+     "what_is_not_established": "It is not established whether this is a genuine requirement for the role.",
+     "suggested_question": "Is the S Pass quota a mandatory requirement for this position?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P3\", \"flags\": [{\"entry_id\": \"P1-NATIONALITY\", \"excerpt\": \"Non-Singaporeans preferred\", \"why_it_may_matter\": \"The phrase may indicate a preference for applicants who are not Singapore citizens, which could be discriminatory.\", \"what_is_not_established\": \"It is not clear whether the preference is based on a legitimate business need.\", \"suggested_question\": \"Could you clarify if this role is open to all nationalities or if there are specific requirements?\"}, {\"entry_id\": \"P1-NATIONALITY\", \"excerpt\": \"S Pass quota available\", \"why_it_may_matter\": \"Mentioning a specific work-pass quota may signal a preference for certain nationalities or work-pass holders.\", \"what_is_not_established\": \"It is not established whether this is a genuine requirement for the role.\", \"suggested_question\": \"Is the S Pass quota a mandatory requirement for this position?\"}], \"no_reliable_signal\": false}"
   },
   {
    "case_id": "E1",
    "method": "gptoss20b-run1",
-   "error": "DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01jjpm7kwverpa7amfbmpwsm6e` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199077, Requested 1864. Please try again in 6m46.512s. Need more tokens? Upgra",
+   "batch": 8,
+   "posting_id_in_batch": "P4",
+   "parse_ok": true,
+   "finish_reason": "stop",
    "flags": [],
-   "no_reliable_signal": null
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P4\", \"flags\": [], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "C01",
+   "method": "gptoss20b-run1",
+   "batch": 9,
+   "posting_id_in_batch": "P1",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P1-GENDER",
+     "category": 1,
+     "excerpt": "Female preferred",
+     "span": [
+      51,
+      67
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "The wording indicates a preference for a specific gender, which could be discriminatory.",
+     "what_is_not_established": "It does not explicitly state a job-related reason for the preference.",
+     "suggested_question": "Could you clarify if the role requires any gender-specific qualifications?"
+    },
+    {
+     "entry_id": "P1-AGE",
+     "category": 1,
+     "excerpt": "age 22 to 28 only",
+     "span": [
+      69,
+      86
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [
+      {
+       "source_id": "S2",
+       "name": "TAFEP, Writing job advertisements (web page)",
+       "url": "https://www.tal.sg/tafep/employment-practices/recruitment/writing-job-advertisements",
+       "accessed": "2026-11-10"
+      },
+      {
+       "source_id": "S1",
+       "name": "TAFEP, Tripartite Guidelines on Fair Employment Practices (web page)",
+       "url": "https://www.tal.sg/tafep/getting-started/fair/tripartite-guidelines",
+       "accessed": "2026-11-10"
+      }
+     ],
+     "source_support": "direct",
+     "why_it_may_matter": "The wording specifies an age range, indicating a preference for a particular age group.",
+     "what_is_not_established": "It does not provide a job-related justification for the age restriction.",
+     "suggested_question": "Is there a particular skill set or experience level that the age range is intended to reflect?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P1\", \"flags\": [{\"entry_id\": \"P1-GENDER\", \"excerpt\": \"Female preferred\", \"why_it_may_matter\": \"The wording indicates a preference for a specific gender, which could be discriminatory.\", \"what_is_not_established\": \"It does not explicitly state a job-related reason for the preference.\", \"suggested_question\": \"Could you clarify if the role requires any gender-specific qualifications?\"}, {\"entry_id\": \"P1-AGE\", \"excerpt\": \"age 22 to 28 only\", \"why_it_may_matter\": \"The wording specifies an age range, indicating a preference for a particular age group.\", \"what_is_not_established\": \"It does not provide a job-related justification for the age restriction.\", \"suggested_question\": \"Is there a particular skill set or experience level that the age range is intended to reflect?\"}], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "B05",
+   "method": "gptoss20b-run1",
+   "batch": 9,
+   "posting_id_in_batch": "P2",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": true,
+   "raw_content": "{\"id\": \"P2\", \"flags\": [], \"no_reliable_signal\": true}"
+  },
+  {
+   "case_id": "C10",
+   "method": "gptoss20b-run1",
+   "batch": 10,
+   "posting_id_in_batch": "P1",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [
+    {
+     "entry_id": "P5-RAPID",
+     "category": 5,
+     "excerpt": "director in just 6 months",
+     "span": [
+      49,
+      74
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [],
+     "source_support": "none",
+     "why_it_may_matter": "This wording suggests an unusually rapid promotion that may not be realistic or could be misleading.",
+     "what_is_not_established": "It does not confirm whether such a promotion is actually achievable or based on merit.",
+     "suggested_question": "Could you clarify the typical career progression timeline for this role?"
+    },
+    {
+     "entry_id": "P5-DEMANDS",
+     "category": 5,
+     "excerpt": "willing to do anything the company asks, available 24/7, no questions asked",
+     "span": [
+      84,
+      159
+     ],
+     "valid_entry": true,
+     "excerpt_verbatim": true,
+     "sources": [],
+     "source_support": "none",
+     "why_it_may_matter": "This phrasing implies an expectation of unlimited availability and compliance without boundaries, which may be unreasonable.",
+     "what_is_not_established": "It does not specify the actual workload or any limits on working hours.",
+     "suggested_question": "What are the expected working hours and how is work-life balance supported?"
+    }
+   ],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P1\", \"flags\": [{\"entry_id\": \"P5-RAPID\", \"excerpt\": \"director in just 6 months\", \"why_it_may_matter\": \"This wording suggests an unusually rapid promotion that may not be realistic or could be misleading.\", \"what_is_not_established\": \"It does not confirm whether such a promotion is actually achievable or based on merit.\", \"suggested_question\": \"Could you clarify the typical career progression timeline for this role?\"}, {\"entry_id\": \"P5-DEMANDS\", \"excerpt\": \"willing to do anything the company asks, available 24/7, no questions asked\", \"why_it_may_matter\": \"This phrasing implies an expectation of unlimited availability and compliance without boundaries, which may be unreasonable.\", \"what_is_not_established\": \"It does not specify the actual workload or any limits on working hours.\", \"suggested_question\": \"What are the expected working hours and how is work-life balance supported?\"}], \"no_reliable_signal\": false}"
+  },
+  {
+   "case_id": "E6",
+   "method": "gptoss20b-run1",
+   "batch": 11,
+   "posting_id_in_batch": "P1",
+   "parse_ok": true,
+   "finish_reason": "stop",
+   "flags": [],
+   "no_reliable_signal": false,
+   "raw_content": "{\"id\": \"P1\", \"flags\": [], \"no_reliable_signal\": false}"
   }
  ]
 }

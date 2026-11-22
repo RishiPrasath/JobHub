@@ -1445,14 +1445,22 @@
   },
   {
    "id": "SYN-13",
-   "top3": [],
-   "raw_top3": null,
-   "verdict": null,
-   "confidence": null,
-   "why": null,
-   "parse_ok": false,
-   "tokens": null,
-   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "top3": [
+    "36910",
+    "23300",
+    "24240"
+   ],
+   "raw_top3": [
+    "36910",
+    "23300",
+    "24240"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Secondary Maths Tutor is a private academic tutor.",
+   "parse_ok": true,
+   "tokens": 567,
+   "finish": "stop",
    "cached": false
   },
   {
@@ -1513,7 +1521,7 @@
    "parse_ok": true,
    "tokens": 563,
    "finish": "stop",
-   "cached": false
+   "cached": true
   },
   {
    "id": "SYN-17",
@@ -1537,14 +1545,22 @@
   },
   {
    "id": "SYN-18",
-   "top3": [],
-   "raw_top3": null,
-   "verdict": null,
-   "confidence": null,
-   "why": null,
-   "parse_ok": false,
-   "tokens": null,
-   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "top3": [
+    "53202",
+    "53201",
+    "32200"
+   ],
+   "raw_top3": [
+    "53202",
+    "53201",
+    "32200"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Title explicitly states Healthcare Assistant in Nursing Home.",
+   "parse_ok": true,
+   "tokens": 601,
+   "finish": "stop",
    "cached": false
   },
   {
@@ -1589,26 +1605,42 @@
   },
   {
    "id": "SYN-21",
-   "top3": [],
-   "raw_top3": null,
-   "verdict": null,
-   "confidence": null,
-   "why": null,
-   "parse_ok": false,
-   "tokens": null,
-   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "top3": [
+    "24111",
+    "24112",
+    "33131"
+   ],
+   "raw_top3": [
+    "24111",
+    "24112",
+    "33131"
+   ],
+   "verdict": "none",
+   "confidence": "medium",
+   "why": "Executive level does not match Manager or Assistant codes.",
+   "parse_ok": true,
+   "tokens": 580,
+   "finish": "stop",
    "cached": false
   },
   {
    "id": "SYN-22",
-   "top3": [],
-   "raw_top3": null,
-   "verdict": null,
-   "confidence": null,
-   "why": null,
-   "parse_ok": false,
-   "tokens": null,
-   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "top3": [
+    "43114",
+    "41102",
+    "24233"
+   ],
+   "raw_top3": [
+    "43114",
+    "41102",
+    "24233"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Payroll Executive aligns with Payroll/Wages clerk duties.",
+   "parse_ok": true,
+   "tokens": 580,
+   "finish": "stop",
    "cached": false
   },
   {
@@ -1649,14 +1681,22 @@
   },
   {
    "id": "SYN-26",
-   "top3": [],
-   "raw_top3": null,
-   "verdict": null,
-   "confidence": null,
-   "why": null,
-   "parse_ok": false,
-   "tokens": null,
-   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "top3": [
+    "24311",
+    "26413",
+    "21662"
+   ],
+   "raw_top3": [
+    "24311",
+    "26413",
+    "21662"
+   ],
+   "verdict": "match",
+   "confidence": "high",
+   "why": "Social media content creation aligns with creative advertising and content writing.",
+   "parse_ok": true,
+   "tokens": 567,
+   "finish": "stop",
    "cached": false
   },
   {
@@ -1689,7 +1729,7 @@
    "parse_ok": true,
    "tokens": 571,
    "finish": "stop",
-   "cached": false
+   "cached": true
   },
   {
    "id": "SYN-29",
@@ -1717,14 +1757,22 @@
   },
   {
    "id": "SYN-31",
-   "top3": [],
-   "raw_top3": null,
-   "verdict": null,
-   "confidence": null,
-   "why": null,
-   "parse_ok": false,
-   "tokens": null,
-   "finish": "error:RuntimeError:DAILY LIMIT: Error code: 429 - {'error': {'message': 'Rate limit reached for mod",
+   "top3": [
+    "52202",
+    "52421",
+    "52201"
+   ],
+   "raw_top3": [
+    "52202",
+    "52421",
+    "52201"
+   ],
+   "verdict": "none",
+   "confidence": "high",
+   "why": "Vague promotional text lacks specific duties; no clear match.",
+   "parse_ok": true,
+   "tokens": 592,
+   "finish": "stop",
    "cached": false
   },
   {
@@ -1841,7 +1889,7 @@
    "parse_ok": true,
    "tokens": 598,
    "finish": "stop",
-   "cached": false
+   "cached": true
   },
   {
    "id": "SYN-39",

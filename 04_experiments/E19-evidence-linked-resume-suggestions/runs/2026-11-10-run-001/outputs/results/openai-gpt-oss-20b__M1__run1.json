@@ -1,0 +1,461 @@
+{
+ "meta": {
+  "model": "openai/gpt-oss-20b",
+  "method": "M1",
+  "run": 1,
+  "prompt_version": "e19-prompts-v1",
+  "sets_completed": 20,
+  "params": {
+   "temperature": 0.2,
+   "reasoning_effort": "low (gpt-oss only)",
+   "max_tokens": 1000,
+   "json_mode": true
+  }
+ },
+ "method": "M1",
+ "sets": {
+  "P01-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Hold a Class 3 driving licence issued by the Traffic Police (2020).\"},{\"requirement\":\"R2\",\"text\":\"Four years of logistics experience, including dispatch coordination and cold-store warehouse operations, managing daily delivery schedules and inventory.\"},{\"requirement\":\"R4\",\"text\":\"Completed a Basic Workplace Safety Orientation Course (2021) and have hands‑on experience with cold‑room safety protocols.\"},{\"requirement\":\"R5\",\"text\":\"Demonstrated teamwork and communication skills through coordinating with drivers, customers, and warehouse staff, and participating in safety briefings.\"}],\"gaps\":[\"R3\"]}",
+   "usage": {
+    "completion_tokens": 169,
+    "prompt_tokens": 786,
+    "total_tokens": 955,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 24,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.284732132,
+    "prompt_time": 0.046093628,
+    "completion_time": 0.177214361,
+    "total_time": 0.223307989
+   },
+   "latency_s": 0.96,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:03:42Z"
+  },
+  "P01-B": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Include a section stating possession of a valid Class 4 driving licence.\"},{\"requirement\":\"R2\",\"text\":\"Highlight experience in logistics operations by mentioning handling patient records and appointment scheduling, which involves coordination and timely delivery of services.\"},{\"requirement\":\"R4\",\"text\":\"Note any relevant certifications such as Standard First Aid (CPR and AED) to demonstrate safety awareness and readiness for hazardous material handling.\"},{\"requirement\":\"R5\",\"text\":\"Emphasize teamwork skills by referencing training new staff on POS usage and collaborating on the Harbourview Bakery budget project.\"}],\"gaps\":[\"R3\"]}",
+   "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 757,
+    "total_tokens": 922,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 21,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.796391518,
+    "prompt_time": 0.044830803,
+    "completion_time": 0.21438074,
+    "total_time": 0.259211543
+   },
+   "latency_s": 1.17,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:04:15Z"
+  },
+  "P02-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R2\",\"text\":\"Class 3 driving licence issued by Traffic Police (2020).\"}],\"gaps\":[\"R1\",\"R3\",\"R4\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 136,
+    "prompt_tokens": 754,
+    "total_tokens": 890,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 83,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.297719712,
+    "prompt_time": 0.118393234,
+    "completion_time": 0.154591317,
+    "total_time": 0.272984551
+   },
+   "latency_s": 0.66,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:04:39Z"
+  },
+  "P02-B": {
+   "content": "{\"suggestions\":[],\"gaps\":[\"R1\",\"R2\",\"R3\",\"R4\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 86,
+    "prompt_tokens": 725,
+    "total_tokens": 811,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 53,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.305984146,
+    "prompt_time": 0.046881301,
+    "completion_time": 0.092746649,
+    "total_time": 0.13962795
+   },
+   "latency_s": 0.53,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:04:39Z"
+  },
+  "P03-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Maintained and updated a shared Excel dispatch log for daily delivery trips, ensuring accurate and current records for the team.\"},{\"requirement\":\"R2\",\"text\":\"Coordinated communication with drivers and customers via WhatsApp and phone, demonstrating clear and timely interaction with stakeholders.\"},{\"requirement\":\"R5\",\"text\":\"Consistently liaised with drivers and customers, showcasing strong verbal communication skills and the ability to convey information clearly.\"}],\"gaps\":[\"R3\"]}",
+   "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 758,
+    "total_tokens": 893,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 18,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.156365804,
+    "prompt_time": 0.052138814,
+    "completion_time": 0.15493412,
+    "total_time": 0.207072934
+   },
+   "latency_s": 0.46,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:04:41Z"
+  },
+  "P03-B": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Managed appointment diary and maintained patient records, ensuring all information was accurately filed and readily retrievable.\"},{\"requirement\":\"R2\",\"text\":\"Answered front‑desk phone calls and greeted patients, providing courteous assistance and directing visitors as needed.\"},{\"requirement\":\"R4\",\"text\":\"Worked part‑time, 3 days a week, consistently meeting the required availability for weekdays.\"},{\"requirement\":\"R5\",\"text\":\"Communicated effectively with patients and colleagues, demonstrating clear and professional interaction skills.\"}],\"gaps\":[\"R3\"]}",
+   "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 729,
+    "total_tokens": 883,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 24,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.496785963,
+    "prompt_time": 0.042052601,
+    "completion_time": 0.170487409,
+    "total_time": 0.21254001
+   },
+   "latency_s": 0.8,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:05:15Z"
+  },
+  "P04-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Over 2 years of warehouse and inventory operations experience, including receiving, put-away, order picking, and weekly stock counts for a cold room of 400 pallets.\"},{\"requirement\":\"R2\",\"text\":\"Proficient in Excel, with experience maintaining and updating shared Excel dispatch logs and performing basic sorting, filtering, and calculations.\"},{\"requirement\":\"R4\",\"text\":\"Class 3 driving licence, enabling coordination with drivers and support for day‑shift logistics operations.\"},{\"requirement\":\"R5\",\"text\":\"Consistently maintained accurate inventory records and reduced errors through weekly stock counts and adherence to cold room safety rules.\"},{\"requirement\":\"R6\",\"text\":\"Coordinated with drivers and customers via WhatsApp and shared Excel sheets to manage delivery schedules and resolve delays.\"}],\"gaps\":[\"R3\"]}",
+   "usage": {
+    "completion_tokens": 214,
+    "prompt_tokens": 756,
+    "total_tokens": 970,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 26,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.305378155,
+    "prompt_time": 0.048648091,
+    "completion_time": 0.23809022,
+    "total_time": 0.286738311
+   },
+   "latency_s": 0.69,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:05:39Z"
+  },
+  "P04-B": {
+   "content": "{\"suggestions\":[],\"gaps\":[\"R1\",\"R2\",\"R3\",\"R4\",\"R5\",\"R6\"]}",
+   "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 727,
+    "total_tokens": 795,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 32,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.154666188,
+    "prompt_time": 0.042467476,
+    "completion_time": 0.076859025,
+    "total_time": 0.119326501
+   },
+   "latency_s": 0.37,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:05:39Z"
+  },
+  "P05-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Demonstrated customer-facing experience as a Dispatch Coordinator, liaising with drivers and customers to resolve delivery delays and provide timely updates.\"},{\"requirement\":\"R2\",\"text\":\"Managed communication with customers via WhatsApp and maintained an up-to-date dispatch log, showcasing ability to handle enquiries through digital channels.\"},{\"requirement\":\"R4\",\"text\":\"Fluent in English and conversational in Mandarin, enabling effective communication with a diverse customer base.\"},{\"requirement\":\"R5\",\"text\":\"While the current roles did not involve cash handling, the candidate has experience coordinating daily delivery operations and maintaining accurate logs, indicating strong attention to detail and reliability.\"}],\"gaps\":[\"R3\"]}",
+   "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 760,
+    "total_tokens": 939,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 21,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.245724109,
+    "prompt_time": 0.060132088,
+    "completion_time": 0.215015762,
+    "total_time": 0.27514785
+   },
+   "latency_s": 0.6,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:05:42Z"
+  },
+  "P05-B": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Demonstrated 1.5 years of customer-facing experience as a Retail Sales Assistant at Orchard Row Stationers, handling customer inquiries, operating the POS, and providing service to a diverse clientele.\"},{\"requirement\":\"R2\",\"text\":\"Handled daily phone calls and appointment bookings at Bukit Lane Dental Clinic, showcasing proficiency in managing customer enquiries via phone and scheduling systems.\"},{\"requirement\":\"R4\",\"text\":\"Fluent in English and Tamil, with basic Mandarin proficiency, enabling effective communication with a broad customer base.\"},{\"requirement\":\"R5\",\"text\":\"Balanced the till at the end of each shift as a Retail Sales Assistant, ensuring accurate cash handling and transaction reconciliation.\"}],\"gaps\":[\"R3\"]}",
+   "usage": {
+    "completion_tokens": 192,
+    "prompt_tokens": 731,
+    "total_tokens": 923,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 25,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.315017399,
+    "prompt_time": 0.035884897,
+    "completion_time": 0.249416476,
+    "total_time": 0.285301373
+   },
+   "latency_s": 0.72,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:06:15Z"
+  },
+  "P06-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Diploma in Logistics from ITE College West (2019-2021).\"},{\"requirement\":\"R2\",\"text\":\"Planned and monitored daily dispatch routes for 8 vans, coordinating schedules and tracking trips.\"},{\"requirement\":\"R4\",\"text\":\"Analyzed delivery data in Excel to identify and report delays, maintaining an up-to-date dispatch log.\"},{\"requirement\":\"R5\",\"text\":\"Coordinated with warehouse staff and drivers via WhatsApp and in-person meetings to resolve delivery issues.\"}],\"gaps\":[\"R3\"]}",
+   "usage": {
+    "completion_tokens": 178,
+    "prompt_tokens": 777,
+    "total_tokens": 955,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 46,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.52733183,
+    "prompt_time": 0.068973724,
+    "completion_time": 0.25337155,
+    "total_time": 0.322345274
+   },
+   "latency_s": 0.97,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:06:39Z"
+  },
+  "P06-B": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Diploma in Business Administration from Eastside Polytechnic (2017-2020), providing a solid foundation in business principles relevant to supply chain and logistics operations.\"}],\"gaps\":[\"R2\",\"R3\",\"R4\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 171,
+    "prompt_tokens": 748,
+    "total_tokens": 919,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 100,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.052467162,
+    "prompt_time": 0.044400225,
+    "completion_time": 0.218467632,
+    "total_time": 0.262867857
+   },
+   "latency_s": 0.41,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:06:40Z"
+  },
+  "P07-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Experience in coordinating daily delivery trips and maintaining detailed dispatch logs, demonstrating strong organizational and record‑keeping skills applicable to accounts payable and receivable processes.\"},{\"requirement\":\"R2\",\"text\":\"Proficient in using Excel for scheduling and tracking, which can be extended to managing invoicing and financial records in accounting software such as Xero or QuickBooks.\"},{\"requirement\":\"R4\",\"text\":\"Managed communication with drivers and customers via WhatsApp and maintained shared Excel logs, showcasing ability to handle filing, correspondence, and scheduling for a small team.\"}],\"gaps\":[\"R3\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 172,
+    "prompt_tokens": 740,
+    "total_tokens": 912,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 28,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.504374373,
+    "prompt_time": 0.043668375,
+    "completion_time": 0.224111173,
+    "total_time": 0.267779548
+   },
+   "latency_s": 0.86,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:06:42Z"
+  },
+  "P07-B": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R4\",\"text\":\"Managed appointment diary and front‑desk operations, including filing patient records and scheduling appointments for a small team of clinicians.\"},{\"requirement\":\"R5\",\"text\":\"Diploma in Business Administration from Eastside Polytechnic, covering core business principles and office management.\"}],\"gaps\":[\"R1\",\"R2\",\"R3\"]}",
+   "usage": {
+    "completion_tokens": 149,
+    "prompt_tokens": 711,
+    "total_tokens": 860,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 62,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.367608463,
+    "prompt_time": 0.042229923,
+    "completion_time": 0.196259757,
+    "total_time": 0.23848968
+   },
+   "latency_s": 0.72,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:07:16Z"
+  },
+  "P08-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"4 years of experience in logistics and warehouse operations, including daily coordination of delivery trips and inventory management.\"},{\"requirement\":\"R2\",\"text\":\"Coordinated a team of 8 delivery drivers, scheduling daily routes and ensuring timely communication with team members.\"},{\"requirement\":\"R4\",\"text\":\"Familiar with cold room safety rules and workplace safety briefings, demonstrating knowledge of food hygiene practices.\"},{\"requirement\":\"R5\",\"text\":\"Handled customer communications regarding delivery delays, maintaining calm and professional interaction.\"}],\"gaps\":[\"R3\"]}",
+   "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 743,
+    "total_tokens": 896,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 20,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cached_tokens": 512
+    },
+    "queue_time": 0.157843732,
+    "prompt_time": 0.017912677,
+    "completion_time": 0.16817842,
+    "total_time": 0.186091097
+   },
+   "latency_s": 0.45,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:07:39Z"
+  },
+  "P08-B": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Retail Sales Assistant at Orchard Row Stationers (Dec 2020 – Jul 2022), 1.5 years of full‑time retail experience handling customer service, POS operations, and inventory restocking.\"},{\"requirement\":\"R2\",\"text\":\"Co‑trained two new part‑time staff on POS usage and sales procedures during tenure at Orchard Row Stationers, demonstrating ability to lead and mentor a small team.\"},{\"requirement\":\"R5\",\"text\":\"Managed front‑desk interactions and patient records at Bukit Lane Dental Clinic, consistently greeting and addressing inquiries with professionalism and calmness.\"}],\"gaps\":[\"R3\",\"R4\"]}",
+   "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 714,
+    "total_tokens": 891,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 24,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.318412986,
+    "prompt_time": 0.045518741,
+    "completion_time": 0.206182802,
+    "total_time": 0.251701543
+   },
+   "latency_s": 0.67,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:07:40Z"
+  },
+  "P09-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Coordinated daily delivery trips for 8 vans, ensuring efficient route planning and timely execution, demonstrating strong organizational and logistical planning skills applicable to event scheduling and execution.\"},{\"requirement\":\"R2\",\"text\":\"Utilized WhatsApp and Excel for real-time communication and coordination, showcasing adaptability to digital tools and potential to learn Canva for social media post design.\"},{\"requirement\":\"R4\",\"text\":\"Fluent in English with proven experience liaising with drivers and customers, ensuring clear and effective verbal communication.\"}],\"gaps\":[\"R3\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 200,
+    "prompt_tokens": 769,
+    "total_tokens": 969,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 65,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.155247575,
+    "prompt_time": 0.039225833,
+    "completion_time": 0.269181532,
+    "total_time": 0.308407365
+   },
+   "latency_s": 0.55,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:07:42Z"
+  },
+  "P09-B": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Managed appointment scheduling and patient records for a dental clinic, demonstrating experience in handling budgets and operational tasks for a healthcare setting.\"},{\"requirement\":\"R2\",\"text\":\"Proficient in creating and editing documents in MS Word, which can be leveraged to design social media posts and marketing materials.\"},{\"requirement\":\"R4\",\"text\":\"Fluent in English, with daily communication experience at a dental clinic and retail environment.\"}],\"gaps\":[\"R3\",\"R5\"]}",
+   "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 740,
+    "total_tokens": 903,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 45,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.048275802,
+    "prompt_time": 0.043019975,
+    "completion_time": 0.178538486,
+    "total_time": 0.221558461
+   },
+   "latency_s": 0.35,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:08:15Z"
+  },
+  "P10-A": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Handled chilled and frozen goods at Kallang Cold Stores, receiving and putting away items in a cold room environment.\"},{\"requirement\":\"R2\",\"text\":\"Performed weekly stock counts for a cold room of about 400 pallets.\"},{\"requirement\":\"R4\",\"text\":\"Picked orders using a handheld scanner at Kallang Cold Stores.\"},{\"requirement\":\"R5\",\"text\":\"Followed cold room safety rules and attended monthly workplace safety briefings.\"}],\"gaps\":[\"R3\"]}",
+   "usage": {
+    "completion_tokens": 127,
+    "prompt_tokens": 732,
+    "total_tokens": 859,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 5,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.048692824,
+    "prompt_time": 0.050609183,
+    "completion_time": 0.129521993,
+    "total_time": 0.180131176
+   },
+   "latency_s": 0.32,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:08:39Z"
+  },
+  "P10-B": {
+   "content": "{\"suggestions\":[{\"requirement\":\"R1\",\"text\":\"Handled appointment scheduling and patient record filing in a clinical setting, demonstrating experience with regulated, temperature-sensitive environments.\"},{\"requirement\":\"R2\",\"text\":\"Managed daily appointment diary and performed regular checks of patient records, reflecting routine inventory and stock count responsibilities.\"},{\"requirement\":\"R4\",\"text\":\"Utilized MS Word and basic Excel for scheduling and record-keeping, indicating familiarity with handheld data entry tools.\"},{\"requirement\":\"R5\",\"text\":\"Followed clinic protocols and safety guidelines while handling patient information and operating front-desk equipment.\"}],\"gaps\":[\"R3\"]}",
+   "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 703,
+    "total_tokens": 846,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 4,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": null,
+    "queue_time": 0.047612543,
+    "prompt_time": 0.043791484,
+    "completion_time": 0.173311567,
+    "total_time": 0.217103051
+   },
+   "latency_s": 0.36,
+   "finish_reason": "stop",
+   "created_utc": "2026-11-11T03:08:40Z"
+  }
+ }
+}
